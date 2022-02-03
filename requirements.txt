@@ -1,0 +1,5 @@
+myst-parser>=0.14.0
+Sphinx>=3.5.4
+sphinx-intl>=2.0.1
+sphinx-rtd-theme>=0.5.2
+git+https://github.com/vircadia/video.git
