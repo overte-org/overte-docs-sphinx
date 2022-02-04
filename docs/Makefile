@@ -13,11 +13,6 @@ help:
 
 .PHONY: help Makefile
 
-# Catch HTML to create a symlink from index.html to home.html
-html:
-	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
-	ln -s "home.html" "$(BUILDDIR)/html/index.html"
-
 # Catch-all target: route all unknown targets to Sphinx using the new
 # "make mode" option.  $(O) is meant as a shortcut for $(SPHINXOPTS).
 %: Makefile
