@@ -2,7 +2,7 @@
 Gallery
 #######
 
-This gallery showcases the Vircadia Interface and some past events and locations attended with it.
+This gallery showcases the Overte/Vircadia Interface and some past events and locations attended with it.
 
 
 .. figure:: _images/gallery/el_papa_viejo.jpg

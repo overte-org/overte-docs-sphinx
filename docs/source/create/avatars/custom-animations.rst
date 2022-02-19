@@ -6,7 +6,7 @@
 Customize Avatar Animations
 ###########################
 
-You can express yourself by overriding Vircadia's standard set of animations with your own custom animations such as dancing, juggling, or waving. Any custom animations you set up will be independent to each avatar you own and wear.
+You can express yourself by overriding Overte's standard set of animations with your own custom animations such as dancing, juggling, or waving. Any custom animations you set up will be independent to each avatar you own and wear.
 
 .. note:: We often update our process for importing custom animations to make it more user friendly. As you develop custom animations, keep in mind that you may need to modify them in the future as our custom animation support continues to improve.
 
@@ -23,7 +23,7 @@ As we delve deeper into creating custom animations, we may use terminology that 
 | Term                     | Description                                                                                      |
 +==========================+==================================================================================================+
 | Avatar animations        | Avatar animations are FBX files that define how your avatar moves. For example, `turn_left.fbx <h|
-|                          | ttps://github.com/vircadia/vircadia/blob/master/interface/resources/avatar/animations/turn_left.f|
+|                          | ttps://github.com/overte-org/overte/blob/master/interface/resources/avatar/animations/turn_left.f|
 |                          | bx>`_ is the standard animation file for your avatar turning left.                               |
 +--------------------------+--------------------------------------------------------------------------------------------------+
 | Animation roles          | Animation roles are triggers that map to an action that an avatar can perform.                   |
@@ -37,8 +37,8 @@ As we delve deeper into creating custom animations, we may use terminology that 
 |                          | and it specifies exactly which animations to play and how they are blended.                      |
 |                          | It also determines the order of operations, so that operations like Inverse Kinematics           |
 |                          | occur after the rest of the body has been animated by traditional means.                         |
-|                          | By default, every avatar uses the same `Animation Graph file <https://github.com/vircadia/vircadi|
-|                          | a/blob/master/interface/resources/avatar/avatar-animation.json>`_.                               |
+|                          | By default, every avatar uses the same `Animation Graph file <https://github.com/overte-org/overt|
+|                          | e/blob/master/interface/resources/avatar/avatar-animation.json>`_.                               |
 +--------------------------+--------------------------------------------------------------------------------------------------+
 
 ----------------------------------
@@ -47,7 +47,7 @@ Prepare Your Custom Animation
 
 Before you replace the existing standard animations, you need to prepare your custom animation file. Use our :doc:`Avatar Standards Guide <avatar-standards>` and keep the following guidelines in mind:
 
-- Animations must have standard joint names for Vircadia.
+- Animations must have standard joint names for Overte.
 - Animations must have standard joint orientations (y down the bone).
 - Key frames must have key frames for every joint at a uniform interval of 30 frames per second.
 - Locomotion animation phase has the left ankle in passing position on the first frame. Try to match this phase if you want your locomotion animation to blend with the default set.
@@ -71,7 +71,7 @@ You can have your avatar use your custom animations by overriding the default an
 Override Using a Script
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You can `write a script <../../script/write-scripts.html>`_ and use the `MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_ namespace to override an existing animation or animation role. 
+You can `write a script <../../script/write-scripts.html>`_ and use the `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_ namespace to override an existing animation or animation role. 
 
 We've listed the methods you can use to replace the standard animations on your avatar. 
 
@@ -79,17 +79,17 @@ We've listed the methods you can use to replace the standard animations on your 
 | Method                              | Description                                                                     |
 +=====================================+=================================================================================+
 | `MyAvatar.overrideAnimation         | This method can be used to play any animation on the current avatar. It will    |
-| <https://apidocs.vircadia.dev/      | move smoothly from the current pose to the starting frame of the custom         |
+| <https://apidocs.overte.org/        | move smoothly from the current pose to the starting frame of the custom         |
 | MyAvatar.html#.overrideAnimation>`_ | animation. For example, if your avatar is waving, this script will stop your    |
 |                                     | avatar waving and play the custom animation provided.                           |
 +-------------------------------------+---------------------------------------------------------------------------------+
 | `AnimationCache.prefetch            | This method fetches a resource. You can use this to fetch a custom animation    |
-| <https://apidocs.vircadia.dev/      | you've hosted on a cloud server. If you do not prefetch your animations before  |
+| <https://apidocs.overte.org/        | you've hosted on a cloud server. If you do not prefetch your animations before  |
 | AnimationCache.html#.prefetch>`_    | playing them, you might see a t-pose appear briefly as the animation is         |
 |                                     | downloaded.                                                                     |
 +-------------------------------------+---------------------------------------------------------------------------------+
 | `MyAvatar.restoreAnimation          | This method stops the override function from playing any custom animation.      |
-| <https://apidocs.vircadia.dev/      | Your avatar will go back to playing the standard animations.                    |
+| <https://apidocs.overte.org/        | Your avatar will go back to playing the standard animations.                    |
 | MyAvatar.html#.restoreAnimation>`_  |                                                                                 |
 +-------------------------------------+---------------------------------------------------------------------------------+
 
@@ -97,10 +97,10 @@ We've listed the methods you can use to replace the standard animations on your 
 
 You can also override an existing animation role mapping:
 
-1. Use `MyAvatar.getAnimationRoles <https://apidocs.vircadia.dev/MyAvatar.html#.getAnimationRoles>`_ to view the list of roles for the current avatar. 
-2. You can replace the animation for each role with a custom animation (FBX file) using `MyAvatar.overrideRoleAnimation <https://apidocs.vircadia.dev/MyAvatar.html#.overrideRoleAnimation>`_.
+1. Use `MyAvatar.getAnimationRoles <https://apidocs.overte.org/MyAvatar.html#.getAnimationRoles>`_ to view the list of roles for the current avatar. 
+2. You can replace the animation for each role with a custom animation (FBX file) using `MyAvatar.overrideRoleAnimation <https://apidocs.overte.org/MyAvatar.html#.overrideRoleAnimation>`_.
 
-We've listed the animation roles and their description. These are frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles before continuing. The standard animation FBX files for these roles can be found in the Vircadia source code repository on `GitHub <https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/animations>`_.
+We've listed the animation roles and their description. These are frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` to get the latest animation roles before continuing. The standard animation FBX files for these roles can be found in the Overte source code repository on `GitHub <https://github.com/overte-org/vircadia/tree/master/interface/resources/avatar/animations>`_.
 
 +-------------------------------------------+----------------------------------------------------------------------+
 | Animation Roles                           | Description                                                          |
@@ -231,7 +231,7 @@ OR
 Examples
 ^^^^^^^^
 
-+ Here is the current default `avatar-animation.json <https://github.com/vircadia/vircadia/blob/master/interface/resources/avatar/avatar-animation.json>`_ file.
++ Here is the current default `avatar-animation.json <https://github.com/overte-org/overte/blob/master/interface/resources/avatar/avatar-animation.json>`_ file.
 + This `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/scoot-animation.json>`_ file replaces the idle and walk animations with a sitting pose. This example shows how you can replace some of an avatar's default animations.
 
 
@@ -270,4 +270,4 @@ The AnimNode system works on a similar concept. Except the value of each node co
 
 + :doc:`Avatar Standards Guide <avatar-standards>`
 + :doc:`Script <../../script>`
-+ `API Reference: MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_
++ `API Reference: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_

@@ -24,7 +24,7 @@ Consider getting familiar with the following concepts before starting this tutor
 Write a Script to Open a Web Page
 ---------------------------------
 
-The script used here opens a web page on the Tablet or the external web browser when a user clicks or triggers an entity. In this example, we've written a client entity script that opens the Vircadia documentation when an entity/item is triggered. The script looks for the URL in the 'User data' property of the entity.
+The script used here opens a web page on the Tablet or the external web browser when a user clicks or triggers an entity. In this example, we've written a client entity script that opens the Overte documentation when an entity/item is triggered. The script looks for the URL in the 'User data' property of the entity.
 
 You can get the script `here <https://vircadia-content-public.s3.amazonaws.com/Bazaar/Scripts/clickToOpenBrowser.js>`_.
 
@@ -46,7 +46,7 @@ The entity you create for your button has to be `triggerable <entity-behavior.ht
   {
     "useConfirmDialog": true,
     "confirmDialogMessage": "Are you sure you want to open this link?",
-    "url": "https://docs.vircadia.com/",
+    "url": "https://docs.overte.org/",
     // options are "interface" and "browser"
     // "interface" opens an overlay, "browser" opens the OS' external browser.
     "openIn": "interface",

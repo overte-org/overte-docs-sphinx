@@ -29,7 +29,7 @@ Choose from the following automatic networking options:
 
 * **None**: The network address and port displayed will be used to connect your domain. They are never automatically updated, and your domain must be reachable at the address and port you set.
 * **IP Only**: Your domain will update the network address displayed to whatever it detects as your current IP address. The port displayed will not be automatically changed, so your domain must be reachable on the specified port. This option is recommended for a local server running on a home network with a dynamically changing public IP address.
-* **Full**: Your domain will provide the networking information to Vircadia's servers, so that new clients can connect to it via UDP hole punch without needing to make any changes to NAT or firewall settings. This may not work for all networks.
+* **Full**: Your domain will provide the networking information to Overte's servers, so that new clients can connect to it via UDP hole punch without needing to make any changes to NAT or firewall settings. This may not work for all networks.
 
 Depending on the automatic networking method you choose, define the network address and/or port in the fields provided. 
 
@@ -41,7 +41,7 @@ Depending on the automatic networking method you choose, define the network addr
 Networking Details (Advanced)
 --------------------------------
 
-A Vircadia domain reserves a range of four ports to operate on, usually starting at `40100`. (Note that the encrypted ports may not be implemented yet.) These ports are:
+A Overte domain reserves a range of four ports to operate on, usually starting at `40100`. (Note that the encrypted ports may not be implemented yet.) These ports are:
 
 - 40100 (+0): (tcp) administrative http connection
 - 40101 (+1): (tcp) administrative https (encrypted) connection
@@ -75,6 +75,6 @@ If you don't want your domain to be registered in the metaverse, leave the Domai
 Enable Packet Verification
 ---------------------------------
 
-When 'Enable Packet Verification' is turned on, Vircadia sends secure checksums on communications that use the Vircadia protocols. This increases security in your domain, but may slightly decrease domain performance for your visitors.
+When 'Enable Packet Verification' is turned on, Overte sends secure checksums on communications that use the Overte protocols. This increases security in your domain, but may slightly decrease domain performance for your visitors.
 
 .. image:: ../_images/packet-verification.png

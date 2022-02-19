@@ -20,8 +20,8 @@ To assign user permissions:
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
+    * For local servers on Windows: Click on the Overte icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Overte icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. Scroll to 'Domain-Wide User Permissions'.
 3. First, set any permissions for the `standard user groups`_. Check the box of all permissions you'd like to grant.
@@ -45,7 +45,7 @@ Your domain comes with four basic security groups that are already set up, based
 +-----------+--------------------------------------------------------------------------------------------+
 | User Type | Description                                                                                |
 +===========+============================================================================================+
-| anonymous | A person who is not logged in and is using an instance of Vircadia's Interface.            |
+| anonymous | A person who is not logged in and is using an instance of Overte's Interface.              |
 |           | This is the default user type for someone who has downloaded Interface for the first       |
 |           | time.                                                                                      |
 +-----------+--------------------------------------------------------------------------------------------+
@@ -58,7 +58,7 @@ Your domain comes with four basic security groups that are already set up, based
 |           | Localhost users do not need to be logged in and have permissions that override             |
 |           | non-user-specific permissions.                                                             |
 +-----------+--------------------------------------------------------------------------------------------+
-| logged-in | A user that is logged into their Vircadia account while using Interface. They              |
+| logged-in | A user that is logged into their Overte account while using Interface. They                |
 |           | do not need to be a Friend or a Connection to have server rights. Permissions that         |
 |           | are granted to a specific user override all other permissions.                             |
 +-----------+--------------------------------------------------------------------------------------------+
@@ -114,6 +114,6 @@ The actions that you can secure for each type of user are as follows:
 | User Data               | of entities in the domain. Private user data is a property of entities that  |
 |                         | can only be set and retrieved through scripting via the ``privateUserData``  |
 |                         | property of the `EntityProperties                                            |
-|                         | <https://apidocs.vircadia.dev/Entities.html#.EntityProperties>`_ type        |
+|                         | <https://apidocs.overte.org/Entities.html#.EntityProperties>`_ type          |
 |                         | definition.                                                                  |
 +-------------------------+------------------------------------------------------------------------------+

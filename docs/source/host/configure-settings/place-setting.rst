@@ -15,9 +15,9 @@ Get a Place Name
 
 Once acquired, a place name can be transferred freely between any of your domains.
 
-1. Go to https://dashboard.vircadia.com/places to get a place name. If you're not logged in, you will be prompted to do so.
+1. Go to https://overte.org/dashboard/places to get a place name. If you're not logged in, you will be prompted to do so.
 2. Click 'Create Place'.
-3. Type in your new Place Name. You can use any place name that has not already been taken; however, please note that Vircadia reserves the right to reject any registration we deem obscene, offensive, or a copyright violation.
+3. Type in your new Place Name. You can use any place name that has not already been taken; however, please note that Overte reserves the right to reject any registration we deem obscene, offensive, or a copyright violation.
 4. Click 'Create'.
 
 -----------------------------
@@ -33,8 +33,8 @@ This sets up your place name directly from your domain settings.
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
+    * For local servers on Windows: Click on the Overte icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Overte icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. Scroll to 'Places'.
 3. In the grid, click the ``+`` icon to add a place name to this domain.
@@ -46,9 +46,9 @@ This sets up your place name directly from your domain settings.
 
 **Method 2 - Use 'My Places'**
 
-This sets up your place name from your Vircadia account. Before moving forward, make sure you have the `domain ID <network-settings.html#domain-id>`_ of your domain. You will need this to point your place name to your domain. 
+This sets up your place name from your Overte account. Before moving forward, make sure you have the `domain ID <network-settings.html#domain-id>`_ of your domain. You will need this to point your place name to your domain. 
 
-1. Go to https://dashboard.vircadia.com/places. If you're not logged in, you will be prompted to do so.
+1. Go to https://overte.org/dashboard/places. If you're not logged in, you will be prompted to do so.
 2. Click the 'Edit' icon next to the place name you want to configure.
 3. For 'Points to', enter the domain ID of your domain.
 4. For 'Path', enter the coordinates where your visitors will spawn.

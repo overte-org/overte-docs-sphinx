@@ -1,6 +1,6 @@
 # Tutorial: Display a YouTube Channel
 
-In this tutorial, you will learn how web entities work by creating one displaying a YouTube channel. You can watch videos in Vircadia using this web entity. 
+In this tutorial, you will learn how web entities work by creating one displaying a YouTube channel. You can watch videos in Overte using this web entity. 
 
 **On This Page:**
 
@@ -22,7 +22,7 @@ A web entity is a flat object on which you can view any website of your choosing
 To create a web entity:
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
-2. Click the 'Web' icon to create a web entity. By default, a web entity always displays Vircadia's home page.
+2. Click the 'Web' icon to create a web entity. By default, a web entity always displays Overte's home page.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>

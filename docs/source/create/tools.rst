@@ -6,7 +6,7 @@
 Create Tools
 ######################
 
-To build and create things in Vircadia, you need to become familiar with the tools available to you. We've created our own custom tools (including the Create app). In addition, you can use many external tools to fine-tune your creations. These tools can help you create anything from a cool avatar or a baseball hat, to a magic themed domain.
+To build and create things in Overte, you need to become familiar with the tools available to you. We've created our own custom tools (including the Create app). In addition, you can use many external tools to fine-tune your creations. These tools can help you create anything from a cool avatar or a baseball hat, to a magic themed domain.
 
 .. contents:: On This Page
     :depth: 2
@@ -54,13 +54,13 @@ Mixamo
 Blender
 ^^^^^^^^^^^^^^^^^
 
-`Blender <https://www.blender.org>`_ is an open-source 3D modeling creation suite which supports everything from modeling and rigging, to animation and simulation. You can also use Blender to fine tune your avatar, and ensure that the materials and textures render correctly in Vircadia.
+`Blender <https://www.blender.org>`_ is an open-source 3D modeling creation suite which supports everything from modeling and rigging, to animation and simulation. You can also use Blender to fine tune your avatar, and ensure that the materials and textures render correctly in Overte.
 
 ^^^^^^^^^^^^^^^^^
 Maya
 ^^^^^^^^^^^^^^^^^
 
-`Maya <https://www.autodesk.in/products/maya/overview>`_ is a subscription based 3D modeling toolset that you can use to create 3D models to import into Vircadia.
+`Maya <https://www.autodesk.in/products/maya/overview>`_ is a subscription based 3D modeling toolset that you can use to create 3D models to import into Overte.
 
 ^^^^^^^^^^^^^^^^^
 Blocks

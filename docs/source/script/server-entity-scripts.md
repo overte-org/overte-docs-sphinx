@@ -1,6 +1,6 @@
 # Server Entity Scripts
 
-You can make content in Vircadia interactive by attaching scripts to entities. *Server entity scripts* are entity scripts that run on the server (or domain) that hosts the entity. These scripts run persistently in a domain, even if there are no users present. This means that there is only one instance of the script is running at a time, and it is running on the server. Any behavior that is controlled by your script will be seen and heard by everyone in the domain.
+You can make content in Overte interactive by attaching scripts to entities. *Server entity scripts* are entity scripts that run on the server (or domain) that hosts the entity. These scripts run persistently in a domain, even if there are no users present. This means that there is only one instance of the script is running at a time, and it is running on the server. Any behavior that is controlled by your script will be seen and heard by everyone in the domain.
 
 **On This Page**
 * [Attach a Server Entity Script to an Entity](#attach-a-server-entity-script-to-an-entity)
@@ -52,10 +52,10 @@ This script is a good example of a server entity script because it only needs on
 
 The Entity Script Server does not have access to all of the listed components of the API. APIs for avatars, controllers, recording, overlays, and mouse and keyboard events are not available in the Entity Script Server.
 
-Learn more about what APIs are available to server entity scripts [here](https://apidocs.vircadia.dev/Entities.html).
+Learn more about what APIs are available to server entity scripts [here](https://apidocs.overte.org/Entities.html).
 
 **See Also**
 
 - [Get Started with Scripting](get-started-with-scripting)
 - [Write Your Own Scripts](write-scripts)
-- [API Reference](https://apidocs.vircadia.dev)
+- [API Reference](https://apidocs.overte.org)

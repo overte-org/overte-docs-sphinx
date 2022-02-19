@@ -2,7 +2,7 @@
 Get Started with Scripting
 ##########################
 
-Many of the scripts in Vircadia run behind the scenes, so that you don't even know they're running. However, if you want to create some advanced behavior, you may need to :doc:`write your own scripts <write-scripts>` to make sure everything works correctly. 
+Many of the scripts in Overte run behind the scenes, so that you don't even know they're running. However, if you want to create some advanced behavior, you may need to :doc:`write your own scripts <write-scripts>` to make sure everything works correctly. 
 
 This page ensures that you know what type of script to use and helps you get started running your own simple scripts.
 
@@ -10,34 +10,34 @@ This page ensures that you know what type of script to use and helps you get sta
     :depth: 2
 
 -----------------------------
-JavaScript Basics in Vircadia
+JavaScript Basics in Overte
 -----------------------------
 
-Vircadia scripting runs on a JavaScript engine that is provided with Qt. 
+Overte scripting runs on a JavaScript engine that is provided with Qt. 
 
-.. note:: Note that any functionality that runs around web pages (such as cookies, local storages, or databases) does not work with 3D environments such as Vircadia. For this reason, you cannot use JavaScript frameworks such as Angular, React, Express, jQuery, Vue, etc.
+.. note:: Note that any functionality that runs around web pages (such as cookies, local storages, or databases) does not work with 3D environments such as Overte. For this reason, you cannot use JavaScript frameworks such as Angular, React, Express, jQuery, Vue, etc.
 
-You are likely to interface most with these Vircadia APIs:  
+You are likely to interface most with these Overte APIs:  
 
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
 | API(s)                                                                  | Description                                                      |
 +=========================================================================+==================================================================+
-| `Entities <https://apidocs.vircadia.dev/Entities.html>`_                | Lets you manipulate the entities around you, as long             |
+| `Entities <https://apidocs.overte.org/Entities.html>`_                  | Lets you manipulate the entities around you, as long             |
 |                                                                         | as you have permissions to do so. This means you can             |
 |                                                                         | add, remove, and edit entities. Everyone has access              |
 |                                                                         | to ``get`` properties of an entity, and can be used              |
 |                                                                         | to find Entities in range, direction, collision, or              |
 |                                                                         | raytrace.                                                        |
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
-| `AvatarList <https://apidocs.vircadia.dev/AvatarList.html>`_            | Lets you get information on an `Avatar                           |
-|                                                                         | <https://apidocs.vircadia.dev/Avatar.html>`_,                    |
-| `AvatarManager <https://apidocs.vircadia.dev/AvatarManager.html>`_      | or manipulate your own client-only `MyAvatar                     |
-|                                                                         | <https://apidocs.vircadia.dev/MyAvatar.html>`_. The              |
-| `MyAvatar <https://apidocs.vircadia.dev/MyAvatar.html>`_                | information here will be always the avatar information           |
+| `AvatarList <https://apidocs.overte.org/AvatarList.html>`_              | Lets you get information on an `Avatar                           |
+|                                                                         | <https://apidocs.overte.org/Avatar.html>`_,                      |
+| `AvatarManager <https://apidocs.overte.org/AvatarManager.html>`_        | or manipulate your own client-only `MyAvatar                     |
+|                                                                         | <https://apidocs.overte.org/MyAvatar.html>`_. The                |
+| `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_                  | information here will be always the avatar information           |
 |                                                                         | of the client running the script. AvatarList and                 |
 |                                                                         | AvatarManager are basically the same.                            |
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
-| `Script <https://apidocs.vircadia.dev/Script.html>`_                    | Lets you to connect callbacks from your client to script,        |
+| `Script <https://apidocs.overte.org/Script.html>`_                      | Lets you to connect callbacks from your client to script,        |
 |                                                                         | such as functionality that is dependent on time                  |
 |                                                                         | (Script.update, Script.setTime, Script.setInterval etc),         |
 |                                                                         | connect paths relatively to Assets (Script.relativePath),        |
@@ -46,7 +46,7 @@ You are likely to interface most with these Vircadia APIs:
 +-------------------------------------------------------------------------+------------------------------------------------------------------+
 
 
-There are `many other APIs available <https://apidocs.vircadia.dev>`_, and we encourage you to make sure use of them as you become more comfortable scripting in Vircadia.
+There are `many other APIs available <https://apidocs.overte.org>`_, and we encourage you to make sure use of them as you become more comfortable scripting in Overte.
 
 ----------------
 Types of Scripts
@@ -84,7 +84,7 @@ Each domain owner has the ability to :doc:`restrict create and edit permissions 
 Running Scripts Window
 ----------------------
 
-The Running Scripts window can be used to load, run and stop scripts from a URL or from a disk drive. Vircadia also provides a number of sample scripts for you to try out. 
+The Running Scripts window can be used to load, run and stop scripts from a URL or from a disk drive. Overte also provides a number of sample scripts for you to try out. 
 
 To open the *Running Scripts* window, go to **Edit > Running Scripts** or press ``Ctrl`` + ``J`` on your keyboard.
 
@@ -92,7 +92,7 @@ To open the *Running Scripts* window, go to **Edit > Running Scripts** or press 
 Sample Scripts
 --------------
 
-Vircadia comes with a collection of scripts designed to improve your experience as a user and provide tools for developing your own content. We encourage you to look at these scripts as a resource to learn how to code your own. 
+Overte comes with a collection of scripts designed to improve your experience as a user and provide tools for developing your own content. We encourage you to look at these scripts as a resource to learn how to code your own. 
 
 .. note:: Loading (or running) a script lets you test the functionality and see how it behaves. If you want to view the actual code, you will need to open the file in the text editor of your choice. In the 'Running Scripts' window, click the 'Reveal Scripts' folder and browse to the JavaScript file that you want to view. 
 
@@ -107,15 +107,15 @@ These are the scripts we have available:
 |                | advanced developers may find them useful when creating content. These scripts are  |
 |                | not "entry-level" and are not guaranteed to work or be documented.                 |
 +----------------+------------------------------------------------------------------------------------+
-| ``modules``    | These scripts create external tools that simplify scripting in Vircadia.           |
+| ``modules``    | These scripts create external tools that simplify scripting in Overte.             |
 |                | For example, the AppUI module helps you create a tablet app, while the Request     |
 |                | module processes HTTP requests.                                                    |
 +----------------+------------------------------------------------------------------------------------+
-| ``system``     | These scripts are critical to the stability and usability of Vircadia.             |
+| ``system``     | These scripts are critical to the stability and usability of Overte.               |
 |                | Making changes to these scripts is not recommended, nor is it easy, as you may     |
 |                | need 'administrative' privileges.                                                  |
 +----------------+------------------------------------------------------------------------------------+
-| ``tutorials``  | These scripts provide examples of what you can do using scripts in Vircadia.       |
+| ``tutorials``  | These scripts provide examples of what you can do using scripts in Overte.         |
 |                | Examples include: creating butterflies, making your avatar clap, and adding        |
 |                | ambient sound to your domain.                                                      |
 +----------------+------------------------------------------------------------------------------------+
@@ -159,7 +159,7 @@ You can add a script to the default scripts to run every time you start Interfac
 Scripting Console 
 -----------------
 
-The Scripting Console lets you test and run short script snippets quickly in Vircadia to see how they work. To open the console, go to the 'Developer menu', then **Scripting > Console**. If the 'Developer' menu is not visible, first go to the 'Settings' menu and click 'Developer' Menu.
+The Scripting Console lets you test and run short script snippets quickly in Overte to see how they work. To open the console, go to the 'Developer menu', then **Scripting > Console**. If the 'Developer' menu is not visible, first go to the 'Settings' menu and click 'Developer' Menu.
 
 .. image:: _images/scripting-console.png
 

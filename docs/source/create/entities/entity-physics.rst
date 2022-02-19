@@ -2,7 +2,7 @@
 Apply Physics to Entities
 #########################
 
-Your Vircadia VR experience is made realistic with the help of a `physics engine <https://pybullet.org/wordpress>`_. Vircadia uses this engine to simulate an object's behavior according to the Newtonian laws of physics. For example, if you hit a ball with a bat in Vircadia, the physics engine computes these movements and makes the ball spin away from the bat after collision. You can modify an entity's physics behavior using the Create app.
+Your Overte VR experience is made realistic with the help of a `physics engine <https://pybullet.org/wordpress>`_. Overte uses this engine to simulate an object's behavior according to the Newtonian laws of physics. For example, if you hit a ball with a bat in Overte, the physics engine computes these movements and makes the ball spin away from the bat after collision. You can modify an entity's physics behavior using the Create app.
 
 .. note:: You can select and edit multiple entities at once. The behavior will be different based on the type of property you'd like to set:
 
@@ -29,7 +29,7 @@ To apply physics properties to an entity:
 Change an Entity's Velocity
 ---------------------------
 
-Velocity is the speed of an object in a certain direction. All entities that have a position and orientation in Vircadia will have linear and angular velocity. These velocities might be zero, but they still exist.
+Velocity is the speed of an object in a certain direction. All entities that have a position and orientation in Overte will have linear and angular velocity. These velocities might be zero, but they still exist.
 
 _______________
 Linear Velocity
@@ -75,7 +75,7 @@ Set How a Moving Entity Slows Down
 
 **Default Value:** 0.00
 
-In Vircadia, damping represents how much of an entity's linear or angular velocity is lost over time. All moving objects we see in the real world experience some friction with air, reducing their velocities over time. Damping is used to approximate this effect of the real world in Vircadia. So if the damping of an object is `0.00`, it will not lose any velocity and it will not slow down. If the damping of an object is `1.00`, it will lose all its velocity and stop immediately. If you want to throw a ball and have it slow down over time, you can add a damping value to do so.
+In Overte, damping represents how much of an entity's linear or angular velocity is lost over time. All moving objects we see in the real world experience some friction with air, reducing their velocities over time. Damping is used to approximate this effect of the real world in Overte. So if the damping of an object is `0.00`, it will not lose any velocity and it will not slow down. If the damping of an object is `1.00`, it will lose all its velocity and stop immediately. If you want to throw a ball and have it slow down over time, you can add a damping value to do so.
 
 To set the linear damping of an object:
 
@@ -130,7 +130,7 @@ Set an Entity's Density
 
 An entity's density is the ratio of its mass to its volume. For example, an entity with low density is made of light materials such as wood, while an entity with high density is made of dense materials such as iron.
 
-In Vircadia, the maximum (`10000`) and minimum (`100`) values of density were chosen for stability. It's difficult to perform stable physics calculations between objects of very disparate masses (such as a light feather and an iron ball). To help keep the environment stable, we picked conservative density limits.
+In Overte, the maximum (`10000`) and minimum (`100`) values of density were chosen for stability. It's difficult to perform stable physics calculations between objects of very disparate masses (such as a light feather and an iron ball). To help keep the environment stable, we picked conservative density limits.
 
 To change this value, scroll down to the 'Density' property in the 'Properties' tab. Change it to the value of your choice.
 

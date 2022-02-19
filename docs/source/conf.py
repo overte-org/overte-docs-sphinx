@@ -19,9 +19,9 @@
 
 # -- Project information -----------------------------------------------------
 
-project = 'Vircadia Docs'
-copyright = '2019, High Fidelity. © Copyright 2021, Vircadia.'
-author = 'Vircadia Contributors'
+project = 'Overte Docs'
+copyright = '2019, High Fidelity. © Copyright 2021, Vircadia. Copyright 2022, Overte e.V.'
+author = 'Overte e.V.'
 
 # The short X.Y version
 version = ''
@@ -99,8 +99,8 @@ html_theme_options = {
     'prev_next_buttons_location': 'bottom'
 }
 
-html_title = "Vircadia Documentation"
-html_logo = '_static/images/vircadia-logo-940-candara-tm-white.png'
+html_title = "Overte Documentation"
+html_logo = '_static/images/brand-logo-940-candara-tm-white.png'
 html_favicon = '_static/images/favicon-256.ico'
 html_show_sphinx = False
 

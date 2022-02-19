@@ -5,7 +5,7 @@
 
 # Tutorial: Modify Materials and Textures Using Blender
 
-Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in Vircadia.
+Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in Overte.
 
 In this tutorial, we will walk you through simple modifications you can make to your avatar using Blender. You will need to import an FBX file for your avatar. If you don't have one, see our tutorial for [Mixamo](mixamo-tutorial).
 
@@ -22,14 +22,14 @@ In this tutorial, we will walk you through simple modifications you can make to 
     ![](_images/texture-material.png)
     <div class="admonition note">
         <p class="admonition-title">Note</p>
-        <p>To remove a metallic feel to your avatar in Vircadia, we recommend changing the default Specular Intensity for each of the main body parts from 0.500 to 0.000.</p>
+        <p>To remove a metallic feel to your avatar in Overte, we recommend changing the default Specular Intensity for each of the main body parts from 0.500 to 0.000.</p>
     </div>
 7. When you're done changing your materials and textures, go to **File > Export > FBX (.fbx)**.
 8. Change the 'Path Mode' to 'Copy', then click the 'Embed Textures' icon. This makes sure that all of the textures are embedded into your model. ![](_images/blender-export.png)
 9. Give your avatar a unique name.
 10. Click the 'Export FBX' button.
 
-Now, you are ready to bring your avatar into Vircadia.
+Now, you are ready to bring your avatar into Overte.
 
 ## Example: Update Eyelashes from an Image
 

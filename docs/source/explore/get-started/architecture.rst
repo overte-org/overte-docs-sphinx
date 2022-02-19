@@ -6,7 +6,7 @@
 Understand the Architecture
 ################################
 
-Vircadia's architecture shows how different parts of the system work together to give you the best VR experience.
+Overte's architecture shows how different parts of the system work together to give you the best VR experience.
 
 .. contents:: On This Page
     :depth: 2
@@ -15,19 +15,19 @@ Vircadia's architecture shows how different parts of the system work together to
 Architecture Overview
 ----------------------------
 
-Vircadia's architecture consists of the following components that work together and send data to each other for your VR experience.
+Overte's architecture consists of the following components that work together and send data to each other for your VR experience.
 
-+ The `Vircadia Interface`_ runs your personal experience in the metaverse. With it, you can :doc:`visit VR worlds <../travel>`, :doc:`meet people <../socialize>`, `attend live events <../socialize.html#attend-live-events>`_ and more.
++ The `Overte Interface`_ runs your personal experience in the metaverse. With it, you can :doc:`visit VR worlds <../travel>`, :doc:`meet people <../socialize>`, `attend live events <../socialize.html#attend-live-events>`_ and more.
 + The `Domain Server`_ is the server that hosts a domain. The domain server hosts the content in the domain, and manages the :doc:`domain-wide settings <../../host/configure-settings>`, such as audio spatialization, user permissions, and running scripts.
-+ The `Global Services`_ connect all of the servers together. An instance of these services are maintained by Vircadia so that you can sign in and move seamlessly between places.
++ The `Global Services`_ connect all of the servers together. An instance of these services are maintained by Overte so that you can sign in and move seamlessly between places.
 
 .. image:: _images/overview.png
 
 ---------------------------
-Vircadia Interface
+Overte Interface
 ---------------------------
 
-The Vircadia Interface (or simply 'Interface') is the main user interface for Vircadia. It is used to explore the metaverse and engage with people from around the world. When you enter a domain, your Interface connects with the `domain server`_ that is hosting the virtual world, alongside any `global services`_.
+The Overte Interface (or simply 'Interface') is the main user interface for Overte. It is used to explore the metaverse and engage with people from around the world. When you enter a domain, your Interface connects with the `domain server`_ that is hosting the virtual world, alongside any `global services`_.
 
 You can download and use the Interface on your computer or your Android phone using the `Client-Only Installer <install.html#client-only-installer>`_.
 
@@ -37,7 +37,7 @@ You can download and use the Interface on your computer or your Android phone us
 Physics Engine
 ^^^^^^^^^^^^^^^^^^^^
 
-Your VR experience won't be realistic without some physics. Vircadia includes a `physics engine <http://bulletphysics.org>`_ that simulates behaviors of objects according to the Newtonian laws of physics. When an object falls to the ground and bounces, or when two or more objects collide, their movements are computed by the physics engine.
+Your VR experience won't be realistic without some physics. Overte includes a `physics engine <http://bulletphysics.org>`_ that simulates behaviors of objects according to the Newtonian laws of physics. When an object falls to the ground and bounces, or when two or more objects collide, their movements are computed by the physics engine.
 
 Each Interface runs its own physics engine, and the entity server coordinates the results to produce a consistent simulation across the entire domain.
 
@@ -45,7 +45,7 @@ Each Interface runs its own physics engine, and the entity server coordinates th
 Domain Server
 ------------------------
 
-A domain is a spatial simulation in Vircadia that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's :doc:`place name <../../host/configure-settings/place-setting>` to visit a domain, just like you would need a web address to visit a website.
+A domain is a spatial simulation in Overte that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's :doc:`place name <../../host/configure-settings/place-setting>` to visit a domain, just like you would need a web address to visit a website.
 
 You can :doc:`set up your own domain <../../host/server-setup>` and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack.
 
@@ -82,7 +82,7 @@ Assignment clients control and manage various aspects of a domain. They also com
 |                   | domain.                                                                                             |
 +-------------------+-----------------------------------------------------------------------------------------------------+
 | Asset Server      | Provides copies of the models, audio files, scripts, and other media used by the domain. It         |
-|                   | functions like a Web server, but using protocols tuned to Vircadia's architecture.                  |
+|                   | functions like a Web server, but using protocols tuned to Overte's architecture.                    |
 +-------------------+-----------------------------------------------------------------------------------------------------+
 | Agent             | Executes user-written JavaScript programs. If you've written a script to get your avatar to clap,   |
 |                   | or create a bowling alley, the Agent will execute it. It can see entities, avatars, and send audio. |
@@ -97,13 +97,13 @@ Assignment clients control and manage various aspects of a domain. They also com
 Global Services
 --------------------
 
-Vircadia maintains global services to connect different servers together.
+Overte maintains global services to connect different servers together.
 
 .. image:: _images/services.png
 
 
 **See Also**
 
-+ :doc:`Install Vircadia <install>`
++ :doc:`Install Overte <install>`
 + :doc:`Host Your Domain <../../host>`
 + :doc:`Travel Between Worlds <../travel>`

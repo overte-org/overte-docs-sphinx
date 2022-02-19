@@ -70,8 +70,8 @@ To do this, simply the remove the 'Connect' permission for all users other than 
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
+    * For local servers on Windows: Click on the Overte icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Overte icon on the top menu bar, then click 'Settings'.
 2. On the top menu bar, select **Settings > Security**.
 3. Scroll to 'Standard Permissions'. 
 4. For each Permissions group, uncheck the 'Connect' permission for all users and groups (except yourself and anyone else working on the content). 
@@ -97,7 +97,7 @@ The final technique for building a content set follows a basic development workf
 
 We recommend using this method if you want to avoid interruption to your domain while you build your content, deploy your content set to multiple domains, or test your content before you deploy.
 
-1. Install Vircadia's open source `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ software on a computer that is _not_ running as a local server. 
+1. Install Overte's open source `Client + Sandbox <https://vircadia.com/deploy-a-server/>`_ software on a computer that is _not_ running as a local server. 
 2. Open a Sandbox not connected to a local server.
 3. Build your content set in the Sandbox.
 4. `Export your content to JSON <export-content.html#export-entities-to-json>`_.

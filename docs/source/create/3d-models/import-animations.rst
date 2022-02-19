@@ -2,7 +2,7 @@
 Import Animations
 ######################
 
-Enrich your Vircadia experience by having 3D models in your domain with animations. For example, you can import the 3D model of a flag that appears to flutter with the wind using this feature.
+Enrich your Overte experience by having 3D models in your domain with animations. For example, you can import the 3D model of a flag that appears to flutter with the wind using this feature.
 
 .. contents:: On This Page
     :depth: 2
@@ -11,16 +11,16 @@ Enrich your Vircadia experience by having 3D models in your domain with animatio
 Prerequisites
 ---------------------
 
-You need to be familiar with creating animations in 3D modeling tools such as Blender and Maya before importing an animation into Vircadia.
+You need to be familiar with creating animations in 3D modeling tools such as Blender and Maya before importing an animation into Overte.
 
 ---------------------------------
 Prepare a 3D Model Animation
 ---------------------------------
 
-Before you import an animation into Vircadia, adjust some settings in the 3D modeling tool of your choice to ensure that it plays smoothly.
+Before you import an animation into Overte, adjust some settings in the 3D modeling tool of your choice to ensure that it plays smoothly.
 
 1. We recommend setting the framerate to 30 fps as a good compromise between smoothness and file size.
-2. Bake your animation channels, key frames, and in-betweens to ensure that Vircadia reads everything. This is to ensure that your animation doesn't stop and start, but appears smooth and flows through each movement.
+2. Bake your animation channels, key frames, and in-betweens to ensure that Overte reads everything. This is to ensure that your animation doesn't stop and start, but appears smooth and flows through each movement.
 3. Prepare to export the skeleton and frames that are being used in the animation.
 4. Disable any kind of keyframe reduction. For example, in Blender, set the "simplify" setting to 0.00 when exporting an FBX file otherwise the animation may not play correctly.
 
@@ -33,7 +33,7 @@ Before you import an animation into Vircadia, adjust some settings in the 3D mod
 Import an Animation
 ------------------------
 
-Once you complete uploading your animation's FBX file, you can import the 3D model and it's animation into Vircadia.
+Once you complete uploading your animation's FBX file, you can import the 3D model and it's animation into Overte.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Click on the 'MODEL' icon and enter your 3D model's URL. If you have saved your 3D model's FBX file with the animation, the model's URL and the animation's URL will be the same. Otherwise, your animation is saved as a separate FBX file.
