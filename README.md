@@ -17,7 +17,6 @@ For Overte's user documentation system, we use **Sphinx** to generate it, and a 
 
 Our main documentation is hosted at https://docs.overte.org.
 
-**Please take a moment to thank or donate to the [active maintainers](https://vircadia.com/contributors-redirector/?redirect=vircadia/vircadia-docs-sphinx) of this repository! ❤️**
 
 ## Translate
 
