@@ -4,7 +4,7 @@ Define Your Audio Environment
 
 Audio is an integral part of a visitor's experience in your domain. Quality audio is essential for easy communication between real people, and it has a meaningful impact on a user's sense of immersion and presence in the world.
 
-You define exactly how Vircadia's 3D immersive, stereo audio is implemented in your domain. Not only can you control the audio mixer's server configuration to a certain degree, you have full control over the attenuation and reverb levels throughout the entire domain. By defining zones, you can define sound-proof areas for private meetings and amplified stages for presentations. All of this is possible by changing the audio settings in your domain settings.
+You define exactly how Overte's 3D immersive, stereo audio is implemented in your domain. Not only can you control the audio mixer's server configuration to a certain degree, you have full control over the attenuation and reverb levels throughout the entire domain. By defining zones, you can define sound-proof areas for private meetings and amplified stages for presentations. All of this is possible by changing the audio settings in your domain settings.
 
 .. contents:: On This Page
     :depth: 2
@@ -17,7 +17,7 @@ The audio environment defines how sound carries throughout your domain. We've de
 
 However, we understand that our equation may not match exactly what you're looking for in your domain. You can change your domain-wide audio settings by adjusting the attenuation and the reverb levels (go to **Domain Settings > Content > Audio Environment**).
 
-* *Attenuation* determines how much quieter sounds get over distance. The default domain attenuation is the amount of noise reduction that is enabled across the domain environment. Vircadia domains default to a distance attenuation curve roughly like the real world. If you see two avatars talking in the distance, you can hear them, but not very well. If you approach them, they become more audible in a manner that approximates what you're likely to be used to. If the default attenuation is 0, no matter how far away a sound source is, it still plays at full volume. Likewise, the default attenuation for a domain can be set very high (to a max value of 1), making only things very near to you audible.
+* *Attenuation* determines how much quieter sounds get over distance. The default domain attenuation is the amount of noise reduction that is enabled across the domain environment. Overte domains default to a distance attenuation curve roughly like the real world. If you see two avatars talking in the distance, you can hear them, but not very well. If you approach them, they become more audible in a manner that approximates what you're likely to be used to. If the default attenuation is 0, no matter how far away a sound source is, it still plays at full volume. Likewise, the default attenuation for a domain can be set very high (to a max value of 1), making only things very near to you audible.
 * *Reverb* enables echo-like effects in your domain. It can give the effect of sounding like you are in a large empty room, deep inside a large cave, or inside a tiny room like a tiled shower. The 'Reverb Decay Time' defines how long you can hear an echo after the initial sound. 'Wet/Dry Mix' sets the percentage mix of the reverb tail relative to the original "dry" signal. Levels between 5-25% will generally give you useful results. For a very thick reverb, you might try a value as high as 50% where the reverb is nearly as loud as the original signal.
 
 ^^^^^^^^^^^
@@ -31,8 +31,8 @@ To define an audio zone:
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'.
-    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
+    * For local servers on Windows: Click on the Overte icon in the system tray, then click 'Settings'.
+    * For local servers on Mac: Right-click the Overte icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Audio Environment**.
 3. Under 'Zones', click the ``+`` icon.

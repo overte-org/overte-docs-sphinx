@@ -21,14 +21,14 @@ There are two ways to make a domain accessible from the outside Internet.
 Windows
 ----------------------------
 
-1. Download Vircadia (full, not Interface only).
-2. Use the `Custom` install option and ensure that both the `Vircadia Interface` and `Vircadia Server` options are checked. Vircadia Server is the Domain server.
+1. Download Overte (full, not Interface only).
+2. Use the `Custom` install option and ensure that both the `Overte Interface` and `Overte Server` options are checked. Overte Server is the Domain server.
 
 .. image:: _images/full-install-components.png
 
-3. In your start menu, search for and run `Vircadia Server`.
+3. In your start menu, search for and run `Overte Server`.
 4. Go to ``http://localhost:40100/`` in your web browser and complete the wizard to set up your domain. If the server is on a different machine, then replace 'localhost' with its IP address.
-5. In your Vircadia Interface, open the `Explore` app and enter `localhost` (or the server's IP address) to get there.
+5. In your Overte Interface, open the `Explore` app and enter `localhost` (or the server's IP address) to get there.
 
 ----------------------------
 Ubuntu 18.04 Linux (.deb)
@@ -44,4 +44,4 @@ Ubuntu 18.04 Linux (.deb)
     sudo apt-get update && sudo apt-get install ./|serverdebfile|
 
 4. Go to ``http://[IP address of your server]:40100/`` in your web browser and complete the wizard to set up your domain.
-5. In your Vircadia Interface, open the `Explore` app and enter your server's IP address to get there.
+5. In your Overte Interface, open the `Explore` app and enter your server's IP address to get there.

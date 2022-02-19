@@ -42,15 +42,15 @@ To export entities:
 Retrieve Automatic Content Archives
 -----------------------------------
 
-By default, Vircadia creates regular content archives of all active domains on the metaverse. This means that if you have a registered domain on the metaverse (either via a local server or DigitalOcean), then we have already created a backup of the content that is installed in your domain. These backup files are called *content archives*. 
+By default, Overte creates regular content archives of all active domains on the metaverse. This means that if you have a registered domain on the metaverse (either via a local server or DigitalOcean), then we have already created a backup of the content that is installed in your domain. These backup files are called *content archives*. 
 
 To retrieve these backups: 
 
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
+    * For local servers on Windows: Click on the Overte icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Overte icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Content Archives**.
 3. Under 'Automatic Content Archives', locate the archive you would like to download.
@@ -73,8 +73,8 @@ To create a content archive and download it:
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Vircadia icon in the system tray, then click 'Settings'. 
-    * For local servers on Mac: Right-click the Vircadia icon on the top menu bar, then click 'Settings'.
+    * For local servers on Windows: Click on the Overte icon in the system tray, then click 'Settings'. 
+    * For local servers on Mac: Right-click the Overte icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. On the top menu bar, select **Content > Content Archives**.
 3. Under 'Manual Content Archives', click 'Generate New Archive'.

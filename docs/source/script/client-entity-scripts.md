@@ -1,6 +1,6 @@
 # Client Entity Scripts
 
-You can make content in Vircadia interactive by attaching scripts to entities. *Client entity scripts* are entity scripts that run locally on each user's computer. When a user comes into contact with the entity, it will "preload" (or run) the script, then "unload" (or stop) the script when the user leaves.
+You can make content in Overte interactive by attaching scripts to entities. *Client entity scripts* are entity scripts that run locally on each user's computer. When a user comes into contact with the entity, it will "preload" (or run) the script, then "unload" (or stop) the script when the user leaves.
 
 There can be (and typically are) multiple entities in a domain, and each one can have a different client entity script associated with it.
 
@@ -39,10 +39,10 @@ The following script changes the color of a non-model entity (such as a box or a
 
 ```
 
-This example is written as a JavaScript class prototype function, and it uses the mouse event [clickDownOnEntity()](https://apidocs.vircadia.dev/Entities.html#.sendClickDownOnEntity). When the user clicks on an entity, `clickDownOnEntity()` triggers the function associated with that click event. In this case, it changes the entity's color back and forth between yellow and magenta.
+This example is written as a JavaScript class prototype function, and it uses the mouse event [clickDownOnEntity()](https://apidocs.overte.org/Entities.html#.sendClickDownOnEntity). When the user clicks on an entity, `clickDownOnEntity()` triggers the function associated with that click event. In this case, it changes the entity's color back and forth between yellow and magenta.
 
 **See Also**
 
 - [Get Started with Scripting](get-started-with-scripting)
 - [Write Your Own Scripts](write-scripts)
-- [API Reference](https://apidocs.vircadia.dev)
+- [API Reference](https://apidocs.overte.org)

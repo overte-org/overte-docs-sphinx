@@ -13,11 +13,11 @@ Before adding a material entity, make sure you have created a material using the
 Generate a Material Entity
 --------------------------
 
-To add a material to your object in Vircadia, you need to specify the material data in a JSON file or add the material directly into the **Create** app.
+To add a material to your object in Overte, you need to specify the material data in a JSON file or add the material directly into the **Create** app.
 
 .. note:: We are aware of the difficulties involved in converting your material data to a JSON file and are working on making the process easier for our users. In the meantime, we recommend embedding your material data in your models as FBX or glTF files if you are facing difficulties generating a JSON file.
 
-This is what the JSON file for a sample `castle wall material <https://docs.vircadia.com/_static/resources/material-entity/CastleWall.hfm.json>`_ looks like:
+This is what the JSON file for a sample `castle wall material <https://docs.overte.org/_static/resources/material-entity/CastleWall.hfm.json>`_ looks like:
 
 .. code-block:: json
 
@@ -28,15 +28,15 @@ This is what the JSON file for a sample `castle wall material <https://docs.virc
          "name": "CastleWall",
          "model": "hifi_pbr",
          "albedo": [1, 1, 1],
-         "albedoMap": "https://docs.vircadia.com/_static/resources/material-entity/CastleWall_Base_Color.png",
-         "roughnessMap": "https://docs.vircadia.com/_static/resources/material-entity/CastleWall_Roughness.png",
-         "normalMap": "https://docs.vircadia.com/_static/resources/material-entity/CastleWall_Normal.png"
+         "albedoMap": "https://docs.overte.org/_static/resources/material-entity/CastleWall_Base_Color.png",
+         "roughnessMap": "https://docs.overte.org/_static/resources/material-entity/CastleWall_Roughness.png",
+         "normalMap": "https://docs.overte.org/_static/resources/material-entity/CastleWall_Normal.png"
       }
    ]
    }
 
 
-This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` `EntityType <https://apidocs.vircadia.dev/Entities.html#.EntityType>`_ in our API, and define its properties using `EntityProperties-Material <https://apidocs.vircadia.dev/Entities.html#.EntityProperties-Material>`_.
+This file contains all related material data, such as the color, roughness, and other texture and shading information. Note that you can edit this information programmatically with the `Material` `EntityType <https://apidocs.overte.org/Entities.html#.EntityType>`_ in our API, and define its properties using `EntityProperties-Material <https://apidocs.overte.org/Entities.html#.EntityProperties-Material>`_.
 
 ---------------------
 Add a Material Entity
@@ -48,7 +48,7 @@ _________________________________
 
 .. note:: At this time, we have no way to automatically generate a JSON file with another tool, and you will need to write your own JSON file.
 
-Once you have your material entity JSON file, you can add it to an object in Vircadia. Let's add the `castle wall material <https://docs.vircadia.com/_static/resources/material-entity/CastleWall.hfm.json>`_ to a box entity in your domain.
+Once you have your material entity JSON file, you can add it to an object in Overte. Let's add the `castle wall material <https://docs.overte.org/_static/resources/material-entity/CastleWall.hfm.json>`_ to a box entity in your domain.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall.
@@ -85,9 +85,9 @@ To add a material entity directly into the **Create** Tools app:
          "name": "CastleWall",
          "model": "hifi_pbr",
          "albedo": [1, 1, 1],
-         "albedoMap": "https://docs.vircadia.com/_static/resources/material-entity/CastleWall_Base_Color.png",
-         "roughnessMap": "https://docs.vircadia.com/_static/resources/material-entity/CastleWall_Roughness.png",
-         "normalMap": "https://docs.vircadia.com/_static/resources/material-entity/CastleWall_Normal.png"
+         "albedoMap": "https://docs.overte.org/_static/resources/material-entity/CastleWall_Base_Color.png",
+         "roughnessMap": "https://docs.overte.org/_static/resources/material-entity/CastleWall_Roughness.png",
+         "normalMap": "https://docs.overte.org/_static/resources/material-entity/CastleWall_Normal.png"
       }
    ]
    }

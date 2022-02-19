@@ -1,10 +1,10 @@
 # Status
 
-[![Master CI Deploy](https://readthedocs.org/projects/overte-docs/badge/?version=latest)](http://docs.overte.org/en/latest/?badge=latest) ![Master CI Warnings](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_warnings.yml/badge.svg) ![Master CI Linkcheck](https://github.com/vircadia/vircadia-docs-sphinx/actions/workflows/master_linkcheck.yml/badge.svg)
+[![Master CI Deploy](https://readthedocs.org/projects/overte-docs/badge/?version=latest)](http://docs.overte.org/en/latest/?badge=latest) ![Master CI Warnings](https://github.com/overte-org/vircadia-docs-sphinx/actions/workflows/master_warnings.yml/badge.svg) ![Master CI Linkcheck](https://github.com/overte-org/vircadia-docs-sphinx/actions/workflows/master_linkcheck.yml/badge.svg)
 
-# Overview of Vircadia's User Documentation Tools
+# Overview of Overte's User Documentation Tools
 
-For Vircadia's user documentation system, we use **Sphinx** to generate it, and a web server to publish/host it. GitHub is a helpful middleman and stores all of the docs.
+For Overte's user documentation system, we use **Sphinx** to generate it, and a web server to publish/host it. GitHub is a helpful middleman and stores all of the docs.
 
 **Sphinx** is an open-source, robust solution for software documentation that includes features that writers expect, like:
 
@@ -15,13 +15,13 @@ For Vircadia's user documentation system, we use **Sphinx** to generate it, and 
 * Index and Glossary support
 * Localization support
 
-Our main documentation is hosted at https://docs.vircadia.com.
+Our main documentation is hosted at https://docs.overte.org.
 
 **Please take a moment to thank or donate to the [active maintainers](https://vircadia.com/contributors-redirector/?redirect=vircadia/vircadia-docs-sphinx) of this repository! ❤️**
 
 ## Translate
 
-There are two ways to help with the translation of Vircadia's documentation:
+There are two ways to help with the translation of Overte's documentation:
 * The recommended way is to use https://weblate.vircadia.dev.
 * You can also submit updated `.po` files via a pull request.
 
@@ -55,7 +55,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 5. Install Sphinx video addon:
 
     ```
-    C:\> pip install git+https://github.com/vircadia/video.git
+    C:\> pip install git+https://github.com/overte-org/video.git
     ```
 
 5. Install Sphinx version 3.x.x in a command line:
@@ -76,9 +76,9 @@ We encourage you to compile the documentation locally on your computer prior to 
     C:\> pip install sphinx_rtd_theme
     ```
 
-## Compile Vircadia Documentation Locally
+## Compile Overte Documentation Locally
 
-1. Fork and clone `https://github.com/vircadia/vircadia-docs-sphinx`.
+1. Fork and clone `https://github.com/overte-org/overte-docs-sphinx`.
 2. Using a command line, `cd` to your local repository, then `cd` to the "docs" folder within it.
 3. Compile with the command `make html`.
 

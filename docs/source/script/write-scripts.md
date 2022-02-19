@@ -1,8 +1,8 @@
 # Write Your Own Scripts
 
-Vircadia's robust [JavaScript API](https://apidocs.vircadia.dev) provides the tools for you to build great content and user experiences in VR.
+Overte's robust [JavaScript API](https://apidocs.overte.org) provides the tools for you to build great content and user experiences in VR.
 
-In this section, you can find simple code samples to do common tasks in Vircadia. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer.
+In this section, you can find simple code samples to do common tasks in Overte. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -23,7 +23,7 @@ print("Hello, World");
 ```
 
 1. Copy and paste this in a file `testScript.js` and save it on your computer.
-2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will write the words "Hello, World" to the 'Debug Window' in Vircadia.
+2. When you [load and run this script](get-started-with-scripting.html#load-and-run-a-script), it will write the words "Hello, World" to the 'Debug Window' in Overte.
    ![](_images/hello-world.png)
 
 ## Create an Entity
@@ -76,4 +76,4 @@ print("Entity color: " + JSON.stringify(properties.color));
 + [Get Started with Scripting](get-started-with-scripting)
 + [Load and Run a Script](get-started-with-scripting.html#load-and-run-a-script)
 + [Interface Scripts](interface-scripts)
-+ [API Reference](https://apidocs.vircadia.dev)
++ [API Reference](https://apidocs.overte.org)

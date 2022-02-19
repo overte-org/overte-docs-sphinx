@@ -13,7 +13,7 @@ Occasionally, you may get users who you don't want in your domain. Whether you f
 Silence a User in Your Domain
 -----------------------------
 
-Many times, a visitor in your domain simply does not have the correct audio settings defined on their computer. As a result, they may output uncomfortable sounds into your domain (heavy breathing, typing, background noise, and white noise are audio issues people have when they first download Vircadia).
+Many times, a visitor in your domain simply does not have the correct audio settings defined on their computer. As a result, they may output uncomfortable sounds into your domain (heavy breathing, typing, background noise, and white noise are audio issues people have when they first download Overte).
 
 To silence a specific user in your domain:
 
@@ -37,4 +37,4 @@ To permanently ban a visitor from your domain:
 3. Locate the user you would like to silence.
 4. Under the 'Admin' section, click the icon in the 'Ban' column.
 
-The user will not be able to enter the domain using the same account; however, they will still have access to other Vircadia domains.
+The user will not be able to enter the domain using the same account; however, they will still have access to other Overte domains.

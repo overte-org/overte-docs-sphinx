@@ -2,14 +2,14 @@
 Home
 ####
 
-Vircadia™ is open-source software which enables you to create and share virtual worlds as virtual reality (VR) and desktop experiences. You can create and host your own virtual world,
+Overte is open-source software which enables you to create and share virtual worlds as virtual reality (VR) and desktop experiences. You can create and host your own virtual world,
 explore other worlds, meet and connect with other users, attend or host live VR events, and much more.
 
-The Vircadia metaverse provides built-in social features, including avatar interactions, spatialized audio, and interactive physics.
-Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in Vircadia,
+The Overte virtual worlds software provides built-in social features, including avatar interactions, spatialized audio, and interactive physics.
+Additionally, you have the ability to import any 3D object into your virtual environment. No matter where you go in Overte,
 you will always be able to interact with your environment, engage with your friends, and listen to conversations just like you would in real life.
 
-:doc:`Get Vircadia <explore/get-started/install>` |Download| or take a look at our :doc:`Gallery <explore/gallery>` |Gallery|.
+:doc:`Get Overte <explore/get-started/install>` |Download| or take a look at our :doc:`Gallery <explore/gallery>` |Gallery|.
 
 
 .. |Download| image:: _images/remixicon/download-2-fill.svg
@@ -23,7 +23,7 @@ you will always be able to interact with your environment, engage with your frie
               :target: explore/gallery.html
 
 
-In addition to the documentation, you can join the discussion on the Vircadia `Discord server <https://discordapp.com/invite/Pvx2vke>`__ |Discord|.
+In addition to the documentation, you can join the discussion on the Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ or `Discord server <https://discord.gg/4YuQvc8K2f>`__ |Discord|.
 
 
 .. |Discord| image:: _images/remixicon/discord-fill.svg
@@ -32,15 +32,15 @@ In addition to the documentation, you can join the discussion on the Vircadia `D
               :target: https://discordapp.com/invite/Pvx2vke
 
 
-This documentation is authored in `English <https://docs.vircadia.com/>`_.
+This documentation is authored in `English <https://docs.overte.org/>`_.
 
 The following translations are available:
 
-* `Deutsch <https://docs.vircadia.com/de/>`_ |de_trans|
-* `Español <https://docs.vircadia.com/es/>`_ |es_trans|
-* `Français <https://docs.vircadia.com/fr/>`_ |fr_trans|
-* `日本語 <https://docs.vircadia.com/jp/>`_ |jp_trans|
-* `한국어 <https://docs.vircadia.com/ko/>`_ |ko_trans|
+* `Deutsch <https://docs.overte.org/de/>`_ |de_trans|
+* `Español <https://docs.overte.org/es/>`_ |es_trans|
+* `Français <https://docs.overte.org/fr/>`_ |fr_trans|
+* `日本語 <https://docs.overte.org/jp/>`_ |jp_trans|
+* `한국어 <https://docs.overte.org/ko/>`_ |ko_trans|
 
 .. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
               :class: inline
@@ -66,7 +66,7 @@ The following translations are available:
 What can I do?
 -------------------------
 
-You have the power to shape your VR experience in Vircadia.
+You have the power to shape your VR experience in Overte.
 
 * :doc:`EXPLORE <explore>` by hopping between domains in the metaverse, attend events, and check out what others are up to!
 * :doc:`CREATE <create>` personal experiences by building avatars, domains, tablet apps, and more for you and others to enjoy.
@@ -92,4 +92,4 @@ You have the power to shape your VR experience in Vircadia.
     SECURITY <security>
     FAQ <faq>
     RELEASE NOTES <release-notes>
-    API REFERENCE <https://apidocs.vircadia.dev>
+    API REFERENCE <https://apidocs.overte.org>

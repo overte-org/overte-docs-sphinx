@@ -2,7 +2,7 @@
 Get Our Android App
 ###################
 
-A Vircadia Android app is being considered for the roadmap, most of the development work has been done but the work required to get it back rolling has to be taken into consideration.
+A Overte Android app is being considered for the roadmap, most of the development work has been done but the work required to get it back rolling has to be taken into consideration.
 
 .. note:: The app is designed for Daydream-ready phones only. Keep in mind, it cannot be used in Daydream View and is only available as a 2D application.
 
@@ -14,7 +14,7 @@ A Vircadia Android app is being considered for the roadmap, most of the developm
 Visit Different Worlds
 -----------------------------------
 
-Vircadia has many virtual places where you can interact with other users and participate in various activities or events. We have modified several of Vircadia's most popular virtual worlds to make them more accessible to Android users.
+Overte has many virtual places where you can interact with other users and participate in various activities or events. We have modified several of Overte's most popular virtual worlds to make them more accessible to Android users.
 
 Find these domains by going to the **Home** tab in the menu.
 

@@ -2,7 +2,7 @@
 Frequently Asked Questions
 ##########################
 
-We get a lot of questions from our users! If you have questions about Vircadia, feel free to browse through this page to learn more.
+We get a lot of questions from our users! If you have questions about Overte, feel free to browse through this page to learn more.
 
 .. contents:: On This Page
     :depth: 2
@@ -41,9 +41,9 @@ Domain Hosting
 | manually remove the HTTP security settings ('http_password' and 'http_username') from               |
 | config.json. The config file is stored on the server in the following directories:                  |
 |                                                                                                     |
-| * **Windows**: ``%AppData%\Roaming\Vircadia\domain-server\``                                        |
-| * **Mac**: ``~/Library/Application Support/Vircadia/domain-server/``                                |
-| * **Linux**: ``/var/lib/vircadia/default/domain-server/``                                           |
+| * **Windows**: ``%AppData%\Roaming\Overte\domain-server\``                                          |
+| * **Mac**: ``~/Library/Application Support/Overte/domain-server/``                                  |
+| * **Linux**: ``/var/lib/overte/default/domain-server/``                                             |
 +-----------------------------------------------------------------------------------------------------+
 
 ---------------
@@ -51,11 +51,11 @@ Troubleshooting
 ---------------
 
 + `Where do I find the Interface log files? <#interface-log-files>`_
-+ `How do I access the hidden folders that most Vircadia files are stored in? <#file-manager-help>`_
++ `How do I access the hidden folders that most Overte files are stored in? <#file-manager-help>`_
 + `Why can't I connect to a domain? <#cannot-connect>`_
 + `No one can hear me! <#no-input>`_
-+ `I can't hear anything in Vircadia <#no-output>`_
-+ `I have a problem using Vircadia on Windows with my AMD graphics card <#amd-problem>`_
++ `I can't hear anything in Overte <#no-output>`_
++ `I have a problem using Overte on Windows with my AMD graphics card <#amd-problem>`_
 + `How do I install a different AMD graphics driver on Windows? <#amd-downgrade>`_
 
 +-----------------------------------------------------------------------------------------------------+
@@ -65,20 +65,20 @@ Troubleshooting
 +=====================================================================================================+
 | The Interfaces log files can be found in the following directories:                                 |
 |                                                                                                     |
-| * **Windows**: ``%AppData%\Local\Vircadia\Interface\Logs\``                                         |
-| * **Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``                               |
-| * **Linux**: ``~/.local/share/Vircadia/Interface/Logs/``                                            |
+| * **Windows**: ``%AppData%\Local\Overte\Interface\Logs\``                                           |
+| * **Mac**: ``~/Library/Application Support/Overte/Interface/Logs/``                                 |
+| * **Linux**: ``~/.local/share/Overte/Interface/Logs/``                                              |
 |                                                                                                     |
-| The Vircadia folder name might be different on development or testing builds.                       |
-| E.g. ``Vircadia - dev``.                                                                            |
+| The Overte folder name might be different on development or testing builds.                         |
+| E.g. ``Overte - dev``.                                                                              |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _file-manager-help:                                                                              |
 |                                                                                                     |
-| How do I access the hidden folders that most Vircadia files are stored in?                          |
+| How do I access the hidden folders that most Overte files are stored in?                            |
 +=====================================================================================================+
-| On all currently supported operating systems the folders that Vircadia stores most of its data in   |
+| On all currently supported operating systems the folders that Overte stores most of its data in     |
 | are hidden.                                                                                         |
 |                                                                                                     |
 | The easiest way to access them is to just copy the path and paste it into your systems file manager.|
@@ -101,7 +101,7 @@ Troubleshooting
 |    2Mbps upload.                                                                                    |
 | 2. You may not have permissions to enter the domain. If you know the domain owner, contact them to  |
 |    gain access to the domain.                                                                       |
-| 3. Ensure that your firewall settings allow you to run Vircadia.                                    |
+| 3. Ensure that your firewall settings allow you to run Overte.                                      |
 |                                                                                                     |
 |      * For Windows: In your firewall settings, open the  port 40102, and add 'interface.exe' to the |
 |        list of allowed apps.                                                                        |
@@ -117,11 +117,11 @@ Troubleshooting
 | If other users in the domain can't hear you, then you are likely muted or your microphone gain is   |
 | set too low. Here are some steps to troubleshoot your issue:                                        |
 |                                                                                                     |
-| 1. **Are you muted in Vircadia?** When logged in, check the upper left corner. If you're            |
+| 1. **Are you muted in Overte?** When logged in, check the upper left corner. If you're              |
 |    muted, click the microphone to un-mute yourself.                                                 |
 | 2. **Is your physical output device muted or turned off?** Some headsets and microphones have a     |
 |    'Power' and/or 'Mute' switch directly on the device itself. This setting is completely           |
-|    independent of Vircadia's mute option, so even if you're not muted in Vircadia, your             |
+|    independent of Overte's mute option, so even if you're not muted in Overte, your                 |
 |    device itself may not be turned on or the mute button may have been pressed.                     |
 |                                                                                                     |
 |    .. image:: explore/_images/headsets.png                                                          |
@@ -130,13 +130,13 @@ Troubleshooting
 |    disabled by your operating system. Check your operating system's input device settings:          |
 |                                                                                                     |
 |     a. On Windows, go to **Control Panel > Sound > Recording** tab. Choose the device you are using |
-|        with Vircadia and click 'Properties'. On the 'Levels' tab, check the icon next to the        |
+|        with Overte and click 'Properties'. On the 'Levels' tab, check the icon next to the          |
 |        volume meter. The microphone icon will tell you whether your headset/microphone is           |
 |        muted. If you're muted, click the icon to un-mute yourself.                                  |
 |     b. On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using    |
-|        with Vircadia. If the 'Input volume' is turned all of the way down, then your input          |
+|        with Overte. If the 'Input volume' is turned all of the way down, then your input            |
 |        device is disabled. Turn up the input volume to re-enable your microphone.                   |
-| 4. **Have you allowed Vircadia access to the microphone?** Some operating systems require you       |
+| 4. **Have you allowed Overte access to the microphone?** Some operating systems require you         |
 |    to give explicit permission to apps to take advantage of specific hardware or software           |
 |    capabilities on your computer. Check your microphone permissions in your operating system        |
 |    settings:                                                                                        |
@@ -144,23 +144,23 @@ Troubleshooting
 |     a. On Windows, go to **Settings > Privacy > Microphone**. Make sure that 'Allow desktop apps to |
 |        access your microphone' is turned on.                                                        |
 |     b. On Mac, go to **System Preferences > Security & Privacy > Privacy**, then select             |
-|        'Microphone'. Ensure that the checkbox next to Vircadia is selected.                         |
+|        'Microphone'. Ensure that the checkbox next to Overte is selected.                           |
 |                                                                                                     |
 | If your input device is turned on, and you are not muted in the application, device, or operating   |
 | system, then it is likely that your microphone volume needs to be adjusted or boosted. This is done |
 | in your operating system settings:                                                                  |
 |                                                                                                     |
 | * On Windows, go to **Control Panel > Sound > Recording** tab. Choose the device you are using with |
-|   Vircadia and click 'Properties'. On the 'Levels' tab, adjust the 'Microphone Level' and/or        |
+|   Overte and click 'Properties'. On the 'Levels' tab, adjust the 'Microphone Level' and/or          |
 |   'Microphone Boost'.                                                                               |
 | * On Mac, go to **System Preferences > Sound > Input** tab. Choose the device you are using with    |
-|   Vircadia and adjust the 'Input volume'.                                                           |
+|   Overte and adjust the 'Input volume'.                                                             |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _no-output:                                                                                      |
 |                                                                                                     |
-| I can't hear anything in Vircadia.                                                                  |
+| I can't hear anything in Overte.                                                                    |
 +=====================================================================================================+
 | Here are some reasons you might not have audio:                                                     |
 |                                                                                                     |
@@ -172,19 +172,19 @@ Troubleshooting
 |       icon will tell you whether or not your headset or speakers are disabled. Click the icon to    |
 |       un-mute yourself.                                                                             |
 |     * On Mac, go to **System Preferences > Sound > Output** tab. Choose the device you are using    |
-|       with Vircadia. At the bottom of the dialog, uncheck 'Mute' to un-mute yourself.               |
+|       with Overte. At the bottom of the dialog, uncheck 'Mute' to un-mute yourself.                 |
 | * Your headset or speakers have a volume control of their own. Check that the volume is turned up   |
 |   on the device.                                                                                    |
-| * In Vircadia, you have a different audio device selected than the one you want to use. Open        |
+| * In Overte, you have a different audio device selected than the one you want to use. Open          |
 |   the **Audio** app and make sure the right headset, speakers, and/or microphone are selected.      |
-| * Volume is turned down or off in Vircadia. Open the **Audio** app and check your volume            |
+| * Volume is turned down or off in Overte. Open the **Audio** app and check your volume              |
 |   settings.                                                                                         |
 +-----------------------------------------------------------------------------------------------------+
 
 +-----------------------------------------------------------------------------------------------------+
 | .. _amd-problem:                                                                                    |
 |                                                                                                     |
-| I have a problem with Vircadia on Windows with my AMD graphics card.                                |
+| I have a problem with Overte on Windows with my AMD graphics card.                                  |
 +=====================================================================================================+
 | AMD can sometimes introduce issues into their graphics card drivers on Windows.                     |
 | If you run into a new issue like mangled graphics or a crash on startup on your AMD graphics card,  |
@@ -199,7 +199,7 @@ Troubleshooting
 | `downgrade you graphics card driver <#amd-downgrade>`_ to an older working version.                 |
 |                                                                                                     |
 | If you do run into an issue like this please consider opening an issue on our                       |
-| `GitHub issue tracker <https://github.com/vircadia/vircadia/issues>`_.                              |
+| `GitHub issue tracker <https://github.com/overte-org/overte/issues>`_.                              |
 | If you are fairly sure that this is an AMD driver issue, please also consider                       |
 | `reporting the issue to AMD <https://www.amd.com/report>`_.                                         |
 +-----------------------------------------------------------------------------------------------------+

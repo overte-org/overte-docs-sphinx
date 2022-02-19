@@ -16,7 +16,7 @@ You can customize your avatar's appearance by adding wearables, such as a pirate
 Wear Your Own Wearable
 -----------------------------
 
-You can put on a :doc:`wearable that you created <../../create/wearables>`. All wearables must be hosted in the cloud before they can be used with Vircadia. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure.
+You can put on a :doc:`wearable that you created <../../create/wearables>`. All wearables must be hosted in the cloud before they can be used with Overte. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure.
 
 Once you know the URL for your wearable's FBX file, then put it on your avatar:
 

@@ -5,7 +5,7 @@
 
 # Change Your Avatar
 
-When you first use Vircadia, you will be wearing the default avatar, Woody. Your avatar is a representation of you in the metaverse. You can control how your avatar moves and speak to other users in-world using it.
+When you first use Overte, you will be wearing the default avatar, Woody. Your avatar is a representation of you in the metaverse. You can control how your avatar moves and speak to other users in-world using it.
 
 **On This Page:**
 
@@ -18,7 +18,7 @@ You can use an avatar that you created. Learn more about how you can create your
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>All avatars must be hosted in the cloud before they can be used with Vircadia. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure.
+    <p>All avatars must be hosted in the cloud before they can be used with Overte. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure.
 </div>
 
 Once you have your avatar's .fst file, you can upload it.

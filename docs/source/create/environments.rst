@@ -2,7 +2,7 @@
 Environments
 ####################
 
-A Vircadia domain can have an environment to express a theme. Environments include all the domain content, such as entities, skyboxes, assets, and more. You could have a domain with a deserted island environment or a cyberpunk apartment environment. 
+A Overte domain can have an environment to express a theme. Environments include all the domain content, such as entities, skyboxes, assets, and more. You could have a domain with a deserted island environment or a cyberpunk apartment environment. 
 
 
 -----------------------------
@@ -19,10 +19,10 @@ An environment consists different types of 3D models and a skybox following the 
 |                        | <3d-models/import-model.html#import-3d-models-using-the-asset-server>`_.                            |
 +------------------------+-----------------------------------------------------------------------------------------------------+
 | Your 3D Models         | You can use 3D modeling software like Blender or Maya to create your own 3D models and              |
-|                        | `import them into your Vircadia Domain                                                              |
+|                        | `import them into your Overte Domain                                                                |
 |                        | <3d-models/import-model.html#import-3d-models-using-the-asset-server>`_.                            |
 +------------------------+-----------------------------------------------------------------------------------------------------+
-| A Content Archive File | Vircadia Domain settings have downloadable content archives. These archives are zip                 |
+| A Content Archive File | Overte Domain settings have downloadable content archives. These archives are zip                   |
 |                        | files containing all domain content information. You can `use a backup file of your own or one      |
 |                        | sent to you by a user <../host/maintain-domain/backup-domain.html>`_.                               |
 +------------------------+-----------------------------------------------------------------------------------------------------+

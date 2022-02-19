@@ -5,7 +5,7 @@
 
 # Install Tablet Apps
 
-You can enhance your experience in Vircadia by installing tablet apps. These apps enable you to get more out of Vircadia. Do you want to record your avatar dancing, take selfies, or finger paint? Or are you looking to livestream to YouTube or make your avatar clap? There's a number of apps that can help you customize your experience in-world.
+You can enhance your experience in Overte by installing tablet apps. These apps enable you to get more out of Overte. Do you want to record your avatar dancing, take selfies, or finger paint? Or are you looking to livestream to YouTube or make your avatar clap? There's a number of apps that can help you customize your experience in-world.
 
 If you can't find an app for what you'd like to do, you can [create your own](../../create/applications) and upload it for your personal use or to sell to others.
 
@@ -14,22 +14,22 @@ If you can't find an app for what you'd like to do, you can [create your own](..
 * [Install Tablet Apps](#install-tablet-apps)
 * [Update an App](#update-an-app)
 * [Our Apps](#our-apps)
-	* [Spectator Cam: Record or Livestream in Vircadia](#spectator-cam)
+	* [Spectator Cam: Record or Livestream in Overte](#spectator-cam)
 	* [Finger Painting](#finger-painting)
 	* [Text to Speech](#text-to-speech)
 
 
 ## Install Tablet Apps
-We and many users have created tablet apps that are available in Vircadia. To find and install an app:
+We and many users have created tablet apps that are available in Overte. To find and install an app:
 
 1. In Interface, pull up your HUD or Tablet and go to **More**.
 2. Search for a specific app, or browse all apps.
-3. Once you find the app of your choice, click 'Install' to start using the app in Vircadia.
+3. Once you find the app of your choice, click 'Install' to start using the app in Overte.
 4. Once the app is installed, you can access the app through your HUD or Tablet.
 
 
 ## Update an App
-When an app has an update available, a notification will pop up in the top right corner of the Interface when you open Vircadia. Additionally, a red dot will appear on the **Inventory** icon of your HUD or Tablet to indicate an update is available to download.
+When an app has an update available, a notification will pop up in the top right corner of the Interface when you open Overte. Additionally, a red dot will appear on the **Inventory** icon of your HUD or Tablet to indicate an update is available to download.
 
 To update your app:
 1. In Interface, pull up your HUD or Tablet and go to **Inventory**.
@@ -52,7 +52,7 @@ To update your app:
 We've listed some of the apps we created and how you can use them.
 
 ### Spectator Cam
-The Spectator Camera is a camera you can use to record or livestream what you and your friends do in Vircadia. It is only available in HMD mode, and requires a recording software such as [Open Broadcaster Software (OBS)](https://obsproject.com/) to work correctly. Check out their [official overview guide](https://obsproject.com/forum/threads/official-overview-guide.402/) for more details.
+The Spectator Camera is a camera you can use to record or livestream what you and your friends do in Overte. It is only available in HMD mode, and requires a recording software such as [Open Broadcaster Software (OBS)](https://obsproject.com/) to work correctly. Check out their [official overview guide](https://obsproject.com/forum/threads/official-overview-guide.402/) for more details.
 
 [Use the instructions above](#install-an-app) to install the Spectator Camera app.
 

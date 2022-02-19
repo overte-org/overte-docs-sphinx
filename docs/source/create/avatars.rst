@@ -2,7 +2,7 @@
 Avatars
 ###########################
 
-When you first use Vircadia, you will be wearing the default avatar. Your avatar is a representation of you in the metaverse. You can make your time in Vircadia unique by creating an avatar of your own. All custom avatars must be hosted somewhere in the cloud so that Vircadia can access it.
+When you first use Overte, you will be wearing the default avatar. Your avatar is a representation of you in the metaverse. You can make your time in Overte unique by creating an avatar of your own. All custom avatars must be hosted somewhere in the cloud so that Overte can access it.
 
 **In This Section:**
 

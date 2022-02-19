@@ -6,7 +6,7 @@
 Use Your VR Equipment
 #########################
 
-To get the best and most immersive experience in Vircadia, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support the following VR equipment:
+To get the best and most immersive experience in Overte, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support the following VR equipment:
 
 +------------------------------------------------+---------------------+
 | Head Mounted Displays                          | Hand Controllers    |
@@ -39,7 +39,7 @@ Comfort Mode
 
 Motion sickness is a real problem for many people when they put on a HMD and enter VR. This happens because your eyes experience movement in VR, while your body stands still. If you experience motion sickness and discomfort using VR equipment, you are not alone. 
 
-"Comfort mode" is designed to decrease the effects of motion sickness while using Vircadia. This mode:
+"Comfort mode" is designed to decrease the effects of motion sickness while using Overte. This mode:
 
 * Disables sharp turns 
 * Decreases your field of vision by darkening the edges of the screen
@@ -124,7 +124,7 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 Motion Capture Using Vive Trackers
 ------------------------------------------
 
-You can enhance your Vircadia experience using full body motion capture (mocap). Vircadia currently supports mocap using HTC Vive Trackers. 
+You can enhance your Overte experience using full body motion capture (mocap). Overte currently supports mocap using HTC Vive Trackers. 
 
 Vive trackers need to be strapped to the body part you wish to track. You can replace the HMD and hand controllers with trackers if you only need to track the movement of your head and hands. 
 
@@ -216,7 +216,7 @@ Troubleshooting
 Gamepad
 -------------------------
 
-If your HMD does not come equipped with hand controllers, you can use a gamepad. However, Vircadia is best experienced with VR equipment or the keyboard in Desktop mode.
+If your HMD does not come equipped with hand controllers, you can use a gamepad. However, Overte is best experienced with VR equipment or the keyboard in Desktop mode.
 
 .. image:: _images/controls-gamepad.png
 

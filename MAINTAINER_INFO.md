@@ -108,7 +108,7 @@ WantedBy=default.target
 
 Currently an SMTP server maintained by Kalila gets used for sending emails to registered users.
 Weblate reads the gettext PO files from `docs/source/locales/*/LC_MESSAGES/*.po`
-It is set up to automatically push daily commits via `https://JulianGro:REDACTED@github.com/vircadia/vircadia-docs-sphinx.git`
+It is set up to automatically push daily commits via `https://JulianGro:REDACTED@github.com/overte-org/vircadia-docs-sphinx.git`
 
 Git hooks takes care of updating the language files on checkout.
 
@@ -131,7 +131,7 @@ For it to function make sure that all dependencies are installed in the Weblate 
 docker-compose exec --user root weblate bash
 apt install make gettext
 python3 -m pip install --upgrade pip
-python3 -m pip install git+https://github.com/vircadia/video.git
+python3 -m pip install git+https://github.com/overte-org/video.git
 python3 -m pip install -U Sphinx==3.5.4
 python3 -m pip install --upgrade myst-parser
 python3 -m pip install sphinx_rtd_theme

@@ -1,10 +1,10 @@
 # Host a Domain from a Local or Cloud Linux Server
 
-The Vircadia packages can help you get your own domain up and running quickly.
+The Overte packages can help you get your own domain up and running quickly.
 
 ## Installation
 
-You can run these same commands on an existing Vircadia domain to upgrade it if the original domain was installed using the package. Packages are currently available for the following distributions:
+You can run these same commands on an existing Overte domain to upgrade it if the original domain was installed using the package. Packages are currently available for the following distributions:
 
 ### Ubuntu Server 18.04 LTS
 
@@ -15,7 +15,7 @@ sudo apt-get update && sudo apt-get install ./vircadia-server_2022.1.0-selene-20
 
 ### Unlisted Distribution
 
-If you do not see your distribution listed here, you may compile your own server from source using the [Vircadia builder](https://github.com/vircadia/vircadia-builder).
+If you do not see your distribution listed here, you may compile your own server from source using the [Overte builder](https://github.com/overte-org/overte-builder).
 
 ## Configuration
 
@@ -41,7 +41,7 @@ All content is stored under <code>/var/lib/vircadia/default</code>. All files un
 
 ## Services
 
-The installation packages setup the following systemd services to manage the Vircadia domain:
+The installation packages setup the following systemd services to manage the Overte domain:
 - **vircadia-domain-server@default.service**: Manages the core domain server
 - **vircadia-assignment-client@default.service**: Spawns and manages the assignment clients
 - **vircadia-server@default.target**: Controls startup and shutdown of the above services
@@ -65,7 +65,7 @@ Assuming you created a new server with the name **my-server-two**, this would se
  - Content stored in <code>/var/lib/vircadia/**my-server-two**</code>
  - Services launched as <code>vircadia-domain-server@**my-server-two**.service</code>, <code>vircadia-assignment-client@**my-server-two**.service</code>, and <code>vircadia-server@**my-server-two**.target</code>
 
-## Deleting a Vircadia Server
+## Deleting a Overte Server
 
 Uninstall the package.
 
@@ -112,7 +112,7 @@ sudo rm -rf /var/lib/vircadia/<INSERT NAME HERE>
 
 ## Legacy Services
 
-There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server. In case you would like to remove this logic and run the servers closer to how a Vircadia server compiled from source would run, this is provided as an option.
+There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server. In case you would like to remove this logic and run the servers closer to how a Overte server compiled from source would run, this is provided as an option.
  - Systemd services named <code>vircadia-domain-server.service</code>, <code>vircadia-assignment-client.service</code>, and <code>vircadia-server.target</code> *(without the @name)* have simplified configuration
  - No file is provided to specify environment variables for the server
  - Content would be stored in <code>/var/lib/vircadia/.local</code>

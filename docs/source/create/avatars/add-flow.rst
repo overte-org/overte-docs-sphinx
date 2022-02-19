@@ -6,7 +6,7 @@
 Add Flow to Your Avatar
 #######################
 
-You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of Vircadia's flow functionality. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_. In order to use the Flow App, your avatar must contain flow threads.
+You can simulate physics on your avatar's hair, clothes, and body parts with a little bit of scripting and the help of Overte's flow functionality. The concept of "Flow" simply mimics the natural movement of hair and other attachments on your avatar. You can easily change your avatar's flow settings using the `Flow App <https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_. In order to use the Flow App, your avatar must contain flow threads.
 
 .. contents:: On This Page
     :depth: 2
@@ -28,7 +28,7 @@ While experimenting, feel free to use `Mannequin with Hair <https://hifi-content
 Flow App
 --------
 
-Load the `Flow app <https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_ into Vircadia to configure your flow settings. See :doc:`Load an Interface Script </script/interface-scripts>`
+Load the `Flow app <https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_ into Overte to configure your flow settings. See :doc:`Load an Interface Script </script/interface-scripts>`
 
 The Flow app will show up as an icon on your HUD or tablet. Click this icon to open the Flow app.
 
@@ -114,7 +114,7 @@ Resources
 +---------------------+-------------------------------------------------------------+-------------------------------------------+
 | File                | Description                                                 | URL                                       |
 +=====================+=============================================================+===========================================+
-| Flow App            | This app lets users easily update Flow settings without     | `flowAppCpp.js <https://docs.vircadia.com/|
+| Flow App            | This app lets users easily update Flow settings without     | `flowAppCpp.js <https://docs.overte.org/  |
 |                     | the need for scripting or advanced knowledge of avatars.    | _static/resources/script/flow/flowAppCpp/ |
 |                     |                                                             | flowAppCpp.js>`_                          |
 +---------------------+-------------------------------------------------------------+-------------------------------------------+
