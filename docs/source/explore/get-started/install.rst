@@ -204,7 +204,7 @@ Mac Clean Install
 
 1. Open your Applications folder and delete the Overte folder.
 2. Open the ``<username>/.config`` folder. This is a hidden folder than is accessible by going to *Go > Home*. Press the keyboard shortcut ``Command + Shift + .`` (period).
-3. Delete the ``vircadia.com`` folder.
+3. Delete the ``overte.org`` folder.
 4. Open the ``~/Library`` folder by holding the Option key and clicking the 'Go' menu while in the Finder. The Library option should appear in the menu.
 5. Browse to ``~/Library/Application Support`` and delete the Overte folder.
 6. Empty the Trash.
