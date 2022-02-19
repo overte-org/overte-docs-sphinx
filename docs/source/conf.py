@@ -100,7 +100,7 @@ html_theme_options = {
 }
 
 html_title = "Overte Documentation"
-html_logo = '_static/images/vircadia-logo-940-candara-tm-white.png'
+html_logo = '_static/images/brand-logo-940-candara-tm-white.png'
 html_favicon = '_static/images/favicon-256.ico'
 html_show_sphinx = False
 
