@@ -26,6 +26,10 @@ Because all of Overte's users are encouraged to update to the latest release, it
 
 To update a local server on Windows:
 
+.. warning::
+    This document is slightly outdated.
+    FIXME: download link is outdated
+
 1. Download the latest `Client + Sandbox installer <https://vircadia.com/download-vircadia/#server>`_ from Overte's website or download the upgrade when prompted to on your server.
 2. On your local server, quit Sandbox:
 
