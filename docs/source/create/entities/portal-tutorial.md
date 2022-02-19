@@ -27,7 +27,7 @@ Consider getting familiar with the following concepts before starting this tutor
 
 ## Write a Script for the Portal
 
-A portal is an entity with a script attached (entity script). This attached script defines what happens when a user comes in contact with the portal. We've used [portal.js](https://raw.githubusercontent.com/vircadia/vircadia-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js), the script used to teleport in Overte domains. You can also [write your own script](../../script/write-scripts) to suit your needs.
+A portal is an entity with a script attached (entity script). This attached script defines what happens when a user comes in contact with the portal. We've used [portal.js](https://raw.githubusercontent.com/overte-org/overte-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js), the script used to teleport in Overte domains. You can also [write your own script](../../script/write-scripts) to suit your needs.
 
 The portal.js script we've used:
 + Uses Overte's [JavaScript API](https://apidocs.overte.org) to determine when a user walks into the entity and the teleport destination.
