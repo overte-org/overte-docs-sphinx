@@ -39,5 +39,6 @@ jobs:
       with:
         name: AnimatedMannequin
         email: julian.gro@overte.org
+        message: Automatically updated locales
         files: docs/source/locales/**
         token: ${{ secrets.ANIMATED_MANNEQUIN_COMMIT_TOKEN }}
