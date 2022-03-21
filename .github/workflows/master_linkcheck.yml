@@ -4,28 +4,25 @@ on:
   push:
     branches:
       - master
-
+    # Only run if something other than locales are updated.
+    # This is to prevent this workflow from running when Weblate commits new translations, since we only check the source language.
+    paths-ignore:
+      - 'docs/source/locales/**'
 jobs:
   check_links:
     runs-on: ubuntu-20.04
-    strategy:
-      matrix:
-        python-version: [3.7]
 
     name: Check for broken links
     steps:
     - uses: actions/checkout@v2
-    - name: Set up Python ${{ matrix.python-version }}
+    - name: Set up Python 3.7
       uses: actions/setup-python@v2
       with:
-        python-version: ${{ matrix.python-version }}
+        python-version: 3.7
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install git+https://github.com/overte-org/video.git
-        pip install -U Sphinx==3.5.4
-        pip install --upgrade myst-parser
-        pip install sphinx_rtd_theme
+        pip install -r requirements.txt
     - name: Check links in documentation
       shell: bash
       run: |
