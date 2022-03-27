@@ -2,25 +2,25 @@
 # Copyright (C) 2019, High Fidelity.
 # Copyright (C) 2020, Vircadia.
 # Copyright (C) 2022, Overte e.V.
-# This file is distributed under the same license as the Overte Documentation package.
+# This file is distributed under the same license as the Overte
+# Documentation package.
 # Julian Groß <julian.g@posteo.de>, 2020.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.g@posteo.de\n"
-"POT-Creation-Date: 2020-07-03 09:06+0000\n"
+"POT-Creation-Date: 2022-03-27 20:16+0000\n"
 "PO-Revision-Date: 2020-11-24 23:03+0000\n"
 "Last-Translator: Weblate Admin <julian.g@posteo.de>\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/"
-"vircadia-documentation/sphinx/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
+"documentation/sphinx/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.1.1\n"
-"Generated-By: Babel 2.8.0\n"
+"Generated-By: Babel 2.9.1\n"
 
 #: ../../source/_templates/breadcrumbs.html:50
 #: ../../source/_templates/breadcrumbs.html:52
@@ -93,39 +93,39 @@ msgstr ""
 "href=\"https://github.com/rtfd/sphinx_rtd_theme\">theme</a> "
 "bereitgestellt bei <a href=\"https://readthedocs.org\">Read the Docs</a>"
 
-#: ../../source/_templates/layout.html:61
+#: ../../source/_templates/layout.html:62
 #, python-format
 msgid "Search within %(docstitle)s"
 msgstr "Suche innerhalb %(docstitle)s"
 
-#: ../../source/_templates/layout.html:84
+#: ../../source/_templates/layout.html:86
 msgid "About these documents"
 msgstr "Über diese Dokumente"
 
-#: ../../source/_templates/layout.html:87
+#: ../../source/_templates/layout.html:89
 msgid "Index"
 msgstr "Index"
 
-#: ../../source/_templates/layout.html:90
+#: ../../source/_templates/layout.html:92
 #: ../../source/_templates/search.html:11
 msgid "Search"
 msgstr "Suche"
 
-#: ../../source/_templates/layout.html:93
+#: ../../source/_templates/layout.html:95
 msgid "Copyright"
 msgstr "Urheberrecht"
 
-#: ../../source/_templates/search.html:26
+#: ../../source/_templates/search.html:30
 msgid ""
 "Please activate JavaScript to enable the search\n"
 "      functionality."
 msgstr "Bitte aktivieren Sie JavaScript um die Suchfunktion nutzen zu können."
 
-#: ../../source/_templates/search.html:33
+#: ../../source/_templates/search.html:37
 msgid "Search Results"
 msgstr "Suchergebnisse"
 
-#: ../../source/_templates/search.html:35
+#: ../../source/_templates/search.html:39
 msgid ""
 "Your search did not match any documents. Please make sure that all words "
 "are spelled correctly and that you've selected enough categories."
@@ -135,36 +135,36 @@ msgstr ""
 "haben."
 
 #: ../../source/_templates/searchbox.html:4
-msgid "Search Vircadia Docs"
-msgstr "Durchsuche Dokumentation"
+msgid "Search Overte Docs"
+msgstr ""
 
 #: ../../source/_templates/versions.html:10
 msgid "Languages"
 msgstr "Sprachen"
 
-#: ../../source/_templates/versions.html:18
+#: ../../source/_templates/versions.html:22
 msgid "Downloads"
 msgstr "Downloads"
 
-#: ../../source/_templates/versions.html:24
+#: ../../source/_templates/versions.html:28
 msgid "On Read the Docs"
 msgstr "Auf Read the Docs"
 
-#: ../../source/_templates/versions.html:26
+#: ../../source/_templates/versions.html:30
 msgid "Project Home"
 msgstr "Projekt Startseite"
 
-#: ../../source/_templates/versions.html:29
+#: ../../source/_templates/versions.html:33
 msgid "Builds"
 msgstr "Builds"
 
-#: ../../source/_templates/versions.html:33
+#: ../../source/_templates/versions.html:37
 msgid ""
 "Free document hosting provided by <a "
 "href=\"http://www.readthedocs.org\">Read the Docs</a>."
 msgstr ""
-"Free document hosting provided by <a href=\"http://www.readthedocs.org\""
-">Read the Docs</a>."
+"Free document hosting provided by <a "
+"href=\"http://www.readthedocs.org\">Read the Docs</a>."
 
 #~ msgid ""
 #~ "Free document hosting provided by <a "
@@ -176,3 +176,7 @@ msgstr ""
 
 #~ msgid "Versions"
 #~ msgstr "Versionen"
+
+#~ msgid "Search Vircadia Docs"
+#~ msgstr "Durchsuche Dokumentation"
+
