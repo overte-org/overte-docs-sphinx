@@ -66,7 +66,7 @@ We encourage you to compile the documentation locally on your computer prior to 
 6. Install the Markdown parser MyST-Parser:
 
     ```
-    C:\> pip install --upgrade myst-parser
+    C:\> pip install -U myst-parser==0.16.1
     ```
 
 7. Install our Sphinx theme:
