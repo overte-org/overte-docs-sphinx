@@ -57,4 +57,4 @@ This gallery showcases the Overte/Vircadia Interface and some past events and lo
 
 **See Also**
 
-+ :doc:`Install Vircadia <get-started/install>`
++ :doc:`Install Overte <get-started/install>`

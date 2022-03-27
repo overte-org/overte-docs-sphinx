@@ -51,28 +51,10 @@ We encourage you to compile the documentation locally on your computer prior to 
     ```
     C:\> refreshenv
     ```
-5. Install Sphinx video addon:
+5. Install all requirements:
 
     ```
-    C:\> pip install git+https://github.com/overte-org/video.git
-    ```
-
-5. Install Sphinx version 3.x.x in a command line:
-
-    ```
-    C:\> pip install -U Sphinx==3.5.4
-    ```
-
-6. Install the Markdown parser MyST-Parser:
-
-    ```
-    C:\> pip install -U myst-parser==0.16.1
-    ```
-
-7. Install our Sphinx theme:
-
-    ```
-    C:\> pip install sphinx_rtd_theme
+    C:\> pip install -r requirements.txt
     ```
 
 ## Compile Overte Documentation Locally
