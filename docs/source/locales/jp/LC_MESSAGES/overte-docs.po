@@ -9,15 +9,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
-"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-03-27 20:16+0000\n"
-"PO-Revision-Date: 2021-03-30 16:37+0000\n"
-"Last-Translator: \n"
+"PO-Revision-Date: 2022-04-02 03:43+0000\n"
+"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/ja/>\n"
 "Language: jp\n"
-"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/contribute.rst:3
@@ -313,14 +316,21 @@ msgid ""
 "or developing apps and scripts. To truly make the experience your own, "
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
-msgstr "Vircadiaでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターやコンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Vircadiaエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
+msgstr ""
+"Overteでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザー"
+"が集まり、お互いの創造性を表現することができます。ここではアバターやコンテン"
+"ツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならで"
+"はのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ"
+"変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Overt"
+"eエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
 
 #: ../../source/create.rst:7
 #, fuzzy
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
-msgstr "専門知識のレベルに関わらず、Vircadiaはあなたが想像できるあらゆるものを作成するために必要なツールを提供します。"
+msgstr "専門知識のレベルに関わらず、Overteはあなたが想像できるあらゆるものを作成する"
+"ために必要なツールを提供します。"
 
 #: ../../source/create.rst:9
 #, fuzzy
@@ -13896,7 +13906,11 @@ msgid ""
 "virtual worlds as virtual reality (VR) and desktop experiences. You can "
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
-msgstr "Vircadia™は、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワールドを作成し、共有することができるオープンソースのソフトウェアです。自分だけのワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会ってつながったり、ライブVRイベントに参加したりすることができます。"
+msgstr ""
+"Overteは、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワー"
+"ルドを作成し、共有することができるオープンソースのソフトウェアです。自分だけ"
+"のワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会っ"
+"てつながったり、ライブVRイベントに参加したりすることができます。"
 
 #: ../../source/home.rst:8 ../../source/index.rst:8
 #, fuzzy
@@ -13907,7 +13921,12 @@ msgid ""
 "your virtual environment. No matter where you go in Overte, you will "
 "always be able to interact with your environment, engage with your "
 "friends, and listen to conversations just like you would in real life."
-msgstr "VircadiaのMetaverse（メタバース）には、アバターのインタラクション、空間化されたオーディオ、インタラクティブな物理演算などのソーシャル機能が組み込まれています。さらに、あらゆる3Dオブジェクトを仮想環境へインポートする機能もあります。Vircadiaではどこへ行っても環境とインタラクトすることができ、フレンドやユーザーとの会話を楽しむことができます。"
+msgstr ""
+"OverteのMetaverse（メタバース）には、アバターのインタラクション、空間化された"
+"オーディオ、インタラクティブな物理演算などのソーシャル機能が組み込まれていま"
+"す。さらに、あらゆる3Dオブジェクトを仮想環境へインポートする機能もあります。O"
+"verteではどこへ行っても環境とインタラクトすることができ、フレンドやユーザーと"
+"の会話を楽しむことができます。"
 
 #: ../../source/home.rst:12 ../../source/index.rst:12
 #, fuzzy
@@ -13915,8 +13934,8 @@ msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
-":doc:`Vircadiaをダウンロードする<explore/get-started/install>` |Download|、もしくは "
-":doc:`ギャラリーを見る<explore/gallery>` |Gallery|。"
+":doc:`Overteをダウンロードする<explore/get-started/install>` |Download|、"
+"もしくは :doc:`ギャラリーを見る<explore/gallery>` |Gallery|。"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "Download"
@@ -13929,8 +13948,8 @@ msgid ""
 "Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ or `Discord "
 "server <https://discord.gg/4YuQvc8K2f>`__ |Discord|."
 msgstr ""
-"ドキュメントに加えて、Vircadia の `Discord サーバー "
-"<https://discordapp.com/invite/Pvx2vke>`__ |Discord| に参加できます。"
+"ドキュメントに加えて、Overte の `Discord サーバー <https://discord.gg/"
+"4YuQvc8K2f>`__ |Discord| に参加できます。"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "Discord"
@@ -13939,7 +13958,8 @@ msgstr ""
 #: ../../source/home.rst:35 ../../source/index.rst:35
 #, fuzzy
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
-msgstr "このドキュメンテーションの原文は `英語 <https://docs.vircadia.dev/>`_ で執筆されたものです。"
+msgstr "このドキュメンテーションの原文は `英語 <https://docs.overte.org/>`_ "
+"で執筆されたものです。"
 
 #: ../../source/home.rst:37 ../../source/index.rst:37
 msgid "The following translations are available:"
@@ -13997,7 +14017,7 @@ msgstr "Vircadiaで出来ること"
 #: ../../source/home.rst:69 ../../source/index.rst:69
 #, fuzzy
 msgid "You have the power to shape your VR experience in Overte."
-msgstr "あなたは、VircadiaでのVR体験そのものを思い通りにする力を持っています。"
+msgstr "あなたは、OverteでのVR体験そのものを思い通りにする力を持っています。"
 
 #: ../../source/home.rst:71 ../../source/index.rst:71
 msgid ""
@@ -29867,4 +29887,3 @@ msgstr "メタバースセッションUUID"
 #~ "management server is called "
 #~ "[Sentry](https://sentry.io/)."
 #~ msgstr ""
-
