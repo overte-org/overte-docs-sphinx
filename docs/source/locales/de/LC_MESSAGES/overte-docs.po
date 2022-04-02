@@ -9,17 +9,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
-"Report-Msgid-Bugs-To: julian.g@posteo.de\n"
+"Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-03-27 20:16+0000\n"
-"PO-Revision-Date: 2022-01-17 07:55+0000\n"
-"Last-Translator: Julian <bestlinuxgamers@gmail.com>\n"
+"PO-Revision-Date: 2022-04-02 03:43+0000\n"
+"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://weblate.vircadia.dev/projects/vircadia-"
-"documentation/security/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/contribute.rst:3
@@ -310,7 +311,6 @@ msgid "Create"
 msgstr "Kreieren"
 
 #: ../../source/create.rst:5
-#, fuzzy
 msgid ""
 "Overte enables people connected by interest, community, and friendship to"
 " come together and express their creativity with each other. We invite "
@@ -319,19 +319,17 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
 msgstr ""
-"Vircadia gibt Menschen mit den gleichen Interessen die Möglichkeit sich "
-"zu treffen, und sich zusammen kreativ auszudrücken. Wir laden Sie dazu "
-"ein, ihre Erfahrung zu personalisieren, indem Sie ihre eigenen Avatare "
-"oder eigenen Content kreieren, oder indem Sie Apps oder Skripte "
-"Entwickeln!"
+"Overte gibt Menschen mit den gleichen Interessen die Möglichkeit sich zu "
+"treffen, und sich zusammen kreativ auszudrücken. Wir laden Sie dazu ein, "
+"ihre Erfahrung zu personalisieren, indem Sie ihre eigenen Avatare oder "
+"eigenen Content kreieren, oder indem Sie Apps oder Skripte Entwickeln!"
 
 #: ../../source/create.rst:7
-#, fuzzy
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
 msgstr ""
-"Egal wieviel Expertiese Sie haben, Vircadia bietet die Werkzeuge die Sie "
+"Egal wie viel Expertiese Sie haben, Overte bietet die Werkzeuge die Sie "
 "benötigen, um alles zu Kreieren, was Sie sich vorstellen können."
 
 #: ../../source/create.rst:9
@@ -380,7 +378,6 @@ msgstr ""
 "unterstützen nur Modelle in diesen Formaten: OBJ, FBX, und glTF."
 
 #: ../../source/create/3d-models.rst:7
-#, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
 "materials supported in Overte are Physically-based Rendering (PBR) "
@@ -388,8 +385,8 @@ msgid ""
 "light as they would (approximately) in real life."
 msgstr ""
 "Das Aussehen von 3D Modellen wird von deren Materialien bestimmt. Die "
-"Materialien die in Vircadia verwendet werden können sind Physically-based"
-" Rendering (PBR). Das bedeutet, das Materialien ungefähr so viel Licht "
+"Materialien die in Overte verwendet werden können sind Physically-based "
+"Rendering (PBR). Das bedeutet, das Materialien ungefähr so viel Licht "
 "absorbieren oder reflektieren, wie im echten Leben."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
@@ -399,13 +396,12 @@ msgid "**In This Section:**"
 msgstr "**In diesem Abschnitt:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
-#, fuzzy
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Overte."
 msgstr ""
-"Alle 3D Modelle sollten in einem von diesen Formaten sein: FBX, glTF oder"
-" OBJ. Außerdem sollten die Materialien von Vircadia unterstützt sein."
+"Alle 3D Modelle sollten in einem von diesen Formaten sein: FBX, glTF oder "
+"OBJ. Außerdem sollten die Materialien von Overte unterstützt sein."
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
@@ -451,15 +447,14 @@ msgstr ""
 "enthalten sind."
 
 #: ../../source/create/3d-models/get-model.rst:20
-#, fuzzy
 msgid ""
 "If a model loads into Overte and doesn't look right, you may also find "
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
-"Wenn ein Modell in Vircadia nicht korrekt geladen wird, können Sie auch "
-"Fehler Informationen in den Interface Logs finden. Siehe `Wo finde ich "
-"die Interface Log Dateien? <../../faq.html#interface-log-files>`_"
+"Wenn ein Modell in Overte nicht korrekt geladen wird, können Sie auch Fehler "
+"Informationen in den Interface Logs finden. Siehe `Wo finde ich die "
+"Interface Log Dateien? <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
@@ -479,28 +474,26 @@ msgid "The 3D model is in the FBX, glTF or OBJ format."
 msgstr "Das 3d Modell im FBX, glTF, oder OBJ Format ist."
 
 #: ../../source/create/3d-models/get-model.rst:29
-#, fuzzy
 msgid ""
 "The 3D model materials are supported by Overte. Use our :doc:`materials "
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
-"Die Materialien des 3D Modells von Vircadia unterstützt werden. Schauen "
-"Sie im :doc:`materials guide <pbr-materials-guide>` nach, um zu "
-"überprüfen, ob Ihre Materialien korrekt geladen werden können."
+"Die Materialien des 3D Modells von Overte unterstützt werden. Schauen Sie im "
+":doc:`materials guide <pbr-materials-guide>` nach, um zu überprüfen, ob Ihre "
+"Materialien korrekt geladen werden können."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
 msgstr "Die beste Herangehensweise"
 
 #: ../../source/create/3d-models/get-model.rst:35
-#, fuzzy
 msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
 msgstr ""
-"3D Modelle für Vircadia (und für VR) zu erstellen ist anders, als Modelle"
-" für Videos oder Computerspiele zu machen."
+"3D Modelle für Overte (und für VR) zu erstellen ist anders, als Modelle für "
+"Videos oder Computerspiele zu machen."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -526,13 +519,12 @@ msgstr ""
 "Nutzern Schwindel Gefühle auslösen könnte."
 
 #: ../../source/create/3d-models/get-model.rst:40
-#, fuzzy
 msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
 msgstr ""
-"Wir haben die besten Herangehensweisen um 3D Modelle für Vircadia (und "
-"für VR) zu erstellen aufgelistet."
+"Wir haben die besten Herangehensweisen um 3D Modelle für Overte (und für VR) "
+"zu erstellen aufgelistet."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -601,9 +593,8 @@ msgstr ""
 "zu geben."
 
 #: ../../source/create/3d-models/get-model.rst:59
-#, fuzzy
 msgid "Overte’s engine only supports one UV mapping per material."
-msgstr "Vircadias Engine unterstützt nur ein UV Mapping pro Material."
+msgstr "Overtes Engine unterstützt nur ein UV Mapping pro Material."
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -650,10 +641,9 @@ msgstr ""
 " masken, oder transparente texturen können Sie PNG-32 verwenden."
 
 #: ../../source/create/3d-models/get-model.rst:72
-#, fuzzy
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
 msgstr ""
-"Verwenden Sie weder PNG-48 noch PNG-64, da diese nicht von Vircadia "
+"Verwenden Sie weder PNG-48 noch PNG-64, da diese nicht von Overte "
 "unterstützt werden."
 
 #: ../../source/create/3d-models/get-model.rst:74
@@ -1100,7 +1090,6 @@ msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:7
-#, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
 "materials supported in Overte are physically-based rendering (PBR) "
@@ -1108,8 +1097,8 @@ msgid ""
 "light (approximately) like how they would in real life."
 msgstr ""
 "Das Aussehen von 3D Modellen wird von deren Materialien bestimmt. Die "
-"Materialien die in Vircadia verwendet werden können sind Physically-based"
-" Rendering (PBR). Das bedeutet, das Materialien ungefähr so viel Licht "
+"Materialien die in Overte verwendet werden können sind Physically-based "
+"Rendering (PBR). Das bedeutet, das Materialien ungefähr so viel Licht "
 "absorbieren oder reflektieren, wie im echten Leben."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:15
@@ -11591,18 +11580,17 @@ msgstr ""
 "vircadia/#interface>`_ downloaden."
 
 #: ../../source/explore/get-started/install.rst:165
-#, fuzzy
 msgid ""
 "You cannot upgrade Overte on Windows if you have Overte Interface or "
 "Server running on your computer. Be sure to quit these applications "
 "before upgrading. Keep in mind that Overte Server could be running in the"
 " background."
 msgstr ""
-"Sie können Vircadia unter Windows nicht aktualisieren, wenn auf Ihrem "
-"Computer ein Vircadia Interface oder ein Server ausgeführt wird. Stellen "
-"Sie sicher, dass Sie alle Vircadia Programme beenden, bevor Sie Vircadia "
-"updaten. Beachten Sie, dass auf ihrem Computer ein Vircadia Server "
-"möglicherweise im Hintergrund läuft."
+"Sie können Overte unter Windows nicht aktualisieren, solange auf Ihrem "
+"Computer ein Overte Interface oder ein Server ausgeführt wird. Stellen Sie "
+"sicher, dass Sie alle solche Programme beenden, bevor Sie Overte updaten. "
+"Beachten Sie, dass auf ihrem Computer ein Overte Server möglicherweise im "
+"Hintergrund läuft."
 
 #: ../../source/explore/get-started/install.rst:168
 msgid ""
@@ -13704,13 +13692,12 @@ msgid "Frequently Asked Questions"
 msgstr "Häufig gestellte Fragen"
 
 #: ../../source/faq.rst:5
-#, fuzzy
 msgid ""
 "We get a lot of questions from our users! If you have questions about "
 "Overte, feel free to browse through this page to learn more."
 msgstr ""
-"Wir bekommen viele Fragen von unseren Nutzern! Wenn du Fragen zu Vircadia"
-" hast, kannst du diese Seite durchsuchen, um mehr zu erfahren."
+"Wir bekommen viele Fragen von unseren Nutzern! Wenn du Fragen zu Overte "
+"hast, kannst du diese Seite durchsuchen, um mehr zu erfahren."
 
 #: ../../source/faq.rst:13
 msgid "Content Creation"
@@ -13778,32 +13765,28 @@ msgstr ""
 "gespeichert:"
 
 #: ../../source/faq.rst:44
-#, fuzzy
 msgid "**Windows**: ``%AppData%\\Roaming\\Overte\\domain-server\\``"
-msgstr "**Windows**: ``%AppData%\\Roaming\\Vircadia\\domain-server\\``"
+msgstr "**Windows**: ``%AppData%\\Roaming\\Overte\\domain-server\\``"
 
 #: ../../source/faq.rst:45
-#, fuzzy
 msgid "**Mac**: ``~/Library/Application Support/Overte/domain-server/``"
-msgstr "**Mac**: ``~/Library/Application Support/Vircadia/domain-server/``"
+msgstr "**Mac**: ``~/Library/Application Support/Overte/domain-server/``"
 
 #: ../../source/faq.rst:46
-#, fuzzy
 msgid "**Linux**: ``/var/lib/overte/default/domain-server/``"
-msgstr "**Linux**: ``/var/lib/vircadia/default/domain-server/``"
+msgstr "**Linux**: ``/var/lib/overte/default/domain-server/``"
 
 #: ../../source/faq.rst:53
 msgid "`Where do I find the Interface log files? <#interface-log-files>`_"
 msgstr "`Wo finde ich die Protokolldateien des Interface? <#interface-log-files>`_"
 
 #: ../../source/faq.rst:54
-#, fuzzy
 msgid ""
 "`How do I access the hidden folders that most Overte files are stored in?"
 " <#file-manager-help>`_"
 msgstr ""
 "`Wie kann ich auf die versteckten Ordner zugreifen, in denen die meisten "
-"Vircadia-Dateien gespeichert werden? <#file-manager-help>`_"
+"Overte-Dateien gespeichert werden? <#file-manager-help>`_"
 
 #: ../../source/faq.rst:55
 msgid "`Why can't I connect to a domain? <#cannot-connect>`_"
@@ -13814,9 +13797,8 @@ msgid "`No one can hear me! <#no-input>`_"
 msgstr "`Keiner kann mich hören! <#no-input>`_"
 
 #: ../../source/faq.rst:57
-#, fuzzy
 msgid "`I can't hear anything in Overte <#no-output>`_"
-msgstr "`Ich kann in Vircadia nichts hören <#no-output>`_"
+msgstr "`Ich kann in Overte nichts hören <#no-output>`_"
 
 #: ../../source/faq.rst:58
 msgid ""
@@ -13841,44 +13823,38 @@ msgstr ""
 "Verzeichnissen:"
 
 #: ../../source/faq.rst:68
-#, fuzzy
 msgid "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
-msgstr "**Windows**: ``%AppData%\\Local\\Vircadia\\Interface\\Logs\\``"
+msgstr "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
 
 #: ../../source/faq.rst:69
-#, fuzzy
 msgid "**Mac**: ``~/Library/Application Support/Overte/Interface/Logs/``"
-msgstr "**Mac**: ``~/Library/Application Support/Vircadia/Interface/Logs/``"
+msgstr "**Mac**: ``~/Library/Application Support/Overte/Interface/Logs/``"
 
 #: ../../source/faq.rst:70
-#, fuzzy
 msgid "**Linux**: ``~/.local/share/Overte/Interface/Logs/``"
-msgstr "**Linux**: ``~/.local/share/Vircadia/Interface/Logs/``"
+msgstr "**Linux**: ``~/.local/share/Overte/Interface/Logs/``"
 
 #: ../../source/faq.rst:72
-#, fuzzy
 msgid ""
 "The Overte folder name might be different on development or testing "
 "builds. E.g. ``Overte - dev``."
 msgstr ""
-"Der Name des Vircadia-Ordners kann bei Entwicklungs- und Testversionen "
-"unterschiedlich sein. Z.B. ``Vircadia - dev``."
+"Der Name des Overte-Ordners kann bei Entwicklungs- und Testversionen "
+"unterschiedlich sein. Z.B. ``Overte - dev``."
 
 #: ../../source/faq.rst:79
-#, fuzzy
 msgid "How do I access the hidden folders that most Overte files are stored in?"
 msgstr ""
 "Wie kann ich auf die versteckten Ordner zugreifen, in denen die meisten "
-"Vircadia-Dateien gespeichert werden?"
+"Overte-Dateien gespeichert werden?"
 
 #: ../../source/faq.rst:81
-#, fuzzy
 msgid ""
 "On all currently supported operating systems the folders that Overte "
 "stores most of its data in are hidden."
 msgstr ""
-"Auf allen derzeit unterstützten Betriebssystemen sind die Ordner, in "
-"denen Vircadia die meisten Daten speichert, versteckt."
+"Auf allen derzeit unterstützten Betriebssystemen sind die Ordner, in denen "
+"Overte die meisten Daten speichert, versteckt."
 
 #: ../../source/faq.rst:84
 msgid ""
@@ -13929,11 +13905,10 @@ msgstr ""
 "dieser zu erhalten."
 
 #: ../../source/faq.rst:104
-#, fuzzy
 msgid "Ensure that your firewall settings allow you to run Overte."
 msgstr ""
-"Stelle sicher, dass deine Firewall-Einstellungen die Ausführung von "
-"Vircadia zulassen."
+"Stelle sicher, dass Ihre Firewall-Einstellungen die Ausführung von Overte "
+"zulässt."
 
 #: ../../source/faq.rst:106
 msgid ""
@@ -13968,17 +13943,15 @@ msgstr ""
 "niedrig eingestellt. Hier sind einige Schritte zur Fehlerbehebung:"
 
 #: ../../source/faq.rst:120
-#, fuzzy
 msgid ""
 "**Are you muted in Overte?** When logged in, check the upper left corner."
 " If you're muted, click the microphone to un-mute yourself."
 msgstr ""
-"**Bist du in Vircadia stummgeschaltet?** Wenn du eingeloggt bist, schaue "
-"in der oberen linken Ecke nach. Wenn du stummgeschaltet bist, klicke auf "
-"das Mikrofon, um die Stummschaltung aufzuheben."
+"**Sind Sie in Vircadia stummgeschaltet?** Wenn Sie eingeloggt sind, schauen "
+"Sie in der oberen linken Ecke nach. Wenn Sie stummgeschaltet sind, klicken "
+"Sie auf das Mikrofon, um die Stummschaltung aufzuheben."
 
 #: ../../source/faq.rst:122
-#, fuzzy
 msgid ""
 "**Is your physical output device muted or turned off?** Some headsets and"
 " microphones have a 'Power' and/or 'Mute' switch directly on the device "
@@ -13987,11 +13960,11 @@ msgid ""
 "turned on or the mute button may have been pressed."
 msgstr ""
 "**Ist das physische Ausgabegerät stummgeschaltet oder ausgeschaltet?** "
-"Einige Headsets und Mikrofone haben einen 'Power'- und/oder "
-"'Mute'-Schalter direkt am Gerät selbst. Diese Einstellung ist völlig "
-"unabhängig von der Stummschaltungsoption von Vircadia. Auch wenn du in "
-"Vircadia nicht stummgeschaltet bist, kann es sein, dass das Gerät selbst "
-"nicht eingeschaltet ist oder die Stummschaltungstaste gedrückt wurde."
+"Einige Headsets und Mikrofone haben einen 'Power'- und/oder 'Mute'-Schalter "
+"direkt am Gerät selbst. Diese Einstellung ist völlig unabhängig von der "
+"Stummschaltungsoption von Overte. Auch wenn Sie in Overte nicht "
+"stummgeschaltet sind, kann es sein, dass das Gerät selbst nicht "
+"eingeschaltet ist oder die Stummschaltungstaste gedrückt wurde."
 
 #: ../../source/faq.rst:129
 msgid ""
@@ -14066,7 +14039,7 @@ msgstr ""
 #: ../../source/faq.rst:163
 #, fuzzy
 msgid "I can't hear anything in Overte."
-msgstr "`Ich kann in Vircadia nichts hören <#no-output>`_"
+msgstr "`Ich kann in Overte nichts hören <#no-output>`_"
 
 #: ../../source/faq.rst:165
 msgid "Here are some reasons you might not have audio:"
@@ -14260,19 +14233,17 @@ msgid "Home"
 msgstr "Start"
 
 #: ../../source/home.rst:5 ../../source/index.rst:5
-#, fuzzy
 msgid ""
 "Overte is open-source software which enables you to create and share "
 "virtual worlds as virtual reality (VR) and desktop experiences. You can "
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
 msgstr ""
-"Vircadia ist eine freie Open-Source Software die es Ihnen ermöglicht "
-"virtuelle Welten in der virtuellen Realität (VR) oder auf dem Desktop-"
-"Computer zu erstellen, teilen und zu erleben."
+"Overte ist eine freie Open-Source Software die es Ihnen ermöglicht virtuelle "
+"Welten in der virtuellen Realität (VR) oder auf dem Desktop-Computer zu "
+"erstellen, teilen und zu erleben."
 
 #: ../../source/home.rst:8 ../../source/index.rst:8
-#, fuzzy
 msgid ""
 "The Overte virtual worlds software provides built-in social features, "
 "including avatar interactions, spatialized audio, and interactive "
@@ -14281,48 +14252,44 @@ msgid ""
 "always be able to interact with your environment, engage with your "
 "friends, and listen to conversations just like you would in real life."
 msgstr ""
-"Das Vircadia Metaversum stellt eingebaute soziale Funktionen wie Avatar-"
+"Das Overte Metaversum stellt eingebaute soziale Funktionen wie Avatar-"
 "Interaktionen, räumlichen Ton und interaktive Physik bereit. Zusätzlich "
-"haben Sie die Möglichkeit jegliche 3D-Modelle in Ihrer virtuellen "
-"Umgebung einzubringen. Egal wo Sie sich in Vircadia befinden, Sie werden "
-"immer in der Lage sein mit Ihrer Umgebung zu interagieren, Ihre Freunde "
-"zu treffen und Konversationen zu führen genau wie in der echten Welt."
+"haben Sie die Möglichkeit jegliche 3D-Modelle in Ihrer virtuellen Umgebung "
+"einzubringen. Egal wo Sie sich in Overte befinden, Sie werden immer in der "
+"Lage sein mit Ihrer Umgebung zu interagieren, Ihre Freunde zu treffen und "
+"Konversationen zu führen genau wie in der echten Welt."
 
 #: ../../source/home.rst:12 ../../source/index.rst:12
-#, fuzzy
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
-":doc:`Holen Sie sich Vircadia <explore/get-started/install>` |Download| "
-"oder schauen Sie sich unsere :doc:`Galerie <explore/gallery>` |Gallery| "
-"an."
+":doc:`Holen Sie sich Overte <explore/get-started/install>` |Download| oder "
+"schauen Sie sich unsere :doc:`Galerie <explore/gallery>` |Gallery| an."
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "Download"
 msgstr ""
 
 #: ../../source/home.rst:26 ../../source/index.rst:26
-#, fuzzy
 msgid ""
 "In addition to the documentation, you can join the discussion on the "
 "Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ or `Discord "
 "server <https://discord.gg/4YuQvc8K2f>`__ |Discord|."
 msgstr ""
-"Neben dieser Dokumentation können Sie auch an der Diskussion auf dem "
-"Vircadia `Discord Server <https://discordapp.com/invite/Pvx2vke>`__ "
-"|Discord| teilnehmen."
+"Neben dieser Dokumentation können Sie auch an der Diskussion auf dem Overte `"
+"Matrix <https://matrix.to/#/#overte:matrix.org>`_ oder `Discord Server "
+"<https://discord.gg/4YuQvc8K2f>`__ |Discord| teilnehmen."
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "Discord"
 msgstr ""
 
 #: ../../source/home.rst:35 ../../source/index.rst:35
-#, fuzzy
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
 msgstr ""
-"Diese Dokumentation wurde im Original auf `Englisch "
-"<https://docs.vircadia.dev/>`_ verfasst."
+"Diese Dokumentation wurde im Original auf `Englisch <https://docs.overte.org/"
+">`_ verfasst."
 
 #: ../../source/home.rst:37 ../../source/index.rst:37
 msgid "The following translations are available:"
@@ -14380,7 +14347,7 @@ msgstr "Was kann ich machen?"
 #: ../../source/home.rst:69 ../../source/index.rst:69
 #, fuzzy
 msgid "You have the power to shape your VR experience in Overte."
-msgstr "Sie können Ihr VR-Erlebnis in Vircadia selbst gestallten."
+msgstr "Sie können Ihr VR-Erlebnis in Overte selbst gestallten."
 
 #: ../../source/home.rst:71 ../../source/index.rst:71
 msgid ""
@@ -27052,7 +27019,6 @@ msgid "Crash Reporting Privacy"
 msgstr "Datenschutz von Absturzberichten"
 
 #: ../../source/security/reporting/crash-reporting.md:3
-#, fuzzy
 msgid ""
 "Your interface has crash reporting disabled by default. You can "
 "enable/disable this in the **Settings > General** menu. When this is "
@@ -27060,12 +27026,11 @@ msgid ""
 "server that the Overte developers have access to. The current crash "
 "management server is called [Sentry](https://sentry.io/)."
 msgstr ""
-"Standardmäßig sind Absturzberichte vom Interface deaktiviert. Die kann im"
-" Menü **Settings > General** aktiviert/deaktiviert werden. Wenn dies "
-"aktiviert ist, sendet das Interface einen Minidump mit Informationen an "
-"den Berichtsserver, auf den die Vircadia-Entwickler Zugriff haben. Der "
-"aktuelle Absturzmanagement-Server Server heißt "
-"[Sentry](https://sentry.io/)."
+"Standardmäßig sind Absturzberichte vom Interface deaktiviert. Die kann im "
+"Menü **Settings > General** aktiviert/deaktiviert werden. Wenn dies "
+"aktiviert ist, sendet das Interface einen Minidump mit Informationen an den "
+"Berichtsserver, auf den die Overte-Entwickler Zugriff haben. Der aktuelle "
+"Absturzmanagement-Server Server heißt [Sentry](https://sentry.io/)."
 
 #: ../../source/security/reporting/crash-reporting.md:5
 msgid ""
@@ -30255,4 +30220,3 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ "Window' in Vircadia. ![](_images/hello-"
 #~ "world.png)"
 #~ msgstr ""
-
