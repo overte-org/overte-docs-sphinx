@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-03-27 20:16+0000\n"
-"PO-Revision-Date: 2022-04-02 03:43+0000\n"
-"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2022-04-02 11:10+0000\n"
+"Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/ja/>\n"
 "Language: jp\n"
@@ -346,7 +346,7 @@ msgstr "3Dモデルの入手"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr "3Dモデルのエクスポート"
+msgstr "3Dモデルのインポート"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
