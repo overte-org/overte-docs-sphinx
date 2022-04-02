@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-03-27 20:16+0000\n"
-"PO-Revision-Date: 2022-04-02 03:43+0000\n"
+"PO-Revision-Date: 2022-04-03 11:06+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/de/>\n"
@@ -14385,7 +14385,7 @@ msgstr ""
 
 #: ../../source/home.rst:75 ../../source/index.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
-msgstr ":doc:`Beitragen <contribute>`zum Projekt."
+msgstr ":doc:`Beitragen <contribute>` zum Projekt."
 
 #: ../../source/home.rst:76 ../../source/index.rst:76
 msgid ""
