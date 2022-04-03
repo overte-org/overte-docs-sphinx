@@ -24,7 +24,7 @@ Translation
 -----------
 As an international project, Overte relies on translators to be able to reach users that do not speak English.
 Currently the only component that has translation support is the documentation.
-You can help translating using our online translation system `Weblate <https://weblate.vircadia.dev>`_ by either submitting translations or becoming a maintainer for your language and checking translations before they make it into the documentation.
+You can help translating using our online translation system `Weblate <https://hosted.weblate.org/projects/overte/overte-documentation/>`_ by either submitting translations or becoming a maintainer for your language and checking translations before they make it into the documentation.
 More information on translating the documentation can be found in its `README <https://github.com/overte-org/overte-docs-sphinx/blob/master/README.md>`_.
 
 ---------
@@ -49,7 +49,7 @@ You can help the general development of the Overte project without being a devel
 
 If you are a developer, you can contribute directly to the project via pull requests. Keep the `guidelines <https://github.com/overte-org/overte/blob/master/CONTRIBUTING.md>`_ in mind when contributing to the main software.
 Some additional information can be found in the :doc:`Developer Section <developer>`.
-An important job for developers that have become more accustomed to the platform is `code reviews <https://github.com/overte-org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A"needs+CR+(code+review)">`_ of open pull requests.
+An important job for developers that have become more accustomed to the platform is `code reviews <https://github.com/overte-org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of open pull requests.
 
 ------------------
 Miscellaneous Work

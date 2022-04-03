@@ -36,31 +36,31 @@ This documentation is authored in `English <https://docs.overte.org/>`_.
 
 The following translations are available:
 
-* `Deutsch <https://docs.overte.org/de/>`_ |de_trans|
-* `Español <https://docs.overte.org/es/>`_ |es_trans|
-* `Français <https://docs.overte.org/fr/>`_ |fr_trans|
-* `日本語 <https://docs.overte.org/jp/>`_ |jp_trans|
-* `한국어 <https://docs.overte.org/ko/>`_ |ko_trans|
+* `Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|
+* `Español <https://docs.overte.org/es/latest/>`_ |es_trans|
+* `Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|
+* `日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|
+* `한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|
 
-.. |de_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/de/svg-badge.svg
+.. |de_trans| image:: https://hosted.weblate.org/widgets/overte/de/overte-documentation/svg-badge.svg
               :class: inline
-              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/de/?utm_source=widget
+              :target: https://hosted.weblate.org/engage/overte/de/?utm_source=widget
 
-.. |es_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/es/svg-badge.svg
+.. |es_trans| image:: https://hosted.weblate.org/widgets/overte/es/overte-documentation/svg-badge.svg
               :class: inline
-              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/es/?utm_source=widget
+              :target: https://hosted.weblate.org/engage/overte/es/?utm_source=widget
 
-.. |fr_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/fr/svg-badge.svg
+.. |fr_trans| image:: https://hosted.weblate.org/widgets/overte/fr/overte-documentation/svg-badge.svg
               :class: inline
-              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/fr/?utm_source=widget
+              :target: https://hosted.weblate.org/engage/overte/fr/?utm_source=widget
 
-.. |jp_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/ja/svg-badge.svg
+.. |jp_trans| image:: https://hosted.weblate.org/widgets/overte/ja/overte-documentation/svg-badge.svg
               :class: inline
-              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/ja/?utm_source=widget
+              :target: https://hosted.weblate.org/engage/overte/ja/?utm_source=widget
 
-.. |ko_trans| image:: https://weblate.vircadia.dev/widgets/vircadia-documentation/ko/svg-badge.svg
+.. |ko_trans| image:: https://hosted.weblate.org/widgets/overte/ko/overte-documentation/svg-badge.svg
               :class: inline
-              :target: https://weblate.vircadia.dev/engage/vircadia-documentation/ko/?utm_source=widget
+              :target: https://hosted.weblate.org/engage/overte/ko/?utm_source=widget
 
 -------------------------
 What can I do?
