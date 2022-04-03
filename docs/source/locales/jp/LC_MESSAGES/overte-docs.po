@@ -10,17 +10,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-03-27 20:16+0000\n"
+"POT-Creation-Date: 2022-04-03 19:45+0000\n"
 "PO-Revision-Date: 2022-04-02 11:10+0000\n"
 "Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
-"overte-documentation/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/overte"
+"/overte-documentation/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/contribute.rst:3
@@ -143,11 +141,12 @@ msgid ""
 "reach users that do not speak English. Currently the only component that "
 "has translation support is the documentation. You can help translating "
 "using our online translation system `Weblate "
-"<https://weblate.vircadia.dev>`_ by either submitting translations or "
-"becoming a maintainer for your language and checking translations before "
-"they make it into the documentation. More information on translating the "
-"documentation can be found in its `README <https://github.com/overte-org"
-"/overte-docs-sphinx/blob/master/README.md>`_."
+"<https://hosted.weblate.org/projects/overte/overte-documentation/>`_ by "
+"either submitting translations or becoming a maintainer for your language"
+" and checking translations before they make it into the documentation. "
+"More information on translating the documentation can be found in its "
+"`README <https://github.com/overte-org/overte-docs-"
+"sphinx/blob/master/README.md>`_."
 msgstr ""
 
 #: ../../source/contribute.rst:32
@@ -212,8 +211,8 @@ msgid ""
 ":doc:`Developer Section <developer>`. An important job for developers "
 "that have become more accustomed to the platform is `code reviews "
 "<https://github.com/overte-"
-"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
-" of open pull requests."
+"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
+"open pull requests."
 msgstr ""
 
 #: ../../source/contribute.rst:56
@@ -316,21 +315,14 @@ msgid ""
 "or developing apps and scripts. To truly make the experience your own, "
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
-msgstr ""
-"Overteでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザー"
-"が集まり、お互いの創造性を表現することができます。ここではアバターやコンテン"
-"ツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならで"
-"はのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ"
-"変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Overt"
-"eエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
+msgstr "Overteでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターやコンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Overteエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
 
 #: ../../source/create.rst:7
 #, fuzzy
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
-msgstr "専門知識のレベルに関わらず、Overteはあなたが想像できるあらゆるものを作成する"
-"ために必要なツールを提供します。"
+msgstr "専門知識のレベルに関わらず、Overteはあなたが想像できるあらゆるものを作成するために必要なツールを提供します。"
 
 #: ../../source/create.rst:9
 #, fuzzy
@@ -13906,11 +13898,7 @@ msgid ""
 "virtual worlds as virtual reality (VR) and desktop experiences. You can "
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
-msgstr ""
-"Overteは、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワー"
-"ルドを作成し、共有することができるオープンソースのソフトウェアです。自分だけ"
-"のワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会っ"
-"てつながったり、ライブVRイベントに参加したりすることができます。"
+msgstr "Overteは、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワールドを作成し、共有することができるオープンソースのソフトウェアです。自分だけのワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会ってつながったり、ライブVRイベントに参加したりすることができます。"
 
 #: ../../source/home.rst:8 ../../source/index.rst:8
 #, fuzzy
@@ -13921,12 +13909,7 @@ msgid ""
 "your virtual environment. No matter where you go in Overte, you will "
 "always be able to interact with your environment, engage with your "
 "friends, and listen to conversations just like you would in real life."
-msgstr ""
-"OverteのMetaverse（メタバース）には、アバターのインタラクション、空間化された"
-"オーディオ、インタラクティブな物理演算などのソーシャル機能が組み込まれていま"
-"す。さらに、あらゆる3Dオブジェクトを仮想環境へインポートする機能もあります。O"
-"verteではどこへ行っても環境とインタラクトすることができ、フレンドやユーザーと"
-"の会話を楽しむことができます。"
+msgstr "OverteのMetaverse（メタバース）には、アバターのインタラクション、空間化されたオーディオ、インタラクティブな物理演算などのソーシャル機能が組み込まれています。さらに、あらゆる3Dオブジェクトを仮想環境へインポートする機能もあります。Overteではどこへ行っても環境とインタラクトすることができ、フレンドやユーザーとの会話を楽しむことができます。"
 
 #: ../../source/home.rst:12 ../../source/index.rst:12
 #, fuzzy
@@ -13934,8 +13917,8 @@ msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
-":doc:`Overteをダウンロードする<explore/get-started/install>` |Download|、"
-"もしくは :doc:`ギャラリーを見る<explore/gallery>` |Gallery|。"
+":doc:`Overteをダウンロードする<explore/get-started/install>` |Download|、もしくは "
+":doc:`ギャラリーを見る<explore/gallery>` |Gallery|。"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "Download"
@@ -13948,8 +13931,8 @@ msgid ""
 "Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ or `Discord "
 "server <https://discord.gg/4YuQvc8K2f>`__ |Discord|."
 msgstr ""
-"ドキュメントに加えて、Overte の `Discord サーバー <https://discord.gg/"
-"4YuQvc8K2f>`__ |Discord| に参加できます。"
+"ドキュメントに加えて、Overte の `Discord サーバー <https://discord.gg/4YuQvc8K2f>`__ "
+"|Discord| に参加できます。"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "Discord"
@@ -13958,8 +13941,7 @@ msgstr ""
 #: ../../source/home.rst:35 ../../source/index.rst:35
 #, fuzzy
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
-msgstr "このドキュメンテーションの原文は `英語 <https://docs.overte.org/>`_ "
-"で執筆されたものです。"
+msgstr "このドキュメンテーションの原文は `英語 <https://docs.overte.org/>`_ で執筆されたものです。"
 
 #: ../../source/home.rst:37 ../../source/index.rst:37
 msgid "The following translations are available:"
@@ -13967,7 +13949,7 @@ msgstr "以下の翻訳が利用可能です："
 
 #: ../../source/home.rst:39 ../../source/index.rst:39
 #, fuzzy
-msgid "`Deutsch <https://docs.overte.org/de/>`_ |de_trans|"
+msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -13976,7 +13958,7 @@ msgstr ""
 
 #: ../../source/home.rst:40 ../../source/index.rst:40
 #, fuzzy
-msgid "`Español <https://docs.overte.org/es/>`_ |es_trans|"
+msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -13985,7 +13967,7 @@ msgstr ""
 
 #: ../../source/home.rst:41 ../../source/index.rst:41
 #, fuzzy
-msgid "`Français <https://docs.overte.org/fr/>`_ |fr_trans|"
+msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -13994,7 +13976,7 @@ msgstr ""
 
 #: ../../source/home.rst:42 ../../source/index.rst:42
 #, fuzzy
-msgid "`日本語 <https://docs.overte.org/jp/>`_ |jp_trans|"
+msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -14003,7 +13985,7 @@ msgstr ""
 
 #: ../../source/home.rst:43 ../../source/index.rst:43
 #, fuzzy
-msgid "`한국어 <https://docs.overte.org/ko/>`_ |ko_trans|"
+msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -29887,3 +29869,40 @@ msgstr "メタバースセッションUUID"
 #~ "management server is called "
 #~ "[Sentry](https://sentry.io/)."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "As an international project, Overte "
+#~ "relies on translators to be able "
+#~ "to reach users that do not speak"
+#~ " English. Currently the only component "
+#~ "that has translation support is the "
+#~ "documentation. You can help translating "
+#~ "using our online translation system "
+#~ "`Weblate <https://weblate.vircadia.dev>`_ by either"
+#~ " submitting translations or becoming a "
+#~ "maintainer for your language and "
+#~ "checking translations before they make "
+#~ "it into the documentation. More "
+#~ "information on translating the documentation"
+#~ " can be found in its `README "
+#~ "<https://github.com/overte-org/overte-docs-"
+#~ "sphinx/blob/master/README.md>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are a developer, you can"
+#~ " contribute directly to the project "
+#~ "via pull requests. Keep the `guidelines"
+#~ " <https://github.com/overte-"
+#~ "org/overte/blob/master/CONTRIBUTING.md>`_ in mind "
+#~ "when contributing to the main software."
+#~ " Some additional information can be "
+#~ "found in the :doc:`Developer Section "
+#~ "<developer>`. An important job for "
+#~ "developers that have become more "
+#~ "accustomed to the platform is `code "
+#~ "reviews <https://github.com/overte-"
+#~ "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
+#~ " of open pull requests."
+#~ msgstr ""
+

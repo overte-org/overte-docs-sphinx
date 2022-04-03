@@ -10,17 +10,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-03-27 20:16+0000\n"
+"POT-Creation-Date: 2022-04-03 19:45+0000\n"
 "PO-Revision-Date: 2022-04-03 11:06+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/overte/"
-"overte-documentation/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://hosted.weblate.org/projects/overte/overte-"
+"documentation/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/contribute.rst:3
@@ -144,11 +143,12 @@ msgid ""
 "reach users that do not speak English. Currently the only component that "
 "has translation support is the documentation. You can help translating "
 "using our online translation system `Weblate "
-"<https://weblate.vircadia.dev>`_ by either submitting translations or "
-"becoming a maintainer for your language and checking translations before "
-"they make it into the documentation. More information on translating the "
-"documentation can be found in its `README <https://github.com/overte-org"
-"/overte-docs-sphinx/blob/master/README.md>`_."
+"<https://hosted.weblate.org/projects/overte/overte-documentation/>`_ by "
+"either submitting translations or becoming a maintainer for your language"
+" and checking translations before they make it into the documentation. "
+"More information on translating the documentation can be found in its "
+"`README <https://github.com/overte-org/overte-docs-"
+"sphinx/blob/master/README.md>`_."
 msgstr ""
 
 #: ../../source/contribute.rst:32
@@ -214,8 +214,8 @@ msgid ""
 ":doc:`Developer Section <developer>`. An important job for developers "
 "that have become more accustomed to the platform is `code reviews "
 "<https://github.com/overte-"
-"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
-" of open pull requests."
+"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
+"open pull requests."
 msgstr ""
 
 #: ../../source/contribute.rst:56
@@ -400,8 +400,8 @@ msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Overte."
 msgstr ""
-"Alle 3D Modelle sollten in einem von diesen Formaten sein: FBX, glTF oder "
-"OBJ. Außerdem sollten die Materialien von Overte unterstützt sein."
+"Alle 3D Modelle sollten in einem von diesen Formaten sein: FBX, glTF oder"
+" OBJ. Außerdem sollten die Materialien von Overte unterstützt sein."
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
@@ -452,9 +452,9 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
-"Wenn ein Modell in Overte nicht korrekt geladen wird, können Sie auch Fehler "
-"Informationen in den Interface Logs finden. Siehe `Wo finde ich die "
-"Interface Log Dateien? <../../faq.html#interface-log-files>`_"
+"Wenn ein Modell in Overte nicht korrekt geladen wird, können Sie auch "
+"Fehler Informationen in den Interface Logs finden. Siehe `Wo finde ich "
+"die Interface Log Dateien? <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
@@ -479,9 +479,9 @@ msgid ""
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
-"Die Materialien des 3D Modells von Overte unterstützt werden. Schauen Sie im "
-":doc:`materials guide <pbr-materials-guide>` nach, um zu überprüfen, ob Ihre "
-"Materialien korrekt geladen werden können."
+"Die Materialien des 3D Modells von Overte unterstützt werden. Schauen Sie"
+" im :doc:`materials guide <pbr-materials-guide>` nach, um zu überprüfen, "
+"ob Ihre Materialien korrekt geladen werden können."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
@@ -492,8 +492,8 @@ msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
 msgstr ""
-"3D Modelle für Overte (und für VR) zu erstellen ist anders, als Modelle für "
-"Videos oder Computerspiele zu machen."
+"3D Modelle für Overte (und für VR) zu erstellen ist anders, als Modelle "
+"für Videos oder Computerspiele zu machen."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -523,8 +523,8 @@ msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
 msgstr ""
-"Wir haben die besten Herangehensweisen um 3D Modelle für Overte (und für VR) "
-"zu erstellen aufgelistet."
+"Wir haben die besten Herangehensweisen um 3D Modelle für Overte (und für "
+"VR) zu erstellen aufgelistet."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -11587,10 +11587,10 @@ msgid ""
 " background."
 msgstr ""
 "Sie können Overte unter Windows nicht aktualisieren, solange auf Ihrem "
-"Computer ein Overte Interface oder ein Server ausgeführt wird. Stellen Sie "
-"sicher, dass Sie alle solche Programme beenden, bevor Sie Overte updaten. "
-"Beachten Sie, dass auf ihrem Computer ein Overte Server möglicherweise im "
-"Hintergrund läuft."
+"Computer ein Overte Interface oder ein Server ausgeführt wird. Stellen "
+"Sie sicher, dass Sie alle solche Programme beenden, bevor Sie Overte "
+"updaten. Beachten Sie, dass auf ihrem Computer ein Overte Server "
+"möglicherweise im Hintergrund läuft."
 
 #: ../../source/explore/get-started/install.rst:168
 msgid ""
@@ -13853,8 +13853,8 @@ msgid ""
 "On all currently supported operating systems the folders that Overte "
 "stores most of its data in are hidden."
 msgstr ""
-"Auf allen derzeit unterstützten Betriebssystemen sind die Ordner, in denen "
-"Overte die meisten Daten speichert, versteckt."
+"Auf allen derzeit unterstützten Betriebssystemen sind die Ordner, in "
+"denen Overte die meisten Daten speichert, versteckt."
 
 #: ../../source/faq.rst:84
 msgid ""
@@ -13907,8 +13907,8 @@ msgstr ""
 #: ../../source/faq.rst:104
 msgid "Ensure that your firewall settings allow you to run Overte."
 msgstr ""
-"Stelle sicher, dass Ihre Firewall-Einstellungen die Ausführung von Overte "
-"zulässt."
+"Stelle sicher, dass Ihre Firewall-Einstellungen die Ausführung von Overte"
+" zulässt."
 
 #: ../../source/faq.rst:106
 msgid ""
@@ -13947,9 +13947,9 @@ msgid ""
 "**Are you muted in Overte?** When logged in, check the upper left corner."
 " If you're muted, click the microphone to un-mute yourself."
 msgstr ""
-"**Sind Sie in Vircadia stummgeschaltet?** Wenn Sie eingeloggt sind, schauen "
-"Sie in der oberen linken Ecke nach. Wenn Sie stummgeschaltet sind, klicken "
-"Sie auf das Mikrofon, um die Stummschaltung aufzuheben."
+"**Sind Sie in Vircadia stummgeschaltet?** Wenn Sie eingeloggt sind, "
+"schauen Sie in der oberen linken Ecke nach. Wenn Sie stummgeschaltet "
+"sind, klicken Sie auf das Mikrofon, um die Stummschaltung aufzuheben."
 
 #: ../../source/faq.rst:122
 msgid ""
@@ -13960,11 +13960,11 @@ msgid ""
 "turned on or the mute button may have been pressed."
 msgstr ""
 "**Ist das physische Ausgabegerät stummgeschaltet oder ausgeschaltet?** "
-"Einige Headsets und Mikrofone haben einen 'Power'- und/oder 'Mute'-Schalter "
-"direkt am Gerät selbst. Diese Einstellung ist völlig unabhängig von der "
-"Stummschaltungsoption von Overte. Auch wenn Sie in Overte nicht "
-"stummgeschaltet sind, kann es sein, dass das Gerät selbst nicht "
-"eingeschaltet ist oder die Stummschaltungstaste gedrückt wurde."
+"Einige Headsets und Mikrofone haben einen 'Power'- und/oder "
+"'Mute'-Schalter direkt am Gerät selbst. Diese Einstellung ist völlig "
+"unabhängig von der Stummschaltungsoption von Overte. Auch wenn Sie in "
+"Overte nicht stummgeschaltet sind, kann es sein, dass das Gerät selbst "
+"nicht eingeschaltet ist oder die Stummschaltungstaste gedrückt wurde."
 
 #: ../../source/faq.rst:129
 msgid ""
@@ -14239,9 +14239,9 @@ msgid ""
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
 msgstr ""
-"Overte ist eine freie Open-Source Software die es Ihnen ermöglicht virtuelle "
-"Welten in der virtuellen Realität (VR) oder auf dem Desktop-Computer zu "
-"erstellen, teilen und zu erleben."
+"Overte ist eine freie Open-Source Software die es Ihnen ermöglicht "
+"virtuelle Welten in der virtuellen Realität (VR) oder auf dem Desktop-"
+"Computer zu erstellen, teilen und zu erleben."
 
 #: ../../source/home.rst:8 ../../source/index.rst:8
 msgid ""
@@ -14254,18 +14254,19 @@ msgid ""
 msgstr ""
 "Das Overte Metaversum stellt eingebaute soziale Funktionen wie Avatar-"
 "Interaktionen, räumlichen Ton und interaktive Physik bereit. Zusätzlich "
-"haben Sie die Möglichkeit jegliche 3D-Modelle in Ihrer virtuellen Umgebung "
-"einzubringen. Egal wo Sie sich in Overte befinden, Sie werden immer in der "
-"Lage sein mit Ihrer Umgebung zu interagieren, Ihre Freunde zu treffen und "
-"Konversationen zu führen genau wie in der echten Welt."
+"haben Sie die Möglichkeit jegliche 3D-Modelle in Ihrer virtuellen "
+"Umgebung einzubringen. Egal wo Sie sich in Overte befinden, Sie werden "
+"immer in der Lage sein mit Ihrer Umgebung zu interagieren, Ihre Freunde "
+"zu treffen und Konversationen zu führen genau wie in der echten Welt."
 
 #: ../../source/home.rst:12 ../../source/index.rst:12
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
-":doc:`Holen Sie sich Overte <explore/get-started/install>` |Download| oder "
-"schauen Sie sich unsere :doc:`Galerie <explore/gallery>` |Gallery| an."
+":doc:`Holen Sie sich Overte <explore/get-started/install>` |Download| "
+"oder schauen Sie sich unsere :doc:`Galerie <explore/gallery>` |Gallery| "
+"an."
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "Download"
@@ -14277,9 +14278,9 @@ msgid ""
 "Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ or `Discord "
 "server <https://discord.gg/4YuQvc8K2f>`__ |Discord|."
 msgstr ""
-"Neben dieser Dokumentation können Sie auch an der Diskussion auf dem Overte `"
-"Matrix <https://matrix.to/#/#overte:matrix.org>`_ oder `Discord Server "
-"<https://discord.gg/4YuQvc8K2f>`__ |Discord| teilnehmen."
+"Neben dieser Dokumentation können Sie auch an der Diskussion auf dem "
+"Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ oder `Discord "
+"Server <https://discord.gg/4YuQvc8K2f>`__ |Discord| teilnehmen."
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "Discord"
@@ -14288,8 +14289,8 @@ msgstr ""
 #: ../../source/home.rst:35 ../../source/index.rst:35
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
 msgstr ""
-"Diese Dokumentation wurde im Original auf `Englisch <https://docs.overte.org/"
-">`_ verfasst."
+"Diese Dokumentation wurde im Original auf `Englisch "
+"<https://docs.overte.org/>`_ verfasst."
 
 #: ../../source/home.rst:37 ../../source/index.rst:37
 msgid "The following translations are available:"
@@ -14297,7 +14298,7 @@ msgstr "Die folgenden Übersetzungen sind verfügbar:"
 
 #: ../../source/home.rst:39 ../../source/index.rst:39
 #, fuzzy
-msgid "`Deutsch <https://docs.overte.org/de/>`_ |de_trans|"
+msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -14306,7 +14307,7 @@ msgstr ""
 
 #: ../../source/home.rst:40 ../../source/index.rst:40
 #, fuzzy
-msgid "`Español <https://docs.overte.org/es/>`_ |es_trans|"
+msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 msgstr "`Spanisch <https://docs.vircadia.dev/es/>`_ |de_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -14315,7 +14316,7 @@ msgstr ""
 
 #: ../../source/home.rst:41 ../../source/index.rst:41
 #, fuzzy
-msgid "`Français <https://docs.overte.org/fr/>`_ |fr_trans|"
+msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr "`Französisch <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -14324,7 +14325,7 @@ msgstr ""
 
 #: ../../source/home.rst:42 ../../source/index.rst:42
 #, fuzzy
-msgid "`日本語 <https://docs.overte.org/jp/>`_ |jp_trans|"
+msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -14333,7 +14334,7 @@ msgstr ""
 
 #: ../../source/home.rst:43 ../../source/index.rst:43
 #, fuzzy
-msgid "`한국어 <https://docs.overte.org/ko/>`_ |ko_trans|"
+msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
@@ -27026,11 +27027,12 @@ msgid ""
 "server that the Overte developers have access to. The current crash "
 "management server is called [Sentry](https://sentry.io/)."
 msgstr ""
-"Standardmäßig sind Absturzberichte vom Interface deaktiviert. Die kann im "
-"Menü **Settings > General** aktiviert/deaktiviert werden. Wenn dies "
-"aktiviert ist, sendet das Interface einen Minidump mit Informationen an den "
-"Berichtsserver, auf den die Overte-Entwickler Zugriff haben. Der aktuelle "
-"Absturzmanagement-Server Server heißt [Sentry](https://sentry.io/)."
+"Standardmäßig sind Absturzberichte vom Interface deaktiviert. Die kann im"
+" Menü **Settings > General** aktiviert/deaktiviert werden. Wenn dies "
+"aktiviert ist, sendet das Interface einen Minidump mit Informationen an "
+"den Berichtsserver, auf den die Overte-Entwickler Zugriff haben. Der "
+"aktuelle Absturzmanagement-Server Server heißt "
+"[Sentry](https://sentry.io/)."
 
 #: ../../source/security/reporting/crash-reporting.md:5
 msgid ""
@@ -30220,3 +30222,40 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ "Window' in Vircadia. ![](_images/hello-"
 #~ "world.png)"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "As an international project, Overte "
+#~ "relies on translators to be able "
+#~ "to reach users that do not speak"
+#~ " English. Currently the only component "
+#~ "that has translation support is the "
+#~ "documentation. You can help translating "
+#~ "using our online translation system "
+#~ "`Weblate <https://weblate.vircadia.dev>`_ by either"
+#~ " submitting translations or becoming a "
+#~ "maintainer for your language and "
+#~ "checking translations before they make "
+#~ "it into the documentation. More "
+#~ "information on translating the documentation"
+#~ " can be found in its `README "
+#~ "<https://github.com/overte-org/overte-docs-"
+#~ "sphinx/blob/master/README.md>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are a developer, you can"
+#~ " contribute directly to the project "
+#~ "via pull requests. Keep the `guidelines"
+#~ " <https://github.com/overte-"
+#~ "org/overte/blob/master/CONTRIBUTING.md>`_ in mind "
+#~ "when contributing to the main software."
+#~ " Some additional information can be "
+#~ "found in the :doc:`Developer Section "
+#~ "<developer>`. An important job for "
+#~ "developers that have become more "
+#~ "accustomed to the platform is `code "
+#~ "reviews <https://github.com/overte-"
+#~ "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
+#~ " of open pull requests."
+#~ msgstr ""
+

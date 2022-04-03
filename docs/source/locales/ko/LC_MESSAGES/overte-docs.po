@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-03-27 20:16+0000\n"
+"POT-Creation-Date: 2022-04-03 19:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -140,11 +140,12 @@ msgid ""
 "reach users that do not speak English. Currently the only component that "
 "has translation support is the documentation. You can help translating "
 "using our online translation system `Weblate "
-"<https://weblate.vircadia.dev>`_ by either submitting translations or "
-"becoming a maintainer for your language and checking translations before "
-"they make it into the documentation. More information on translating the "
-"documentation can be found in its `README <https://github.com/overte-org"
-"/overte-docs-sphinx/blob/master/README.md>`_."
+"<https://hosted.weblate.org/projects/overte/overte-documentation/>`_ by "
+"either submitting translations or becoming a maintainer for your language"
+" and checking translations before they make it into the documentation. "
+"More information on translating the documentation can be found in its "
+"`README <https://github.com/overte-org/overte-docs-"
+"sphinx/blob/master/README.md>`_."
 msgstr ""
 
 #: ../../source/contribute.rst:32
@@ -208,8 +209,8 @@ msgid ""
 ":doc:`Developer Section <developer>`. An important job for developers "
 "that have become more accustomed to the platform is `code reviews "
 "<https://github.com/overte-"
-"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
-" of open pull requests."
+"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
+"open pull requests."
 msgstr ""
 
 #: ../../source/contribute.rst:56
@@ -13932,7 +13933,7 @@ msgid "The following translations are available:"
 msgstr ""
 
 #: ../../source/home.rst:39 ../../source/index.rst:39
-msgid "`Deutsch <https://docs.overte.org/de/>`_ |de_trans|"
+msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr ""
 
 #: ../../source/home.rst ../../source/index.rst
@@ -13940,7 +13941,7 @@ msgid "de_trans"
 msgstr ""
 
 #: ../../source/home.rst:40 ../../source/index.rst:40
-msgid "`Español <https://docs.overte.org/es/>`_ |es_trans|"
+msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 msgstr ""
 
 #: ../../source/home.rst ../../source/index.rst
@@ -13948,7 +13949,7 @@ msgid "es_trans"
 msgstr ""
 
 #: ../../source/home.rst:41 ../../source/index.rst:41
-msgid "`Français <https://docs.overte.org/fr/>`_ |fr_trans|"
+msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr ""
 
 #: ../../source/home.rst ../../source/index.rst
@@ -13956,7 +13957,7 @@ msgid "fr_trans"
 msgstr ""
 
 #: ../../source/home.rst:42 ../../source/index.rst:42
-msgid "`日本語 <https://docs.overte.org/jp/>`_ |jp_trans|"
+msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 msgstr ""
 
 #: ../../source/home.rst ../../source/index.rst
@@ -13964,7 +13965,7 @@ msgid "jp_trans"
 msgstr ""
 
 #: ../../source/home.rst:43 ../../source/index.rst:43
-msgid "`한국어 <https://docs.overte.org/ko/>`_ |ko_trans|"
+msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr ""
 
 #: ../../source/home.rst ../../source/index.rst
@@ -29918,5 +29919,56 @@ msgstr ""
 #~ " access to. The current crash "
 #~ "management server is called "
 #~ "[Sentry](https://sentry.io/)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "As an international project, Overte "
+#~ "relies on translators to be able "
+#~ "to reach users that do not speak"
+#~ " English. Currently the only component "
+#~ "that has translation support is the "
+#~ "documentation. You can help translating "
+#~ "using our online translation system "
+#~ "`Weblate <https://weblate.vircadia.dev>`_ by either"
+#~ " submitting translations or becoming a "
+#~ "maintainer for your language and "
+#~ "checking translations before they make "
+#~ "it into the documentation. More "
+#~ "information on translating the documentation"
+#~ " can be found in its `README "
+#~ "<https://github.com/overte-org/overte-docs-"
+#~ "sphinx/blob/master/README.md>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are a developer, you can"
+#~ " contribute directly to the project "
+#~ "via pull requests. Keep the `guidelines"
+#~ " <https://github.com/overte-"
+#~ "org/overte/blob/master/CONTRIBUTING.md>`_ in mind "
+#~ "when contributing to the main software."
+#~ " Some additional information can be "
+#~ "found in the :doc:`Developer Section "
+#~ "<developer>`. An important job for "
+#~ "developers that have become more "
+#~ "accustomed to the platform is `code "
+#~ "reviews <https://github.com/overte-"
+#~ "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
+#~ " of open pull requests."
+#~ msgstr ""
+
+#~ msgid "`Deutsch <https://docs.overte.org/de/>`_ |de_trans|"
+#~ msgstr ""
+
+#~ msgid "`Español <https://docs.overte.org/es/>`_ |es_trans|"
+#~ msgstr ""
+
+#~ msgid "`Français <https://docs.overte.org/fr/>`_ |fr_trans|"
+#~ msgstr ""
+
+#~ msgid "`日本語 <https://docs.overte.org/jp/>`_ |jp_trans|"
+#~ msgstr ""
+
+#~ msgid "`한국어 <https://docs.overte.org/ko/>`_ |ko_trans|"
 #~ msgstr ""
 
