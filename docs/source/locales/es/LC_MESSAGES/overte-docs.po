@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-04-03 19:45+0000\n"
 "PO-Revision-Date: 2022-04-10 09:07+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language-Team: Spanish <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/es/>\n"
 "Language: es\n"
@@ -134,9 +134,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:24
-#, fuzzy
 msgid "Translation"
-msgstr "Animaciones de avatar"
+msgstr "Traducción"
 
 #: ../../source/contribute.rst:25
 msgid ""
@@ -443,6 +442,10 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Cuando hagas que un modelo 3D esté disponible en tu servidor de Overte, los "
+"visitantes obtienen los links a esos archivos de la misma que lo harían al "
+"ver una imagen dentro de un sitio web. Deberías asegurarte de que tienes los "
+"derechos para redistribuir el contenido 3D."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -455,16 +458,15 @@ msgstr ""
 "incluidas."
 
 #: ../../source/create/3d-models/get-model.rst:20
-#, fuzzy
 msgid ""
 "If a model loads into Overte and doesn't look right, you may also find "
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
 "Si un modelo se carga dentro de Overte y no se ve correctamente, también "
-"podrías encontrar la información asociada al error en la interfaz de "
-"\"logs\" (registros). Mira `Donde puedo encontrar los archivos de "
-"registro de la interfaz? <../../faq.html#interface-log-files>`_"
+"podrías encontrar la información asociada al error en la interfaz de \"logs\""
+" (registros). Mira `Donde puedo encontrar los archivos de registro de la "
+"interfaz? <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
