@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-04-03 19:45+0000\n"
-"PO-Revision-Date: 2022-04-08 02:07+0000\n"
+"PO-Revision-Date: 2022-04-10 09:07+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/de/>\n"
@@ -140,9 +140,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:24
-#, fuzzy
 msgid "Translation"
-msgstr "Sichere Transaktionen"
+msgstr "Übersetzung"
 
 #: ../../source/contribute.rst:25
 msgid ""
@@ -240,9 +239,8 @@ msgid "2D art like posters or banners,"
 msgstr ""
 
 #: ../../source/contribute.rst:60
-#, fuzzy
 msgid "3D models,"
-msgstr "3D Modelle"
+msgstr "3D Modelle,"
 
 #: ../../source/contribute.rst:61
 #, fuzzy
@@ -1027,7 +1025,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-model.rst:3
 msgid "Import a 3D Model"
-msgstr ""
+msgstr "Ihre 3D Modelle importieren"
 
 #: ../../source/create/3d-models/import-model.rst:5
 msgid ""
@@ -1928,7 +1926,7 @@ msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:48
 msgid "Avatar"
-msgstr ""
+msgstr "Avatare"
 
 #: ../../source/create/avatars/add-flow.rst:48
 msgid "Hides or displays the avatar mesh."
@@ -8076,7 +8074,7 @@ msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:27
 msgid "Video: Theora, VP8       Audio: Vorbis, Opus, FLAC"
-msgstr ""
+msgstr "Video: Theora, VP8, VP9       Audio: Vorbis, Opus, FLAC, MP3"
 
 #: ../../source/create/entities/web-entity-media.rst:27
 msgid ".ogg, .oga, .ogv"
@@ -9875,7 +9873,6 @@ msgid "Explore"
 msgstr "Entdecken"
 
 #: ../../source/explore.rst:5
-#, fuzzy
 msgid ""
 "Overte is a virtual worlds software where you can connect and create with"
 " others. We invite you to explore the worlds created in Overte and "
@@ -9883,14 +9880,13 @@ msgid ""
 "people, attend events, and learn about creation in virtuality. It's an "
 "immersive and interactive experience with realistic visuals and audio."
 msgstr ""
-"Vircadia ist ein Metaversum in dem sie mit anderen Kontakte knüpfen und "
-"Inhalte erschaffen können. Wir laden Sie dazu ein die Welten in Vircadia "
-"zu entdecken und mit anderen Benutzern zu interagieren. Sie können die "
-"virtuellen Welten ihrer Freunde besuchen, an Events teilnehmen, und Dinge"
-" über das Kreieren in der virtuellen Welt lernen."
+"Overte ist ein Metaversum in dem sie mit anderen Kontakte knüpfen und "
+"Inhalte erschaffen können. Wir laden Sie dazu ein die Welten in Overte zu "
+"entdecken und mit anderen Benutzern zu interagieren. Sie können die "
+"virtuellen Welten ihrer Freunde besuchen, an Events teilnehmen, und Dinge "
+"über das Kreieren in der virtuellen Welt lernen."
 
 #: ../../source/explore.rst:7
-#, fuzzy
 msgid ""
 "If it's your first time using Overte, you'll start your journey in a "
 "local tutorial space by yourself, where you can experiment with the "
@@ -9899,26 +9895,24 @@ msgid ""
 " metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
 msgstr ""
-"Wenn sie Vircadia zum ersten Mal benutzen, startet ihre Reise in einer "
-"lokalen Tutorial Welt, in der sie mit der Steuerung experimentieren "
-"können, und mehr über das Interface lernen. Wenn sie bereit sind, dann "
-"können Sie andere Domains mithilfe der Explore App entdecken und sich mit"
-" anderen Leuten im Metaversum treffen. Wenn sie Vircadie bereits vorher "
-"besucht haben, dann werden sie zu dem Ort zurückkehren, den sie zuletzt "
-"besucht haben."
+"Wenn sie Overte zum ersten Mal benutzen, startet ihre Reise in einer lokalen "
+"Tutorial Welt, in der sie mit der Steuerung experimentieren können, und mehr "
+"über das Interface lernen. Wenn sie bereit sind, dann können Sie andere "
+"Domains mithilfe der Explore App entdecken und sich mit anderen Leuten im "
+"Metaversum treffen. Wenn sie Overte bereits vorher besucht haben, dann "
+"werden sie zu dem Ort zurückkehren, den sie zuletzt besucht haben."
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr "In diesem Kapitel lernen sie, wie sie Vircadia am besten erkunden können:"
 
 #: ../../source/explore/gallery.rst:5
-#, fuzzy
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
 msgstr ""
-"Diese Galerie enthält Bilder von Events und Orten, die mit dem Vircadia "
-"Interface besucht wurden."
+"Diese Galerie enthält Bilder von Events und Orten, die mit dem Overte/"
+"Vircadia Interface besucht wurden."
 
 #: ../../source/explore/gallery.rst:12
 msgid "Maker meeting 28th September 2020"
@@ -10045,15 +10039,14 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:9
-#, fuzzy
 msgid ""
 "You can adjust various settings in Overte so that it runs to your "
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
-"Sie können verschiedene Einstellungen ändern, damit diese ihren "
-"Bedürfnissen entsprechen. Viele dieser Einstellungen werden mit dem HUD "
-"(im Desktop Modus) oder mit dem Tablet (im VR Modus) geändert."
+"Sie können verschiedene Einstellungen ändern, damit diese ihren Bedürfnissen "
+"entsprechen. Viele dieser Einstellungen werden mit dem HUD (im Desktop Modus)"
+" oder mit dem Tablet (im VR Modus) geändert."
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 msgid "The Tablet and HUD"
@@ -10093,16 +10086,15 @@ msgid "Enter or Exit VR Mode"
 msgstr "VR Modus aktivieren oder deaktivieren"
 
 #: ../../source/explore/get-started/adjust-settings.rst:30
-#, fuzzy
 msgid ""
 "You can enjoy Overte with or with VR equipment such as head mounted "
 "displays (HMD), hand controllers and audio headsets. Our Desktop mode "
 "contains many of Overte's features such as audio, basic movements and "
 "gestures, and the ability to travel to different domains."
 msgstr ""
-"Sie können Vircadia mit oder ohne VR Equipment wie zum Beispiel ein head "
-"mounted display (HDM), Hand Controllern oder Audio Headset spielen. Unser"
-" Desktop Modus enthält ebenfalls viele Funktionen wie Audio, simple "
+"Sie können Overte mit oder ohne VR Equipment wie zum Beispiel ein head "
+"mounted display (HDM), Hand Controllern oder Audio Headset spielen. Unser "
+"Desktop Modus enthält ebenfalls viele Funktionen wie Audio, simple "
 "Bewegungen und Gesten, und die Fähigkeit zwischen verschiedenen "
 "Domains(Welten) zu reisen."
 
@@ -10163,15 +10155,14 @@ msgid "First Person"
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:51
-#, fuzzy
 msgid ""
 "Select this setting if you want to change your perspective in Overte to "
 "first person. In this view, you will not see yourself, only the "
 "environment around you."
 msgstr ""
-"Wählen Sie diese Einstellung aus, wenn Sie ihre Perspektive zu First "
-"Person ändern wollen. In dieser Ansicht werden Sie sich nicht Selbst "
-"sehen, nur die Umgebung um Sie herum."
+"Wählen Sie diese Einstellung aus, wenn Sie ihre Perspektive zu First Person "
+"ändern wollen. In dieser Ansicht werden Sie sich nicht Selbst sehen, nur die "
+"Umgebung um Sie herum."
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 msgid "Third Person"
@@ -10241,13 +10232,12 @@ msgid "General Settings"
 msgstr "Allgemeine Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:76
-#, fuzzy
 msgid ""
 "You can modify general settings such user interface and privacy settings "
 "in Overte."
 msgstr ""
 "Sie können allgemeine Einstellungen wie Benutzeroberfläche und "
-"Datenschutzeinstellungen in Vircadia ändern."
+"Datenschutzeinstellungen in Overte ändern."
 
 #: ../../source/explore/get-started/adjust-settings.rst:78
 msgid ""
@@ -10268,9 +10258,8 @@ msgid "In-World Graphics Settings"
 msgstr "In-World Grafik Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:87
-#, fuzzy
 msgid "You can make changes to the graphics in Overte."
-msgstr "In Vircadia können Sie Änderungen an der Grafik vornehmen."
+msgstr "Sie können Änderungen an der Grafik von Overte vornehmen."
 
 #: ../../source/explore/get-started/adjust-settings.rst:89
 msgid ""
@@ -10310,65 +10299,58 @@ msgid "World Detail"
 msgstr "Welt Details"
 
 #: ../../source/explore/get-started/adjust-settings.rst:100
-#, fuzzy
 msgid ""
 "Control the level of detail visible to you in Overte by moving this "
 "slider."
 msgstr ""
-"Stellen Sie mithilfe des Schiebereglers ein, wie Detailreich die Welt in "
-"Vircadia geladen werden soll."
+"Stellen Sie mithilfe dieses Schiebereglers ein, wie Detailreich die Welt in "
+"Overte geladen werden soll."
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid "Rendering Effects"
 msgstr "Rendering Effekte"
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
-#, fuzzy
 msgid ""
 "Choose the level of rendering effects that are present in Overte. Local "
 "lights, fog, bloom, and shadows are all examples of rendering effects."
 msgstr ""
-"Wählen Sie aus, wie viele Effekte in Vircadia geladen werden sollen. "
-"Rendering Effekte sind zum Beispiel: Lokale Lichter, Nebel, dekorative "
-"Pflanzen und Schatten."
+"Wählen Sie aus, wie viele Effekte in Overte geladen werden sollen. Rendering "
+"Effekte sind zum Beispiel: Lokale Lichter, Nebel, Bloom und Schatten."
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid "Refresh Rate"
 msgstr "Aktualisierungsrate"
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
-#, fuzzy
 msgid ""
 "Choose the frequency that Overte updates its graphics buffers. Most mid-"
 "range computers run well on 'Interactive'."
 msgstr ""
-"Wählen Sie die Frequenz aus, mit der Vircadia die Grafik Zwischenspeicher"
-" aktualisieren soll. Die meisten Standard Computer funktionieren gut mit "
-"der Einstellung 'Interactive'."
+"Wählen Sie die Frequenz aus, mit der Overte den Grafikzwischenspeicher "
+"aktualisieren soll. Die meisten standard Computer funktionieren gut mit der "
+"Einstellung 'Interactive'."
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid "Resolution"
 msgstr "Auflösung"
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
-#, fuzzy
 msgid ""
 "Adjust the resolution using the slider. This affects how clear Overte "
 "appears on your monitor or screen."
 msgstr ""
-"Passen Sie die Auflösung mithilfe des Schiebereglers an. Dies beeinflusst"
-" wie klar die Welt auf dem Bildschirm erscheint."
+"Passen Sie die Auflösung mithilfe des Schiebereglers an. Dies beeinflusst "
+"wie klar die Welt auf dem Bildschirm erscheint."
 
 #: ../../source/explore/get-started/adjust-settings.rst:114
 msgid "Account Security Settings"
 msgstr "Sicherheits Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:116
-#, fuzzy
 msgid "You can change your account security settings in Overte."
 msgstr ""
-"Sie können in Vircadia die Sicherheits-Einstellungen ihres Accounts "
-"ändern."
+"Sie können in Overte die Sicherheits-Einstellungen ihres Accounts ändern."
 
 #: ../../source/explore/get-started/adjust-settings.rst:118
 msgid ""
@@ -10389,11 +10371,10 @@ msgid "Account"
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
-#, fuzzy
 msgid "Enable to stay logged in (in the current device) even if you exit Overte."
 msgstr ""
 "Aktivieren Sie diese Option, um eingeloggt zu bleiben, selbst wenn sie "
-"Vircadia beenden."
+"Overte beenden."
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Secure Transactions"
@@ -10410,13 +10391,12 @@ msgstr ""
 "settings>`"
 
 #: ../../source/explore/get-started/android.rst:5
-#, fuzzy
 msgid ""
 "A Overte Android app is being considered for the roadmap, most of the "
 "development work has been done but the work required to get it back "
 "rolling has to be taken into consideration."
 msgstr ""
-"In der Zukunft wird eine Vircadia-Android-App in Betracht gezogen. Die "
+"Für die Zukunft wird eine Overte-Android-App in Betracht gezogen. Die "
 "meisten Entwicklungsarbeiten sind abgeschlossen, aber die Arbeit, die "
 "erforderlich ist, um die App wieder zum Laufen zu bringen, muss "
 "berücksichtigt werden."
@@ -10436,17 +10416,16 @@ msgid "Visit Different Worlds"
 msgstr "Verschiedene Welten besuchen"
 
 #: ../../source/explore/get-started/android.rst:17
-#, fuzzy
 msgid ""
 "Overte has many virtual places where you can interact with other users "
 "and participate in various activities or events. We have modified several"
 " of Overte's most popular virtual worlds to make them more accessible to "
 "Android users."
 msgstr ""
-"Vircadia hat viele virtuelle Orte, an denen Sie mit anderen Benutzern "
-"interagieren und an vielen Aktivitäten teilnehmen können. Wir haben "
-"Einige beliebte Welten so modifiziert, dass diese auch für Android "
-"Benutzer Verfügbar sind."
+"Overte hat viele virtuelle Orte, an denen Sie mit anderen Benutzern "
+"interagieren und an vielen Aktivitäten teilnehmen können. Wir haben Einige "
+"beliebte Welten so modifiziert, dass diese auch für Android Benutzer "
+"Verfügbar sind."
 
 #: ../../source/explore/get-started/android.rst:19
 msgid "Find these domains by going to the **Home** tab in the menu."
@@ -11573,18 +11552,16 @@ msgid "Upgrade Overte"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:162
-#, fuzzy
 msgid ""
 "Overte is always changing, as we work to improve performance and add "
 "features that will enhance your experience in the metaverse. At any time,"
 " you can download the latest release from our `website "
 "<https://overte.org/#downloads>`_."
 msgstr ""
-"Vircadia verändert sich ständig, da wir daran arbeiten, die Performance "
-"zu verbessern und neue Features hinzuzufügen, um Ihre Erfahrungen im "
-"Metaversum zu verbessern. Sie können jeder Zeit die neuste Version von "
-"Vircadia auf unserer `website <https://vircadia.com/download-"
-"vircadia/#interface>`_ downloaden."
+"Overte verändert sich ständig, da wir daran arbeiten, die Performance zu "
+"verbessern und neue Features hinzuzufügen, um Ihre Erfahrungen im Metaversum "
+"zu verbessern. Sie können jeder Zeit die neuste Version von Overte auf "
+"unserer `website <https://overte.org/#downloads>`_ downloaden."
 
 #: ../../source/explore/get-started/install.rst:165
 msgid ""
@@ -12305,6 +12282,8 @@ msgstr ""
 #: ../../source/explore/get-started/vr-controls.rst:61
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Controls**."
 msgstr ""
+"Im VR Modus, öffnen sie ihr Tablet, und gehen sie zu **Menu > Settings > "
+"General**."
 
 #: ../../source/explore/get-started/vr-controls.rst:66
 msgid "*VR Movement* > Teleporting"
@@ -13992,6 +13971,12 @@ msgid ""
 "tell you whether your headset/microphone is muted. If you're muted, click"
 " the icon to un-mute yourself."
 msgstr ""
+"Auf Windows gehen Sie auf den Tab **Systemsteuerung > Sound > Aufnahme**. "
+"Wählen Sie dann das Gerät, welches Sie mit Overte verwenden und klicken Sie "
+"auf 'Eigenschaften'. Aktivieren Sie im Tab 'Pegel' das Symbol neben der "
+"Lautstärkeanzeige. Das Mikrofonsymbol zeigt Ihnen an, ob Ihr Headset/"
+"Mikrofon stummgeschaltet ist. Wenn Sie stummgeschaltet sind, klicken Sie auf "
+"das Symbol, um die Stummschaltung aufzuheben."
 
 #: ../../source/faq.rst:136
 msgid ""
@@ -14353,7 +14338,6 @@ msgid "What can I do?"
 msgstr "Was kann ich machen?"
 
 #: ../../source/home.rst:69 ../../source/index.rst:69
-#, fuzzy
 msgid "You have the power to shape your VR experience in Overte."
 msgstr "Sie können Ihr VR-Erlebnis in Overte selbst gestallten."
 
@@ -25539,6 +25523,8 @@ msgstr ""
 #: ../../source/script/assignment-client-scripts.md:56
 msgid "[Configure Your Domain Settings](../host/configure-settings)"
 msgstr ""
+":doc:`Konfigurieren Sie ihre Domain Einstellungen <../../host/configure-"
+"settings>`"
 
 #: ../../source/script/assignment-client-scripts.md:57
 #: ../../source/script/avatar-scripts.md:80
