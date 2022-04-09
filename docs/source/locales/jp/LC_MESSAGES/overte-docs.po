@@ -11,14 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-04-03 19:45+0000\n"
-"PO-Revision-Date: 2022-04-02 11:10+0000\n"
+"PO-Revision-Date: 2022-04-10 09:07+0000\n"
 "Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/ja/>\n"
 "Language: jp\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/overte"
-"/overte-documentation/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.12-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/contribute.rst:3
@@ -107,8 +109,9 @@ msgid "Documentation"
 msgstr ""
 
 #: ../../source/contribute.rst:15
+#, fuzzy
 msgid "You can help create and maintain the documentation in several ways:"
-msgstr ""
+msgstr "ドキュメントの作成と維持には、いくつかの方法で協力することができます。"
 
 #: ../../source/contribute.rst:17
 msgid ""
@@ -132,10 +135,12 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:24
+#, fuzzy
 msgid "Translation"
-msgstr ""
+msgstr "翻訳"
 
 #: ../../source/contribute.rst:25
+#, fuzzy
 msgid ""
 "As an international project, Overte relies on translators to be able to "
 "reach users that do not speak English. Currently the only component that "
@@ -148,19 +153,31 @@ msgid ""
 "`README <https://github.com/overte-org/overte-docs-"
 "sphinx/blob/master/README.md>`_."
 msgstr ""
+"国際的なプロジェクトであるOverteは、英語を話さないユーザーにも対応できるよう"
+"、翻訳者に頼っています。現在、翻訳をサポートしているコンポーネントは、ドキュ"
+"メントのみです。オンライン翻訳システム `Weblate <https://hosted.weblate.org/"
+"projects/overte/overte-documentation/>`_ を使って、翻訳を提出するか、あなたの"
+"言語のメンテナになって、ドキュメントに入る前に翻訳をチェックすることで翻訳を"
+"支援することができます。ドキュメントの翻訳に関するより詳しい情報は、`README "
+"<https://github.com/overte-org/overte-docs-sphinx/blob/master/README.md>`_ "
+"で見ることができます。"
 
 #: ../../source/contribute.rst:32
 #, fuzzy
 msgid "Donations"
-msgstr "アニメーションのインポート"
+msgstr "寄付"
 
 #: ../../source/contribute.rst:33
+#, fuzzy
 msgid ""
 "Overte is primarily driven by the voluntary contributions of its "
 "community and core team. While we do not yet have an entity to manage "
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
+"Overteは、主にコミュニティとコアチームの自発的な貢献によって運営されています"
+"。寄付を管理する組織はまだありませんが、PayPal、Patreon、GitHub Sponsorsなど"
+"の様々なサービスを通じて、チームの特定のメンバーに寄付をすることができます。"
 
 #: ../../source/contribute.rst:36
 msgid ""
@@ -177,8 +194,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:43
+#, fuzzy
 msgid "Development"
-msgstr ""
+msgstr "開発"
 
 #: ../../source/contribute.rst:44
 msgid ""
@@ -216,8 +234,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:56
+#, fuzzy
 msgid "Miscellaneous Work"
-msgstr ""
+msgstr "雑務"
 
 #: ../../source/contribute.rst:57
 msgid ""
@@ -227,7 +246,7 @@ msgstr ""
 
 #: ../../source/contribute.rst:59
 msgid "2D art like posters or banners,"
-msgstr ""
+msgstr "ポスターやバナーのような2Dアート"
 
 #: ../../source/contribute.rst:60
 #, fuzzy
@@ -235,23 +254,27 @@ msgid "3D models,"
 msgstr "3Dモデル"
 
 #: ../../source/contribute.rst:61
+#, fuzzy
 msgid "scripts,"
-msgstr ""
+msgstr "スクリプト"
 
 #: ../../source/contribute.rst:62
 msgid "video editing,"
 msgstr ""
 
 #: ../../source/contribute.rst:63
+#, fuzzy
 msgid "and so on."
-msgstr ""
+msgstr "などなど。"
 
 #: ../../source/contribute.rst:65
+#, fuzzy
 msgid ""
 "It is tremendously helpful for developers to have someone that they can "
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
-msgstr ""
+msgstr "開発者にとって、自分の専門外の仕事を依頼できる人がいることは、非常に助かるこ"
+"とです。"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
@@ -13994,7 +14017,7 @@ msgstr ""
 
 #: ../../source/home.rst:67 ../../source/index.rst:67
 msgid "What can I do?"
-msgstr "Vircadiaで出来ること"
+msgstr "Overteで出来ること"
 
 #: ../../source/home.rst:69 ../../source/index.rst:69
 #, fuzzy
@@ -29905,4 +29928,3 @@ msgstr "メタバースセッションUUID"
 #~ "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
 #~ " of open pull requests."
 #~ msgstr ""
-
