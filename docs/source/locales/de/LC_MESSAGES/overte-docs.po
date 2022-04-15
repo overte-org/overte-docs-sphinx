@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-04-03 19:45+0000\n"
-"PO-Revision-Date: 2022-04-10 09:07+0000\n"
-"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2022-04-16 02:11+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/de/>\n"
 "Language: de\n"
@@ -286,8 +286,9 @@ msgid "Wearables"
 msgstr "Kleidung"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
+#, fuzzy
 msgid "Entities"
-msgstr ""
+msgstr "Einheiten"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
 #: ../../source/create/3d-models/get-model.rst:59
@@ -434,12 +435,17 @@ msgstr ""
 "Zulässigen Rechte haben um diesen Content zu verwenden."
 
 #: ../../source/create/3d-models/get-model.rst:17
+#, fuzzy
 msgid ""
 "When you make a 3D model available on your Overte server, visitors are "
 "getting the links to those files in the same way as they would when "
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Wenn Sie ein 3D-Modell auf ihrem eigenen Vircadia-Server zur Verfügung "
+"stellen, erhalten die Besucher die Links zu diesen Dateien auf die gleiche "
+"Weise, wie wenn sie ein Bild auf einer Website ansehen würden. Sie sollten "
+"sicher sein, dass Sie die Rechte zur Weiterverbreitung der 3D-Inhalte haben."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -569,8 +575,9 @@ msgid "Remove edge loops that are not needed."
 msgstr "Entfernen Sie Kanten Ringe, die nicht notwendig sind."
 
 #: ../../source/create/3d-models/get-model.rst:51
+#, fuzzy
 msgid "Mesh"
-msgstr ""
+msgstr "Verlaufsgitter"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid ""
@@ -731,8 +738,9 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:17
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:12
 #: ../../source/create/entities/zone-tutorial.md:22
+#, fuzzy
 msgid "Prerequisites"
-msgstr ""
+msgstr "Vorbereitungen"
 
 #: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
@@ -901,8 +909,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:51
+#, fuzzy
 msgid "Loop"
-msgstr ""
+msgstr "Schleife"
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Select this property to play your animation in a continuous loop."
@@ -919,8 +928,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:56
+#, fuzzy
 msgid "Hold"
-msgstr ""
+msgstr "Halten"
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Select to pause your animation at a particular frame."
@@ -1238,12 +1248,14 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 #: ../../source/create/entities/create-fountain.rst:35
+#, fuzzy
 msgid "Value"
-msgstr ""
+msgstr "Wert"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#, fuzzy
 msgid "Map"
-msgstr ""
+msgstr "Karte"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:66
 msgid "Albedo"
@@ -1279,8 +1291,9 @@ msgid "[0,1]"
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
+#, fuzzy
 msgid "Roughness"
-msgstr ""
+msgstr "Oberflächenrauheit"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
 msgid ""
@@ -1289,8 +1302,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
+#, fuzzy
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid ""
@@ -1308,8 +1322,9 @@ msgid "bump"
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#, fuzzy
 msgid "Opacity"
-msgstr ""
+msgstr "Deckkraft"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "Opacity determines if an object is transparent or opaque."
@@ -1366,8 +1381,9 @@ msgid "[lit, unlit]"
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:92
+#, fuzzy
 msgid "Notes:"
-msgstr ""
+msgstr "Notizen:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
 msgid ""
@@ -1921,8 +1937,9 @@ msgstr ""
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
 #: ../../source/create/avatars/add-flow.rst:92
+#, fuzzy
 msgid "Option"
-msgstr ""
+msgstr "Option"
 
 #: ../../source/create/avatars/add-flow.rst:48
 msgid "Avatar"
@@ -1942,16 +1959,18 @@ msgid "Activates or deactivates collisions."
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:52
+#, fuzzy
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 #: ../../source/create/avatars/add-flow.rst:52
 msgid "Hides or displays the debug shapes."
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:54
+#, fuzzy
 msgid "Solid"
-msgstr ""
+msgstr "Ausgefüllt"
 
 #: ../../source/create/avatars/add-flow.rst:54
 msgid "Enables either a solid or wireframe display for debug shapes."
@@ -1969,8 +1988,9 @@ msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:68
 #: ../../source/create/avatars/add-flow.rst:94
+#, fuzzy
 msgid "Radius"
-msgstr ""
+msgstr "Radius"
 
 #: ../../source/create/avatars/add-flow.rst:68
 msgid ""
@@ -2041,8 +2061,9 @@ msgid "Controls the collision sphere radius."
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:96
+#, fuzzy
 msgid "Offset"
-msgstr ""
+msgstr "Abstand"
 
 #: ../../source/create/avatars/add-flow.rst:96
 msgid "Controls the collision sphere offset."
@@ -2066,18 +2087,21 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:112
+#, fuzzy
 msgid "Resources"
-msgstr ""
+msgstr "Quellen"
 
 #: ../../source/create/avatars/add-flow.rst:115
 #: ../../source/create/entities/boombox-tutorial.rst:99
+#, fuzzy
 msgid "File"
-msgstr ""
+msgstr "Datei"
 
 #: ../../source/create/avatars/add-flow.rst:115
 #: ../../source/create/entities/boombox-tutorial.rst:99
+#, fuzzy
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../source/create/avatars/add-flow.rst:117
 msgid ""
@@ -2187,8 +2211,9 @@ msgid "[Other Considerations](#other-considerations)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:19
+#, fuzzy
 msgid "Glossary"
-msgstr ""
+msgstr "Glossar"
 
 #: ../../source/create/avatars/avatar-standards.md:20
 msgid ""
@@ -2794,8 +2819,9 @@ msgid "UserBlendshape9"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:252
+#, fuzzy
 msgid "Other Considerations"
-msgstr ""
+msgstr "Weitere Überlegungen"
 
 #: ../../source/create/avatars/avatar-standards.md:254
 msgid "File Optimization"
@@ -3242,8 +3268,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:23
+#, fuzzy
 msgid "Term"
-msgstr ""
+msgstr "Begriff"
 
 #: ../../source/create/avatars/custom-animations.rst:25
 msgid "Avatar animations"
@@ -3375,8 +3402,9 @@ msgstr ""
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/environments.rst:15
 #: ../../source/host/add-content/create-content.rst:35
+#, fuzzy
 msgid "Method"
-msgstr ""
+msgstr "Methode"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
@@ -3821,8 +3849,9 @@ msgid "Under 'Avatar Animation JSON', paste the URL for your JSON file."
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:218
+#, fuzzy
 msgid "OR"
-msgstr ""
+msgstr "ODER"
 
 #: ../../source/create/avatars/custom-animations.rst:220
 msgid "Open your avatar's FST file in a text editor."
@@ -3840,8 +3869,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:232
+#, fuzzy
 msgid "Examples"
-msgstr ""
+msgstr "Beispiele"
 
 #: ../../source/create/avatars/custom-animations.rst:234
 msgid ""
@@ -4283,8 +4313,9 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:139
 #: ../../source/explore/get-started/vr-controls.rst:190
+#, fuzzy
 msgid "Issue"
-msgstr ""
+msgstr "Erstellen"
 
 #: ../../source/create/avatars/find-avatars.rst:139
 msgid "Troubleshooting Tip"
@@ -5876,8 +5907,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:53
+#, fuzzy
 msgid "Size"
-msgstr ""
+msgstr "Größe"
 
 #: ../../source/create/entities/create-fountain.rst:53
 msgid "Start = ``0.40``, Middle = ``0.80``, Finish = ``0.80``"
@@ -5892,8 +5924,9 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:57
 #: ../../source/create/entities/entity-appearance.rst:28
+#, fuzzy
 msgid "Color"
-msgstr ""
+msgstr "Farbe"
 
 #: ../../source/create/entities/create-fountain.rst:57
 msgid "Start = ``#000000``, Middle = ``#FFFFFF``, Finish = ``#000000``"
@@ -6302,12 +6335,14 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:30
 #: ../../source/create/entities/entity-appearance.rst:86
 #: ../../source/create/entities/entity-appearance.rst:89
+#, fuzzy
 msgid "Light"
-msgstr ""
+msgstr "Licht"
 
 #: ../../source/create/entities/entity-appearance.rst:32
+#, fuzzy
 msgid "Text Color"
-msgstr ""
+msgstr "Textfarbe"
 
 #: ../../source/create/entities/entity-appearance.rst:32
 msgid "The color of the text."
@@ -6316,12 +6351,14 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:32
 #: ../../source/create/entities/entity-appearance.rst:34
 #: ../../source/create/entities/entity-appearance.rst:92
+#, fuzzy
 msgid "Text"
-msgstr ""
+msgstr "Text"
 
 #: ../../source/create/entities/entity-appearance.rst:34
+#, fuzzy
 msgid "Background Color"
-msgstr ""
+msgstr "Hintergrundfarbe"
 
 #: ../../source/create/entities/entity-appearance.rst:34
 msgid "The color of the background of the text."
@@ -6345,8 +6382,9 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:45
 #: ../../source/create/entities/entity-appearance.rst:47
 #: ../../source/create/entities/entity-appearance.rst:50
+#, fuzzy
 msgid "Zone"
-msgstr ""
+msgstr "Zone"
 
 #: ../../source/create/entities/entity-appearance.rst:39
 msgid "Sky Box"
@@ -6361,8 +6399,9 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:42
 #: ../../source/create/entities/zone-entity.rst:37
 #: ../../source/create/entities/zone-entity.rst:100
+#, fuzzy
 msgid "Ambient Light"
-msgstr ""
+msgstr "Umgebungslicht"
 
 #: ../../source/create/entities/entity-appearance.rst:42
 msgid ""
@@ -6389,8 +6428,9 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:50
 #: ../../source/create/entities/zone-entity.rst:42
 #: ../../source/create/entities/zone-entity.rst:151
+#, fuzzy
 msgid "Bloom"
-msgstr ""
+msgstr "Bloom"
 
 #: ../../source/create/entities/entity-appearance.rst:50
 msgid "Configures how much the bright areas of the scene glow."
@@ -6462,8 +6502,9 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:123
 #: ../../source/create/entities/entity-appearance.rst:146
 #: ../../source/create/entities/entity-appearance.rst:148
+#, fuzzy
 msgid "All"
-msgstr ""
+msgstr "Alle"
 
 #: ../../source/create/entities/entity-appearance.rst:81
 msgid "*Spatial* > Dimensions"
@@ -6752,8 +6793,9 @@ msgstr ""
 #: ../../source/create/entities/entity-behavior.rst:86
 #: ../../source/create/entities/entity-behavior.rst:101
 #: ../../source/create/entities/entity-behavior.rst:147
+#, fuzzy
 msgid "Behavior"
-msgstr ""
+msgstr "Verhalten"
 
 #: ../../source/create/entities/entity-behavior.rst:69
 msgid "Grabbable"
@@ -8087,8 +8129,9 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:31
 #: ../../source/create/entities/web-entity-media.rst:43
 #: ../../source/create/entities/web-entity-media.rst:61
+#, fuzzy
 msgid "Comments"
-msgstr ""
+msgstr "Kommentar"
 
 #: ../../source/create/entities/web-entity-media.rst:31
 #: ../../source/create/entities/web-entity-media.rst:43
@@ -8156,8 +8199,9 @@ msgid "Lower quality to compression ratio than Opus."
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:49
+#, fuzzy
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../../source/create/entities/web-entity-media.rst:49
 msgid "Lossless, bigger files."
@@ -8188,8 +8232,9 @@ msgid "Encode"
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:61
+#, fuzzy
 msgid "Command"
-msgstr ""
+msgstr "Befehl"
 
 #: ../../source/create/entities/web-entity-media.rst:63
 msgid "VP9, Opus, WebM"
@@ -8307,8 +8352,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:149
+#, fuzzy
 msgid "Video Player"
-msgstr ""
+msgstr "Video-Player"
 
 #: ../../source/create/entities/web-entity-media.rst:151
 msgid ""
@@ -8359,8 +8405,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:26
+#, fuzzy
 msgid "Filter"
-msgstr ""
+msgstr "Filter"
 
 #: ../../source/create/entities/zone-entity.rst:26
 msgid ""
@@ -8566,8 +8613,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:126
+#, fuzzy
 msgid "Range"
-msgstr ""
+msgstr "Reichweite"
 
 #: ../../source/create/entities/zone-entity.rst:126
 msgid ""
@@ -8586,8 +8634,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:131
+#, fuzzy
 msgid "Base"
-msgstr ""
+msgstr "Basis"
 
 #: ../../source/create/entities/zone-entity.rst:131
 msgid "This is the base of the altitude range."
@@ -9677,8 +9726,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:61
+#, fuzzy
 msgid "Maya"
-msgstr ""
+msgstr "Maya"
 
 #: ../../source/create/tools.rst:63
 msgid ""
@@ -9688,8 +9738,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:67
+#, fuzzy
 msgid "Blocks"
-msgstr ""
+msgstr "Blockspiele"
 
 #: ../../source/create/tools.rst:69
 msgid ""
@@ -10367,8 +10418,9 @@ msgstr ""
 "Security**."
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
+#, fuzzy
 msgid "Account"
-msgstr ""
+msgstr "Konto"
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
 msgid "Enable to stay logged in (in the current device) even if you exit Overte."
@@ -10506,8 +10558,9 @@ msgid "In-World Controls"
 msgstr "In-World Steuerungen"
 
 #: ../../source/explore/get-started/android.rst:47
+#, fuzzy
 msgid "View"
-msgstr ""
+msgstr "Ansehen"
 
 #: ../../source/explore/get-started/android.rst:47
 msgid ""
@@ -10516,8 +10569,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/android.rst:49
+#, fuzzy
 msgid "Mute"
-msgstr ""
+msgstr "Stummschaltung"
 
 #: ../../source/explore/get-started/android.rst:49
 msgid ""
@@ -10789,8 +10843,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/architecture.rst:87
+#, fuzzy
 msgid "Agent"
-msgstr ""
+msgstr "Akteur"
 
 #: ../../source/explore/get-started/architecture.rst:87
 msgid ""
@@ -10860,8 +10915,9 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:79
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
+#, fuzzy
 msgid "Key"
-msgstr ""
+msgstr "Schlüssel"
 
 #: ../../source/explore/get-started/desktop.rst:21
 msgid "Walk Forward"
@@ -10880,8 +10936,9 @@ msgid "``S`` or ``DOWN ARROW``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:25
+#, fuzzy
 msgid "Run"
-msgstr ""
+msgstr "Ausführen"
 
 #: ../../source/explore/get-started/desktop.rst:25
 msgid "Hold ``SHIFT`` while using any shortcut to walk"
@@ -10920,16 +10977,18 @@ msgid "``D`` or ``RIGHT ARROW``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:35
+#, fuzzy
 msgid "Jump"
-msgstr ""
+msgstr "Springen"
 
 #: ../../source/explore/get-started/desktop.rst:35
 msgid "``SPACE`` or ``PGUP``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:37
+#, fuzzy
 msgid "Fly"
-msgstr ""
+msgstr "Fliege"
 
 #: ../../source/explore/get-started/desktop.rst:37
 msgid "Hold ``SPACE`` or ``PGUP``"
@@ -10964,8 +11023,9 @@ msgid "``TAB`` *(when 'Desktop becomes toolbar' is not checked)*"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:55
+#, fuzzy
 msgid "Select Item"
-msgstr ""
+msgstr "Objekt auswählen"
 
 #: ../../source/explore/get-started/desktop.rst:55
 #: ../../source/explore/get-started/desktop.rst:57
@@ -10985,8 +11045,9 @@ msgid "Right Click"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:61
+#, fuzzy
 msgid "Open Browser"
-msgstr ""
+msgstr "_Browser öffnen"
 
 #: ../../source/explore/get-started/desktop.rst:61
 msgid "``CTRL`` + ``B``"
@@ -11017,8 +11078,9 @@ msgid "``/``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:69
+#, fuzzy
 msgid "Screenshot"
-msgstr ""
+msgstr "Bildschirmfoto"
 
 #: ../../source/explore/get-started/desktop.rst:69
 #: ../../source/explore/get-started/desktop.rst:91
@@ -11026,8 +11088,9 @@ msgid "``P``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:71
+#, fuzzy
 msgid "Push to Talk"
-msgstr ""
+msgstr "Zum Sprechen drücken"
 
 #: ../../source/explore/get-started/desktop.rst:71
 #: ../../source/explore/get-started/desktop.rst:137
@@ -11075,8 +11138,9 @@ msgid "On trackpad, drag two fingers up or down."
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:91
+#, fuzzy
 msgid "Take Screenshot"
-msgstr ""
+msgstr "&Bildschirmaufnahme anfertigen"
 
 #: ../../source/explore/get-started/desktop.rst:96
 msgid "Avatar Sizing Controls"
@@ -11116,8 +11180,9 @@ msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:117
 #: ../../source/release-notes/2020-3-2-Demeter.md:17
+#, fuzzy
 msgid "Undo"
-msgstr ""
+msgstr "Rückgängig"
 
 #: ../../source/explore/get-started/desktop.rst:117
 msgid "``CTRL`` + ``Z``"
@@ -11125,8 +11190,9 @@ msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:119
 #: ../../source/release-notes/2020-3-2-Demeter.md:18
+#, fuzzy
 msgid "Redo"
-msgstr ""
+msgstr "Wiederherstellen"
 
 #: ../../source/explore/get-started/desktop.rst:119
 msgid "``CTRL`` + ``Y``"
@@ -11203,8 +11269,9 @@ msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:143
 #: ../../source/explore/get-started/vr-controls.rst:217
+#, fuzzy
 msgid "Gamepad"
-msgstr ""
+msgstr "Gamepad"
 
 #: ../../source/explore/get-started/desktop.rst:145
 msgid ""
@@ -11225,8 +11292,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:15
+#, fuzzy
 msgid "System Requirements"
-msgstr ""
+msgstr "Systemvoraussetzungen"
 
 #: ../../source/explore/get-started/install.rst:17
 msgid ""
@@ -11235,8 +11303,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:19
+#, fuzzy
 msgid "Operating system:"
-msgstr ""
+msgstr "Betriebssystem:"
 
 #: ../../source/explore/get-started/install.rst:21
 msgid "Windows 8.1, 64-bit or Windows 10, 64-bit"
@@ -11378,8 +11447,9 @@ msgid "macOS |MacOS|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:80
+#, fuzzy
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
@@ -12060,8 +12130,9 @@ msgid "Mute microphone"
 msgstr ""
 
 #: ../../source/explore/get-started/setup-audio.rst:137
+#, fuzzy
 msgid "Mute or unmute your microphone."
-msgstr ""
+msgstr "Stummschaltung aktivieren oder deaktivieren"
 
 #: ../../source/explore/get-started/setup-audio.rst:139
 msgid "HMD Mute Warning (VR)"
@@ -12094,8 +12165,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/setup-audio.rst:146
+#, fuzzy
 msgid "Echo Cancellation"
-msgstr ""
+msgstr "Echounterdrückung"
 
 #: ../../source/explore/get-started/setup-audio.rst:146
 msgid "Enable or disable `acoustic echo cancellation <#id1>`_."
@@ -12475,8 +12547,9 @@ msgid "Recommended Straps"
 msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:136
+#, fuzzy
 msgid "Head"
-msgstr ""
+msgstr "Geradeaus"
 
 #: ../../source/explore/get-started/vr-controls.rst:136
 msgid "HMD or 1 Vive Tracker"
@@ -12487,8 +12560,9 @@ msgid "Head strap for Vive Tracker"
 msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:138
+#, fuzzy
 msgid "Hands"
-msgstr ""
+msgstr "Hände"
 
 #: ../../source/explore/get-started/vr-controls.rst:138
 msgid "Hand controllers or 2 Vive Trackers"
@@ -13235,8 +13309,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:83
+#, fuzzy
 msgid "Text to Speech"
-msgstr ""
+msgstr "Text zu Sprache"
 
 #: ../../source/explore/personalize/install-apps.md:85
 msgid ""
@@ -13328,8 +13403,9 @@ msgid "Feature"
 msgstr ""
 
 #: ../../source/explore/socialize.rst:33
+#, fuzzy
 msgid "Profile Picture"
-msgstr ""
+msgstr "Profilbild"
 
 #: ../../source/explore/socialize.rst:33
 msgid ""
@@ -13339,8 +13415,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:36
+#, fuzzy
 msgid "Display Name"
-msgstr ""
+msgstr "Anzeigename"
 
 #: ../../source/explore/socialize.rst:36
 msgid ""
@@ -13369,8 +13446,9 @@ msgid "Set the volume of your audio in Overte."
 msgstr ""
 
 #: ../../source/explore/socialize.rst:45
+#, fuzzy
 msgid "Nearby"
-msgstr ""
+msgstr "Umfeld"
 
 #: ../../source/explore/socialize.rst:45
 msgid "This is the list of users who are nearby in the same domain as you."
@@ -13395,8 +13473,9 @@ msgid "Click this button to refresh the list of users currently in the domain."
 msgstr ""
 
 #: ../../source/explore/socialize.rst:52
+#, fuzzy
 msgid "Connections"
-msgstr ""
+msgstr "Verbindungen"
 
 #: ../../source/explore/socialize.rst:52
 msgid ""
@@ -13405,8 +13484,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:55
+#, fuzzy
 msgid "Loud"
-msgstr ""
+msgstr "Laut"
 
 #: ../../source/explore/socialize.rst:55
 msgid ""
@@ -13416,8 +13496,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:58
+#, fuzzy
 msgid "Names"
-msgstr ""
+msgstr "Namen"
 
 #: ../../source/explore/socialize.rst:58
 msgid ""
@@ -13426,8 +13507,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:60
+#, fuzzy
 msgid "Ignore"
-msgstr ""
+msgstr "Ignoriere es"
 
 #: ../../source/explore/socialize.rst:60
 msgid ""
@@ -13447,8 +13529,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:74
+#, fuzzy
 msgid "Silence"
-msgstr ""
+msgstr "Stille"
 
 #: ../../source/explore/socialize.rst:74
 msgid ""
@@ -13457,8 +13540,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:76
+#, fuzzy
 msgid "Ban"
-msgstr ""
+msgstr "Bannen"
 
 #: ../../source/explore/socialize.rst:76
 msgid ""
@@ -14261,8 +14345,9 @@ msgstr ""
 "an."
 
 #: ../../source/home.rst ../../source/index.rst
+#, fuzzy
 msgid "Download"
-msgstr ""
+msgstr "Herunterladen"
 
 #: ../../source/home.rst:26 ../../source/index.rst:26
 msgid ""
@@ -14275,8 +14360,9 @@ msgstr ""
 "Server <https://discord.gg/4YuQvc8K2f>`__ |Discord| teilnehmen."
 
 #: ../../source/home.rst ../../source/index.rst
+#, fuzzy
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../../source/home.rst:35 ../../source/index.rst:35
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
@@ -14424,8 +14510,9 @@ msgid "Maintain Your Domain"
 msgstr ""
 
 #: ../../source/host.rst:3
+#, fuzzy
 msgid "Host"
-msgstr ""
+msgstr "Sprecher"
 
 #: ../../source/host.rst:5
 msgid ""
@@ -14511,8 +14598,9 @@ msgid "With the oven, you can bake the following types of content:"
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:23
+#, fuzzy
 msgid "Type"
-msgstr ""
+msgstr "Art"
 
 #: ../../source/host/add-content/bake-content.rst:25
 msgid ""
@@ -14590,23 +14678,26 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:64
+#, fuzzy
 msgid "Field"
-msgstr ""
+msgstr "Feld"
 
 #: ../../source/host/add-content/bake-content.rst:64
 msgid "Baking Option"
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:67
+#, fuzzy
 msgid "Domain Name"
-msgstr ""
+msgstr "Name der Domain"
 
 #: ../../source/host/add-content/bake-content.rst:67
 #: ../../source/host/add-content/bake-content.rst:70
 #: ../../source/host/add-content/bake-content.rst:83
 #: ../../source/host/add-content/bake-content.rst:88
+#, fuzzy
 msgid "Domain"
-msgstr ""
+msgstr "Domain"
 
 #: ../../source/host/add-content/bake-content.rst:67
 msgid "Enter your domain's name."
@@ -14628,8 +14719,9 @@ msgid "Model File(s)"
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:74
+#, fuzzy
 msgid "Model"
-msgstr ""
+msgstr "Modell"
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Enter the file or URL path for your model file(s)."
@@ -14872,8 +14964,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:64
+#, fuzzy
 msgid "Under Construction"
-msgstr ""
+msgstr "Hier wird gebaut."
 
 #: ../../source/host/add-content/create-content.rst:66
 msgid ""
@@ -15932,8 +16025,9 @@ msgid "User Type"
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:48
+#, fuzzy
 msgid "anonymous"
-msgstr ""
+msgstr "incognito"
 
 #: ../../source/host/configure-settings/permission-settings.rst:48
 msgid ""
@@ -16000,24 +16094,27 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:73
+#, fuzzy
 msgid "User Permissions"
-msgstr ""
+msgstr "Verwendete Berechtigungen"
 
 #: ../../source/host/configure-settings/permission-settings.rst:75
 msgid "The actions that you can secure for each type of user are as follows:"
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
+#, fuzzy
 msgid "Permissions"
-msgstr ""
+msgstr "Berechtigungen"
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Definition"
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:80
+#, fuzzy
 msgid "Connect"
-msgstr ""
+msgstr "Verbinden"
 
 #: ../../source/host/configure-settings/permission-settings.rst:80
 msgid "Sets whether a user can enter the domain."
@@ -17057,8 +17154,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:5
+#, fuzzy
 msgid "Installation"
-msgstr ""
+msgstr "Installation"
 
 #: ../../source/host/server-setup/linux-server.md:7
 msgid ""
@@ -17083,8 +17181,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:20
+#, fuzzy
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 #: ../../source/host/server-setup/linux-server.md:22
 msgid ""
@@ -17152,8 +17251,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:42
+#, fuzzy
 msgid "Services"
-msgstr ""
+msgstr "Dienste"
 
 #: ../../source/host/server-setup/linux-server.md:44
 msgid ""
@@ -17818,8 +17918,9 @@ msgstr ""
 #: ../../source/release-notes/2021-1-1-Eos.md:59
 #: ../../source/release-notes/v86-k2.md:9
 #: ../../source/release-notes/v86-k2.md:62
+#, fuzzy
 msgid "General"
-msgstr ""
+msgstr "Allgemeines"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:20
 msgid "Create App"
@@ -17861,8 +17962,9 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:30
 #: ../../source/release-notes/v86-k2.md:24
+#, fuzzy
 msgid "Graphics"
-msgstr ""
+msgstr "Grafiken"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:32
 msgid ""
@@ -18274,8 +18376,9 @@ msgid "DOC-227: Stats JSDoc (#16539)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:137
+#, fuzzy
 msgid "Stats"
-msgstr ""
+msgstr "Werte"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:138
 msgid "Globals:"
@@ -18412,8 +18515,9 @@ msgid "LODManager"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:184
+#, fuzzy
 msgid "Performance"
-msgstr ""
+msgstr "Leistung"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:186
 msgid "Update the Stats API JSDoc to match."
@@ -19317,8 +19421,9 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:37
 #: ../../source/release-notes/2021-1-1-Eos.md:32
 #: ../../source/release-notes/2021-1-1-Eos.md:65
+#, fuzzy
 msgid "Miscellaneous"
-msgstr ""
+msgstr "Sonstiges"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:35
 msgid ""
@@ -20230,24 +20335,29 @@ msgid "Add Actions menu."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:19
+#, fuzzy
 msgid "Cut"
-msgstr ""
+msgstr "Ausschneiden"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:20
+#, fuzzy
 msgid "Copy"
-msgstr ""
+msgstr "Kopieren"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:21
+#, fuzzy
 msgid "Paste"
-msgstr ""
+msgstr "Einfügen"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:22
+#, fuzzy
 msgid "Duplicate"
-msgstr ""
+msgstr "Duplizieren"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:23
+#, fuzzy
 msgid "Delete"
-msgstr ""
+msgstr "Löschen"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:24
 msgid "Parent Entity to Last Selected"
@@ -20262,12 +20372,14 @@ msgid "Add Selection menu."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:28
+#, fuzzy
 msgid "Select All"
-msgstr ""
+msgstr "Alles auswählen"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:29
+#, fuzzy
 msgid "Select None"
-msgstr ""
+msgstr "Nichts auswählen"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:30
 msgid "Inverse Selection"
@@ -20290,8 +20402,9 @@ msgid "Add a parent 'Hierarchy' column to the entity list, identifying:"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:35
+#, fuzzy
 msgid "Parent"
-msgstr ""
+msgstr "Übergeordnetes Objekt"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:36
 msgid "Child"
@@ -20302,8 +20415,9 @@ msgid "Parent & Child"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:38
+#, fuzzy
 msgid "None"
-msgstr ""
+msgstr "Keine"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:39
 msgid ""
@@ -21587,8 +21701,9 @@ msgstr ""
 #: ../../source/release-notes/2021-1-3-Eos.md:7
 #: ../../source/release-notes/2021-1-3-Eos.md:72
 #: ../../source/release-notes/2021-1-3-Eos.md:91
+#, fuzzy
 msgid "Enhancements"
-msgstr ""
+msgstr "Verbesserungen"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:11
 msgid ""
@@ -21717,8 +21832,9 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-2-Eos.md:35
 #: ../../source/release-notes/2021-1-3-Eos.md:48
+#, fuzzy
 msgid "Docs"
-msgstr ""
+msgstr "Dokumentation"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:37
 msgid ""
@@ -22469,8 +22585,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2021-1-3-Eos.md:266
+#, fuzzy
 msgid "Developer Docs"
-msgstr ""
+msgstr "Entwicklerdoku"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:268
 msgid ""
@@ -22660,8 +22777,9 @@ msgstr ""
 #: ../../source/release-notes/v83.md:59 ../../source/release-notes/v83.md:144
 #: ../../source/release-notes/v84.md:23 ../../source/release-notes/v84.md:67
 #: ../../source/release-notes/v85.md:69
+#, fuzzy
 msgid "Rendering"
-msgstr ""
+msgstr "Wiedergabe"
 
 #: ../../source/release-notes/v80.md:43
 msgid ""
@@ -22811,8 +22929,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v80.md:78 ../../source/release-notes/v81.md:57
+#, fuzzy
 msgid "Other"
-msgstr ""
+msgstr "Weitere"
 
 #: ../../source/release-notes/v80.md:80
 msgid ""
@@ -22859,8 +22978,9 @@ msgstr ""
 #: ../../source/release-notes/v82.md:140 ../../source/release-notes/v83.md:170
 #: ../../source/release-notes/v84.md:94 ../../source/release-notes/v85.md:92
 #: ../../source/release-notes/v86.md:77
+#, fuzzy
 msgid "Android"
-msgstr ""
+msgstr "Android"
 
 #: ../../source/release-notes/v80.md:93 ../../source/release-notes/v81.md:67
 #: ../../source/release-notes/v82.md:142
@@ -23533,8 +23653,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v82.md:117
+#, fuzzy
 msgid "Domains"
-msgstr ""
+msgstr "Domains"
 
 #: ../../source/release-notes/v82.md:119
 msgid ""
@@ -24071,8 +24192,9 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:118 ../../source/release-notes/v85.md:52
 #: ../../source/release-notes/v86.md:48
+#, fuzzy
 msgid "Audio"
-msgstr ""
+msgstr "Audio"
 
 #: ../../source/release-notes/v83.md:120
 msgid ""
@@ -24443,8 +24565,9 @@ msgid "Updated High Fidelity's copyright on the About dialog."
 msgstr ""
 
 #: ../../source/release-notes/v84.md:50
+#, fuzzy
 msgid "Installer"
-msgstr ""
+msgstr "Installationsprogramm"
 
 #: ../../source/release-notes/v84.md:52
 msgid ""
@@ -25078,8 +25201,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:5
+#, fuzzy
 msgid "Interface"
-msgstr ""
+msgstr "Benutzeroberfläche"
 
 #: ../../source/release-notes/v86-k2.md:7
 #: ../../source/release-notes/v86-k2.md:60
@@ -25281,8 +25405,9 @@ msgid "Fix updated TBB library hash in vcpkg portfile. (#222)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:58
+#, fuzzy
 msgid "Server"
-msgstr ""
+msgstr "Server"
 
 #: ../../source/release-notes/v86-k2.md:64
 msgid "Added environment variables to change domain server ports. (#15)"
@@ -25426,8 +25551,9 @@ msgid "Tutorial: Use MIDI to Control Your Environment"
 msgstr ""
 
 #: ../../source/script.rst:3
+#, fuzzy
 msgid "Script"
-msgstr ""
+msgstr "Skript"
 
 #: ../../source/script.rst:5
 msgid ""
@@ -25819,8 +25945,9 @@ msgid "Types of Scripts"
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:56
+#, fuzzy
 msgid "Script Type"
-msgstr ""
+msgstr "Skripttyp:"
 
 #: ../../source/script/get-started-with-scripting.rst:58
 msgid "Interface Script"
@@ -26086,8 +26213,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:160
+#, fuzzy
 msgid "Scripting Console"
-msgstr ""
+msgstr "Skriptkonsole"
 
 #: ../../source/script/get-started-with-scripting.rst:162
 msgid ""
@@ -26577,12 +26705,14 @@ msgid "The different status types we support are:"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:40
+#, fuzzy
 msgid "Status"
-msgstr ""
+msgstr "Status"
 
 #: ../../source/script/midi-tutorial.rst:40
+#, fuzzy
 msgid "Types"
-msgstr ""
+msgstr "Typen"
 
 #: ../../source/script/midi-tutorial.rst:42
 msgid "08"
@@ -26601,48 +26731,54 @@ msgid "note on"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:46
+#, fuzzy
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../source/script/midi-tutorial.rst:46
 msgid "polyphonic key pressure"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:48
+#, fuzzy
 msgid "11"
-msgstr ""
+msgstr "11"
 
 #: ../../source/script/midi-tutorial.rst:48
 msgid "control change"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:50
+#, fuzzy
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../source/script/midi-tutorial.rst:50
 msgid "program change"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:52
+#, fuzzy
 msgid "13"
-msgstr ""
+msgstr "13"
 
 #: ../../source/script/midi-tutorial.rst:52
 msgid "channel pressure"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:54
+#, fuzzy
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: ../../source/script/midi-tutorial.rst:54
 msgid "pitch bend"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:56
+#, fuzzy
 msgid "15"
-msgstr ""
+msgstr "15"
 
 #: ../../source/script/midi-tutorial.rst:56
 msgid "system message"
