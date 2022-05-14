@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-04-03 19:45+0000\n"
-"PO-Revision-Date: 2022-04-16 02:11+0000\n"
+"PO-Revision-Date: 2022-05-16 00:18+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/de/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/contribute.rst:3
@@ -20407,8 +20407,9 @@ msgid "Parent"
 msgstr "Übergeordnetes Objekt"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:36
+#, fuzzy
 msgid "Child"
-msgstr ""
+msgstr "Kind"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:37
 msgid "Parent & Child"
