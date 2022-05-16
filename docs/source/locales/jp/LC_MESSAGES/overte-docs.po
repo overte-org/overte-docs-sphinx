@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-04-03 19:45+0000\n"
-"PO-Revision-Date: 2022-04-10 09:07+0000\n"
+"PO-Revision-Date: 2022-05-17 02:41+0000\n"
 "Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/ja/>\n"
@@ -20,7 +20,7 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.12-dev\n"
+"X-Generator: Weblate 4.13-dev\n"
 "Generated-By: Babel 2.9.1\n"
 
 #: ../../source/contribute.rst:3
@@ -118,12 +118,16 @@ msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
+"間違った情報、不足している情報は、`GitHub issue tracker <https://github.com/"
+"overte-org/overte-docs-sphinx/issues>`_ に報告してください。"
 
 #: ../../source/contribute.rst:18
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
+"ドキュメントページを作成または変更し、`GitHub で PR (プルリクエスト) "
+"<https://github.com/overte-org/overte-docs-sphinx/pulls>`_ を作成する。"
 
 #: ../../source/contribute.rst:19
 msgid ""
@@ -133,6 +137,10 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"`Github上のドキュメントに対する変更<https://github.com/overte-org/"
+"overte-docs-sphinx/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_をレ"
+"ビューする。書き手と最初のレビュアーが見落としていることが必ずあるので、ほと"
+"んどの変更に対して2人のレビュアーが欲しいところです。"
 
 #: ../../source/contribute.rst:24
 #, fuzzy
@@ -199,10 +207,11 @@ msgid "Development"
 msgstr "開発"
 
 #: ../../source/contribute.rst:44
+#, fuzzy
 msgid ""
 "You can help the general development of the Overte project without being "
 "a developer yourself by:"
-msgstr ""
+msgstr "開発者でなくても、Overteプロジェクトの開発全般を支援することができます。"
 
 #: ../../source/contribute.rst:46
 msgid ""
@@ -13872,7 +13881,7 @@ msgstr "はじめる"
 
 #: ../../source/home.rst:80 ../../source/index.rst:80
 msgid "EXPLORE"
-msgstr "探す"
+msgstr "探索する"
 
 #: ../../source/home.rst:80 ../../source/index.rst:80
 msgid "CREATE"
@@ -13971,45 +13980,40 @@ msgid "The following translations are available:"
 msgstr "以下の翻訳が利用可能です："
 
 #: ../../source/home.rst:39 ../../source/index.rst:39
-#, fuzzy
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
-msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+msgstr "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "de_trans"
 msgstr ""
 
 #: ../../source/home.rst:40 ../../source/index.rst:40
-#, fuzzy
 msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
-msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+msgstr "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "es_trans"
 msgstr ""
 
 #: ../../source/home.rst:41 ../../source/index.rst:41
-#, fuzzy
 msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
-msgstr "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
+msgstr "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "fr_trans"
 msgstr ""
 
 #: ../../source/home.rst:42 ../../source/index.rst:42
-#, fuzzy
 msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
-msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "jp_trans"
 msgstr ""
 
 #: ../../source/home.rst:43 ../../source/index.rst:43
-#, fuzzy
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
-msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 
 #: ../../source/home.rst ../../source/index.rst
 msgid "ko_trans"
@@ -14029,8 +14033,8 @@ msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
 msgstr ""
-":doc:`探す <explore>`: "
-"Metaverseのドメイン間を行き来したり、イベントに参加したり、他のユーザーが何をしているかをチェックしたりしましょう。"
+":doc:`探索する <explore>`: Metaverseのドメイン間を行き来したり、イベントに参"
+"加したり、他のユーザーが何をしているかをチェックしたりしましょう！"
 
 #: ../../source/home.rst:72 ../../source/index.rst:72
 msgid ""
@@ -14070,31 +14074,37 @@ msgstr ":doc:`セキュリティ<security>`: プロジェクトとその構成�
 
 #: ../../source/host.rst:11
 msgid "Quick Start Guide"
-msgstr ""
+msgstr "クイックスタートガイド"
 
 #: ../../source/host.rst:11 ../../source/host/start-hosting.rst:3
+#, fuzzy
 msgid "Get Started with Hosting"
-msgstr ""
+msgstr "ホスティングを始める"
 
 #: ../../source/host.rst:11
+#, fuzzy
 msgid "Set Up a Domain Server"
-msgstr ""
+msgstr "ドメインサーバーを設定する"
 
 #: ../../source/host.rst:11 ../../source/host/configure-settings.rst:3
+#, fuzzy
 msgid "Configure Your Domain Settings"
-msgstr ""
+msgstr "ドメイン設定を構成する"
 
 #: ../../source/host.rst:11 ../../source/host/add-content.rst:3
+#, fuzzy
 msgid "Add Content to Your Domain"
-msgstr ""
+msgstr "ドメインにコンテンツを追加する"
 
 #: ../../source/host.rst:11 ../../source/host/invite-users.rst:7
+#, fuzzy
 msgid "Bring Visitors to Your Domain"
-msgstr ""
+msgstr "ドメインに訪問者を呼び込む"
 
 #: ../../source/host.rst:11 ../../source/host/maintain-domain.rst:3
+#, fuzzy
 msgid "Maintain Your Domain"
-msgstr ""
+msgstr "ドメインの維持管理"
 
 #: ../../source/host.rst:3
 msgid "Host"
