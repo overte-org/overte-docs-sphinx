@@ -3,3 +3,6 @@ Sphinx>=3.5.4
 sphinx-intl>=2.0.1
 sphinx-rtd-theme>=0.5.2
 git+https://github.com/overte-org/video.git
+
+# myst-parser < 0.17.2 requires attrs but the package doesn't depend on it.
+attrs
