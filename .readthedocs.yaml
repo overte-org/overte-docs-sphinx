@@ -1,0 +1,29 @@
+# .readthedocs.yaml
+# Read the Docs configuration file
+# See https://docs.readthedocs.io/en/stable/config-file/v2.html for details
+
+version: 2
+
+# Do not build any formats other than normal HTML
+formats: []
+
+build:
+  # "os" and "tools" are required to be able to use "jobs"
+  os: ubuntu-22.04
+  tools:
+    python: "3.10"
+  jobs:
+    pre_build:
+      - echo "Creating an index.html to work around not being able to set the default web page.."
+      - ls -R
+      - cd docs/source/ && cp home.rst index.rst
+
+# Build documentation in the docs/ directory with Sphinx
+sphinx:
+   configuration: docs/source/conf.py
+
+# Optionally declare the Python requirements required to build your docs
+python:
+   install:
+   - requirements: requirements.txt
+   system_packages: true # Allow use of system packages
