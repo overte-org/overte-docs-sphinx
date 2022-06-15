@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-04-03 19:45+0000\n"
-"PO-Revision-Date: 2022-05-16 00:18+0000\n"
+"PO-Revision-Date: 2022-06-16 05:20+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/de/>\n"
@@ -10650,8 +10650,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/architecture.rst:16
+#, fuzzy
 msgid "Architecture Overview"
-msgstr ""
+msgstr "Architekturübersicht"
 
 #: ../../source/explore/get-started/architecture.rst:18
 msgid ""
