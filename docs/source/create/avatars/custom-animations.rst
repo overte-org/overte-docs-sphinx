@@ -224,7 +224,7 @@ OR
 
 .. code::
 
-    animGraphUrl = "URL"
+    animGraphUrl = URL
 
 
 ^^^^^^^^
