@@ -15,7 +15,7 @@ Get a Place Name
 
 Once acquired, a place name can be transferred freely between any of your domains.
 
-1. Go to https://overte.org/dashboard/places to get a place name. If you're not logged in, you will be prompted to do so.
+1. Go to https://mv.overte.org/dashboard/places to get a place name. If you're not logged in, you will be prompted to do so.
 2. Click 'Create Place'.
 3. Type in your new Place Name. You can use any place name that has not already been taken; however, please note that Overte reserves the right to reject any registration we deem obscene, offensive, or a copyright violation.
 4. Click 'Create'.
