@@ -35,7 +35,7 @@ jobs:
         sphinx-intl update -l jp
         sphinx-intl update -l ko
     - name: Commit changes
-      uses: actions-x/commit@v2
+      uses: actions-x/commit@v6
       with:
         name: AnimatedMannequin
         email: julian.gro@overte.org
