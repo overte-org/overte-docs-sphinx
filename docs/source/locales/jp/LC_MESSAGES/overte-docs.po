@@ -10,18 +10,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-04-03 19:45+0000\n"
+"POT-Creation-Date: 2022-07-27 13:12+0000\n"
 "PO-Revision-Date: 2022-07-02 19:26+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
-"overte-documentation/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/overte"
+"/overte-documentation/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../source/contribute.rst:3
 msgid "Contribute"
@@ -118,16 +116,16 @@ msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
-"間違った情報、不足している情報は、`GitHub issue tracker <https://github.com/"
-"overte-org/overte-docs-sphinx/issues>`_ に報告してください。"
+"間違った情報、不足している情報は、`GitHub issue tracker <https://github.com/overte-org"
+"/overte-docs-sphinx/issues>`_ に報告してください。"
 
 #: ../../source/contribute.rst:18
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
-"ドキュメントページを作成または変更し、`GitHub で PR (プルリクエスト) "
-"<https://github.com/overte-org/overte-docs-sphinx/pulls>`_ を作成する。"
+"ドキュメントページを作成または変更し、`GitHub で PR (プルリクエスト) <https://github.com/overte-org"
+"/overte-docs-sphinx/pulls>`_ を作成する。"
 
 #: ../../source/contribute.rst:19
 msgid ""
@@ -137,10 +135,9 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
-"`Github上のドキュメントに対する変更 <https://github.com/overte-org/"
-"overte-docs-sphinx/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ をレ"
-"ビューする。書き手と最初のレビュアーが見落としていることが必ずあるので、ほと"
-"んどの変更に対して2人のレビュアーが欲しいところです。"
+"`Github上のドキュメントに対する変更 <https://github.com/overte-org/overte-docs-"
+"sphinx/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ "
+"をレビューする。書き手と最初のレビュアーが見落としていることが必ずあるので、ほとんどの変更に対して2人のレビュアーが欲しいところです。"
 
 #: ../../source/contribute.rst:24
 #, fuzzy
@@ -161,14 +158,12 @@ msgid ""
 "`README <https://github.com/overte-org/overte-docs-"
 "sphinx/blob/master/README.md>`_."
 msgstr ""
-"国際的なプロジェクトであるOverteは、英語を話さないユーザーにも対応できるよう"
-"、翻訳者に頼っています。現在、翻訳をサポートしているコンポーネントは、ドキュ"
-"メントのみです。オンライン翻訳システム `Weblate <https://hosted.weblate.org/"
-"projects/overte/overte-documentation/>`_ を使って、翻訳を提出するか、あなたの"
-"言語のメンテナになって、ドキュメントに入る前に翻訳をチェックすることで翻訳を"
-"支援することができます。ドキュメントの翻訳に関するより詳しい情報は、`README "
-"<https://github.com/overte-org/overte-docs-sphinx/blob/master/README.md>`_ "
-"で見ることができます。"
+"国際的なプロジェクトであるOverteは、英語を話さないユーザーにも対応できるよう、翻訳者に頼っています。現在、翻訳をサポートしているコンポーネントは、ドキュメントのみです。オンライン翻訳システム"
+" `Weblate <https://hosted.weblate.org/projects/overte/overte-"
+"documentation/>`_ "
+"を使って、翻訳を提出するか、あなたの言語のメンテナになって、ドキュメントに入る前に翻訳をチェックすることで翻訳を支援することができます。ドキュメントの翻訳に関するより詳しい情報は、`README"
+" <https://github.com/overte-org/overte-docs-"
+"sphinx/blob/master/README.md>`_ で見ることができます。"
 
 #: ../../source/contribute.rst:32
 #, fuzzy
@@ -183,9 +178,8 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
-"Overteは、主にコミュニティとコアチームの自発的な貢献によって運営されています"
-"。寄付を管理する組織はまだありませんが、PayPal、Patreon、GitHub Sponsorsなど"
-"の様々なサービスを通じて、チームの特定のメンバーに寄付をすることができます。"
+"Overteは、主にコミュニティとコアチームの自発的な貢献によって運営されています。寄付を管理する組織はまだありませんが、PayPal、Patreon、GitHub"
+" Sponsorsなどの様々なサービスを通じて、チームの特定のメンバーに寄付をすることができます。"
 
 #: ../../source/contribute.rst:36
 msgid ""
@@ -282,8 +276,7 @@ msgid ""
 "It is tremendously helpful for developers to have someone that they can "
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
-msgstr "開発者にとって、自分の専門外の仕事を依頼できる人がいることは、非常に助かるこ"
-"とです。"
+msgstr "開発者にとって、自分の専門外の仕事を依頼できる人がいることは、非常に助かることです。"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
@@ -394,9 +387,8 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
-"3Dモデルは :doc:`エンティティ <entities>` で、噴水、城、コーヒーカップなど、"
-"世界で見たいオブジェクトを表します。自分で作成するか、外部で調達することがで"
-"きます。3Dモデルは、OBJ、FBX、glTF形式のみサポートしています。"
+"3Dモデルは :doc:`エンティティ <entities>` "
+"で、噴水、城、コーヒーカップなど、世界で見たいオブジェクトを表します。自分で作成するか、外部で調達することができます。3Dモデルは、OBJ、FBX、glTF形式のみサポートしています。"
 
 #: ../../source/create/3d-models.rst:7
 #, fuzzy
@@ -406,10 +398,8 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
-"3Dモデルの見た目は、そのマテリアルによって制御されます。Overteでサポートされ"
-"ているマテリアルは、Physically-based Rendering（PBR）マテリアルです。つまり、"
-"3Dモデルのマテリアルは、実際の生活と同じように（おおよそ）光を反射したり吸収"
-"したりするのです。"
+"3Dモデルの見た目は、そのマテリアルによって制御されます。Overteでサポートされているマテリアルは、Physically-based "
+"Rendering（PBR）マテリアルです。つまり、3Dモデルのマテリアルは、実際の生活と同じように（おおよそ）光を反射したり吸収したりするのです。"
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
@@ -422,8 +412,7 @@ msgstr ""
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Overte."
-msgstr "すべての3DモデルはFBX、glTF、またはOBJ形式であり、Overteによってサポートされ"
-"ているマテリアルを持つ必要があります。"
+msgstr "すべての3DモデルはFBX、glTF、またはOBJ形式であり、Overteによってサポートされているマテリアルを持つ必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:12
 #, fuzzy
@@ -436,10 +425,7 @@ msgid ""
 "There are many online 3D content websites that contain models that you "
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
-msgstr ""
-"オンライン3Dコンテンツのウェブサイトには、購入したり無料で入手できるモデルが"
-"多数掲載されています。このようなサイトから3Dモデルを調達する際には、以下の点"
-"に注意してください。"
+msgstr "オンライン3Dコンテンツのウェブサイトには、購入したり無料で入手できるモデルが多数掲載されています。このようなサイトから3Dモデルを調達する際には、以下の点に注意してください。"
 
 #: ../../source/create/3d-models/get-model.rst:17
 #, fuzzy
@@ -448,9 +434,8 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
-"**ライセンス条項を確認する:** モデルを使用する前に、必ずモデルのライセンス条"
-"項を確認してください。コンテンツの利用に十分な権利があることを確認するのは、"
-"あなたの責任です。"
+"**ライセンス条項を確認する:** "
+"モデルを使用する前に、必ずモデルのライセンス条項を確認してください。コンテンツの利用に十分な権利があることを確認するのは、あなたの責任です。"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -484,9 +469,7 @@ msgstr "独自の3Dモデルを作成する"
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
-msgstr ""
-"BlenderやMayaなどの3Dモデリングソフトウェアを使用して、独自の3Dモデルを作成で"
-"きます。以下の条件を満たす限り、お好きなソフトをお使いください。"
+msgstr "BlenderやMayaなどの3Dモデリングソフトウェアを使用して、独自の3Dモデルを作成できます。以下の条件を満たす限り、お好きなソフトをお使いください。"
 
 #: ../../source/create/3d-models/get-model.rst:28
 #, fuzzy
@@ -500,9 +483,8 @@ msgid ""
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
-"3DモデルのマテリアルはOverteでサポートされています。マテリアルが正しく読み込"
-"まれるように、 :doc:`マテリアルガイド <pbr-materials-guide>` "
-"を使用してください。"
+"3DモデルのマテリアルはOverteでサポートされています。マテリアルが正しく読み込まれるように、 :doc:`マテリアルガイド <pbr-"
+"materials-guide>` を使用してください。"
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
@@ -513,8 +495,7 @@ msgstr ""
 msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
-msgstr "Overte (および VR) の 3D "
-"モデルの作成は、映画、ビデオ、およびゲーム用のモデルの作成とは異なります。"
+msgstr "Overte (および VR) の 3D モデルの作成は、映画、ビデオ、およびゲーム用のモデルの作成とは異なります。"
 
 #: ../../source/create/3d-models/get-model.rst:37
 #, fuzzy
@@ -522,9 +503,7 @@ msgid ""
 "3D models for VR are rendered twice (for both right and left eyes): This "
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
-msgstr ""
-"VR用の3Dモデルは2回レンダリングされます（右目用と左目用の両方）。つまり、モデ"
-"ルのポリゴン数や使用するマテリアルの数がパフォーマンスに影響します。"
+msgstr "VR用の3Dモデルは2回レンダリングされます（右目用と左目用の両方）。つまり、モデルのポリゴン数や使用するマテリアルの数がパフォーマンスに影響します。"
 
 #: ../../source/create/3d-models/get-model.rst:38
 #, fuzzy
@@ -533,18 +512,14 @@ msgid ""
 "framerate at 90fps and be cautious about your model’s size. Models that "
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
-msgstr ""
-"ほとんどのVRヘッドセットは90Hz以上で動作します。フレームレートを90fpsに保ち、"
-"モデルのサイズに注意する必要があります。大きすぎるモデルや非常に複雑なモデル"
-"は、フレームレートを低下させ、人々に吐き気を催させる可能性があります。"
+msgstr "ほとんどのVRヘッドセットは90Hz以上で動作します。フレームレートを90fpsに保ち、モデルのサイズに注意する必要があります。大きすぎるモデルや非常に複雑なモデルは、フレームレートを低下させ、人々に吐き気を催させる可能性があります。"
 
 #: ../../source/create/3d-models/get-model.rst:40
 #, fuzzy
 msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
-msgstr "Overte（およびVR）用の3Dモデルを作成するためのベストプラクティスをリストアッ"
-"プしました。"
+msgstr "Overte（およびVR）用の3Dモデルを作成するためのベストプラクティスをリストアップしました。"
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -9810,7 +9785,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "Gallery"
 msgstr ""
 
@@ -13914,55 +13889,55 @@ msgid ""
 "same steps as above."
 msgstr ""
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "HOME"
 msgstr "はじめる"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "EXPLORE"
 msgstr "探索する"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "CREATE"
 msgstr "作る"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "SCRIPT"
 msgstr "スクリプト"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "HOST"
 msgstr "ホスト"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "CONTRIBUTE"
 msgstr "コントリビュート"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "DEVELOP"
 msgstr ""
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "SECURITY"
 msgstr "セキュリティ"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "FAQ"
 msgstr "よくある質問"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "RELEASE NOTES"
 msgstr "リリースノート"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "API REFERENCE"
 msgstr "APIレファレンス"
 
-#: ../../source/home.rst:3 ../../source/index.rst:3
+#: ../../source/home.rst:3
 msgid "Home"
 msgstr "はじめる"
 
-#: ../../source/home.rst:5 ../../source/index.rst:5
+#: ../../source/home.rst:5
 #, fuzzy
 msgid ""
 "Overte is open-source software which enables you to create and share "
@@ -13971,7 +13946,7 @@ msgid ""
 "connect with other users, attend or host live VR events, and much more."
 msgstr "Overteは、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワールドを作成し、共有することができるオープンソースのソフトウェアです。自分だけのワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会ってつながったり、ライブVRイベントに参加したりすることができます。"
 
-#: ../../source/home.rst:8 ../../source/index.rst:8
+#: ../../source/home.rst:8
 #, fuzzy
 msgid ""
 "The Overte virtual worlds software provides built-in social features, "
@@ -13982,7 +13957,7 @@ msgid ""
 "friends, and listen to conversations just like you would in real life."
 msgstr "OverteのMetaverse（メタバース）には、アバターのインタラクション、空間化されたオーディオ、インタラクティブな物理演算などのソーシャル機能が組み込まれています。さらに、あらゆる3Dオブジェクトを仮想環境へインポートする機能もあります。Overteではどこへ行っても環境とインタラクトすることができ、フレンドやユーザーとの会話を楽しむことができます。"
 
-#: ../../source/home.rst:12 ../../source/index.rst:12
+#: ../../source/home.rst:12
 #, fuzzy
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
@@ -13991,11 +13966,11 @@ msgstr ""
 ":doc:`Overteをダウンロードする<explore/get-started/install>` |Download|、もしくは "
 ":doc:`ギャラリーを見る<explore/gallery>` |Gallery|。"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "Download"
 msgstr ""
 
-#: ../../source/home.rst:26 ../../source/index.rst:26
+#: ../../source/home.rst:26
 #, fuzzy
 msgid ""
 "In addition to the documentation, you can join the discussion on the "
@@ -14005,83 +13980,83 @@ msgstr ""
 "ドキュメントに加えて、Overte の `Discord サーバー <https://discord.gg/4YuQvc8K2f>`__ "
 "|Discord| に参加できます。"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "Discord"
 msgstr ""
 
-#: ../../source/home.rst:35 ../../source/index.rst:35
+#: ../../source/home.rst:35
 #, fuzzy
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
 msgstr "このドキュメンテーションの原文は `英語 <https://docs.overte.org/>`_ で執筆されたものです。"
 
-#: ../../source/home.rst:37 ../../source/index.rst:37
+#: ../../source/home.rst:37
 msgid "The following translations are available:"
 msgstr "以下の翻訳が利用可能です："
 
-#: ../../source/home.rst:39 ../../source/index.rst:39
+#: ../../source/home.rst:39
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "de_trans"
 msgstr ""
 
-#: ../../source/home.rst:40 ../../source/index.rst:40
+#: ../../source/home.rst:40
 msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 msgstr "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "es_trans"
 msgstr ""
 
-#: ../../source/home.rst:41 ../../source/index.rst:41
+#: ../../source/home.rst:41
 msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "fr_trans"
 msgstr ""
 
-#: ../../source/home.rst:42 ../../source/index.rst:42
+#: ../../source/home.rst:42
 msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 msgstr "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "jp_trans"
 msgstr ""
 
-#: ../../source/home.rst:43 ../../source/index.rst:43
+#: ../../source/home.rst:43
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "ko_trans"
 msgstr ""
 
-#: ../../source/home.rst:67 ../../source/index.rst:67
+#: ../../source/home.rst:67
 msgid "What can I do?"
 msgstr "Overteで出来ること"
 
-#: ../../source/home.rst:69 ../../source/index.rst:69
+#: ../../source/home.rst:69
 #, fuzzy
 msgid "You have the power to shape your VR experience in Overte."
 msgstr "あなたは、OverteでのVR体験そのものを思い通りにする力を持っています。"
 
-#: ../../source/home.rst:71 ../../source/index.rst:71
+#: ../../source/home.rst:71
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
 msgstr ""
-":doc:`探索する <explore>`: Metaverseのドメイン間を行き来したり、イベントに参"
-"加したり、他のユーザーが何をしているかをチェックしたりしましょう！"
+":doc:`探索する <explore>`: "
+"Metaverseのドメイン間を行き来したり、イベントに参加したり、他のユーザーが何をしているかをチェックしたりしましょう！"
 
-#: ../../source/home.rst:72 ../../source/index.rst:72
+#: ../../source/home.rst:72
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
 msgstr ":doc:`作る<create>`: アバターやドメイン、タブレットアプリなどを作成できます。"
 
-#: ../../source/home.rst:73 ../../source/index.rst:73
+#: ../../source/home.rst:73
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
@@ -14089,23 +14064,23 @@ msgstr ""
 ":doc:`スクリプト<script>`: "
 "高度なスクリプトをMetaverseのエンティティやアバターに適用することで、創造性を発揮することができます。"
 
-#: ../../source/home.rst:74 ../../source/index.rst:74
+#: ../../source/home.rst:74
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ":doc:`ホスト<host>`: 自分のインスタンスを構築し、イマーシブな体験をあなたの観客へ届けましょう。"
 
-#: ../../source/home.rst:75 ../../source/index.rst:75
+#: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ""
 
-#: ../../source/home.rst:76 ../../source/index.rst:76
+#: ../../source/home.rst:76
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
 msgstr ":doc:`デベロッパー<developer>`: 自分のニーズに合わせてプロジェクトをカスタマイズできます。"
 
-#: ../../source/home.rst:77 ../../source/index.rst:77
+#: ../../source/home.rst:77
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
@@ -15883,8 +15858,8 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:18
 msgid ""
-"Go to https://overte.org/dashboard/places to get a place name. If you're "
-"not logged in, you will be prompted to do so."
+"Go to https://mv.overte.org/dashboard/places to get a place name. If "
+"you're not logged in, you will be prompted to do so."
 msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:19
@@ -29977,3 +29952,11 @@ msgstr "メタバースセッションUUID"
 #~ "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
 #~ " of open pull requests."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Go to https://overte.org/dashboard/places to "
+#~ "get a place name. If you're not"
+#~ " logged in, you will be prompted "
+#~ "to do so."
+#~ msgstr ""
+

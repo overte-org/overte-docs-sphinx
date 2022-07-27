@@ -10,18 +10,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-04-03 19:45+0000\n"
+"POT-Creation-Date: 2022-07-27 13:12+0000\n"
 "PO-Revision-Date: 2022-05-17 02:41+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: French <https://hosted.weblate.org/projects/overte/"
-"overte-documentation/fr/>\n"
 "Language: fr\n"
+"Language-Team: French <https://hosted.weblate.org/projects/overte/overte-"
+"documentation/fr/>\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: Weblate 4.13-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../source/contribute.rst:3
 msgid "Contribute"
@@ -1661,9 +1660,10 @@ msgid ""
 " FOR REFERENCE ONLY UNTIL UPDATED. SEE `API "
 "DOCS<https://apidocs.overte.org/>` FOR MORE."
 msgstr ""
-"CE GUIDE N'EST PLUS À JOUR. LE CODE PEUT NE PAS FONCTIONNER EXACTEMENT COMME "
-"INDIQUÉ, À UTILISER UNIQUEMENT À TITRE DE RÉFÉRENCE JUSQU'À SA MISE À JOUR. "
-"VOIR `API DOCS<https://apidocs.vircadia.dev/>` POUR EN SAVOIR PLUS."
+"CE GUIDE N'EST PLUS À JOUR. LE CODE PEUT NE PAS FONCTIONNER EXACTEMENT "
+"COMME INDIQUÉ, À UTILISER UNIQUEMENT À TITRE DE RÉFÉRENCE JUSQU'À SA MISE"
+" À JOUR. VOIR `API DOCS<https://apidocs.vircadia.dev/>` POUR EN SAVOIR "
+"PLUS."
 
 #: ../../source/create/applications.rst:11
 #, fuzzy
@@ -3741,13 +3741,13 @@ msgid ""
 "code repository on `GitHub <https://github.com/overte-"
 "org/vircadia/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
-"Nous avons répertorié les rôles d'animation et leur description. Ils sont "
-"fréquemment mis à jour, c'est pourquoi nous vous recommandons d'utiliser "
-"\"MonAvatar.getAnimationRoles\" pour obtenir les derniers rôles d'animation "
-"avant de continuer. Les fichiers FBX d'animation standard pour ces rôles "
-"peuvent être trouvés dans le référentiel de code source de Vircadia sur `"
-"GitHub <https://github.com/vircadia/vircadia/tree/master/interface/resources/"
-"avatar/animations>`_."
+"Nous avons répertorié les rôles d'animation et leur description. Ils sont"
+" fréquemment mis à jour, c'est pourquoi nous vous recommandons d'utiliser"
+" \"MonAvatar.getAnimationRoles\" pour obtenir les derniers rôles "
+"d'animation avant de continuer. Les fichiers FBX d'animation standard "
+"pour ces rôles peuvent être trouvés dans le référentiel de code source de"
+" Vircadia sur `GitHub "
+"<https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/animations>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:106
 msgid "Animation Roles"
@@ -4107,8 +4107,7 @@ msgstr ""
 #: ../../source/create/avatars/custom-animations.rst:213
 #, fuzzy
 msgid "In Interface, pull up your HUD or Tablet and go to **Avatar**."
-msgstr ""
-"Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
+msgstr "Dans l'Interface accédez à votre HUD ou Tablet et sélectionnez **Create**."
 
 #: ../../source/create/avatars/custom-animations.rst:214
 msgid "Click on the Settings icon on the top-right corner."
@@ -10189,7 +10188,7 @@ msgstr ""
 " techniquement, peuvent être trouvées ici."
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "Gallery"
 msgstr "Galerie"
 
@@ -12012,10 +12011,10 @@ msgid ""
 "Overte. VR mode is not supported on macOS. The Oculus Runtime is not "
 "supported on Linux."
 msgstr ""
-"Si vous avez l'intention d'utiliser Vircadia en mode VR avec un HMD, assurez-"
-"vous que SteamVR ou Oculus Runtime est également installé sur votre système "
-"avant de lancer Vircadia. Le mode VR n'est pas pris en charge sur macOS. "
-"L'Oculus Runtime n'est pas pris en charge sur Linux."
+"Si vous avez l'intention d'utiliser Vircadia en mode VR avec un HMD, "
+"assurez-vous que SteamVR ou Oculus Runtime est également installé sur "
+"votre système avant de lancer Vircadia. Le mode VR n'est pas pris en "
+"charge sur macOS. L'Oculus Runtime n'est pas pris en charge sur Linux."
 
 #: ../../source/explore/get-started/install.rst:121
 #, fuzzy
@@ -13976,9 +13975,9 @@ msgid ""
 " how your avatar moves and speak to other users in-world using it."
 msgstr ""
 "Lorsque vous utiliserez Vircadia pour la première fois, vous porterez "
-"l'avatar par défaut, Woody. Votre avatar est une représentation de vous dans "
-"le métaverse. Vous pouvez contrôler les mouvements de votre avatar et parler "
-"à d'autres utilisateurs in-world par lui."
+"l'avatar par défaut, Woody. Votre avatar est une représentation de vous "
+"dans le métaverse. Vous pouvez contrôler les mouvements de votre avatar "
+"et parler à d'autres utilisateurs in-world par lui."
 
 #: ../../source/explore/personalize/change-avatar.md:12
 msgid "[Use Your Own Custom Avatar](#use-your-own-custom-avatar)"
@@ -15512,55 +15511,55 @@ msgid ""
 "same steps as above."
 msgstr ""
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "HOME"
 msgstr "ACCUEIL"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "EXPLORE"
 msgstr "EXPLORER"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "CREATE"
 msgstr "CRÉER"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "SCRIPT"
 msgstr "PROGRAMMER"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "HOST"
 msgstr "HÉBERGER"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "CONTRIBUTE"
 msgstr "CONTRIBUER"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "DEVELOP"
 msgstr ""
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "SECURITY"
 msgstr "SÉCURITÉ"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "FAQ"
 msgstr "FAQ"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "RELEASE NOTES"
 msgstr "NOTES DE VERSION"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "API REFERENCE"
 msgstr "RÉFÉRENCE API"
 
-#: ../../source/home.rst:3 ../../source/index.rst:3
+#: ../../source/home.rst:3
 msgid "Home"
 msgstr "Accueil"
 
-#: ../../source/home.rst:5 ../../source/index.rst:5
+#: ../../source/home.rst:5
 #, fuzzy
 msgid ""
 "Overte is open-source software which enables you to create and share "
@@ -15575,7 +15574,7 @@ msgstr ""
 "d'autres utilisateurs, assister ou héberger des événements VR en direct, "
 "et bien plus encore."
 
-#: ../../source/home.rst:8 ../../source/index.rst:8
+#: ../../source/home.rst:8
 #, fuzzy
 msgid ""
 "The Overte virtual worlds software provides built-in social features, "
@@ -15593,7 +15592,7 @@ msgstr ""
 "votre environnement, de dialoguer avec vos amis et d'écouter des "
 "conversations comme vous le feriez dans la vie réelle."
 
-#: ../../source/home.rst:12 ../../source/index.rst:12
+#: ../../source/home.rst:12
 #, fuzzy
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
@@ -15602,12 +15601,12 @@ msgstr ""
 ":doc:`Obtenez Vircadia <explore/get-started/install>` |Download| ou jetez"
 " un oeil à notre :doc:`Gallerie <explore/gallery>` |Gallery|."
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 #, fuzzy
 msgid "Download"
 msgstr "Téléchargement"
 
-#: ../../source/home.rst:26 ../../source/index.rst:26
+#: ../../source/home.rst:26
 #, fuzzy
 msgid ""
 "In addition to the documentation, you can join the discussion on the "
@@ -15618,78 +15617,78 @@ msgstr ""
 " le Vircadia `Discord serveur <https://discordapp.com/invite/Pvx2vke>`__ "
 "|Discord|."
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 #, fuzzy
 msgid "Discord"
 msgstr "Discord"
 
-#: ../../source/home.rst:35 ../../source/index.rst:35
+#: ../../source/home.rst:35
 #, fuzzy
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
 msgstr ""
 "Cette documentation est rédigée en `Anglais "
 "<https://docs.vircadia.dev/>`_."
 
-#: ../../source/home.rst:37 ../../source/index.rst:37
+#: ../../source/home.rst:37
 msgid "The following translations are available:"
 msgstr "Les traductions suivantes sont disponibles :"
 
-#: ../../source/home.rst:39 ../../source/index.rst:39
+#: ../../source/home.rst:39
 #, fuzzy
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "de_trans"
 msgstr ""
 
-#: ../../source/home.rst:40 ../../source/index.rst:40
+#: ../../source/home.rst:40
 #, fuzzy
 msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 msgstr "`Espagnol <https://docs.vircadia.dev/es/>`_ |es_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 #, fuzzy
 msgid "es_trans"
 msgstr "Sangles de poitrine"
 
-#: ../../source/home.rst:41 ../../source/index.rst:41
+#: ../../source/home.rst:41
 #, fuzzy
 msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr "`Français <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "fr_trans"
 msgstr ""
 
-#: ../../source/home.rst:42 ../../source/index.rst:42
+#: ../../source/home.rst:42
 #, fuzzy
 msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "jp_trans"
 msgstr ""
 
-#: ../../source/home.rst:43 ../../source/index.rst:43
+#: ../../source/home.rst:43
 #, fuzzy
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`日本語 <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "ko_trans"
 msgstr ""
 
-#: ../../source/home.rst:67 ../../source/index.rst:67
+#: ../../source/home.rst:67
 msgid "What can I do?"
 msgstr "Que puis-je faire ?"
 
-#: ../../source/home.rst:69 ../../source/index.rst:69
+#: ../../source/home.rst:69
 #, fuzzy
 msgid "You have the power to shape your VR experience in Overte."
 msgstr "Vous avez le pouvoir de façonner votre expérience VR dans Vircadia."
 
-#: ../../source/home.rst:71 ../../source/index.rst:71
+#: ../../source/home.rst:71
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -15697,7 +15696,7 @@ msgstr ""
 ":doc:`EXPLORER <explore>` en sautant d'un domaine à l'autre dans le "
 "métaverse, assistez à des événements et regardez ce que font les autres !"
 
-#: ../../source/home.rst:72 ../../source/index.rst:72
+#: ../../source/home.rst:72
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
@@ -15706,7 +15705,7 @@ msgstr ""
 " des domaines, des applications pour tablet, et bien d'autres choses "
 "encore, pour votre plus grand plaisir et celui des autres."
 
-#: ../../source/home.rst:73 ../../source/index.rst:73
+#: ../../source/home.rst:73
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
@@ -15715,7 +15714,7 @@ msgstr ""
 " concepts de script avancés à des entités et des avatars dans le "
 "métaverse."
 
-#: ../../source/home.rst:74 ../../source/index.rst:74
+#: ../../source/home.rst:74
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
@@ -15723,11 +15722,11 @@ msgstr ""
 ":doc:`HÉBERGER <host>` et offrir des expériences immersives pour éduquer,"
 " divertir et connecter avec votre public."
 
-#: ../../source/home.rst:75 ../../source/index.rst:75
+#: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ""
 
-#: ../../source/home.rst:76 ../../source/index.rst:76
+#: ../../source/home.rst:76
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
@@ -15735,7 +15734,7 @@ msgstr ""
 ":doc:`DÉVELOPPER <developer>` le projet et l'adapter à vos besoins, ou "
 "simplement pour donner un coup de main."
 
-#: ../../source/home.rst:77 ../../source/index.rst:77
+#: ../../source/home.rst:77
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
@@ -17532,8 +17531,8 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:18
 msgid ""
-"Go to https://overte.org/dashboard/places to get a place name. If you're "
-"not logged in, you will be prompted to do so."
+"Go to https://mv.overte.org/dashboard/places to get a place name. If "
+"you're not logged in, you will be prompted to do so."
 msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:19
@@ -34381,3 +34380,11 @@ msgstr "Séance de métaverse UUID"
 #~ "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
 #~ " of open pull requests."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Go to https://overte.org/dashboard/places to "
+#~ "get a place name. If you're not"
+#~ " logged in, you will be prompted "
+#~ "to do so."
+#~ msgstr ""
+

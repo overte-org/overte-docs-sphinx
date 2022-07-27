@@ -10,18 +10,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-04-03 19:45+0000\n"
+"POT-Creation-Date: 2022-07-27 13:12+0000\n"
 "PO-Revision-Date: 2022-07-02 19:26+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/overte/"
-"overte-documentation/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://hosted.weblate.org/projects/overte/overte-"
+"documentation/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.13.1-dev\n"
-"Generated-By: Babel 2.9.1\n"
+"Generated-By: Babel 2.10.3\n"
 
 #: ../../source/contribute.rst:3
 msgid "Contribute"
@@ -37,11 +36,12 @@ msgid ""
 "contribute to the various parts that make up Overte."
 msgstr ""
 "Overte ist ein Open-Source-Projekt, d.h. unser gesamter Code und die "
-"Dokumentation ist frei zugänglich. Auch Sie können zu unseren Bemühungen um "
-"das Metaverse beitragen! Unser Haupt-`git-Repository <https://github.com/"
-"overte-org/overte>`_ enthält den Quellcode vieler Komponenten unserer "
-"Software zur Erstellung virtueller Welten. Es gibt viele Möglichkeiten, zu "
-"den verschiedenen Teilen, aus denen Overte besteht, beizutragen."
+"Dokumentation ist frei zugänglich. Auch Sie können zu unseren Bemühungen "
+"um das Metaverse beitragen! Unser Haupt-`git-Repository "
+"<https://github.com/overte-org/overte>`_ enthält den Quellcode vieler "
+"Komponenten unserer Software zur Erstellung virtueller Welten. Es gibt "
+"viele Möglichkeiten, zu den verschiedenen Teilen, aus denen Overte "
+"besteht, beizutragen."
 
 #: ../../source/contribute.rst:10 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -443,9 +443,10 @@ msgid ""
 "the rights to re-distribute the 3D content."
 msgstr ""
 "Wenn Sie ein 3D-Modell auf ihrem eigenen Vircadia-Server zur Verfügung "
-"stellen, erhalten die Besucher die Links zu diesen Dateien auf die gleiche "
-"Weise, wie wenn sie ein Bild auf einer Website ansehen würden. Sie sollten "
-"sicher sein, dass Sie die Rechte zur Weiterverbreitung der 3D-Inhalte haben."
+"stellen, erhalten die Besucher die Links zu diesen Dateien auf die "
+"gleiche Weise, wie wenn sie ein Bild auf einer Website ansehen würden. "
+"Sie sollten sicher sein, dass Sie die Rechte zur Weiterverbreitung der "
+"3D-Inhalte haben."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -9894,7 +9895,7 @@ msgstr ""
 "hier gefunden werden `hier <https://docs.vircadia.dev/>`_."
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "Gallery"
 msgstr "Galerie"
 
@@ -9932,10 +9933,10 @@ msgid ""
 "immersive and interactive experience with realistic visuals and audio."
 msgstr ""
 "Overte ist ein Metaversum in dem sie mit anderen Kontakte knüpfen und "
-"Inhalte erschaffen können. Wir laden Sie dazu ein die Welten in Overte zu "
-"entdecken und mit anderen Benutzern zu interagieren. Sie können die "
-"virtuellen Welten ihrer Freunde besuchen, an Events teilnehmen, und Dinge "
-"über das Kreieren in der virtuellen Welt lernen."
+"Inhalte erschaffen können. Wir laden Sie dazu ein die Welten in Overte zu"
+" entdecken und mit anderen Benutzern zu interagieren. Sie können die "
+"virtuellen Welten ihrer Freunde besuchen, an Events teilnehmen, und Dinge"
+" über das Kreieren in der virtuellen Welt lernen."
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -9946,12 +9947,13 @@ msgid ""
 " metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
 msgstr ""
-"Wenn sie Overte zum ersten Mal benutzen, startet ihre Reise in einer lokalen "
-"Tutorial Welt, in der sie mit der Steuerung experimentieren können, und mehr "
-"über das Interface lernen. Wenn sie bereit sind, dann können Sie andere "
-"Domains mithilfe der Explore App entdecken und sich mit anderen Leuten im "
-"Metaversum treffen. Wenn sie Overte bereits vorher besucht haben, dann "
-"werden sie zu dem Ort zurückkehren, den sie zuletzt besucht haben."
+"Wenn sie Overte zum ersten Mal benutzen, startet ihre Reise in einer "
+"lokalen Tutorial Welt, in der sie mit der Steuerung experimentieren "
+"können, und mehr über das Interface lernen. Wenn sie bereit sind, dann "
+"können Sie andere Domains mithilfe der Explore App entdecken und sich mit"
+" anderen Leuten im Metaversum treffen. Wenn sie Overte bereits vorher "
+"besucht haben, dann werden sie zu dem Ort zurückkehren, den sie zuletzt "
+"besucht haben."
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
@@ -9962,8 +9964,8 @@ msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
 msgstr ""
-"Diese Galerie enthält Bilder von Events und Orten, die mit dem Overte/"
-"Vircadia Interface besucht wurden."
+"Diese Galerie enthält Bilder von Events und Orten, die mit dem "
+"Overte/Vircadia Interface besucht wurden."
 
 #: ../../source/explore/gallery.rst:12
 msgid "Maker meeting 28th September 2020"
@@ -10095,9 +10097,9 @@ msgid ""
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
-"Sie können verschiedene Einstellungen ändern, damit diese ihren Bedürfnissen "
-"entsprechen. Viele dieser Einstellungen werden mit dem HUD (im Desktop Modus)"
-" oder mit dem Tablet (im VR Modus) geändert."
+"Sie können verschiedene Einstellungen ändern, damit diese ihren "
+"Bedürfnissen entsprechen. Viele dieser Einstellungen werden mit dem HUD "
+"(im Desktop Modus) oder mit dem Tablet (im VR Modus) geändert."
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 msgid "The Tablet and HUD"
@@ -10144,8 +10146,8 @@ msgid ""
 "gestures, and the ability to travel to different domains."
 msgstr ""
 "Sie können Overte mit oder ohne VR Equipment wie zum Beispiel ein head "
-"mounted display (HDM), Hand Controllern oder Audio Headset spielen. Unser "
-"Desktop Modus enthält ebenfalls viele Funktionen wie Audio, simple "
+"mounted display (HDM), Hand Controllern oder Audio Headset spielen. Unser"
+" Desktop Modus enthält ebenfalls viele Funktionen wie Audio, simple "
 "Bewegungen und Gesten, und die Fähigkeit zwischen verschiedenen "
 "Domains(Welten) zu reisen."
 
@@ -10211,9 +10213,9 @@ msgid ""
 "first person. In this view, you will not see yourself, only the "
 "environment around you."
 msgstr ""
-"Wählen Sie diese Einstellung aus, wenn Sie ihre Perspektive zu First Person "
-"ändern wollen. In dieser Ansicht werden Sie sich nicht Selbst sehen, nur die "
-"Umgebung um Sie herum."
+"Wählen Sie diese Einstellung aus, wenn Sie ihre Perspektive zu First "
+"Person ändern wollen. In dieser Ansicht werden Sie sich nicht Selbst "
+"sehen, nur die Umgebung um Sie herum."
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 msgid "Third Person"
@@ -10354,8 +10356,8 @@ msgid ""
 "Control the level of detail visible to you in Overte by moving this "
 "slider."
 msgstr ""
-"Stellen Sie mithilfe dieses Schiebereglers ein, wie Detailreich die Welt in "
-"Overte geladen werden soll."
+"Stellen Sie mithilfe dieses Schiebereglers ein, wie Detailreich die Welt "
+"in Overte geladen werden soll."
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid "Rendering Effects"
@@ -10366,8 +10368,9 @@ msgid ""
 "Choose the level of rendering effects that are present in Overte. Local "
 "lights, fog, bloom, and shadows are all examples of rendering effects."
 msgstr ""
-"Wählen Sie aus, wie viele Effekte in Overte geladen werden sollen. Rendering "
-"Effekte sind zum Beispiel: Lokale Lichter, Nebel, Bloom und Schatten."
+"Wählen Sie aus, wie viele Effekte in Overte geladen werden sollen. "
+"Rendering Effekte sind zum Beispiel: Lokale Lichter, Nebel, Bloom und "
+"Schatten."
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid "Refresh Rate"
@@ -10379,8 +10382,8 @@ msgid ""
 "range computers run well on 'Interactive'."
 msgstr ""
 "Wählen Sie die Frequenz aus, mit der Overte den Grafikzwischenspeicher "
-"aktualisieren soll. Die meisten standard Computer funktionieren gut mit der "
-"Einstellung 'Interactive'."
+"aktualisieren soll. Die meisten standard Computer funktionieren gut mit "
+"der Einstellung 'Interactive'."
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid "Resolution"
@@ -10391,8 +10394,8 @@ msgid ""
 "Adjust the resolution using the slider. This affects how clear Overte "
 "appears on your monitor or screen."
 msgstr ""
-"Passen Sie die Auflösung mithilfe des Schiebereglers an. Dies beeinflusst "
-"wie klar die Welt auf dem Bildschirm erscheint."
+"Passen Sie die Auflösung mithilfe des Schiebereglers an. Dies beeinflusst"
+" wie klar die Welt auf dem Bildschirm erscheint."
 
 #: ../../source/explore/get-started/adjust-settings.rst:114
 msgid "Account Security Settings"
@@ -10400,8 +10403,7 @@ msgstr "Sicherheits Einstellungen"
 
 #: ../../source/explore/get-started/adjust-settings.rst:116
 msgid "You can change your account security settings in Overte."
-msgstr ""
-"Sie können in Overte die Sicherheits-Einstellungen ihres Accounts ändern."
+msgstr "Sie können in Overte die Sicherheits-Einstellungen ihres Accounts ändern."
 
 #: ../../source/explore/get-started/adjust-settings.rst:118
 msgid ""
@@ -10475,9 +10477,9 @@ msgid ""
 "Android users."
 msgstr ""
 "Overte hat viele virtuelle Orte, an denen Sie mit anderen Benutzern "
-"interagieren und an vielen Aktivitäten teilnehmen können. Wir haben Einige "
-"beliebte Welten so modifiziert, dass diese auch für Android Benutzer "
-"Verfügbar sind."
+"interagieren und an vielen Aktivitäten teilnehmen können. Wir haben "
+"Einige beliebte Welten so modifiziert, dass diese auch für Android "
+"Benutzer Verfügbar sind."
 
 #: ../../source/explore/get-started/android.rst:19
 msgid "Find these domains by going to the **Home** tab in the menu."
@@ -11630,9 +11632,9 @@ msgid ""
 "<https://overte.org/#downloads>`_."
 msgstr ""
 "Overte verändert sich ständig, da wir daran arbeiten, die Performance zu "
-"verbessern und neue Features hinzuzufügen, um Ihre Erfahrungen im Metaversum "
-"zu verbessern. Sie können jeder Zeit die neuste Version von Overte auf "
-"unserer `website <https://overte.org/#downloads>`_ downloaden."
+"verbessern und neue Features hinzuzufügen, um Ihre Erfahrungen im "
+"Metaversum zu verbessern. Sie können jeder Zeit die neuste Version von "
+"Overte auf unserer `website <https://overte.org/#downloads>`_ downloaden."
 
 #: ../../source/explore/get-started/install.rst:165
 msgid ""
@@ -14056,12 +14058,12 @@ msgid ""
 "tell you whether your headset/microphone is muted. If you're muted, click"
 " the icon to un-mute yourself."
 msgstr ""
-"Auf Windows gehen Sie auf den Tab **Systemsteuerung > Sound > Aufnahme**. "
-"Wählen Sie dann das Gerät, welches Sie mit Overte verwenden und klicken Sie "
-"auf 'Eigenschaften'. Aktivieren Sie im Tab 'Pegel' das Symbol neben der "
-"Lautstärkeanzeige. Das Mikrofonsymbol zeigt Ihnen an, ob Ihr Headset/"
-"Mikrofon stummgeschaltet ist. Wenn Sie stummgeschaltet sind, klicken Sie auf "
-"das Symbol, um die Stummschaltung aufzuheben."
+"Auf Windows gehen Sie auf den Tab **Systemsteuerung > Sound > Aufnahme**."
+" Wählen Sie dann das Gerät, welches Sie mit Overte verwenden und klicken "
+"Sie auf 'Eigenschaften'. Aktivieren Sie im Tab 'Pegel' das Symbol neben "
+"der Lautstärkeanzeige. Das Mikrofonsymbol zeigt Ihnen an, ob Ihr "
+"Headset/Mikrofon stummgeschaltet ist. Wenn Sie stummgeschaltet sind, "
+"klicken Sie auf das Symbol, um die Stummschaltung aufzuheben."
 
 #: ../../source/faq.rst:136
 msgid ""
@@ -14261,55 +14263,55 @@ msgid ""
 "same steps as above."
 msgstr ""
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "HOME"
 msgstr "Start"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "EXPLORE"
 msgstr "Entdecken"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "CREATE"
 msgstr "Erschaffen"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "SCRIPT"
 msgstr "Skript"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "HOST"
 msgstr "Host"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "CONTRIBUTE"
 msgstr "Mitwirken"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "DEVELOP"
 msgstr "Entwicklung"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "SECURITY"
 msgstr "Sicherheit"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "FAQ"
 msgstr "Häufig gestellte Fragen"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "RELEASE NOTES"
 msgstr "Versionshinweise"
 
-#: ../../source/home.rst:80 ../../source/index.rst:80
+#: ../../source/home.rst:80
 msgid "API REFERENCE"
 msgstr "API-Referenz"
 
-#: ../../source/home.rst:3 ../../source/index.rst:3
+#: ../../source/home.rst:3
 msgid "Home"
 msgstr "Start"
 
-#: ../../source/home.rst:5 ../../source/index.rst:5
+#: ../../source/home.rst:5
 msgid ""
 "Overte is open-source software which enables you to create and share "
 "virtual worlds as virtual reality (VR) and desktop experiences. You can "
@@ -14320,7 +14322,7 @@ msgstr ""
 "virtuelle Welten in der virtuellen Realität (VR) oder auf dem Desktop-"
 "Computer zu erstellen, teilen und zu erleben."
 
-#: ../../source/home.rst:8 ../../source/index.rst:8
+#: ../../source/home.rst:8
 msgid ""
 "The Overte virtual worlds software provides built-in social features, "
 "including avatar interactions, spatialized audio, and interactive "
@@ -14336,7 +14338,7 @@ msgstr ""
 "immer in der Lage sein mit Ihrer Umgebung zu interagieren, Ihre Freunde "
 "zu treffen und Konversationen zu führen genau wie in der echten Welt."
 
-#: ../../source/home.rst:12 ../../source/index.rst:12
+#: ../../source/home.rst:12
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
@@ -14345,12 +14347,12 @@ msgstr ""
 "oder schauen Sie sich unsere :doc:`Galerie <explore/gallery>` |Gallery| "
 "an."
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 #, fuzzy
 msgid "Download"
 msgstr "Herunterladen"
 
-#: ../../source/home.rst:26 ../../source/index.rst:26
+#: ../../source/home.rst:26
 msgid ""
 "In addition to the documentation, you can join the discussion on the "
 "Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ or `Discord "
@@ -14360,75 +14362,75 @@ msgstr ""
 "Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ oder `Discord "
 "Server <https://discord.gg/4YuQvc8K2f>`__ |Discord| teilnehmen."
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 #, fuzzy
 msgid "Discord"
 msgstr "Discord"
 
-#: ../../source/home.rst:35 ../../source/index.rst:35
+#: ../../source/home.rst:35
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
 msgstr ""
 "Diese Dokumentation wurde im Original auf `Englisch "
 "<https://docs.overte.org/>`_ verfasst."
 
-#: ../../source/home.rst:37 ../../source/index.rst:37
+#: ../../source/home.rst:37
 msgid "The following translations are available:"
 msgstr "Die folgenden Übersetzungen sind verfügbar:"
 
-#: ../../source/home.rst:39 ../../source/index.rst:39
+#: ../../source/home.rst:39
 #, fuzzy
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "de_trans"
 msgstr ""
 
-#: ../../source/home.rst:40 ../../source/index.rst:40
+#: ../../source/home.rst:40
 #, fuzzy
 msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 msgstr "`Spanisch <https://docs.vircadia.dev/es/>`_ |de_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "es_trans"
 msgstr ""
 
-#: ../../source/home.rst:41 ../../source/index.rst:41
+#: ../../source/home.rst:41
 #, fuzzy
 msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr "`Französisch <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "fr_trans"
 msgstr ""
 
-#: ../../source/home.rst:42 ../../source/index.rst:42
+#: ../../source/home.rst:42
 #, fuzzy
 msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "jp_trans"
 msgstr ""
 
-#: ../../source/home.rst:43 ../../source/index.rst:43
+#: ../../source/home.rst:43
 #, fuzzy
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst ../../source/index.rst
+#: ../../source/home.rst
 msgid "ko_trans"
 msgstr ""
 
-#: ../../source/home.rst:67 ../../source/index.rst:67
+#: ../../source/home.rst:67
 msgid "What can I do?"
 msgstr "Was kann ich machen?"
 
-#: ../../source/home.rst:69 ../../source/index.rst:69
+#: ../../source/home.rst:69
 msgid "You have the power to shape your VR experience in Overte."
 msgstr "Sie können Ihr VR-Erlebnis in Overte selbst gestallten."
 
-#: ../../source/home.rst:71 ../../source/index.rst:71
+#: ../../source/home.rst:71
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -14436,7 +14438,7 @@ msgstr ""
 ":doc:`Erkunden <explore>` Sie verschiedene Welten im Metaversum, besuchen"
 " Sie Veranstaltungen und machen Sie neue Bekanntschaften."
 
-#: ../../source/home.rst:72 ../../source/index.rst:72
+#: ../../source/home.rst:72
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
@@ -14445,7 +14447,7 @@ msgstr ""
 "Avatare, Welten, Tablet-Apps und vieles mehr für sich und andere "
 "erstellen."
 
-#: ../../source/home.rst:73 ../../source/index.rst:73
+#: ../../source/home.rst:73
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
@@ -14454,7 +14456,7 @@ msgstr ""
 "fortgeschrittene Konzepte auf Entitäten und Avatare im Metaversum "
 "anwenden."
 
-#: ../../source/home.rst:74 ../../source/index.rst:74
+#: ../../source/home.rst:74
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
@@ -14462,11 +14464,11 @@ msgstr ""
 ":doc:`Hosten <host>` und erstellen Sie immersive Erlebnisse um Ihr "
 "Publikum zu unterrichten, unterhalten und sich mit ihm zu binden."
 
-#: ../../source/home.rst:75 ../../source/index.rst:75
+#: ../../source/home.rst:75
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ":doc:`Beitragen <contribute>` zum Projekt."
 
-#: ../../source/home.rst:76 ../../source/index.rst:76
+#: ../../source/home.rst:76
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
@@ -14474,7 +14476,7 @@ msgstr ""
 ":doc:`Entwickeln <developer>` Sie das Projekt mit und passen Sie es an "
 "Ihre Bedürfnisse an."
 
-#: ../../source/home.rst:77 ../../source/index.rst:77
+#: ../../source/home.rst:77
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
@@ -16259,8 +16261,8 @@ msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:18
 msgid ""
-"Go to https://overte.org/dashboard/places to get a place name. If you're "
-"not logged in, you will be prompted to do so."
+"Go to https://mv.overte.org/dashboard/places to get a place name. If "
+"you're not logged in, you will be prompted to do so."
 msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:19
@@ -25650,8 +25652,7 @@ msgstr ""
 
 #: ../../source/script/assignment-client-scripts.md:56
 msgid "[Configure Your Domain Settings](../host/configure-settings)"
-msgstr ""
-"[Konfigurieren Sie Ihre Domain Einstellungen](../host/configure-settings)"
+msgstr "[Konfigurieren Sie Ihre Domain Einstellungen](../host/configure-settings)"
 
 #: ../../source/script/assignment-client-scripts.md:57
 #: ../../source/script/avatar-scripts.md:80
@@ -30388,3 +30389,11 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+CR+(code+review)\">`_"
 #~ " of open pull requests."
 #~ msgstr ""
+
+#~ msgid ""
+#~ "Go to https://overte.org/dashboard/places to "
+#~ "get a place name. If you're not"
+#~ " logged in, you will be prompted "
+#~ "to do so."
+#~ msgstr ""
+
