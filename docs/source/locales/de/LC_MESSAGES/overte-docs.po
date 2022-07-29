@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-07-27 13:12+0000\n"
-"PO-Revision-Date: 2022-07-02 19:26+0000\n"
-"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2022-07-30 02:15+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://hosted.weblate.org/projects/overte/overte-"
-"documentation/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/contribute.rst:3
@@ -11469,8 +11470,9 @@ msgid "Linux |Ubuntu|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:83
+#, fuzzy
 msgid "Ubuntu"
-msgstr ""
+msgstr "Ubuntu"
 
 #: ../../source/explore/get-started/install.rst:69
 msgid ""
@@ -30396,4 +30398,3 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ " logged in, you will be prompted "
 #~ "to do so."
 #~ msgstr ""
-
