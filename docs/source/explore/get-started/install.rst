@@ -18,13 +18,12 @@ In order to run Overte, ensure that your computer meets these system requirement
 
 * Operating system:
 
-  * Windows 8.1, 64-bit or Windows 10, 64-bit
-  * MacOS High Sierra (10.13) or newer
-  * Ubuntu 18.04 64 bit or most other modern Linux distributions
+  * Windows 8.1 64-bit, Windows 10 64-bit, or Windows 11 64-bit
+  * Ubuntu 18.04 64 bit, or most other modern Linux distributions
 
 * CPU:
 
-  * **Minimum:** Quad-core
+  * **Minimum:** Dual-core with hyper-threading
   * **Recommended:** Quad-core with hyper-threading or better
 
 * System memory:
@@ -55,63 +54,10 @@ In addition, your network must have enough internet bandwidth to run Overte:
 Download Overte
 -----------------------------------
 
-* Windows |Windows|
-
-    * `Windows 64-bit - Selene v2022.1.0 Installer <https://cdn.vircadia.com/dist/release/Vircadia-2022.1.0-Selene.exe>`__ |DownloadWI|
-    * `Windows 64-bit Launcher (Experimental) <https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ |DownloadWL|
-
-* macOS |MacOS|
-
-    * `macOS Intel - Selene v2022.1.0 Installer <https://cdn.vircadia.com/dist/release-experimental/Vircadia-2022.1.0-Selene.dmg>`__ |DownloadM|
-
-* Linux |Ubuntu|
-
-    * `EU Mirror: Linux amd64 - Selene v2022.1.0 AppImage <https://appimage.moto9000.moe/release/Vircadia-x86_64_v2022.1.0-Selene.AppImage>`__ |DownloadLEU|
-      (`zsync <http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage.zsync>`__ |DownloadLEUZ|)
-    * `US Mirror: Linux amd64 - Selene v2022.1.0 AppImage <https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2022.1.0-Selene.AppImage>`__ |DownloadLUS|
+The current release is available to `download on our website <https://overte.org/#downloads>`_.
 
 If you intend to use Overte in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Overte.
 VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
-
-
-.. |Windows| image:: _images/remixicon/windows-fill.svg
-              :class: inline
-
-.. |MacOS| image:: _images/remixicon/finder-fill.svg
-              :class: inline
-
-.. |Ubuntu| image:: _images/remixicon/ubuntu-fill.svg
-              :class: inline
-
-.. |DownloadWI| image:: _images/remixicon/download-2-fill.svg
-              :class: inline
-              :width: 20
-              :target: https://cdn.vircadia.com/dist/release/Vircadia-2022.1.0-Selene.exe
-
-.. |DownloadWL| image:: _images/remixicon/download-2-fill.svg
-              :class: inline
-              :width: 20
-              :target: https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe
-
-.. |DownloadM| image:: _images/remixicon/download-2-fill.svg
-              :class: inline
-              :width: 20
-              :target: https://cdn.vircadia.com/dist/release-experimental/Vircadia-2022.1.0-Selene.dmg
-
-.. |DownloadLEU| image:: _images/remixicon/download-2-fill.svg
-              :class: inline
-              :width: 20
-              :target: https://appimage.moto9000.moe/release/Vircadia-x86_64_v2022.1.0-Selene.AppImage
-
-.. |DownloadLEUZ| image:: _images/remixicon/refresh-fill.svg
-              :class: inline
-              :width: 20
-              :target: http://appimage.moto9000.moe/release/Vircadia-x86_64-release-latest.AppImage.zsync
-
-.. |DownloadLUS| image:: _images/remixicon/download-2-fill.svg
-              :class: inline
-              :width: 20
-              :target: https://cdn.vircadia.com/dist/release/Vircadia-x86_64_v2022.1.0-Selene.AppImage
 
 
 ---------------------------------

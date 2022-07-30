@@ -1,3 +1,5 @@
+.. include:: shared.rst
+
 ####
 Home
 ####
@@ -12,24 +14,7 @@ you will always be able to interact with your environment, engage with your frie
 :doc:`Get Overte <explore/get-started/install>` |Download| or take a look at our :doc:`Gallery <explore/gallery>` |Gallery|.
 
 
-.. |Download| image:: _images/remixicon/download-2-fill.svg
-              :class: inline
-              :width: 20
-              :target: explore/get-started/install.html
-
-.. |Gallery| image:: _images/remixicon/gallery-fill.svg
-              :class: inline
-              :width: 20
-              :target: explore/gallery.html
-
-
-In addition to the documentation, you can join the discussion on the Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ or `Discord server <https://discord.gg/4YuQvc8K2f>`__ |Discord|.
-
-
-.. |Discord| image:: _images/remixicon/discord-fill.svg
-              :class: inline
-              :width: 20
-              :target: https://discordapp.com/invite/Pvx2vke
+In addition to the documentation, you can join the discussion on the Overte `Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| or `Discord server <https://discord.gg/4YuQvc8K2f>`_ |Discord|.
 
 
 This documentation is authored in `English <https://docs.overte.org/>`_.
@@ -42,25 +27,6 @@ The following translations are available:
 * `日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|
 * `한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|
 
-.. |de_trans| image:: https://hosted.weblate.org/widgets/overte/de/overte-documentation/svg-badge.svg
-              :class: inline
-              :target: https://hosted.weblate.org/engage/overte/de/?utm_source=widget
-
-.. |es_trans| image:: https://hosted.weblate.org/widgets/overte/es/overte-documentation/svg-badge.svg
-              :class: inline
-              :target: https://hosted.weblate.org/engage/overte/es/?utm_source=widget
-
-.. |fr_trans| image:: https://hosted.weblate.org/widgets/overte/fr/overte-documentation/svg-badge.svg
-              :class: inline
-              :target: https://hosted.weblate.org/engage/overte/fr/?utm_source=widget
-
-.. |jp_trans| image:: https://hosted.weblate.org/widgets/overte/ja/overte-documentation/svg-badge.svg
-              :class: inline
-              :target: https://hosted.weblate.org/engage/overte/ja/?utm_source=widget
-
-.. |ko_trans| image:: https://hosted.weblate.org/widgets/overte/ko/overte-documentation/svg-badge.svg
-              :class: inline
-              :target: https://hosted.weblate.org/engage/overte/ko/?utm_source=widget
 
 -------------------------
 What can I do?
