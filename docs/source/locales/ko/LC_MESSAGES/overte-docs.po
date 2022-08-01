@@ -6,23 +6,27 @@
 # Documentation package.
 # Julian Groß <julian.g@posteo.de>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Vircadia Docs \n"
-"Report-Msgid-Bugs-To: \n"
+"Project-Id-Version: Vircadia Docs\n"
+"Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-07-27 13:12+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2022-08-03 00:21+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/ko/>\n"
+"Language: ko\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/contribute.rst:3
+#, fuzzy
 msgid "Contribute"
-msgstr ""
+msgstr "Contribute"
 
 #: ../../source/contribute.rst:5
 msgid ""
@@ -102,8 +106,9 @@ msgstr ""
 #: ../../source/release-notes/2021-1-2-Eos.md:59
 #: ../../source/release-notes/2021-1-3-Eos.md:238
 #: ../../source/release-notes/v86-k2.md:67
+#, fuzzy
 msgid "Documentation"
-msgstr ""
+msgstr "문서"
 
 #: ../../source/contribute.rst:15
 msgid "You can help create and maintain the documentation in several ways:"
@@ -131,8 +136,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:24
+#, fuzzy
 msgid "Translation"
-msgstr ""
+msgstr "Translation"
 
 #: ../../source/contribute.rst:25
 msgid ""
@@ -149,8 +155,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:32
+#, fuzzy
 msgid "Donations"
-msgstr ""
+msgstr "후원"
 
 #: ../../source/contribute.rst:33
 msgid ""
@@ -175,8 +182,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:43
+#, fuzzy
 msgid "Development"
-msgstr ""
+msgstr "마을 개발도"
 
 #: ../../source/contribute.rst:44
 msgid ""
@@ -286,8 +294,9 @@ msgstr ""
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 #: ../../source/host/add-content/bake-content.rst:37
+#, fuzzy
 msgid "3D Models"
-msgstr ""
+msgstr "3D 모델"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
@@ -300,8 +309,9 @@ msgstr ""
 #: ../../source/create.rst:3 ../../source/release-notes/v84.md:18
 #: ../../source/release-notes/v85.md:34 ../../source/release-notes/v85.md:63
 #: ../../source/release-notes/v86.md:23 ../../source/release-notes/v86.md:60
+#, fuzzy
 msgid "Create"
-msgstr ""
+msgstr "생성"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -633,8 +643,9 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:17
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:12
 #: ../../source/create/entities/zone-tutorial.md:22
+#, fuzzy
 msgid "Prerequisites"
-msgstr ""
+msgstr "전제조건"
 
 #: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
@@ -789,8 +800,9 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:23
 #: ../../source/script/get-started-with-scripting.rst:56
 #: ../../source/script/get-started-with-scripting.rst:102
+#, fuzzy
 msgid "Description"
-msgstr ""
+msgstr "설명"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
@@ -1136,12 +1148,14 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 #: ../../source/create/entities/create-fountain.rst:35
+#, fuzzy
 msgid "Value"
-msgstr ""
+msgstr "값"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#, fuzzy
 msgid "Map"
-msgstr ""
+msgstr "맵"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:66
 msgid "Albedo"
@@ -1177,8 +1191,9 @@ msgid "[0,1]"
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
+#, fuzzy
 msgid "Roughness"
-msgstr ""
+msgstr "표면 거칠기"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
 msgid ""
@@ -1187,8 +1202,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
+#, fuzzy
 msgid "Normal"
-msgstr ""
+msgstr "보통"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid ""
@@ -1206,8 +1222,9 @@ msgid "bump"
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#, fuzzy
 msgid "Opacity"
-msgstr ""
+msgstr "불투명도"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "Opacity determines if an object is transparent or opaque."
@@ -1819,12 +1836,14 @@ msgstr ""
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
 #: ../../source/create/avatars/add-flow.rst:92
+#, fuzzy
 msgid "Option"
-msgstr ""
+msgstr "옵션"
 
 #: ../../source/create/avatars/add-flow.rst:48
+#, fuzzy
 msgid "Avatar"
-msgstr ""
+msgstr "아바타"
 
 #: ../../source/create/avatars/add-flow.rst:48
 msgid "Hides or displays the avatar mesh."
@@ -1840,16 +1859,18 @@ msgid "Activates or deactivates collisions."
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:52
+#, fuzzy
 msgid "Debug"
-msgstr ""
+msgstr "디버그"
 
 #: ../../source/create/avatars/add-flow.rst:52
 msgid "Hides or displays the debug shapes."
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:54
+#, fuzzy
 msgid "Solid"
-msgstr ""
+msgstr "단색 레이어"
 
 #: ../../source/create/avatars/add-flow.rst:54
 msgid "Enables either a solid or wireframe display for debug shapes."
@@ -1867,8 +1888,9 @@ msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:68
 #: ../../source/create/avatars/add-flow.rst:94
+#, fuzzy
 msgid "Radius"
-msgstr ""
+msgstr "반지름"
 
 #: ../../source/create/avatars/add-flow.rst:68
 msgid ""
@@ -1939,8 +1961,9 @@ msgid "Controls the collision sphere radius."
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:96
+#, fuzzy
 msgid "Offset"
-msgstr ""
+msgstr "오프셋"
 
 #: ../../source/create/avatars/add-flow.rst:96
 msgid "Controls the collision sphere offset."
@@ -1964,18 +1987,21 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:112
+#, fuzzy
 msgid "Resources"
-msgstr ""
+msgstr "리소스"
 
 #: ../../source/create/avatars/add-flow.rst:115
 #: ../../source/create/entities/boombox-tutorial.rst:99
+#, fuzzy
 msgid "File"
-msgstr ""
+msgstr "파일"
 
 #: ../../source/create/avatars/add-flow.rst:115
 #: ../../source/create/entities/boombox-tutorial.rst:99
+#, fuzzy
 msgid "URL"
-msgstr ""
+msgstr "URL"
 
 #: ../../source/create/avatars/add-flow.rst:117
 msgid ""
@@ -2084,8 +2110,9 @@ msgid "[Other Considerations](#other-considerations)"
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:19
+#, fuzzy
 msgid "Glossary"
-msgstr ""
+msgstr "용어집"
 
 #: ../../source/create/avatars/avatar-standards.md:20
 msgid ""
@@ -3272,8 +3299,9 @@ msgstr ""
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/environments.rst:15
 #: ../../source/host/add-content/create-content.rst:35
+#, fuzzy
 msgid "Method"
-msgstr ""
+msgstr "수단"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
@@ -3737,8 +3765,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:232
+#, fuzzy
 msgid "Examples"
-msgstr ""
+msgstr "예제"
 
 #: ../../source/create/avatars/custom-animations.rst:234
 msgid ""
@@ -4180,8 +4209,9 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:139
 #: ../../source/explore/get-started/vr-controls.rst:190
+#, fuzzy
 msgid "Issue"
-msgstr ""
+msgstr "발급"
 
 #: ../../source/create/avatars/find-avatars.rst:139
 msgid "Troubleshooting Tip"
@@ -5772,8 +5802,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:53
+#, fuzzy
 msgid "Size"
-msgstr ""
+msgstr "크기"
 
 #: ../../source/create/entities/create-fountain.rst:53
 msgid "Start = ``0.40``, Middle = ``0.80``, Finish = ``0.80``"
@@ -5788,8 +5819,9 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:57
 #: ../../source/create/entities/entity-appearance.rst:28
+#, fuzzy
 msgid "Color"
-msgstr ""
+msgstr "색상"
 
 #: ../../source/create/entities/create-fountain.rst:57
 msgid "Start = ``#000000``, Middle = ``#FFFFFF``, Finish = ``#000000``"
@@ -6198,12 +6230,14 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:30
 #: ../../source/create/entities/entity-appearance.rst:86
 #: ../../source/create/entities/entity-appearance.rst:89
+#, fuzzy
 msgid "Light"
-msgstr ""
+msgstr "밝게"
 
 #: ../../source/create/entities/entity-appearance.rst:32
+#, fuzzy
 msgid "Text Color"
-msgstr ""
+msgstr "글자 색"
 
 #: ../../source/create/entities/entity-appearance.rst:32
 msgid "The color of the text."
@@ -6212,12 +6246,14 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:32
 #: ../../source/create/entities/entity-appearance.rst:34
 #: ../../source/create/entities/entity-appearance.rst:92
+#, fuzzy
 msgid "Text"
-msgstr ""
+msgstr "문자"
 
 #: ../../source/create/entities/entity-appearance.rst:34
+#, fuzzy
 msgid "Background Color"
-msgstr ""
+msgstr "배경 색"
 
 #: ../../source/create/entities/entity-appearance.rst:34
 msgid "The color of the background of the text."
@@ -6241,8 +6277,9 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:45
 #: ../../source/create/entities/entity-appearance.rst:47
 #: ../../source/create/entities/entity-appearance.rst:50
+#, fuzzy
 msgid "Zone"
-msgstr ""
+msgstr "존(지역)"
 
 #: ../../source/create/entities/entity-appearance.rst:39
 msgid "Sky Box"
@@ -6285,8 +6322,9 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:50
 #: ../../source/create/entities/zone-entity.rst:42
 #: ../../source/create/entities/zone-entity.rst:151
+#, fuzzy
 msgid "Bloom"
-msgstr ""
+msgstr "블룸"
 
 #: ../../source/create/entities/entity-appearance.rst:50
 msgid "Configures how much the bright areas of the scene glow."
@@ -6358,8 +6396,9 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:123
 #: ../../source/create/entities/entity-appearance.rst:146
 #: ../../source/create/entities/entity-appearance.rst:148
+#, fuzzy
 msgid "All"
-msgstr ""
+msgstr "모두"
 
 #: ../../source/create/entities/entity-appearance.rst:81
 msgid "*Spatial* > Dimensions"
@@ -6648,8 +6687,9 @@ msgstr ""
 #: ../../source/create/entities/entity-behavior.rst:86
 #: ../../source/create/entities/entity-behavior.rst:101
 #: ../../source/create/entities/entity-behavior.rst:147
+#, fuzzy
 msgid "Behavior"
-msgstr ""
+msgstr "행동"
 
 #: ../../source/create/entities/entity-behavior.rst:69
 msgid "Grabbable"
@@ -7939,8 +7979,9 @@ msgid "File extension(s)"
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:23
+#, fuzzy
 msgid "WebM"
-msgstr ""
+msgstr "WebM"
 
 #: ../../source/create/entities/web-entity-media.rst:23
 msgid "Video: VP8, VP9       Audio: Vorbis, Opus"
@@ -7983,8 +8024,9 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:31
 #: ../../source/create/entities/web-entity-media.rst:43
 #: ../../source/create/entities/web-entity-media.rst:61
+#, fuzzy
 msgid "Comments"
-msgstr ""
+msgstr "주석"
 
 #: ../../source/create/entities/web-entity-media.rst:31
 #: ../../source/create/entities/web-entity-media.rst:43
@@ -8049,8 +8091,9 @@ msgid "Lower quality to compression ratio than Opus."
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:49
+#, fuzzy
 msgid "FLAC"
-msgstr ""
+msgstr "FLAC"
 
 #: ../../source/create/entities/web-entity-media.rst:49
 msgid "Lossless, bigger files."
@@ -8081,8 +8124,9 @@ msgid "Encode"
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:61
+#, fuzzy
 msgid "Command"
-msgstr ""
+msgstr "커맨드"
 
 #: ../../source/create/entities/web-entity-media.rst:63
 msgid "VP9, Opus, WebM"
@@ -8200,8 +8244,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/web-entity-media.rst:149
+#, fuzzy
 msgid "Video Player"
-msgstr ""
+msgstr "비디오 플레이어"
 
 #: ../../source/create/entities/web-entity-media.rst:151
 msgid ""
@@ -8252,8 +8297,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:26
+#, fuzzy
 msgid "Filter"
-msgstr ""
+msgstr "필터"
 
 #: ../../source/create/entities/zone-entity.rst:26
 msgid ""
@@ -8459,8 +8505,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:126
+#, fuzzy
 msgid "Range"
-msgstr ""
+msgstr "사정거리"
 
 #: ../../source/create/entities/zone-entity.rst:126
 msgid ""
@@ -8479,8 +8526,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:131
+#, fuzzy
 msgid "Base"
-msgstr ""
+msgstr "거점"
 
 #: ../../source/create/entities/zone-entity.rst:131
 msgid "This is the base of the altitude range."
@@ -9570,8 +9618,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:61
+#, fuzzy
 msgid "Maya"
-msgstr ""
+msgstr "마야"
 
 #: ../../source/create/tools.rst:63
 msgid ""
@@ -9581,8 +9630,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:67
+#, fuzzy
 msgid "Blocks"
-msgstr ""
+msgstr "블록"
 
 #: ../../source/create/tools.rst:69
 msgid ""
@@ -9722,8 +9772,9 @@ msgid "[Put On Wearables](../explore/personalize/add-wearables)"
 msgstr ""
 
 #: ../../source/developer.rst:3
+#, fuzzy
 msgid "Developer"
-msgstr ""
+msgstr "개발자"
 
 #: ../../source/developer.rst:5
 msgid ""
@@ -9734,8 +9785,9 @@ msgstr ""
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 #: ../../source/home.rst
+#, fuzzy
 msgid "Gallery"
-msgstr ""
+msgstr "갤러리"
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Overte"
@@ -9758,8 +9810,9 @@ msgid "Interact with Your Environment"
 msgstr ""
 
 #: ../../source/explore.rst:3
+#, fuzzy
 msgid "Explore"
-msgstr ""
+msgstr "‎탐색"
 
 #: ../../source/explore.rst:5
 msgid ""
@@ -10045,8 +10098,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:74
+#, fuzzy
 msgid "General Settings"
-msgstr ""
+msgstr "기본 설정"
 
 #: ../../source/explore/get-started/adjust-settings.rst:76
 msgid ""
@@ -10083,8 +10137,9 @@ msgid "In VR mode, open your Tablet and go to **Menu > Settings > Graphics**."
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
+#, fuzzy
 msgid "Graphics Settings"
-msgstr ""
+msgstr "그래픽 설정"
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
 msgid ""
@@ -10125,8 +10180,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
+#, fuzzy
 msgid "Resolution"
-msgstr ""
+msgstr "해상도"
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid ""
@@ -10153,8 +10209,9 @@ msgid "In VR mode, open your Tablet and go to **Menu > Settings > Security**."
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
+#, fuzzy
 msgid "Account"
-msgstr ""
+msgstr "Account"
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
 msgid "Enable to stay logged in (in the current device) even if you exit Overte."
@@ -10216,19 +10273,22 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:79
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
+#, fuzzy
 msgid "Action"
-msgstr ""
+msgstr "동작"
 
 #: ../../source/explore/get-started/android.rst:29
 #: ../../source/explore/get-started/android.rst:45
 #: ../../source/explore/get-started/android.rst:57
 #: ../../source/explore/get-started/android.rst:70
+#, fuzzy
 msgid "Controls"
-msgstr ""
+msgstr "제어판"
 
 #: ../../source/explore/get-started/android.rst:31
+#, fuzzy
 msgid "Walking"
-msgstr ""
+msgstr "걷기"
 
 #: ../../source/explore/get-started/android.rst:31
 msgid ""
@@ -10253,8 +10313,9 @@ msgid "Drag your finger up or down to change the angle of the camera."
 msgstr ""
 
 #: ../../source/explore/get-started/android.rst:37
+#, fuzzy
 msgid "Flying"
-msgstr ""
+msgstr "플라잉"
 
 #: ../../source/explore/get-started/android.rst:37
 msgid ""
@@ -10268,8 +10329,9 @@ msgid "In-World Controls"
 msgstr ""
 
 #: ../../source/explore/get-started/android.rst:47
+#, fuzzy
 msgid "View"
-msgstr ""
+msgstr "보기"
 
 #: ../../source/explore/get-started/android.rst:47
 msgid ""
@@ -10278,8 +10340,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/android.rst:49
+#, fuzzy
 msgid "Mute"
-msgstr ""
+msgstr "뮤트"
 
 #: ../../source/explore/get-started/android.rst:49
 msgid ""
@@ -10621,8 +10684,9 @@ msgstr ""
 #: ../../source/explore/get-started/desktop.rst:79
 #: ../../source/explore/get-started/desktop.rst:99
 #: ../../source/explore/get-started/desktop.rst:115
+#, fuzzy
 msgid "Key"
-msgstr ""
+msgstr "열쇠"
 
 #: ../../source/explore/get-started/desktop.rst:21
 msgid "Walk Forward"
@@ -10641,8 +10705,9 @@ msgid "``S`` or ``DOWN ARROW``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:25
+#, fuzzy
 msgid "Run"
-msgstr ""
+msgstr "실행"
 
 #: ../../source/explore/get-started/desktop.rst:25
 msgid "Hold ``SHIFT`` while using any shortcut to walk"
@@ -10681,16 +10746,18 @@ msgid "``D`` or ``RIGHT ARROW``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:35
+#, fuzzy
 msgid "Jump"
-msgstr ""
+msgstr "이동"
 
 #: ../../source/explore/get-started/desktop.rst:35
 msgid "``SPACE`` or ``PGUP``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:37
+#, fuzzy
 msgid "Fly"
-msgstr ""
+msgstr "파리"
 
 #: ../../source/explore/get-started/desktop.rst:37
 msgid "Hold ``SPACE`` or ``PGUP``"
@@ -10725,8 +10792,9 @@ msgid "``TAB`` *(when 'Desktop becomes toolbar' is not checked)*"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:55
+#, fuzzy
 msgid "Select Item"
-msgstr ""
+msgstr "항목 선택"
 
 #: ../../source/explore/get-started/desktop.rst:55
 #: ../../source/explore/get-started/desktop.rst:57
@@ -10778,8 +10846,9 @@ msgid "``/``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:69
+#, fuzzy
 msgid "Screenshot"
-msgstr ""
+msgstr "화면갈무리"
 
 #: ../../source/explore/get-started/desktop.rst:69
 #: ../../source/explore/get-started/desktop.rst:91
@@ -10787,8 +10856,9 @@ msgid "``P``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:71
+#, fuzzy
 msgid "Push to Talk"
-msgstr ""
+msgstr "누르며 말하기"
 
 #: ../../source/explore/get-started/desktop.rst:71
 #: ../../source/explore/get-started/desktop.rst:137
@@ -10836,8 +10906,9 @@ msgid "On trackpad, drag two fingers up or down."
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:91
+#, fuzzy
 msgid "Take Screenshot"
-msgstr ""
+msgstr "스크린샷 촬영(&T)"
 
 #: ../../source/explore/get-started/desktop.rst:96
 msgid "Avatar Sizing Controls"
@@ -10877,8 +10948,9 @@ msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:117
 #: ../../source/release-notes/2020-3-2-Demeter.md:17
+#, fuzzy
 msgid "Undo"
-msgstr ""
+msgstr "Undo"
 
 #: ../../source/explore/get-started/desktop.rst:117
 msgid "``CTRL`` + ``Z``"
@@ -10886,8 +10958,9 @@ msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:119
 #: ../../source/release-notes/2020-3-2-Demeter.md:18
+#, fuzzy
 msgid "Redo"
-msgstr ""
+msgstr "다시 실행"
 
 #: ../../source/explore/get-started/desktop.rst:119
 msgid "``CTRL`` + ``Y``"
@@ -10996,8 +11069,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:19
+#, fuzzy
 msgid "Operating system:"
-msgstr ""
+msgstr "운영 체제:"
 
 #: ../../source/explore/get-started/install.rst:21
 msgid "Windows 8.1, 64-bit or Windows 10, 64-bit"
@@ -11108,8 +11182,9 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:77
 #: ../../source/host/quick-start.rst:22
+#, fuzzy
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../source/explore/get-started/install.rst:60
 msgid ""
@@ -11138,8 +11213,9 @@ msgid "macOS |MacOS|"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:80
+#, fuzzy
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #: ../../source/explore/get-started/install.rst:65
 msgid ""
@@ -11800,8 +11876,9 @@ msgid "Mute microphone"
 msgstr ""
 
 #: ../../source/explore/get-started/setup-audio.rst:137
+#, fuzzy
 msgid "Mute or unmute your microphone."
-msgstr ""
+msgstr "마이크 음소거 또는 음소거 해제"
 
 #: ../../source/explore/get-started/setup-audio.rst:139
 msgid "HMD Mute Warning (VR)"
@@ -11834,8 +11911,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/setup-audio.rst:146
+#, fuzzy
 msgid "Echo Cancellation"
-msgstr ""
+msgstr "반향 소거"
 
 #: ../../source/explore/get-started/setup-audio.rst:146
 msgid "Enable or disable `acoustic echo cancellation <#id1>`_."
@@ -12213,8 +12291,9 @@ msgid "Recommended Straps"
 msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:136
+#, fuzzy
 msgid "Head"
-msgstr ""
+msgstr "전방"
 
 #: ../../source/explore/get-started/vr-controls.rst:136
 msgid "HMD or 1 Vive Tracker"
@@ -12370,8 +12449,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
+#, fuzzy
 msgid "Troubleshooting"
-msgstr ""
+msgstr "문제 해결"
 
 #: ../../source/explore/get-started/vr-controls.rst:190
 msgid "Troubleshooting Steps"
@@ -12972,8 +13052,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/personalize/install-apps.md:83
+#, fuzzy
 msgid "Text to Speech"
-msgstr ""
+msgstr "음성합성"
 
 #: ../../source/explore/personalize/install-apps.md:85
 msgid ""
@@ -13065,8 +13146,9 @@ msgid "Feature"
 msgstr ""
 
 #: ../../source/explore/socialize.rst:33
+#, fuzzy
 msgid "Profile Picture"
-msgstr ""
+msgstr "프로필 사진"
 
 #: ../../source/explore/socialize.rst:33
 msgid ""
@@ -13076,8 +13158,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:36
+#, fuzzy
 msgid "Display Name"
-msgstr ""
+msgstr "표시되는 이름"
 
 #: ../../source/explore/socialize.rst:36
 msgid ""
@@ -13106,8 +13189,9 @@ msgid "Set the volume of your audio in Overte."
 msgstr ""
 
 #: ../../source/explore/socialize.rst:45
+#, fuzzy
 msgid "Nearby"
-msgstr ""
+msgstr "Nearby"
 
 #: ../../source/explore/socialize.rst:45
 msgid "This is the list of users who are nearby in the same domain as you."
@@ -13132,8 +13216,9 @@ msgid "Click this button to refresh the list of users currently in the domain."
 msgstr ""
 
 #: ../../source/explore/socialize.rst:52
+#, fuzzy
 msgid "Connections"
-msgstr ""
+msgstr "연결"
 
 #: ../../source/explore/socialize.rst:52
 msgid ""
@@ -13142,8 +13227,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:55
+#, fuzzy
 msgid "Loud"
-msgstr ""
+msgstr "시끄럽게"
 
 #: ../../source/explore/socialize.rst:55
 msgid ""
@@ -13163,8 +13249,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:60
+#, fuzzy
 msgid "Ignore"
-msgstr ""
+msgstr "외면한다."
 
 #: ../../source/explore/socialize.rst:60
 msgid ""
@@ -13184,8 +13271,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:74
+#, fuzzy
 msgid "Silence"
-msgstr ""
+msgstr "Silence"
 
 #: ../../source/explore/socialize.rst:74
 msgid ""
@@ -13194,8 +13282,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:76
+#, fuzzy
 msgid "Ban"
-msgstr ""
+msgstr "밴"
 
 #: ../../source/explore/socialize.rst:76
 msgid ""
@@ -13409,8 +13498,9 @@ msgid "[Socialize with Others](socialize)"
 msgstr ""
 
 #: ../../source/faq.rst:3
+#, fuzzy
 msgid "Frequently Asked Questions"
-msgstr ""
+msgstr "자주 묻는 질문"
 
 #: ../../source/faq.rst:5
 msgid ""
@@ -13870,8 +13960,9 @@ msgid "SECURITY"
 msgstr ""
 
 #: ../../source/home.rst:80
+#, fuzzy
 msgid "FAQ"
-msgstr ""
+msgstr "FAQ"
 
 #: ../../source/home.rst:80
 msgid "RELEASE NOTES"
@@ -13882,8 +13973,9 @@ msgid "API REFERENCE"
 msgstr ""
 
 #: ../../source/home.rst:3
+#, fuzzy
 msgid "Home"
-msgstr ""
+msgstr "홈"
 
 #: ../../source/home.rst:5
 msgid ""
@@ -13910,8 +14002,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/home.rst
+#, fuzzy
 msgid "Download"
-msgstr ""
+msgstr "다운로드"
 
 #: ../../source/home.rst:26
 msgid ""
@@ -14049,8 +14142,9 @@ msgid "Maintain Your Domain"
 msgstr ""
 
 #: ../../source/host.rst:3
+#, fuzzy
 msgid "Host"
-msgstr ""
+msgstr "호스트"
 
 #: ../../source/host.rst:5
 msgid ""
@@ -14136,8 +14230,9 @@ msgid "With the oven, you can bake the following types of content:"
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:23
+#, fuzzy
 msgid "Type"
-msgstr ""
+msgstr "종류"
 
 #: ../../source/host/add-content/bake-content.rst:25
 msgid ""
@@ -14215,8 +14310,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:64
+#, fuzzy
 msgid "Field"
-msgstr ""
+msgstr "필드"
 
 #: ../../source/host/add-content/bake-content.rst:64
 msgid "Baking Option"
@@ -14230,8 +14326,9 @@ msgstr ""
 #: ../../source/host/add-content/bake-content.rst:70
 #: ../../source/host/add-content/bake-content.rst:83
 #: ../../source/host/add-content/bake-content.rst:88
+#, fuzzy
 msgid "Domain"
-msgstr ""
+msgstr "도메인"
 
 #: ../../source/host/add-content/bake-content.rst:67
 msgid "Enter your domain's name."
@@ -14253,8 +14350,9 @@ msgid "Model File(s)"
 msgstr ""
 
 #: ../../source/host/add-content/bake-content.rst:74
+#, fuzzy
 msgid "Model"
-msgstr ""
+msgstr "모델"
 
 #: ../../source/host/add-content/bake-content.rst:74
 msgid "Enter the file or URL path for your model file(s)."
@@ -14497,8 +14595,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:64
+#, fuzzy
 msgid "Under Construction"
-msgstr ""
+msgstr "공사 중입니다."
 
 #: ../../source/host/add-content/create-content.rst:66
 msgid ""
@@ -15625,24 +15724,27 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:73
+#, fuzzy
 msgid "User Permissions"
-msgstr ""
+msgstr "사용자 권한"
 
 #: ../../source/host/configure-settings/permission-settings.rst:75
 msgid "The actions that you can secure for each type of user are as follows:"
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
+#, fuzzy
 msgid "Permissions"
-msgstr ""
+msgstr "Permissions"
 
 #: ../../source/host/configure-settings/permission-settings.rst:78
 msgid "Definition"
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:80
+#, fuzzy
 msgid "Connect"
-msgstr ""
+msgstr "연결"
 
 #: ../../source/host/configure-settings/permission-settings.rst:80
 msgid "Sets whether a user can enter the domain."
@@ -16678,8 +16780,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:5
+#, fuzzy
 msgid "Installation"
-msgstr ""
+msgstr "설치"
 
 #: ../../source/host/server-setup/linux-server.md:7
 msgid ""
@@ -16704,8 +16807,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:20
+#, fuzzy
 msgid "Configuration"
-msgstr ""
+msgstr "설정"
 
 #: ../../source/host/server-setup/linux-server.md:22
 msgid ""
@@ -16773,8 +16877,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:42
+#, fuzzy
 msgid "Services"
-msgstr ""
+msgstr "Keanu 서비스"
 
 #: ../../source/host/server-setup/linux-server.md:44
 msgid ""
@@ -17439,8 +17544,9 @@ msgstr ""
 #: ../../source/release-notes/2021-1-1-Eos.md:59
 #: ../../source/release-notes/v86-k2.md:9
 #: ../../source/release-notes/v86-k2.md:62
+#, fuzzy
 msgid "General"
-msgstr ""
+msgstr "General"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:20
 msgid "Create App"
@@ -17482,8 +17588,9 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:30
 #: ../../source/release-notes/v86-k2.md:24
+#, fuzzy
 msgid "Graphics"
-msgstr ""
+msgstr "그래픽"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:32
 msgid ""
@@ -17895,8 +18002,9 @@ msgid "DOC-227: Stats JSDoc (#16539)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:137
+#, fuzzy
 msgid "Stats"
-msgstr ""
+msgstr "능력치"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:138
 msgid "Globals:"
@@ -18033,8 +18141,9 @@ msgid "LODManager"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:184
+#, fuzzy
 msgid "Performance"
-msgstr ""
+msgstr "성능"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:186
 msgid "Update the Stats API JSDoc to match."
@@ -18938,8 +19047,9 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:37
 #: ../../source/release-notes/2021-1-1-Eos.md:32
 #: ../../source/release-notes/2021-1-1-Eos.md:65
+#, fuzzy
 msgid "Miscellaneous"
-msgstr ""
+msgstr "기타 설정"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:35
 msgid ""
@@ -19851,24 +19961,29 @@ msgid "Add Actions menu."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:19
+#, fuzzy
 msgid "Cut"
-msgstr ""
+msgstr "자르기"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:20
+#, fuzzy
 msgid "Copy"
-msgstr ""
+msgstr "Copy"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:21
+#, fuzzy
 msgid "Paste"
-msgstr ""
+msgstr "붙여넣기"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:22
+#, fuzzy
 msgid "Duplicate"
-msgstr ""
+msgstr "복제하기"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:23
+#, fuzzy
 msgid "Delete"
-msgstr ""
+msgstr "삭제하기"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:24
 msgid "Parent Entity to Last Selected"
@@ -19883,12 +19998,14 @@ msgid "Add Selection menu."
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:28
+#, fuzzy
 msgid "Select All"
-msgstr ""
+msgstr "모두 선택"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:29
+#, fuzzy
 msgid "Select None"
-msgstr ""
+msgstr "선택 안 함"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:30
 msgid "Inverse Selection"
@@ -19911,8 +20028,9 @@ msgid "Add a parent 'Hierarchy' column to the entity list, identifying:"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:35
+#, fuzzy
 msgid "Parent"
-msgstr ""
+msgstr "상위"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:36
 msgid "Child"
@@ -19923,8 +20041,9 @@ msgid "Parent & Child"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:38
+#, fuzzy
 msgid "None"
-msgstr ""
+msgstr "없음"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:39
 msgid ""
@@ -21208,8 +21327,9 @@ msgstr ""
 #: ../../source/release-notes/2021-1-3-Eos.md:7
 #: ../../source/release-notes/2021-1-3-Eos.md:72
 #: ../../source/release-notes/2021-1-3-Eos.md:91
+#, fuzzy
 msgid "Enhancements"
-msgstr ""
+msgstr "강화"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:11
 msgid ""
@@ -21338,8 +21458,9 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-2-Eos.md:35
 #: ../../source/release-notes/2021-1-3-Eos.md:48
+#, fuzzy
 msgid "Docs"
-msgstr ""
+msgstr "문서"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:37
 msgid ""
@@ -22431,8 +22552,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v80.md:78 ../../source/release-notes/v81.md:57
+#, fuzzy
 msgid "Other"
-msgstr ""
+msgstr "기타"
 
 #: ../../source/release-notes/v80.md:80
 msgid ""
@@ -22479,8 +22601,9 @@ msgstr ""
 #: ../../source/release-notes/v82.md:140 ../../source/release-notes/v83.md:170
 #: ../../source/release-notes/v84.md:94 ../../source/release-notes/v85.md:92
 #: ../../source/release-notes/v86.md:77
+#, fuzzy
 msgid "Android"
-msgstr ""
+msgstr "안드로이드"
 
 #: ../../source/release-notes/v80.md:93 ../../source/release-notes/v81.md:67
 #: ../../source/release-notes/v82.md:142
@@ -22603,8 +22726,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v81.md:35 ../../source/security.rst:3
+#, fuzzy
 msgid "Security"
-msgstr ""
+msgstr "보안"
 
 #: ../../source/release-notes/v81.md:37
 msgid ""
@@ -23691,8 +23815,9 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:118 ../../source/release-notes/v85.md:52
 #: ../../source/release-notes/v86.md:48
+#, fuzzy
 msgid "Audio"
-msgstr ""
+msgstr "The application needs to access audio recording"
 
 #: ../../source/release-notes/v83.md:120
 msgid ""
@@ -24063,8 +24188,9 @@ msgid "Updated High Fidelity's copyright on the About dialog."
 msgstr ""
 
 #: ../../source/release-notes/v84.md:50
+#, fuzzy
 msgid "Installer"
-msgstr ""
+msgstr "인스톨러"
 
 #: ../../source/release-notes/v84.md:52
 msgid ""
@@ -24698,8 +24824,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:5
+#, fuzzy
 msgid "Interface"
-msgstr ""
+msgstr "인터페이스"
 
 #: ../../source/release-notes/v86-k2.md:7
 #: ../../source/release-notes/v86-k2.md:60
@@ -24901,8 +25028,9 @@ msgid "Fix updated TBB library hash in vcpkg portfile. (#222)"
 msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:58
+#, fuzzy
 msgid "Server"
-msgstr ""
+msgstr "서버"
 
 #: ../../source/release-notes/v86-k2.md:64
 msgid "Added environment variables to change domain server ports. (#15)"
@@ -25046,8 +25174,9 @@ msgid "Tutorial: Use MIDI to Control Your Environment"
 msgstr ""
 
 #: ../../source/script.rst:3
+#, fuzzy
 msgid "Script"
-msgstr ""
+msgstr "스크립트"
 
 #: ../../source/script.rst:5
 msgid ""
@@ -25703,8 +25832,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:160
+#, fuzzy
 msgid "Scripting Console"
-msgstr ""
+msgstr "스크립팅 콘솔"
 
 #: ../../source/script/get-started-with-scripting.rst:162
 msgid ""
@@ -26194,8 +26324,9 @@ msgid "The different status types we support are:"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:40
+#, fuzzy
 msgid "Status"
-msgstr ""
+msgstr "상태"
 
 #: ../../source/script/midi-tutorial.rst:40
 msgid "Types"
@@ -26218,8 +26349,9 @@ msgid "note on"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:46
+#, fuzzy
 msgid "10"
-msgstr ""
+msgstr "10"
 
 #: ../../source/script/midi-tutorial.rst:46
 msgid "polyphonic key pressure"
@@ -26234,8 +26366,9 @@ msgid "control change"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:50
+#, fuzzy
 msgid "12"
-msgstr ""
+msgstr "12"
 
 #: ../../source/script/midi-tutorial.rst:50
 msgid "program change"
@@ -26250,8 +26383,9 @@ msgid "channel pressure"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:54
+#, fuzzy
 msgid "14"
-msgstr ""
+msgstr "14"
 
 #: ../../source/script/midi-tutorial.rst:54
 msgid "pitch bend"
@@ -26648,8 +26782,9 @@ msgid "Here is a list of extra metadata that is collected with a crash report:"
 msgstr ""
 
 #: ../../source/security/reporting/crash-reporting.md:9
+#, fuzzy
 msgid "Username"
-msgstr ""
+msgstr "유저 이름"
 
 #: ../../source/security/reporting/crash-reporting.md:10
 msgid "Domain + location"
@@ -29978,4 +30113,3 @@ msgstr ""
 #~ " logged in, you will be prompted "
 #~ "to do so."
 #~ msgstr ""
-
