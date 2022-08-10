@@ -10,24 +10,62 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-07-27 13:12+0000\n"
+"POT-Creation-Date: 2022-08-10 12:42+0000\n"
 "PO-Revision-Date: 2022-07-30 02:15+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: German <https://hosted.weblate.org/projects/overte/"
-"overte-documentation/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://hosted.weblate.org/projects/overte/overte-"
+"documentation/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
-#: ../../source/contribute.rst:3
+#: ../../source/shared.rst
+#, fuzzy
+msgid "Download"
+msgstr "Herunterladen"
+
+#: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
+#: ../../source/shared.rst
+msgid "Gallery"
+msgstr "Galerie"
+
+#: ../../source/shared.rst
+#, fuzzy
+msgid "Discord"
+msgstr "Discord"
+
+#: ../../source/shared.rst
+msgid "Matrix"
+msgstr ""
+
+#: ../../source/shared.rst
+msgid "de_trans"
+msgstr ""
+
+#: ../../source/shared.rst
+msgid "es_trans"
+msgstr ""
+
+#: ../../source/shared.rst
+msgid "fr_trans"
+msgstr ""
+
+#: ../../source/shared.rst
+msgid "jp_trans"
+msgstr ""
+
+#: ../../source/shared.rst
+msgid "ko_trans"
+msgstr ""
+
+#: ../../source/contribute.rst:5
 msgid "Contribute"
 msgstr "Beiträge leisten"
 
-#: ../../source/contribute.rst:5
+#: ../../source/contribute.rst:7
 msgid ""
 "Overte is an open-source project, so all of our code and documentation is"
 " available for you to look at. You too can contribute to our endeavour "
@@ -44,7 +82,15 @@ msgstr ""
 "viele Möglichkeiten, zu den verschiedenen Teilen, aus denen Overte "
 "besteht, beizutragen."
 
-#: ../../source/contribute.rst:10 ../../source/create/3d-models/get-model.rst:8
+#: ../../source/contribute.rst:11
+msgid ""
+"If you run into an questions or seek some advice, have a look at our "
+"`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which "
+"is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
+"|Discord| if you prefer that."
+msgstr ""
+
+#: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
 #: ../../source/create/3d-models/import-model.rst:8
 #: ../../source/create/3d-models/pbr-materials-guide.rst:11
@@ -95,7 +141,7 @@ msgstr ""
 msgid "On This Page"
 msgstr "Auf dieser Seite"
 
-#: ../../source/contribute.rst:14
+#: ../../source/contribute.rst:19
 #: ../../source/release-notes/2020-2-0-Asteria.md:113
 #: ../../source/release-notes/2020-2-0-Asteria.md:272
 #: ../../source/release-notes/2020-2-1-Asteria.md:20
@@ -115,23 +161,23 @@ msgstr "Auf dieser Seite"
 msgid "Documentation"
 msgstr "Dokumentation"
 
-#: ../../source/contribute.rst:15
+#: ../../source/contribute.rst:20
 msgid "You can help create and maintain the documentation in several ways:"
 msgstr ""
 
-#: ../../source/contribute.rst:17
+#: ../../source/contribute.rst:22
 msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
 
-#: ../../source/contribute.rst:18
+#: ../../source/contribute.rst:23
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
 
-#: ../../source/contribute.rst:19
+#: ../../source/contribute.rst:24
 msgid ""
 "`Review changes <https://github.com/overte-org/overte-docs-"
 "sphinx/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ to the "
@@ -140,11 +186,11 @@ msgid ""
 "reviewer overlook."
 msgstr ""
 
-#: ../../source/contribute.rst:24
+#: ../../source/contribute.rst:29
 msgid "Translation"
 msgstr "Übersetzung"
 
-#: ../../source/contribute.rst:25
+#: ../../source/contribute.rst:30
 msgid ""
 "As an international project, Overte relies on translators to be able to "
 "reach users that do not speak English. Currently the only component that "
@@ -158,12 +204,12 @@ msgid ""
 "sphinx/blob/master/README.md>`_."
 msgstr ""
 
-#: ../../source/contribute.rst:32
+#: ../../source/contribute.rst:38
 #, fuzzy
 msgid "Donations"
 msgstr "Dokumentation"
 
-#: ../../source/contribute.rst:33
+#: ../../source/contribute.rst:39
 msgid ""
 "Overte is primarily driven by the voluntary contributions of its "
 "community and core team. While we do not yet have an entity to manage "
@@ -171,7 +217,7 @@ msgid ""
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
 
-#: ../../source/contribute.rst:36
+#: ../../source/contribute.rst:42
 msgid ""
 "You can also put bounties on specific features you want to see "
 "implemented or issues you want to see fixed, by leaving a comment on our "
@@ -185,34 +231,34 @@ msgid ""
 " something accomplished that no one else is personally interested in."
 msgstr ""
 
-#: ../../source/contribute.rst:43
+#: ../../source/contribute.rst:50
 #, fuzzy
 msgid "Development"
 msgstr "Entwickler"
 
-#: ../../source/contribute.rst:44
+#: ../../source/contribute.rst:51
 msgid ""
 "You can help the general development of the Overte project without being "
 "a developer yourself by:"
 msgstr ""
 
-#: ../../source/contribute.rst:46
+#: ../../source/contribute.rst:53
 msgid ""
 "filing issues on our `issue tracker <https://github.com/overte-"
 "org/overte/issues>`_,"
 msgstr ""
 
-#: ../../source/contribute.rst:47
+#: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
 msgstr ""
 
-#: ../../source/contribute.rst:48
+#: ../../source/contribute.rst:55
 msgid ""
 "or `testing pull requests <https://github.com/overte-"
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
 
-#: ../../source/contribute.rst:50
+#: ../../source/contribute.rst:57
 msgid ""
 "If you are a developer, you can contribute directly to the project via "
 "pull requests. Keep the `guidelines <https://github.com/overte-"
@@ -225,38 +271,38 @@ msgid ""
 "open pull requests."
 msgstr ""
 
-#: ../../source/contribute.rst:56
+#: ../../source/contribute.rst:64
 msgid "Miscellaneous Work"
 msgstr ""
 
-#: ../../source/contribute.rst:57
+#: ../../source/contribute.rst:65
 msgid ""
 "There is also a lot of miscellaneous work that comes up every now and "
 "then:"
 msgstr ""
 
-#: ../../source/contribute.rst:59
+#: ../../source/contribute.rst:67
 msgid "2D art like posters or banners,"
 msgstr ""
 
-#: ../../source/contribute.rst:60
+#: ../../source/contribute.rst:68
 msgid "3D models,"
 msgstr "3D Modelle,"
 
-#: ../../source/contribute.rst:61
+#: ../../source/contribute.rst:69
 #, fuzzy
 msgid "scripts,"
 msgstr "Beschreibung"
 
-#: ../../source/contribute.rst:62
+#: ../../source/contribute.rst:70
 msgid "video editing,"
 msgstr ""
 
-#: ../../source/contribute.rst:63
+#: ../../source/contribute.rst:71
 msgid "and so on."
 msgstr ""
 
-#: ../../source/contribute.rst:65
+#: ../../source/contribute.rst:73
 msgid ""
 "It is tremendously helpful for developers to have someone that they can "
 "ask for assistance when they need work done that is outside their area of"
@@ -1013,7 +1059,7 @@ msgstr ""
 #: ../../source/explore/get-started/adjust-settings.rst:129
 #: ../../source/explore/get-started/android.rst:82
 #: ../../source/explore/get-started/architecture.rst:105
-#: ../../source/explore/get-started/install.rst:214
+#: ../../source/explore/get-started/install.rst:160
 #: ../../source/explore/get-started/vr-controls.rst:224
 #: ../../source/explore/interact.md:42
 #: ../../source/explore/personalize/add-wearables.rst:35
@@ -9895,11 +9941,6 @@ msgstr ""
 "dem Quellcode builden, entwickeln oder technisch verwalten kann, kann "
 "hier gefunden werden `hier <https://docs.vircadia.dev/>`_."
 
-#: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
-#: ../../source/home.rst
-msgid "Gallery"
-msgstr "Galerie"
-
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 #, fuzzy
 msgid "Get Started with Overte"
@@ -10037,7 +10078,7 @@ msgstr ":doc:`Vircadia installieren <get-started/install>`"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
-#: ../../source/explore/get-started/install.rst:119
+#: ../../source/explore/get-started/install.rst:65
 msgid "Install Overte"
 msgstr ""
 
@@ -11312,84 +11353,80 @@ msgid "Operating system:"
 msgstr "Betriebssystem:"
 
 #: ../../source/explore/get-started/install.rst:21
-msgid "Windows 8.1, 64-bit or Windows 10, 64-bit"
+msgid "Windows 8.1 64-bit, Windows 10 64-bit, or Windows 11 64-bit"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:22
-msgid "MacOS High Sierra (10.13) or newer"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:23
 #, fuzzy
-msgid "Ubuntu 18.04 64 bit or most other modern Linux distributions"
+msgid "Ubuntu 18.04 64 bit, or most other modern Linux distributions"
 msgstr "Ubuntu 18.04 64 bit oder eine andere moderne Linux Distribution"
 
-#: ../../source/explore/get-started/install.rst:25
+#: ../../source/explore/get-started/install.rst:24
 msgid "CPU:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:27
-msgid "**Minimum:** Quad-core"
+#: ../../source/explore/get-started/install.rst:26
+msgid "**Minimum:** Dual-core with hyper-threading"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:28
+#: ../../source/explore/get-started/install.rst:27
 msgid "**Recommended:** Quad-core with hyper-threading or better"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:30
+#: ../../source/explore/get-started/install.rst:29
 msgid "System memory:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:32
+#: ../../source/explore/get-started/install.rst:31
 msgid "**Minimum:** 8GB"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:34
+#: ../../source/explore/get-started/install.rst:33
 msgid "Graphics adapter:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:36
+#: ../../source/explore/get-started/install.rst:35
 msgid "**Minimum:** Nvidia 600 series"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:37
+#: ../../source/explore/get-started/install.rst:36
 msgid "**Recommended:** Nvidia 900 series or higher"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:38
+#: ../../source/explore/get-started/install.rst:37
 msgid "**Minimum:** AMD Radeon HD 87XX series"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:39
+#: ../../source/explore/get-started/install.rst:38
 msgid "**Recommended:** AMD Radeon HD 89XX series or higher"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:40
+#: ../../source/explore/get-started/install.rst:39
 msgid ""
 "**Minimum:** Intel 5th generation CPU integrated Iris graphics. Using "
 "Intel integrated graphics is not recommended."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:42
+#: ../../source/explore/get-started/install.rst:41
 msgid ""
 "The listed graphics adapters support OpenGL 4.1 and above. This is a "
 "requirement for any graphics adapter running Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:44
+#: ../../source/explore/get-started/install.rst:43
 msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Overte:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:46
+#: ../../source/explore/get-started/install.rst:45
 msgid ""
 "If you are using Interface only to explore the metaverse, then you should"
 " have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
 "upload**."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:47
+#: ../../source/explore/get-started/install.rst:46
 msgid ""
 "If you are hosting a domain server on a remote machine or your local "
 "computer, you need to add **10 Mbit/s upload** for each user that you "
@@ -11398,111 +11435,30 @@ msgid ""
 "server rather than your domain server."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:50
+#: ../../source/explore/get-started/install.rst:49
 msgid ""
 "A world that is specifically built for low-end systems might run fine on "
 "a system with slightly less memory or a lower CPU core count."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:52
+#: ../../source/explore/get-started/install.rst:51
 msgid ""
 "Running Overte on a high resolution display or in VR mode will need a "
 "much better graphics adapter, depending on your display's resolution and "
 "targeted frame rate."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:56
+#: ../../source/explore/get-started/install.rst:55
 msgid "Download Overte"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:58
-msgid "Windows |Windows|"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:77
-#: ../../source/host/quick-start.rst:22
-msgid "Windows"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:60
+#: ../../source/explore/get-started/install.rst:57
 msgid ""
-"`Windows 64-bit - Selene v2022.1.0 Installer "
-"<https://cdn.vircadia.com/dist/release/Vircadia-2022.1.0-Selene.exe>`__ "
-"|DownloadWI|"
+"The current release is available to `download on our website "
+"<https://overte.org/#downloads>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst
-msgid "DownloadWI"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:61
-msgid ""
-"`Windows 64-bit Launcher (Experimental) "
-"<https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__ "
-"|DownloadWL|"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst
-msgid "DownloadWL"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:63
-msgid "macOS |MacOS|"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:80
-#, fuzzy
-msgid "MacOS"
-msgstr "MacOS"
-
-#: ../../source/explore/get-started/install.rst:65
-msgid ""
-"`macOS Intel - Selene v2022.1.0 Installer <https://cdn.vircadia.com/dist"
-"/release-experimental/Vircadia-2022.1.0-Selene.dmg>`__ |DownloadM|"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst
-msgid "DownloadM"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:67
-msgid "Linux |Ubuntu|"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:83
-#, fuzzy
-msgid "Ubuntu"
-msgstr "Ubuntu"
-
-#: ../../source/explore/get-started/install.rst:69
-msgid ""
-"`EU Mirror: Linux amd64 - Selene v2022.1.0 AppImage "
-"<https://appimage.moto9000.moe/release/Vircadia-"
-"x86_64_v2022.1.0-Selene.AppImage>`__ |DownloadLEU| (`zsync "
-"<http://appimage.moto9000.moe/release/Vircadia-x86_64-release-"
-"latest.AppImage.zsync>`__ |DownloadLEUZ|)"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst
-msgid "DownloadLEU"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst
-msgid "DownloadLEUZ"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:71
-msgid ""
-"`US Mirror: Linux amd64 - Selene v2022.1.0 AppImage "
-"<https://cdn.vircadia.com/dist/release/Vircadia-"
-"x86_64_v2022.1.0-Selene.AppImage>`__ |DownloadLUS|"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst
-msgid "DownloadLUS"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:73
+#: ../../source/explore/get-started/install.rst:59
 msgid ""
 "If you intend to use Overte in VR mode with an HMD, ensure that SteamVR "
 "or Oculus Runtime is also installed on your system before launching "
@@ -11510,17 +11466,17 @@ msgid ""
 "supported on Linux."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:121
+#: ../../source/explore/get-started/install.rst:67
 msgid ""
 "Once you've downloaded the installer, you're ready to install Overte. The"
 " process will be different based on your operating system:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:125
+#: ../../source/explore/get-started/install.rst:71
 msgid "Windows Install"
 msgstr "Windows Installation"
 
-#: ../../source/explore/get-started/install.rst:127
+#: ../../source/explore/get-started/install.rst:73
 msgid ""
 "To install on Windows, simply double-click on the downloaded installer "
 "file to open it. Run through the prompts on the installer. Once you "
@@ -11528,67 +11484,67 @@ msgid ""
 "log in and begin exploring the metaverse."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:132
+#: ../../source/explore/get-started/install.rst:78
 msgid "Mac Install"
 msgstr "Mac Installation"
 
-#: ../../source/explore/get-started/install.rst:134
+#: ../../source/explore/get-started/install.rst:80
 msgid ""
 "At this time, the Overte installer for Mac is unsigned, so you will need "
 "give the OS permission to install the application."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:136
+#: ../../source/explore/get-started/install.rst:82
 msgid "Open the downloaded installer dmg file."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:137
+#: ../../source/explore/get-started/install.rst:83
 msgid "Agree to the License Agreement."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:138
+#: ../../source/explore/get-started/install.rst:84
 msgid "Drag Overte to the Applications folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:139
+#: ../../source/explore/get-started/install.rst:85
 msgid ""
 "Try opening Interface.app. You will be prompted that macOS will not open "
 "the file because it is unsigned."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:140
+#: ../../source/explore/get-started/install.rst:86
 msgid ""
 "Open **System Preferences > Security & Privacy**. On older macOS versions"
 " this might be in **System Preferences > General**."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:141
+#: ../../source/explore/get-started/install.rst:87
 msgid ""
 "Next to the warning indicating that Interface is blocked, click 'Open "
 "Anyway'."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:142
+#: ../../source/explore/get-started/install.rst:88
 msgid "Confirm that you want to open the application."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:143
+#: ../../source/explore/get-started/install.rst:89
 msgid ""
 "Allow microphone access if prompted, in order to be able to talk inside "
 "the application."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:145
+#: ../../source/explore/get-started/install.rst:91
 msgid ""
 "At this point, Interface will open and you will be able to log in and "
 "begin exploring the metaverse."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:150
+#: ../../source/explore/get-started/install.rst:96
 msgid "Linux Install"
 msgstr "Linux Installation"
 
-#: ../../source/explore/get-started/install.rst:152
+#: ../../source/explore/get-started/install.rst:98
 #, fuzzy
 msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
@@ -11597,7 +11553,7 @@ msgstr ""
 "Markieren Sie das heruntergeladene AppImage als ausführbar. (Zum Beispiel"
 " mit ``chmod +x Vircadia-Alpha-2020.3.2-Asteria.AppImage``.)"
 
-#: ../../source/explore/get-started/install.rst:153
+#: ../../source/explore/get-started/install.rst:99
 msgid ""
 "(Optional) If you want the AppImage to be integrated into your system, "
 "install `AppImageLauncher "
@@ -11607,11 +11563,11 @@ msgstr ""
 "integriert, installieren Sie zusätzlich den `AppImageLauncher "
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 
-#: ../../source/explore/get-started/install.rst:154
+#: ../../source/explore/get-started/install.rst:100
 msgid "Execute AppImage."
 msgstr "AppImage ausführen."
 
-#: ../../source/explore/get-started/install.rst:156
+#: ../../source/explore/get-started/install.rst:102
 msgid ""
 "Currently the server is not part of the Linux Interface AppImage. To host"
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
@@ -11622,11 +11578,11 @@ msgstr ""
 "betreiben <../../host/server-setup/linux-server>` um eine Domain zu "
 "betreiben."
 
-#: ../../source/explore/get-started/install.rst:160
+#: ../../source/explore/get-started/install.rst:106
 msgid "Upgrade Overte"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:162
+#: ../../source/explore/get-started/install.rst:108
 msgid ""
 "Overte is always changing, as we work to improve performance and add "
 "features that will enhance your experience in the metaverse. At any time,"
@@ -11638,7 +11594,7 @@ msgstr ""
 "Metaversum zu verbessern. Sie können jeder Zeit die neuste Version von "
 "Overte auf unserer `website <https://overte.org/#downloads>`_ downloaden."
 
-#: ../../source/explore/get-started/install.rst:165
+#: ../../source/explore/get-started/install.rst:111
 msgid ""
 "You cannot upgrade Overte on Windows if you have Overte Interface or "
 "Server running on your computer. Be sure to quit these applications "
@@ -11651,24 +11607,24 @@ msgstr ""
 "updaten. Beachten Sie, dass auf ihrem Computer ein Overte Server "
 "möglicherweise im Hintergrund läuft."
 
-#: ../../source/explore/get-started/install.rst:168
+#: ../../source/explore/get-started/install.rst:114
 msgid ""
 "For Windows, locate the Overte app in your system tray. Right-click on "
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:170
+#: ../../source/explore/get-started/install.rst:116
 msgid ""
 "For more information on the latest releases, see our :doc:`Release Notes "
 "<../../release-notes>`."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:175
+#: ../../source/explore/get-started/install.rst:121
 msgid "Perform a Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:177
+#: ../../source/explore/get-started/install.rst:123
 msgid ""
 "If you're facing problems when you load Interface or the local Server, "
 "then you can try performing a clean install. A clean install removes "
@@ -11676,35 +11632,35 @@ msgid ""
 "again."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:180
+#: ../../source/explore/get-started/install.rst:126
 msgid ""
 "Ensure that you back up the following files before a clean install: "
 "Favorites, Wearables, Server content, and Entities. These settings will "
 "be deleted during the clean install."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:184
+#: ../../source/explore/get-started/install.rst:130
 msgid "Windows Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:186
+#: ../../source/explore/get-started/install.rst:132
 msgid ""
 "Click on the Start menu and type \"Add or Remove Programs\" in your "
 "Windows search bar."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:187
+#: ../../source/explore/get-started/install.rst:133
 msgid "Uninstall any versions of Overte that are visible."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:188
+#: ../../source/explore/get-started/install.rst:134
 #, python-format
 msgid ""
 "Once Overte is uninstalled, browse to your %Program Files% directory. "
 "Delete all folders related to Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:192
+#: ../../source/explore/get-started/install.rst:138
 msgid ""
 "The next 3 steps will permanently delete your local Server's content. If "
 "you wish to keep this content, copy %AppData%/Local/Overte/assignment-"
@@ -11712,7 +11668,7 @@ msgid ""
 " %AppData%/Roaming/Overte/assignment-client."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:196
+#: ../../source/explore/get-started/install.rst:142
 #, python-format
 msgid ""
 "Browse to your local %AppData% folder (usually "
@@ -11722,7 +11678,7 @@ msgid ""
 "related to Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:198
+#: ../../source/explore/get-started/install.rst:144
 #, python-format
 msgid ""
 "Browse to your roaming %AppData% folder (usually "
@@ -11730,52 +11686,52 @@ msgid ""
 " to Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:199
+#: ../../source/explore/get-started/install.rst:145
 msgid ""
 "Re-install Overte using the steps above. To restore your local Server's "
 "content, copy the ``assignment-client`` folders you previously saved back"
 " into to their respective locations."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:203
+#: ../../source/explore/get-started/install.rst:149
 msgid "Mac Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:205
+#: ../../source/explore/get-started/install.rst:151
 msgid "Open your Applications folder and delete the Overte folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:206
+#: ../../source/explore/get-started/install.rst:152
 msgid ""
 "Open the ``<username>/.config`` folder. This is a hidden folder than is "
 "accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
 " + Shift + .`` (period)."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:207
+#: ../../source/explore/get-started/install.rst:153
 msgid "Delete the ``overte.org`` folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:208
+#: ../../source/explore/get-started/install.rst:154
 msgid ""
 "Open the ``~/Library`` folder by holding the Option key and clicking the "
 "'Go' menu while in the Finder. The Library option should appear in the "
 "menu."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:209
+#: ../../source/explore/get-started/install.rst:155
 msgid "Browse to ``~/Library/Application Support`` and delete the Overte folder."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:210
+#: ../../source/explore/get-started/install.rst:156
 msgid "Empty the Trash."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:211
+#: ../../source/explore/get-started/install.rst:157
 msgid "Re-install Overte using the steps above."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:216
+#: ../../source/explore/get-started/install.rst:162
 msgid ":doc:`Install Your Domain <../../host/server-setup>`"
 msgstr ""
 
@@ -14265,55 +14221,55 @@ msgid ""
 "same steps as above."
 msgstr ""
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "HOME"
 msgstr "Start"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "EXPLORE"
 msgstr "Entdecken"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "CREATE"
 msgstr "Erschaffen"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "SCRIPT"
 msgstr "Skript"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "HOST"
 msgstr "Host"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "CONTRIBUTE"
 msgstr "Mitwirken"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "DEVELOP"
 msgstr "Entwicklung"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "SECURITY"
 msgstr "Sicherheit"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "FAQ"
 msgstr "Häufig gestellte Fragen"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "RELEASE NOTES"
 msgstr "Versionshinweise"
 
-#: ../../source/home.rst:80
+#: ../../source/home.rst:46
 msgid "API REFERENCE"
 msgstr "API-Referenz"
 
-#: ../../source/home.rst:3
+#: ../../source/home.rst:5
 msgid "Home"
 msgstr "Start"
 
-#: ../../source/home.rst:5
+#: ../../source/home.rst:7
 msgid ""
 "Overte is open-source software which enables you to create and share "
 "virtual worlds as virtual reality (VR) and desktop experiences. You can "
@@ -14324,7 +14280,7 @@ msgstr ""
 "virtuelle Welten in der virtuellen Realität (VR) oder auf dem Desktop-"
 "Computer zu erstellen, teilen und zu erleben."
 
-#: ../../source/home.rst:8
+#: ../../source/home.rst:10
 msgid ""
 "The Overte virtual worlds software provides built-in social features, "
 "including avatar interactions, spatialized audio, and interactive "
@@ -14340,7 +14296,7 @@ msgstr ""
 "immer in der Lage sein mit Ihrer Umgebung zu interagieren, Ihre Freunde "
 "zu treffen und Konversationen zu führen genau wie in der echten Welt."
 
-#: ../../source/home.rst:12
+#: ../../source/home.rst:14
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
@@ -14349,90 +14305,61 @@ msgstr ""
 "oder schauen Sie sich unsere :doc:`Galerie <explore/gallery>` |Gallery| "
 "an."
 
-#: ../../source/home.rst
+#: ../../source/home.rst:17
 #, fuzzy
-msgid "Download"
-msgstr "Herunterladen"
-
-#: ../../source/home.rst:26
 msgid ""
 "In addition to the documentation, you can join the discussion on the "
-"Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ or `Discord "
-"server <https://discord.gg/4YuQvc8K2f>`__ |Discord|."
+"Overte `Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| or "
+"`Discord server <https://discord.gg/4YuQvc8K2f>`_ |Discord|."
 msgstr ""
 "Neben dieser Dokumentation können Sie auch an der Diskussion auf dem "
 "Overte `Matrix <https://matrix.to/#/#overte:matrix.org>`_ oder `Discord "
 "Server <https://discord.gg/4YuQvc8K2f>`__ |Discord| teilnehmen."
 
-#: ../../source/home.rst
-#, fuzzy
-msgid "Discord"
-msgstr "Discord"
-
-#: ../../source/home.rst:35
+#: ../../source/home.rst:20
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
 msgstr ""
 "Diese Dokumentation wurde im Original auf `Englisch "
 "<https://docs.overte.org/>`_ verfasst."
 
-#: ../../source/home.rst:37
+#: ../../source/home.rst:22
 msgid "The following translations are available:"
 msgstr "Die folgenden Übersetzungen sind verfügbar:"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:24
 #, fuzzy
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
 
-#: ../../source/home.rst
-msgid "de_trans"
-msgstr ""
-
-#: ../../source/home.rst:40
+#: ../../source/home.rst:25
 #, fuzzy
 msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 msgstr "`Spanisch <https://docs.vircadia.dev/es/>`_ |de_trans|"
 
-#: ../../source/home.rst
-msgid "es_trans"
-msgstr ""
-
-#: ../../source/home.rst:41
+#: ../../source/home.rst:26
 #, fuzzy
 msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr "`Französisch <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
 
-#: ../../source/home.rst
-msgid "fr_trans"
-msgstr ""
-
-#: ../../source/home.rst:42
+#: ../../source/home.rst:27
 #, fuzzy
 msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst
-msgid "jp_trans"
-msgstr ""
-
-#: ../../source/home.rst:43
+#: ../../source/home.rst:28
 #, fuzzy
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst
-msgid "ko_trans"
-msgstr ""
-
-#: ../../source/home.rst:67
+#: ../../source/home.rst:33
 msgid "What can I do?"
 msgstr "Was kann ich machen?"
 
-#: ../../source/home.rst:69
+#: ../../source/home.rst:35
 msgid "You have the power to shape your VR experience in Overte."
 msgstr "Sie können Ihr VR-Erlebnis in Overte selbst gestallten."
 
-#: ../../source/home.rst:71
+#: ../../source/home.rst:37
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -14440,7 +14367,7 @@ msgstr ""
 ":doc:`Erkunden <explore>` Sie verschiedene Welten im Metaversum, besuchen"
 " Sie Veranstaltungen und machen Sie neue Bekanntschaften."
 
-#: ../../source/home.rst:72
+#: ../../source/home.rst:38
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
@@ -14449,7 +14376,7 @@ msgstr ""
 "Avatare, Welten, Tablet-Apps und vieles mehr für sich und andere "
 "erstellen."
 
-#: ../../source/home.rst:73
+#: ../../source/home.rst:39
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
@@ -14458,7 +14385,7 @@ msgstr ""
 "fortgeschrittene Konzepte auf Entitäten und Avatare im Metaversum "
 "anwenden."
 
-#: ../../source/home.rst:74
+#: ../../source/home.rst:40
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
@@ -14466,11 +14393,11 @@ msgstr ""
 ":doc:`Hosten <host>` und erstellen Sie immersive Erlebnisse um Ihr "
 "Publikum zu unterrichten, unterhalten und sich mit ihm zu binden."
 
-#: ../../source/home.rst:75
+#: ../../source/home.rst:41
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ":doc:`Beitragen <contribute>` zum Projekt."
 
-#: ../../source/home.rst:76
+#: ../../source/home.rst:42
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
@@ -14478,7 +14405,7 @@ msgstr ""
 ":doc:`Entwickeln <developer>` Sie das Projekt mit und passen Sie es an "
 "Ihre Bedürfnisse an."
 
-#: ../../source/home.rst:77
+#: ../../source/home.rst:43
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
@@ -16995,6 +16922,10 @@ msgstr ""
 
 #: ../../source/host/quick-start.rst:18
 msgid "40102 : (udp) main connection for clients"
+msgstr ""
+
+#: ../../source/host/quick-start.rst:22
+msgid "Windows"
 msgstr ""
 
 #: ../../source/host/quick-start.rst:24
@@ -30398,3 +30329,80 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ " logged in, you will be prompted "
 #~ "to do so."
 #~ msgstr ""
+
+#~ msgid "Windows 8.1, 64-bit or Windows 10, 64-bit"
+#~ msgstr ""
+
+#~ msgid "MacOS High Sierra (10.13) or newer"
+#~ msgstr ""
+
+#~ msgid "**Minimum:** Quad-core"
+#~ msgstr ""
+
+#~ msgid "Windows |Windows|"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Windows 64-bit - Selene v2022.1.0 "
+#~ "Installer "
+#~ "<https://cdn.vircadia.com/dist/release/Vircadia-2022.1.0-Selene.exe>`__"
+#~ " |DownloadWI|"
+#~ msgstr ""
+
+#~ msgid "DownloadWI"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Windows 64-bit Launcher (Experimental) "
+#~ "<https://cdn.vircadia.com/dist/launcher/VircadiaLauncherSetup.exe>`__"
+#~ " |DownloadWL|"
+#~ msgstr ""
+
+#~ msgid "DownloadWL"
+#~ msgstr ""
+
+#~ msgid "macOS |MacOS|"
+#~ msgstr ""
+
+#~ msgid "MacOS"
+#~ msgstr "MacOS"
+
+#~ msgid ""
+#~ "`macOS Intel - Selene v2022.1.0 "
+#~ "Installer <https://cdn.vircadia.com/dist/release-"
+#~ "experimental/Vircadia-2022.1.0-Selene.dmg>`__ |DownloadM|"
+#~ msgstr ""
+
+#~ msgid "DownloadM"
+#~ msgstr ""
+
+#~ msgid "Linux |Ubuntu|"
+#~ msgstr ""
+
+#~ msgid "Ubuntu"
+#~ msgstr "Ubuntu"
+
+#~ msgid ""
+#~ "`EU Mirror: Linux amd64 - Selene "
+#~ "v2022.1.0 AppImage <https://appimage.moto9000.moe/release"
+#~ "/Vircadia-x86_64_v2022.1.0-Selene.AppImage>`__ |DownloadLEU|"
+#~ " (`zsync "
+#~ "<http://appimage.moto9000.moe/release/Vircadia-x86_64-release-"
+#~ "latest.AppImage.zsync>`__ |DownloadLEUZ|)"
+#~ msgstr ""
+
+#~ msgid "DownloadLEU"
+#~ msgstr ""
+
+#~ msgid "DownloadLEUZ"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`US Mirror: Linux amd64 - Selene "
+#~ "v2022.1.0 AppImage <https://cdn.vircadia.com/dist/release"
+#~ "/Vircadia-x86_64_v2022.1.0-Selene.AppImage>`__ |DownloadLUS|"
+#~ msgstr ""
+
+#~ msgid "DownloadLUS"
+#~ msgstr ""
+
