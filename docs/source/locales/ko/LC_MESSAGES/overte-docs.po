@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-08-10 12:42+0000\n"
-"PO-Revision-Date: 2022-08-14 09:20+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2022-08-14 10:55+0000\n"
+"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/ko/>\n"
 "Language: ko\n"
@@ -41,7 +41,7 @@ msgstr ""
 #: ../../source/shared.rst
 #, fuzzy
 msgid "Matrix"
-msgstr "Jabber (XMPP)"
+msgstr "Matrix"
 
 #: ../../source/shared.rst
 msgid "de_trans"
