@@ -10,36 +10,35 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-08-14 10:54+0000\n"
-"PO-Revision-Date: 2022-08-04 13:17+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"POT-Creation-Date: 2022-08-10 12:42+0000\n"
+"PO-Revision-Date: 2022-08-14 10:55+0000\n"
+"Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/ja/>\n"
 "Language: jp\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/overte"
-"/overte-documentation/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/shared.rst
-#, fuzzy
 msgid "Download"
 msgstr "ダウンロード"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 #: ../../source/shared.rst
-#, fuzzy
 msgid "Gallery"
 msgstr "ギャラリー"
 
 #: ../../source/shared.rst
-#, fuzzy
 msgid "Discord"
 msgstr "Discord"
 
 #: ../../source/shared.rst
 msgid "Matrix"
-msgstr ""
+msgstr "Matrix"
 
 #: ../../source/shared.rst
 msgid "de_trans"
@@ -10069,7 +10068,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore.rst:7
-#, fuzzy
 msgid ""
 "If it's your first time using Overte, you'll start your journey in a "
 "local tutorial space by yourself, where you can experiment with the "
@@ -10077,7 +10075,12 @@ msgid ""
 " other domains using the Explore app and socialize with people around the"
 " metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
-msgstr "初めてVircadiaを使う場合は、ローカルのチュートリアルスペースで一人旅を始め、操作を試したりインターフェイスについて学んだりすることができます。準備ができたら、Exploreアプリを使って他のドメインを探検してみたり、メタバース周辺の人々と交流してみましょう。以前にVircadiaを訪れたことがある場合は、前回訪れた場所に戻ります。"
+msgstr ""
+"初めてOverteを使う場合は、ローカルのチュートリアルスペースで一人旅を始め、操"
+"作を試したりインターフェイスについて学んだりすることができます。準備ができた"
+"ら、Exploreアプリを使って他のドメインを探検してみたり、メタバース周辺の人々と"
+"交流してみましょう。以前にOverteを訪れたことがある場合は、前回訪れた場所に戻"
+"ります。"
 
 #: ../../source/explore.rst:9
 #, fuzzy
@@ -10085,11 +10088,11 @@ msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr "この章を通して、探索を最大限に活用する方法を学びます :"
 
 #: ../../source/explore/gallery.rst:5
-#, fuzzy
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
-msgstr "このギャラリーでは、Vircadia Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
+msgstr "このギャラリーでは、Overte/Vircadia "
+"Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
 
 #: ../../source/explore/gallery.rst:12
 msgid "Maker meeting 28th September 2020"
@@ -10107,9 +10110,8 @@ msgid "Startup Asia X 12th June 2020"
 msgstr ""
 
 #: ../../source/explore/gallery.rst:19
-#, fuzzy
 msgid "Startup Lab Lagoon Koza booth at Startup Asia X, 12th June 2020."
-msgstr "2020年6月12日 Startup Lab Startup Asia X (Lagoon Koza boothにて)。"
+msgstr "2020年6月12日 Startup Lab Lagoon Koza のブース (Startup Asia Xにて)。"
 
 #: ../../source/explore/gallery.rst:26
 #, fuzzy
@@ -10130,18 +10132,16 @@ msgid "Community Meeting 13th July 2020"
 msgstr ""
 
 #: ../../source/explore/gallery.rst:40
-#, fuzzy
 msgid "Mannequin army, 13th July 2020."
-msgstr "2020年7月13日 マネキン軍。"
+msgstr "2020年7月13日 マネキン軍団。"
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary 5th July 2020"
 msgstr ""
 
 #: ../../source/explore/gallery.rst:47
-#, fuzzy
 msgid "Pictionary in the old Hub, 5th July 2020."
-msgstr "2020年7月5日 old HubでのPictionary。"
+msgstr "2020年7月5日 old Hubでのピクショナリー。"
 
 #: ../../source/explore/gallery.rst:54
 msgid "29th September 2020"
@@ -10219,12 +10219,14 @@ msgstr ""
 "いくつかのパースペクティブ・オプションはもう存在しません、セキュリティ画像について言及、低いグラフィック設定はパフォーマンスを上げると書いてあります。（私たちのケースでは完全に真実ではありません）"
 
 #: ../../source/explore/get-started/adjust-settings.rst:9
-#, fuzzy
 msgid ""
 "You can adjust various settings in Overte so that it runs to your "
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
-msgstr "Vircadiaでは様々な設定を調整して、自分の好みに合わせて動作させることができます。これらの設定の多くは、HUD（デスクトップモード）またはタブレット（VRモード）を使って変更します。"
+msgstr ""
+"Overteでは様々な設定を調整して、自分の好みに合わせて動作させることができます"
+"。これらの設定の多くは、HUD（デスクトップモード）またはタブレット（VRモード）"
+"を使って変更します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 #, fuzzy
@@ -10264,13 +10266,16 @@ msgid "Enter or Exit VR Mode"
 msgstr "VRモードの開始または終了"
 
 #: ../../source/explore/get-started/adjust-settings.rst:30
-#, fuzzy
 msgid ""
 "You can enjoy Overte with or with VR equipment such as head mounted "
 "displays (HMD), hand controllers and audio headsets. Our Desktop mode "
 "contains many of Overte's features such as audio, basic movements and "
 "gestures, and the ability to travel to different domains."
-msgstr "Vircadiaは、ヘッドマウントディスプレイ（HMD）、ハンドコントローラ、オーディオヘッドセットなどのVR機器と一緒に楽しむことができます。デスクトップモードでは、オーディオ、基本的な動きやジェスチャー、異なるドメインへの移動機能など、Vircadiaの多くの機能が搭載されています。"
+msgstr ""
+"Overteは、ヘッドマウントディスプレイ（HMD）、ハンドコントローラ、オーディオヘ"
+"ッドセットなどのVR機器と一緒に楽しむことができます。デスクトップモードでは、"
+"オーディオ、基本的な動きやジェスチャー、異なるドメインへの移動機能など、Overt"
+"eの多くの機能が搭載されています。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:32
 #, fuzzy
@@ -10330,12 +10335,12 @@ msgid "First Person"
 msgstr "First Person"
 
 #: ../../source/explore/get-started/adjust-settings.rst:51
-#, fuzzy
 msgid ""
 "Select this setting if you want to change your perspective in Overte to "
 "first person. In this view, you will not see yourself, only the "
 "environment around you."
-msgstr "Vircadiaで一人称視点映像に変更したい場合は、この設定を選択します。この視点だと、自分自身は見えず、周りの環境だけが見えます。"
+msgstr "Overteで一人称視点映像に変更したい場合は、この設定を選択します。この視点だと"
+"、自分自身は見えず、周りの環境だけが見えます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 #, fuzzy
@@ -11525,14 +11530,13 @@ msgid "Gamepad"
 msgstr "ゲームパッド"
 
 #: ../../source/explore/get-started/desktop.rst:145
-#, fuzzy
 msgid ""
 "Instead of a keyboard, you can use a gamepad while experiencing Overte in"
 " desktop mode."
-msgstr "キーボードの代わりにゲームパッドを使って、デスクトップモードでVircadiaを体験することができます。"
+msgstr "キーボードの代わりにゲームパッドを使って、デスクトップモードでOverte "
+"を体験することができます。"
 
 #: ../../source/explore/get-started/install.rst:5
-#, fuzzy
 msgid ""
 "Overte has two different installers. The *Client Installer* comes with "
 "everything you need to view and interact with Overte's content and users."
@@ -11543,13 +11547,16 @@ msgid ""
 "provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
 "Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
-"Vircadiaには2種類のインストーラーがあります。 *Client Installer* "
-"は、Vircadiaのコンテンツやユーザーを表示、操作するために必要なものがすべて入っています。しかし、このインストーラを使用してコンテンツをホストすることはできません。"
-" *Client + Server Installer* は、クライアントインストーラの機能をすべて備えていますが、 "
-":doc:`あなた自身のコンテンツをホスト <../../host>` し、世界と共有することができます。Client + Server "
-"Installerのダウンロードは、Windows用のみ提供されています。Linuxについては、こちらをご覧ください : "
-":doc:`ローカルまたはクラウドのLinuxサーバーからドメインをホストする <../../host/server-setup/linux-"
-"server>` 。"
+"Overteには2種類のインストーラーがあります。 *Client Installer* は、Overteのコ"
+"ンテンツやユーザーを表示、操作するために必要なものがすべて入っています。しか"
+"し、このインストーラを使用してコンテンツをホストすることはできません。 *"
+"Client + Server Installer* "
+"は、クライアントインストーラの機能をすべて備えていますが、 :doc:`"
+"あなた自身のコンテンツをホスト <../../host>` "
+"し、世界と共有することができます。Client + Server "
+"Installerのダウンロードは、Windows用のみ提供されています。Linuxについては、 "
+":doc:`ローカルまたはクラウドのLinuxサーバーからドメインをホストする <../../"
+"host/server-setup/linux-server>` をご覧ください。"
 
 #: ../../source/explore/get-started/install.rst:15
 #, fuzzy
@@ -11583,14 +11590,12 @@ msgid "CPU:"
 msgstr "CPU:"
 
 #: ../../source/explore/get-started/install.rst:26
-#, fuzzy
 msgid "**Minimum:** Dual-core with hyper-threading"
-msgstr "**推奨:** ハイパースレッディング以上のクアッドコア"
+msgstr "**最小:** ハイパースレッディングのデュアルコア"
 
 #: ../../source/explore/get-started/install.rst:27
-#, fuzzy
 msgid "**Recommended:** Quad-core with hyper-threading or better"
-msgstr "**推奨:** ハイパースレッディング以上のクアッドコア"
+msgstr "**推奨:** ハイパースレッディングのクアッドコア以上"
 
 #: ../../source/explore/get-started/install.rst:29
 #, fuzzy
@@ -11635,11 +11640,12 @@ msgid ""
 msgstr "**最小:** Intel第5世代CPU Iris グラフィックス。Intel統合グラフィックスの使用はお勧めしません。"
 
 #: ../../source/explore/get-started/install.rst:41
-#, fuzzy
 msgid ""
 "The listed graphics adapters support OpenGL 4.1 and above. This is a "
 "requirement for any graphics adapter running Overte."
-msgstr "リストされているグラフィックアダプタは、OpenGL4.1以降をサポートしています。これは、Vircadiaを実行しているすべてのグラフィックアダプタの要件です。"
+msgstr ""
+"リストされているグラフィックアダプタは、OpenGL4.1以降をサポートしています。こ"
+"れは、Overteを実行しているすべてのグラフィックアダプタの要件です。"
 
 #: ../../source/explore/get-started/install.rst:43
 msgid ""
@@ -11671,19 +11677,21 @@ msgstr ""
 "**2Mビット/秒のアップロード** だけが必要です。"
 
 #: ../../source/explore/get-started/install.rst:49
-#, fuzzy
 msgid ""
 "A world that is specifically built for low-end systems might run fine on "
 "a system with slightly less memory or a lower CPU core count."
-msgstr "ローエンドシステム向けに特別に作られたVircadia世界は、メモリやCPUコア数が少し少ないシステムでも問題なく動作するかもしれません。"
+msgstr "ローエンドシステム向けに特別に作られたワールドは、メモリやCPUコア数が少し少な"
+"いシステムでも問題なく動作するかもしれません。"
 
 #: ../../source/explore/get-started/install.rst:51
-#, fuzzy
 msgid ""
 "Running Overte on a high resolution display or in VR mode will need a "
 "much better graphics adapter, depending on your display's resolution and "
 "targeted frame rate."
-msgstr "Vircadiaを高解像度ディスプレイやVRモードで動作させるには、ディスプレイの解像度や目標とするフレームレートに応じて、より優れたグラフィックカードが必要になります。"
+msgstr ""
+"Overteを高解像度ディスプレイやVRモードで動作させるには、ディスプレイの解像度"
+"や目標とするフレームレートに応じて、より優れたグラフィックカードが必要になり"
+"ます。"
 
 #: ../../source/explore/get-started/install.rst:55
 msgid "Download Overte"
@@ -11696,23 +11704,23 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:59
-#, fuzzy
 msgid ""
 "If you intend to use Overte in VR mode with an HMD, ensure that SteamVR "
 "or Oculus Runtime is also installed on your system before launching "
 "Overte. VR mode is not supported on macOS. The Oculus Runtime is not "
 "supported on Linux."
 msgstr ""
-"HMDを使用してVircadiaをVRモードで使用する場合、Vircadiaを起動する前に、SteamVRまたはOculus "
-"Runtimeもシステムにインストールされていることを確認してください。VRモードはmacOSではサポートされていません。Oculus "
+"HMDを使用してOverteをVRモードで使用する場合、Overteを起動する前に、"
+"SteamVRまたはOculus Runtimeもシステムにインストールされていることを確認してく"
+"ださい。VRモードはmacOSではサポートされていません。Oculus "
 "Runtimeは、Linuxではサポートされていません。"
 
 #: ../../source/explore/get-started/install.rst:67
-#, fuzzy
 msgid ""
 "Once you've downloaded the installer, you're ready to install Overte. The"
 " process will be different based on your operating system:"
-msgstr "インストーラーをダウンロードしたら、Vircadiaをインストールする準備ができています。お使いのOSによって手順が異なります。"
+msgstr "インストーラーをダウンロードしたら、Overteをインストールする準備ができていま"
+"す。お使いのOSによって手順が異なります。"
 
 #: ../../source/explore/get-started/install.rst:71
 #, fuzzy
@@ -11734,11 +11742,11 @@ msgid "Mac Install"
 msgstr "Macにインストールする"
 
 #: ../../source/explore/get-started/install.rst:80
-#, fuzzy
 msgid ""
 "At this time, the Overte installer for Mac is unsigned, so you will need "
 "give the OS permission to install the application."
-msgstr "現時点では、Mac版Vircadiaのインストーラーは署名されていないため、OSにアプリケーションをインストールする許可を与える必要があります。"
+msgstr "現時点では、Mac版Overteのインストーラーは署名されていないため、OSにアプリケー"
+"ションをインストールする許可を与える必要があります。"
 
 #: ../../source/explore/get-started/install.rst:82
 #, fuzzy
@@ -11854,14 +11862,14 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:114
-#, fuzzy
 msgid ""
 "For Windows, locate the Overte app in your system tray. Right-click on "
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
-"Windowsの場合、システムトレイにあるVircadiaアプリを探します。アイコンを右クリックし、「終了」を選択します。または、タスクマネージャーを使用して"
-"「server-console」バックグラウンドプロセスを終了させます。"
+"Windowsの場合、システムトレイにあるOverteアプリを探します。アイコンを右クリッ"
+"クし、「終了」を選択します。または、タスクマネージャーを使用して「server-"
+"console」バックグラウンドプロセスを終了させます。"
 
 #: ../../source/explore/get-started/install.rst:116
 #, fuzzy
@@ -11953,14 +11961,14 @@ msgstr ""
 "Vircadiaに関連するすべてのフォルダを削除してください。"
 
 #: ../../source/explore/get-started/install.rst:145
-#, fuzzy
 msgid ""
 "Re-install Overte using the steps above. To restore your local Server's "
 "content, copy the ``assignment-client`` folders you previously saved back"
 " into to their respective locations."
 msgstr ""
-"上記の手順でVircadiaを再インストールしてください。ローカルサーバの内容を復元するには、以前に保存した ``assignment-"
-"client`` フォルダをそれぞれの場所にコピーしてください。"
+"上記の手順でOverteを再インストールしてください。ローカルサーバの内容を復元す"
+"るには、以前に保存した ``assignment-client`` "
+"フォルダをそれぞれの場所にコピーしてください。"
 
 #: ../../source/explore/get-started/install.rst:149
 #, fuzzy
@@ -12022,13 +12030,16 @@ msgid ""
 msgstr "このドキュメントは少し古くなっています。FIXME：Windowsの手順はおそらく時代遅れです。プッシュ・ツー・トークなしで「オープンマイク」セットアップを使用するべきではないことは言うまでもありません"
 
 #: ../../source/explore/get-started/setup-audio.rst:9
-#, fuzzy
 msgid ""
 "When you log into Overte for the first time, we will automatically detect"
 " your computer's default audio devices, and use those for Overte. "
 "Usually, your computer will automatically detect a plugged in headset and"
 " you will not need to configure your audio devices any further."
-msgstr "Vircadiaに初めてログインすると、お使いのコンピュータのデフォルトのオーディオデバイスが自動的に検出され、Vircadiaに使用されます。通常、コンピュータは接続されたヘッドセットを自動的に検出するので、それ以上オーディオデバイスを設定する必要はありません。"
+msgstr ""
+"Overteに初めてログインすると、お使いのコンピュータのデフォルトのオーディオデ"
+"バイスが自動的に検出され、Overteに使用されます。通常、コンピュータは接続され"
+"たヘッドセットを自動的に検出するので、それ以上オーディオデバイスを設定する必"
+"要はありません。"
 
 #: ../../source/explore/get-started/setup-audio.rst:11
 #, fuzzy
@@ -12059,7 +12070,6 @@ msgid "Change your Input or Output Device"
 msgstr "入力デバイスまたは出力デバイスを変更する"
 
 #: ../../source/explore/get-started/setup-audio.rst:30
-#, fuzzy
 msgid ""
 "Overte's 3D spatialized audio is guaranteed to enhance your experience in"
 " the metaverse, whether you are in Desktop mode or using VR equipment. By"
@@ -12069,7 +12079,14 @@ msgid ""
 "device. If you need to use a different device for Overte than other "
 "applications on your computer, then you can change your device in the "
 "application."
-msgstr "Vircadiaの3D空間化されたオーディオは、デスクトップモードでもVR機器を使用していても、メタバースでの体験を向上させることが保証されています。デフォルトでは、お使いのオペレーティングシステムやヘッドセットが検出したデフォルトのオーディオデバイスを選択します。デフォルトとは異なるヘッドセットやオーディオ設定を使用したい場合は、コンピュータのデフォルトデバイスを変更することができます。Vircadiaでコンピュータの他のアプリケーションと異なるデバイスを使用する必要がある場合は、アプリケーションでデバイスを変更することができます。"
+msgstr ""
+"Overteの3D空間化されたオーディオは、デスクトップモードでもVR機器を使用してい"
+"ても、メタバースでの体験を向上させることが保証されています。デフォルトでは、"
+"お使いのオペレーティングシステムやヘッドセットが検出したデフォルトのオーディ"
+"オデバイスを選択します。デフォルトとは異なるヘッドセットやオーディオ設定を使"
+"用したい場合は、コンピュータのデフォルトデバイスを変更することができます。Ove"
+"rteでコンピュータの他のアプリケーションと異なるデバイスを使用する必要がある場"
+"合は、アプリケーションでデバイスを変更することができます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:32
 #, fuzzy
@@ -12138,14 +12155,17 @@ msgid "Using Bluetooth Headsets"
 msgstr "Bluetoothヘッドセットの使用"
 
 #: ../../source/explore/get-started/setup-audio.rst:47
-#, fuzzy
 msgid ""
 "You can use bluetooth headsets, such as AirPods with Overte. However, "
 "note that there are limitations to using them, and they may not work in "
 "all environments. If using WiFi, ensure you’re using a 5Ghz WiFi "
 "connection. On a 2.4Ghz connection, you may experience audio breakup and "
 "occasional disconnects."
-msgstr "Vircadiaでは、AirPodsなどのBluetoothヘッドセットを使用することができます。ただし、使用には制限があり、すべての環境で使用できない場合がありますので、ご注意ください。WiFiを使用する場合、5GhzのWiFi接続を使用していることを確認してください。2.4Ghzの接続では、音声が途切れたり、時々切断されることがあります。"
+msgstr ""
+"Overteでは、AirPodsなどのBluetoothヘッドセットを使用することができます。ただ"
+"し、使用には制限があり、すべての環境で使用できない場合がありますので、ご注意"
+"ください。WiFiを使用する場合、5GhzのWiFi接続を使用していることを確認してくだ"
+"さい。2.4Ghzの接続では、音声が途切れたり、時々切断されることがあります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:49
 #, fuzzy
@@ -12176,14 +12196,17 @@ msgid "Acoustic Echo Cancellation"
 msgstr "音響エコーキャンセレーション"
 
 #: ../../source/explore/get-started/setup-audio.rst:58
-#, fuzzy
 msgid ""
 "Acoustic echo is the process by which sounds from your speakers get "
 "picked up and transmitted by your microphone, resulting in an echoing "
 "effect. This is common when you use Overte with a laptop's built-in "
 "microphone and speakers (i.e. an \"open mic\"), rather than a detached "
 "headset."
-msgstr "音響エコーとは、スピーカーからの音がマイクに拾われ、伝達され、結果としてエコー効果が発生することです。これは、Vircadiaを取り外し可能なヘッドセットではなく、ラップトップの内蔵マイクとスピーカー（つまり「オープンマイク」）で使用した場合によく起こります。"
+msgstr ""
+"音響エコーとは、スピーカーからの音がマイクに拾われ、伝達され、結果としてエコ"
+"ー効果が発生することです。これは、Overteを取り外し可能なヘッドセットではなく"
+"、ラップトップの内蔵マイクとスピーカー（つまり「オープンマイク」）で使用した"
+"場合によく起こります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:60
 #, fuzzy
@@ -32253,4 +32276,3 @@ msgstr "メタバースセッションUUID"
 
 #~ msgid "DownloadLUS"
 #~ msgstr ""
-
