@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-08-10 12:42+0000\n"
+"POT-Creation-Date: 2022-08-14 10:54+0000\n"
 "PO-Revision-Date: 2022-08-04 13:17+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: jp\n"
@@ -15092,7 +15092,8 @@ msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 
 #: ../../source/home.rst:27
-msgid "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
+#, fuzzy
+msgid "`日本語 <https://docs.overte.org/ja/latest/>`_ |jp_trans|"
 msgstr "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 
 #: ../../source/home.rst:28
