@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-08-10 12:42+0000\n"
-"PO-Revision-Date: 2022-08-14 10:55+0000\n"
-"Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
+"PO-Revision-Date: 2022-08-23 04:23+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/ja/>\n"
 "Language: jp\n"
@@ -1516,21 +1516,30 @@ msgid "Notes:"
 msgstr "備考 :"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
+#, fuzzy
 msgid ""
 "If you set transparency with a texture, the transparency (alpha) must be "
 "in the material’s albedo texture, as a PNG file with transparency and "
 "*not* as a separate transparency texture."
 msgstr ""
+"テクスチャで透明度を設定する場合、透明度（アルファ）はマテリアルのアルベドテ"
+"クスチャ(Albedo texture)に、透明度を持つPNGファイルとして、別の透明度テクスチ"
+"ャとしてではなく、含まれている必要があります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
+#, fuzzy
 msgid ""
 "Overte renderer can draw two different kinds of transparency: \"alpha\" "
 "(255 graduates steps of transparency, no shading on surface, casts no "
 "shadows,) and \"mask\" (binary transparency, full shading of opaque "
 "surface, whole surface casts shadow.)"
 msgstr ""
+"Vircadiaのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255"
+"段階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不"
+"透明な表面の完全な影、表面全体に影を落とす)です。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:96
+#, fuzzy
 msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
 "engine looks for alpha values between 2% and 98%. An easy way to create a"
@@ -1538,18 +1547,27 @@ msgid ""
 "binary transparency, while PNG-24 supports a range of transparency "
 "levels."
 msgstr ""
+"テクスチャをマスクとして扱うかアルファとして扱うかを決定するために、エンジン"
+"は2%から98%の間のアルファ値を探します。PNG-8は2値の透明度しかサポートしていま"
+"せんが、PNG-24はさまざまな透明度をサポートしているからです。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:98
+#, fuzzy
 msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Emissive Texture, Normal Map and Ambient Occlusion."
 msgstr ""
+"以下のテクスチャチャンネルのみで2つ目のUVセットを使用することをサポートします"
+"： エミッシブマテリアル（Emissive Texture）、法線マップ（Normal "
+"Map）、アンビエントオクルージョン（Ambient Occlusion）。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:102
+#, fuzzy
 msgid "Sample Materials and Their Textures and Shading"
-msgstr ""
+msgstr "サンプルマテリアルとそのテクスチャ、シェーディング"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:104
+#, fuzzy
 msgid ""
 "Overte supports different types of materials. We've created sample "
 "objects with each material type. You can download each object from `this "
@@ -1560,36 +1578,58 @@ msgid ""
 "org/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
 " in Overte to upload all sample objects in your domain."
 msgstr ""
+"Vircadiaは様々な種類のマテリアルをサポートしています。それぞれのマテリアルタ"
+"イプでサンプルオブジェクトを作成しました。GitHubの `このリポジトリ "
+"<https://github.com/vircadia/hifi_tests/tree/master/assets/models/"
+"material_matrix_models/fbx/blender>` から各オブジェクトをダウンロードするか、"
+"Vircadiaで `このスクリプト<https://raw.githubusercontent.com/vircadia/"
+"hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>` "
+"を実行すると、あなたのドメイン内のすべてのサンプルオブジェクトをアップロード"
+"することができます。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:111
+#, fuzzy
 msgid ""
 "We've listed all material information (including textures, shading, and "
 "channel values and maps) for these sample objects `here "
 "<../../_static/resources/3d-"
 "models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
+"これらのサンプルオブジェクトのすべてのマテリアル情報（テクスチャ、シェーディ"
+"ング、チャンネル値やマップを含む）を `ここに<../../_static/resources/"
+"3d-models/Sample_Material_Textures_and_Shading_Guide.html>` "
+"リストアップしました。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:116
+#, fuzzy
 msgid "Set Material Values in Blender"
-msgstr ""
+msgstr "Blenderでマテリアル値を設定する"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:121
+#, fuzzy
 msgid "This section is outdated."
-msgstr ""
+msgstr "このセクションは古くなっています。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:123
+#, fuzzy
 msgid ""
 "When you create a model in Blender, you have to export it in FBX, glTF, "
 "GLB or OBJ format to use in Overte. Additionally, you have to modify "
 "material properties and textures in Blender to match the PBR material "
 "textures in Overte."
 msgstr ""
+"Blenderでモデルを作成したら、Vircadiaで使うためにFBX、glTF、GLBまたはOBJフォ"
+"ーマットでエクスポートする必要があります。さらに、VircadiaのPBRマテリアルテク"
+"スチャに合わせるために、Blenderのマテリアルプロパティとテクスチャを修正する必"
+"要があります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:125
+#, fuzzy
 msgid "Doing so ensures that your model appears how you intend it to."
-msgstr ""
+msgstr "そうすることで、意図したとおりにモデルが表示されるようになります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:127
+#, fuzzy
 msgid ""
 "By default, any material property set with a texture will override a "
 "property set with a value. The only exception to this is in the case of "
@@ -1597,8 +1637,14 @@ msgid ""
 "will multiplied together. This can be useful for creating highly "
 "performant colored models using grey-scale textures and vertex colors."
 msgstr ""
+"デフォルトでは、テクスチャで設定されたマテリアルのプロパティは、値で設定され"
+"たプロパティより優先されます。唯一の例外は、頂点カラー(Vertex color)とテクス"
+"チャの場合で、この場合、頂点カラーとテクスチャは一緒に乗算されます。これは、"
+"グレースケールのテクスチャと頂点カラーを使用して、パフォーマンスの高いカラー"
+"モデルを作成する場合に便利です。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:130
+#, fuzzy
 msgid ""
 "We've included images where the fields corresponding to each supported "
 "PBR channel in Blender are highlighted, along with details about which "
@@ -1606,166 +1652,231 @@ msgid ""
 "channel. It should be noted that models exported as OBJ may not have full"
 " PBR material support in Overte yet."
 msgstr ""
+"Blenderでサポートされている各PBRチャンネルに対応するフィールドがハイライトさ"
+"れている画像と、そのチャンネルに対応する範囲にどの値と色が対応しているかの詳"
+"細が含まれています。OBJとしてエクスポートされたモデルは、Vircadiaの完全なPBR"
+"マテリアルサポートをまだ持っていない可能性があることに留意してください。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:139
+#, fuzzy
 msgid "Set Material Values in Maya"
-msgstr ""
+msgstr "Mayaでマテリアル値を設定する"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:144
+#, fuzzy
 msgid "This section hasn't been tested in a long while and might be outdated."
-msgstr ""
+msgstr "このセクションは長い間テストされていないので、古くなっている可能性があります"
+"。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:146
+#, fuzzy
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
-msgstr ""
+msgstr "以下のグラフィックスを使用して、Mayaで適切なマテリアル値とテクスチャを設定し"
+"ます。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:155
+#, fuzzy
 msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
 "content>`"
 msgstr ""
+":doc:`オーブン(Oven)を使ってコンテンツをベイク(Bake)には <../../host/"
+"add-content/bake-content>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:156
+#, fuzzy
 msgid ":doc:`Add a Material Entity <../entities/material-entity>`"
-msgstr ""
+msgstr ":doc:`マテリアルエンティティを追加するには <../entities/material-entity>`"
 
 #: ../../source/create/applications.rst:2
+#, fuzzy
 msgid ""
 "This document is outdated. FIXME: Uses HiFi hosted resources, potentially"
 " more."
-msgstr ""
+msgstr "このドキュメントは古くなっています。改定: HiFi "
+"ホストされたリソースを使用するようになりました。"
 
 #: ../../source/create/applications.rst:9
+#, fuzzy
 msgid ""
 "THIS GUIDE IS OUT OF DATE. THE CODE MAY NOT WORK EXACTLY AS OUTLINED, USE"
 " FOR REFERENCE ONLY UNTIL UPDATED. SEE `API "
 "DOCS<https://apidocs.overte.org/>` FOR MORE."
 msgstr ""
+"このガイドは古くなりました。このコードは、概要通りに動作しない場合があります"
+"ので、更新されるまでは参考程度にご利用ください。詳細は `API "
+"DOCS<https://apidocs.vircadia.dev/>` を参照してください。"
 
 #: ../../source/create/applications.rst:11
+#, fuzzy
 msgid ""
 "Tablet apps (or simply \"apps\") in Overte are customizable programs that"
 " expose functionality in an easy-to-use user interface. Apps let you take"
 " complex code from our `JavaScript API <https://apidocs.overte.org>`_ and"
 " simplify it into a window with controls for others to use."
 msgstr ""
+"Vircadiaのタブレットアプリ(または「アプリ」)は、使いやすいユーザーインターフ"
+"ェイスで機能を公開するカスタマイズ可能なプログラムです。アプリでは、 `"
+"JavaScript API <https://apidocs.vircadia.dev>` から複雑なコードを取り出し、他"
+"の人が使えるようにコントロールを備えたウィンドウに簡素化することができます。"
 
 #: ../../source/create/applications.rst:15
+#, fuzzy
 msgid ""
 "To create custom apps, you must have a basic knowledge of web development"
 " (HTML, CSS and JavaScript) and be able to navigate our API."
-msgstr ""
+msgstr "カスタムアプリを作成するには、Web開発の基礎知識（HTML、CSS、JavaScript）と、"
+"当社のAPIを使いこなせることが必要です。"
 
 #: ../../source/create/applications.rst:17
+#, fuzzy
 msgid "The steps involved in creating a tablet app are:"
-msgstr ""
+msgstr "タブレット端末用アプリの作成手順は、以下の通りです。"
 
 #: ../../source/create/applications.rst:19
+#, fuzzy
 msgid ""
 "`Create icons to show up on the tablet and HUD <#create-icons-to-show-up-"
 "on-the-tablet-and-hud>`_"
 msgstr ""
+"`タブレットとHUDに表示するアイコンを作成する <#create-icons-to-show-up-on-"
+"the-tablet-and-hud>`_"
 
 #: ../../source/create/applications.rst:20
+#, fuzzy
 msgid ""
 "`Design your app's UI in HTML and CSS <#design-your-apps-ui-in-html-and-"
 "css>`_"
-msgstr ""
+msgstr "`アプリのUIをHTMLとCSSでデザインする <#design-your-apps-ui-in-html-and-css>`_"
 
 #: ../../source/create/applications.rst:21
+#, fuzzy
 msgid ""
 "`Add event handlers to your HTML file <#add-event-handlers-to-your-html-"
 "file>`_"
-msgstr ""
+msgstr "`イベントハンドラをHTMLファイルに追加する <#add-event-handlers-to-your-html-"
+"file>`_"
 
 #: ../../source/create/applications.rst:22
+#, fuzzy
 msgid "`Write a JavaScript file that: <#write-a-javascript-file>`_"
-msgstr ""
+msgstr "`JavaScriptファイルを書く <#write-a-javascript-file>`_"
 
 #: ../../source/create/applications.rst:24
+#, fuzzy
 msgid "Adds a button to the tablet and HUD"
-msgstr ""
+msgstr "タブレットとHUDにボタンを追加する"
 
 #: ../../source/create/applications.rst:25
+#, fuzzy
 msgid "Loads your app"
-msgstr ""
+msgstr "アプリをロードする"
 
 #: ../../source/create/applications.rst:26
+#, fuzzy
 msgid "Closes your app"
-msgstr ""
+msgstr "アプリを終了する"
 
 #: ../../source/create/applications.rst:27
+#, fuzzy
 msgid "Listens for events"
-msgstr ""
+msgstr "イベントを監視する"
 
 #: ../../source/create/applications.rst:28
+#, fuzzy
 msgid ""
 "Runs your code (in this case, `create some gemstones <#create-"
 "gemstones>`_)"
-msgstr ""
+msgstr "コードを実行する( `create some gemstones <#create-gemstones>` )"
 
 #: ../../source/create/applications.rst:32
+#, fuzzy
 msgid "Tutorial: Create Gemstone Switching Tablet App"
-msgstr ""
+msgstr "チュートリアル：宝石を交換するタブレットアプリを作成"
 
 #: ../../source/create/applications.rst:34
+#, fuzzy
 msgid ""
 "In this tutorial, we will walk through the above steps to create an app "
 "called \"Gemstone Magic Maker\". This simple app lets you spawn colorful "
 "little gemstones in VR that you can share with your friends."
 msgstr ""
+"このチュートリアルでは、上記の手順を経て、「Gemstone Magic Maker」というアプ"
+"リを作成します。このシンプルなアプリでは、VRでカラフルな小さな宝石を産み出し"
+"、友達と共有することができます。"
 
 #: ../../source/create/applications.rst:38
+#, fuzzy
 msgid "Create icons to show up on the tablet and HUD"
-msgstr ""
+msgstr "タブレットやHUDに表示させるアイコンを作成する"
 
 #: ../../source/create/applications.rst:40
+#, fuzzy
 msgid ""
 "You need two icons to show up on the tablet and HUD: an SVG or PNG image "
 "to display on the app button when the app is active, usually named "
 "``<appName>-a.svg`` and another to display when the app is inactive, "
 "usually named ``<appName>-i.svg``."
 msgstr ""
+"タブレットとHUDに表示するアイコンが2つ必要です。アプリがアクティブなときにア"
+"プリボタンに表示するSVGまたはPNG画像で、通常 ``<appName>-a.svg`` "
+"という名前にします。また、"
+"アプリが非アクティブなときに表示するもう一つの画像で通常 ``<appName>-i.svg`` "
+"という名前にします。"
 
 #: ../../source/create/applications.rst:44
+#, fuzzy
 msgid "We recommend the following specs for your icons:"
-msgstr ""
+msgstr "アイコンは以下の特性を推奨します。"
 
 #: ../../source/create/applications.rst:46
+#, fuzzy
 msgid "Size: 50px by 50px"
-msgstr ""
+msgstr "Size: 50px × 50px"
 
 #: ../../source/create/applications.rst:47
+#, fuzzy
 msgid ""
 "Color: White on a transparent background (for inactive icons) and black "
 "on a transparent background (for active icons)"
-msgstr ""
+msgstr "色：透明な背景に黒（アクティブアイコン用）、透明な背景に白（非アクティブアイ"
+"コン用）"
 
 #: ../../source/create/applications.rst:48
+#, fuzzy
 msgid "File format: SVG or PNG"
-msgstr ""
+msgstr "ファイルフォーマット：SVG または PNG"
 
 #: ../../source/create/applications.rst:50
+#, fuzzy
 msgid ""
 "You can create your own icon using graphic design software or any other "
 "online resources."
-msgstr ""
+msgstr "グラフィックデザインソフトウェアやその他のオンラインリソースを使用して、独自"
+"のアイコンを作成します。"
 
 #: ../../source/create/applications.rst:54
+#, fuzzy
 msgid "Design your app's UI in HTML and CSS"
-msgstr ""
+msgstr "HTMLとCSSでアプリのUIをデザインする"
 
 #: ../../source/create/applications.rst:56
+#, fuzzy
 msgid ""
 "Your app's UI should provide text on how the app works and use familiar "
 "UI elements that a user knows how to interact with (such as buttons, "
 "scroll bars, and links). Keep in mind that the tablet screen dimensions "
 "are 480 x 720, so all of your UI should be confined to this space."
 msgstr ""
+"アプリのUIは、アプリの動作に関するテキストを提供し、ユーザーが操作方法を知っ"
+"ている馴染みのあるUI要素（ボタン、スクロールバー、リンクなど）を使用する必要"
+"があります。タブレットの画面サイズは480 x 720であるため、すべてのUIはこのスペ"
+"ースに収まるようにする必要があることに留意してください。"
 
 #: ../../source/create/applications.rst:58
+#, fuzzy
 msgid ""
 "To help you get started, we've put together a `quick start HTML template "
 "<https://hifi-content.s3.amazonaws.com/faye/tablet-sample-"
@@ -1774,12 +1885,20 @@ msgid ""
 "for your app title. With just a few simple modifications, you can create "
 "have a simple app UI within minutes."
 msgstr ""
+"これから使い始めるあたなに役立つように、再利用できる `クイック スタート HTML "
+"テンプレート <https://hifi-content.s3.amazonaws.com/faye/tablet-sample-app/"
+"quick_start_template.html>` をまとめました。メイン "
+"メニュー画面と同じレイアウト、スタイル、フォントが含まれており、アプリ "
+"タイトルのヘッダー バーがあります。いくつかの簡単な変更を加えるだけで、"
+"数分でシンプルなアプリ UI を作成できます。"
 
 #: ../../source/create/applications.rst:64
+#, fuzzy
 msgid "Add event handlers to your HTML file"
-msgstr ""
+msgstr "イベント ハンドラーを HTML ファイルに追加する"
 
 #: ../../source/create/applications.rst:66
+#, fuzzy
 msgid ""
 "The Tablet UI framework provides a communication channel called "
 "EventBridge. It allows you to send and receive events between the client "
@@ -1788,12 +1907,19 @@ msgid ""
 "``<script> </script>`` tags in the body of your HTML file to handle the "
 "button clicks::"
 msgstr ""
+"Tablet UIフレームワークは、EventBridgeという通信チャネルを提供しています。こ"
+"れにより、クライアントスクリプト (gemstoneApp.js) と Web アプリの JavaScript "
+"(gemstoneMagicMaker.html) の間で、イベントを送受信することができます。"
+"HTMLファイルの本文中の ``<script> </script>`` "
+"タグ内に以下のEventBridgeコードを記述して、ボタンのクリックを処理します::"
 
 #: ../../source/create/applications.rst:94
+#, fuzzy
 msgid "Write a JavaScript file"
-msgstr ""
+msgstr "JavaScript ファイルを作成する"
 
 #: ../../source/create/applications.rst:96
+#, fuzzy
 msgid ""
 "Your JavaScript file will contain all of the core functionality of your "
 "app. At a minimum, we require that you have code that adds a button to "
@@ -1801,127 +1927,175 @@ msgid ""
 "listens for events. Below, you will find code samples to do each of these"
 " things."
 msgstr ""
+"JavaScriptファイルには、アプリのコア機能がすべて含まれます。最低限、タブレッ"
+"トとHUDにボタンを追加し、アプリをロードし、アプリを適切に終了させ、イベントを"
+"待ち受けるコードを用意することが必要です。以下に、これらの各機能を実行するコ"
+"ードサンプルを示します。"
 
 #: ../../source/create/applications.rst:98
+#, fuzzy
 msgid "**Add buttons to the tablet and HUD**"
-msgstr ""
+msgstr "**タブレットと HUD にボタンを追加**"
 
 #: ../../source/create/applications.rst:100
+#, fuzzy
 msgid ""
 "Use the AppUI module to automatically add your app’s button to the tablet"
 " and HUD, and to wire button click handlers::"
-msgstr ""
+msgstr "AppUIモジュールを使って、アプリのボタンをタブレットやHUDに自動的に追加したり"
+"、ボタンのクリックハンドラを配備したりします："
 
 #: ../../source/create/applications.rst:116
+#, fuzzy
 msgid "**Determine the app's startup behavior**"
-msgstr ""
+msgstr "**アプリの起動時の動作を決定する**"
 
 #: ../../source/create/applications.rst:118
+#, fuzzy
 msgid ""
 "If you want your app to do something specific when it is opened, use the "
 "AppUI module's  ``onOpened`` functionality. For example, you could:"
 msgstr ""
+"もし、アプリが起動したときに何か特定の動作をさせたい場合は、"
+"AppUIモジュールの ``onOpened`` "
+"関数を使ってください。例えば、以下のようになります。"
 
 #: ../../source/create/applications.rst:120
+#, fuzzy
 msgid "Query a server to get a response and determine what to show on the UI"
-msgstr ""
+msgstr "サーバーにクエリを実行して応答を取得し、UI に何を表示するかを決定します"
 
 #: ../../source/create/applications.rst:121
+#, fuzzy
 msgid "Start displaying a 3D interface separate from the tablet"
-msgstr ""
+msgstr "タブレットとは別に3Dインターフェースの表示を開始"
 
 #: ../../source/create/applications.rst:122
+#, fuzzy
 msgid ""
 "Determine the display mode (VR/Desktop) and change things to show on the "
 "UI"
-msgstr ""
+msgstr "表示モード（VR/Desktop）を決定し、UIに表示するものを変更する"
 
 #: ../../source/create/applications.rst:146
+#, fuzzy
 msgid "**Close the app gracefully**"
-msgstr ""
+msgstr "**アプリを適切に終了する**"
 
 #: ../../source/create/applications.rst:148
+#, fuzzy
 msgid ""
 "The AppUI module ensures that your app closes gracefully. However, if you"
 " want to do something else when you close the app, you can with the "
 "``onClosed`` functionality built into the AppUI module. For example, you "
 "could:"
 msgstr ""
+"AppUIモジュールは、アプリを確実に終了させます。しかし、アプリを閉じるときに何"
+"か他のことをしたい場合は、AppUIモジュールに組み込まれた ``onClosed`` "
+"機能を使用することができます。例えば、以下のようなことが可能です："
 
 #: ../../source/create/applications.rst:150
+#, fuzzy
 msgid "Remove 3D interfaces"
-msgstr ""
+msgstr "3Dインターフェースの削除"
 
 #: ../../source/create/applications.rst:151
+#, fuzzy
 msgid "Stop secondary scripts"
-msgstr ""
+msgstr "セカンダリースクリプトの停止"
 
 #: ../../source/create/applications.rst:180
+#, fuzzy
 msgid "**Listen for events**"
-msgstr ""
+msgstr "**イベントを監視する**"
 
 #: ../../source/create/applications.rst:182
+#, fuzzy
 msgid ""
 "In step 3 above, we `added event handlers <#add-event-handlers-to-your-"
 "files>`_ to your HTML file. Now, you need to add code to your JavaScript "
 "file to listen for the events::"
 msgstr ""
+"上記のステップ3では、 `イベントハンドラ <#add-event-handlers-to-your-files>` "
+"をHTMLファイルに追加しました。次に、JavaScriptファイルに、イベントをリッスン"
+"するコードを追加する必要があります："
 
 #: ../../source/create/applications.rst:191
+#, fuzzy
 msgid "Create gemstones"
-msgstr ""
+msgstr "宝石を作成する"
 
 #: ../../source/create/applications.rst:193
+#, fuzzy
 msgid ""
 "The final step is to code the behavior of your JavaScript file. In this "
 "case, we'll create gemstones using Overte's JavaScript API. Each gemstone"
 " will be created as an entity, and we can change the gemstone's "
 "properties using the ``Entity`` namespace."
 msgstr ""
+"最後のステップは、JavaScript "
+"ファイルの動作をコーディングすることです。この場合、Vircadia の JavaScript "
+"API を使用して宝石を作成します。各宝石はエンティティとして作成され、エンティ"
+"ティ名前空間を使用して宝石のプロパティを変更できます。"
 
 #: ../../source/create/applications.rst:195
+#, fuzzy
 msgid "**Calculate the position of each new gemstone**"
-msgstr ""
+msgstr "**新しい宝石の位置を計算する**"
 
 #: ../../source/create/applications.rst:197
+#, fuzzy
 msgid "The following code gives us a position right in front of the user::"
-msgstr ""
+msgstr "次のコードは、ユーザーのすぐ前に位置を示します："
 
 #: ../../source/create/applications.rst:209
+#, fuzzy
 msgid "**Set the gemstone's properties and add it**"
-msgstr ""
+msgstr "**宝石のプロパティを設定し、追加する**"
 
 #: ../../source/create/applications.rst:211
+#, fuzzy
 msgid ""
 "The gemstone will be created when gemstoneApp.js receives click events "
 "from each of the buttons::"
-msgstr ""
+msgstr "宝石は、gemstoneApp."
+"jsが各ボタンからのクリックイベントを受信したときに作成されます："
 
 #: ../../source/create/applications.rst:289
+#, fuzzy
 msgid ""
 "Congratulations, you have successfully created an app in Overte! To use "
 "your app, upload it to a cloud platform, such as Amazon S3, Google Cloud "
 "Storage, Microsoft Azure, etc. Once hosted, you can install it and use "
 "it:"
 msgstr ""
+"おめでとうございます！Vircadiaでアプリを作成することに成功しました。作成した"
+"アプリを使用するには、Amazon S3、Google Cloud Storage、Microsoft Azureなどの"
+"クラウドプラットフォームにアプリをアップロードしてください。一度ホストされる"
+"と、インストールして使用することができます。"
 
 #: ../../source/create/applications.rst:291
+#, fuzzy
 msgid "In Interface, go to **Edit > Running Scripts**."
-msgstr ""
+msgstr "Interfaceで、 **Edit > Running Scripts** を選択します。"
 
 #: ../../source/create/applications.rst:292
+#, fuzzy
 msgid ""
 "Under Load Scripts, click 'From URL' and enter the URL to your hosted "
 "JavaScript file."
-msgstr ""
+msgstr "「Load Scripts」から「From URL」をクリックし、ホストされている JavaScript "
+"ファイルへの URL を入力します。"
 
 #: ../../source/create/applications.rst:293
+#, fuzzy
 msgid "Click the app icon on the tablet or HUD to open the app."
-msgstr ""
+msgstr "タブレットやHUDのアプリアイコンをクリックすると、アプリが起動します。"
 
 #: ../../source/create/applications.rst:299
+#, fuzzy
 msgid ":doc:`Write Your Own Scripts <../script/write-scripts>`"
-msgstr ""
+msgstr ":doc:`スクリプトを作成する <../script/write-scripts>`"
 
 #: ../../source/create/applications.rst:300
 msgid "`API Reference: Entities <https://apidocs.overte.org/Entities.html>`_"
@@ -1941,43 +2115,52 @@ msgstr ""
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/create-avatars.rst:7
+#, fuzzy
 msgid "Create Your Own Avatar"
-msgstr ""
+msgstr "アバター作成"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/find-avatars.rst:7
+#, fuzzy
 msgid "Find and Use an Existing Avatar"
-msgstr ""
+msgstr "既存のアバターを検索して利用する"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/package-avatar.rst:7
+#, fuzzy
 msgid "Package and Host Your Avatar"
-msgstr ""
+msgstr "アバターのパッケージ化とホスティング"
 
 #: ../../source/create/avatars.rst:9 ../../source/create/avatars/add-flow.rst:7
+#, fuzzy
 msgid "Add Flow to Your Avatar"
-msgstr ""
+msgstr "アバターに流れ(Flow)をつける"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/custom-animations.rst:7
+#, fuzzy
 msgid "Customize Avatar Animations"
-msgstr ""
+msgstr "アバターアニメーションのカスタマイズ"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/mixamo-tutorial.md:6
+#, fuzzy
 msgid "Tutorial: Rig Avatars in Mixamo"
-msgstr ""
+msgstr "チュートリアル: Mixamo のリグ アバター"
 
 #: ../../source/create/avatars.rst:9
+#, fuzzy
 msgid "Tutorial: Modify Materials and Textures with Blender"
-msgstr ""
+msgstr "チュートリアル: Blender でマテリアルとテクスチャを変更する"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/scattering-tutorial.rst:7
+#, fuzzy
 msgid "Tutorial: Add a Scattering Effect"
-msgstr ""
+msgstr "チュートリアル: 散乱効果を追加する"
 
 #: ../../source/create/avatars.rst:5
+#, fuzzy
 msgid ""
 "When you first use Overte, you will be wearing the default avatar. Your "
 "avatar is a representation of you in the metaverse. You can make your "
@@ -1985,12 +2168,19 @@ msgid ""
 "avatars must be hosted somewhere in the cloud so that Overte can access "
 "it."
 msgstr ""
+"Vircadiaを初めて利用するときは、デフォルトのアバターを装着しています。アバタ"
+"ーは、メタバースにおけるあなたを表現するものです。自分のアバターを作成するこ"
+"とで、Vircadiaでの時間をユニークにすることができます。すべてのカスタムアバタ"
+"ーは、Vircadiaがアクセスできるように、クラウドのどこかにホストされている必要"
+"があります。"
 
 #: ../../source/create/avatars/add-flow.rst:2
+#, fuzzy
 msgid "This document is outdated. FIXME: Links to HiFi hosted resources"
-msgstr ""
+msgstr "このドキュメントは古くなっています。FIXME: HiFi ホスト リソースへのリンク"
 
 #: ../../source/create/avatars/add-flow.rst:9
+#, fuzzy
 msgid ""
 "You can simulate physics on your avatar's hair, clothes, and body parts "
 "with a little bit of scripting and the help of Overte's flow "
@@ -2000,25 +2190,37 @@ msgid ""
 "<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_."
 " In order to use the Flow App, your avatar must contain flow threads."
 msgstr ""
+"Vircadiaのフロー機能を使えば、少しのスクリプトでアバターの髪、服、体のパーツ"
+"の物理をシミュレートすることができます。「フロー(Flow)」のコンセプトは、アバ"
+"ターの髪や他のアタッチメントの自然な動きを簡単に模倣することです。フローアプ"
+"リを使えば、アバターのフロー設定を簡単に変更することができます。フローアプリ"
+"を使うには、あなたのアバターにフロースレッドが含まれていなければなりません。"
 
 #: ../../source/create/avatars/add-flow.rst:16
+#, fuzzy
 msgid "Prepare Your Avatar"
-msgstr ""
+msgstr "アバターの準備"
 
 #: ../../source/create/avatars/add-flow.rst:18
+#, fuzzy
 msgid ""
 "In order to use the Flow technology, your avatar must contain flow "
 "threads, which are sets of connected joints in your avatar. Each flow "
 "thread must comply with the following rules:"
 msgstr ""
+"フロー技術を使用するには、アバター内にフロースレッド（接続されたジョイントの"
+"集合）が含まれている必要があります。各フロースレッドは、以下のルールに従わな"
+"ければなりません。"
 
 #: ../../source/create/avatars/add-flow.rst:20
+#, fuzzy
 msgid ""
 "The first joint is connected to an existing avatar joint, such as "
 "\"Hips\"."
-msgstr ""
+msgstr "第一関節は、「腰」など既存のアバター関節に接続されます。"
 
 #: ../../source/create/avatars/add-flow.rst:21
+#, fuzzy
 msgid ""
 "Every joint in the thread should be named ``flow_[TYPE]_[INDEX]`` or  "
 "``sim[TYPE][INDEX]``, where **TYPE** defines a group of joints that share"
@@ -2026,43 +2228,65 @@ msgid ""
 "thread is used to simulate a skirt, all the \"skirt\" joints are named "
 "flow_skirt_01, flow_skirt_02, etc."
 msgstr ""
+"スレッドのすべてのジョイントは ``flow_[TYPE]_[INDEX]`` または "
+"``sim[TYPE][INDEX]`` という名前でなければなりません。ここで **TYPE** "
+"は共通の物理設定を共有するジョイントのグループ、 **INDEX** は整数値で定義され"
+"ます。例えば、このスレッドがスカートのシミュレーションに使用される場合、すべ"
+"ての「スカート」ジョイントは flow_skirt_01、 "
+"flow_skirt_02などと名付けられます。"
 
 #: ../../source/create/avatars/add-flow.rst:25
+#, fuzzy
 msgid ""
 "While experimenting, feel free to use `Mannequin with Hair <https://hifi-"
 "content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_,"
 " whose hair has flow threads already configured."
 msgstr ""
+"髪の流れが設定されている `マネキン（Mannequin with Hair） <https://hifi-"
+"content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8."
+"fst>` を使って、試してみてください。"
 
 #: ../../source/create/avatars/add-flow.rst:29
 #: ../../source/create/avatars/add-flow.rst:117
+#, fuzzy
 msgid "Flow App"
-msgstr ""
+msgstr "フロー（Flow）アプリ"
 
 #: ../../source/create/avatars/add-flow.rst:31
+#, fuzzy
 msgid ""
 "Load the `Flow app "
 "<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_"
 " into Overte to configure your flow settings. See :doc:`Load an Interface"
 " Script </script/interface-scripts>`"
 msgstr ""
+"Vircadiaに `Flowアプリ <https://docs.vircadia.com/_static/resources/script/"
+"flow/flowAppCpp/flowAppCpp.js>` をロードして、フロー設定を行います。 "
+":doc:`インターフェーススクリプトの読み込み</script/interface-scripts>` を参照"
 
 #: ../../source/create/avatars/add-flow.rst:33
+#, fuzzy
 msgid ""
 "The Flow app will show up as an icon on your HUD or tablet. Click this "
 "icon to open the Flow app."
-msgstr ""
+msgstr "HUDやタブレットにFlowアプリがアイコンとして表示されます。このアイコンをクリッ"
+"クすると、Flowアプリが起動します。"
 
 #: ../../source/create/avatars/add-flow.rst:39
+#, fuzzy
 msgid "Display Panel"
-msgstr ""
+msgstr "Displayパネル"
 
 #: ../../source/create/avatars/add-flow.rst:41
+#, fuzzy
 msgid ""
 "The **Display** panel affects how your avatar looks while the Flow app is"
 " open. Using these options, you can choose to view meshes and collisions "
 "to help you determine what your final flow configuration will look like."
 msgstr ""
+"**Display** パネルは、Flowアプリを開いている間のアバターの見え方に影響します"
+"。これらのオプションを使用して、メッシュとコリジョン(Collision)を表示すること"
+"を選択し、最終的なフロー構成がどのように見えるかを判断するのに役立ちます。"
 
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
@@ -2077,8 +2301,9 @@ msgid "Avatar"
 msgstr "アバター"
 
 #: ../../source/create/avatars/add-flow.rst:48
+#, fuzzy
 msgid "Hides or displays the avatar mesh."
-msgstr ""
+msgstr "アバターメッシュの表示／非表示を切り替えます。"
 
 #: ../../source/create/avatars/add-flow.rst:50
 #: ../../source/explore/interact.md:28
@@ -2087,8 +2312,9 @@ msgid "Collisions"
 msgstr "衝突"
 
 #: ../../source/create/avatars/add-flow.rst:50
+#, fuzzy
 msgid "Activates or deactivates collisions."
-msgstr ""
+msgstr "コリジョンを有効または無効にします。"
 
 #: ../../source/create/avatars/add-flow.rst:52
 #, fuzzy
@@ -2096,8 +2322,9 @@ msgid "Debug"
 msgstr "デバッグ"
 
 #: ../../source/create/avatars/add-flow.rst:52
+#, fuzzy
 msgid "Hides or displays the debug shapes."
-msgstr ""
+msgstr "デバッグシェイプの表示／非表示を切り替えます。"
 
 #: ../../source/create/avatars/add-flow.rst:54
 #, fuzzy
@@ -2105,18 +2332,22 @@ msgid "Solid"
 msgstr "通常色"
 
 #: ../../source/create/avatars/add-flow.rst:54
+#, fuzzy
 msgid "Enables either a solid or wireframe display for debug shapes."
-msgstr ""
+msgstr "デバッグ図形をソリッドまたはワイヤーフレームで表示することができます。"
 
 #: ../../source/create/avatars/add-flow.rst:59
+#, fuzzy
 msgid "Joints Panel"
-msgstr ""
+msgstr "関節（Joint）パネル"
 
 #: ../../source/create/avatars/add-flow.rst:61
+#, fuzzy
 msgid ""
 "The **Joints** panel lists all of the available flow threads, and lets "
 "you configure the behavior of your joints."
-msgstr ""
+msgstr "**関節（Joint）**パネルでは、利用可能なすべてのフロースレッドが一覧表示され、"
+"ジョイントの動作を設定することができます。"
 
 #: ../../source/create/avatars/add-flow.rst:68
 #: ../../source/create/avatars/add-flow.rst:94
@@ -2125,60 +2356,76 @@ msgid "Radius"
 msgstr "半径"
 
 #: ../../source/create/avatars/add-flow.rst:68
+#, fuzzy
 msgid ""
 "Determines the thickness of segments and knots (needed for collision "
 "testing)."
-msgstr ""
+msgstr "セグメントとノット（衝突試験で必要）の厚さを決定します。"
 
 #: ../../source/create/avatars/add-flow.rst:70
+#, fuzzy
 msgid "Gravity"
-msgstr ""
+msgstr "Gravity"
 
 #: ../../source/create/avatars/add-flow.rst:70
+#, fuzzy
 msgid ""
 "Sets the how each joint will respond to gravity. A positive value will "
 "lift your joints in the air, while a negative value will respond to "
 "gravity and be pulled towards the ground. Larger values will cause the "
 "movement to happen more quickly."
 msgstr ""
+"各ジョイントが重力に対してどのように反応するかを設定します。正の値を設定する"
+"と関節が空中に浮き上がり、負の値を設定すると重力に反応して地面に引っ張られま"
+"す。値を大きくすると、より素早く動作します。"
 
 #: ../../source/create/avatars/add-flow.rst:74
+#, fuzzy
 msgid "Stiffness"
-msgstr ""
+msgstr "Stiffness"
 
 #: ../../source/create/avatars/add-flow.rst:74
+#, fuzzy
 msgid "Defines how susceptible the flow threads are to movement."
-msgstr ""
+msgstr "フロースレッドがどの程度動きやすいかを定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:76
+#, fuzzy
 msgid "Damping"
-msgstr ""
+msgstr "Damping"
 
 #: ../../source/create/avatars/add-flow.rst:76
+#, fuzzy
 msgid "Determines how easily the bones oscillate or move around the joints."
-msgstr ""
+msgstr "ボーンがジョイントの周りでどのくらい簡単に振動または移動するかを定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:78
+#, fuzzy
 msgid "Inertia"
-msgstr ""
+msgstr "Inertia"
 
 #: ../../source/create/avatars/add-flow.rst:78
+#, fuzzy
 msgid "Changes the rotational velocity of the bones."
-msgstr ""
+msgstr "ボーンの回転速度を定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:80
+#, fuzzy
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #: ../../source/create/avatars/add-flow.rst:80
+#, fuzzy
 msgid "Controls the amount of time between each joint movement."
-msgstr ""
+msgstr "各関節の動作の間隔を定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:85
+#, fuzzy
 msgid "Collisions Panel"
-msgstr ""
+msgstr "コリジョン（Collision）パネル"
 
 #: ../../source/create/avatars/add-flow.rst:87
+#, fuzzy
 msgid ""
 "The **Collisions** panel controls the collision spheres that define the "
 "interactions between flow threads and the joints in your avatar. Each "
@@ -2187,10 +2434,16 @@ msgid ""
 "distance between the flow thread and the joint. You can only have a "
 "maximum of 4 collisions defined for your avatar."
 msgstr ""
+"**コリジョン（Collision）** パネルは、フロースレッドとアバターのジョイントの"
+"間の相互作用を定義するコリジョンスフィア（Collision spher）をコントロールしま"
+"す。各コリジョン球は、既存のアバタージョイントとオフセットを使って配置されま"
+"す。コリジョン球の半径を大きくすると、フロースレッドとジョイントの間の距離が"
+"長くなります。アバターには最大4つのコリジョンしか定義できません。"
 
 #: ../../source/create/avatars/add-flow.rst:94
+#, fuzzy
 msgid "Controls the collision sphere radius."
-msgstr ""
+msgstr "コリジョン球の半径を定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:96
 #, fuzzy
@@ -2198,25 +2451,32 @@ msgid "Offset"
 msgstr "オフセット"
 
 #: ../../source/create/avatars/add-flow.rst:96
+#, fuzzy
 msgid "Controls the collision sphere offset."
-msgstr ""
+msgstr "コリジョン球のオフセットを定義します。"
 
 #: ../../source/create/avatars/add-flow.rst:101
+#, fuzzy
 msgid "Output Panel"
-msgstr ""
+msgstr "出力パネル"
 
 #: ../../source/create/avatars/add-flow.rst:103
+#, fuzzy
 msgid ""
 "The **Output** panel displays the resulting FST data for your avatar's "
 "flow configuration, based on what you entered in the `Joints Panel`_ and "
 "the `Collisions Panel`_."
 msgstr ""
+"**出力** パネルには、`Joints Panel` と `Collisions Panel` "
+"で入力した内容に基づいて、アバターのフロー設定に対する FST "
+"データの結果が表示されます。"
 
 #: ../../source/create/avatars/add-flow.rst:105
+#, fuzzy
 msgid ""
 "Copy this data directly into your avatar's FST file to complete the flow "
 "process."
-msgstr ""
+msgstr "このデータをアバターのFSTファイルに直接コピーすれば、フロー処理は完了です。"
 
 #: ../../source/create/avatars/add-flow.rst:112
 #, fuzzy
@@ -2236,10 +2496,12 @@ msgid "URL"
 msgstr "URL"
 
 #: ../../source/create/avatars/add-flow.rst:117
+#, fuzzy
 msgid ""
 "This app lets users easily update Flow settings without the need for "
 "scripting or advanced knowledge of avatars."
-msgstr ""
+msgstr "このアプリは、スクリプトやアバターに関する高度な知識がなくても、ユーザーが簡"
+"単にFlowの設定を更新できるようにするものです。"
 
 #: ../../source/create/avatars/add-flow.rst:117
 msgid ""
@@ -2248,47 +2510,58 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:121
+#, fuzzy
 msgid "Mannequin with Hair"
-msgstr ""
+msgstr "Mannequin with Hair"
 
 #: ../../source/create/avatars/add-flow.rst:121
+#, fuzzy
 msgid ""
 "This avatar is properly rigged to work with Flow. Use this as an example "
 "for your own avatar models."
-msgstr ""
+msgstr "このアバターは、Flowで動作するように適切に構成されています。あなた自身のアバ"
+"ターモデルの例としてお使いください。"
 
 #: ../../source/create/avatars/add-flow.rst:121
+#, fuzzy
 msgid ""
 "`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
 " Mannequin/hairTest/mannequinHairTest8. fst>`_"
 msgstr ""
+"`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/ "
+"Mannequin/hairTest/mannequinHairTest8. fst>`_"
 
 #: ../../source/create/avatars/add-flow.rst:129
 #: ../../source/create/avatars/custom-animations.rst:271
+#, fuzzy
 msgid ":doc:`Avatar Standards Guide <avatar-standards>`"
-msgstr ""
+msgstr ":doc:`アバタースタンダードガイド <avatar-standards>`"
 
 #: ../../source/create/avatars/add-flow.rst:130
 #: ../../source/create/avatars/scattering-tutorial.rst:69
+#, fuzzy
 msgid "`Package Your Avatar <create-avatars.html#package-your-avatar>`_"
-msgstr ""
+msgstr "`アバターのパッケージ化 <create-avatars.html#package-your-avatar>`_"
 
 #: ../../source/create/avatars/add-flow.rst:131
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:64
 #: ../../source/create/entities/boombox-tutorial.rst:21
 #: ../../source/create/entities/boombox-tutorial.rst:170
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:66
+#, fuzzy
 msgid ""
 ":doc:`Get Started with Scripting <../../script/get-started-with-"
 "scripting>`"
-msgstr ""
+msgstr ":doc:`スクリプト作成を始めよう <../../script/get-started-with-scripting>`"
 
 #: ../../source/create/avatars/avatar-standards.md:6
 #: ../../source/create/avatars/create-avatars.rst:24
+#, fuzzy
 msgid "Avatar Standards Guide"
-msgstr ""
+msgstr "アバタースタンダードガイド"
 
 #: ../../source/create/avatars/avatar-standards.md:8
+#, fuzzy
 msgid ""
 "This document outlines the standards you should follow when [creating "
 "your avatar](create-avatars). Your avatar uses bones to animate the "
@@ -2297,6 +2570,12 @@ msgid ""
 "avatar can be fine-tuned using blendshapes to animate the face and "
 "scripting to define advanced behaviors."
 msgstr ""
+"この文書では、[アバターを作成する](create-avatars)ときに従うべき基準の概要を"
+"説明します。アバターはボーンを使って、キャラクターの手足をアニメーション化し"
+"、手足のスケール変数を定義します。カスタムボーンを追加して、アバターの形状を"
+"さらに調整することができます。アバターのカスタマイズは、ブレンドシェイプを使"
+"った顔のアニメーションや、スクリプトを使った高度な動作の定義で細かく調整する"
+"ことができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:10
 #: ../../source/create/entities/avatar-interactions.md:5
@@ -2315,32 +2594,39 @@ msgid "**On This Page:**"
 msgstr "**コンテンツ**"
 
 #: ../../source/create/avatars/avatar-standards.md:11
+#, fuzzy
 msgid "[Glossary](#glossary)"
-msgstr ""
+msgstr "[用語集](#glossary)"
 
 #: ../../source/create/avatars/avatar-standards.md:12
+#, fuzzy
 msgid "[Reference Pose](#reference-pose)"
-msgstr ""
+msgstr "[基準ポーズ（Reference Pose）](#reference-pose)"
 
 #: ../../source/create/avatars/avatar-standards.md:13
+#, fuzzy
 msgid "[Skeleton](#skeleton)"
-msgstr ""
+msgstr "[スケルトン（Skeleton）](#skeleton)"
 
 #: ../../source/create/avatars/avatar-standards.md:14
+#, fuzzy
 msgid "[Flow Bones](#flow-bones)"
-msgstr ""
+msgstr "[フローボーン（Flow Bone）](#flow-bones)"
 
 #: ../../source/create/avatars/avatar-standards.md:15
+#, fuzzy
 msgid "[Look-at Vectors](#look-at-vectors)"
-msgstr ""
+msgstr "[ルックアットベクトル（Look-at Vector）](#look-at-vectors)"
 
 #: ../../source/create/avatars/avatar-standards.md:16
+#, fuzzy
 msgid "[Blendshapes](#blendshapes)"
-msgstr ""
+msgstr "[ブレンドシェイプ（Blendshapes）](#blendshapes)"
 
 #: ../../source/create/avatars/avatar-standards.md:17
+#, fuzzy
 msgid "[Other Considerations](#other-considerations)"
-msgstr ""
+msgstr "[その他の考慮事項](#other-considerations)"
 
 #: ../../source/create/avatars/avatar-standards.md:19
 #, fuzzy
@@ -2348,104 +2634,141 @@ msgid "Glossary"
 msgstr "用語集"
 
 #: ../../source/create/avatars/avatar-standards.md:20
+#, fuzzy
 msgid ""
 "As we delve deeper into creating custom avatars, we may use terminology "
 "that you are unfamiliar with. Here are some terms you might come across:"
-msgstr ""
+msgstr "カスタムアバターの制作を進めていくと、聞き慣れない用語が出てくることがありま"
+"す。ここでは、そのような用語について説明します。"
 
 #: ../../source/create/avatars/avatar-standards.md:22
+#, fuzzy
 msgid "Avatar - A virtual representation of a person or NPC."
-msgstr ""
+msgstr "アバター（Avatar ） - 人物やNPCを仮想的に表現したもの。"
 
 #: ../../source/create/avatars/avatar-standards.md:23
+#, fuzzy
 msgid ""
 "Mesh - The collection of 3D vertices and triangles for the avatar model. "
 "Without this, the avatar is invisible."
-msgstr ""
+msgstr "メッシュ（Mesh）- "
+"アバターモデルの3D頂点と三角形の集合体。これがないと、アバターは見えません。"
 
 #: ../../source/create/avatars/avatar-standards.md:24
+#, fuzzy
 msgid ""
 "Bones - A component of a skeleton that defines a \"limb\" such as an arm,"
 " leg, etc. Each bone may be animated as a separate limb in your avatar."
 msgstr ""
+"ボーン（Bone） - 腕、脚などの「手足」を定義するスケルトンの構成要素。各ボーン"
+"は、アバターで個別の手足としてアニメーションさせることができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:25
+#, fuzzy
 msgid "Skeleton - A hierarchy of joints."
-msgstr ""
+msgstr "骨格（Skeleton） - 関節の階層構造。"
 
 #: ../../source/create/avatars/avatar-standards.md:26
+#, fuzzy
 msgid "Rigging - The process of creating a skeleton of the avatar model."
-msgstr ""
+msgstr "リギング（Rigging） - アバターモデルのスケルトンを作成する工程。"
 
 #: ../../source/create/avatars/avatar-standards.md:27
+#, fuzzy
 msgid ""
 "Blendshapes - Variations of the topology that defines how the mesh is "
 "modified to create various \"shapes\"."
 msgstr ""
+"ブレンドシェイプ（Blendshap） - 様々な「形状」を作成するためにメッシュをどの"
+"ように修正するかを定義するトポロジーのバリエーションです。"
 
 #: ../../source/create/avatars/avatar-standards.md:28
+#, fuzzy
 msgid ""
 "FST file - The main avatar file, which contains information about the "
 "skeleton, blendshapes, FBX file and textures used by an avatar."
 msgstr ""
+"FSTファイル - アバターのメインファイル。アバターが使用するスケルトン、ブレン"
+"ドシェイプ、FBXファイル、テクスチャーに関する情報が含まれています。"
 
 #: ../../source/create/avatars/avatar-standards.md:31
+#, fuzzy
 msgid "Reference Pose"
-msgstr ""
+msgstr "基準ポーズ（Reference Pose）"
 
 #: ../../source/create/avatars/avatar-standards.md:32
+#, fuzzy
 msgid ""
 "For the Reference pose, use a T-Pose which complies with the "
 "specifications below. You may wish to refer to the properly configured "
 "example avatar fbx with source files."
 msgstr ""
+"Referenceポーズには、以下の仕様に準拠したT-Poseを使用します。正しく設定された"
+"アバターfbxのサンプルとソースファイルを参照してください。"
 
 #: ../../source/create/avatars/avatar-standards.md:33
+#, fuzzy
 msgid "The character must face along the positive direction of the Z-axis."
-msgstr ""
+msgstr "キャラクタはZ軸の正の方向に沿って向いている必要があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:34
+#, fuzzy
 msgid ""
 "The arms must be spread along the X-axis. The left arm should therefore "
 "be pointing along the positive direction of the X-axis."
-msgstr ""
+msgstr "両腕はX軸に沿って広げなければなりません。そのため、左腕はX軸の正の方向に沿っ"
+"て向ける必要があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:35
+#, fuzzy
 msgid ""
 "The top of the character's head must be up, in the positive direction of "
 "the Y-axis."
-msgstr ""
+msgstr "キャラクターの頭頂部は、Y軸の正の方向で、上にある必要があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:36
+#, fuzzy
 msgid ""
 "The character's hands are flat, palms facing the ground, with the thumbs "
 "parallel to the X axis."
-msgstr ""
+msgstr "キャラクターの手は平らで、手のひらを地面に向けて、親指がX軸と平行になるように"
+"します。"
 
 #: ../../source/create/avatars/avatar-standards.md:37
+#, fuzzy
 msgid ""
 "The character's feet need to be perpendicular to the legs (with the toes "
 "pointing along the Z-axis as shown). The feet must not be rotated around "
 "the Y-axis (meaning the toes of the left foot should not point inward "
 "toward the right leg or outward away from the right leg)."
 msgstr ""
+"キャラクタの足は、脚に対して垂直である必要があります（図のようにつま先がZ軸に"
+"沿っている状態）。足はY軸を中心に回転してはいけません（つまり、左足のつま先が"
+"右足の内側を向いたり、右足の外側を向いたりしてはいけないということです）。"
 
 #: ../../source/create/avatars/avatar-standards.md:39
+#, fuzzy
 msgid "![](_images/hifi-skel.png)"
-msgstr ""
+msgstr "![](_images/hifi-skel.png)"
 
 #: ../../source/create/avatars/avatar-standards.md:41
+#, fuzzy
 msgid ""
 "You can download the standard Overte skeleton [here](http://hifi-"
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
+"Vircadiaの標準スケルトンは[こちら](http://hifi-content.s3.amazonaws.com/"
+"Examples%20Content/skeleton/standard_hifi_skeleton."
+"fbx)からダウンロードできます。このスケルトンは上記の仕様に準拠しています。"
 
 #: ../../source/create/avatars/avatar-standards.md:43
+#, fuzzy
 msgid "Skeleton"
-msgstr ""
+msgstr "スケルトン（Skeleton）"
 
 #: ../../source/create/avatars/avatar-standards.md:44
+#, fuzzy
 msgid ""
 "The standard humanoid skeleton of your avatar should follow [HumanIK "
 "Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
@@ -2455,62 +2778,90 @@ msgid ""
 "devices to control their avatar's arm and finger movements (if they have "
 "any)."
 msgstr ""
+"アバターの標準的な人型スケルトンは [HumanIK Skeleton](http://download."
+"autodesk.com/global/docs/maya2014/en_us/index.html?url=files/GUID-"
+"945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) に従って、Mixamo用に若干の修正を加"
+"えたものであるべきです。このスケルトンシステムは、Vircadiaにすでにある入力シ"
+"ステムと連動しており、ユーザーは自分の入力デバイスを使って、アバターの腕や指"
+"の動きをコントロールすることができます（入力デバイスを持っていれば可能）。"
 
 #: ../../source/create/avatars/avatar-standards.md:46
+#, fuzzy
 msgid ""
 "Overte avatars should match the following standard skeletal structure. "
 "Each of these joints can be animated."
-msgstr ""
+msgstr "Vircadiaアバターは、以下の標準的な骨格構造に一致する必要があります。これらの"
+"各関節はアニメーションさせることができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:53
+#, fuzzy
 msgid "![](_images/avatar-skeleton.png)"
-msgstr ""
+msgstr "![](_images/avatar-skeleton.png)"
 
 #: ../../source/create/avatars/avatar-standards.md:55
+#, fuzzy
 msgid "Flow Bones"
-msgstr ""
+msgstr "フローボーン（Flow Bone）"
 
 #: ../../source/create/avatars/avatar-standards.md:57
+#, fuzzy
 msgid ""
 "The  `sim` and `flow` prefixes are reserved for flow bones, such as "
 "clothing, hair and tails. These bones should _not_ be animated by an "
 "animator. ![](_images/flow-bones.png) (Many thanks to Akazukin for the "
 "model Ouka Miko(櫻歌ミコ) used in this diagram!)"
 msgstr ""
+"接頭辞 `sim` と `flow` "
+"は、服や髪、しっぽなどのフローボーン用に予約されています。"
+"これらのボーンはアニメーターによって "
+"_アニメーションされるべきではありません_ 。("
+"この図に使われている櫻歌ミコのモデルを提供してくださった Akazukin "
+"さんに感謝します!)"
 
 #: ../../source/create/avatars/avatar-standards.md:60
+#, fuzzy
 msgid "For example, consider a full cape that surrounds the avatar:"
-msgstr ""
+msgstr "例えば、アバターを包む全身マントを考えてみましょう。"
 
 #: ../../source/create/avatars/avatar-standards.md:73
+#, fuzzy
 msgid ""
 "Alternatively, you can use the `flow` prefix, separating the name and "
 "joint number with an underscore. The same cape as above would look like:"
 msgstr ""
+"また、名前とジョイント番号をアンダースコアで区切り、 `flow` というプレフィッ"
+"クスを使うこともできます。上記と同じケープを使用すると、次のようになります。"
 
 #: ../../source/create/avatars/avatar-standards.md:86
+#, fuzzy
 msgid "Look-at Vectors"
-msgstr ""
+msgstr "視線（Look-at）ベクトル"
 
 #: ../../source/create/avatars/avatar-standards.md:88
+#, fuzzy
 msgid "The look-at vectors are driven by the z-vector of the eye joints."
-msgstr ""
+msgstr "視線ベクトルは、目の関節の z ベクトルによって駆動します。"
 
 #: ../../source/create/avatars/avatar-standards.md:90
+#, fuzzy
 msgid ""
 "The +z axis of the eye joints should go through the center of the pupil, "
 "and should continue to do so as the eye joint is rotated."
-msgstr ""
+msgstr "眼球の＋z軸は瞳孔の中心を通るようにし、眼球を回転させてもその軸が変わらないよ"
+"うにします。"
 
 #: ../../source/create/avatars/avatar-standards.md:92
+#, fuzzy
 msgid "The eye joints are defined in the FST."
-msgstr ""
+msgstr "目の関節は FST で定義されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:94
+#, fuzzy
 msgid "Blendshapes"
-msgstr ""
+msgstr "ブレンドシェイプ（Blendshapes）"
 
 #: ../../source/create/avatars/avatar-standards.md:96
+#, fuzzy
 msgid ""
 "Overte uses blendshapes to animate your avatar's face. Blendshapes allow "
 "you to specify a new state for your avatar's mesh, and facial positions "
@@ -2522,152 +2873,205 @@ msgid ""
 "avatar from scratch, you will likely need to specify your own facial "
 "expressions."
 msgstr ""
+"Vircadiaでは、アバターの顔のアニメーションにブレンドシェイプを使用しています"
+"。ブレンドシェイプは、アバターのメッシュに新しい状態を指定することができ、ア"
+"バターの表情の異なる状態の間を移動することで顔の位置がアニメーションされます"
+"。ブレンドシェイプ・ビヘイビアは、アバターのFSTファイルで定義され、Blender（"
+"Shape Keys）やMayaなどの3Dモデリングツールを使ってアバターメッシュに追加され"
+"ます。AdobeのFuseプログラムとMixamoパイプラインを使えば、ブレンドシェイプをFB"
+"Xの一部としてエクスポートできますが、アバターを一からモデリングする場合は、自"
+"分で顔の表情を指定する必要がある場合が多いでしょう。"
 
 #: ../../source/create/avatars/avatar-standards.md:98
+#, fuzzy
 msgid ""
 "Overte avatars support a number of blendshapes for creating different "
 "facial expressions."
-msgstr ""
+msgstr "Vircadiaのアバターは、様々な表情を作るためのブレンドシェイプに対応しています"
+"。"
 
 #: ../../source/create/avatars/avatar-standards.md:100
+#, fuzzy
 msgid "**Basic Blendshapes**"
-msgstr ""
+msgstr "**基本的なブレンドシェイプ（Blendshape）**"
 
 #: ../../source/create/avatars/avatar-standards.md:102
+#, fuzzy
 msgid "`EyeBlink_L`:  Blinking action for the left eye."
-msgstr ""
+msgstr "`EyeBlink_L`: 左目のまばたき。"
 
 #: ../../source/create/avatars/avatar-standards.md:103
+#, fuzzy
 msgid "`EyeBlink_R`: Blicking action for the right eye."
-msgstr ""
+msgstr "`EyeBlink_R`: 右目のまばたき。"
 
 #: ../../source/create/avatars/avatar-standards.md:104
+#, fuzzy
 msgid "`JawOpen`: Opening of the jaw."
-msgstr ""
+msgstr "`JawOpen`: 顎の開き。"
 
 #: ../../source/create/avatars/avatar-standards.md:106
+#, fuzzy
 msgid "**Audio Blendshapes**"
-msgstr ""
+msgstr "**オーディオ ブレンドシェイプ（Blendshape）**"
 
 #: ../../source/create/avatars/avatar-standards.md:108
+#, fuzzy
 msgid "These blendshapes are used when you speak."
-msgstr ""
+msgstr "これらのブレンドシェイプは、話すときに使用されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:110
+#, fuzzy
 msgid ""
 "Your eyebrows are blendshapes that react to a change in volume. They will"
 " move upwards when your voice gets louder. These include:"
-msgstr ""
+msgstr "眉毛は、ボリュームの変化に反応するブレンドシェイプです。あなたの声が大きくな"
+"ると、それらは上に移動します。これらには以下が含まれます："
 
 #: ../../source/create/avatars/avatar-standards.md:112
+#, fuzzy
 msgid "`BrowsU_C`: Center of the brow going up"
-msgstr ""
+msgstr "`BrowsU_C`: 眉の中心を上げる"
 
 #: ../../source/create/avatars/avatar-standards.md:113
+#, fuzzy
 msgid "`BrowsU_L`: Outside corner of the left brow going up"
-msgstr ""
+msgstr "`BrowsU_L`: 左眉の外側の角を上げる"
 
 #: ../../source/create/avatars/avatar-standards.md:114
+#, fuzzy
 msgid "`BrowsU_R`: Outside corner of the right brow going up"
-msgstr ""
+msgstr "`BrowsU_R`: 右眉の外側の角を上げる"
 
 #: ../../source/create/avatars/avatar-standards.md:116
+#, fuzzy
 msgid "Other audio blendshapes are randomly mixed when you speak. These include:"
-msgstr ""
+msgstr "他のオーディオ ブレンドシェイプは、話すときにランダムにミックスされます。これ"
+"らには以下が含まれます："
 
 #: ../../source/create/avatars/avatar-standards.md:118
+#, fuzzy
 msgid "`MouthSmile_L`: Left side of the mouth lifting up to a smile"
-msgstr ""
+msgstr "`MouthSmile_L`: 口の左側を上げて微笑む"
 
 #: ../../source/create/avatars/avatar-standards.md:119
+#, fuzzy
 msgid "`MouthSmile_R`: Right side of the mouth lifting up to a smile"
-msgstr ""
+msgstr "`MouthSmile_R`: 口の右側を上げて微笑む"
 
 #: ../../source/create/avatars/avatar-standards.md:120
+#, fuzzy
 msgid "`LipsFunnel`: Funneling of the lips, as when you say \"Oh!\""
-msgstr ""
+msgstr "`LipsFunnel`: 「ああ!」と言うときのように、唇の漏斗"
 
 #: ../../source/create/avatars/avatar-standards.md:121
+#, fuzzy
 msgid "`LipsUpperClose`:  Upper lips rolled inwards"
-msgstr ""
+msgstr "`LipsUpperClose`: 上唇が内側に丸まる"
 
 #: ../../source/create/avatars/avatar-standards.md:123
+#, fuzzy
 msgid "**Eyelid Offset**"
-msgstr ""
+msgstr "**まぶたのオフセット**"
 
 #: ../../source/create/avatars/avatar-standards.md:125
+#, fuzzy
 msgid ""
 "To ensure that the top of the eyelid rests on the iris, blendshapes are "
 "used to track the current position of the eye along with your head "
 "orientation."
-msgstr ""
+msgstr "まぶたの上部が虹彩の上にあることを確認するために、ブレンドシェイプを使用して"
+"、頭の向きとともに目の現在の位置を追跡します。"
 
 #: ../../source/create/avatars/avatar-standards.md:127
+#, fuzzy
 msgid "`EyeBlink_L`: Blinking action for the left eye"
-msgstr ""
+msgstr "`EyeBlink_L`: 左目のまばたき"
 
 #: ../../source/create/avatars/avatar-standards.md:128
+#, fuzzy
 msgid "`EyeBlink_R`: Blicking action for the right eye"
-msgstr ""
+msgstr "`EyeBlink_R`: 右目のまばたき"
 
 #: ../../source/create/avatars/avatar-standards.md:129
+#, fuzzy
 msgid "`EyeOpen_L`: Opening of left eye"
-msgstr ""
+msgstr "`EyeOpen_L`: 左目を開く"
 
 #: ../../source/create/avatars/avatar-standards.md:130
+#, fuzzy
 msgid "`EyeOpen_R`: Opening of right eye"
-msgstr ""
+msgstr "`EyeOpen_R`: 右目を開く"
 
 #: ../../source/create/avatars/avatar-standards.md:131
+#, fuzzy
 msgid "`BrowsD_L`: Outside corner of the left brow moving down"
-msgstr ""
+msgstr "`BrowsD_L`: 左眉の外側の角を下げる"
 
 #: ../../source/create/avatars/avatar-standards.md:132
+#, fuzzy
 msgid "`BrowsD_R`: Outside corner of the right brow moving down"
-msgstr ""
+msgstr "`BrowsD_R`: 右眉の外側の角を下げる"
 
 #: ../../source/create/avatars/avatar-standards.md:135
+#, fuzzy
 msgid ""
 "We apply a small procedural offset to the blendshape coefficients to "
 "prevent sleepy or crazy eye lids:"
-msgstr ""
+msgstr "ブレンドシェープの係数にわずかなプロシージャ的オフセットを適用し、眠そうなま"
+"ぶたやおかしなまぶたにならないようにしています。"
 
 #: ../../source/create/avatars/avatar-standards.md:137
+#, fuzzy
 msgid ""
 "If you are looking straight ahead: The `EyeBlink` and `EyeOpen` "
 "coefficients will be `0`."
-msgstr ""
+msgstr "まっすぐ前を見ている場合: `EyeBlink` および `EyeOpen` 係数は `0` になります。"
 
 #: ../../source/create/avatars/avatar-standards.md:138
+#, fuzzy
 msgid ""
 "If your eyes begin to look upward: `EyeBlink`, `EyeOpen`, and `BrowsU` "
 "start changing in value, reaching the values of `-1`, `1`, and `0.5` "
 "respectively at `16.3` degrees. This will have the effect of raising your"
 " lids and brows as you look upward."
 msgstr ""
+"目が上を向き始めたら: `EyeBlink` , `EyeOpen` , `BrowsU` の値が変化し始め、"
+"それぞれ `-1` , `1` , `0.5` の値で `16.3` 度まで到達します。これは、上を向い"
+"たときにまぶたと眉毛を上げる効果があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:139
+#, fuzzy
 msgid ""
 "If your eyes begin to look downward: `EyeBlink` and `EyeOpen` start "
 "changing in value. `EyeBlink` reaches a value of `0.5` at `32` degrees. "
 "`EyeOpen` will reach a value of `0.5` at 27 degrees. This will have the "
 "effect of lowering your lids as you look downward."
 msgstr ""
+"目が下を向き始めたら: `EyeBlink` と `EyeOpen` の値が変化し始める。 `EyeBlink`"
+" は `32` 度で `0.5` の値になります。 `EyeOpen` は27度で `0.5` "
+"の値になります。これは下を向くと瞼が下がるという効果があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:142
+#, fuzzy
 msgid ""
 "Tweaks to your blendshapes can be made with a 3D modeling tool, or "
 "directly in your avatar's FST file. In the FST file, blendshapes are "
 "defined with the syntax:"
 msgstr ""
+"ブレンドシェープの変更は、3Dモデリングツールで行うか、アバターのFSTファイルで"
+"直接行うことができます。FSTファイルでは、ブレンドシェイプは以下のシンタックス"
+"で定義されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:148
+#, fuzzy
 msgid "Here is an example of modifying your blendshapes in your FST file:"
-msgstr ""
+msgstr "FSTファイル内のブレンドシェイプを修正する例をご紹介します。"
 
 #: ../../source/create/avatars/avatar-standards.md:167
+#, fuzzy
 msgid "**ReadyPlayerMe Blendshapes**"
-msgstr ""
+msgstr "**ReadyPlayerMe Blendshapes（ReadyPlayerMe ブレンドシェイプ）**"
 
 #: ../../source/create/avatars/avatar-standards.md:169
 msgid ""
@@ -2676,219 +3080,275 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:171
+#, fuzzy
 msgid "**Unsupported Blendshapes**"
-msgstr ""
+msgstr "**サポートされていないブレンドシェイプ**"
 
 #: ../../source/create/avatars/avatar-standards.md:173
+#, fuzzy
 msgid ""
 "To utilize blendshapes present on avatars, they must match the "
 "blendshapes below. Alternatively, an .fst file can be used to remap the "
 "blendshapes to any of the ones below."
 msgstr ""
+"アバターでブレンドシェイプを使用するには、以下のブレンドシェイプと一致させる"
+"必要があります。また、.fstファイルを使用して、ブレンドシェイプを下記のどれか"
+"にリマップすることもできます。"
 
 #: ../../source/create/avatars/avatar-standards.md:175
+#, fuzzy
 msgid "**Eye Blendshapes**"
-msgstr ""
+msgstr "**Eye ブレンドシェイプ**"
 
 #: ../../source/create/avatars/avatar-standards.md:177
+#, fuzzy
 msgid "EyeBlink_L"
-msgstr ""
+msgstr "EyeBlink_L"
 
 #: ../../source/create/avatars/avatar-standards.md:178
+#, fuzzy
 msgid "EyeBlink_R"
-msgstr ""
+msgstr "EyeBlink_R"
 
 #: ../../source/create/avatars/avatar-standards.md:179
+#, fuzzy
 msgid "EyeSquint_L"
-msgstr ""
+msgstr "EyeSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:180
+#, fuzzy
 msgid "EyeSquint_R"
-msgstr ""
+msgstr "EyeSquint_R"
 
 #: ../../source/create/avatars/avatar-standards.md:181
+#, fuzzy
 msgid "EyeDown_L"
-msgstr ""
+msgstr "EyeDown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:182
+#, fuzzy
 msgid "EyeDown_R"
-msgstr ""
+msgstr "EyeDown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:183
+#, fuzzy
 msgid "EyeIn_L"
-msgstr ""
+msgstr "EyeIn_L"
 
 #: ../../source/create/avatars/avatar-standards.md:184
+#, fuzzy
 msgid "EyeIn_R"
-msgstr ""
+msgstr "EyeIn_R"
 
 #: ../../source/create/avatars/avatar-standards.md:185
+#, fuzzy
 msgid "EyeOpen_L"
-msgstr ""
+msgstr "EyeOpen_L"
 
 #: ../../source/create/avatars/avatar-standards.md:186
+#, fuzzy
 msgid "EyeOpen_R"
-msgstr ""
+msgstr "EyeOpen_R"
 
 #: ../../source/create/avatars/avatar-standards.md:187
+#, fuzzy
 msgid "EyeOut_L"
-msgstr ""
+msgstr "EyeOut_L"
 
 #: ../../source/create/avatars/avatar-standards.md:188
+#, fuzzy
 msgid "EyeOut_R"
-msgstr ""
+msgstr "EyeOut_R"
 
 #: ../../source/create/avatars/avatar-standards.md:189
+#, fuzzy
 msgid "EyeUp_L"
-msgstr ""
+msgstr "EyeUp_L"
 
 #: ../../source/create/avatars/avatar-standards.md:190
+#, fuzzy
 msgid "EyeUp_R"
-msgstr ""
+msgstr "EyeUp_R"
 
 #: ../../source/create/avatars/avatar-standards.md:191
+#, fuzzy
 msgid "BrowsD_L"
-msgstr ""
+msgstr "BrowsD_L"
 
 #: ../../source/create/avatars/avatar-standards.md:192
+#, fuzzy
 msgid "BrowsD_R"
-msgstr ""
+msgstr "BrowsD_R"
 
 #: ../../source/create/avatars/avatar-standards.md:193
+#, fuzzy
 msgid "BrowsU_C"
-msgstr ""
+msgstr "BrowsU_C"
 
 #: ../../source/create/avatars/avatar-standards.md:194
+#, fuzzy
 msgid "BrowsU_L"
-msgstr ""
+msgstr "BrowsU_L"
 
 #: ../../source/create/avatars/avatar-standards.md:195
+#, fuzzy
 msgid "BrowsU_R"
-msgstr ""
+msgstr "BrowsU_R"
 
 #: ../../source/create/avatars/avatar-standards.md:197
+#, fuzzy
 msgid "**Jaw Blendshapes**"
-msgstr ""
+msgstr "**顎のBlendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:199
+#, fuzzy
 msgid "JawFwd"
-msgstr ""
+msgstr "JawFwd"
 
 #: ../../source/create/avatars/avatar-standards.md:200
+#, fuzzy
 msgid "JawLeft"
-msgstr ""
+msgstr "JawLeft"
 
 #: ../../source/create/avatars/avatar-standards.md:201
+#, fuzzy
 msgid "JawOpen"
-msgstr ""
+msgstr "JawOpen"
 
 #: ../../source/create/avatars/avatar-standards.md:202
+#, fuzzy
 msgid "JawRight"
-msgstr ""
+msgstr "JawRight"
 
 #: ../../source/create/avatars/avatar-standards.md:203
+#, fuzzy
 msgid "MouthLeft"
-msgstr ""
+msgstr "MouthLeft"
 
 #: ../../source/create/avatars/avatar-standards.md:204
+#, fuzzy
 msgid "MouthRight"
-msgstr ""
+msgstr "MouthRight"
 
 #: ../../source/create/avatars/avatar-standards.md:205
+#, fuzzy
 msgid "MouthFrown_L"
-msgstr ""
+msgstr "MouthFrown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:206
+#, fuzzy
 msgid "MouthFrown_R"
-msgstr ""
+msgstr "MouthFrown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:207
+#, fuzzy
 msgid "MouthSmile_L"
-msgstr ""
+msgstr "MouthSmile_L"
 
 #: ../../source/create/avatars/avatar-standards.md:208
+#, fuzzy
 msgid "MouthSmile_R"
-msgstr ""
+msgstr "MouthSmile_R"
 
 #: ../../source/create/avatars/avatar-standards.md:209
+#, fuzzy
 msgid "MouthDimple_L"
-msgstr ""
+msgstr "MouthDimple_L"
 
 #: ../../source/create/avatars/avatar-standards.md:210
+#, fuzzy
 msgid "MouthDimple_R"
-msgstr ""
+msgstr "MouthDimple_R"
 
 #: ../../source/create/avatars/avatar-standards.md:212
+#, fuzzy
 msgid "**Lip Blendshapes**"
-msgstr ""
+msgstr "**唇Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:214
+#, fuzzy
 msgid "LipsStretch_L"
-msgstr ""
+msgstr "LipsStretch_L"
 
 #: ../../source/create/avatars/avatar-standards.md:215
+#, fuzzy
 msgid "LipsStretch_R"
-msgstr ""
+msgstr "LipsStretch_R"
 
 #: ../../source/create/avatars/avatar-standards.md:216
+#, fuzzy
 msgid "LipsUpperClose"
-msgstr ""
+msgstr "LipsUpperClose"
 
 #: ../../source/create/avatars/avatar-standards.md:217
+#, fuzzy
 msgid "LipsLowerClose"
-msgstr ""
+msgstr "LipsLowerClose"
 
 #: ../../source/create/avatars/avatar-standards.md:218
+#, fuzzy
 msgid "LipsFunnel"
-msgstr ""
+msgstr "LipsFunnel"
 
 #: ../../source/create/avatars/avatar-standards.md:219
+#, fuzzy
 msgid "LipsPucker"
-msgstr ""
+msgstr "LipsPucker"
 
 #: ../../source/create/avatars/avatar-standards.md:220
+#, fuzzy
 msgid "Puff"
-msgstr ""
+msgstr "Puff"
 
 #: ../../source/create/avatars/avatar-standards.md:222
+#, fuzzy
 msgid "**Mouth, Cheek and User Blendshapes**"
-msgstr ""
+msgstr "**Mouth, Cheek and User Blendshape"
 
 #: ../../source/create/avatars/avatar-standards.md:224
+#, fuzzy
 msgid "CheekSquint_L"
-msgstr ""
+msgstr "CheekSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:225
+#, fuzzy
 msgid "CheekSquint_R"
-msgstr ""
+msgstr "CheekSquint_R"
 
 #: ../../source/create/avatars/avatar-standards.md:227
+#, fuzzy
 msgid "MouthClose"
-msgstr ""
+msgstr "MouthClose"
 
 #: ../../source/create/avatars/avatar-standards.md:228
+#, fuzzy
 msgid "MouthUpperUp_L"
-msgstr ""
+msgstr "MouthUpperUp_L"
 
 #: ../../source/create/avatars/avatar-standards.md:229
+#, fuzzy
 msgid "MouthUpperUp_R"
-msgstr ""
+msgstr "MouthUpperUp_R"
 
 #: ../../source/create/avatars/avatar-standards.md:230
+#, fuzzy
 msgid "MouthLowerDown_L"
-msgstr ""
+msgstr "MouthLowerDown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:231
+#, fuzzy
 msgid "MouthLowerDown_R"
-msgstr ""
+msgstr "MouthLowerDown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:232
+#, fuzzy
 msgid "MouthPress_L"
-msgstr ""
+msgstr "MouthPress_L"
 
 #: ../../source/create/avatars/avatar-standards.md:233
+#, fuzzy
 msgid "MouthPress_R"
-msgstr ""
+msgstr "MouthPress_R"
 
 #: ../../source/create/avatars/avatar-standards.md:234
 msgid "MouthShrugLower"
@@ -3029,8 +3489,9 @@ msgid "[Add Flow to Your Avatar](add-flow)"
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:6
+#, fuzzy
 msgid "Tutorial: Modify Materials and Textures Using Blender"
-msgstr ""
+msgstr "チュートリアル: Blender でマテリアルとテクスチャを変更する"
 
 #: ../../source/create/avatars/blender-tutorial.md:8
 msgid ""
@@ -3393,11 +3854,13 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:20
+#, fuzzy
 msgid ""
 "As we delve deeper into creating custom animations, we may use "
 "terminology that you are unfamiliar with. Here are some terms you might "
 "come across:"
-msgstr ""
+msgstr "カスタムアバターの制作を進めていくと、聞き慣れない用語が出てくることがありま"
+"す。ここでは、そのような用語について説明します。"
 
 #: ../../source/create/avatars/custom-animations.rst:23
 msgid "Term"
@@ -5265,8 +5728,9 @@ msgstr ""
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:19
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:19
+#, fuzzy
 msgid "`Get Started with Scripting <../../script/get-started-with-scripting>`_"
-msgstr ""
+msgstr ":doc:`スクリプト作成を始めよう <../../script/get-started-with-scripting>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:20
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:20
@@ -5401,8 +5865,9 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:23
 #: ../../source/create/entities/boombox-tutorial.rst:172
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:68
+#, fuzzy
 msgid ":doc:`Write Your Own Scripts <../../script/write-scripts>`"
-msgstr ""
+msgstr ":doc:`スクリプトを作成する <../script/write-scripts>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:67
 #: ../../source/create/entities/boombox-tutorial.rst:173
