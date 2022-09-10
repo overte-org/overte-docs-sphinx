@@ -10,17 +10,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-08-10 12:42+0000\n"
+"POT-Creation-Date: 2022-09-10 10:20+0000\n"
 "PO-Revision-Date: 2022-08-23 04:23+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
-"overte-documentation/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/overte"
+"/overte-documentation/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.14-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/shared.rst
@@ -77,7 +75,7 @@ msgstr ""
 
 #: ../../source/contribute.rst:11
 msgid ""
-"If you run into an questions or seek some advice, have a look at our "
+"If you run into any questions or seek some advice, have a look at our "
 "`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which "
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
@@ -1522,9 +1520,8 @@ msgid ""
 "in the material’s albedo texture, as a PNG file with transparency and "
 "*not* as a separate transparency texture."
 msgstr ""
-"テクスチャで透明度を設定する場合、透明度（アルファ）はマテリアルのアルベドテ"
-"クスチャ(Albedo texture)に、透明度を持つPNGファイルとして、別の透明度テクスチ"
-"ャとしてではなく、含まれている必要があります。"
+"テクスチャで透明度を設定する場合、透明度（アルファ）はマテリアルのアルベドテクスチャ(Albedo "
+"texture)に、透明度を持つPNGファイルとして、別の透明度テクスチャとしてではなく、含まれている必要があります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
 #, fuzzy
@@ -1533,10 +1530,7 @@ msgid ""
 "(255 graduates steps of transparency, no shading on surface, casts no "
 "shadows,) and \"mask\" (binary transparency, full shading of opaque "
 "surface, whole surface casts shadow.)"
-msgstr ""
-"Vircadiaのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255"
-"段階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不"
-"透明な表面の完全な影、表面全体に影を落とす)です。"
+msgstr "Vircadiaのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255段階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不透明な表面の完全な影、表面全体に影を落とす)です。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:96
 #, fuzzy
@@ -1546,10 +1540,7 @@ msgid ""
 " mask texture is to save your image as a PNG-8 since it only supports "
 "binary transparency, while PNG-24 supports a range of transparency "
 "levels."
-msgstr ""
-"テクスチャをマスクとして扱うかアルファとして扱うかを決定するために、エンジン"
-"は2%から98%の間のアルファ値を探します。PNG-8は2値の透明度しかサポートしていま"
-"せんが、PNG-24はさまざまな透明度をサポートしているからです。"
+msgstr "テクスチャをマスクとして扱うかアルファとして扱うかを決定するために、エンジンは2%から98%の間のアルファ値を探します。PNG-8は2値の透明度しかサポートしていませんが、PNG-24はさまざまな透明度をサポートしているからです。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:98
 #, fuzzy
@@ -1557,9 +1548,8 @@ msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Emissive Texture, Normal Map and Ambient Occlusion."
 msgstr ""
-"以下のテクスチャチャンネルのみで2つ目のUVセットを使用することをサポートします"
-"： エミッシブマテリアル（Emissive Texture）、法線マップ（Normal "
-"Map）、アンビエントオクルージョン（Ambient Occlusion）。"
+"以下のテクスチャチャンネルのみで2つ目のUVセットを使用することをサポートします： エミッシブマテリアル（Emissive "
+"Texture）、法線マップ（Normal Map）、アンビエントオクルージョン（Ambient Occlusion）。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:102
 #, fuzzy
@@ -1578,14 +1568,12 @@ msgid ""
 "org/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
 " in Overte to upload all sample objects in your domain."
 msgstr ""
-"Vircadiaは様々な種類のマテリアルをサポートしています。それぞれのマテリアルタ"
-"イプでサンプルオブジェクトを作成しました。GitHubの `このリポジトリ "
-"<https://github.com/vircadia/hifi_tests/tree/master/assets/models/"
-"material_matrix_models/fbx/blender>` から各オブジェクトをダウンロードするか、"
-"Vircadiaで `このスクリプト<https://raw.githubusercontent.com/vircadia/"
-"hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>` "
-"を実行すると、あなたのドメイン内のすべてのサンプルオブジェクトをアップロード"
-"することができます。"
+"Vircadiaは様々な種類のマテリアルをサポートしています。それぞれのマテリアルタイプでサンプルオブジェクトを作成しました。GitHubの "
+"`このリポジトリ "
+"<https://github.com/vircadia/hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`"
+" から各オブジェクトをダウンロードするか、Vircadiaで "
+"`このスクリプト<https://raw.githubusercontent.com/vircadia/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`"
+" を実行すると、あなたのドメイン内のすべてのサンプルオブジェクトをアップロードすることができます。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:111
 #, fuzzy
@@ -1595,10 +1583,9 @@ msgid ""
 "<../../_static/resources/3d-"
 "models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
-"これらのサンプルオブジェクトのすべてのマテリアル情報（テクスチャ、シェーディ"
-"ング、チャンネル値やマップを含む）を `ここに<../../_static/resources/"
-"3d-models/Sample_Material_Textures_and_Shading_Guide.html>` "
-"リストアップしました。"
+"これらのサンプルオブジェクトのすべてのマテリアル情報（テクスチャ、シェーディング、チャンネル値やマップを含む）を "
+"`ここに<../../_static/resources/3d-"
+"models/Sample_Material_Textures_and_Shading_Guide.html>` リストアップしました。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:116
 #, fuzzy
@@ -1617,11 +1604,7 @@ msgid ""
 "GLB or OBJ format to use in Overte. Additionally, you have to modify "
 "material properties and textures in Blender to match the PBR material "
 "textures in Overte."
-msgstr ""
-"Blenderでモデルを作成したら、Vircadiaで使うためにFBX、glTF、GLBまたはOBJフォ"
-"ーマットでエクスポートする必要があります。さらに、VircadiaのPBRマテリアルテク"
-"スチャに合わせるために、Blenderのマテリアルプロパティとテクスチャを修正する必"
-"要があります。"
+msgstr "Blenderでモデルを作成したら、Vircadiaで使うためにFBX、glTF、GLBまたはOBJフォーマットでエクスポートする必要があります。さらに、VircadiaのPBRマテリアルテクスチャに合わせるために、Blenderのマテリアルプロパティとテクスチャを修正する必要があります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:125
 #, fuzzy
@@ -1637,11 +1620,8 @@ msgid ""
 "will multiplied together. This can be useful for creating highly "
 "performant colored models using grey-scale textures and vertex colors."
 msgstr ""
-"デフォルトでは、テクスチャで設定されたマテリアルのプロパティは、値で設定され"
-"たプロパティより優先されます。唯一の例外は、頂点カラー(Vertex color)とテクス"
-"チャの場合で、この場合、頂点カラーとテクスチャは一緒に乗算されます。これは、"
-"グレースケールのテクスチャと頂点カラーを使用して、パフォーマンスの高いカラー"
-"モデルを作成する場合に便利です。"
+"デフォルトでは、テクスチャで設定されたマテリアルのプロパティは、値で設定されたプロパティより優先されます。唯一の例外は、頂点カラー(Vertex "
+"color)とテクスチャの場合で、この場合、頂点カラーとテクスチャは一緒に乗算されます。これは、グレースケールのテクスチャと頂点カラーを使用して、パフォーマンスの高いカラーモデルを作成する場合に便利です。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:130
 #, fuzzy
@@ -1651,11 +1631,7 @@ msgid ""
 "values and colors correspond to the range corresponding with that "
 "channel. It should be noted that models exported as OBJ may not have full"
 " PBR material support in Overte yet."
-msgstr ""
-"Blenderでサポートされている各PBRチャンネルに対応するフィールドがハイライトさ"
-"れている画像と、そのチャンネルに対応する範囲にどの値と色が対応しているかの詳"
-"細が含まれています。OBJとしてエクスポートされたモデルは、Vircadiaの完全なPBR"
-"マテリアルサポートをまだ持っていない可能性があることに留意してください。"
+msgstr "Blenderでサポートされている各PBRチャンネルに対応するフィールドがハイライトされている画像と、そのチャンネルに対応する範囲にどの値と色が対応しているかの詳細が含まれています。OBJとしてエクスポートされたモデルは、Vircadiaの完全なPBRマテリアルサポートをまだ持っていない可能性があることに留意してください。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:139
 #, fuzzy
@@ -1665,16 +1641,14 @@ msgstr "Mayaでマテリアル値を設定する"
 #: ../../source/create/3d-models/pbr-materials-guide.rst:144
 #, fuzzy
 msgid "This section hasn't been tested in a long while and might be outdated."
-msgstr "このセクションは長い間テストされていないので、古くなっている可能性があります"
-"。"
+msgstr "このセクションは長い間テストされていないので、古くなっている可能性があります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:146
 #, fuzzy
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
-msgstr "以下のグラフィックスを使用して、Mayaで適切なマテリアル値とテクスチャを設定し"
-"ます。"
+msgstr "以下のグラフィックスを使用して、Mayaで適切なマテリアル値とテクスチャを設定します。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:155
 #, fuzzy
@@ -1682,8 +1656,8 @@ msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
 "content>`"
 msgstr ""
-":doc:`オーブン(Oven)を使ってコンテンツをベイク(Bake)には <../../host/"
-"add-content/bake-content>`"
+":doc:`オーブン(Oven)を使ってコンテンツをベイク(Bake)には <../../host/add-content/bake-"
+"content>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:156
 #, fuzzy
@@ -1695,8 +1669,7 @@ msgstr ":doc:`マテリアルエンティティを追加するには <../entitie
 msgid ""
 "This document is outdated. FIXME: Uses HiFi hosted resources, potentially"
 " more."
-msgstr "このドキュメントは古くなっています。改定: HiFi "
-"ホストされたリソースを使用するようになりました。"
+msgstr "このドキュメントは古くなっています。改定: HiFi ホストされたリソースを使用するようになりました。"
 
 #: ../../source/create/applications.rst:9
 #, fuzzy
@@ -1705,8 +1678,7 @@ msgid ""
 " FOR REFERENCE ONLY UNTIL UPDATED. SEE `API "
 "DOCS<https://apidocs.overte.org/>` FOR MORE."
 msgstr ""
-"このガイドは古くなりました。このコードは、概要通りに動作しない場合があります"
-"ので、更新されるまでは参考程度にご利用ください。詳細は `API "
+"このガイドは古くなりました。このコードは、概要通りに動作しない場合がありますので、更新されるまでは参考程度にご利用ください。詳細は `API "
 "DOCS<https://apidocs.vircadia.dev/>` を参照してください。"
 
 #: ../../source/create/applications.rst:11
@@ -1717,18 +1689,16 @@ msgid ""
 " complex code from our `JavaScript API <https://apidocs.overte.org>`_ and"
 " simplify it into a window with controls for others to use."
 msgstr ""
-"Vircadiaのタブレットアプリ(または「アプリ」)は、使いやすいユーザーインターフ"
-"ェイスで機能を公開するカスタマイズ可能なプログラムです。アプリでは、 `"
-"JavaScript API <https://apidocs.vircadia.dev>` から複雑なコードを取り出し、他"
-"の人が使えるようにコントロールを備えたウィンドウに簡素化することができます。"
+"Vircadiaのタブレットアプリ(または「アプリ」)は、使いやすいユーザーインターフェイスで機能を公開するカスタマイズ可能なプログラムです。アプリでは、"
+" `JavaScript API <https://apidocs.vircadia.dev>` "
+"から複雑なコードを取り出し、他の人が使えるようにコントロールを備えたウィンドウに簡素化することができます。"
 
 #: ../../source/create/applications.rst:15
 #, fuzzy
 msgid ""
 "To create custom apps, you must have a basic knowledge of web development"
 " (HTML, CSS and JavaScript) and be able to navigate our API."
-msgstr "カスタムアプリを作成するには、Web開発の基礎知識（HTML、CSS、JavaScript）と、"
-"当社のAPIを使いこなせることが必要です。"
+msgstr "カスタムアプリを作成するには、Web開発の基礎知識（HTML、CSS、JavaScript）と、当社のAPIを使いこなせることが必要です。"
 
 #: ../../source/create/applications.rst:17
 #, fuzzy
@@ -1741,8 +1711,8 @@ msgid ""
 "`Create icons to show up on the tablet and HUD <#create-icons-to-show-up-"
 "on-the-tablet-and-hud>`_"
 msgstr ""
-"`タブレットとHUDに表示するアイコンを作成する <#create-icons-to-show-up-on-"
-"the-tablet-and-hud>`_"
+"`タブレットとHUDに表示するアイコンを作成する <#create-icons-to-show-up-on-the-tablet-and-"
+"hud>`_"
 
 #: ../../source/create/applications.rst:20
 #, fuzzy
@@ -1756,8 +1726,7 @@ msgstr "`アプリのUIをHTMLとCSSでデザインする <#design-your-apps-ui-
 msgid ""
 "`Add event handlers to your HTML file <#add-event-handlers-to-your-html-"
 "file>`_"
-msgstr "`イベントハンドラをHTMLファイルに追加する <#add-event-handlers-to-your-html-"
-"file>`_"
+msgstr "`イベントハンドラをHTMLファイルに追加する <#add-event-handlers-to-your-html-file>`_"
 
 #: ../../source/create/applications.rst:22
 #, fuzzy
@@ -1803,9 +1772,8 @@ msgid ""
 "called \"Gemstone Magic Maker\". This simple app lets you spawn colorful "
 "little gemstones in VR that you can share with your friends."
 msgstr ""
-"このチュートリアルでは、上記の手順を経て、「Gemstone Magic Maker」というアプ"
-"リを作成します。このシンプルなアプリでは、VRでカラフルな小さな宝石を産み出し"
-"、友達と共有することができます。"
+"このチュートリアルでは、上記の手順を経て、「Gemstone Magic "
+"Maker」というアプリを作成します。このシンプルなアプリでは、VRでカラフルな小さな宝石を産み出し、友達と共有することができます。"
 
 #: ../../source/create/applications.rst:38
 #, fuzzy
@@ -1820,11 +1788,9 @@ msgid ""
 "``<appName>-a.svg`` and another to display when the app is inactive, "
 "usually named ``<appName>-i.svg``."
 msgstr ""
-"タブレットとHUDに表示するアイコンが2つ必要です。アプリがアクティブなときにア"
-"プリボタンに表示するSVGまたはPNG画像で、通常 ``<appName>-a.svg`` "
-"という名前にします。また、"
-"アプリが非アクティブなときに表示するもう一つの画像で通常 ``<appName>-i.svg`` "
-"という名前にします。"
+"タブレットとHUDに表示するアイコンが2つ必要です。アプリがアクティブなときにアプリボタンに表示するSVGまたはPNG画像で、通常 "
+"``<appName>-a.svg`` という名前にします。また、アプリが非アクティブなときに表示するもう一つの画像で通常 "
+"``<appName>-i.svg`` という名前にします。"
 
 #: ../../source/create/applications.rst:44
 #, fuzzy
@@ -1841,8 +1807,7 @@ msgstr "Size: 50px × 50px"
 msgid ""
 "Color: White on a transparent background (for inactive icons) and black "
 "on a transparent background (for active icons)"
-msgstr "色：透明な背景に黒（アクティブアイコン用）、透明な背景に白（非アクティブアイ"
-"コン用）"
+msgstr "色：透明な背景に黒（アクティブアイコン用）、透明な背景に白（非アクティブアイコン用）"
 
 #: ../../source/create/applications.rst:48
 #, fuzzy
@@ -1854,8 +1819,7 @@ msgstr "ファイルフォーマット：SVG または PNG"
 msgid ""
 "You can create your own icon using graphic design software or any other "
 "online resources."
-msgstr "グラフィックデザインソフトウェアやその他のオンラインリソースを使用して、独自"
-"のアイコンを作成します。"
+msgstr "グラフィックデザインソフトウェアやその他のオンラインリソースを使用して、独自のアイコンを作成します。"
 
 #: ../../source/create/applications.rst:54
 #, fuzzy
@@ -1870,10 +1834,8 @@ msgid ""
 "scroll bars, and links). Keep in mind that the tablet screen dimensions "
 "are 480 x 720, so all of your UI should be confined to this space."
 msgstr ""
-"アプリのUIは、アプリの動作に関するテキストを提供し、ユーザーが操作方法を知っ"
-"ている馴染みのあるUI要素（ボタン、スクロールバー、リンクなど）を使用する必要"
-"があります。タブレットの画面サイズは480 x 720であるため、すべてのUIはこのスペ"
-"ースに収まるようにする必要があることに留意してください。"
+"アプリのUIは、アプリの動作に関するテキストを提供し、ユーザーが操作方法を知っている馴染みのあるUI要素（ボタン、スクロールバー、リンクなど）を使用する必要があります。タブレットの画面サイズは480"
+" x 720であるため、すべてのUIはこのスペースに収まるようにする必要があることに留意してください。"
 
 #: ../../source/create/applications.rst:58
 #, fuzzy
@@ -1885,12 +1847,11 @@ msgid ""
 "for your app title. With just a few simple modifications, you can create "
 "have a simple app UI within minutes."
 msgstr ""
-"これから使い始めるあたなに役立つように、再利用できる `クイック スタート HTML "
-"テンプレート <https://hifi-content.s3.amazonaws.com/faye/tablet-sample-app/"
-"quick_start_template.html>` をまとめました。メイン "
-"メニュー画面と同じレイアウト、スタイル、フォントが含まれており、アプリ "
-"タイトルのヘッダー バーがあります。いくつかの簡単な変更を加えるだけで、"
-"数分でシンプルなアプリ UI を作成できます。"
+"これから使い始めるあたなに役立つように、再利用できる `クイック スタート HTML テンプレート <https://hifi-"
+"content.s3.amazonaws.com/faye/tablet-sample-"
+"app/quick_start_template.html>` をまとめました。メイン "
+"メニュー画面と同じレイアウト、スタイル、フォントが含まれており、アプリ タイトルのヘッダー "
+"バーがあります。いくつかの簡単な変更を加えるだけで、数分でシンプルなアプリ UI を作成できます。"
 
 #: ../../source/create/applications.rst:64
 #, fuzzy
@@ -1907,10 +1868,9 @@ msgid ""
 "``<script> </script>`` tags in the body of your HTML file to handle the "
 "button clicks::"
 msgstr ""
-"Tablet UIフレームワークは、EventBridgeという通信チャネルを提供しています。こ"
-"れにより、クライアントスクリプト (gemstoneApp.js) と Web アプリの JavaScript "
-"(gemstoneMagicMaker.html) の間で、イベントを送受信することができます。"
-"HTMLファイルの本文中の ``<script> </script>`` "
+"Tablet UIフレームワークは、EventBridgeという通信チャネルを提供しています。これにより、クライアントスクリプト "
+"(gemstoneApp.js) と Web アプリの JavaScript (gemstoneMagicMaker.html) "
+"の間で、イベントを送受信することができます。HTMLファイルの本文中の ``<script> </script>`` "
 "タグ内に以下のEventBridgeコードを記述して、ボタンのクリックを処理します::"
 
 #: ../../source/create/applications.rst:94
@@ -1926,11 +1886,7 @@ msgid ""
 "the tablet and HUD, loads your app, closes your app gracefully, and "
 "listens for events. Below, you will find code samples to do each of these"
 " things."
-msgstr ""
-"JavaScriptファイルには、アプリのコア機能がすべて含まれます。最低限、タブレッ"
-"トとHUDにボタンを追加し、アプリをロードし、アプリを適切に終了させ、イベントを"
-"待ち受けるコードを用意することが必要です。以下に、これらの各機能を実行するコ"
-"ードサンプルを示します。"
+msgstr "JavaScriptファイルには、アプリのコア機能がすべて含まれます。最低限、タブレットとHUDにボタンを追加し、アプリをロードし、アプリを適切に終了させ、イベントを待ち受けるコードを用意することが必要です。以下に、これらの各機能を実行するコードサンプルを示します。"
 
 #: ../../source/create/applications.rst:98
 #, fuzzy
@@ -1942,8 +1898,7 @@ msgstr "**タブレットと HUD にボタンを追加**"
 msgid ""
 "Use the AppUI module to automatically add your app’s button to the tablet"
 " and HUD, and to wire button click handlers::"
-msgstr "AppUIモジュールを使って、アプリのボタンをタブレットやHUDに自動的に追加したり"
-"、ボタンのクリックハンドラを配備したりします："
+msgstr "AppUIモジュールを使って、アプリのボタンをタブレットやHUDに自動的に追加したり、ボタンのクリックハンドラを配備したりします："
 
 #: ../../source/create/applications.rst:116
 #, fuzzy
@@ -1956,8 +1911,7 @@ msgid ""
 "If you want your app to do something specific when it is opened, use the "
 "AppUI module's  ``onOpened`` functionality. For example, you could:"
 msgstr ""
-"もし、アプリが起動したときに何か特定の動作をさせたい場合は、"
-"AppUIモジュールの ``onOpened`` "
+"もし、アプリが起動したときに何か特定の動作をさせたい場合は、AppUIモジュールの ``onOpened`` "
 "関数を使ってください。例えば、以下のようになります。"
 
 #: ../../source/create/applications.rst:120
@@ -1990,9 +1944,8 @@ msgid ""
 "``onClosed`` functionality built into the AppUI module. For example, you "
 "could:"
 msgstr ""
-"AppUIモジュールは、アプリを確実に終了させます。しかし、アプリを閉じるときに何"
-"か他のことをしたい場合は、AppUIモジュールに組み込まれた ``onClosed`` "
-"機能を使用することができます。例えば、以下のようなことが可能です："
+"AppUIモジュールは、アプリを確実に終了させます。しかし、アプリを閉じるときに何か他のことをしたい場合は、AppUIモジュールに組み込まれた "
+"``onClosed`` 機能を使用することができます。例えば、以下のようなことが可能です："
 
 #: ../../source/create/applications.rst:150
 #, fuzzy
@@ -2017,8 +1970,7 @@ msgid ""
 "file to listen for the events::"
 msgstr ""
 "上記のステップ3では、 `イベントハンドラ <#add-event-handlers-to-your-files>` "
-"をHTMLファイルに追加しました。次に、JavaScriptファイルに、イベントをリッスン"
-"するコードを追加する必要があります："
+"をHTMLファイルに追加しました。次に、JavaScriptファイルに、イベントをリッスンするコードを追加する必要があります："
 
 #: ../../source/create/applications.rst:191
 #, fuzzy
@@ -2033,10 +1985,8 @@ msgid ""
 " will be created as an entity, and we can change the gemstone's "
 "properties using the ``Entity`` namespace."
 msgstr ""
-"最後のステップは、JavaScript "
-"ファイルの動作をコーディングすることです。この場合、Vircadia の JavaScript "
-"API を使用して宝石を作成します。各宝石はエンティティとして作成され、エンティ"
-"ティ名前空間を使用して宝石のプロパティを変更できます。"
+"最後のステップは、JavaScript ファイルの動作をコーディングすることです。この場合、Vircadia の JavaScript API "
+"を使用して宝石を作成します。各宝石はエンティティとして作成され、エンティティ名前空間を使用して宝石のプロパティを変更できます。"
 
 #: ../../source/create/applications.rst:195
 #, fuzzy
@@ -2058,8 +2008,7 @@ msgstr "**宝石のプロパティを設定し、追加する**"
 msgid ""
 "The gemstone will be created when gemstoneApp.js receives click events "
 "from each of the buttons::"
-msgstr "宝石は、gemstoneApp."
-"jsが各ボタンからのクリックイベントを受信したときに作成されます："
+msgstr "宝石は、gemstoneApp.jsが各ボタンからのクリックイベントを受信したときに作成されます："
 
 #: ../../source/create/applications.rst:289
 #, fuzzy
@@ -2069,10 +2018,9 @@ msgid ""
 "Storage, Microsoft Azure, etc. Once hosted, you can install it and use "
 "it:"
 msgstr ""
-"おめでとうございます！Vircadiaでアプリを作成することに成功しました。作成した"
-"アプリを使用するには、Amazon S3、Google Cloud Storage、Microsoft Azureなどの"
-"クラウドプラットフォームにアプリをアップロードしてください。一度ホストされる"
-"と、インストールして使用することができます。"
+"おめでとうございます！Vircadiaでアプリを作成することに成功しました。作成したアプリを使用するには、Amazon S3、Google "
+"Cloud Storage、Microsoft "
+"Azureなどのクラウドプラットフォームにアプリをアップロードしてください。一度ホストされると、インストールして使用することができます。"
 
 #: ../../source/create/applications.rst:291
 #, fuzzy
@@ -2084,8 +2032,7 @@ msgstr "Interfaceで、 **Edit > Running Scripts** を選択します。"
 msgid ""
 "Under Load Scripts, click 'From URL' and enter the URL to your hosted "
 "JavaScript file."
-msgstr "「Load Scripts」から「From URL」をクリックし、ホストされている JavaScript "
-"ファイルへの URL を入力します。"
+msgstr "「Load Scripts」から「From URL」をクリックし、ホストされている JavaScript ファイルへの URL を入力します。"
 
 #: ../../source/create/applications.rst:293
 #, fuzzy
@@ -2167,12 +2114,7 @@ msgid ""
 "time in Overte unique by creating an avatar of your own. All custom "
 "avatars must be hosted somewhere in the cloud so that Overte can access "
 "it."
-msgstr ""
-"Vircadiaを初めて利用するときは、デフォルトのアバターを装着しています。アバタ"
-"ーは、メタバースにおけるあなたを表現するものです。自分のアバターを作成するこ"
-"とで、Vircadiaでの時間をユニークにすることができます。すべてのカスタムアバタ"
-"ーは、Vircadiaがアクセスできるように、クラウドのどこかにホストされている必要"
-"があります。"
+msgstr "Vircadiaを初めて利用するときは、デフォルトのアバターを装着しています。アバターは、メタバースにおけるあなたを表現するものです。自分のアバターを作成することで、Vircadiaでの時間をユニークにすることができます。すべてのカスタムアバターは、Vircadiaがアクセスできるように、クラウドのどこかにホストされている必要があります。"
 
 #: ../../source/create/avatars/add-flow.rst:2
 #, fuzzy
@@ -2189,12 +2131,7 @@ msgid ""
 " avatar's flow settings using the `Flow App "
 "<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_."
 " In order to use the Flow App, your avatar must contain flow threads."
-msgstr ""
-"Vircadiaのフロー機能を使えば、少しのスクリプトでアバターの髪、服、体のパーツ"
-"の物理をシミュレートすることができます。「フロー(Flow)」のコンセプトは、アバ"
-"ターの髪や他のアタッチメントの自然な動きを簡単に模倣することです。フローアプ"
-"リを使えば、アバターのフロー設定を簡単に変更することができます。フローアプリ"
-"を使うには、あなたのアバターにフロースレッドが含まれていなければなりません。"
+msgstr "Vircadiaのフロー機能を使えば、少しのスクリプトでアバターの髪、服、体のパーツの物理をシミュレートすることができます。「フロー(Flow)」のコンセプトは、アバターの髪や他のアタッチメントの自然な動きを簡単に模倣することです。フローアプリを使えば、アバターのフロー設定を簡単に変更することができます。フローアプリを使うには、あなたのアバターにフロースレッドが含まれていなければなりません。"
 
 #: ../../source/create/avatars/add-flow.rst:16
 #, fuzzy
@@ -2207,10 +2144,7 @@ msgid ""
 "In order to use the Flow technology, your avatar must contain flow "
 "threads, which are sets of connected joints in your avatar. Each flow "
 "thread must comply with the following rules:"
-msgstr ""
-"フロー技術を使用するには、アバター内にフロースレッド（接続されたジョイントの"
-"集合）が含まれている必要があります。各フロースレッドは、以下のルールに従わな"
-"ければなりません。"
+msgstr "フロー技術を使用するには、アバター内にフロースレッド（接続されたジョイントの集合）が含まれている必要があります。各フロースレッドは、以下のルールに従わなければなりません。"
 
 #: ../../source/create/avatars/add-flow.rst:20
 #, fuzzy
@@ -2228,12 +2162,10 @@ msgid ""
 "thread is used to simulate a skirt, all the \"skirt\" joints are named "
 "flow_skirt_01, flow_skirt_02, etc."
 msgstr ""
-"スレッドのすべてのジョイントは ``flow_[TYPE]_[INDEX]`` または "
-"``sim[TYPE][INDEX]`` という名前でなければなりません。ここで **TYPE** "
-"は共通の物理設定を共有するジョイントのグループ、 **INDEX** は整数値で定義され"
-"ます。例えば、このスレッドがスカートのシミュレーションに使用される場合、すべ"
-"ての「スカート」ジョイントは flow_skirt_01、 "
-"flow_skirt_02などと名付けられます。"
+"スレッドのすべてのジョイントは ``flow_[TYPE]_[INDEX]`` または ``sim[TYPE][INDEX]`` "
+"という名前でなければなりません。ここで **TYPE** は共通の物理設定を共有するジョイントのグループ、 **INDEX** "
+"は整数値で定義されます。例えば、このスレッドがスカートのシミュレーションに使用される場合、すべての「スカート」ジョイントは "
+"flow_skirt_01、 flow_skirt_02などと名付けられます。"
 
 #: ../../source/create/avatars/add-flow.rst:25
 #, fuzzy
@@ -2243,8 +2175,8 @@ msgid ""
 " whose hair has flow threads already configured."
 msgstr ""
 "髪の流れが設定されている `マネキン（Mannequin with Hair） <https://hifi-"
-"content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8."
-"fst>` を使って、試してみてください。"
+"content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`"
+" を使って、試してみてください。"
 
 #: ../../source/create/avatars/add-flow.rst:29
 #: ../../source/create/avatars/add-flow.rst:117
@@ -2260,17 +2192,17 @@ msgid ""
 " into Overte to configure your flow settings. See :doc:`Load an Interface"
 " Script </script/interface-scripts>`"
 msgstr ""
-"Vircadiaに `Flowアプリ <https://docs.vircadia.com/_static/resources/script/"
-"flow/flowAppCpp/flowAppCpp.js>` をロードして、フロー設定を行います。 "
-":doc:`インターフェーススクリプトの読み込み</script/interface-scripts>` を参照"
+"Vircadiaに `Flowアプリ "
+"<https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`"
+" をロードして、フロー設定を行います。 :doc:`インターフェーススクリプトの読み込み</script/interface-scripts>` "
+"を参照"
 
 #: ../../source/create/avatars/add-flow.rst:33
 #, fuzzy
 msgid ""
 "The Flow app will show up as an icon on your HUD or tablet. Click this "
 "icon to open the Flow app."
-msgstr "HUDやタブレットにFlowアプリがアイコンとして表示されます。このアイコンをクリッ"
-"クすると、Flowアプリが起動します。"
+msgstr "HUDやタブレットにFlowアプリがアイコンとして表示されます。このアイコンをクリックすると、Flowアプリが起動します。"
 
 #: ../../source/create/avatars/add-flow.rst:39
 #, fuzzy
@@ -2284,9 +2216,8 @@ msgid ""
 " open. Using these options, you can choose to view meshes and collisions "
 "to help you determine what your final flow configuration will look like."
 msgstr ""
-"**Display** パネルは、Flowアプリを開いている間のアバターの見え方に影響します"
-"。これらのオプションを使用して、メッシュとコリジョン(Collision)を表示すること"
-"を選択し、最終的なフロー構成がどのように見えるかを判断するのに役立ちます。"
+"**Display** "
+"パネルは、Flowアプリを開いている間のアバターの見え方に影響します。これらのオプションを使用して、メッシュとコリジョン(Collision)を表示することを選択し、最終的なフロー構成がどのように見えるかを判断するのに役立ちます。"
 
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
@@ -2346,8 +2277,7 @@ msgstr "関節（Joint）パネル"
 msgid ""
 "The **Joints** panel lists all of the available flow threads, and lets "
 "you configure the behavior of your joints."
-msgstr "**関節（Joint）**パネルでは、利用可能なすべてのフロースレッドが一覧表示され、"
-"ジョイントの動作を設定することができます。"
+msgstr "**関節（Joint）**パネルでは、利用可能なすべてのフロースレッドが一覧表示され、ジョイントの動作を設定することができます。"
 
 #: ../../source/create/avatars/add-flow.rst:68
 #: ../../source/create/avatars/add-flow.rst:94
@@ -2374,10 +2304,7 @@ msgid ""
 "lift your joints in the air, while a negative value will respond to "
 "gravity and be pulled towards the ground. Larger values will cause the "
 "movement to happen more quickly."
-msgstr ""
-"各ジョイントが重力に対してどのように反応するかを設定します。正の値を設定する"
-"と関節が空中に浮き上がり、負の値を設定すると重力に反応して地面に引っ張られま"
-"す。値を大きくすると、より素早く動作します。"
+msgstr "各ジョイントが重力に対してどのように反応するかを設定します。正の値を設定すると関節が空中に浮き上がり、負の値を設定すると重力に反応して地面に引っ張られます。値を大きくすると、より素早く動作します。"
 
 #: ../../source/create/avatars/add-flow.rst:74
 #, fuzzy
@@ -2434,11 +2361,9 @@ msgid ""
 "distance between the flow thread and the joint. You can only have a "
 "maximum of 4 collisions defined for your avatar."
 msgstr ""
-"**コリジョン（Collision）** パネルは、フロースレッドとアバターのジョイントの"
-"間の相互作用を定義するコリジョンスフィア（Collision spher）をコントロールしま"
-"す。各コリジョン球は、既存のアバタージョイントとオフセットを使って配置されま"
-"す。コリジョン球の半径を大きくすると、フロースレッドとジョイントの間の距離が"
-"長くなります。アバターには最大4つのコリジョンしか定義できません。"
+"**コリジョン（Collision）** "
+"パネルは、フロースレッドとアバターのジョイントの間の相互作用を定義するコリジョンスフィア（Collision "
+"spher）をコントロールします。各コリジョン球は、既存のアバタージョイントとオフセットを使って配置されます。コリジョン球の半径を大きくすると、フロースレッドとジョイントの間の距離が長くなります。アバターには最大4つのコリジョンしか定義できません。"
 
 #: ../../source/create/avatars/add-flow.rst:94
 #, fuzzy
@@ -2468,8 +2393,7 @@ msgid ""
 "the `Collisions Panel`_."
 msgstr ""
 "**出力** パネルには、`Joints Panel` と `Collisions Panel` "
-"で入力した内容に基づいて、アバターのフロー設定に対する FST "
-"データの結果が表示されます。"
+"で入力した内容に基づいて、アバターのフロー設定に対する FST データの結果が表示されます。"
 
 #: ../../source/create/avatars/add-flow.rst:105
 #, fuzzy
@@ -2500,8 +2424,7 @@ msgstr "URL"
 msgid ""
 "This app lets users easily update Flow settings without the need for "
 "scripting or advanced knowledge of avatars."
-msgstr "このアプリは、スクリプトやアバターに関する高度な知識がなくても、ユーザーが簡"
-"単にFlowの設定を更新できるようにするものです。"
+msgstr "このアプリは、スクリプトやアバターに関する高度な知識がなくても、ユーザーが簡単にFlowの設定を更新できるようにするものです。"
 
 #: ../../source/create/avatars/add-flow.rst:117
 msgid ""
@@ -2519,8 +2442,7 @@ msgstr "Mannequin with Hair"
 msgid ""
 "This avatar is properly rigged to work with Flow. Use this as an example "
 "for your own avatar models."
-msgstr "このアバターは、Flowで動作するように適切に構成されています。あなた自身のアバ"
-"ターモデルの例としてお使いください。"
+msgstr "このアバターは、Flowで動作するように適切に構成されています。あなた自身のアバターモデルの例としてお使いください。"
 
 #: ../../source/create/avatars/add-flow.rst:121
 #, fuzzy
@@ -2528,8 +2450,8 @@ msgid ""
 "`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
 " Mannequin/hairTest/mannequinHairTest8. fst>`_"
 msgstr ""
-"`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/ "
-"Mannequin/hairTest/mannequinHairTest8. fst>`_"
+"`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
+" Mannequin/hairTest/mannequinHairTest8. fst>`_"
 
 #: ../../source/create/avatars/add-flow.rst:129
 #: ../../source/create/avatars/custom-animations.rst:271
@@ -2570,12 +2492,8 @@ msgid ""
 "avatar can be fine-tuned using blendshapes to animate the face and "
 "scripting to define advanced behaviors."
 msgstr ""
-"この文書では、[アバターを作成する](create-avatars)ときに従うべき基準の概要を"
-"説明します。アバターはボーンを使って、キャラクターの手足をアニメーション化し"
-"、手足のスケール変数を定義します。カスタムボーンを追加して、アバターの形状を"
-"さらに調整することができます。アバターのカスタマイズは、ブレンドシェイプを使"
-"った顔のアニメーションや、スクリプトを使った高度な動作の定義で細かく調整する"
-"ことができます。"
+"この文書では、[アバターを作成する](create-"
+"avatars)ときに従うべき基準の概要を説明します。アバターはボーンを使って、キャラクターの手足をアニメーション化し、手足のスケール変数を定義します。カスタムボーンを追加して、アバターの形状をさらに調整することができます。アバターのカスタマイズは、ブレンドシェイプを使った顔のアニメーションや、スクリプトを使った高度な動作の定義で細かく調整することができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:10
 #: ../../source/create/entities/avatar-interactions.md:5
@@ -2638,8 +2556,7 @@ msgstr "用語集"
 msgid ""
 "As we delve deeper into creating custom avatars, we may use terminology "
 "that you are unfamiliar with. Here are some terms you might come across:"
-msgstr "カスタムアバターの制作を進めていくと、聞き慣れない用語が出てくることがありま"
-"す。ここでは、そのような用語について説明します。"
+msgstr "カスタムアバターの制作を進めていくと、聞き慣れない用語が出てくることがあります。ここでは、そのような用語について説明します。"
 
 #: ../../source/create/avatars/avatar-standards.md:22
 #, fuzzy
@@ -2651,8 +2568,7 @@ msgstr "アバター（Avatar ） - 人物やNPCを仮想的に表現したも�
 msgid ""
 "Mesh - The collection of 3D vertices and triangles for the avatar model. "
 "Without this, the avatar is invisible."
-msgstr "メッシュ（Mesh）- "
-"アバターモデルの3D頂点と三角形の集合体。これがないと、アバターは見えません。"
+msgstr "メッシュ（Mesh）- アバターモデルの3D頂点と三角形の集合体。これがないと、アバターは見えません。"
 
 #: ../../source/create/avatars/avatar-standards.md:24
 #, fuzzy
@@ -2660,8 +2576,8 @@ msgid ""
 "Bones - A component of a skeleton that defines a \"limb\" such as an arm,"
 " leg, etc. Each bone may be animated as a separate limb in your avatar."
 msgstr ""
-"ボーン（Bone） - 腕、脚などの「手足」を定義するスケルトンの構成要素。各ボーン"
-"は、アバターで個別の手足としてアニメーションさせることができます。"
+"ボーン（Bone） - "
+"腕、脚などの「手足」を定義するスケルトンの構成要素。各ボーンは、アバターで個別の手足としてアニメーションさせることができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:25
 #, fuzzy
@@ -2678,9 +2594,7 @@ msgstr "リギング（Rigging） - アバターモデルのスケルトンを�
 msgid ""
 "Blendshapes - Variations of the topology that defines how the mesh is "
 "modified to create various \"shapes\"."
-msgstr ""
-"ブレンドシェイプ（Blendshap） - 様々な「形状」を作成するためにメッシュをどの"
-"ように修正するかを定義するトポロジーのバリエーションです。"
+msgstr "ブレンドシェイプ（Blendshap） - 様々な「形状」を作成するためにメッシュをどのように修正するかを定義するトポロジーのバリエーションです。"
 
 #: ../../source/create/avatars/avatar-standards.md:28
 #, fuzzy
@@ -2688,8 +2602,8 @@ msgid ""
 "FST file - The main avatar file, which contains information about the "
 "skeleton, blendshapes, FBX file and textures used by an avatar."
 msgstr ""
-"FSTファイル - アバターのメインファイル。アバターが使用するスケルトン、ブレン"
-"ドシェイプ、FBXファイル、テクスチャーに関する情報が含まれています。"
+"FSTファイル - "
+"アバターのメインファイル。アバターが使用するスケルトン、ブレンドシェイプ、FBXファイル、テクスチャーに関する情報が含まれています。"
 
 #: ../../source/create/avatars/avatar-standards.md:31
 #, fuzzy
@@ -2703,8 +2617,8 @@ msgid ""
 "specifications below. You may wish to refer to the properly configured "
 "example avatar fbx with source files."
 msgstr ""
-"Referenceポーズには、以下の仕様に準拠したT-Poseを使用します。正しく設定された"
-"アバターfbxのサンプルとソースファイルを参照してください。"
+"Referenceポーズには、以下の仕様に準拠したT-"
+"Poseを使用します。正しく設定されたアバターfbxのサンプルとソースファイルを参照してください。"
 
 #: ../../source/create/avatars/avatar-standards.md:33
 #, fuzzy
@@ -2716,8 +2630,7 @@ msgstr "キャラクタはZ軸の正の方向に沿って向いている必要�
 msgid ""
 "The arms must be spread along the X-axis. The left arm should therefore "
 "be pointing along the positive direction of the X-axis."
-msgstr "両腕はX軸に沿って広げなければなりません。そのため、左腕はX軸の正の方向に沿っ"
-"て向ける必要があります。"
+msgstr "両腕はX軸に沿って広げなければなりません。そのため、左腕はX軸の正の方向に沿って向ける必要があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:35
 #, fuzzy
@@ -2731,8 +2644,7 @@ msgstr "キャラクターの頭頂部は、Y軸の正の方向で、上にあ�
 msgid ""
 "The character's hands are flat, palms facing the ground, with the thumbs "
 "parallel to the X axis."
-msgstr "キャラクターの手は平らで、手のひらを地面に向けて、親指がX軸と平行になるように"
-"します。"
+msgstr "キャラクターの手は平らで、手のひらを地面に向けて、親指がX軸と平行になるようにします。"
 
 #: ../../source/create/avatars/avatar-standards.md:37
 #, fuzzy
@@ -2741,10 +2653,7 @@ msgid ""
 "pointing along the Z-axis as shown). The feet must not be rotated around "
 "the Y-axis (meaning the toes of the left foot should not point inward "
 "toward the right leg or outward away from the right leg)."
-msgstr ""
-"キャラクタの足は、脚に対して垂直である必要があります（図のようにつま先がZ軸に"
-"沿っている状態）。足はY軸を中心に回転してはいけません（つまり、左足のつま先が"
-"右足の内側を向いたり、右足の外側を向いたりしてはいけないということです）。"
+msgstr "キャラクタの足は、脚に対して垂直である必要があります（図のようにつま先がZ軸に沿っている状態）。足はY軸を中心に回転してはいけません（つまり、左足のつま先が右足の内側を向いたり、右足の外側を向いたりしてはいけないということです）。"
 
 #: ../../source/create/avatars/avatar-standards.md:39
 #, fuzzy
@@ -2758,9 +2667,8 @@ msgid ""
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
-"Vircadiaの標準スケルトンは[こちら](http://hifi-content.s3.amazonaws.com/"
-"Examples%20Content/skeleton/standard_hifi_skeleton."
-"fbx)からダウンロードできます。このスケルトンは上記の仕様に準拠しています。"
+"Vircadiaの標準スケルトンは[こちら](http://hifi-"
+"content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)からダウンロードできます。このスケルトンは上記の仕様に準拠しています。"
 
 #: ../../source/create/avatars/avatar-standards.md:43
 #, fuzzy
@@ -2778,20 +2686,17 @@ msgid ""
 "devices to control their avatar's arm and finger movements (if they have "
 "any)."
 msgstr ""
-"アバターの標準的な人型スケルトンは [HumanIK Skeleton](http://download."
-"autodesk.com/global/docs/maya2014/en_us/index.html?url=files/GUID-"
-"945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) に従って、Mixamo用に若干の修正を加"
-"えたものであるべきです。このスケルトンシステムは、Vircadiaにすでにある入力シ"
-"ステムと連動しており、ユーザーは自分の入力デバイスを使って、アバターの腕や指"
-"の動きをコントロールすることができます（入力デバイスを持っていれば可能）。"
+"アバターの標準的な人型スケルトンは [HumanIK "
+"Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
+"/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) "
+"に従って、Mixamo用に若干の修正を加えたものであるべきです。このスケルトンシステムは、Vircadiaにすでにある入力システムと連動しており、ユーザーは自分の入力デバイスを使って、アバターの腕や指の動きをコントロールすることができます（入力デバイスを持っていれば可能）。"
 
 #: ../../source/create/avatars/avatar-standards.md:46
 #, fuzzy
 msgid ""
 "Overte avatars should match the following standard skeletal structure. "
 "Each of these joints can be animated."
-msgstr "Vircadiaアバターは、以下の標準的な骨格構造に一致する必要があります。これらの"
-"各関節はアニメーションさせることができます。"
+msgstr "Vircadiaアバターは、以下の標準的な骨格構造に一致する必要があります。これらの各関節はアニメーションさせることができます。"
 
 #: ../../source/create/avatars/avatar-standards.md:53
 #, fuzzy
@@ -2811,12 +2716,8 @@ msgid ""
 "animator. ![](_images/flow-bones.png) (Many thanks to Akazukin for the "
 "model Ouka Miko(櫻歌ミコ) used in this diagram!)"
 msgstr ""
-"接頭辞 `sim` と `flow` "
-"は、服や髪、しっぽなどのフローボーン用に予約されています。"
-"これらのボーンはアニメーターによって "
-"_アニメーションされるべきではありません_ 。("
-"この図に使われている櫻歌ミコのモデルを提供してくださった Akazukin "
-"さんに感謝します!)"
+"接頭辞 `sim` と `flow` は、服や髪、しっぽなどのフローボーン用に予約されています。これらのボーンはアニメーターによって "
+"_アニメーションされるべきではありません_ 。(この図に使われている櫻歌ミコのモデルを提供してくださった Akazukin さんに感謝します!)"
 
 #: ../../source/create/avatars/avatar-standards.md:60
 #, fuzzy
@@ -2829,8 +2730,8 @@ msgid ""
 "Alternatively, you can use the `flow` prefix, separating the name and "
 "joint number with an underscore. The same cape as above would look like:"
 msgstr ""
-"また、名前とジョイント番号をアンダースコアで区切り、 `flow` というプレフィッ"
-"クスを使うこともできます。上記と同じケープを使用すると、次のようになります。"
+"また、名前とジョイント番号をアンダースコアで区切り、 `flow` "
+"というプレフィックスを使うこともできます。上記と同じケープを使用すると、次のようになります。"
 
 #: ../../source/create/avatars/avatar-standards.md:86
 #, fuzzy
@@ -2847,8 +2748,7 @@ msgstr "視線ベクトルは、目の関節の z ベクトルによって駆動
 msgid ""
 "The +z axis of the eye joints should go through the center of the pupil, "
 "and should continue to do so as the eye joint is rotated."
-msgstr "眼球の＋z軸は瞳孔の中心を通るようにし、眼球を回転させてもその軸が変わらないよ"
-"うにします。"
+msgstr "眼球の＋z軸は瞳孔の中心を通るようにし、眼球を回転させてもその軸が変わらないようにします。"
 
 #: ../../source/create/avatars/avatar-standards.md:92
 #, fuzzy
@@ -2873,22 +2773,16 @@ msgid ""
 "avatar from scratch, you will likely need to specify your own facial "
 "expressions."
 msgstr ""
-"Vircadiaでは、アバターの顔のアニメーションにブレンドシェイプを使用しています"
-"。ブレンドシェイプは、アバターのメッシュに新しい状態を指定することができ、ア"
-"バターの表情の異なる状態の間を移動することで顔の位置がアニメーションされます"
-"。ブレンドシェイプ・ビヘイビアは、アバターのFSTファイルで定義され、Blender（"
-"Shape Keys）やMayaなどの3Dモデリングツールを使ってアバターメッシュに追加され"
-"ます。AdobeのFuseプログラムとMixamoパイプラインを使えば、ブレンドシェイプをFB"
-"Xの一部としてエクスポートできますが、アバターを一からモデリングする場合は、自"
-"分で顔の表情を指定する必要がある場合が多いでしょう。"
+"Vircadiaでは、アバターの顔のアニメーションにブレンドシェイプを使用しています。ブレンドシェイプは、アバターのメッシュに新しい状態を指定することができ、アバターの表情の異なる状態の間を移動することで顔の位置がアニメーションされます。ブレンドシェイプ・ビヘイビアは、アバターのFSTファイルで定義され、Blender（Shape"
+" "
+"Keys）やMayaなどの3Dモデリングツールを使ってアバターメッシュに追加されます。AdobeのFuseプログラムとMixamoパイプラインを使えば、ブレンドシェイプをFBXの一部としてエクスポートできますが、アバターを一からモデリングする場合は、自分で顔の表情を指定する必要がある場合が多いでしょう。"
 
 #: ../../source/create/avatars/avatar-standards.md:98
 #, fuzzy
 msgid ""
 "Overte avatars support a number of blendshapes for creating different "
 "facial expressions."
-msgstr "Vircadiaのアバターは、様々な表情を作るためのブレンドシェイプに対応しています"
-"。"
+msgstr "Vircadiaのアバターは、様々な表情を作るためのブレンドシェイプに対応しています。"
 
 #: ../../source/create/avatars/avatar-standards.md:100
 #, fuzzy
@@ -2925,8 +2819,7 @@ msgstr "これらのブレンドシェイプは、話すときに使用されま
 msgid ""
 "Your eyebrows are blendshapes that react to a change in volume. They will"
 " move upwards when your voice gets louder. These include:"
-msgstr "眉毛は、ボリュームの変化に反応するブレンドシェイプです。あなたの声が大きくな"
-"ると、それらは上に移動します。これらには以下が含まれます："
+msgstr "眉毛は、ボリュームの変化に反応するブレンドシェイプです。あなたの声が大きくなると、それらは上に移動します。これらには以下が含まれます："
 
 #: ../../source/create/avatars/avatar-standards.md:112
 #, fuzzy
@@ -2946,8 +2839,7 @@ msgstr "`BrowsU_R`: 右眉の外側の角を上げる"
 #: ../../source/create/avatars/avatar-standards.md:116
 #, fuzzy
 msgid "Other audio blendshapes are randomly mixed when you speak. These include:"
-msgstr "他のオーディオ ブレンドシェイプは、話すときにランダムにミックスされます。これ"
-"らには以下が含まれます："
+msgstr "他のオーディオ ブレンドシェイプは、話すときにランダムにミックスされます。これらには以下が含まれます："
 
 #: ../../source/create/avatars/avatar-standards.md:118
 #, fuzzy
@@ -2980,8 +2872,7 @@ msgid ""
 "To ensure that the top of the eyelid rests on the iris, blendshapes are "
 "used to track the current position of the eye along with your head "
 "orientation."
-msgstr "まぶたの上部が虹彩の上にあることを確認するために、ブレンドシェイプを使用して"
-"、頭の向きとともに目の現在の位置を追跡します。"
+msgstr "まぶたの上部が虹彩の上にあることを確認するために、ブレンドシェイプを使用して、頭の向きとともに目の現在の位置を追跡します。"
 
 #: ../../source/create/avatars/avatar-standards.md:127
 #, fuzzy
@@ -3018,8 +2909,7 @@ msgstr "`BrowsD_R`: 右眉の外側の角を下げる"
 msgid ""
 "We apply a small procedural offset to the blendshape coefficients to "
 "prevent sleepy or crazy eye lids:"
-msgstr "ブレンドシェープの係数にわずかなプロシージャ的オフセットを適用し、眠そうなま"
-"ぶたやおかしなまぶたにならないようにしています。"
+msgstr "ブレンドシェープの係数にわずかなプロシージャ的オフセットを適用し、眠そうなまぶたやおかしなまぶたにならないようにしています。"
 
 #: ../../source/create/avatars/avatar-standards.md:137
 #, fuzzy
@@ -3036,9 +2926,8 @@ msgid ""
 "respectively at `16.3` degrees. This will have the effect of raising your"
 " lids and brows as you look upward."
 msgstr ""
-"目が上を向き始めたら: `EyeBlink` , `EyeOpen` , `BrowsU` の値が変化し始め、"
-"それぞれ `-1` , `1` , `0.5` の値で `16.3` 度まで到達します。これは、上を向い"
-"たときにまぶたと眉毛を上げる効果があります。"
+"目が上を向き始めたら: `EyeBlink` , `EyeOpen` , `BrowsU` の値が変化し始め、それぞれ `-1` , `1` , "
+"`0.5` の値で `16.3` 度まで到達します。これは、上を向いたときにまぶたと眉毛を上げる効果があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:139
 #, fuzzy
@@ -3048,9 +2937,8 @@ msgid ""
 "`EyeOpen` will reach a value of `0.5` at 27 degrees. This will have the "
 "effect of lowering your lids as you look downward."
 msgstr ""
-"目が下を向き始めたら: `EyeBlink` と `EyeOpen` の値が変化し始める。 `EyeBlink`"
-" は `32` 度で `0.5` の値になります。 `EyeOpen` は27度で `0.5` "
-"の値になります。これは下を向くと瞼が下がるという効果があります。"
+"目が下を向き始めたら: `EyeBlink` と `EyeOpen` の値が変化し始める。 `EyeBlink` は `32` 度で `0.5` "
+"の値になります。 `EyeOpen` は27度で `0.5` の値になります。これは下を向くと瞼が下がるという効果があります。"
 
 #: ../../source/create/avatars/avatar-standards.md:142
 #, fuzzy
@@ -3058,10 +2946,7 @@ msgid ""
 "Tweaks to your blendshapes can be made with a 3D modeling tool, or "
 "directly in your avatar's FST file. In the FST file, blendshapes are "
 "defined with the syntax:"
-msgstr ""
-"ブレンドシェープの変更は、3Dモデリングツールで行うか、アバターのFSTファイルで"
-"直接行うことができます。FSTファイルでは、ブレンドシェイプは以下のシンタックス"
-"で定義されます。"
+msgstr "ブレンドシェープの変更は、3Dモデリングツールで行うか、アバターのFSTファイルで直接行うことができます。FSTファイルでは、ブレンドシェイプは以下のシンタックスで定義されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:148
 #, fuzzy
@@ -3090,10 +2975,7 @@ msgid ""
 "To utilize blendshapes present on avatars, they must match the "
 "blendshapes below. Alternatively, an .fst file can be used to remap the "
 "blendshapes to any of the ones below."
-msgstr ""
-"アバターでブレンドシェイプを使用するには、以下のブレンドシェイプと一致させる"
-"必要があります。また、.fstファイルを使用して、ブレンドシェイプを下記のどれか"
-"にリマップすることもできます。"
+msgstr "アバターでブレンドシェイプを使用するには、以下のブレンドシェイプと一致させる必要があります。また、.fstファイルを使用して、ブレンドシェイプを下記のどれかにリマップすることもできます。"
 
 #: ../../source/create/avatars/avatar-standards.md:175
 #, fuzzy
@@ -3859,8 +3741,7 @@ msgid ""
 "As we delve deeper into creating custom animations, we may use "
 "terminology that you are unfamiliar with. Here are some terms you might "
 "come across:"
-msgstr "カスタムアバターの制作を進めていくと、聞き慣れない用語が出てくることがありま"
-"す。ここでは、そのような用語について説明します。"
+msgstr "カスタムアバターの制作を進めていくと、聞き慣れない用語が出てくることがあります。ここでは、そのような用語について説明します。"
 
 #: ../../source/create/avatars/custom-animations.rst:23
 msgid "Term"
@@ -10540,12 +10421,7 @@ msgid ""
 " other domains using the Explore app and socialize with people around the"
 " metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
-msgstr ""
-"初めてOverteを使う場合は、ローカルのチュートリアルスペースで一人旅を始め、操"
-"作を試したりインターフェイスについて学んだりすることができます。準備ができた"
-"ら、Exploreアプリを使って他のドメインを探検してみたり、メタバース周辺の人々と"
-"交流してみましょう。以前にOverteを訪れたことがある場合は、前回訪れた場所に戻"
-"ります。"
+msgstr "初めてOverteを使う場合は、ローカルのチュートリアルスペースで一人旅を始め、操作を試したりインターフェイスについて学んだりすることができます。準備ができたら、Exploreアプリを使って他のドメインを探検してみたり、メタバース周辺の人々と交流してみましょう。以前にOverteを訪れたことがある場合は、前回訪れた場所に戻ります。"
 
 #: ../../source/explore.rst:9
 #, fuzzy
@@ -10556,8 +10432,7 @@ msgstr "この章を通して、探索を最大限に活用する方法を学び
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
-msgstr "このギャラリーでは、Overte/Vircadia "
-"Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
+msgstr "このギャラリーでは、Overte/Vircadia Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
 
 #: ../../source/explore/gallery.rst:12
 msgid "Maker meeting 28th September 2020"
@@ -10688,10 +10563,7 @@ msgid ""
 "You can adjust various settings in Overte so that it runs to your "
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
-msgstr ""
-"Overteでは様々な設定を調整して、自分の好みに合わせて動作させることができます"
-"。これらの設定の多くは、HUD（デスクトップモード）またはタブレット（VRモード）"
-"を使って変更します。"
+msgstr "Overteでは様々な設定を調整して、自分の好みに合わせて動作させることができます。これらの設定の多くは、HUD（デスクトップモード）またはタブレット（VRモード）を使って変更します。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 #, fuzzy
@@ -10736,11 +10608,7 @@ msgid ""
 "displays (HMD), hand controllers and audio headsets. Our Desktop mode "
 "contains many of Overte's features such as audio, basic movements and "
 "gestures, and the ability to travel to different domains."
-msgstr ""
-"Overteは、ヘッドマウントディスプレイ（HMD）、ハンドコントローラ、オーディオヘ"
-"ッドセットなどのVR機器と一緒に楽しむことができます。デスクトップモードでは、"
-"オーディオ、基本的な動きやジェスチャー、異なるドメインへの移動機能など、Overt"
-"eの多くの機能が搭載されています。"
+msgstr "Overteは、ヘッドマウントディスプレイ（HMD）、ハンドコントローラ、オーディオヘッドセットなどのVR機器と一緒に楽しむことができます。デスクトップモードでは、オーディオ、基本的な動きやジェスチャー、異なるドメインへの移動機能など、Overteの多くの機能が搭載されています。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:32
 #, fuzzy
@@ -10804,8 +10672,7 @@ msgid ""
 "Select this setting if you want to change your perspective in Overte to "
 "first person. In this view, you will not see yourself, only the "
 "environment around you."
-msgstr "Overteで一人称視点映像に変更したい場合は、この設定を選択します。この視点だと"
-"、自分自身は見えず、周りの環境だけが見えます。"
+msgstr "Overteで一人称視点映像に変更したい場合は、この設定を選択します。この視点だと、自分自身は見えず、周りの環境だけが見えます。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 #, fuzzy
@@ -11998,8 +11865,7 @@ msgstr "ゲームパッド"
 msgid ""
 "Instead of a keyboard, you can use a gamepad while experiencing Overte in"
 " desktop mode."
-msgstr "キーボードの代わりにゲームパッドを使って、デスクトップモードでOverte "
-"を体験することができます。"
+msgstr "キーボードの代わりにゲームパッドを使って、デスクトップモードでOverte を体験することができます。"
 
 #: ../../source/explore/get-started/install.rst:5
 msgid ""
@@ -12012,16 +11878,13 @@ msgid ""
 "provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
 "Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
-"Overteには2種類のインストーラーがあります。 *Client Installer* は、Overteのコ"
-"ンテンツやユーザーを表示、操作するために必要なものがすべて入っています。しか"
-"し、このインストーラを使用してコンテンツをホストすることはできません。 *"
-"Client + Server Installer* "
-"は、クライアントインストーラの機能をすべて備えていますが、 :doc:`"
-"あなた自身のコンテンツをホスト <../../host>` "
-"し、世界と共有することができます。Client + Server "
+"Overteには2種類のインストーラーがあります。 *Client Installer* "
+"は、Overteのコンテンツやユーザーを表示、操作するために必要なものがすべて入っています。しかし、このインストーラを使用してコンテンツをホストすることはできません。"
+" *Client + Server Installer* は、クライアントインストーラの機能をすべて備えていますが、 "
+":doc:`あなた自身のコンテンツをホスト <../../host>` し、世界と共有することができます。Client + Server "
 "Installerのダウンロードは、Windows用のみ提供されています。Linuxについては、 "
-":doc:`ローカルまたはクラウドのLinuxサーバーからドメインをホストする <../../"
-"host/server-setup/linux-server>` をご覧ください。"
+":doc:`ローカルまたはクラウドのLinuxサーバーからドメインをホストする <../../host/server-setup/linux-"
+"server>` をご覧ください。"
 
 #: ../../source/explore/get-started/install.rst:15
 #, fuzzy
@@ -12108,9 +11971,7 @@ msgstr "**最小:** Intel第5世代CPU Iris グラフィックス。Intel統合�
 msgid ""
 "The listed graphics adapters support OpenGL 4.1 and above. This is a "
 "requirement for any graphics adapter running Overte."
-msgstr ""
-"リストされているグラフィックアダプタは、OpenGL4.1以降をサポートしています。こ"
-"れは、Overteを実行しているすべてのグラフィックアダプタの要件です。"
+msgstr "リストされているグラフィックアダプタは、OpenGL4.1以降をサポートしています。これは、Overteを実行しているすべてのグラフィックアダプタの要件です。"
 
 #: ../../source/explore/get-started/install.rst:43
 msgid ""
@@ -12145,18 +12006,14 @@ msgstr ""
 msgid ""
 "A world that is specifically built for low-end systems might run fine on "
 "a system with slightly less memory or a lower CPU core count."
-msgstr "ローエンドシステム向けに特別に作られたワールドは、メモリやCPUコア数が少し少な"
-"いシステムでも問題なく動作するかもしれません。"
+msgstr "ローエンドシステム向けに特別に作られたワールドは、メモリやCPUコア数が少し少ないシステムでも問題なく動作するかもしれません。"
 
 #: ../../source/explore/get-started/install.rst:51
 msgid ""
 "Running Overte on a high resolution display or in VR mode will need a "
 "much better graphics adapter, depending on your display's resolution and "
 "targeted frame rate."
-msgstr ""
-"Overteを高解像度ディスプレイやVRモードで動作させるには、ディスプレイの解像度"
-"や目標とするフレームレートに応じて、より優れたグラフィックカードが必要になり"
-"ます。"
+msgstr "Overteを高解像度ディスプレイやVRモードで動作させるには、ディスプレイの解像度や目標とするフレームレートに応じて、より優れたグラフィックカードが必要になります。"
 
 #: ../../source/explore/get-started/install.rst:55
 msgid "Download Overte"
@@ -12175,17 +12032,15 @@ msgid ""
 "Overte. VR mode is not supported on macOS. The Oculus Runtime is not "
 "supported on Linux."
 msgstr ""
-"HMDを使用してOverteをVRモードで使用する場合、Overteを起動する前に、"
-"SteamVRまたはOculus Runtimeもシステムにインストールされていることを確認してく"
-"ださい。VRモードはmacOSではサポートされていません。Oculus "
+"HMDを使用してOverteをVRモードで使用する場合、Overteを起動する前に、SteamVRまたはOculus "
+"Runtimeもシステムにインストールされていることを確認してください。VRモードはmacOSではサポートされていません。Oculus "
 "Runtimeは、Linuxではサポートされていません。"
 
 #: ../../source/explore/get-started/install.rst:67
 msgid ""
 "Once you've downloaded the installer, you're ready to install Overte. The"
 " process will be different based on your operating system:"
-msgstr "インストーラーをダウンロードしたら、Overteをインストールする準備ができていま"
-"す。お使いのOSによって手順が異なります。"
+msgstr "インストーラーをダウンロードしたら、Overteをインストールする準備ができています。お使いのOSによって手順が異なります。"
 
 #: ../../source/explore/get-started/install.rst:71
 #, fuzzy
@@ -12210,8 +12065,7 @@ msgstr "Macにインストールする"
 msgid ""
 "At this time, the Overte installer for Mac is unsigned, so you will need "
 "give the OS permission to install the application."
-msgstr "現時点では、Mac版Overteのインストーラーは署名されていないため、OSにアプリケー"
-"ションをインストールする許可を与える必要があります。"
+msgstr "現時点では、Mac版Overteのインストーラーは署名されていないため、OSにアプリケーションをインストールする許可を与える必要があります。"
 
 #: ../../source/explore/get-started/install.rst:82
 #, fuzzy
@@ -12332,9 +12186,8 @@ msgid ""
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
-"Windowsの場合、システムトレイにあるOverteアプリを探します。アイコンを右クリッ"
-"クし、「終了」を選択します。または、タスクマネージャーを使用して「server-"
-"console」バックグラウンドプロセスを終了させます。"
+"Windowsの場合、システムトレイにあるOverteアプリを探します。アイコンを右クリックし、「終了」を選択します。または、タスクマネージャーを使用して"
+"「server-console」バックグラウンドプロセスを終了させます。"
 
 #: ../../source/explore/get-started/install.rst:116
 #, fuzzy
@@ -12431,9 +12284,8 @@ msgid ""
 "content, copy the ``assignment-client`` folders you previously saved back"
 " into to their respective locations."
 msgstr ""
-"上記の手順でOverteを再インストールしてください。ローカルサーバの内容を復元す"
-"るには、以前に保存した ``assignment-client`` "
-"フォルダをそれぞれの場所にコピーしてください。"
+"上記の手順でOverteを再インストールしてください。ローカルサーバの内容を復元するには、以前に保存した ``assignment-"
+"client`` フォルダをそれぞれの場所にコピーしてください。"
 
 #: ../../source/explore/get-started/install.rst:149
 #, fuzzy
@@ -12500,11 +12352,7 @@ msgid ""
 " your computer's default audio devices, and use those for Overte. "
 "Usually, your computer will automatically detect a plugged in headset and"
 " you will not need to configure your audio devices any further."
-msgstr ""
-"Overteに初めてログインすると、お使いのコンピュータのデフォルトのオーディオデ"
-"バイスが自動的に検出され、Overteに使用されます。通常、コンピュータは接続され"
-"たヘッドセットを自動的に検出するので、それ以上オーディオデバイスを設定する必"
-"要はありません。"
+msgstr "Overteに初めてログインすると、お使いのコンピュータのデフォルトのオーディオデバイスが自動的に検出され、Overteに使用されます。通常、コンピュータは接続されたヘッドセットを自動的に検出するので、それ以上オーディオデバイスを設定する必要はありません。"
 
 #: ../../source/explore/get-started/setup-audio.rst:11
 #, fuzzy
@@ -12544,14 +12392,7 @@ msgid ""
 "device. If you need to use a different device for Overte than other "
 "applications on your computer, then you can change your device in the "
 "application."
-msgstr ""
-"Overteの3D空間化されたオーディオは、デスクトップモードでもVR機器を使用してい"
-"ても、メタバースでの体験を向上させることが保証されています。デフォルトでは、"
-"お使いのオペレーティングシステムやヘッドセットが検出したデフォルトのオーディ"
-"オデバイスを選択します。デフォルトとは異なるヘッドセットやオーディオ設定を使"
-"用したい場合は、コンピュータのデフォルトデバイスを変更することができます。Ove"
-"rteでコンピュータの他のアプリケーションと異なるデバイスを使用する必要がある場"
-"合は、アプリケーションでデバイスを変更することができます。"
+msgstr "Overteの3D空間化されたオーディオは、デスクトップモードでもVR機器を使用していても、メタバースでの体験を向上させることが保証されています。デフォルトでは、お使いのオペレーティングシステムやヘッドセットが検出したデフォルトのオーディオデバイスを選択します。デフォルトとは異なるヘッドセットやオーディオ設定を使用したい場合は、コンピュータのデフォルトデバイスを変更することができます。Overteでコンピュータの他のアプリケーションと異なるデバイスを使用する必要がある場合は、アプリケーションでデバイスを変更することができます。"
 
 #: ../../source/explore/get-started/setup-audio.rst:32
 #, fuzzy
@@ -12626,11 +12467,7 @@ msgid ""
 "all environments. If using WiFi, ensure you’re using a 5Ghz WiFi "
 "connection. On a 2.4Ghz connection, you may experience audio breakup and "
 "occasional disconnects."
-msgstr ""
-"Overteでは、AirPodsなどのBluetoothヘッドセットを使用することができます。ただ"
-"し、使用には制限があり、すべての環境で使用できない場合がありますので、ご注意"
-"ください。WiFiを使用する場合、5GhzのWiFi接続を使用していることを確認してくだ"
-"さい。2.4Ghzの接続では、音声が途切れたり、時々切断されることがあります。"
+msgstr "Overteでは、AirPodsなどのBluetoothヘッドセットを使用することができます。ただし、使用には制限があり、すべての環境で使用できない場合がありますので、ご注意ください。WiFiを使用する場合、5GhzのWiFi接続を使用していることを確認してください。2.4Ghzの接続では、音声が途切れたり、時々切断されることがあります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:49
 #, fuzzy
@@ -12667,11 +12504,7 @@ msgid ""
 "effect. This is common when you use Overte with a laptop's built-in "
 "microphone and speakers (i.e. an \"open mic\"), rather than a detached "
 "headset."
-msgstr ""
-"音響エコーとは、スピーカーからの音がマイクに拾われ、伝達され、結果としてエコ"
-"ー効果が発生することです。これは、Overteを取り外し可能なヘッドセットではなく"
-"、ラップトップの内蔵マイクとスピーカー（つまり「オープンマイク」）で使用した"
-"場合によく起こります。"
+msgstr "音響エコーとは、スピーカーからの音がマイクに拾われ、伝達され、結果としてエコー効果が発生することです。これは、Overteを取り外し可能なヘッドセットではなく、ラップトップの内蔵マイクとスピーカー（つまり「オープンマイク」）で使用した場合によく起こります。"
 
 #: ../../source/explore/get-started/setup-audio.rst:60
 #, fuzzy
@@ -32741,3 +32574,14 @@ msgstr "メタバースセッションUUID"
 
 #~ msgid "DownloadLUS"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "If you run into an questions or"
+#~ " seek some advice, have a look "
+#~ "at our `Matrix Space "
+#~ "<https://matrix.to/#/#overte:overte.org>`_ |Matrix| which"
+#~ " is also bridged to our `Discord "
+#~ "server <https://discord.gg/4YuQvc8K2f>`_ |Discord| "
+#~ "if you prefer that."
+#~ msgstr ""
+
