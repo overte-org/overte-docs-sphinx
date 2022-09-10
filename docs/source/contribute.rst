@@ -8,7 +8,7 @@ Overte is an open-source project, so all of our code and documentation is availa
 Our main `git repository <https://github.com/overte-org/overte>`_ contains the source to many of the components of our software for creating virtual worlds.
 There are plenty of ways you can contribute to the various parts that make up Overte.
 
-If you run into an questions or seek some advice, have a look at our `Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ |Discord| if you prefer that.
+If you run into any questions or seek some advice, have a look at our `Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ |Discord| if you prefer that.
 
 .. contents:: On This Page
     :depth: 2
