@@ -6,3 +6,4 @@
 *.mo
 
 .secret
+/venv/

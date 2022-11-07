@@ -55,7 +55,6 @@ You can help the general development of the Overte project without being a devel
 - or `testing pull requests <https://github.com/overte-org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A"needs+QA+(testing)">`_.
 
 If you are a developer, you can contribute directly to the project via pull requests. Keep the `guidelines <https://github.com/overte-org/overte/blob/master/CONTRIBUTING.md>`_ in mind when contributing to the main software.
-Some additional information can be found in the :doc:`Developer Section <developer>`.
 An important job for developers that have become more accustomed to the platform is `code reviews <https://github.com/overte-org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of open pull requests.
 
 

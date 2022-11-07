@@ -39,7 +39,6 @@ You have the power to shape your VR experience in Overte.
 * :doc:`SCRIPT <script>` and express your creativity by applying advanced scripting concepts to entities and avatars in the metaverse.
 * :doc:`HOST <host>` and make immersive experiences to educate, entertain, and connect with your audience.
 * :doc:`CONTRIBUTE <contribute>` to the project's endeavor.
-* :doc:`DEVELOP <developer>` the project and tailor it to your needs, or just to help out.
 * :doc:`SECURITY <security>` information about the project and its components.
 
 
@@ -54,7 +53,6 @@ You have the power to shape your VR experience in Overte.
     SCRIPT <script>
     HOST <host>
     CONTRIBUTE <contribute>
-    DEVELOP <developer>
     SECURITY <security>
     FAQ <faq>
     RELEASE NOTES <release-notes>

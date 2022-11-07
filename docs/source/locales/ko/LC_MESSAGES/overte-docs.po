@@ -260,8 +260,7 @@ msgid ""
 "If you are a developer, you can contribute directly to the project via "
 "pull requests. Keep the `guidelines <https://github.com/overte-"
 "org/overte/blob/master/CONTRIBUTING.md>`_ in mind when contributing to "
-"the main software. Some additional information can be found in the "
-":doc:`Developer Section <developer>`. An important job for developers "
+"the main software. An important job for developers "
 "that have become more accustomed to the platform is `code reviews "
 "<https://github.com/overte-"
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
@@ -9818,18 +9817,6 @@ msgstr ""
 msgid "[Put On Wearables](../explore/personalize/add-wearables)"
 msgstr ""
 
-#: ../../source/developer.rst:3
-#, fuzzy
-msgid "Developer"
-msgstr "개발자"
-
-#: ../../source/developer.rst:5
-msgid ""
-"Developer information such as how to build the project from source, "
-"develop, or technically manage it can be found `here "
-"<https://docs.vircadia.dev/>`_."
-msgstr ""
-
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Overte"
 msgstr ""
@@ -14026,12 +14013,6 @@ msgstr ""
 
 #: ../../source/home.rst:41
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
-msgstr ""
-
-#: ../../source/home.rst:42
-msgid ""
-":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
-"just to help out."
 msgstr ""
 
 #: ../../source/home.rst:43
@@ -30014,9 +29995,7 @@ msgstr ""
 #~ " <https://github.com/overte-"
 #~ "org/overte/blob/master/CONTRIBUTING.md>`_ in mind "
 #~ "when contributing to the main software."
-#~ " Some additional information can be "
-#~ "found in the :doc:`Developer Section "
-#~ "<developer>`. An important job for "
+#~ " An important job for "
 #~ "developers that have become more "
 #~ "accustomed to the platform is `code "
 #~ "reviews <https://github.com/overte-"
