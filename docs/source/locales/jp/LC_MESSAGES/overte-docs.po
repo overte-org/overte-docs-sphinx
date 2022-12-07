@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-09-10 10:20+0000\n"
-"PO-Revision-Date: 2022-12-07 09:47+0000\n"
+"PO-Revision-Date: 2022-12-07 17:53+0000\n"
 "Last-Translator: 川音リオ＠KawaneRio <rio@kawane.icu>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/ja/>\n"
@@ -396,7 +396,6 @@ msgid "Create"
 msgstr "作る"
 
 #: ../../source/create.rst:5
-#, fuzzy
 msgid ""
 "Overte enables people connected by interest, community, and friendship to"
 " come together and express their creativity with each other. We invite "
@@ -404,7 +403,13 @@ msgid ""
 "or developing apps and scripts. To truly make the experience your own, "
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
-msgstr "Overteでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターやコンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Overteエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
+msgstr ""
+"Overteでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザー"
+"が集まり、お互いの創造性を表現することができます。ここではアバターやコンテン"
+"ツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならで"
+"はのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ"
+"変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Overt"
+"eエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
 
 #: ../../source/create.rst:7
 #, fuzzy
@@ -1545,13 +1550,15 @@ msgstr ""
 "texture)に、透明度を持つPNGファイルとして、別の透明度テクスチャとしてではなく、含まれている必要があります。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
-#, fuzzy
 msgid ""
 "Overte renderer can draw two different kinds of transparency: \"alpha\" "
 "(255 graduates steps of transparency, no shading on surface, casts no "
 "shadows,) and \"mask\" (binary transparency, full shading of opaque "
 "surface, whole surface casts shadow.)"
-msgstr "Vircadiaのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255段階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不透明な表面の完全な影、表面全体に影を落とす)です。"
+msgstr ""
+"Overteのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255段"
+"階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不透"
+"明な表面の完全な影、表面全体に影を落とす)です。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:96
 #, fuzzy
