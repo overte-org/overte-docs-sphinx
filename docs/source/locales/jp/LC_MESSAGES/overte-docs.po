@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-09-10 10:20+0000\n"
-"PO-Revision-Date: 2022-12-07 17:53+0000\n"
+"PO-Revision-Date: 2022-12-08 18:48+0000\n"
 "Last-Translator: 川音リオ＠KawaneRio <rio@kawane.icu>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/ja/>\n"
@@ -10462,10 +10462,12 @@ msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr "この章を通して、探索を最大限に活用する方法を学びます :"
 
 #: ../../source/explore/gallery.rst:5
+#, fuzzy
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
-msgstr "このギャラリーでは、Overte/Vircadia Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
+msgstr "このギャラリーでは、Overte/Vircadia "
+"Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
 
 #: ../../source/explore/gallery.rst:12
 msgid "Maker meeting 28th September 2020"
@@ -29260,7 +29262,8 @@ msgstr "クラッシュレポート"
 msgid ""
 "Security information about the project and its components: Interface, "
 "server, and the metaverse server."
-msgstr "Vircadiaプロジェクトとその構成要素（インターフェースやサーバーなど）に関するセキュリティ情報。"
+msgstr "Overteプロジェクトとその構成要素（インターフェースやサーバーなど）に関するセ"
+"キュリティ情報。"
 
 #: ../../source/security/crash-reporting.rst:5
 #: ../../source/security/reporting/crash-reporting.md:1
