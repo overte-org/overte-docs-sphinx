@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2022-09-10 10:20+0000\n"
-"PO-Revision-Date: 2022-08-27 16:14+0000\n"
-"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
+"PO-Revision-Date: 2023-01-15 03:51+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: German <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://hosted.weblate.org/projects/overte/overte-"
-"documentation/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.15.1-dev\n"
 "Generated-By: Babel 2.10.3\n"
 
 #: ../../source/shared.rst
@@ -2047,8 +2048,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:70
+#, fuzzy
 msgid "Gravity"
-msgstr ""
+msgstr "Gravity"
 
 #: ../../source/create/avatars/add-flow.rst:70
 msgid ""
@@ -8147,8 +8149,9 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:25
 #: ../../source/create/entities/web-entity-media.rst:39
 #: ../../source/create/entities/web-entity-media.rst:51
+#, fuzzy
 msgid "Matroska"
-msgstr ""
+msgstr "Matroska"
 
 #: ../../source/create/entities/web-entity-media.rst:25
 msgid "Video: Theora, VP8, VP9       Audio: Vorbis, Opus, FLAC, MP3"
@@ -13399,8 +13402,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/explore/socialize.rst:43
+#, fuzzy
 msgid "Master Volume"
-msgstr ""
+msgstr "Hauptlautstärke"
 
 #: ../../source/explore/socialize.rst:43
 msgid "Set the volume of your audio in Overte."
@@ -16925,8 +16929,9 @@ msgid "40102 : (udp) main connection for clients"
 msgstr ""
 
 #: ../../source/host/quick-start.rst:22
+#, fuzzy
 msgid "Windows"
-msgstr ""
+msgstr "Fenster"
 
 #: ../../source/host/quick-start.rst:24
 msgid "Download Overte (full, not Interface only)."
@@ -26650,16 +26655,18 @@ msgid "Types"
 msgstr "Typen"
 
 #: ../../source/script/midi-tutorial.rst:42
+#, fuzzy
 msgid "08"
-msgstr ""
+msgstr "08"
 
 #: ../../source/script/midi-tutorial.rst:42
 msgid "note off"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:44
+#, fuzzy
 msgid "09"
-msgstr ""
+msgstr "09"
 
 #: ../../source/script/midi-tutorial.rst:44
 msgid "note on"
@@ -30415,4 +30422,3 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ "server <https://discord.gg/4YuQvc8K2f>`_ |Discord| "
 #~ "if you prefer that."
 #~ msgstr ""
-
