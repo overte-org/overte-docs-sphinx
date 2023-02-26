@@ -6,11 +6,81 @@ The Overte packages can help you get your own domain up and running quickly.
 
 You can run these same commands on an existing Overte domain to upgrade it if the original domain was installed using the package. Packages are currently available for the following distributions:
 
+## Server:
+
+### Debian 11
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-debian-11-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-1_amd64.deb
+```
+
 ### Ubuntu Server 22.04 LTS
 
-```sh
+```
 wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-22.04-1_amd64.deb
 sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-22.04-1_amd64.deb
+```
+### Ubuntu 20.04
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-20.04-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-20.04-1_amd64.deb
+```
+
+### Ubuntu 18.04
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-18.04-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-18.04-1_amd64.deb
+```
+### Fedora 36
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc36.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc36.x86_64.rpm
+```
+### Fedora 37
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc37.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc37.x86_64.rpm
+```
+### Rocky Linux 9
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.el9.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.el9.x86_64.rpm
+```
+
+## aarch64 server:
+
+### Debian 11 
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-debian-11-1_arm64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-1_arm64.deb
+```
+
+### Ubuntu 22.04 
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-22.04-1_arm64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-22.04-1_arm64.deb
+```
+
+### Fedora 36 
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc36.aarch64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc36.aarch64.rpm
+```
+
+### Fedora 37 
+
+```
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc37.aarch64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc37.aarch64.rpm
 ```
 
 ### Unlisted Distribution
