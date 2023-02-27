@@ -30,7 +30,7 @@ sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-20.
 
 ### Ubuntu 18.04
 
-```
+```bash
 wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-18.04-1_amd64.deb
 sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-18.04-1_amd64.deb
 ```
