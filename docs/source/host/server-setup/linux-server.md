@@ -6,11 +6,81 @@ The Overte packages can help you get your own domain up and running quickly.
 
 You can run these same commands on an existing Overte domain to upgrade it if the original domain was installed using the package. Packages are currently available for the following distributions:
 
-### Ubuntu Server 18.04 LTS
+## Server:
 
-```sh
-wget https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2022.1.0-selene-20211126-aabcdea-0ubuntu1-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./vircadia-server_2022.1.0-selene-20211126-aabcdea-0ubuntu1-1_amd64.deb
+### Debian 11
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-debian-11-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-1_amd64.deb
+```
+
+### Ubuntu Server 22.04 LTS
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-22.04-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-22.04-1_amd64.deb
+```
+### Ubuntu 20.04
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-20.04-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-20.04-1_amd64.deb
+```
+
+### Ubuntu 18.04
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-18.04-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-18.04-1_amd64.deb
+```
+### Fedora 36
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc36.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc36.x86_64.rpm
+```
+### Fedora 37
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc37.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc37.x86_64.rpm
+```
+### Rocky Linux 9
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.el9.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.el9.x86_64.rpm
+```
+
+## aarch64 server:
+
+### Debian 11 
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-debian-11-1_arm64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-1_arm64.deb
+```
+
+### Ubuntu 22.04 
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-22.04-1_arm64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-22.04-1_arm64.deb
+```
+
+### Fedora 36 
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc36.aarch64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc36.aarch64.rpm
+```
+
+### Fedora 37 
+
+```bash
+wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc37.aarch64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc37.aarch64.rpm
 ```
 
 ### Unlisted Distribution
@@ -27,26 +97,26 @@ Connect a web browser to the server at port 40100. (If you are on the machine th
 
 ## Files and Server Configuration
 
-The program files are installed in /opt/vircadia:
- - **/opt/vircadia** contains the executables
- - **/opt/vircadia/lib** contains libraries required for operation
- - **/opt/vircadia/plugins** is currently used for audio codecs
- - **/opt/vircadia/resources** is required for the administrative website
+The program files are installed in /opt/overte:
+ - **/opt/overte** contains the executables
+ - **/opt/overte/lib** contains libraries required for operation
+ - **/opt/overte/plugins** is currently used for audio codecs
+ - **/opt/overte/resources** is required for the administrative website
 
-The executables in this folder (with the exception of <code>new-server</code>) cannot be launched from the command prompt without first setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>.
+The executables in this folder (with the exception of <code>new-server</code>) cannot be launched from the command prompt without first setting <code>LD_LIBRARY_PATH=/opt/overte/lib</code>.
 
-The file <code>/etc/opt/vircadia/default.conf</code> contains any environment variables necessary to running the domain.
+The file <code>/etc/opt/overte/default.conf</code> contains any environment variables necessary to running the domain.
 
-All content is stored under <code>/var/lib/vircadia/default</code>. All files underneath <code>/var/lib/vircadia</code> are owned by the user <code>vircadia</code>, which is also the user that runs all domain-related processes.
+All content is stored under <code>/var/lib/overte/default</code>. All files underneath <code>/var/lib/overte</code> are owned by the user <code>overte</code>, which is also the user that runs all domain-related processes.
 
 ## Services
 
 The installation packages setup the following systemd services to manage the Overte domain:
-- **vircadia-domain-server@default.service**: Manages the core domain server
-- **vircadia-assignment-client@default.service**: Spawns and manages the assignment clients
-- **vircadia-server@default.target**: Controls startup and shutdown of the above services
+- **overte-domain-server@default.service**: Manages the core domain server
+- **overte-assignment-client@default.service**: Spawns and manages the assignment clients
+- **overte-server@default.target**: Controls startup and shutdown of the above services
 
-The <code>vircadia-server@default.target</code> service is the only one that is set to auto-start. Starting or stopping it will bring the other two services down.
+The <code>overte-server@default.target</code> service is the only one that is set to auto-start. Starting or stopping it will bring the other two services down.
 
 The first two services log a large amount of data to their service journal. Checking their logs (via <code>systemctl status</code>) is a good way to ensure they are operating properly.
 
@@ -55,15 +125,15 @@ The first two services log a large amount of data to their service journal. Chec
 The installation package is configured to permit multiple domains to run on a single server at different port numbers. New servers can be created using the following command:
 
 ```sh
-/opt/vircadia/new-server <name> <base-port>
+/opt/overte/new-server <name> <base-port>
 ```
 
 where <code>name</code> is a word used to name and manage the domain and <code>base-port</code> must be the the first of a range of four contiguous port numbers not overlapping with any other use on the system.
 
 Assuming you created a new server with the name **my-server-two**, this would setup the following:
- - Environment variables in <code>/etc/opt/vircadia/**my-server-two**.conf</code>
- - Content stored in <code>/var/lib/vircadia/**my-server-two**</code>
- - Services launched as <code>vircadia-domain-server@**my-server-two**.service</code>, <code>vircadia-assignment-client@**my-server-two**.service</code>, and <code>vircadia-server@**my-server-two**.target</code>
+ - Environment variables in <code>/etc/opt/overte/**my-server-two**.conf</code>
+ - Content stored in <code>/var/lib/overte/**my-server-two**</code>
+ - Services launched as <code>overte-domain-server@**my-server-two**.service</code>, <code>overte-assignment-client@**my-server-two**.service</code>, and <code>overte-server@**my-server-two**.target</code>
 
 ## Deleting a Overte Server
 
@@ -72,9 +142,9 @@ Uninstall the package.
 ```sh
 # Ubuntu
 # Note: 'apt-get purge' will remove configuration files as well. Use 'apt-get remove' to keep them.
-sudo apt-get purge vircadia-server
+sudo apt-get purge overte-server
 # Amazon Linux 2
-sudo yum remove vircadia-server
+sudo yum remove overte-server
 ```
 
 ### Deleting a Domain from a Multiple Domain Installation
@@ -82,37 +152,37 @@ sudo yum remove vircadia-server
 Find the name of the domain that you want to remove.
 
 ```sh
-sudo ls ~vircadia
+sudo ls ~overte
 ```
 
 Pick the name of the domain that you want to remove from the list and then stop it.
 
 ```sh
-sudo systemctl stop vircadia-server@<INSERT NAME HERE>.target
+sudo systemctl stop overte-server@<INSERT NAME HERE>.target
 ```
 
 Disable the service for the domain.
 
 ```sh
-sudo systemctl disable vircadia-server@<INSERT NAME HERE>.target
+sudo systemctl disable overte-server@<INSERT NAME HERE>.target
 ```
 
 Remove the associated environment variables.
 
 ```sh
-sudo rm /etc/opt/vircadia/<INSERT NAME HERE>.conf
+sudo rm /etc/opt/overte/<INSERT NAME HERE>.conf
 ```
 
 Remove all data and configurations.
 
 ```sh
-sudo rm -rf ~vircadia/<INSERT NAME HERE>
-sudo rm -rf /var/lib/vircadia/<INSERT NAME HERE>
+sudo rm -rf ~overte/<INSERT NAME HERE>
+sudo rm -rf /var/lib/overte/<INSERT NAME HERE>
 ```
 
 ## Legacy Services
 
 There are a number of tweaks that are made to the default configuration to simplify storage and the ability to run multiple domains on one server. In case you would like to remove this logic and run the servers closer to how a Overte server compiled from source would run, this is provided as an option.
- - Systemd services named <code>vircadia-domain-server.service</code>, <code>vircadia-assignment-client.service</code>, and <code>vircadia-server.target</code> *(without the @name)* have simplified configuration
+ - Systemd services named <code>overte-domain-server.service</code>, <code>overte-assignment-client.service</code>, and <code>overte-server.target</code> *(without the @name)* have simplified configuration
  - No file is provided to specify environment variables for the server
- - Content would be stored in <code>/var/lib/vircadia/.local</code>
+ - Content would be stored in <code>/var/lib/overte/.local</code>
