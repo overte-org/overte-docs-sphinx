@@ -64,7 +64,7 @@ sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-
 
 ### Ubuntu 22.04 
 
-```
+```bash
 wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-22.04-1_arm64.deb
 sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-22.04-1_arm64.deb
 ```
