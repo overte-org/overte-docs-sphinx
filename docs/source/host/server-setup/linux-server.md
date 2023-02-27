@@ -48,7 +48,7 @@ sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc37.x86_64.rpm
 ```
 ### Rocky Linux 9
 
-```
+```bash
 wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.el9.x86_64.rpm
 sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.el9.x86_64.rpm
 ```
