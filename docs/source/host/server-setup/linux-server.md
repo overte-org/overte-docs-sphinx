@@ -57,7 +57,7 @@ sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.el9.x86_64.rpm
 
 ### Debian 11 
 
-```
+```bash
 wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-debian-11-1_arm64.deb
 sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-1_arm64.deb
 ```
