@@ -36,7 +36,7 @@ sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-18.
 ```
 ### Fedora 36
 
-```
+```bash
 wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc36.x86_64.rpm
 sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc36.x86_64.rpm
 ```
