@@ -10,7 +10,7 @@ You can run these same commands on an existing Overte domain to upgrade it if th
 
 ### Debian 11
 
-```
+```bash
 wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-debian-11-1_amd64.deb
 sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-1_amd64.deb
 ```
