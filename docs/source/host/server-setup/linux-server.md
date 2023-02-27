@@ -78,7 +78,7 @@ sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc36.aarch64.rpm
 
 ### Fedora 37 
 
-```
+```bash
 wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc37.aarch64.rpm
 sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc37.aarch64.rpm
 ```
