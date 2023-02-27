@@ -10,18 +10,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-09-10 10:20+0000\n"
+"POT-Creation-Date: 2023-02-27 23:19+0000\n"
 "PO-Revision-Date: 2023-01-15 03:51+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
-"overte-documentation/ja/>\n"
 "Language: jp\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/overte"
+"/overte-documentation/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.15.1-dev\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../source/shared.rst
 msgid "Download"
@@ -74,11 +72,10 @@ msgid ""
 "software for creating virtual worlds. There are plenty of ways you can "
 "contribute to the various parts that make up Overte."
 msgstr ""
-"Overteはオープンソースのプロジェクトなので、すべてのコードとドキュメントが閲"
-"覧可能です。あなたも、私たちのメタバースへの取り組みに貢献することができます"
-"。メインの `Git リポジトリ <https://github.com/overte-org/overte>`_ には、仮"
-"想世界を作成するためのソフトウェアの多くのコンポーネントのソースが含まれてい"
-"ます。Overte を構成するさまざまな部分に貢献できる方法がたくさんあります。"
+"Overteはオープンソースのプロジェクトなので、すべてのコードとドキュメントが閲覧可能です。あなたも、私たちのメタバースへの取り組みに貢献することができます。メインの"
+" `Git リポジトリ <https://github.com/overte-org/overte>`_ "
+"には、仮想世界を作成するためのソフトウェアの多くのコンポーネントのソースが含まれています。Overte "
+"を構成するさまざまな部分に貢献できる方法がたくさんあります。"
 
 #: ../../source/contribute.rst:11
 msgid ""
@@ -87,10 +84,9 @@ msgid ""
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
 msgstr ""
-"なにかわからないことがあれば、`Matrix Space <https://matrix.to/"
-"#/#overte:overte.org>`_ |Matrix| から気軽にチャットできます。"
-"Matrixは私たちの `Discord <https://discord.gg/4YuQvc8K2f>`_ |Discord| "
-"にも繋がってますので、そちらからでも質問できます。"
+"なにかわからないことがあれば、`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ "
+"|Matrix| から気軽にチャットできます。Matrixは私たちの `Discord "
+"<https://discord.gg/4YuQvc8K2f>`_ |Discord| にも繋がってますので、そちらからでも質問できます。"
 
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -165,8 +161,7 @@ msgstr "ドキュメンテーション"
 
 #: ../../source/contribute.rst:20
 msgid "You can help create and maintain the documentation in several ways:"
-msgstr "ドキュメンテーションの作成と維持には、いくつかの方法で協力することができます"
-"。"
+msgstr "ドキュメンテーションの作成と維持には、いくつかの方法で協力することができます。"
 
 #: ../../source/contribute.rst:22
 msgid ""
@@ -291,14 +286,12 @@ msgid ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
 "open pull requests."
 msgstr ""
-"もしあなたが開発者であれば、プルリクエストを通じて直接プロジェクトに貢献する"
-"ことができます。メインソフトウェアに貢献する際には、`ガイドライン "
+"もしあなたが開発者であれば、プルリクエストを通じて直接プロジェクトに貢献することができます。メインソフトウェアに貢献する際には、`ガイドライン "
 "<https://github.com/overte-org/overte/blob/master/CONTRIBUTING.md>`_ "
-"に留意してください。いくつかの追加情報は :doc:`開発者向けセクション "
-"<developer>` で見ることができます。プラットフォームに慣れてきた開発者にとって"
-"重要な仕事は、オープンなプルリクエストの`コードレビュー <https://github.com/"
-"overte-org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ "
-"です。"
+"に留意してください。いくつかの追加情報は :doc:`開発者向けセクション <developer>` "
+"で見ることができます。プラットフォームに慣れてきた開発者にとって重要な仕事は、オープンなプルリクエストの`コードレビュー "
+"<https://github.com/overte-"
+"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ です。"
 
 #: ../../source/contribute.rst:64
 #, fuzzy
@@ -403,13 +396,7 @@ msgid ""
 "or developing apps and scripts. To truly make the experience your own, "
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
-msgstr ""
-"Overteでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザー"
-"が集まり、お互いの創造性を表現することができます。ここではアバターやコンテン"
-"ツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならで"
-"はのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ"
-"変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Overt"
-"eエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
+msgstr "Overteでは、共通する趣味を持った人々や、コミュニティなどでつながったユーザーが集まり、お互いの創造性を表現することができます。ここではアバターやコンテンツを作成したり、アプリやスクリプトを開発したりして、ご自身の体験を自分ならではのものへとパーソナライズすることが可能です。メタバースを自分の好きな世界へ変えるためには、自分のワールドを作ったり、無料かつオープンライセンスの「Overteエンジン」を使って没入型のプロジェクトを構築することをオススメします。"
 
 #: ../../source/create.rst:7
 #, fuzzy
@@ -514,12 +501,7 @@ msgid ""
 "getting the links to those files in the same way as they would when "
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
-msgstr ""
-"Overteでの3Dモデルの取り扱いは、インターネットで閲覧できる画像やテキストと同"
-"じように、訪問者はそのモデルと関連するファイルを取得することになります。つま"
-"り一度Overteにモデルを公開すれば、誰でも好きなだけそのモデルを複製することが"
-"できます。これらの理由から、Overteで3Dモデルを使う際には、必ずあなたがそのモ"
-"デルを再配布する権利を所持している必要があります。"
+msgstr "Overteでの3Dモデルの取り扱いは、インターネットで閲覧できる画像やテキストと同じように、訪問者はそのモデルと関連するファイルを取得することになります。つまり一度Overteにモデルを公開すれば、誰でも好きなだけそのモデルを複製することができます。これらの理由から、Overteで3Dモデルを使う際には、必ずあなたがそのモデルを再配布する権利を所持している必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:20
 #, fuzzy
@@ -1555,10 +1537,7 @@ msgid ""
 "(255 graduates steps of transparency, no shading on surface, casts no "
 "shadows,) and \"mask\" (binary transparency, full shading of opaque "
 "surface, whole surface casts shadow.)"
-msgstr ""
-"Overteのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255段"
-"階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不透"
-"明な表面の完全な影、表面全体に影を落とす)です。"
+msgstr "Overteのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255段階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不透明な表面の完全な影、表面全体に影を落とす)です。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:96
 #, fuzzy
@@ -3353,12 +3332,7 @@ msgid ""
 "end users and content creators. The more polygons and larger textures you"
 " use, the more bandwidth you are using from your servers per load. "
 "Optimally, keep your avatar models under 20 MB."
-msgstr ""
-"コンテンツ制作者は、サーバーの帯域幅に制限があるため（無制限ホストプランの小"
-"冊子を読んでください）、エンドユーザーとコンテンツ制作者の両方にとって、最適"
-"化が重要です。ポリゴン数が多く、テクスチャが大きければ大きいほど、1回の負荷で"
-"サーバーから使用する帯域幅が大きくなります。最適なのは、アバターモデルを20MB"
-"未満に抑えることです。"
+msgstr "コンテンツ制作者は、サーバーの帯域幅に制限があるため（無制限ホストプランの小冊子を読んでください）、エンドユーザーとコンテンツ制作者の両方にとって、最適化が重要です。ポリゴン数が多く、テクスチャが大きければ大きいほど、1回の負荷でサーバーから使用する帯域幅が大きくなります。最適なのは、アバターモデルを20MB未満に抑えることです。"
 
 #: ../../source/create/avatars/avatar-standards.md:258
 #, fuzzy
@@ -3371,14 +3345,7 @@ msgid ""
 " mapping, than just textures. It is suggested that you keep Albedo at a "
 "smaller size than your roughness for best detail through light reflection"
 " instead of color variation."
-msgstr ""
-"アバター1つにつき、すべてのテクスチャの合計サイズを8MB以下に抑えることをお勧"
-"めします。すべてのテクスチャが1つのファイルに収まっている場合を除き、常に1024"
-"x1024より小さいサイズにする必要があります。複数のテクスチャファイルを使用する"
-"場合は、小さいほどよいでしょう。テクスチャだけでなく、ラフネスとノーマルマッ"
-"ピングによって、より多くの細部が表現できることに留意してください。色の変化で"
-"はなく、光の反射による最高のディテールを得るために、アルベドをラフネスよりも"
-"小さいサイズにしておくことをお勧めします。"
+msgstr "アバター1つにつき、すべてのテクスチャの合計サイズを8MB以下に抑えることをお勧めします。すべてのテクスチャが1つのファイルに収まっている場合を除き、常に1024x1024より小さいサイズにする必要があります。複数のテクスチャファイルを使用する場合は、小さいほどよいでしょう。テクスチャだけでなく、ラフネスとノーマルマッピングによって、より多くの細部が表現できることに留意してください。色の変化ではなく、光の反射による最高のディテールを得るために、アルベドをラフネスよりも小さいサイズにしておくことをお勧めします。"
 
 #: ../../source/create/avatars/avatar-standards.md:260
 #, fuzzy
@@ -3393,10 +3360,8 @@ msgid ""
 "invisible area around your avatar that is used to used to detect when "
 "other avatars or entities collide with you."
 msgstr ""
-"異なるアバターを装着すると、それぞれのアバターが異なる衝突形状（_collision hu"
-"ll_）を持つことに気がつくでしょう。コリジョンハルとは、アバターの周りにある見"
-"えない領域のことで、他のアバターやエンティティがあなたと衝突したときに検出す"
-"るために使われるものです。"
+"異なるアバターを装着すると、それぞれのアバターが異なる衝突形状（_collision "
+"hull_）を持つことに気がつくでしょう。コリジョンハルとは、アバターの周りにある見えない領域のことで、他のアバターやエンティティがあなたと衝突したときに検出するために使われるものです。"
 
 #: ../../source/create/avatars/avatar-standards.md:264
 #, fuzzy
@@ -3409,13 +3374,10 @@ msgid ""
 "hips, and makes a very large collision hull.  To reduce the size of the "
 "collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
-"アバターのデザインによって、コリジョンハルは非常に大きくなったり小さくなった"
-"りします。これは、Vircadia がアバターの胴体（腰から頭まで）の形状を分析し、メ"
-"ッシュを囲む最適な形状を見つけようとするために起こります。例えば、アバターの"
-"腰が大きかったり、尻尾が伸びきっていたりすると、Vircadia は尻尾の先端が腰の一"
-"部であると考え、非常に大きなコリジョンハルを作ってしまいます。 コリジョンハル"
-"のサイズを小さくするには、アバターの尻尾にスケルトンジョイントを追加するとよ"
-"いでしょう。"
+"アバターのデザインによって、コリジョンハルは非常に大きくなったり小さくなったりします。これは、Vircadia "
+"がアバターの胴体（腰から頭まで）の形状を分析し、メッシュを囲む最適な形状を見つけようとするために起こります。例えば、アバターの腰が大きかったり、尻尾が伸びきっていたりすると、Vircadia"
+" は尻尾の先端が腰の一部であると考え、非常に大きなコリジョンハルを作ってしまいます。 "
+"コリジョンハルのサイズを小さくするには、アバターの尻尾にスケルトンジョイントを追加するとよいでしょう。"
 
 #: ../../source/create/avatars/avatar-standards.md:267
 #, fuzzy
@@ -3430,10 +3392,9 @@ msgid ""
 "your avatar is hosted at `https://overte.org/avatar.fbx`, then it will "
 "look for a thumbnail at `https://overte.org/avatar.jpg`."
 msgstr ""
-"アバターアプリは、あなたのアバターと同じ名前と同じURLの場所にある、拡張子が."
-"jpgのサムネイルを探します。例えば、あなたのアバターが `https://vircadia.dev/"
-"avatar.fbx` でホストされている場合、サムネイルは `https://vircadia.dev/avatar"
-".jpg` で検索されます。"
+"アバターアプリは、あなたのアバターと同じ名前と同じURLの場所にある、拡張子が.jpgのサムネイルを探します。例えば、あなたのアバターが "
+"`https://vircadia.dev/avatar.fbx` でホストされている場合、サムネイルは "
+"`https://vircadia.dev/avatar.jpg` で検索されます。"
 
 #: ../../source/create/avatars/avatar-standards.md:274
 #: ../../source/create/avatars/blender-tutorial.md:55
@@ -3463,9 +3424,7 @@ msgid ""
 "Blender is an open-source 3D modeling tool that you can use to fine tune "
 "your avatar and ensure that the materials and textures render correctly "
 "in Overte."
-msgstr ""
-"Blenderはオープンソースの3Dモデリングツールで、Vircadiaでアバターを微調整し、"
-"マテリアルやテクスチャを正しくレンダリングするために使用できます。"
+msgstr "Blenderはオープンソースの3Dモデリングツールで、Vircadiaでアバターを微調整し、マテリアルやテクスチャを正しくレンダリングするために使用できます。"
 
 #: ../../source/create/avatars/blender-tutorial.md:10
 #, fuzzy
@@ -3475,9 +3434,8 @@ msgid ""
 "for your avatar. If you don't have one, see our tutorial for [Mixamo"
 "](mixamo-tutorial)."
 msgstr ""
-"このチュートリアルでは、Blenderを使ってアバターにできる簡単な改造を説明します"
-"。アバター用のFBXファイルをインポートする必要があります。お持ちでない方は、[M"
-"ixamo](mixamo-tutorial)のチュートリアルをご覧ください。"
+"このチュートリアルでは、Blenderを使ってアバターにできる簡単な改造を説明します。アバター用のFBXファイルをインポートする必要があります。お持ちでない方は、[Mixamo"
+"](mixamo-tutorial)のチュートリアルをご覧ください。"
 
 #: ../../source/create/avatars/blender-tutorial.md:12
 #, fuzzy
@@ -3490,9 +3448,8 @@ msgid ""
 "Choose your avatar's FBX file and click 'Import FBX'. This will open your"
 " avatar in the main view. ![](_images/import-avatar.png)"
 msgstr ""
-"アバターのFBXファイルを選択し、「Import "
-"FBX」をクリックします。これで、メインビューにアバターが表示されます。![]("
-"_images/import-avatar.png)"
+"アバターのFBXファイルを選択し、「Import FBX」をクリックします。これで、メインビューにアバターが表示されます。![](_images"
+"/import-avatar.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:14
 #, fuzzy
@@ -3501,8 +3458,8 @@ msgid ""
 " your view using the toolbar at the bottom of the view. ![](_images/view-"
 "materials.png)"
 msgstr ""
-"初期設定では、アバターには素材が表示されません。ビューの下にあるツールバーを"
-"使って変更できます。![](_images/view-materials.png)"
+"初期設定では、アバターには素材が表示されません。ビューの下にあるツールバーを使って変更できます。![](_images/view-"
+"materials.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:15
 #, fuzzy
@@ -3534,8 +3491,7 @@ msgstr "ランプを回転させるとアバターが点灯します。![](_imag
 msgid ""
 "From the Outliner, open the 'Armature' tree and select the item you want "
 "to fine tune. You can also click on the item directly on your model."
-msgstr "アウトライナーから「Armature」ツリーを開き、微調整したい項目を選択します。ま"
-"た、モデル上で直接アイテムをクリックすることもできます。"
+msgstr "アウトライナーから「Armature」ツリーを開き、微調整したい項目を選択します。また、モデル上で直接アイテムをクリックすることもできます。"
 
 #: ../../source/create/avatars/blender-tutorial.md:21
 #, fuzzy
@@ -3546,18 +3502,15 @@ msgid ""
 "follow similar steps for other avatar items.  ![](_images/texture-"
 "material.png)"
 msgstr ""
-"下のツールボックスを使って、各ボディパーツの素材や質感を自由に変更することが"
-"できます。以下に、[アバターのまつ毛を変更する例](#example-update-eyelashes-"
-"from-an-image)を掲載します。他のアバターアイテムも同様の手順で変更することが"
-"できます。"
+"下のツールボックスを使って、各ボディパーツの素材や質感を自由に変更することができます。以下に、[アバターのまつ毛を変更する例](#example-"
+"update-eyelashes-from-an-image)を掲載します。他のアバターアイテムも同様の手順で変更することができます。"
 
 #: ../../source/create/avatars/blender-tutorial.md:27
 #, fuzzy
 msgid ""
 "When you're done changing your materials and textures, go to **File > "
 "Export > FBX (.fbx)**."
-msgstr "マテリアルとテクスチャの変更が終わったら、 **File > Export > FBX (.fbx)** "
-"に移動します。"
+msgstr "マテリアルとテクスチャの変更が終わったら、 **File > Export > FBX (.fbx)** に移動します。"
 
 #: ../../source/create/avatars/blender-tutorial.md:28
 #, fuzzy
@@ -3566,9 +3519,9 @@ msgid ""
 "This makes sure that all of the textures are embedded into your model. "
 "![](_images/blender-export.png)"
 msgstr ""
-"「Path Mode」を「copy」に変更し、「Embed Textures」アイコンをクリックします。"
-"これで、すべてのテクスチャがモデルに埋め込まれたことになります。![](_images/"
-"blender-export.png)"
+"「Path Mode」を「copy」に変更し、「Embed "
+"Textures」アイコンをクリックします。これで、すべてのテクスチャがモデルに埋め込まれたことになります。![](_images"
+"/blender-export.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:29
 #, fuzzy
@@ -3596,8 +3549,8 @@ msgid ""
 "content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png)"
 " to a directory where you will remember."
 msgstr ""
-"[this texture](http://hifi-content.s3.amazonaws.com/DomainContent/Event%20/"
-"Images/mixamo_eyelashes.png)を任意のディレクトリに保存してください。"
+"[this texture](http://hifi-"
+"content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png)を任意のディレクトリに保存してください。"
 
 #: ../../source/create/avatars/blender-tutorial.md:37
 #, fuzzy
@@ -3609,16 +3562,14 @@ msgstr "アウトライナーから「Armature」ツリーを開き、「Eyelash
 msgid ""
 "In the Toolbox below, click the 'Materials' icon. ![](_images/materials-"
 "tab.png)"
-msgstr "下のツールボックスで、「Materials」アイコンをクリックします。 ![](_images/"
-"materials-tab.png)"
+msgstr "下のツールボックスで、「Materials」アイコンをクリックします。 ![](_images/materials-tab.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:39
 #, fuzzy
 msgid ""
 "Click the '+' button next to the material list to create a new material "
 "slot."
-msgstr "材料リストの横にある「＋」ボタンをクリックすると、新しい材料スロットが作成さ"
-"れます。"
+msgstr "材料リストの横にある「＋」ボタンをクリックすると、新しい材料スロットが作成されます。"
 
 #: ../../source/create/avatars/blender-tutorial.md:40
 #, fuzzy
@@ -3635,8 +3586,7 @@ msgstr "新しい素材の名前を「lashes」に変更します。"
 msgid ""
 "At the bottom of the Blender window, switch to 'Edit Mode'. ![](_images"
 "/edit-mode.png)"
-msgstr "Blenderウィンドウの下部で、「Edit Mode」に切り替えます。![](_images/edit-mode"
-".png)"
+msgstr "Blenderウィンドウの下部で、「Edit Mode」に切り替えます。![](_images/edit-mode.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:43
 #, fuzzy
@@ -3649,8 +3599,8 @@ msgid ""
 "Scroll to the 'Transparency' section. Check the Transparency box and "
 "change the 'Alpha' value to `0.00`. ![](_images/transparency-setting.png)"
 msgstr ""
-"「Transparency」セクションまでスクロールします。透明度'のボックスをチェックし"
-"、「Alpha」の値を `0.00` に変更します。![](_images/transparency-setting.png)"
+"「Transparency」セクションまでスクロールします。透明度'のボックスをチェックし、「Alpha」の値を `0.00` "
+"に変更します。![](_images/transparency-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:45
 #, fuzzy
@@ -3658,8 +3608,8 @@ msgid ""
 "Scroll to the 'Specular' section. Set the specular color to black. "
 "![](_images/specular-setting.png)"
 msgstr ""
-"「Specular」セクションまでスクロールします。スペキュラカラーを黒に設定します"
-"。![](_images/specular-setting.png)"
+"「Specular」セクションまでスクロールします。スペキュラカラーを黒に設定します。![](_images/specular-"
+"setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:46
 #, fuzzy
@@ -3678,17 +3628,16 @@ msgid ""
 "named 'mixamo_eyelashes' you previously downloaded. Click 'Open Image'. "
 "![](_images/image-setting.png)"
 msgstr ""
-"「Image 」セクションにスクロールします。「開く」をクリックし、以前ダウンロー"
-"ドした「mixamo_eyelashes」という名前のまつ毛のテクスチャを見つけます。「画像"
-"を開く」をクリックします。![](_images/image-setting.png)"
+"「Image "
+"」セクションにスクロールします。「開く」をクリックし、以前ダウンロードした「mixamo_eyelashes」という名前のまつ毛のテクスチャを見つけます。「画像を開く」をクリックします。![](_images"
+"/image-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:49
 #, fuzzy
 msgid ""
 "Check the 'Alpha' options in the following sections: Image, Preview, "
 "Texture, Influence"
-msgstr "以下のセクションの「Alpha」オプションにチェックを入れます：Image, Preview, "
-"Texture, Influence"
+msgstr "以下のセクションの「Alpha」オプションにチェックを入れます：Image, Preview, Texture, Influence"
 
 #: ../../source/create/avatars/blender-tutorial.md:50
 #, fuzzy
@@ -3696,8 +3645,8 @@ msgid ""
 "Go to **File > External Data > Pack All Into .blend**. This will include "
 "the texture in your model."
 msgstr ""
-"**File > External Data > Pack All Into ."
-"blend**に進みます。以上で、テクスチャがモデルに含まれるようになります。"
+"**File > External Data > Pack All Into "
+".blend**に進みます。以上で、テクスチャがモデルに含まれるようになります。"
 
 #: ../../source/create/avatars/blender-tutorial.md:54
 #, fuzzy
@@ -3713,8 +3662,7 @@ msgid ""
 "that)"
 msgstr ""
 "この文書は古く、将来的に見直される予定です。FIXME: VRoid Studio "
-"のようなスケルトンがサポートされていないサービスについても言及しています（"
-"Unity アバターエクスポーターでは修正できません）"
+"のようなスケルトンがサポートされていないサービスについても言及しています（Unity アバターエクスポーターでは修正できません）"
 
 #: ../../source/create/avatars/create-avatars.rst:9
 #, fuzzy
@@ -3750,21 +3698,17 @@ msgid ""
 "avatars.html#overte-avatar-exporter-for-unity>`_ to correctly map the "
 "skeleton and package your avatar."
 msgstr ""
-"TurboSquid、CGTrader、MakeHuman、VRoid "
-"Studioなどの外部ソースからアバターを入手した場合、スケルトンが "
-":doc:`アバター標準<avatar-standards>` "
-"と一致しない可能性があります。これらのアバターをVircadiaで使うには、 `"
-"Vircadia Avatar Exporter for Unity <find-avatars.html#vircadia-avatar-"
-"exporter-for-unity>` を使ってスケルトンを正しくマッピングして、アバターをパッ"
-"ケージングしてください。"
+"TurboSquid、CGTrader、MakeHuman、VRoid Studioなどの外部ソースからアバターを入手した場合、スケルトンが "
+":doc:`アバター標準<avatar-standards>` と一致しない可能性があります。これらのアバターをVircadiaで使うには、 "
+"`Vircadia Avatar Exporter for Unity <find-avatars.html#vircadia-avatar-"
+"exporter-for-unity>` を使ってスケルトンを正しくマッピングして、アバターをパッケージングしてください。"
 
 #: ../../source/create/avatars/create-avatars.rst:17
 #, fuzzy
 msgid ""
 "If you want to create an avatar from scratch, this page covers the steps "
 "needed to create, rig, and package your avatar."
-msgstr "アバターを最初から作成する場合、このページではアバターの作成、リギング、パッ"
-"ケージングに必要な手順を説明します。"
+msgstr "アバターを最初から作成する場合、このページではアバターの作成、リギング、パッケージングに必要な手順を説明します。"
 
 #: ../../source/create/avatars/create-avatars.rst:22
 #: ../../source/explore/get-started.rst:7 ../../source/host/add-content.rst:7
@@ -3791,8 +3735,7 @@ msgstr "BlenderやMayaなどの3Dキャラクターモデリングツールで�
 #: ../../source/create/avatars/create-avatars.rst:37
 #, fuzzy
 msgid "Rig and animate your avatar with an animation tool such as Mixamo."
-msgstr "Mixamoなどのアニメーションツールを使って、アバターのリグやアニメーションを作"
-"成します。"
+msgstr "Mixamoなどのアニメーションツールを使って、アバターのリグやアニメーションを作成します。"
 
 #: ../../source/create/avatars/create-avatars.rst:38
 #, fuzzy
@@ -3825,11 +3768,7 @@ msgid ""
 "project. Many of our community members have created plug-ins, add-ons, "
 "toolkits, skeletons and more to help you create content, including "
 "avatars. Here are a few for you to play around with."
-msgstr ""
-"アバターを作成する際には、Vircadiaがオープンソースのプロジェクトであることを"
-"思い出してください。コミュニティのメンバーの多くが、プラグイン、アドオン、ツ"
-"ールキット、スケルトンなどを作成し、アバターを含むコンテンツの作成に役立てて"
-"います。ここでは、そのいくつかをご紹介します。"
+msgstr "アバターを作成する際には、Vircadiaがオープンソースのプロジェクトであることを思い出してください。コミュニティのメンバーの多くが、プラグイン、アドオン、ツールキット、スケルトンなどを作成し、アバターを含むコンテンツの作成に役立てています。ここでは、そのいくつかをご紹介します。"
 
 #: ../../source/create/avatars/create-avatars.rst:52
 #, fuzzy
@@ -3851,9 +3790,7 @@ msgstr ""
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Overte."
-msgstr ""
-"**Material Tools**: Vircadiaですぐに使えるように、オブジェクトにマテリアルを"
-"適用するパイプラインが簡単になりました。"
+msgstr "**Material Tools**: Vircadiaですぐに使えるように、オブジェクトにマテリアルを適用するパイプラインが簡単になりました。"
 
 #: ../../source/create/avatars/create-avatars.rst:57
 #, fuzzy
@@ -3861,16 +3798,15 @@ msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Overte and "
 "let you configure bone names for use in advanced scripts."
 msgstr ""
-"**Armature Tools**: Vircadiaと互換性のあるスケルトンを追加し、高度なスクリプ"
-"トで使用するために骨の名前を設定することができます。"
+"**Armature Tools**: "
+"Vircadiaと互換性のあるスケルトンを追加し、高度なスクリプトで使用するために骨の名前を設定することができます。"
 
 #: ../../source/create/avatars/create-avatars.rst:58
 #, fuzzy
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Overte."
-msgstr "**Avatar Converters**: "
-"MMDやMixamoのモデルや素材をVircadiaで使えるように移行・修正します。"
+msgstr "**Avatar Converters**: MMDやMixamoのモデルや素材をVircadiaで使えるように移行・修正します。"
 
 #: ../../source/create/avatars/create-avatars.rst:59
 msgid ""
@@ -3883,9 +3819,7 @@ msgstr ""
 msgid ""
 "**Import Tools**: Imports primitive entities from Overte so that you can "
 "make modifications to them."
-msgstr ""
-"**Import Tools**: Vircadiaからプリミティブなエンティティをインポートし、それ"
-"らに変更を加えることができるようにします。"
+msgstr "**Import Tools**: Vircadiaからプリミティブなエンティティをインポートし、それらに変更を加えることができるようにします。"
 
 #: ../../source/create/avatars/create-avatars.rst:62
 #, fuzzy
@@ -3893,16 +3827,15 @@ msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 msgstr ""
-"こちらからインストールしてください：`https://github.com/Menithal/Blender-"
-"Metaverse-Addon <https://github.com/Menithal/Blender-Metaverse-Addon>`"
+"こちらからインストールしてください：`https://github.com/Menithal/Blender-Metaverse-Addon "
+"<https://github.com/Menithal/Blender-Metaverse-Addon>`"
 
 #: ../../source/create/avatars/create-avatars.rst:64
 #, fuzzy
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
-msgstr "あなたが取り組んでいるプロジェクトで、私たちに紹介してほしいものがありますか"
-"？GitHubでこのページを編集して教えてください！"
+msgstr "あなたが取り組んでいるプロジェクトで、私たちに紹介してほしいものがありますか？GitHubでこのページを編集して教えてください！"
 
 #: ../../source/create/avatars/create-avatars.rst:69
 #, fuzzy
@@ -3921,8 +3854,8 @@ msgid ""
 "This document is slightly outdated. FIXME: Mentions only FBX (check if "
 "glTF is also supported), contains HiFi hosted content"
 msgstr ""
-"このドキュメントは若干古くなっています。修正: FBX のみ言及 (glTF "
-"もサポートされているか確認)、HiFi ホストされたコンテンツが含まれる"
+"このドキュメントは若干古くなっています。修正: FBX のみ言及 (glTF もサポートされているか確認)、HiFi "
+"ホストされたコンテンツが含まれる"
 
 #: ../../source/create/avatars/custom-animations.rst:9
 #, fuzzy
@@ -3931,11 +3864,7 @@ msgid ""
 "animations with your own custom animations such as dancing, juggling, or "
 "waving. Any custom animations you set up will be independent to each "
 "avatar you own and wear."
-msgstr ""
-"Vircadiaの標準的なアニメーションを上書きして、ダンス、ジャグリング、ウェーブ"
-"などの独自のアニメーションを設定することで、自分自身を表現することができます"
-"。設定したカスタムアニメーションは、所有しているアバターと装着しているアバタ"
-"ーにそれぞれ適用されます。"
+msgstr "Vircadiaの標準的なアニメーションを上書きして、ダンス、ジャグリング、ウェーブなどの独自のアニメーションを設定することで、自分自身を表現することができます。設定したカスタムアニメーションは、所有しているアバターと装着しているアバターにそれぞれ適用されます。"
 
 #: ../../source/create/avatars/custom-animations.rst:11
 #, fuzzy
@@ -3944,11 +3873,7 @@ msgid ""
 "more user friendly. As you develop custom animations, keep in mind that "
 "you may need to modify them in the future as our custom animation support"
 " continues to improve."
-msgstr ""
-"カスタムアニメーションのインポートプロセスは、より使いやすくするために頻繁に"
-"更新しています。カスタムアニメーションを開発する際には、カスタムアニメーショ"
-"ンのサポートが向上し続けるため、将来的に修正する必要があるかもしれないことを"
-"心に留めておいてください。"
+msgstr "カスタムアニメーションのインポートプロセスは、より使いやすくするために頻繁に更新しています。カスタムアニメーションを開発する際には、カスタムアニメーションのサポートが向上し続けるため、将来的に修正する必要があるかもしれないことを心に留めておいてください。"
 
 #: ../../source/create/avatars/custom-animations.rst:20
 #, fuzzy
@@ -3976,10 +3901,9 @@ msgid ""
 "org/overte/blob/master/interface/resources/avatar/animations/turn_left.f "
 "bx>`_ is the standard animation file for your avatar turning left."
 msgstr ""
-"アバターアニメーションは、アバターの動きを定義する FBX "
-"ファイルです。例えば、`turn_left.fbx <h ttps://github.com/vircadia/vircadia/"
-"blob/master/interface/resources/avatar/animations/turn_left.f bx>` "
-"はアバターが左回転する標準のアニメーション・ファイルです。"
+"アバターアニメーションは、アバターの動きを定義する FBX ファイルです。例えば、`turn_left.fbx <h "
+"ttps://github.com/vircadia/vircadia/blob/master/interface/resources/avatar/animations/turn_left.f"
+" bx>` はアバターが左回転する標準のアニメーション・ファイルです。"
 
 #: ../../source/create/avatars/custom-animations.rst:29
 #, fuzzy
@@ -3996,19 +3920,17 @@ msgid ""
 "left arrow key or ``A`` in Desktop mode or using your hand controllers in"
 " VR mode."
 msgstr ""
-"アニメーションロールは、アバターが実行できるアクションにマッピングするトリガ"
-"ーです。例えば、turnLeft "
-"はアバターがその場に立ったまま左折するアニメーションのロールです。"
-"このアニメーションロールは turn_left.fbx ファイルにマップされています。"
-"Desktop モードでは左矢印キーまたは ``A`` を、VR "
+"アニメーションロールは、アバターが実行できるアクションにマッピングするトリガーです。例えば、turnLeft "
+"はアバターがその場に立ったまま左折するアニメーションのロールです。このアニメーションロールは turn_left.fbx "
+"ファイルにマップされています。Desktop モードでは左矢印キーまたは ``A`` を、VR "
 "モードではハンドコントローラを使って、このアクションを見ることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:35
 #, fuzzy
 msgid "Avatar Animation JSON or Animation Graph File"
 msgstr ""
-"アバターアニメーションJSONまたはアニメーショングラフファイル（Avatar "
-"Animation JSON、Animation Graph File）"
+"アバターアニメーションJSONまたはアニメーショングラフファイル（Avatar Animation JSON、Animation Graph "
+"File）"
 
 #: ../../source/create/avatars/custom-animations.rst:35
 #, fuzzy
@@ -4022,14 +3944,9 @@ msgid ""
 " same `Animation Graph file <https://github.com/overte-org/overt "
 "e/blob/master/interface/resources/avatar/avatar-animation.json>`_."
 msgstr ""
-"標準のアニメーションシステムは、JSONデータファイルを使って、FBXファイルから一"
-"連のアニメーションを合成し、レイヤー化する。このJSONファイルはアニメーション"
-"グラフファイルと呼ばれ、どのアニメーションをどのように合成して再生するかを正"
-"確に指定する。また、操作の順番も決められるので、インバースキネマティクスなど"
-"の操作は、体の他の部分が従来の方法でアニメートされた後に行われます。デフォル"
-"トでは、全てのアバターは同じ `Animation Graph file <https://github.com/"
-"vircadia/vircadi a/blob/master/interface/resources/avatar/avatar-animation."
-"json>` を使用します。"
+"標準のアニメーションシステムは、JSONデータファイルを使って、FBXファイルから一連のアニメーションを合成し、レイヤー化する。このJSONファイルはアニメーショングラフファイルと呼ばれ、どのアニメーションをどのように合成して再生するかを正確に指定する。また、操作の順番も決められるので、インバースキネマティクスなどの操作は、体の他の部分が従来の方法でアニメートされた後に行われます。デフォルトでは、全てのアバターは同じ"
+" `Animation Graph file <https://github.com/vircadia/vircadi "
+"a/blob/master/interface/resources/avatar/avatar-animation.json>` を使用します。"
 
 #: ../../source/create/avatars/custom-animations.rst:46
 #, fuzzy
@@ -4043,9 +3960,8 @@ msgid ""
 "your custom animation file. Use our :doc:`Avatar Standards Guide <avatar-"
 "standards>` and keep the following guidelines in mind:"
 msgstr ""
-"既存の標準アニメーションを置き換える前に、カスタムアニメーションファイルを準"
-"備する必要があります。私たちの :doc:`Avatar Standards Guide <avatar-"
-"standards>` を利用し、以下のガイドラインに留意してください。"
+"既存の標準アニメーションを置き換える前に、カスタムアニメーションファイルを準備する必要があります。私たちの :doc:`Avatar "
+"Standards Guide <avatar-standards>` を利用し、以下のガイドラインに留意してください。"
 
 #: ../../source/create/avatars/custom-animations.rst:50
 msgid "Animations must have standard joint names for Overte."
@@ -4061,8 +3977,7 @@ msgstr "アニメーションは、標準的な関節の向き（ボーン下部
 msgid ""
 "Key frames must have key frames for every joint at a uniform interval of "
 "30 frames per second."
-msgstr "キーフレームは、毎秒30フレームの均一な間隔で、すべての関節に対してキーフレー"
-"ムを配置する必要があります。"
+msgstr "キーフレームは、毎秒30フレームの均一な間隔で、すべての関節に対してキーフレームを配置する必要があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:53
 #, fuzzy
@@ -4071,9 +3986,8 @@ msgid ""
 "first frame. Try to match this phase if you want your locomotion "
 "animation to blend with the default set."
 msgstr ""
-"ロコモーション（Locomotion ）アニメーションのフェーズでは、最初のフレームで左"
-"足首が通過する位置にあります。もし、あなたのロコモーション・アニメーションを"
-"デフォルトの設定と調和させたいなら、この位相に合わせるようにしてください。"
+"ロコモーション（Locomotion "
+"）アニメーションのフェーズでは、最初のフレームで左足首が通過する位置にあります。もし、あなたのロコモーション・アニメーションをデフォルトの設定と調和させたいなら、この位相に合わせるようにしてください。"
 
 #: ../../source/create/avatars/custom-animations.rst:55
 #, fuzzy
@@ -4090,8 +4004,7 @@ msgstr "お好みの外部ツールからアニメーションをFBXファイル
 #: ../../source/create/avatars/custom-animations.rst:58
 #, fuzzy
 msgid "Upload your animation FBX file to a cloud server and copy the URL."
-msgstr "アニメーションのFBXファイルをクラウドサーバーにアップロードし、URLをコピーし"
-"てください。"
+msgstr "アニメーションのFBXファイルをクラウドサーバーにアップロードし、URLをコピーしてください。"
 
 #: ../../source/create/avatars/custom-animations.rst:62
 #, fuzzy
@@ -4103,17 +4016,14 @@ msgstr "標準アニメーションの置き換え"
 msgid ""
 "You can have your avatar use your custom animations by overriding the "
 "default animations. There are two different ways to do this:"
-msgstr ""
-"デフォルトのアニメーションをオーバーライドすることで、アバターにカスタムアニ"
-"メーションを使用させることができます。これには2つの異なる方法があります。"
+msgstr "デフォルトのアニメーションをオーバーライドすることで、アバターにカスタムアニメーションを使用させることができます。これには2つの異なる方法があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:66
 #, fuzzy
 msgid ""
 "`Override Using a Script`_: Write a script to override standard "
 "animations."
-msgstr "`Override Using a Script` : "
-"標準のアニメーションをオーバーライドするスクリプトを書く。"
+msgstr "`Override Using a Script` : 標準のアニメーションをオーバーライドするスクリプトを書く。"
 
 #: ../../source/create/avatars/custom-animations.rst:67
 #, fuzzy
@@ -4137,16 +4047,15 @@ msgid ""
 "override an existing animation or animation role."
 msgstr ""
 "`スクリプト<../../script/write-scripts.html>`_ を書き、 `MyAvatar "
-"<https://apidocs.vircadia.dev/MyAvatar.html>` 名前空間を使えば、既存のアニメ"
-"ーションやアニメーションロールをオーバーライドすることができます。"
+"<https://apidocs.vircadia.dev/MyAvatar.html>` "
+"名前空間を使えば、既存のアニメーションやアニメーションロールをオーバーライドすることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:76
 #, fuzzy
 msgid ""
 "We've listed the methods you can use to replace the standard animations "
 "on your avatar."
-msgstr "アバターに標準搭載されているアニメーションを差し替える方法を一覧でご紹介して"
-"います。"
+msgstr "アバターに標準搭載されているアニメーションを差し替える方法を一覧でご紹介しています。"
 
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/environments.rst:15
@@ -4168,11 +4077,7 @@ msgid ""
 "will move smoothly from the current pose to the starting frame of the "
 "custom animation. For example, if your avatar is waving, this script will"
 " stop your avatar waving and play the custom animation provided."
-msgstr ""
-"このメソッドは、現在のアバターに任意のアニメーションを再生するために使用でき"
-"ます。現在のポーズからカスタムアニメーションの開始フレームまでスムーズに移動"
-"します。例えば、アバターが手を振っている場合、このスクリプトはアバターが手を"
-"振るのを止め、提供されたカスタムアニメーションを再生します。"
+msgstr "このメソッドは、現在のアバターに任意のアニメーションを再生するために使用できます。現在のポーズからカスタムアニメーションの開始フレームまでスムーズに移動します。例えば、アバターが手を振っている場合、このスクリプトはアバターが手を振るのを止め、提供されたカスタムアニメーションを再生します。"
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
@@ -4188,11 +4093,8 @@ msgid ""
 "animations before playing them, you might see a t-pose appear briefly as "
 "the animation is downloaded."
 msgstr ""
-"このメソッドは、リソースをフェッチします。これを使用して、クラウドサーバーで"
-"ホストしているカスタムアニメーションを取得することができます。アニメーション"
-"を再生する前にプリフェッチしない場合、"
-"アニメーションがダウンロードされるときに "
-"T-ポーズが短時間表示されることがあります。"
+"このメソッドは、リソースをフェッチします。これを使用して、クラウドサーバーでホストしているカスタムアニメーションを取得することができます。アニメーションを再生する前にプリフェッチしない場合、アニメーションがダウンロードされるときに"
+" T-ポーズが短時間表示されることがあります。"
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
@@ -4205,8 +4107,7 @@ msgstr ""
 msgid ""
 "This method stops the override function from playing any custom "
 "animation. Your avatar will go back to playing the standard animations."
-msgstr "このメソッドは、オーバーライド関数がカスタムアニメーションを再生するのを防ぎ"
-"ます。アバターは標準のアニメーションの再生に戻ります。"
+msgstr "このメソッドは、オーバーライド関数がカスタムアニメーションを再生するのを防ぎます。アバターは標準のアニメーションの再生に戻ります。"
 
 #: ../../source/create/avatars/custom-animations.rst:96
 #, fuzzy
@@ -4214,10 +4115,7 @@ msgid ""
 "This process to replace an existing animation will take complete control "
 "of all avatar joints. Inverse Kinematics of the hands and head of HMD "
 "users will be disabled."
-msgstr ""
-"既存のアニメーションを置き換えるこの処理では、すべてのアバタージョイントを完"
-"全に制御します。HMDユーザーの手と頭のインバースキネマティクスは無効となります"
-"。"
+msgstr "既存のアニメーションを置き換えるこの処理では、すべてのアバタージョイントを完全に制御します。HMDユーザーの手と頭のインバースキネマティクスは無効となります。"
 
 #: ../../source/create/avatars/custom-animations.rst:98
 #, fuzzy
@@ -4242,9 +4140,9 @@ msgid ""
 "file) using `MyAvatar.overrideRoleAnimation "
 "<https://apidocs.overte.org/MyAvatar.html#.overrideRoleAnimation>`_."
 msgstr ""
-"`MyAvatar.overrideRoleAnimation <https://apidocs.vircadia.dev/MyAvatar.html#."
-"overrideRoleAnimation>` を使用すると、各ロールのアニメーションをカスタムアニ"
-"メーション（FBXファイル）に置き換えることができます。"
+"`MyAvatar.overrideRoleAnimation "
+"<https://apidocs.vircadia.dev/MyAvatar.html#.overrideRoleAnimation>` "
+"を使用すると、各ロールのアニメーションをカスタムアニメーション（FBXファイル）に置き換えることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:103
 #, fuzzy
@@ -4256,12 +4154,12 @@ msgid ""
 "code repository on `GitHub <https://github.com/overte-"
 "org/vircadia/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
-"アニメーションの役割とその説明をリストアップしました。これらは頻繁に更新され"
-"ますので、先に進む前に ``MyAvatar.getAnimationRoles`` "
-"を使って最新のアニメーションロールを取得することをお勧めします。"
-"これらのロールの標準アニメーション FBX ファイルは、Vircadia "
-"ソースコードレポジトリの `GitHub <https://github.com/vircadia/vircadia/tree/"
-"master/interface/resources/avatar/animations>` で見ることができます。"
+"アニメーションの役割とその説明をリストアップしました。これらは頻繁に更新されますので、先に進む前に "
+"``MyAvatar.getAnimationRoles`` "
+"を使って最新のアニメーションロールを取得することをお勧めします。これらのロールの標準アニメーション FBX ファイルは、Vircadia "
+"ソースコードレポジトリの `GitHub "
+"<https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/animations>`"
+" で見ることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:106
 #, fuzzy
@@ -4478,8 +4376,7 @@ msgstr "walkBwdFast_c, jogBwd_c, runBwd_c"
 msgid ""
 "Walking backward at 1.6 m/s. Jog backward at 2.3 m/s. Jog backward at 3.1"
 " m/s."
-msgstr "1.6m/sで後方歩行。2.3 m/sで後方へジョギング。3.1m/s "
-"で後ろ向きにジョギングする。"
+msgstr "1.6m/sで後方歩行。2.3 m/sで後方へジョギング。3.1m/s で後ろ向きにジョギングする。"
 
 #: ../../source/create/avatars/custom-animations.rst:158
 #, fuzzy
@@ -4510,16 +4407,14 @@ msgstr "0.1m/sでサイドステップを行う。"
 #: ../../source/create/avatars/custom-animations.rst:164
 #, fuzzy
 msgid "strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
-msgstr ""
-"strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
+msgstr "strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
 
 #: ../../source/create/avatars/custom-animations.rst:164
 #, fuzzy
 msgid ""
 "Sidestep at 0.5 m/s. Side walk at 1.0 m/s. Side walk at 2.6 m/s. Side jog"
 " at 3.0 m/s."
-msgstr "0.5m/sでサイドステップを行う。1.0m/sでサイドウォーク サイドウォーク 2.6 m/s。"
-"サイドジョグ 3.0m/s."
+msgstr "0.5m/sでサイドステップを行う。1.0m/sでサイドウォーク サイドウォーク 2.6 m/s。サイドジョグ 3.0m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:167
 #, fuzzy
@@ -4549,9 +4444,8 @@ msgid ""
 "at 0 m/s. HMD step left at 0.5 m/s. HMD strafe left at 2.5 m/s. HMD step "
 "right at 0 m/s. HMD step right at 0.5 m/s. HMD strafe right at 2.5 m/s."
 msgstr ""
-"サイドウォーク 1m/s サイドウォーク 2.6m/s サイドジョグ 3m/s。HMDステップ左 "
-"0m/s。HMDステップ左（0.5m/s）. HMD 左方向 2.5m/s HMDステップ右（0m/s "
-"HMDステップ右、速度0.5m/s HMD 右旋回 （2.5m/s）."
+"サイドウォーク 1m/s サイドウォーク 2.6m/s サイドジョグ 3m/s。HMDステップ左 0m/s。HMDステップ左（0.5m/s）. "
+"HMD 左方向 2.5m/s HMDステップ右（0m/s HMDステップ右、速度0.5m/s HMD 右旋回 （2.5m/s）."
 
 #: ../../source/create/avatars/custom-animations.rst:175
 #, fuzzy
@@ -4679,10 +4573,7 @@ msgstr "カスタムアバターアニメーションのJSONファイルを作�
 msgid ""
 "If you're not comfortable using a script, you can edit or replace the "
 "existing Avatar Animation JSON file to override the standard animations."
-msgstr ""
-"スクリプトを使うのが面倒な場合は、既存のアバター・アニメーションJSONファイル"
-"を編集するか置き換えることで、標準のアニメーションを上書きすることができます"
-"。"
+msgstr "スクリプトを使うのが面倒な場合は、既存のアバター・アニメーションJSONファイルを編集するか置き換えることで、標準のアニメーションを上書きすることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:206
 #, fuzzy
@@ -4690,10 +4581,7 @@ msgid ""
 "If you create a custom JSON file for your avatar's animations, you will "
 "not inherit any updates made to the standard animations' JSON file. You "
 "can perform a text merge to the latest version at any time."
-msgstr ""
-"アバターのアニメーション用にカスタムJSONファイルを作成した場合、標準アニメー"
-"ションのJSONファイルに行われた更新は引き継がれません。いつでも最新版へのテキ"
-"スト・マージを行うことができます。"
+msgstr "アバターのアニメーション用にカスタムJSONファイルを作成した場合、標準アニメーションのJSONファイルに行われた更新は引き継がれません。いつでも最新版へのテキスト・マージを行うことができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:208
 #, fuzzy
@@ -4702,12 +4590,7 @@ msgid ""
 " file. You can replace standard animation FBX files with your custom "
 "animation's FBX files. Or, you can write a new JSON file with the new "
 "mappings for each animation role."
-msgstr ""
-"JSONファイルは、どのアニメーションのロールがどのアニメーションFBXファイルにマ"
-"ッピングされているかを示しています。標準のアニメーションFBXファイルを、カスタ"
-"ムアニメーションのFBXファイルで置き換えることができます。または、各アニメーシ"
-"ョンの役割のための新しいマッピングを持つ新しいJSONファイルを書くことができま"
-"す。"
+msgstr "JSONファイルは、どのアニメーションのロールがどのアニメーションFBXファイルにマッピングされているかを示しています。標準のアニメーションFBXファイルを、カスタムアニメーションのFBXファイルで置き換えることができます。または、各アニメーションの役割のための新しいマッピングを持つ新しいJSONファイルを書くことができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:210
 #, fuzzy
@@ -4717,8 +4600,7 @@ msgstr "標準的なアニメーションを置き換えるため。"
 #: ../../source/create/avatars/custom-animations.rst:212
 #, fuzzy
 msgid "Upload your custom JSON file to a cloud server and copy the URL."
-msgstr "カスタムJSONファイルをクラウドサーバーにアップロードし、URLをコピーしてくださ"
-"い。"
+msgstr "カスタムJSONファイルをクラウドサーバーにアップロードし、URLをコピーしてください。"
 
 #: ../../source/create/avatars/custom-animations.rst:213
 #, fuzzy
@@ -4757,8 +4639,8 @@ msgid ""
 "<package-avatar.html#host-your-avatar>`_ to include the changes in your "
 "FST file."
 msgstr ""
-"アバターのファイルを `Avatar Packager <package-avatar.html#host-your-avatar>`"
-" に通して、FST ファイルに変更を含める必要があります。"
+"アバターのファイルを `Avatar Packager <package-avatar.html#host-your-avatar>` "
+"に通して、FST ファイルに変更を含める必要があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:232
 #, fuzzy
@@ -4780,10 +4662,9 @@ msgid ""
 "a sitting pose. This example shows how you can replace some of an "
 "avatar's default animations."
 msgstr ""
-"この `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/scoot-"
-"animation.json>` ファイルは、アイドルとウォークのアニメーションを、座っている"
-"ポーズに置き換えたものです。この例では、アバターのデフォルトアニメーションを"
-"どのように置き換えることができるかを示しています。"
+"この `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony"
+"/scoot-animation.json>` "
+"ファイルは、アイドルとウォークのアニメーションを、座っているポーズに置き換えたものです。この例では、アバターのデフォルトアニメーションをどのように置き換えることができるかを示しています。"
 
 #: ../../source/create/avatars/custom-animations.rst:240
 #, fuzzy
@@ -4797,9 +4678,8 @@ msgid ""
 "called the AnimNode System. The AnimNode system defines how an avatar "
 "moves and is described in the Animation Graph JSON file."
 msgstr ""
-"アバターアニメーションJSONファイルには、AnimNodeシステムと呼ばれるノードの階"
-"層的なツリーが含まれています。AnimNodeシステムは、アバターがどのように動くか"
-"を定義し、Animation Graph JSONファイルに記述されます。"
+"アバターアニメーションJSONファイルには、AnimNodeシステムと呼ばれるノードの階層的なツリーが含まれています。AnimNodeシステムは、アバターがどのように動くかを定義し、Animation"
+" Graph JSONファイルに記述されます。"
 
 #: ../../source/create/avatars/custom-animations.rst:244
 #, fuzzy
@@ -4814,15 +4694,9 @@ msgid ""
 "unique animations and avatar configurations are possible. These "
 "functionalities are handled by the AnimNode system."
 msgstr ""
-"アバターの動きは、プロシージャルアニメーション、録画されたアニメーションクリ"
-"ップ、インバースキネマティクスを複雑に組み合わせて決定されます。この組み合わ"
-"せは、アバターの体が物理演算とコントローラの入力にできるだけ速く追従するよう"
-"に、フレームごとに計算されます。デスクトップユーザー、HMDユーザー、そしてHTC "
-"Viveのトラッカー一式を装着したユーザーのアニメーションを処理しなければなりま"
-"せん。センサーがシステムに追加されたり削除されたりしても、即座に設定されなけ"
-"ればなりません。また、ユニークなアニメーションやアバターの構成が可能なように"
-"、拡張にオープンである必要があります。これらの機能は、AnimNodeシステムによっ"
-"て処理されます。"
+"アバターの動きは、プロシージャルアニメーション、録画されたアニメーションクリップ、インバースキネマティクスを複雑に組み合わせて決定されます。この組み合わせは、アバターの体が物理演算とコントローラの入力にできるだけ速く追従するように、フレームごとに計算されます。デスクトップユーザー、HMDユーザー、そしてHTC"
+" "
+"Viveのトラッカー一式を装着したユーザーのアニメーションを処理しなければなりません。センサーがシステムに追加されたり削除されたりしても、即座に設定されなければなりません。また、ユニークなアニメーションやアバターの構成が可能なように、拡張にオープンである必要があります。これらの機能は、AnimNodeシステムによって処理されます。"
 
 #: ../../source/create/avatars/custom-animations.rst:246
 #, fuzzy
@@ -4844,32 +4718,28 @@ msgstr "録画済みのアニメーションクリップなど、出力のみの
 msgid ""
 "Other nodes produce output by processing nodes below it in the graph and "
 "blending the results together."
-msgstr "他のノードは、グラフ内のその下のノードを処理し、その結果を組み合わせて出力を"
-"生成します。"
+msgstr "他のノードは、グラフ内のその下のノードを処理し、その結果を組み合わせて出力を生成します。"
 
 #: ../../source/create/avatars/custom-animations.rst:251
 #, fuzzy
 msgid ""
 "By manipulating the node hierarchy, certain animation actions will occur "
 "before or after other animation actions."
-msgstr "ノード階層を操作することで、特定のアニメーションアクションを他のアニメーショ"
-"ンアクションの前や後に発生させることができます。"
+msgstr "ノード階層を操作することで、特定のアニメーションアクションを他のアニメーションアクションの前や後に発生させることができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:252
 #, fuzzy
 msgid ""
 "The node parameters can be dynamically changed at runtime. This "
 "flexibility is necessary to achieve good visual results."
-msgstr "ノードのパラメータは、実行時に動的に変更することができます。このような柔軟性"
-"は、良好なビジュアル結果を得るために必要です。"
+msgstr "ノードのパラメータは、実行時に動的に変更することができます。このような柔軟性は、良好なビジュアル結果を得るために必要です。"
 
 #: ../../source/create/avatars/custom-animations.rst:253
 #, fuzzy
 msgid ""
 "The system is in the default Animation Graph JSON file and is loaded "
 "during avatar initialization."
-msgstr "このシステムは、デフォルトのAnimation Graph "
-"JSONファイルにあり、アバターの初期化時に読み込まれます。"
+msgstr "このシステムは、デフォルトのAnimation Graph JSONファイルにあり、アバターの初期化時に読み込まれます。"
 
 #: ../../source/create/avatars/custom-animations.rst:255
 #, fuzzy
@@ -4892,10 +4762,8 @@ msgid ""
 "The tree is evaluated until there is a single value remaining, which "
 "should be the result of the entire expression: ``30.2957142``."
 msgstr ""
-"このパースツリーを実行時に評価することで、実際の値を計算することができる。こ"
-"のツリーでは、リーフノードが値で、内部ノードが2つ以上のサブツリーを結合して新"
-"しい値を生成する操作です。この木は1つの値が残るまで評価され、"
-"それが式全体の結果である ``30.2957142`` となります。"
+"このパースツリーを実行時に評価することで、実際の値を計算することができる。このツリーでは、リーフノードが値で、内部ノードが2つ以上のサブツリーを結合して新しい値を生成する操作です。この木は1つの値が残るまで評価され、それが式全体の結果である"
+" ``30.2957142`` となります。"
 
 #: ../../source/create/avatars/custom-animations.rst:264
 #, fuzzy
@@ -4904,8 +4772,7 @@ msgid ""
 " number, and operations can be implemented simply by evaluating each sub-"
 "tree, and then combining them with an arithmetic operation, such as "
 "addition or multiplication."
-msgstr "式の場合、各ノードの出力値は浮動小数点数であり、演算は各サブツリーを評価し、"
-"加算や乗算などの算術演算と組み合わせるだけで実装ができます。"
+msgstr "式の場合、各ノードの出力値は浮動小数点数であり、演算は各サブツリーを評価し、加算や乗算などの算術演算と組み合わせるだけで実装ができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:266
 #, fuzzy
@@ -4917,12 +4784,9 @@ msgid ""
 " blending between two or more sub-trees, or combining the upper body of "
 "one animation with the lower body of another."
 msgstr ""
-"AnimNode システムも同じようなコンセプトで動いています。ただし、各ノードの値に"
-"はアバターのすべての関節の移動および回転が含まれます。リーフノードには、Tポー"
-"ズなどのアバターの静的なポーズや、アニメーションクリップの1フレームを指定する"
-"ことができます。内部ノードでは、2 つ以上のサブツリー間の合成や 1 つのアニメー"
-"ションの上半身と別のアニメーションの下半身の合成などの処理を行うことができま"
-"す。"
+"AnimNode "
+"システムも同じようなコンセプトで動いています。ただし、各ノードの値にはアバターのすべての関節の移動および回転が含まれます。リーフノードには、Tポーズなどのアバターの静的なポーズや、アニメーションクリップの1フレームを指定することができます。内部ノードでは、2"
+" つ以上のサブツリー間の合成や 1 つのアニメーションの上半身と別のアニメーションの下半身の合成などの処理を行うことができます。"
 
 #: ../../source/create/avatars/custom-animations.rst:272
 #, fuzzy
@@ -4939,8 +4803,8 @@ msgid ""
 "This document is outdated. FIXME: Mentions Unity Avatar Exporter fixing "
 "all skeletons which it is unable to do"
 msgstr ""
-"このドキュメントは古くなっています。修正: Unity Avatar Exporterがすべてのスケ"
-"ルトンを修正することに言及していますが、それは不可能です"
+"このドキュメントは古くなっています。修正: Unity Avatar "
+"Exporterがすべてのスケルトンを修正することに言及していますが、それは不可能です"
 
 #: ../../source/create/avatars/find-avatars.rst:9
 #, fuzzy
@@ -4951,11 +4815,9 @@ msgid ""
 "into Unity, maps their skeleton using Unity's humanoid tool, and exports "
 "them as FST and FBX files to import in-world."
 msgstr ""
-"TurboSquid や CGTrader などの外部ソースから使用するアバターをダウンロードする"
-"ことができます。アバターを入手したら、Vircadia Avatar Exporterを使用してUnity"
-"で加工する必要があります。このツールは、ほとんどのアバターをUnityにインポート"
-"し、Unityの人型ツールを使ってスケルトンをマッピングし、インワールドでインポー"
-"トするためのFSTとFBXファイルとしてエクスポートすることができます。"
+"TurboSquid や CGTrader "
+"などの外部ソースから使用するアバターをダウンロードすることができます。アバターを入手したら、Vircadia Avatar "
+"Exporterを使用してUnityで加工する必要があります。このツールは、ほとんどのアバターをUnityにインポートし、Unityの人型ツールを使ってスケルトンをマッピングし、インワールドでインポートするためのFSTとFBXファイルとしてエクスポートすることができます。"
 
 #: ../../source/create/avatars/find-avatars.rst:16
 #, fuzzy
@@ -10886,11 +10748,7 @@ msgid ""
 "interact with other users. You can visit friends' virtual worlds, meet "
 "people, attend events, and learn about creation in virtuality. It's an "
 "immersive and interactive experience with realistic visuals and audio."
-msgstr ""
-"Overteとは、他の人とつながり、共に創造することができる、セルフホスト可能なオ"
-"ープンソースの分散型バーチャルリアリティソーシャルネットワーキングソフトウェ"
-"ア（VRSNS）です。フレンドの作ったバーチャル空間を旅したり、様々な人と交流した"
-"り、自分でワールドを作ったり、ホストすることができます。"
+msgstr "Overteとは、他の人とつながり、共に創造することができる、セルフホスト可能なオープンソースの分散型バーチャルリアリティソーシャルネットワーキングソフトウェア（VRSNS）です。フレンドの作ったバーチャル空間を旅したり、様々な人と交流したり、自分でワールドを作ったり、ホストすることができます。"
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -10912,8 +10770,7 @@ msgstr "この章を通して、探索を最大限に活用する方法を学び
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
-msgstr "このギャラリーでは、Overte/Vircadia "
-"Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
+msgstr "このギャラリーでは、Overte/Vircadia Interfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
 
 #: ../../source/explore/gallery.rst:12
 msgid "Maker meeting 28th September 2020"
@@ -19216,34 +19073,74 @@ msgid ""
 msgstr "元のドメインがパッケージを使用してインストールされている場合は、既存のVircadiaドメインでこれらの同じコマンドを実行して、ドメインをアップグレードできます。パッケージは現在、次のディストリビューションで利用できます。"
 
 #: ../../source/host/server-setup/linux-server.md:9
-msgid "Ubuntu Server 18.04 LTS"
+#, fuzzy
+msgid "Server:"
+msgstr "サーバー"
+
+#: ../../source/host/server-setup/linux-server.md:11
+#: ../../source/host/server-setup/linux-server.md:58
+msgid "Debian 11"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:16
+#: ../../source/host/server-setup/linux-server.md:18
+msgid "Ubuntu Server 22.04 LTS"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:24
+msgid "Ubuntu 20.04"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:31
+msgid "Ubuntu 18.04"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:37
+#: ../../source/host/server-setup/linux-server.md:72
+msgid "Fedora 36"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:43
+#: ../../source/host/server-setup/linux-server.md:79
+msgid "Fedora 37"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:49
+msgid "Rocky Linux 9"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:56
+msgid "aarch64 server:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:65
+msgid "Ubuntu 22.04"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:86
 #, fuzzy
 msgid "Unlisted Distribution"
 msgstr "リストに無いディストリビューション"
 
-#: ../../source/host/server-setup/linux-server.md:18
+#: ../../source/host/server-setup/linux-server.md:88
 msgid ""
 "If you do not see your distribution listed here, you may compile your own"
 " server from source using the [Overte builder](https://github.com/overte-"
 "org/overte-builder)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:20
+#: ../../source/host/server-setup/linux-server.md:90
 #, fuzzy
 msgid "Configuration"
 msgstr "コンフィギュレーション"
 
-#: ../../source/host/server-setup/linux-server.md:22
+#: ../../source/host/server-setup/linux-server.md:92
 #, fuzzy
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
 msgstr "インストールパッケージは、デフォルトのポートの場所にドメインを作成し、そのマシンで実行し続けるようにサービスを構成します。"
 
-#: ../../source/host/server-setup/linux-server.md:24
+#: ../../source/host/server-setup/linux-server.md:94
 #, fuzzy
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
@@ -19252,7 +19149,7 @@ msgstr ""
 "開いて管理する必要のあるネットワークポートのリストについては、[こちら](../configure-settings/network-"
 "settings)を参照してください。"
 
-#: ../../source/host/server-setup/linux-server.md:26
+#: ../../source/host/server-setup/linux-server.md:96
 #, fuzzy
 msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
@@ -19261,106 +19158,106 @@ msgid ""
 "have a functioning domain."
 msgstr "Webブラウザをポート40100でサーバーに接続します（サーバーが実行されているマシンを使用している場合、これはhttp://localhost:40100になります）初期設定ウィザードを完了すると、ドメインが機能していることでしょう。"
 
-#: ../../source/host/server-setup/linux-server.md:28
+#: ../../source/host/server-setup/linux-server.md:98
 #, fuzzy
 msgid "Files and Server Configuration"
 msgstr "ファイルとサーバーの構成"
 
-#: ../../source/host/server-setup/linux-server.md:30
+#: ../../source/host/server-setup/linux-server.md:100
 #, fuzzy
-msgid "The program files are installed in /opt/vircadia:"
+msgid "The program files are installed in /opt/overte:"
 msgstr "プログラムファイル群は/opt/vircadiaにインストールされます。"
 
-#: ../../source/host/server-setup/linux-server.md:31
+#: ../../source/host/server-setup/linux-server.md:101
 #, fuzzy
-msgid "**/opt/vircadia** contains the executables"
+msgid "**/opt/overte** contains the executables"
 msgstr "**/opt/vircadia** には実行可能ファイルが含まれています"
 
-#: ../../source/host/server-setup/linux-server.md:32
+#: ../../source/host/server-setup/linux-server.md:102
 #, fuzzy
-msgid "**/opt/vircadia/lib** contains libraries required for operation"
+msgid "**/opt/overte/lib** contains libraries required for operation"
 msgstr "**/opt/vircadia/lib** には、操作に必要なライブラリが含まれています"
 
-#: ../../source/host/server-setup/linux-server.md:33
+#: ../../source/host/server-setup/linux-server.md:103
 #, fuzzy
-msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
+msgid "**/opt/overte/plugins** is currently used for audio codecs"
 msgstr "**/opt/vircadia/plugins** は現在オーディオコーデックに使用されています"
 
-#: ../../source/host/server-setup/linux-server.md:34
+#: ../../source/host/server-setup/linux-server.md:104
 #, fuzzy
-msgid "**/opt/vircadia/resources** is required for the administrative website"
+msgid "**/opt/overte/resources** is required for the administrative website"
 msgstr "管理Webサイトには **/opt/vircadia/resources** が必要です"
 
-#: ../../source/host/server-setup/linux-server.md:36
+#: ../../source/host/server-setup/linux-server.md:106
 #, fuzzy
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
 "server</code>) cannot be launched from the command prompt without first "
-"setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
+"setting <code>LD_LIBRARY_PATH=/opt/overte/lib</code>."
 msgstr ""
 "このフォルダーにある実行ファイル（<code>new-"
 "server</code>を除く）は、LD_LIBRARY_PATHに/opt/vircadia/libを設定（<code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>）することにより、コマンドプロンプトから起動することができます。"
 
-#: ../../source/host/server-setup/linux-server.md:38
+#: ../../source/host/server-setup/linux-server.md:108
 #, fuzzy
 msgid ""
-"The file <code>/etc/opt/vircadia/default.conf</code> contains any "
+"The file <code>/etc/opt/overte/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
 "このファイル <code>/etc/opt/vircadia/default.conf</code> "
 "には、ドメインを実行するために必要な環境変数が含まれています。"
 
-#: ../../source/host/server-setup/linux-server.md:40
+#: ../../source/host/server-setup/linux-server.md:110
 #, fuzzy
 msgid ""
-"All content is stored under <code>/var/lib/vircadia/default</code>. All "
-"files underneath <code>/var/lib/vircadia</code> are owned by the user "
-"<code>vircadia</code>, which is also the user that runs all domain-"
-"related processes."
+"All content is stored under <code>/var/lib/overte/default</code>. All "
+"files underneath <code>/var/lib/overte</code> are owned by the user "
+"<code>overte</code>, which is also the user that runs all domain-related "
+"processes."
 msgstr "すべてのコンテンツは<code>/var/lib/vircadia/default</code>の下に保存されます。<code>/var/lib/vircadia</code>の下のすべてのファイルは<code>vircadiaドメイン関連のプロセスを実行するユーザー</code>に所有されます。"
 
-#: ../../source/host/server-setup/linux-server.md:42
+#: ../../source/host/server-setup/linux-server.md:112
 #, fuzzy
 msgid "Services"
 msgstr "サービス内容"
 
-#: ../../source/host/server-setup/linux-server.md:44
+#: ../../source/host/server-setup/linux-server.md:114
 #, fuzzy
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Overte domain:"
 msgstr "インストールパッケージは、Vircadiaドメインを管理するために次のsystemdサービスをセットアップします。"
 
-#: ../../source/host/server-setup/linux-server.md:45
+#: ../../source/host/server-setup/linux-server.md:115
 #, fuzzy
-msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
+msgid "**overte-domain-server@default.service**: Manages the core domain server"
 msgstr "**vircadia-domain-server@default.service** : コアドメインサーバーを管理します"
 
-#: ../../source/host/server-setup/linux-server.md:46
+#: ../../source/host/server-setup/linux-server.md:116
 #, fuzzy
 msgid ""
-"**vircadia-assignment-client@default.service**: Spawns and manages the "
+"**overte-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr "**vircadia-assignment-client@default.service** : 割り当てクライアントを生成および管理します"
 
-#: ../../source/host/server-setup/linux-server.md:47
+#: ../../source/host/server-setup/linux-server.md:117
 #, fuzzy
 msgid ""
-"**vircadia-server@default.target**: Controls startup and shutdown of the "
+"**overte-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr "**vircadia-server@default.target** : 上記のサービスの起動とシャットダウンを制御します"
 
-#: ../../source/host/server-setup/linux-server.md:49
+#: ../../source/host/server-setup/linux-server.md:119
 #, fuzzy
 msgid ""
-"The <code>vircadia-server@default.target</code> service is the only one "
+"The <code>overte-server@default.target</code> service is the only one "
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
 "<code>vircadia-server@default.target</code> "
 "サービスだけが自動起動に設定されています。このサービスを開始または停止すると、他の2つのサービスが停止します。"
 
-#: ../../source/host/server-setup/linux-server.md:51
+#: ../../source/host/server-setup/linux-server.md:121
 #, fuzzy
 msgid ""
 "The first two services log a large amount of data to their service "
@@ -19370,12 +19267,12 @@ msgstr ""
 "最初の2つのサービスは、サービスジャーナルに大量のデータを記録します。これらのサービスを<code>systemctl "
 "status</code>により確認することにより、動作状況と直近で出力されたログメッセージをチェックすることができます。"
 
-#: ../../source/host/server-setup/linux-server.md:53
+#: ../../source/host/server-setup/linux-server.md:123
 #, fuzzy
 msgid "Multiple Domains"
 msgstr "複数のドメイン"
 
-#: ../../source/host/server-setup/linux-server.md:55
+#: ../../source/host/server-setup/linux-server.md:125
 #, fuzzy
 msgid ""
 "The installation package is configured to permit multiple domains to run "
@@ -19383,7 +19280,7 @@ msgid ""
 "using the following command:"
 msgstr "インストールパッケージは、複数のドメインを単一のサーバー上で異なるポート番号で実行できるように構成されています。次のコマンドを使用して、新しいサーバーを作成できます。"
 
-#: ../../source/host/server-setup/linux-server.md:61
+#: ../../source/host/server-setup/linux-server.md:131
 #, fuzzy
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
@@ -19393,84 +19290,84 @@ msgstr ""
 "ここで、<code>name</code>はドメインを命名し管理するための単語であり、<code>base-"
 "port</code>はシステム上の他の用途と重複しない連続した4つのポート番号の範囲の最初のものでなければなりません。"
 
-#: ../../source/host/server-setup/linux-server.md:63
+#: ../../source/host/server-setup/linux-server.md:133
 #, fuzzy
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr "**my-server-two **という名前の新しいサーバーを作成したとすると、次のように設定されます。"
 
-#: ../../source/host/server-setup/linux-server.md:64
+#: ../../source/host/server-setup/linux-server.md:134
 #, fuzzy
 msgid ""
-"Environment variables in <code>/etc/opt/vircadia/**my-server-"
+"Environment variables in <code>/etc/opt/overte/**my-server-"
 "two**.conf</code>"
 msgstr "<code>/etc/opt/vircadia/**my-server-two**.conf</code> の環境変数"
 
-#: ../../source/host/server-setup/linux-server.md:65
+#: ../../source/host/server-setup/linux-server.md:135
 #, fuzzy
-msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
+msgid "Content stored in <code>/var/lib/overte/**my-server-two**</code>"
 msgstr "<code>/var/lib/vircadia/**my-server-two**</code> に格納されたコンテンツ"
 
-#: ../../source/host/server-setup/linux-server.md:66
+#: ../../source/host/server-setup/linux-server.md:136
 #, fuzzy
 msgid ""
-"Services launched as <code>vircadia-domain-server@**my-server-"
-"two**.service</code>, <code>vircadia-assignment-client@**my-server-"
-"two**.service</code>, and <code>vircadia-server@**my-server-"
+"Services launched as <code>overte-domain-server@**my-server-"
+"two**.service</code>, <code>overte-assignment-client@**my-server-"
+"two**.service</code>, and <code>overte-server@**my-server-"
 "two**.target</code>"
 msgstr ""
 "<code>vircadia-domain-server@**my-server-two**.service</code>, <code"
 ">vircadia-assignment-client@**my-server-two**.service</code>, <code"
 ">vircadia-server@**my-server-two**.target</code> としてサービスを開始"
 
-#: ../../source/host/server-setup/linux-server.md:68
+#: ../../source/host/server-setup/linux-server.md:138
 msgid "Deleting a Overte Server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:70
+#: ../../source/host/server-setup/linux-server.md:140
 #, fuzzy
 msgid "Uninstall the package."
 msgstr "パッケージをアンインストールします。"
 
-#: ../../source/host/server-setup/linux-server.md:80
+#: ../../source/host/server-setup/linux-server.md:150
 #, fuzzy
 msgid "Deleting a Domain from a Multiple Domain Installation"
 msgstr "複数ドメインのインストールからドメインを削除する"
 
-#: ../../source/host/server-setup/linux-server.md:82
+#: ../../source/host/server-setup/linux-server.md:152
 #, fuzzy
 msgid "Find the name of the domain that you want to remove."
 msgstr "削除するドメインの名前を見つけます。"
 
-#: ../../source/host/server-setup/linux-server.md:88
+#: ../../source/host/server-setup/linux-server.md:158
 #, fuzzy
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
 msgstr "リストから削除するドメインの名前を選択して、停止します。"
 
-#: ../../source/host/server-setup/linux-server.md:94
+#: ../../source/host/server-setup/linux-server.md:164
 #, fuzzy
 msgid "Disable the service for the domain."
 msgstr "ドメインのサービスを無効にします。"
 
-#: ../../source/host/server-setup/linux-server.md:100
+#: ../../source/host/server-setup/linux-server.md:170
 #, fuzzy
 msgid "Remove the associated environment variables."
 msgstr "関連する環境変数を削除します。"
 
-#: ../../source/host/server-setup/linux-server.md:106
+#: ../../source/host/server-setup/linux-server.md:176
 #, fuzzy
 msgid "Remove all data and configurations."
 msgstr "すべてのデータと構成を削除します。"
 
-#: ../../source/host/server-setup/linux-server.md:113
+#: ../../source/host/server-setup/linux-server.md:183
 #, fuzzy
 msgid "Legacy Services"
 msgstr "レガシーサービス"
 
-#: ../../source/host/server-setup/linux-server.md:115
+#: ../../source/host/server-setup/linux-server.md:185
 #, fuzzy
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
@@ -19480,25 +19377,25 @@ msgid ""
 "provided as an option."
 msgstr "ストレージを簡素化し、1台のサーバーで複数のドメインを実行する機能を簡素化するために、デフォルト構成にいくつかの調整が加えられています。このロジックを削除して、ソースからコンパイルされたVircadiaサーバーの実行方法に近いサーバーを実行する場合は、これがオプションとして提供されます。"
 
-#: ../../source/host/server-setup/linux-server.md:116
+#: ../../source/host/server-setup/linux-server.md:186
 #, fuzzy
 msgid ""
-"Systemd services named <code>vircadia-domain-server.service</code>, <code"
-">vircadia-assignment-client.service</code>, and <code>vircadia-"
+"Systemd services named <code>overte-domain-server.service</code>, <code"
+">overte-assignment-client.service</code>, and <code>overte-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 "<code>vircadia-domain-server.service</code>, <code>vircadia-assignment-"
 "client.service</code>, <code>vircadia-server.target</code> *(@name なし)* "
 "という名前の Systemd サービスは設定が簡素化されています"
 
-#: ../../source/host/server-setup/linux-server.md:117
+#: ../../source/host/server-setup/linux-server.md:187
 #, fuzzy
 msgid "No file is provided to specify environment variables for the server"
 msgstr "サーバーの環境変数を指定するためのファイルは提供されていません"
 
-#: ../../source/host/server-setup/linux-server.md:118
+#: ../../source/host/server-setup/linux-server.md:188
 #, fuzzy
-msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
+msgid "Content would be stored in <code>/var/lib/overte/.local</code>"
 msgstr "コンテンツは、 <code>/var/lib/vircadia/.local</code> に格納されます"
 
 #: ../../source/host/server-setup/windows-server.rst:3
@@ -29708,8 +29605,7 @@ msgstr "クラッシュレポート"
 msgid ""
 "Security information about the project and its components: Interface, "
 "server, and the metaverse server."
-msgstr "Overteプロジェクトとその構成要素（インターフェースやサーバーなど）に関するセ"
-"キュリティ情報。"
+msgstr "Overteプロジェクトとその構成要素（インターフェースやサーバーなど）に関するセキュリティ情報。"
 
 #: ../../source/security/crash-reporting.rst:5
 #: ../../source/security/reporting/crash-reporting.md:1
@@ -33065,3 +32961,7 @@ msgstr "メタバースセッションUUID"
 #~ "server <https://discord.gg/4YuQvc8K2f>`_ |Discord| "
 #~ "if you prefer that."
 #~ msgstr ""
+
+#~ msgid "Ubuntu Server 18.04 LTS"
+#~ msgstr ""
+

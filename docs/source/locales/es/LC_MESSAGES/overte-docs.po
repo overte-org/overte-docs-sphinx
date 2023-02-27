@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2022-09-10 10:20+0000\n"
+"POT-Creation-Date: 2023-02-27 23:19+0000\n"
 "PO-Revision-Date: 2022-08-27 16:14+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language: es\n"
@@ -20,7 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.10.3\n"
+"Generated-By: Babel 2.11.0\n"
 
 #: ../../source/shared.rst
 #, fuzzy
@@ -22233,27 +22233,67 @@ msgstr ""
 "distribuciones:"
 
 #: ../../source/host/server-setup/linux-server.md:9
-msgid "Ubuntu Server 18.04 LTS"
+#, fuzzy
+msgid "Server:"
+msgstr "Servidor"
+
+#: ../../source/host/server-setup/linux-server.md:11
+#: ../../source/host/server-setup/linux-server.md:58
+msgid "Debian 11"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:16
+#: ../../source/host/server-setup/linux-server.md:18
+msgid "Ubuntu Server 22.04 LTS"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:24
+msgid "Ubuntu 20.04"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:31
+msgid "Ubuntu 18.04"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:37
+#: ../../source/host/server-setup/linux-server.md:72
+msgid "Fedora 36"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:43
+#: ../../source/host/server-setup/linux-server.md:79
+msgid "Fedora 37"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:49
+msgid "Rocky Linux 9"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:56
+msgid "aarch64 server:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:65
+msgid "Ubuntu 22.04"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:86
 #, fuzzy
 msgid "Unlisted Distribution"
 msgstr "Distribución No listada"
 
-#: ../../source/host/server-setup/linux-server.md:18
+#: ../../source/host/server-setup/linux-server.md:88
 msgid ""
 "If you do not see your distribution listed here, you may compile your own"
 " server from source using the [Overte builder](https://github.com/overte-"
 "org/overte-builder)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:20
+#: ../../source/host/server-setup/linux-server.md:90
 #, fuzzy
 msgid "Configuration"
 msgstr "Configuración"
 
-#: ../../source/host/server-setup/linux-server.md:22
+#: ../../source/host/server-setup/linux-server.md:92
 #, fuzzy
 msgid ""
 "The installation packages will create a domain at the default port "
@@ -22263,7 +22303,7 @@ msgstr ""
 " predeterminado y configurarán un servicio para que siga funcionando en "
 "esa máquina."
 
-#: ../../source/host/server-setup/linux-server.md:24
+#: ../../source/host/server-setup/linux-server.md:94
 #, fuzzy
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
@@ -22272,7 +22312,7 @@ msgstr ""
 "Para obtener la lista de puertos de red que deberás abrir y administrar, "
 "consulta [aquí](../configure-settings/network-settings)."
 
-#: ../../source/host/server-setup/linux-server.md:26
+#: ../../source/host/server-setup/linux-server.md:96
 #, fuzzy
 msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
@@ -22285,65 +22325,65 @@ msgstr ""
 "Complete el asistente de configuración inicial y deberías tener un "
 "dominio en funcionamiento."
 
-#: ../../source/host/server-setup/linux-server.md:28
+#: ../../source/host/server-setup/linux-server.md:98
 #, fuzzy
 msgid "Files and Server Configuration"
 msgstr "Archivos y Configuración del Servidor"
 
-#: ../../source/host/server-setup/linux-server.md:30
+#: ../../source/host/server-setup/linux-server.md:100
 #, fuzzy
-msgid "The program files are installed in /opt/vircadia:"
+msgid "The program files are installed in /opt/overte:"
 msgstr "Los archivos del programa se instalan en /opt/vircadia:"
 
-#: ../../source/host/server-setup/linux-server.md:31
+#: ../../source/host/server-setup/linux-server.md:101
 #, fuzzy
-msgid "**/opt/vircadia** contains the executables"
+msgid "**/opt/overte** contains the executables"
 msgstr "**/opt/vircadia** contiene los ejecutables"
 
-#: ../../source/host/server-setup/linux-server.md:32
+#: ../../source/host/server-setup/linux-server.md:102
 #, fuzzy
-msgid "**/opt/vircadia/lib** contains libraries required for operation"
+msgid "**/opt/overte/lib** contains libraries required for operation"
 msgstr ""
 "**/opt/vircadia/lib** contiene las bibliotecas necesarias para el "
 "funcionamiento"
 
-#: ../../source/host/server-setup/linux-server.md:33
+#: ../../source/host/server-setup/linux-server.md:103
 #, fuzzy
-msgid "**/opt/vircadia/plugins** is currently used for audio codecs"
+msgid "**/opt/overte/plugins** is currently used for audio codecs"
 msgstr "**/opt/vircadia/plugins** se utiliza actualmente para códecs de audio"
 
-#: ../../source/host/server-setup/linux-server.md:34
+#: ../../source/host/server-setup/linux-server.md:104
 #, fuzzy
-msgid "**/opt/vircadia/resources** is required for the administrative website"
+msgid "**/opt/overte/resources** is required for the administrative website"
 msgstr "**/opt/vircadia/resources** se requiere para el sitio web administrativo"
 
-#: ../../source/host/server-setup/linux-server.md:36
+#: ../../source/host/server-setup/linux-server.md:106
 #, fuzzy
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
 "server</code>) cannot be launched from the command prompt without first "
-"setting <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
+"setting <code>LD_LIBRARY_PATH=/opt/overte/lib</code>."
 msgstr ""
 "Los ejecutables en esta carpeta (con exclusión de <code>new-"
 "server</code>) no se pueden iniciar desde el símbolo del sistema sin "
 "configurar primero <code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>."
 
-#: ../../source/host/server-setup/linux-server.md:38
+#: ../../source/host/server-setup/linux-server.md:108
 #, fuzzy
 msgid ""
-"The file <code>/etc/opt/vircadia/default.conf</code> contains any "
+"The file <code>/etc/opt/overte/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
 "El archivo <code>/etc/opt/vircadia/default.conf</code> contiene las "
 "variables de entorno necesarias para ejecutar el dominio."
 
-#: ../../source/host/server-setup/linux-server.md:40
+#: ../../source/host/server-setup/linux-server.md:110
 #, fuzzy
 msgid ""
-"All content is stored under <code>/var/lib/vircadia/default</code>. All "
-"files underneath <code>/var/lib/vircadia</code> are owned by the user "
-"<code>vircadia</code>, which is also the user that runs all domain-"
-"related processes."
+"All content is stored under <code>/var/lib/overte/default</code>. All "
+"files underneath <code>/var/lib/overte</code> are owned by the user "
+"<code>overte</code>, which is also the user that runs all domain-related "
+"processes."
 msgstr ""
 "Todo el contenido se almacena bajo "
 "<code>/var/lib/vircadia/default</code>. Todos los archivos debajo de "
@@ -22351,12 +22391,12 @@ msgstr ""
 "<code>vircadia</code>, que también es el usuario que ejecuta todos los "
 "procesos relacionados con el dominio."
 
-#: ../../source/host/server-setup/linux-server.md:42
+#: ../../source/host/server-setup/linux-server.md:112
 #, fuzzy
 msgid "Services"
 msgstr "Servicios"
 
-#: ../../source/host/server-setup/linux-server.md:44
+#: ../../source/host/server-setup/linux-server.md:114
 #, fuzzy
 msgid ""
 "The installation packages setup the following systemd services to manage "
@@ -22365,35 +22405,35 @@ msgstr ""
 "Los paquetes de instalación configuran los siguientes servicios de "
 "systemd para administrar el dominio de Vircadia:"
 
-#: ../../source/host/server-setup/linux-server.md:45
+#: ../../source/host/server-setup/linux-server.md:115
 #, fuzzy
-msgid "**vircadia-domain-server@default.service**: Manages the core domain server"
+msgid "**overte-domain-server@default.service**: Manages the core domain server"
 msgstr ""
 "**vircadia-domain-server@default.service**: Administra el servidor de "
 "dominio central"
 
-#: ../../source/host/server-setup/linux-server.md:46
+#: ../../source/host/server-setup/linux-server.md:116
 #, fuzzy
 msgid ""
-"**vircadia-assignment-client@default.service**: Spawns and manages the "
+"**overte-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr ""
 "**vircadia-assignment-client@default.service**: Genera y administra los "
 "clientes de asignación"
 
-#: ../../source/host/server-setup/linux-server.md:47
+#: ../../source/host/server-setup/linux-server.md:117
 #, fuzzy
 msgid ""
-"**vircadia-server@default.target**: Controls startup and shutdown of the "
+"**overte-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr ""
 "**vircadia-server@default.target**: Controla el inicio y el apagado de "
 "los servicios anteriores"
 
-#: ../../source/host/server-setup/linux-server.md:49
+#: ../../source/host/server-setup/linux-server.md:119
 #, fuzzy
 msgid ""
-"The <code>vircadia-server@default.target</code> service is the only one "
+"The <code>overte-server@default.target</code> service is the only one "
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
@@ -22401,7 +22441,7 @@ msgstr ""
 "está configurado para iniciarse automáticamente. Iniciarlo o detenerlo "
 "hará que los otros dos servicios se caigan."
 
-#: ../../source/host/server-setup/linux-server.md:51
+#: ../../source/host/server-setup/linux-server.md:121
 #, fuzzy
 msgid ""
 "The first two services log a large amount of data to their service "
@@ -22413,12 +22453,12 @@ msgstr ""
 "<code>systemctl status</code>) es una buena manera de asegurarse de que "
 "funcionan correctamente."
 
-#: ../../source/host/server-setup/linux-server.md:53
+#: ../../source/host/server-setup/linux-server.md:123
 #, fuzzy
 msgid "Multiple Domains"
 msgstr "Dominios Múltiples"
 
-#: ../../source/host/server-setup/linux-server.md:55
+#: ../../source/host/server-setup/linux-server.md:125
 #, fuzzy
 msgid ""
 "The installation package is configured to permit multiple domains to run "
@@ -22429,7 +22469,7 @@ msgstr ""
 "dominios se ejecuten en un solo servidor en diferentes números de puerto."
 " Se pueden crear nuevos servidores usando el siguiente comando:"
 
-#: ../../source/host/server-setup/linux-server.md:61
+#: ../../source/host/server-setup/linux-server.md:131
 #, fuzzy
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
@@ -22441,7 +22481,7 @@ msgstr ""
 " rango de cuatro números de puerto contiguos que no se superpongan con "
 "ningún otro uso en el sistema."
 
-#: ../../source/host/server-setup/linux-server.md:63
+#: ../../source/host/server-setup/linux-server.md:133
 #, fuzzy
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
@@ -22450,26 +22490,26 @@ msgstr ""
 "Suponiendo que hayas creado un nuevo servidor con el nombre **my-server-"
 "two**, esto configuraría lo siguiente:"
 
-#: ../../source/host/server-setup/linux-server.md:64
+#: ../../source/host/server-setup/linux-server.md:134
 #, fuzzy
 msgid ""
-"Environment variables in <code>/etc/opt/vircadia/**my-server-"
+"Environment variables in <code>/etc/opt/overte/**my-server-"
 "two**.conf</code>"
 msgstr ""
 "Variables de entorno en <code>/etc/opt/vircadia/**my-server-"
 "two**.conf</code>"
 
-#: ../../source/host/server-setup/linux-server.md:65
+#: ../../source/host/server-setup/linux-server.md:135
 #, fuzzy
-msgid "Content stored in <code>/var/lib/vircadia/**my-server-two**</code>"
+msgid "Content stored in <code>/var/lib/overte/**my-server-two**</code>"
 msgstr "Contenido almacenado en <code>/var/lib/vircadia/**my-server-two**</code>"
 
-#: ../../source/host/server-setup/linux-server.md:66
+#: ../../source/host/server-setup/linux-server.md:136
 #, fuzzy
 msgid ""
-"Services launched as <code>vircadia-domain-server@**my-server-"
-"two**.service</code>, <code>vircadia-assignment-client@**my-server-"
-"two**.service</code>, and <code>vircadia-server@**my-server-"
+"Services launched as <code>overte-domain-server@**my-server-"
+"two**.service</code>, <code>overte-assignment-client@**my-server-"
+"two**.service</code>, and <code>overte-server@**my-server-"
 "two**.target</code>"
 msgstr ""
 "Servicios lanzados como <code>vircadia-domain-server@**my-server-"
@@ -22477,26 +22517,26 @@ msgstr ""
 "two**.service</code>, and <code>vircadia-server@**my-server-"
 "two**.target</code>"
 
-#: ../../source/host/server-setup/linux-server.md:68
+#: ../../source/host/server-setup/linux-server.md:138
 msgid "Deleting a Overte Server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:70
+#: ../../source/host/server-setup/linux-server.md:140
 #, fuzzy
 msgid "Uninstall the package."
 msgstr "Desinstalar el paquete."
 
-#: ../../source/host/server-setup/linux-server.md:80
+#: ../../source/host/server-setup/linux-server.md:150
 #, fuzzy
 msgid "Deleting a Domain from a Multiple Domain Installation"
 msgstr "Eliminación de un Dominio de una Instalación Múltiple de Dominios"
 
-#: ../../source/host/server-setup/linux-server.md:82
+#: ../../source/host/server-setup/linux-server.md:152
 #, fuzzy
 msgid "Find the name of the domain that you want to remove."
 msgstr "Encuentra el nombre del dominio que quieres eliminar."
 
-#: ../../source/host/server-setup/linux-server.md:88
+#: ../../source/host/server-setup/linux-server.md:158
 #, fuzzy
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
@@ -22505,27 +22545,27 @@ msgstr ""
 "Elije el nombre del dominio que desees eliminar de la lista y luego "
 "detenlo."
 
-#: ../../source/host/server-setup/linux-server.md:94
+#: ../../source/host/server-setup/linux-server.md:164
 #, fuzzy
 msgid "Disable the service for the domain."
 msgstr "Deshabilita el servicio para el dominio."
 
-#: ../../source/host/server-setup/linux-server.md:100
+#: ../../source/host/server-setup/linux-server.md:170
 #, fuzzy
 msgid "Remove the associated environment variables."
 msgstr "Quita las variables de entorno asociadas."
 
-#: ../../source/host/server-setup/linux-server.md:106
+#: ../../source/host/server-setup/linux-server.md:176
 #, fuzzy
 msgid "Remove all data and configurations."
 msgstr "Elimina todos los datos y configuraciones."
 
-#: ../../source/host/server-setup/linux-server.md:113
+#: ../../source/host/server-setup/linux-server.md:183
 #, fuzzy
 msgid "Legacy Services"
 msgstr "Servicios de Legado"
 
-#: ../../source/host/server-setup/linux-server.md:115
+#: ../../source/host/server-setup/linux-server.md:185
 #, fuzzy
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
@@ -22540,11 +22580,11 @@ msgstr ""
 "ejecutar los servidores más parecido a cómo se ejecutaría un servidor "
 "Vircadia compilado desde la fuente, esto se proporciona como una opción."
 
-#: ../../source/host/server-setup/linux-server.md:116
+#: ../../source/host/server-setup/linux-server.md:186
 #, fuzzy
 msgid ""
-"Systemd services named <code>vircadia-domain-server.service</code>, <code"
-">vircadia-assignment-client.service</code>, and <code>vircadia-"
+"Systemd services named <code>overte-domain-server.service</code>, <code"
+">overte-assignment-client.service</code>, and <code>overte-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 "Los Servicios de Systemd nombrados como <code>vircadia-domain-"
@@ -22552,16 +22592,16 @@ msgstr ""
 "<code>vircadia-server.target</code> *(sin el @name)* tienen una "
 "configuración simplificada"
 
-#: ../../source/host/server-setup/linux-server.md:117
+#: ../../source/host/server-setup/linux-server.md:187
 #, fuzzy
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
 "No se proporciona ningún archivo para especificar variables de entorno "
 "para el servidor"
 
-#: ../../source/host/server-setup/linux-server.md:118
+#: ../../source/host/server-setup/linux-server.md:188
 #, fuzzy
-msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
+msgid "Content would be stored in <code>/var/lib/overte/.local</code>"
 msgstr "El contenido será almacenado en <code>/var/lib/vircadia/.local</code>"
 
 #: ../../source/host/server-setup/windows-server.rst:3
@@ -35355,5 +35395,8 @@ msgstr "UUID de sesión en Metaverso"
 #~ " is also bridged to our `Discord "
 #~ "server <https://discord.gg/4YuQvc8K2f>`_ |Discord| "
 #~ "if you prefer that."
+#~ msgstr ""
+
+#~ msgid "Ubuntu Server 18.04 LTS"
 #~ msgstr ""
 
