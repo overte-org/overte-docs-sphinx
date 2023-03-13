@@ -16,11 +16,10 @@ build:
     pre_build:
       - echo "Creating an index.html to work around not being able to set the default web page.."
       - ls -R
-      - cd docs/source/ && cp home.rst index.rst
+      - cd source/ && cp home.rst index.rst
 
-# Build documentation in the docs/ directory with Sphinx
 sphinx:
-   configuration: docs/source/conf.py
+   configuration: source/conf.py
 
 # Optionally declare the Python requirements required to build your docs
 python:
