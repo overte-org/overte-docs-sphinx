@@ -7,7 +7,7 @@ on:
     # Only run if something other than locales are updated.
     # This is to prevent this workflow from running when Weblate commits new translations, since we only check the source language.
     paths-ignore:
-      - 'docs/source/locales/**'
+      - 'source/locales/**'
 jobs:
   check_links:
     runs-on: ubuntu-20.04
@@ -26,5 +26,4 @@ jobs:
     - name: Check links in documentation
       shell: bash
       run: |
-        cd docs
         make SPHINXOPTS="-W --keep-going" linkcheck

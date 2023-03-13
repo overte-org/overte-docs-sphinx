@@ -7,7 +7,7 @@ on:
     # Only run if something other than locales are updated.
     # This is to prevent this workflow from running when Weblate commits new translations.
     paths-ignore:
-      - 'docs/source/locales/**'
+      - 'source/locales/**'
 
 jobs:
   regenerate_locales_docs:
@@ -27,7 +27,6 @@ jobs:
     - name: Regenerate translation files
       shell: bash
       run: |
-        cd docs
         make gettext
         sphinx-intl update -l de
         sphinx-intl update -l es
@@ -40,5 +39,5 @@ jobs:
         name: AnimatedMannequin
         email: julian.gro@overte.org
         message: Automatically updated locales
-        files: docs/source/locales/**
+        files: source/locales/**
         token: ${{ secrets.ANIMATED_MANNEQUIN_COMMIT_TOKEN }}

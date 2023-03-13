@@ -22,7 +22,6 @@ jobs:
     - name: Build documentation
       shell: bash
       run: |
-        cd docs
         # Return 1 on warning but do not exit
         make SPHINXOPTS="-W --keep-going" html
         mkdir -p build-archives
