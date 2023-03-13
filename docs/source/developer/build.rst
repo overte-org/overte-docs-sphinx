@@ -1,8 +1,8 @@
 #######################
-Building Vircadia
+Building Overte
 #######################
 
-The following are the guides for building Vircadia from source.
+The following are the guides for building Overte from source.
 
 .. toctree::
     :maxdepth: 1
