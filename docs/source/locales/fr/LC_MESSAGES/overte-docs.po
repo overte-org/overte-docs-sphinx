@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-02-27 23:19+0000\n"
+"POT-Creation-Date: 2023-03-13 17:32+0000\n"
 "PO-Revision-Date: 2023-01-15 03:51+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: fr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.11.0\n"
+"Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
 #, fuzzy
@@ -786,7 +786,7 @@ msgstr "Conditions préalables"
 #: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
-"such as Blender and Maya before importing an animation into Overte."
+"such as Blender or Maya before importing an animation into Overte."
 msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:18
@@ -965,9 +965,10 @@ msgid "Play Automatically"
 msgstr "Jouer automatiquement"
 
 #: ../../source/create/3d-models/import-animations.rst:49
+#, fuzzy
 msgid ""
-"Enable this to play your animation automatically when a user loads a "
-"domain."
+"Enable this to play your animation automatically when a user joins the "
+"Domain."
 msgstr ""
 "Activez cette option pour que votre animation soit jouée automatiquement "
 "lorsqu'un utilisateur charge un domaine."
@@ -34536,5 +34537,12 @@ msgstr "Séance de métaverse UUID"
 #~ msgstr ""
 
 #~ msgid "Content would be stored in <code>/var/lib/vircadia/.local</code>"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to be familiar with "
+#~ "creating animations in 3D modeling tools"
+#~ " such as Blender and Maya before "
+#~ "importing an animation into Overte."
 #~ msgstr ""
 
