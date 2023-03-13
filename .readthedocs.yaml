@@ -17,6 +17,7 @@ build:
       - echo "Creating an index.html to work around not being able to set the default web page.."
       - ls -R
       - cd source/ && cp home.rst index.rst
+      - make html  # run make to fetch external documentation before the normal build process runs
 
 sphinx:
    configuration: source/conf.py
