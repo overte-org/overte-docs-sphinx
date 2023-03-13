@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Overte Docs'
-copyright = '2019, High Fidelity. © Copyright 2021, Vircadia. Copyright 2022, Overte e.V.'
+copyright = '2019, High Fidelity. © Copyright 2021, Vircadia. Copyright 2022-2023, Overte e.V.'
 author = 'Overte e.V.'
 
 # The short X.Y version
@@ -33,7 +33,7 @@ release = '1.0'
 
 # If your documentation needs a minimal Sphinx version, state it here.
 #
-needs_sphinx = '2.4.4'
+needs_sphinx = '3.5.4'
 
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
@@ -59,7 +59,7 @@ master_doc = 'home'
 #
 # This is also used if you do content translation via gettext catalogs.
 # Usually you set "language" from the command line for these cases.
-language = None
+# language = None
 
 locale_dirs = ['./locales']
 
@@ -76,7 +76,6 @@ pygments_style = "emacs"
 highlight_language = "javascript"
 
 # Disable Smartquotes for French in html to work around issue https://github.com/vircadia/vircadia-docs-sphinx/issues/112
-
 smartquotes_excludes = {'languages': ['fr'], 'builders': ['html']}
 
 
@@ -195,10 +194,3 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
-
-# Variables
-
-rst_prolog = """
-.. |serverdeb| replace:: https://cdn.vircadia.com/dist/domain-server/ubuntu/vircadia-server_2022.1.0-selene-20211126-aabcdea-0ubuntu1-1_amd64.deb
-.. |serverdebfile| replace:: vircadia-server_2022.1.0-selene-20211126-aabcdea-0ubuntu1-1_amd64.deb
-"""
