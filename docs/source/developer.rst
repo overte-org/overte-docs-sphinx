@@ -13,7 +13,7 @@ Development Instructions
     :titlesonly:
 
     Build from Source <developer/build.rst>
-    Create an Installer <developer/installer.rst>
+    Create an Installer <developer/INSTALLER.md>
     Interface <developer/interface.rst>
     Domain Server <developer/domain-server.rst>
     Assignment Client <developer/assignment-client.rst>
