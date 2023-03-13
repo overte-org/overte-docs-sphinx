@@ -6,3 +6,11 @@
 *.mo
 
 .secret
+
+# Ignore build documentation pulled from main codebase
+*BUILD.md
+*BUILD_ANDROID.md
+*BUILD_LINUX.md
+*BUILD_OSX.md
+*BUILD_WIN.md
+*INSTALLER.md
