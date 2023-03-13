@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-02-27 23:19+0000\n"
-"PO-Revision-Date: 2023-03-13 17:32+0000\n"
+"PO-Revision-Date: 2023-03-13 17:54+0000\n"
 "Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/de/>\n"
@@ -1275,7 +1275,7 @@ msgstr ""
 #: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
-msgstr "doc:`Erstellungswerkzeuge <../tools>`"
+msgstr ":doc:`Erstellungswerkzeuge <../tools>`"
 
 #: ../../source/create/3d-models/import-model.rst:40
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
