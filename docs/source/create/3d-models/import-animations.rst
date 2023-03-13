@@ -11,7 +11,7 @@ Enrich your Overte experience by having 3D models in your domain with animations
 Prerequisites
 ---------------------
 
-You need to be familiar with creating animations in 3D modeling tools such as Blender and Maya before importing an animation into Overte.
+You need to be familiar with creating animations in 3D modeling tools such as Blender or Maya before importing an animation into Overte.
 
 ---------------------------------
 Prepare a 3D Model Animation
@@ -43,27 +43,27 @@ Once you complete uploading your animation's FBX file, you can import the 3D mod
 
 4. You can edit the following animation properties:
 
-    +--------------------+------------------------------------------------------------------------------+
-    | Property           | Description                                                                  |
-    +====================+==============================================================================+
-    | Play Automatically | Enable this to play your animation automatically when a user loads a domain. |
-    +--------------------+------------------------------------------------------------------------------+
-    | Loop               | Select this property to play your animation in a continuous loop.            |
-    +--------------------+------------------------------------------------------------------------------+
-    | Allow Transition   | Enable this to let the animation move through space. This means that the     |
-    |                    | joints will not only rotate, but translate through three dimensions.         |
-    +--------------------+------------------------------------------------------------------------------+
-    | Hold               | Select to pause your animation at a particular frame.                        |
-    +--------------------+------------------------------------------------------------------------------+
-    | Animation Frame    | Enter the frame at which you want to pause or hold your animation.           |
-    +--------------------+------------------------------------------------------------------------------+
-    | First Frame        | This is the first frame from when your want your animation to start.         |
-    +--------------------+------------------------------------------------------------------------------+
-    | Last Frame         | This is the last frame where you want your animation to stop. It will not    |
-    |                    | play beyond this specified frame.                                            |
-    +--------------------+------------------------------------------------------------------------------+
-    | Animation FPS      | This is the animation's framerate.                                           |
-    +--------------------+------------------------------------------------------------------------------+
+    +--------------------+--------------------------------------------------------------------------------+
+    | Property           | Description                                                                    |
+    +====================+================================================================================+
+    | Play Automatically | Enable this to play your animation automatically when a user joins the Domain. |
+    +--------------------+--------------------------------------------------------------------------------+
+    | Loop               | Select this property to play your animation in a continuous loop.              |
+    +--------------------+--------------------------------------------------------------------------------+
+    | Allow Transition   | Enable this to let the animation move through space. This means that the       |
+    |                    | joints will not only rotate, but translate through three dimensions.           |
+    +--------------------+--------------------------------------------------------------------------------+
+    | Hold               | Select to pause your animation at a particular frame.                          |
+    +--------------------+--------------------------------------------------------------------------------+
+    | Animation Frame    | Enter the frame at which you want to pause or hold your animation.             |
+    +--------------------+--------------------------------------------------------------------------------+
+    | First Frame        | This is the first frame from when your want your animation to start.           |
+    +--------------------+--------------------------------------------------------------------------------+
+    | Last Frame         | This is the last frame where you want your animation to stop. It will not      |
+    |                    | play beyond this specified frame.                                              |
+    +--------------------+--------------------------------------------------------------------------------+
+    | Animation FPS      | This is the animation's framerate.                                             |
+    +--------------------+--------------------------------------------------------------------------------+
 
 5. You can also control an animation's properties and when it starts playing with an :doc:`entity script <../../script/client-entity-scripts>`.
 
