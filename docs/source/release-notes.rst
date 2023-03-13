@@ -2,7 +2,7 @@
 Release Notes (2019-2021)
 #########################
 
-The latest release notes for Overte's ecosystem can be found for each project `here <https://docs.overte.org/>`__.
+The latest release notes for Overte `here <https://github.com/overte-org/overte/blob/master/CHANGELOG.md>`__.
 
 Release notes from 2019 through 2021 can be found below.
 
