@@ -68,7 +68,7 @@ git clone https://github.com/overte-org/overte-docs-sphinx.git
 .venv/bin/venv-run make html
 ```
 Keep in mind that Sphinx will not rebuild files that haven't been changed, and therefore not throw warnings about those files.
-Run `.venv/bin/venv-run make SPHINXOPTS="-a" html` instead if you want to regenerate everything.
+Run `.venv/bin/venv-run make SPHINXOPTS="-E" html` instead if you want to regenerate everything.
 The HTML output will be in `build\html`. Open `home.html` in a browser to view the docs.
 
 
