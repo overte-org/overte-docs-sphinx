@@ -11,14 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-03-13 18:06+0000\n"
-"PO-Revision-Date: 2023-01-15 03:51+0000\n"
+"PO-Revision-Date: 2023-03-17 05:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Japanese <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/ja/>\n"
 "Language: jp\n"
-"Language-Team: Japanese <https://hosted.weblate.org/projects/overte"
-"/overte-documentation/ja/>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -1476,8 +1478,9 @@ msgstr "このプロパティは、シェーディングを可能な限り自然
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:81
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
+#, fuzzy
 msgid "---"
-msgstr ""
+msgstr "---"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:84
 #, fuzzy
@@ -8918,8 +8921,9 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:25
 #: ../../source/create/entities/web-entity-media.rst:39
 #: ../../source/create/entities/web-entity-media.rst:51
+#, fuzzy
 msgid "Matroska"
-msgstr ""
+msgstr "Matroska"
 
 #: ../../source/create/entities/web-entity-media.rst:25
 msgid "Video: Theora, VP8, VP9       Audio: Vorbis, Opus, FLAC, MP3"
@@ -11262,8 +11266,9 @@ msgstr ""
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:5
 #: ../../source/developer/domain-server/command-line-parameters.md:5
+#, fuzzy
 msgid "Displays help information"
-msgstr ""
+msgstr "ヘルプ情報の表示"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:9
 #: ../../source/developer/domain-server/command-line-parameters.md:9
@@ -11550,8 +11555,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:50
+#, fuzzy
 msgid "Qt"
-msgstr ""
+msgstr "Qt"
 
 #: ../../source/developer/build/BUILD.md:52
 msgid "CMake will download Qt 5.15.2 using vcpkg."
@@ -12541,8 +12547,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:26
+#, fuzzy
 msgid "Python 3"
-msgstr ""
+msgstr "Python 3"
 
 #: ../../source/developer/build/BUILD_OSX.md:28
 msgid ""
@@ -13242,8 +13249,9 @@ msgid "Force enable crash reporting for the Interface."
 msgstr ""
 
 #: ../../source/developer/interface/debugging.md:1
+#, fuzzy
 msgid "Debugging Tips"
-msgstr ""
+msgstr "デバッグのヒント"
 
 #: ../../source/developer/interface/debugging.md:5
 msgid "Visual Studio"
@@ -14582,8 +14590,9 @@ msgid "Toggle 'Show Statistics'"
 msgstr "統計情報の切り替え"
 
 #: ../../source/explore/get-started/desktop.rst:67
+#, fuzzy
 msgid "``/``"
-msgstr ""
+msgstr "``/``"
 
 #: ../../source/explore/get-started/desktop.rst:69
 #, fuzzy
@@ -14673,8 +14682,9 @@ msgid "Decrease Avatar Size"
 msgstr "アバターのサイズを小さくする"
 
 #: ../../source/explore/get-started/desktop.rst:101
+#, fuzzy
 msgid "``-``"
-msgstr ""
+msgstr "``-``"
 
 #: ../../source/explore/get-started/desktop.rst:103
 #, fuzzy
@@ -14682,8 +14692,9 @@ msgid "Increase Avatar Size"
 msgstr "アバターのサイズを大きくする"
 
 #: ../../source/explore/get-started/desktop.rst:103
+#, fuzzy
 msgid "``+``"
-msgstr ""
+msgstr "``+``"
 
 #: ../../source/explore/get-started/desktop.rst:105
 #, fuzzy
@@ -14691,8 +14702,9 @@ msgid "Reset Avatar Size"
 msgstr "アバターサイズをリセットする"
 
 #: ../../source/explore/get-started/desktop.rst:105
+#, fuzzy
 msgid "``=``"
-msgstr ""
+msgstr "``=``"
 
 #: ../../source/explore/get-started/desktop.rst:110
 #, fuzzy
@@ -35535,4 +35547,3 @@ msgstr "メタバースセッションUUID"
 #~ " ecosystem can be found for each "
 #~ "project `here <https://docs.overte.org/>`__."
 #~ msgstr ""
-
