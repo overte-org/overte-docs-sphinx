@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-03-13 18:06+0000\n"
-"PO-Revision-Date: 2023-01-15 03:51+0000\n"
+"PO-Revision-Date: 2023-03-17 05:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Korean <https://hosted.weblate.org/projects/overte/"
+"overte-documentation/ko/>\n"
 "Language: ko\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/overte/overte-"
-"documentation/ko/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16.2-dev\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -34,8 +35,9 @@ msgid "Gallery"
 msgstr "갤러리"
 
 #: ../../source/shared.rst
+#, fuzzy
 msgid "Discord"
-msgstr ""
+msgstr "Discord"
 
 #: ../../source/shared.rst
 #, fuzzy
@@ -1295,8 +1297,9 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:81
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
+#, fuzzy
 msgid "---"
-msgstr ""
+msgstr "---"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid "Emissive"
@@ -10215,8 +10218,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:104
+#, fuzzy
 msgid "MacOS"
-msgstr ""
+msgstr "MacOS"
 
 #: ../../source/developer/INSTALLER.md:106
 msgid ""
@@ -10271,8 +10275,9 @@ msgid "`make package` to create the package."
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:128
+#, fuzzy
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../../source/developer/INSTALLER.md:130
 #: ../../source/developer/build/BUILD_LINUX.md:149
@@ -10644,8 +10649,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:50
+#, fuzzy
 msgid "Qt"
-msgstr ""
+msgstr "큐트(Qt)"
 
 #: ../../source/developer/build/BUILD.md:52
 msgid "CMake will download Qt 5.15.2 using vcpkg."
@@ -11615,8 +11621,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:26
+#, fuzzy
 msgid "Python 3"
-msgstr ""
+msgstr "파이썬 3"
 
 #: ../../source/developer/build/BUILD_OSX.md:28
 msgid ""
@@ -12123,8 +12130,9 @@ msgstr ""
 #: ../../source/developer/domain-server/environment-variables.md:1
 #: ../../source/developer/interface.rst:5
 #: ../../source/developer/interface/environment-variables.md:1
+#, fuzzy
 msgid "Environment Variables"
-msgstr ""
+msgstr "환경 변수"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:3
 msgid "You can launch a domain-server with these parameters."
@@ -32836,4 +32844,3 @@ msgstr ""
 #~ " ecosystem can be found for each "
 #~ "project `here <https://docs.overte.org/>`__."
 #~ msgstr ""
-
