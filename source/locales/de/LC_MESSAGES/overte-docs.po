@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-03-13 18:06+0000\n"
-"PO-Revision-Date: 2023-03-17 05:39+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-03-17 21:34+0000\n"
+"Last-Translator: Julian Groß <julian.g@posteo.de>\n"
 "Language-Team: German <https://hosted.weblate.org/projects/overte/"
 "overte-documentation/de/>\n"
 "Language: de\n"
@@ -8299,7 +8299,6 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:25
 #: ../../source/create/entities/web-entity-media.rst:39
 #: ../../source/create/entities/web-entity-media.rst:51
-#, fuzzy
 msgid "Matroska"
 msgstr "Matroska"
 
@@ -10636,9 +10635,8 @@ msgstr ""
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:5
 #: ../../source/developer/domain-server/command-line-parameters.md:5
-#, fuzzy
 msgid "Displays help information"
-msgstr "Viser hjælpinformation"
+msgstr ""
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:9
 #: ../../source/developer/domain-server/command-line-parameters.md:9
@@ -10913,7 +10911,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD.md:50
 msgid "Qt"
-msgstr ""
+msgstr "Qt"
 
 #: ../../source/developer/build/BUILD.md:52
 msgid "CMake will download Qt 5.15.2 using vcpkg."
