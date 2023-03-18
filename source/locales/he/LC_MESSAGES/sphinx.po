@@ -1,0 +1,63 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2019, High Fidelity. © Copyright 2021, Vircadia. Copyright
+# 2022-2023, Overte e.V.
+# This file is distributed under the same license as the Overte Docs
+# package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Overte Docs \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-03-18 03:48+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language: he\n"
+"Language-Team: he <LL@li.org>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.12.1\n"
+
+#: ../../source/_templates/breadcrumbs.html:29
+msgid "Page navigation"
+msgstr ""
+
+#: ../../source/_templates/breadcrumbs.html:44
+#: ../../source/_templates/breadcrumbs.html:46
+msgid "Edit on GitHub"
+msgstr ""
+
+#: ../../source/_templates/breadcrumbs.html:51
+#: ../../source/_templates/breadcrumbs.html:53
+msgid "Edit on Bitbucket"
+msgstr ""
+
+#: ../../source/_templates/breadcrumbs.html:58
+#: ../../source/_templates/breadcrumbs.html:60
+msgid "Edit on GitLab"
+msgstr ""
+
+#: ../../source/_templates/breadcrumbs.html:63
+#: ../../source/_templates/breadcrumbs.html:65
+msgid "View page source"
+msgstr ""
+
+#: ../../source/_templates/breadcrumbs.html:74
+msgid "Sequential page navigation"
+msgstr ""
+
+#: ../../source/_templates/breadcrumbs.html:76
+msgid "Previous"
+msgstr ""
+
+#: ../../source/_templates/breadcrumbs.html:79
+msgid "Next"
+msgstr ""
+
+#: ../../source/_templates/searchbox.html:4
+msgid "Search Overte Docs"
+msgstr ""
+
