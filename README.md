@@ -22,7 +22,7 @@ Our main documentation is hosted at https://docs.overte.org.
 ## Translate
 
 There are two ways to help with the translation of Overte's documentation:
-* The recommended way is to use [Weblate](https://hosted.weblate.org/projects/overte/overte-documentation/).
+* The recommended way is to use [Weblate](https://weblate.overte.org/projects/overte/overte-documentation/).
 * You can also submit updated `.po` files via a pull request.
 
 Please contact Julian Groß or open an issue if you want to translate a language that is not in the system yet.

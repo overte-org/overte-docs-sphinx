@@ -29,7 +29,7 @@ Translation
 -----------
 As an international project, Overte relies on translators to be able to reach users that do not speak English.
 Currently the only component that has translation support is the documentation.
-You can help translating using our online translation system `Weblate <https://hosted.weblate.org/projects/overte/overte-documentation/>`_ by either submitting translations or becoming a maintainer for your language and checking translations before they make it into the documentation.
+You can help translating using our online translation system `Weblate <https://weblate.overte.org/projects/overte/overte-documentation/>`_ by either submitting translations or becoming a maintainer for your language and checking translations before they make it into the documentation.
 More information on translating the documentation can be found in its `README <https://github.com/overte-org/overte-docs-sphinx/blob/master/README.md>`_.
 
 
