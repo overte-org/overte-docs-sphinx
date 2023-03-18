@@ -28,11 +28,7 @@ jobs:
       shell: bash
       run: |
         make gettext
-        sphinx-intl update -l de
-        sphinx-intl update -l es
-        sphinx-intl update -l fr
-        sphinx-intl update -l jp
-        sphinx-intl update -l ko
+        sphinx-intl update
     - name: Commit changes
       uses: actions-x/commit@v6
       with:
