@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-22 10:53+0000\n"
+"POT-Creation-Date: 2023-03-24 19:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: zh_CH\n"
@@ -4005,13 +4005,13 @@ msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
-msgid "Overte (v0.77.0 or higher)"
+msgid "Overte"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-"
-"org/vircadia/blob/master/tools/unity-avatar-"
+"org/overte/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 msgstr ""
 
@@ -29073,5 +29073,15 @@ msgstr ""
 #~ ":doc:`baking all 3D models <../../host/add-"
 #~ "content/bake-content>` (including textures) "
 #~ "before loading it into Overte."
+#~ msgstr ""
+
+#~ msgid "Overte (v0.77.0 or higher)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Overte Avatar Exporter for Unity "
+#~ "<https://github.com/overte-org/vircadia/blob/master/tools"
+#~ "/unity-avatar-"
+#~ "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 #~ msgstr ""
 

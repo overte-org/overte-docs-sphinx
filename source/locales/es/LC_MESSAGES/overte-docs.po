@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-03-22 10:53+0000\n"
+"POT-Creation-Date: 2023-03-24 19:35+0000\n"
 "PO-Revision-Date: 2023-03-17 05:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: es\n"
@@ -4979,15 +4979,14 @@ msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
 msgstr "Unity (Versiones recomendadas: 2017.4.17f1 - 2018.2.12f1)"
 
 #: ../../source/create/avatars/find-avatars.rst:42
-#, fuzzy
-msgid "Overte (v0.77.0 or higher)"
-msgstr "Overte (v0.77.0 o más actuales)"
+msgid "Overte"
+msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:43
 #, fuzzy
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-"
-"org/vircadia/blob/master/tools/unity-avatar-"
+"org/overte/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 msgstr ""
 "`Exportador de Avatar de Overte para Unity <https://github.com/overte-"
@@ -38023,4 +38022,7 @@ msgstr "UUID de sesión en Metaverso"
 #~ "/overte-org/overte-docs-"
 #~ "sphinx/blob/master/README.md>`_."
 #~ msgstr ""
+
+#~ msgid "Overte (v0.77.0 or higher)"
+#~ msgstr "Overte (v0.77.0 o más actuales)"
 
