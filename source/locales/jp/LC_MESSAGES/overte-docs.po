@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-03-18 03:21+0000\n"
-"PO-Revision-Date: 2023-03-22 10:55+0000\n"
+"PO-Revision-Date: 2023-03-24 19:22+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language-Team: Japanese <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ja/>\n"
@@ -42,23 +42,23 @@ msgstr "Matrix"
 
 #: ../../source/shared.rst
 msgid "de_trans"
-msgstr ""
+msgstr "de_trans"
 
 #: ../../source/shared.rst
 msgid "es_trans"
-msgstr ""
+msgstr "es_trans"
 
 #: ../../source/shared.rst
 msgid "fr_trans"
-msgstr ""
+msgstr "fr_trans"
 
 #: ../../source/shared.rst
 msgid "jp_trans"
-msgstr ""
+msgstr "jp_trans"
 
 #: ../../source/shared.rst
 msgid "ko_trans"
-msgstr ""
+msgstr "ko_trans"
 
 #: ../../source/contribute.rst:5
 #, fuzzy
@@ -646,8 +646,10 @@ msgid ""
 msgstr "常にアトラスマップを作成するようにしましょう。コンテンツのすべてのピースが同じマテリアルとUV空間を共有している場合、それはアトラスマップです。例えば、ロボットを作成する場合、その手、足、または顔に別々のマテリアルとUVマップを与えるのではなく、すべてのピースが1つのUVマップを共有する必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:59
+#, fuzzy
 msgid "Overte’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "Overteのエンジンは、1つのマテリアルにつき1つのUVマッピングしかサポートしてい"
+"ません。"
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -690,8 +692,9 @@ msgid ""
 msgstr "色の解像度を上げたい場合は、PNG-24を使用します。半透明のマスクや透明なテクスチャを使用する場合は、PNG-32を使用してください。"
 
 #: ../../source/create/3d-models/get-model.rst:72
+#, fuzzy
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
-msgstr ""
+msgstr "PNG-48、PNG-64はOverteではサポートされていませんので、使用しないでください。"
 
 #: ../../source/create/3d-models/get-model.rst:74
 #, fuzzy
@@ -1243,8 +1246,9 @@ msgid ""
 msgstr "テクスチャは、3Dモデルに適用される平面画像です。3Dモデルの素材の見え方を詳細に表現します。例えば、木の幹の3Dモデルには、樹皮のテクスチャを使用して、表面がどのように見えるかを表現します。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:31
+#, fuzzy
 msgid "Overte supports the use of the following texture formats:"
-msgstr ""
+msgstr "Overteは、次のテクスチャ形式の使用をサポートしています："
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:33
 #, fuzzy
@@ -1353,10 +1357,11 @@ msgid ""
 msgstr "例えば、あなたの携帯電話のケースはつや消しで、他の部分は光沢がある場合があります。マップを使って、ケースをつや消しに、携帯電話を光沢のあるものに設定することができます。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:61
+#, fuzzy
 msgid ""
 "All materials in Overte have the following channels that determine how "
 "they look:"
-msgstr ""
+msgstr "Overteのすべての素材は、その見え方を決定する以下のチャンネルを持っています :"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 #, fuzzy
@@ -2055,20 +2060,24 @@ msgid ":doc:`Write Your Own Scripts <../script/write-scripts>`"
 msgstr ":doc:`スクリプトを作成する <../script/write-scripts>`"
 
 #: ../../source/create/applications.rst:300
+#, fuzzy
 msgid "`API Reference: Entities <https://apidocs.overte.org/Entities.html>`_"
-msgstr ""
+msgstr "`APIリファレンス：エンティティ <https://apidocs.overte.org/Entities.html>`"
 
 #: ../../source/create/applications.rst:301
+#, fuzzy
 msgid "`API Reference: Script <https://apidocs.overte.org/Script.html>`_"
-msgstr ""
+msgstr "`API リファレンス: Script <https://apidocs.overte.org/Script.html>`_"
 
 #: ../../source/create/applications.rst:302
+#, fuzzy
 msgid "`API Reference: Quat <https://apidocs.overte.org/Quat.html>`_"
-msgstr ""
+msgstr "`APIリファレンス：Quat <https://apidocs.overte.org/Quat.html>`"
 
 #: ../../source/create/applications.rst:303
+#, fuzzy
 msgid "`API Reference: Vec3 <https://apidocs.overte.org/Vec3.html>`_"
-msgstr ""
+msgstr "`APIリファレンス：Vec3 <https://apidocs.overte.org/Vec3.html>`"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/create-avatars.rst:7
@@ -2437,10 +2446,13 @@ msgid ""
 msgstr "このアプリは、スクリプトやアバターに関する高度な知識がなくても、ユーザーが簡単にFlowの設定を更新できるようにするものです。"
 
 #: ../../source/create/avatars/add-flow.rst:117
+#, fuzzy
 msgid ""
 "`flowAppCpp.js <https://docs.overte.org/ "
 "_static/resources/script/flow/flowAppCpp/ flowAppCpp.js>`_"
 msgstr ""
+"`flowAppCpp.js <https://docs.overte.org/_static/resources/script/flow/"
+"flowAppCpp/flowAppCpp.js>`_"
 
 #: ../../source/create/avatars/add-flow.rst:121
 #, fuzzy
@@ -2969,10 +2981,12 @@ msgid "**ReadyPlayerMe Blendshapes**"
 msgstr "**ReadyPlayerMe Blendshapes（ReadyPlayerMe ブレンドシェイプ）**"
 
 #: ../../source/create/avatars/avatar-standards.md:169
+#, fuzzy
 msgid ""
 "ReadyPlayerMe blendshapes are converted into Overte blendshapes "
 "automatically."
-msgstr ""
+msgstr "ReadyPlayerMeのブレンドシェイプは、Overteのブレンドシェイプに自動的に変換され"
+"ます。"
 
 #: ../../source/create/avatars/avatar-standards.md:171
 #, fuzzy
@@ -3537,8 +3551,9 @@ msgid "Click the 'Export FBX' button."
 msgstr "「Export FBX」ボタンをクリックします。"
 
 #: ../../source/create/avatars/blender-tutorial.md:32
+#, fuzzy
 msgid "Now, you are ready to bring your avatar into Overte."
-msgstr ""
+msgstr "以上で、アバターをOverteに投入する準備が整いました。"
 
 #: ../../source/create/avatars/blender-tutorial.md:34
 #, fuzzy
@@ -3746,8 +3761,9 @@ msgid "Fine tune your avatar using a tool such as Blender or Maya."
 msgstr "BlenderやMayaなどのツールを使って、アバターを微調整します。"
 
 #: ../../source/create/avatars/create-avatars.rst:39
+#, fuzzy
 msgid "Package the model in Overte for use as an avatar."
-msgstr ""
+msgstr "アバターとして使用するために、モデルをOverteでパッケージングします。"
 
 #: ../../source/create/avatars/create-avatars.rst:41
 #, fuzzy
@@ -3783,10 +3799,13 @@ msgstr ""
 "Metaverse-Addon>`"
 
 #: ../../source/create/avatars/create-avatars.rst:54
+#, fuzzy
 msgid ""
 "Plugin (\"Project Hermes\") is a plugin for Blender to allow for easier "
 "content creation and importing for the Overte Platform. It features:"
 msgstr ""
+"プラグイン(\"Project Hermes\") は、Overte Platformのコンテンツ作成とインポー"
+"トをより簡単にするためのBlender用プラグインです。特徴："
 
 #: ../../source/create/avatars/create-avatars.rst:56
 #, fuzzy
@@ -3812,10 +3831,12 @@ msgid ""
 msgstr "**Avatar Converters**: MMDやMixamoのモデルや素材をVircadiaで使えるように移行・修正します。"
 
 #: ../../source/create/avatars/create-avatars.rst:59
+#, fuzzy
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Overte."
-msgstr ""
+msgstr "**Export Tools**: "
+"アバターとシーンをエクスポートして、Overteで使用できるようにします。"
 
 #: ../../source/create/avatars/create-avatars.rst:60
 #, fuzzy
@@ -3967,8 +3988,9 @@ msgstr ""
 "Standards Guide <avatar-standards>` を利用し、以下のガイドラインに留意してください。"
 
 #: ../../source/create/avatars/custom-animations.rst:50
+#, fuzzy
 msgid "Animations must have standard joint names for Overte."
-msgstr ""
+msgstr "アニメーションはOverteの標準的な関節名である必要があります。"
 
 #: ../../source/create/avatars/custom-animations.rst:51
 #, fuzzy
@@ -4072,6 +4094,8 @@ msgid ""
 "`MyAvatar.overrideAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.overrideAnimation>`_"
 msgstr ""
+"`MyAvatar.overrideAnimation <https://apidocs.overte.org/ MyAvatar.html#."
+"overrideAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 #, fuzzy
@@ -4087,6 +4111,8 @@ msgid ""
 "`AnimationCache.prefetch <https://apidocs.overte.org/ "
 "AnimationCache.html#.prefetch>`_"
 msgstr ""
+"`AnimationCache.prefetch <https://apidocs.overte.org/ AnimationCache.html#."
+"prefetch>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:86
 #, fuzzy
@@ -4100,10 +4126,13 @@ msgstr ""
 " T-ポーズが短時間表示されることがあります。"
 
 #: ../../source/create/avatars/custom-animations.rst:91
+#, fuzzy
 msgid ""
 "`MyAvatar.restoreAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.restoreAnimation>`_"
 msgstr ""
+"`MyAvatar.restoreAnimation <https://apidocs.overte.org/ MyAvatar.html#."
+"restoreAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:91
 #, fuzzy
@@ -4651,11 +4680,15 @@ msgid "Examples"
 msgstr "コマンド実行例:"
 
 #: ../../source/create/avatars/custom-animations.rst:234
+#, fuzzy
 msgid ""
 "Here is the current default `avatar-animation.json <https://github.com"
 "/overte-org/overte/blob/master/interface/resources/avatar/avatar-"
 "animation.json>`_ file."
 msgstr ""
+"以下は現在のデフォルトの `avatar-animation.json <https://github.com/"
+"overte-org/overte/blob/master/interface/resources/avatar/avatar-animation."
+"json>`_ ファイルです。"
 
 #: ../../source/create/avatars/custom-animations.rst:235
 #, fuzzy
@@ -4797,8 +4830,9 @@ msgid ":doc:`Script <../../script>`"
 msgstr ":doc:`Script <../../script>`"
 
 #: ../../source/create/avatars/custom-animations.rst:273
+#, fuzzy
 msgid "`API Reference: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
-msgstr ""
+msgstr "`API リファレンス: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
 
 #: ../../source/create/avatars/find-avatars.rst:2
 #, fuzzy
@@ -5113,8 +5147,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:134
+#, fuzzy
 msgid "Troubleshooting Tips"
-msgstr ""
+msgstr "トラブルシューティングのヒント"
 
 #: ../../source/create/avatars/find-avatars.rst:136
 msgid ""
@@ -5132,8 +5167,9 @@ msgid "Issue"
 msgstr "問題"
 
 #: ../../source/create/avatars/find-avatars.rst:139
+#, fuzzy
 msgid "Troubleshooting Tip"
-msgstr ""
+msgstr "トラブルシューティングのヒント"
 
 #: ../../source/create/avatars/find-avatars.rst:141
 msgid "*You receive a warning in Unity:*"
@@ -5518,8 +5554,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/scattering-tutorial.rst:33
+#, fuzzy
 msgid "Open your avatar's FST file in a text editor of your choice."
-msgstr ""
+msgstr "アバターのFSTファイルをテキストエディターで開きます。"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:34
 msgid "Add scattering information to the avatar's FST file. For example:"
@@ -5901,8 +5938,9 @@ msgstr ""
 #: ../../source/create/entities/portal-tutorial.md:59
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:19
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:115
+#, fuzzy
 msgid "[Get Started with Scripting](../../script/get-started-with-scripting)"
-msgstr ""
+msgstr "[スクリプトをはじめよう](../../script/get-started-with-scripting)"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:3
 #: ../../source/create/entities/tutorials.rst:7
@@ -5959,8 +5997,9 @@ msgstr ""
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:21
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:21
+#, fuzzy
 msgid "`Write Your Own Scripts <../../script/write-scripts>`_"
-msgstr ""
+msgstr "`スクリプトを作成する <../../script/write-scripts>`_"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:25
 msgid "Write an Avatar Scaling Script"
@@ -6050,8 +6089,9 @@ msgstr ""
 #: ../../source/create/entities/create-fountain.rst:92
 #: ../../source/create/entities/material-entity.rst:105
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:63
+#, fuzzy
 msgid ":doc:`Create New Entities <create-entities>`"
-msgstr ""
+msgstr ":doc:`新しいエンティティの作成 <create-entities>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:62
 #: ../../source/create/entities/boombox-tutorial.rst:19
@@ -6078,8 +6118,10 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:22
 #: ../../source/create/entities/boombox-tutorial.rst:171
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:67
+#, fuzzy
 msgid ":doc:`Client Entity Scripts <../../script/client-entity-scripts>`"
-msgstr ""
+msgstr ":doc:`クライアントエンティティスクリプト <../../script/client-entity-"
+"scripts>`"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:66
 #: ../../source/create/entities/boombox-tutorial.rst:23
@@ -6095,8 +6137,9 @@ msgstr ":doc:`スクリプトを作成する <../script/write-scripts>`"
 #: ../../source/create/entities/entity-behavior.rst:158
 #: ../../source/create/entities/entity-physics.rst:156
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:69
+#, fuzzy
 msgid ":doc:`Interact with Your Environment <../../explore/interact>`"
-msgstr ""
+msgstr ":doc:`環境との関わり方 <../../explore/interact>`"
 
 #: ../../source/create/entities/boombox-tutorial.rst:2
 msgid ""
@@ -6502,7 +6545,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-entities.md:18
 msgid "![](_images/add-cube.png)"
-msgstr ""
+msgstr "![](_images/add-cube.png)"
 
 #: ../../source/create/entities/create-entities.md:20
 msgid "Types of Entities"
@@ -6662,7 +6705,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:37
 msgid "``1.20``"
-msgstr ""
+msgstr "``1.20``"
 
 #: ../../source/create/entities/create-fountain.rst:37
 msgid "This property defines how long each particle lives, in seconds."
@@ -6674,7 +6717,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid "``356``"
-msgstr ""
+msgstr "``356``"
 
 #: ../../source/create/entities/create-fountain.rst:39
 msgid ""
@@ -6689,7 +6732,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "``524``"
-msgstr ""
+msgstr "``524``"
 
 #: ../../source/create/entities/create-fountain.rst:44
 msgid "The emit rate defines how many particles are emitted per second."
@@ -6701,7 +6744,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:46
 msgid "``2.10``"
-msgstr ""
+msgstr "``2.10``"
 
 #: ../../source/create/entities/create-fountain.rst:46
 msgid ""
@@ -6717,7 +6760,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:50
 msgid "x = ``0.60``, y = ``10.00``, z = ``0.30``"
-msgstr ""
+msgstr "x = ``0.60``, y = ``10.00``, z = ``0.30``"
 
 #: ../../source/create/entities/create-fountain.rst:50
 msgid ""
@@ -6763,7 +6806,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:60
 msgid "``#FFFFFF``"
-msgstr ""
+msgstr "``#FFFFFF``"
 
 #: ../../source/create/entities/create-fountain.rst:60
 msgid "This determines the color spectrum of the particles."
@@ -6775,7 +6818,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:62
 msgid "x = ``0``, y = ``-9.09``, z = ``0``"
-msgstr ""
+msgstr "x = ``0``, y = ``-9.09``, z = ``0``"
 
 #: ../../source/create/entities/create-fountain.rst:62
 msgid "This is the acceleration of each particle during its lifetime."
@@ -6787,7 +6830,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-fountain.rst:64
 msgid "``147.40``"
-msgstr ""
+msgstr "``147.40``"
 
 #: ../../source/create/entities/create-fountain.rst:64
 msgid ""
@@ -6903,15 +6946,15 @@ msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:28
 msgid "X = '0.1300'"
-msgstr ""
+msgstr "X = '0.1300'"
 
 #: ../../source/create/entities/create-spotlight.md:29
 msgid "Y = '2.4000'"
-msgstr ""
+msgstr "Y = '2.4000'"
 
 #: ../../source/create/entities/create-spotlight.md:30
 msgid "Z = '3.2000'"
-msgstr ""
+msgstr "Z = '3.2000'"
 
 #: ../../source/create/entities/create-spotlight.md:32
 msgid "You've made your wall! ![](_images/teal-wall-prop.PNG)"
@@ -7001,7 +7044,7 @@ msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:58
 msgid "![](_images/spotlight.PNG)"
-msgstr ""
+msgstr "![](_images/spotlight.PNG)"
 
 #: ../../source/create/entities/create-spotlight.md:64
 msgid "[Creator Tools](../tools)"
@@ -7069,7 +7112,7 @@ msgstr ""
 
 #: ../../source/create/entities/display-youtube.md:40
 msgid "![](_images/source-url.PNG) ![](_images/youtube-web-entity.PNG)"
-msgstr ""
+msgstr "![](_images/source-url.PNG) ![](_images/youtube-web-entity.PNG)"
 
 #: ../../source/create/entities/entity-appearance.rst:5
 msgid ""
