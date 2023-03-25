@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-03-24 19:35+0000\n"
-"PO-Revision-Date: 2023-03-22 04:16+0000\n"
+"PO-Revision-Date: 2023-03-26 14:16+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
+"Language-Team: German <https://weblate.overte.org/projects/overte/"
+"overte-documentation/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://weblate.overte.org/projects/overte/overte-"
-"documentation/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -1448,6 +1449,9 @@ msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
 "property. You will use a map to apply a texture to your 3D model."
 msgstr ""
+"**Verwendung einer Karte:** Die Karte ist ein Bild, das Sie importieren "
+"können, um eine Eigenschaft zu definieren. Sie können eine Karte verwenden, "
+"um eine Textur auf Ihr 3D-Modell anzuwenden."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
 msgid ""
@@ -1455,16 +1459,21 @@ msgid ""
 "your phone is shiny. You can use a map to set the case as matte and the "
 "phone as shiny."
 msgstr ""
+"Ihr Telefon kann zum Beispiel eine matte Hülle haben, während der Rest des "
+"Telefons glänzend ist. Sie können eine Karte verwenden, um die Hülle als "
+"matt und das Telefon als glänzend einzustellen."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:61
 msgid ""
 "All materials in Overte have the following channels that determine how "
 "they look:"
 msgstr ""
+"Alle Materialien in Overte haben die folgenden Kanäle, über das Ihr Aussehen "
+"bestimmt wird:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid "Channel Type"
-msgstr ""
+msgstr "Kanal-Typ"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:64
 #: ../../source/create/entities/create-fountain.rst:35
@@ -1479,28 +1488,32 @@ msgstr "Karte"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:66
 msgid "Albedo"
-msgstr ""
+msgstr "Albedo"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:66
 msgid ""
 "This channel defines the material's color. You can pick any color value "
 "of your choice."
 msgstr ""
+"Dieser Kanal definiert die Farbe des Materials. Sie können einen beliebigen "
+"Farbwert Ihrer Wahl verwenden."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:66
 #: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid "sRGB"
-msgstr ""
+msgstr "sRGB"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:69
 msgid "Metallic"
-msgstr ""
+msgstr "Metallisch"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:69
 msgid ""
 "This channel determines if the material is metallic or not. You cannot "
 "have a material that is half metallic, it is either metallic or it isn't."
 msgstr ""
+"Dieser Kanal bestimmt, ob das Material metallisch ist oder nicht. Licht wird "
+"von Metall anders reflektiert, als von anderen Materialien."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:69
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
@@ -1508,7 +1521,7 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:81
 #: ../../source/create/3d-models/pbr-materials-guide.rst:86
 msgid "[0,1]"
-msgstr ""
+msgstr "[0,1]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:72
 #, fuzzy
@@ -1519,7 +1532,7 @@ msgstr "Oberflächenrauheit"
 msgid ""
 "This determines how rough/matte or glossy/shiny an object is, using "
 "brightness levels."
-msgstr ""
+msgstr "Dies bestimmt wie rau/matt oder glatt/glänzend ein Objekt ist."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 #, fuzzy
@@ -1532,14 +1545,18 @@ msgid ""
 " For instance, normal would add bumps and other irregularities to a stone"
 " or ridges to a sea-shell."
 msgstr ""
+"\"Normal\" ist ein Kanal, der ein Objekt so wiedergibt, als ob es eine "
+"tatsächliche Geometrie hätte. Mit Normalen werden beispielsweise "
+"Unebenheiten und andere Unregelmäßigkeiten auf einem Stein oder Rillen auf "
+"einer Muschel hinzugefügt."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid "xyz"
-msgstr ""
+msgstr "xyz"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:75
 msgid "bump"
-msgstr ""
+msgstr "Beule (bump)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 #, fuzzy
@@ -1549,52 +1566,62 @@ msgstr "Deckkraft"
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "Opacity determines if an object is transparent or opaque."
 msgstr ""
+"Die Opazität bestimmt, ob ein Objekt transparent oder undurchsichtig ist."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "mask, alpha"
-msgstr ""
+msgstr "Maske (mask), Alpha"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:81
 msgid "Occlusion"
-msgstr ""
+msgstr "Okklusion"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:81
 msgid ""
 "This property approximates the shading to be as natural as possible. This"
 " means that it will reproduce how objects interact with light."
 msgstr ""
+"Mit dieser Eigenschaft wird die Schattierung so natürlich wie möglich "
+"nachgebildet. Das bedeutet, dass die Interaktion von Licht mit Objekten "
+"nachgebildet wird."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:81
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "---"
-msgstr ""
+msgstr "---"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid "Emissive"
-msgstr ""
+msgstr "Emittierend"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid "This channel controls the amount of light being reflected from an object."
 msgstr ""
+"Dieser Kanal steuert die Lichtmenge, die von einem Objekt ausgestrahlt wird."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:86
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 msgid "Scattering"
-msgstr ""
+msgstr "Streuung"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:86
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
 msgstr ""
+"Die Streuung bestimmt, wie sich das Licht verhält, wenn es auf die "
+"menschliche Haut trifft. Dieser Kanal simuliert, wie Licht vom menschlichen "
+"Körper reflektiert oder absorbiert wird."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "Material Type"
-msgstr ""
+msgstr "Material-Typ"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "This channel decides if an object is lit or unlit."
 msgstr ""
+"Dieser Kanal entscheidet, ob das Aussehen eines Objektes von Licht "
+"beeinflusst wird ."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "[lit, unlit]"
@@ -33292,4 +33319,3 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ "/unity-avatar-"
 #~ "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 #~ msgstr ""
-
