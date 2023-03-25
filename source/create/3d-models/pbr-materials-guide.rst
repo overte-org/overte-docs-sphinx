@@ -69,8 +69,8 @@ All materials in Overte have the following channels that determine how they look
 | Metallic      | This channel determines if the material is metallic or not. You cannot       | [0,1]        | [0,1]       |
 |               | have a material that is half metallic, it is either metallic or it isn't.    |              |             |
 +---------------+------------------------------------------------------------------------------+--------------+-------------+
-| Roughness     | This determines how rough/matte or glossy/shiny an object is, using          | [0,1]        | [0,1]       |
-|               | brightness levels.                                                           |              |             |
+| Roughness     | This determines how rough/matte or glossy/shiny an object is.                | [0,1]        | [0,1]       |
+|               |                                                                              |              |             |
 +---------------+------------------------------------------------------------------------------+--------------+-------------+
 | Normal        | Normal is a channel that renders an object like there is actual geometry.    | xyz          | bump        |
 |               | For instance, normal would add bumps and other irregularities to a stone or  |              |             |
