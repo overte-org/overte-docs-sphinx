@@ -91,7 +91,7 @@ All materials in Overte have the following channels that determine how they look
 
 Notes:
 
-1. If you set transparency with a texture, the transparency (alpha) must be in the material’s albedo texture, as a PNG file with transparency and *not* as a separate transparency texture.
+1. If you set transparency with a texture, the transparency (alpha) must be in the material’s albedo texture, as a file with transparency and *not* as a separate transparency texture.
 2. Overte renderer can draw two different kinds of transparency: "alpha" (255 graduates steps of transparency, no shading on surface, casts no shadows,) and "mask" (binary transparency, full shading of opaque surface, whole surface casts shadow.)
 3. To determine whether a texture is treated as a mask or as alpha, the engine looks for alpha values between 2% and 98%.
    An easy way to create a mask texture is to save your image as a PNG-8 since it only supports binary transparency, while PNG-24 supports a range of transparency levels.
