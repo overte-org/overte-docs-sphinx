@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-03-24 19:35+0000\n"
-"PO-Revision-Date: 2023-03-26 14:16+0000\n"
+"PO-Revision-Date: 2023-03-27 17:16+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language-Team: German <https://weblate.overte.org/projects/overte/"
 "overte-documentation/de/>\n"
@@ -1625,7 +1625,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:89
 msgid "[lit, unlit]"
-msgstr ""
+msgstr "[normal (lit) , nicht beeinflusst (unlit)]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:92
 #, fuzzy
@@ -1638,6 +1638,9 @@ msgid ""
 "in the material’s albedo texture, as a PNG file with transparency and "
 "*not* as a separate transparency texture."
 msgstr ""
+"Wenn Sie die Transparenz mit einer Textur einstellen, muss die Transparenz "
+"(Alpha) in der Albedotextur des Materials enthalten sein. Also als Datei mit "
+"Transparenz und *nicht* als separate Transparenztextur."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
 msgid ""
@@ -1655,6 +1658,8 @@ msgid ""
 "binary transparency, while PNG-24 supports a range of transparency "
 "levels."
 msgstr ""
+"Um festzustellen, ob eine Textur als Maske oder als Alpha behandelt wird, "
+"sucht die Engine nach Alpha-Werten zwischen 2 % und 98 %."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:98
 msgid ""
