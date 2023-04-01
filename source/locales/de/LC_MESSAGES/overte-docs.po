@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-03-24 19:35+0000\n"
-"PO-Revision-Date: 2023-03-27 17:16+0000\n"
+"PO-Revision-Date: 2023-04-02 20:16+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language-Team: German <https://weblate.overte.org/projects/overte/"
 "overte-documentation/de/>\n"
@@ -30,7 +30,7 @@ msgstr "Herunterladen"
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 #: ../../source/shared.rst
 msgid "Gallery"
-msgstr "Galerie"
+msgstr "Bildergalerie"
 
 #: ../../source/shared.rst
 msgid "Discord"
@@ -4349,7 +4349,7 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
 msgid "Overte"
-msgstr ""
+msgstr "Overte"
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid ""
@@ -10149,9 +10149,8 @@ msgstr "Installationsprogramm"
 #: ../../source/developer/build/BUILD_LINUX.md:186
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
-#, fuzzy
 msgid "Interface"
-msgstr "Benutzeroberfläche"
+msgstr "Interface"
 
 #: ../../source/developer.rst:11 ../../source/developer/domain-server.rst:3
 #: ../../source/explore/get-started/architecture.rst:46
@@ -10166,7 +10165,7 @@ msgstr "Benutzeroberfläche"
 #: ../../source/release-notes/2021-1-0-Eos.md:48
 #: ../../source/release-notes/2021-1-1-Eos.md:55
 msgid "Domain Server"
-msgstr ""
+msgstr "Domain Server"
 
 #: ../../source/developer.rst:11 ../../source/developer/assignment-client.rst:3
 #: ../../source/explore/get-started/architecture.rst:69
@@ -10234,9 +10233,8 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:23
 #: ../../source/developer/interface/debugging.md:3
-#, fuzzy
 msgid "Windows"
-msgstr "Fenster"
+msgstr "Windows"
 
 #: ../../source/developer/INSTALLER.md:27
 msgid "To produce an executable installer on Windows, the following are required:"
@@ -10589,7 +10587,6 @@ msgid "`make package` to create the package."
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:128
-#, fuzzy
 msgid "Linux"
 msgstr "Linux"
 
@@ -17047,7 +17044,7 @@ msgstr "API-Referenz"
 
 #: ../../source/home.rst:5
 msgid "Home"
-msgstr "Start"
+msgstr "Startseite"
 
 #: ../../source/home.rst:7
 msgid ""
