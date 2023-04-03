@@ -5,20 +5,21 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Overte Docs \n"
+"Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-03-24 19:35+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2023-04-04 21:16+0000\n"
+"Last-Translator: Yan-K <a080123900@gmail.com>\n"
+"Language-Team: Chinese (Traditional) <https://weblate.overte.org/projects/"
+"overte/overte-documentation/zh_Hant/>\n"
 "Language: zh_TW\n"
-"Language-Team: zh_TW <LL@li.org>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -28,7 +29,7 @@ msgstr ""
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 #: ../../source/shared.rst
 msgid "Gallery"
-msgstr ""
+msgstr "相簿"
 
 #: ../../source/shared.rst
 msgid "Discord"
@@ -36,7 +37,7 @@ msgstr ""
 
 #: ../../source/shared.rst
 msgid "Matrix"
-msgstr ""
+msgstr "Matrix"
 
 #: ../../source/shared.rst
 msgid "de_trans"
@@ -4007,7 +4008,7 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
 msgid "Overte"
-msgstr ""
+msgstr "Overte"
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid ""
@@ -9782,7 +9783,7 @@ msgstr ""
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
 msgid "Interface"
-msgstr ""
+msgstr "介面"
 
 #: ../../source/developer.rst:11 ../../source/developer/domain-server.rst:3
 #: ../../source/explore/get-started/architecture.rst:46
@@ -9797,7 +9798,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:48
 #: ../../source/release-notes/2021-1-1-Eos.md:55
 msgid "Domain Server"
-msgstr ""
+msgstr "Domain 伺服器"
 
 #: ../../source/developer.rst:11 ../../source/developer/assignment-client.rst:3
 #: ../../source/explore/get-started/architecture.rst:69
@@ -9806,7 +9807,7 @@ msgstr ""
 
 #: ../../source/developer.rst:3
 msgid "Developer"
-msgstr ""
+msgstr "開發者"
 
 #: ../../source/developer.rst:5
 msgid ""
@@ -9859,7 +9860,7 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:23
 #: ../../source/developer/interface/debugging.md:3
 msgid "Windows"
-msgstr ""
+msgstr "Windows"
 
 #: ../../source/developer/INSTALLER.md:27
 msgid "To produce an executable installer on Windows, the following are required:"
@@ -10211,7 +10212,7 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:128
 msgid "Linux"
-msgstr ""
+msgstr "Linux"
 
 #: ../../source/developer/INSTALLER.md:130
 #: ../../source/developer/build/BUILD_LINUX.md:149
@@ -16364,7 +16365,7 @@ msgstr ""
 
 #: ../../source/home.rst:5
 msgid "Home"
-msgstr ""
+msgstr "首頁"
 
 #: ../../source/home.rst:7
 msgid ""
@@ -29085,4 +29086,3 @@ msgstr ""
 #~ "/unity-avatar-"
 #~ "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 #~ msgstr ""
-
