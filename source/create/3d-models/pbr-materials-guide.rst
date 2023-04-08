@@ -86,7 +86,7 @@ All materials in Overte have the following channels that determine how they look
 | Scattering    | Scattering determines how light will behave when it hits human skin. This    | [0,1]        | [0,1]       |
 |               | channel details how light is reflected or absorbed by human bodies.          |              |             |
 +---------------+------------------------------------------------------------------------------+--------------+-------------+
-| Material Type | This channel decides if an object is impacted by light.                           | [lit, unlit] | ---         |
+| Material Type | This channel decides if an object is impacted by light.                      | [lit, unlit] | ---         |
 +---------------+------------------------------------------------------------------------------+--------------+-------------+
 
 Notes:
