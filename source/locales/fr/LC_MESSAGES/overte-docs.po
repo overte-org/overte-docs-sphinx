@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-03-24 19:35+0000\n"
+"POT-Creation-Date: 2023-04-08 19:11+0000\n"
 "PO-Revision-Date: 2023-03-17 05:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: fr\n"
@@ -87,7 +87,7 @@ msgstr ""
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
 #: ../../source/create/3d-models/import-model.rst:8
-#: ../../source/create/3d-models/pbr-materials-guide.rst:11
+#: ../../source/create/3d-models/pbr-materials-guide.rst:9
 #: ../../source/create/avatars/add-flow.rst:12
 #: ../../source/create/avatars/create-avatars.rst:20
 #: ../../source/create/avatars/custom-animations.rst:14
@@ -403,7 +403,7 @@ msgid "Import Your 3D Model"
 msgstr "Importer vos Modèles 3D"
 
 #: ../../source/create/3d-models.rst:11
-#: ../../source/create/3d-models/pbr-materials-guide.rst:5
+#: ../../source/create/3d-models/pbr-materials-guide.rst:3
 msgid "PBR Materials Guide"
 msgstr "Guide pour Matériaux PBR"
 
@@ -659,7 +659,7 @@ msgstr "L'engin Vircadia supporte seulement une texture UV par materiau."
 #: ../../source/create/3d-models/get-model.rst:72
 #: ../../source/create/3d-models/get-model.rst:74
 #: ../../source/create/3d-models/get-model.rst:77
-#: ../../source/create/3d-models/pbr-materials-guide.rst:27
+#: ../../source/create/3d-models/pbr-materials-guide.rst:25
 #: ../../source/create/avatars/avatar-standards.md:257
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
@@ -919,7 +919,7 @@ msgid "You can edit the following animation properties:"
 msgstr "Vous pouvez modifier les propriétés des animations suivantes :"
 
 #: ../../source/create/3d-models/import-animations.rst:47
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:62
 #: ../../source/create/avatars/add-flow.rst:46
 #: ../../source/create/avatars/add-flow.rst:66
 #: ../../source/create/avatars/add-flow.rst:92
@@ -1056,7 +1056,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
-#: ../../source/create/3d-models/pbr-materials-guide.rst:153
+#: ../../source/create/3d-models/pbr-materials-guide.rst:150
 #: ../../source/create/applications.rst:297
 #: ../../source/create/avatars/add-flow.rst:127
 #: ../../source/create/avatars/avatar-standards.md:272
@@ -1204,7 +1204,7 @@ msgstr ":doc:`Outils de Création <../tools>`"
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr ":doc:`Créer de Nouvelles Entités <../entities/create-entities>`"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:7
+#: ../../source/create/3d-models/pbr-materials-guide.rst:5
 #, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
@@ -1217,11 +1217,11 @@ msgstr ""
 "signifie que les matériaux d'un modèle 3D vont réfléchir ou absorber la "
 "lumière comme ils le feraient (approximativement) dans la vie réelle."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:15
+#: ../../source/create/3d-models/pbr-materials-guide.rst:13
 msgid "Introduction to Materials, Textures, and Shading"
 msgstr "Introduction aux Matériaux, Textures et Nuancement"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:17
+#: ../../source/create/3d-models/pbr-materials-guide.rst:15
 msgid ""
 "A 3D model's appearance is controlled by its materials. For example, a 3D"
 " model of a key will use a material that determines its color, how "
@@ -1234,7 +1234,7 @@ msgstr ""
 "3D d'un mur en briques aura un matériau qui détermine sa rugosité et sa "
 "couleur."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:20
+#: ../../source/create/3d-models/pbr-materials-guide.rst:18
 msgid ""
 "Since Overte supports physically-based rendering (PBR) materials, your "
 "model will behave like a real world object when exposed to light. For "
@@ -1243,11 +1243,11 @@ msgid ""
 "reflect enough light for you to observe its colors and surface."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:23
+#: ../../source/create/3d-models/pbr-materials-guide.rst:21
 msgid "A material contains texture and shading information."
 msgstr "Un matériau contient des informations sur la texture et le nuancement."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:29
+#: ../../source/create/3d-models/pbr-materials-guide.rst:27
 #, fuzzy
 msgid ""
 "Textures are flat images that are applied to 3D models. These add detail "
@@ -1259,28 +1259,28 @@ msgstr ""
 "Par exemple, un modèle 3D d'un tronc d'arbre utilisera une texture "
 "d'écorce pour montrer à quoi ressemble la surface."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:31
+#: ../../source/create/3d-models/pbr-materials-guide.rst:29
 #, fuzzy
 msgid "Overte supports the use of the following texture formats:"
 msgstr "Vircadia prend en charge l'utilisation des formats de texture suivants :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:33
+#: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid "PNG (recommended)"
 msgstr "PNG (recommendé)"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:34
+#: ../../source/create/3d-models/pbr-materials-guide.rst:32
 msgid "JPEG, JPG (recommended)"
 msgstr "JPEG, JPG (recommendé)"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:35
+#: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "TGA"
 msgstr "TGA"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:36
+#: ../../source/create/3d-models/pbr-materials-guide.rst:34
 msgid "TIFF, TIF"
 msgstr "TIFF, TIF"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:38
+#: ../../source/create/3d-models/pbr-materials-guide.rst:36
 #, fuzzy
 msgid ""
 "For best performance, we recommend :doc:`baking all 3D models <../../host"
@@ -1291,11 +1291,11 @@ msgstr ""
 "tous les modèles 3D <../../host/add-content/bake-content>` (y compris les"
 " textures) avant de le télécharger sur Vircadia."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:42
+#: ../../source/create/3d-models/pbr-materials-guide.rst:40
 msgid "Shading"
 msgstr "Nuancement"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:44
+#: ../../source/create/3d-models/pbr-materials-guide.rst:42
 #, fuzzy
 msgid ""
 "Since Overte supports PBR materials, the shading used depicts an accurate"
@@ -1311,7 +1311,7 @@ msgstr ""
 "dispose d'un ensemble de paramètres ou de canaux de matériaux qui peuvent"
 " être modifiés pour créer différents types de matériaux."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:47
+#: ../../source/create/3d-models/pbr-materials-guide.rst:45
 #, fuzzy
 msgid ""
 "You can combine shaders with material entities on shape and zone entities"
@@ -1330,11 +1330,11 @@ msgstr ""
 "pouvez trouver plus d'informations sous :doc:`Nuanceurs procéduraux pour "
 "Modèles et Avatars<../materials/procedural-shaders>`."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:51
+#: ../../source/create/3d-models/pbr-materials-guide.rst:49
 msgid "**Material Channels**"
 msgstr "**Canaux de matériaux**"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:53
+#: ../../source/create/3d-models/pbr-materials-guide.rst:51
 msgid ""
 "Material channels determine various parameters such as the roughness or "
 "color of a material. You can determine the value of each channel in two "
@@ -1344,13 +1344,13 @@ msgstr ""
 "rugosité ou la couleur d'un matériau. Vous pouvez déterminer la valeur de"
 " chaque canal de deux façons :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:56
+#: ../../source/create/3d-models/pbr-materials-guide.rst:54
 msgid ""
 "**Setting a Value:** The value of a channel is a value set on a slider. "
 "Setting a value is like turning off or turning on a switch."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:56
+#: ../../source/create/3d-models/pbr-materials-guide.rst:54
 msgid ""
 "For example, if you look at your phone, some parts of it are shiny and "
 "some are matte. When you use a value, the entire object reflects that "
@@ -1358,11 +1358,11 @@ msgid ""
 "roughness, you'll need to use a map."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:59
+#: ../../source/create/3d-models/pbr-materials-guide.rst:57
 #, fuzzy
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
-"property. You will use a map to apply a texture to your 3D model."
+"property. You may use a map to apply a texture to your 3D model."
 msgstr ""
 "**Utilisation d'une carte:** La carte est une image que vous pouvez "
 "importer pour définir une propriété. Vous utiliserez une carte pour "
@@ -1371,11 +1371,11 @@ msgstr ""
 "brillant. Vous pouvez utiliser une carte pour définir l'étui comme mat et"
 " le téléphone comme brillant."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:59
+#: ../../source/create/3d-models/pbr-materials-guide.rst:57
 #, fuzzy
 msgid ""
-"For instance, your phone may have a case that is matte, but the rest of "
-"your phone is shiny. You can use a map to set the case as matte and the "
+"For instance, your phone may have a case that is matte, while the rest of"
+" your phone is shiny. You can use a map to set the case as matte and the "
 "phone as shiny."
 msgstr ""
 "**Utilisation d'une carte:** La carte est une image que vous pouvez "
@@ -1385,7 +1385,7 @@ msgstr ""
 "brillant. Vous pouvez utiliser une carte pour définir l'étui comme mat et"
 " le téléphone comme brillant."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:61
+#: ../../source/create/3d-models/pbr-materials-guide.rst:59
 #, fuzzy
 msgid ""
 "All materials in Overte have the following channels that determine how "
@@ -1394,24 +1394,24 @@ msgstr ""
 "Tous les matériaux dans Vircadia ont les canaux suivants qui déterminent "
 "leur aspect :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:62
 msgid "Channel Type"
 msgstr "Type de Canal"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:62
 #: ../../source/create/entities/create-fountain.rst:35
 msgid "Value"
 msgstr "Valeur"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:62
 msgid "Map"
 msgstr "Carte"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:66
+#: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid "Albedo"
 msgstr "Albédo"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:66
+#: ../../source/create/3d-models/pbr-materials-guide.rst:64
 msgid ""
 "This channel defines the material's color. You can pick any color value "
 "of your choice."
@@ -1419,49 +1419,45 @@ msgstr ""
 "Ce canal définit la couleur du matériau. Vous pouvez choisir la valeur de"
 " la couleur de votre choix."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:66
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
+#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:82
 msgid "sRGB"
 msgstr "sRGB"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:69
+#: ../../source/create/3d-models/pbr-materials-guide.rst:67
 msgid "Metallic"
 msgstr "Métallique"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:69
+#: ../../source/create/3d-models/pbr-materials-guide.rst:67
 msgid ""
-"This channel determines if the material is metallic or not. You cannot "
-"have a material that is half metallic, it is either metallic or it isn't."
+"This channel determines how metallic the material is. Metal refracts "
+"light different than other materials."
 msgstr ""
-"Ce canal détermine si le matériau est métallique ou non. Vous ne pouvez "
-"pas avoir un matériau qui est à moitié métallique, il est soit métallique"
-" ou non."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:69
-#: ../../source/create/3d-models/pbr-materials-guide.rst:72
+#: ../../source/create/3d-models/pbr-materials-guide.rst:67
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
+#: ../../source/create/3d-models/pbr-materials-guide.rst:77
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
-#: ../../source/create/3d-models/pbr-materials-guide.rst:81
-#: ../../source/create/3d-models/pbr-materials-guide.rst:86
+#: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid "[0,1]"
 msgstr "[0,1]"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:72
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
 msgid "Roughness"
 msgstr "Rugosité"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:72
-msgid ""
-"This determines how rough/matte or glossy/shiny an object is, using "
-"brightness levels."
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
+#, fuzzy
+msgid "This determines how rough/matte or glossy/shiny an object is."
 msgstr ""
 "Il détermine le degré de rugosité/mat ou de brillance/luisance d'un "
 "objet, en utilisant des niveaux de luminosité."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:75
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "Normal"
 msgstr "Normal"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:75
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid ""
 "Normal is a channel that renders an object like there is actual geometry."
 " For instance, normal would add bumps and other irregularities to a stone"
@@ -1471,31 +1467,31 @@ msgstr ""
 "géométrie réelle. Par exemple, la carte normale ajouterait des bosses et "
 "d'autres irrégularités à une pierre ou des arêtes à un coquillage."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:75
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "xyz"
 msgstr "xyz"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:75
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "bump"
 msgstr "bosse"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:77
 msgid "Opacity"
 msgstr "Opacité"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:77
 msgid "Opacity determines if an object is transparent or opaque."
 msgstr "L'opacité détermine si un objet est transparent ou opaque."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:77
 msgid "mask, alpha"
 msgstr "masque, alpha"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:81
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "Occlusion"
 msgstr "Ombrage"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:81
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid ""
 "This property approximates the shading to be as natural as possible. This"
 " means that it will reproduce how objects interact with light."
@@ -1504,25 +1500,26 @@ msgstr ""
 " naturel que possible. Cela signifie qu'elle reproduira la façon dont les"
 " objets interagissent avec la lumière."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:81
-#: ../../source/create/3d-models/pbr-materials-guide.rst:89
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:87
 msgid "---"
 msgstr "---"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
+#: ../../source/create/3d-models/pbr-materials-guide.rst:82
 msgid "Emissive"
 msgstr "Emissive"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
-msgid "This channel controls the amount of light being reflected from an object."
+#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#, fuzzy
+msgid "This channel controls the amount of light that is coming from an object."
 msgstr "Ce canal contrôle la quantité de lumière réfléchie par un objet."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:86
+#: ../../source/create/3d-models/pbr-materials-guide.rst:84
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 msgid "Scattering"
 msgstr "Diffusion"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:86
+#: ../../source/create/3d-models/pbr-materials-guide.rst:84
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
@@ -1531,34 +1528,35 @@ msgstr ""
 "la peau humaine. Ce canal détaille la façon dont la lumière est réfléchie"
 " ou absorbée par le corps humain."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:89
+#: ../../source/create/3d-models/pbr-materials-guide.rst:87
 msgid "Material Type"
 msgstr "Type de Materiel"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:89
-msgid "This channel decides if an object is lit or unlit."
+#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#, fuzzy
+msgid "This channel decides if an object is impacted by light."
 msgstr "Ce canal décide si un objet est allumé ou non."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:89
+#: ../../source/create/3d-models/pbr-materials-guide.rst:87
 msgid "[lit, unlit]"
 msgstr "[lit, unlit]"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:92
+#: ../../source/create/3d-models/pbr-materials-guide.rst:90
 msgid "Notes:"
 msgstr "Notes :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:94
+#: ../../source/create/3d-models/pbr-materials-guide.rst:92
 #, fuzzy
 msgid ""
 "If you set transparency with a texture, the transparency (alpha) must be "
-"in the material’s albedo texture, as a PNG file with transparency and "
-"*not* as a separate transparency texture."
+"in the material’s albedo texture, as a file with transparency and *not* "
+"as a separate transparency texture."
 msgstr ""
 "Si vous définissez la transparence avec une texture, la transparence "
 "(alpha) doit être dans la texture d'albédo du matériau, comme un fichier "
 "PNG avec transparence et non comme une texture de transparence séparée."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:95
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 #, fuzzy
 msgid ""
 "Overte renderer can draw two different kinds of transparency: \"alpha\" "
@@ -1571,22 +1569,13 @@ msgstr ""
 " d'ombre) et \"masque\" (transparence binaire, ombrage complet de la "
 "surface opaque, toute la surface est ombrée.)"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:96
+#: ../../source/create/3d-models/pbr-materials-guide.rst:94
 msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
-"engine looks for alpha values between 2% and 98%. An easy way to create a"
-" mask texture is to save your image as a PNG-8 since it only supports "
-"binary transparency, while PNG-24 supports a range of transparency "
-"levels."
+"engine looks for alpha values between 2% and 98%."
 msgstr ""
-"Pour déterminer si une texture est traitée comme un masque ou comme un "
-"alpha, le moteur recherche des valeurs alpha entre 2 % et 98 %. Une façon"
-" simple de créer une texture de masque est d'enregistrer votre image au "
-"format PNG-8, car il ne prend en charge que la transparence binaire, "
-"tandis que le format PNG-24 prend en charge une gamme de niveaux de "
-"transparence."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:98
+#: ../../source/create/3d-models/pbr-materials-guide.rst:95
 #, fuzzy
 msgid ""
 "We support using a second UV set with the following texture channels "
@@ -1595,11 +1584,11 @@ msgstr ""
 "Nous soutenons l'utilisation d'un deuxième ensemble d'UV avec les canaux "
 "de texture suivants uniquement : Carte Lumineuse et Occlusion Ambiante."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:102
+#: ../../source/create/3d-models/pbr-materials-guide.rst:99
 msgid "Sample Materials and Their Textures and Shading"
 msgstr "Exemples de Matériaux et Leurs Textures et Nuancements"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:104
+#: ../../source/create/3d-models/pbr-materials-guide.rst:101
 #, fuzzy
 msgid ""
 "Overte supports different types of materials. We've created sample "
@@ -1620,7 +1609,7 @@ msgstr ""
 " dans Vircadia pour télécharger tous les exemples d'objets de votre "
 "domaine."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:111
+#: ../../source/create/3d-models/pbr-materials-guide.rst:108
 msgid ""
 "We've listed all material information (including textures, shading, and "
 "channel values and maps) for these sample objects `here "
@@ -1628,15 +1617,15 @@ msgid ""
 "models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:116
+#: ../../source/create/3d-models/pbr-materials-guide.rst:113
 msgid "Set Material Values in Blender"
 msgstr "Fixer les Valeurs de Matériaux dans Blender"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:121
+#: ../../source/create/3d-models/pbr-materials-guide.rst:118
 msgid "This section is outdated."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:123
+#: ../../source/create/3d-models/pbr-materials-guide.rst:120
 msgid ""
 "When you create a model in Blender, you have to export it in FBX, glTF, "
 "GLB or OBJ format to use in Overte. Additionally, you have to modify "
@@ -1644,14 +1633,14 @@ msgid ""
 "textures in Overte."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:125
+#: ../../source/create/3d-models/pbr-materials-guide.rst:122
 #, fuzzy
 msgid "Doing so ensures that your model appears how you intend it to."
 msgstr ""
 "En faisant ainsi vous vous assurez que votre modèle apparaît comme vous "
 "le souhaitez."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:127
+#: ../../source/create/3d-models/pbr-materials-guide.rst:124
 msgid ""
 "By default, any material property set with a texture will override a "
 "property set with a value. The only exception to this is in the case of "
@@ -1660,7 +1649,7 @@ msgid ""
 "performant colored models using grey-scale textures and vertex colors."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:130
+#: ../../source/create/3d-models/pbr-materials-guide.rst:127
 msgid ""
 "We've included images where the fields corresponding to each supported "
 "PBR channel in Blender are highlighted, along with details about which "
@@ -1669,15 +1658,15 @@ msgid ""
 " PBR material support in Overte yet."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:139
+#: ../../source/create/3d-models/pbr-materials-guide.rst:136
 msgid "Set Material Values in Maya"
 msgstr "Fixer les Valeurs de Matériaux dans Maya"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:144
+#: ../../source/create/3d-models/pbr-materials-guide.rst:141
 msgid "This section hasn't been tested in a long while and might be outdated."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:146
+#: ../../source/create/3d-models/pbr-materials-guide.rst:143
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
@@ -1685,7 +1674,7 @@ msgstr ""
 "Utilisez les graphiques ci-dessous pour définir les bonnes valeurs et "
 "textures de matériaux dans Maya."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:155
+#: ../../source/create/3d-models/pbr-materials-guide.rst:152
 msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
 "content>`"
@@ -1693,7 +1682,7 @@ msgstr ""
 ":doc:`Précalculez votre contenu en utilisant le four (Oven) <../../host"
 "/add-content/bake-content>`"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:156
+#: ../../source/create/3d-models/pbr-materials-guide.rst:153
 msgid ":doc:`Add a Material Entity <../entities/material-entity>`"
 msgstr ":doc:`Ajoutez une Entité de Matériau <../entities/material-entity>`"
 
@@ -37155,4 +37144,40 @@ msgstr "Séance de métaverse UUID"
 #~ "/unity-avatar-"
 #~ "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
 #~ msgstr ""
+
+#~ msgid ""
+#~ "This channel determines if the material"
+#~ " is metallic or not. You cannot "
+#~ "have a material that is half "
+#~ "metallic, it is either metallic or "
+#~ "it isn't."
+#~ msgstr ""
+#~ "Ce canal détermine si le matériau "
+#~ "est métallique ou non. Vous ne "
+#~ "pouvez pas avoir un matériau qui "
+#~ "est à moitié métallique, il est "
+#~ "soit métallique ou non."
+
+#~ msgid ""
+#~ "To determine whether a texture is "
+#~ "treated as a mask or as alpha, "
+#~ "the engine looks for alpha values "
+#~ "between 2% and 98%. An easy way"
+#~ " to create a mask texture is to"
+#~ " save your image as a PNG-8 "
+#~ "since it only supports binary "
+#~ "transparency, while PNG-24 supports a "
+#~ "range of transparency levels."
+#~ msgstr ""
+#~ "Pour déterminer si une texture est "
+#~ "traitée comme un masque ou comme "
+#~ "un alpha, le moteur recherche des "
+#~ "valeurs alpha entre 2 % et 98 "
+#~ "%. Une façon simple de créer une"
+#~ " texture de masque est d'enregistrer "
+#~ "votre image au format PNG-8, car "
+#~ "il ne prend en charge que la "
+#~ "transparence binaire, tandis que le "
+#~ "format PNG-24 prend en charge une "
+#~ "gamme de niveaux de transparence."
 
