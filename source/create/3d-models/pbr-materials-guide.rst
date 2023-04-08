@@ -1,5 +1,3 @@
-
-
 ###################
 PBR Materials Guide
 ###################
@@ -55,8 +53,8 @@ Material channels determine various parameters such as the roughness or color of
 + **Setting a Value:** The value of a channel is a value set on a slider. Setting a value is like turning off or turning on a switch.
                        For example, if you look at your phone, some parts of it are shiny and some are matte. When you use a value, the entire object reflects that value.
                        If you want different parts of an object to reflect varied roughness, you'll need to use a map.
-+ **Using a Map:** The map is an image which you can import to define a property. You will use a map to apply a texture to your 3D model.
-                   For instance, your phone may have a case that is matte, but the rest of your phone is shiny. You can use a map to set the case as matte and the phone as shiny.
++ **Using a Map:** The map is an image which you can import to define a property. You may use a map to apply a texture to your 3D model.
+                   For instance, your phone may have a case that is matte, while the rest of your phone is shiny. You can use a map to set the case as matte and the phone as shiny.
 
 All materials in Overte have the following channels that determine how they look:
 
