@@ -79,7 +79,7 @@ All materials in Overte have the following channels that determine how they look
 | Occlusion     | This property approximates the shading to be as natural as possible. This    | ---          | [0,1]       |
 |               | means that it will reproduce how objects interact with light.                |              |             |
 +---------------+------------------------------------------------------------------------------+--------------+-------------+
-| Emissive      | This channel controls the amount of light being reflected from an object.    | sRGB         | sRGB        |
+| Emissive      | This channel controls the amount of light that is coming from an object.     | sRGB         | sRGB        |
 +---------------+------------------------------------------------------------------------------+--------------+-------------+
 | Scattering    | Scattering determines how light will behave when it hits human skin. This    | [0,1]        | [0,1]       |
 |               | channel details how light is reflected or absorbed by human bodies.          |              |             |
