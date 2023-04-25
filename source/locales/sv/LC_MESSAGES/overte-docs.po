@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-08 19:11+0000\n"
+"POT-Creation-Date: 2023-04-25 20:43+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sv\n"
@@ -11143,7 +11143,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:133
-#: ../../source/developer/build/BUILD_WIN.md:130
+#: ../../source/developer/build/BUILD_WIN.md:141
 #: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
 msgid "Troubleshooting"
 msgstr ""
@@ -11709,7 +11709,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:27
-#: ../../source/developer/build/BUILD_WIN.md:103
 msgid "Visual Studio 2019"
 msgstr ""
 
@@ -11922,111 +11921,127 @@ msgid "Step 7. Running CMake to Generate Build Files"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:98
+msgid "These instructions only apply to Visual Studio 2019."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:100
+msgid "Automatic"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:102
 msgid ""
-"Run Command Prompt from Start and run the following commands: `cd "
-"\"%OVERTE_DIR%\"` `mkdir build` `cd build`"
+"There is a batch file to automatically run the commands below for ease of"
+" use."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:104
-msgid "Run `cmake .. -G \"Visual Studio 16 2019\" -A x64`."
+msgid "`winprepareVS19.bat`"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:106
-msgid "Where `%OVERTE_DIR%` is the directory for the Overte repository."
+msgid "Manual"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:108
+msgid "Run The Command Prompt from Start and run the following commands:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:117
+msgid "Where `%OVERTE_DIR%` is the directory for the Overte repository."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:119
 msgid "Step 8. Making a Build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:110
+#: ../../source/developer/build/BUILD_WIN.md:121
 msgid "Open `%OVERTE_DIR%\\build\\overte.sln` using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:112
+#: ../../source/developer/build/BUILD_WIN.md:123
 msgid ""
 "Change the Solution Configuration (menu ribbon under the menu bar, next "
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:114
+#: ../../source/developer/build/BUILD_WIN.md:125
 msgid "Run from the menu bar `Build > Build Solution`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:116
+#: ../../source/developer/build/BUILD_WIN.md:127
 msgid "Step 9. Testing Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:118
+#: ../../source/developer/build/BUILD_WIN.md:129
 msgid "Create another environment variable (see Step #3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:119
+#: ../../source/developer/build/BUILD_WIN.md:130
 msgid "Set \"Variable name\": `_NO_DEBUG_HEAP`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:120
+#: ../../source/developer/build/BUILD_WIN.md:131
 msgid "Set \"Variable value\": `1`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:122
+#: ../../source/developer/build/BUILD_WIN.md:133
 msgid "Restart Visual Studio again."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:124
+#: ../../source/developer/build/BUILD_WIN.md:135
 msgid ""
 "In Visual Studio, right-click \"interface\" under the Apps folder in "
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar `Debug > Start Debugging`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:126
+#: ../../source/developer/build/BUILD_WIN.md:137
 msgid ""
 "Now, you should have a full build of Overte and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:128
+#: ../../source/developer/build/BUILD_WIN.md:139
 msgid ""
 "Note: You can also run Interface by launching it from command line or "
 "File Explorer from "
 "`%OVERTE_DIR%\\build\\interface\\Release\\interface.exe`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:132
+#: ../../source/developer/build/BUILD_WIN.md:143
 msgid "For any problems after Step #7, first try this:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:133
+#: ../../source/developer/build/BUILD_WIN.md:144
 msgid "Delete your locally cloned copy of the Overte repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:134
+#: ../../source/developer/build/BUILD_WIN.md:145
 msgid "Restart your computer"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:135
+#: ../../source/developer/build/BUILD_WIN.md:146
 msgid "Redownload the [repository](https://github.com/overte.org/overte)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:136
+#: ../../source/developer/build/BUILD_WIN.md:147
 msgid "Restart directions from Step #7"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:138
+#: ../../source/developer/build/BUILD_WIN.md:149
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:140
+#: ../../source/developer/build/BUILD_WIN.md:151
 msgid "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:142
+#: ../../source/developer/build/BUILD_WIN.md:153
 msgid "CMake can't find OpenSSL"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:144
+#: ../../source/developer/build/BUILD_WIN.md:155
 msgid ""
 "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory.  "
 "Verify that your HIFI_VCPKG_BASE environment variable is set and pointing"
@@ -29139,5 +29154,14 @@ msgstr ""
 #~ "since it only supports binary "
 #~ "transparency, while PNG-24 supports a "
 #~ "range of transparency levels."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Run Command Prompt from Start and "
+#~ "run the following commands: `cd "
+#~ "\"%OVERTE_DIR%\"` `mkdir build` `cd build`"
+#~ msgstr ""
+
+#~ msgid "Run `cmake .. -G \"Visual Studio 16 2019\" -A x64`."
 #~ msgstr ""
 
