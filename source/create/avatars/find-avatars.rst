@@ -19,7 +19,7 @@ Many external sites like TurboSquid and CGTrader provide avatars that you can us
 
 You should ensure that:
 
-* You downloaded a `real-time models <https://blog.turbosquid.com/real-time-models>`_ (rigged for run-time, not rigged for render).
+* You downloaded a `real-time model <https://blog.turbosquid.com/real-time-models>`_ (rigged for run-time, not rigged for render).
 * You have the correct downloaded files
 
     * An FBX model for your avatar. We do not support other 3D model formats.
