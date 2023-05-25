@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-04-25 20:43+0000\n"
+"POT-Creation-Date: 2023-05-25 08:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: cs\n"
@@ -3937,8 +3937,8 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:22
 msgid ""
-"You downloaded a `real-time models <https://blog.turbosquid.com/real-"
-"time-models>`_ (rigged for run-time, not rigged for render)."
+"You downloaded a `real-time model <https://blog.turbosquid.com/real-time-"
+"models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:23
@@ -29163,5 +29163,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Run `cmake .. -G \"Visual Studio 16 2019\" -A x64`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You downloaded a `real-time models "
+#~ "<https://blog.turbosquid.com/real-time-models>`_ "
+#~ "(rigged for run-time, not rigged "
+#~ "for render)."
 #~ msgstr ""
 

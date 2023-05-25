@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-04-25 20:43+0000\n"
+"POT-Creation-Date: 2023-05-25 08:45+0000\n"
 "PO-Revision-Date: 2023-03-17 05:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: fr\n"
@@ -4338,8 +4338,8 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:22
 msgid ""
-"You downloaded a `real-time models <https://blog.turbosquid.com/real-"
-"time-models>`_ (rigged for run-time, not rigged for render)."
+"You downloaded a `real-time model <https://blog.turbosquid.com/real-time-"
+"models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:23
@@ -37202,5 +37202,12 @@ msgstr "Séance de métaverse UUID"
 #~ "Run Command Prompt from Start and "
 #~ "run the following commands: `cd "
 #~ "\"%OVERTE_DIR%\"` `mkdir build` `cd build`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You downloaded a `real-time models "
+#~ "<https://blog.turbosquid.com/real-time-models>`_ "
+#~ "(rigged for run-time, not rigged "
+#~ "for render)."
 #~ msgstr ""
 

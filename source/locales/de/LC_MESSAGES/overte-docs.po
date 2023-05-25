@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-04-25 20:43+0000\n"
+"POT-Creation-Date: 2023-05-25 08:45+0000\n"
 "PO-Revision-Date: 2023-04-04 21:16+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language: de\n"
@@ -4284,8 +4284,8 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:22
 msgid ""
-"You downloaded a `real-time models <https://blog.turbosquid.com/real-"
-"time-models>`_ (rigged for run-time, not rigged for render)."
+"You downloaded a `real-time model <https://blog.turbosquid.com/real-time-"
+"models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:23
@@ -33374,5 +33374,12 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ msgstr ""
 
 #~ msgid "Run `cmake .. -G \"Visual Studio 16 2019\" -A x64`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You downloaded a `real-time models "
+#~ "<https://blog.turbosquid.com/real-time-models>`_ "
+#~ "(rigged for run-time, not rigged "
+#~ "for render)."
 #~ msgstr ""
 
