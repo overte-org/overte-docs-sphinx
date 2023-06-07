@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-05-25 08:45+0000\n"
+"POT-Creation-Date: 2023-06-07 19:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: pt_BR\n"
@@ -11143,7 +11143,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:133
-#: ../../source/developer/build/BUILD_WIN.md:141
+#: ../../source/developer/build/BUILD_WIN.md:142
 #: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
 msgid "Troubleshooting"
 msgstr ""
@@ -11784,20 +11784,22 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:54
-msgid "Step 4. Node.JS and NPM"
+msgid "Step 4. (Optional) Node.JS and NPM"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:56
 msgid ""
 "Install version 10.15.0 LTS (or greater) of [Node.JS and "
-"NPM](<https://nodejs.org/en/download/>)."
+"NPM](<https://nodejs.org/en/download/>). This is required to build the "
+"server-console, hifi-screenshare, jsdoc, and for javascript console "
+"autocompletion."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:58
+#: ../../source/developer/build/BUILD_WIN.md:59
 msgid "Step 5. (Optional) Install Qt"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:60
+#: ../../source/developer/build/BUILD_WIN.md:61
 msgid ""
 "If you would like to compile Qt instead of using the precompiled package "
 "provided during CMake, you can do so now. Install version 5.12.3 of "
@@ -11805,64 +11807,64 @@ msgid ""
 "packages:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:61
+#: ../../source/developer/build/BUILD_WIN.md:62
 msgid "Qt 5.15.2"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:62
+#: ../../source/developer/build/BUILD_WIN.md:63
 msgid "MSVC 2019 64-bit"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:63
+#: ../../source/developer/build/BUILD_WIN.md:64
 msgid "Qt WebEngine"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:64
+#: ../../source/developer/build/BUILD_WIN.md:65
 msgid "Qt Script (Deprecated)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:66
+#: ../../source/developer/build/BUILD_WIN.md:67
 msgid ""
 "For convenience, you may also want the \"Qt Debug Information\" and "
 "\"Sources\" packages."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:68
+#: ../../source/developer/build/BUILD_WIN.md:69
 msgid ""
 "You'll need to create the environment variable that CMake uses to find "
 "your system's Qt install."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:70
-#: ../../source/developer/build/BUILD_WIN.md:80
-#: ../../source/developer/build/BUILD_WIN.md:89
+#: ../../source/developer/build/BUILD_WIN.md:71
+#: ../../source/developer/build/BUILD_WIN.md:81
+#: ../../source/developer/build/BUILD_WIN.md:90
 msgid "To create this variable:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:71
-#: ../../source/developer/build/BUILD_WIN.md:90
+#: ../../source/developer/build/BUILD_WIN.md:72
+#: ../../source/developer/build/BUILD_WIN.md:91
 msgid ""
 "Navigate to 'Edit the System Environment Variables' through the Start "
 "menu."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:72
-#: ../../source/developer/build/BUILD_WIN.md:82
-#: ../../source/developer/build/BUILD_WIN.md:91
-msgid "Click on 'Environment Variables'"
-msgstr ""
-
 #: ../../source/developer/build/BUILD_WIN.md:73
 #: ../../source/developer/build/BUILD_WIN.md:83
 #: ../../source/developer/build/BUILD_WIN.md:92
-msgid "Select 'New'"
+msgid "Click on 'Environment Variables'"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:74
-msgid "Set \"Variable name\" to `QT_CMAKE_PREFIX_PATH`"
+#: ../../source/developer/build/BUILD_WIN.md:84
+#: ../../source/developer/build/BUILD_WIN.md:93
+msgid "Select 'New'"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:75
+msgid "Set \"Variable name\" to `QT_CMAKE_PREFIX_PATH`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:76
 msgid ""
 "Set \"Variable value\" to "
 "`%QT_INSTALL_DIR%\\5.15.2\\msvc2019_64\\lib\\cmake`, where "
@@ -11870,11 +11872,11 @@ msgid ""
 "The default is `C:\\Qt`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:77
-msgid "Step 6. Create VCPKG environment variable"
+#: ../../source/developer/build/BUILD_WIN.md:78
+msgid "Step 6. (Optional) Create VCPKG environment variable"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:78
+#: ../../source/developer/build/BUILD_WIN.md:79
 msgid ""
 "In the next step, you will use CMake to build Overte. By default, the "
 "CMake process builds dependency files in Windows' `%TEMP%` directory, "
@@ -11886,21 +11888,21 @@ msgid ""
 "remove them."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:81
+#: ../../source/developer/build/BUILD_WIN.md:82
 msgid ""
 "Navigate to 'Edit the System Environment Variables' Through the Start "
 "menu."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:84
+#: ../../source/developer/build/BUILD_WIN.md:85
 msgid "Set \"Variable name\" to `HIFI_VCPKG_BASE`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:85
+#: ../../source/developer/build/BUILD_WIN.md:86
 msgid "Set \"Variable value\" to any directory that you have control over."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:87
+#: ../../source/developer/build/BUILD_WIN.md:88
 msgid ""
 "Additionally, if you have Visual Studio 2019 installed and _only_ Visual "
 "Studio 2019 (i.e., you do not have Visual Studio 2017 installed) you must"
@@ -11908,140 +11910,140 @@ msgid ""
 "fix a bug in our `vcpkg` pre-build step."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:93
+#: ../../source/developer/build/BUILD_WIN.md:94
 msgid "Set \"Variable name\" to `HIFI_VCPKG_BOOTSTRAP`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:94
+#: ../../source/developer/build/BUILD_WIN.md:95
 msgid "Set \"Variable value\" to `1`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:96
+#: ../../source/developer/build/BUILD_WIN.md:97
 msgid "Step 7. Running CMake to Generate Build Files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:98
+#: ../../source/developer/build/BUILD_WIN.md:99
 msgid "These instructions only apply to Visual Studio 2019."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:100
+#: ../../source/developer/build/BUILD_WIN.md:101
 msgid "Automatic"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:102
+#: ../../source/developer/build/BUILD_WIN.md:103
 msgid ""
 "There is a batch file to automatically run the commands below for ease of"
 " use."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:104
+#: ../../source/developer/build/BUILD_WIN.md:105
 msgid "`winprepareVS19.bat`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:106
+#: ../../source/developer/build/BUILD_WIN.md:107
 msgid "Manual"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:108
+#: ../../source/developer/build/BUILD_WIN.md:109
 msgid "Run The Command Prompt from Start and run the following commands:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:117
+#: ../../source/developer/build/BUILD_WIN.md:118
 msgid "Where `%OVERTE_DIR%` is the directory for the Overte repository."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:119
+#: ../../source/developer/build/BUILD_WIN.md:120
 msgid "Step 8. Making a Build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:121
+#: ../../source/developer/build/BUILD_WIN.md:122
 msgid "Open `%OVERTE_DIR%\\build\\overte.sln` using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:123
+#: ../../source/developer/build/BUILD_WIN.md:124
 msgid ""
 "Change the Solution Configuration (menu ribbon under the menu bar, next "
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:125
+#: ../../source/developer/build/BUILD_WIN.md:126
 msgid "Run from the menu bar `Build > Build Solution`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:127
+#: ../../source/developer/build/BUILD_WIN.md:128
 msgid "Step 9. Testing Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:129
+#: ../../source/developer/build/BUILD_WIN.md:130
 msgid "Create another environment variable (see Step #3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:130
+#: ../../source/developer/build/BUILD_WIN.md:131
 msgid "Set \"Variable name\": `_NO_DEBUG_HEAP`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:131
+#: ../../source/developer/build/BUILD_WIN.md:132
 msgid "Set \"Variable value\": `1`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:133
+#: ../../source/developer/build/BUILD_WIN.md:134
 msgid "Restart Visual Studio again."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:135
+#: ../../source/developer/build/BUILD_WIN.md:136
 msgid ""
 "In Visual Studio, right-click \"interface\" under the Apps folder in "
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar `Debug > Start Debugging`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:137
+#: ../../source/developer/build/BUILD_WIN.md:138
 msgid ""
 "Now, you should have a full build of Overte and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:139
+#: ../../source/developer/build/BUILD_WIN.md:140
 msgid ""
 "Note: You can also run Interface by launching it from command line or "
 "File Explorer from "
 "`%OVERTE_DIR%\\build\\interface\\Release\\interface.exe`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:143
+#: ../../source/developer/build/BUILD_WIN.md:144
 msgid "For any problems after Step #7, first try this:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:144
+#: ../../source/developer/build/BUILD_WIN.md:145
 msgid "Delete your locally cloned copy of the Overte repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:145
+#: ../../source/developer/build/BUILD_WIN.md:146
 msgid "Restart your computer"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:146
+#: ../../source/developer/build/BUILD_WIN.md:147
 msgid "Redownload the [repository](https://github.com/overte.org/overte)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:147
+#: ../../source/developer/build/BUILD_WIN.md:148
 msgid "Restart directions from Step #7"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:149
+#: ../../source/developer/build/BUILD_WIN.md:150
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:151
+#: ../../source/developer/build/BUILD_WIN.md:152
 msgid "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:153
+#: ../../source/developer/build/BUILD_WIN.md:154
 msgid "CMake can't find OpenSSL"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:155
+#: ../../source/developer/build/BUILD_WIN.md:156
 msgid ""
 "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory.  "
 "Verify that your HIFI_VCPKG_BASE environment variable is set and pointing"
@@ -29170,5 +29172,17 @@ msgstr ""
 #~ "<https://blog.turbosquid.com/real-time-models>`_ "
 #~ "(rigged for run-time, not rigged "
 #~ "for render)."
+#~ msgstr ""
+
+#~ msgid "Step 4. Node.JS and NPM"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Install version 10.15.0 LTS (or greater)"
+#~ " of [Node.JS and "
+#~ "NPM](<https://nodejs.org/en/download/>)."
+#~ msgstr ""
+
+#~ msgid "Step 6. Create VCPKG environment variable"
 #~ msgstr ""
 
