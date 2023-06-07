@@ -1416,8 +1416,8 @@ msgid "Roughness"
 msgstr "ラフネス（Roughness）"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
-msgid "This determines how rough/matte or glossy/shiny an object is."
 #, fuzzy
+msgid "This determines how rough/matte or glossy/shiny an object is."
 msgstr "輝度レベルを用いて、オブジェクトの粗さ/マットさ、または光沢/テカリを決定します。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
@@ -1504,8 +1504,8 @@ msgid "Material Type"
 msgstr "素材の種類（Material Type）"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:87
-msgid "This channel decides if an object is impacted by light."
 #, fuzzy
+msgid "This channel decides if an object is impacted by light."
 msgstr "オブジェクトが点灯しているか否かを決定するチャンネルです。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:87
@@ -1541,7 +1541,6 @@ msgstr "Overteのレンダラーは2つの異なる種類の透明度を描画�
 msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
 "engine looks for alpha values between 2% and 98%."
-msgstr ""
 msgstr "テクスチャをマスクとして扱うかアルファとして扱うかを決定するために、エンジンは2%から98%の間のアルファ値を探します。PNG-8は2値の透明度しかサポートしていませんが、PNG-24はさまざまな透明度をサポートしているからです。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
