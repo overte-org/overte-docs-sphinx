@@ -38,7 +38,7 @@ jobs:
       if: ${{ success() || failure() }}
       shell: bash
       run: |
-        make BUILDDIR=build-jp SPHINXOPTS="-Dlanguage=jp -W --keep-going" html
+        make BUILDDIR=build-ja SPHINXOPTS="-Dlanguage=ja -W --keep-going" html
     - name: Check Spanish documentation
       if: ${{ success() || failure() }}
       shell: bash
