@@ -11,37 +11,34 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-06-07 19:35+0000\n"
-"PO-Revision-Date: 2023-03-17 05:39+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-06-09 17:02+0000\n"
+"Last-Translator: Seung Ju Lee <leeseungju9000@gmail.com>\n"
+"Language-Team: Korean <https://weblate.overte.org/projects/overte/"
+"overte-documentation/ko/>\n"
 "Language: ko\n"
-"Language-Team: Korean <https://hosted.weblate.org/projects/overte/overte-"
-"documentation/ko/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
-#, fuzzy
 msgid "Download"
 msgstr "다운로드"
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 #: ../../source/shared.rst
-#, fuzzy
 msgid "Gallery"
 msgstr "갤러리"
 
 #: ../../source/shared.rst
-#, fuzzy
 msgid "Discord"
-msgstr "Discord"
+msgstr "디스코드"
 
 #: ../../source/shared.rst
-#, fuzzy
 msgid "Matrix"
-msgstr "Matrix"
+msgstr "매트릭스"
 
 #: ../../source/shared.rst
 msgid "de_trans"
@@ -200,9 +197,16 @@ msgid ""
 "`README <https://github.com/overte-org/overte-docs-"
 "sphinx/blob/master/README.md>`_."
 msgstr ""
+"국제적인 프로젝트인 오버트는 영어를 사용하지 않는 사용자에게 다가가기 위해 "
+"번역가에게 의존하고 있습니다. 현재 번역이 지원되는 유일한 구성 요소는 "
+"문서입니다. 온라인 번역 시스템인 ``weblate<https://weblate.overte.org/"
+"projects/overte/overte-documentation/>`_를 사용하여 번역을 제출하거나 해당 "
+"언어의 유지 관리자가 되어 번역이 문서에 반영되기 전에 번역을 확인함으로써 "
+"번역을 도울 수 있습니다. 문서 번역에 대한 자세한 내용은 `README "
+"<https://github.com/overte-org/overte-docs-sphinx/blob/master/README.md>`"
+"_에서 확인할 수 있습니다."
 
 #: ../../source/contribute.rst:38
-#, fuzzy
 msgid "Donations"
 msgstr "후원"
 
@@ -213,6 +217,9 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
+"오버트는 주로 커뮤니티와 핵심 팀의 자발적인 기여에 의해 운영됩니다. 아직 "
+"기부금을 관리할 단체는 없지만, 페이팔, 페이트리온, 깃허브 스폰서 등 다양한 "
+"서비스를 통해 특정 팀원에게 기부할 수 있습니다."
 
 #: ../../source/contribute.rst:42
 msgid ""
@@ -227,11 +234,19 @@ msgid ""
 "of US$40 an hour in the free market. Keep that in mind if you want to see"
 " something accomplished that no one else is personally interested in."
 msgstr ""
+"또한 구현되기를 바라는 특정 기능이나 수정되기를 바라는 이슈에 대해 '이슈 "
+"트래커 <https://github.com/overte-org/overte/issues>`_'에 댓글을 남겨 "
+"현상금을 걸 수도 있습니다. 물론 문서와 같은 프로젝트의 다른 부분에도 "
+"현상금을 적용할 수 있습니다. 현상금은 신뢰를 바탕으로 생성되고 할당되므로, "
+"현상에 대해 잘 모르겠다면 핵심 개발자에게 문의하거나 커뮤니티 또는 개발자 "
+"회의에서 이 문제를 제기하세요. 대부분의 개발자는 고도로 훈련되고 경험이 "
+"풍부하며, 일반적으로 자유 시장에서 시간당 40달러 이상의 수입을 올립니다. "
+"다른 사람이 개인적으로 관심을 갖지 않는 무언가가 성취되는 것을 보고 싶다면 "
+"이 점을 염두에 두세요."
 
 #: ../../source/contribute.rst:50
-#, fuzzy
 msgid "Development"
-msgstr "마을 개발도"
+msgstr "개발"
 
 #: ../../source/contribute.rst:51
 msgid ""
@@ -247,13 +262,15 @@ msgstr ""
 
 #: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
-msgstr ""
+msgstr "이러한 문제를 좁히는 데 도움이 됩니다,"
 
 #: ../../source/contribute.rst:55
 msgid ""
 "or `testing pull requests <https://github.com/overte-"
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
+"또는 `테스트 풀 리퀘스트 <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 
 #: ../../source/contribute.rst:57
 msgid ""
@@ -267,50 +284,58 @@ msgid ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
 "open pull requests."
 msgstr ""
+"개발자라면 풀 리퀘스트를 통해 프로젝트에 직접 기여할 수 있습니다. 메인 "
+"소프트웨어에 기여할 때는 ``가이드라인 <https://github.com/overte-org/overte/"
+"blob/master/CONTRIBUTING.md>`_을 염두에 두세요. 몇 가지 추가 정보는 :doc:`"
+"개발자 섹션 <개발자>`에서 확인할 수 있습니다. 플랫폼에 익숙해진 개발자에게 "
+"중요한 작업은 오픈 풀 리퀘스트에 대한 ``코드 리뷰 <https://github.com/"
+"overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_입니다."
 
 #: ../../source/contribute.rst:64
 msgid "Miscellaneous Work"
-msgstr ""
+msgstr "기타 작업"
 
 #: ../../source/contribute.rst:65
 msgid ""
 "There is also a lot of miscellaneous work that comes up every now and "
 "then:"
-msgstr ""
+msgstr "이따금씩 올라오는 기타 작업도 많습니다:"
 
 #: ../../source/contribute.rst:67
 msgid "2D art like posters or banners,"
-msgstr ""
+msgstr "포스터나 배너와 같은 2D 아트,"
 
 #: ../../source/contribute.rst:68
 msgid "3D models,"
-msgstr ""
+msgstr "3D 모델,"
 
 #: ../../source/contribute.rst:69
 msgid "scripts,"
-msgstr ""
+msgstr "스크립트,"
 
 #: ../../source/contribute.rst:70
 msgid "video editing,"
-msgstr ""
+msgstr "동영상 편집,"
 
 #: ../../source/contribute.rst:71
 msgid "and so on."
-msgstr ""
+msgstr "등입니다."
 
 #: ../../source/contribute.rst:73
 msgid ""
 "It is tremendously helpful for developers to have someone that they can "
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
-msgstr ""
+msgstr "개발자가 자신의 전문 분야를 벗어난 작업을 수행해야 할 때 도움을 요청할 수 "
+"있는 사람이 있다는 것은 매우 큰 도움이 됩니다."
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
 #: ../../source/release-notes/v82.md:52 ../../source/release-notes/v82.md:92
 #: ../../source/release-notes/v83.md:53 ../../source/release-notes/v83.md:139
 msgid "Create Tools"
-msgstr ""
+msgstr "도구 만들기"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 #: ../../source/host/add-content/bake-content.rst:45
@@ -322,41 +347,39 @@ msgstr ""
 #: ../../source/release-notes/v85.md:56 ../../source/release-notes/v86.md:14
 #: ../../source/release-notes/v86.md:54
 msgid "Avatars"
-msgstr ""
+msgstr "아바타"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:6
 msgid "Wearables"
-msgstr ""
+msgstr "웨어러블"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
-msgstr ""
+msgstr "엔티티"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
 #: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
-msgstr ""
+msgstr "머테리얼"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 #: ../../source/host/add-content/bake-content.rst:37
-#, fuzzy
 msgid "3D Models"
 msgstr "3D 모델"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "환경"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:7
 msgid "Tablet Apps"
-msgstr ""
+msgstr "태블릿 앱"
 
 #: ../../source/create.rst:3 ../../source/release-notes/v84.md:18
 #: ../../source/release-notes/v85.md:34 ../../source/release-notes/v85.md:63
 #: ../../source/release-notes/v86.md:23 ../../source/release-notes/v86.md:60
-#, fuzzy
 msgid "Create"
 msgstr "생성"
 
@@ -369,42 +392,49 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
 msgstr ""
+"오버트는 관심사, 커뮤니티, 우정으로 연결된 사람들이 함께 모여 서로의 "
+"창의성을 표현할 수 있도록 지원합니다. 아바타와 콘텐츠를 만들거나 앱과 "
+"스크립트를 개발하여 자신만의 경험을 맞춤화할 수 있습니다. 진정으로 나만의 "
+"경험을 만들려면 무료 공개 라이선스인 오버트 엔진을 사용하여 자신만의 세계를 "
+"만들거나 몰입형 프로젝트를 구축하는 것을 권장합니다!"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
-msgstr ""
+msgstr "전문 지식 수준에 상관없이 오버트는 상상할 수 있는 모든 것을 만드는 데 필요한 "
+"도구를 제공합니다."
 
 #: ../../source/create.rst:9
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
-msgstr ""
+msgstr "이 장에서는 나만의 VR 환경을 만들고, 구축하고, 생생하게 구현하는 방법을 "
+"알아보세요:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "3D 모델 받기"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "3D 모델 가져오기"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:3
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "PBR 머티리얼 가이드"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "모델 및 아바타를 위한 프로시저럴 셰이더"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "애니메이션 가져오기"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
@@ -413,6 +443,9 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
+"3D 모델은 분수대, 성, 커피잔 등 월드에서 보고 싶은 오브젝트를 나타내는 "
+":doc:`객체<entities>`입니다. 3D 모델은 직접 만들거나 외부에서 소싱하여 얻을 "
+"수 있습니다. 우리는OBJ, FBX, glTF 형식의 3D 모델만 지원합니다."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -421,22 +454,27 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
+"3D 모델의 외관은 머티리얼에 의해 제어됩니다. 오버트에서 지원하는 머티리얼은 "
+"물리 기반 렌더링(PBR) 머티리얼입니다. 즉, 3D 모델의 머티리얼은 실제 "
+"현실에서와 마찬가지로 빛을 반사하거나 흡수합니다."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 #: ../../source/explore/personalize.rst:7
+#, fuzzy
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**이 섹션의 내용:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Overte."
-msgstr ""
+msgstr "모든 3D 모델은 FBX, glTF 또는 OBJ 형식이어야 하며, 오버티에서 지원하는 "
+"머티리얼이 있어야 합니다."
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "3D 콘텐츠 스토어에서 3D 모델 가져오기"
 
 #: ../../source/create/3d-models/get-model.rst:14
 msgid ""
@@ -444,6 +482,8 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"구매하거나 무료로 받을 수 있는 모델이 있는 온라인 3D 콘텐츠 웹사이트가 많이 "
+"있습니다. 이러한 사이트에서 3D 모델을 가져올 때는 다음 사항에 유의하세요:"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -451,6 +491,9 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
+"**라이선스 약관 확인: **모델을 사용하기 전에 모델의 라이선스 약관을 반드시 "
+"확인하세요. 콘텐츠를 사용할 수 있는 충분한 권한이 있는지 확인하는 것은 "
+"사용자의 책임입니다."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -459,13 +502,17 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"오버트 서버에서 3D 모델을 사용할 수 있도록 설정하면 방문자는 웹사이트에서 "
+"이미지를 볼 때와 동일한 방식으로 해당 파일에 대한 링크를 받게 됩니다. 반드시 "
+"당신이 3D 콘텐츠를 다시 배포할 수 있는 권한을 가지고 있는지 확인해야 합니다."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
 "**Check Materials:** You might find that the model may be missing its "
 "textures. If that happens, first check to see if the textures are "
 "included."
-msgstr ""
+msgstr "**머티리얼 확인:** 모델에 텍스처가 누락되었을 수 있습니다. 이 경우 먼저 "
+"텍스처가 포함되어 있는지 확인하세요."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -473,20 +520,27 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
+"오버트에 모델이 불러왔는데 제대로 보이지 않는 경우, 인터페이스 로그에서 오류 "
+"정보를 찾을 수도 있습니다. 인터페이스 로그 파일은 어디에서 찾을 수 있나요? "
+"<../../faq.html#interface-log-files>`_를 참조"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "나만의 3D 모델 만들기"
 
 #: ../../source/create/3d-models/get-model.rst:26
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
+"블랜더 또는 마야와 같은 3D 모델링 소프트웨어를 사용하여 나만의 3D 모델을 "
+"만들 수 있습니다. 원하는 소프트웨어만 있으면 어떤 소프트웨어를 사용하셔도 "
+"됩니다:"
 
 #: ../../source/create/3d-models/get-model.rst:28
+#, fuzzy
 msgid "The 3D model is in the FBX, glTF or OBJ format."
-msgstr ""
+msgstr "3D 모델은 FBX, glTF 또는 OBJ 형식입니다."
 
 #: ../../source/create/3d-models/get-model.rst:29
 msgid ""
@@ -494,16 +548,18 @@ msgid ""
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"3D 모델 머티리얼은 오버트에서 지원됩니다. 머티리얼이 올바르게 불러와졌는지 "
+"확인하려면 :doc:`머티리얼 가이드 <pbr-materials-guide>`를 참조하세요."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
-msgstr ""
+msgstr "모범 사례"
 
 #: ../../source/create/3d-models/get-model.rst:35
 msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
-msgstr ""
+msgstr "오버트(및 VR)용 3D 모델 제작은 영화, 비디오, 게임용 모델 제작과는 다릅니다."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -511,6 +567,8 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"VR용 3D 모델은 오른쪽 눈과 왼쪽 눈 모두에 대해 두 번 렌더링됩니다: 즉, "
+"모델의 폴리곤 수와 사용하는 머티리얼 수가 성능에 영향을 미칩니다."
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -519,12 +577,15 @@ msgid ""
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
+"대부분의 VR 헤드셋은 90Hz 이상에서 실행됩니다: 프레임 속도를 90fps로 "
+"유지하고 모델의 크기에 주의해야 합니다. 모델이 너무 크거나 매우 복잡하면 "
+"프레임 속도가 느려지고 사람들이 메스꺼움을 느낄 수 있습니다."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
-msgstr ""
+msgstr "오버트(및 VR)용 3D 모델 제작을 위한 모범 사례를 나열했습니다."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -535,15 +596,15 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "속성"
 
 #: ../../source/create/3d-models/get-model.rst:43
 msgid "Best Practice"
-msgstr ""
+msgstr "모범 사례"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
-msgstr ""
+msgstr "폴리 카운트"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid ""
@@ -551,24 +612,28 @@ msgid ""
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
+"너무 많지도, 너무 적지도 않은 태블릿 게임 모델과 비슷해야 합니다. 예를 들어 "
+"50000 폴리곤이면 상세한 아바타를 만들기에 충분합니다."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
-msgstr ""
+msgstr "엣지 루프"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "필요하지 않은 엣지 루프를 제거합니다."
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Mesh"
-msgstr ""
+msgstr "메시"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
+"메시를 정리하여 N-곤과 동일 평면면이 없는지 확인합니다. 좋은 3D 모델링 "
+"소프트웨어라면 익스포트 시 이 작업을 수행해야 합니다."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -577,10 +642,14 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"항상 Atlas 맵을 만들도록 하세요. 콘텐츠의 모든 부분이 동일한 머티리얼과 UV "
+"공간을 공유하면 아틀라스 맵이 됩니다. 예를 들어 로봇을 제작하는 경우 로봇의 "
+"손, 발 또는 얼굴에 별도의 머티리얼과 UV 맵을 부여하는 대신 모든 조각이 "
+"하나의 UV 맵을 공유해야 합니다."
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Overte’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "오버트 엔진은 머티리얼당 하나의 UV 매핑만 지원합니다."
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -593,33 +662,37 @@ msgstr ""
 #: ../../source/create/avatars/avatar-standards.md:257
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
-msgstr ""
+msgstr "텍스처"
 
 #: ../../source/create/3d-models/get-model.rst:61
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
-msgstr ""
+msgstr "PNG, JPEG, JPG 파일을 권장하지만 TGA, TIF, TIFF 형식도 지원합니다."
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid "Choose the color types wisely to minimize the size of the final file."
-msgstr ""
+msgstr "최종 파일의 크기를 최소화하기 위해 색상 유형을 현명하게 선택하세요."
 
 #: ../../source/create/3d-models/get-model.rst:66
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr ""
+"PNG-8은 투명도를 ON/OFF로만 설정할 수 있고, 색상 팔레트(GIF와 같은 256가지 "
+"색상)가 있으며, 투명도를 마스킹하는 데 사용할 수 있습니다."
 
 #: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr ""
+"더 높은 색상 해상도를 원하면 PNG-24를 사용할 수 있습니다. 반투명 마스크 또는 "
+"투명 텍스처의 경우 PNG-32를 사용합니다."
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
-msgstr ""
+msgstr "PNG-48이나 PNG-64는 오버트에서 지원하지 않으므로 사용하지 마세요."
 
 #: ../../source/create/3d-models/get-model.rst:74
 msgid ""
@@ -627,6 +700,8 @@ msgid ""
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
+"엔진에 로드되면 텍스처의 크기가 128x128 그리드에 맞게 자동으로 조정됩니다. "
+"메모리를 낭비하지 않으려면 128의 배수인 크기를 선택하세요."
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -638,18 +713,23 @@ msgid ""
 "maps, etc. don't need to be nearly as high resolution as the main color "
 "texture."
 msgstr ""
+"텍스처 메모리에 맞지 않는 텍스처는 자동으로 다운스케일링되지만, 파일 크기를 "
+"줄이고 텍스처 다운스케일링 및 재압축으로 인한 저사양 머신의 부담을 줄이려면 "
+"가능한 한 낮은 해상도를 사용하는 것이 좋습니다. 예를 들어 4096x4096 텍스처는 "
+"디테일한 아바타에 충분합니다. 노멀 맵, 방출 맵 등은 메인 컬러 텍스처만큼 "
+"해상도가 높을 필요는 없습니다."
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw Calls"
-msgstr ""
+msgstr "드로우 콜"
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw calls happen before something gets rendered on screen."
-msgstr ""
+msgstr "드로우 콜은 화면에 무언가가 렌더링되기 전에 발생합니다."
 
 #: ../../source/create/3d-models/get-model.rst:86
 msgid "``1 model w/ 1 material = 1 draw call``"
-msgstr ""
+msgstr "'``모델 1개, 머티리얼 1개 = 드로우 콜 1개``"
 
 #: ../../source/create/3d-models/get-model.rst:88
 msgid ""
@@ -657,10 +737,14 @@ msgid ""
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
 msgstr ""
+"바람직한 폴리 카운트에 대한 확실한 정의는 없습니다. 드로우 콜과 폴리 카운트 "
+"사이의 균형을 맞춰야 합니다. 드로우 콜 수가 적으면 폴리곤를 위한 공간이 더 "
+"많아집니다. 텍스처가 작을수록 더 높은 폴리곤 모델을 위한 공간이 더 "
+"많아집니다."
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid "Baking"
-msgstr ""
+msgstr "베이킹"
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid ""
@@ -671,6 +755,11 @@ msgid ""
 "might profit from slightly lower filesizes. See :doc:`Bake Your Content "
 "<../../host/add-content/bake-content>`."
 msgstr ""
+"에셋을 베이킹하면 로딩 시간을 단축하고 대상 CPU의 부담을 줄이는 데 매우 "
+"효과적입니다. 베이크된 텍스처는 CPU가 미리 읽고 압축할 필요 없이 비디오 "
+"메모리에 바로 로드할 수 있습니다. (다운스케일링할 필요가 없는 경우) 베이크된 "
+"모델은 파일 크기를 약간 줄일 수 있습니다. 문서:`콘텐츠 굽기 <../../host/"
+"add-content/bake-content>`를 참조하세요."
 
 #: ../../source/create/3d-models/import-animations.rst:5
 msgid ""
@@ -678,6 +767,9 @@ msgid ""
 "animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
+"도메인에 애니메이션이 포함된 3D 모델을 추가하여 오버트 경험을 더욱 풍부하게 "
+"만들어 보세요. 예를 들어, 이 기능을 사용하여 바람에 따라 펄럭이는 것처럼 "
+"보이는 깃발의 3D 모델을 가져올 수 있습니다."
 
 #: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:18
@@ -692,7 +784,6 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:22
 #: ../../source/developer/INSTALLER.md:25
 #: ../../source/developer/build/BUILD_OSX.md:14
-#, fuzzy
 msgid "Prerequisites"
 msgstr "전제조건"
 
@@ -700,23 +791,27 @@ msgstr "전제조건"
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
 "such as Blender or Maya before importing an animation into Overte."
-msgstr ""
+msgstr "애니메이션을 오버트로 가져오기 전에 블렌더나 마야와 같은 3D 모델링 툴에서 "
+"애니메이션을 제작하는 데 익숙해야 합니다."
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
-msgstr ""
+msgstr "3D 모델 애니메이션 준비"
 
 #: ../../source/create/3d-models/import-animations.rst:20
 msgid ""
 "Before you import an animation into Overte, adjust some settings in the "
 "3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
+"애니메이션을 오버트로 가져오기 전에 선택한 3D 모델링 도구에서 몇 가지 설정을 "
+"조정하여 애니메이션이 원활하게 재생되도록 합니다."
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid ""
 "We recommend setting the framerate to 30 fps as a good compromise between"
 " smoothness and file size."
-msgstr ""
+msgstr "움직임의 부드러움과 파일 크기 사이의 적절한 절충안으로 프레임 속도를 30fps로 "
+"설정하는 것이 좋습니다."
 
 #: ../../source/create/3d-models/import-animations.rst:23
 msgid ""
@@ -724,12 +819,15 @@ msgid ""
 "Overte reads everything. This is to ensure that your animation doesn't "
 "stop and start, but appears smooth and flows through each movement."
 msgstr ""
+"애니메이션 채널, 키 프레임 및 중간을 베이크하여 오버트가 모든 것을 읽을 수 "
+"있도록 하세요. 이렇게 하면 애니메이션이 멈췄다가 시작되지 않고 각 동작을 "
+"통해 부드럽게 흐르도록 할 수 있습니다."
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
 "Prepare to export the skeleton and frames that are being used in the "
 "animation."
-msgstr ""
+msgstr "애니메이션에 사용되는 스켈레톤과 프레임을 내보낼 준비를 합니다."
 
 #: ../../source/create/3d-models/import-animations.rst:25
 msgid ""
@@ -737,26 +835,31 @@ msgid ""
 "\"simplify\" setting to 0.00 when exporting an FBX file otherwise the "
 "animation may not play correctly."
 msgstr ""
+"모든 종류의 키프레임 축소를 비활성화합니다. 예를 들어 Blender에서 FBX 파일을 "
+"내보낼 때 \"단순화\" 설정을 0.00으로 설정하지 않으면 애니메이션이 제대로 "
+"재생되지 않을 수 있습니다."
 
 #: ../../source/create/3d-models/import-animations.rst:29
 msgid ""
 "Export your animation as an FBX file. (Reading animations from other "
 "formats like glTF is currently not supported.)"
-msgstr ""
+msgstr "애니메이션을 FBX 파일로 내보냅니다. (glTF와 같은 다른 형식의 애니메이션을 "
+"읽는 것은 현재 지원되지 않습니다.)"
 
 #: ../../source/create/3d-models/import-animations.rst:30
 msgid "Upload this FBX file to a cloud server and copy the URL."
-msgstr ""
+msgstr "이 FBX 파일을 클라우드 서버에 업로드하고 URL을 복사합니다."
 
 #: ../../source/create/3d-models/import-animations.rst:34
 msgid "Import an Animation"
-msgstr ""
+msgstr "애니메이션 가져오기"
 
 #: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Overte."
-msgstr ""
+msgstr "애니메이션의 FBX 파일 업로드를 완료하면 3D 모델과 해당 애니메이션을 오버트로 "
+"가져올 수 있습니다."
 
 #: ../../source/create/3d-models/import-animations.rst:38
 #: ../../source/create/3d-models/import-model.rst:17
@@ -789,7 +892,7 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:105
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr ""
+msgstr "인터페이스에서 HUD 또는 태블릿을 띄우고 **만들기**로 이동합니다."
 
 #: ../../source/create/3d-models/import-animations.rst:39
 msgid ""
@@ -798,16 +901,20 @@ msgid ""
 "the animation's URL will be the same. Otherwise, your animation is saved "
 "as a separate FBX file."
 msgstr ""
+"'모델' 아이콘을 클릭하고 3D 모델의 URL을 입력합니다. 3D 모델의 FBX 파일을 "
+"애니메이션과 함께 저장한 경우 모델의 URL과 애니메이션의 URL이 동일합니다. "
+"그렇지 않으면 애니메이션이 별도의 FBX 파일로 저장됩니다."
 
 #: ../../source/create/3d-models/import-animations.rst:40
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
-msgstr ""
+msgstr "'속성' 탭에서 아래로 스크롤하여 '애니메이션'으로 이동한 다음 애니메이션의 "
+"URL을 붙여넣습니다."
 
 #: ../../source/create/3d-models/import-animations.rst:44
 msgid "You can edit the following animation properties:"
-msgstr ""
+msgstr "다음 애니메이션 속성을 편집할 수 있습니다:"
 
 #: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/3d-models/pbr-materials-guide.rst:62
@@ -849,32 +956,31 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:23
 #: ../../source/script/get-started-with-scripting.rst:56
 #: ../../source/script/get-started-with-scripting.rst:102
-#, fuzzy
 msgid "Description"
 msgstr "설명"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
-msgstr ""
+msgstr "자동 재생"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid ""
 "Enable this to play your animation automatically when a user joins the "
 "Domain."
-msgstr ""
+msgstr "사용자가 도메인에 입장할 때 애니메이션을 자동으로 재생하려면 이 기능을 "
+"활성화합니다."
 
 #: ../../source/create/3d-models/import-animations.rst:51
-#, fuzzy
 msgid "Loop"
 msgstr "루프"
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Select this property to play your animation in a continuous loop."
-msgstr ""
+msgstr "애니메이션을 반복 재생하려면 이 속성을 선택합니다."
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid "Allow Transition"
-msgstr ""
+msgstr "전환 허용"
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid ""
@@ -4035,7 +4141,7 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
 msgid "Overte"
-msgstr ""
+msgstr "오버트"
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid ""
@@ -8041,7 +8147,7 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:39
 #: ../../source/create/entities/web-entity-media.rst:51
 msgid "Matroska"
-msgstr ""
+msgstr "Matroska"
 
 #: ../../source/create/entities/web-entity-media.rst:25
 msgid "Video: Theora, VP8, VP9       Audio: Vorbis, Opus, FLAC, MP3"
@@ -9652,7 +9758,7 @@ msgstr ""
 
 #: ../../source/create/tools.rst:55
 msgid "Blender"
-msgstr ""
+msgstr "블렌더"
 
 #: ../../source/create/tools.rst:57
 msgid ""
@@ -9664,7 +9770,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/tools.rst:61
-#, fuzzy
 msgid "Maya"
 msgstr "마야"
 
@@ -9831,7 +9936,6 @@ msgstr "인스톨러"
 #: ../../source/developer/build/BUILD_LINUX.md:186
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
-#, fuzzy
 msgid "Interface"
 msgstr "인터페이스"
 
@@ -9848,7 +9952,7 @@ msgstr "인터페이스"
 #: ../../source/release-notes/2021-1-0-Eos.md:48
 #: ../../source/release-notes/2021-1-1-Eos.md:55
 msgid "Domain Server"
-msgstr ""
+msgstr "도메인 서버"
 
 #: ../../source/developer.rst:11 ../../source/developer/assignment-client.rst:3
 #: ../../source/explore/get-started/architecture.rst:69
@@ -9856,7 +9960,6 @@ msgid "Assignment Client"
 msgstr ""
 
 #: ../../source/developer.rst:3
-#, fuzzy
 msgid "Developer"
 msgstr "개발자"
 
@@ -9913,9 +10016,8 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:23
 #: ../../source/developer/interface/debugging.md:3
-#, fuzzy
 msgid "Windows"
-msgstr "Windows"
+msgstr "윈도우"
 
 #: ../../source/developer/INSTALLER.md:27
 msgid "To produce an executable installer on Windows, the following are required:"
@@ -10269,9 +10371,8 @@ msgid "`make package` to create the package."
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:128
-#, fuzzy
 msgid "Linux"
-msgstr "Linux"
+msgstr "리눅스"
 
 #: ../../source/developer/INSTALLER.md:130
 #: ../../source/developer/build/BUILD_LINUX.md:149
@@ -10643,9 +10744,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:50
-#, fuzzy
 msgid "Qt"
-msgstr "큐트(Qt)"
+msgstr "Qt"
 
 #: ../../source/developer/build/BUILD.md:52
 msgid "CMake will download Qt 5.15.2 using vcpkg."
@@ -16502,7 +16602,6 @@ msgid "API REFERENCE"
 msgstr ""
 
 #: ../../source/home.rst:5
-#, fuzzy
 msgid "Home"
 msgstr "홈"
 
@@ -16815,7 +16914,6 @@ msgstr ""
 #: ../../source/host/add-content/bake-content.rst:70
 #: ../../source/host/add-content/bake-content.rst:83
 #: ../../source/host/add-content/bake-content.rst:88
-#, fuzzy
 msgid "Domain"
 msgstr "도메인"
 
@@ -32981,4 +33079,3 @@ msgstr ""
 
 #~ msgid "Step 6. Create VCPKG environment variable"
 #~ msgstr ""
-
