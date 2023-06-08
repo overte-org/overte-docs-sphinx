@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-06-07 19:35+0000\n"
 "PO-Revision-Date: 2023-06-09 17:02+0000\n"
-"Last-Translator: Seung Ju Lee <leeseungju9000@gmail.com>\n"
+"Last-Translator: Gwang sun Yun <mirpasec@gmail.com>\n"
 "Language-Team: Korean <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ko/>\n"
 "Language: ko\n"
@@ -61,9 +61,8 @@ msgid "ko_trans"
 msgstr ""
 
 #: ../../source/contribute.rst:5
-#, fuzzy
 msgid "Contribute"
-msgstr "Contribute"
+msgstr "기여"
 
 #: ../../source/contribute.rst:7
 msgid ""
@@ -74,6 +73,11 @@ msgid ""
 "software for creating virtual worlds. There are plenty of ways you can "
 "contribute to the various parts that make up Overte."
 msgstr ""
+"Overte는 오픈소스 프로젝트이므로, 사용자는 본 프로젝트의 소스코드와 각종 "
+"문서들을 자유롭게 열람하실 수 있습니다. 그러므로, 당신도 메타버스를 향한 "
+"우리의 노력에 기여하실 수 있습니다. 가상 월드 제작을 위한 여러 구성요소들의 "
+"소스들을 `Git 저장소 <https://github.com/overte-org/overte>`_ 에서 찾아보실 "
+"수 있습니다. Overte의 제작에 기여하는 방법은 여러가지가 있습니다."
 
 #: ../../source/contribute.rst:11
 msgid ""
@@ -82,6 +86,9 @@ msgid ""
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
 msgstr ""
+"궁금한 점이나 도움이 필요한 경우, `Matrix Space <https://matrix.to/"
+"#/#overte:overte.org>`_ |Matrix| 또는 저희의`Discord <https://discord.gg/"
+"4YuQvc8K2f>`_ |Discord|를 이용하실 수 있습니다."
 
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -131,7 +138,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/midi-tutorial.rst:12
 msgid "On This Page"
-msgstr ""
+msgstr "목차"
 
 #: ../../source/contribute.rst:19
 #: ../../source/release-notes/2020-2-0-Asteria.md:113
@@ -150,25 +157,29 @@ msgstr ""
 #: ../../source/release-notes/2021-1-2-Eos.md:59
 #: ../../source/release-notes/2021-1-3-Eos.md:238
 #: ../../source/release-notes/v86-k2.md:67
-#, fuzzy
 msgid "Documentation"
-msgstr "문서"
+msgstr "문서화"
 
 #: ../../source/contribute.rst:20
 msgid "You can help create and maintain the documentation in several ways:"
-msgstr ""
+msgstr "아래와 같은 여러 가지 방법을 통해 문서를 만들고 유지 관리하는 데 도움을 "
+"주실수 있습니다:"
 
 #: ../../source/contribute.rst:22
 msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
+"문제가 있거나 및 정보가 누락된 경우 `GitHub issue tracker <https://github."
+"com/overte-org/overte-docs-sphinx/issues>`_에 신고를 해 주세요."
 
 #: ../../source/contribute.rst:23
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
+"새로운 문서를 만들거나 수정한 후에 `GitHub에서 PR (pull request) "
+"<https://github.com/overte-org/overte-docs-sphinx/pulls>`_를 요청하세요."
 
 #: ../../source/contribute.rst:24
 msgid ""
@@ -178,11 +189,14 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"Github 문서에 대한 `Review changes <https://github.com/overte-org/"
+"overte-docs-sphinx/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ 는 "
+"한명의 검토자로는 인지하지 못하는 부분도 있기에, 두명의 검토자가 있으면 "
+"합니다."
 
 #: ../../source/contribute.rst:29
-#, fuzzy
 msgid "Translation"
-msgstr "Translation"
+msgstr "현지화"
 
 #: ../../source/contribute.rst:30
 msgid ""
@@ -252,13 +266,16 @@ msgstr "개발"
 msgid ""
 "You can help the general development of the Overte project without being "
 "a developer yourself by:"
-msgstr ""
+msgstr "개발자가 되지 않아도 다음과 같은 방법으로 Overte의 일반적인 개발작업에 "
+"도움을 줄 수 있습니다:"
 
 #: ../../source/contribute.rst:53
 msgid ""
 "filing issues on our `issue tracker <https://github.com/overte-"
 "org/overte/issues>`_,"
 msgstr ""
+"문제점은 `issue tracker <https://github.com/overte-org/overte/issues>`_에 "
+"보고하실 수 있습니다,"
 
 #: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
