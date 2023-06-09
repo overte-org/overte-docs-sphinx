@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-06-07 19:35+0000\n"
-"PO-Revision-Date: 2023-04-04 21:16+0000\n"
+"PO-Revision-Date: 2023-06-09 17:02+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
+"Language-Team: German <https://weblate.overte.org/projects/overte/"
+"overte-documentation/de/>\n"
 "Language: de\n"
-"Language-Team: German <https://weblate.overte.org/projects/overte/overte-"
-"documentation/de/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -17123,29 +17124,24 @@ msgid "The following translations are available:"
 msgstr "Die folgenden Übersetzungen sind verfügbar:"
 
 #: ../../source/home.rst:24
-#, fuzzy
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
-msgstr "`Deutsch <https://docs.vircadia.dev/de/>`_ |de_trans|"
+msgstr ""
 
 #: ../../source/home.rst:25
-#, fuzzy
 msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
-msgstr "`Spanisch <https://docs.vircadia.dev/es/>`_ |de_trans|"
+msgstr ""
 
 #: ../../source/home.rst:26
-#, fuzzy
 msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
-msgstr "`Französisch <https://docs.vircadia.dev/fr/>`_ |fr_trans|"
+msgstr ""
 
 #: ../../source/home.rst:27
-#, fuzzy
 msgid "`日本語 <https://docs.overte.org/ja/latest/>`_ |jp_trans|"
-msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr ""
 
 #: ../../source/home.rst:28
-#, fuzzy
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
-msgstr "`Japanisch <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+msgstr ""
 
 #: ../../source/home.rst:33
 msgid "What can I do?"
@@ -33396,4 +33392,3 @@ msgstr "Sitzungs-UUID des Metaversum"
 
 #~ msgid "Step 6. Create VCPKG environment variable"
 #~ msgstr ""
-
