@@ -33,7 +33,7 @@ jobs:
       uses: actions-x/commit@v6
       with:
         name: AnimatedMannequin
-        email: julian.gro@overte.org
+        email: AnimatedMannequin@overte.org
         message: Automatically updated locales
         files: source/locales/**
         token: ${{ secrets.ANIMATED_MANNEQUIN_COMMIT_TOKEN }}
