@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-07 19:35+0000\n"
+"POT-Creation-Date: 2023-06-15 19:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
@@ -17120,9 +17120,8 @@ msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:100
 msgid ""
-"Install Overte's open source `Client + Sandbox "
-"<https://vircadia.com/deploy-a-server/>`_ software on a computer that is "
-"_not_ running as a local server."
+"Install Overte's open source Client + Sandbox software on a computer that"
+" is _not_ running as a local server."
 msgstr ""
 
 #: ../../source/host/add-content/create-content.rst:101
@@ -29184,5 +29183,12 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Step 6. Create VCPKG environment variable"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Install Overte's open source `Client +"
+#~ " Sandbox <https://vircadia.com/deploy-a-server/>`_ "
+#~ "software on a computer that is "
+#~ "_not_ running as a local server."
 #~ msgstr ""
 
