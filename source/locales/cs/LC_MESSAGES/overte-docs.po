@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-15 19:45+0000\n"
-"PO-Revision-Date: 2023-06-11 15:17+0000\n"
+"PO-Revision-Date: 2023-06-21 00:17+0000\n"
 "Last-Translator: rampa_3 <rampa_3@users.noreply.weblate.overte.org>\n"
+"Language-Team: Czech <https://weblate.overte.org/projects/overte/"
+"overte-documentation/cs/>\n"
 "Language: cs\n"
-"Language-Team: Czech <https://weblate.overte.org/projects/overte/overte-"
-"documentation/cs/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -60,7 +61,7 @@ msgstr ""
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
-msgstr ""
+msgstr "Přispět"
 
 #: ../../source/contribute.rst:7
 msgid ""
@@ -71,6 +72,12 @@ msgid ""
 "software for creating virtual worlds. There are plenty of ways you can "
 "contribute to the various parts that make up Overte."
 msgstr ""
+"Overte je open-source projekt, tudíž veškerý náš kód a dokumentace jsou Vám "
+"k dispozici k nahlédnutí. Také můžete metaversu přispět Vaším úsilím! Náš "
+"hlavní `git repozitář <https://github.com/overte-org/overte>`_ obsahuje "
+"zdrojový kód mnoha komponent našeho softwaru pro tvorbu virtuálních světů. "
+"Existuje mnoho možností, jak můžete přispět do různých komponent, ze kterých "
+"se Overte skládá."
 
 #: ../../source/contribute.rst:11
 msgid ""
@@ -79,6 +86,10 @@ msgid ""
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
 msgstr ""
+"Pokud Vás napadnou jakékoliv dotazy, nebo hledáte pomoc, podívejte se na náš "
+"`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix|, který je "
+"také přemoštěn na náš `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
+"|Discord|, pokud preferujete více Discord."
 
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -128,7 +139,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/midi-tutorial.rst:12
 msgid "On This Page"
-msgstr ""
+msgstr "Na této stránce"
 
 #: ../../source/contribute.rst:19
 #: ../../source/release-notes/2020-2-0-Asteria.md:113
@@ -148,23 +159,27 @@ msgstr ""
 #: ../../source/release-notes/2021-1-3-Eos.md:238
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
-msgstr ""
+msgstr "Dokumentace"
 
 #: ../../source/contribute.rst:20
 msgid "You can help create and maintain the documentation in several ways:"
-msgstr ""
+msgstr "Pomoci vytvářet a spravovat dokumentaci můžete několika způsoby:"
 
 #: ../../source/contribute.rst:22
 msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
+"Nahlašováním chyb nebo chybějících informací v `GitHub issue trackeru "
+"<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 
 #: ../../source/contribute.rst:23
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
+"Tvorbou nebo změnou stránek dokumentace a otevřením `PR (pull request) na "
+"GitHubu <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 
 #: ../../source/contribute.rst:24
 msgid ""
@@ -174,10 +189,14 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"`Kontrolou změn <https://github.com/overte-org/overte-docs-sphinx/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ v dokumentaci na "
+"GitHubu. Chtěli bychom mít dva kontrolory pro většinu změn, jelikož vždy "
+"existují věci co autor a první kontrolor přehlédne."
 
 #: ../../source/contribute.rst:29
 msgid "Translation"
-msgstr ""
+msgstr "Překlad"
 
 #: ../../source/contribute.rst:30
 msgid ""
@@ -192,10 +211,19 @@ msgid ""
 "`README <https://github.com/overte-org/overte-docs-"
 "sphinx/blob/master/README.md>`_."
 msgstr ""
+"Jakožto mezinárodní projekt, Overte je závislé na překladatelích, aby mohlo "
+"dosáhnout i k uživatelům nehovořícím Anglicky. Aktuálně jediná komponenta "
+"podporující překlad je dokumentace. Pomoci překládat dokumentaci můžete "
+"pomocí našeho překladového systému `Weblate <https://weblate.overte.org/"
+"projects/overte/overte-documentation/>`_, a to buďto zasíláním překladů, "
+"nebo tím že se stanete správcem pro Váš jazyk, a budete kontrolovat překlad "
+"předtím než budou zveřejněny v dokumentaci. Více informací k překladu "
+"dokumentace můžete nalézt v jejím `README <https://github.com/overte-org/"
+"overte-docs-sphinx/blob/master/README.md>`_."
 
 #: ../../source/contribute.rst:38
 msgid "Donations"
-msgstr ""
+msgstr "Příspěvky"
 
 #: ../../source/contribute.rst:39
 msgid ""
@@ -204,6 +232,10 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
+"Overte je primárně podporováno dobrovolnými příspěvky jeho komunity a "
+"základního týmu. Dokud nebudeme mít entitu pro management příspěvků, můžete "
+"přispět specifickým členům týmu skrze různé služby, jako jsou PayPal, "
+"Patreon, nebo GitHub Sponzoři."
 
 #: ../../source/contribute.rst:42
 msgid ""
@@ -218,32 +250,49 @@ msgid ""
 "of US$40 an hour in the free market. Keep that in mind if you want to see"
 " something accomplished that no one else is personally interested in."
 msgstr ""
+"Mužete také vypisovat odměny na specifické funkce, které by jste chtěli "
+"vidět implementovány, nebo problémy které by jste chtěli aby byly opraveny, "
+"a to zanechání komentáře na našem `issue trackeru <https://github.com/"
+"overte-org/overte/issues>`_. Samozřejmě, odměny jsou také možností pro "
+"ostatní části projektu, jako například dokumentace. Odměny jsou vytvářeny a "
+"přidělovány na základě důvěry, takže pokud si nejste něčím jisti ohledně "
+"nich, pak si promluvte s někým z hlavních vývojářů, nebo svůj dotaz vzneste "
+"během vývojářského setkání. Většina vývojářů je vysoce trénovaná, a znalá, "
+"většinu času vydělávajíc až 40 USD na hodinu na volném trhu. Pamatujte na "
+"tuto možnost v případě že chcete vidět dokončené něco, o co nikdo jiný nemá "
+"osobně zájem."
 
 #: ../../source/contribute.rst:50
 msgid "Development"
-msgstr ""
+msgstr "Vývoj"
 
 #: ../../source/contribute.rst:51
 msgid ""
 "You can help the general development of the Overte project without being "
 "a developer yourself by:"
 msgstr ""
+"Aniž by jste byli vývojářem, můžete sami pomoci obecnému vývoji projektu "
+"Overte následujícími způsoby:"
 
 #: ../../source/contribute.rst:53
 msgid ""
 "filing issues on our `issue tracker <https://github.com/overte-"
 "org/overte/issues>`_,"
 msgstr ""
+"vyplňováním hlášení o problému na našem `issue trackeru <https://github.com/"
+"overte-org/overte/issues>`_,"
 
 #: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
-msgstr ""
+msgstr "pomocí s upřesněním problémů"
 
 #: ../../source/contribute.rst:55
 msgid ""
 "or `testing pull requests <https://github.com/overte-"
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
+"nebo `testováním pull requestů <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 
 #: ../../source/contribute.rst:57
 msgid ""
@@ -257,36 +306,44 @@ msgid ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
 "open pull requests."
 msgstr ""
+"Pokud jste vývojářem, můžete přímo přispívat do projektu skrze pull "
+"requesty. Pamatujte na `guidelines <https://github.com/overte-org/overte/"
+"blob/master/CONTRIBUTING.md>`_ při přispívání do hlavního software. Některé "
+"další informace můžete najít v :doc:`Vývojářské sekci <developer>`. "
+"Důležitou úlohou pro vývojáře, kteří se dobře seznámili s platformou, je `"
+"kontrola kódu <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ otevřených pull "
+"requestů."
 
 #: ../../source/contribute.rst:64
 msgid "Miscellaneous Work"
-msgstr ""
+msgstr "Vedlejší činnost"
 
 #: ../../source/contribute.rst:65
 msgid ""
 "There is also a lot of miscellaneous work that comes up every now and "
 "then:"
-msgstr ""
+msgstr "Je zde také spousta vedlejších činností, které se sem tam objevují:"
 
 #: ../../source/contribute.rst:67
 msgid "2D art like posters or banners,"
-msgstr ""
+msgstr "2D art, jako jsou plakáty a bannery,"
 
 #: ../../source/contribute.rst:68
 msgid "3D models,"
-msgstr ""
+msgstr "3D modely,"
 
 #: ../../source/contribute.rst:69
 msgid "scripts,"
-msgstr ""
+msgstr "skripty,"
 
 #: ../../source/contribute.rst:70
 msgid "video editing,"
-msgstr ""
+msgstr "editace videa,"
 
 #: ../../source/contribute.rst:71
 msgid "and so on."
-msgstr ""
+msgstr "a další."
 
 #: ../../source/contribute.rst:73
 msgid ""
@@ -294,13 +351,15 @@ msgid ""
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
 msgstr ""
+"Je velice užitečné pro vývojáře mít někoho, na koho se mohou obrátit s "
+"prosbou o pomoc, když potřebují vykonat práci mimo jejicho obor specializace."
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
 #: ../../source/release-notes/v82.md:52 ../../source/release-notes/v82.md:92
 #: ../../source/release-notes/v83.md:53 ../../source/release-notes/v83.md:139
 msgid "Create Tools"
-msgstr ""
+msgstr "Nástroje pro tvorbu"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 #: ../../source/host/add-content/bake-content.rst:45
@@ -312,35 +371,35 @@ msgstr ""
 #: ../../source/release-notes/v85.md:56 ../../source/release-notes/v86.md:14
 #: ../../source/release-notes/v86.md:54
 msgid "Avatars"
-msgstr ""
+msgstr "Avataři"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:6
 msgid "Wearables"
-msgstr ""
+msgstr "Wearable předměty"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
-msgstr ""
+msgstr "Entity"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
 #: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
-msgstr ""
+msgstr "Materiály"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
-msgstr ""
+msgstr "3D modely"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "Prostředí"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:7
 msgid "Tablet Apps"
-msgstr ""
+msgstr "Tabletové aplikace"
 
 #: ../../source/create.rst:3 ../../source/release-notes/v84.md:18
 #: ../../source/release-notes/v85.md:34 ../../source/release-notes/v85.md:63
@@ -29191,4 +29250,3 @@ msgstr ""
 #~ "software on a computer that is "
 #~ "_not_ running as a local server."
 #~ msgstr ""
-
