@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-06-15 19:45+0000\n"
-"PO-Revision-Date: 2023-06-21 00:17+0000\n"
+"PO-Revision-Date: 2023-07-08 23:17+0000\n"
 "Last-Translator: rampa_3 <rampa_3@users.noreply.weblate.overte.org>\n"
 "Language-Team: Czech <https://weblate.overte.org/projects/overte/"
 "overte-documentation/cs/>\n"
@@ -61,7 +61,7 @@ msgstr ""
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
-msgstr "Přispět"
+msgstr "Přispějte"
 
 #: ../../source/contribute.rst:7
 msgid ""
@@ -405,7 +405,7 @@ msgstr "Tabletové aplikace"
 #: ../../source/release-notes/v85.md:34 ../../source/release-notes/v85.md:63
 #: ../../source/release-notes/v86.md:23 ../../source/release-notes/v86.md:60
 msgid "Create"
-msgstr ""
+msgstr "Tvořte"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -416,42 +416,52 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
 msgstr ""
+"Overte umožňuje lidem spojeným zájmy, komunitou, a přátelstvím se scházet a "
+"vyjadřovat společně svoji kreativitu mezi sebou. Zveme Vás k personalizaci "
+"Vašeho prožitku tvorbou avatarů a obsahu, nebo vytvářením aplikací a "
+"skriptů. Aby jste si Váš prožitek opravdu přivlastnili, je doporučována "
+"tvorba vlastního světa nebo stavba vlastního immersivního projektu s pomocí "
+"bezplatného a otevřeně licencovaného enginu Overte!"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
 msgstr ""
+"Nehledě na úroveň Vaší expertýzy, Overte poskytuje nástroje potřebné k "
+"tvorbě čehokoliv, co si dokážete představit."
 
 #: ../../source/create.rst:9
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
+"V této kapitole se naučíte, jak vytvořit, sestavit a přivést k životu Váš "
+"vlastní VR zážitek:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "Získejte svůj 3D model"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "Importujte svůj 3D model"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:3
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "Průvodce PBR materiály"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "Procedurální shadery pro modely a avatary"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "Import animací"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
@@ -460,6 +470,10 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
+"3D modely jsou :doc:`entity <entities>`, reprezentující objekty, které by "
+"jste chtěli ve světě vidět, jako například vodní fontána, hrad nebo kávový "
+"šálek. Váš 3D model můžete získat tak, že jej sami vyrobíte, nebo jej "
+"seženete externě. Podporujeme pouze 3D modely ve formátech OBJ, FBX a glTF."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -468,22 +482,27 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
+"Vzhled 3D modelu je řízen jeho materiály. Materiály podporované Overte jsou "
+"Physically-based Rendering (PBR) materiály. To znamená, že materiály 3D "
+"modelu budou odrážet nebo pohlcovat světlo (přibližně) jako v reálném životě."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**V této sekci:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Overte."
 msgstr ""
+"Všechny 3D modely by měly být v FBX, glTF nebo OBJ formátu, a měly by mít "
+"materiály podporované Overte."
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "Získejte svůj 3D model z obchodů s 3D obsahem"
 
 #: ../../source/create/3d-models/get-model.rst:14
 msgid ""
@@ -491,6 +510,9 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"Existuje mnoho webových stránek s 3D obsahem, obsahujících modely, které si "
+"můžete zakoupit nebo je získat zdarma. Pamatujte na následující, pokud "
+"používáte 3D modely z takovýchto stránek:"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -498,6 +520,9 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
+"**Zkontrolujte licenční podmínky:** Dejte si pozor na to, aby jste si "
+"zkontrolovali licenční podmínky modelu, než jej použijete. Je Vaší "
+"povinností zajistit, že máte dostatečná práva k využití obsahu."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -506,6 +531,10 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Když zveřejníte 3D model na Vašem Overte serveru, návštěvníci budou dostávat "
+"odkazy k souvisejícím souborům stejným způsobem, jako kdyby si prohlíželi "
+"obrázek na webové stránce. Měli by jste si být jisti, že máte práva re-"
+"distribuovat tento 3D obsah."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -513,6 +542,8 @@ msgid ""
 "textures. If that happens, first check to see if the textures are "
 "included."
 msgstr ""
+"**Zkontrolujte materiály:** Možná zjistíte, že modelu chybí textury. Pokud "
+"se tak stane, podívejte se nejprve, zda jsou textury zahrnuty v modelu."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -520,20 +551,26 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
+"Pokud se model načte do Overte a nevypadá jak by měl, můžete se také "
+"podívat, zda nenaleznete informace o chybách v logách rozhraní. Přečtěte si "
+"See `Kde najdu soubory logů rozhraní? <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "Vytvořte si svůj vlastní 3D model"
 
 #: ../../source/create/3d-models/get-model.rst:26
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
+"Svůj vlastní 3D model můžete vytvořit pomocí 3D modelovacího software, jako "
+"je například Blender nebo Maya. Použít můžete jakýkoliv software který vám "
+"vyhovuje, dokud:"
 
 #: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the FBX, glTF or OBJ format."
-msgstr ""
+msgstr "3D model je ve formátu FBX, glTF nebo OBJ."
 
 #: ../../source/create/3d-models/get-model.rst:29
 msgid ""
@@ -541,16 +578,21 @@ msgid ""
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"Materiály 3D modelu jsou podporovány Overte. Využijte našeho :doc:`průvodce "
+"materiály <pbr-materials-guide>` pro ujištění, že se vaše materiály budou "
+"správně načítat."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
-msgstr ""
+msgstr "Osvědčené postupy"
 
 #: ../../source/create/3d-models/get-model.rst:35
 msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
 msgstr ""
+"Tvorba 3D modelů pro Overte (a VR) je odlišná od tvorby modelů pro filmy, "
+"videa a hry."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -558,6 +600,9 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"3D modely pro VR jsou renderovány dvakrát (zvlášť pro pravé a levé oko): To "
+"znamená, že počet polygonů Vašeho modelu a použité materiály ovlivní "
+"výpočetní výkon nutný k jeho zpracování a zobrazení."
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -566,12 +611,18 @@ msgid ""
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
+"Většina VR headsetů běží na obnovovací frekvenci 90Hz nebo vyšší: Musíte "
+"zajistit, aby Váš model nesnižoval framerate pod 90fps, a být opatrní "
+"ohledně jeho velikosti. Modely které jsou příliš velké nebo komplexní mohou "
+"snižovat framerate a tím způsobovat lidem nevolnost."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
 msgstr ""
+"Níže uvádíme seznam osvědčených postupů pro tvorbu 3D modelů pro Overte (a "
+"VR)."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -582,15 +633,15 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "Vlastnost"
 
 #: ../../source/create/3d-models/get-model.rst:43
 msgid "Best Practice"
-msgstr ""
+msgstr "Osvědčený postup"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
-msgstr ""
+msgstr "Počet polygonů"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid ""
@@ -598,24 +649,29 @@ msgid ""
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
+"Počet polygonů Vašeho modelu by měl být podobný počtu u modelů pro mobilní "
+"hru, tedy ne příliš vysoký, ale ani příliš nízký. Například 50000 polygonů "
+"by mělo bohatě stačit pro detailního avatara."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
-msgstr ""
+msgstr "Edge loopy"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "Odstraňte nepotřebné edge loopy."
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Mesh"
-msgstr ""
+msgstr "Mesh"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
+"Vyčistěte mesh, aby na něm nezůstaly žádné N-gony a koplanární plochy. "
+"Všechny dobré 3D modelovací softwary by měly toto činit při exportu."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -624,10 +680,14 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"Vždy se pokoušejte vytvářet atlas mapy. Když každý kousek Vašeho obsahu "
+"sdílí stejný materiál a UV space, jedná se o atlas mapu. Například, pokud "
+"vytvoříte robota, všechny součásti by měly sdílet jednu UV mapu, namísto "
+"tvorby samostatných map a materiálů pro jeho ruce, chodidla nebo obličej."
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Overte’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "Engine Overte podporuje pouze jednu UV mapu na materiál."
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -640,33 +700,43 @@ msgstr ""
 #: ../../source/create/avatars/avatar-standards.md:257
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
-msgstr ""
+msgstr "Textury"
 
 #: ../../source/create/3d-models/get-model.rst:61
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
 msgstr ""
+"PNG, JPEG and JPG soubory jsou doporučené, ale podporujeme také TGA, TIF a "
+"TIFF formáty."
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid "Choose the color types wisely to minimize the size of the final file."
 msgstr ""
+"Vybírejte typy barev chytře, aby jste minimalizovali velikost finálního "
+"souboru."
 
 #: ../../source/create/3d-models/get-model.rst:66
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr ""
+"PNG-8 má jen trasparenci zapnutou nebo vypnutou, má paletu barev (256 barev, "
+"jako GIF), a může být použit k maskování transparence."
 
 #: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr ""
+"Pro vyšší barevné rozlišení můžete využít PNG-24. Pro průhlednou masku nebo "
+"transparentní textury použijte PNG-32."
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
 msgstr ""
+"Nepoužívejte PNG-48 nebo PNG-64, jelikož ani jeden z nich není podporován v "
+"Overte."
 
 #: ../../source/create/3d-models/get-model.rst:74
 msgid ""
@@ -674,6 +744,9 @@ msgid ""
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
+"Při načtení do enginu je velikost textur automaticky měněna na mřížku "
+"128x128. Vybírejte velikosti, které jsou násobky 128, aby jste neplýtvali "
+"pamětí."
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -685,18 +758,25 @@ msgid ""
 "maps, etc. don't need to be nearly as high resolution as the main color "
 "texture."
 msgstr ""
+"Přestože textury jsou automaticky zmenšovány, pokud se nevejdou do texturové "
+"paměti, dává smysl používat nejnižší možné rozlišení, aby byla menší "
+"velikost souborů, a nižší zátěž na slabší počítače co se zmenšování a "
+"opakované komprese textur týče. Například 4096x4096 textura by měla být "
+"dostatečná pro avatara s velkým množstvím detailů. Normálové mapy, emisní "
+"mapy, atd. nemusí být v tak vysokém rozlišení, jako je hlavní barevná "
+"textura."
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw Calls"
-msgstr ""
+msgstr "Draw cally"
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw calls happen before something gets rendered on screen."
-msgstr ""
+msgstr "Draw cally jsou vysílány, než je něco vykresleno na obrazovku."
 
 #: ../../source/create/3d-models/get-model.rst:86
 msgid "``1 model w/ 1 material = 1 draw call``"
-msgstr ""
+msgstr "``1 model s 1 materiálem = 1 draw call``"
 
 #: ../../source/create/3d-models/get-model.rst:88
 msgid ""
@@ -704,10 +784,14 @@ msgid ""
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
 msgstr ""
+"Neexistují definitivní opatření pro zařízení žádoucího počtu polygonů. "
+"Musíte vyvážit poměr mezi draw cally a počtem polygonů. Méně draw callů "
+"znamená místo pro více polygonů. Menší textury znamenají více místa pro "
+"modely s více polygony."
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid "Baking"
-msgstr ""
+msgstr "Baking"
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid ""
@@ -718,6 +802,12 @@ msgid ""
 "might profit from slightly lower filesizes. See :doc:`Bake Your Content "
 "<../../host/add-content/bake-content>`."
 msgstr ""
+"Baking assetů může být velmi efektivní ve snižování časů načítání a "
+"snižování námahy pro cílové CPU. Bakenuté textury mohou být načteny přímo do "
+"video paměti, bez nutnosti aby je CPU nejdříve načetlo a stlačilo. (Dokud "
+"není potřeba je zmenšit.) Bakenuté modely mohou profitovat z trochu menších "
+"velikostí souborů. Přečtěte si :doc:`Bakujte svůj obsah <../../host/"
+"add-content/bake-content>`."
 
 #: ../../source/create/3d-models/import-animations.rst:5
 msgid ""
@@ -725,6 +815,9 @@ msgid ""
 "animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
+"Vylepšete svůj zážitek s Overte tím, že budete mít animované 3D modely ve "
+"Vaší doméně. Například můžete importovat 3D model vlajky, která se třepotá "
+"ve větru pomocí této funkce."
 
 #: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:18
@@ -740,29 +833,35 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:25
 #: ../../source/developer/build/BUILD_OSX.md:14
 msgid "Prerequisites"
-msgstr ""
+msgstr "Předpoklady"
 
 #: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
 "such as Blender or Maya before importing an animation into Overte."
 msgstr ""
+"Musíte být seznámeni s tvorbou animací ve 3D modelovacích softwarech, jako "
+"jsou Blender nebo Maya, předtím než importujete animaci do Overte."
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
-msgstr ""
+msgstr "Příprava animace 3D modelu"
 
 #: ../../source/create/3d-models/import-animations.rst:20
 msgid ""
 "Before you import an animation into Overte, adjust some settings in the "
 "3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
+"Před importem animace do Overte, upravte její nastavení ve Vámi vybraném 3D "
+"modelovacím nástroji, aby jste zajistili, že se správně přehrává."
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid ""
 "We recommend setting the framerate to 30 fps as a good compromise between"
 " smoothness and file size."
 msgstr ""
+"Doporučujeme nastavení snímkové frekvence na 30 fps jako dobrý kompromis "
+"mezi hladkostí přehrávání a velikostí souboru."
 
 #: ../../source/create/3d-models/import-animations.rst:23
 msgid ""
@@ -770,12 +869,15 @@ msgid ""
 "Overte reads everything. This is to ensure that your animation doesn't "
 "stop and start, but appears smooth and flows through each movement."
 msgstr ""
+"Bakněte kanály, klíčové snímky a mezi snímky Vaší animace, aby jste "
+"zajistili, že Overte vše přečte. Toto zajišťuje, že Vaše animace nebude mít "
+"začátek a konec, ale bude vypadat hladce, a proplyne každým pohybem."
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
 "Prepare to export the skeleton and frames that are being used in the "
 "animation."
-msgstr ""
+msgstr "Připravte export skeletonu a snímků, které jsou využity v animaci."
 
 #: ../../source/create/3d-models/import-animations.rst:25
 msgid ""
@@ -783,26 +885,34 @@ msgid ""
 "\"simplify\" setting to 0.00 when exporting an FBX file otherwise the "
 "animation may not play correctly."
 msgstr ""
+"Zakažte jakoukoliv redukci klíčových snímků. Například v Blenderu, nastavte "
+"vlastnost \"simplify\" na 0.00 při exportu FBX souboru, jinak se animace "
+"nemusí správně přehrávat."
 
 #: ../../source/create/3d-models/import-animations.rst:29
 msgid ""
 "Export your animation as an FBX file. (Reading animations from other "
 "formats like glTF is currently not supported.)"
 msgstr ""
+"Exportujte Vaši animaci jako FBX soubor. (Načítání animací z jiných formátů, "
+"jako je glTF, není aktuálně podporováno.)"
 
 #: ../../source/create/3d-models/import-animations.rst:30
 msgid "Upload this FBX file to a cloud server and copy the URL."
 msgstr ""
+"Nahrajte tento FBX soubor na cloudové uložiště a zkopírujte jeho URL adresu."
 
 #: ../../source/create/3d-models/import-animations.rst:34
 msgid "Import an Animation"
-msgstr ""
+msgstr "Import animace"
 
 #: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Overte."
 msgstr ""
+"Jakmile dokončíte nahrávání FBX souboru Vaší animace, můžete 3D model a jeho "
+"animaci importovat do Overte."
 
 #: ../../source/create/3d-models/import-animations.rst:38
 #: ../../source/create/3d-models/import-model.rst:17
@@ -836,6 +946,7 @@ msgstr ""
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
 msgstr ""
+"V rozhraní aktivujte svůj HUD nebo tablet, a přejděte do aplikace **Create**."
 
 #: ../../source/create/3d-models/import-animations.rst:39
 msgid ""
@@ -844,16 +955,22 @@ msgid ""
 "the animation's URL will be the same. Otherwise, your animation is saved "
 "as a separate FBX file."
 msgstr ""
+"Klikněte na ikonu 'MODEL', a vložte URL adresu Vašeho 3D modelu. Pokud jste "
+"uložili FBX soubor Vašeho 3D modelu s animací zahrnutou, URL adresa modelu a "
+"animace bude stejná. V opačném případě je Vaše animace uložena jako "
+"samostatný FBX soubor."
 
 #: ../../source/create/3d-models/import-animations.rst:40
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
 msgstr ""
+"Na záložce 'Properties' seskrolujte dolu na položku 'Animation', a vložte "
+"URL animace."
 
 #: ../../source/create/3d-models/import-animations.rst:44
 msgid "You can edit the following animation properties:"
-msgstr ""
+msgstr "Můžete editovat následující vlastnosti animace:"
 
 #: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/3d-models/pbr-materials-guide.rst:62
@@ -896,7 +1013,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:56
 #: ../../source/script/get-started-with-scripting.rst:102
 msgid "Description"
-msgstr ""
+msgstr "Popis"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
@@ -907,6 +1024,8 @@ msgid ""
 "Enable this to play your animation automatically when a user joins the "
 "Domain."
 msgstr ""
+"Povolte toto pro automatické přehrávání animace jakmile se uživatel připojí "
+"k doméně."
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Loop"
@@ -914,7 +1033,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Select this property to play your animation in a continuous loop."
-msgstr ""
+msgstr "Vyberte tuto vlastnost pro přehrávání Vaší animace v nekonečné smyčce."
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid "Allow Transition"
@@ -925,6 +1044,8 @@ msgid ""
 "Enable this to let the animation move through space. This means that the "
 "joints will not only rotate, but translate through three dimensions."
 msgstr ""
+"Povolte toto, aby jste animaci umožnili pohyb prostorem. To znamená, že "
+"kloubová spojení se nebudou jen otáčet, ale také posouvat ve třech dimenzích."
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Hold"
@@ -932,7 +1053,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Select to pause your animation at a particular frame."
-msgstr ""
+msgstr "Zvolte pro pozastavení Vaší animace na určitém snímku."
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Animation Frame"
@@ -940,7 +1061,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Enter the frame at which you want to pause or hold your animation."
-msgstr ""
+msgstr "Zadejte snímek, na kterém chcete pozastavit Vaši animaci."
 
 #: ../../source/create/3d-models/import-animations.rst:60
 msgid "First Frame"
@@ -948,7 +1069,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:60
 msgid "This is the first frame from when your want your animation to start."
-msgstr ""
+msgstr "Toto je první snímek, od kterého chcete aby se vaše animace přehrávala."
 
 #: ../../source/create/3d-models/import-animations.rst:62
 msgid "Last Frame"
@@ -959,6 +1080,8 @@ msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
 msgstr ""
+"Toto je poslední snímek animace, který chcete přehrát. Animace se nebude "
+"dále přehrávat po tomto snímku."
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "Animation FPS"
@@ -966,13 +1089,15 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "This is the animation's framerate."
-msgstr ""
+msgstr "Toto je frekvence snímků animace."
 
 #: ../../source/create/3d-models/import-animations.rst:68
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
+"Vlastnosti a přehrávání animace můžete také řídit pomocí :doc:`skriptů entit "
+"<../../script/client-entity-scripts>`."
 
 #: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
@@ -1025,15 +1150,15 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:57
 #: ../../source/script/write-scripts.md:74
 msgid "**See Also**"
-msgstr ""
+msgstr "**Přečtěte si také**"
 
 #: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
-msgstr ""
+msgstr ":doc:`Importujte svůj 3D model <import-model>`"
 
 #: ../../source/create/3d-models/import-model.rst:3
 msgid "Import a 3D Model"
-msgstr ""
+msgstr "Import 3D modelu"
 
 #: ../../source/create/3d-models/import-model.rst:5
 msgid ""
@@ -1041,34 +1166,41 @@ msgid ""
 "domain's Asset Server. Importing your model brings it into your domain "
 "and adds it to your virtual world."
 msgstr ""
+"Do Overte můžete importovat model který je hostovaný online nebo na Vašem "
+"asset serveru. Importování Vašeho modelu jej načte do vaší domény a vloží do "
+"Vašeho virtuálního světa."
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
-msgstr ""
+msgstr "Import modelů z cloudu"
 
 #: ../../source/create/3d-models/import-model.rst:14
 msgid ""
 "If you want your model available to users in other domains, we recommend "
 "uploading it to a cloud hosting service of your choice."
 msgstr ""
+"Pokud chcete aby byl Váš model k dispozici uživatelům v ostatních doménách, "
+"doporučujeme jej nahrát na cloudový hosting dle Vašeho výběru."
 
 #: ../../source/create/3d-models/import-model.rst:16
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
 "should be an FBX, glTF, or OBJ file."
 msgstr ""
+"Najděte a zkopírujte URL adresu modelu, který chcete importovat. Model by "
+"měl být soubor FBX, glTF nebo OBJ."
 
 #: ../../source/create/3d-models/import-model.rst:18
 msgid "Select the 'Model' icon."
-msgstr ""
+msgstr "Vyberte ikonu 'MODEL'."
 
 #: ../../source/create/3d-models/import-model.rst:19
 msgid "Paste the model's URL and click 'Add'."
-msgstr ""
+msgstr "Vložte adresu URL modelu a klikněte na 'Add'."
 
 #: ../../source/create/3d-models/import-model.rst:25
 msgid "Import Models from the Asset Server"
-msgstr ""
+msgstr "Import modelu z assetového serveru"
 
 #: ../../source/create/3d-models/import-model.rst:27
 msgid ""
@@ -1078,29 +1210,35 @@ msgid ""
 "permissions to \"rez\" entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
+"Asset server hostuje soubory nebo assety, které mouhou být buďto přidány do "
+"domény tak jak jsou, nebo jsou referovány existujícími entitami a skripty, "
+"již běžícími v doméně. K importu assetů z asset serveru musíte mít práva pro "
+"\"rez\" entit v doméně, na které asset server běží."
 
 #: ../../source/create/3d-models/import-model.rst:31
 msgid "Click 'Open this Domain's Asset Server'."
-msgstr ""
+msgstr "Klikněte na 'Open this Domain's Asset Server'."
 
 #: ../../source/create/3d-models/import-model.rst:32
 msgid "In the Asset Browser, browse to the model you would like to import."
-msgstr ""
+msgstr "V prohlížeči assetů vyhledejte model, který by jste chtěli importovat."
 
 #: ../../source/create/3d-models/import-model.rst:33
 msgid ""
 "Click 'Add to World'. Then click 'Add' on the confirmation window that "
 "opens."
 msgstr ""
+"Klikněte na 'Add to World'. Dále klikněte na 'Add' v potvrzovacím dialogu, "
+"který se otevře."
 
 #: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
-msgstr ""
+msgstr ":doc:`Nástroje pro tvorbu <../tools>`"
 
 #: ../../source/create/3d-models/import-model.rst:40
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
-msgstr ""
+msgstr ":doc:`Tvorba nových entit <../entities/create-entities>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
 msgid ""
@@ -1109,10 +1247,13 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light (approximately) like how they would in real life."
 msgstr ""
+"Vzhled 3D modelu je řízen jeho materiály. Materiály podporované Overte jsou "
+"Physically-based Rendering (PBR) materiály. To znamená, že materiály 3D "
+"modelu budou odrážet nebo pohlcovat světlo (přibližně) jako v reálném životě."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:13
 msgid "Introduction to Materials, Textures, and Shading"
-msgstr ""
+msgstr "Úvod k materiálům, texturám a stínování"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:15
 msgid ""
@@ -1121,6 +1262,10 @@ msgid ""
 "metallic it looks, and if its surface is bumpy or smooth. A 3D model of a"
 " brick wall will have material that determines its roughness and color."
 msgstr ""
+"Vzhled 3D modelu je řízen jeho materiály. Například, 3D model klíče bude "
+"využívat materiál určující jeho barvu, metalický vzhled, a hladkost jeho "
+"povrchu. 3D model cihlové zdi bude mít materiál determinující její hrubost a "
+"barvu."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:18
 msgid ""
