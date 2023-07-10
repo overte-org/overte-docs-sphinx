@@ -18,8 +18,8 @@ In order to run Overte, ensure that your computer meets these system requirement
 
 * Operating system:
 
-  * Windows 8.1 64-bit, Windows 10 64-bit, or Windows 11 64-bit
-  * Ubuntu 18.04 64 bit, or most other modern Linux distributions
+  * Windows 10 64-bit, or Windows 11 64-bit
+  * Ubuntu 20.04 64 bit, or most other modern Linux distributions
 
 * CPU:
 
