@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-06-15 19:45+0000\n"
+"POT-Creation-Date: 2023-07-15 19:58+0000\n"
 "PO-Revision-Date: 2023-03-17 05:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: fr\n"
@@ -14425,12 +14425,12 @@ msgstr "Système d'exploitation :"
 
 #: ../../source/explore/get-started/install.rst:21
 #, fuzzy
-msgid "Windows 8.1 64-bit, Windows 10 64-bit, or Windows 11 64-bit"
+msgid "Windows 10 64-bit, or Windows 11 64-bit"
 msgstr "Windows 8.1, 64 bits ou Windows 10, 64 bits"
 
 #: ../../source/explore/get-started/install.rst:22
 #, fuzzy
-msgid "Ubuntu 18.04 64 bit, or most other modern Linux distributions"
+msgid "Ubuntu 20.04 64 bit, or most other modern Linux distributions"
 msgstr "Ubuntu 18.04 64 bit ou toute autre distribution moderne de Linux"
 
 #: ../../source/explore/get-started/install.rst:24

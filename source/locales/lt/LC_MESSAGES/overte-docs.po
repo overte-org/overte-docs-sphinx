@@ -9,19 +9,18 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-06-15 19:45+0000\n"
+"POT-Creation-Date: 2023-07-15 19:58+0000\n"
 "PO-Revision-Date: 2023-07-08 23:17+0000\n"
 "Last-Translator: Bliffykins <tentacles@rape.lol>\n"
-"Language-Team: Lithuanian <https://weblate.overte.org/projects/overte/"
-"overte-documentation/lt/>\n"
 "Language: lt\n"
+"Language-Team: Lithuanian <https://weblate.overte.org/projects/overte"
+"/overte-documentation/lt/>\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100"
+" > 19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > "
+"19)) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && (n % 100 < 11 || n % 100 > "
-"19)) ? 0 : ((n % 10 >= 2 && n % 10 <= 9 && (n % 100 < 11 || n % 100 > 19)) ? "
-"1 : 2);\n"
-"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -13587,11 +13586,11 @@ msgid "Operating system:"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:21
-msgid "Windows 8.1 64-bit, Windows 10 64-bit, or Windows 11 64-bit"
+msgid "Windows 10 64-bit, or Windows 11 64-bit"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:22
-msgid "Ubuntu 18.04 64 bit, or most other modern Linux distributions"
+msgid "Ubuntu 20.04 64 bit, or most other modern Linux distributions"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:24
@@ -29194,3 +29193,10 @@ msgstr ""
 #~ "software on a computer that is "
 #~ "_not_ running as a local server."
 #~ msgstr ""
+
+#~ msgid "Windows 8.1 64-bit, Windows 10 64-bit, or Windows 11 64-bit"
+#~ msgstr ""
+
+#~ msgid "Ubuntu 18.04 64 bit, or most other modern Linux distributions"
+#~ msgstr ""
+
