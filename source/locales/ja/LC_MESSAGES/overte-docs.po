@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-07-15 19:58+0000\n"
-"PO-Revision-Date: 2023-07-24 17:37+0000\n"
-"Last-Translator: Julian Groß <julian.gro@overte.org>\n"
+"PO-Revision-Date: 2023-07-30 20:17+0000\n"
+"Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
 "Language-Team: Japanese <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ja/>\n"
 "Language: ja\n"
@@ -62,7 +62,7 @@ msgstr ""
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
-msgstr "貢献(コントリビュート)"
+msgstr "貢献する"
 
 #: ../../source/contribute.rst:7
 msgid ""
@@ -284,15 +284,16 @@ msgid ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
 "open pull requests."
 msgstr ""
-"もしあなたが開発者であれば、プルリクエストを通じて直接プロジェクトに貢献することができます。メインソフトウェアに貢献する際には、`ガイドライン "
+"もしあなたが開発者であれば、プルリクエストを通じて直接プロジェクトに貢献する"
+"ことができます。メインソフトウェアに貢献する際には、`ガイドライン "
 "<https://github.com/overte-org/overte/blob/master/CONTRIBUTING.md>`_ "
-"に留意してください。いくつかの追加情報は :doc:`開発者向けセクション <developer>` "
-"で見ることができます。プラットフォームに慣れてきた開発者にとって重要な仕事は、オープンなプルリクエストの`コードレビュー "
-"<https://github.com/overte-"
-"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ です。"
+"に留意してください。いくつかの追加情報は :doc:`開発者向けセクション "
+"<developer>` で見ることができます。プラットフォームに慣れてきた開発者にとって"
+"重要な仕事は、オープンなプルリクエストの `コードレビュー <https://github.com/"
+"overte-org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ "
+"です。"
 
 #: ../../source/contribute.rst:64
-#, fuzzy
 msgid "Miscellaneous Work"
 msgstr "雑務"
 
@@ -300,19 +301,17 @@ msgstr "雑務"
 msgid ""
 "There is also a lot of miscellaneous work that comes up every now and "
 "then:"
-msgstr ""
+msgstr "ほかにも雑多な作業が多くあります："
 
 #: ../../source/contribute.rst:67
 msgid "2D art like posters or banners,"
 msgstr "ポスターやバナーのような2Dアート"
 
 #: ../../source/contribute.rst:68
-#, fuzzy
 msgid "3D models,"
 msgstr "3Dモデル"
 
 #: ../../source/contribute.rst:69
-#, fuzzy
 msgid "scripts,"
 msgstr "スクリプト"
 
@@ -321,17 +320,16 @@ msgid "video editing,"
 msgstr "動画編集"
 
 #: ../../source/contribute.rst:71
-#, fuzzy
 msgid "and so on."
 msgstr "などなど。"
 
 #: ../../source/contribute.rst:73
-#, fuzzy
 msgid ""
 "It is tremendously helpful for developers to have someone that they can "
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
-msgstr "開発者にとって、自分の専門外の仕事を依頼できる人がいることは、非常に助かることです。"
+msgstr "開発者にとって、自分の専門外の仕事を依頼できる人がいることは、非常に助かるこ"
+"とです。"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
@@ -402,18 +400,17 @@ msgstr ""
 "独自の世界を創造したり、没入型プロジェクトを構築することをお勧めします！"
 
 #: ../../source/create.rst:7
-#, fuzzy
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
-msgstr "専門知識のレベルに関わらず、Overteはあなたが想像できるあらゆるものを作成するために必要なツールを提供します。"
+msgstr "専門知識のレベルに関わらず、Overteはあなたが想像できるあらゆるものを作成する"
+"ために必要なツールを提供します。"
 
 #: ../../source/create.rst:9
-#, fuzzy
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
-msgstr "この章ではエンティティの作成や環境の構築方法を学ぶことができます。"
+msgstr "この章では、独自のVR体験を作成、構築、実現する方法を学びます："
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
@@ -18229,7 +18226,7 @@ msgstr "ホスト"
 
 #: ../../source/home.rst:46
 msgid "CONTRIBUTE"
-msgstr "コントリビュート"
+msgstr "貢献する"
 
 #: ../../source/home.rst:46
 msgid "DEVELOP"
@@ -30015,22 +30012,18 @@ msgstr ""
 
 #: ../../source/script.rst:9
 #: ../../source/script/get-started-with-scripting.rst:3
-#, fuzzy
 msgid "Get Started with Scripting"
 msgstr "スクリプトをはじめよう"
 
 #: ../../source/script.rst:9 ../../source/script/write-scripts.md:1
-#, fuzzy
 msgid "Write Your Own Scripts"
 msgstr "スクリプトを作成する"
 
 #: ../../source/script.rst:9
-#, fuzzy
 msgid "JavaScript Tips and Tricks"
-msgstr "JavaScriptのヒントとテクニック"
+msgstr "JavaScriptのヒントとコツ"
 
 #: ../../source/script.rst:9 ../../source/script/interface-scripts.md:1
-#, fuzzy
 msgid "Interface Scripts"
 msgstr "インターフェイススクリプト"
 
@@ -30040,44 +30033,41 @@ msgid "Assignment Client Scripts"
 msgstr "割り当てクライアントスクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/avatar-scripts.md:1
-#, fuzzy
 msgid "Avatar Scripts"
 msgstr "アバタースクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/client-entity-scripts.md:1
-#, fuzzy
 msgid "Client Entity Scripts"
 msgstr "クライアントエンティティスクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/server-entity-scripts.md:1
-#, fuzzy
 msgid "Server Entity Scripts"
 msgstr "サーバーエンティティスクリプト"
 
 #: ../../source/script.rst:9 ../../source/script/midi-tutorial.rst:3
-#, fuzzy
 msgid "Tutorial: Use MIDI to Control Your Environment"
 msgstr "チュートリアル：MIDIを使用して環境を制御する"
 
 #: ../../source/script.rst:3
-#, fuzzy
 msgid "Script"
 msgstr "スクリプト"
 
 #: ../../source/script.rst:5
-#, fuzzy
 msgid ""
 "Overte uses scripts (written in JavaScript) for a number of different "
 "things: creating content, moving your avatar, playing audio at a specific"
 " location, wearing an avatar attachment, and much more."
-msgstr "Vircadiaでは、コンテンツの作成、アバターの移動、特定の場所での音声再生、アバターの装着など、さまざまなことでスクリプト（JavaScript）を使っています。"
+msgstr ""
+"Overte では、コンテンツの作成、アバターの移動、特定の場所での音声再生、アバタ"
+"ーアタッチメントの装着など、さまざまなことでスクリプト（JavaScript）を使って"
+"います。"
 
 #: ../../source/script.rst:7
-#, fuzzy
 msgid ""
 "Throughout this chapter, learn about the different types of scripts and "
 "how you can use them to create new experiences:"
-msgstr "この章全体を通して、さまざまな種類のスクリプトと、それらを使用して新しいエクスペリエンスを作成する方法について学習します。"
+msgstr "この章全体を通して、さまざまな種類のスクリプトと、それらを使用して新しいエク"
+"スペリエンスを作成する方法について学習します。"
 
 #: ../../source/script/assignment-client-scripts.md:3
 #, fuzzy
