@@ -117,11 +117,6 @@
                 self.debugLines[name] = undefined;
             };
 
-            this.deleteCube = function(name) {
-                Entities.deleteEntity(self.debugCubes[name]);
-                self.debugCubes[name] = undefined;
-            };
-
             this.cleanup = function() {
                 for (var lineName in self.debugLines) {
                     if (lineName !== undefined) {
@@ -133,14 +128,8 @@
                         self.deleteSphere(sphereName);
                     }
                 }
-                for (var cubeName in self.debugCubes) {
-                    if (cubeName!== undefined) {
-                        self.deleteCube(cubeName);
-                    }
-                }
                 self.debugLines = {};
                 self.debugSpheres = {};
-                self.debugCubes = {};
             };
 
             this.setVisible = function(isVisible) {
