@@ -6,7 +6,7 @@
 Package and Host Your Avatar
 ##################################
 
-At a minimum, avatars in Overte must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `Overte Avatar Exporter for Unity (unmaintained)`_ in Unity.
+At a minimum, avatars in Overte must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `Overte Avatar Exporter for Unity`_ in Unity.
 
 Once you have packaged your avatar, you need to host it on the cloud so that Overte can access it and correctly render your avatar for all users.
 
@@ -22,7 +22,7 @@ If you're reading this page, you likely already :doc:`built your own FBX model <
 We provide two ways to create an avatar package: either through Unity or through our Avatar Packager.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Overte Avatar Exporter for Unity (unmaintained)
+Overte Avatar Exporter for Unity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in Overte. The Overte Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in Overte. 
@@ -377,7 +377,7 @@ The Avatar Packager will notify you of any errors or warnings that may affect th
                             <p>Ensure that your avatar package has both an FST and FBX file.</p>
                             <ul class="first arabic simple">
                                 <li>If you are missing your FBX file, locate it and copy it back into this folder.</li>
-                                <li>If you are missing an FST file, <a href="#package-your-avatar">re-package your avatar</a> using either the High Fidelity Exporter Avatar Exporter for Unity or the Avatar Packager.</li>
+                                <li>If you are missing an FST file, <a href="#package-your-avatar">re-package your avatar</a> using either the Overte Avatar Exporter for Unity or the Avatar Packager.</li>
                             </ul>
                         </li>
                         <li>If both files are there and you still receive this error, open the FST file in a text editor of your choice. </li>

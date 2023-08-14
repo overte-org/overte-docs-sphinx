@@ -38,9 +38,9 @@ Overte supports only one standard type of rigging for avatars. Because many avat
 
 You will need the following to use this tool:
 
-+ Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)
++ Unity (Recommended versions: 2019.4.31f1)
 + Overte
-+ `Overte Avatar Exporter for Unity <https://github.com/overte-org/overte/blob/master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)
++ `Overte Avatar Exporter for Unity <https://github.com/overte-org/overte/blob/master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ (v0.6.0)
 
 Please note that the recommended version of Unity is not the latest version. If you are using a newer version of Unity, we recommend that you apply a T-Pose to your avatar. To do so, go to the 'Inspector', and click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We recommend doing this after correcting any issues with remapping bones.
 
@@ -61,7 +61,7 @@ You need to install the extension for every Unity project that you have. Keep in
 
 4. Navigate to the `avatarExporter` package (with a .unitypackage extension). Click 'Open'. You can also double-click the package on your computer to import it automatically.
 5. In the 'Importing Package' window, review the list of files to be imported and check for conflicts with files already in your project. If a conflict exists, save any local changes somewhere outside of your project.
-6. Click 'Import'. The package's files are added to the Assets folder. You should now have a 'High Fidelity' menu in Unity.
+6. Click 'Import'. The package's files are added to the Assets folder. You should now have a 'Overte' menu in Unity.
 
 .. image:: _images/hifi-menu.png
 
@@ -98,8 +98,8 @@ Create an Avatar Package
 
 .. image:: _images/select-avatar-unity.png
 
-7. Make sure that you have the `avatar exporter installed <#install-the-avatar-exporter>`_. Open the 'High Fidelity' menu in the top menu bar, then select 'Export New Avatar'.
-8. Give your avatar project a name. The default project location is your local user's ``Documents\High Fidelity Projects`` directory, which is created automatically for you. Though we recommend that you keep your avatars in this directory, you can change it to another location on your computer.
+7. Make sure that you have the `avatar exporter installed <#install-the-avatar-exporter>`_. Open the 'Overte' menu in the top menu bar, then select 'Export New Avatar'.
+8. Give your avatar project a name. The default project location is your local user's ``Documents\Overte Projects`` directory, which is created automatically for you. Though we recommend that you keep your avatars in this directory, you can change it to another location on your computer.
 
 .. image:: _images/export-avatar.png
 
@@ -109,7 +109,7 @@ Your avatar package has been created! The File Explorer will open to your new av
 
 .. image:: _images/exported-package.png
 
-.. note:: If you are using any external textures with your avatar model, copy those textures to your local user's ``Documents\High Fidelity Projects\avatar\<project name>\textures`` directory. Otherwise, they may not show up on your avatar.
+.. note:: If you are using any external textures with your avatar model, copy those textures to your local user's ``Documents\Overte Projects\avatar\<project name>\textures`` directory. Otherwise, they may not show up on your avatar.
 
 ^^^^^^^^^^^^^^^^
 Test Your Avatar
