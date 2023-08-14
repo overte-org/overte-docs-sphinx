@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-15 19:58+0000\n"
+"POT-Creation-Date: 2023-08-14 21:14+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ca\n"
@@ -3970,6 +3970,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:33
+#: ../../source/create/avatars/package-avatar.rst:26
 msgid "Overte Avatar Exporter for Unity"
 msgstr ""
 
@@ -3997,7 +3998,7 @@ msgid "You will need the following to use this tool:"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:41
-msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
+msgid "Unity (Recommended versions: 2019.4.31f1)"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
@@ -4008,7 +4009,7 @@ msgstr ""
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-"
 "org/overte/blob/master/tools/unity-avatar-"
-"exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
+"exporter/avatarExporter.unitypackage?raw=true>`_ (v0.6.0)"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:45
@@ -4067,7 +4068,7 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
 "Click 'Import'. The package's files are added to the Assets folder. You "
-"should now have a 'High Fidelity' menu in Unity."
+"should now have a 'Overte' menu in Unity."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:70
@@ -4141,17 +4142,16 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:101
 msgid ""
 "Make sure that you have the `avatar exporter installed <#install-the-"
-"avatar-exporter>`_. Open the 'High Fidelity' menu in the top menu bar, "
-"then select 'Export New Avatar'."
+"avatar-exporter>`_. Open the 'Overte' menu in the top menu bar, then "
+"select 'Export New Avatar'."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:102
 msgid ""
 "Give your avatar project a name. The default project location is your "
-"local user's ``Documents\\High Fidelity Projects`` directory, which is "
-"created automatically for you. Though we recommend that you keep your "
-"avatars in this directory, you can change it to another location on your "
-"computer."
+"local user's ``Documents\\Overte Projects`` directory, which is created "
+"automatically for you. Though we recommend that you keep your avatars in "
+"this directory, you can change it to another location on your computer."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:106
@@ -4167,7 +4167,7 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:112
 msgid ""
 "If you are using any external textures with your avatar model, copy those"
-" textures to your local user's ``Documents\\High Fidelity "
+" textures to your local user's ``Documents\\Overte "
 "Projects\\avatar\\<project name>\\textures`` directory. Otherwise, they "
 "may not show up on your avatar."
 msgstr ""
@@ -4394,7 +4394,7 @@ msgid ""
 "looks and behaves. Together, these two files (with any optional texture "
 "or script) form an \"avatar package\". There are two ways you can create "
 "an avatar package: by using the `Avatar Packager`_ in Interface or the "
-"`Overte Avatar Exporter for Unity (unmaintained)`_ in Unity."
+"`Overte Avatar Exporter for Unity`_ in Unity."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:11
@@ -4421,10 +4421,6 @@ msgstr ""
 msgid ""
 "We provide two ways to create an avatar package: either through Unity or "
 "through our Avatar Packager."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:26
-msgid "Overte Avatar Exporter for Unity (unmaintained)"
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:28
@@ -29196,5 +29192,69 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Ubuntu 18.04 64 bit, or most other modern Linux distributions"
+#~ msgstr ""
+
+#~ msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Overte Avatar Exporter for Unity "
+#~ "<https://github.com/overte-org/overte/blob/master/tools"
+#~ "/unity-avatar-"
+#~ "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Import'. The package's files are"
+#~ " added to the Assets folder. You "
+#~ "should now have a 'High Fidelity' "
+#~ "menu in Unity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Make sure that you have the "
+#~ "`avatar exporter installed <#install-the-"
+#~ "avatar-exporter>`_. Open the 'High "
+#~ "Fidelity' menu in the top menu "
+#~ "bar, then select 'Export New Avatar'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Give your avatar project a name. "
+#~ "The default project location is your "
+#~ "local user's ``Documents\\High Fidelity "
+#~ "Projects`` directory, which is created "
+#~ "automatically for you. Though we "
+#~ "recommend that you keep your avatars "
+#~ "in this directory, you can change "
+#~ "it to another location on your "
+#~ "computer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are using any external "
+#~ "textures with your avatar model, copy"
+#~ " those textures to your local user's"
+#~ " ``Documents\\High Fidelity Projects\\avatar\\<project"
+#~ " name>\\textures`` directory. Otherwise, they "
+#~ "may not show up on your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At a minimum, avatars in Overte "
+#~ "must have an FBX, glTF, or GLB "
+#~ "model, and an associated FST file "
+#~ "that includes information about how your"
+#~ " avatar looks and behaves. Together, "
+#~ "these two files (with any optional "
+#~ "texture or script) form an \"avatar "
+#~ "package\". There are two ways you "
+#~ "can create an avatar package: by "
+#~ "using the `Avatar Packager`_ in "
+#~ "Interface or the `Overte Avatar Exporter"
+#~ " for Unity (unmaintained)`_ in Unity."
+#~ msgstr ""
+
+#~ msgid "Overte Avatar Exporter for Unity (unmaintained)"
 #~ msgstr ""
 

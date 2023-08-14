@@ -10,17 +10,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-07-15 19:58+0000\n"
+"POT-Creation-Date: 2023-08-14 21:14+0000\n"
 "PO-Revision-Date: 2023-07-30 20:17+0000\n"
 "Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
-"Language-Team: Japanese <https://weblate.overte.org/projects/overte/"
-"overte-documentation/ja/>\n"
 "Language: ja\n"
+"Language-Team: Japanese <https://weblate.overte.org/projects/overte"
+"/overte-documentation/ja/>\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -226,9 +225,8 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
-"Overteは、主にコミュニティとコアチームの自発的な貢献によって運営されています"
-"。寄付を管理する組織はまだありませんが、PayPal、Patreon、GitHub Sponsorsなど"
-"の様々なサービスを通じて、チームの特定のメンバーに寄付をすることができます。"
+"Overteは、主にコミュニティとコアチームの自発的な貢献によって運営されています。寄付を管理する組織はまだありませんが、PayPal、Patreon、GitHub"
+" Sponsorsなどの様々なサービスを通じて、チームの特定のメンバーに寄付をすることができます。"
 
 #: ../../source/contribute.rst:42
 msgid ""
@@ -269,8 +267,8 @@ msgid ""
 "or `testing pull requests <https://github.com/overte-"
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
-"`プルリクエストをテストする <https://github.com/overte-org/overte/"
-"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_ 。"
+"`プルリクエストをテストする <https://github.com/overte-"
+"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_ 。"
 
 #: ../../source/contribute.rst:57
 msgid ""
@@ -284,14 +282,12 @@ msgid ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
 "open pull requests."
 msgstr ""
-"もしあなたが開発者であれば、プルリクエストを通じて直接プロジェクトに貢献する"
-"ことができます。メインソフトウェアに貢献する際には、`ガイドライン "
+"もしあなたが開発者であれば、プルリクエストを通じて直接プロジェクトに貢献することができます。メインソフトウェアに貢献する際には、`ガイドライン "
 "<https://github.com/overte-org/overte/blob/master/CONTRIBUTING.md>`_ "
-"に留意してください。いくつかの追加情報は :doc:`開発者向けセクション "
-"<developer>` で見ることができます。プラットフォームに慣れてきた開発者にとって"
-"重要な仕事は、オープンなプルリクエストの `コードレビュー <https://github.com/"
-"overte-org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ "
-"です。"
+"に留意してください。いくつかの追加情報は :doc:`開発者向けセクション <developer>` "
+"で見ることができます。プラットフォームに慣れてきた開発者にとって重要な仕事は、オープンなプルリクエストの `コードレビュー "
+"<https://github.com/overte-"
+"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ です。"
 
 #: ../../source/contribute.rst:64
 msgid "Miscellaneous Work"
@@ -328,8 +324,7 @@ msgid ""
 "It is tremendously helpful for developers to have someone that they can "
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
-msgstr "開発者にとって、自分の専門外の仕事を依頼できる人がいることは、非常に助かるこ"
-"とです。"
+msgstr "開発者にとって、自分の専門外の仕事を依頼できる人がいることは、非常に助かることです。"
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
@@ -392,19 +387,13 @@ msgid ""
 "or developing apps and scripts. To truly make the experience your own, "
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
-msgstr ""
-"Overteは、興味、コミュニティ、友情でつながった人々が集まり、お互いの創造性を"
-"表現することを可能にします。アバターやコンテンツを作成したり、アプリやスクリ"
-"プトを開発することで、あなた自身の体験をパーソナライズしてください。真に自分"
-"だけの体験にするために、フリーでオープンライセンスのOverteエンジンを使って、"
-"独自の世界を創造したり、没入型プロジェクトを構築することをお勧めします！"
+msgstr "Overteは、興味、コミュニティ、友情でつながった人々が集まり、お互いの創造性を表現することを可能にします。アバターやコンテンツを作成したり、アプリやスクリプトを開発することで、あなた自身の体験をパーソナライズしてください。真に自分だけの体験にするために、フリーでオープンライセンスのOverteエンジンを使って、独自の世界を創造したり、没入型プロジェクトを構築することをお勧めします！"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
-msgstr "専門知識のレベルに関わらず、Overteはあなたが想像できるあらゆるものを作成する"
-"ために必要なツールを提供します。"
+msgstr "専門知識のレベルに関わらず、Overteはあなたが想像できるあらゆるものを作成するために必要なツールを提供します。"
 
 #: ../../source/create.rst:9
 msgid ""
@@ -453,10 +442,8 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
-"3Dモデルの見た目は、そのマテリアルによって制御されます。Overteでサポートされ"
-"ているマテリアルは、Physically-based Rendering（PBR）マテリアルです。つまり、"
-"3Dモデルのマテリアルは、実際の生活と同じように（おおよそ）光を反射したり吸収"
-"したりするのです。"
+"3Dモデルの見た目は、そのマテリアルによって制御されます。Overteでサポートされているマテリアルは、Physically-based "
+"Rendering（PBR）マテリアルです。つまり、3Dモデルのマテリアルは、実際の生活と同じように（おおよそ）光を反射したり吸収したりするのです。"
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
@@ -468,8 +455,7 @@ msgstr "**セクション**"
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Overte."
-msgstr "すべての3DモデルはFBX、glTF、またはOBJ形式であり、Overteによってサポートされ"
-"ているマテリアルを持つ必要があります。"
+msgstr "すべての3DモデルはFBX、glTF、またはOBJ形式であり、Overteによってサポートされているマテリアルを持つ必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
@@ -480,10 +466,7 @@ msgid ""
 "There are many online 3D content websites that contain models that you "
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
-msgstr ""
-"オンライン3Dコンテンツのウェブサイトには、購入したり無料で入手できるモデルが"
-"多数掲載されています。このようなサイトから3Dモデルを調達する際には、以下の点"
-"に注意してください。"
+msgstr "オンライン3Dコンテンツのウェブサイトには、購入したり無料で入手できるモデルが多数掲載されています。このようなサイトから3Dモデルを調達する際には、以下の点に注意してください。"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -491,9 +474,8 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
-"**ライセンス条項を確認する:** モデルを使用する前に、必ずモデルのライセンス条"
-"項を確認してください。コンテンツの利用に十分な権利があることを確認するのは、"
-"あなたの責任です。"
+"**ライセンス条項を確認する:** "
+"モデルを使用する前に、必ずモデルのライセンス条項を確認してください。コンテンツの利用に十分な権利があることを確認するのは、あなたの責任です。"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -501,21 +483,14 @@ msgid ""
 "getting the links to those files in the same way as they would when "
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
-msgstr ""
-"Overteでの3Dモデルの取り扱いは、インターネットで閲覧できる画像やテキストと同"
-"じように、訪問者はそのモデルと関連するファイルを取得することになります。つま"
-"り一度Overteにモデルを公開すれば、誰でも好きなだけそのモデルを複製することが"
-"できます。これらの理由から、Overteで3Dモデルを使う際には、必ずあなたがそのモ"
-"デルを再配布する権利を所持している必要があります。"
+msgstr "Overteでの3Dモデルの取り扱いは、インターネットで閲覧できる画像やテキストと同じように、訪問者はそのモデルと関連するファイルを取得することになります。つまり一度Overteにモデルを公開すれば、誰でも好きなだけそのモデルを複製することができます。これらの理由から、Overteで3Dモデルを使う際には、必ずあなたがそのモデルを再配布する権利を所持している必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
 "**Check Materials:** You might find that the model may be missing its "
 "textures. If that happens, first check to see if the textures are "
 "included."
-msgstr ""
-"**マテリアルを確認する** モデルのテクスチャが欠落している場合があります。その"
-"ような場合は、まずテクスチャが含まれているかどうかを確認します。"
+msgstr "**マテリアルを確認する** モデルのテクスチャが欠落している場合があります。そのような場合は、まずテクスチャが含まれているかどうかを確認します。"
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -523,10 +498,8 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
-"モデルがOverteにロードされ、正しく表示されない場合、インターフェースログでエ"
-"ラー情報を見つけることができるかもしれません。こちらを参照ください： "
-"`インターフェイスログファイルはどこにありますか？ <../../faq.html#interface-"
-"log-files>`_"
+"モデルがOverteにロードされ、正しく表示されない場合、インターフェースログでエラー情報を見つけることができるかもしれません。こちらを参照ください："
+" `インターフェイスログファイルはどこにありますか？ <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
@@ -536,9 +509,7 @@ msgstr "自分で3Dモデルを作成する"
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
-msgstr ""
-"BlenderやMayaなどの3Dモデリングソフトウェアを使用して、3Dモデルを作成できます"
-"。以下の条件を満たす限り、お好きなソフトをお使いください。"
+msgstr "BlenderやMayaなどの3Dモデリングソフトウェアを使用して、3Dモデルを作成できます。以下の条件を満たす限り、お好きなソフトをお使いください。"
 
 #: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the FBX, glTF or OBJ format."
@@ -550,9 +521,8 @@ msgid ""
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
-"3DモデルのマテリアルはOverteでサポートされています。マテリアルが正しく読み込"
-"まれるように、 :doc:`マテリアルガイド <pbr-materials-guide>` "
-"を活用してください。"
+"3DモデルのマテリアルはOverteでサポートされています。マテリアルが正しく読み込まれるように、 :doc:`マテリアルガイド <pbr-"
+"materials-guide>` を活用してください。"
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
@@ -562,17 +532,14 @@ msgstr "ベストプラクティス"
 msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
-msgstr "Overte (および VR) の 3D "
-"モデルの作成は、映画、ビデオ、およびゲーム用のモデルの作成とは異なります。"
+msgstr "Overte (および VR) の 3D モデルの作成は、映画、ビデオ、およびゲーム用のモデルの作成とは異なります。"
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
 "3D models for VR are rendered twice (for both right and left eyes): This "
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
-msgstr ""
-"VR用の3Dモデルは2回レンダリングされます（右目用と左目用の両方）。つまり、モデ"
-"ルのポリゴン数や使用するマテリアルの数がパフォーマンスに影響します。"
+msgstr "VR用の3Dモデルは2回レンダリングされます（右目用と左目用の両方）。つまり、モデルのポリゴン数や使用するマテリアルの数がパフォーマンスに影響します。"
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -580,17 +547,13 @@ msgid ""
 "framerate at 90fps and be cautious about your model’s size. Models that "
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
-msgstr ""
-"ほとんどのVRヘッドセットは90Hz以上で動作します。フレームレートを90fpsに保ち、"
-"モデルのサイズに注意する必要があります。大きすぎるモデルや非常に複雑なモデル"
-"は、フレームレートを低下させ、人々に吐き気を催させる可能性があります。"
+msgstr "ほとんどのVRヘッドセットは90Hz以上で動作します。フレームレートを90fpsに保ち、モデルのサイズに注意する必要があります。大きすぎるモデルや非常に複雑なモデルは、フレームレートを低下させ、人々に吐き気を催させる可能性があります。"
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
-msgstr "Overte（およびVR）用の3Dモデルを作成するためのベストプラクティスをまとめまし"
-"た。"
+msgstr "Overte（およびVR）用の3Dモデルを作成するためのベストプラクティスをまとめました。"
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -618,9 +581,7 @@ msgid ""
 "Your count should resemble that of a model for a tablet game, not too "
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
-msgstr ""
-"タブレットゲーム用のモデルのように、多すぎず少なすぎないようにしてください。"
-"例えば、5万ポリゴンは、詳細なアバターには十分すぎるほどの精度があります。"
+msgstr "タブレットゲーム用のモデルのように、多すぎず少なすぎないようにしてください。例えば、5万ポリゴンは、詳細なアバターには十分すぎるほどの精度があります。"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
@@ -638,10 +599,7 @@ msgstr "メッシュ"
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
-msgstr ""
-"メッシュをきれいにして、Nゴンやコプレーナーフェースがないことを確認します。優"
-"れた3Dモデリングソフトウェアであれば、エクスポート時にこの作業を行うはずです"
-"。"
+msgstr "メッシュをきれいにして、Nゴンやコプレーナーフェースがないことを確認します。優れた3Dモデリングソフトウェアであれば、エクスポート時にこの作業を行うはずです。"
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -649,16 +607,11 @@ msgid ""
 "the same material and UV space, it is an Atlas map. For example, if you "
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
-msgstr ""
-"常にアトラスマップを作成するようにしましょう。コンテンツのすべてのピースが同"
-"じマテリアルとUV空間を共有している場合、それがアトラスマップです。例えば、ロ"
-"ボットを作成する場合、その手、足、または顔に別々のマテリアルとUVマップを与え"
-"るのではなく、すべてのピースが1つのUVマップを共有する必要があります。"
+msgstr "常にアトラスマップを作成するようにしましょう。コンテンツのすべてのピースが同じマテリアルとUV空間を共有している場合、それがアトラスマップです。例えば、ロボットを作成する場合、その手、足、または顔に別々のマテリアルとUVマップを与えるのではなく、すべてのピースが1つのUVマップを共有する必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Overte’s engine only supports one UV mapping per material."
-msgstr "Overteのエンジンは、1つのマテリアルにつき1つのUVマッピングしかサポートしてい"
-"ません。"
+msgstr "Overteのエンジンは、1つのマテリアルにつき1つのUVマッピングしかサポートしていません。"
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -677,8 +630,7 @@ msgstr "テクスチャ"
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
-msgstr "PNG、JPEG、JPGファイルを推奨しますが、TGA、TIF、TIFFフォーマットにも対応しま"
-"す。"
+msgstr "PNG、JPEG、JPGファイルを推奨しますが、TGA、TIF、TIFFフォーマットにも対応します。"
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid "Choose the color types wisely to minimize the size of the final file."
@@ -688,15 +640,13 @@ msgstr "色の種類を賢く選んで、最終的なファイルサイズを最
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
-msgstr "PNG-8は、透明度がON/"
-"OFFのみで、色のパレット（GIFと同じ256色）を持ち、透明度のマスクが可能です。"
+msgstr "PNG-8は、透明度がON/OFFのみで、色のパレット（GIFと同じ256色）を持ち、透明度のマスクが可能です。"
 
 #: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
-msgstr "色の解像度を上げたい場合は、PNG-24を使用します。半透明のマスクや透明なテクス"
-"チャを使用する場合は、PNG-32を使用してください。"
+msgstr "色の解像度を上げたい場合は、PNG-24を使用します。半透明のマスクや透明なテクスチャを使用する場合は、PNG-32を使用してください。"
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
@@ -708,8 +658,8 @@ msgid ""
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
-"エンジンにロードされると、テクスチャは自動的に 128x128 のグリッドにリサイズさ"
-"れます。128の倍数のサイズを選ぶと、メモリの無駄遣いになりません。"
+"エンジンにロードされると、テクスチャは自動的に 128x128 "
+"のグリッドにリサイズされます。128の倍数のサイズを選ぶと、メモリの無駄遣いになりません。"
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -720,13 +670,7 @@ msgid ""
 "texture should be plenty for a detailed avatar. Normal maps, emission "
 "maps, etc. don't need to be nearly as high resolution as the main color "
 "texture."
-msgstr ""
-"テクスチャは、テクスチャメモリに収まらない場合は自動的にダウンスケールされま"
-"すが、ファイルサイズを小さくし、テクスチャのダウンスケールと再圧縮によるロー"
-"エンドマシンの負担を軽減するために、できるだけ低い解像度を使用することは理に"
-"かなっています。例えば、4096x4096のテクスチャは、詳細なアバターには十分でしょ"
-"う。ノーマルマップやエミッションマップなどは、メインカラーテクスチャほど高解"
-"像度である必要はありません。"
+msgstr "テクスチャは、テクスチャメモリに収まらない場合は自動的にダウンスケールされますが、ファイルサイズを小さくし、テクスチャのダウンスケールと再圧縮によるローエンドマシンの負担を軽減するために、できるだけ低い解像度を使用することは理にかなっています。例えば、4096x4096のテクスチャは、詳細なアバターには十分でしょう。ノーマルマップやエミッションマップなどは、メインカラーテクスチャほど高解像度である必要はありません。"
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw Calls"
@@ -745,10 +689,7 @@ msgid ""
 "There are no definitive measures for a desirable polycount. You need to "
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
-msgstr ""
-"望ましいポリカウントの決定的な尺度はありません。ドローコールとポリゴン数の間"
-"でバランスをとる必要があります。ドローコールが少なければ、ポリゴン数に余裕が"
-"あります。テクスチャが小さいと、ハイポリモデルのための領域が広くなります。"
+msgstr "望ましいポリカウントの決定的な尺度はありません。ドローコールとポリゴン数の間でバランスをとる必要があります。ドローコールが少なければ、ポリゴン数に余裕があります。テクスチャが小さいと、ハイポリモデルのための領域が広くなります。"
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid "Baking"
@@ -763,12 +704,8 @@ msgid ""
 "might profit from slightly lower filesizes. See :doc:`Bake Your Content "
 "<../../host/add-content/bake-content>`."
 msgstr ""
-"アセットをベイクすることは、読み込み時間を短縮し、対象のCPUへの負担を軽減する"
-"のに非常に有効です。ベイクされたテクスチャは、CPUが事前に読み込んで圧縮するこ"
-"となく、ビデオメモリに直接読み込むことができます。(ダウンスケールする必要がな"
-"い限り)ベイクされたモデルは、ファイルサイズを少し小さくすることで利益を得られ"
-"るかもしれません。 :doc:`コンテンツをベイクする <../../host/add-content/bake-"
-"content>` を参照してください。"
+"アセットをベイクすることは、読み込み時間を短縮し、対象のCPUへの負担を軽減するのに非常に有効です。ベイクされたテクスチャは、CPUが事前に読み込んで圧縮することなく、ビデオメモリに直接読み込むことができます。(ダウンスケールする必要がない限り)ベイクされたモデルは、ファイルサイズを少し小さくすることで利益を得られるかもしれません。"
+" :doc:`コンテンツをベイクする <../../host/add-content/bake-content>` を参照してください。"
 
 #: ../../source/create/3d-models/import-animations.rst:5
 #, fuzzy
@@ -4882,6 +4819,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:33
+#: ../../source/create/avatars/package-avatar.rst:26
 msgid "Overte Avatar Exporter for Unity"
 msgstr ""
 
@@ -4909,7 +4847,7 @@ msgid "You will need the following to use this tool:"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:41
-msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
+msgid "Unity (Recommended versions: 2019.4.31f1)"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
@@ -4920,7 +4858,7 @@ msgstr "Overte"
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-"
 "org/overte/blob/master/tools/unity-avatar-"
-"exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
+"exporter/avatarExporter.unitypackage?raw=true>`_ (v0.6.0)"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:45
@@ -4979,7 +4917,7 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
 "Click 'Import'. The package's files are added to the Assets folder. You "
-"should now have a 'High Fidelity' menu in Unity."
+"should now have a 'Overte' menu in Unity."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:70
@@ -5053,17 +4991,16 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:101
 msgid ""
 "Make sure that you have the `avatar exporter installed <#install-the-"
-"avatar-exporter>`_. Open the 'High Fidelity' menu in the top menu bar, "
-"then select 'Export New Avatar'."
+"avatar-exporter>`_. Open the 'Overte' menu in the top menu bar, then "
+"select 'Export New Avatar'."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:102
 msgid ""
 "Give your avatar project a name. The default project location is your "
-"local user's ``Documents\\High Fidelity Projects`` directory, which is "
-"created automatically for you. Though we recommend that you keep your "
-"avatars in this directory, you can change it to another location on your "
-"computer."
+"local user's ``Documents\\Overte Projects`` directory, which is created "
+"automatically for you. Though we recommend that you keep your avatars in "
+"this directory, you can change it to another location on your computer."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:106
@@ -5079,7 +5016,7 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:112
 msgid ""
 "If you are using any external textures with your avatar model, copy those"
-" textures to your local user's ``Documents\\High Fidelity "
+" textures to your local user's ``Documents\\Overte "
 "Projects\\avatar\\<project name>\\textures`` directory. Otherwise, they "
 "may not show up on your avatar."
 msgstr ""
@@ -5307,7 +5244,7 @@ msgid ""
 "looks and behaves. Together, these two files (with any optional texture "
 "or script) form an \"avatar package\". There are two ways you can create "
 "an avatar package: by using the `Avatar Packager`_ in Interface or the "
-"`Overte Avatar Exporter for Unity (unmaintained)`_ in Unity."
+"`Overte Avatar Exporter for Unity`_ in Unity."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:11
@@ -5334,10 +5271,6 @@ msgstr ""
 msgid ""
 "We provide two ways to create an avatar package: either through Unity or "
 "through our Avatar Packager."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:26
-msgid "Overte Avatar Exporter for Unity (unmaintained)"
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:28
@@ -13329,12 +13262,7 @@ msgid ""
 "interact with other users. You can visit friends' virtual worlds, meet "
 "people, attend events, and learn about creation in virtuality. It's an "
 "immersive and interactive experience with realistic visuals and audio."
-msgstr ""
-"Overteは、他の人とつながり、創造することができるバーチャルワールドソフトウェ"
-"アです。Overteで作られた世界を探索し、他のユーザーと交流しましょう。友達のバ"
-"ーチャルワールドを訪れたり、人と会ったり、イベントに参加したり、バーチャルで"
-"の創造について学んだりすることができます。リアルなビジュアルと音声で、没入感"
-"のあるインタラクティブな体験ができます。"
+msgstr "Overteは、他の人とつながり、創造することができるバーチャルワールドソフトウェアです。Overteで作られた世界を探索し、他のユーザーと交流しましょう。友達のバーチャルワールドを訪れたり、人と会ったり、イベントに参加したり、バーチャルでの創造について学んだりすることができます。リアルなビジュアルと音声で、没入感のあるインタラクティブな体験ができます。"
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -13344,11 +13272,7 @@ msgid ""
 " other domains using the Explore app and socialize with people around the"
 " metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
-msgstr ""
-"Overteを使うのが初めての方は、まずローカルのチュートリアルスペースで一人旅を"
-"始めましょう。準備ができたら、Exploreアプリを使って他のドメインを探索し、メタ"
-"バース各地の人々と交流してみてください。以前にOverteを訪れたことがある場合は"
-"、最後に訪れた場所に戻ります。"
+msgstr "Overteを使うのが初めての方は、まずローカルのチュートリアルスペースで一人旅を始めましょう。準備ができたら、Exploreアプリを使って他のドメインを探索し、メタバース各地の人々と交流してみてください。以前にOverteを訪れたことがある場合は、最後に訪れた場所に戻ります。"
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
@@ -13358,8 +13282,7 @@ msgstr "この章を通して、探索を最大限に活用する方法を学び
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
-msgstr "このギャラリーでは、Overte/VircadiaのInterfaceと、それを使って参加した過去の"
-"イベントや場所を紹介しています。"
+msgstr "このギャラリーでは、Overte/VircadiaのInterfaceと、それを使って参加した過去のイベントや場所を紹介しています。"
 
 #: ../../source/explore/gallery.rst:12
 msgid "Maker meeting 28th September 2020"
@@ -13465,11 +13388,7 @@ msgid ""
 "Hopefully, this section will help you become familiar with our "
 "application, so that you can begin making friends and exploring the "
 "metaverse."
-msgstr ""
-"新しいアプリケーションを使い始めるのは難しいものです。ソフトウェアをインスト"
-"ールし、操作を覚えるのは決して楽しいことではありません。このセクションでは、"
-"私たちのアプリケーションに慣れ親しみ、友達を作り、メタバースを探検し始めるた"
-"めの手助けになることを願っています。"
+msgstr "新しいアプリケーションを使い始めるのは難しいものです。ソフトウェアをインストールし、操作を覚えるのは決して楽しいことではありません。このセクションでは、私たちのアプリケーションに慣れ親しみ、友達を作り、メタバースを探検し始めるための手助けになることを願っています。"
 
 #: ../../source/explore/get-started/adjust-settings.rst:2
 #, fuzzy
@@ -18254,11 +18173,7 @@ msgid ""
 "virtual worlds as virtual reality (VR) and desktop experiences. You can "
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
-msgstr ""
-"Overteは、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワー"
-"ルドを作成し、共有することができるオープンソースのソフトウェアです。自分だけ"
-"のワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会っ"
-"てつながったり、VRイベントを主催／参加したりすることができます。"
+msgstr "Overteは、バーチャルリアリティ（VR）やデスクトップ体験としてのバーチャルワールドを作成し、共有することができるオープンソースのソフトウェアです。自分だけのワールドを作ってホストしたり、他のワールドを探検したり、他のユーザーと会ってつながったり、VRイベントを主催／参加したりすることができます。"
 
 #: ../../source/home.rst:10
 msgid ""
@@ -18268,20 +18183,15 @@ msgid ""
 "your virtual environment. No matter where you go in Overte, you will "
 "always be able to interact with your environment, engage with your "
 "friends, and listen to conversations just like you would in real life."
-msgstr ""
-"Overteのバーチャルワールドソフトウェアには、アバターとのインタラクション、空"
-"間化されたオーディオ、インタラクティブな物理演算などのソーシャル機能が組み込"
-"まれています。さらに、あらゆる3Dオブジェクトをバーチャル環境にインポートする"
-"ことができます。Overteでは、どこに行っても、現実の生活と同じように、環境とイ"
-"ンタラクションしたり、友達と交流したり、会話を聞いたりすることができます。"
+msgstr "Overteのバーチャルワールドソフトウェアには、アバターとのインタラクション、空間化されたオーディオ、インタラクティブな物理演算などのソーシャル機能が組み込まれています。さらに、あらゆる3Dオブジェクトをバーチャル環境にインポートすることができます。Overteでは、どこに行っても、現実の生活と同じように、環境とインタラクションしたり、友達と交流したり、会話を聞いたりすることができます。"
 
 #: ../../source/home.rst:14
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
-":doc:`Overteをダウンロードする <explore/get-started/install>` |Download| か、"
-" :doc:`ギャラリーをご覧ください<explore/gallery>` |Gallery|。"
+":doc:`Overteをダウンロードする <explore/get-started/install>` |Download| か、 "
+":doc:`ギャラリーをご覧ください<explore/gallery>` |Gallery|。"
 
 #: ../../source/home.rst:17
 msgid ""
@@ -18289,13 +18199,12 @@ msgid ""
 "Overte `Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| or "
 "`Discord server <https://discord.gg/4YuQvc8K2f>`_ |Discord|."
 msgstr ""
-"ドキュメントに加えて、Overte の `Discord サーバー <https://discord.gg/"
-"4YuQvc8K2f>`__ |Discord| に参加することもできます。"
+"ドキュメントに加えて、Overte の `Discord サーバー <https://discord.gg/4YuQvc8K2f>`__ "
+"|Discord| に参加することもできます。"
 
 #: ../../source/home.rst:20
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
-msgstr "このドキュメンテーションの原文は `英語 <https://docs.overte.org/>`_ "
-"で執筆されたものです。"
+msgstr "このドキュメンテーションの原文は `英語 <https://docs.overte.org/>`_ で執筆されたものです。"
 
 #: ../../source/home.rst:22
 msgid "The following translations are available:"
@@ -18335,8 +18244,8 @@ msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
 msgstr ""
-":doc:`探索する <explore>`: メタバースのドメイン間を行き来したり、イベントに参"
-"加したり、他のユーザーが何をしているかをチェックしたりしましょう！"
+":doc:`探索する <explore>`: "
+"メタバースのドメイン間を行き来したり、イベントに参加したり、他のユーザーが何をしているかをチェックしたりしましょう！"
 
 #: ../../source/home.rst:38
 msgid ""
@@ -18348,9 +18257,7 @@ msgstr ":doc:`作る<create>`: アバターやドメイン、タブレットア�
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
-msgstr ""
-":doc:`スクリプト<script>`: 高度なスクリプトをメタバースのエンティティやアバタ"
-"ーに適用することで、創造性を発揮することができます。"
+msgstr ":doc:`スクリプト<script>`: 高度なスクリプトをメタバースのエンティティやアバターに適用することで、創造性を発揮することができます。"
 
 #: ../../source/home.rst:40
 msgid ""
@@ -30058,16 +29965,14 @@ msgid ""
 "things: creating content, moving your avatar, playing audio at a specific"
 " location, wearing an avatar attachment, and much more."
 msgstr ""
-"Overte では、コンテンツの作成、アバターの移動、特定の場所での音声再生、アバタ"
-"ーアタッチメントの装着など、さまざまなことでスクリプト（JavaScript）を使って"
-"います。"
+"Overte "
+"では、コンテンツの作成、アバターの移動、特定の場所での音声再生、アバターアタッチメントの装着など、さまざまなことでスクリプト（JavaScript）を使っています。"
 
 #: ../../source/script.rst:7
 msgid ""
 "Throughout this chapter, learn about the different types of scripts and "
 "how you can use them to create new experiences:"
-msgstr "この章全体を通して、さまざまな種類のスクリプトと、それらを使用して新しいエク"
-"スペリエンスを作成する方法について学習します。"
+msgstr "この章全体を通して、さまざまな種類のスクリプトと、それらを使用して新しいエクスペリエンスを作成する方法について学習します。"
 
 #: ../../source/script/assignment-client-scripts.md:3
 #, fuzzy
@@ -35494,3 +35399,68 @@ msgstr "メタバースセッションUUID"
 
 #~ msgid "Windows 8.1 64-bit, Windows 10 64-bit, or Windows 11 64-bit"
 #~ msgstr ""
+
+#~ msgid "Unity (Recommended versions: 2017.4.17f1 - 2018.2.12f1)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Overte Avatar Exporter for Unity "
+#~ "<https://github.com/overte-org/overte/blob/master/tools"
+#~ "/unity-avatar-"
+#~ "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Import'. The package's files are"
+#~ " added to the Assets folder. You "
+#~ "should now have a 'High Fidelity' "
+#~ "menu in Unity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Make sure that you have the "
+#~ "`avatar exporter installed <#install-the-"
+#~ "avatar-exporter>`_. Open the 'High "
+#~ "Fidelity' menu in the top menu "
+#~ "bar, then select 'Export New Avatar'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Give your avatar project a name. "
+#~ "The default project location is your "
+#~ "local user's ``Documents\\High Fidelity "
+#~ "Projects`` directory, which is created "
+#~ "automatically for you. Though we "
+#~ "recommend that you keep your avatars "
+#~ "in this directory, you can change "
+#~ "it to another location on your "
+#~ "computer."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are using any external "
+#~ "textures with your avatar model, copy"
+#~ " those textures to your local user's"
+#~ " ``Documents\\High Fidelity Projects\\avatar\\<project"
+#~ " name>\\textures`` directory. Otherwise, they "
+#~ "may not show up on your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At a minimum, avatars in Overte "
+#~ "must have an FBX, glTF, or GLB "
+#~ "model, and an associated FST file "
+#~ "that includes information about how your"
+#~ " avatar looks and behaves. Together, "
+#~ "these two files (with any optional "
+#~ "texture or script) form an \"avatar "
+#~ "package\". There are two ways you "
+#~ "can create an avatar package: by "
+#~ "using the `Avatar Packager`_ in "
+#~ "Interface or the `Overte Avatar Exporter"
+#~ " for Unity (unmaintained)`_ in Unity."
+#~ msgstr ""
+
+#~ msgid "Overte Avatar Exporter for Unity (unmaintained)"
+#~ msgstr ""
+
