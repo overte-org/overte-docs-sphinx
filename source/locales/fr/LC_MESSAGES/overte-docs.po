@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2023-08-14 21:14+0000\n"
-"PO-Revision-Date: 2023-03-17 05:39+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2023-08-18 22:17+0000\n"
+"Last-Translator: Melany Fonseca <andropeminer@gmail.com>\n"
+"Language-Team: French <https://weblate.overte.org/projects/overte/"
+"overte-documentation/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://hosted.weblate.org/projects/overte/overte-"
-"documentation/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -4404,7 +4405,7 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
 msgid "Overte"
-msgstr ""
+msgstr "Overte"
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid ""
@@ -10239,7 +10240,7 @@ msgstr "Interface"
 #: ../../source/release-notes/2021-1-0-Eos.md:48
 #: ../../source/release-notes/2021-1-1-Eos.md:55
 msgid "Domain Server"
-msgstr "Serveur de Domaine"
+msgstr "Serveur de domaine"
 
 #: ../../source/developer.rst:11 ../../source/developer/assignment-client.rst:3
 #: ../../source/explore/get-started/architecture.rst:69
@@ -10307,9 +10308,8 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:23
 #: ../../source/developer/interface/debugging.md:3
-#, fuzzy
 msgid "Windows"
-msgstr "Windows MR"
+msgstr "Windows"
 
 #: ../../source/developer/INSTALLER.md:27
 msgid "To produce an executable installer on Windows, the following are required:"
@@ -10665,7 +10665,6 @@ msgid "`make package` to create the package."
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:128
-#, fuzzy
 msgid "Linux"
 msgstr "Linux"
 
@@ -37287,4 +37286,3 @@ msgstr "Séance de métaverse UUID"
 
 #~ msgid "Overte Avatar Exporter for Unity (unmaintained)"
 #~ msgstr ""
-
