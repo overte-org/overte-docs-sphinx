@@ -1,6 +1,7 @@
 //
 //  Created by Luis Cuenca on 3/8/19
 //  Copyright 2018 High Fidelity, Inc.
+//  Copyright 2023 Overte e.V.
 //
 //
 //  Distributed under the Apache License, Version 2.0.
@@ -11,21 +12,22 @@
 */
 
 (function () {
-    // Adding some additional time befor load fix an issue when updating the debugging overlays
+    // Adding some additional time before load fix an issue when updating the debugging overlays (local entities)
     var MS_AFTER_LOADING = 500;
     Script.setTimeout(function() {
         Script.registerValue("FLOWAPP", true);
 
         var TABLET_BUTTON_NAME = "FLOW";
         var HTML_URL = Script.resolvePath("./flowAppCpp.html");
-        
+
         var SHOW_AVATAR = true;
         var SHOW_DEBUG_SHAPES = false;
         var SHOW_SOLID_SHAPES = false;
-        
+        var POLYLINE_TEXTURE = Script.resolvePath("./polylineTexture.png");
+
         var USE_COLLISIONS = false;
         var IS_ACTIVE = false;
-        
+
         var MSG_DOCUMENT_LOADED = 0;
         var MSG_JOINT_INPUT_DATA = 1;
         var MSG_COLLISION_DATA = 2;
@@ -34,53 +36,22 @@
         var MSG_CREATE = 5;
 
         var avatarScale = MyAvatar.getSensorToWorldScale();
-        
+
         var tablet = Tablet.getTablet("com.highfidelity.interface.tablet.system");
         var tabletButton = tablet.addButton({
             text: TABLET_BUTTON_NAME,
             icon: Script.resolvePath("./flow-i.svg"),
             activeIcon: Script.resolvePath("./flow-a.svg")
         });
-        
+
         var FlowDebug = function() {
             var self = this;
             this.debugLines = {};
             this.debugSpheres = {};
-            this.debugCubes = {};
             this.showDebugShapes = false;
-            this.showSolidShapes = false;
-            
-            this.setDebugCube = function(cubeName, cubePosition, cubeRotation, cubeDimensions, shapeColor, forceRendering) {
-                var doRender = self.showDebugShapes || forceRendering;
-                if (!doRender) {
-                    return;
-                }
-                var position = cubePosition ? cubePosition : {x: 0, y: 0, z: 0};
-                var rotation = cubeRotation ? cubeRotation : {x: 0, y: 0, z: 0, w: 0};
-                var dimensions = cubeDimensions ? cubeDimensions : {x: 1, y: 1, z: 1};
-                var color = shapeColor !== undefined ? shapeColor : { red: 0, green: 255, blue: 255 };
-                if (self.debugCubes[cubeName] !== undefined) {
-                    Overlays.editOverlay(self.debugCubes[cubeName], {
-                        position: position,
-                        rotation: rotation,
-                        dimensions: dimensions,
-                        color: color,
-                        solid: self.showSolidShapes,
-                        visible: true
-                    });
-                } else {
-                    self.debugCubes[cubeName] = Overlays.addOverlay("cube", {
-                        position: position,
-                        rotation: rotation,
-                        dimensions: dimensions,
-                        color: color,
-                        solid: self.showSolidShapes,
-                        visible: true
-                    });
-                }
-            };
-            
-            this.setDebugLine = function(lineName, startPosition, endPosition, shapeColor, width, forceRendering) {
+            this.showSolidShapes = "lines"; // wireframe
+
+            this.setDebugLine = function(lineName, norms, startPosition, endPosition, shapeColor, width, forceRendering) {
                 var doRender = self.showDebugShapes || forceRendering;
                 if (!doRender) {
                     return;
@@ -89,24 +60,25 @@
                 var end = endPosition ? endPosition : {x: 0, y: 1, z: 0};
                 var color = shapeColor ? shapeColor : { red: 0, green: 255, blue: 255 };
                 if (self.debugLines[lineName] !== undefined) {
-                    Overlays.editOverlay(self.debugLines[lineName], {
+                    Entities.editEntity(self.debugLines[lineName], {
                         color: color,
-                        start: start,
-                        end: end,
-                        visible: true,
-                        lineWidth: width
+                        linePoints: [start, end],
+                        strokeWidths: [width, width],
                     });
                 } else {
-                    self.debugLines[lineName] = Overlays.addOverlay("line3d", {
+                    self.debugLines[lineName] = Entities.addEntity({
+                        type: "PolyLine",
+                        textures: POLYLINE_TEXTURE,
                         color: color,
-                        start: start,
-                        end: end,
+                        normals: norms,
+                        linePoints: [start, end],
                         visible: true,
-                        lineWidth: width
-                    });
+                        strokeWidths: [width, width],
+                        collisionless: true
+                    }, "local");
                 }
             };
-            
+
             this.setDebugSphere = function(sphereName, pos, diameter, shapeColor, forceRendering) {
                 var doRender = self.showDebugShapes || forceRendering;
                 if (!doRender) {
@@ -116,39 +88,35 @@
                 var scale = diameter ? diameter : DEFAULT_SPHERE_DIAMETER;
                 var color = shapeColor ? shapeColor : { red: 255, green: 0, blue: 255 };
                 if (self.debugSpheres[sphereName] !== undefined) {
-                    Overlays.editOverlay(self.debugSpheres[sphereName], {
+                    Entities.editEntity(self.debugSpheres[sphereName], {
                         color: color,
                         position: pos,
-                        scale: {x: scale, y: scale, z: scale},
-                        solid: self.showSolidShapes,
-                        visible: true
+                        dimensions: {x: scale, y: scale, z: scale},
+                        primitiveMode: self.showSolidShapes,
                     });
                 } else {
-                    self.debugSpheres[sphereName] = Overlays.addOverlay("sphere", {
+                    self.debugSpheres[sphereName] = Entities.addEntity({
+                        type: "Sphere",
                         color: color,
                         position: pos,
-                        scale: {x: scale, y: scale, z: scale},
-                        solid: self.showSolidShapes,
-                        visible: true
-                    });
+                        dimensions: {x: scale, y: scale, z: scale},
+                        primitiveMode: self.showSolidShapes,
+                        visible: true,
+                        collisionless: true
+                    }, "local");
                 }
             };
-            
+
             this.deleteSphere = function(name) {
-                Overlays.deleteOverlay(self.debugSpheres[name]);
+                Entities.deleteEntity(self.debugSpheres[name]);
                 self.debugSpheres[name] = undefined;
             };
-            
+
             this.deleteLine = function(name) {
-                Overlays.deleteOverlay(self.debugLines[name]);
+                Entities.deleteEntity(self.debugLines[name]);
                 self.debugLines[name] = undefined;
             };
-            
-            this.deleteCube = function(name) {
-                Overlays.deleteOverlay(self.debugCubes[name]);
-                self.debugCubes[name] = undefined;
-            };
-            
+
             this.cleanup = function() {
                 for (var lineName in self.debugLines) {
                     if (lineName !== undefined) {
@@ -160,68 +128,66 @@
                         self.deleteSphere(sphereName);
                     }
                 }
-                for (var cubeName in self.debugCubes) {
-                    if (cubeName!== undefined) {
-                        self.deleteCube(cubeName);
-                    }
-                }
                 self.debugLines = {};
                 self.debugSpheres = {};
-                self.debugCubes = {};
             };
-            
+
             this.setVisible = function(isVisible) {
                 self.showDebugShapes = isVisible;
                 for (var lineName in self.debugLines) {
                     if (lineName !== undefined) {
-                        Overlays.editOverlay(self.debugLines[lineName], {
+                        Entities.editEntity(self.debugLines[lineName], {
                             visible: isVisible
                         });
                     }
                 }
                 for (var sphereName in self.debugSpheres) {
                     if (sphereName !== undefined) {
-                        Overlays.editOverlay(self.debugSpheres[sphereName], {
+                        Entities.editEntity(self.debugSpheres[sphereName], {
                             visible: isVisible
                         });
                     }
                 }
             };
-            
+
             this.setSolid = function(isSolid) {
-                self.showSolidShapes = isSolid;
+                if(isSolid) {
+                    self.showSolidShapes = "solid"
+                } else {
+                    self.showSolidShapes = "lines"
+                }
                 for (var lineName in self.debugLines) {
                     if (lineName !== undefined) {
-                        Overlays.editOverlay(self.debugLines[lineName], {
-                            solid: isSolid
+                        Entities.editEntity(self.debugLines[lineName], {
+                            primitiveMode: self.showSolidShapes
                         });
                     }
                 }
                 for (var sphereName in self.debugSpheres) {
                     if (sphereName !== undefined) {
-                        Overlays.editOverlay(self.debugSpheres[sphereName], {
-                            solid: isSolid
+                        Entities.editEntity(self.debugSpheres[sphereName], {
+                            primitiveMode: self.showSolidShapes
                         });
                     }
                 }
-            };       
+            };
 
         };
-        
+
         var flowData, initActive, initColliding, initDebugging;
         updateFlowData(true);
         var collisionDebug = new FlowDebug();
         var jointDebug = new FlowDebug();
-        
+
         collisionDebug.setVisible(SHOW_DEBUG_SHAPES);
         collisionDebug.setSolid(SHOW_SOLID_SHAPES);
-        
+
         MyAvatar.setEnableMeshVisible(SHOW_AVATAR);
         jointDebug.setVisible(SHOW_DEBUG_SHAPES);
         jointDebug.setSolid(SHOW_SOLID_SHAPES);
-            
+
         var shown = false;
-        
+
         function manageClick() {
             if (shown) {
                 MyAvatar.useFlow(initActive, initColliding);
@@ -414,24 +380,24 @@
                 }
             }
         }
-        
+
         tablet.screenChanged.connect(onScreenChanged);
-        
+
         function createHTMLMenu() {
             jointNames = MyAvatar.getJointNames();
-            tablet.emitScriptEvent(JSON.stringify(  
+            tablet.emitScriptEvent(JSON.stringify(
                 {
-                    "type": MSG_CREATE, 
+                    "type": MSG_CREATE,
                     "data": {
-                        "display": getDisplayData(), 
-                        "group": flowData.physics, 
+                        "display": getDisplayData(),
+                        "group": flowData.physics,
                         "collisions": flowData.collisions,
                         "joints": jointNames
                     }
-                }  
+                }
             ));
         }
-        
+
         function shutdownTabletApp() {
             MyAvatar.useFlow(initActive, initColliding);
             tablet.removeButton(tabletButton);
@@ -508,18 +474,22 @@
                             color = flowCollisionColors[index1];
                             var DEFAULT_LINE_WIDTH = 0.004;
                             var lineWidth = DEFAULT_LINE_WIDTH * avatarScale;
-                            jointDebug.setDebugLine(lineName, flowPositions[index1], flowPositions[index2], color, lineWidth);
+                            // We are creating two PolyLines with different normals, to make them more visible from the sides.
+                            var LINE_NORMALS_1 = [{ x: 0, y: 0, z: 1 }, { x: 0, y: 0, z: 1 }];
+                            var LINE_NORMALS_2 = [{ x: 1, y: 0, z: 0 }, { x: 1, y: 0, z: 0 }];
+                            jointDebug.setDebugLine(lineName + "_1", LINE_NORMALS_1, flowPositions[index1], flowPositions[index2], color, lineWidth);
+                            jointDebug.setDebugLine(lineName + "_2", LINE_NORMALS_2, flowPositions[index1], flowPositions[index2], color, lineWidth);
                         }
                     }
                 }
             }
         });
-        
+
         Script.scriptEnding.connect(function () {
             collisionDebug.cleanup();
             jointDebug.cleanup();
             shutdownTabletApp();
         });
     }, MS_AFTER_LOADING);
-    
+
 }());
