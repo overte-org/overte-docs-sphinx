@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-08-14 21:14+0000\n"
+"POT-Creation-Date: 2023-08-19 07:22+0000\n"
 "PO-Revision-Date: 2023-03-17 05:39+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: es\n"
@@ -12849,7 +12849,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:98
-#: ../../source/developer/build/BUILD_OSX.md:87 ../../source/home.rst:46
+#: ../../source/developer/build/BUILD_OSX.md:87 ../../source/home.rst:47
 msgid "FAQ"
 msgstr "PREGUNTAS FRECUENTES"
 
@@ -20771,43 +20771,43 @@ msgstr ""
 "controlador \"Recomendada\". Simplemente descarga e instala siguiendo los"
 " mismos pasos que arriba."
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "HOME"
 msgstr "INICIO"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "EXPLORE"
 msgstr "EXPLORAR"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "CREATE"
 msgstr "CREAR"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "SCRIPT"
 msgstr "CODIFICAR"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "HOST"
 msgstr "ALOJAR"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "CONTRIBUTE"
 msgstr "CONTRIBUIR"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "DEVELOP"
 msgstr "DESARROLLAR"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "SECURITY"
 msgstr "SEGURIDAD"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "RELEASE NOTES"
 msgstr "NOTAS DE VERSION"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "API REFERENCE"
 msgstr "REFERENCIA DE API"
 
@@ -20900,18 +20900,23 @@ msgstr "`Japonés <https://docs.vircadia.com/jp/>`_ |jp_trans|"
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`Japonés <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/home.rst:33
+#: ../../source/home.rst:29
+#, fuzzy
+msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
+msgstr "`Español <https://docs.vircadia.com/es/>`_ |es_trans|"
+
+#: ../../source/home.rst:34
 msgid "What can I do?"
 msgstr "¿Qué puedo hacer?"
 
-#: ../../source/home.rst:35
+#: ../../source/home.rst:36
 #, fuzzy
 msgid "You have the power to shape your VR experience in Overte."
 msgstr ""
 "Tienes el poder darle forma a tu experiencia de Realidad Virtual en "
 "Overte."
 
-#: ../../source/home.rst:37
+#: ../../source/home.rst:38
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -20919,7 +20924,7 @@ msgstr ""
 ":doc:`EXPLORA <explore>` saltando entre dominios en el metaverso, asiste "
 "a eventos y mira lo que otros están haciendo!"
 
-#: ../../source/home.rst:38
+#: ../../source/home.rst:39
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
@@ -20928,7 +20933,7 @@ msgstr ""
 "avatars, dominios, aplicaciones para tablet y más para que tú y otros "
 "disfruten."
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:40
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
@@ -20937,7 +20942,7 @@ msgstr ""
 "de conceptos avanzados de codificación a entidades y avatares en el "
 "metaverso."
 
-#: ../../source/home.rst:40
+#: ../../source/home.rst:41
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
@@ -20945,11 +20950,11 @@ msgstr ""
 ":doc:`ALOJA <host>` y crea experiencias inmersivas para educar, "
 "entretener y conectar con tu audiencia."
 
-#: ../../source/home.rst:41
+#: ../../source/home.rst:42
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ":doc:`CONTRIBUIR <contribute>` al esfuerzo del proyecto."
 
-#: ../../source/home.rst:42
+#: ../../source/home.rst:43
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
@@ -20957,7 +20962,7 @@ msgstr ""
 ":doc:`DESARROLLE <developer>` el proyecto y adáptelo a sus necesidades, o"
 " simplemente puede hacerlo para ayudar."
 
-#: ../../source/home.rst:43
+#: ../../source/home.rst:44
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."

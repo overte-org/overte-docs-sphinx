@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2023-08-14 21:14+0000\n"
+"POT-Creation-Date: 2023-08-19 07:22+0000\n"
 "PO-Revision-Date: 2023-07-30 20:17+0000\n"
 "Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
 "Language: ja\n"
@@ -11014,7 +11014,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:98
-#: ../../source/developer/build/BUILD_OSX.md:87 ../../source/home.rst:46
+#: ../../source/developer/build/BUILD_OSX.md:87 ../../source/home.rst:47
 msgid "FAQ"
 msgstr "よくある質問"
 
@@ -18123,43 +18123,43 @@ msgid ""
 "same steps as above."
 msgstr "新しいバージョンを使用している場合は、「推奨」ドライバーバージョンにダウングレードしてみてください。上記と同じ手順でダウンロードしてインストールします。"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "HOME"
 msgstr "はじめる"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "EXPLORE"
 msgstr "探索する"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "CREATE"
 msgstr "作る"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "SCRIPT"
 msgstr "スクリプト"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "HOST"
 msgstr "ホスト"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "CONTRIBUTE"
 msgstr "貢献する"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "DEVELOP"
 msgstr "開発"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "SECURITY"
 msgstr "セキュリティ"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "RELEASE NOTES"
 msgstr "リリースノート"
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "API REFERENCE"
 msgstr "APIレファレンス"
 
@@ -18231,15 +18231,20 @@ msgstr "`日本語 <https://docs.overte.org/jp/latest/>`_ |jp_trans|"
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 
-#: ../../source/home.rst:33
+#: ../../source/home.rst:29
+#, fuzzy
+msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
+msgstr "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
+
+#: ../../source/home.rst:34
 msgid "What can I do?"
 msgstr "Overteで出来ること"
 
-#: ../../source/home.rst:35
+#: ../../source/home.rst:36
 msgid "You have the power to shape your VR experience in Overte."
 msgstr "あなたは、OverteでのVR体験を思い通りにする力を持っています。"
 
-#: ../../source/home.rst:37
+#: ../../source/home.rst:38
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -18247,36 +18252,36 @@ msgstr ""
 ":doc:`探索する <explore>`: "
 "メタバースのドメイン間を行き来したり、イベントに参加したり、他のユーザーが何をしているかをチェックしたりしましょう！"
 
-#: ../../source/home.rst:38
+#: ../../source/home.rst:39
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
 msgstr ":doc:`作る<create>`: アバターやドメイン、タブレットアプリなどを作成できます。"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:40
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
 msgstr ":doc:`スクリプト<script>`: 高度なスクリプトをメタバースのエンティティやアバターに適用することで、創造性を発揮することができます。"
 
-#: ../../source/home.rst:40
+#: ../../source/home.rst:41
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ":doc:`ホスト<host>`: 自分のインスタンスを構築し、イマーシブな体験をあなたの観客へ届けましょう。"
 
-#: ../../source/home.rst:41
+#: ../../source/home.rst:42
 #, fuzzy
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr "プロジェクトの取り組みに :doc:`貢献 <contribute>` する。"
 
-#: ../../source/home.rst:42
+#: ../../source/home.rst:43
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
 msgstr ":doc:`デベロッパー<developer>`: 自分のニーズに合わせてプロジェクトをカスタマイズできます。"
 
-#: ../../source/home.rst:43
+#: ../../source/home.rst:44
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-14 21:14+0000\n"
+"POT-Creation-Date: 2023-08-19 07:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: bg\n"
@@ -10120,7 +10120,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:98
-#: ../../source/developer/build/BUILD_OSX.md:87 ../../source/home.rst:46
+#: ../../source/developer/build/BUILD_OSX.md:87 ../../source/home.rst:47
 msgid "FAQ"
 msgstr ""
 
@@ -16330,43 +16330,43 @@ msgid ""
 "same steps as above."
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "HOME"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "EXPLORE"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "CREATE"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "SCRIPT"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "HOST"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "CONTRIBUTE"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "DEVELOP"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "SECURITY"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "RELEASE NOTES"
 msgstr ""
 
-#: ../../source/home.rst:46
+#: ../../source/home.rst:47
 msgid "API REFERENCE"
 msgstr ""
 
@@ -16433,49 +16433,53 @@ msgstr ""
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr ""
 
-#: ../../source/home.rst:33
+#: ../../source/home.rst:29
+msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
+msgstr ""
+
+#: ../../source/home.rst:34
 msgid "What can I do?"
 msgstr ""
 
-#: ../../source/home.rst:35
+#: ../../source/home.rst:36
 msgid "You have the power to shape your VR experience in Overte."
 msgstr ""
 
-#: ../../source/home.rst:37
+#: ../../source/home.rst:38
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
 msgstr ""
 
-#: ../../source/home.rst:38
+#: ../../source/home.rst:39
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
 msgstr ""
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:40
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
 msgstr ""
 
-#: ../../source/home.rst:40
+#: ../../source/home.rst:41
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ""
 
-#: ../../source/home.rst:41
+#: ../../source/home.rst:42
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ""
 
-#: ../../source/home.rst:42
+#: ../../source/home.rst:43
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
 msgstr ""
 
-#: ../../source/home.rst:43
+#: ../../source/home.rst:44
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
