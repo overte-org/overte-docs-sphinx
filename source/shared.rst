@@ -38,3 +38,6 @@
               :class: inline
               :target: https://weblate.overte.org/engage/overte/ko/?utm_source=widget
 
+.. |cs_trans| image:: https://weblate.overte.org/widgets/overte/cs/overte-documentation/svg-badge.svg
+              :class: inline
+              :target: https://weblate.overte.org/engage/overte/cs/?utm_source=widget
