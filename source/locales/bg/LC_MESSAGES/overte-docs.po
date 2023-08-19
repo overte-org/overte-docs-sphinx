@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 07:22+0000\n"
+"POT-Creation-Date: 2023-08-19 07:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: bg\n"
@@ -56,6 +56,10 @@ msgstr ""
 
 #: ../../source/shared.rst
 msgid "ko_trans"
+msgstr ""
+
+#: ../../source/shared.rst
+msgid "cs_trans"
 msgstr ""
 
 #: ../../source/contribute.rst:5
