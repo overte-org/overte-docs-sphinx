@@ -26,6 +26,7 @@ The following translations are available:
 * `Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|
 * `日本語 <https://docs.overte.org/ja/latest/>`_ |jp_trans|
 * `한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|
+* `Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|
 
 
 -------------------------
