@@ -5,21 +5,22 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Overte Docs \n"
+"Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-08-19 07:34+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2024-01-12 10:18+0000\n"
+"Last-Translator: Антон Алексеевич Бочкарев <antonalekseevich@outlook.com>\n"
+"Language-Team: Russian <https://weblate.overte.org/projects/overte/"
+"overte-documentation/ru/>\n"
 "Language: ru\n"
-"Language-Team: ru <LL@li.org>\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 4.16.4\n"
 "Generated-By: Babel 2.12.1\n"
 
 #: ../../source/shared.rst
@@ -68,6 +69,7 @@ msgid "Contribute"
 msgstr ""
 
 #: ../../source/contribute.rst:7
+#, fuzzy
 msgid ""
 "Overte is an open-source project, so all of our code and documentation is"
 " available for you to look at. You too can contribute to our endeavour "
@@ -76,14 +78,24 @@ msgid ""
 "software for creating virtual worlds. There are plenty of ways you can "
 "contribute to the various parts that make up Overte."
 msgstr ""
+"Overte - проект с открытым исходным кодом, так весь код и документация "
+"доступны для вас. Также вы можете помочь в развитии нашей метавселенной! Наш "
+"основной `git репозиторий <https://github.com/overte-org/overte>`_ содержит "
+"исходный код многих компонентов нашего программного обеспечения для создания "
+"виртуальных миров. Здесь множество путей улучшения составляющих Overte."
 
 #: ../../source/contribute.rst:11
+#, fuzzy
 msgid ""
 "If you run into any questions or seek some advice, have a look at our "
 "`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which "
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
 msgstr ""
+"Если у вас есть вопросы или нужен совет, загляните в наше `пространство в "
+"Matrix<https://matrix.to/#/#overte:overte.org>`_ |Matrix| которое связанно с "
+"нашим `сервером Discord<https://discord.gg/4YuQvc8K2f>`_ |Discord| в "
+"зависимости от ваших предпочтений."
 
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -133,7 +145,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/midi-tutorial.rst:12
 msgid "On This Page"
-msgstr ""
+msgstr "На этой странице"
 
 #: ../../source/contribute.rst:19
 #: ../../source/release-notes/2020-2-0-Asteria.md:113
@@ -153,23 +165,33 @@ msgstr ""
 #: ../../source/release-notes/2021-1-3-Eos.md:238
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
-msgstr ""
+msgstr "Документация"
 
 #: ../../source/contribute.rst:20
+#, fuzzy
 msgid "You can help create and maintain the documentation in several ways:"
 msgstr ""
+"Вы можете помочь в создании и поддерживании документации следующими "
+"способами:"
 
 #: ../../source/contribute.rst:22
+#, fuzzy
 msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
+"Сообщая об ошибках или отсутствующей информации в `трекер проблем GitHub "
+"<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 
 #: ../../source/contribute.rst:23
+#, fuzzy
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
+"Создавать или изменять страницы документации по средствам открытия `pull "
+"request через GitHub <https://github.com/overte-org/overte-docs-sphinx/"
+"pulls>`_."
 
 #: ../../source/contribute.rst:24
 msgid ""
@@ -29266,4 +29288,3 @@ msgstr ""
 
 #~ msgid "Overte Avatar Exporter for Unity (unmaintained)"
 #~ msgstr ""
-
