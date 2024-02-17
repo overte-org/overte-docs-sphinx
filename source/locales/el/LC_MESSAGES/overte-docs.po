@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-19 07:34+0000\n"
+"POT-Creation-Date: 2024-02-17 19:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: el\n"
@@ -19,7 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.12.1\n"
+"Generated-By: Babel 2.14.0\n"
 
 #: ../../source/shared.rst
 msgid "Download"
@@ -10449,7 +10449,7 @@ msgid "[Build Android](BUILD_ANDROID.md) - additional instructions for Android."
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:19
-#: ../../source/developer/build/BUILD_ANDROID.md:14
+#: ../../source/developer/build/BUILD_ANDROID.md:16
 msgid "Dependencies"
 msgstr ""
 
@@ -10858,7 +10858,14 @@ msgstr ""
 msgid "*Last Updated on December 15, 2020*"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:12
+#: ../../source/developer/build/BUILD_ANDROID.md:11
+msgid ""
+"[!WARNING]   Android building is currently broken, due to breaking "
+"changes in Qt and Gradle. Help with updating (or rewriting) the Gradle "
+"scripts would be great."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_ANDROID.md:14
 msgid ""
 "Please read the [general build guide](BUILD.md) for information on "
 "building other platforms. Only Android specific instructions are found in"
@@ -10866,29 +10873,29 @@ msgid ""
 "Oculus Quest 1.**"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:16
+#: ../../source/developer/build/BUILD_ANDROID.md:18
 msgid ""
 "Building is currently supported on Windows, OSX and Linux, but developers"
 " intending to do work on the library dependencies are strongly urged to "
 "use 64 bit Linux as a build platform."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:18
+#: ../../source/developer/build/BUILD_ANDROID.md:20
 msgid "OS specific dependencies"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:20
+#: ../../source/developer/build/BUILD_ANDROID.md:22
 msgid ""
 "Please install the dependencies for your OS using the "
 "[Windows](BUILD_WIN.md), [OSX](BUILD_OSX.md) or [Linux](BUILD_LINUX.md) "
 "build instructions before attempting to build for Android."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:22
+#: ../../source/developer/build/BUILD_ANDROID.md:24
 msgid "Android Studio"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:24
+#: ../../source/developer/build/BUILD_ANDROID.md:26
 msgid ""
 "Download the [Android "
 "Studio](https://developer.android.com/studio/index.html) installer and "
@@ -10896,39 +10903,39 @@ msgid ""
 "& Behavior_ then expand _System Settings_ and select _Android SDK_."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:26
+#: ../../source/developer/build/BUILD_ANDROID.md:28
 msgid "From the _SDK Platforms_ tab, select API levels 26 and 28."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:28
+#: ../../source/developer/build/BUILD_ANDROID.md:30
 msgid "From the _SDK Tools_ tab, select the following"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:30
+#: ../../source/developer/build/BUILD_ANDROID.md:32
 msgid "Android SDK Build-Tools"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:31
+#: ../../source/developer/build/BUILD_ANDROID.md:33
 msgid "GPU Debugging Tools"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:32
+#: ../../source/developer/build/BUILD_ANDROID.md:34
 msgid "LLDB"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:33
+#: ../../source/developer/build/BUILD_ANDROID.md:35
 msgid "Android SDK Platform-Tools"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:34
+#: ../../source/developer/build/BUILD_ANDROID.md:36
 msgid "Android SDK Tools"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:35
+#: ../../source/developer/build/BUILD_ANDROID.md:37
 msgid "NDK (even if you have the NDK installed separately)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:37
+#: ../../source/developer/build/BUILD_ANDROID.md:39
 msgid ""
 "Still in the _SDK Tools_ tab, check off _Show Package Details_ at the "
 "bottom. Select CMake 3.6.4. Do this even if you have a separate CMake "
@@ -10936,293 +10943,293 @@ msgid ""
 "higher)."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:39
+#: ../../source/developer/build/BUILD_ANDROID.md:41
 msgid ""
 "Now go back to _File_ then _Project Structure_ then under _Project_ set "
 "the Android Gradle Plugin Version to `3.2.1` and Gradle Version to "
 "`4.10.1`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:41
+#: ../../source/developer/build/BUILD_ANDROID.md:43
 msgid ""
 "If Android Studio pops open the \"Plugin Update Recommeded\" dialog, do "
 "not click update, just click X on the top right to close.  Later versions"
 " of the Gradle plugin have known issues with cz.malohlava."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:43
+#: ../../source/developer/build/BUILD_ANDROID.md:45
 msgid "Environment"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:45
+#: ../../source/developer/build/BUILD_ANDROID.md:47
 msgid "Create a keystore in Android Studio"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:46
+#: ../../source/developer/build/BUILD_ANDROID.md:48
 msgid ""
 "Follow the directions [here](https://developer.android.com/studio/publish"
 "/app-signing#generate-key) to create a keystore file. You can save it "
 "anywhere (preferably not in the `overte` folder)."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:48
+#: ../../source/developer/build/BUILD_ANDROID.md:50
 msgid "Set up machine specific Gradle properties"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:50
+#: ../../source/developer/build/BUILD_ANDROID.md:52
 msgid ""
 "Create a `gradle.properties` file in the `.gradle` folder "
 "(`$HOME/.gradle` on Unix, `Users/<yourname>/.gradle` on Windows). Edit "
 "the file to contain the following"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:60
+#: ../../source/developer/build/BUILD_ANDROID.md:62
 msgid ""
 "Note, do not use $HOME for the path. It must be a fully qualified path "
 "name. Also, be sure to use forward slashes in your path."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:62
+#: ../../source/developer/build/BUILD_ANDROID.md:64
 msgid "If you are building for an Android phone"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:64
-#: ../../source/developer/build/BUILD_ANDROID.md:73
+#: ../../source/developer/build/BUILD_ANDROID.md:66
+#: ../../source/developer/build/BUILD_ANDROID.md:75
 msgid "Add these lines to `gradle.properties`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:71
+#: ../../source/developer/build/BUILD_ANDROID.md:73
 msgid "If you are building for an Oculus Quest"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:80
+#: ../../source/developer/build/BUILD_ANDROID.md:82
 msgid ""
 "The Frame Player for both Android Phone and Oculus Quest is optional, so "
 "if you encounter problems with these during your build, you can skip them"
 " by adding these lines to `gradle.properties`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:87
+#: ../../source/developer/build/BUILD_ANDROID.md:89
 msgid "Clone the repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:89
+#: ../../source/developer/build/BUILD_ANDROID.md:91
 msgid "`git clone https://github.com/overte-org/overte.git`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:91
+#: ../../source/developer/build/BUILD_ANDROID.md:93
 msgid "Building & Running"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:93
+#: ../../source/developer/build/BUILD_ANDROID.md:95
 msgid "Building Modules"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:95
+#: ../../source/developer/build/BUILD_ANDROID.md:97
 msgid "Open Android Studio"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:96
+#: ../../source/developer/build/BUILD_ANDROID.md:98
 msgid "Choose _Open an existing Android Studio project_"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:97
+#: ../../source/developer/build/BUILD_ANDROID.md:99
 msgid ""
 "Navigate to the `overte` repository that had you cloned and choose the "
 "`android` folder and select _OK_"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:98
+#: ../../source/developer/build/BUILD_ANDROID.md:100
 msgid ""
 "Wait for Gradle to sync (this should take around 20 minutes the first "
 "time)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:99
+#: ../../source/developer/build/BUILD_ANDROID.md:101
 msgid ""
 "If a dialog pops open saying \"Plugin Update Recommeded\" dialog, do not "
 "click update, just click X on the top right to close."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:100
+#: ../../source/developer/build/BUILD_ANDROID.md:102
 msgid ""
 "In the _Project_ window click on the project you wish to build (i.e. "
 "\"questInterface\") then click _Build_ in the top menu and choose _Make "
 "Module 'questInterface'_"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:101
+#: ../../source/developer/build/BUILD_ANDROID.md:103
 msgid ""
 "By default this will build the \"debug\" apk, you can change this by "
 "opening the _Build Variants_ window along the left side and select other "
 "build types such as \"release\"."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:102
+#: ../../source/developer/build/BUILD_ANDROID.md:104
 msgid ""
 "Your newly build APK should reside in "
 "`overte\\android\\apps\\questInterface\\release` (if you chose release)."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:104
+#: ../../source/developer/build/BUILD_ANDROID.md:106
 msgid "Running a Module"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:106
+#: ../../source/developer/build/BUILD_ANDROID.md:108
 msgid ""
 "You are free to use the \"adb\" command line or other development tools "
 "to install (sideload on Quest) your newly built APK, or you can follow "
 "the instructions below to load the APK via Android Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:108
+#: ../../source/developer/build/BUILD_ANDROID.md:110
 msgid ""
 "In the toolbar at the top of Android Studio, next to the green hammer "
 "icon, you should see a dropdown menu."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:109
+#: ../../source/developer/build/BUILD_ANDROID.md:111
 msgid ""
 "You may already see a configuration for the module you are trying to "
 "build. If so, select it."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:110
+#: ../../source/developer/build/BUILD_ANDROID.md:112
 msgid "Otherwise, select _Edit Configurations_."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:112
+#: ../../source/developer/build/BUILD_ANDROID.md:114
 msgid "Your configuration should be as follows"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:114
+#: ../../source/developer/build/BUILD_ANDROID.md:116
 msgid "Type: Android App"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:115
+#: ../../source/developer/build/BUILD_ANDROID.md:117
 msgid "Module: <your module> (you probably want `interface` or `questInterface`)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:117
+#: ../../source/developer/build/BUILD_ANDROID.md:119
 msgid "For the interface modules, you also need to select the activity to launch."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:119
+#: ../../source/developer/build/BUILD_ANDROID.md:121
 msgid "For the Android phone interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:121
-#: ../../source/developer/build/BUILD_ANDROID.md:126
+#: ../../source/developer/build/BUILD_ANDROID.md:123
+#: ../../source/developer/build/BUILD_ANDROID.md:128
 msgid "From the _Launch_ drop down menu, select _Specified Activity_"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:122
+#: ../../source/developer/build/BUILD_ANDROID.md:124
 msgid ""
 "In the _Activity_ field directly below, put "
 "`io.highfidelity.hifiinterface.PermissionChecker`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:124
+#: ../../source/developer/build/BUILD_ANDROID.md:126
 msgid "For the Oculus Quest interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:127
+#: ../../source/developer/build/BUILD_ANDROID.md:129
 msgid ""
 "In the _Activity_ field directly below, put "
 "`io.highfidelity.questInterface.PermissionsChecker`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:129
+#: ../../source/developer/build/BUILD_ANDROID.md:131
 msgid "Note the 's' in Permission**s**Checker for the Quest."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:131
+#: ../../source/developer/build/BUILD_ANDROID.md:133
 msgid ""
 "Now you are able to run your module! Click the green play button in the "
 "top toolbar of Android Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:133
+#: ../../source/developer/build/BUILD_ANDROID.md:135
 #: ../../source/developer/build/BUILD_WIN.md:142
 #: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
 msgid "Troubleshooting"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:135
+#: ../../source/developer/build/BUILD_ANDROID.md:137
 msgid "To view a more complete debug log,"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:137
+#: ../../source/developer/build/BUILD_ANDROID.md:139
 msgid ""
 "Click the icon with the two overlapping squares in the upper left corner "
 "of the tab where the sync is running (hover text says _Toggle view_)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:138
+#: ../../source/developer/build/BUILD_ANDROID.md:140
 msgid ""
 "To change verbosity, click _File > Settings_. Under _Build, Execution, "
 "Deployment > Compiler_ you can add command-line flags, as per Gradle "
 "documentation"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:140
+#: ../../source/developer/build/BUILD_ANDROID.md:142
 msgid ""
 "If you encounter CMake issues, try adding the following system "
 "environment variable:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:142
+#: ../../source/developer/build/BUILD_ANDROID.md:144
 msgid ""
 "With your start menu, search for 'Edit the System Environment Variables' "
 "and open it."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:143
+#: ../../source/developer/build/BUILD_ANDROID.md:145
 msgid "Click on 'Advanced' tab, then 'Environment Variables'"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:144
+#: ../../source/developer/build/BUILD_ANDROID.md:146
 msgid "Select 'New' under System variables"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:145
+#: ../../source/developer/build/BUILD_ANDROID.md:147
 msgid "Set \"Variable name\" to QT_CMAKE_PREFIX_PATH"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:146
+#: ../../source/developer/build/BUILD_ANDROID.md:148
 msgid ""
 "Set \"Variable value\" to the directory that your android build placed "
 "the CMake 3.6.4 library CMake directory (i.e. android\\qt\\lib\\cmake)."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:148
+#: ../../source/developer/build/BUILD_ANDROID.md:150
 msgid "Some things you can try if you want to do a clean build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:150
+#: ../../source/developer/build/BUILD_ANDROID.md:152
 msgid ""
 "Delete the `build` and `.externalNativeBuild` folders from the folder for"
 " each module you're building (for example, "
 "`overte/android/apps/interface`)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:151
+#: ../../source/developer/build/BUILD_ANDROID.md:153
 msgid ""
 "If you have set your `HIFI_VCPKG_ROOT` environment variable, delete the "
 "contents of that directory; otherwise, delete `AppData/Local/Temp/hifi`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:152
+#: ../../source/developer/build/BUILD_ANDROID.md:154
 msgid ""
 "In Android Studio, click _File > Invalidate Caches / Restart_ and select "
 "_Invalidate and Restart_"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:154
+#: ../../source/developer/build/BUILD_ANDROID.md:156
 msgid "If you see lots of \"couldn't acquire lock\" errors,"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_ANDROID.md:155
+#: ../../source/developer/build/BUILD_ANDROID.md:157
 msgid "Open Task Manager and close any running Clang / Gradle processes"
 msgstr ""
 
@@ -12024,7 +12031,7 @@ msgid "Restart your computer"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:147
-msgid "Redownload the [repository](https://github.com/overte.org/overte)"
+msgid "Redownload the [repository](https://github.com/overte-org/overte)"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:148
@@ -16251,15 +16258,11 @@ msgid ""
 msgstr ""
 
 #: ../../source/faq.rst:193
-msgid "Known broken driver versions include:"
-msgstr ""
-
-#: ../../source/faq.rst:195
-msgid "``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics)"
-msgstr ""
-
-#: ../../source/faq.rst:196
-msgid "``20.11.2 27.20.14501.18003`` (crashing)"
+msgid ""
+"Known broken driver versions include: * ``23.12.1 31.0.23013.1023`` - "
+"``24.1.1 31.0.24002.92`` - not fixed yet (very low performance) * "
+"``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics) "
+"* ``20.11.2 27.20.14501.18003`` (crashing)"
 msgstr ""
 
 #: ../../source/faq.rst:198
@@ -29264,5 +29267,19 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Overte Avatar Exporter for Unity (unmaintained)"
+#~ msgstr ""
+
+#~ msgid "Redownload the [repository](https://github.com/overte.org/overte)"
+#~ msgstr ""
+
+#~ msgid "Known broken driver versions include:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "``21.8.2 27.20.22025.1006`` - ``21.10.2 "
+#~ "21.30.25.05`` (mangled graphics)"
+#~ msgstr ""
+
+#~ msgid "``20.11.2 27.20.14501.18003`` (crashing)"
 #~ msgstr ""
 
