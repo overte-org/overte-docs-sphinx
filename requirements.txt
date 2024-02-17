@@ -9,5 +9,12 @@ myst-parser>=0.14.0, <0.17.0
 # myst-parser < 0.17.2 requires attrs but the package doesn't depend on it.
 attrs
 
+# ReadTheDocs indirectly depends on some too new extension versions. Upgrading myst-parser later should fix this.
+sphinxcontrib-applehelp<=1.0.4
+sphinxcontrib-devhelp<=1.0.5
+sphinxcontrib-htmlhelp<=2.0.4
+sphinxcontrib-serializinghtml<=1.1.9
+sphinxcontrib-qthelp<=1.0.6
+
 # Utility for easily running builds in Python virtual environments.
 venv-run

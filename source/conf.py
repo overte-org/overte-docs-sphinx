@@ -20,7 +20,7 @@
 # -- Project information -----------------------------------------------------
 
 project = 'Overte Docs'
-copyright = '2019, High Fidelity. © Copyright 2021, Vircadia. Copyright 2022-2023, Overte e.V.'
+copyright = '2019, High Fidelity. © Copyright 2021, Vircadia. Copyright 2022-2024, Overte e.V.'
 author = 'Overte e.V.'
 
 # The short X.Y version
