@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-17 19:55+0000\n"
+"POT-Creation-Date: 2024-02-17 21:45+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: lv\n"
@@ -16259,20 +16259,30 @@ msgid ""
 msgstr ""
 
 #: ../../source/faq.rst:193
-msgid ""
-"Known broken driver versions include: * ``23.12.1 31.0.23013.1023`` - "
-"``24.1.1 31.0.24002.92`` - not fixed yet (very low performance) * "
-"``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics) "
-"* ``20.11.2 27.20.14501.18003`` (crashing)"
+msgid "Known broken driver versions include:"
 msgstr ""
 
-#: ../../source/faq.rst:198
+#: ../../source/faq.rst:195
+msgid ""
+"``23.12.1 31.0.23013.1023`` - ``24.1.1 31.0.24002.92`` - not fixed yet "
+"(very low performance)"
+msgstr ""
+
+#: ../../source/faq.rst:196
+msgid "``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics)"
+msgstr ""
+
+#: ../../source/faq.rst:197
+msgid "``20.11.2 27.20.14501.18003`` (crashing)"
+msgstr ""
+
+#: ../../source/faq.rst:199
 msgid ""
 "To fix this kind of issue you generally need to `downgrade you graphics "
 "card driver <#amd-downgrade>`_ to an older working version."
 msgstr ""
 
-#: ../../source/faq.rst:201
+#: ../../source/faq.rst:202
 msgid ""
 "If you do run into an issue like this please consider opening an issue on"
 " our `GitHub issue tracker <https://github.com/overte-"
@@ -16281,11 +16291,11 @@ msgid ""
 "<https://www.amd.com/report>`_."
 msgstr ""
 
-#: ../../source/faq.rst:210
+#: ../../source/faq.rst:211
 msgid "How do I install a different AMD graphics driver on Windows?"
 msgstr ""
 
-#: ../../source/faq.rst:212
+#: ../../source/faq.rst:213
 msgid ""
 "First you should check which driver version and graphics card you are "
 "actually using. To do this, open your Adrenalin Control Panel either by "
@@ -16294,25 +16304,25 @@ msgid ""
 "\"Radeon Software Version\"."
 msgstr ""
 
-#: ../../source/faq.rst:219
+#: ../../source/faq.rst:220
 msgid ""
 "Check what drivers are available for your AMD graphics card via the `AMD "
 "website <https://www.amd.com/en/support>`_."
 msgstr ""
 
-#: ../../source/faq.rst:224
+#: ../../source/faq.rst:225
 msgid ""
 "Compare the driver version from the Adrenalin Control Panel with the "
 "recommended Radeon Adrenalin Software version."
 msgstr ""
 
-#: ../../source/faq.rst:229
+#: ../../source/faq.rst:230
 msgid ""
 "Take a look `further up <#amd-problem>`_ to see a list of known broken "
 "driver versions."
 msgstr ""
 
-#: ../../source/faq.rst:231
+#: ../../source/faq.rst:232
 msgid ""
 "If the version is lower, then please try upgrading to that version by "
 "clicking the appropriate download button and installing it. If the "
@@ -16320,18 +16330,18 @@ msgid ""
 "start it again."
 msgstr ""
 
-#: ../../source/faq.rst:235
+#: ../../source/faq.rst:236
 msgid ""
 "If you are on the same version, then try downgrading your driver by "
 "clicking the small \"Previous Drivers\" link at the bottom left of the "
 "list, and choosing an older recommended version."
 msgstr ""
 
-#: ../../source/faq.rst:242
+#: ../../source/faq.rst:243
 msgid "Just download and run the driver installer."
 msgstr ""
 
-#: ../../source/faq.rst:244
+#: ../../source/faq.rst:245
 msgid ""
 "If you are on a newer version, then please try downgrading to the "
 "\"Recommended\" driver version. Simply download and install using the "
@@ -29282,5 +29292,15 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "``20.11.2 27.20.14501.18003`` (crashing)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Known broken driver versions include: *"
+#~ " ``23.12.1 31.0.23013.1023`` - ``24.1.1 "
+#~ "31.0.24002.92`` - not fixed yet (very"
+#~ " low performance) * ``21.8.2 "
+#~ "27.20.22025.1006`` - ``21.10.2 21.30.25.05`` "
+#~ "(mangled graphics) * ``20.11.2 "
+#~ "27.20.14501.18003`` (crashing)"
 #~ msgstr ""
 
