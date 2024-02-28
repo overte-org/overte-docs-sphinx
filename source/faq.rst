@@ -192,7 +192,7 @@ Troubleshooting
 |                                                                                                     |
 | Known broken driver versions include:                                                               |
 |                                                                                                     |
-| * ``23.12.1 31.0.23013.1023`` - ``24.1.1 31.0.24002.92`` - not fixed yet (very low performance)     |
+| * ``23.12.1 31.0.23013.1023`` - ``24.2.1 31.0.24019.1006`` - not fixed yet (very low performance)   |
 | * ``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics)                          |
 | * ``20.11.2 27.20.14501.18003`` (crashing)                                                          |
 |                                                                                                     |
