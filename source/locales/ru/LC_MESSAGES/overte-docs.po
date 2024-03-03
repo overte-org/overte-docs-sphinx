@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-02-28 22:21+0000\n"
-"PO-Revision-Date: 2024-03-03 04:20+0000\n"
+"PO-Revision-Date: 2024-03-04 06:20+0000\n"
 "Last-Translator: GREAT DNG <greatdng@gmail.com>\n"
 "Language-Team: Russian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ru/>\n"
@@ -9825,7 +9825,7 @@ msgstr ""
 
 #: ../../source/developer.rst:3
 msgid "Developer"
-msgstr ""
+msgstr "Разработчик"
 
 #: ../../source/developer.rst:5
 msgid ""
