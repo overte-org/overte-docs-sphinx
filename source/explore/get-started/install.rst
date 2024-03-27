@@ -54,7 +54,7 @@ In addition, your network must have enough internet bandwidth to run Overte:
 Download Overte
 -----------------------------------
 
-The current release is available to `download on our website <https://overte.org/#downloads>`_.
+The current release is available to `download on our website <https://overte.org/downloads.html>`_.
 
 If you intend to use Overte in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Overte.
 VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.

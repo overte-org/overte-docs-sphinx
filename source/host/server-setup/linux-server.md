@@ -8,79 +8,89 @@ You can run these same commands on an existing Overte domain to upgrade it if th
 
 ## Server:
 
+### Debian 12
+
+```bash
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server_2023.11.1-debian-12-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2023.11.1-debian-12-1_amd64.deb
+```
+
 ### Debian 11
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-debian-11-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-1_amd64.deb
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server_2023.11.1-debian-11-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2023.11.1-debian-11-1_amd64.deb
 ```
 
-### Ubuntu Server 22.04 LTS
+### Ubuntu 22.04
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-22.04-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-22.04-1_amd64.deb
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server_2023.11.1-ubuntu-22.04-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2023.11.1-ubuntu-22.04-1_amd64.deb
 ```
 ### Ubuntu 20.04
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-20.04-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-20.04-1_amd64.deb
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server_2023.11.1-ubuntu-20.04-1_amd64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2023.11.1-ubuntu-20.04-1_amd64.deb
 ```
 
-### Ubuntu 18.04
-
-```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-18.04-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-18.04-1_amd64.deb
-```
-### Fedora 36
+### Fedora 38
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc36.x86_64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc36.x86_64.rpm
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server-2023.11.1-1.fc38.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2023.11.1-1.fc38.x86_64.rpm
 ```
+
 ### Fedora 37
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc37.x86_64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc37.x86_64.rpm
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server-2023.11.1-1.fc37.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2023.11.1-1.fc37.x86_64.rpm
 ```
+
 ### Rocky Linux 9
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.el9.x86_64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.el9.x86_64.rpm
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server-2023.11.1-1.el9.x86_64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2023.11.1-1.el9.x86_64.rpm
 ```
 
 ## aarch64 server:
 
-### Debian 11 
+### Debian 12
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-debian-11-1_arm64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-debian-11-1_arm64.deb
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server_2023.11.1-debian-12-1_arm64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2023.11.1-debian-12-1_arm64.deb
 ```
 
-### Ubuntu 22.04 
+### Debian 11
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server_2022.12.1-ubuntu-22.04-1_arm64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2022.12.1-ubuntu-22.04-1_arm64.deb
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server_2023.11.1-debian-11-1_arm64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2023.11.1-debian-11-1_arm64.deb
 ```
 
-### Fedora 36 
+### Ubuntu 22.04
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc36.aarch64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc36.aarch64.rpm
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server_2023.11.1-ubuntu-22.04-1_arm64.deb
+sudo apt-get update && sudo apt-get install ./overte-server_2023.11.1-ubuntu-22.04-1_arm64.deb
 ```
 
-### Fedora 37 
+### Fedora 38
 
 ```bash
-wget https://public.overte.org/build/overte/release/2022.12.1/overte-server-2022.12.1-1.fc37.aarch64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2022.12.1-1.fc37.aarch64.rpm
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server-2023.11.1-1.fc38.aarch64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2023.11.1-1.fc38.aarch64.rpm
+```
+
+### Fedora 37
+
+```bash
+wget https://public.overte.org/build/overte/release/2023.11.1/overte-server-2023.11.1-1.fc37.aarch64.rpm
+sudo yum update && sudo rpm -i ./overte-server-2023.11.1-1.fc37.aarch64.rpm
 ```
 
 ### Unlisted Distribution
@@ -140,10 +150,10 @@ Assuming you created a new server with the name **my-server-two**, this would se
 Uninstall the package.
 
 ```sh
-# Ubuntu
+# Ubuntu/Debian
 # Note: 'apt-get purge' will remove configuration files as well. Use 'apt-get remove' to keep them.
 sudo apt-get purge overte-server
-# Amazon Linux 2
+# Fedora/Rock Linux
 sudo yum remove overte-server
 ```
 
