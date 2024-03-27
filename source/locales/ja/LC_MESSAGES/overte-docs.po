@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2024-02-28 22:21+0000\n"
+"POT-Creation-Date: 2024-03-27 18:23+0000\n"
 "PO-Revision-Date: 2023-07-30 20:17+0000\n"
 "Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
 "Language: ja\n"
@@ -12147,7 +12147,6 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:16
-#: ../../source/host/server-setup/linux-server.md:31
 msgid "Ubuntu 18.04"
 msgstr ""
 
@@ -14859,7 +14858,7 @@ msgstr ""
 #: ../../source/explore/get-started/install.rst:57
 msgid ""
 "The current release is available to `download on our website "
-"<https://overte.org/#downloads>`_."
+"<https://overte.org/downloads.html>`_."
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:59
@@ -21429,65 +21428,67 @@ msgid "Server:"
 msgstr "サーバー"
 
 #: ../../source/host/server-setup/linux-server.md:11
-#: ../../source/host/server-setup/linux-server.md:58
-msgid "Debian 11"
+#: ../../source/host/server-setup/linux-server.md:61
+msgid "Debian 12"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:18
-msgid "Ubuntu Server 22.04 LTS"
+#: ../../source/host/server-setup/linux-server.md:68
+msgid "Debian 11"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:24
-msgid "Ubuntu 20.04"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:37
-#: ../../source/host/server-setup/linux-server.md:72
-msgid "Fedora 36"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:43
-#: ../../source/host/server-setup/linux-server.md:79
-msgid "Fedora 37"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:49
-msgid "Rocky Linux 9"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:56
-msgid "aarch64 server:"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:65
+#: ../../source/host/server-setup/linux-server.md:25
+#: ../../source/host/server-setup/linux-server.md:75
 msgid "Ubuntu 22.04"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:86
+#: ../../source/host/server-setup/linux-server.md:31
+msgid "Ubuntu 20.04"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:38
+#: ../../source/host/server-setup/linux-server.md:82
+msgid "Fedora 38"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:45
+#: ../../source/host/server-setup/linux-server.md:89
+msgid "Fedora 37"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:52
+msgid "Rocky Linux 9"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:59
+msgid "aarch64 server:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:96
 #, fuzzy
 msgid "Unlisted Distribution"
 msgstr "リストに無いディストリビューション"
 
-#: ../../source/host/server-setup/linux-server.md:88
+#: ../../source/host/server-setup/linux-server.md:98
 msgid ""
 "If you do not see your distribution listed here, you may compile your own"
 " server from source using the [Overte builder](https://github.com/overte-"
 "org/overte-builder)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:90
+#: ../../source/host/server-setup/linux-server.md:100
 #, fuzzy
 msgid "Configuration"
 msgstr "コンフィギュレーション"
 
-#: ../../source/host/server-setup/linux-server.md:92
+#: ../../source/host/server-setup/linux-server.md:102
 #, fuzzy
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
 msgstr "インストールパッケージは、デフォルトのポートの場所にドメインを作成し、そのマシンで実行し続けるようにサービスを構成します。"
 
-#: ../../source/host/server-setup/linux-server.md:94
+#: ../../source/host/server-setup/linux-server.md:104
 #, fuzzy
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
@@ -21496,7 +21497,7 @@ msgstr ""
 "開いて管理する必要のあるネットワークポートのリストについては、[こちら](../configure-settings/network-"
 "settings)を参照してください。"
 
-#: ../../source/host/server-setup/linux-server.md:96
+#: ../../source/host/server-setup/linux-server.md:106
 #, fuzzy
 msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
@@ -21505,37 +21506,37 @@ msgid ""
 "have a functioning domain."
 msgstr "Webブラウザをポート40100でサーバーに接続します（サーバーが実行されているマシンを使用している場合、これはhttp://localhost:40100になります）初期設定ウィザードを完了すると、ドメインが機能していることでしょう。"
 
-#: ../../source/host/server-setup/linux-server.md:98
+#: ../../source/host/server-setup/linux-server.md:108
 #, fuzzy
 msgid "Files and Server Configuration"
 msgstr "ファイルとサーバーの構成"
 
-#: ../../source/host/server-setup/linux-server.md:100
+#: ../../source/host/server-setup/linux-server.md:110
 #, fuzzy
 msgid "The program files are installed in /opt/overte:"
 msgstr "プログラムファイル群は/opt/vircadiaにインストールされます。"
 
-#: ../../source/host/server-setup/linux-server.md:101
+#: ../../source/host/server-setup/linux-server.md:111
 #, fuzzy
 msgid "**/opt/overte** contains the executables"
 msgstr "**/opt/vircadia** には実行可能ファイルが含まれています"
 
-#: ../../source/host/server-setup/linux-server.md:102
+#: ../../source/host/server-setup/linux-server.md:112
 #, fuzzy
 msgid "**/opt/overte/lib** contains libraries required for operation"
 msgstr "**/opt/vircadia/lib** には、操作に必要なライブラリが含まれています"
 
-#: ../../source/host/server-setup/linux-server.md:103
+#: ../../source/host/server-setup/linux-server.md:113
 #, fuzzy
 msgid "**/opt/overte/plugins** is currently used for audio codecs"
 msgstr "**/opt/vircadia/plugins** は現在オーディオコーデックに使用されています"
 
-#: ../../source/host/server-setup/linux-server.md:104
+#: ../../source/host/server-setup/linux-server.md:114
 #, fuzzy
 msgid "**/opt/overte/resources** is required for the administrative website"
 msgstr "管理Webサイトには **/opt/vircadia/resources** が必要です"
 
-#: ../../source/host/server-setup/linux-server.md:106
+#: ../../source/host/server-setup/linux-server.md:116
 #, fuzzy
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
@@ -21545,7 +21546,7 @@ msgstr ""
 "このフォルダーにある実行ファイル（<code>new-"
 "server</code>を除く）は、LD_LIBRARY_PATHに/opt/vircadia/libを設定（<code>LD_LIBRARY_PATH=/opt/vircadia/lib</code>）することにより、コマンドプロンプトから起動することができます。"
 
-#: ../../source/host/server-setup/linux-server.md:108
+#: ../../source/host/server-setup/linux-server.md:118
 #, fuzzy
 msgid ""
 "The file <code>/etc/opt/overte/default.conf</code> contains any "
@@ -21554,7 +21555,7 @@ msgstr ""
 "このファイル <code>/etc/opt/vircadia/default.conf</code> "
 "には、ドメインを実行するために必要な環境変数が含まれています。"
 
-#: ../../source/host/server-setup/linux-server.md:110
+#: ../../source/host/server-setup/linux-server.md:120
 #, fuzzy
 msgid ""
 "All content is stored under <code>/var/lib/overte/default</code>. All "
@@ -21563,38 +21564,38 @@ msgid ""
 "processes."
 msgstr "すべてのコンテンツは<code>/var/lib/vircadia/default</code>の下に保存されます。<code>/var/lib/vircadia</code>の下のすべてのファイルは<code>vircadiaドメイン関連のプロセスを実行するユーザー</code>に所有されます。"
 
-#: ../../source/host/server-setup/linux-server.md:112
+#: ../../source/host/server-setup/linux-server.md:122
 #, fuzzy
 msgid "Services"
 msgstr "サービス内容"
 
-#: ../../source/host/server-setup/linux-server.md:114
+#: ../../source/host/server-setup/linux-server.md:124
 #, fuzzy
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Overte domain:"
 msgstr "インストールパッケージは、Vircadiaドメインを管理するために次のsystemdサービスをセットアップします。"
 
-#: ../../source/host/server-setup/linux-server.md:115
+#: ../../source/host/server-setup/linux-server.md:125
 #, fuzzy
 msgid "**overte-domain-server@default.service**: Manages the core domain server"
 msgstr "**vircadia-domain-server@default.service** : コアドメインサーバーを管理します"
 
-#: ../../source/host/server-setup/linux-server.md:116
+#: ../../source/host/server-setup/linux-server.md:126
 #, fuzzy
 msgid ""
 "**overte-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr "**vircadia-assignment-client@default.service** : 割り当てクライアントを生成および管理します"
 
-#: ../../source/host/server-setup/linux-server.md:117
+#: ../../source/host/server-setup/linux-server.md:127
 #, fuzzy
 msgid ""
 "**overte-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr "**vircadia-server@default.target** : 上記のサービスの起動とシャットダウンを制御します"
 
-#: ../../source/host/server-setup/linux-server.md:119
+#: ../../source/host/server-setup/linux-server.md:129
 #, fuzzy
 msgid ""
 "The <code>overte-server@default.target</code> service is the only one "
@@ -21604,7 +21605,7 @@ msgstr ""
 "<code>vircadia-server@default.target</code> "
 "サービスだけが自動起動に設定されています。このサービスを開始または停止すると、他の2つのサービスが停止します。"
 
-#: ../../source/host/server-setup/linux-server.md:121
+#: ../../source/host/server-setup/linux-server.md:131
 #, fuzzy
 msgid ""
 "The first two services log a large amount of data to their service "
@@ -21614,12 +21615,12 @@ msgstr ""
 "最初の2つのサービスは、サービスジャーナルに大量のデータを記録します。これらのサービスを<code>systemctl "
 "status</code>により確認することにより、動作状況と直近で出力されたログメッセージをチェックすることができます。"
 
-#: ../../source/host/server-setup/linux-server.md:123
+#: ../../source/host/server-setup/linux-server.md:133
 #, fuzzy
 msgid "Multiple Domains"
 msgstr "複数のドメイン"
 
-#: ../../source/host/server-setup/linux-server.md:125
+#: ../../source/host/server-setup/linux-server.md:135
 #, fuzzy
 msgid ""
 "The installation package is configured to permit multiple domains to run "
@@ -21627,7 +21628,7 @@ msgid ""
 "using the following command:"
 msgstr "インストールパッケージは、複数のドメインを単一のサーバー上で異なるポート番号で実行できるように構成されています。次のコマンドを使用して、新しいサーバーを作成できます。"
 
-#: ../../source/host/server-setup/linux-server.md:131
+#: ../../source/host/server-setup/linux-server.md:141
 #, fuzzy
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
@@ -21637,26 +21638,26 @@ msgstr ""
 "ここで、<code>name</code>はドメインを命名し管理するための単語であり、<code>base-"
 "port</code>はシステム上の他の用途と重複しない連続した4つのポート番号の範囲の最初のものでなければなりません。"
 
-#: ../../source/host/server-setup/linux-server.md:133
+#: ../../source/host/server-setup/linux-server.md:143
 #, fuzzy
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr "**my-server-two **という名前の新しいサーバーを作成したとすると、次のように設定されます。"
 
-#: ../../source/host/server-setup/linux-server.md:134
+#: ../../source/host/server-setup/linux-server.md:144
 #, fuzzy
 msgid ""
 "Environment variables in <code>/etc/opt/overte/**my-server-"
 "two**.conf</code>"
 msgstr "<code>/etc/opt/vircadia/**my-server-two**.conf</code> の環境変数"
 
-#: ../../source/host/server-setup/linux-server.md:135
+#: ../../source/host/server-setup/linux-server.md:145
 #, fuzzy
 msgid "Content stored in <code>/var/lib/overte/**my-server-two**</code>"
 msgstr "<code>/var/lib/vircadia/**my-server-two**</code> に格納されたコンテンツ"
 
-#: ../../source/host/server-setup/linux-server.md:136
+#: ../../source/host/server-setup/linux-server.md:146
 #, fuzzy
 msgid ""
 "Services launched as <code>overte-domain-server@**my-server-"
@@ -21668,53 +21669,53 @@ msgstr ""
 ">vircadia-assignment-client@**my-server-two**.service</code>, <code"
 ">vircadia-server@**my-server-two**.target</code> としてサービスを開始"
 
-#: ../../source/host/server-setup/linux-server.md:138
+#: ../../source/host/server-setup/linux-server.md:148
 msgid "Deleting a Overte Server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:140
+#: ../../source/host/server-setup/linux-server.md:150
 #, fuzzy
 msgid "Uninstall the package."
 msgstr "パッケージをアンインストールします。"
 
-#: ../../source/host/server-setup/linux-server.md:150
+#: ../../source/host/server-setup/linux-server.md:160
 #, fuzzy
 msgid "Deleting a Domain from a Multiple Domain Installation"
 msgstr "複数ドメインのインストールからドメインを削除する"
 
-#: ../../source/host/server-setup/linux-server.md:152
+#: ../../source/host/server-setup/linux-server.md:162
 #, fuzzy
 msgid "Find the name of the domain that you want to remove."
 msgstr "削除するドメインの名前を見つけます。"
 
-#: ../../source/host/server-setup/linux-server.md:158
+#: ../../source/host/server-setup/linux-server.md:168
 #, fuzzy
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
 msgstr "リストから削除するドメインの名前を選択して、停止します。"
 
-#: ../../source/host/server-setup/linux-server.md:164
+#: ../../source/host/server-setup/linux-server.md:174
 #, fuzzy
 msgid "Disable the service for the domain."
 msgstr "ドメインのサービスを無効にします。"
 
-#: ../../source/host/server-setup/linux-server.md:170
+#: ../../source/host/server-setup/linux-server.md:180
 #, fuzzy
 msgid "Remove the associated environment variables."
 msgstr "関連する環境変数を削除します。"
 
-#: ../../source/host/server-setup/linux-server.md:176
+#: ../../source/host/server-setup/linux-server.md:186
 #, fuzzy
 msgid "Remove all data and configurations."
 msgstr "すべてのデータと構成を削除します。"
 
-#: ../../source/host/server-setup/linux-server.md:183
+#: ../../source/host/server-setup/linux-server.md:193
 #, fuzzy
 msgid "Legacy Services"
 msgstr "レガシーサービス"
 
-#: ../../source/host/server-setup/linux-server.md:185
+#: ../../source/host/server-setup/linux-server.md:195
 #, fuzzy
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
@@ -21724,7 +21725,7 @@ msgid ""
 "provided as an option."
 msgstr "ストレージを簡素化し、1台のサーバーで複数のドメインを実行する機能を簡素化するために、デフォルト構成にいくつかの調整が加えられています。このロジックを削除して、ソースからコンパイルされたVircadiaサーバーの実行方法に近いサーバーを実行する場合は、これがオプションとして提供されます。"
 
-#: ../../source/host/server-setup/linux-server.md:186
+#: ../../source/host/server-setup/linux-server.md:196
 #, fuzzy
 msgid ""
 "Systemd services named <code>overte-domain-server.service</code>, <code"
@@ -21735,12 +21736,12 @@ msgstr ""
 "client.service</code>, <code>vircadia-server.target</code> *(@name なし)* "
 "という名前の Systemd サービスは設定が簡素化されています"
 
-#: ../../source/host/server-setup/linux-server.md:187
+#: ../../source/host/server-setup/linux-server.md:197
 #, fuzzy
 msgid "No file is provided to specify environment variables for the server"
 msgstr "サーバーの環境変数を指定するためのファイルは提供されていません"
 
-#: ../../source/host/server-setup/linux-server.md:188
+#: ../../source/host/server-setup/linux-server.md:198
 #, fuzzy
 msgid "Content would be stored in <code>/var/lib/overte/.local</code>"
 msgstr "コンテンツは、 <code>/var/lib/vircadia/.local</code> に格納されます"
@@ -21808,7 +21809,7 @@ msgstr ""
 #: ../../source/host/server-setup/windows-server.rst:23
 msgid ""
 "To host a domain on Windows, you must be running Overte's open source "
-"`Client + Server <https://overte.org/#downloads>`_ software."
+"`Client + Server <https://overte.org/downloads.html>`_ software."
 msgstr ""
 
 #: ../../source/host/server-setup/windows-server.rst:27
@@ -35512,5 +35513,24 @@ msgstr "メタバースセッションUUID"
 #~ "``23.12.1 31.0.23013.1023`` - ``24.1.1 "
 #~ "31.0.24002.92`` - not fixed yet (very"
 #~ " low performance)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The current release is available to "
+#~ "`download on our website "
+#~ "<https://overte.org/#downloads>`_."
+#~ msgstr ""
+
+#~ msgid "Ubuntu Server 22.04 LTS"
+#~ msgstr ""
+
+#~ msgid "Fedora 36"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To host a domain on Windows, you"
+#~ " must be running Overte's open source"
+#~ " `Client + Server "
+#~ "<https://overte.org/#downloads>`_ software."
 #~ msgstr ""
 
