@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2024-03-27 18:23+0000\n"
-"PO-Revision-Date: 2023-07-30 20:17+0000\n"
-"Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
+"PO-Revision-Date: 2024-03-30 15:20+0000\n"
+"Last-Translator: 川音リオ <rio@kwn.ac>\n"
+"Language-Team: Japanese <https://weblate.overte.org/projects/overte/"
+"overte-documentation/ja/>\n"
 "Language: ja\n"
-"Language-Team: Japanese <https://weblate.overte.org/projects/overte"
-"/overte-documentation/ja/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/shared.rst
@@ -10659,9 +10660,8 @@ msgstr "Macのクリーンインストール"
 #: ../../source/developer/build/BUILD_LINUX.md:186
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
-#, fuzzy
 msgid "Interface"
-msgstr "インターフェイス"
+msgstr "インターフェース"
 
 #: ../../source/developer.rst:11 ../../source/developer/domain-server.rst:3
 #: ../../source/explore/get-started/architecture.rst:46
@@ -10675,7 +10675,6 @@ msgstr "インターフェイス"
 #: ../../source/release-notes/2020-3-3-Demeter.md:53
 #: ../../source/release-notes/2021-1-0-Eos.md:48
 #: ../../source/release-notes/2021-1-1-Eos.md:55
-#, fuzzy
 msgid "Domain Server"
 msgstr "ドメインサーバー"
 
@@ -35533,4 +35532,3 @@ msgstr "メタバースセッションUUID"
 #~ " `Client + Server "
 #~ "<https://overte.org/#downloads>`_ software."
 #~ msgstr ""
-
