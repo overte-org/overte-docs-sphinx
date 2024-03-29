@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-27 18:23+0000\n"
-"PO-Revision-Date: 2023-07-08 23:17+0000\n"
+"PO-Revision-Date: 2024-03-30 15:20+0000\n"
 "Last-Translator: rampa_3 <rampa_3@users.noreply.weblate.overte.org>\n"
+"Language-Team: Czech <https://weblate.overte.org/projects/overte/"
+"overte-documentation/cs/>\n"
 "Language: cs\n"
-"Language-Team: Czech <https://weblate.overte.org/projects/overte/overte-"
-"documentation/cs/>\n"
-"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/shared.rst
@@ -1268,7 +1269,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:13
 msgid "Introduction to Materials, Textures, and Shading"
-msgstr "Úvod k materiálům, texturám a stínování"
+msgstr "Úvod k materiálům, texturám a shadování"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:15
 msgid ""
@@ -1290,10 +1291,15 @@ msgid ""
 " falls on it. The 3D model of a brick wall will not shine, but will "
 "reflect enough light for you to observe its colors and surface."
 msgstr ""
+"Jelikož Overte podporuje physically-based rendering (PBR) materiály, Váš "
+"model se bude chovat jako objekt v reálném světě při nasvícení světlem. "
+"Například, 3D model klíče se bude lesknout a bude odrážet jakékoliv světlo "
+"které na něj dopadne. 3D model cihlové zdi se nebude lesknout, ale bude "
+"odrážet dostatek světla, abyste mohli pozorovat její barvy a povrch."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:21
 msgid "A material contains texture and shading information."
-msgstr ""
+msgstr "Materiál obsahuje textury a informace o shadování."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:27
 msgid ""
@@ -1301,18 +1307,21 @@ msgid ""
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a bark texture to show what the surface looks like."
 msgstr ""
+"Textury jsou placaté obrázky, aplikované na 3D modely. Dodávají detaily "
+"materiálům 3D modelům. Například, 3D model kmene stromu bude využívat "
+"texturu kůry pro vyobrazení vzhledu jeho povrchu."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:29
 msgid "Overte supports the use of the following texture formats:"
-msgstr ""
+msgstr "Overte podporuje následující formáty textur:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid "PNG (recommended)"
-msgstr ""
+msgstr "PNG (doporučený formát)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:32
 msgid "JPEG, JPG (recommended)"
-msgstr ""
+msgstr "JPEG, JPG (doporučený formát)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "TGA"
@@ -1328,10 +1337,13 @@ msgid ""
 "/add-content/bake-content>` (including textures) before loading them into"
 " Overte."
 msgstr ""
+"Pro nejlepší výkon doporučujeme :doc:`bakenout všechny 3D modely <../../host/"
+"add-content/bake-content>` (včetně textur) předtím než je nahrajete do "
+"Overte."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:40
 msgid "Shading"
-msgstr ""
+msgstr "Shadování"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:42
 msgid ""
@@ -29543,4 +29555,3 @@ msgstr ""
 #~ " `Client + Server "
 #~ "<https://overte.org/#downloads>`_ software."
 #~ msgstr ""
-
