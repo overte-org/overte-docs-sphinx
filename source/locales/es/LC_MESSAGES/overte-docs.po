@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2024-03-27 18:23+0000\n"
-"PO-Revision-Date: 2023-03-17 05:39+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2024-03-30 15:20+0000\n"
+"Last-Translator: Julian Groß <julian.gro@overte.org>\n"
+"Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
+"overte-documentation/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://hosted.weblate.org/projects/overte"
-"/overte-documentation/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/shared.rst
@@ -12578,7 +12579,6 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:23
 #: ../../source/developer/interface/debugging.md:3
-#, fuzzy
 msgid "Windows"
 msgstr "Windows"
 
@@ -12938,7 +12938,6 @@ msgid "`make package` to create the package."
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:128
-#, fuzzy
 msgid "Linux"
 msgstr "Linux"
 
@@ -38164,4 +38163,3 @@ msgstr "UUID de sesión en Metaverso"
 #~ " `Client + Server "
 #~ "<https://overte.org/#downloads>`_ software."
 #~ msgstr ""
-
