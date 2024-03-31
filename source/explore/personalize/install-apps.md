@@ -54,7 +54,7 @@ We've listed some of the apps we created and how you can use them.
 ### Spectator Cam
 The Spectator Camera is a camera you can use to record or livestream what you and your friends do in Overte. It is only available in HMD mode, and requires a recording software such as [Open Broadcaster Software (OBS)](https://obsproject.com/) to work correctly. Check out their [official overview guide](https://obsproject.com/forum/threads/official-overview-guide.402/) for more details.
 
-[Use the instructions above](#install-an-app) to install the Spectator Camera app.
+[Use the instructions above](#install-tablet-apps) to install the Spectator Camera app.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
@@ -71,7 +71,7 @@ To use the Spectator Camera app:
 
 ### Finger Painting
 
-The Fingerpaint app lets your paint your environment, your own avatar, or even another user's avatar. [Use the instructions above](#install-an-app) to install the Fingerpaint app.
+The Fingerpaint app lets your paint your environment, your own avatar, or even another user's avatar. [Use the instructions above](#install-tablet-apps) to install the Fingerpaint app.
 
 To use the Fingerpaint app:
 1. In Interface, pull up your HUD or Tablet and go to **Body Paint**.
@@ -84,7 +84,7 @@ To use the Fingerpaint app:
 
 The Text to Speech app synthesizes the text you type into speech. You can use this app if you don't wish to use your voice, have microphone issues, or have disabilities.
 
-[Use the instructions above](#install-an-app) to install the Text to Speech app.
+[Use the instructions above](#install-tablet-apps) to install the Text to Speech app.
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>

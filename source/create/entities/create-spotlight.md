@@ -4,7 +4,7 @@ In this tutorial, you will learn how light entities work by creating a gold spot
 
 **On This Page:**
 
-+ [Prerequisites](#prerequisities)
++ [Prerequisites](#prerequisites)
 + [Create a Wall to Shine the Light On](#create-a-wall-to-shine-the-light-on)
 + [Create the Gold Spotlight](#create-the-gold-spotlight)
 

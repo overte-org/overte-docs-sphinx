@@ -2,7 +2,7 @@
 
 Overte's robust [JavaScript API](https://apidocs.overte.org) provides the tools for you to build great content and user experiences in VR. We've compiled some advanced JavaScript tips you can use while scripting for Overte. 
 
-You can use the [Scripting Console in Interface](get-started-with-scripting.html#scripting-console) to try out the examples on this page. The output will be visible in the console itself. 
+You can use the [Scripting Console in Interface](get-started-with-scripting.rst#scripting-console) to try out the examples on this page. The output will be visible in the console itself.
 
 **On This Page:**
 

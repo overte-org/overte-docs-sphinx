@@ -36,7 +36,7 @@ The portal.js script we've used:
 
 ## Create and Edit an Entity to Use as a Portal
 
-Any entity you create to be used as a portal has to be [collisionless](entity-behavior.html#set-entity-behavior-on-collision) so that the script can detect when you walk into the entity. 
+Any entity you create to be used as a portal has to be [collisionless](entity-behavior.rst#set-entity-behavior-on-collision) so that the script can detect when you walk into the entity.
 
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. [Create an entity](create-entities) to be used as a portal. This can be a 3D model or a box or sphere entity.

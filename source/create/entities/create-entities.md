@@ -35,7 +35,7 @@ You can choose from the following entity types:
 
 **See Also**
 
-+ [The Create App](../tools.html#the-create-app)
++ [The Create App](../tools.rst#the-create-app)
 + [Add a Material Entity](material-entity)
 + [Change How Entities Look](entity-appearance)
 + [Import Your 3D Model](../3d-models/import-model)

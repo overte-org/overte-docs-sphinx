@@ -1,20 +1,9 @@
-Sphinx>=3.5.4
+Sphinx>=4.3
 sphinx-intl>=2.0.1
 sphinx-rtd-theme>=0.5.2
 git+https://github.com/overte-org/video.git
 
-#Because of a bug in myst-parser, we require a version *before* 0.17.0. See https://github.com/executablebooks/MyST-Parser/issues/519#issuecomment-1044450711
-myst-parser>=0.14.0, <0.17.0
-
-# myst-parser < 0.17.2 requires attrs but the package doesn't depend on it.
-attrs
-
-# ReadTheDocs indirectly depends on some too new extension versions. Upgrading myst-parser later should fix this.
-sphinxcontrib-applehelp<=1.0.4
-sphinxcontrib-devhelp<=1.0.5
-sphinxcontrib-htmlhelp<=2.0.4
-sphinxcontrib-serializinghtml<=1.1.9
-sphinxcontrib-qthelp<=1.0.6
+myst-parser>=2.0.0
 
 # Utility for easily running builds in Python virtual environments.
 venv-run
