@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2024-03-31 10:42+0000\n"
+"POT-Creation-Date: 2024-03-31 18:07+0000\n"
 "PO-Revision-Date: 2024-03-30 15:20+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language: es\n"
@@ -6022,8 +6022,9 @@ msgid "[Add a cube entity](create-entities) to your domain."
 msgstr "[Agrega una entidad de cubo](create-entities) a tu dominio."
 
 #: ../../source/create/entities/add-sounds.md:16
+#, fuzzy
 msgid ""
-"[Resize the entity](entity-appearance.html#set-the-size-of-an-entity) to "
+"[Resize the entity](entity-appearance.rst#set-the-size-of-an-entity) to "
 "approximately 10m wide, 10m high and 1m deep (X:10, Y:10, Z:1)."
 msgstr ""
 "[Cambia el tamaño de la entidad](entity-appearance.html#set-the-size-of-"
@@ -6031,9 +6032,10 @@ msgstr ""
 "profundidad (X: 10, Y: 10, Z: 1)."
 
 #: ../../source/create/entities/add-sounds.md:17
+#, fuzzy
 msgid ""
 "Create a ball by [adding a sphere entity](create-entities) to your "
-"domain. Optionally, [change the color](entity-appearance.html#change-the-"
+"domain. Optionally, [change the color](entity-appearance.rst#change-the-"
 "color-of-an-entity) of your ball, so that it is different than your wall."
 msgstr ""
 "Crea una pelota [agregando una entidad de esfera](create-entities) a tu "
@@ -6083,16 +6085,18 @@ msgstr ""
 "y el sonido debería reproducirse."
 
 #: ../../source/create/entities/add-sounds.md:26
+#, fuzzy
 msgid ""
-"[Set Entity Behavior on Collision](entity-behavior.html#set-entity-"
+"[Set Entity Behavior on Collision](entity-behavior.rst#set-entity-"
 "behavior-on-collision)"
 msgstr ""
 "[Establecer el Comportamiento de la Entidad en caso de Colisión](entity-"
 "behavior.html#set-entity-behavior-on-collision)"
 
 #: ../../source/create/entities/add-sounds.md:27
+#, fuzzy
 msgid ""
-"[Set How an Entity Moves in a Gravitational Field](entity-physics.html"
+"[Set How an Entity Moves in a Gravitational Field](entity-physics.rst"
 "#set-how-an-entity-moves-in-a-gravitational-field)"
 msgstr ""
 "[Establecer Cómo se Mueve una Entidad en un campo Gravitacional](entity-"
@@ -6120,9 +6124,10 @@ msgstr ""
 "los objetos sean manipulables, activables o dinámicos."
 
 #: ../../source/create/entities/avatar-interactions.md:6
+#, fuzzy
 msgid ""
 "[Control Interactions with Entities using Scripts](#control-interactions-"
-"with-entities-using-Scripts)"
+"with-entities-using-scripts)"
 msgstr ""
 "[Controlar las Interacciones con las Entidades mediante Scripts"
 "](#control-interactions-with-entities-using-Scripts)"
@@ -6248,9 +6253,10 @@ msgstr ""
 " gafas o sombreros."
 
 #: ../../source/create/entities/avatar-interactions.md:46
+#, fuzzy
 msgid ""
 "Avatar entities live on the [Avatar Mixer](../../explore/get-"
-"started/architecture.html#assignment-clients), so they are connected to "
+"started/architecture.rst#assignment-clients), so they are connected to "
 "(and move with) your avatar. We've listed the ways you can create avatar "
 "entities with some examples:"
 msgstr ""
@@ -6266,8 +6272,9 @@ msgstr ""
 "entidades de avatar."
 
 #: ../../source/create/entities/avatar-interactions.md:49
+#, fuzzy
 msgid ""
-"[Clone as an avatar entity:](entity-behavior.html#make-an-entity-"
+"[Clone as an avatar entity:](entity-behavior.rst#make-an-entity-"
 "cloneable) When you clone an entity as an avatar entity, you make a copy "
 "of the entity and attach it to your avatar. Every copy of that entity "
 "will now leave with the avatar when they leave the domain. For example, "
@@ -7189,7 +7196,8 @@ msgstr ""
 " existentes en otras entidades y avatars."
 
 #: ../../source/create/entities/create-entities.md:38
-msgid "[The Create App](../tools.html#the-create-app)"
+#, fuzzy
+msgid "[The Create App](../tools.rst#the-create-app)"
 msgstr "[La Aplicación de Creación](../tools.html#the-create-app)"
 
 #: ../../source/create/entities/create-entities.md:39
@@ -7514,8 +7522,11 @@ msgstr ""
 
 #: ../../source/create/entities/create-spotlight.md:7
 #: ../../source/create/entities/display-youtube.md:7
-msgid "[Prerequisites](#prerequisities)"
-msgstr "[Prerrequisitos](#prerequisities)"
+#: ../../source/create/entities/portal-tutorial.md:12
+#: ../../source/create/entities/primitive-painting-set-tutorial.md:7
+#: ../../source/create/entities/zone-tutorial.md:14
+msgid "[Prerequisites](#prerequisites)"
+msgstr "[Prerrequisitos](#prerequisites)"
 
 #: ../../source/create/entities/create-spotlight.md:8
 msgid ""
@@ -7736,7 +7747,8 @@ msgid "[Create a Web Entity](#create-a-web-entity)"
 msgstr "[Crear una Entidad Web](#create-a-web-entity)"
 
 #: ../../source/create/entities/display-youtube.md:9
-msgid "[Display Vircadia's YouTube Channel](#display-vircadia-s-youtube-channel)"
+#, fuzzy
+msgid "[Display Overte's YouTube Channel](#display-overtes-youtube-channel)"
 msgstr ""
 "[Mostrar el Canal de YouTube de Vircadia](#display-vircadia-s-youtube-"
 "channel)"
@@ -7769,11 +7781,13 @@ msgstr ""
 "una entidad web siempre muestra la página principal de Overte."
 
 #: ../../source/create/entities/display-youtube.md:32
-msgid "Display Vircadia's YouTube Channel"
+#, fuzzy
+msgid "Display Overte's YouTube Channel"
 msgstr "Mostrar el Canal de YouTube de Vircadia"
 
 #: ../../source/create/entities/display-youtube.md:34
-msgid "You can make the web entity display Vircadia's YouTube channel."
+#, fuzzy
+msgid "You can make the web entity display Overte's YouTube channel."
 msgstr "Puedes hacer que la entidad web muestre el canal de YouTube de Vircadia."
 
 #: ../../source/create/entities/display-youtube.md:37
@@ -7781,10 +7795,11 @@ msgid "Select your web entity and go to the 'Properties' tab."
 msgstr "Selecciona tu entidad web y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/display-youtube.md:38
+#, fuzzy
 msgid ""
-"Scroll down until you see the 'Source URL' option. Enter the Vircadia "
-"YouTube channel URL: https://www.youtube.com/channel/UC5gVObAP0ANbXr-"
-"lNCjP3xg. You should see the new page as soon as you hit 'Enter'."
+"Scroll down until you see the 'Source URL' option. Enter the Overte "
+"YouTube channel URL: https://www.youtube.com/@Overte-ru3ey. You should "
+"see the new page as soon as you hit 'Enter'."
 msgstr ""
 "Desplázate hacia abajo hasta que veas la opción \"Source URL\". Entra al "
 "canal de Youtube de Vircadia, URL: https://www.youtube.com/channel"
@@ -9511,12 +9526,6 @@ msgstr ""
 "usar estos portales para viajar a un dominio que visites con frecuencia "
 "en lugar de usar la aplicación **GoTo** en tu HUD o tableta."
 
-#: ../../source/create/entities/portal-tutorial.md:12
-#: ../../source/create/entities/primitive-painting-set-tutorial.md:7
-#: ../../source/create/entities/zone-tutorial.md:14
-msgid "[Prerequisites](#prerequisites)"
-msgstr "[Prerrequisitos](#prerequisites)"
-
 #: ../../source/create/entities/portal-tutorial.md:13
 msgid "[Write a Script for the Portal](#write-a-script-for-the-portal)"
 msgstr "[Escribe un Script para el Portal](#write-a-script-for-the-portal)"
@@ -9596,9 +9605,10 @@ msgid "Create and Edit an Entity to Use as a Portal"
 msgstr "Crear y Editar una Entidad para Usar como Portal"
 
 #: ../../source/create/entities/portal-tutorial.md:39
+#, fuzzy
 msgid ""
 "Any entity you create to be used as a portal has to be [collisionless"
-"](entity-behavior.html#set-entity-behavior-on-collision) so that the "
+"](entity-behavior.rst#set-entity-behavior-on-collision) so that the "
 "script can detect when you walk into the entity."
 msgstr ""
 "Cualquier entidad que creas para ser utilizada como portal tiene que ser "
@@ -18881,7 +18891,7 @@ msgstr ""
 #, fuzzy
 msgid ""
 "When creating your own entities, you can [set the Collision "
-"property](../create/entities/entity-behavior.html#entity-collision-"
+"property](../create/entities/entity-behavior.rst#entity-collision-"
 "behavior) to turn on or off collisions."
 msgstr ""
 "Al crear tus propias entidades, puedes [establecer la propiedad de "
@@ -19387,8 +19397,8 @@ msgstr ""
 #: ../../source/explore/personalize/install-apps.md:57
 #, fuzzy
 msgid ""
-"[Use the instructions above](#install-an-app) to install the Spectator "
-"Camera app."
+"[Use the instructions above](#install-tablet-apps) to install the "
+"Spectator Camera app."
 msgstr ""
 "[Usa las instrucciones anteriores](#install-an-app) para instalar la "
 "apliación Spectator Camera."
@@ -19463,8 +19473,8 @@ msgstr "Finger Painting"
 #, fuzzy
 msgid ""
 "The Fingerpaint app lets your paint your environment, your own avatar, or"
-" even another user's avatar. [Use the instructions above](#install-an-"
-"app) to install the Fingerpaint app."
+" even another user's avatar. [Use the instructions above](#install-"
+"tablet-apps) to install the Fingerpaint app."
 msgstr ""
 "La aplicación Fingerpaint te permite pintar tu entorno, tu propio avatar "
 "o incluso el avatar de otro usuario. [Utiliza las instrucciones "
@@ -19524,8 +19534,8 @@ msgstr ""
 #: ../../source/explore/personalize/install-apps.md:87
 #, fuzzy
 msgid ""
-"[Use the instructions above](#install-an-app) to install the Text to "
-"Speech app."
+"[Use the instructions above](#install-tablet-apps) to install the Text to"
+" Speech app."
 msgstr ""
 "[Usa las instrucciones anteriores]](#install-an-app) para instalar la "
 "aplicación Text to Speech."
@@ -20112,8 +20122,8 @@ msgstr "Visitar a un Amigo"
 #: ../../source/explore/travel.md:34
 #, fuzzy
 msgid ""
-"Once you've [made a friend](socialize.html#make-connections-and-friends),"
-" you can see where they are and even teleport directly to them."
+"Once you've [made a friend](socialize.rst#make-connections-and-friends), "
+"you can see where they are and even teleport directly to them."
 msgstr ""
 "Una vez que hayas [hecho un amigo](socialize.html#make-connections-and-"
 "friends), puedes ver dónde están e incluso teletransportarte directamente"
@@ -31055,13 +31065,12 @@ msgid ""
 " a single domain. For example, someone can buy a single tree, then rez it"
 " multiple times to create a forest. When submitting an item to the "
 "Marketplace, content creators control whether or not an item can be "
-"rezz'd multiple times in the JSON file ([Read documentation here](../sell"
-"/add-item.html#unlimited-rezzing-of-your-item)). Coming in future "
-"releases: We'll make it easier to mark which items can be rezz'd multiple"
-" times, along with visual indications of these items in your inventory. "
-"(Canny request: [http://roadmap.highfidelity.com/feature-requests/p"
-"/allow-marketplace-items-to-specify-the-number-of-copies-or-infinite-a"
-"-buyer-can-](http://roadmap.highfidelity.com/feature-requests/p/allow-"
+"rezz'd multiple times in the JSON file. Coming in future releases: We'll "
+"make it easier to mark which items can be rezz'd multiple times, along "
+"with visual indications of these items in your inventory. (Canny request:"
+" [http://roadmap.highfidelity.com/feature-requests/p/allow-marketplace-"
+"items-to-specify-the-number-of-copies-or-infinite-a-buyer-"
+"can-](http://roadmap.highfidelity.com/feature-requests/p/allow-"
 "marketplace-items-to-specify-the-number-of-copies-or-infinite-a-buyer-"
 "can-))"
 msgstr ""
@@ -34287,7 +34296,7 @@ msgstr ""
 #: ../../source/script/js-tips.md:5
 msgid ""
 "You can use the [Scripting Console in Interface](get-started-with-"
-"scripting.html#scripting-console) to try out the examples on this page. "
+"scripting.rst#scripting-console) to try out the examples on this page. "
 "The output will be visible in the console itself."
 msgstr ""
 
@@ -35019,7 +35028,7 @@ msgstr ""
 msgid ""
 "This is an example of an [interface script](interface-scripts) and cannot"
 " be attached to an entity. It shows you how to print something to the "
-"[debug window ](get-started-with-scripting.html#debug-window). In this "
+"[debug window ](get-started-with-scripting.rst#debug-window). In this "
 "example, we'll start with a simple \"Hello, World\" script."
 msgstr ""
 
@@ -35033,7 +35042,7 @@ msgstr ""
 
 #: ../../source/script/write-scripts.md:26
 msgid ""
-"When you [load and run this script](get-started-with-scripting.html#load-"
+"When you [load and run this script](get-started-with-scripting.rst#load-"
 "and-run-a-script), it will write the words \"Hello, World\" to the 'Debug"
 " Window' in Overte. ![](_images/hello-world.png)"
 msgstr ""
@@ -35051,7 +35060,7 @@ msgstr ""
 
 #: ../../source/script/write-scripts.md:46
 msgid ""
-"When you [load and run this script](get-started-with-scripting.html#load-"
+"When you [load and run this script](get-started-with-scripting.rst#load-"
 "and-run-a-script), it will locate your avatar in the domain, create a new"
 " entity based on the customized properties that you set, then print a "
 "line to the 'Debug Window'. In this case, the entity will be a red box. "
@@ -35070,7 +35079,7 @@ msgstr ""
 
 #: ../../source/script/write-scripts.md:69
 msgid ""
-"When you [load and run this script](get-started-with-scripting.html#load-"
+"When you [load and run this script](get-started-with-scripting.rst#load-"
 "and-run-a-script), it will locate your avatar in the domain, create a new"
 " entity based on the customized properties that you set, then print the "
 "color of that entity to the 'Debug Window'. Then, the script changes the "
@@ -35079,10 +35088,11 @@ msgid ""
 msgstr ""
 
 #: ../../source/script/write-scripts.md:77
+#, fuzzy
 msgid ""
-"[Load and Run a Script](get-started-with-scripting.html#load-and-"
+"[Load and Run a Script](get-started-with-scripting.rst#load-and-"
 "run-a-script)"
-msgstr ""
+msgstr "[Primeros pasos con Scripting](primeros-pasos-con-scripting)"
 
 #: ../../source/script/write-scripts.md:78
 msgid "[Interface Scripts](interface-scripts)"
@@ -38167,5 +38177,96 @@ msgstr "UUID de sesión en Metaverso"
 #~ "``23.12.1 31.0.23013.1023`` - ``24.2.1 "
 #~ "31.0.24019.1006`` - not fixed yet (very"
 #~ " low performance)"
+#~ msgstr ""
+
+#~ msgid "[Prerequisites](#prerequisities)"
+#~ msgstr "[Prerrequisitos](#prerequisities)"
+
+#~ msgid ""
+#~ "Marketplace items now have the ability"
+#~ " to be rezz'd multiple times within"
+#~ " a single domain. For example, "
+#~ "someone can buy a single tree, "
+#~ "then rez it multiple times to "
+#~ "create a forest. When submitting an "
+#~ "item to the Marketplace, content "
+#~ "creators control whether or not an "
+#~ "item can be rezz'd multiple times "
+#~ "in the JSON file ([Read documentation"
+#~ " here](../sell/add-item.html#unlimited-rezzing-"
+#~ "of-your-item)). Coming in future "
+#~ "releases: We'll make it easier to "
+#~ "mark which items can be rezz'd "
+#~ "multiple times, along with visual "
+#~ "indications of these items in your "
+#~ "inventory. (Canny request: "
+#~ "[http://roadmap.highfidelity.com/feature-requests/p/allow-"
+#~ "marketplace-items-to-specify-the-number-"
+#~ "of-copies-or-infinite-a-buyer-"
+#~ "can-](http://roadmap.highfidelity.com/feature-requests/p"
+#~ "/allow-marketplace-items-to-specify-the-"
+#~ "number-of-copies-or-infinite-a-buyer-"
+#~ "can-))"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the [Scripting Console "
+#~ "in Interface](get-started-with-scripting.html"
+#~ "#scripting-console) to try out the "
+#~ "examples on this page. The output "
+#~ "will be visible in the console "
+#~ "itself."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This is an example of an "
+#~ "[interface script](interface-scripts) and "
+#~ "cannot be attached to an entity. "
+#~ "It shows you how to print "
+#~ "something to the [debug window ](get-"
+#~ "started-with-scripting.html#debug-window). In"
+#~ " this example, we'll start with a "
+#~ "simple \"Hello, World\" script."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you [load and run this script"
+#~ "](get-started-with-scripting.html#load-and-"
+#~ "run-a-script), it will write the words"
+#~ " \"Hello, World\" to the 'Debug "
+#~ "Window' in Overte. ![](_images/hello-"
+#~ "world.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you [load and run this script"
+#~ "](get-started-with-scripting.html#load-and-"
+#~ "run-a-script), it will locate your "
+#~ "avatar in the domain, create a new"
+#~ " entity based on the customized "
+#~ "properties that you set, then print "
+#~ "a line to the 'Debug Window'. In"
+#~ " this case, the entity will be "
+#~ "a red box. ![](_images/add-entity.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you [load and run this script"
+#~ "](get-started-with-scripting.html#load-and-"
+#~ "run-a-script), it will locate your "
+#~ "avatar in the domain, create a new"
+#~ " entity based on the customized "
+#~ "properties that you set, then print "
+#~ "the color of that entity to the"
+#~ " 'Debug Window'. Then, the script "
+#~ "changes the color of the entity to"
+#~ " red, and prints the new color "
+#~ "in the 'Debug Window'. ![](_images/edit-"
+#~ "entity.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Load and Run a Script](get-started-"
+#~ "with-scripting.html#load-and-run-a-script)"
 #~ msgstr ""
 
