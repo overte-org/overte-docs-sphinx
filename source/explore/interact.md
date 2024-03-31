@@ -31,7 +31,7 @@ You can collide (or run into) objects and other avatars in Overte. Likewise, obj
 
 Without this collision property set, objects will move straight through other entities and avatars. As you interact with your environment, take note on which objects have collisions enabled based on whether or not you can walk through them.
 
-When creating your own entities, you can [set the Collision property](../create/entities/entity-behavior.html#entity-collision-behavior) to turn on or off collisions.
+When creating your own entities, you can [set the Collision property](../create/entities/entity-behavior.rst#entity-collision-behavior) to turn on or off collisions.
 
 ## Triggered Entities
 

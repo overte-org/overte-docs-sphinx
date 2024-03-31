@@ -41,6 +41,11 @@ needs_sphinx = '3.5.4'
 extensions = [
     'myst_parser', 'sphinxcontrib.video'
 ]
+# Myst-parser throws "local id not found" warnings on perfectly valid links to RST sections.
+# Unfortunately, this also silences the working "cross-reference target not found" warnings.
+suppress_warnings = ["myst.xref_missing"]
+
+myst_heading_anchors = 3
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']
