@@ -2,11 +2,11 @@
 Asset Security
 ###############################
 
-Like a web browser, Overte allows you to bring together assets like models and images from external sources and share them with others. This allows you to create diverse domains and assume unique avatars using simple URLs. When you connect to a domain, your client will download and display entities and avatars using those links, just as a web browser loads an image.
+Like a web browser, Overte allows you to bring together assets like models and images from external sources and share them with others. This allows you to create diverse domains and wear unique avatars using simple URLs. When you connect to a domain, your client will download and display entities and avatars using those links, just as a web browser loads an image.
 
-However, it is not always desirable to allow others to trivially copy your content or avatars by URL. We encourage collaborative building and sharing of assets pursuant to their licenses, but we understand that content creators may want to keep their assets private and that avatars are often personal representations that are not meant to be copied.
+However, it is not always desirable to allow others to trivially copy your content or avatars by URL. We encourage collaborative building and sharing of assets following their licenses, but we understand that content creators may want to keep their assets private and that avatars are often personal representations that are not meant to be copied.
 
-Since Overte is open source, it is difficult to solve this problem completely. Bad actors will always be able to modify their clients or rip assets directly from the GPU. We can only aim to make it more difficult for them. We have outlined some of the tools we offer below and are always open to more suggestions and especially PRs.
+Since Overte is open source, it is difficult to solve this problem completely. Bad actors will always be able to modify their clients or rip assets directly from memory. We can only aim to make it more difficult for them. We have outlined some of the tools we offer below and are always open to more suggestions and especially PRs.
 
 .. contents:: On This Page
     :depth: 2
@@ -19,7 +19,7 @@ Multiple types of Entities refer to external assets such as models, images, shad
 
 However, even if a user doesn't have Rez permission and can't access Create, the URLs can still be accessed via scripts. You can prevent scripts from accessing these URLs by revoking a user's **Can View Asset URLs** permission.
 
-These protections are **client-side only**. This means that a malicious person with a modified client could circumvent them. There are two other options you can use to alleviate this concern:
+These protections are **client-side only**. This means that a malicious person with a modified client could circumvent them. There are two other methods for protecting your assets:
 
 * For models and images, bake your assets using the :doc:`Oven <../host/add-content/bake-content>`. As a side effect of compressing and optimizing them, the Oven makes it harder (**but not impossible**) to open these files in other programs.
 * Use the **Asset Server**. If you upload content to the asset server, it will provide you an `atp` link which only works within your domain.
@@ -46,9 +46,9 @@ Have the Domain Server Obfuscate URLs
 
 Instead of sending URLs, the Domain Server could itself download the assets and send data directly to clients.
 
-For avatars, while this would prevent trivial copying of URLs, it opens domain operators up to legal repurcussions for serving copyrighted or illegal content.
+For avatars, while this would prevent trivial copying of URLs, it opens domain operators up to legal consequences for serving copyrighted or illegal content.
 
-For entities, this is effectively what the Asset Server already does, if you choose to use it. It is important to carefully control who has Rez permission in your domain to avoid the above legal ramifications.
+For entities, this is effectively what the Asset Server already does, if you choose to use it. It is important to carefully control who has Rez permission in your domain to avoid the above legal trouble.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Peer-to-Peer Avatar Sharing
@@ -56,7 +56,7 @@ Peer-to-Peer Avatar Sharing
 
 Users could share their avatars via a peer-to-peer network, either via the Domain Server or directly with other clients.
 
-Like the above, this opens others up to legal ramifications for sharing copyrighted or illegal content. Additionally, peer-to-peer traffic can lead to legal ramifications for people in many countries and institutions (e.g. schools) even if the content itself is not illegal.
+Like the above, this opens others up to legal trouble for sharing copyrighted or illegal content. Additionally, peer-to-peer traffic can lead to legal consequences for people in many countries and institutions (e.g. schools) even if the content itself is not illegal.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Server-side Avatar Verification
@@ -74,4 +74,4 @@ In an FST, you could optionally specify permissions for who is allowed to view y
 
 This would allow you to show your true avatar only to trusted friends. The Avatar Mixer would check the permissions for each connection before sending the URLs.
 
-Although there are technical questions about how this would work with differently-rigged or differently-sized avatars for the fallback, and it can be jarring to have others not be able to see your true avatar, this would be a nice option to have for those who want it.
+Although there are technical questions about how this would work with differently-rigged or differently-sized avatars for the fallback, and it can be confusing to have others not be able to see your true avatar, this would be a nice option to have for those who want it.
