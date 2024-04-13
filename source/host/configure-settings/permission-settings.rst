@@ -108,8 +108,8 @@ The actions that you can secure for each type of user are as follows:
 |                         | <https://apidocs.overte.org/Entities.html#.EntityProperties>`_ type          |
 |                         | definition.                                                                  |
 +-------------------------+------------------------------------------------------------------------------+
-| Can View Asset URLs     | Sets whether a user can view asset URLS in **Create** and scripts. If a user |
+| Can View Asset URLs     | Sets whether a user can view asset URLs in **Create** and scripts. If a user |
 |                         | doesn't have this permission, the URLs will be reported as empty strings.    |
 |                         | Note: this is only a client-side protection. Learn more about                |
-|                         | `asset security <../../security/asset-security.html>`_.                      |
+|                         | :doc:`asset security <../../security/asset-security>`.                       |
 +-------------------------+------------------------------------------------------------------------------+

@@ -6,7 +6,8 @@
 Build and Add Your Own Content
 ##############################
 
-Maybe you've wandered around the metaverse, and you're inspired by the creativity of others. Or maybe none of the other domains really fit the atmosphere of what you have in mind. Whatever the reason, you're ready to branch out and build content of your own. If you don't know where to begin, this is a great place to start. Learn more about the `security of your assets <../../security/asset-security.html>`_.
+Maybe you've wandered around the metaverse, and you're inspired by the creativity of others. Or maybe none of the other domains really fit the atmosphere of what you have in mind. Whatever the reason, you're ready to branch out and build content of your own. If you don't know where to begin, this is a great place to start.
+Learn more about the :doc:`security of your assets <../../security/asset-security>`.
 
 .. contents:: On This Page
     :depth: 2
