@@ -75,3 +75,7 @@ In an FST, you could optionally specify permissions for who is allowed to view y
 This would allow you to show your true avatar only to trusted friends. The Avatar Mixer would check the permissions for each connection before sending the URLs.
 
 Although there are technical questions about how this would work with differently-rigged or differently-sized avatars for the fallback, and it can be confusing to have others not be able to see your true avatar, this would be a nice option to have for those who want it.
+
+**See Also**
+
++ :doc:`How to contribute </contribute>`
