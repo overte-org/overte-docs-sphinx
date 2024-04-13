@@ -14,7 +14,7 @@ There are three ways to get your own avatar. You can either:
 
 .. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Overte, use the `Overte Avatar Exporter for Unity <find-avatars.html#overte-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar.
 
-If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. Learn more about the `security of your assets <../../security/asset-security.html>`_.
+If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. Learn more about the :doc:`security of your assets <../../security/asset-security>`.
 
 .. contents:: On This Page
     :depth: 2

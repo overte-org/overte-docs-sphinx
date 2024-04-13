@@ -15,13 +15,13 @@ Since Overte is open source, it is difficult to solve this problem completely. B
 Entities
 ----------------------
 
-Multiple types of Entities refer to external assets such as models, images, shaders, sounds, etc. These URLs are most commonly accessed via the **Create** app. You can prevent a visitor to your domain from using Create by revoking their **Rez** and **Rez Temporary** `permissions <../host/configure-settings/permission-settings.html>`_.
+Multiple types of Entities refer to external assets such as models, images, shaders, sounds, etc. These URLs are most commonly accessed via the **Create** app. You can prevent a visitor to your domain from using Create by revoking their **Rez** and **Rez Temporary** :doc:`permissions <../host/configure-settings/permission-settings>`.
 
 However, even if a user doesn't have Rez permission and can't access Create, the URLs can still be accessed via scripts. You can prevent scripts from accessing these URLs by revoking a user's **Can View Asset URLs** permission.
 
 These protections are **client-side only**. This means that a malicious person with a modified client could circumvent them. There are two other options you can use to alleviate this concern:
 
-* For models and images, bake your assets using the `Oven <../host/add-content/bake-content.html>`_. As a side effect of compressing and optimizing them, the Oven makes it harder (**but not impossible**) to open these files in other programs.
+* For models and images, bake your assets using the :doc:`Oven <../host/add-content/bake-content>`. As a side effect of compressing and optimizing them, the Oven makes it harder (**but not impossible**) to open these files in other programs.
 * Use the **Asset Server**. If you upload content to the asset server, it will provide you an `atp` link which only works within your domain.
 
 ----------------------------------
