@@ -10,16 +10,17 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-31 18:07+0000\n"
-"PO-Revision-Date: 2024-03-04 06:20+0000\n"
-"Last-Translator: GREAT DNG <greatdng@gmail.com>\n"
+"PO-Revision-Date: 2024-05-14 10:20+0000\n"
+"Last-Translator: Yurii Yevdokimov <yevdokimovyurii86@gmail.com>\n"
+"Language-Team: Russian <https://weblate.overte.org/projects/overte/"
+"overte-documentation/ru/>\n"
 "Language: ru\n"
-"Language-Team: Russian <https://weblate.overte.org/projects/overte"
-"/overte-documentation/ru/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/shared.rst
@@ -65,7 +66,7 @@ msgstr ""
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
-msgstr ""
+msgstr "Сделать вклад"
 
 #: ../../source/contribute.rst:7
 #, fuzzy
@@ -201,10 +202,15 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"`Просмотреть изменения <https://github.com/overte-org/overte-docs-sphinx/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ к документации на "
+"Github. Мы бы хотели, чтобы 2 человека делали обзор для большинства правок, "
+"так как всегда есть вещи, которые внесший правки и первый, кто делает обзор "
+"пропускают."
 
 #: ../../source/contribute.rst:29
 msgid "Translation"
-msgstr ""
+msgstr "Перевод"
 
 #: ../../source/contribute.rst:30
 msgid ""
@@ -219,10 +225,19 @@ msgid ""
 "`README <https://github.com/overte-org/overte-docs-"
 "sphinx/blob/master/README.md>`_."
 msgstr ""
+"Как многонациональный проект, Overte рассчитывает на переводчиков, чтобы "
+"достичь пользователей, которые не говорят на английском. Сейчас единственная "
+"часть, которая имеет поддержку перевода это документация. Вы можете помочь с "
+"переводом используя нашу онлайн систему перевода  `Weblate <https://weblate."
+"overte.org/projects/overte/overte-documentation/>` вы можете или отправлять "
+"переводы или стать главным переводчиком для вашего языка и проверять "
+"переводы перед тем как они станут документацией. Больше информации по "
+"переводу документации вы можете найти здесь  `README <https://github.com/"
+"overte-org/overte-docs-sphinx/blob/master/README.md>` _."
 
 #: ../../source/contribute.rst:38
 msgid "Donations"
-msgstr ""
+msgstr "Пожертвования"
 
 #: ../../source/contribute.rst:39
 msgid ""
@@ -231,6 +246,10 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
+"Overte существует за счёт волонтёрских пожертвований и главной команды. Пока "
+"у нас нет организации для управления пожертвованиями, вы можете жертвовать "
+"отдельным членам команды через различные сервисы например PayPal, Patreon, "
+"или GitHub Sponsors."
 
 #: ../../source/contribute.rst:42
 msgid ""
@@ -245,32 +264,49 @@ msgid ""
 "of US$40 an hour in the free market. Keep that in mind if you want to see"
 " something accomplished that no one else is personally interested in."
 msgstr ""
+"Вы можете также назначить вознаграждение за специфические функции которые вы "
+"хотите видеть реализованными или ошибки которые вы бы хотели видеть "
+"исправленными, путем оставления комментария на нашем трекере `<https://github"
+".com/overte-org/overte/issues>`. Конечно, возможно вознаграждение за други "
+"части проекта, например документацию. Вознаграждения создаются  и "
+"назначаются на доверии, поэтому если вы не уверены про какое-то "
+"вознаграждение пообщайтесь с главным разработчиком или с сообществом или на "
+"встрече разработчиков. Большинство разработчиков хорошо тренированы и имеют "
+"большой опыт работы, обычно зарабатывая  US$40 в час на свободном рынке. "
+"Имейте это ввиду, если вы хотите реализовать что-то, в чем никто другой не "
+"будет заинтересован."
 
 #: ../../source/contribute.rst:50
 msgid "Development"
-msgstr ""
+msgstr "Разработка"
 
 #: ../../source/contribute.rst:51
 msgid ""
 "You can help the general development of the Overte project without being "
 "a developer yourself by:"
 msgstr ""
+"Вы можете помочь основной разработке проекта даже не будучи разработчиком, "
+"например:"
 
 #: ../../source/contribute.rst:53
 msgid ""
 "filing issues on our `issue tracker <https://github.com/overte-"
 "org/overte/issues>`_,"
 msgstr ""
+"указывая ошибки на нашем трекере `<https://github.com/overte-org/overte/"
+"issues>`_,"
 
 #: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
-msgstr ""
+msgstr "помогая исправлять эти ошибки,"
 
 #: ../../source/contribute.rst:55
 msgid ""
 "or `testing pull requests <https://github.com/overte-"
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
+"или тестируя  ` pull requests <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 
 #: ../../source/contribute.rst:57
 msgid ""
@@ -284,36 +320,44 @@ msgid ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
 "open pull requests."
 msgstr ""
+"Если вы разработчик, вы можете делать вклад в проект лично, через pull "
+"requests. Придерживайтесь стандарта когда делаете вклад в основной код "
+"`<https://github.com/overte-org/overte/blob/master/CONTRIBUTING.md>` . "
+"Дополнительная информация может быть найдена тут  :doc:`Developer Section "
+"<developer>`. Важная работа для разработчиков которая относится к самой "
+"платформе находится здесь`code reviews <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ в открытых pull "
+"requests."
 
 #: ../../source/contribute.rst:64
 msgid "Miscellaneous Work"
-msgstr ""
+msgstr "Дополнительные задания"
 
 #: ../../source/contribute.rst:65
 msgid ""
 "There is also a lot of miscellaneous work that comes up every now and "
 "then:"
-msgstr ""
+msgstr "Также есть дополнительная работа которая появляется сейчас и потом:"
 
 #: ../../source/contribute.rst:67
 msgid "2D art like posters or banners,"
-msgstr ""
+msgstr "2D рисунки, например постеры или баннеры,"
 
 #: ../../source/contribute.rst:68
 msgid "3D models,"
-msgstr ""
+msgstr "3D модели,"
 
 #: ../../source/contribute.rst:69
 msgid "scripts,"
-msgstr ""
+msgstr "скрипты,"
 
 #: ../../source/contribute.rst:70
 msgid "video editing,"
-msgstr ""
+msgstr "редактирование видео,"
 
 #: ../../source/contribute.rst:71
 msgid "and so on."
-msgstr ""
+msgstr "и так далее."
 
 #: ../../source/contribute.rst:73
 msgid ""
@@ -321,13 +365,15 @@ msgid ""
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
 msgstr ""
+"Разработчикам важно иметь кого-то снаружи, чтобы они могли попросить помощи "
+"когда им нужно выполнить работу которая вне их экспертизы."
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
 #: ../../source/release-notes/v82.md:52 ../../source/release-notes/v82.md:92
 #: ../../source/release-notes/v83.md:53 ../../source/release-notes/v83.md:139
 msgid "Create Tools"
-msgstr ""
+msgstr "Средства творения"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 #: ../../source/host/add-content/bake-content.rst:45
@@ -339,41 +385,41 @@ msgstr ""
 #: ../../source/release-notes/v85.md:56 ../../source/release-notes/v86.md:14
 #: ../../source/release-notes/v86.md:54
 msgid "Avatars"
-msgstr ""
+msgstr "Аватары"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:6
 msgid "Wearables"
-msgstr ""
+msgstr "Одежда"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 msgid "Entities"
-msgstr ""
+msgstr "Сучности"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
 #: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
-msgstr ""
+msgstr "Материалы"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
-msgstr ""
+msgstr "3д модели"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "Окружающая среда"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:7
 msgid "Tablet Apps"
-msgstr ""
+msgstr "Приложения для таблетов"
 
 #: ../../source/create.rst:3 ../../source/release-notes/v84.md:18
 #: ../../source/release-notes/v85.md:34 ../../source/release-notes/v85.md:63
 #: ../../source/release-notes/v86.md:23 ../../source/release-notes/v86.md:60
 msgid "Create"
-msgstr ""
+msgstr "Создать"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -384,42 +430,52 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
 msgstr ""
+"Overte позволяет людям объединённых интересом, сообществом и дружбой "
+"приходить вместе и выражать их креативность друг другу. Мы приглашаем Вас "
+"персонализировать ваш собственный опыт создавая аватары и содержимое или "
+"разрабатывая приложения и скрипты. Для того, чтобы получить собственный "
+"опыт, создать свой собственный мир или построить Ваш взрывной проект "
+"используйте свободный и открытый движок Overte  на полную мощность!"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
 msgstr ""
+"В независимости от вашего уровня навыков, Overte предоставляет вам "
+"инструменты необходимые для создания всего что вы можете представить."
 
 #: ../../source/create.rst:9
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
+"На протяжении этой главы, узнайте как создавать, строить и воплощать в жизни "
+"ваш собственный VR опыт:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "Получите свою 3D Модель"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "Импортируйте Вашу 3D Модель"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:3
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "Руководство по материалам PBR"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "Процедурные шейдеры для Моделей и Аватаров"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "Импорт Анимаций"
 
 #: ../../source/create/3d-models.rst:5
 msgid ""
@@ -428,6 +484,11 @@ msgid ""
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
+"3D модели это сущности doc:`<entities>`которые отображают объекты которые вы "
+"хотите видеть в мире, например фонтан, замок или кофейную чашку. Вы можете "
+"получить вашу 3D модель создавая вашу собственную или заказать разработку у "
+"сторонних специалистов. Мы поддерживаем 3D модели только в форматах OBJ, "
+"FBX, and glTF."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -436,22 +497,28 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
+"Вид 3D модели зависит от материалов. Материалы, которые поддерживаются в "
+"Overte это материалы с физичечки-основанным рендерингом (PBR). Это означает, "
+"что материалы  3D модели будут отражать или поглощать свет так, как бы они "
+"это делали приблизительно в реальной жизни"
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**В этом разделе**"
 
 #: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Overte."
 msgstr ""
+"Все 3D модели должны быть в  FBX, glTF или  OBJ формате и содержать "
+"материалы которые поддерживаются Overte."
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "Получит свою 3D модель из магазинов 3D контента"
 
 #: ../../source/create/3d-models/get-model.rst:14
 msgid ""
@@ -459,6 +526,9 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"Существует множество сайтов с 3D контентом, которые содержат модели для "
+"продажи или бесплатные модели. Имейте ввиду, когда вы получаете 3D модели из "
+"таких сайтов:"
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -466,6 +536,10 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
+"**Проверьте лицензионное соглашение:**Убедитесь, что вы проверили условия "
+"лицензионного соглашения модели, перед как использовать ее в своих работах. "
+"Это Ваша ответственность убедится в том, что у Вас есть достаточно прав для "
+"использования контента."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -474,6 +548,10 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Когда вы делает 3D модель доступную на вашем Overte сервере, посетители "
+"получают ссылки на эти файлы таким же образом, как если бы они просматривали "
+"картинку на сайте. Вы должны быть уверены, что у Вас есть права на "
+"распространение 3D контента."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -481,6 +559,8 @@ msgid ""
 "textures. If that happens, first check to see if the textures are "
 "included."
 msgstr ""
+"**Проверьте Материалы:** Вы можете обнаружить, что у модели отсутствуют "
+"текстуры. Если это произошло, вначале проверьте, что текстуры тоже включены."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -488,20 +568,26 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
+"Если модель загружена в Overte и не выглядит красиво, вы также можете найти "
+"информацию об ошибке в лог файлах интерфейса. Посмотрите Где я могу найти "
+"лог файлы Интерфейса ` <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "Создайте Вашу Собственную 3D Модель"
 
 #: ../../source/create/3d-models/get-model.rst:26
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
+"Вы можете создать ваш собственную 3D модель используя программное "
+"обеспечение для 3D моделирования, такое например, как Blender или Maya. Вы "
+"можете использовать любое программное обеспечение на Ваш выбор, пока вы:"
 
 #: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the FBX, glTF or OBJ format."
-msgstr ""
+msgstr "3D модель в формате FBX, glTF or OBJ."
 
 #: ../../source/create/3d-models/get-model.rst:29
 msgid ""
@@ -509,16 +595,21 @@ msgid ""
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"Материалы 3D модели поддерживаемые Overte. Используйте наше руководство по "
+"материалам :doc:`<pbr-materials-guide>` для того, чтобы убедиться, что ваши "
+"материалы загружаются правильно."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
-msgstr ""
+msgstr "Лучшие Наработки"
 
 #: ../../source/create/3d-models/get-model.rst:35
 msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
 msgstr ""
+"Создание 3D моделей для Overte(и VR) отличается от создания моделей для "
+"фильмов, видео и игр."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -526,6 +617,9 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"3D модели для VR рендерятся дважды(для левого и правого глаза): Это означает "
+"что количество многоугольников для вашей модели и количество материалов "
+"которые вы используете влияет на вашу производительность."
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -534,12 +628,17 @@ msgid ""
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
+"Большинство VR шлемов работают на частоте 90Hz или выше: Вы можете "
+"поддерживать вашу частоту кадров на уровне 90 кадров в секунду и быть "
+"осторожными насчёт размера модели. Модели которые слишком большие или очень "
+"сложные могут замедлить частоту кадров и заставить людей чувствовать себя "
+"плохо."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
-msgstr ""
+msgstr "Мы указали лучшие практики для создания 3D моделей для Overte и VR."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -550,15 +649,15 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "Свойство"
 
 #: ../../source/create/3d-models/get-model.rst:43
 msgid "Best Practice"
-msgstr ""
+msgstr "Лучшие Практики"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
-msgstr ""
+msgstr "Количество многоугольников"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid ""
@@ -566,24 +665,31 @@ msgid ""
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
+"Ваш подсчет должен учитывать, что модель для планшетный игры должна "
+"содержать  не слишком большое количество многоугольников и не слишком "
+"низкое. Например, 50000 Многоугольников должно быть достаточно для "
+"детализированного аватара."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
-msgstr ""
+msgstr "Циклы Граней"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "Удалите циклы граней которые больше не нужны."
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Mesh"
-msgstr ""
+msgstr "Mesh"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
+"Очистите mesh чтобы убедиться, что нет N-многоугольников и нет "
+"комплиментарных граней. Любое хорошее программное обеспечение для 3D "
+"моделирования должно поддерживать это при экспорте."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -592,10 +698,15 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"Всегда пробуйте создавать Atlas карты. Когда каждый кусочек вашего контента "
+"разделяет общий материал и UV пространство, это называется Atlas картой. "
+"Например, если вы создаёте робота, все его части должны разделять одну UV "
+"карту, в  отличии от того, чтобы назначать рукам, ногам или лицу различные "
+"материалы и UV карты."
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid "Overte’s engine only supports one UV mapping per material."
-msgstr ""
+msgstr "Overte движок поддерживает только одно UV отображение на материал."
 
 #: ../../source/create/3d-models/get-model.rst:61
 #: ../../source/create/3d-models/get-model.rst:64
@@ -608,33 +719,40 @@ msgstr ""
 #: ../../source/create/avatars/avatar-standards.md:257
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
-msgstr ""
+msgstr "Текстуры"
 
 #: ../../source/create/3d-models/get-model.rst:61
 msgid ""
 "PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
 " TIFF formats."
 msgstr ""
+"PNG, JPEG и JPG files это рекомендованные форматы, но ещё мы поддерживаем "
+"форматы TGA, TIF and TIFF."
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid "Choose the color types wisely to minimize the size of the final file."
-msgstr ""
+msgstr "Выбирайте типы цветов мудро для минимизации размера конечного файла."
 
 #: ../../source/create/3d-models/get-model.rst:66
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr ""
+"PNG-8 поддерживает только режим ВКЛ/ВЫКЛ прозрачности, содержит палитру\n"
+" цветов (256 цветов, как например GIF), и может использоваться для "
+"маскировки прозрачности."
 
 #: ../../source/create/3d-models/get-model.rst:69
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr ""
+"Для большего разрешения цвета, вы можете использовать PNG-24. Для "
+"полупрозрачной маски или прозрачных текстур, используйте PNG-32."
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
-msgstr ""
+msgstr "Не используйте PNG-48 или PNG-64, они оба не поддерживаются Overte."
 
 #: ../../source/create/3d-models/get-model.rst:74
 msgid ""
@@ -642,6 +760,9 @@ msgid ""
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
+"Когда текстуры загружены в движок, они автоматически подгоняются к сетке "
+"128x128. Подбираете размеры, которые кратны 128 для того чтобы не тратить "
+"впустую любую память."
 
 #: ../../source/create/3d-models/get-model.rst:77
 msgid ""
@@ -653,18 +774,26 @@ msgid ""
 "maps, etc. don't need to be nearly as high resolution as the main color "
 "texture."
 msgstr ""
+"Пока текстуры автоматически растягиваются для уменьшения,  если они не "
+"подходят под размер памяти текстуры, есть смысл использовать наиболее низкое "
+"разрешение для того, чтобы уменьшить размеры файлов и уменьшить искажение на "
+"устройствах с низкой производительностью от растягивания для уменьшения и "
+"пересжатия текстур. Например, текстуры размером 4096x4096 должно быть "
+"достаточно для детализированного аватара. Карты нормалей, emission карты, "
+"и.т.п. не должны быть такого высокого разрешения, как текстура главного "
+"цвета."
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw Calls"
-msgstr ""
+msgstr "Вызовы Отрисовки"
 
 #: ../../source/create/3d-models/get-model.rst:84
 msgid "Draw calls happen before something gets rendered on screen."
-msgstr ""
+msgstr "Вызовы Отрисовки происходят перед тем, как что-то рендерится на экране."
 
 #: ../../source/create/3d-models/get-model.rst:86
 msgid "``1 model w/ 1 material = 1 draw call``"
-msgstr ""
+msgstr "``1 модель вес/ 1 материал= 1 вызов отрисовки``"
 
 #: ../../source/create/3d-models/get-model.rst:88
 msgid ""
@@ -672,6 +801,11 @@ msgid ""
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
 msgstr ""
+"Не существует заранее определенных измерений для желаемого количества "
+"многоугольников. Вам необходимо найти баланс между вызовами отрисовки и "
+"количеством многоугольников. Несколько вызовов отрисовки означает больше "
+"пространства для многоугольников. Меньшие размеры текстур означают больше "
+"пространства для высокополигональных моделей."
 
 #: ../../source/create/3d-models/get-model.rst:92
 msgid "Baking"
@@ -29575,4 +29709,3 @@ msgstr ""
 #~ "[Load and Run a Script](get-started-"
 #~ "with-scripting.html#load-and-run-a-script)"
 #~ msgstr ""
-
