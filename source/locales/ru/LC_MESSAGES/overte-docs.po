@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-31 18:07+0000\n"
-"PO-Revision-Date: 2024-05-14 10:20+0000\n"
+"PO-Revision-Date: 2024-05-14 23:20+0000\n"
 "Last-Translator: Yurii Yevdokimov <yevdokimovyurii86@gmail.com>\n"
 "Language-Team: Russian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ru/>\n"
@@ -1061,20 +1061,25 @@ msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
 msgstr ""
+"Это последний кадр где вы хотите остановить свою анимацию. Она не будет "
+"проигрываться за этим специфическим кадром."
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "Animation FPS"
-msgstr ""
+msgstr "Количество кадров анимации"
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "This is the animation's framerate."
-msgstr ""
+msgstr "Это фреймрейт анимации"
 
 #: ../../source/create/3d-models/import-animations.rst:68
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
+"Вы также можете контролировать свойства анимации и когда она начнет "
+"проигрываться со следующим скриптом сущностей :doc:`entity script <../../"
+"script/client-entity-scripts>`"
 
 #: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
@@ -1127,15 +1132,15 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:57
 #: ../../source/script/write-scripts.md:74
 msgid "**See Also**"
-msgstr ""
+msgstr "** Смотрите Также **"
 
 #: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
-msgstr ""
+msgstr "Импортируйте Вашу 3D Модель :doc:`<import-model>`"
 
 #: ../../source/create/3d-models/import-model.rst:3
 msgid "Import a 3D Model"
-msgstr ""
+msgstr "Импорт 3D Модели"
 
 #: ../../source/create/3d-models/import-model.rst:5
 msgid ""
@@ -1143,34 +1148,42 @@ msgid ""
 "domain's Asset Server. Importing your model brings it into your domain "
 "and adds it to your virtual world."
 msgstr ""
+"Вы можете импортировать 3D модель в Overte которая будет размещаться онлайн "
+"или на вашем домене Asset сервера. Импортирование вашей модели принесет ее "
+"на ваш домен и добавит ее в ваш виртуальный мир."
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
-msgstr ""
+msgstr "Импортирование Моделей из облака"
 
 #: ../../source/create/3d-models/import-model.rst:14
 msgid ""
 "If you want your model available to users in other domains, we recommend "
 "uploading it to a cloud hosting service of your choice."
 msgstr ""
+"Если вы хотите чтобы ваша модель была доступна пользователям в других "
+"доменах, мы рекомендуем загрузить ее на облачный сервис для хостинга на ваш "
+"выбор."
 
 #: ../../source/create/3d-models/import-model.rst:16
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
 "should be an FBX, glTF, or OBJ file."
 msgstr ""
+"Найдите и скопируйте ссылку на вашу модель которую вы хотите импортировать. "
+"Модель должна быть в формате FBX, glTF, или OBJ файла."
 
 #: ../../source/create/3d-models/import-model.rst:18
 msgid "Select the 'Model' icon."
-msgstr ""
+msgstr "Выберите иконку Модели"
 
 #: ../../source/create/3d-models/import-model.rst:19
 msgid "Paste the model's URL and click 'Add'."
-msgstr ""
+msgstr "Вставьте ссылку на модель и нажмите Добавить"
 
 #: ../../source/create/3d-models/import-model.rst:25
 msgid "Import Models from the Asset Server"
-msgstr ""
+msgstr "Импорт Моделей с сервера Ресурсов"
 
 #: ../../source/create/3d-models/import-model.rst:27
 msgid ""
@@ -1180,29 +1193,37 @@ msgid ""
 "permissions to \"rez\" entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
+"Сервер ресурсов хранит файлы или ресурсы которые могут быть добавлены как "
+"есть к домену или те, на которые ссылаются существующие сущности и скрипты "
+"которые уже существуют в домене. Для импорта ресурсов с Сервера Ресурсов, у "
+"вас должны быть права для размещения сущностей в домене на котором запущен "
+"сервер ресурсов."
 
 #: ../../source/create/3d-models/import-model.rst:31
 msgid "Click 'Open this Domain's Asset Server'."
-msgstr ""
+msgstr "Нажмите Открыть этот Домен Ресурсов Сервер."
 
 #: ../../source/create/3d-models/import-model.rst:32
 msgid "In the Asset Browser, browse to the model you would like to import."
 msgstr ""
+"В браузере ресурсов, просмотрите модель, которую вы хотите импортировать."
 
 #: ../../source/create/3d-models/import-model.rst:33
 msgid ""
 "Click 'Add to World'. Then click 'Add' on the confirmation window that "
 "opens."
 msgstr ""
+"Нажмите Добавить в Мир. Затем нажмите Добавить на окне с подтверждением "
+"которое откроется."
 
 #: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
-msgstr ""
+msgstr "Средства Создания"
 
 #: ../../source/create/3d-models/import-model.rst:40
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
-msgstr ""
+msgstr "Создать Новые Сущности"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
 msgid ""
@@ -1211,10 +1232,14 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light (approximately) like how they would in real life."
 msgstr ""
+"Появление 3D модели контролируется его материалами. Эти материалы "
+"поддерживаемые в Overte это материалы основанные на физическом рендеринге. "
+"Это означает, что материалы 3D модели будут отражать или поглощать "
+"свет(приблизительно) так же, как они делают это в реальной жизни."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:13
 msgid "Introduction to Materials, Textures, and Shading"
-msgstr ""
+msgstr "Введение в Материалы, Текстуры и Тени"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:15
 msgid ""
@@ -1223,6 +1248,10 @@ msgid ""
 "metallic it looks, and if its surface is bumpy or smooth. A 3D model of a"
 " brick wall will have material that determines its roughness and color."
 msgstr ""
+"Поведение 3D модели контролируется ее материалами. Например, 3D модель "
+"ключей будет использовать материал, который определяет ее цвет, как выглядит "
+"металл, и насколько гладкая или выпуклая его поверхность. 3D модель каменной "
+"стены будет иметь материал, который определяет его грубость и цвет."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:18
 msgid ""
@@ -1232,10 +1261,16 @@ msgid ""
 " falls on it. The 3D model of a brick wall will not shine, but will "
 "reflect enough light for you to observe its colors and surface."
 msgstr ""
+"Так как Overte поддерживает материалы, основанные на физическом рендеринге, "
+"Ваша модель будет вести себя, как объект реального мира, когда он "
+"подвергается воздействию света. Например, одинаковая 3D модель ключа будет "
+"светится и отражать любой свет, который падает на него. 3D модель каменной "
+"стены не будет светится, но будет отражать достаточно света для того, чтобы "
+"вы наблюдали ее цвета и поверхность."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:21
 msgid "A material contains texture and shading information."
-msgstr ""
+msgstr "Материал содержит текстуру и информацию об тенях."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:27
 msgid ""
@@ -1243,26 +1278,30 @@ msgid ""
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a bark texture to show what the surface looks like."
 msgstr ""
+"Текстуры это плоские изображения которые применяются к 3D моделям. Они "
+"добавляют детали к тому, как выглядит материал 3D модели. Например, 3D "
+"модель ствола дерева будет использовать текстуру коры чтобы показать, как "
+"выглядит поверхность."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:29
 msgid "Overte supports the use of the following texture formats:"
-msgstr ""
+msgstr "Overte поддерживает использование следующих форматов текстур:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid "PNG (recommended)"
-msgstr ""
+msgstr "PNG (рекомендуется)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:32
 msgid "JPEG, JPG (recommended)"
-msgstr ""
+msgstr "JPEG, JPG (рекомендуется)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "TGA"
-msgstr ""
+msgstr "TGA"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:34
 msgid "TIFF, TIF"
-msgstr ""
+msgstr "TIFF, TIF"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:36
 msgid ""
