@@ -10,15 +10,16 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2024-03-31 18:07+0000\n"
-"PO-Revision-Date: 2023-10-16 00:18+0000\n"
+"PO-Revision-Date: 2024-06-08 14:21+0000\n"
 "Last-Translator: DEIVITI COSTA SILVA <deiviti.eng@gmail.com>\n"
+"Language-Team: Portuguese <https://weblate.overte.org/projects/overte/"
+"overte-documentation/pt/>\n"
 "Language: pt\n"
-"Language-Team: Portuguese <https://weblate.overte.org/projects/overte"
-"/overte-documentation/pt/>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Weblate 5.4.3\n"
 "Generated-By: Babel 2.14.0\n"
 
 #: ../../source/shared.rst
@@ -60,11 +61,11 @@ msgstr ""
 
 #: ../../source/shared.rst
 msgid "cs_trans"
-msgstr ""
+msgstr "cs_trans"
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuir"
 
 #: ../../source/contribute.rst:7
 msgid ""
@@ -75,6 +76,12 @@ msgid ""
 "software for creating virtual worlds. There are plenty of ways you can "
 "contribute to the various parts that make up Overte."
 msgstr ""
+"Overte é um projeto de código aberto, então todo o nosso código e "
+"documentação estão disponíveis para você consultar. Você também pode "
+"contribuir com nosso esforço pelo metaverso! Nosso `repositório git "
+"principal <https://github.com/overte-org/overte>`_ contém a fonte de muitos "
+"dos componentes do nosso software para a criação de mundos virtuais. Há "
+"muitas maneiras de contribuir com as diversas partes que compõem o Overte."
 
 #: ../../source/contribute.rst:11
 msgid ""
@@ -83,6 +90,10 @@ msgid ""
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
 msgstr ""
+"Se você tiver alguma dúvida ou procurar algum conselho, dê uma olhada em "
+"nosso `Espaço Matriz <https://matrix.to/#/#overte:overte.org>`_ |Matriz| que "
+"também está conectado ao nosso `servidor Discord <https://discord.gg/"
+"4YuQvc8K2f>`_ |Discord| se você preferir isso."
 
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -132,7 +143,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/midi-tutorial.rst:12
 msgid "On This Page"
-msgstr ""
+msgstr "Nesta página"
 
 #: ../../source/contribute.rst:19
 #: ../../source/release-notes/2020-2-0-Asteria.md:113
@@ -152,23 +163,27 @@ msgstr ""
 #: ../../source/release-notes/2021-1-3-Eos.md:238
 #: ../../source/release-notes/v86-k2.md:67
 msgid "Documentation"
-msgstr ""
+msgstr "Documentação"
 
 #: ../../source/contribute.rst:20
 msgid "You can help create and maintain the documentation in several ways:"
-msgstr ""
+msgstr "Você pode ajudar a criar e manter a documentação de diversas maneiras:"
 
 #: ../../source/contribute.rst:22
 msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
+"Relate erros ou informações ausentes ao `rastreador de problemas do GitHub "
+"<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 
 #: ../../source/contribute.rst:23
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
+"Crie ou altere páginas de documentação e abra um `PR (solicitação pull) no "
+"GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 
 #: ../../source/contribute.rst:24
 msgid ""
@@ -178,10 +193,14 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"`Revise as alterações <https://github.com/overte-org/overte-docs-sphinx/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ na documentação no "
+"Github . Gostaríamos de ter dois revisores para a maioria das alterações, "
+"pois sempre há coisas que o redator e o primeiro revisor ignoram."
 
 #: ../../source/contribute.rst:29
 msgid "Translation"
-msgstr ""
+msgstr "Tradução"
 
 #: ../../source/contribute.rst:30
 msgid ""
@@ -29552,4 +29571,3 @@ msgstr ""
 #~ "[Load and Run a Script](get-started-"
 #~ "with-scripting.html#load-and-run-a-script)"
 #~ msgstr ""
-
