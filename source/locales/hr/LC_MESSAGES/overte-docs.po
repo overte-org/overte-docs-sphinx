@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-03-31 18:07+0000\n"
+"POT-Creation-Date: 2024-06-28 23:52+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: hr\n"
@@ -20,7 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.14.0\n"
+"Generated-By: Babel 2.15.0\n"
 
 #: ../../source/shared.rst
 msgid "Download"
@@ -92,7 +92,7 @@ msgstr ""
 #: ../../source/create/avatars/add-flow.rst:12
 #: ../../source/create/avatars/create-avatars.rst:20
 #: ../../source/create/avatars/custom-animations.rst:14
-#: ../../source/create/avatars/find-avatars.rst:12
+#: ../../source/create/avatars/find-avatars.rst:13
 #: ../../source/create/avatars/package-avatar.rst:14
 #: ../../source/create/avatars/scattering-tutorial.rst:12
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:8
@@ -116,7 +116,7 @@ msgstr ""
 #: ../../source/explore/personalize/add-wearables.rst:13
 #: ../../source/explore/socialize.rst:8 ../../source/faq.rst:9
 #: ../../source/host/add-content/bake-content.rst:12
-#: ../../source/host/add-content/create-content.rst:12
+#: ../../source/host/add-content/create-content.rst:13
 #: ../../source/host/add-content/export-content.rst:20
 #: ../../source/host/configure-settings/audio-settings.rst:10
 #: ../../source/host/configure-settings/entity-filters.rst:9
@@ -132,6 +132,7 @@ msgstr ""
 #: ../../source/host/start-hosting.rst:8
 #: ../../source/script/get-started-with-scripting.rst:10
 #: ../../source/script/midi-tutorial.rst:12
+#: ../../source/security/asset-security.rst:12
 msgid "On This Page"
 msgstr ""
 
@@ -316,6 +317,7 @@ msgstr ""
 #: ../../source/release-notes/v84.md:55 ../../source/release-notes/v85.md:25
 #: ../../source/release-notes/v85.md:56 ../../source/release-notes/v86.md:14
 #: ../../source/release-notes/v86.md:54
+#: ../../source/security/asset-security.rst:29
 msgid "Avatars"
 msgstr ""
 
@@ -324,6 +326,7 @@ msgid "Wearables"
 msgstr ""
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
+#: ../../source/security/asset-security.rst:16
 msgid "Entities"
 msgstr ""
 
@@ -836,7 +839,7 @@ msgstr ""
 #: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
 #: ../../source/host/add-content/bake-content.rst:23
 #: ../../source/host/add-content/bake-content.rst:64
-#: ../../source/host/add-content/create-content.rst:35
+#: ../../source/host/add-content/create-content.rst:36
 #: ../../source/host/configure-settings/permission-settings.rst:46
 #: ../../source/script/get-started-with-scripting.rst:23
 #: ../../source/script/get-started-with-scripting.rst:56
@@ -929,7 +932,7 @@ msgstr ""
 #: ../../source/create/avatars/blender-tutorial.md:52
 #: ../../source/create/avatars/create-avatars.rst:67
 #: ../../source/create/avatars/custom-animations.rst:269
-#: ../../source/create/avatars/find-avatars.rst:177
+#: ../../source/create/avatars/find-avatars.rst:178
 #: ../../source/create/avatars/mixamo-tutorial.md:24
 #: ../../source/create/avatars/scattering-tutorial.rst:66
 #: ../../source/create/entities/add-sounds.md:24
@@ -970,6 +973,7 @@ msgstr ""
 #: ../../source/script/js-tips.md:200 ../../source/script/midi-tutorial.rst:176
 #: ../../source/script/server-entity-scripts.md:57
 #: ../../source/script/write-scripts.md:74
+#: ../../source/security/asset-security.rst:79
 msgid "**See Also**"
 msgstr ""
 
@@ -3040,7 +3044,8 @@ msgstr ""
 #: ../../source/create/avatars/create-avatars.rst:17
 msgid ""
 "If you want to create an avatar from scratch, this page covers the steps "
-"needed to create, rig, and package your avatar."
+"needed to create, rig, and package your avatar. Learn more about the "
+":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:22
@@ -3152,7 +3157,7 @@ msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:70
-#: ../../source/create/avatars/find-avatars.rst:179
+#: ../../source/create/avatars/find-avatars.rst:180
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
 msgstr ""
 
@@ -3318,7 +3323,7 @@ msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/environments.rst:15
-#: ../../source/host/add-content/create-content.rst:35
+#: ../../source/host/add-content/create-content.rst:36
 msgid "Method"
 msgstr ""
 
@@ -3920,14 +3925,15 @@ msgid ""
 " or CGTrader. Once you get the avatar, you will need to process it in "
 "Unity using the Overte Avatar Exporter. This tool imports most avatars "
 "into Unity, maps their skeleton using Unity's humanoid tool, and exports "
-"them as FST and FBX files to import in-world."
+"them as FST and FBX files to import in-world. Learn more about the "
+":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:16
+#: ../../source/create/avatars/find-avatars.rst:17
 msgid "Avatar Guidelines"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:18
+#: ../../source/create/avatars/find-avatars.rst:19
 msgid ""
 "Many external sites like TurboSquid and CGTrader provide avatars that you"
 " can use. However, note that not all of the avatars you find may work in "
@@ -3936,36 +3942,36 @@ msgid ""
 "check\" it prior to use."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:20
+#: ../../source/create/avatars/find-avatars.rst:21
 msgid "You should ensure that:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:22
+#: ../../source/create/avatars/find-avatars.rst:23
 msgid ""
 "You downloaded a `real-time model <https://blog.turbosquid.com/real-time-"
 "models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:23
+#: ../../source/create/avatars/find-avatars.rst:24
 msgid "You have the correct downloaded files"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:25
+#: ../../source/create/avatars/find-avatars.rst:26
 msgid "An FBX model for your avatar. We do not support other 3D model formats."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:26
+#: ../../source/create/avatars/find-avatars.rst:27
 msgid ""
 "(Optional) One or more image files to give your avatar color and texture."
 " Sometimes, these are already embedded in your FBX model and you won't "
 "have any additional image files in your download."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:27
+#: ../../source/create/avatars/find-avatars.rst:28
 msgid "Your avatar is rigged."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:29
+#: ../../source/create/avatars/find-avatars.rst:30
 msgid ""
 "If your avatar is not rigged, you can use :doc:`Mixamo <mixamo-tutorial>`"
 " to rig it. If you use Mixamo, you do not necessarily need to use Unity "
@@ -3974,12 +3980,12 @@ msgid ""
 "your-avatar>`_ to import your avatar into Overte."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:33
+#: ../../source/create/avatars/find-avatars.rst:34
 #: ../../source/create/avatars/package-avatar.rst:26
 msgid "Overte Avatar Exporter for Unity"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:35
+#: ../../source/create/avatars/find-avatars.rst:36
 msgid ""
 "Overte supports only one standard type of rigging for avatars. Because "
 "many avatars do not match this skeleton, we created the Overte Avatar "
@@ -3989,7 +3995,7 @@ msgid ""
 "use in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:37
+#: ../../source/create/avatars/find-avatars.rst:38
 msgid ""
 "The avatar exporter was written to improve the process of rigging and "
 "mapping the skeleton rig. This will not affect the animations or "
@@ -3998,26 +4004,26 @@ msgid ""
 "avatar prior to using the avatar exporter in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:39
+#: ../../source/create/avatars/find-avatars.rst:40
 msgid "You will need the following to use this tool:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:41
+#: ../../source/create/avatars/find-avatars.rst:42
 msgid "Unity (Recommended versions: 2019.4.31f1)"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:42
+#: ../../source/create/avatars/find-avatars.rst:43
 msgid "Overte"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:43
+#: ../../source/create/avatars/find-avatars.rst:44
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-"
 "org/overte/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.6.0)"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:45
+#: ../../source/create/avatars/find-avatars.rst:46
 msgid ""
 "Please note that the recommended version of Unity is not the latest "
 "version. If you are using a newer version of Unity, we recommend that you"
@@ -4027,42 +4033,42 @@ msgid ""
 "correcting any issues with remapping bones."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:49
+#: ../../source/create/avatars/find-avatars.rst:50
 msgid "Install the Avatar Exporter"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:51
+#: ../../source/create/avatars/find-avatars.rst:52
 msgid ""
 "You need to install the extension for every Unity project that you have. "
 "Keep in mind, however, that you can import and export multiple avatars in"
 " a single Unity project."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:53
+#: ../../source/create/avatars/find-avatars.rst:54
 msgid ""
 "Download the `avatar exporter <https://github.com/overte-"
 "org/overte/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ from Overte."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:54
+#: ../../source/create/avatars/find-avatars.rst:55
 msgid "In Unity, open the 'Project' window at the bottom."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:58
+#: ../../source/create/avatars/find-avatars.rst:59
 msgid ""
 "Right-click the 'Assets' folder, then select **Import Package > Custom "
 "Package**."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:62
+#: ../../source/create/avatars/find-avatars.rst:63
 msgid ""
 "Navigate to the `avatarExporter` package (with a .unitypackage "
 "extension). Click 'Open'. You can also double-click the package on your "
 "computer to import it automatically."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:63
+#: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
 "In the 'Importing Package' window, review the list of files to be "
 "imported and check for conflicts with files already in your project. If a"
@@ -4070,53 +4076,53 @@ msgid ""
 "project."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:64
+#: ../../source/create/avatars/find-avatars.rst:65
 msgid ""
 "Click 'Import'. The package's files are added to the Assets folder. You "
 "should now have a 'Overte' menu in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:70
+#: ../../source/create/avatars/find-avatars.rst:71
 msgid "Create an Avatar Package"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:72
+#: ../../source/create/avatars/find-avatars.rst:73
 msgid ""
 "If you don't already have your model open in Unity, you need to import "
 "your model. Use any of the following methods:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:74
+#: ../../source/create/avatars/find-avatars.rst:75
 msgid ""
 "Drag and drop the FBX file into the 'Assets' folder of your 'Project' "
 "window."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:75
+#: ../../source/create/avatars/find-avatars.rst:76
 msgid ""
 "In the 'Project' window, right-click the 'Assets' folder, then select "
 "**Import Package > Import New Asset**. Navigate to the FBX file and click"
 " 'Import'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:76
+#: ../../source/create/avatars/find-avatars.rst:77
 msgid ""
 "In Unity, open the 'Assets' menu, then select **Import Package > Import "
 "New Asset**. Navigate to the FBX file and click 'Import'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:77
+#: ../../source/create/avatars/find-avatars.rst:78
 msgid ""
 "In the 'Project' window, select your avatar’s FBX file. In the "
 "'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then"
 " click 'Apply'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:85
+#: ../../source/create/avatars/find-avatars.rst:86
 msgid "Click 'Configure' to investigate and tweak the mapping of your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:89
+#: ../../source/create/avatars/find-avatars.rst:90
 msgid ""
 "All bones mapped in Unity are highlighted in green and can be selected. "
 "Check if anything is missing. Any errors will appear in red. The minimum "
@@ -4126,7 +4132,7 @@ msgid ""
 "to the 'Inspector' panel."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:94
+#: ../../source/create/avatars/find-avatars.rst:95
 msgid ""
 "Avatars in Overte must have a Chest bone. If your avatar does not have a "
 "chest bone, the avatar exporter may suggest a suitable alternative from "
@@ -4136,22 +4142,22 @@ msgid ""
 "Configuration'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:96
+#: ../../source/create/avatars/find-avatars.rst:97
 msgid "If you made any changes, click 'Done'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:97
+#: ../../source/create/avatars/find-avatars.rst:98
 msgid "Click on the FBX file in the 'Assets' manager."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:101
+#: ../../source/create/avatars/find-avatars.rst:102
 msgid ""
 "Make sure that you have the `avatar exporter installed <#install-the-"
 "avatar-exporter>`_. Open the 'Overte' menu in the top menu bar, then "
 "select 'Export New Avatar'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:102
+#: ../../source/create/avatars/find-avatars.rst:103
 msgid ""
 "Give your avatar project a name. The default project location is your "
 "local user's ``Documents\\Overte Projects`` directory, which is created "
@@ -4159,17 +4165,17 @@ msgid ""
 "this directory, you can change it to another location on your computer."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:106
+#: ../../source/create/avatars/find-avatars.rst:107
 msgid "Click 'Export'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:108
+#: ../../source/create/avatars/find-avatars.rst:109
 msgid ""
 "Your avatar package has been created! The File Explorer will open to your"
 " new avatar project."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:112
+#: ../../source/create/avatars/find-avatars.rst:113
 msgid ""
 "If you are using any external textures with your avatar model, copy those"
 " textures to your local user's ``Documents\\Overte "
@@ -4177,17 +4183,17 @@ msgid ""
 "may not show up on your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:116
+#: ../../source/create/avatars/find-avatars.rst:117
 msgid "Test Your Avatar"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:118
+#: ../../source/create/avatars/find-avatars.rst:119
 msgid ""
 "We encourage you to \"spot check\" your avatar in Unity before exporting "
 "it with the `Overte Avatar Exporter for Unity`_. Check for the following:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:120
+#: ../../source/create/avatars/find-avatars.rst:121
 msgid ""
 "Confirm that there are no extraneous objects attached to your model. For "
 "example, this `Mech avatar <https://www.cgtrader.com/free-3d-"
@@ -4196,7 +4202,7 @@ msgid ""
 "into Overte and may affect the rendering or animation of your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:121
+#: ../../source/create/avatars/find-avatars.rst:122
 msgid ""
 "Test your bone movements. In Unity's 'Inspector', open 'Rig'. For "
 "'Animation Type', choose 'Humanoid' and then click 'Apply'. Go to "
@@ -4204,7 +4210,7 @@ msgid ""
 "that it works as expected."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:130
+#: ../../source/create/avatars/find-avatars.rst:131
 msgid ""
 "If everything looks good, you need to `host your avatar <package-"
 "avatar.html#host-your-avatar>`_ then `change your avatar "
@@ -4212,11 +4218,11 @@ msgid ""
 "avatar>`_ to wear it."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:134
+#: ../../source/create/avatars/find-avatars.rst:135
 msgid "Troubleshooting Tips"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:136
+#: ../../source/create/avatars/find-avatars.rst:137
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar’s "
 "skeleton. These are fully documented here: `Troubleshooting with the "
@@ -4225,24 +4231,24 @@ msgid ""
 "downloaded avatar and using the avatar exporter:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:139
+#: ../../source/create/avatars/find-avatars.rst:140
 #: ../../source/explore/get-started/vr-controls.rst:190
 msgid "Issue"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:139
+#: ../../source/create/avatars/find-avatars.rst:140
 msgid "Troubleshooting Tip"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:141
+#: ../../source/create/avatars/find-avatars.rst:142
 msgid "*You receive a warning in Unity:*"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:143
+#: ../../source/create/avatars/find-avatars.rst:144
 msgid "\"Character is not in T pose.\""
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:141
+#: ../../source/create/avatars/find-avatars.rst:142
 msgid ""
 "Go to the 'Inspector', click 'Configure', and then select 'Pose' near the"
 " bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click "
@@ -4250,64 +4256,64 @@ msgid ""
 "with remapping bones."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:145
+#: ../../source/create/avatars/find-avatars.rst:146
 msgid "In Unity, your avatar is a solid color."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:145
+#: ../../source/create/avatars/find-avatars.rst:146
 msgid ""
 "This suggests that the materials or shaders you are using are not "
 "supported."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:147
+#: ../../source/create/avatars/find-avatars.rst:148
 msgid "Click and drag your model into the 'Scene' window."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:148
+#: ../../source/create/avatars/find-avatars.rst:149
 msgid ""
 "Select all of the unsupported materials. These will be one solid color, "
 "such as pink."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:150
+#: ../../source/create/avatars/find-avatars.rst:151
 msgid ""
 "In the 'Inspector', change the 'Shader' to one of the 'Standard' options."
 " All materials should now show up correctly."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:153
+#: ../../source/create/avatars/find-avatars.rst:154
 msgid "Your avatar is gray."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:153
+#: ../../source/create/avatars/find-avatars.rst:154
 msgid "One of the following issues could have occurred:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:155
+#: ../../source/create/avatars/find-avatars.rst:156
 msgid ""
 "Make sure you copied your avatar's textures into the project’s textures "
 "folder"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:156
+#: ../../source/create/avatars/find-avatars.rst:157
 msgid ""
 "Verify that your textures are in a format that we support (PNG, JPEG, "
 "JPG, TGA, TIF, or TIFF)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:158
+#: ../../source/create/avatars/find-avatars.rst:159
 msgid ""
 "If your textures are embedded in your avatar: select the FBX file, go to "
 "'Inspector', and click 'Extract Textures'. Extract your textures into "
 "your asset's folder. You can do the same with Materials."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:162
+#: ../../source/create/avatars/find-avatars.rst:163
 msgid "Your avatar is tied up into knots or laying down."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:162
+#: ../../source/create/avatars/find-avatars.rst:163
 msgid ""
 "This could mean that your skeleton is not right. Re-open your avatar in "
 "Unity and run through steps 2-5 of `Create an Avatar Package`_ again. "
@@ -4315,17 +4321,17 @@ msgid ""
 "to your avatar package)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:167
+#: ../../source/create/avatars/find-avatars.rst:168
 msgid ""
 "If it still doesn't work, ensure that you are testing the correct file "
 "that the avatar exporter created."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:170
+#: ../../source/create/avatars/find-avatars.rst:171
 msgid "Your avatar's skin doesn't move properly with animations."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:170
+#: ../../source/create/avatars/find-avatars.rst:171
 msgid ""
 "The avatar exporter was written to improve the process of rigging and "
 "mapping the skeleton rig. This will not affect the animations in your "
@@ -10662,27 +10668,27 @@ msgstr ""
 msgid "Possible Environment Variables"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:143
+#: ../../source/developer/build/BUILD.md:140
 msgid "Generate Files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:145
+#: ../../source/developer/build/BUILD.md:142
 msgid ""
 "Create a build directory in the root of your checkout and then run the "
 "CMake build from there. This will keep the rest of the directory clean."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:153
+#: ../../source/developer/build/BUILD.md:150
 msgid ""
 "If CMake gives you the same error message repeatedly after the build "
 "fails, try removing `CMakeCache.txt`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:155
+#: ../../source/developer/build/BUILD.md:152
 msgid "Generating a release/debug only vcpkg build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:157
+#: ../../source/developer/build/BUILD.md:154
 msgid ""
 "In order to generate a release or debug only vcpkg package, you could use"
 " the use the `VCPKG_BUILD_TYPE` define in your CMake generate command. "
@@ -10690,44 +10696,44 @@ msgid ""
 "time."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:159
+#: ../../source/developer/build/BUILD.md:156
 msgid "For release only vcpkg:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:161
+#: ../../source/developer/build/BUILD.md:158
 msgid "`cmake .. -DVCPKG_BUILD_TYPE=release`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:163
+#: ../../source/developer/build/BUILD.md:160
 msgid "For debug only vcpkg:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:165
+#: ../../source/developer/build/BUILD.md:162
 msgid "`cmake .. -DVCPKG_BUILD_TYPE=debug`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:167
+#: ../../source/developer/build/BUILD.md:164
 msgid "Variables"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:169
+#: ../../source/developer/build/BUILD.md:166
 msgid ""
 "Any variables that need to be set for CMake to find dependencies can be "
 "set as ENV variables in your shell profile, or passed directly to CMake "
 "with a `-D` flag appended to the `cmake ..` command."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:171
+#: ../../source/developer/build/BUILD.md:168
 msgid ""
 "For example, to pass the QT_CMAKE_PREFIX_PATH variable (if not using the "
 "vcpkg'ed version) during build file generation:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:177
+#: ../../source/developer/build/BUILD.md:174
 msgid "Finding Dependencies"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:179
+#: ../../source/developer/build/BUILD.md:176
 msgid ""
 "The following applies for dependencies we do not grab via CMake "
 "ExternalProject (OpenSSL is an example), or for dependencies you have "
@@ -10737,7 +10743,7 @@ msgid ""
 "external-project-dependencies)."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:181
+#: ../../source/developer/build/BUILD.md:178
 msgid ""
 "You can point our [CMake find modules](https://github.com/overte-"
 "org/overte/tree/master/cmake/modules) to the correct version of "
@@ -10745,77 +10751,77 @@ msgid ""
 "location of the correct version of the dependency."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:183
+#: ../../source/developer/build/BUILD.md:180
 msgid ""
 "In the examples below the variable $NAME would be replaced by the name of"
 " the dependency in uppercase, and $name would be replaced by the name of "
 "the dependency in lowercase (ex: OPENSSL_ROOT_DIR, openssl)."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:185
+#: ../../source/developer/build/BUILD.md:182
 msgid ""
 "$NAME_ROOT_DIR - pass this variable to Cmake with the -DNAME_ROOT_DIR= "
 "flag when running Cmake to generate build files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:186
+#: ../../source/developer/build/BUILD.md:183
 msgid "$NAME_ROOT_DIR - set this variable in your ENV"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:187
+#: ../../source/developer/build/BUILD.md:184
 msgid ""
 "HIFI_LIB_DIR - set this variable in your ENV to your Overte lib folder, "
 "should contain a folder '$name'"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:189
+#: ../../source/developer/build/BUILD.md:186
 msgid "Optional Components"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:191
+#: ../../source/developer/build/BUILD.md:188
 msgid "Build Options"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:193
+#: ../../source/developer/build/BUILD.md:190
 msgid "The following build options can be used when running CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:195
+#: ../../source/developer/build/BUILD.md:192
 msgid "BUILD_CLIENT"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:196
+#: ../../source/developer/build/BUILD.md:193
 msgid "BUILD_SERVER"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:197
+#: ../../source/developer/build/BUILD.md:194
 msgid "BUILD_TESTS"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:198
+#: ../../source/developer/build/BUILD.md:195
 msgid "BUILD_TOOLS"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:199
+#: ../../source/developer/build/BUILD.md:196
 msgid "CLIENT_ONLY // Will package only the Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:200
+#: ../../source/developer/build/BUILD.md:197
 msgid "SERVER_ONLY // Will package only the Server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:202
+#: ../../source/developer/build/BUILD.md:199
 msgid "Optimization build options"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:204
+#: ../../source/developer/build/BUILD.md:201
 msgid ""
 "OVERTE_OPTIMIZE - This variable defaults to 1 if not set and enables "
 "compiler optimization flags on Linux and MacOS. Setting it to 0 will "
 "result in unoptimized build."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:205
+#: ../../source/developer/build/BUILD.md:202
 msgid ""
 "OVERTE_CPU_ARCHITECTURE - This variable contains architecture specific "
 "compiler flags which are used if `OVERTE_OPTIMIZE` is true. If it is not "
@@ -10826,23 +10832,23 @@ msgid ""
 "settings and yield maximum compatibility."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:209
+#: ../../source/developer/build/BUILD.md:206
 msgid "Developer Build Options"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:211
+#: ../../source/developer/build/BUILD.md:208
 msgid "USE_GLES"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:212
+#: ../../source/developer/build/BUILD.md:209
 msgid "DISABLE_UI"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:214
+#: ../../source/developer/build/BUILD.md:211
 msgid "Devices"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:216
+#: ../../source/developer/build/BUILD.md:213
 msgid ""
 "You can support external input/output devices such as Leap Motion, MIDI, "
 "and more by adding each individual SDK in the visible building path. "
@@ -16831,14 +16837,15 @@ msgid ""
 "creativity of others. Or maybe none of the other domains really fit the "
 "atmosphere of what you have in mind. Whatever the reason, you're ready to"
 " branch out and build content of your own. If you don't know where to "
-"begin, this is a great place to start."
+"begin, this is a great place to start. Learn more about the "
+":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:16
+#: ../../source/host/add-content/create-content.rst:17
 msgid "Tools for Creating Content"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:18
+#: ../../source/host/add-content/create-content.rst:19
 msgid ""
 "A content set is simply a collection of many different entities, models "
 "and scripts working together to form an interactive environment. Visit "
@@ -16846,31 +16853,31 @@ msgid ""
 "available tools and examples of how to make your environment more alive:"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:20
+#: ../../source/host/add-content/create-content.rst:21
 msgid ":doc:`Create Tools <../../create/tools>`"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:21
+#: ../../source/host/add-content/create-content.rst:22
 msgid ":doc:`All About Entities <../../create/entities>`"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:22
+#: ../../source/host/add-content/create-content.rst:23
 msgid ":doc:`Add Sounds to Entities <../../create/entities/add-sounds>`"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:23
+#: ../../source/host/add-content/create-content.rst:24
 msgid ":doc:`Build and Import 3D Models <../../create/3d-models>`"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:24
+#: ../../source/host/add-content/create-content.rst:25
 msgid ":doc:`Get Started with Scripting <../../script>`"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:28
+#: ../../source/host/add-content/create-content.rst:29
 msgid "Techniques for Creating Content Sets"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:30
+#: ../../source/host/add-content/create-content.rst:31
 msgid ""
 "Creating a content set can be complicated because you're designing an "
 "entire environment, rather than one single item. Its like building an "
@@ -16880,7 +16887,7 @@ msgid ""
 "complete."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:32
+#: ../../source/host/add-content/create-content.rst:33
 msgid ""
 "We let you choose how you want to build and deploy your content. The "
 "process for updating the content set on your domain will differ based on "
@@ -16888,33 +16895,33 @@ msgid ""
 "you best to learn more:"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:37
+#: ../../source/host/add-content/create-content.rst:38
 msgid "`Make Live Updates`_"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:37
+#: ../../source/host/add-content/create-content.rst:38
 msgid ""
 "As you make a change to your content, it will show up immediately in your"
 " domain in the metaverse. This means that any visitors in your domain "
 "will see the changes as they happen."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:40
+#: ../../source/host/add-content/create-content.rst:41
 msgid "`Under Construction`_"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:40
+#: ../../source/host/add-content/create-content.rst:41
 msgid ""
 "During the time that you're constructing your content set, your domain is"
 " offline to outside visitors. Users will be unable to visit your domain "
 "while it is under construction."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:43
+#: ../../source/host/add-content/create-content.rst:44
 msgid "`Create and Deploy`_"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:43
+#: ../../source/host/add-content/create-content.rst:44
 msgid ""
 "Here, you prefer to create your content in an offline environment. Once "
 "it is completed, you will need to export your content set to an external "
@@ -16922,18 +16929,18 @@ msgid ""
 "domain with any placeholder content while you design your custom content."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:51
+#: ../../source/host/add-content/create-content.rst:52
 msgid "Make Live Updates"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:53
+#: ../../source/host/add-content/create-content.rst:54
 msgid ""
 "Live updates are made anytime you or any other user in your domain makes "
 "changes to the content. In order to make changes, a user must have the "
 "'Rez' permission turned on."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:55
+#: ../../source/host/add-content/create-content.rst:56
 msgid ""
 "Before going this route, decide on who (if anyone) you would like to "
 "change your content set, and :doc:`verify that their rez permissions are "
@@ -16943,15 +16950,15 @@ msgid ""
 "making changes using the :doc:`Create Tools <../../create/tools>`."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:57
-#: ../../source/host/add-content/create-content.rst:82
+#: ../../source/host/add-content/create-content.rst:58
+#: ../../source/host/add-content/create-content.rst:83
 msgid ""
 "Your server makes regular archives of the content in your domain. Visit "
 "your Domain Settings to :doc:`view and download the backups of your "
 "content sets <../maintain-domain/backup-domain>` over time."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:59
+#: ../../source/host/add-content/create-content.rst:60
 msgid ""
 "**Tip**: It is possible to \"lock down\" content that you've created, so "
 "that visitors can create new content without modifying your custom "
@@ -16964,18 +16971,18 @@ msgid ""
 "domain's content set."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:64
+#: ../../source/host/add-content/create-content.rst:65
 msgid "Under Construction"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:66
+#: ../../source/host/add-content/create-content.rst:67
 msgid ""
 "While you make changes to your content set, you can take down your domain"
 " temporarily and prevent users from visiting while it is under "
 "construction."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:68
+#: ../../source/host/add-content/create-content.rst:69
 msgid ""
 "To do this, simply the remove the 'Connect' permission for all users "
 "other than yourself (and any other co-creators working alongside you). "
@@ -16983,7 +16990,7 @@ msgid ""
 "permission."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:70
+#: ../../source/host/add-content/create-content.rst:71
 #: ../../source/host/add-content/export-content.rst:49
 #: ../../source/host/add-content/export-content.rst:73
 #: ../../source/host/add-content/upload-content.rst:9
@@ -17003,7 +17010,7 @@ msgstr ""
 msgid "Open your domain settings."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:72
+#: ../../source/host/add-content/create-content.rst:73
 #: ../../source/host/add-content/export-content.rst:51
 #: ../../source/host/add-content/export-content.rst:75
 #: ../../source/host/add-content/upload-content.rst:11
@@ -17023,7 +17030,7 @@ msgid ""
 " your server's IP address here>:40100/settings. Log in when prompted."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:73
+#: ../../source/host/add-content/create-content.rst:74
 #: ../../source/host/add-content/export-content.rst:52
 #: ../../source/host/add-content/export-content.rst:76
 #: ../../source/host/add-content/upload-content.rst:12
@@ -17045,7 +17052,7 @@ msgid ""
 "tray, then click 'Settings'."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:74
+#: ../../source/host/add-content/create-content.rst:75
 #: ../../source/host/add-content/export-content.rst:53
 #: ../../source/host/add-content/export-content.rst:77
 #: ../../source/host/add-content/upload-content.rst:13
@@ -17065,26 +17072,26 @@ msgid ""
 "bar, then click 'Settings'."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:75
+#: ../../source/host/add-content/create-content.rst:76
 msgid "On the top menu bar, select **Settings > Security**."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:76
+#: ../../source/host/add-content/create-content.rst:77
 msgid "Scroll to 'Standard Permissions'."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:77
+#: ../../source/host/add-content/create-content.rst:78
 msgid ""
 "For each Permissions group, uncheck the 'Connect' permission for all "
 "users and groups (except yourself and anyone else working on the "
 "content)."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:78
+#: ../../source/host/add-content/create-content.rst:79
 msgid "Click 'Save' and close the Domain Settings page."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:80
+#: ../../source/host/add-content/create-content.rst:81
 msgid ""
 "Once you have set the permissions, visit your domain and begin building "
 "your content set using the :doc:`Create Tools <../../create/tools>`. We "
@@ -17092,86 +17099,86 @@ msgid ""
 "visitors to your domain."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:84
+#: ../../source/host/add-content/create-content.rst:85
 msgid ""
 "When you're done, follow the above steps to re-enable the Connect "
 "permission for your visitors. These users will be able to visit your "
 "domain again with the server's IP address or place name."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:89
+#: ../../source/host/add-content/create-content.rst:90
 msgid "Create and Deploy"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:91
+#: ../../source/host/add-content/create-content.rst:92
 msgid ""
 "The final technique for building a content set follows a basic "
 "development workflow:"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:93
+#: ../../source/host/add-content/create-content.rst:94
 msgid "Build content in an offline environment"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:94
+#: ../../source/host/add-content/create-content.rst:95
 msgid "(Optional) Build and test it"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:95
+#: ../../source/host/add-content/create-content.rst:96
 msgid "Export the content set to a file"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:96
+#: ../../source/host/add-content/create-content.rst:97
 msgid "Upload the exported content set to your domain"
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:98
+#: ../../source/host/add-content/create-content.rst:99
 msgid ""
 "We recommend using this method if you want to avoid interruption to your "
 "domain while you build your content, deploy your content set to multiple "
 "domains, or test your content before you deploy."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:100
+#: ../../source/host/add-content/create-content.rst:101
 msgid ""
 "Install Overte's open source Client + Sandbox software on a computer that"
 " is _not_ running as a local server."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:101
+#: ../../source/host/add-content/create-content.rst:102
 msgid "Open a Sandbox not connected to a local server."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:102
+#: ../../source/host/add-content/create-content.rst:103
 msgid "Build your content set in the Sandbox."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:103
+#: ../../source/host/add-content/create-content.rst:104
 msgid ""
 "`Export your content to JSON <export-content.html#export-entities-to-"
 "json>`_."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:104
+#: ../../source/host/add-content/create-content.rst:105
 msgid ""
 "(Optional) To optimize your content set, :doc:`bake your content <bake-"
 "content>`."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:105
+#: ../../source/host/add-content/create-content.rst:106
 msgid ""
 "(Local servers only) Transfer the downloaded archive file or the baked "
 "JSON to your local server. Switch computers so you're back on your local "
 "server."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:106
+#: ../../source/host/add-content/create-content.rst:107
 msgid ""
 "Log in to your server's domain settings and :doc:`upload your exported or"
 " baked JSON to your domain <upload-content>`."
 msgstr ""
 
-#: ../../source/host/add-content/create-content.rst:108
+#: ../../source/host/add-content/create-content.rst:109
 msgid ""
 "Once your content is uploaded, your domain will automatically restart "
 "with your new custom content."
@@ -18148,72 +18155,49 @@ msgid ""
 msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:93
-msgid "Rez Certified"
-msgstr ""
-
-#: ../../source/host/configure-settings/permission-settings.rst:93
-msgid ""
-"This was used to set whether a user can permanently create (or rez) new "
-"entities that were purchased from the Marketplace. Right now it does "
-"nothing."
-msgstr ""
-
-#: ../../source/host/configure-settings/permission-settings.rst:97
-msgid "Rez Temporary Certified"
-msgstr ""
-
-#: ../../source/host/configure-settings/permission-settings.rst:97
-msgid ""
-"This was used to set whether a user can create (or rez) new entities from"
-" the Marketplace for a finite lifetime (the lifetime is set in **Domain "
-"Settings > Entities > Advanced Settings > Maximum Lifetime of Temporary "
-"Entities**). Right now it does nothing."
-msgstr ""
-
-#: ../../source/host/configure-settings/permission-settings.rst:102
 msgid "Write Assets"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:102
+#: ../../source/host/configure-settings/permission-settings.rst:93
 msgid ""
 "Sets whether a user can add assets (models, audio,  or other files) or "
 "make changes to the domain's asset server (your domain's file storage "
 "space)."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:105
+#: ../../source/host/configure-settings/permission-settings.rst:96
 msgid "Ignore Max Capacity"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:105
+#: ../../source/host/configure-settings/permission-settings.rst:96
 msgid ""
 "Sets whether a user can enter a domain even if it has reached or exceeded"
 " the specified capacity limit."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:108
+#: ../../source/host/configure-settings/permission-settings.rst:99
 msgid "Kick Users"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:108
+#: ../../source/host/configure-settings/permission-settings.rst:99
 msgid "Sets whether a user is allowed to ban other users from a domain."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:110
+#: ../../source/host/configure-settings/permission-settings.rst:101
 msgid "Replace Content"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:110
+#: ../../source/host/configure-settings/permission-settings.rst:101
 msgid ""
 "Sets whether a user can change the entire content set of a domain by "
 "wiping the existing content."
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:113
+#: ../../source/host/configure-settings/permission-settings.rst:104
 msgid "Can Get and Set Private User Data"
 msgstr ""
 
-#: ../../source/host/configure-settings/permission-settings.rst:113
+#: ../../source/host/configure-settings/permission-settings.rst:104
 msgid ""
 "Sets whether a user can access and write to the 'Private User Data' "
 "property of entities in the domain. Private user data is a property of "
@@ -18221,6 +18205,18 @@ msgid ""
 "``privateUserData`` property of the `EntityProperties "
 "<https://apidocs.overte.org/Entities.html#.EntityProperties>`_ type "
 "definition."
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:111
+msgid "Can View Asset URLs"
+msgstr ""
+
+#: ../../source/host/configure-settings/permission-settings.rst:111
+msgid ""
+"Sets whether a user can view asset URLs in **Create** and scripts. If a "
+"user doesn't have this permission, the URLs will be reported as empty "
+"strings. Note: this is only a client-side protection. Learn more about "
+":doc:`asset security <../../security/asset-security>`."
 msgstr ""
 
 #: ../../source/host/configure-settings/place-setting.rst:5
@@ -29008,10 +29004,205 @@ msgstr ""
 msgid "Crash Reporting"
 msgstr ""
 
+#: ../../source/security.rst:7 ../../source/security/asset-security.rst:3
+msgid "Asset Security"
+msgstr ""
+
 #: ../../source/security.rst:5
 msgid ""
 "Security information about the project and its components: Interface, "
 "server, and the metaverse server."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:5
+msgid ""
+"Like a web browser, Overte allows you to bring together assets like "
+"models and images from external sources and share them with others. This "
+"allows you to create diverse domains and wear unique avatars using simple"
+" URLs. When you connect to a domain, your client will download and "
+"display entities and avatars using those links, just as a web browser "
+"loads an image."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:7
+msgid ""
+"However, it is not always desirable to allow others to trivially copy "
+"your content or avatars by URL. We encourage collaborative building and "
+"sharing of assets following their licenses, but we understand that "
+"content creators may want to keep their assets private and that avatars "
+"are often personal representations that are not meant to be copied."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:9
+msgid ""
+"Since Overte is open source, it is difficult to solve this problem "
+"completely. Bad actors will always be able to modify their clients or rip"
+" assets directly from memory. We can only aim to make it more difficult "
+"for them. We have outlined some of the tools we offer below and are "
+"always open to more suggestions and especially PRs."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:18
+msgid ""
+"Multiple types of Entities refer to external assets such as models, "
+"images, shaders, sounds, etc. These URLs are most commonly accessed via "
+"the **Create** app. You can prevent a visitor to your domain from using "
+"Create by revoking their **Rez** and **Rez Temporary** :doc:`permissions "
+"<../host/configure-settings/permission-settings>`."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:20
+msgid ""
+"However, even if a user doesn't have Rez permission and can't access "
+"Create, the URLs can still be accessed via scripts. You can prevent "
+"scripts from accessing these URLs by revoking a user's **Can View Asset "
+"URLs** permission."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:22
+msgid ""
+"These protections are **client-side only**. This means that a malicious "
+"person with a modified client could circumvent them. There are two other "
+"methods for protecting your assets:"
+msgstr ""
+
+#: ../../source/security/asset-security.rst:24
+msgid ""
+"For models and images, bake your assets using the :doc:`Oven <../host"
+"/add-content/bake-content>`. As a side effect of compressing and "
+"optimizing them, the Oven makes it harder (**but not impossible**) to "
+"open these files in other programs."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:25
+msgid ""
+"Use the **Asset Server**. If you upload content to the asset server, it "
+"will provide you an `atp` link which only works within your domain."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:31
+msgid ""
+"Non-built-in scripts are prevented from directly reading your avatar's "
+"URL. You can grant permission to read your avatar URL on a per-script "
+"basis, so untrusted scripts cannot grab it."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:33
+msgid ""
+"Clients do not have access to other people's avatar URLs via scripts at "
+"all (unless they have modified their client)."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:37
+msgid "Proposed Alternatives"
+msgstr ""
+
+#: ../../source/security/asset-security.rst:39
+msgid ""
+"Asset security is extremely important and we recognize that the above "
+"might not be sufficient for everyone. Below are some alternatives that "
+"have been suggested and their pros and cons."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:41
+msgid ""
+"We strive to provide as many options as possible and contributions to "
+"increase security are very welcome. However, note that even with many of "
+"the below suggestions, at some point, any model, image, or resource will "
+"end up on a client and a sufficiently motivated person will be able to "
+"access it."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:45
+msgid "Have the Domain Server Obfuscate URLs"
+msgstr ""
+
+#: ../../source/security/asset-security.rst:47
+msgid ""
+"Instead of sending URLs, the Domain Server could itself download the "
+"assets and send data directly to clients."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:49
+msgid ""
+"For avatars, while this would prevent trivial copying of URLs, it opens "
+"domain operators up to legal consequences for serving copyrighted or "
+"illegal content."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:51
+msgid ""
+"For entities, this is effectively what the Asset Server already does, if "
+"you choose to use it. It is important to carefully control who has Rez "
+"permission in your domain to avoid the above legal trouble."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:55
+msgid "Peer-to-Peer Avatar Sharing"
+msgstr ""
+
+#: ../../source/security/asset-security.rst:57
+msgid ""
+"Users could share their avatars via a peer-to-peer network, either via "
+"the Domain Server or directly with other clients."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:59
+msgid ""
+"Like the above, this opens others up to legal trouble for sharing "
+"copyrighted or illegal content. Additionally, peer-to-peer traffic can "
+"lead to legal consequences for people in many countries and institutions "
+"(e.g. schools) even if the content itself is not illegal."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:63
+msgid "Server-side Avatar Verification"
+msgstr ""
+
+#: ../../source/security/asset-security.rst:65
+msgid ""
+"The Avatar Mixer, before sending your Avatar URL to others, could verify "
+"that you actually own it."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:67
+msgid ""
+"This was a feature of High Fidelity's marketplace, where the Avatar Mixer"
+" could check the certification of your avatar and only send it to others "
+"if you actually owned it. We no longer support High Fidelity's "
+"centralized marketplace or certificates, so this was removed. It was also"
+" trivial to download the FST, strip out the certification, and re-upload "
+"it. More complex checks, like fingerprinting based on actual vertices, "
+"are computationally expensive and still possible to work around."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:71
+msgid "Avatar Viewing Permissions"
+msgstr ""
+
+#: ../../source/security/asset-security.rst:73
+msgid ""
+"In an FST, you could optionally specify permissions for who is allowed to"
+" view your avatar, and a fallback URL for those who aren't allowed."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:75
+msgid ""
+"This would allow you to show your true avatar only to trusted friends. "
+"The Avatar Mixer would check the permissions for each connection before "
+"sending the URLs."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:77
+msgid ""
+"Although there are technical questions about how this would work with "
+"differently-rigged or differently-sized avatars for the fallback, and it "
+"can be confusing to have others not be able to see your true avatar, this"
+" would be a nice option to have for those who want it."
+msgstr ""
+
+#: ../../source/security/asset-security.rst:81
+msgid ":doc:`How to contribute </contribute>`"
 msgstr ""
 
 #: ../../source/security/crash-reporting.rst:5
@@ -29552,5 +29743,63 @@ msgstr ""
 #~ msgid ""
 #~ "[Load and Run a Script](get-started-"
 #~ "with-scripting.html#load-and-run-a-script)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to create an avatar"
+#~ " from scratch, this page covers the"
+#~ " steps needed to create, rig, and "
+#~ "package your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can download avatars for use "
+#~ "from external sources such as TurboSquid"
+#~ " or CGTrader. Once you get the "
+#~ "avatar, you will need to process "
+#~ "it in Unity using the Overte "
+#~ "Avatar Exporter. This tool imports most"
+#~ " avatars into Unity, maps their "
+#~ "skeleton using Unity's humanoid tool, "
+#~ "and exports them as FST and FBX"
+#~ " files to import in-world."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Maybe you've wandered around the "
+#~ "metaverse, and you're inspired by the"
+#~ " creativity of others. Or maybe none"
+#~ " of the other domains really fit "
+#~ "the atmosphere of what you have in"
+#~ " mind. Whatever the reason, you're "
+#~ "ready to branch out and build "
+#~ "content of your own. If you don't"
+#~ " know where to begin, this is a"
+#~ " great place to start."
+#~ msgstr ""
+
+#~ msgid "Rez Certified"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This was used to set whether a "
+#~ "user can permanently create (or rez) "
+#~ "new entities that were purchased from"
+#~ " the Marketplace. Right now it does"
+#~ " nothing."
+#~ msgstr ""
+
+#~ msgid "Rez Temporary Certified"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This was used to set whether a "
+#~ "user can create (or rez) new "
+#~ "entities from the Marketplace for a "
+#~ "finite lifetime (the lifetime is set "
+#~ "in **Domain Settings > Entities > "
+#~ "Advanced Settings > Maximum Lifetime of"
+#~ " Temporary Entities**). Right now it "
+#~ "does nothing."
 #~ msgstr ""
 
