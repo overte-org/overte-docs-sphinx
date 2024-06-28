@@ -9,3 +9,4 @@ Security information about the project and its components: Interface, server, an
     :titlesonly:
 
     Crash Reporting <security/crash-reporting.rst>
+    Asset Security <security/asset-security.rst>

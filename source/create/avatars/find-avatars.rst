@@ -7,6 +7,7 @@ Find and Use an Existing Avatar
 ###############################
 
 You can download avatars for use from external sources such as TurboSquid or CGTrader. Once you get the avatar, you will need to process it in Unity using the Overte Avatar Exporter. This tool imports most avatars into Unity, maps their skeleton using Unity's humanoid tool, and exports them as FST and FBX files to import in-world.
+Learn more about the :doc:`security of your assets <../../security/asset-security>`.
 
 .. contents:: On This Page
     :depth: 3
@@ -50,7 +51,7 @@ Install the Avatar Exporter
 
 You need to install the extension for every Unity project that you have. Keep in mind, however, that you can import and export multiple avatars in a single Unity project.
 
-1. Download the `avatar exporter <https://github.com/overte-org/overte/blob/master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ from Overte. 
+1. Download the `avatar exporter <https://github.com/overte-org/overte/blob/master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ from Overte.
 2. In Unity, open the 'Project' window at the bottom.
 
 .. image:: _images/project-window.png

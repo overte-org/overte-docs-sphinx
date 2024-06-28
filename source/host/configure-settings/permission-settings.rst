@@ -11,16 +11,16 @@ You can protect your domain by setting user permission for the visitors in your 
 Set User Permissions
 --------------------
 
-Permissions can be assigned to standard user groups, custom user groups, specific users, users from a specific IP, and users from specific computers. 
+Permissions can be assigned to standard user groups, custom user groups, specific users, users from a specific IP, and users from specific computers.
 
-The permissions for a user will be the sum of all groups that the user is in. For example, let's say that all logged in users can connect and only localhost users can rez entities. If a user is both logged in and on localhost, then they will be able to both connect and rez entities. Additionally, when you assign user permissions to a specific user, it will supersede any group-level permissions that otherwise might apply to that user.  
+The permissions for a user will be the sum of all groups that the user is in. For example, let's say that all logged in users can connect and only localhost users can rez entities. If a user is both logged in and on localhost, then they will be able to both connect and rez entities. Additionally, when you assign user permissions to a specific user, it will supersede any group-level permissions that otherwise might apply to that user.
 
-To assign user permissions: 
+To assign user permissions:
 
 1. Open your domain settings.
 
     * For cloud hosted domains: Open a browser and enter the URL http://<insert your server's IP address here>:40100/settings. Log in when prompted.
-    * For local servers on Windows: Click on the Overte icon in the system tray, then click 'Settings'. 
+    * For local servers on Windows: Click on the Overte icon in the system tray, then click 'Settings'.
     * For local servers on Mac: Right-click the Overte icon on the top menu bar, then click 'Settings'.
     * For any OS: Open a browser and enter the URL http://localhost:40100/settings.
 2. Scroll to 'Domain-Wide User Permissions'.
@@ -28,10 +28,10 @@ To assign user permissions:
 4. To assign all other permissions, you need to add a custom group, specific user, etc individually to the correct permissions table:
 
     * **Add Group**: Enter the name of the custom group or list, then click the ``+`` icon. Save your domain settings to load ranks. Check the box of all permissions you'd like to grant or deny (depending on the permissions table you are adding the group to).
-    
-        .. image:: ../_images/group-permissions.png 
+
+        .. image:: ../_images/group-permissions.png
     * **Add Specific User**: Click the ``+`` icon, then enter a specific user name. Check the box of all permissions you'd like to grant.
-    
+
         .. image:: ../_images/user-permissions.png
     * **Add IP Address, MAC Address, or Machine Fingerprint**: Click the ``+`` icon, then enter the information (based on the permissions table you are adding permission to). Check the box of all permissions you'd like to grant.
 5. Click 'Save' to save your domain settings.
@@ -40,7 +40,7 @@ To assign user permissions:
 Standard User Groups
 -----------------------------
 
-Your domain comes with four basic security groups that are already set up, based on the people that you will interact with in the metaverse. They are: 
+Your domain comes with four basic security groups that are already set up, based on the people that you will interact with in the metaverse. They are:
 
 +-----------+--------------------------------------------------------------------------------------------+
 | User Type | Description                                                                                |
@@ -65,7 +65,7 @@ Your domain comes with four basic security groups that are already set up, based
 
 The 'Connect' permission for these standard user groups determine the privacy level of your domain:
 
-* **Public**: A public domain allows 'anonymous' and/or 'logged-in' users to connect to it. These domains may be shown in the Explore app and in other places around the metaverse. 
+* **Public**: A public domain allows 'anonymous' and/or 'logged-in' users to connect to it. These domains may be shown in the Explore app and in other places around the metaverse.
 * **Private**: A private domain does not allow 'anonymous' and/or 'logged-in' users to connect to it. Domain owners are responsible for promoting their domains to other users and maintaining connect permissions for users to enter their domain.
 
 ----------------
@@ -90,15 +90,6 @@ The actions that you can secure for each type of user are as follows:
 |                         | Maximum Lifetime of Temporary Entities**). These users will also have full   |
 |                         | access to the **Create** app.                                                |
 +-------------------------+------------------------------------------------------------------------------+
-| Rez Certified           | This was used to set whether a user can permanently create (or rez) new      |
-|                         | entities that were purchased from the Marketplace. Right now it does         |
-|                         | nothing.                                                                     |
-+-------------------------+------------------------------------------------------------------------------+
-| Rez Temporary Certified | This was used to set whether a user can create (or rez) new entities from    |
-|                         | the Marketplace for a finite lifetime (the lifetime is set in **Domain       |
-|                         | Settings > Entities > Advanced Settings > Maximum Lifetime of Temporary      |
-|                         | Entities**). Right now it does nothing.                                      |
-+-------------------------+------------------------------------------------------------------------------+
 | Write Assets            | Sets whether a user can add assets (models, audio,  or other files) or make  |
 |                         | changes to the domain's asset server (your domain's file storage space).     |
 +-------------------------+------------------------------------------------------------------------------+
@@ -116,4 +107,9 @@ The actions that you can secure for each type of user are as follows:
 |                         | property of the `EntityProperties                                            |
 |                         | <https://apidocs.overte.org/Entities.html#.EntityProperties>`_ type          |
 |                         | definition.                                                                  |
++-------------------------+------------------------------------------------------------------------------+
+| Can View Asset URLs     | Sets whether a user can view asset URLs in **Create** and scripts. If a user |
+|                         | doesn't have this permission, the URLs will be reported as empty strings.    |
+|                         | Note: this is only a client-side protection. Learn more about                |
+|                         | :doc:`asset security <../../security/asset-security>`.                       |
 +-------------------------+------------------------------------------------------------------------------+
