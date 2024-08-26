@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2024-06-28 23:52+0000\n"
+"POT-Creation-Date: 2024-08-26 20:26+0000\n"
 "PO-Revision-Date: 2023-06-09 17:02+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language: de\n"
@@ -20,7 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/shared.rst
 msgid "Download"
@@ -16609,7 +16609,8 @@ msgstr ""
 "gespeichert:"
 
 #: ../../source/faq.rst:44
-msgid "**Windows**: ``%AppData%\\Roaming\\Overte\\domain-server\\``"
+#, fuzzy
+msgid "**Windows**: ``%AppData%\\Overte\\domain-server\\``"
 msgstr "**Windows**: ``%AppData%\\Roaming\\Overte\\domain-server\\``"
 
 #: ../../source/faq.rst:45
@@ -16667,7 +16668,8 @@ msgstr ""
 "Verzeichnissen:"
 
 #: ../../source/faq.rst:68
-msgid "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
+#, fuzzy
+msgid "**Windows**: ``%AppData%\\..\\Local\\Overte\\Interface\\Logs\\``"
 msgstr "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
 
 #: ../../source/faq.rst:69

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2024-06-28 23:52+0000\n"
+"POT-Creation-Date: 2024-08-26 20:26+0000\n"
 "PO-Revision-Date: 2024-03-30 15:20+0000\n"
 "Last-Translator: 川音リオ <rio@kwn.ac>\n"
 "Language: ja\n"
@@ -20,7 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/shared.rst
 msgid "Download"
@@ -17674,7 +17674,7 @@ msgid ""
 msgstr "ドメインの認証設定は、サーバーのファイルシステム上の設定ファイルに暗号化されています。認証設定を「リセット」するには、config.jsonからHTTPセキュリティ設定（「http_password」と「http_username」）を手動で削除する必要があります。設定ファイルは、サーバー上の以下のディレクトリに保存されます。"
 
 #: ../../source/faq.rst:44
-msgid "**Windows**: ``%AppData%\\Roaming\\Overte\\domain-server\\``"
+msgid "**Windows**: ``%AppData%\\Overte\\domain-server\\``"
 msgstr ""
 
 #: ../../source/faq.rst:45
@@ -17735,8 +17735,11 @@ msgid "The Interfaces log files can be found in the following directories:"
 msgstr "インターフェースのログファイルは、以下のディレクトリを参照："
 
 #: ../../source/faq.rst:68
-msgid "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
+#, fuzzy
+msgid "**Windows**: ``%AppData%\\..\\Local\\Overte\\Interface\\Logs\\``"
 msgstr ""
+"**Windows** : ログはディレクトリ ``%AppData%\\Local\\Vircadia\\Server "
+"Console\\logs`` にあります"
 
 #: ../../source/faq.rst:69
 msgid "**Mac**: ``~/Library/Application Support/Overte/Interface/Logs/``"
@@ -35877,4 +35880,10 @@ msgstr "メタバースセッションUUID"
 #~ " **[Domain Settings ]>[Entities]>[Advanced "
 #~ "Settings]>[Maximum Lifetime of Temporary]** "
 #~ "で設定されます）。今は何も影響はありません。"
+
+#~ msgid "**Windows**: ``%AppData%\\Roaming\\Overte\\domain-server\\``"
+#~ msgstr ""
+
+#~ msgid "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
+#~ msgstr ""
 

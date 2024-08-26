@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-28 23:52+0000\n"
+"POT-Creation-Date: 2024-08-26 20:26+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: fa\n"
@@ -19,7 +19,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.15.0\n"
+"Generated-By: Babel 2.16.0\n"
 
 #: ../../source/shared.rst
 msgid "Download"
@@ -15971,7 +15971,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/faq.rst:44
-msgid "**Windows**: ``%AppData%\\Roaming\\Overte\\domain-server\\``"
+msgid "**Windows**: ``%AppData%\\Overte\\domain-server\\``"
 msgstr ""
 
 #: ../../source/faq.rst:45
@@ -16025,7 +16025,7 @@ msgid "The Interfaces log files can be found in the following directories:"
 msgstr ""
 
 #: ../../source/faq.rst:68
-msgid "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
+msgid "**Windows**: ``%AppData%\\..\\Local\\Overte\\Interface\\Logs\\``"
 msgstr ""
 
 #: ../../source/faq.rst:69
@@ -29800,5 +29800,11 @@ msgstr ""
 #~ "Advanced Settings > Maximum Lifetime of"
 #~ " Temporary Entities**). Right now it "
 #~ "does nothing."
+#~ msgstr ""
+
+#~ msgid "**Windows**: ``%AppData%\\Roaming\\Overte\\domain-server\\``"
+#~ msgstr ""
+
+#~ msgid "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
 #~ msgstr ""
 
