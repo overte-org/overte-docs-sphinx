@@ -41,7 +41,7 @@ Domain Hosting
 | manually remove the HTTP security settings ('http_password' and 'http_username') from               |
 | config.json. The config file is stored on the server in the following directories:                  |
 |                                                                                                     |
-| * **Windows**: ``%AppData%\Roaming\Overte\domain-server\``                                          |
+| * **Windows**: ``%AppData%\Overte\domain-server\``                                                  |
 | * **Mac**: ``~/Library/Application Support/Overte/domain-server/``                                  |
 | * **Linux**: ``/var/lib/overte/default/domain-server/``                                             |
 +-----------------------------------------------------------------------------------------------------+
@@ -65,7 +65,7 @@ Troubleshooting
 +=====================================================================================================+
 | The Interfaces log files can be found in the following directories:                                 |
 |                                                                                                     |
-| * **Windows**: ``%AppData%\Local\Overte\Interface\Logs\``                                           |
+| * **Windows**: ``%AppData%\..\Local\Overte\Interface\Logs\``                                        |
 | * **Mac**: ``~/Library/Application Support/Overte/Interface/Logs/``                                 |
 | * **Linux**: ``~/.local/share/Overte/Interface/Logs/``                                              |
 |                                                                                                     |
