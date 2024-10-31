@@ -1,6 +1,6 @@
-Sphinx>=4.3
+Sphinx>=6.0.0
 sphinx-intl>=2.0.1
-sphinx-rtd-theme>=0.5.2
+sphinx-rtd-theme>=3.0.0
 git+https://github.com/overte-org/video.git
 
 myst-parser>=2.0.0
