@@ -348,7 +348,7 @@ Procedural materials also support up to 4 custom textures and many custom unifor
     		        "_alpha": 1.0,
     		        "_emissive": [0, 0, 0],
     		        "_emissiveAmount": 0.0
-    		    }
+    		    },
     		    "channels": ["https://mario.nintendo.com/assets/img/home/intro/mario-pose2.png", "https://www.mariowiki.com/images/thumb/e/e1/Luigi_New_Super_Mario_Bros_U_Deluxe.png/200px-Luigi_New_Super_Mario_Bros_U_Deluxe.png"]
     	    }
         }
@@ -363,7 +363,32 @@ When you provide uniforms, you must also include them at the top of your shader 
     uniform vec3 _emissive = vec3(0.0);
     uniform float _emissiveAmount = 0.0;
 
-Supported uniform types are: ``float``, ``vec2``, ``vec3``, and ``vec4``. (Multiple values are provided as arrays.)
+Supported uniform types are: ``float``, ``vec2``, ``vec3``, ``vec4``, ``mat3``, and ``mat4``. (Multiple values are provided as arrays.)
+
+Uniform arrays of type ``vec3[]``, ``vec4[]``, ``mat3[]``, and ``mat4[]`` are also supported.  For example, in the shader, you can have::
+
+    uniform vec4 _colors[4];
+
+Which can be set from JavaScript::
+
+    {
+    	materials: {
+    		"model": "hifi_shader_simple",
+    		"procedural": {
+    		    ...
+    		    "uniforms": {
+    		        "_colors": [
+                        [1, 0, 0, 0.25],
+                        [0, 1, 0, 0.5],
+                        [1, 0, 1, 0.75],
+                        [1, 1, 1, 1]
+                    ]
+    		    }
+            }
+        }
+    }
+
+Note: We do not currently support sending only part of a uniform array.  In other words, in the above example, the length of ``_colors`` in JavaScript must match the length of the array in the shader, 4.  If you only specify 1-3 ``vec4s``, it is undefined behavior.  If you don't specify any values, the default value will be used, if one is provided in the shader.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Alpha Effects (Transparency)
@@ -374,6 +399,8 @@ Shaders that make use of the ``proceduralData.alpha`` value won’t display alph
 ^^^^^^^^^^^^^^^^^
 Debugging Shaders
 ^^^^^^^^^^^^^^^^^
+
+If a shader fails to compile, it will render as a pink and black checkerboard material.
 
 The only way to debug shaders at the moment is to look at Interface’s log file. Shader compilation errors will appear in this log, and can help with locating issues.
 
@@ -427,8 +454,8 @@ For further details on each version, see `Provided Methods, Constants, and Struc
 A Cautionary Note on Shaders
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Overte does not enable seeing procedural shaders by default. This is because currently, they are an experimental feature. Shaders are a very powerful tool, and when used incorrectly, can harm the user experience for everyone on the domain. A poorly written shader or a shader created by a bad actor can slow things down to a crawl or interfere with a user’s view of the virtual world.
+Shaders are an experimental feature. They are a very powerful tool, and when used incorrectly, can harm the user experience for everyone on the domain. A poorly written shader or a shader created by a bad actor can slow things down to a crawl or interfere with a user’s view of the virtual world.
 
 Shaders are best used as a very strong spice in a recipe. Attempt to keep them small and efficient. Shaders can produce marvelous and mind-blowing effects, but overuse can spoil the desired end effect. If you create a shader that has hundreds of lines of code, consider trimming it down if possible.
 
-If you find yourself in a position where a shader is causing trouble for you, remember that you can disable them in the Overte Interface.
+If you find yourself in a position where a shader is causing trouble for you, remember that you can disable them in the Overte Interface Graphics settings.
