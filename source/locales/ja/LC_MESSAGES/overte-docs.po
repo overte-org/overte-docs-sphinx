@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2024-08-26 20:26+0000\n"
-"PO-Revision-Date: 2024-03-30 15:20+0000\n"
-"Last-Translator: 川音リオ <rio@kwn.ac>\n"
+"PO-Revision-Date: 2024-12-04 00:21+0000\n"
+"Last-Translator: BLKZOR <Zorsuho+BLKZOR@gmail.com>\n"
+"Language-Team: Japanese <https://weblate.overte.org/projects/overte/"
+"overte-documentation/ja/>\n"
 "Language: ja\n"
-"Language-Team: Japanese <https://weblate.overte.org/projects/overte"
-"/overte-documentation/ja/>\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Weblate 5.6.2\n"
 "Generated-By: Babel 2.16.0\n"
 
 #: ../../source/shared.rst
@@ -8868,7 +8869,6 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:25
 #: ../../source/create/entities/web-entity-media.rst:39
 #: ../../source/create/entities/web-entity-media.rst:51
-#, fuzzy
 msgid "Matroska"
 msgstr "Matroska"
 
@@ -11471,7 +11471,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD.md:50
 msgid "Qt"
-msgstr ""
+msgstr "Qt"
 
 #: ../../source/developer/build/BUILD.md:52
 msgid "CMake will download Qt 5.15.2 using vcpkg."
@@ -35886,4 +35886,3 @@ msgstr "メタバースセッションUUID"
 
 #~ msgid "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
 #~ msgstr ""
-
