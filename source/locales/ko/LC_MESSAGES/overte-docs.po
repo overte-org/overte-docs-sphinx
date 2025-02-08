@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2024-08-26 20:26+0000\n"
+"POT-Creation-Date: 2025-02-08 19:32+0000\n"
 "PO-Revision-Date: 2023-06-09 17:43+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language: ko\n"
@@ -20,7 +20,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../source/shared.rst
 msgid "Download"
@@ -7808,6 +7808,7 @@ msgid "Select your desired handle color from the 'Color' picker."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:41
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to: {x:"
 " 0.025, y: 0.5, z: 0.025}."
@@ -7836,6 +7837,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:48
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.05, y: 0.1, z: 0.05}."
@@ -7869,6 +7871,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:56
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local position to {x: 0,"
 " y: 0.2, z: 0}."
@@ -7920,6 +7923,7 @@ msgid "Select your desired palette color from the 'Color' picker."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:69
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.55, y: 0.5, z: 0.55}."
@@ -7950,6 +7954,7 @@ msgid "Select your desired paint color from the 'Color' picker."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:77
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.1, y: 0.05, z: 0.1}"
@@ -11761,6 +11766,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:60
+#, python-brace-format
 msgid ""
 "If the build completes successfully, you will have built targets for all "
 "components located in the `build/${target_name}/Debug` directories."
@@ -12210,6 +12216,7 @@ msgid "CMake can't find OpenSSL"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:156
+#, python-brace-format
 msgid ""
 "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory.  "
 "Verify that your HIFI_VCPKG_BASE environment variable is set and pointing"
@@ -19285,12 +19292,12 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:38
 #: ../../source/host/server-setup/linux-server.md:82
-msgid "Fedora 38"
+msgid "Fedora 40"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:45
 #: ../../source/host/server-setup/linux-server.md:89
-msgid "Fedora 37"
+msgid "Fedora 39"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:52
@@ -33672,5 +33679,11 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "**Windows**: ``%AppData%\\Local\\Overte\\Interface\\Logs\\``"
+#~ msgstr ""
+
+#~ msgid "Fedora 38"
+#~ msgstr ""
+
+#~ msgid "Fedora 37"
 #~ msgstr ""
 

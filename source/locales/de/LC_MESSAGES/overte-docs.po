@@ -10,18 +10,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2024-08-26 20:26+0000\n"
+"POT-Creation-Date: 2025-02-08 19:32+0000\n"
 "PO-Revision-Date: 2024-11-22 12:21+0000\n"
 "Last-Translator: Noah <nolefr@posteo.de>\n"
-"Language-Team: German <https://weblate.overte.org/projects/overte/"
-"overte-documentation/de/>\n"
 "Language: de\n"
+"Language-Team: German <https://weblate.overte.org/projects/overte/overte-"
+"documentation/de/>\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
-"X-Generator: Weblate 5.6.2\n"
-"Generated-By: Babel 2.16.0\n"
+"Generated-By: Babel 2.17.0\n"
 
 #: ../../source/shared.rst
 msgid "Download"
@@ -1419,12 +1418,12 @@ msgid ""
 " Models and Avatars <../materials/procedural-shaders>`."
 msgstr ""
 "Sie können Shader mit Materialentitäten auf Form- und Zonenentitäten "
-"kombinieren, um Shader auf Modelle und Avatare anzuwenden. Diese Funktion "
-"wurde als **experimentelle Funktion** veröffentlicht und wurde noch nicht "
-"gründlich getestet. Wenn Sie die Anwendung prozeduraler Materialien auf "
-"Modelle oder Avatare *auf eigene Gefahr* ausprobieren möchten, finden Sie "
-"weitere Informationen unter :doc:`Prozedurale Shader für Modelle und Avatare "
-"<../materials/procedural-shaders>`."
+"kombinieren, um Shader auf Modelle und Avatare anzuwenden. Diese Funktion"
+" wurde als **experimentelle Funktion** veröffentlicht und wurde noch "
+"nicht gründlich getestet. Wenn Sie die Anwendung prozeduraler Materialien"
+" auf Modelle oder Avatare *auf eigene Gefahr* ausprobieren möchten, "
+"finden Sie weitere Informationen unter :doc:`Prozedurale Shader für "
+"Modelle und Avatare <../materials/procedural-shaders>`."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:49
 msgid "**Material Channels**"
@@ -1667,18 +1666,19 @@ msgid ""
 "shadows,) and \"mask\" (binary transparency, full shading of opaque "
 "surface, whole surface casts shadow.)"
 msgstr ""
-"Der Overte-Renderer kann zwei verschiedene Arten von Transparenz zeichnen: "
-"„Alpha“ (255 Stufen der Transparenz, keine Schattierung auf der Oberfläche, "
-"wirft keine Schatten) und ‚Maske‘ (binäre Transparenz, volle Schattierung "
-"der undurchsichtigen Oberfläche, die ganze Oberfläche wirft Schatten.)"
+"Der Overte-Renderer kann zwei verschiedene Arten von Transparenz "
+"zeichnen: „Alpha“ (255 Stufen der Transparenz, keine Schattierung auf der"
+" Oberfläche, wirft keine Schatten) und ‚Maske‘ (binäre Transparenz, volle"
+" Schattierung der undurchsichtigen Oberfläche, die ganze Oberfläche wirft"
+" Schatten.)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
 msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
 "engine looks for alpha values between 2% and 98%."
 msgstr ""
-"Um festzustellen, ob eine Textur als Maske oder als Alpha behandelt wird, "
-"sucht die Engine nach Alpha-Werten zwischen 2% und 98%."
+"Um festzustellen, ob eine Textur als Maske oder als Alpha behandelt wird,"
+" sucht die Engine nach Alpha-Werten zwischen 2% und 98%."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
 msgid ""
@@ -1705,12 +1705,13 @@ msgid ""
 " in Overte to upload all sample objects in your domain."
 msgstr ""
 "Overte unterstützt verschiedene Arten von Materialien. Wir haben "
-"Beispielobjekte mit jedem Materialtyp erstellt. Sie können jedes Objekt aus "
-"diesem Repository <https://github.com/overte-org/hifi_tests/tree/master/"
-"assets/models/material_matrix_models/fbx/blender>`_ auf GitHub herunterladen "
-"oder dieses Skript <https://raw.githubusercontent.com/overte-org/hifi_tests/"
-"master/assets/models/material_matrix_models/material_matrix.js>`_ in Overte "
-"ausführen, um alle Beispielobjekte in Ihre Domain hochzuladen."
+"Beispielobjekte mit jedem Materialtyp erstellt. Sie können jedes Objekt "
+"aus diesem Repository <https://github.com/overte-"
+"org/hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`_"
+" auf GitHub herunterladen oder dieses Skript "
+"<https://raw.githubusercontent.com/overte-"
+"org/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
+" in Overte ausführen, um alle Beispielobjekte in Ihre Domain hochzuladen."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:108
 msgid ""
@@ -1719,10 +1720,10 @@ msgid ""
 "<../../_static/resources/3d-"
 "models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
-"Wir haben alle Materialinformationen (einschließlich Texturen, Schattierung "
-"und Channel-Werte und -Maps) für diese Beispielobjekte `hier <../../_static/"
-"resources/3d-models/Sample_Material_Textures_and_Shading_Guide.html>`_ "
-"aufgelistet."
+"Wir haben alle Materialinformationen (einschließlich Texturen, "
+"Schattierung und Channel-Werte und -Maps) für diese Beispielobjekte `hier"
+" <../../_static/resources/3d-"
+"models/Sample_Material_Textures_and_Shading_Guide.html>`_ aufgelistet."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:113
 msgid "Set Material Values in Blender"
@@ -1739,16 +1740,16 @@ msgid ""
 "material properties and textures in Blender to match the PBR material "
 "textures in Overte."
 msgstr ""
-"Wenn Sie ein Modell in Blender erstellen, müssen Sie es im FBX-, glTF-, GLB- "
-"oder OBJ-Format exportieren, um es in Overte zu verwenden. Außerdem müssen "
-"Sie die Materialeigenschaften und Texturen in Blender ändern, damit sie mit "
-"den PBR-Materialtexturen in Overte übereinstimmen."
+"Wenn Sie ein Modell in Blender erstellen, müssen Sie es im FBX-, glTF-, "
+"GLB- oder OBJ-Format exportieren, um es in Overte zu verwenden. Außerdem "
+"müssen Sie die Materialeigenschaften und Texturen in Blender ändern, "
+"damit sie mit den PBR-Materialtexturen in Overte übereinstimmen."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:122
 msgid "Doing so ensures that your model appears how you intend it to."
 msgstr ""
-"Auf diese Weise wird sichergestellt, dass Ihr Modell so aussieht, wie Sie es "
-"sich vorstellen."
+"Auf diese Weise wird sichergestellt, dass Ihr Modell so aussieht, wie Sie"
+" es sich vorstellen."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:124
 msgid ""
@@ -8079,6 +8080,7 @@ msgid "Select your desired handle color from the 'Color' picker."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:41
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to: {x:"
 " 0.025, y: 0.5, z: 0.025}."
@@ -8107,6 +8109,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:48
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.05, y: 0.1, z: 0.05}."
@@ -8140,6 +8143,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:56
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local position to {x: 0,"
 " y: 0.2, z: 0}."
@@ -8191,6 +8195,7 @@ msgid "Select your desired palette color from the 'Color' picker."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:69
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.55, y: 0.5, z: 0.55}."
@@ -8221,6 +8226,7 @@ msgid "Select your desired paint color from the 'Color' picker."
 msgstr ""
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:77
+#, python-brace-format
 msgid ""
 "Scroll down to the 'Spatial' section. Change the local dimensions to {x: "
 "0.1, y: 0.05, z: 0.1}"
@@ -12049,6 +12055,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:60
+#, python-brace-format
 msgid ""
 "If the build completes successfully, you will have built targets for all "
 "components located in the `build/${target_name}/Debug` directories."
@@ -12503,6 +12510,7 @@ msgid "CMake can't find OpenSSL"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:156
+#, python-brace-format
 msgid ""
 "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory.  "
 "Verify that your HIFI_VCPKG_BASE environment variable is set and pointing"
@@ -19849,12 +19857,12 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:38
 #: ../../source/host/server-setup/linux-server.md:82
-msgid "Fedora 38"
+msgid "Fedora 40"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:45
 #: ../../source/host/server-setup/linux-server.md:89
-msgid "Fedora 37"
+msgid "Fedora 39"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:52
@@ -34043,3 +34051,10 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ " Temporary Entities**). Right now it "
 #~ "does nothing."
 #~ msgstr ""
+
+#~ msgid "Fedora 38"
+#~ msgstr ""
+
+#~ msgid "Fedora 37"
+#~ msgstr ""
+
