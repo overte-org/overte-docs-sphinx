@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-25 18:28+0000\n"
+"POT-Creation-Date: 2025-02-25 18:39+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: hi\n"
@@ -9568,15 +9568,35 @@ msgstr ""
 
 #: ../../source/create/materials/procedural-shaders.rst:366
 msgid ""
-"Supported uniform types are: ``float``, ``vec2``, ``vec3``, and ``vec4``."
-" (Multiple values are provided as arrays.)"
+"Supported uniform types are: ``float``, ``vec2``, ``vec3``, ``vec4``, "
+"``mat3``, and ``mat4``. (Multiple values are provided as arrays.)"
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:370
-msgid "Alpha Effects (Transparency)"
+#: ../../source/create/materials/procedural-shaders.rst:368
+msgid ""
+"Uniform arrays of type ``vec3[]``, ``vec4[]``, ``mat3[]``, and ``mat4[]``"
+" are also supported.  For example, in the shader, you can have::"
 msgstr ""
 
 #: ../../source/create/materials/procedural-shaders.rst:372
+msgid "Which can be set from JavaScript::"
+msgstr ""
+
+#: ../../source/create/materials/procedural-shaders.rst:391
+msgid ""
+"Note: We do not currently support sending only part of a uniform array.  "
+"In other words, in the above example, the length of ``_colors`` in "
+"JavaScript must match the length of the array in the shader, 4.  If you "
+"only specify 1-3 ``vec4s``, it is undefined behavior.  If you don't "
+"specify any values, the default value will be used, if one is provided in"
+" the shader."
+msgstr ""
+
+#: ../../source/create/materials/procedural-shaders.rst:395
+msgid "Alpha Effects (Transparency)"
+msgstr ""
+
+#: ../../source/create/materials/procedural-shaders.rst:397
 msgid ""
 "Shaders that make use of the ``proceduralData.alpha`` value won’t display"
 " alpha on their own. In order for a shader’s alpha to be active, the "
@@ -9585,18 +9605,24 @@ msgid ""
 "``1.0``."
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:376
+#: ../../source/create/materials/procedural-shaders.rst:401
 msgid "Debugging Shaders"
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:378
+#: ../../source/create/materials/procedural-shaders.rst:403
+msgid ""
+"If a shader fails to compile, it will render as a pink and black "
+"checkerboard material."
+msgstr ""
+
+#: ../../source/create/materials/procedural-shaders.rst:405
 msgid ""
 "The only way to debug shaders at the moment is to look at Interface’s log"
 " file. Shader compilation errors will appear in this log, and can help "
 "with locating issues."
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:380
+#: ../../source/create/materials/procedural-shaders.rst:407
 msgid ""
 "Because a user created shader is ultimately embedded in a larger internal"
 " shader framework, you’ll notice that an error in a 20 line shader will "
@@ -9605,31 +9631,30 @@ msgid ""
 "your shader at the end of the larger internal shader context."
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:384
+#: ../../source/create/materials/procedural-shaders.rst:411
 msgid "Shader Examples by Version"
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:424
+#: ../../source/create/materials/procedural-shaders.rst:451
 msgid ""
 "For further details on each version, see `Provided Methods, Constants, "
 "and Structs`_."
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:428
+#: ../../source/create/materials/procedural-shaders.rst:455
 msgid "A Cautionary Note on Shaders"
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:430
+#: ../../source/create/materials/procedural-shaders.rst:457
 msgid ""
-"Overte does not enable seeing procedural shaders by default. This is "
-"because currently, they are an experimental feature. Shaders are a very "
-"powerful tool, and when used incorrectly, can harm the user experience "
-"for everyone on the domain. A poorly written shader or a shader created "
-"by a bad actor can slow things down to a crawl or interfere with a user’s"
-" view of the virtual world."
+"Shaders are an experimental feature. They are a very powerful tool, and "
+"when used incorrectly, can harm the user experience for everyone on the "
+"domain. A poorly written shader or a shader created by a bad actor can "
+"slow things down to a crawl or interfere with a user’s view of the "
+"virtual world."
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:432
+#: ../../source/create/materials/procedural-shaders.rst:459
 msgid ""
 "Shaders are best used as a very strong spice in a recipe. Attempt to keep"
 " them small and efficient. Shaders can produce marvelous and mind-blowing"
@@ -9638,10 +9663,11 @@ msgid ""
 "possible."
 msgstr ""
 
-#: ../../source/create/materials/procedural-shaders.rst:434
+#: ../../source/create/materials/procedural-shaders.rst:461
 msgid ""
 "If you find yourself in a position where a shader is causing trouble for "
-"you, remember that you can disable them in the Overte Interface."
+"you, remember that you can disable them in the Overte Interface Graphics "
+"settings."
 msgstr ""
 
 #: ../../source/create/tools.rst:2
@@ -29973,5 +29999,32 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Fedora 37"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Supported uniform types are: ``float``, "
+#~ "``vec2``, ``vec3``, and ``vec4``. (Multiple"
+#~ " values are provided as arrays.)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte does not enable seeing procedural"
+#~ " shaders by default. This is because"
+#~ " currently, they are an experimental "
+#~ "feature. Shaders are a very powerful "
+#~ "tool, and when used incorrectly, can "
+#~ "harm the user experience for everyone"
+#~ " on the domain. A poorly written "
+#~ "shader or a shader created by a"
+#~ " bad actor can slow things down "
+#~ "to a crawl or interfere with a "
+#~ "user’s view of the virtual world."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you find yourself in a position"
+#~ " where a shader is causing trouble"
+#~ " for you, remember that you can "
+#~ "disable them in the Overte Interface."
 #~ msgstr ""
 
