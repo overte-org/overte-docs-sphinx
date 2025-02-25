@@ -2,7 +2,7 @@
 Entities
 #######################
 
-To build any content in Overte, whether it is an object that you interact with, or a domain to host an event, you need entities. *Entities* are the building blocks of the virtual world, and are used to build items as simple as boxes and squares to complex animated items such as butterflies and stereo equipment. Each entity type has its own set of properties that define its appearance and behavior. 
+To build any content in Overte, whether it is an object that you interact with, or a domain to host an event, you need entities. *Entities* are the building blocks of the virtual world, and are used to build items as simple as boxes and squares to complex animated items such as butterflies and stereo equipment. Each entity type has its own set of properties that define its appearance and behavior.
 
 **In This Section:**
 
@@ -15,6 +15,7 @@ To build any content in Overte, whether it is an object that you interact with, 
     Define an Entity's Behavior <entities/entity-behavior>
     Apply Physics to Entities <entities/entity-physics>
     Add a Material Entity <entities/material-entity>
+    Add a Procedural Particle Entity <entities/procedural-particle-entity>
     Add a Zone Entity <entities/zone-entity>
     Add Sounds to Entities <entities/add-sounds>
     Define Interactions with Avatars <entities/avatar-interactions>
