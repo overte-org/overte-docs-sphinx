@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-02-08 19:32+0000\n"
+"POT-Creation-Date: 2025-02-25 18:28+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ne\n"
@@ -102,6 +102,7 @@ msgstr ""
 #: ../../source/create/entities/entity-physics.rst:14
 #: ../../source/create/entities/material-entity.rst:10
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:8
+#: ../../source/create/entities/procedural-particle-entity.rst:17
 #: ../../source/create/entities/web-entity-media.rst:12
 #: ../../source/create/entities/zone-entity.rst:9
 #: ../../source/create/tools.rst:12
@@ -949,6 +950,7 @@ msgstr ""
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:61
 #: ../../source/create/entities/portal-tutorial.md:54
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:110
+#: ../../source/create/entities/procedural-particle-entity.rst:118
 #: ../../source/create/entities/web-entity-media.rst:160
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/entities/zone-tutorial.md:155
@@ -3788,6 +3790,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:232
+#: ../../source/create/entities/procedural-particle-entity.rst:75
 msgid "Examples"
 msgstr ""
 
@@ -4691,6 +4694,11 @@ msgstr ""
 #: ../../source/create/entities/material-entity.rst:3
 #: ../../source/create/entities/material-entity.rst:43
 msgid "Add a Material Entity"
+msgstr ""
+
+#: ../../source/create/entities.rst:9
+#: ../../source/create/entities/procedural-particle-entity.rst:3
+msgid "Add a Procedural Particle Entity"
 msgstr ""
 
 #: ../../source/create/entities.rst:9
@@ -7943,6 +7951,159 @@ msgstr ""
 msgid ""
 "After you close the **Create** app, test it out by painting on the canvas"
 " in your domain!"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:5
+msgid ""
+"Particles are a powerful tool for creating a variety of effects. When you"
+" add a Particle Entity via **Create**, you will be asked if you want it "
+"to be procedural or not."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:7
+msgid ""
+"**Non-procedural particles** are represented by the `ParticleEffect` "
+"`EntityType <https://apidocs.overte.org/Entities.html#.EntityType>`_. "
+"They have many configuration options (see `EntityProperties-"
+"ParticleEffect <https://apidocs.overte.org/Entities.html"
+"#.EntityProperties-ParticleEffect>`_) and are suitable for many "
+"situations. However, they also have a few limitations, including only "
+"supporting up to 100,000 particles / entity, only allowing flat, "
+"billboarded, quads, and moving via euler integration (position + velocity"
+" + acceleration)."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:9
+msgid ""
+"If you instead create a **procedural particle** entity, you will get an "
+"entity with the `ProceduralParticleEffect` `EntityType "
+"<https://apidocs.overte.org/Entities.html#.EntityType>`_. This gives you "
+"fine-grained control over a GPU particle system using procedural shaders "
+"for updating and rendering, plus higher per-system limits (up to millions"
+" of particles). Procedural particles have a different set of properties "
+"(see `EntityProperties-ProceduralParticleEffect "
+"<https://apidocs.overte.org/Entities.html#.EntityProperties-"
+"ProceduralParticleEffect>`_)."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:11
+msgid ""
+"Before continuing, make sure you are familiar with the :doc:`Procedural "
+"Shaders Guide <../materials/procedural-shaders>` for a more detailed "
+"walkthrough of our shaders."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:13
+msgid ""
+"All particle shaders also expose global defines for ``NUM_PARTICLES``, "
+"``NUM_TRIS_PER_PARTICLE``, and ``NUM_UPDATE_PROPS``."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:21
+#: ../../source/release-notes/v80.md:41 ../../source/release-notes/v80.md:67
+#: ../../source/release-notes/v83.md:59 ../../source/release-notes/v83.md:144
+#: ../../source/release-notes/v84.md:23 ../../source/release-notes/v84.md:67
+#: ../../source/release-notes/v85.md:69
+msgid "Rendering"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:23
+msgid ""
+"The visual representation of your particles is controlled by the "
+"``particleRenderData`` property. You must implement both a vertex and "
+"fragment shader."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:25
+msgid "The vertex shader must implement:"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:31
+msgid ""
+"Which returns the world space position of the vertex. By default, 1 "
+"triangle is drawn per particle, so that function will be run 3 times per "
+"particle (with different gl_VertexIDs), but this can be controlled by "
+"``numTrianglesPerParticle``."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:33
+msgid ""
+"The fragment shader must implement one of the same functions as our "
+"existing procedural materials depending on version:"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:42
+msgid "In the fragment shader, ``particleID`` is available as a global variable."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:44
+msgid ""
+"One difference between procedural particles and procedural materials on "
+"other entities is that particles do not have per-fragment normals or UVs "
+"defined by default. You must calculate them yourself if you want lit or "
+"textured particles."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:46
+msgid ""
+"Computing normals and UVs manually in shaders can be difficult. In the "
+"future, we will provide alternative starting shapes that come with "
+"normals and UVs."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:48
+msgid ""
+"As with procedural material vertex shaders, you can control the bounding "
+"box, which is used for culling, by changing the dimensions of the entity."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:50
+msgid ""
+"Like non-procedural particles, transparent procedural particles "
+"(``particleTransparent == true``) render with additive blending."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:55
+msgid "Updates"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:57
+msgid ""
+"Per-particle updates are optional. They can be used to store persistent "
+"per-particle data across frames or reduce calculations in the rendering "
+"shaders. To activate updates, set ``numUpdateProps > 0`` (max is 5) and "
+"you must provide a fragment shader as part of ``particleUpdateData``."
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:59
+msgid ""
+"Each \"update prop\" is a per-particle vec4 of ``float`` values. The "
+"update shader must define:"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:65
+msgid ""
+"``particleProps`` will contain as many update props as you specified. For"
+" example, if ``numUpdateProps == 3``, you'll have "
+"``particleProps.prop0``, ``particleProps.prop1``, and "
+"``particleProps.prop2``. They will initially contain all 0s, and then "
+"will persist any values from previous frames. You can look up these "
+"properties during rendering (in both the vertex and fragment shaders) "
+"with:"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:77
+msgid "Update shader to compute a cube of sinusoidal motion:"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:89
+msgid ""
+"Vertex shader to billboard a single triangle using a stored position "
+"property:"
+msgstr ""
+
+#: ../../source/create/entities/procedural-particle-entity.rst:120
+msgid ":doc:`Procedural Shaders Guide <../materials/procedural-shaders>`"
 msgstr ""
 
 #: ../../source/create/entities/tutorials.rst:7
@@ -24677,13 +24838,6 @@ msgstr ""
 msgid ""
 "The 'Entity Types' dropdown of the Entity List has new buttons for Select"
 " All (check all entity types) and Clear All (uncheck all entity types)."
-msgstr ""
-
-#: ../../source/release-notes/v80.md:41 ../../source/release-notes/v80.md:67
-#: ../../source/release-notes/v83.md:59 ../../source/release-notes/v83.md:144
-#: ../../source/release-notes/v84.md:23 ../../source/release-notes/v84.md:67
-#: ../../source/release-notes/v85.md:69
-msgid "Rendering"
 msgstr ""
 
 #: ../../source/release-notes/v80.md:43
