@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-02-25 18:39+0000\n"
+"POT-Creation-Date: 2025-04-20 09:29+0000\n"
 "PO-Revision-Date: 2023-06-09 17:43+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language: ko\n"
@@ -21,48 +21,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
-
-#: ../../source/shared.rst
-msgid "Download"
-msgstr "다운로드"
-
-#: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
-#: ../../source/shared.rst
-msgid "Gallery"
-msgstr "갤러리"
-
-#: ../../source/shared.rst
-msgid "Discord"
-msgstr "디스코드"
-
-#: ../../source/shared.rst
-msgid "Matrix"
-msgstr "매트릭스"
-
-#: ../../source/shared.rst
-msgid "de_trans"
-msgstr ""
-
-#: ../../source/shared.rst
-msgid "es_trans"
-msgstr ""
-
-#: ../../source/shared.rst
-msgid "fr_trans"
-msgstr ""
-
-#: ../../source/shared.rst
-msgid "jp_trans"
-msgstr ""
-
-#: ../../source/shared.rst
-msgid "ko_trans"
-msgstr ""
-
-#: ../../source/shared.rst
-#, fuzzy
-msgid "cs_trans"
-msgstr "능력치"
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
@@ -92,6 +50,14 @@ msgstr ""
 "궁금한 점이나 도움이 필요한 경우, `Matrix Space "
 "<https://matrix.to/#/#overte:overte.org>`_ |Matrix| 또는 저희의`Discord "
 "<https://discord.gg/4YuQvc8K2f>`_ |Discord| 를 이용하실 수 있습니다."
+
+#: ../../source/shared.rst:16
+msgid "Matrix"
+msgstr "매트릭스"
+
+#: ../../source/shared.rst:11
+msgid "Discord"
+msgstr "디스코드"
 
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -490,7 +456,7 @@ msgstr ""
 "구매하거나 무료로 받을 수 있는 모델이 있는 온라인 3D 콘텐츠 웹사이트가 많이 있습니다. 이러한 사이트에서 3D 모델을 가져올 "
 "때는 다음 사항에 유의하세요:"
 
-#: ../../source/create/3d-models/get-model.rst:17
+#: ../../source/create/3d-models/get-model.rst:16
 msgid ""
 "**Check Licensing Terms:** Make sure you check a model's licensing terms "
 "before you use it. It is your responsibility to ensure that you have "
@@ -509,7 +475,7 @@ msgstr ""
 "오버트 서버에서 3D 모델을 사용할 수 있도록 설정하면 방문자는 웹사이트에서 이미지를 볼 때와 동일한 방식으로 해당 파일에 대한 "
 "링크를 받게 됩니다. 반드시 당신이 3D 콘텐츠를 다시 배포할 수 있는 권한을 가지고 있는지 확인해야 합니다."
 
-#: ../../source/create/3d-models/get-model.rst:20
+#: ../../source/create/3d-models/get-model.rst:19
 msgid ""
 "**Check Materials:** You might find that the model may be missing its "
 "textures. If that happens, first check to see if the textures are "
@@ -860,6 +826,7 @@ msgstr "애니메이션의 FBX 파일 업로드를 완료하면 3D 모델과 해
 #: ../../source/create/entities/entity-physics.rst:22
 #: ../../source/create/entities/hero-zone.rst:15
 #: ../../source/create/entities/material-entity.rst:53
+#: ../../source/create/entities/material-entity.rst:72
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:37
 #: ../../source/create/entities/portal-tutorial.md:41
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:36
@@ -1037,7 +1004,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:154
 #: ../../source/create/entities/entity-behavior.rst:153
 #: ../../source/create/entities/entity-physics.rst:153
-#: ../../source/create/entities/material-entity.rst:103
+#: ../../source/create/entities/material-entity.rst:104
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:61
 #: ../../source/create/entities/portal-tutorial.md:54
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:110
@@ -1245,7 +1212,7 @@ msgid ""
 "ways:"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:54
+#: ../../source/create/3d-models/pbr-materials-guide.rst:53
 msgid ""
 "**Setting a Value:** The value of a channel is a value set on a slider. "
 "Setting a value is like turning off or turning on a switch."
@@ -1259,7 +1226,7 @@ msgid ""
 "roughness, you'll need to use a map."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:57
+#: ../../source/create/3d-models/pbr-materials-guide.rst:56
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
 "property. You may use a map to apply a texture to your 3D model."
@@ -5263,7 +5230,7 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:18
 #: ../../source/create/entities/boombox-tutorial.rst:167
 #: ../../source/create/entities/create-fountain.rst:92
-#: ../../source/create/entities/material-entity.rst:105
+#: ../../source/create/entities/material-entity.rst:106
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:63
 msgid ":doc:`Create New Entities <create-entities>`"
 msgstr ""
@@ -7492,6 +7459,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:54
+#: ../../source/create/entities/material-entity.rst:73
 msgid ""
 "Create a wall. Click the 'Cube' icon to add a box entity and change the "
 "dimensions to make it resemble a wall."
@@ -7505,6 +7473,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:56
+#: ../../source/create/entities/material-entity.rst:76
 msgid ""
 "Click and select the wall. Go to the 'Properties' tab and copy the parent"
 " ID under the 'Name' box."
@@ -7523,26 +7492,37 @@ msgid "Use the materialData Field"
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:70
-msgid ""
-"To add a material entity directly into the **Create** Tools app: 1. In "
-"Interface, pull up your HUD or Tablet and go to **Create**. 2. Create a "
-"wall. Click the 'Cube' icon to add a box entity and change the dimensions"
-" to make it resemble a wall. 3. Go to the **Create** tab and click on the"
-" 'Material' icon to add a material entity. 4. Enter `materialData` when "
-"you're prompted for a 'Material URL'. 5. Click and select the wall. Go to"
-" the 'Properties' tab and copy the parent ID under the 'Name' box. 6. "
-"Click and select the material entity. Go to the 'Properties' tab and "
-"paste the copied parent ID in the 'Parent' box. In this step, you are "
-"parenting or applying a material to an entity. 7. Scroll down to the "
-"'Material Data' field. Click 'Clear Material Data' and then paste the "
-"following JSON data:"
+msgid "To add a material entity directly into the **Create** Tools app:"
 msgstr ""
 
-#: ../../source/create/entities/material-entity.rst:106
-msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
+#: ../../source/create/entities/material-entity.rst:74
+msgid ""
+"Go to the **Create** tab and click on the 'Material' icon to add a "
+"material entity."
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:75
+msgid "Enter `materialData` when you're prompted for a 'Material URL'."
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:77
+msgid ""
+"Click and select the material entity. Go to the 'Properties' tab and "
+"paste the copied parent ID in the 'Parent' box. In this step, you are "
+"parenting or applying a material to an entity."
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:78
+msgid ""
+"Scroll down to the 'Material Data' field. Click 'Clear Material Data' and"
+" then paste the following JSON data:"
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:107
+msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:108
 msgid "`Introduction to JSON <https://www.w3schools.com/js/js_json_intro.asp>`_"
 msgstr ""
 
@@ -12703,6 +12683,11 @@ msgid ""
 "terminal, and disabled by default on Windows."
 msgstr ""
 
+#: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
+#: ../../source/shared.rst:6
+msgid "Gallery"
+msgstr "갤러리"
+
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Overte"
 msgstr ""
@@ -12757,7 +12742,7 @@ msgid ""
 " and locations attended with it."
 msgstr ""
 
-#: ../../source/explore/gallery.rst:12
+#: ../../source/explore/gallery.rst:8
 msgid "Maker meeting 28th September 2020"
 msgstr ""
 
@@ -12767,7 +12752,7 @@ msgid ""
 "\"The Old Pope\")."
 msgstr ""
 
-#: ../../source/explore/gallery.rst:19 ../../source/explore/gallery.rst:26
+#: ../../source/explore/gallery.rst:15 ../../source/explore/gallery.rst:22
 msgid "Startup Asia X 12th June 2020"
 msgstr ""
 
@@ -12779,7 +12764,7 @@ msgstr ""
 msgid "Group photo at the end of Startup Asia X, 12th June 2020."
 msgstr ""
 
-#: ../../source/explore/gallery.rst:33
+#: ../../source/explore/gallery.rst:29
 msgid "Developer Meeting 20th September 2020"
 msgstr ""
 
@@ -12787,7 +12772,7 @@ msgstr ""
 msgid "Dale Glass speaking at the Developer Meeting, 20th September 2020."
 msgstr ""
 
-#: ../../source/explore/gallery.rst:40
+#: ../../source/explore/gallery.rst:36
 msgid "Community Meeting 13th July 2020"
 msgstr ""
 
@@ -12795,7 +12780,7 @@ msgstr ""
 msgid "Mannequin army, 13th July 2020."
 msgstr ""
 
-#: ../../source/explore/gallery.rst:47
+#: ../../source/explore/gallery.rst:43
 msgid "Pictionary 5th July 2020"
 msgstr ""
 
@@ -12803,7 +12788,7 @@ msgstr ""
 msgid "Pictionary in the old Hub, 5th July 2020."
 msgstr ""
 
-#: ../../source/explore/gallery.rst:54
+#: ../../source/explore/gallery.rst:50
 msgid "29th September 2020"
 msgstr ""
 
@@ -16809,6 +16794,10 @@ msgid ""
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
 
+#: ../../source/shared.rst:1
+msgid "Download"
+msgstr "다운로드"
+
 #: ../../source/home.rst:17
 msgid ""
 "In addition to the documentation, you can join the discussion on the "
@@ -16828,25 +16817,50 @@ msgstr ""
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr ""
 
+#: ../../source/shared.rst:21
+msgid "de_trans"
+msgstr ""
+
 #: ../../source/home.rst:25
 msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
+msgstr ""
+
+#: ../../source/shared.rst:25
+msgid "es_trans"
 msgstr ""
 
 #: ../../source/home.rst:26
 msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr ""
 
+#: ../../source/shared.rst:29
+msgid "fr_trans"
+msgstr ""
+
 #: ../../source/home.rst:27
 msgid "`日本語 <https://docs.overte.org/ja/latest/>`_ |jp_trans|"
+msgstr ""
+
+#: ../../source/shared.rst:33
+msgid "jp_trans"
 msgstr ""
 
 #: ../../source/home.rst:28
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr ""
 
+#: ../../source/shared.rst:37
+msgid "ko_trans"
+msgstr ""
+
 #: ../../source/home.rst:29
 msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
 msgstr ""
+
+#: ../../source/shared.rst:41
+#, fuzzy
+msgid "cs_trans"
+msgstr "능력치"
 
 #: ../../source/home.rst:34
 msgid "What can I do?"
@@ -33893,5 +33907,33 @@ msgstr ""
 #~ " where a shader is causing trouble"
 #~ " for you, remember that you can "
 #~ "disable them in the Overte Interface."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add a material entity directly "
+#~ "into the **Create** Tools app: 1. "
+#~ "In Interface, pull up your HUD or"
+#~ " Tablet and go to **Create**. 2. "
+#~ "Create a wall. Click the 'Cube' "
+#~ "icon to add a box entity and "
+#~ "change the dimensions to make it "
+#~ "resemble a wall. 3. Go to the "
+#~ "**Create** tab and click on the "
+#~ "'Material' icon to add a material "
+#~ "entity. 4. Enter `materialData` when "
+#~ "you're prompted for a 'Material URL'."
+#~ " 5. Click and select the wall. "
+#~ "Go to the 'Properties' tab and "
+#~ "copy the parent ID under the "
+#~ "'Name' box. 6. Click and select "
+#~ "the material entity. Go to the "
+#~ "'Properties' tab and paste the copied"
+#~ " parent ID in the 'Parent' box. "
+#~ "In this step, you are parenting or"
+#~ " applying a material to an entity."
+#~ " 7. Scroll down to the 'Material "
+#~ "Data' field. Click 'Clear Material Data'"
+#~ " and then paste the following JSON"
+#~ " data:"
 #~ msgstr ""
 

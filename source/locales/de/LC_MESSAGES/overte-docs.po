@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-02-25 18:39+0000\n"
+"POT-Creation-Date: 2025-04-20 09:29+0000\n"
 "PO-Revision-Date: 2024-11-22 12:21+0000\n"
 "Last-Translator: Noah <nolefr@posteo.de>\n"
 "Language: de\n"
@@ -21,47 +21,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
-
-#: ../../source/shared.rst
-msgid "Download"
-msgstr "Herunterladen"
-
-#: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
-#: ../../source/shared.rst
-msgid "Gallery"
-msgstr "Bildergalerie"
-
-#: ../../source/shared.rst
-msgid "Discord"
-msgstr "Discord"
-
-#: ../../source/shared.rst
-msgid "Matrix"
-msgstr "Matrix"
-
-#: ../../source/shared.rst
-msgid "de_trans"
-msgstr "de_trans"
-
-#: ../../source/shared.rst
-msgid "es_trans"
-msgstr "es_trans"
-
-#: ../../source/shared.rst
-msgid "fr_trans"
-msgstr "fr_trans"
-
-#: ../../source/shared.rst
-msgid "jp_trans"
-msgstr "jp_trans"
-
-#: ../../source/shared.rst
-msgid "ko_trans"
-msgstr "ko_trans"
-
-#: ../../source/shared.rst
-msgid "cs_trans"
-msgstr "de_trans"
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
@@ -96,6 +55,14 @@ msgstr ""
 " Dieser ist auch mit unserem `Discord Server "
 "<https://discord.gg/4YuQvc8K2f>`_ |Discord| verbunden, falls Sie diesen "
 "bevorzugen."
+
+#: ../../source/shared.rst:16
+msgid "Matrix"
+msgstr "Matrix"
+
+#: ../../source/shared.rst:11
+msgid "Discord"
+msgstr "Discord"
 
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
@@ -536,7 +503,7 @@ msgstr ""
 "Kaufen oder kostenlos erhalten können. Denken Sie an folgendes wenn sie "
 "3D Modelle von solchen Websites beziehen:"
 
-#: ../../source/create/3d-models/get-model.rst:17
+#: ../../source/create/3d-models/get-model.rst:16
 msgid ""
 "**Check Licensing Terms:** Make sure you check a model's licensing terms "
 "before you use it. It is your responsibility to ensure that you have "
@@ -560,7 +527,7 @@ msgstr ""
 "Sie sollten sicher sein, dass Sie die Rechte zur Weiterverbreitung der "
 "3D-Inhalte haben."
 
-#: ../../source/create/3d-models/get-model.rst:20
+#: ../../source/create/3d-models/get-model.rst:19
 msgid ""
 "**Check Materials:** You might find that the model may be missing its "
 "textures. If that happens, first check to see if the textures are "
@@ -976,6 +943,7 @@ msgstr ""
 #: ../../source/create/entities/entity-physics.rst:22
 #: ../../source/create/entities/hero-zone.rst:15
 #: ../../source/create/entities/material-entity.rst:53
+#: ../../source/create/entities/material-entity.rst:72
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:37
 #: ../../source/create/entities/portal-tutorial.md:41
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:36
@@ -1176,7 +1144,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:154
 #: ../../source/create/entities/entity-behavior.rst:153
 #: ../../source/create/entities/entity-physics.rst:153
-#: ../../source/create/entities/material-entity.rst:103
+#: ../../source/create/entities/material-entity.rst:104
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:61
 #: ../../source/create/entities/portal-tutorial.md:54
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:110
@@ -1441,7 +1409,7 @@ msgstr ""
 "Farbe eines Materials. Sie können den Wert eines jeden Kanals auf zwei "
 "Arten bestimmen:"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:54
+#: ../../source/create/3d-models/pbr-materials-guide.rst:53
 msgid ""
 "**Setting a Value:** The value of a channel is a value set on a slider. "
 "Setting a value is like turning off or turning on a switch."
@@ -1460,7 +1428,7 @@ msgstr ""
 " Objekts unterschiedliche Rauhigkeiten widerspiegeln, müssen Sie eine "
 "Texturkarte verwenden."
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:57
+#: ../../source/create/3d-models/pbr-materials-guide.rst:56
 #, fuzzy
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
@@ -5534,7 +5502,7 @@ msgstr ""
 #: ../../source/create/entities/boombox-tutorial.rst:18
 #: ../../source/create/entities/boombox-tutorial.rst:167
 #: ../../source/create/entities/create-fountain.rst:92
-#: ../../source/create/entities/material-entity.rst:105
+#: ../../source/create/entities/material-entity.rst:106
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:63
 msgid ":doc:`Create New Entities <create-entities>`"
 msgstr ""
@@ -7764,6 +7732,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:54
+#: ../../source/create/entities/material-entity.rst:73
 msgid ""
 "Create a wall. Click the 'Cube' icon to add a box entity and change the "
 "dimensions to make it resemble a wall."
@@ -7777,6 +7746,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:56
+#: ../../source/create/entities/material-entity.rst:76
 msgid ""
 "Click and select the wall. Go to the 'Properties' tab and copy the parent"
 " ID under the 'Name' box."
@@ -7795,26 +7765,37 @@ msgid "Use the materialData Field"
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:70
-msgid ""
-"To add a material entity directly into the **Create** Tools app: 1. In "
-"Interface, pull up your HUD or Tablet and go to **Create**. 2. Create a "
-"wall. Click the 'Cube' icon to add a box entity and change the dimensions"
-" to make it resemble a wall. 3. Go to the **Create** tab and click on the"
-" 'Material' icon to add a material entity. 4. Enter `materialData` when "
-"you're prompted for a 'Material URL'. 5. Click and select the wall. Go to"
-" the 'Properties' tab and copy the parent ID under the 'Name' box. 6. "
-"Click and select the material entity. Go to the 'Properties' tab and "
-"paste the copied parent ID in the 'Parent' box. In this step, you are "
-"parenting or applying a material to an entity. 7. Scroll down to the "
-"'Material Data' field. Click 'Clear Material Data' and then paste the "
-"following JSON data:"
+msgid "To add a material entity directly into the **Create** Tools app:"
 msgstr ""
 
-#: ../../source/create/entities/material-entity.rst:106
-msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
+#: ../../source/create/entities/material-entity.rst:74
+msgid ""
+"Go to the **Create** tab and click on the 'Material' icon to add a "
+"material entity."
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:75
+msgid "Enter `materialData` when you're prompted for a 'Material URL'."
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:77
+msgid ""
+"Click and select the material entity. Go to the 'Properties' tab and "
+"paste the copied parent ID in the 'Parent' box. In this step, you are "
+"parenting or applying a material to an entity."
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:78
+msgid ""
+"Scroll down to the 'Material Data' field. Click 'Clear Material Data' and"
+" then paste the following JSON data:"
 msgstr ""
 
 #: ../../source/create/entities/material-entity.rst:107
+msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
+msgstr ""
+
+#: ../../source/create/entities/material-entity.rst:108
 msgid "`Introduction to JSON <https://www.w3schools.com/js/js_json_intro.asp>`_"
 msgstr ""
 
@@ -13002,6 +12983,11 @@ msgid ""
 "terminal, and disabled by default on Windows."
 msgstr ""
 
+#: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
+#: ../../source/shared.rst:6
+msgid "Gallery"
+msgstr "Bildergalerie"
+
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 #, fuzzy
 msgid "Get Started with Overte"
@@ -13070,7 +13056,7 @@ msgstr ""
 "Diese Galerie enthält Bilder von Events und Orten, die mit dem "
 "Overte/Vircadia Interface besucht wurden."
 
-#: ../../source/explore/gallery.rst:12
+#: ../../source/explore/gallery.rst:8
 msgid "Maker meeting 28th September 2020"
 msgstr ""
 
@@ -13082,7 +13068,7 @@ msgstr ""
 "Maker Meeting, 28. September 2020, in \"El Papa Viejo\" (bedeutung: Die "
 "alten Leute)."
 
-#: ../../source/explore/gallery.rst:19 ../../source/explore/gallery.rst:26
+#: ../../source/explore/gallery.rst:15 ../../source/explore/gallery.rst:22
 msgid "Startup Asia X 12th June 2020"
 msgstr ""
 
@@ -13094,7 +13080,7 @@ msgstr "Startup Lab Lagoon Koza in Startup Asia X, 12. Juni 2020."
 msgid "Group photo at the end of Startup Asia X, 12th June 2020."
 msgstr "Gruppenfoto am Ende von Startup Asia X, 12. Juni 2020."
 
-#: ../../source/explore/gallery.rst:33
+#: ../../source/explore/gallery.rst:29
 #, fuzzy
 msgid "Developer Meeting 20th September 2020"
 msgstr ""
@@ -13107,7 +13093,7 @@ msgstr ""
 "Dale Glass spricht beim Maker Meeting (Entwickler Treffen), 20. September"
 " 2020."
 
-#: ../../source/explore/gallery.rst:40
+#: ../../source/explore/gallery.rst:36
 msgid "Community Meeting 13th July 2020"
 msgstr ""
 
@@ -13115,7 +13101,7 @@ msgstr ""
 msgid "Mannequin army, 13th July 2020."
 msgstr "Holzpuppen Armee, 13. Juli 2020."
 
-#: ../../source/explore/gallery.rst:47
+#: ../../source/explore/gallery.rst:43
 #, fuzzy
 msgid "Pictionary 5th July 2020"
 msgstr "Abbildung im alten Hub, 5. Juli 2020."
@@ -13124,7 +13110,7 @@ msgstr "Abbildung im alten Hub, 5. Juli 2020."
 msgid "Pictionary in the old Hub, 5th July 2020."
 msgstr "Abbildung im alten Hub, 5. Juli 2020."
 
-#: ../../source/explore/gallery.rst:54
+#: ../../source/explore/gallery.rst:50
 msgid "29th September 2020"
 msgstr ""
 
@@ -17349,6 +17335,10 @@ msgstr ""
 "oder schauen Sie sich unsere :doc:`Galerie <explore/gallery>` |Gallery| "
 "an."
 
+#: ../../source/shared.rst:1
+msgid "Download"
+msgstr "Herunterladen"
+
 #: ../../source/home.rst:17
 #, fuzzy
 msgid ""
@@ -17374,25 +17364,49 @@ msgstr "Die folgenden Übersetzungen sind verfügbar:"
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
 msgstr ""
 
+#: ../../source/shared.rst:21
+msgid "de_trans"
+msgstr "de_trans"
+
 #: ../../source/home.rst:25
 msgid "`Español <https://docs.overte.org/es/latest/>`_ |es_trans|"
 msgstr ""
+
+#: ../../source/shared.rst:25
+msgid "es_trans"
+msgstr "es_trans"
 
 #: ../../source/home.rst:26
 msgid "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 msgstr ""
 
+#: ../../source/shared.rst:29
+msgid "fr_trans"
+msgstr "fr_trans"
+
 #: ../../source/home.rst:27
 msgid "`日本語 <https://docs.overte.org/ja/latest/>`_ |jp_trans|"
 msgstr ""
+
+#: ../../source/shared.rst:33
+msgid "jp_trans"
+msgstr "jp_trans"
 
 #: ../../source/home.rst:28
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr ""
 
+#: ../../source/shared.rst:37
+msgid "ko_trans"
+msgstr "ko_trans"
+
 #: ../../source/home.rst:29
 msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
 msgstr ""
+
+#: ../../source/shared.rst:41
+msgid "cs_trans"
+msgstr "de_trans"
 
 #: ../../source/home.rst:34
 msgid "What can I do?"
@@ -34264,5 +34278,33 @@ msgstr "Sitzungs-UUID des Metaversum"
 #~ " where a shader is causing trouble"
 #~ " for you, remember that you can "
 #~ "disable them in the Overte Interface."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To add a material entity directly "
+#~ "into the **Create** Tools app: 1. "
+#~ "In Interface, pull up your HUD or"
+#~ " Tablet and go to **Create**. 2. "
+#~ "Create a wall. Click the 'Cube' "
+#~ "icon to add a box entity and "
+#~ "change the dimensions to make it "
+#~ "resemble a wall. 3. Go to the "
+#~ "**Create** tab and click on the "
+#~ "'Material' icon to add a material "
+#~ "entity. 4. Enter `materialData` when "
+#~ "you're prompted for a 'Material URL'."
+#~ " 5. Click and select the wall. "
+#~ "Go to the 'Properties' tab and "
+#~ "copy the parent ID under the "
+#~ "'Name' box. 6. Click and select "
+#~ "the material entity. Go to the "
+#~ "'Properties' tab and paste the copied"
+#~ " parent ID in the 'Parent' box. "
+#~ "In this step, you are parenting or"
+#~ " applying a material to an entity."
+#~ " 7. Scroll down to the 'Material "
+#~ "Data' field. Click 'Clear Material Data'"
+#~ " and then paste the following JSON"
+#~ " data:"
 #~ msgstr ""
 
