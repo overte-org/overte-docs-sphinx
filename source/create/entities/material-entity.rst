@@ -68,6 +68,7 @@ Use the materialData Field
 __________________________
 
 To add a material entity directly into the **Create** Tools app:
+
 1. In Interface, pull up your HUD or Tablet and go to **Create**.
 2. Create a wall. Click the 'Cube' icon to add a box entity and change the dimensions to make it resemble a wall.
 3. Go to the **Create** tab and click on the 'Material' icon to add a material entity.
