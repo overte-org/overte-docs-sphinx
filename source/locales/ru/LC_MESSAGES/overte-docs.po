@@ -10,16 +10,17 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2025-02-25 18:39+0000\n"
-"PO-Revision-Date: 2024-05-14 23:20+0000\n"
-"Last-Translator: Yurii Yevdokimov <yevdokimovyurii86@gmail.com>\n"
+"PO-Revision-Date: 2025-04-20 09:30+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Russian <https://weblate.overte.org/projects/overte/"
+"overte-documentation/ru/>\n"
 "Language: ru\n"
-"Language-Team: Russian <https://weblate.overte.org/projects/overte"
-"/overte-documentation/ru/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.10.2\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../source/shared.rst
@@ -214,6 +215,7 @@ msgid "Translation"
 msgstr "Перевод"
 
 #: ../../source/contribute.rst:30
+#, fuzzy
 msgid ""
 "As an international project, Overte relies on translators to be able to "
 "reach users that do not speak English. Currently the only component that "
@@ -227,15 +229,14 @@ msgid ""
 "sphinx/blob/master/README.md>`_."
 msgstr ""
 "Как многонациональный проект, Overte рассчитывает на переводчиков, чтобы "
-"достичь пользователей, которые не говорят на английском. Сейчас "
-"единственная часть, которая имеет поддержку перевода это документация. Вы"
-" можете помочь с переводом используя нашу онлайн систему перевода  "
-"`Weblate <https://weblate.overte.org/projects/overte/overte-"
-"documentation/>` вы можете или отправлять переводы или стать главным "
-"переводчиком для вашего языка и проверять переводы перед тем как они "
-"станут документацией. Больше информации по переводу документации вы "
-"можете найти здесь  `README <https://github.com/overte-org/overte-docs-"
-"sphinx/blob/master/README.md>` _."
+"достичь пользователей, которые не говорят на английском. Сейчас единственная "
+"часть, которая имеет поддержку перевода это документация. Вы можете помочь с "
+"переводом используя нашу онлайн систему перевода  `Weblate <https://"
+"weblate.overte.org/projects/overte/overte-documentation/>` вы можете или "
+"отправлять переводы или стать главным переводчиком для вашего языка и "
+"проверять переводы перед тем как они станут документацией. Больше информации "
+"по переводу документации вы можете найти здесь  `README <https://github.com/"
+"overte-org/overte-docs-sphinx/blob/master/README.md>` _."
 
 #: ../../source/contribute.rst:38
 msgid "Donations"
@@ -254,6 +255,7 @@ msgstr ""
 "PayPal, Patreon, или GitHub Sponsors."
 
 #: ../../source/contribute.rst:42
+#, fuzzy
 msgid ""
 "You can also put bounties on specific features you want to see "
 "implemented or issues you want to see fixed, by leaving a comment on our "
@@ -266,17 +268,17 @@ msgid ""
 "of US$40 an hour in the free market. Keep that in mind if you want to see"
 " something accomplished that no one else is personally interested in."
 msgstr ""
-"Вы можете также назначить вознаграждение за специфические функции которые"
-" вы хотите видеть реализованными или ошибки которые вы бы хотели видеть "
-"исправленными, путем оставления комментария на нашем трекере "
-"`<https://github.com/overte-org/overte/issues>`. Конечно, возможно "
-"вознаграждение за други части проекта, например документацию. "
-"Вознаграждения создаются  и назначаются на доверии, поэтому если вы не "
-"уверены про какое-то вознаграждение пообщайтесь с главным разработчиком "
-"или с сообществом или на встрече разработчиков. Большинство разработчиков"
-" хорошо тренированы и имеют большой опыт работы, обычно зарабатывая  "
-"US$40 в час на свободном рынке. Имейте это ввиду, если вы хотите "
-"реализовать что-то, в чем никто другой не будет заинтересован."
+"Вы можете также назначить вознаграждение за специфические функции которые вы "
+"хотите видеть реализованными или ошибки которые вы бы хотели видеть "
+"исправленными, путем оставления комментария на нашем трекере `<https://"
+"github.com/overte-org/overte/issues>`. Конечно, возможно вознаграждение за "
+"други части проекта, например документацию. Вознаграждения создаются  и "
+"назначаются на доверии, поэтому если вы не уверены про какое-то "
+"вознаграждение пообщайтесь с главным разработчиком или с сообществом или на "
+"встрече разработчиков. Большинство разработчиков хорошо тренированы и имеют "
+"большой опыт работы, обычно зарабатывая  US$40 в час на свободном рынке. "
+"Имейте это ввиду, если вы хотите реализовать что-то, в чем никто другой не "
+"будет заинтересован."
 
 #: ../../source/contribute.rst:50
 msgid "Development"
@@ -291,12 +293,13 @@ msgstr ""
 "разработчиком, например:"
 
 #: ../../source/contribute.rst:53
+#, fuzzy
 msgid ""
 "filing issues on our `issue tracker <https://github.com/overte-"
 "org/overte/issues>`_,"
 msgstr ""
-"указывая ошибки на нашем трекере `<https://github.com/overte-"
-"org/overte/issues>`_,"
+"указывая ошибки на нашем трекере `<https://github.com/overte-org/overte/"
+"issues>`_,"
 
 #: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
@@ -311,6 +314,7 @@ msgstr ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 
 #: ../../source/contribute.rst:57
+#, fuzzy
 msgid ""
 "If you are a developer, you can contribute directly to the project via "
 "pull requests. Keep the `guidelines <https://github.com/overte-"
@@ -325,11 +329,11 @@ msgstr ""
 "Если вы разработчик, вы можете делать вклад в проект лично, через pull "
 "requests. Придерживайтесь стандарта когда делаете вклад в основной код "
 "`<https://github.com/overte-org/overte/blob/master/CONTRIBUTING.md>` . "
-"Дополнительная информация может быть найдена тут  :doc:`Developer Section"
-" <developer>`. Важная работа для разработчиков которая относится к самой "
-"платформе находится здесь`code reviews <https://github.com/overte-"
-"org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ в "
-"открытых pull requests."
+"Дополнительная информация может быть найдена тут  :doc:`Developer Section "
+"<developer>`. Важная работа для разработчиков которая относится к самой "
+"платформе находится здесь`code reviews <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ в открытых pull "
+"requests."
 
 #: ../../source/contribute.rst:64
 msgid "Miscellaneous Work"
@@ -482,17 +486,18 @@ msgid "Import Animations"
 msgstr "Импорт Анимаций"
 
 #: ../../source/create/3d-models.rst:5
+#, fuzzy
 msgid ""
 "3D models are :doc:`entities <entities>` that represent objects you'd "
 "like to see in-world such as a water fountain, a castle, or a coffee mug."
 " You can get your 3D model by creating your own or sourcing it "
 "externally. We only support 3D models in the OBJ, FBX, and glTF formats."
 msgstr ""
-"3D модели это сущности doc:`<entities>`которые отображают объекты которые"
-" вы хотите видеть в мире, например фонтан, замок или кофейную чашку. Вы "
-"можете получить вашу 3D модель создавая вашу собственную или заказать "
-"разработку у сторонних специалистов. Мы поддерживаем 3D модели только в "
-"форматах OBJ, FBX, and glTF."
+"3D модели это сущности doc:`<entities>`которые отображают объекты которые вы "
+"хотите видеть в мире, например фонтан, замок или кофейную чашку. Вы можете "
+"получить вашу 3D модель создавая вашу собственную или заказать разработку у "
+"сторонних специалистов. Мы поддерживаем 3D модели только в форматах OBJ, "
+"FBX, and glTF."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -535,15 +540,16 @@ msgstr ""
 " из таких сайтов:"
 
 #: ../../source/create/3d-models/get-model.rst:17
+#, fuzzy
 msgid ""
 "**Check Licensing Terms:** Make sure you check a model's licensing terms "
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
-"**Проверьте лицензионное соглашение:**Убедитесь, что вы проверили условия"
-" лицензионного соглашения модели, перед как использовать ее в своих "
-"работах. Это Ваша ответственность убедится в том, что у Вас есть "
-"достаточно прав для использования контента."
+"**Проверьте лицензионное соглашение:**Убедитесь, что вы проверили условия "
+"лицензионного соглашения модели, перед как использовать ее в своих работах. "
+"Это Ваша ответственность убедится в том, что у Вас есть достаточно прав для "
+"использования контента."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -568,14 +574,15 @@ msgstr ""
 "включены."
 
 #: ../../source/create/3d-models/get-model.rst:20
+#, fuzzy
 msgid ""
 "If a model loads into Overte and doesn't look right, you may also find "
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
-"Если модель загружена в Overte и не выглядит красиво, вы также можете "
-"найти информацию об ошибке в лог файлах интерфейса. Посмотрите Где я могу"
-" найти лог файлы Интерфейса ` <../../faq.html#interface-log-files>`_"
+"Если модель загружена в Overte и не выглядит красиво, вы также можете найти "
+"информацию об ошибке в лог файлах интерфейса. Посмотрите Где я могу найти "
+"лог файлы Интерфейса ` <../../faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
@@ -596,14 +603,15 @@ msgid "The 3D model is in the FBX, glTF or OBJ format."
 msgstr "3D модель в формате FBX, glTF or OBJ."
 
 #: ../../source/create/3d-models/get-model.rst:29
+#, fuzzy
 msgid ""
 "The 3D model materials are supported by Overte. Use our :doc:`materials "
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
-"Материалы 3D модели поддерживаемые Overte. Используйте наше руководство "
-"по материалам :doc:`<pbr-materials-guide>` для того, чтобы убедиться, что"
-" ваши материалы загружаются правильно."
+"Материалы 3D модели поддерживаемые Overte. Используйте наше руководство по "
+"материалам :doc:`<pbr-materials-guide>` для того, чтобы убедиться, что ваши "
+"материалы загружаются правильно."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
@@ -1143,6 +1151,7 @@ msgid "**See Also**"
 msgstr "** Смотрите Также **"
 
 #: ../../source/create/3d-models/import-animations.rst:72
+#, fuzzy
 msgid ":doc:`Import Your 3D Model <import-model>`"
 msgstr "Импортируйте Вашу 3D Модель :doc:`<import-model>`"
 
@@ -1225,10 +1234,12 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
+#, fuzzy
 msgid ":doc:`Create Tools <../tools>`"
 msgstr "Средства Создания"
 
 #: ../../source/create/3d-models/import-model.rst:40
+#, fuzzy
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr "Создать Новые Сущности"
 
@@ -30226,4 +30237,3 @@ msgstr ""
 #~ " for you, remember that you can "
 #~ "disable them in the Overte Interface."
 #~ msgstr ""
-
