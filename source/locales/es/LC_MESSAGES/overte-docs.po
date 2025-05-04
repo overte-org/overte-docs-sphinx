@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-04-20 09:29+0000\n"
-"PO-Revision-Date: 2024-03-30 15:20+0000\n"
-"Last-Translator: Julian Groß <julian.gro@overte.org>\n"
+"PO-Revision-Date: 2025-05-04 16:19+0000\n"
+"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
+"overte-documentation/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.overte.org/projects/overte"
-"/overte-documentation/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.2\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../source/contribute.rst:5
@@ -2019,6 +2020,7 @@ msgid "**Listen for events**"
 msgstr "**Escucha los eventos**"
 
 #: ../../source/create/applications.rst:182
+#, fuzzy
 msgid ""
 "In step 3 above, we `added event handlers <#add-event-handlers-to-your-"
 "files>`_ to your HTML file. Now, you need to add code to your JavaScript "
@@ -2050,6 +2052,7 @@ msgid "**Calculate the position of each new gemstone**"
 msgstr "**Calcular la posición de cada nueva gema**"
 
 #: ../../source/create/applications.rst:197
+#, fuzzy
 msgid "The following code gives us a position right in front of the user::"
 msgstr "El siguiente código nos da una posición justo frente al usuario::"
 
@@ -2058,12 +2061,13 @@ msgid "**Set the gemstone's properties and add it**"
 msgstr "**Establecer las propiedades de la gema y agregarla**"
 
 #: ../../source/create/applications.rst:211
+#, fuzzy
 msgid ""
 "The gemstone will be created when gemstoneApp.js receives click events "
 "from each of the buttons::"
 msgstr ""
-"La gema se creará cuando gemstoneApp.js reciba eventos de click de cada "
-"uno de los botones::"
+"La gema se creará cuando gemstoneApp.js reciba eventos de click de cada uno "
+"de los botones::"
 
 #: ../../source/create/applications.rst:289
 #, fuzzy
@@ -4098,12 +4102,13 @@ msgid "Method"
 msgstr "Método"
 
 #: ../../source/create/avatars/custom-animations.rst:81
+#, fuzzy
 msgid ""
 "`MyAvatar.overrideAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.overrideAnimation>`_"
 msgstr ""
-"`MyAvatar.overrideAnimation "
-"<https://apidocs.overte.org/MyAvatar.html#.overrideAnimation>`_"
+"`MyAvatar.overrideAnimation <https://apidocs.overte.org/"
+"MyAvatar.html#.overrideAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
@@ -4119,12 +4124,13 @@ msgstr ""
 "animación personalizada proporcionada."
 
 #: ../../source/create/avatars/custom-animations.rst:86
+#, fuzzy
 msgid ""
 "`AnimationCache.prefetch <https://apidocs.overte.org/ "
 "AnimationCache.html#.prefetch>`_"
 msgstr ""
-"`AnimationCache.prefetch "
-"<https://apidocs.overte.org/AnimationCache.html#.prefetch>`_"
+"`AnimationCache.prefetch <https://apidocs.overte.org/"
+"AnimationCache.html#.prefetch>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
@@ -4139,12 +4145,13 @@ msgstr ""
 "una pose en T brevemente mientras se descarga la animación."
 
 #: ../../source/create/avatars/custom-animations.rst:91
+#, fuzzy
 msgid ""
 "`MyAvatar.restoreAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.restoreAnimation>`_"
 msgstr ""
-"`MyAvatar.restoreAnimation "
-"<https://apidocs.overte.org/MyAvatar.html#.restoreAnimation>`_"
+"`MyAvatar.restoreAnimation <https://apidocs.overte.org/"
+"MyAvatar.html#.restoreAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
@@ -11832,15 +11839,15 @@ msgstr ""
 "más información :doc:`aquí <../entities/material-entity>`."
 
 #: ../../source/create/materials/procedural-shaders.rst:55
+#, fuzzy
 msgid ""
 "Material entities have data that is stored in the JSON format, and they "
 "have a property called ``materialData``. The ``materialData`` property "
 "requires ``model`` and ``procedural`` fields. Here is an example::"
 msgstr ""
 "Las entidades materiales tienen datos que se almacenan en formato JSON y "
-"tienen una propiedad llamada ``materialData``. La propiedad "
-"``materialData``requiere los campos ``model`` y ``procedural``. Aquí hay "
-"un ejemplo::"
+"tienen una propiedad llamada ``materialData``. La propiedad ``materialData``"
+"requiere los campos ``model`` y ``procedural``. Aquí hay un ejemplo::"
 
 #: ../../source/create/materials/procedural-shaders.rst:67
 #, fuzzy
@@ -11927,12 +11934,13 @@ msgstr ""
 "de la función principal)."
 
 #: ../../source/create/materials/procedural-shaders.rst:98
+#, fuzzy
 msgid ""
 "A basic template for a shader without helper functions looks something "
 "like this example::"
 msgstr ""
-"Una plantilla básica para un sombreador sin funciones auxiliares se "
-"parece a este ejemplo::"
+"Una plantilla básica para un sombreador sin funciones auxiliares se parece a "
+"este ejemplo::"
 
 #: ../../source/create/materials/procedural-shaders.rst:111
 msgid ""
@@ -11965,28 +11973,31 @@ msgstr ""
 "útiles al calcular los efectos de procedimiento."
 
 #: ../../source/create/materials/procedural-shaders.rst:119
+#, fuzzy
 msgid "The following global variables are provided::"
 msgstr "Se proporcionan las siguientes variables globales::"
 
 #: ../../source/create/materials/procedural-shaders.rst:132
+#, fuzzy
 msgid "The following variables are defined but currently not implemented::"
 msgstr ""
-"Las siguientes variables están definidas pero actualmente no "
-"implementadas::"
+"Las siguientes variables están definidas pero actualmente no implementadas::"
 
 #: ../../source/create/materials/procedural-shaders.rst:139
+#, fuzzy
 msgid ""
 "The following per-fragment uniforms are also provided in all shader "
 "versions::"
 msgstr ""
-"Los siguientes uniformes por fragmento también se proporcionan en todas "
-"las versiones de sombreado::"
+"Los siguientes uniformes por fragmento también se proporcionan en todas las "
+"versiones de sombreado::"
 
 #: ../../source/create/materials/procedural-shaders.rst:150
 msgid "Provided Methods, Constants, and Structs"
 msgstr "Métodos, Constantes y Estructuras Proporcionadas"
 
 #: ../../source/create/materials/procedural-shaders.rst:152
+#, fuzzy
 msgid "Here is a full list of the provided methods, constants, and structs::"
 msgstr ""
 "Aquí hay una lista completa de los métodos, constantes y estructuras "
@@ -12018,10 +12029,12 @@ msgid "Shader Version 3"
 msgstr "Versión 3 del Sombreador"
 
 #: ../../source/create/materials/procedural-shaders.rst:239
+#, fuzzy
 msgid "``ProceduralFragment`` **struct**::"
 msgstr "**Estructura** del ``ProceduralFragment``::"
 
 #: ../../source/create/materials/procedural-shaders.rst:253
+#, fuzzy
 msgid "The default values for some of these are::"
 msgstr "Los valores predeterminados para algunos de estos son::"
 
@@ -12041,6 +12054,7 @@ msgid "Shader Version 4"
 msgstr "Versión 4 del Sombreador"
 
 #: ../../source/create/materials/procedural-shaders.rst:274
+#, fuzzy
 msgid "``ProceduralFragmentWithPosition`` **struct**::"
 msgstr "**Estructura** del ``ProceduralFragmentWithPosition``::"
 
@@ -12064,20 +12078,21 @@ msgid "Zone Entities"
 msgstr "Entidades de Zona"
 
 #: ../../source/create/materials/procedural-shaders.rst:295
+#, fuzzy
 msgid ""
 "Zone entities operate slightly differently. They support the same global "
 "defines but not the provided methods or constants. They also provide the "
 "following inputs: ::"
 msgstr ""
-"Las entidades de zona operan de manera ligeramente diferente. Admiten las"
-" mismas definiciones globales pero no los métodos o constantes "
+"Las entidades de zona operan de manera ligeramente diferente. Admiten las "
+"mismas definiciones globales pero no los métodos o constantes "
 "proporcionados. También proporcionan las siguientes entradas: ::"
 
 #: ../../source/create/materials/procedural-shaders.rst:302
+#, fuzzy
 msgid "And must implement the following method, regardless of version: ::"
 msgstr ""
-"Y debes implementar el siguiente método, independientemente de la "
-"versión: ::"
+"Y debes implementar el siguiente método, independientemente de la versión: ::"
 
 #: ../../source/create/materials/procedural-shaders.rst:307
 msgid ""
@@ -12092,10 +12107,12 @@ msgid "Vertex Shaders"
 msgstr "Sombreadores de Vértices"
 
 #: ../../source/create/materials/procedural-shaders.rst:313
+#, fuzzy
 msgid "A vertex shader must implement::"
 msgstr "Un sombreador de vértices debe implementar::"
 
 #: ../../source/create/materials/procedural-shaders.rst:317
+#, fuzzy
 msgid "And will include this struct::"
 msgstr "E incluirá esta estructura::"
 
@@ -12108,13 +12125,14 @@ msgid "Custom Uniforms and Textures"
 msgstr "Texturas y Uniformes Personalizados"
 
 #: ../../source/create/materials/procedural-shaders.rst:338
+#, fuzzy
 msgid ""
 "Procedural materials also support up to 4 custom textures and many custom"
 " uniforms. These can be defined as follows::"
 msgstr ""
 "Los materiales de procedimiento también admiten hasta 4 texturas "
-"personalizadas y muchos uniformes personalizados. Estos se pueden definir"
-" de la siguiente manera::"
+"personalizadas y muchos uniformes personalizados. Estos se pueden definir de "
+"la siguiente manera::"
 
 #: ../../source/create/materials/procedural-shaders.rst:357
 msgid ""
@@ -12125,6 +12143,7 @@ msgstr ""
 "llenados, así cómo iChannelResolution[0] - iChannelResolution[3]."
 
 #: ../../source/create/materials/procedural-shaders.rst:359
+#, fuzzy
 msgid ""
 "When you provide uniforms, you must also include them at the top of your "
 "shader file, with optional defaults::"
@@ -38763,4 +38782,3 @@ msgstr "UUID de sesión en Metaverso"
 #~ "Material Data\" (Borrar datos de "
 #~ "material) y luego pegua los siguientes"
 #~ " datos JSON:"
-
