@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-04-20 09:29+0000\n"
+"POT-Creation-Date: 2025-06-01 15:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: tr\n"
@@ -3988,9 +3988,8 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:44
 msgid ""
-"`Overte Avatar Exporter for Unity <https://github.com/overte-"
-"org/overte/blob/master/tools/unity-avatar-"
-"exporter/avatarExporter.unitypackage?raw=true>`_ (v0.6.0)"
+"`Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-"
+"avatar-exporter>`_ (v0.6.0)"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:46
@@ -9948,8 +9947,8 @@ msgid "Create an Installer"
 msgstr ""
 
 #: ../../source/developer.rst:11
-#: ../../source/developer/build/BUILD_LINUX.md:158
-#: ../../source/developer/build/BUILD_LINUX.md:186
+#: ../../source/developer/build/BUILD_LINUX.md:172
+#: ../../source/developer/build/BUILD_LINUX.md:200
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
 msgid "Interface"
@@ -9994,7 +9993,7 @@ msgid "Creating an Installer"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:10
-msgid "*Last Updated on June 16, 2021*"
+msgid "*Last Updated on April 12, 2025*"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:12
@@ -10049,219 +10048,226 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:33
 msgid ""
+"[NSIS Plugins](https://build-deps.overte.org/conan/nsis-overte-plugins"
+"/NSIS-hifi-plugins-1.0.zip) Copy contents to `C:\\Program Files "
+"(x86)\\NSIS\\`. **Alternatively**, install the following:"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:36
+msgid ""
 "[UAC Plug-in for Nullsoft](http://nsis.sourceforge.net/UAC_plug-in) - "
 "0.2.4c"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:34
-#: ../../source/developer/INSTALLER.md:39
-#: ../../source/developer/INSTALLER.md:45
-#: ../../source/developer/INSTALLER.md:50
-#: ../../source/developer/INSTALLER.md:55
-#: ../../source/developer/INSTALLER.md:66
+#: ../../source/developer/INSTALLER.md:37
+#: ../../source/developer/INSTALLER.md:43
+#: ../../source/developer/INSTALLER.md:49
+#: ../../source/developer/INSTALLER.md:54
+#: ../../source/developer/INSTALLER.md:59
+#: ../../source/developer/INSTALLER.md:70
 msgid "Extract Zip"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:35
+#: ../../source/developer/INSTALLER.md:38
 msgid "Copy `UAC.nsh` to `C:\\Program Files (x86)\\NSIS\\Include\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:36
+#: ../../source/developer/INSTALLER.md:39
 msgid ""
 "Copy `Plugins\\x86-ansi\\UAC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:37
+#: ../../source/developer/INSTALLER.md:40
 msgid ""
 "Copy `Plugins\\x86-unicode\\UAC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:38
+#: ../../source/developer/INSTALLER.md:42
 msgid ""
 "[nsProcess Plug-in for "
 "Nullsoft](http://nsis.sourceforge.net/NsProcess_plugin) - 1.6 (use the "
 "link marked **nsProcess_1_6.7z**)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:40
+#: ../../source/developer/INSTALLER.md:44
 msgid ""
 "Copy `Include\\nsProcess.nsh` to `C:\\Program Files "
 "(x86)\\NSIS\\Include\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:41
+#: ../../source/developer/INSTALLER.md:45
 msgid ""
 "Copy `Plugins\\nsProcess.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:42
+#: ../../source/developer/INSTALLER.md:46
 msgid ""
 "Copy `Plugins\\nsProcessW.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:44
+#: ../../source/developer/INSTALLER.md:48
 msgid ""
 "[InetC Plug-in for Nullsoft](http://nsis.sourceforge.net/Inetc_plug-in) -"
 " 1.0"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:46
+#: ../../source/developer/INSTALLER.md:50
 msgid ""
 "Copy `Plugin\\x86-ansi\\InetC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:47
+#: ../../source/developer/INSTALLER.md:51
 msgid ""
 "Copy `Plugin\\x86-unicode\\InetC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:49
+#: ../../source/developer/INSTALLER.md:53
 msgid ""
 "[NSISpcre Plug-in for Nullsoft](http://nsis.sourceforge.net"
 "/NSISpcre_plug-in) - 1.0"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:51
+#: ../../source/developer/INSTALLER.md:55
 msgid "Copy `NSISpre.nsh` to `C:\\Program Files (x86)\\NSIS\\Include\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:52
+#: ../../source/developer/INSTALLER.md:56
 msgid "Copy `NSISpre.dll` to `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:54
+#: ../../source/developer/INSTALLER.md:58
 msgid ""
 "[nsisSlideshow Plug-in for "
 "Nullsoft](<http://wiz0u.free.fr/prog/nsisSlideshow/>) - 1.7"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:56
+#: ../../source/developer/INSTALLER.md:60
 msgid ""
 "Copy `bin\\nsisSlideshow.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:57
+#: ../../source/developer/INSTALLER.md:61
 msgid ""
 "Copy `bin\\nsisSlideshowW.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:59
+#: ../../source/developer/INSTALLER.md:63
 msgid ""
 "[Nsisunz plug-in for Nullsoft](http://nsis.sourceforge.net/Nsisunz_plug-"
 "in)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:60
+#: ../../source/developer/INSTALLER.md:64
 msgid "Download both Zips and unzip"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:61
+#: ../../source/developer/INSTALLER.md:65
 msgid ""
 "Copy `nsisunz\\Release\\nsisunz.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:62
+#: ../../source/developer/INSTALLER.md:66
 msgid ""
 "Copy `NSISunzU\\Plugin unicode\\nsisunz.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:64
+#: ../../source/developer/INSTALLER.md:68
 msgid "[ApplicationID plug-in for Nullsoft]() - 1.0"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:65
+#: ../../source/developer/INSTALLER.md:69
 msgid ""
 "Download [`Pre-built DLLs`](<https://github.com/connectiblutz/NSIS-"
 "ApplicationID/releases/download/1.1/NSIS-ApplicationID.zip>)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:67
+#: ../../source/developer/INSTALLER.md:71
 msgid ""
 "Copy `Release\\ApplicationID.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:68
+#: ../../source/developer/INSTALLER.md:72
 msgid ""
 "Copy `ReleaseUnicode\\ApplicationID.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:70
-msgid "[Node.JS and NPM](<https://nodejs.org/en/download/>)"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:71
-msgid "Install version 10.15.0 LTS (or greater)"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:73
-msgid "Code Signing (optional)"
+#: ../../source/developer/INSTALLER.md:74
+msgid "[Node.JS and NPM](https://nodejs.org/en/download/)"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:75
+msgid "Install version 10.15.0 LTS (or greater)"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:76
+msgid "Code Signing (optional)"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:78
 msgid ""
 "For code signing to work, you will need to set the `HF_PFX_FILE` and "
 "`HF_PFX_PASSPHRASE` environment variables to be present during CMake "
 "runtime and globally as we proceed to package the installer."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:77
+#: ../../source/developer/INSTALLER.md:80
 msgid "Creating the Installer"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:79
+#: ../../source/developer/INSTALLER.md:82
 msgid "Perform a clean cmake from a new terminal."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:80
+#: ../../source/developer/INSTALLER.md:83
 msgid ""
 "Open the `overte.sln` solution with elevated (administrator) permissions "
 "on Visual Studio and select the **Release** configuration."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:81
+#: ../../source/developer/INSTALLER.md:84
 msgid "Build the solution."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:82
+#: ../../source/developer/INSTALLER.md:85
 msgid ""
 "Build `packaged-server-console-npm-install` (found under **hidden/Server "
 "Console**)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:83
+#: ../../source/developer/INSTALLER.md:86
 msgid ""
 "Build `packaged-server-console` (found under **Server Console**)   This "
 "will add 2 folders to `build\\server-console\\` -   `server-console-"
 "win32-x64` and `x64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:86
+#: ../../source/developer/INSTALLER.md:89
 msgid ""
 "Build CMakeTargets->PACKAGE    The installer is now available in "
 "`build\\_CPack_Packages\\win64\\NSIS`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:89
+#: ../../source/developer/INSTALLER.md:92
 msgid "Create an MSIX Package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:91
+#: ../../source/developer/INSTALLER.md:94
 msgid "Get the 'MSIX Packaging Tool' from the Windows Store."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:92
+#: ../../source/developer/INSTALLER.md:95
 msgid ""
 "Run the process to create a new MSIX package from an existing .exe or "
 ".msi installer. This process will allow you to install Overte with the "
@@ -10270,11 +10276,11 @@ msgid ""
 " to avoid doing anything else on your computer during this process."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:93
+#: ../../source/developer/INSTALLER.md:96
 msgid "Be sure to select no shortcuts and install only the Overte Interface."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:94
+#: ../../source/developer/INSTALLER.md:97
 msgid ""
 "When asked for \"Entry\" points, select only the Interface entry and not "
 "the uninstaller. This is because the MSIX package is uninstalled by "
@@ -10284,14 +10290,14 @@ msgid ""
 " Windows Store."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:95
+#: ../../source/developer/INSTALLER.md:98
 msgid ""
 "Once completed, you can sign the package with this application or with "
 "other tools such as 'MSIX Hero'. It must be signed with a local "
 "certificate to test, and with a proper certificate to distribute."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:96
+#: ../../source/developer/INSTALLER.md:99
 msgid ""
 "If uploading to the Windows Store, you will have to ensure all your "
 "manifest info including publisher information matches what is registered "
@@ -10299,12 +10305,12 @@ msgid ""
 "errors and the expected values when validating it."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:98
+#: ../../source/developer/INSTALLER.md:101
 #: ../../source/developer/build/BUILD_OSX.md:87 ../../source/home.rst:47
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:100
+#: ../../source/developer/INSTALLER.md:103
 msgid ""
 "**Problem:** Failure to open a file. ```File: failed opening file "
 "\"\\FOLDERSHARE\\XYZSRelease\\...\\Credits.rtf\" Error in script "
@@ -10312,156 +10318,221 @@ msgid ""
 " on line 77 -- aborting creation process```"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:101
+#: ../../source/developer/INSTALLER.md:104
 msgid ""
 "**Cause:** The complete path (current directory + relative path) has to "
 "be < 260 characters to any of the relevant files."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:102
+#: ../../source/developer/INSTALLER.md:105
 msgid ""
 "**Solution:** Move your build and packaging folder as high up in the "
 "drive as possible to prevent an overage."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:104
+#: ../../source/developer/INSTALLER.md:107
 msgid "MacOS"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:106
+#: ../../source/developer/INSTALLER.md:109
 msgid ""
 "Ensure you have all the prerequisites fulfilled from the [MacOS Build "
 "Guide](build/BUILD_OSX.md)."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:107
+#: ../../source/developer/INSTALLER.md:110
 msgid "Perform a clean CMake in your build folder. e.g."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:111
+#: ../../source/developer/INSTALLER.md:114
 msgid "Pick a method to build and package your release."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:113
+#: ../../source/developer/INSTALLER.md:116
 msgid "Option A: Use Xcode GUI"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:115
+#: ../../source/developer/INSTALLER.md:118
 msgid "Perform a Release build of ALL_BUILD"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:116
+#: ../../source/developer/INSTALLER.md:119
 msgid ""
 "Perform a Release build of `packaged-server-console`    This will add a "
 "folder to `build\\server-console\\` -     Sandbox-darwin-x64"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:119
+#: ../../source/developer/INSTALLER.md:122
 msgid ""
 "Perform a Release build of `package`    Installer is now available in "
 "`build/_CPack_Packages/Darwin/DragNDrop`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:122
+#: ../../source/developer/INSTALLER.md:125
 msgid "Option B: Use Terminal"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:124
+#: ../../source/developer/INSTALLER.md:127
 msgid "Navigate to your build folder with your terminal."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:125
+#: ../../source/developer/INSTALLER.md:128
 msgid ""
 "`make -j4`, you can change the number to match the number of threads you "
 "would like to use."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:126
+#: ../../source/developer/INSTALLER.md:129
 msgid "`make package` to create the package."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:128
+#: ../../source/developer/INSTALLER.md:131
 msgid "Linux"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:130
-#: ../../source/developer/build/BUILD_LINUX.md:149
+#: ../../source/developer/INSTALLER.md:133
+msgid "Client"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:135
+msgid "AppImage"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:137
+msgid ""
+"Overte Interface AppImages are built using "
+"[linuxdeploy](https://github.com/linuxdeploy/linuxdeploy) and "
+"[linuxdeploy-plugin-qt](https://github.com/linuxdeploy/linuxdeploy-"
+"plugin-qt). **AppImages need to be built using the glibc version of the "
+"oldest Linux distribution it is supposed to run on.** We target the "
+"oldest Ubuntu LTS which still receives standard (not ESM) security "
+"updates."
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:140
+msgid "Prepare build environment Follow the [Linux build guide](BUILD_LINUX.md)."
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:143
+msgid ""
+"Configure Interface (**Make sure that OVERTE_CPU_ARCHITECTURE is set to "
+"an empty string or `-msse3` depending on target CPU architecture!**)"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:148
+msgid "Create AppImage"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:152
+msgid ""
+"CPack will build target ALL instead of INTERFACE, which is a limitation "
+"of CPack."
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:154
+msgid ""
+"Lint with [appimagelint](https://github.com/TheAssassin/appimagelint) to "
+"check which Linux distributions the AppImage will likely be able to run "
+"on."
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:156
+msgid "**Alternatively**, you can also create the AppImage manually:"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:158
+msgid "Build Interface"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:163
+msgid ""
+"Copy `build/interface/plugins` `build/interface/scripts` "
+"`build/interface/resources.rcc` and `build/interface/resources` into "
+"`build/AppDir/usr/bin/`"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:165
+msgid ""
+"Copy `interface/org.overte.interface.appdata.xml` to "
+"`build/AppDir/usr/share/metainfo/org.overte.interface.appdata.xml`"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:167
+msgid ""
+"Run linuxdeploy (make sure that linuxdeploy-plugin-qt is next to "
+"linuxdeploy and that both are executable)"
+msgstr ""
+
+#: ../../source/developer/INSTALLER.md:174
+#: ../../source/developer/build/BUILD_LINUX.md:163
 #: ../../source/release-notes/v86-k2.md:58
 msgid "Server"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:132
+#: ../../source/developer/INSTALLER.md:176
 msgid "Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:134
+#: ../../source/developer/INSTALLER.md:178
 msgid "Building Overte server Debian packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:136
+#: ../../source/developer/INSTALLER.md:180
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/deb_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/deb_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:138
+#: ../../source/developer/INSTALLER.md:182
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-debian-11-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:141
-#: ../../source/developer/INSTALLER.md:180
+#: ../../source/developer/INSTALLER.md:185
+#: ../../source/developer/INSTALLER.md:217
 msgid "Prepare build environment"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:148
-#: ../../source/developer/INSTALLER.md:187
+#: ../../source/developer/INSTALLER.md:192
+#: ../../source/developer/INSTALLER.md:224
 msgid ""
 "Add `PRODUCTION_BUILD=1` to below command for release and release "
 "candidate builds."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:153
-#: ../../source/developer/INSTALLER.md:192
+#: ../../source/developer/INSTALLER.md:197
+#: ../../source/developer/INSTALLER.md:229
 msgid "Build"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:158
+#: ../../source/developer/INSTALLER.md:202
 msgid "Create Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:162
-msgid "For Debian 11 and Ubuntu 22.04:"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:166
-msgid "For Ubuntu 18.04 and 20.04:"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:171
+#: ../../source/developer/INSTALLER.md:208
 msgid "RPM package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:173
+#: ../../source/developer/INSTALLER.md:210
 msgid "Building Overte server RPM packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:175
+#: ../../source/developer/INSTALLER.md:212
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/rpm_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/rpm_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:177
+#: ../../source/developer/INSTALLER.md:214
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-fedora-36-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:197
+#: ../../source/developer/INSTALLER.md:234
 msgid "Create RPM package"
 msgstr ""
 
@@ -10601,7 +10672,8 @@ msgid "The following are the guides for building Overte from source."
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:10
-msgid "*Last Updated on March 8, 2021*"
+#: ../../source/developer/build/BUILD_WIN.md:10
+msgid "*Last Updated on 2025-03-17*"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:12
@@ -10634,288 +10706,111 @@ msgid "[git](https://git-scm.com/downloads): >= 1.6"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:21
-msgid "[CMake](https://cmake.org/download/):  3.9 (or greater up to 3.18.x)"
+msgid "[CMake](https://cmake.org/download/):  3.9 (or greater up to latest 3.x.x)"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:22
-msgid "[Python](https://www.python.org/downloads/): 3.6 or higher"
+msgid "[Conan](https://conan.io/downloads): 2.x"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:23
-msgid "[Node.JS](https://nodejs.org/en/): >= 12.13.1 LTS"
+msgid "[Python](https://www.python.org/downloads/): 3.6 or higher"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:24
-msgid "Used to build the Screen Sharing executable."
+msgid "[Node.JS](https://nodejs.org/en/): >= 12.13.1 LTS"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:26
-msgid "CMake External Project Dependencies"
+#: ../../source/developer/build/BUILD.md:25
+msgid "Used to build the server-console, JSDoc, and script console autocomplete."
+msgstr ""
+
+#: ../../source/developer/build/BUILD.md:27
+msgid "Conan Dependencies"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:28
 msgid ""
-"These dependencies need not be installed manually. They are automatically"
-" downloaded on the platforms where they are required."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:29
-msgid ""
-"[Bullet Physics "
-"Engine](https://github.com/bulletphysics/bullet3/releases):  2.83"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:30
-msgid "[glm](https://glm.g-truc.net/0.9.8/index.html):  0.9.8"
+"Most of our dependencies are automatically fetched and built using Conan."
+" See the accompanying `conanfile.py` for a full list of direct "
+"dependencies."
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:31
-msgid ""
-"[Oculus SDK](https://developer.oculus.com/downloads/):   1.11 (Windows) /"
-" 0.5 (Mac)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:32
-msgid ""
-"[OpenVR](https://github.com/ValveSoftware/openvr):   1.11.11 (Windows, "
-"Linux)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:33
-msgid "[Polyvox](http://www.volumesoffun.com/):   0.2.1"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:34
-msgid "[QuaZip](https://sourceforge.net/projects/quazip/files/quazip/):   0.7.3"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:35
-msgid "[SDL2](https://www.libsdl.org/download-2.0.php):   2.0.3"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:36
-msgid ""
-"[Intel Threading Building "
-"Blocks](https://www.threadingbuildingblocks.org/):   4.3"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:37
-msgid "[vcpkg](https://github.com/hifi-archive/vcpkg):"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:38
-msgid "[VHACD](https://github.com/virneo/v-hacd)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:39
-msgid "[zlib](http://www.zlib.net/):   1.28 (Win32 only)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:40
-msgid ""
-"[nvtt](https://github.com/hifi-archive/nvidia-texture-tools):   2.1.1 "
-"(customized)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:42
-msgid ""
-"The above dependencies will be downloaded, built, linked and included "
-"automatically by CMake where we require them. The CMakeLists files that "
-"handle grabbing each of the following external dependencies can be found "
-"in the [cmake/externals folder](https://github.com/overte-"
-"org/overte/tree/master/cmake/externals). The resulting downloads, source "
-"files and binaries will be placed in the `build/ext` folder in each of "
-"the subfolders for each external project."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:44
-msgid ""
-"These are not placed in your normal build tree when doing an out of "
-"source build so that they do not need to be re-downloaded and re-compiled"
-" every time the CMake build folder is cleared. Should you want to force a"
-" re-download and re-compile of a specific external, you can simply remove"
-" that directory from the appropriate subfolder in `build/ext`. Should you"
-" want to force a re-download and re-compile of all externals, just remove"
-" the `build/ext` folder."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:46
 msgid "CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:48
+#: ../../source/developer/build/BUILD.md:33
 msgid ""
 "Overte uses CMake to generate build files and project files for your "
 "platform."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:50
-msgid "Qt"
+#: ../../source/developer/build/BUILD.md:35
+msgid "Conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:52
-msgid "CMake will download Qt 5.15.2 using vcpkg."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:54
+#: ../../source/developer/build/BUILD.md:37
 msgid ""
-"To override this - i.e., use an installed Qt configuration - you need to "
-"set a QT_CMAKE_PREFIX_PATH environment variable pointing to your Qt "
-"**lib/cmake** folder. This can either be entered directly into your shell"
-" session before you build or in your shell profile (e.g.: "
-"~/.bash_profile, ~/.bashrc, ~/.zshrc - this depends on your shell and "
-"environment).  The path it needs to be set to will depend on where and "
-"how Qt5 was installed."
+"Overte uses conan to download and build dependencies. Conan can be "
+"downloaded from here: https://conan.io/downloads"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:57
-msgid "For example, under Linux:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:65
-msgid "For example, under Windows:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:69
-msgid "For example, under OSX:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:73
+#: ../../source/developer/build/BUILD.md:40
 msgid ""
-"Note: You only need the following components checked under Qt 5.15.2 "
-"(select the \"Custom Installation\" option): \"MSVC 2019 64-bit\", \"Qt "
-"WebEngine\", and \"Qt Script (Deprecated)\"."
+"See the accompanying `conanfile.py` for a full list of direct "
+"dependencies."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:76
-msgid ""
-"Note: Installing the sources is optional but recommended if you have room"
-" for them (~3GB). You may also want the Qt debug information files "
-"(~7GB)."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:79
-msgid ""
-"Note: Installing Qt Creator is optional but recommended if you will be "
-"editing QML files."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:81
-msgid "VCPKG"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:83
-msgid ""
-"Overte uses vcpkg to download and build dependencies. You do not need to "
-"install vcpkg."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:86
+#: ../../source/developer/build/BUILD.md:42
 msgid ""
 "Building the dependencies can be lengthy and the resulting files will be "
-"stored in your OS temp directory. However, those files can potentially "
-"get cleaned up by the OS, so in order to avoid this and having to redo "
-"the lengthy build step, you can set an environment variable."
+"stored in your home directory. To move them to a different location, you "
+"can set the `CONAN_HOME` variable to any folder where you wish to install"
+" the dependencies."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:89
+#: ../../source/developer/build/BUILD.md:45
 msgid "Linux:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:95
+#: ../../source/developer/build/BUILD.md:51
 msgid "Windows:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:100
+#: ../../source/developer/build/BUILD.md:56
 msgid ""
 "Where `/path/to/directory` is the path to a directory where you wish the "
 "build files to get stored."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:102
+#: ../../source/developer/build/BUILD.md:58
 msgid "Generating Build Files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:104
+#: ../../source/developer/build/BUILD.md:60
 msgid "Possible Environment Variables"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:140
+#: ../../source/developer/build/BUILD.md:96
 msgid "Generate Files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:142
-msgid ""
-"Create a build directory in the root of your checkout and then run the "
-"CMake build from there. This will keep the rest of the directory clean."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:150
+#: ../../source/developer/build/BUILD.md:103
 msgid ""
 "If CMake gives you the same error message repeatedly after the build "
 "fails, try removing `CMakeCache.txt`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:152
-msgid "Generating a release/debug only vcpkg build"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:154
-msgid ""
-"In order to generate a release or debug only vcpkg package, you could use"
-" the use the `VCPKG_BUILD_TYPE` define in your CMake generate command. "
-"Building a release only vcpkg can drastically decrease the total build "
-"time."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:156
-msgid "For release only vcpkg:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:158
-msgid "`cmake .. -DVCPKG_BUILD_TYPE=release`"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:160
-msgid "For debug only vcpkg:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:162
-msgid "`cmake .. -DVCPKG_BUILD_TYPE=debug`"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:164
-msgid "Variables"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:166
-msgid ""
-"Any variables that need to be set for CMake to find dependencies can be "
-"set as ENV variables in your shell profile, or passed directly to CMake "
-"with a `-D` flag appended to the `cmake ..` command."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:168
-msgid ""
-"For example, to pass the QT_CMAKE_PREFIX_PATH variable (if not using the "
-"vcpkg'ed version) during build file generation:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:174
+#: ../../source/developer/build/BUILD.md:105
 msgid "Finding Dependencies"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:176
-msgid ""
-"The following applies for dependencies we do not grab via CMake "
-"ExternalProject (OpenSSL is an example), or for dependencies you have "
-"opted not to grab as a CMake ExternalProject (via -DUSE_LOCAL_$NAME=0). "
-"The list of dependencies we grab by default as external projects can be "
-"found in [the CMake External Project Dependencies section](#cmake-"
-"external-project-dependencies)."
+#: ../../source/developer/build/BUILD.md:107
+msgid "The following applies for dependencies we do not grab via Conan."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:178
+#: ../../source/developer/build/BUILD.md:109
 msgid ""
 "You can point our [CMake find modules](https://github.com/overte-"
 "org/overte/tree/master/cmake/modules) to the correct version of "
@@ -10923,77 +10818,77 @@ msgid ""
 "location of the correct version of the dependency."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:180
+#: ../../source/developer/build/BUILD.md:111
 msgid ""
 "In the examples below the variable $NAME would be replaced by the name of"
 " the dependency in uppercase, and $name would be replaced by the name of "
 "the dependency in lowercase (ex: OPENSSL_ROOT_DIR, openssl)."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:182
+#: ../../source/developer/build/BUILD.md:113
 msgid ""
 "$NAME_ROOT_DIR - pass this variable to Cmake with the -DNAME_ROOT_DIR= "
 "flag when running Cmake to generate build files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:183
+#: ../../source/developer/build/BUILD.md:114
 msgid "$NAME_ROOT_DIR - set this variable in your ENV"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:184
+#: ../../source/developer/build/BUILD.md:115
 msgid ""
 "HIFI_LIB_DIR - set this variable in your ENV to your Overte lib folder, "
 "should contain a folder '$name'"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:186
+#: ../../source/developer/build/BUILD.md:117
 msgid "Optional Components"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:188
+#: ../../source/developer/build/BUILD.md:119
 msgid "Build Options"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:190
+#: ../../source/developer/build/BUILD.md:121
 msgid "The following build options can be used when running CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:192
+#: ../../source/developer/build/BUILD.md:123
 msgid "BUILD_CLIENT"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:193
+#: ../../source/developer/build/BUILD.md:124
 msgid "BUILD_SERVER"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:194
+#: ../../source/developer/build/BUILD.md:125
 msgid "BUILD_TESTS"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:195
+#: ../../source/developer/build/BUILD.md:126
 msgid "BUILD_TOOLS"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:196
+#: ../../source/developer/build/BUILD.md:127
 msgid "CLIENT_ONLY // Will package only the Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:197
+#: ../../source/developer/build/BUILD.md:128
 msgid "SERVER_ONLY // Will package only the Server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:199
+#: ../../source/developer/build/BUILD.md:130
 msgid "Optimization build options"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:201
+#: ../../source/developer/build/BUILD.md:132
 msgid ""
 "OVERTE_OPTIMIZE - This variable defaults to 1 if not set and enables "
 "compiler optimization flags on Linux and MacOS. Setting it to 0 will "
 "result in unoptimized build."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:202
+#: ../../source/developer/build/BUILD.md:133
 msgid ""
 "OVERTE_CPU_ARCHITECTURE - This variable contains architecture specific "
 "compiler flags which are used if `OVERTE_OPTIMIZE` is true. If it is not "
@@ -11004,23 +10899,23 @@ msgid ""
 "settings and yield maximum compatibility."
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:206
+#: ../../source/developer/build/BUILD.md:137
 msgid "Developer Build Options"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:208
+#: ../../source/developer/build/BUILD.md:139
 msgid "USE_GLES"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:209
+#: ../../source/developer/build/BUILD.md:140
 msgid "DISABLE_UI"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:211
+#: ../../source/developer/build/BUILD.md:142
 msgid "Devices"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:213
+#: ../../source/developer/build/BUILD.md:144
 msgid ""
 "You can support external input/output devices such as Leap Motion, MIDI, "
 "and more by adding each individual SDK in the visible building path. "
@@ -11326,7 +11221,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:135
-#: ../../source/developer/build/BUILD_WIN.md:142
+#: ../../source/developer/build/BUILD_WIN.md:124
 #: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
 msgid "Troubleshooting"
 msgstr ""
@@ -11410,7 +11305,7 @@ msgid "Open Task Manager and close any running Clang / Gradle processes"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:10
-msgid "*Last Updated on January 6, 2022*"
+msgid "*Last Updated on 2025-05-21*"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:12
@@ -11422,153 +11317,123 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:14
 msgid ""
-"You can use the [Overte Builder](https://github.com/overte-org/overte-"
+"~~You can use the [Overte Builder](https://github.com/overte-org/overte-"
 "builder) to build on Linux more easily. Alternatively, you can follow the"
-" manual steps below."
+" manual steps below.~~ (Currently outdated.)"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:16
-msgid "Ubuntu 18.04"
+msgid ""
+"This documentation assumes that you are running our current target "
+"distribution, which is currently Ubuntu 22.04. The target distribution is"
+" usually the latest Ubuntu LTS still receiving standard support, though "
+"we may upgrade a little sooner if we require certain newer packages. "
+"Ubuntu version numbers are date codes and standard support is 5 years, "
+"meaning that Ubuntu 22.04 leaves standard support after around 2027-04."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:18
-msgid "Ubuntu 18.04 Server only"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:19
-msgid ""
-"Add the universe repository:   _(This is not enabled by default on the "
-"server edition.)_"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:26
 msgid "Install build tools:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:27
-msgid "First update the repositories:"
+#: ../../source/developer/build/BUILD_LINUX.md:20
+msgid "First update the package cache and your system:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:33
-msgid "Install git"
+#: ../../source/developer/build/BUILD_LINUX.md:26
+msgid "Install git and g++"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:37
-msgid "Verify git was installed by running `git --version`."
+#: ../../source/developer/build/BUILD_LINUX.md:31
+msgid ""
+"Install CMake We require a newer CMake version than 3.22.1, which is "
+"shipped in Ubuntu 22.04, so we install CMake packages provided by "
+"upstream here: https://apt.kitware.com/"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:34
+msgid ""
+"Install Conan Get the Conan \"Ubuntu / Debian installer\" from "
+"https://conan.io/downloads and install it using:"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:39
-msgid "Install g++"
+msgid "Verify Conan was installed by running `conan --version`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:43
-msgid "Verify g++ was installed by running `g++ --version`."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:45
-msgid "**Ubuntu 18.04** CMake"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:49
-msgid "Verify CMake was installed by running `cmake --version`."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:51
+#: ../../source/developer/build/BUILD_LINUX.md:41
 msgid "Install build dependencies:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:52
-msgid "OpenSSL:"
+#: ../../source/developer/build/BUILD_LINUX.md:42
+msgid ""
+"Most dependencies will be automatically installed by Conan. This section "
+"only lists dependencies which might not be handled by Conan."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:56
-msgid "Verify OpenSSL was installed by running `openssl version`."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:58
+#: ../../source/developer/build/BUILD_LINUX.md:44
 msgid "OpenGL:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:62
+#: ../../source/developer/build/BUILD_LINUX.md:48
 msgid "Verify OpenGL:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:63
+#: ../../source/developer/build/BUILD_LINUX.md:49
 msgid ""
 "First install mesa-utils with the command `sudo apt install mesa-utils "
 "-y`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:64
+#: ../../source/developer/build/BUILD_LINUX.md:50
 msgid "Then run `glxinfo | grep \"OpenGL version\"`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:67
+#: ../../source/developer/build/BUILD_LINUX.md:53
+msgid "QT 5:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:76
 msgid "Extra dependencies to compile Interface on a server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:70
+#: ../../source/developer/build/BUILD_LINUX.md:79
 msgid "Install the following:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:75
+#: ../../source/developer/build/BUILD_LINUX.md:84
 msgid "Misc dependencies:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:80
+#: ../../source/developer/build/BUILD_LINUX.md:89
 msgid "Install Python 3 and required packages:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:85
+#: ../../source/developer/build/BUILD_LINUX.md:94
 msgid "Install Node.js as it is required to build the jsdoc documentation:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:90
+#: ../../source/developer/build/BUILD_LINUX.md:99
 msgid "Get code and checkout the branch you need"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:92
+#: ../../source/developer/build/BUILD_LINUX.md:101
 msgid "Clone this repository:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:97
+#: ../../source/developer/build/BUILD_LINUX.md:106
 msgid "Then checkout the master branch with:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:102
+#: ../../source/developer/build/BUILD_LINUX.md:111
 msgid "If you need a different branch, you can get a list of all tags with:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:108
-msgid "Using a custom Qt build"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:110
-msgid ""
-"Qt binaries are only provided for Ubuntu. In order to build on other "
-"distributions, a Qt5 install needs to be provided by setting the "
-"`OVERTE_QT_PATH` environment variable to a directory containing a Qt "
-"install."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:114
-msgid "Using the system's Qt"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:116
-msgid ""
-"The system's Qt can be used, if the development packages are installed, "
-"by setting the `OVERTE_USE_SYSTEM_QT` environment variable. The minimum "
-"recommended version is Qt 5.15.2, which is also the last version "
-"available in the Qt 5 branch. It is expected that Linux distributions "
-"will have Qt 5.15.2 available for a long time."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:121
+#: ../../source/developer/build/BUILD_LINUX.md:117
 msgid "Architecture support"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:123
+#: ../../source/developer/build/BUILD_LINUX.md:119
 #: ../../source/developer/build/BUILD_OSX.md:76
 msgid ""
 "If the build is intended to be packaged for distribution, the "
@@ -11576,7 +11441,7 @@ msgid ""
 "architecture specific value."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:126
+#: ../../source/developer/build/BUILD_LINUX.md:122
 #: ../../source/developer/build/BUILD_OSX.md:79
 msgid ""
 "By default, it is set to `-march=native -mtune=native`, which yields "
@@ -11584,7 +11449,7 @@ msgid ""
 " on machines lacking same CPU instructions."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:129
+#: ../../source/developer/build/BUILD_LINUX.md:125
 #: ../../source/developer/build/BUILD_OSX.md:82
 msgid ""
 "For packaging, it is recommended to set it to a different value, for "
@@ -11592,42 +11457,60 @@ msgid ""
 "reasonably modern CPUs."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:131
+#: ../../source/developer/build/BUILD_LINUX.md:127
 #: ../../source/developer/build/BUILD_OSX.md:84
 msgid ""
 "Setting `OVERTE_CPU_ARCHITECTURE` to an empty string will use the default"
 " compiler settings and yield maximum compatibility."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:133
+#: ../../source/developer/build/BUILD_LINUX.md:130
+msgid "Prepare conan"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:132
+msgid "The next step is setting up conan"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:134
+msgid "First, create a conan profile"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:139
+msgid "Next, add the overte remote to conan"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:144
+msgid ""
+"Optionally you can let conan automatically install the required system "
+"packages"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:150
 msgid "Compiling"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:135
-msgid "Create the build directory:"
+#: ../../source/developer/build/BUILD_LINUX.md:152
+msgid "Install the dependencies with conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:142
+#: ../../source/developer/build/BUILD_LINUX.md:158
 msgid "Prepare makefiles:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:147
-msgid "If cmake fails with a vcpkg error, then delete `~/overte-files/vcpkg/`."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:151
+#: ../../source/developer/build/BUILD_LINUX.md:165
 msgid "To compile the Domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:156
+#: ../../source/developer/build/BUILD_LINUX.md:170
 msgid "*Note: For a server, it is not necessary to compile the Interface.*"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:160
+#: ../../source/developer/build/BUILD_LINUX.md:174
 msgid "To compile the Interface client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:165
+#: ../../source/developer/build/BUILD_LINUX.md:179
 msgid ""
 "The commands above will compile with a single thread. If you have enough "
 "memory, you can decrease your build time using the `-j` flag. Since most "
@@ -11635,50 +11518,34 @@ msgid ""
 "an example, if you have a 2 core machine, you could use:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:170
+#: ../../source/developer/build/BUILD_LINUX.md:184
 msgid "Running the software"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:172
+#: ../../source/developer/build/BUILD_LINUX.md:186
 msgid "Domain server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:174
+#: ../../source/developer/build/BUILD_LINUX.md:188
 msgid "Running Domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:179
+#: ../../source/developer/build/BUILD_LINUX.md:193
 msgid "Assignment clients"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:181
+#: ../../source/developer/build/BUILD_LINUX.md:195
 msgid "Running assignment client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:188
+#: ../../source/developer/build/BUILD_LINUX.md:202
 msgid "Running Interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:193
+#: ../../source/developer/build/BUILD_LINUX.md:207
 msgid ""
 "Go to \"localhost\" in the running Interface to visit your newly launched"
 " Domain server."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:195
-msgid "Notes"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:197
-msgid ""
-"If your goal is to set up a development environment, it is desirable to "
-"set the directory that vcpkg builds into with the `HIFI_VCPKG_BASE` "
-"environment variable. For example, you might set `HIFI_VCPKG_BASE` to "
-"`/home/$USER/vcpkg`."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:200
-msgid "By default, vcpkg will build in the `~/overte-files/vcpkg/` directory."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:8
@@ -11841,10 +11708,6 @@ msgid ""
 "recommended CMake versions noted above."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:10
-msgid "*Last Updated on 15 Apr 2021*"
-msgstr ""
-
 #: ../../source/developer/build/BUILD_WIN.md:12
 msgid ""
 "This is a stand-alone guide for creating your first Overte build for "
@@ -11853,7 +11716,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:14
 msgid ""
-"Note: We are now using Visual Studio 2019 and Qt 5.15.2. If you are "
+"Note: We are now using Visual Studio 2019 and Qt 5.15.x. If you are "
 "upgrading from previous versions, do a clean uninstall of those versions "
 "before going through this guide."
 msgstr ""
@@ -11942,297 +11805,208 @@ msgid "If you do not use an administrator command-line, you will get errors."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:47
-msgid "Step 3. Installing CMake"
+msgid "Step 3. Installing Conan"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:49
-msgid "Download and install the latest version of CMake 3.15."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:50
 msgid ""
-"Note that earlier versions of CMake will work, but there is a specific "
-"bug related to the interaction of Visual Studio 2019 and CMake versions "
-"prior to 3.15 that will cause Visual Studio to rebuild far more than it "
-"needs to on every build"
+"Download and install Conan from the [Conan "
+"website](https://conan.io/downloads). Next, add the Overte remote to "
+"Conan:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:52
-msgid ""
-"Download the file named win64-x64 Installer from the [CMake "
-"Website](https://cmake.org/download/). You can access the installer on "
-"this [3.15 Version page](https://cmake.org/files/v3.15/). During "
-"installation, make sure to check \"Add CMake to system PATH for all "
-"users\" when prompted."
+#: ../../source/developer/build/BUILD_WIN.md:55
+msgid "Step 4. Installing CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:54
-msgid "Step 4. (Optional) Node.JS and NPM"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:56
-msgid ""
-"Install version 10.15.0 LTS (or greater) of [Node.JS and "
-"NPM](<https://nodejs.org/en/download/>). This is required to build the "
-"server-console, hifi-screenshare, jsdoc, and for javascript console "
-"autocompletion."
+#: ../../source/developer/build/BUILD_WIN.md:57
+msgid "Download and install CMake version 3.15 or higher."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:59
-msgid "Step 5. (Optional) Install Qt"
+msgid ""
+"Download the file named cmake-[version]-windows-x86_64.msi Installer from"
+" the [CMake Website](https://cmake.org/download/). During installation, "
+"make sure to check \"Add CMake to system PATH for all users\" when "
+"prompted."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:61
-msgid ""
-"If you would like to compile Qt instead of using the precompiled package "
-"provided during CMake, you can do so now. Install version 5.12.3 of "
-"[Qt](<https://www.qt.io/download-open-source>), as well as the following "
-"packages:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:62
-msgid "Qt 5.15.2"
+msgid "Step 5. (Optional) Node.JS and NPM"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:63
-msgid "MSVC 2019 64-bit"
+msgid ""
+"Install the latest LTS version of [Node.JS and "
+"NPM](<https://nodejs.org/en/download/>). This is required to build the "
+"server-console and jsdoc, and for JavaScript console autocompletion."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:64
-msgid "Qt WebEngine"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:65
-msgid "Qt Script (Deprecated)"
+#: ../../source/developer/build/BUILD_WIN.md:66
+msgid "Step 6. (Optional) Create conan environment variable"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:67
 msgid ""
-"For convenience, you may also want the \"Qt Debug Information\" and "
-"\"Sources\" packages."
+"In the next step, you will use conan to install the dependencies required"
+" to build Overte. By default, conan will build and install the "
+"dependencies in `<username>/.conan2`. If you want to change that location"
+" you can create a `CONAN_HOME` environment variable linked to a directory"
+" somewhere on your machine."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:69
-msgid ""
-"You'll need to create the environment variable that CMake uses to find "
-"your system's Qt install."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:71
-#: ../../source/developer/build/BUILD_WIN.md:81
-#: ../../source/developer/build/BUILD_WIN.md:90
+#: ../../source/developer/build/BUILD_WIN.md:70
 msgid "To create this variable:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:72
-#: ../../source/developer/build/BUILD_WIN.md:91
-msgid ""
-"Navigate to 'Edit the System Environment Variables' through the Start "
-"menu."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:73
-#: ../../source/developer/build/BUILD_WIN.md:83
-#: ../../source/developer/build/BUILD_WIN.md:92
-msgid "Click on 'Environment Variables'"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:74
-#: ../../source/developer/build/BUILD_WIN.md:84
-#: ../../source/developer/build/BUILD_WIN.md:93
-msgid "Select 'New'"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:75
-msgid "Set \"Variable name\" to `QT_CMAKE_PREFIX_PATH`"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:76
-msgid ""
-"Set \"Variable value\" to "
-"`%QT_INSTALL_DIR%\\5.15.2\\msvc2019_64\\lib\\cmake`, where "
-"`%QT_INSTALL_DIR%` is the directory you specified for Qt's installation. "
-"The default is `C:\\Qt`."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:78
-msgid "Step 6. (Optional) Create VCPKG environment variable"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:79
-msgid ""
-"In the next step, you will use CMake to build Overte. By default, the "
-"CMake process builds dependency files in Windows' `%TEMP%` directory, "
-"which is periodically cleared by the operating system. To prevent you "
-"from having to re-build the dependencies in the event that Windows clears"
-" that directory, we recommend that you create a `HIFI_VCPKG_BASE` "
-"environment variable linked to a directory somewhere on your machine. "
-"That directory will contain all dependency files until you manually "
-"remove them."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:82
+#: ../../source/developer/build/BUILD_WIN.md:71
 msgid ""
 "Navigate to 'Edit the System Environment Variables' Through the Start "
 "menu."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:85
-msgid "Set \"Variable name\" to `HIFI_VCPKG_BASE`"
+#: ../../source/developer/build/BUILD_WIN.md:72
+msgid "Click on 'Environment Variables'"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:86
+#: ../../source/developer/build/BUILD_WIN.md:73
+msgid "Select 'New'"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:74
+msgid "Set \"Variable name\" to `CONAN_HOME`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:75
 msgid "Set \"Variable value\" to any directory that you have control over."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:88
-msgid ""
-"Additionally, if you have Visual Studio 2019 installed and _only_ Visual "
-"Studio 2019 (i.e., you do not have Visual Studio 2017 installed) you must"
-" add an additional environment variable `HIFI_VCPKG_BOOTSTRAP` that will "
-"fix a bug in our `vcpkg` pre-build step."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:94
-msgid "Set \"Variable name\" to `HIFI_VCPKG_BOOTSTRAP`"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:95
-msgid "Set \"Variable value\" to `1`"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:97
+#: ../../source/developer/build/BUILD_WIN.md:77
 msgid "Step 7. Running CMake to Generate Build Files"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:99
+#: ../../source/developer/build/BUILD_WIN.md:79
 msgid "These instructions only apply to Visual Studio 2019."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:101
+#: ../../source/developer/build/BUILD_WIN.md:81
 msgid "Automatic"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:103
+#: ../../source/developer/build/BUILD_WIN.md:83
 msgid ""
 "There is a batch file to automatically run the commands below for ease of"
 " use."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:105
+#: ../../source/developer/build/BUILD_WIN.md:85
 msgid "`winprepareVS19.bat`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:107
+#: ../../source/developer/build/BUILD_WIN.md:87
 msgid "Manual"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:109
-msgid "Run The Command Prompt from Start and run the following commands:"
+#: ../../source/developer/build/BUILD_WIN.md:89
+msgid "Run the Command Prompt from Start and run the following commands:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:118
+#: ../../source/developer/build/BUILD_WIN.md:98
 msgid "Where `%OVERTE_DIR%` is the directory for the Overte repository."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:120
+#: ../../source/developer/build/BUILD_WIN.md:100
+msgid ""
+"Note: After running Conan it is recommended to run `conan cache clean "
+"\"*\" -sbd` to clean the build folders created by Conan, saving disk "
+"space."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:102
 msgid "Step 8. Making a Build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:122
+#: ../../source/developer/build/BUILD_WIN.md:104
 msgid "Open `%OVERTE_DIR%\\build\\overte.sln` using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:124
+#: ../../source/developer/build/BUILD_WIN.md:106
 msgid ""
 "Change the Solution Configuration (menu ribbon under the menu bar, next "
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:126
+#: ../../source/developer/build/BUILD_WIN.md:108
 msgid "Run from the menu bar `Build > Build Solution`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:128
+#: ../../source/developer/build/BUILD_WIN.md:110
 msgid "Step 9. Testing Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:130
+#: ../../source/developer/build/BUILD_WIN.md:112
 msgid "Create another environment variable (see Step #3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:131
+#: ../../source/developer/build/BUILD_WIN.md:113
 msgid "Set \"Variable name\": `_NO_DEBUG_HEAP`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:132
+#: ../../source/developer/build/BUILD_WIN.md:114
 msgid "Set \"Variable value\": `1`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:134
+#: ../../source/developer/build/BUILD_WIN.md:116
 msgid "Restart Visual Studio again."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:136
+#: ../../source/developer/build/BUILD_WIN.md:118
 msgid ""
 "In Visual Studio, right-click \"interface\" under the Apps folder in "
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar `Debug > Start Debugging`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:138
+#: ../../source/developer/build/BUILD_WIN.md:120
 msgid ""
 "Now, you should have a full build of Overte and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:140
+#: ../../source/developer/build/BUILD_WIN.md:122
 msgid ""
 "Note: You can also run Interface by launching it from command line or "
 "File Explorer from "
 "`%OVERTE_DIR%\\build\\interface\\Release\\interface.exe`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:144
+#: ../../source/developer/build/BUILD_WIN.md:126
 msgid "For any problems after Step #7, first try this:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:145
+#: ../../source/developer/build/BUILD_WIN.md:127
 msgid "Delete your locally cloned copy of the Overte repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:146
+#: ../../source/developer/build/BUILD_WIN.md:128
 msgid "Restart your computer"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:147
+#: ../../source/developer/build/BUILD_WIN.md:129
 msgid "Redownload the [repository](https://github.com/overte-org/overte)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:148
+#: ../../source/developer/build/BUILD_WIN.md:130
 msgid "Restart directions from Step #7"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:150
+#: ../../source/developer/build/BUILD_WIN.md:132
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:152
+#: ../../source/developer/build/BUILD_WIN.md:134
 msgid "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:154
-msgid "CMake can't find OpenSSL"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:156
-#, python-brace-format
-msgid ""
-"Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory.  "
-"Verify that your HIFI_VCPKG_BASE environment variable is set and pointing"
-" to the correct location. Verify that the file "
-"`${HIFI_VCPKG_BASE}/installed/x64-windows/include/openssl/ssl.h` exists."
 msgstr ""
 
 #: ../../source/developer/domain-server.rst:5
@@ -30068,5 +29842,524 @@ msgstr ""
 #~ "Data' field. Click 'Clear Material Data'"
 #~ " and then paste the following JSON"
 #~ " data:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Overte Avatar Exporter for Unity "
+#~ "<https://github.com/overte-org/overte/blob/master/tools"
+#~ "/unity-avatar-"
+#~ "exporter/avatarExporter.unitypackage?raw=true>`_ (v0.6.0)"
+#~ msgstr ""
+
+#~ msgid "*Last Updated on June 16, 2021*"
+#~ msgstr ""
+
+#~ msgid "[Node.JS and NPM](<https://nodejs.org/en/download/>)"
+#~ msgstr ""
+
+#~ msgid "For Debian 11 and Ubuntu 22.04:"
+#~ msgstr ""
+
+#~ msgid "For Ubuntu 18.04 and 20.04:"
+#~ msgstr ""
+
+#~ msgid "*Last Updated on March 8, 2021*"
+#~ msgstr ""
+
+#~ msgid "[CMake](https://cmake.org/download/):  3.9 (or greater up to 3.18.x)"
+#~ msgstr ""
+
+#~ msgid "Used to build the Screen Sharing executable."
+#~ msgstr ""
+
+#~ msgid "CMake External Project Dependencies"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These dependencies need not be installed"
+#~ " manually. They are automatically "
+#~ "downloaded on the platforms where they"
+#~ " are required."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Bullet Physics "
+#~ "Engine](https://github.com/bulletphysics/bullet3/releases):  "
+#~ "2.83"
+#~ msgstr ""
+
+#~ msgid "[glm](https://glm.g-truc.net/0.9.8/index.html):  0.9.8"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Oculus SDK](https://developer.oculus.com/downloads/):   "
+#~ "1.11 (Windows) / 0.5 (Mac)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[OpenVR](https://github.com/ValveSoftware/openvr):   1.11.11 "
+#~ "(Windows, Linux)"
+#~ msgstr ""
+
+#~ msgid "[Polyvox](http://www.volumesoffun.com/):   0.2.1"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[QuaZip](https://sourceforge.net/projects/quazip/files/quazip/):   "
+#~ "0.7.3"
+#~ msgstr ""
+
+#~ msgid "[SDL2](https://www.libsdl.org/download-2.0.php):   2.0.3"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Intel Threading Building "
+#~ "Blocks](https://www.threadingbuildingblocks.org/):   4.3"
+#~ msgstr ""
+
+#~ msgid "[vcpkg](https://github.com/hifi-archive/vcpkg):"
+#~ msgstr ""
+
+#~ msgid "[VHACD](https://github.com/virneo/v-hacd)"
+#~ msgstr ""
+
+#~ msgid "[zlib](http://www.zlib.net/):   1.28 (Win32 only)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[nvtt](https://github.com/hifi-archive/nvidia-texture-"
+#~ "tools):   2.1.1 (customized)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The above dependencies will be "
+#~ "downloaded, built, linked and included "
+#~ "automatically by CMake where we require"
+#~ " them. The CMakeLists files that "
+#~ "handle grabbing each of the following"
+#~ " external dependencies can be found "
+#~ "in the [cmake/externals folder](https://github.com"
+#~ "/overte-org/overte/tree/master/cmake/externals). The "
+#~ "resulting downloads, source files and "
+#~ "binaries will be placed in the "
+#~ "`build/ext` folder in each of the "
+#~ "subfolders for each external project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "These are not placed in your "
+#~ "normal build tree when doing an "
+#~ "out of source build so that they"
+#~ " do not need to be re-"
+#~ "downloaded and re-compiled every time"
+#~ " the CMake build folder is cleared."
+#~ " Should you want to force a "
+#~ "re-download and re-compile of a "
+#~ "specific external, you can simply remove"
+#~ " that directory from the appropriate "
+#~ "subfolder in `build/ext`. Should you "
+#~ "want to force a re-download and"
+#~ " re-compile of all externals, just"
+#~ " remove the `build/ext` folder."
+#~ msgstr ""
+
+#~ msgid "Qt"
+#~ msgstr ""
+
+#~ msgid "CMake will download Qt 5.15.2 using vcpkg."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To override this - i.e., use an"
+#~ " installed Qt configuration - you "
+#~ "need to set a QT_CMAKE_PREFIX_PATH "
+#~ "environment variable pointing to your Qt"
+#~ " **lib/cmake** folder. This can either "
+#~ "be entered directly into your shell "
+#~ "session before you build or in "
+#~ "your shell profile (e.g.: ~/.bash_profile, "
+#~ "~/.bashrc, ~/.zshrc - this depends on"
+#~ " your shell and environment).  The "
+#~ "path it needs to be set to "
+#~ "will depend on where and how Qt5"
+#~ " was installed."
+#~ msgstr ""
+
+#~ msgid "For example, under Linux:"
+#~ msgstr ""
+
+#~ msgid "For example, under Windows:"
+#~ msgstr ""
+
+#~ msgid "For example, under OSX:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: You only need the following "
+#~ "components checked under Qt 5.15.2 "
+#~ "(select the \"Custom Installation\" option):"
+#~ " \"MSVC 2019 64-bit\", \"Qt WebEngine\","
+#~ " and \"Qt Script (Deprecated)\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: Installing the sources is optional"
+#~ " but recommended if you have room "
+#~ "for them (~3GB). You may also want"
+#~ " the Qt debug information files "
+#~ "(~7GB)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: Installing Qt Creator is optional"
+#~ " but recommended if you will be "
+#~ "editing QML files."
+#~ msgstr ""
+
+#~ msgid "VCPKG"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte uses vcpkg to download and "
+#~ "build dependencies. You do not need "
+#~ "to install vcpkg."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Building the dependencies can be lengthy"
+#~ " and the resulting files will be "
+#~ "stored in your OS temp directory. "
+#~ "However, those files can potentially get"
+#~ " cleaned up by the OS, so in"
+#~ " order to avoid this and having "
+#~ "to redo the lengthy build step, "
+#~ "you can set an environment variable."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create a build directory in the "
+#~ "root of your checkout and then run"
+#~ " the CMake build from there. This "
+#~ "will keep the rest of the "
+#~ "directory clean."
+#~ msgstr ""
+
+#~ msgid "Generating a release/debug only vcpkg build"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In order to generate a release or"
+#~ " debug only vcpkg package, you could"
+#~ " use the use the `VCPKG_BUILD_TYPE` "
+#~ "define in your CMake generate command."
+#~ " Building a release only vcpkg can"
+#~ " drastically decrease the total build "
+#~ "time."
+#~ msgstr ""
+
+#~ msgid "For release only vcpkg:"
+#~ msgstr ""
+
+#~ msgid "`cmake .. -DVCPKG_BUILD_TYPE=release`"
+#~ msgstr ""
+
+#~ msgid "For debug only vcpkg:"
+#~ msgstr ""
+
+#~ msgid "`cmake .. -DVCPKG_BUILD_TYPE=debug`"
+#~ msgstr ""
+
+#~ msgid "Variables"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Any variables that need to be set"
+#~ " for CMake to find dependencies can"
+#~ " be set as ENV variables in "
+#~ "your shell profile, or passed directly"
+#~ " to CMake with a `-D` flag "
+#~ "appended to the `cmake ..` command."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For example, to pass the "
+#~ "QT_CMAKE_PREFIX_PATH variable (if not using"
+#~ " the vcpkg'ed version) during build "
+#~ "file generation:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The following applies for dependencies "
+#~ "we do not grab via CMake "
+#~ "ExternalProject (OpenSSL is an example), "
+#~ "or for dependencies you have opted "
+#~ "not to grab as a CMake "
+#~ "ExternalProject (via -DUSE_LOCAL_$NAME=0). The "
+#~ "list of dependencies we grab by "
+#~ "default as external projects can be "
+#~ "found in [the CMake External Project "
+#~ "Dependencies section](#cmake-external-project-"
+#~ "dependencies)."
+#~ msgstr ""
+
+#~ msgid "*Last Updated on January 6, 2022*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the [Overte "
+#~ "Builder](https://github.com/overte-org/overte-builder) "
+#~ "to build on Linux more easily. "
+#~ "Alternatively, you can follow the manual"
+#~ " steps below."
+#~ msgstr ""
+
+#~ msgid "Ubuntu 18.04"
+#~ msgstr ""
+
+#~ msgid "Ubuntu 18.04 Server only"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add the universe repository:   _(This is"
+#~ " not enabled by default on the "
+#~ "server edition.)_"
+#~ msgstr ""
+
+#~ msgid "First update the repositories:"
+#~ msgstr ""
+
+#~ msgid "Install git"
+#~ msgstr ""
+
+#~ msgid "Verify git was installed by running `git --version`."
+#~ msgstr ""
+
+#~ msgid "Install g++"
+#~ msgstr ""
+
+#~ msgid "Verify g++ was installed by running `g++ --version`."
+#~ msgstr ""
+
+#~ msgid "**Ubuntu 18.04** CMake"
+#~ msgstr ""
+
+#~ msgid "Verify CMake was installed by running `cmake --version`."
+#~ msgstr ""
+
+#~ msgid "OpenSSL:"
+#~ msgstr ""
+
+#~ msgid "Verify OpenSSL was installed by running `openssl version`."
+#~ msgstr ""
+
+#~ msgid "Using a custom Qt build"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Qt binaries are only provided for "
+#~ "Ubuntu. In order to build on other"
+#~ " distributions, a Qt5 install needs "
+#~ "to be provided by setting the "
+#~ "`OVERTE_QT_PATH` environment variable to a "
+#~ "directory containing a Qt install."
+#~ msgstr ""
+
+#~ msgid "Using the system's Qt"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The system's Qt can be used, if"
+#~ " the development packages are installed,"
+#~ " by setting the `OVERTE_USE_SYSTEM_QT` "
+#~ "environment variable. The minimum recommended"
+#~ " version is Qt 5.15.2, which is "
+#~ "also the last version available in "
+#~ "the Qt 5 branch. It is expected"
+#~ " that Linux distributions will have "
+#~ "Qt 5.15.2 available for a long "
+#~ "time."
+#~ msgstr ""
+
+#~ msgid "Create the build directory:"
+#~ msgstr ""
+
+#~ msgid "If cmake fails with a vcpkg error, then delete `~/overte-files/vcpkg/`."
+#~ msgstr ""
+
+#~ msgid "Notes"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If your goal is to set up a"
+#~ " development environment, it is desirable"
+#~ " to set the directory that vcpkg "
+#~ "builds into with the `HIFI_VCPKG_BASE` "
+#~ "environment variable. For example, you "
+#~ "might set `HIFI_VCPKG_BASE` to "
+#~ "`/home/$USER/vcpkg`."
+#~ msgstr ""
+
+#~ msgid "By default, vcpkg will build in the `~/overte-files/vcpkg/` directory."
+#~ msgstr ""
+
+#~ msgid "*Last Updated on 15 Apr 2021*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: We are now using Visual "
+#~ "Studio 2019 and Qt 5.15.2. If you"
+#~ " are upgrading from previous versions, "
+#~ "do a clean uninstall of those "
+#~ "versions before going through this "
+#~ "guide."
+#~ msgstr ""
+
+#~ msgid "Step 3. Installing CMake"
+#~ msgstr ""
+
+#~ msgid "Download and install the latest version of CMake 3.15."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note that earlier versions of CMake "
+#~ "will work, but there is a specific"
+#~ " bug related to the interaction of"
+#~ " Visual Studio 2019 and CMake "
+#~ "versions prior to 3.15 that will "
+#~ "cause Visual Studio to rebuild far "
+#~ "more than it needs to on every "
+#~ "build"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the file named win64-x64 "
+#~ "Installer from the [CMake "
+#~ "Website](https://cmake.org/download/). You can "
+#~ "access the installer on this [3.15 "
+#~ "Version page](https://cmake.org/files/v3.15/). During "
+#~ "installation, make sure to check \"Add"
+#~ " CMake to system PATH for all "
+#~ "users\" when prompted."
+#~ msgstr ""
+
+#~ msgid "Step 4. (Optional) Node.JS and NPM"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Install version 10.15.0 LTS (or greater)"
+#~ " of [Node.JS and "
+#~ "NPM](<https://nodejs.org/en/download/>). This is "
+#~ "required to build the server-console,"
+#~ " hifi-screenshare, jsdoc, and for "
+#~ "javascript console autocompletion."
+#~ msgstr ""
+
+#~ msgid "Step 5. (Optional) Install Qt"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you would like to compile Qt"
+#~ " instead of using the precompiled "
+#~ "package provided during CMake, you can"
+#~ " do so now. Install version 5.12.3"
+#~ " of [Qt](<https://www.qt.io/download-open-"
+#~ "source>), as well as the following "
+#~ "packages:"
+#~ msgstr ""
+
+#~ msgid "Qt 5.15.2"
+#~ msgstr ""
+
+#~ msgid "MSVC 2019 64-bit"
+#~ msgstr ""
+
+#~ msgid "Qt WebEngine"
+#~ msgstr ""
+
+#~ msgid "Qt Script (Deprecated)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For convenience, you may also want "
+#~ "the \"Qt Debug Information\" and "
+#~ "\"Sources\" packages."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You'll need to create the environment"
+#~ " variable that CMake uses to find "
+#~ "your system's Qt install."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigate to 'Edit the System Environment"
+#~ " Variables' through the Start menu."
+#~ msgstr ""
+
+#~ msgid "Set \"Variable name\" to `QT_CMAKE_PREFIX_PATH`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Set \"Variable value\" to "
+#~ "`%QT_INSTALL_DIR%\\5.15.2\\msvc2019_64\\lib\\cmake`, where "
+#~ "`%QT_INSTALL_DIR%` is the directory you "
+#~ "specified for Qt's installation. The "
+#~ "default is `C:\\Qt`."
+#~ msgstr ""
+
+#~ msgid "Step 6. (Optional) Create VCPKG environment variable"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the next step, you will use "
+#~ "CMake to build Overte. By default, "
+#~ "the CMake process builds dependency "
+#~ "files in Windows' `%TEMP%` directory, "
+#~ "which is periodically cleared by the "
+#~ "operating system. To prevent you from"
+#~ " having to re-build the dependencies"
+#~ " in the event that Windows clears "
+#~ "that directory, we recommend that you"
+#~ " create a `HIFI_VCPKG_BASE` environment "
+#~ "variable linked to a directory somewhere"
+#~ " on your machine. That directory will"
+#~ " contain all dependency files until "
+#~ "you manually remove them."
+#~ msgstr ""
+
+#~ msgid "Set \"Variable name\" to `HIFI_VCPKG_BASE`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Additionally, if you have Visual Studio"
+#~ " 2019 installed and _only_ Visual "
+#~ "Studio 2019 (i.e., you do not have"
+#~ " Visual Studio 2017 installed) you "
+#~ "must add an additional environment "
+#~ "variable `HIFI_VCPKG_BOOTSTRAP` that will fix"
+#~ " a bug in our `vcpkg` pre-build"
+#~ " step."
+#~ msgstr ""
+
+#~ msgid "Set \"Variable name\" to `HIFI_VCPKG_BOOTSTRAP`"
+#~ msgstr ""
+
+#~ msgid "Set \"Variable value\" to `1`"
+#~ msgstr ""
+
+#~ msgid "Run The Command Prompt from Start and run the following commands:"
+#~ msgstr ""
+
+#~ msgid "CMake can't find OpenSSL"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Remove `CMakeCache.txt` found in the "
+#~ "`%OVERTE_DIR%\\build` directory.  Verify that "
+#~ "your HIFI_VCPKG_BASE environment variable is"
+#~ " set and pointing to the correct "
+#~ "location. Verify that the file "
+#~ "`${HIFI_VCPKG_BASE}/installed/x64-windows/include/openssl/ssl.h` "
+#~ "exists."
 #~ msgstr ""
 
