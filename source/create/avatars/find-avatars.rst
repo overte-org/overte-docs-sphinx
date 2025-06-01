@@ -41,7 +41,7 @@ You will need the following to use this tool:
 
 + Unity (Recommended versions: 2019.4.31f1)
 + Overte
-+ `Overte Avatar Exporter for Unity <https://github.com/overte-org/overte/blob/master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ (v0.6.0)
++ `Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-avatar-exporter>`_ (v0.6.0)
 
 Please note that the recommended version of Unity is not the latest version. If you are using a newer version of Unity, we recommend that you apply a T-Pose to your avatar. To do so, go to the 'Inspector', and click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We recommend doing this after correcting any issues with remapping bones.
 
