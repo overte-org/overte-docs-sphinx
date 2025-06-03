@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-01 15:22+0000\n"
-"PO-Revision-Date: 2025-05-04 16:19+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"PO-Revision-Date: 2025-06-03 07:30+0000\n"
+"Last-Translator: Angel <avalanche_starlit951@8shield.net>\n"
+"Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
+"overte-documentation/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.overte.org/projects/overte"
-"/overte-documentation/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.2\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../source/contribute.rst:5
@@ -127,7 +128,7 @@ msgstr "Documentación"
 
 #: ../../source/contribute.rst:20
 msgid "You can help create and maintain the documentation in several ways:"
-msgstr ""
+msgstr "Puede ayudar a crear y mantener la documentación de varias maneras:"
 
 #: ../../source/contribute.rst:22
 msgid ""
@@ -136,10 +137,13 @@ msgid ""
 msgstr ""
 
 #: ../../source/contribute.rst:23
+#, fuzzy
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
+"Cree o cambia páginas de documentación y abra una PR (pull request) en "
+"GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 
 #: ../../source/contribute.rst:24
 msgid ""
@@ -205,6 +209,7 @@ msgid ""
 "You can help the general development of the Overte project without being "
 "a developer yourself by:"
 msgstr ""
+"Puede ayudar el desarrollo general del proyecto Overte sin ser desarrollador:"
 
 #: ../../source/contribute.rst:53
 msgid ""
@@ -214,13 +219,15 @@ msgstr ""
 
 #: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
-msgstr ""
+msgstr "ayudando reducir esas propuestas,"
 
 #: ../../source/contribute.rst:55
 msgid ""
 "or `testing pull requests <https://github.com/overte-"
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
+"o `probando pull requests <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 
 #: ../../source/contribute.rst:57
 msgid ""
@@ -255,17 +262,16 @@ msgid "3D models,"
 msgstr "Modelos 3D"
 
 #: ../../source/contribute.rst:69
-#, fuzzy
 msgid "scripts,"
-msgstr "Descripción"
+msgstr "scripts,"
 
 #: ../../source/contribute.rst:70
 msgid "video editing,"
-msgstr ""
+msgstr "edición de video"
 
 #: ../../source/contribute.rst:71
 msgid "and so on."
-msgstr ""
+msgstr "y más."
 
 #: ../../source/contribute.rst:73
 msgid ""
@@ -4964,7 +4970,7 @@ msgstr "Unity (Versiones recomendadas: 2017.4.17f1 - 2018.2.12f1)"
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid "Overte"
-msgstr ""
+msgstr "Overte"
 
 #: ../../source/create/avatars/find-avatars.rst:44
 #, fuzzy
@@ -9379,8 +9385,11 @@ msgid "Use the materialData Field"
 msgstr "Usar el Campo materialData (Datos del material)"
 
 #: ../../source/create/entities/material-entity.rst:70
+#, fuzzy
 msgid "To add a material entity directly into the **Create** Tools app:"
 msgstr ""
+"Para añdar un material de la entidad direcetamente en apliación Crear ("
+"Create App)"
 
 #: ../../source/create/entities/material-entity.rst:74
 msgid ""
@@ -12169,8 +12178,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/materials/procedural-shaders.rst:372
+#, fuzzy
 msgid "Which can be set from JavaScript::"
-msgstr ""
+msgstr "Que puede estar ponado por JavaScript::"
 
 #: ../../source/create/materials/procedural-shaders.rst:391
 msgid ""
@@ -12699,7 +12709,7 @@ msgstr "Crear una Paleta de Pintura"
 #: ../../source/release-notes/v86-k2.md:5
 #, fuzzy
 msgid "Interface"
-msgstr "Interfaz"
+msgstr "Interface"
 
 #: ../../source/developer.rst:11 ../../source/developer/domain-server.rst:3
 #: ../../source/explore/get-started/architecture.rst:46
@@ -12791,7 +12801,7 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:29
 msgid "[7-zip](<https://www.7-zip.org/download.html>)"
-msgstr ""
+msgstr "[7-zip](<https://www.7-zip.org/download.html>)"
 
 #: ../../source/developer/INSTALLER.md:31
 msgid ""
@@ -13089,9 +13099,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:107
-#, fuzzy
 msgid "MacOS"
-msgstr "Contras"
+msgstr "MacOS"
 
 #: ../../source/developer/INSTALLER.md:109
 msgid ""
@@ -13109,7 +13118,7 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:116
 msgid "Option A: Use Xcode GUI"
-msgstr ""
+msgstr "Opción A: Use Xcode GUI"
 
 #: ../../source/developer/INSTALLER.md:118
 #, fuzzy
@@ -13129,9 +13138,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:125
-#, fuzzy
 msgid "Option B: Use Terminal"
-msgstr "Abre tu terminal."
+msgstr "Opción B: Use el terminal."
 
 #: ../../source/developer/INSTALLER.md:127
 msgid "Navigate to your build folder with your terminal."
@@ -13152,9 +13160,8 @@ msgid "Linux"
 msgstr "Linux"
 
 #: ../../source/developer/INSTALLER.md:133
-#, fuzzy
 msgid "Client"
-msgstr "Ceiling"
+msgstr "Cliente"
 
 #: ../../source/developer/INSTALLER.md:135
 #, fuzzy
@@ -13343,37 +13350,37 @@ msgstr "Cliente de Asignación"
 #: ../../source/developer/assignment-client/command-line-parameters.md:17
 #, fuzzy
 msgid "0 = audio-mixer"
-msgstr "Audio Mixer"
+msgstr "0 = audio-mixer"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:18
 #, fuzzy
 msgid "1 = avatar-mixer"
-msgstr "Avatar Mixer"
+msgstr "1 = avatar-mixer"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:19
 #, fuzzy
 msgid "2 = agent"
-msgstr "Agent"
+msgstr "2 = agent"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:20
 #, fuzzy
 msgid "3 = asset-server"
-msgstr "Asset Server"
+msgstr "3 = asset-server"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:21
 #, fuzzy
 msgid "4 = message-mixer"
-msgstr "Messages Mixer"
+msgstr "4 = message-mixer"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:22
 #, fuzzy
 msgid "5 = entity-script-server"
-msgstr "Entity Server"
+msgstr "5 = entity-script-server"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:23
 #, fuzzy
 msgid "6 = entity-server"
-msgstr "Entity Server"
+msgstr "6 = entity-server"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:25
 #, fuzzy
@@ -13503,8 +13510,9 @@ msgid "[CMake](https://cmake.org/download/):  3.9 (or greater up to latest 3.x.x
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:22
+#, fuzzy
 msgid "[Conan](https://conan.io/downloads): 2.x"
-msgstr ""
+msgstr "[Conan](https://conan.io/downloads): 2.x"
 
 #: ../../source/developer/build/BUILD.md:23
 msgid "[Python](https://www.python.org/downloads/): 3.6 or higher"
@@ -13543,7 +13551,7 @@ msgstr ""
 #: ../../source/developer/build/BUILD.md:35
 #, fuzzy
 msgid "Conan"
-msgstr "Contras"
+msgstr "Conan"
 
 #: ../../source/developer/build/BUILD.md:37
 msgid ""
@@ -13567,12 +13575,12 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD.md:45
 msgid "Linux:"
-msgstr ""
+msgstr "Linux:"
 
 #: ../../source/developer/build/BUILD.md:51
 #, fuzzy
 msgid "Windows:"
-msgstr "Windows"
+msgstr "Windows:"
 
 #: ../../source/developer/build/BUILD.md:56
 msgid ""
@@ -13654,22 +13662,24 @@ msgid "The following build options can be used when running CMake"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:123
+#, fuzzy
 msgid "BUILD_CLIENT"
-msgstr ""
+msgstr "BUILD_CLIENT"
 
 #: ../../source/developer/build/BUILD.md:124
 #, fuzzy
 msgid "BUILD_SERVER"
-msgstr "Servidor"
+msgstr "BUILD_SERVER"
 
 #: ../../source/developer/build/BUILD.md:125
 #, fuzzy
 msgid "BUILD_TESTS"
-msgstr "Tipo de build"
+msgstr "BUILD_TESTS"
 
 #: ../../source/developer/build/BUILD.md:126
+#, fuzzy
 msgid "BUILD_TOOLS"
-msgstr ""
+msgstr "BUILD_TOOLS"
 
 #: ../../source/developer/build/BUILD.md:127
 msgid "CLIENT_ONLY // Will package only the Interface"
@@ -13707,12 +13717,14 @@ msgid "Developer Build Options"
 msgstr "Documentos de Desarrollador"
 
 #: ../../source/developer/build/BUILD.md:139
+#, fuzzy
 msgid "USE_GLES"
-msgstr ""
+msgstr "USE_GLES"
 
 #: ../../source/developer/build/BUILD.md:140
+#, fuzzy
 msgid "DISABLE_UI"
-msgstr ""
+msgstr "DISABLE_UI"
 
 #: ../../source/developer/build/BUILD.md:142
 #, fuzzy
@@ -13798,8 +13810,9 @@ msgid "GPU Debugging Tools"
 msgstr "Depuración de Sombreadores"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:34
+#, fuzzy
 msgid "LLDB"
-msgstr ""
+msgstr "LLDB"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:35
 msgid "Android SDK Platform-Tools"
@@ -13894,7 +13907,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:91
 msgid "`git clone https://github.com/overte-org/overte.git`"
-msgstr ""
+msgstr "`git clone https://github.com/overte-org/overte.git`"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:93
 msgid "Building & Running"
@@ -13951,9 +13964,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:106
-#, fuzzy
 msgid "Running a Module"
-msgstr "Corriendo sobre el piso."
+msgstr "Ejecutar un módulo"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:108
 msgid ""
@@ -14152,9 +14164,8 @@ msgid "First update the package cache and your system:"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:26
-#, fuzzy
 msgid "Install git and g++"
-msgstr "Instalador"
+msgstr "Instalar git y g++"
 
 #: ../../source/developer/build/BUILD_LINUX.md:31
 msgid ""
@@ -14186,12 +14197,11 @@ msgstr ""
 #: ../../source/developer/build/BUILD_LINUX.md:44
 #, fuzzy
 msgid "OpenGL:"
-msgstr "EyeOpen_L"
+msgstr "OpenGL:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:48
-#, fuzzy
 msgid "Verify OpenGL:"
-msgstr "EyeOpen_L"
+msgstr "Verifique OpenGL:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:49
 msgid ""
@@ -14283,7 +14293,7 @@ msgstr ""
 #: ../../source/developer/build/BUILD_LINUX.md:130
 #, fuzzy
 msgid "Prepare conan"
-msgstr "Replace Content"
+msgstr "Prepare conan"
 
 #: ../../source/developer/build/BUILD_LINUX.md:132
 msgid "The next step is setting up conan"
@@ -14304,9 +14314,8 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:150
-#, fuzzy
 msgid "Compiling"
-msgstr "Ceiling"
+msgstr "Compilación"
 
 #: ../../source/developer/build/BUILD_LINUX.md:152
 msgid "Install the dependencies with conan"
@@ -14433,7 +14442,7 @@ msgstr ""
 #: ../../source/developer/build/BUILD_OSX.md:39
 #, fuzzy
 msgid "OpenSSL"
-msgstr "MouthPress_L"
+msgstr "OpenSSL"
 
 #: ../../source/developer/build/BUILD_OSX.md:41
 msgid ""
@@ -14455,7 +14464,7 @@ msgstr ""
 #: ../../source/developer/build/BUILD_OSX.md:48
 #, fuzzy
 msgid "Xcode"
-msgstr "Codificador"
+msgstr "Xcode"
 
 #: ../../source/developer/build/BUILD_OSX.md:50
 msgid ""
@@ -14481,8 +14490,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:62
+#, fuzzy
 msgid "make"
-msgstr ""
+msgstr "make"
 
 #: ../../source/developer/build/BUILD_OSX.md:64
 msgid "Run CMake."
@@ -14626,8 +14636,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:43
+#, fuzzy
 msgid "`pip install distro`"
-msgstr ""
+msgstr "`pip install distro`"
 
 #: ../../source/developer/build/BUILD_WIN.md:45
 msgid "If you do not use an administrator command-line, you will get errors."
@@ -14835,6 +14846,7 @@ msgstr "Exporta Tu Contenido"
 #: ../../source/developer/build/BUILD_WIN.md:129
 msgid "Redownload the [repository](https://github.com/overte-org/overte)"
 msgstr ""
+"Volver a descargar el [repositorio](https://github.com/overte-org/overte)"
 
 #: ../../source/developer/build/BUILD_WIN.md:130
 msgid "Restart directions from Step #7"
@@ -15127,9 +15139,8 @@ msgid "`thread_id` - Log the thread ID."
 msgstr ""
 
 #: ../../source/developer/interface/environment-variables.md:51
-#, fuzzy
 msgid "For example:"
-msgstr "Ejemplos"
+msgstr "Por Ejemplo:"
 
 #: ../../source/developer/interface/environment-variables.md:55
 msgid ""
@@ -24757,25 +24768,25 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:31
 msgid "Ubuntu 20.04"
-msgstr ""
+msgstr "Ubuntu 20.04"
 
 #: ../../source/host/server-setup/linux-server.md:38
 #: ../../source/host/server-setup/linux-server.md:82
 msgid "Fedora 40"
-msgstr ""
+msgstr "Fedora 40"
 
 #: ../../source/host/server-setup/linux-server.md:45
 #: ../../source/host/server-setup/linux-server.md:89
 msgid "Fedora 39"
-msgstr ""
+msgstr "Fedora 39"
 
 #: ../../source/host/server-setup/linux-server.md:52
 msgid "Rocky Linux 9"
-msgstr ""
+msgstr "Rocky Linux 9"
 
 #: ../../source/host/server-setup/linux-server.md:59
 msgid "aarch64 server:"
-msgstr ""
+msgstr "aarch64 server:"
 
 #: ../../source/host/server-setup/linux-server.md:96
 #, fuzzy
@@ -25854,7 +25865,6 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:30
 #: ../../source/release-notes/v86-k2.md:24
-#, fuzzy
 msgid "Graphics"
 msgstr "Gráficos"
 
@@ -39063,4 +39073,3 @@ msgstr "UUID de sesión en Metaverso"
 #~ "`${HIFI_VCPKG_BASE}/installed/x64-windows/include/openssl/ssl.h` "
 #~ "exists."
 #~ msgstr ""
-
