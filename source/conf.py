@@ -83,6 +83,19 @@ highlight_language = "javascript"
 # Disable Smartquotes for French in html to work around issue https://github.com/vircadia/vircadia-docs-sphinx/issues/112
 smartquotes_excludes = {'languages': ['fr'], 'builders': ['html']}
 
+# Include at the beginning of every RST source file.
+rst_prolog = """
+
+.. |br| raw:: html
+
+     <br>
+
+.. note::
+
+    Help us hire a team member! `Donate ♥︎ <https://overte.org/donate.html>`_ or `Learn more <https://overte.org/index.html#help-us-hire-a-team-member>`_. |br|
+    So far we have raised 0€ of 3000€.
+
+"""
 
 # -- Options for HTML output -------------------------------------------------
 
