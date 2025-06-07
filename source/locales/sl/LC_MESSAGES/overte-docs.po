@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-01 15:22+0000\n"
+"POT-Creation-Date: 2025-06-07 19:59+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sl\n"
@@ -21,6 +21,13 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
+
+#: ../../<rst_prolog>:9
+msgid ""
+"Help us hire a team member! `Donate ♥︎ <https://overte.org/donate.html>`_"
+" or `Learn more <https://overte.org/index.html#help-us-hire-a-team-"
+"member>`_. |br| So far we have raised 0€ of 3000€."
+msgstr ""
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
@@ -9948,8 +9955,8 @@ msgid "Create an Installer"
 msgstr ""
 
 #: ../../source/developer.rst:11
-#: ../../source/developer/build/BUILD_LINUX.md:172
-#: ../../source/developer/build/BUILD_LINUX.md:200
+#: ../../source/developer/build/BUILD_LINUX.md:178
+#: ../../source/developer/build/BUILD_LINUX.md:206
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
 msgid "Interface"
@@ -10465,7 +10472,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:174
-#: ../../source/developer/build/BUILD_LINUX.md:163
+#: ../../source/developer/build/BUILD_LINUX.md:169
 #: ../../source/release-notes/v86-k2.md:58
 msgid "Server"
 msgstr ""
@@ -11222,7 +11229,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:135
-#: ../../source/developer/build/BUILD_WIN.md:124
+#: ../../source/developer/build/BUILD_WIN.md:126
 #: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
 msgid "Troubleshooting"
 msgstr ""
@@ -11496,22 +11503,26 @@ msgid "Install the dependencies with conan"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:158
+msgid "On systems with GCC 15 additional parameter is needed:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:164
 msgid "Prepare makefiles:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:165
+#: ../../source/developer/build/BUILD_LINUX.md:171
 msgid "To compile the Domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:170
+#: ../../source/developer/build/BUILD_LINUX.md:176
 msgid "*Note: For a server, it is not necessary to compile the Interface.*"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:174
+#: ../../source/developer/build/BUILD_LINUX.md:180
 msgid "To compile the Interface client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:179
+#: ../../source/developer/build/BUILD_LINUX.md:185
 msgid ""
 "The commands above will compile with a single thread. If you have enough "
 "memory, you can decrease your build time using the `-j` flag. Since most "
@@ -11519,31 +11530,31 @@ msgid ""
 "an example, if you have a 2 core machine, you could use:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:184
+#: ../../source/developer/build/BUILD_LINUX.md:190
 msgid "Running the software"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:186
+#: ../../source/developer/build/BUILD_LINUX.md:192
 msgid "Domain server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:188
+#: ../../source/developer/build/BUILD_LINUX.md:194
 msgid "Running Domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:193
+#: ../../source/developer/build/BUILD_LINUX.md:199
 msgid "Assignment clients"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:195
+#: ../../source/developer/build/BUILD_LINUX.md:201
 msgid "Running assignment client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:202
+#: ../../source/developer/build/BUILD_LINUX.md:208
 msgid "Running Interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:207
+#: ../../source/developer/build/BUILD_LINUX.md:213
 msgid ""
 "Go to \"localhost\" in the running Interface to visit your newly launched"
 " Domain server."
@@ -11883,130 +11894,136 @@ msgid "Set \"Variable value\" to any directory that you have control over."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:77
-msgid "Step 7. Running CMake to Generate Build Files"
+msgid ""
+"*Make sure that you copy the contents of your old `.conan2` folder over, "
+"or that you add the remote from step 2 again.*"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:79
-msgid "These instructions only apply to Visual Studio 2019."
+msgid "Step 7. Running CMake to Generate Build Files"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:81
-msgid "Automatic"
+msgid "These instructions only apply to Visual Studio 2019."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:83
+msgid "Automatic"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:85
 msgid ""
 "There is a batch file to automatically run the commands below for ease of"
 " use."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:85
+#: ../../source/developer/build/BUILD_WIN.md:87
 msgid "`winprepareVS19.bat`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:87
+#: ../../source/developer/build/BUILD_WIN.md:89
 msgid "Manual"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:89
+#: ../../source/developer/build/BUILD_WIN.md:91
 msgid "Run the Command Prompt from Start and run the following commands:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:98
+#: ../../source/developer/build/BUILD_WIN.md:100
 msgid "Where `%OVERTE_DIR%` is the directory for the Overte repository."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:100
+#: ../../source/developer/build/BUILD_WIN.md:102
 msgid ""
 "Note: After running Conan it is recommended to run `conan cache clean "
 "\"*\" -sbd` to clean the build folders created by Conan, saving disk "
 "space."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:102
+#: ../../source/developer/build/BUILD_WIN.md:104
 msgid "Step 8. Making a Build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:104
+#: ../../source/developer/build/BUILD_WIN.md:106
 msgid "Open `%OVERTE_DIR%\\build\\overte.sln` using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:106
+#: ../../source/developer/build/BUILD_WIN.md:108
 msgid ""
 "Change the Solution Configuration (menu ribbon under the menu bar, next "
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:108
+#: ../../source/developer/build/BUILD_WIN.md:110
 msgid "Run from the menu bar `Build > Build Solution`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:110
+#: ../../source/developer/build/BUILD_WIN.md:112
 msgid "Step 9. Testing Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:112
+#: ../../source/developer/build/BUILD_WIN.md:114
 msgid "Create another environment variable (see Step #3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:113
+#: ../../source/developer/build/BUILD_WIN.md:115
 msgid "Set \"Variable name\": `_NO_DEBUG_HEAP`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:114
+#: ../../source/developer/build/BUILD_WIN.md:116
 msgid "Set \"Variable value\": `1`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:116
+#: ../../source/developer/build/BUILD_WIN.md:118
 msgid "Restart Visual Studio again."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:118
+#: ../../source/developer/build/BUILD_WIN.md:120
 msgid ""
 "In Visual Studio, right-click \"interface\" under the Apps folder in "
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar `Debug > Start Debugging`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:120
+#: ../../source/developer/build/BUILD_WIN.md:122
 msgid ""
 "Now, you should have a full build of Overte and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:122
+#: ../../source/developer/build/BUILD_WIN.md:124
 msgid ""
 "Note: You can also run Interface by launching it from command line or "
 "File Explorer from "
 "`%OVERTE_DIR%\\build\\interface\\Release\\interface.exe`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:126
+#: ../../source/developer/build/BUILD_WIN.md:128
 msgid "For any problems after Step #7, first try this:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:127
+#: ../../source/developer/build/BUILD_WIN.md:129
 msgid "Delete your locally cloned copy of the Overte repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:128
+#: ../../source/developer/build/BUILD_WIN.md:130
 msgid "Restart your computer"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:129
+#: ../../source/developer/build/BUILD_WIN.md:131
 msgid "Redownload the [repository](https://github.com/overte-org/overte)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:130
+#: ../../source/developer/build/BUILD_WIN.md:132
 msgid "Restart directions from Step #7"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:132
+#: ../../source/developer/build/BUILD_WIN.md:134
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:134
+#: ../../source/developer/build/BUILD_WIN.md:136
 msgid "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory."
 msgstr ""
 
