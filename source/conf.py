@@ -93,7 +93,7 @@ rst_prolog = """
 .. note::
 
     Help us hire a team member! `Donate ♥︎ <https://overte.org/donate.html>`_ or `Learn more <https://overte.org/index.html#help-us-hire-a-team-member>`_. |br|
-    So far we have raised 0€ of 3000€.
+    So far we have raised 47,88€ of 3000€.
 
 """
 
