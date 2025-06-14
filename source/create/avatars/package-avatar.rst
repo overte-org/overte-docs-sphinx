@@ -57,7 +57,7 @@ Before you can use a custom avatar, you must first host its FST and model (FBX/g
 
 1. Upload your avatar's model file (FBX/glTF/GLB) to the service of your choice.
 2. Copy the exactly URL of file, as if you were sharing a direct download link.
-3. Open your FST file in a text editor and replace the `filename` entry with the URL from the previous step.
+3. Open your FST file in a text editor and replace the `filename` entry with the URL from the previous step. E.g: `filename = MyAvatar` should be changed to `filename = https://mywebsite.example/avatar.fbx`
 4. Save your FST file and upload it to the service of your choice.
 5. In Interface (the Overte game client), select **Avatar** and click the chain/link icon. 
 6. You should see a prompt with the label "Specify Avatar URL". Paste your FST file's direct URL into the text box here and confirm.
