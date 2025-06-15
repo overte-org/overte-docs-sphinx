@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-15 10:50+0000\n"
+"POT-Creation-Date: 2025-06-15 16:35+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ne\n"
@@ -25,7 +25,7 @@ msgstr ""
 msgid ""
 "Help us hire a team member! `Donate ♥︎ <https://overte.org/donate.html>`_"
 " or `Learn more <https://overte.org/index.html#help-us-hire-a-team-"
-"member>`_. |br| So far we have raised 64,62€ of 3000€."
+"member>`_. |br| So far we have raised 464,62€ of 3000€."
 msgstr ""
 
 #: ../../source/contribute.rst:5
@@ -10712,7 +10712,6 @@ msgid "The following are the guides for building Overte from source."
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:10
-#: ../../source/developer/build/BUILD_WIN.md:10
 msgid "*Last Updated on 2025-03-17*"
 msgstr ""
 
@@ -11687,6 +11686,10 @@ msgid ""
 "recommended CMake versions noted above."
 msgstr ""
 
+#: ../../source/developer/build/BUILD_WIN.md:10
+msgid "*Last Updated on 2025-06-09*"
+msgstr ""
+
 #: ../../source/developer/build/BUILD_WIN.md:12
 msgid ""
 "This is a stand-alone guide for creating your first Overte build for "
@@ -11695,7 +11698,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:14
 msgid ""
-"Note: We are now using Visual Studio 2019 and Qt 5.15.x. If you are "
+"Note: We are now using Visual Studio 2022 and Qt 5.15.x. If you are "
 "upgrading from previous versions, do a clean uninstall of those versions "
 "before going through this guide."
 msgstr ""
@@ -11713,9 +11716,10 @@ msgstr ""
 #: ../../source/developer/build/BUILD_WIN.md:21
 msgid ""
 "If you don't have Community or Professional edition of Visual Studio "
-"2019, download [Visual Studio Community "
-"2019](https://visualstudio.microsoft.com/vs/). If you have Visual Studio "
-"2017, you need to download Visual Studio 2019."
+"2022, download [Visual Studio Community "
+"2022](https://visualstudio.microsoft.com/vs/). While Visual Studio 2019 "
+"should still work, we don't support it anymore and might remove "
+"workarounds specific to it in the future."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:23
@@ -11734,7 +11738,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:27
-msgid "Visual Studio 2019"
+msgid "Visual Studio 2022"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:29
@@ -11871,7 +11875,7 @@ msgid "Step 7. Running CMake to Generate Build Files"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:81
-msgid "These instructions only apply to Visual Studio 2019."
+msgid "These instructions only apply to Visual Studio 2022."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:83
@@ -11885,7 +11889,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:87
-msgid "`winprepareVS19.bat`"
+msgid "`winprepareVS22.bat`"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:89
@@ -30530,5 +30534,40 @@ msgstr ""
 #~ "`Learn more <https://overte.org/index.html#help-"
 #~ "us-hire-a-team-member>`_. |br| So far "
 #~ "we have raised 60,08€ of 3000€."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Help us hire a team member! "
+#~ "`Donate ♥︎ <https://overte.org/donate.html>`_ or "
+#~ "`Learn more <https://overte.org/index.html#help-"
+#~ "us-hire-a-team-member>`_. |br| So far "
+#~ "we have raised 64,62€ of 3000€."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Note: We are now using Visual "
+#~ "Studio 2019 and Qt 5.15.x. If you"
+#~ " are upgrading from previous versions, "
+#~ "do a clean uninstall of those "
+#~ "versions before going through this "
+#~ "guide."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you don't have Community or "
+#~ "Professional edition of Visual Studio "
+#~ "2019, download [Visual Studio Community "
+#~ "2019](https://visualstudio.microsoft.com/vs/). If you "
+#~ "have Visual Studio 2017, you need "
+#~ "to download Visual Studio 2019."
+#~ msgstr ""
+
+#~ msgid "Visual Studio 2019"
+#~ msgstr ""
+
+#~ msgid "These instructions only apply to Visual Studio 2019."
+#~ msgstr ""
+
+#~ msgid "`winprepareVS19.bat`"
 #~ msgstr ""
 
