@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-06-11 07:02+0000\n"
+"POT-Creation-Date: 2025-06-15 07:06+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: it\n"
@@ -4431,8 +4431,9 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:36
 msgid ""
-"The **Avatar Packager** is a tool in Interface that identifies potential "
-"errors in your avatar's FBX model and then creates an FST file for you."
+"The **Avatar Packager** is a tool in Interface (the Overte client) that "
+"identifies potential errors in your avatar's model and then creates an "
+"FST file for you."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:38
@@ -4487,22 +4488,63 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:54
-msgid "Host Your Avatar"
+msgid "Host and Use Your Avatar"
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:56
 msgid ""
-"Before you can use a custom avatar, you must first host its FST and "
-"FBX/glTF/GLB files in a place that is publicly accessible. You can use "
-"any cloud platform including Amazon S3, Google Cloud Storage, Microsoft "
-"Azure, Dropbox, etc."
+"Before you can use a custom avatar, you must first host its FST and model"
+" (FBX/glTF/GLB) files in a place that is publicly accessible."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:58
+msgid ""
+"Upload your avatar's model file (FBX/glTF/GLB) to the service of your "
+"choice."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:59
+msgid ""
+"Copy the exact URL of the file, as if you were sharing a direct download "
+"link."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:60
-msgid "Troubleshooting with the Avatar Packager"
+msgid ""
+"Open your FST file in a text editor and replace the ``filename`` entry "
+"with the URL from the previous step. E.g: `filename = MyAvatar` should be"
+" changed to ``filename = https://mywebsite.example/avatar.fbx``"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:61
+msgid "Save your FST file and upload it to the service of your choice."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:62
+msgid ""
+"In Interface (the Overte client), select **Avatar** and click the "
+"chain/link icon."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:63
+msgid ""
+"You should see a prompt with the label \"Specify Avatar URL\". Paste your"
+" FST file's direct URL into the text box here and confirm."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:66
+msgid ""
+"If you are looking for a place to host these files, you can simply use "
+"Amazon S3, Dropbox, Google Cloud Storage, Microsoft Azure, GitHub, "
+"Catbox, etc. It doesn't matter as long as *anyone* can view the file "
+"link!"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:72
+msgid "Troubleshooting with the Avatar Packager"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:74
 msgid ""
 "The Avatar Packager will notify you of any errors or warnings that may "
 "affect the way your avatar looks and behaves in Overte. This is a list of"
@@ -4512,14 +4554,14 @@ msgid ""
 "your avatar will show up and behave correctly in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:66
+#: ../../source/create/avatars/package-avatar.rst:78
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar's "
 "skeleton. The troubleshooting tips below will attempt to fix the errors "
 "in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:68
+#: ../../source/create/avatars/package-avatar.rst:80
 msgid ""
 "However, if the bone structure of the model does not resemble a humanoid "
 "skeleton (with two legs, two arms, hips, chest, spine, and head), then it"
@@ -9954,8 +9996,8 @@ msgid "Create an Installer"
 msgstr ""
 
 #: ../../source/developer.rst:11
-#: ../../source/developer/build/BUILD_LINUX.md:178
-#: ../../source/developer/build/BUILD_LINUX.md:206
+#: ../../source/developer/build/BUILD_LINUX.md:165
+#: ../../source/developer/build/BUILD_LINUX.md:193
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
 msgid "Interface"
@@ -10018,7 +10060,7 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:16
 msgid ""
 "The `install` target will copy the Overte targets and their dependencies "
-"to your `CMAKE_INSTALL_PREFIX`.   This variable is set by the "
+"to your `CMAKE_INSTALL_PREFIX`. This variable is set by the "
 "`project(hifi)` command in `CMakeLists.txt` to `C:/Program Files/hifi` "
 "and stored in `build/CMakeCache.txt`"
 msgstr ""
@@ -10049,7 +10091,7 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:31
 msgid ""
 "[Nullsoft Scriptable Install "
-"System](http://nsis.sourceforge.net/Download) - 3.04   Install using "
+"System](http://nsis.sourceforge.net/Download) - 3.04 Install using "
 "defaults (will install to `C:\\Program Files (x86)\\NSIS`)"
 msgstr ""
 
@@ -10255,14 +10297,14 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:86
 msgid ""
-"Build `packaged-server-console` (found under **Server Console**)   This "
-"will add 2 folders to `build\\server-console\\` -   `server-console-"
+"Build `packaged-server-console` (found under **Server Console**) This "
+"will add 2 folders to `build\\server-console\\` - `server-console-"
 "win32-x64` and `x64`"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:89
 msgid ""
-"Build CMakeTargets->PACKAGE    The installer is now available in "
+"Build CMakeTargets->PACKAGE The installer is now available in "
 "`build\\_CPack_Packages\\win64\\NSIS`"
 msgstr ""
 
@@ -10313,7 +10355,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:101
-#: ../../source/developer/build/BUILD_OSX.md:87 ../../source/home.rst:47
+#: ../../source/developer/build/BUILD_OSX.md:74 ../../source/home.rst:47
 msgid "FAQ"
 msgstr ""
 
@@ -10365,8 +10407,8 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:119
 msgid ""
-"Perform a Release build of `packaged-server-console`    This will add a "
-"folder to `build\\server-console\\` -     Sandbox-darwin-x64"
+"Perform a Release build of `packaged-server-console`   This will add a "
+"folder to `build\\server-console\\` -   Sandbox-darwin-x64"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:122
@@ -10421,9 +10463,7 @@ msgid "Prepare build environment Follow the [Linux build guide](BUILD_LINUX.md).
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:143
-msgid ""
-"Configure Interface (**Make sure that OVERTE_CPU_ARCHITECTURE is set to "
-"an empty string or `-msse3` depending on target CPU architecture!**)"
+msgid "Configure Interface"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:148
@@ -10471,7 +10511,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:174
-#: ../../source/developer/build/BUILD_LINUX.md:169
+#: ../../source/developer/build/BUILD_LINUX.md:156
 #: ../../source/release-notes/v86-k2.md:58
 msgid "Server"
 msgstr ""
@@ -10498,48 +10538,41 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:185
-#: ../../source/developer/INSTALLER.md:217
+#: ../../source/developer/INSTALLER.md:214
 msgid "Prepare build environment"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:192
-#: ../../source/developer/INSTALLER.md:224
-msgid ""
-"Add `PRODUCTION_BUILD=1` to below command for release and release "
-"candidate builds."
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:197
-#: ../../source/developer/INSTALLER.md:229
+#: ../../source/developer/INSTALLER.md:194
+#: ../../source/developer/INSTALLER.md:223
 msgid "Build"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:202
+#: ../../source/developer/INSTALLER.md:199
 msgid "Create Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:208
+#: ../../source/developer/INSTALLER.md:205
 msgid "RPM package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:210
+#: ../../source/developer/INSTALLER.md:207
 msgid "Building Overte server RPM packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:212
+#: ../../source/developer/INSTALLER.md:209
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/rpm_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/rpm_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:214
+#: ../../source/developer/INSTALLER.md:211
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-fedora-36-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:234
+#: ../../source/developer/INSTALLER.md:228
 msgid "Create RPM package"
 msgstr ""
 
@@ -10799,6 +10832,10 @@ msgstr ""
 msgid "Possible Environment Variables"
 msgstr ""
 
+#: ../../source/developer/build/BUILD.md:78
+msgid "Possible CMake Variables"
+msgstr ""
+
 #: ../../source/developer/build/BUILD.md:96
 msgid "Generate Files"
 msgstr ""
@@ -10861,68 +10898,38 @@ msgid "The following build options can be used when running CMake"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:123
-msgid "BUILD_CLIENT"
+msgid "OVERTE_BUILD_CLIENT"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:124
-msgid "BUILD_SERVER"
+msgid "OVERTE_BUILD_SERVER"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:125
-msgid "BUILD_TESTS"
+msgid "OVERTE_BUILD_TESTS"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:126
-msgid "BUILD_TOOLS"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:127
-msgid "CLIENT_ONLY // Will package only the Interface"
+msgid "OVERTE_BUILD_TOOLS"
 msgstr ""
 
 #: ../../source/developer/build/BUILD.md:128
-msgid "SERVER_ONLY // Will package only the Server"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:130
-msgid "Optimization build options"
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:132
-msgid ""
-"OVERTE_OPTIMIZE - This variable defaults to 1 if not set and enables "
-"compiler optimization flags on Linux and MacOS. Setting it to 0 will "
-"result in unoptimized build."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:133
-msgid ""
-"OVERTE_CPU_ARCHITECTURE - This variable contains architecture specific "
-"compiler flags which are used if `OVERTE_OPTIMIZE` is true. If it is not "
-"set, it defaults to `-march=native -mtune=native`, which helps yield more"
-" performance for locally used build, but for packaging it needs to be set"
-" to different value for portability, for example `-msse3`. Setting "
-"`OVERTE_CPU_ARCHITECTURE` to empty string will use default compiler "
-"settings and yield maximum compatibility."
-msgstr ""
-
-#: ../../source/developer/build/BUILD.md:137
 msgid "Developer Build Options"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:139
-msgid "USE_GLES"
+#: ../../source/developer/build/BUILD.md:130
+msgid "OVERTE_RENDERING_BACKEND"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:140
-msgid "DISABLE_UI"
+#: ../../source/developer/build/BUILD.md:131
+msgid "OVERTE_DISABLE_QML"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:142
+#: ../../source/developer/build/BUILD.md:133
 msgid "Devices"
 msgstr ""
 
-#: ../../source/developer/build/BUILD.md:144
+#: ../../source/developer/build/BUILD.md:135
 msgid ""
 "You can support external input/output devices such as Leap Motion, MIDI, "
 "and more by adding each individual SDK in the visible building path. "
@@ -11437,91 +11444,56 @@ msgid "If you need a different branch, you can get a list of all tags with:"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:117
-msgid "Architecture support"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:119
-#: ../../source/developer/build/BUILD_OSX.md:76
-msgid ""
-"If the build is intended to be packaged for distribution, the "
-"`OVERTE_CPU_ARCHITECTURE` CMake variable needs to be set to an "
-"architecture specific value."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:122
-#: ../../source/developer/build/BUILD_OSX.md:79
-msgid ""
-"By default, it is set to `-march=native -mtune=native`, which yields "
-"builds optimized for a particular machine, but these builds will not work"
-" on machines lacking same CPU instructions."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:125
-#: ../../source/developer/build/BUILD_OSX.md:82
-msgid ""
-"For packaging, it is recommended to set it to a different value, for "
-"example `-msse3`. This will help ensure that the build will run on all "
-"reasonably modern CPUs."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:127
-#: ../../source/developer/build/BUILD_OSX.md:84
-msgid ""
-"Setting `OVERTE_CPU_ARCHITECTURE` to an empty string will use the default"
-" compiler settings and yield maximum compatibility."
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:130
 msgid "Prepare conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:132
+#: ../../source/developer/build/BUILD_LINUX.md:119
 msgid "The next step is setting up conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:134
+#: ../../source/developer/build/BUILD_LINUX.md:121
 msgid "First, create a conan profile"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:139
+#: ../../source/developer/build/BUILD_LINUX.md:126
 msgid "Next, add the overte remote to conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:144
+#: ../../source/developer/build/BUILD_LINUX.md:131
 msgid ""
 "Optionally you can let conan automatically install the required system "
 "packages"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:150
+#: ../../source/developer/build/BUILD_LINUX.md:137
 msgid "Compiling"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:152
+#: ../../source/developer/build/BUILD_LINUX.md:139
 msgid "Install the dependencies with conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:158
+#: ../../source/developer/build/BUILD_LINUX.md:145
 msgid "On systems with GCC 15 additional parameter is needed:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:164
+#: ../../source/developer/build/BUILD_LINUX.md:151
 msgid "Prepare makefiles:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:171
+#: ../../source/developer/build/BUILD_LINUX.md:158
 msgid "To compile the Domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:176
+#: ../../source/developer/build/BUILD_LINUX.md:163
 msgid "*Note: For a server, it is not necessary to compile the Interface.*"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:180
+#: ../../source/developer/build/BUILD_LINUX.md:167
 msgid "To compile the Interface client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:185
+#: ../../source/developer/build/BUILD_LINUX.md:172
 msgid ""
 "The commands above will compile with a single thread. If you have enough "
 "memory, you can decrease your build time using the `-j` flag. Since most "
@@ -11529,31 +11501,31 @@ msgid ""
 "an example, if you have a 2 core machine, you could use:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:190
+#: ../../source/developer/build/BUILD_LINUX.md:177
 msgid "Running the software"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:192
+#: ../../source/developer/build/BUILD_LINUX.md:179
 msgid "Domain server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:194
+#: ../../source/developer/build/BUILD_LINUX.md:181
 msgid "Running Domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:199
+#: ../../source/developer/build/BUILD_LINUX.md:186
 msgid "Assignment clients"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:201
+#: ../../source/developer/build/BUILD_LINUX.md:188
 msgid "Running assignment client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:208
+#: ../../source/developer/build/BUILD_LINUX.md:195
 msgid "Running Interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:213
+#: ../../source/developer/build/BUILD_LINUX.md:200
 msgid ""
 "Go to \"localhost\" in the running Interface to visit your newly launched"
 " Domain server."
@@ -11681,37 +11653,33 @@ msgstr ""
 msgid "To package the installation, you can simply run `make package` afterwards."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:74
-msgid "Architecture Support"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_OSX.md:89
+#: ../../source/developer/build/BUILD_OSX.md:76
 msgid ""
 "**Problem:** Running the scheme `interface.app` from Xcode causes a crash"
 " for Interface related to `libgl`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:90
+#: ../../source/developer/build/BUILD_OSX.md:77
 msgid ""
 "**Cause:** The target `gl` generates a binary called `libgl`. A macOS "
 "`libGL.framework` item gets loaded instead by Xcode."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:91
+#: ../../source/developer/build/BUILD_OSX.md:78
 msgid ""
 "**Solution:** In the Xcode target settings for `libgl`, set the version "
 "to `1.0.0`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:92
+#: ../../source/developer/build/BUILD_OSX.md:79
 msgid "**Problem:** CMake complains about Python 3 being missing."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:93
+#: ../../source/developer/build/BUILD_OSX.md:80
 msgid "**Cause:** CMake might be out of date."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_OSX.md:94
+#: ../../source/developer/build/BUILD_OSX.md:81
 msgid ""
 "**Solution:** Try updating your CMake binary with command `brew upgrade "
 "cmake`, or by downloading and running a newer CMake installer, depending "
@@ -30394,5 +30362,165 @@ msgstr ""
 #~ "`Learn more <https://overte.org/index.html#help-"
 #~ "us-hire-a-team-member>`_. |br| So far "
 #~ "we have raised 47,88€ of 3000€."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Avatar Packager** is a tool "
+#~ "in Interface that identifies potential "
+#~ "errors in your avatar's FBX model "
+#~ "and then creates an FST file for"
+#~ " you."
+#~ msgstr ""
+
+#~ msgid "Host Your Avatar"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Before you can use a custom "
+#~ "avatar, you must first host its "
+#~ "FST and FBX/glTF/GLB files in a "
+#~ "place that is publicly accessible. You"
+#~ " can use any cloud platform including"
+#~ " Amazon S3, Google Cloud Storage, "
+#~ "Microsoft Azure, Dropbox, etc."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The `install` target will copy the "
+#~ "Overte targets and their dependencies to"
+#~ " your `CMAKE_INSTALL_PREFIX`.   This variable "
+#~ "is set by the `project(hifi)` command"
+#~ " in `CMakeLists.txt` to `C:/Program "
+#~ "Files/hifi` and stored in "
+#~ "`build/CMakeCache.txt`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Nullsoft Scriptable Install "
+#~ "System](http://nsis.sourceforge.net/Download) - 3.04   "
+#~ "Install using defaults (will install to"
+#~ " `C:\\Program Files (x86)\\NSIS`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Build `packaged-server-console` (found "
+#~ "under **Server Console**)   This will "
+#~ "add 2 folders to `build\\server-"
+#~ "console\\` -   `server-console-win32-x64` "
+#~ "and `x64`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Build CMakeTargets->PACKAGE    The installer "
+#~ "is now available in "
+#~ "`build\\_CPack_Packages\\win64\\NSIS`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Perform a Release build of `packaged-"
+#~ "server-console`    This will add a "
+#~ "folder to `build\\server-console\\` -     "
+#~ "Sandbox-darwin-x64"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Configure Interface (**Make sure that "
+#~ "OVERTE_CPU_ARCHITECTURE is set to an "
+#~ "empty string or `-msse3` depending on"
+#~ " target CPU architecture!**)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add `PRODUCTION_BUILD=1` to below command "
+#~ "for release and release candidate "
+#~ "builds."
+#~ msgstr ""
+
+#~ msgid "BUILD_CLIENT"
+#~ msgstr ""
+
+#~ msgid "BUILD_SERVER"
+#~ msgstr ""
+
+#~ msgid "BUILD_TESTS"
+#~ msgstr ""
+
+#~ msgid "BUILD_TOOLS"
+#~ msgstr ""
+
+#~ msgid "CLIENT_ONLY // Will package only the Interface"
+#~ msgstr ""
+
+#~ msgid "SERVER_ONLY // Will package only the Server"
+#~ msgstr ""
+
+#~ msgid "Optimization build options"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "OVERTE_OPTIMIZE - This variable defaults "
+#~ "to 1 if not set and enables "
+#~ "compiler optimization flags on Linux and"
+#~ " MacOS. Setting it to 0 will "
+#~ "result in unoptimized build."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "OVERTE_CPU_ARCHITECTURE - This variable "
+#~ "contains architecture specific compiler flags"
+#~ " which are used if `OVERTE_OPTIMIZE` "
+#~ "is true. If it is not set, "
+#~ "it defaults to `-march=native -mtune=native`,"
+#~ " which helps yield more performance "
+#~ "for locally used build, but for "
+#~ "packaging it needs to be set to"
+#~ " different value for portability, for "
+#~ "example `-msse3`. Setting `OVERTE_CPU_ARCHITECTURE`"
+#~ " to empty string will use default "
+#~ "compiler settings and yield maximum "
+#~ "compatibility."
+#~ msgstr ""
+
+#~ msgid "USE_GLES"
+#~ msgstr ""
+
+#~ msgid "DISABLE_UI"
+#~ msgstr ""
+
+#~ msgid "Architecture support"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If the build is intended to be "
+#~ "packaged for distribution, the "
+#~ "`OVERTE_CPU_ARCHITECTURE` CMake variable needs "
+#~ "to be set to an architecture "
+#~ "specific value."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "By default, it is set to "
+#~ "`-march=native -mtune=native`, which yields "
+#~ "builds optimized for a particular "
+#~ "machine, but these builds will not "
+#~ "work on machines lacking same CPU "
+#~ "instructions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For packaging, it is recommended to "
+#~ "set it to a different value, for"
+#~ " example `-msse3`. This will help "
+#~ "ensure that the build will run on"
+#~ " all reasonably modern CPUs."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Setting `OVERTE_CPU_ARCHITECTURE` to an empty"
+#~ " string will use the default compiler"
+#~ " settings and yield maximum compatibility."
+#~ msgstr ""
+
+#~ msgid "Architecture Support"
 #~ msgstr ""
 
