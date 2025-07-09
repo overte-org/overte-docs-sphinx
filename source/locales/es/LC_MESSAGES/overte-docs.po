@@ -11,23 +11,29 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-06-03 07:30+0000\n"
-"Last-Translator: Angel <avalanche_starlit951@8shield.net>\n"
+"PO-Revision-Date: 2025-07-10 01:02+0000\n"
+"Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
+"overte-documentation/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.overte.org/projects/overte"
-"/overte-documentation/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.10.2\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../<rst_prolog>:9
+#, fuzzy
 msgid ""
 "Help us hire a team member! `Donate ♥︎ <https://overte.org/donate.html>`_"
 " or `Learn more <https://overte.org/index.html#help-us-hire-a-team-"
 "member>`_. |br| So far we have raised 464,62€ of 3000€."
 msgstr ""
+"¡Ayúdanos a contratar a un integrante del equipo! `Dona ♥︎ <https://"
+"overte.org/donate.html>`_ u `Obtén más información <https://overte.org/"
+"index.html#help-us-hire-a-team-member>`_. |br|Hasta ahora hemos recaudado "
+"464,62€ de 3000€."
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
@@ -42,14 +48,25 @@ msgid ""
 "software for creating virtual worlds. There are plenty of ways you can "
 "contribute to the various parts that make up Overte."
 msgstr ""
+"Overte es un proyecto de código abierto, por lo que todo nuestro código y "
+"documentación están a tu disposición. Tú también puedes contribuir a nuestro "
+"esfuerzo por el metaverso. Nuestro repositorio principal `git <https://"
+"github.com/overte-org/overte>`_ contiene el código fuente de muchos de los "
+"componentes de nuestro software para crear mundos virtuales. Hay muchas "
+"formas de contribuir a las distintas partes que componen Overte."
 
 #: ../../source/contribute.rst:11
+#, fuzzy
 msgid ""
 "If you run into any questions or seek some advice, have a look at our "
 "`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which "
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
 msgstr ""
+"Si tiene alguna pregunta o necesita algún consejo, eche un vistazo a nuestro "
+"`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| que "
+"también está conectado a nuestro `Servidor Discord <https://discord.gg/"
+"4YuQvc8K2f>`_ |Discord| si lo prefiere."
 
 #: ../../source/shared.rst:16
 msgid "Matrix"
@@ -141,6 +158,8 @@ msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
+"Comunique los errores o la información que falte al gestor de incidencias de "
+"`GitHub <https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 
 #: ../../source/contribute.rst:23
 #, fuzzy
@@ -159,6 +178,10 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"`Revisa los cambios <https://github.com/overte-org/overte-docs-sphinx/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ a la documentación en "
+"Github. Nos gustaría tener dos revisores para la mayoría de los cambios, ya "
+"que siempre hay cosas que el escritor y el primer revisor pasan por alto."
 
 #: ../../source/contribute.rst:29
 msgid "Translation"
@@ -177,6 +200,15 @@ msgid ""
 "`README <https://github.com/overte-org/overte-docs-"
 "sphinx/blob/master/README.md>`_."
 msgstr ""
+"Como proyecto internacional, Overte depende de traductores para poder llegar "
+"a los usuarios que no hablan inglés. Actualmente el único componente que "
+"tiene soporte de traducción es la documentación. Puedes ayudar a traducirla "
+"utilizando nuestro sistema de traducción online `Weblate <https://"
+"weblate.overte.org/projects/overte/overte-documentation/>`_ enviando "
+"traducciones o convirtiéndote en el encargado de tu idioma y comprobando las "
+"traducciones antes de que se incluyan en la documentación. Puede encontrar "
+"más información sobre la traducción de la documentación en el `README "
+"<https://github.com/overte-org/overte-docs-sphinx/blob/master/README.md>`_."
 
 #: ../../source/contribute.rst:38
 #, fuzzy
@@ -190,6 +222,10 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
+"Overte funciona principalmente gracias a las contribuciones voluntarias de "
+"su comunidad y su equipo central. Aunque todavía no tenemos una entidad que "
+"gestione las donaciones, puedes hacer donaciones a miembros concretos del "
+"equipo a través de diversos servicios como PayPal, Patreon o GitHub Sponsors."
 
 #: ../../source/contribute.rst:42
 msgid ""
@@ -204,6 +240,17 @@ msgid ""
 "of US$40 an hour in the free market. Keep that in mind if you want to see"
 " something accomplished that no one else is personally interested in."
 msgstr ""
+"También puedes ofrecer recompensas por características específicas que "
+"quieras que se implementen o problemas que quieras que se solucionen, "
+"dejando un comentario en nuestro `issue tracker <https://github.com/"
+"overte-org/overte/issues>`_. Por supuesto, las recompensas también son una "
+"opción para otras partes del proyecto, como la documentación. Las "
+"recompensas se crean y asignan en función de la confianza, así que si no "
+"estás seguro de algo, habla con un desarrollador principal o coméntalo en "
+"una reunión de la comunidad o de desarrolladores. La mayoría de los "
+"desarrolladores tienen una gran formación y experiencia, y suelen ganar más "
+"de 40 dólares la hora en el mercado libre. Tenlo en cuenta si quieres ver "
+"realizado algo que a nadie más le interesa."
 
 #: ../../source/contribute.rst:50
 #, fuzzy
@@ -223,6 +270,8 @@ msgid ""
 "filing issues on our `issue tracker <https://github.com/overte-"
 "org/overte/issues>`_,"
 msgstr ""
+"registrando los problemas en nuestro `issue tracker <https://github.com/"
+"overte-org/overte/issues>`_,"
 
 #: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
@@ -248,20 +297,29 @@ msgid ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
 "open pull requests."
 msgstr ""
+"Si eres desarrollador, puedes contribuir directamente al proyecto mediante "
+"pull requests. Ten en cuenta las `directrices <https://github.com/overte-org/"
+"overte/blob/master/CONTRIBUTING.md>`_ cuando contribuyas al software "
+"principal. Puedes encontrar información adicional en el :doc:`Sección de "
+"desarrolladores <developer>`. Un trabajo importante para los desarrolladores "
+"que se han acostumbrado más a la plataforma es la `revisión de código "
+"<https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ de los pull "
+"requests abiertos."
 
 #: ../../source/contribute.rst:64
 msgid "Miscellaneous Work"
-msgstr ""
+msgstr "Trabajos varios"
 
 #: ../../source/contribute.rst:65
 msgid ""
 "There is also a lot of miscellaneous work that comes up every now and "
 "then:"
-msgstr ""
+msgstr "También hay mucho trabajo que surge de vez en cuando:"
 
 #: ../../source/contribute.rst:67
 msgid "2D art like posters or banners,"
-msgstr ""
+msgstr "Arte 2D como pósters o banners,"
 
 #: ../../source/contribute.rst:68
 #, fuzzy
@@ -286,6 +344,9 @@ msgid ""
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
 msgstr ""
+"Para los desarrolladores es tremendamente útil tener a alguien a quien pedir "
+"ayuda cuando necesitan que se haga un trabajo que está fuera de su área de "
+"especialización."
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 #: ../../source/release-notes/v80.md:37 ../../source/release-notes/v80.md:60
@@ -1453,6 +1514,8 @@ msgid ""
 "This channel determines how metallic the material is. Metal refracts "
 "light different than other materials."
 msgstr ""
+"Este canal determina lo \"metálico\" que es el material. El metal refracta "
+"la luz de forma diferente a otros materiales."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:67
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
@@ -1595,6 +1658,8 @@ msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
 "engine looks for alpha values between 2% and 98%."
 msgstr ""
+"Para determinar si una textura se trata como máscara o como alfa, el motor "
+"busca valores de alfa entre el 2% y el 98%."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:95
 msgid ""
@@ -5693,6 +5758,8 @@ msgid ""
 "Copy the exact URL of the file, as if you were sharing a direct download "
 "link."
 msgstr ""
+"Copia la URL exacta del archivo, como si estuvieras compartiendo un enlace "
+"de descarga directa."
 
 #: ../../source/create/avatars/package-avatar.rst:60
 msgid ""
@@ -5700,6 +5767,9 @@ msgid ""
 "with the URL from the previous step. E.g: `filename = MyAvatar` should be"
 " changed to ``filename = https://mywebsite.example/avatar.fbx``"
 msgstr ""
+"Abra su archivo FST en un editor de texto y sustituya la entrada ``filename``"
+" por la URL del paso anterior. Por ejemplo: `filename = MyAvatar` debería "
+"cambiarse por ``filename = https://mywebsite.example/avatar.fbx``"
 
 #: ../../source/create/avatars/package-avatar.rst:61
 #, fuzzy
@@ -12805,25 +12875,28 @@ msgid "Development Instructions"
 msgstr "Desarrollador"
 
 #: ../../source/developer/INSTALLER.md:8
-#, fuzzy
 msgid "Creating an Installer"
-msgstr "Ejecuta el instalador."
+msgstr "Creando el instalador"
 
 #: ../../source/developer/INSTALLER.md:10
 msgid "*Last Updated on April 12, 2025*"
-msgstr ""
+msgstr "*Última actualización: 12 de abril de 2025*"
 
 #: ../../source/developer/INSTALLER.md:12
 msgid ""
 "Follow the [build guide](build/BUILD.md) to figure out how to build "
 "Overte for your platform."
 msgstr ""
+"Sigue la [guía de compilación](build/BUILD.md) para saber cómo compilar "
+"Overte para tu plataforma."
 
 #: ../../source/developer/INSTALLER.md:14
 msgid ""
 "During generation, CMake should produce an `install` target and a "
 "`package` target."
 msgstr ""
+"Durante la generación, CMake debe producir un target `install` y un target "
+"`package`."
 
 #: ../../source/developer/INSTALLER.md:16
 msgid ""
@@ -12832,17 +12905,23 @@ msgid ""
 "`project(hifi)` command in `CMakeLists.txt` to `C:/Program Files/hifi` "
 "and stored in `build/CMakeCache.txt`"
 msgstr ""
+"El target `install` copiará los targets Overte y sus dependencias a "
+"`CMAKE_INSTALL_PREFIX`. Esta variable es establecida por el comando "
+"`project(hifi)` en `CMakeLists.txt` a `C:/Program Files/hifi` y almacenada "
+"en `build/CMakeCache.txt`"
 
 #: ../../source/developer/INSTALLER.md:19
-#, fuzzy
 msgid "Packaging"
-msgstr "Cocinado"
+msgstr "Empaquetamiento"
 
 #: ../../source/developer/INSTALLER.md:21
 msgid ""
 "To produce an installer, run the `package` target. However you will want "
 "to follow the steps specific to your platform below."
 msgstr ""
+"Para producir un instalador, ejecute el target `package`. Sin embargo, "
+"deberá seguir los pasos específicos para su plataforma que se indican a "
+"continuación."
 
 #: ../../source/developer/INSTALLER.md:23
 #: ../../source/developer/interface/debugging.md:3
@@ -12852,6 +12931,7 @@ msgstr "Windows"
 #: ../../source/developer/INSTALLER.md:27
 msgid "To produce an executable installer on Windows, the following are required:"
 msgstr ""
+"Para producir un instalador ejecutable en Windows, se requiere lo siguiente:"
 
 #: ../../source/developer/INSTALLER.md:29
 msgid "[7-zip](<https://www.7-zip.org/download.html>)"
@@ -12863,19 +12943,27 @@ msgid ""
 "System](http://nsis.sourceforge.net/Download) - 3.04 Install using "
 "defaults (will install to `C:\\Program Files (x86)\\NSIS`)"
 msgstr ""
+"[Nullsoft Scriptable Install System](http://nsis.sourceforge.net/Download) - "
+"3.04 Instalación predeterminada (se instalará en `C:\\Program Files (x86)"
+"\\NSIS`)"
 
 #: ../../source/developer/INSTALLER.md:33
+#, fuzzy
 msgid ""
 "[NSIS Plugins](https://build-deps.overte.org/conan/nsis-overte-plugins"
 "/NSIS-hifi-plugins-1.0.zip) Copy contents to `C:\\Program Files "
 "(x86)\\NSIS\\`. **Alternatively**, install the following:"
 msgstr ""
+"[NSIS Plugins](https://build-deps.overte.org/conan/nsis-overte-plugins/NSIS-"
+"hifi-plugins-1.0.zip) Copie el contenido en `C:\\Program Files (x86)\\NSIS\\`"
+". **Alternativamente**, instale lo siguiente:"
 
 #: ../../source/developer/INSTALLER.md:36
 msgid ""
 "[UAC Plug-in for Nullsoft](http://nsis.sourceforge.net/UAC_plug-in) - "
 "0.2.4c"
 msgstr ""
+"[UAC Plug-in for Nullsoft](http://nsis.sourceforge.net/UAC_plug-in) - 0.2.4c"
 
 #: ../../source/developer/INSTALLER.md:37
 #: ../../source/developer/INSTALLER.md:43
@@ -12884,23 +12972,30 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:59
 #: ../../source/developer/INSTALLER.md:70
 msgid "Extract Zip"
-msgstr ""
+msgstr "Extraer el Zip"
 
 #: ../../source/developer/INSTALLER.md:38
+#, fuzzy
 msgid "Copy `UAC.nsh` to `C:\\Program Files (x86)\\NSIS\\Include\\`"
-msgstr ""
+msgstr "Copiar `UAC.nsh` a `C:\\Program Files (x86)\\NSIS\\Include\\`"
 
 #: ../../source/developer/INSTALLER.md:39
+#, fuzzy
 msgid ""
 "Copy `Plugins\\x86-ansi\\UAC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
+"Copiar `Plugins\\x86-ansi\\UAC.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins"
+"\\x86-ansi\\`"
 
 #: ../../source/developer/INSTALLER.md:40
+#, fuzzy
 msgid ""
 "Copy `Plugins\\x86-unicode\\UAC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
+"Copiar `Plugins\\x86-unicode\\UAC.dll` a `C:\\Program Files (x86)\\NSIS"
+"\\Plugins\\x86-unicode\\`"
 
 #: ../../source/developer/INSTALLER.md:42
 msgid ""
@@ -12908,130 +13003,179 @@ msgid ""
 "Nullsoft](http://nsis.sourceforge.net/NsProcess_plugin) - 1.6 (use the "
 "link marked **nsProcess_1_6.7z**)"
 msgstr ""
+"[nsProcess Plug-in for Nullsoft](http://nsis.sourceforge.net/"
+"NsProcess_plugin) - 1.6 (use el enlace **nsProcess_1_6.7z**)"
 
 #: ../../source/developer/INSTALLER.md:44
+#, fuzzy
 msgid ""
 "Copy `Include\\nsProcess.nsh` to `C:\\Program Files "
 "(x86)\\NSIS\\Include\\`"
 msgstr ""
+"Copiar`Include\\n"
+"sProcess.nsh` a `C:\\Program Files (x86)\\NSIS\\Include\\`"
 
 #: ../../source/developer/INSTALLER.md:45
+#, fuzzy
 msgid ""
 "Copy `Plugins\\nsProcess.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
+"Copiar `Plugins\\n"
+"sProcess.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
 
 #: ../../source/developer/INSTALLER.md:46
+#, fuzzy
 msgid ""
 "Copy `Plugins\\nsProcessW.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
+"Copiar `Plugins\\n"
+"sProcessW.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\`"
 
 #: ../../source/developer/INSTALLER.md:48
+#, fuzzy
 msgid ""
 "[InetC Plug-in for Nullsoft](http://nsis.sourceforge.net/Inetc_plug-in) -"
 " 1.0"
 msgstr ""
+"[InetC Plug-in for Nullsoft](http://nsis.sourceforge.net/Inetc_plug-in) - 1.0"
 
 #: ../../source/developer/INSTALLER.md:50
+#, fuzzy
 msgid ""
 "Copy `Plugin\\x86-ansi\\InetC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
+"Copiar`Plugin\\x86-ansi\\InetC.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins"
+"\\x86-ansi\\`"
 
 #: ../../source/developer/INSTALLER.md:51
+#, fuzzy
 msgid ""
 "Copy `Plugin\\x86-unicode\\InetC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
+"Copiar `Plugin\\x86-unicode\\InetC.dll` a `C:\\Program Files (x86)\\NSIS"
+"\\Plugins\\x86-unicode\\`"
 
 #: ../../source/developer/INSTALLER.md:53
+#, fuzzy
 msgid ""
 "[NSISpcre Plug-in for Nullsoft](http://nsis.sourceforge.net"
 "/NSISpcre_plug-in) - 1.0"
 msgstr ""
+"[NSISpcre Plug-in for Nullsoft](http://nsis.sourceforge.net/NSISpcre_plug-in)"
+" - 1.0"
 
 #: ../../source/developer/INSTALLER.md:55
+#, fuzzy
 msgid "Copy `NSISpre.nsh` to `C:\\Program Files (x86)\\NSIS\\Include\\`"
-msgstr ""
+msgstr "Copiar`NSISpre.nsh` a `C:\\Program Files (x86)\\NSIS\\Include\\`"
 
 #: ../../source/developer/INSTALLER.md:56
+#, fuzzy
 msgid "Copy `NSISpre.dll` to `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
+"Copiar `NSISpre.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
 
 #: ../../source/developer/INSTALLER.md:58
+#, fuzzy
 msgid ""
 "[nsisSlideshow Plug-in for "
 "Nullsoft](<http://wiz0u.free.fr/prog/nsisSlideshow/>) - 1.7"
 msgstr ""
+"[nsisSlideshow Plug-in for Nullsoft](<http://wiz0u.free.fr/prog/"
+"nsisSlideshow/>) - 1.7"
 
 #: ../../source/developer/INSTALLER.md:60
+#, fuzzy
 msgid ""
 "Copy `bin\\nsisSlideshow.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
+"Copiar `bin\\n"
+"sisSlideshow.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
 
 #: ../../source/developer/INSTALLER.md:61
+#, fuzzy
 msgid ""
 "Copy `bin\\nsisSlideshowW.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
+"Copiar `bin\\n"
+"sisSlideshowW.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\`"
 
 #: ../../source/developer/INSTALLER.md:63
 msgid ""
 "[Nsisunz plug-in for Nullsoft](http://nsis.sourceforge.net/Nsisunz_plug-"
 "in)"
 msgstr ""
+"[Nsisunz plug-in para Nullsoft](http://nsis.sourceforge.net/Nsisunz_plug-in)"
 
 #: ../../source/developer/INSTALLER.md:64
 msgid "Download both Zips and unzip"
-msgstr ""
+msgstr "Descargar los Zips y descomprimir"
 
 #: ../../source/developer/INSTALLER.md:65
+#, fuzzy
 msgid ""
 "Copy `nsisunz\\Release\\nsisunz.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
+"Copiar `nsisunz\\Release\\n"
+"sisunz.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
 
 #: ../../source/developer/INSTALLER.md:66
+#, fuzzy
 msgid ""
 "Copy `NSISunzU\\Plugin unicode\\nsisunz.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
+"Copiar `NSISunzU\\Plugin unicode\\n"
+"sisunz.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\`"
 
 #: ../../source/developer/INSTALLER.md:68
 msgid "[ApplicationID plug-in for Nullsoft]() - 1.0"
-msgstr ""
+msgstr "[ApplicationID plug-in para Nullsoft]() - 1.0"
 
 #: ../../source/developer/INSTALLER.md:69
 msgid ""
 "Download [`Pre-built DLLs`](<https://github.com/connectiblutz/NSIS-"
 "ApplicationID/releases/download/1.1/NSIS-ApplicationID.zip>)"
 msgstr ""
+"Descargar [`Pre-built DLLs`](<https://github.com/connectiblutz/"
+"NSIS-ApplicationID/releases/download/1.1/NSIS-ApplicationID.zip>)"
 
 #: ../../source/developer/INSTALLER.md:71
+#, fuzzy
 msgid ""
 "Copy `Release\\ApplicationID.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
+"Copiar `Release\\ApplicationID.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins"
+"\\x86-ansi\\`"
 
 #: ../../source/developer/INSTALLER.md:72
+#, fuzzy
 msgid ""
 "Copy `ReleaseUnicode\\ApplicationID.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
+"Copiar`ReleaseUnicode\\ApplicationID.dll` a `C:\\Program Files (x86)\\NSIS"
+"\\Plugins\\x86-unicode\\`"
 
 #: ../../source/developer/INSTALLER.md:74
 msgid "[Node.JS and NPM](https://nodejs.org/en/download/)"
-msgstr ""
+msgstr "[Node.JS y NPM](https://nodejs.org/en/download/)"
 
 #: ../../source/developer/INSTALLER.md:75
 msgid "Install version 10.15.0 LTS (or greater)"
-msgstr ""
+msgstr "Instalar la versión 10.15.0 LTS (o superior)"
 
 #: ../../source/developer/INSTALLER.md:76
 msgid "Code Signing (optional)"
-msgstr ""
+msgstr "Firma del Código (opcional)"
 
 #: ../../source/developer/INSTALLER.md:78
 msgid ""
@@ -13039,11 +13183,14 @@ msgid ""
 "`HF_PFX_PASSPHRASE` environment variables to be present during CMake "
 "runtime and globally as we proceed to package the installer."
 msgstr ""
+"Para que la firma de código funcione, necesitarás establecer las variables "
+"de entorno `HF_PFX_FILE` y `HF_PFX_PASSPHRASE` para que estén presentes "
+"durante la ejecución de CMake y de forma global cuando procedamos a "
+"empaquetar el instalador."
 
 #: ../../source/developer/INSTALLER.md:80
-#, fuzzy
 msgid "Creating the Installer"
-msgstr "Ejecuta el instalador."
+msgstr "Creación del instalador."
 
 #: ../../source/developer/INSTALLER.md:82
 #, fuzzy
@@ -13055,17 +13202,20 @@ msgid ""
 "Open the `overte.sln` solution with elevated (administrator) permissions "
 "on Visual Studio and select the **Release** configuration."
 msgstr ""
+"Abra la solución `overte.sln` con permisos de administrador en Visual Studio "
+"y seleccione la configuración **Release**."
 
 #: ../../source/developer/INSTALLER.md:84
-#, fuzzy
 msgid "Build the solution."
-msgstr "Resolution"
+msgstr "Construir la solución"
 
 #: ../../source/developer/INSTALLER.md:85
 msgid ""
 "Build `packaged-server-console-npm-install` (found under **hidden/Server "
 "Console**)"
 msgstr ""
+"Construir `packaged-server-console-npm-install` (que se encuentra en **"
+"hidden/Server Console**)"
 
 #: ../../source/developer/INSTALLER.md:86
 msgid ""
@@ -13073,21 +13223,25 @@ msgid ""
 "will add 2 folders to `build\\server-console\\` - `server-console-"
 "win32-x64` and `x64`"
 msgstr ""
+"Construir`packaged-server-console` (que se encuentra en **Server Console**) "
+"Esto agregar 2 directorios a `build\\server-console\\` - `server-console-"
+"win32-x64` y `x64`"
 
 #: ../../source/developer/INSTALLER.md:89
 msgid ""
 "Build CMakeTargets->PACKAGE The installer is now available in "
 "`build\\_CPack_Packages\\win64\\NSIS`"
 msgstr ""
+"Construir CMakeTargets->PACKAGE El instalador estará disponible en `"
+"build\\_CPack_Packages\\win64\\NSIS`"
 
 #: ../../source/developer/INSTALLER.md:92
-#, fuzzy
 msgid "Create an MSIX Package"
-msgstr "Crear un Paquete de Avatar"
+msgstr "Crear un Paquete de Avatar MSIX"
 
 #: ../../source/developer/INSTALLER.md:94
 msgid "Get the 'MSIX Packaging Tool' from the Windows Store."
-msgstr ""
+msgstr "Consigue la “Herramienta de empaquetado MSIX” de la Tienda Windows."
 
 #: ../../source/developer/INSTALLER.md:95
 msgid ""
@@ -13097,10 +13251,17 @@ msgid ""
 "replicate the functionality in the MSIX Package. Therefore, you will want"
 " to avoid doing anything else on your computer during this process."
 msgstr ""
+"Ejecute el proceso para crear un nuevo paquete MSIX a partir de un "
+"instalador .exe o .msi existente. Este proceso te permitirá instalar Overte "
+"con el instalador habitual, sin embargo hará seguimiento a los cambios para "
+"replicar la funcionalidad en el Paquete MSIX. Por lo tanto, evitar hacer "
+"cualquier otra cosa en durante este proceso."
 
 #: ../../source/developer/INSTALLER.md:96
 msgid "Be sure to select no shortcuts and install only the Overte Interface."
 msgstr ""
+"Asegúrese de no seleccionar ningún acceso directo e instale sólo la interfaz "
+"Overte."
 
 #: ../../source/developer/INSTALLER.md:97
 msgid ""
@@ -13111,6 +13272,12 @@ msgid ""
 "uninstaller is present in the package. This is necessary to uplaod to the"
 " Windows Store."
 msgstr ""
+"Cuando se le pregunte por los puntos de «Entrada», seleccione sólo la "
+"entrada Interface y no el \"desinstalador\". Esto se debe a que el paquete "
+"MSIX es desinstalado por el propio Windows. Si por alguna razón el "
+"desinstalador aparece de todos modos, puede editar el manifiesto para "
+"quitarlo manualmente, incluso si el desinstalador está presente en el "
+"paquete. Esto es necesario para subir a la Tienda Windows."
 
 #: ../../source/developer/INSTALLER.md:98
 msgid ""
@@ -13118,6 +13285,9 @@ msgid ""
 "other tools such as 'MSIX Hero'. It must be signed with a local "
 "certificate to test, and with a proper certificate to distribute."
 msgstr ""
+"Una vez completado, puedes firmar el paquete con esta aplicación o con otras "
+"herramientas como “MSIX Hero”. Debe firmarse con un certificado local para "
+"probarlo, y con un certificado propio para distribuirlo."
 
 #: ../../source/developer/INSTALLER.md:99
 msgid ""
@@ -13126,6 +13296,10 @@ msgid ""
 "with your Microsoft Developer account for Windows. You will see these "
 "errors and the expected values when validating it."
 msgstr ""
+"Si lo subes a la Tienda Windows, tendrás que asegurarte de que toda la "
+"información del manifiesto, incluida la información del editor, coincide con "
+"la registrada en tu cuenta de desarrollador de Microsoft para Windows. Verás "
+"estos errores y los valores esperados al validarlo."
 
 #: ../../source/developer/INSTALLER.md:101
 #: ../../source/developer/build/BUILD_OSX.md:74 ../../source/home.rst:47
@@ -13139,18 +13313,26 @@ msgid ""
 "\"C:\\TFS\\XYZProject\\Releases\\NullsoftInstaller\\XYZWin7Installer.nsi\""
 " on line 77 -- aborting creation process```"
 msgstr ""
+"**Problema:** Error al abrir un archivo. ```File: failed opening file "
+"\"\\FOLDERSHARE\\XYZSRelease\\...\\Credits.rtf\" Error in script "
+"\"C:\\TFS\\XYZProject\\Releases\\NullsoftInstaller\\XYZWin7Installer.nsi\" "
+"on line 77 -- aborting creation process```"
 
 #: ../../source/developer/INSTALLER.md:104
 msgid ""
 "**Cause:** The complete path (current directory + relative path) has to "
 "be < 260 characters to any of the relevant files."
 msgstr ""
+"**Causa:** La ruta completa (directorio actual + ruta relativa) debe tener < "
+"260 carácteres."
 
 #: ../../source/developer/INSTALLER.md:105
 msgid ""
 "**Solution:** Move your build and packaging folder as high up in the "
 "drive as possible to prevent an overage."
 msgstr ""
+"**Solución:** Mueva los directorios de build y packaging a un nivel superior "
+"en el disco."
 
 #: ../../source/developer/INSTALLER.md:107
 msgid "MacOS"
@@ -13161,18 +13343,21 @@ msgid ""
 "Ensure you have all the prerequisites fulfilled from the [MacOS Build "
 "Guide](build/BUILD_OSX.md)."
 msgstr ""
+"Asegúrese de que cumple todos los requisitos de la "
+"[Guía de compilación de macOS] (build/BUILD_OSX.md)."
 
 #: ../../source/developer/INSTALLER.md:110
+#, fuzzy
 msgid "Perform a clean CMake in your build folder. e.g."
-msgstr ""
+msgstr "Realiza un CMake limpio en tu carpeta de compilación, por ejemplo:"
 
 #: ../../source/developer/INSTALLER.md:114
 msgid "Pick a method to build and package your release."
-msgstr ""
+msgstr "Elije un método para crear y empaquetar tu versión."
 
 #: ../../source/developer/INSTALLER.md:116
 msgid "Option A: Use Xcode GUI"
-msgstr "Opción A: Use Xcode GUI"
+msgstr "Opción A: Usa Xcode GUI"
 
 #: ../../source/developer/INSTALLER.md:118
 #, fuzzy
@@ -13342,7 +13527,7 @@ msgstr "Empaquetador de Avatar"
 
 #: ../../source/developer/INSTALLER.md:207
 msgid "Building Overte server RPM packages using Docker"
-msgstr ""
+msgstr "Creación de paquetes RPM del servidor Overte mediante Docker"
 
 #: ../../source/developer/INSTALLER.md:209
 msgid ""
@@ -13386,7 +13571,7 @@ msgstr "Mostrar información de ayuda"
 #: ../../source/developer/domain-server/command-line-parameters.md:9
 #: ../../source/developer/interface/command-line-parameters.md:9
 msgid "Displays version information"
-msgstr ""
+msgstr "Muestra información sobre la versión"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:13
 #, fuzzy
@@ -35214,6 +35399,9 @@ msgid ""
 "domain operators up to legal consequences for serving copyrighted or "
 "illegal content."
 msgstr ""
+"En el caso de los avatares, aunque esto impediría la copia trivial de URL, "
+"expone a los operadores de dominios a consecuencias legales por servir "
+"contenidos protegidos por derechos de autor o ilegales."
 
 #: ../../source/security/asset-security.rst:51
 msgid ""
@@ -39250,4 +39438,3 @@ msgstr "UUID de sesión en Metaverso"
 
 #~ msgid "`winprepareVS19.bat`"
 #~ msgstr ""
-
