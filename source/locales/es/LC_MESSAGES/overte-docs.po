@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-07-10 17:54+0000\n"
-"Last-Translator: Julian Groß <julian.gro@overte.org>\n"
+"PO-Revision-Date: 2025-07-22 10:58+0000\n"
+"Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
 "Language: es\n"
@@ -5781,12 +5781,16 @@ msgid ""
 "In Interface (the Overte client), select **Avatar** and click the "
 "chain/link icon."
 msgstr ""
+"En Interfaz (en el cliente de Overte), selecciona **Avatar** y haz clic en "
+"el icono de cadena/enlace."
 
 #: ../../source/create/avatars/package-avatar.rst:63
 msgid ""
 "You should see a prompt with the label \"Specify Avatar URL\". Paste your"
 " FST file's direct URL into the text box here and confirm."
 msgstr ""
+"Deberías ver un mensaje con la etiqueta «Especificar URL del avatar». Pegue "
+"la URL de su archivo FST en el cuadro de texto y confirme."
 
 #: ../../source/create/avatars/package-avatar.rst:66
 msgid ""
@@ -5795,6 +5799,9 @@ msgid ""
 "Catbox, etc. It doesn't matter as long as *anyone* can view the file "
 "link!"
 msgstr ""
+"Si buscas un lugar donde alojar estos archivos, puedes utilizar Amazon S3, "
+"Dropbox, Google Cloud Storage, Microsoft Azure, GitHub, Catbox, etc. No "
+"importa, siempre y cuando *cualquiera* pueda ver el enlace del archivo!"
 
 #: ../../source/create/avatars/package-avatar.rst:72
 msgid "Troubleshooting with the Avatar Packager"
@@ -9520,10 +9527,12 @@ msgid ""
 "Go to the **Create** tab and click on the 'Material' icon to add a "
 "material entity."
 msgstr ""
+"Vaya a la pestaña **Crear** y haga clic en el icono «Material» para añadir "
+"una entidad tipo material."
 
 #: ../../source/create/entities/material-entity.rst:75
 msgid "Enter `materialData` when you're prompted for a 'Material URL'."
-msgstr ""
+msgstr "Introduzca `materialData` cuando se le pida una 'URL del material'."
 
 #: ../../source/create/entities/material-entity.rst:77
 #, fuzzy
@@ -9542,6 +9551,8 @@ msgid ""
 "Scroll down to the 'Material Data' field. Click 'Clear Material Data' and"
 " then paste the following JSON data:"
 msgstr ""
+"Desplácese hasta el campo «Datos del material». Haga clic en «Borrar datos "
+"de material» y pegue los siguientes datos JSON:"
 
 #: ../../source/create/entities/material-entity.rst:107
 msgid ":doc:`PBR Materials Guide <../3d-models/pbr-materials-guide>`"
@@ -10249,8 +10260,12 @@ msgid ""
 " add a Particle Entity via **Create**, you will be asked if you want it "
 "to be procedural or not."
 msgstr ""
+"Las partículas son una herramienta poderosa para crear una variedad de "
+"efectos. Cuando añades una Entidad de Partículas a través de **Crear**, se "
+"te preguntará si quieres que sea procedimental o no."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:7
+#, fuzzy
 msgid ""
 "**Non-procedural particles** are represented by the `ParticleEffect` "
 "`EntityType <https://apidocs.overte.org/Entities.html#.EntityType>`_. "
@@ -10262,8 +10277,17 @@ msgid ""
 "billboarded, quads, and moving via euler integration (position + velocity"
 " + acceleration)."
 msgstr ""
+"Las **Non-procedural particles**están representadas por el tipo de entidad "
+"``ParticleEffect` <https://apidocs.overte.org/Entities.html#.EntityType>`_. "
+"Tienen muchas opciones de configuración (véase `EntityProperties-"
+"ParticleEffect <https://apidocs.overte.org/Entities.html#.EntityProperties-"
+"ParticleEffect>`_) y son adecuadas para muchas situaciones. Sin embargo, "
+"también tienen algunas limitaciones, incluyendo el soporte para un máximo de "
+"100.000 partículas / entidad, y movimiento a través de la integración de "
+"Euler (posición + velocidad + aceleración)."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:9
+#, fuzzy
 msgid ""
 "If you instead create a **procedural particle** entity, you will get an "
 "entity with the `ProceduralParticleEffect` `EntityType "
@@ -10275,6 +10299,15 @@ msgid ""
 "<https://apidocs.overte.org/Entities.html#.EntityProperties-"
 "ProceduralParticleEffect>`_)."
 msgstr ""
+"Si en su lugar creas una entidad **procedural particle**, obtendrás una "
+"entidad con el tipo de entidad `<https://apidocs.overte.org/"
+"Entities.html#.EntityType>` `ProceduralParticleEffect` . Esto le da un "
+"control detallado sobre un sistema de partículas GPU, utilizando \"shaders\" "
+"para la actualización y renderizado. Además de mayores límites (hasta "
+"millones de partículas). Las partículas procedimentales tienen un conjunto "
+"diferente de propiedades (ver `EntityProperties-ProceduralParticleEffect "
+"<https://apidocs.overte.org/Entities.html#.EntityProperties-"
+"ProceduralParticleEffect>`_)."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:11
 msgid ""
@@ -10282,12 +10315,18 @@ msgid ""
 "Shaders Guide <../materials/procedural-shaders>` for a more detailed "
 "walkthrough of our shaders."
 msgstr ""
+"Antes de continuar, asegúrate de que estás familiarizado con la guía :doc:`"
+"Procedural Shaders Guide <../materials/procedural-shaders>` para un "
+"recorrido más detallado de nuestros generadores de sombras (shaders)."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:13
 msgid ""
 "All particle shaders also expose global defines for ``NUM_PARTICLES``, "
 "``NUM_TRIS_PER_PARTICLE``, and ``NUM_UPDATE_PROPS``."
 msgstr ""
+"Todos los generadores de sombras de partículas también exponen definiciones "
+"globales para ``NUM_PARTICLES``, ``NUM_TRIS_PER_PARTICLE``, y "
+"``NUM_UPDATE_PROPS``."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:21
 #: ../../source/release-notes/v80.md:41 ../../source/release-notes/v80.md:67
@@ -10304,6 +10343,9 @@ msgid ""
 "``particleRenderData`` property. You must implement both a vertex and "
 "fragment shader."
 msgstr ""
+"La representación visual de tus partículas está controlada por la propiedad "
+"``particleRenderData``. Debes implementar tanto un generador de sombras de "
+"vértices como uno de fragmentos."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:25
 #, fuzzy
@@ -10317,24 +10359,38 @@ msgid ""
 "particle (with different gl_VertexIDs), but this can be controlled by "
 "``numTrianglesPerParticle``."
 msgstr ""
+"Que devuelve la posición en el espacio global del vértice. De manera "
+"predeterminada, se dibuja 1 triángulo por partícula, por lo que esa función "
+"se ejecutará 3 veces por partícula (con diferentes gl_VertexIDs), pero esto "
+"puede ser controlado por ``numTrianglesPerParticle``."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:33
 msgid ""
 "The fragment shader must implement one of the same functions as our "
 "existing procedural materials depending on version:"
 msgstr ""
+"El generador de sombra de fragmento (fragment shader) debe implementar una "
+"de las funciones que nuestros materiales procedimentales existentes "
+"dependiendo de la versión:"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:42
 msgid "In the fragment shader, ``particleID`` is available as a global variable."
 msgstr ""
+"En el \"fragment shader\" ``particleID`` está disponible como una variable "
+"global."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:44
+#, fuzzy
 msgid ""
 "One difference between procedural particles and procedural materials on "
 "other entities is that particles do not have per-fragment normals or UVs "
 "defined by default. You must calculate them yourself if you want lit or "
 "textured particles."
 msgstr ""
+"Una diferencia entre las partículas procedimentales y los materiales "
+"procedimentales en otras entidades es que las partículas no tienen normales "
+"por fragmento o UVs definidos de manera predeterminada. Debes calcularlas tú "
+"mismo si quieres partículas iluminadas o texturizadas."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:46
 msgid ""
@@ -10342,23 +10398,31 @@ msgid ""
 "future, we will provide alternative starting shapes that come with "
 "normals and UVs."
 msgstr ""
+"Calcular las normales y las UV manualmente en los generadores de sombra "
+"(shaders) puede resultar difícil. En el futuro, proporcionaremos plantillas "
+"con formas que vienen con normales y UV."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:48
 msgid ""
 "As with procedural material vertex shaders, you can control the bounding "
 "box, which is used for culling, by changing the dimensions of the entity."
 msgstr ""
+"Al igual que con los generadores de sombras de vértices de materiales "
+"procedimentales, puede controlar el cuadro delimitador, que se utiliza para "
+"la selección, cambiando las dimensiones de la entidad."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:50
 msgid ""
 "Like non-procedural particles, transparent procedural particles "
 "(``particleTransparent == true``) render with additive blending."
 msgstr ""
+"Al igual que las partículas no procedimentales, las partículas "
+"procedimentales transparentes (``particleTransparent == true``) se "
+"renderizan usando mezcla aditiva."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:55
-#, fuzzy
 msgid "Updates"
-msgstr "Pegar"
+msgstr "Actualizaciones"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:57
 msgid ""
@@ -10367,12 +10431,20 @@ msgid ""
 "shaders. To activate updates, set ``numUpdateProps > 0`` (max is 5) and "
 "you must provide a fragment shader as part of ``particleUpdateData``."
 msgstr ""
+"Las actualizaciones por partícula son opcionales. Se pueden utilizar para "
+"almacenar datos persistentes por partícula a través de los fotogramas o "
+"reducir los cálculos en los generadores de sombra de renderizado. Para "
+"activar las actualizaciones, establece ``numUpdateProps > 0`` (el máximo es "
+"5) y debes proporcionar un generador de sombras de fragmento (fragment "
+"shader) como parte de ``particleUpdateData``."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:59
 msgid ""
 "Each \"update prop\" is a per-particle vec4 of ``float`` values. The "
 "update shader must define:"
 msgstr ""
+"Cada \"update prop\" son vec4 de valores ``float`` por-partícula . El "
+"generador de sombras (shader) debe definir:"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:65
 msgid ""
@@ -10384,16 +10456,27 @@ msgid ""
 "properties during rendering (in both the vertex and fragment shaders) "
 "with:"
 msgstr ""
+"``particleProps`` debe contener todas las propiedades de actualización que "
+"hayas especirficado. Por ejemplo, si ``numUpdateProps == 3``, entonces debes "
+"tener ``particleProps.prop0``, ``particleProps.prop1``, y "
+"``particleProps.prop2``. Estas deben contener inicialmente solo 0s, y luego "
+"tendrán cualquier valor desde los cuadros anteriores. Puedes ver esas "
+"propiedades durante el renderizado(tanto en el generador de sombras de "
+"vértice y de fragmento) con:"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:77
 msgid "Update shader to compute a cube of sinusoidal motion:"
 msgstr ""
+"Actualiza el creador de sombra para calcular un cubo de movimiento "
+"sinusoidal:"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:89
 msgid ""
 "Vertex shader to billboard a single triangle using a stored position "
 "property:"
 msgstr ""
+"Generador de sombras de vértices ( Vertex shader) para representar un único "
+"triángulo utilizando una propiedad de posición almacenada:"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:120
 #, fuzzy
@@ -12300,6 +12383,9 @@ msgid ""
 "Uniform arrays of type ``vec3[]``, ``vec4[]``, ``mat3[]``, and ``mat4[]``"
 " are also supported.  For example, in the shader, you can have::"
 msgstr ""
+"También se admiten matrices uniformes de tipo ``vec3[]``, ``vec4[]``, "
+"``mat3[]``, y ``mat4[]``. Por ejemplo, en el sombreador(shader), puedes "
+"tener:"
 
 #: ../../source/create/materials/procedural-shaders.rst:372
 #, fuzzy
@@ -12315,6 +12401,12 @@ msgid ""
 "specify any values, the default value will be used, if one is provided in"
 " the shader."
 msgstr ""
+"Nota: Actualmente no soportamos el envío de sólo una parte de un arreglo "
+"uniforme. En otras palabras, en el ejemplo anterior, la longitud de "
+"``_colors`` en JavaScript debe coincidir con la longitud de la matriz en el "
+"sombreador(shader), 4. Si sólo especifica 1-3 ``vec4s``, se generará un "
+"comportamiento indefinido. Si no especifica ningún valor, se utilizará el "
+"valor predeterminado, si se proporciona uno en el sombreador."
 
 #: ../../source/create/materials/procedural-shaders.rst:395
 msgid "Alpha Effects (Transparency)"
@@ -12343,6 +12435,8 @@ msgid ""
 "If a shader fails to compile, it will render as a pink and black "
 "checkerboard material."
 msgstr ""
+"Si el sombreador falla al compilar, este se renderizará como un material "
+"tipo tablero de ajedrez negro y rosa."
 
 #: ../../source/create/materials/procedural-shaders.rst:405
 msgid ""
@@ -12819,7 +12913,7 @@ msgstr "[Equiparse Wearables](../explore/personalize/add-wearables)"
 
 #: ../../source/developer.rst:11
 msgid "Build from Source"
-msgstr ""
+msgstr "Compilar desde los Archivos Fuente"
 
 #: ../../source/developer.rst:11
 #, fuzzy
@@ -13365,16 +13459,21 @@ msgid "Perform a Release build of ALL_BUILD"
 msgstr "Realizar una Instalación Limpia"
 
 #: ../../source/developer/INSTALLER.md:119
+#, fuzzy
 msgid ""
 "Perform a Release build of `packaged-server-console`   This will add a "
 "folder to `build\\server-console\\` -   Sandbox-darwin-x64"
 msgstr ""
+"Realizar una \"release build\" de `packaged-server-console` Esto agregará un "
+"directorio a `build\\server-console\\` -    Sandbox-darwin-x64"
 
 #: ../../source/developer/INSTALLER.md:122
 msgid ""
 "Perform a Release build of `package`    Installer is now available in "
 "`build/_CPack_Packages/Darwin/DragNDrop`"
 msgstr ""
+"Realice un \"Release build\" de `package`    El instalador está ahora en `"
+"build/_CPack_Packages/Darwin/DragNDrop`"
 
 #: ../../source/developer/INSTALLER.md:125
 msgid "Option B: Use Terminal"
@@ -13382,17 +13481,19 @@ msgstr "Opción B: Use el terminal."
 
 #: ../../source/developer/INSTALLER.md:127
 msgid "Navigate to your build folder with your terminal."
-msgstr ""
+msgstr "Vaya al directorio de compilación desde la consola."
 
 #: ../../source/developer/INSTALLER.md:128
 msgid ""
 "`make -j4`, you can change the number to match the number of threads you "
 "would like to use."
 msgstr ""
+"`make -j4`, puede cambiar el número para que coincida con el número de hilos "
+"que desea utilizar."
 
 #: ../../source/developer/INSTALLER.md:129
 msgid "`make package` to create the package."
-msgstr ""
+msgstr "`make package` para crear el paquete."
 
 #: ../../source/developer/INSTALLER.md:131
 msgid "Linux"
@@ -13417,10 +13518,19 @@ msgid ""
 "oldest Ubuntu LTS which still receives standard (not ESM) security "
 "updates."
 msgstr ""
+"Las AppImages de Overte se construyen usando [linuxdeploy](https://"
+"github.com/linuxdeploy/linuxdeploy) y [linuxdeploy-plugin-qt](https://"
+"github.com/linuxdeploy/linuxdeploy-plugin-qt). **Las AppImages necesitan ser "
+"construidas usando la versión glibc de la distribución de Linux más antigua "
+"en la que se supone que van a funcionar.** Nuestro objetivo es el Ubuntu LTS "
+"más antiguo que todavía reciba actualizaciones de seguridad estándar (no "
+"ESM)."
 
 #: ../../source/developer/INSTALLER.md:140
 msgid "Prepare build environment Follow the [Linux build guide](BUILD_LINUX.md)."
 msgstr ""
+"Prepare el ambiente de compilación siguiendo la "
+"[Guía de compilación para Linux](BUILD_LINUX.md)."
 
 #: ../../source/developer/INSTALLER.md:143
 #, fuzzy
@@ -13437,6 +13547,8 @@ msgid ""
 "CPack will build target ALL instead of INTERFACE, which is a limitation "
 "of CPack."
 msgstr ""
+"CPack construirá el target ALL en lugar de INTERFACE, lo cual es una "
+"limitación de CPack."
 
 #: ../../source/developer/INSTALLER.md:154
 msgid ""
@@ -13444,6 +13556,8 @@ msgid ""
 "check which Linux distributions the AppImage will likely be able to run "
 "on."
 msgstr ""
+"Lint con [appimagelint](https://github.com/TheAssassin/appimagelint) para "
+"verificar en cual distribución Linux la AppImage será capaz de ejecutarse."
 
 #: ../../source/developer/INSTALLER.md:156
 #, fuzzy
@@ -13461,18 +13575,24 @@ msgid ""
 "`build/interface/resources.rcc` and `build/interface/resources` into "
 "`build/AppDir/usr/bin/`"
 msgstr ""
+"Copiar `build/interface/plugins` `build/interface/scripts` `build/interface/"
+"resources.rcc` y `build/interface/resources` a `build/AppDir/usr/bin/`"
 
 #: ../../source/developer/INSTALLER.md:165
 msgid ""
 "Copy `interface/org.overte.interface.appdata.xml` to "
 "`build/AppDir/usr/share/metainfo/org.overte.interface.appdata.xml`"
 msgstr ""
+"Copiar `interface/org.overte.interface.appdata.xml` a `build/AppDir/usr/"
+"share/metainfo/org.overte.interface.appdata.xml`"
 
 #: ../../source/developer/INSTALLER.md:167
 msgid ""
 "Run linuxdeploy (make sure that linuxdeploy-plugin-qt is next to "
 "linuxdeploy and that both are executable)"
 msgstr ""
+"Ejecute linuxdeploy (asegúrese que el linuxdeploy-plugin-qt esté en el mismo "
+"directorio que linuxdeploy y que juntos sean ejecutables)"
 
 #: ../../source/developer/INSTALLER.md:174
 #: ../../source/developer/build/BUILD_LINUX.md:156
@@ -13488,7 +13608,7 @@ msgstr "Empaquetador de Avatar"
 
 #: ../../source/developer/INSTALLER.md:178
 msgid "Building Overte server Debian packages using Docker"
-msgstr ""
+msgstr "Construyendo los paquetes Debian del servidor Overte usando Docker"
 
 #: ../../source/developer/INSTALLER.md:180
 msgid ""
@@ -13496,12 +13616,17 @@ msgid ""
 "scripts/deb_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/deb_package)"
 msgstr ""
+"Construya la imagen Docker como se indica en el Dockerfile en "
+"[tools/ci-scripts/deb_package/](https://github.com/overte-org/overte/tree/"
+"master/tools/ci-scripts/deb_package)"
 
 #: ../../source/developer/INSTALLER.md:182
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-debian-11-amd64`"
 msgstr ""
+"Cree/inicie el contenedor. Por ejemplo: `docker run -v $(pwd)/../../..:/"
+"overte -it overte/overte-server-build:0.1.2-debian-11-amd64`"
 
 #: ../../source/developer/INSTALLER.md:185
 #: ../../source/developer/INSTALLER.md:214
@@ -13535,12 +13660,17 @@ msgid ""
 "scripts/rpm_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/rpm_package)"
 msgstr ""
+"Cree la imagen Docker conforme al Dockerfile en "
+"[tools/ci-scripts/rpm_package/](https://github.com/overte-org/overte/tree/"
+"master/tools/ci-scripts/rpm_package)"
 
 #: ../../source/developer/INSTALLER.md:211
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-fedora-36-amd64`"
 msgstr ""
+"Cree/Inicie el contenedor. Por ejemplo: `docker run -v $(pwd)/../../..:/"
+"overte -it overte/overte-server-build:0.1.2-fedora-36-amd64`"
 
 #: ../../source/developer/INSTALLER.md:228
 #, fuzzy
@@ -13559,7 +13689,7 @@ msgstr "Hacer Actualizaciones en Vivo"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:3
 msgid "You can launch an assignment-client with these parameters."
-msgstr ""
+msgstr "Puede lanzar un cliente con estos parámetros."
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:5
 #: ../../source/developer/domain-server/command-line-parameters.md:5
@@ -13625,50 +13755,49 @@ msgstr "Scripts de Asignación de Clientes"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:33
 msgid "Wallet destination"
-msgstr ""
+msgstr "Wallet destino"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:37
 #, fuzzy
 msgid "Assignment server hostname"
-msgstr "Asset Server"
+msgstr "Hostname del servidor de asignación"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:41
 #, fuzzy
 msgid "Assignment server port"
-msgstr "Asset Server"
+msgstr "Puerto del servidor de asignación"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:45
 msgid "Number of children to fork"
-msgstr ""
+msgstr "Número de ramas a bifurcar"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:49
 msgid "Minimum number of children"
-msgstr ""
+msgstr "Número mínimo de nodos"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:53
 msgid "Maximum number of children"
-msgstr ""
+msgstr "Máximo número de nodos"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:57
-#, fuzzy
 msgid "Assignment client monitor port"
-msgstr "Scripts de Asignación de Clientes"
+msgstr "Puerto de seguimiento a Asignación de Clientes"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:61
 msgid "HTTP status server port"
-msgstr ""
+msgstr "Puerto del servidor HTTP"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:65
 msgid "Directory to store logs"
-msgstr ""
+msgstr "Directorio para almacenar logs"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:69
 msgid "PID of the parent process"
-msgstr ""
+msgstr "PID del proceso padre"
 
 #: ../../source/developer/build.rst:7 ../../source/developer/build/BUILD.md:8
 msgid "General Build Information"
-msgstr ""
+msgstr "Información general sobre la generación del programa"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_WIN.md:8
@@ -13679,7 +13808,7 @@ msgstr "Windows"
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_LINUX.md:8
 msgid "Build Linux"
-msgstr ""
+msgstr "Generar para Linux"
 
 #: ../../source/developer/build.rst:7
 #, fuzzy
@@ -13693,51 +13822,53 @@ msgid "Build Android"
 msgstr "Androide"
 
 #: ../../source/developer/build.rst:3
-#, fuzzy
 msgid "Building Overte"
-msgstr "Tipo de build"
+msgstr "Compilando Overte"
 
 #: ../../source/developer/build.rst:5
 msgid "The following are the guides for building Overte from source."
 msgstr ""
+"Las siguientes son las guías para construir Overte a partir del código "
+"fuente."
 
 #: ../../source/developer/build/BUILD.md:10
 msgid "*Last Updated on 2025-03-17*"
-msgstr ""
+msgstr "*Última actualización el 2025-03-17*"
 
 #: ../../source/developer/build/BUILD.md:12
 msgid "OS Specific Build Guides"
-msgstr ""
+msgstr "Guías de generación específicas para el sistema operativo"
 
 #: ../../source/developer/build/BUILD.md:14
 msgid "[Build Windows](BUILD_WIN.md) - complete instructions for Windows."
-msgstr ""
+msgstr "[Build Windows](BUILD_WIN.md) - Instrucciones para Windows."
 
 #: ../../source/developer/build/BUILD.md:15
 msgid "[Build Linux](BUILD_LINUX.md) - additional instructions for Linux."
-msgstr ""
+msgstr "[Build Linux](BUILD_LINUX.md) - Instrucciones adicionales para Linux."
 
 #: ../../source/developer/build/BUILD.md:16
 msgid "[Build OSX](BUILD_OSX.md) - additional instructions for OS X."
-msgstr ""
+msgstr "[Build OSX](BUILD_OSX.md) - Instrucciones adicionales para OS X."
 
 #: ../../source/developer/build/BUILD.md:17
 msgid "[Build Android](BUILD_ANDROID.md) - additional instructions for Android."
 msgstr ""
+"[Build Android](BUILD_ANDROID.md) - Instrucciones adicionales para Android."
 
 #: ../../source/developer/build/BUILD.md:19
 #: ../../source/developer/build/BUILD_ANDROID.md:16
-#, fuzzy
 msgid "Dependencies"
-msgstr "Independent Mode"
+msgstr "Dependencias"
 
 #: ../../source/developer/build/BUILD.md:20
+#, fuzzy
 msgid "[git](https://git-scm.com/downloads): >= 1.6"
-msgstr ""
+msgstr "[git](https://git-scm.com/downloads): >= 1.6"
 
 #: ../../source/developer/build/BUILD.md:21
 msgid "[CMake](https://cmake.org/download/):  3.9 (or greater up to latest 3.x.x)"
-msgstr ""
+msgstr "[CMake](https://cmake.org/download/): 3.9 (o superior a 3.x.x)"
 
 #: ../../source/developer/build/BUILD.md:22
 #, fuzzy
@@ -13746,15 +13877,18 @@ msgstr "[Conan](https://conan.io/downloads): 2.x"
 
 #: ../../source/developer/build/BUILD.md:23
 msgid "[Python](https://www.python.org/downloads/): 3.6 or higher"
-msgstr ""
+msgstr "[Python](https://www.python.org/downloads/): 3.6 o superior"
 
 #: ../../source/developer/build/BUILD.md:24
+#, fuzzy
 msgid "[Node.JS](https://nodejs.org/en/): >= 12.13.1 LTS"
-msgstr ""
+msgstr "[Node.JS](https://nodejs.org/en/): >= 12.13.1 LTS"
 
 #: ../../source/developer/build/BUILD.md:25
 msgid "Used to build the server-console, JSDoc, and script console autocomplete."
 msgstr ""
+"Utilizado para construir la consola-servidor, JSDoc, y la consola de "
+"autocompletado de scripts."
 
 #: ../../source/developer/build/BUILD.md:27
 #, fuzzy
@@ -13767,16 +13901,22 @@ msgid ""
 " See the accompanying `conanfile.py` for a full list of direct "
 "dependencies."
 msgstr ""
+"La mayoría de nuestras dependencias se obtienen y construyen automáticamente "
+"usando Conan. Consulte el archivo `conanfile.py` para obtener una lista "
+"completa de las dependencias."
 
 #: ../../source/developer/build/BUILD.md:31
+#, fuzzy
 msgid "CMake"
-msgstr ""
+msgstr "CMake"
 
 #: ../../source/developer/build/BUILD.md:33
 msgid ""
 "Overte uses CMake to generate build files and project files for your "
 "platform."
 msgstr ""
+"Overte utiliza CMake para generar archivos de compilación y archivos de "
+"proyecto para su plataforma."
 
 #: ../../source/developer/build/BUILD.md:35
 #, fuzzy
@@ -13788,12 +13928,16 @@ msgid ""
 "Overte uses conan to download and build dependencies. Conan can be "
 "downloaded from here: https://conan.io/downloads"
 msgstr ""
+"Overte utiliza conan para descargar y construir dependencias. Conan se puede "
+"descargar desde aquí: https://conan.io/downloads"
 
 #: ../../source/developer/build/BUILD.md:40
 msgid ""
 "See the accompanying `conanfile.py` for a full list of direct "
 "dependencies."
 msgstr ""
+"Consulte el archivo `conanfile.py` para obtener una lista completa de las "
+"dependencias."
 
 #: ../../source/developer/build/BUILD.md:42
 msgid ""
@@ -13802,6 +13946,10 @@ msgid ""
 "can set the `CONAN_HOME` variable to any folder where you wish to install"
 " the dependencies."
 msgstr ""
+"La construcción de las dependencias puede ser larga y los archivos "
+"resultantes se almacenarán en tu directorio personal. Para moverlos a una "
+"ubicación diferente, puede establecer la variable `CONAN_HOME` a cualquier "
+"carpeta donde desee instalar las dependencias."
 
 #: ../../source/developer/build/BUILD.md:45
 msgid "Linux:"
@@ -13817,10 +13965,12 @@ msgid ""
 "Where `/path/to/directory` is the path to a directory where you wish the "
 "build files to get stored."
 msgstr ""
+"Donde `/ruta/a/directorio` es la ruta al directorio donde desea que se "
+"almacenen los archivos de compilación."
 
 #: ../../source/developer/build/BUILD.md:58
 msgid "Generating Build Files"
-msgstr ""
+msgstr "Generando los archivos de compilación"
 
 #: ../../source/developer/build/BUILD.md:60
 #, fuzzy
@@ -13833,15 +13983,16 @@ msgid "Possible CMake Variables"
 msgstr "Quita las variables de entorno asociadas."
 
 #: ../../source/developer/build/BUILD.md:96
-#, fuzzy
 msgid "Generate Files"
-msgstr "General"
+msgstr "Generar Archivos"
 
 #: ../../source/developer/build/BUILD.md:103
 msgid ""
 "If CMake gives you the same error message repeatedly after the build "
 "fails, try removing `CMakeCache.txt`."
 msgstr ""
+"Si CMake te da el mismo mensaje de error después de que falle la "
+"compilación, intenta eliminar `CMakeCache.txt`."
 
 #: ../../source/developer/build/BUILD.md:105
 #, fuzzy
@@ -13851,6 +14002,7 @@ msgstr "Independent Mode"
 #: ../../source/developer/build/BUILD.md:107
 msgid "The following applies for dependencies we do not grab via Conan."
 msgstr ""
+"Lo siguiente aplica para las dependencias que no se puedan obtener con Conan."
 
 #: ../../source/developer/build/BUILD.md:109
 msgid ""
@@ -13859,6 +14011,10 @@ msgid ""
 "dependencies by setting one of the three following variables to the "
 "location of the correct version of the dependency."
 msgstr ""
+"Puede modificar [la búsqueda de módulos de CMake](https://github.com/"
+"overte-org/overte/tree/master/cmake/modules) apuntando e la versión correcta "
+"de las dependencias. Para ello configurar una de las siguientes tres "
+"variables."
 
 #: ../../source/developer/build/BUILD.md:111
 msgid ""
@@ -13866,45 +14022,52 @@ msgid ""
 " the dependency in uppercase, and $name would be replaced by the name of "
 "the dependency in lowercase (ex: OPENSSL_ROOT_DIR, openssl)."
 msgstr ""
+"En los ejemplos siguientes, la variable $NAME se sustituiría por el nombre "
+"de la dependencia en mayúsculas, y $name se sustituiría por el nombre de la "
+"dependencia en minúsculas (por ejemplo: OPENSSL_ROOT_DIR, openssl)."
 
 #: ../../source/developer/build/BUILD.md:113
 msgid ""
 "$NAME_ROOT_DIR - pass this variable to Cmake with the -DNAME_ROOT_DIR= "
 "flag when running Cmake to generate build files"
 msgstr ""
+"$NAME_ROOT_DIR - pasa esta variable a Cmake con la bandera -DNAME_ROOT_DIR= "
+"para generar los archivos de compilación"
 
 #: ../../source/developer/build/BUILD.md:114
 msgid "$NAME_ROOT_DIR - set this variable in your ENV"
-msgstr ""
+msgstr "$NAME_ROOT_DIR - configura esta variable en ENV"
 
 #: ../../source/developer/build/BUILD.md:115
 msgid ""
 "HIFI_LIB_DIR - set this variable in your ENV to your Overte lib folder, "
 "should contain a folder '$name'"
 msgstr ""
+"HIFI_LIB_DIR - configura esta variable en ENV para apuntar al directorio lib "
+"de Overte, debe contener un nombre de directorio '$name'"
 
 #: ../../source/developer/build/BUILD.md:117
 msgid "Optional Components"
-msgstr ""
+msgstr "Componentes Opcionales"
 
 #: ../../source/developer/build/BUILD.md:119
-#, fuzzy
 msgid "Build Options"
-msgstr "Opción de Hornear"
+msgstr "Opciones de Compilación"
 
 #: ../../source/developer/build/BUILD.md:121
 msgid "The following build options can be used when running CMake"
 msgstr ""
+"Se pueden utilizar las siguientes opciones de compilación al ejecutar CMake"
 
 #: ../../source/developer/build/BUILD.md:123
 #, fuzzy
 msgid "OVERTE_BUILD_CLIENT"
-msgstr "BUILD_CLIENT"
+msgstr "OVERTE_BUILD_CLIENT"
 
 #: ../../source/developer/build/BUILD.md:124
 #, fuzzy
 msgid "OVERTE_BUILD_SERVER"
-msgstr "BUILD_SERVER"
+msgstr "OVERTE_BUILD_SERVER"
 
 #: ../../source/developer/build/BUILD.md:125
 #, fuzzy
@@ -13917,22 +14080,22 @@ msgid "OVERTE_BUILD_TOOLS"
 msgstr "BUILD_TOOLS"
 
 #: ../../source/developer/build/BUILD.md:128
-#, fuzzy
 msgid "Developer Build Options"
-msgstr "Documentos de Desarrollador"
+msgstr "Opciones de Compilación del Desarrollador"
 
 #: ../../source/developer/build/BUILD.md:130
+#, fuzzy
 msgid "OVERTE_RENDERING_BACKEND"
-msgstr ""
+msgstr "OVERTE_RENDERING_BACKEND"
 
 #: ../../source/developer/build/BUILD.md:131
+#, fuzzy
 msgid "OVERTE_DISABLE_QML"
-msgstr ""
+msgstr "OVERTE_DISABLE_QML"
 
 #: ../../source/developer/build/BUILD.md:133
-#, fuzzy
 msgid "Devices"
-msgstr "Servicios"
+msgstr "Dispositivos"
 
 #: ../../source/developer/build/BUILD.md:135
 msgid ""
@@ -13943,10 +14106,16 @@ msgid ""
 "org/overte/tree/master/interface/external) for the detailed explanation "
 "of the requirements to use the device."
 msgstr ""
+"Puede soportar dispositivos de entrada/salida externos como Leap Motion, "
+"MIDI, etc. añadiendo cada SDK en la ruta de construcción. Consulte el "
+"archivo readme disponible en cada carpeta de dispositivo en "
+"[interface/external/](https://github.com/overte-org/overte/tree/master/"
+"interface/external) para la explicación detallada de los requisitos para "
+"utilizar el dispositivo."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:10
 msgid "*Last Updated on December 15, 2020*"
-msgstr ""
+msgstr "*Última actualización Diciembre 15, 2020*"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:11
 msgid ""
@@ -13954,6 +14123,9 @@ msgid ""
 "changes in Qt and Gradle. Help with updating (or rewriting) the Gradle "
 "scripts would be great."
 msgstr ""
+"[ADVERTENCIA] La compilación para Android está actualmente dañada, debido a "
+"cambios en Qt y Gradle. Tu ayuda con la actualización (o reescritura) de los "
+"scripts de Gradle sería genial."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:14
 msgid ""
@@ -13972,7 +14144,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:20
 msgid "OS specific dependencies"
-msgstr ""
+msgstr "Dependencias específicas del Sistema Operativo"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:22
 msgid ""
@@ -13984,7 +14156,7 @@ msgstr ""
 #: ../../source/developer/build/BUILD_ANDROID.md:24
 #, fuzzy
 msgid "Android Studio"
-msgstr "Androide"
+msgstr "Android Studio"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:26
 msgid ""
@@ -14347,6 +14519,9 @@ msgid ""
 "builder) to build on Linux more easily. Alternatively, you can follow the"
 " manual steps below.~~ (Currently outdated.)"
 msgstr ""
+"~~Puedes usar el [Overte Builder](https://github.com/overte-org/overte-"
+"builder) para construir en Linux más fácilmente. Alternativamente, puede "
+"seguir los pasos manuales a continuación.~~ (Actualmente desactualizado.)"
 
 #: ../../source/developer/build/BUILD_LINUX.md:16
 msgid ""
@@ -14357,14 +14532,21 @@ msgid ""
 "Ubuntu version numbers are date codes and standard support is 5 years, "
 "meaning that Ubuntu 22.04 leaves standard support after around 2027-04."
 msgstr ""
+"Esta documentación asume que está ejecutando nuestra distribución de destino "
+"actual, que es Ubuntu 22.04. La distribución de destino es normalmente la "
+"última LTS de Ubuntu que aún recibe soporte estándar, aunque podemos "
+"actualizar un poco antes si necesitamos ciertos paquetes más nuevos. Los "
+"números de versión de Ubuntu son códigos de fecha y el soporte estándar es "
+"de 5 años, lo que significa que Ubuntu 22.04 deja el soporte estándar "
+"después de alrededor de 2027-04."
 
 #: ../../source/developer/build/BUILD_LINUX.md:18
 msgid "Install build tools:"
-msgstr ""
+msgstr "Instalar las herramientas de compilación:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:20
 msgid "First update the package cache and your system:"
-msgstr ""
+msgstr "Primero actualice el cache y su sistema:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:26
 msgid "Install git and g++"
@@ -14376,26 +14558,34 @@ msgid ""
 "shipped in Ubuntu 22.04, so we install CMake packages provided by "
 "upstream here: https://apt.kitware.com/"
 msgstr ""
+"Instalar CMake. Requerimos una versión de CMake más reciente que la 3.22.1, "
+"que viene en Ubuntu 22.04, así que instalamos los paquetes de CMake "
+"proporcionados por upstream aquí: https://apt.kitware.com/"
 
 #: ../../source/developer/build/BUILD_LINUX.md:34
 msgid ""
 "Install Conan Get the Conan \"Ubuntu / Debian installer\" from "
 "https://conan.io/downloads and install it using:"
 msgstr ""
+"Obtén el \"Instalador Ubuntu / Debian\" de conan desde https://conan.io/"
+"downloads e instálalo usando:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:39
 msgid "Verify Conan was installed by running `conan --version`."
-msgstr ""
+msgstr "Verifica que conan fue instalado ejecutando `conan --version`."
 
 #: ../../source/developer/build/BUILD_LINUX.md:41
 msgid "Install build dependencies:"
-msgstr ""
+msgstr "Instalar las dependencias de compilación:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:42
 msgid ""
 "Most dependencies will be automatically installed by Conan. This section "
 "only lists dependencies which might not be handled by Conan."
 msgstr ""
+"La mayoría de las dependencias serán instaladas automáticamente por Conan. "
+"Esta sección sólo enumera las dependencias que podrían no ser gestionadas "
+"por Conan."
 
 #: ../../source/developer/build/BUILD_LINUX.md:44
 #, fuzzy
@@ -14411,74 +14601,79 @@ msgid ""
 "First install mesa-utils with the command `sudo apt install mesa-utils "
 "-y`."
 msgstr ""
+"Primero instale mesa-utils con el comando `sudo apt install mesa-utils -y`."
 
 #: ../../source/developer/build/BUILD_LINUX.md:50
 msgid "Then run `glxinfo | grep \"OpenGL version\"`."
-msgstr ""
+msgstr "Luego ejecute `glxinfo | grep \"OpenGL version\"`."
 
 #: ../../source/developer/build/BUILD_LINUX.md:53
+#, fuzzy
 msgid "QT 5:"
-msgstr ""
+msgstr "QT 5:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:76
 msgid "Extra dependencies to compile Interface on a server"
-msgstr ""
+msgstr "Dependencias extra para compilar Interfaz en el servidor"
 
 #: ../../source/developer/build/BUILD_LINUX.md:79
 msgid "Install the following:"
-msgstr ""
+msgstr "Instalar lo siguiente:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:84
 msgid "Misc dependencies:"
-msgstr ""
+msgstr "Dependencias misceláneas:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:89
-#, fuzzy
 msgid "Install Python 3 and required packages:"
-msgstr "Desinstalar el paquete."
+msgstr "Instalar Python 3 y los paquetes requeridos:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:94
 msgid "Install Node.js as it is required to build the jsdoc documentation:"
 msgstr ""
+"Instala Node.js ya que es necesario para construir la documentación jsdoc:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:99
 msgid "Get code and checkout the branch you need"
-msgstr ""
+msgstr "Obtén el código y habilita la rama que necesites"
 
 #: ../../source/developer/build/BUILD_LINUX.md:101
 msgid "Clone this repository:"
-msgstr ""
+msgstr "Clona este repositorio:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:106
 msgid "Then checkout the master branch with:"
-msgstr ""
+msgstr "Luego vaya a la rama master con:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:111
 msgid "If you need a different branch, you can get a list of all tags with:"
 msgstr ""
+"Si necesitas otra rama, puedes obtener una lista de todas las etiquetas "
+"(tags) con:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:117
-#, fuzzy
 msgid "Prepare conan"
-msgstr "Prepare conan"
+msgstr "Preparar conan"
 
 #: ../../source/developer/build/BUILD_LINUX.md:119
 msgid "The next step is setting up conan"
-msgstr ""
+msgstr "El siguiente paso es configurar conan"
 
 #: ../../source/developer/build/BUILD_LINUX.md:121
 msgid "First, create a conan profile"
-msgstr ""
+msgstr "Primero, crea un perfil conan"
 
 #: ../../source/developer/build/BUILD_LINUX.md:126
 msgid "Next, add the overte remote to conan"
-msgstr ""
+msgstr "Luego, agregue el repositorio remoto de Overte a conan"
 
 #: ../../source/developer/build/BUILD_LINUX.md:131
 msgid ""
 "Optionally you can let conan automatically install the required system "
 "packages"
 msgstr ""
+"Opcionalmente, puedes dejar que conan instale de manera automática los "
+"paquetes requeridos"
 
 #: ../../source/developer/build/BUILD_LINUX.md:137
 msgid "Compiling"
@@ -14486,28 +14681,27 @@ msgstr "Compilación"
 
 #: ../../source/developer/build/BUILD_LINUX.md:139
 msgid "Install the dependencies with conan"
-msgstr ""
+msgstr "Instalar las dependencias con conan"
 
 #: ../../source/developer/build/BUILD_LINUX.md:145
 msgid "On systems with GCC 15 additional parameter is needed:"
-msgstr ""
+msgstr "En sistemas con GCC 15 se requieren parámetros adicionales:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:151
 msgid "Prepare makefiles:"
-msgstr ""
+msgstr "Preparar los makefiles:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:158
-#, fuzzy
 msgid "To compile the Domain server:"
-msgstr "Configurar un Servidor de Dominio"
+msgstr "Compilar el Servidor de Dominio:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:163
 msgid "*Note: For a server, it is not necessary to compile the Interface.*"
-msgstr ""
+msgstr "*Nota: Para un servidor, no es necesario compilar la interfaz.*"
 
 #: ../../source/developer/build/BUILD_LINUX.md:167
 msgid "To compile the Interface client:"
-msgstr ""
+msgstr "Para compilar la interfaz cliente:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:172
 msgid ""
@@ -14516,6 +14710,11 @@ msgid ""
 "x64 CPUs support two threads per core, this works out to CPU_COUNT*2. As "
 "an example, if you have a 2 core machine, you could use:"
 msgstr ""
+"Los comandos anteriores compilarán en un único hilo. Si dispone de memoria "
+"suficiente, puede reducir el tiempo de compilación utilizando el indicador "
+"`-j`. Dado que la mayoría de las CPUs x64 soportan dos hilos por núcleo, "
+"esto equivale a CPU_COUNT*2. Como ejemplo, si usted tiene una máquina de 2 "
+"núcleos, usted podría utilizar:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:177
 #, fuzzy
@@ -14528,9 +14727,8 @@ msgid "Domain server"
 msgstr "Servidor de Dominio"
 
 #: ../../source/developer/build/BUILD_LINUX.md:181
-#, fuzzy
 msgid "Running Domain server:"
-msgstr "Servidor de Dominio"
+msgstr "Ejecutando el Servidor de Dominio:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:186
 #, fuzzy
@@ -14538,28 +14736,28 @@ msgid "Assignment clients"
 msgstr "Clientes de Asignación"
 
 #: ../../source/developer/build/BUILD_LINUX.md:188
-#, fuzzy
 msgid "Running assignment client:"
-msgstr "Cliente de Asignación"
+msgstr "Ejecutando el Cliente de Asignación:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:195
-#, fuzzy
 msgid "Running Interface:"
-msgstr "Interfaz"
+msgstr "Interfaz en ejecución:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:200
 msgid ""
 "Go to \"localhost\" in the running Interface to visit your newly launched"
 " Domain server."
 msgstr ""
+"Vaya a \"localhost\" en la interfaz cliente para visitar su recién lanzado "
+"servidor de Dominio."
 
 #: ../../source/developer/build/BUILD_OSX.md:8
 msgid "Build macOS"
-msgstr ""
+msgstr "Compilar para macOS"
 
 #: ../../source/developer/build/BUILD_OSX.md:10
 msgid "*Last Updated on September 8, 2022*"
-msgstr ""
+msgstr "*Última actualización en Septiembre 8, 2022*"
 
 #: ../../source/developer/build/BUILD_OSX.md:12
 msgid ""
@@ -14568,22 +14766,30 @@ msgid ""
 "environment variables to customize your build. Only macOS specific "
 "instructions are found in this document."
 msgstr ""
+"Lee la [guía general de compilación](BUILD.md) para obtener información "
+"sobre las dependencias necesarias para todas las plataformas. Esto incluirá "
+"las variables de entorno necesarias para personalizar la compilación. En "
+"este documento sólo encontrarás instrucciones específicas para macOS."
 
 #: ../../source/developer/build/BUILD_OSX.md:16
 msgid "CMake, OpenSSL, and NPM"
-msgstr ""
+msgstr "CMake, OpenSSL, y NPM"
 
 #: ../../source/developer/build/BUILD_OSX.md:18
 msgid ""
 "[Homebrew](https://brew.sh/) is an excellent package manager for macOS. "
 "It makes the installation of some Overte dependencies very simple."
 msgstr ""
+"[Homebrew](https://brew.sh/) es un excelente gestor de paquetes para macOS. "
+"Él hace que la instalación de dependencias para Overte se simplifique."
 
 #: ../../source/developer/build/BUILD_OSX.md:24
 msgid ""
 "**Note:** You can also download alternative CMake versions from "
 "[Github](https://github.com/Kitware/CMake/releases) if needed."
 msgstr ""
+"**Nota:** Si lo necesitas, puedes descargar otras versiones de CMake desde "
+"[Github](https://github.com/Kitware/CMake/releases)."
 
 #: ../../source/developer/build/BUILD_OSX.md:26
 #, fuzzy
@@ -14596,10 +14802,14 @@ msgid ""
 "[here](https://www.python.org/downloads/). Execute the `Update Shell "
 "Profile.command` script that is provided with the installer."
 msgstr ""
+"Descarga e instala Python 3.6.6 o superior desde [aquí](https://"
+"www.python.org/downloads/). Ejecute el script `Update Shell Profile.command` "
+"que se proporciona con el instalador."
 
 #: ../../source/developer/build/BUILD_OSX.md:31
+#, fuzzy
 msgid "macOS SDK"
-msgstr ""
+msgstr "macOS SDK"
 
 #: ../../source/developer/build/BUILD_OSX.md:33
 msgid ""
@@ -27865,6 +28075,8 @@ msgid ""
 "Application: Enable resolving of relative URLs when importing entities "
 "with JSON. (#586, #672)"
 msgstr ""
+"Aplicación: Habilitar la resolución de URLs relativas al importar entidades "
+"con JSON. (#586, #672)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:13
 msgid ""
