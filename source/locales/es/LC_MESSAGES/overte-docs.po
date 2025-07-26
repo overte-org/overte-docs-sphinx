@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-07-22 10:58+0000\n"
+"PO-Revision-Date: 2025-07-26 13:22+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
@@ -30059,7 +30059,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-3-Eos.md:31
 #: ../../source/release-notes/2021-1-3-Eos.md:85
 msgid "Bug Fixes"
-msgstr ""
+msgstr "Corregir errores"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:23
 msgid ""
