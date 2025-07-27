@@ -11,8 +11,8 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-07-27 07:34+0000\n"
-"Last-Translator: Julian Groß <julian.gro@overte.org>\n"
+"PO-Revision-Date: 2025-07-27 15:50+0000\n"
+"Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
 "Language: es\n"
@@ -1416,34 +1416,30 @@ msgstr ""
 "variada, deberás usar un mapa."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:56
-#, fuzzy
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
 "property. You may use a map to apply a texture to your 3D model."
 msgstr ""
-"**Usando un mapa:** El mapa es una imagen que puedes importar para "
-"definir una propiedad. Utilizarás un mapa para aplicar una textura a tu "
-"modelo 3D."
+"**Usando un mapa:** El mapa es una imagen que puedes importar para definir "
+"una propiedad. Utilizarás un mapa para aplicar una textura a tu modelo 3D."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:57
-#, fuzzy
 msgid ""
 "For instance, your phone may have a case that is matte, while the rest of"
 " your phone is shiny. You can use a map to set the case as matte and the "
 "phone as shiny."
 msgstr ""
-"Por ejemplo, tu teléfono puede tener una carcasa que sea mate, pero el "
-"resto de tu teléfono es brillante. Puedes usar un mapa para configurar la"
-" carcasa como mate y el teléfono como brillante."
+"Por ejemplo, tu teléfono puede tener una carcasa que sea mate, pero el resto "
+"de tu teléfono es brillante. Puedes usar un mapa para configurar la carcasa "
+"como mate y el teléfono como brillante."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
-#, fuzzy
 msgid ""
 "All materials in Overte have the following channels that determine how "
 "they look:"
 msgstr ""
-"Todos los materiales en Overte tienen los siguientes canales que "
-"determinan su apariencia:"
+"Todos los materiales en Overte tienen los siguientes canales que determinan "
+"su apariencia:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:62
 msgid "Channel Type"
@@ -1500,7 +1496,6 @@ msgid "Roughness"
 msgstr "Roughness"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
-#, fuzzy
 msgid "This determines how rough/matte or glossy/shiny an object is."
 msgstr ""
 "Esto determina qué tan áspero/mate o reflectivo/brillante es un objeto, "
@@ -1563,7 +1558,6 @@ msgid "Emissive"
 msgstr "Emissive"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:82
-#, fuzzy
 msgid "This channel controls the amount of light that is coming from an object."
 msgstr "Este canal controla la cantidad de luz que se refleja en un objeto."
 
@@ -1586,9 +1580,8 @@ msgid "Material Type"
 msgstr "Material Type"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:87
-#, fuzzy
 msgid "This channel decides if an object is impacted by light."
-msgstr "Este canal decide si un objeto está encendido o apagado."
+msgstr "Este canal decide si un objeto es impactado por la luz."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:87
 msgid "[lit, unlit]"
@@ -1599,18 +1592,16 @@ msgid "Notes:"
 msgstr "Notas:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:92
-#, fuzzy
 msgid ""
 "If you set transparency with a texture, the transparency (alpha) must be "
 "in the material’s albedo texture, as a file with transparency and *not* "
 "as a separate transparency texture."
 msgstr ""
-"Si configuras la transparencia con una textura, la transparencia (alfa) "
-"debe estar en la textura del material albedo, como un archivo PNG con "
+"Si configuras la transparencia con una textura, la transparencia (alfa) debe "
+"estar en la textura del material albedo, como un archivo PNG con "
 "transparencia y *no* como una textura de transparencia separada."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:93
-#, fuzzy
 msgid ""
 "Overte renderer can draw two different kinds of transparency: \"alpha\" "
 "(255 graduates steps of transparency, no shading on surface, casts no "
@@ -1618,10 +1609,10 @@ msgid ""
 "surface, whole surface casts shadow.)"
 msgstr ""
 "El renderizador de Overte puede dibujar dos tipos diferentes de "
-"transparencia: \"alfa\" (255 pasos graduados de transparencia, sin "
-"sombreado en la superficie, sin proyectar sombras) y \"mask\" "
-"(transparencia binaria, sombreado completo de la superficie opaca, toda "
-"la superficie proyecta la sombra)."
+"transparencia: \"alfa\" (255 pasos graduados de transparencia, sin sombreado "
+"en la superficie, sin proyectar sombras) y \"mask\" (transparencia binaria, "
+"sombreado completo de la superficie opaca, toda la superficie proyecta la "
+"sombra)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:94
 msgid ""
@@ -1645,7 +1636,6 @@ msgid "Sample Materials and Their Textures and Shading"
 msgstr "Materiales de Muestra y sus Texturas y Sombreado"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:101
-#, fuzzy
 msgid ""
 "Overte supports different types of materials. We've created sample "
 "objects with each material type. You can download each object from `this "
@@ -1656,14 +1646,13 @@ msgid ""
 "org/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
 " in Overte to upload all sample objects in your domain."
 msgstr ""
-"Overte admite diferentes tipos de material. Hemos creado objetos de "
-"muestra con cada tipo de material. Puedes descargar cada objeto desde "
-"`este repositorio <https://github.com/overte-"
-"org/hifi_tests/tree/master/assets/models/material_matrix_models/fbx/blender>`_"
-" en GitHub, o ejecutar `este archivo <https://raw.githubusercontent.com"
-"/overte-"
-"org/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
-" en Overte para cargar todos los objetos de muestra en tu dominio."
+"Overte admite diferentes tipos de material. Hemos creado objetos de muestra "
+"con cada tipo de material. Puedes descargar cada objeto desde `este "
+"repositorio <https://github.com/overte-org/hifi_tests/tree/master/assets/"
+"models/material_matrix_models/fbx/blender>`_ en GitHub, o ejecutar `este "
+"archivo <https://raw.githubusercontent.com/overte-org/hifi_tests/master/"
+"assets/models/material_matrix_models/material_matrix.js>`_ en Overte para "
+"cargar todos los objetos de muestra en tu dominio."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:108
 msgid ""
@@ -1686,17 +1675,16 @@ msgid "This section is outdated."
 msgstr "Esta sección está desactualizada."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:120
-#, fuzzy
 msgid ""
 "When you create a model in Blender, you have to export it in FBX, glTF, "
 "GLB or OBJ format to use in Overte. Additionally, you have to modify "
 "material properties and textures in Blender to match the PBR material "
 "textures in Overte."
 msgstr ""
-"Cuando creas un modelo en Blender, debes exportarlo en formato FBX, glTF,"
-" GLB u OBJ para usarlo en Vircadia. Además, debes modificar las "
-"propiedades y texturas del material en Blender para que coincidan con las"
-" texturas del material PBR en Vircadia."
+"Cuando creas un modelo en Blender, debes exportarlo en formato FBX, glTF, "
+"GLB u OBJ para usarlo en Vircadia. Además, debes modificar las propiedades y "
+"texturas del material en Blender para que coincidan con las texturas del "
+"material PBR en Overte."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:122
 msgid "Doing so ensures that your model appears how you intend it to."
@@ -1718,7 +1706,6 @@ msgstr ""
 "texturas de escala de grises y colores de vértice."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:127
-#, fuzzy
 msgid ""
 "We've included images where the fields corresponding to each supported "
 "PBR channel in Blender are highlighted, along with details about which "
@@ -1726,11 +1713,11 @@ msgid ""
 "channel. It should be noted that models exported as OBJ may not have full"
 " PBR material support in Overte yet."
 msgstr ""
-"Hemos incluido imágenes donde se resaltan los campos correspondientes a "
-"cada canal PBR admitido en Blender, junto con detalles sobre qué valores "
-"y colores corresponden al rango correspondiente de ese canal. Cabe "
-"señalar que es posible que los modelos exportados como OBJ aún no tengan "
-"soporte de material PBR completo en Overte."
+"Hemos incluido imágenes donde se resaltan los campos correspondientes a cada "
+"canal PBR admitido en Blender, junto con detalles sobre qué valores y "
+"colores corresponden al rango correspondiente de ese canal. Cabe señalar que "
+"es posible que los modelos exportados como OBJ aún no tengan soporte de "
+"material PBR completo en Overte."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:136
 msgid "Set Material Values in Maya"
@@ -1771,31 +1758,28 @@ msgstr ""
 "alta fidelidad(HiFi), potencialmente más."
 
 #: ../../source/create/applications.rst:9
-#, fuzzy
 msgid ""
 "THIS GUIDE IS OUT OF DATE. THE CODE MAY NOT WORK EXACTLY AS OUTLINED, USE"
 " FOR REFERENCE ONLY UNTIL UPDATED. SEE `API "
 "DOCS<https://apidocs.overte.org/>` FOR MORE."
 msgstr ""
-"ESTA GUÍA NO ESTÁ ACTUALIZADA. EL CÓDIGO PUEDE NO FUNCIONAR EXACTAMENTE "
-"COMO SE INDICA, UTILÍZALO COMO REFERENCIA SOLAMENTE HASTA QUE SE "
-"ACTUALIZE. CONSULTE LOS`DOCUMENTOS DE API<https://apidocs.vircadia.dev/>`"
-" PARA MÁS INFORMACIÓN."
+"ESTA GUÍA NO ESTÁ ACTUALIZADA. EL CÓDIGO PUEDE NO FUNCIONAR EXACTAMENTE COMO "
+"SE INDICA, UTILÍZALO COMO REFERENCIA SOLAMENTE HASTA QUE SE ACTUALICE. "
+"CONSULTE LOS`DOCUMENTOS DE LA API<https://apidocs.overte.org/>` PARA MÁS "
+"INFORMACIÓN."
 
 #: ../../source/create/applications.rst:11
-#, fuzzy
 msgid ""
 "Tablet apps (or simply \"apps\") in Overte are customizable programs that"
 " expose functionality in an easy-to-use user interface. Apps let you take"
 " complex code from our `JavaScript API <https://apidocs.overte.org>`_ and"
 " simplify it into a window with controls for others to use."
 msgstr ""
-"Las aplicaciones para Tablet (o simplemente \"aplicaciones\") en Overte "
-"son programas personalizables que exponen la funcionalidad en una "
-"interfaz de usuario fácil de usar. Las aplicaciones le permiten tomar "
-"código complejo de nuestra `API de JavaScript "
-"<https://apidocs.overte.org>`_ y simplificarlo en una ventana con "
-"controles para que otros lo usen."
+"Las aplicaciones para Tablet (o simplemente \"aplicaciones\") en Overte son "
+"programas personalizables que exponen la funcionalidad en una interfaz de "
+"usuario fácil de usar. Las aplicaciones le permiten tomar código complejo de "
+"nuestra `API de JavaScript <https://apidocs.overte.org>`_ y simplificarlo en "
+"una ventana con controles para que otros lo usen."
 
 #: ../../source/create/applications.rst:15
 msgid ""
@@ -2067,7 +2051,6 @@ msgid "**Listen for events**"
 msgstr "**Escucha los eventos**"
 
 #: ../../source/create/applications.rst:182
-#, fuzzy
 msgid ""
 "In step 3 above, we `added event handlers <#add-event-handlers-to-your-"
 "files>`_ to your HTML file. Now, you need to add code to your JavaScript "
@@ -2075,59 +2058,55 @@ msgid ""
 msgstr ""
 "En el paso 3 anterior, `agregamos manejadores de eventos <#add-event-"
 "handlers-to-your-files>`_ a tu archivo HTML. Ahora, necesitas agregar código "
-"a tu archivo JavaScript para escuchar los eventos::"
+"a tu archivo JavaScript para escuchar los eventos:"
 
 #: ../../source/create/applications.rst:191
 msgid "Create gemstones"
 msgstr "Crear gemas"
 
 #: ../../source/create/applications.rst:193
-#, fuzzy
 msgid ""
 "The final step is to code the behavior of your JavaScript file. In this "
 "case, we'll create gemstones using Overte's JavaScript API. Each gemstone"
 " will be created as an entity, and we can change the gemstone's "
 "properties using the ``Entity`` namespace."
 msgstr ""
-"El último paso es codificar el comportamiento de tu archivo JavaScript. "
-"En este caso, crearemos gemas utilizando la API JavaScript de Overte. "
-"Cada gema se creará como una entidad, y podremos cambiar las propiedades "
-"de la gema utilizando el espacio de nombres ``Entidad``."
+"El último paso es codificar el comportamiento de tu archivo JavaScript. En "
+"este caso, crearemos gemas utilizando la API JavaScript de Overte. Cada gema "
+"se creará como una entidad, y podremos cambiar las propiedades de la gema "
+"utilizando el espacio de nombres ``Entidad``."
 
 #: ../../source/create/applications.rst:195
 msgid "**Calculate the position of each new gemstone**"
 msgstr "**Calcular la posición de cada nueva gema**"
 
 #: ../../source/create/applications.rst:197
-#, fuzzy
 msgid "The following code gives us a position right in front of the user::"
-msgstr "El siguiente código nos da una posición justo frente al usuario::"
+msgstr "El siguiente código nos da una posición justo frente al usuario:"
 
 #: ../../source/create/applications.rst:209
 msgid "**Set the gemstone's properties and add it**"
 msgstr "**Establecer las propiedades de la gema y agregarla**"
 
 #: ../../source/create/applications.rst:211
-#, fuzzy
 msgid ""
 "The gemstone will be created when gemstoneApp.js receives click events "
 "from each of the buttons::"
 msgstr ""
-"La gema se creará cuando gemstoneApp.js reciba eventos de click de cada "
-"uno de los botones::"
+"La gema se creará cuando gemstoneApp.js reciba eventos de click de cada uno "
+"de los botones:"
 
 #: ../../source/create/applications.rst:289
-#, fuzzy
 msgid ""
 "Congratulations, you have successfully created an app in Overte! To use "
 "your app, upload it to a cloud platform, such as Amazon S3, Google Cloud "
 "Storage, Microsoft Azure, etc. Once hosted, you can install it and use "
 "it:"
 msgstr ""
-"¡Felicitaciones, has creado con éxito una aplicación en Overte! Para usar"
-" tu aplicación, cárgala en una plataforma en la nube, como Amazon S3, "
-"Google Cloud Storage, Microsoft Azure, etc. Una vez alojada, puede "
-"instalarla y usarla:"
+"¡Felicitaciones, has creado con éxito una aplicación en Overte! Para usar tu "
+"aplicación, cárgala en una plataforma en la nube, como Amazon S3, Google "
+"Cloud Storage, Microsoft Azure, etc. Una vez alojada, puede instalarla y "
+"usarla:"
 
 #: ../../source/create/applications.rst:291
 msgid "In Interface, go to **Edit > Running Scripts**."
@@ -2152,22 +2131,19 @@ msgid ":doc:`Write Your Own Scripts <../script/write-scripts>`"
 msgstr ":doc:`Escribe Tus Propios Archivos <../script/write-scripts>`"
 
 #: ../../source/create/applications.rst:300
-#, fuzzy
 msgid "`API Reference: Entities <https://apidocs.overte.org/Entities.html>`_"
-msgstr "`Referencia de API: Entidades <https://apidocs.overte.org/Entities.html>`_"
+msgstr ""
+"`Referencia de API: Entidades <https://apidocs.overte.org/Entities.html>`_"
 
 #: ../../source/create/applications.rst:301
-#, fuzzy
 msgid "`API Reference: Script <https://apidocs.overte.org/Script.html>`_"
 msgstr "`Referencia de API: Archivo <https://apidocs.overte.org/Script.html>`_"
 
 #: ../../source/create/applications.rst:302
-#, fuzzy
 msgid "`API Reference: Quat <https://apidocs.overte.org/Quat.html>`_"
 msgstr "`Referencia de API: Quat <https://apidocs.overte.org/Quat.html>`_"
 
 #: ../../source/create/applications.rst:303
-#, fuzzy
 msgid "`API Reference: Vec3 <https://apidocs.overte.org/Vec3.html>`_"
 msgstr "`Referencia de API: Vec3 <https://apidocs.overte.org/Vec3.html>`_"
 
@@ -2210,7 +2186,6 @@ msgid "Tutorial: Add a Scattering Effect"
 msgstr "Tutorial: Agrega un Efecto de Dispersión"
 
 #: ../../source/create/avatars.rst:5
-#, fuzzy
 msgid ""
 "When you first use Overte, you will be wearing the default avatar. Your "
 "avatar is a representation of you in the metaverse. You can make your "
@@ -2218,11 +2193,11 @@ msgid ""
 "avatars must be hosted somewhere in the cloud so that Overte can access "
 "it."
 msgstr ""
-"Cuando usas Vircadia por primera vez, usarás un avatar predeterminado. Tu"
-" avatar es una representación tuya en el metaverso. Puedes hacer que tu "
-"tiempo en Vircadia sea único creando tu propio avatar. Todos los avatares"
-" personalizados deben estar alojados en algún lugar de la nube para que "
-"Vircadia pueda acceder a ellos."
+"Cuando usas Overte por primera vez, usarás un avatar predeterminado. Tu "
+"avatar es una representación tuya en el metaverso. Puedes hacer que tu "
+"tiempo en Overte sea único creando tu propio avatar. Todos los avatares "
+"personalizados deben estar alojados en algún lugar de la nube para que "
+"Overte pueda acceder a ellos."
 
 #: ../../source/create/avatars/add-flow.rst:2
 msgid "This document is outdated. FIXME: Links to HiFi hosted resources"
@@ -2231,7 +2206,6 @@ msgstr ""
 " alojados en HiFi (High Fidelity)"
 
 #: ../../source/create/avatars/add-flow.rst:9
-#, fuzzy
 msgid ""
 "You can simulate physics on your avatar's hair, clothes, and body parts "
 "with a little bit of scripting and the help of Overte's flow "
@@ -2241,15 +2215,14 @@ msgid ""
 "<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_."
 " In order to use the Flow App, your avatar must contain flow threads."
 msgstr ""
-"Puedes simular la física en el cabello, la ropa y las partes del cuerpo "
-"de tu avatar con un poco de programación y la ayuda de la funcionalidad "
-"flow de Overte. El concepto de \"Flow\" se trata simplemente de imitar el"
-" movimiento natural del cabello y otros accesorios de su avatar. Puedes "
-"cambiar fácilmente la configuración de flow de tu avatar utilizando la "
-"`Aplicación Flow "
-"<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_."
-" Para utilizar la aplicación Flow, tu avatar debe contener hilos de flujo"
-" (flow threads)."
+"Puedes simular la física en el cabello, la ropa y las partes del cuerpo de "
+"tu avatar con un poco de programación y la ayuda de la funcionalidad flow de "
+"Overte. El concepto de \"Flow\" se trata simplemente de imitar el movimiento "
+"natural del cabello y otros accesorios de su avatar. Puedes cambiar "
+"fácilmente la configuración de flow de tu avatar utilizando la `Aplicación "
+"Flow <https://docs.overte.org/_static/resources/script/flow/flowAppCpp/"
+"flowAppCpp.js>`_. Para utilizar la aplicación Flow, tu avatar debe contener "
+"hilos de flujo (flow threads)."
 
 #: ../../source/create/avatars/add-flow.rst:16
 msgid "Prepare Your Avatar"
@@ -2305,17 +2278,15 @@ msgid "Flow App"
 msgstr "Aplicación Flow"
 
 #: ../../source/create/avatars/add-flow.rst:31
-#, fuzzy
 msgid ""
 "Load the `Flow app "
 "<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_"
 " into Overte to configure your flow settings. See :doc:`Load an Interface"
 " Script </script/interface-scripts>`"
 msgstr ""
-"Carga la `aplicación Flow "
-"<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_"
-" en Overte para configurar tus ajustes de flujo. Mira :doc:`Cargar un "
-"script de Interfaz</script/interface-scripts>`"
+"Carga la `aplicación Flow <https://docs.overte.org/_static/resources/script/"
+"flow/flowAppCpp/flowAppCpp.js>`_ en Overte para configurar tus ajustes de "
+"flujo. Mira :doc:`Cargar un script de Interfaz</script/interface-scripts>`"
 
 #: ../../source/create/avatars/add-flow.rst:33
 msgid ""
@@ -2536,14 +2507,12 @@ msgstr ""
 "conocimientos avanzados de avatares."
 
 #: ../../source/create/avatars/add-flow.rst:117
-#, fuzzy
 msgid ""
 "`flowAppCpp.js <https://docs.overte.org/ "
 "_static/resources/script/flow/flowAppCpp/ flowAppCpp.js>`_"
 msgstr ""
-"`flowAppCpp.js "
-"<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/ "
-"flowAppCpp.js>`_"
+"`flowAppCpp.js <https://docs.overte.org/_static/resources/script/flow/"
+"flowAppCpp/ flowAppCpp.js>`_"
 
 #: ../../source/create/avatars/add-flow.rst:121
 msgid "Mannequin with Hair"
@@ -2774,22 +2743,21 @@ msgid "![](_images/hifi-skel.png)"
 msgstr "![](_images/hifi-skel.png)"
 
 #: ../../source/create/avatars/avatar-standards.md:41
-#, fuzzy
 msgid ""
 "You can download the standard Overte skeleton [here](http://hifi-"
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
 "Puedes descargar el esqueleto estándar de Overte [aquí](http://hifi-"
-"content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
-" Este esqueleto se ajusta a las especificaciones anteriores."
+"content.s3.amazonaws.com/Examples%20Content/skeleton/"
+"standard_hifi_skeleton.fbx). Este esqueleto se ajusta a las especificaciones "
+"anteriores."
 
 #: ../../source/create/avatars/avatar-standards.md:43
 msgid "Skeleton"
 msgstr "Esqueleto"
 
 #: ../../source/create/avatars/avatar-standards.md:44
-#, fuzzy
 msgid ""
 "The standard humanoid skeleton of your avatar should follow [HumanIK "
 "Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
@@ -2799,16 +2767,15 @@ msgid ""
 "devices to control their avatar's arm and finger movements (if they have "
 "any)."
 msgstr ""
-"El esqueleto humanoide estándar de tu avatar debe seguir el [Esqueleto "
-"HumanIK](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
-"/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) con algunas "
-"modificaciones hechas para Mixamo. Este sistema de esqueleto funcionará "
-"con los sistemas de entrada que ya existen en Overte y permitirá a los "
-"usuarios usar sus dispositivos de entrada para controlar los movimientos "
-"de los dedos y los brazos de su avatar (si los tienen)."
+"El esqueleto humanoide estándar de tu avatar debe seguir el "
+"[Esqueleto HumanIK](http://download.autodesk.com/global/docs/maya2014/en_us/"
+"index.html?url=files/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) con "
+"algunas modificaciones hechas para Mixamo. Este sistema de esqueleto "
+"funcionará con los sistemas de entrada que ya existen en Overte y permitirá "
+"a los usuarios usar sus dispositivos de entrada para controlar los "
+"movimientos de los dedos y los brazos de su avatar (si los tienen)."
 
 #: ../../source/create/avatars/avatar-standards.md:46
-#, fuzzy
 msgid ""
 "Overte avatars should match the following standard skeletal structure. "
 "Each of these joints can be animated."
@@ -2877,7 +2844,6 @@ msgid "Blendshapes"
 msgstr "Blendshapes (Interpolación de Formas)"
 
 #: ../../source/create/avatars/avatar-standards.md:96
-#, fuzzy
 msgid ""
 "Overte uses blendshapes to animate your avatar's face. Blendshapes allow "
 "you to specify a new state for your avatar's mesh, and facial positions "
@@ -2890,18 +2856,17 @@ msgid ""
 "expressions."
 msgstr ""
 "Overte usa blendshapes (formas de combinación) para animar la cara de tu "
-"avatar. Blendshapes te permite especificar un nuevo estado para la malla "
-"de tu avatar, y las posiciones faciales se animan al moverse entre los "
-"diferentes estados de las expresiones de tu avatar. Los comportamientos "
-"de Blendshape se definen en el archivo FST de tu avatar y se agregan a la"
-" malla del avatar utilizando una herramienta de modelado 3D como Blender "
-"(Shape Keys) o Maya. El programa Fuse de Adobe y la canalización de "
-"Mixamo te permiten exportar blendshapes como parte de tu FBX, pero si "
-"estás modelando un avatar desde cero, es probable que debas especificar "
-"sus propias expresiones faciales."
+"avatar. Blendshapes te permite especificar un nuevo estado para la malla de "
+"tu avatar, y las posiciones faciales se animan al moverse entre los "
+"diferentes estados de las expresiones de tu avatar. Los comportamientos de "
+"Blendshape se definen en el archivo FST de tu avatar y se agregan a la malla "
+"del avatar utilizando una herramienta de modelado 3D como Blender (Shape "
+"Keys) o Maya. El programa Fuse de Adobe y la canalización de Mixamo te "
+"permiten exportar blendshapes como parte de tu FBX, pero si estás modelando "
+"un avatar desde cero, es probable que debas especificar sus propias "
+"expresiones faciales."
 
 #: ../../source/create/avatars/avatar-standards.md:98
-#, fuzzy
 msgid ""
 "Overte avatars support a number of blendshapes for creating different "
 "facial expressions."
@@ -3072,7 +3037,6 @@ msgid "**ReadyPlayerMe Blendshapes**"
 msgstr "**Blendshapes de ReadyPlayerMe**"
 
 #: ../../source/create/avatars/avatar-standards.md:169
-#, fuzzy
 msgid ""
 "ReadyPlayerMe blendshapes are converted into Overte blendshapes "
 "automatically."
@@ -3421,7 +3385,6 @@ msgstr ""
 "otros avatares o entidades chocan contigo."
 
 #: ../../source/create/avatars/avatar-standards.md:264
-#, fuzzy
 msgid ""
 "Depending on the avatar's design, the collision hulls can be very large "
 "or small. This occurs because Overte analyzes the shape of the avatar's "
@@ -3432,30 +3395,29 @@ msgid ""
 "collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
 "Dependiendo del diseño del avatar, los cascos de colisión pueden ser muy "
-"grandes o pequeños. Esto ocurre porque Overte analiza la forma del torso "
-"del avatar (desde las caderas hasta la cabeza) y trata de encontrar la "
-"mejor forma que rodee a la malla. Por ejemplo, si tu avatar tiene caderas"
-" grandes o tal vez una cola completamente extendida, Overte piensa que la"
-" punta de la cola es parte de sus caderas y crea un casco de colisión muy"
-" grande. Para reducir el tamaño del casco de colisión, puede agregar "
-"uniones de esqueleto a la cola de tu avatar."
+"grandes o pequeños. Esto ocurre porque Overte analiza la forma del torso del "
+"avatar (desde las caderas hasta la cabeza) y trata de encontrar la mejor "
+"forma que rodee a la malla. Por ejemplo, si tu avatar tiene caderas grandes "
+"o tal vez una cola completamente extendida, Overte piensa que la punta de la "
+"cola es parte de sus caderas y crea un casco de colisión muy grande. Para "
+"reducir el tamaño del casco de colisión, puede agregar uniones de esqueleto "
+"a la cola de tu avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:267
 msgid "Avatar Thumbnails"
 msgstr "Miniaturas de Avatar"
 
 #: ../../source/create/avatars/avatar-standards.md:269
-#, fuzzy
 msgid ""
 "The Avatar app will look for a thumbnail with a .jpg extension with the "
 "same name and at the same URL location as your avatar's. For example, if "
 "your avatar is hosted at `https://overte.org/avatar.fbx`, then it will "
 "look for a thumbnail at `https://overte.org/avatar.jpg`."
 msgstr ""
-"La aplicación de Avatar buscará una miniatura con una extensión .jpg con "
-"el mismo nombre y en la misma ubicación URL que la de tu avatar. Por "
-"ejemplo, si tu avatar está alojado en `https://overte.org/avatar.fbx`, "
-"luego buscará una miniatura en `https://overte.org/avatar.jpg`."
+"La aplicación de Avatar buscará una miniatura con una extensión .jpg con el "
+"mismo nombre y en la misma ubicación URL que la de tu avatar. Por ejemplo, "
+"si tu avatar está alojado en `https://overte.org/avatar.fbx`, luego buscará "
+"una miniatura en `https://overte.org/avatar.jpg`."
 
 #: ../../source/create/avatars/avatar-standards.md:274
 #: ../../source/create/avatars/blender-tutorial.md:55
@@ -3476,7 +3438,6 @@ msgid "Tutorial: Modify Materials and Textures Using Blender"
 msgstr "Tutorial: Modificar Materiales y Texturas usando Blender"
 
 #: ../../source/create/avatars/blender-tutorial.md:8
-#, fuzzy
 msgid ""
 "Blender is an open-source 3D modeling tool that you can use to fine tune "
 "your avatar and ensure that the materials and textures render correctly "
@@ -3590,7 +3551,6 @@ msgid "Click the 'Export FBX' button."
 msgstr "Click en el botón \"Export FBX\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:32
-#, fuzzy
 msgid "Now, you are ready to bring your avatar into Overte."
 msgstr "Ahora, estás listo para traer tu avatar a Overte."
 
@@ -3740,7 +3700,6 @@ msgstr ""
 "CGTrader"
 
 #: ../../source/create/avatars/create-avatars.rst:15
-#, fuzzy
 msgid ""
 "If you get an avatar from an external source such as TurboSquid, "
 "CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does"
@@ -3752,19 +3711,19 @@ msgstr ""
 "Si obtienes un avatar de una fuente externa como TurboSquid, CGTrader, "
 "MakeHuman o VRoid Studio, es probable que el esqueleto no coincida con "
 "nuestro :doc:`Estándares de Avatar <avatar-standards>`. Para usar estos "
-"avatares en Overte, utiliza el `Exportador de Avatares de Overte para "
-"Unity <find-avatars.html#overte-avatar-exporter-for-unity>`_ para mapear "
+"avatares en Overte, utiliza el `Exportador de Avatares de Overte para Unity "
+"<find-avatars.html#overte-avatar-exporter-for-unity>`_ para mapear "
 "correctamente el esqueleto y empaquetar tu avatar."
 
 #: ../../source/create/avatars/create-avatars.rst:17
-#, fuzzy
 msgid ""
 "If you want to create an avatar from scratch, this page covers the steps "
 "needed to create, rig, and package your avatar. Learn more about the "
 ":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
-"Si deseas crear un avatar desde cero, esta página cubre los pasos "
-"necesarios para crear, manipular y empaquetar tu avatar."
+"Si deseas crear un avatar desde cero, esta página cubre los pasos necesarios "
+"para crear, manipular y empaquetar tu avatar. Aprenda más acerca de la :doc:`"
+"seguridad de tus activos <../../security/asset-security>`."
 
 #: ../../source/create/avatars/create-avatars.rst:22
 #: ../../source/explore/get-started.rst:7 ../../source/host/add-content.rst:7
@@ -3795,7 +3754,6 @@ msgid "Fine tune your avatar using a tool such as Blender or Maya."
 msgstr "Refina tu avatar usando una herramienta como Blender o Maya."
 
 #: ../../source/create/avatars/create-avatars.rst:39
-#, fuzzy
 msgid "Package the model in Overte for use as an avatar."
 msgstr "Empaqueta el modelo en Overte para usarlo como avatar."
 
@@ -3812,7 +3770,6 @@ msgid "Community Tools for Avatars"
 msgstr "Herramientas de la Comunidad para Avatares"
 
 #: ../../source/create/avatars/create-avatars.rst:48
-#, fuzzy
 msgid ""
 "As you're creating your avatar, remember that Overte is an open-source "
 "project. Many of our community members have created plug-ins, add-ons, "
@@ -3820,8 +3777,8 @@ msgid ""
 "avatars. Here are a few for you to play around with."
 msgstr ""
 "Mientras creas tu avatar, recuerda que Overte es un proyecto de código "
-"abierto. Muchos de los miembros de nuestra comunidad han creado plug-ins,"
-" add-ons, kits de herramientas, esqueletos y más para ayudarte a crear "
+"abierto. Muchos de los miembros de nuestra comunidad han creado plug-ins, "
+"add-ons, kits de herramientas, esqueletos y más para ayudarte a crear "
 "contenido, incluso avatares. Aquí hay algunos para que juegues."
 
 #: ../../source/create/avatars/create-avatars.rst:52
@@ -3851,7 +3808,6 @@ msgstr ""
 " usar en Overte."
 
 #: ../../source/create/avatars/create-avatars.rst:57
-#, fuzzy
 msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Overte and "
 "let you configure bone names for use in advanced scripts."
@@ -3861,31 +3817,28 @@ msgstr ""
 "avanzados."
 
 #: ../../source/create/avatars/create-avatars.rst:58
-#, fuzzy
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Overte."
 msgstr ""
-"**Convertidores de Avatar**: Traduce y corrige modelos y materiales de "
-"MMD y Mixamo para que funcionen en Overte."
+"**Convertidores de Avatar**: Traduce y corrige modelos y materiales de MMD y "
+"Mixamo para que funcionen en Overte."
 
 #: ../../source/create/avatars/create-avatars.rst:59
-#, fuzzy
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Overte."
 msgstr ""
-"**Herramientas de Exportación**: Exporta avatares y escenas para que "
-"puedan ser usados en Overte."
+"**Herramientas de Exportación**: Exporta avatares y escenas para que puedan "
+"ser usados en Overte."
 
 #: ../../source/create/avatars/create-avatars.rst:60
-#, fuzzy
 msgid ""
 "**Import Tools**: Imports primitive entities from Overte so that you can "
 "make modifications to them."
 msgstr ""
-"**Herramientas de Importación**: Importa entidades primitivas de Overte "
-"para que puedas realizarles modificaciones."
+"**Herramientas de Importación**: Importa entidades primitivas de Overte para "
+"que puedas realizarles modificaciones."
 
 #: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
@@ -3922,17 +3875,16 @@ msgstr ""
 "contenido alojado en HiFi"
 
 #: ../../source/create/avatars/custom-animations.rst:9
-#, fuzzy
 msgid ""
 "You can express yourself by overriding Overte's standard set of "
 "animations with your own custom animations such as dancing, juggling, or "
 "waving. Any custom animations you set up will be independent to each "
 "avatar you own and wear."
 msgstr ""
-"Puedes expresarte reemplazando el conjunto estándar de animaciones de "
-"Overte con tus propias animaciones personalizadas, como bailar, hacer "
-"malabarismos o saludar. Cualquier animación personalizada que configures "
-"será independiente de cada avatar que poseas y uses."
+"Puedes expresarte reemplazando el conjunto estándar de animaciones de Overte "
+"con tus propias animaciones personalizadas, como bailar, hacer malabarismos "
+"o saludar. Cualquier animación personalizada que configures será "
+"independiente de cada avatar que poseas y uses."
 
 #: ../../source/create/avatars/custom-animations.rst:11
 msgid ""
@@ -3975,10 +3927,9 @@ msgid ""
 "bx>`_ is the standard animation file for your avatar turning left."
 msgstr ""
 "Las animaciones de avatar son archivos FBX que definen cómo se mueve tu "
-"avatar. Por ejemplo, `turn_left.fbx <https://github.com/overte-"
-"org/overte/blob/master/interface/resources/avatar/animations/turn_left.fbx>`_"
-" es el archivo de animación estándar para que tu avatar gire a la "
-"izquierda."
+"avatar. Por ejemplo, `turn_left.fbx <https://github.com/overte-org/overte/"
+"blob/master/interface/resources/avatar/animations/turn_left.fbx>`_ es el "
+"archivo de animación estándar para que tu avatar gire a la izquierda."
 
 #: ../../source/create/avatars/custom-animations.rst:29
 msgid "Animation roles"
@@ -4006,7 +3957,6 @@ msgid "Avatar Animation JSON or Animation Graph File"
 msgstr "Animación de Avatar JSON o Archivo Gráfico de Animación"
 
 #: ../../source/create/avatars/custom-animations.rst:35
-#, fuzzy
 msgid ""
 "The standard animation system blends and layers a series of animations "
 "from FBX files using a JSON data file. This JSON file is called the "
@@ -4020,13 +3970,12 @@ msgstr ""
 "El sistema de animación estándar combina y superpone una serie de "
 "animaciones de archivos FBX utilizando un archivo de datos JSON. Este "
 "archivo JSON se denomina archivo gráfico de animación y especifica "
-"exactamente qué animaciones reproducir y cómo combinarlas. También "
-"determina el orden de las operaciones, de modo que operaciones como la "
-"cinemática inversa ocurren después de que el resto del cuerpo ha sido "
-"animado por medios tradicionales. Por defecto, cada avatar usa el mismo "
-"`Archivo Gráfico de Animación <https://github.com/overte-"
-"org/overte/blob/master/interface/resources/avatar/avatar-"
-"animation.json>`_."
+"exactamente qué animaciones reproducir y cómo combinarlas. También determina "
+"el orden de las operaciones, de modo que operaciones como la cinemática "
+"inversa ocurren después de que el resto del cuerpo ha sido animado por "
+"medios tradicionales. Por defecto, cada avatar usa el mismo `Archivo Gráfico "
+"de Animación <https://github.com/overte-org/overt e/blob/master/interface/"
+"resources/avatar/avatar-animation.json>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:46
 msgid "Prepare Your Custom Animation"
@@ -4044,7 +3993,6 @@ msgstr ""
 "pautas:"
 
 #: ../../source/create/avatars/custom-animations.rst:50
-#, fuzzy
 msgid "Animations must have standard joint names for Overte."
 msgstr "Las animaciones deben tener nombres comunes estándar para Overte."
 
@@ -4123,16 +4071,15 @@ msgid "Override Using a Script"
 msgstr "Reemplazar Usando un archivo Script"
 
 #: ../../source/create/avatars/custom-animations.rst:74
-#, fuzzy
 msgid ""
 "You can `write a script <../../script/write-scripts.html>`_ and use the "
 "`MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_ namespace to "
 "override an existing animation or animation role."
 msgstr ""
 "Puedes `escribir un script <../../script/write-scripts.html>`_ y usar el "
-"espacio de nombres (namespace) `MyAvatar "
-"<https://apidocs.overte.org/MyAvatar.html>`_ para reemplazar una "
-"animación o función de animación existente."
+"espacio de nombres (namespace) `MyAvatar <https://apidocs.overte.org/"
+"MyAvatar.html>`_ para reemplazar una animación o función de animación "
+"existente."
 
 #: ../../source/create/avatars/custom-animations.rst:76
 msgid ""
@@ -4154,8 +4101,8 @@ msgid ""
 "`MyAvatar.overrideAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.overrideAnimation>`_"
 msgstr ""
-"`MyAvatar.overrideAnimation "
-"<https://apidocs.overte.org/MyAvatar.html#.overrideAnimation>`_"
+"`MyAvatar.overrideAnimation <https://apidocs.overte.org/"
+"MyAvatar.html#.overrideAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
@@ -12895,7 +12842,6 @@ msgstr "Crear una Paleta de Pintura"
 #: ../../source/developer/build/BUILD_LINUX.md:193
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
-#, fuzzy
 msgid "Interface"
 msgstr "Interface"
 
@@ -15227,6 +15173,8 @@ msgid ""
 "Navigate to 'Edit the System Environment Variables' Through the Start "
 "menu."
 msgstr ""
+"Navegue hasta ‘Editar las variables de entorno del sistema’ a través del "
+"menú Inicio."
 
 #: ../../source/developer/build/BUILD_WIN.md:72
 msgid "Click on 'Environment Variables'"
@@ -15349,12 +15297,18 @@ msgid ""
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar `Debug > Start Debugging`."
 msgstr ""
+"En Visual Studio, haz clic derecho sobre \"interface\" dentro de la carpeta "
+"Apps en el Explorador de soluciones y selecciona "
+"\"Establecer como proyecto de inicio\". Ejecuta desde la barra de menú: "
+"Depurar > Iniciar depuración."
 
 #: ../../source/developer/build/BUILD_WIN.md:122
 msgid ""
 "Now, you should have a full build of Overte and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
+"Ahora deberías tener una compilación completa de Overte y poder ejecutar la "
+"Interface utilizando Visual Studio."
 
 #: ../../source/developer/build/BUILD_WIN.md:124
 msgid ""
@@ -15362,19 +15316,21 @@ msgid ""
 "File Explorer from "
 "`%OVERTE_DIR%\\build\\interface\\Release\\interface.exe`"
 msgstr ""
+"Nota: También puedes ejecutar la Interface iniciándola desde la línea de "
+"comandos o el Explorador de archivos desde `%OVERTE_DIR%\\build\\interface"
+"\\Release\\interface.exe`"
 
 #: ../../source/developer/build/BUILD_WIN.md:128
 msgid "For any problems after Step #7, first try this:"
-msgstr ""
+msgstr "En caso de problemas después del Paso #7, intenta lo siguiente:"
 
 #: ../../source/developer/build/BUILD_WIN.md:129
 msgid "Delete your locally cloned copy of the Overte repository"
-msgstr ""
+msgstr "Elimina tu copia local clonada del repositorio de Overte"
 
 #: ../../source/developer/build/BUILD_WIN.md:130
-#, fuzzy
 msgid "Restart your computer"
-msgstr "Exporta Tu Contenido"
+msgstr "Reiniciar el computador"
 
 #: ../../source/developer/build/BUILD_WIN.md:131
 msgid "Redownload the [repository](https://github.com/overte-org/overte)"
@@ -15382,40 +15338,42 @@ msgstr "Volver a descargar el [repositorio](https://github.com/overte-org/overte
 
 #: ../../source/developer/build/BUILD_WIN.md:132
 msgid "Restart directions from Step #7"
-msgstr ""
+msgstr "Instrucciones para reiniciar desde el Paso #7"
 
 #: ../../source/developer/build/BUILD_WIN.md:134
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
+"CMake muestra repetidamente el mismo mensaje de error después de que falla "
+"la compilación"
 
 #: ../../source/developer/build/BUILD_WIN.md:136
 msgid "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory."
 msgstr ""
+"Elimina el archivo CMakeCache.txt que se encuentra en el directorio "
+"`%OVERTE_DIR%\\build`."
 
 #: ../../source/developer/domain-server.rst:5
 #: ../../source/developer/domain-server/environment-variables.md:1
 #: ../../source/developer/interface.rst:5
 #: ../../source/developer/interface/environment-variables.md:1
-#, fuzzy
 msgid "Environment Variables"
-msgstr "Entornos"
+msgstr "Variables de entorno"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:3
 msgid "You can launch a domain-server with these parameters."
-msgstr ""
+msgstr "Puedes iniciar un servidor de dominio con los siguientes parámetros."
 
 #: ../../source/developer/domain-server/command-line-parameters.md:13
 msgid "ICE server address"
 msgstr "Dirección del servidor ICE"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:17
-#, fuzzy
 msgid "Domain server UUID"
-msgstr "Servidor de Dominio"
+msgstr "UUID del servidor de dominio"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:21
 msgid "Requests a temporary domain name"
-msgstr ""
+msgstr "Solicita un nombre de dominio temporal"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:25
 msgid "User config file path"
@@ -15423,33 +15381,35 @@ msgstr "Ruta del archivo de configuración del usuario"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:29
 msgid "Displays the PID of the parent process"
-msgstr ""
+msgstr "Muestra el PID del proceso padre"
 
 #: ../../source/developer/domain-server/environment-variables.md:3
 msgid ""
 "You can alter the Domain server's functionality using the following "
 "environment variables."
 msgstr ""
+"Puedes modificar la funcionalidad del servidor de dominio utilizando las "
+"siguientes variables de entorno."
 
 #: ../../source/developer/domain-server/environment-variables.md:7
 msgid "Override the default port for your Domain server."
-msgstr ""
+msgstr "Reemplaza el puerto predeterminado de tu servidor de dominio."
 
 #: ../../source/developer/domain-server/environment-variables.md:13
 msgid "Override the default DTLS port."
-msgstr ""
+msgstr "Reemplaza el puerto DTLS predeterminado."
 
 #: ../../source/developer/domain-server/environment-variables.md:19
 msgid "Override the default HTTP port."
-msgstr ""
+msgstr "Reemplaza el puerto HTTP predeterminado."
 
 #: ../../source/developer/domain-server/environment-variables.md:25
 msgid "Override the default HTTPS port."
-msgstr ""
+msgstr "Reemplaza el puerto HTTPS predeterminado."
 
 #: ../../source/developer/domain-server/environment-variables.md:31
 msgid "Override the default statistics exporter port."
-msgstr ""
+msgstr "Reemplaza el puerto predeterminado del exportador de estadísticas."
 
 #: ../../source/developer/domain-server/environment-variables.md:37
 #, fuzzy
@@ -15473,7 +15433,7 @@ msgstr "Complemento de visualización"
 
 #: ../../source/developer/interface/command-line-parameters.md:13
 msgid "Start up at specified URL location"
-msgstr ""
+msgstr "Iniciar en una ubicación URL especificada"
 
 #: ../../source/developer/interface/command-line-parameters.md:17
 msgid "Displays the protocol version"
@@ -15481,11 +15441,11 @@ msgstr "Muestra la versión del protocolo"
 
 #: ../../source/developer/interface/command-line-parameters.md:21
 msgid "Do not show the auto-updater"
-msgstr ""
+msgstr "No mostrar el actualizador automático"
 
 #: ../../source/developer/interface/command-line-parameters.md:25
 msgid "Checks to see if the machine meets the minimum specification requirements."
-msgstr ""
+msgstr "Verifica si el equipo cumple con los requisitos mínimos del sistema."
 
 #: ../../source/developer/interface/command-line-parameters.md:29
 #, fuzzy
@@ -15494,15 +15454,17 @@ msgstr "Para ejecutar el script:"
 
 #: ../../source/developer/interface/command-line-parameters.md:33
 msgid "Port to listen on. (Needs clarification!)"
-msgstr ""
+msgstr "Puerto en el que debe escuchar. (¡Requiere aclaración!)"
 
 #: ../../source/developer/interface/command-line-parameters.md:37
 msgid "Where to find server content"
-msgstr ""
+msgstr "Ubicación del contenido del servidor"
 
 #: ../../source/developer/interface/command-line-parameters.md:41
 msgid "Set cache location. Defaults to the operating system local data path."
 msgstr ""
+"Establecer la ubicación de la caché. De manera predeterminada, se usa la "
+"ruta local de datos del sistema operativo."
 
 #: ../../source/developer/interface/command-line-parameters.md:45
 msgid "Set path for defaultScripts."
@@ -15511,31 +15473,37 @@ msgstr "Establece la ruta para defaultScripts."
 #: ../../source/developer/interface/command-line-parameters.md:49
 msgid "Allow multiple instances of the interface to run simultaneously."
 msgstr ""
+"Permitir que múltiples instancias de la interfaz se ejecuten simultáneamente."
 
 #: ../../source/developer/interface/command-line-parameters.md:53
-#, fuzzy
 msgid "Preferred displays."
-msgstr "Pantallas Montadas en la Cabeza"
+msgstr "Pantallas preferidas."
 
 #: ../../source/developer/interface/command-line-parameters.md:57
 msgid ""
 "Disable display plugin. Possible devices include \"OpenVR (Vive)\", "
 "\"Oculus Rift\"."
 msgstr ""
+"Desactivar el complemento de visualización. Los dispositivos posibles "
+"incluyen \"OpenVR (Vive)\", \"Oculus Rift\"."
 
 #: ../../source/developer/interface/command-line-parameters.md:61
 msgid ""
 "Disable input plugin. Possible devices include \"OpenVR (Vive)\", "
 "\"Oculus Rift\"."
 msgstr ""
+"Desactivar el complemento de entrada. Los dispositivos posibles incluyen "
+"\"OpenVR (Vive)\", \"Oculus Rift\"."
 
 #: ../../source/developer/interface/command-line-parameters.md:65
 msgid "Suppress the prompt to reset interface settings"
-msgstr ""
+msgstr "Suprimir el aviso para restablecer la configuración de la interfaz"
 
 #: ../../source/developer/interface/command-line-parameters.md:69
 msgid "Let the Oculus plugin know if Interface was run from the Oculus Store"
 msgstr ""
+"Informar al complemento de Oculus si la interfaz fue ejecutada desde la "
+"Oculus Store"
 
 #: ../../source/developer/interface/command-line-parameters.md:73
 msgid "Emulate a standalone device"
@@ -15814,7 +15782,7 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:15 ../../source/explore/gallery.rst:22
 msgid "Startup Asia X 12th June 2020"
-msgstr ""
+msgstr "Startup Asia X 12 de junio de 2020"
 
 #: ../../source/explore/gallery.rst:19
 msgid "Startup Lab Lagoon Koza booth at Startup Asia X, 12th June 2020."
@@ -15841,7 +15809,7 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:36
 msgid "Community Meeting 13th July 2020"
-msgstr ""
+msgstr "Reunión de la comunidad, 13 de julio de 2020"
 
 #: ../../source/explore/gallery.rst:40
 msgid "Mannequin army, 13th July 2020."
@@ -17337,6 +17305,7 @@ msgid ""
 "In order to run Overte, ensure that your computer meets these system "
 "requirements:"
 msgstr ""
+"Para ejecutar Overte, asegure que su sistema cumple con estos requerimientos:"
 
 #: ../../source/explore/get-started/install.rst:19
 #, fuzzy
@@ -17655,12 +17624,17 @@ msgid "Upgrade Overte"
 msgstr "Actualizar Overte"
 
 #: ../../source/explore/get-started/install.rst:108
+#, fuzzy
 msgid ""
 "Overte is always changing, as we work to improve performance and add "
 "features that will enhance your experience in the metaverse. At any time,"
 " you can download the latest release from our `website "
 "<https://overte.org/#downloads>`_."
 msgstr ""
+"Overte está en constante evolución, ya que trabajamos para mejorar el "
+"rendimiento y añadir funciones que enriquecerán tu experiencia en el "
+"metaverso. En cualquier momento, puedes descargar la última versión desde "
+"nuestro `sitio web <https://overte.org/#downloads>_`."
 
 #: ../../source/explore/get-started/install.rst:111
 msgid ""
@@ -17669,6 +17643,10 @@ msgid ""
 "before upgrading. Keep in mind that Overte Server could be running in the"
 " background."
 msgstr ""
+"No puedes actualizar Overte en Windows si tienes ejecutándose Overte "
+"Interface o el servidor en tu equipo. Asegúrate de cerrar estas aplicaciones "
+"antes de realizar la actualización. Ten en cuenta que Overte Server podría "
+"estar ejecutándose en segundo plano."
 
 #: ../../source/explore/get-started/install.rst:114
 #, fuzzy
@@ -17737,7 +17715,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:133
 msgid "Uninstall any versions of Overte that are visible."
-msgstr ""
+msgstr "Desinstala cualquier versión visible de Overte."
 
 #: ../../source/explore/get-started/install.rst:134
 #, python-format
@@ -17745,6 +17723,8 @@ msgid ""
 "Once Overte is uninstalled, browse to your %Program Files% directory. "
 "Delete all folders related to Overte."
 msgstr ""
+"Una vez desinstalado Overte, navega al directorio %Program Files% y elimina "
+"todas las carpetas relacionadas con Overte."
 
 #: ../../source/explore/get-started/install.rst:138
 #, fuzzy
@@ -17805,7 +17785,7 @@ msgstr "Instalación Limpia en Mac"
 
 #: ../../source/explore/get-started/install.rst:151
 msgid "Open your Applications folder and delete the Overte folder."
-msgstr ""
+msgstr "Abra su directorio de Aplicaciones y borre el directorio de Overte."
 
 #: ../../source/explore/get-started/install.rst:152
 #, fuzzy
@@ -17836,6 +17816,7 @@ msgstr ""
 #: ../../source/explore/get-started/install.rst:155
 msgid "Browse to ``~/Library/Application Support`` and delete the Overte folder."
 msgstr ""
+"Vaya a``~/Library/Application Support`` y borre el directorio de Overte."
 
 #: ../../source/explore/get-started/install.rst:156
 #, fuzzy
@@ -17844,7 +17825,7 @@ msgstr "Vacía la Papelera."
 
 #: ../../source/explore/get-started/install.rst:157
 msgid "Re-install Overte using the steps above."
-msgstr ""
+msgstr "Reinstale Overte usando los pasos de arriba."
 
 #: ../../source/explore/get-started/install.rst:162
 #, fuzzy
@@ -18271,7 +18252,7 @@ msgstr "Ajustar el Volumen del Mundo"
 
 #: ../../source/explore/get-started/setup-audio.rst:99
 msgid "There are three different types of “sounds” in Overte:"
-msgstr ""
+msgstr "Hay tres tipos de \"sonidos\" en Overte:"
 
 #: ../../source/explore/get-started/setup-audio.rst:101
 #, fuzzy
@@ -18951,6 +18932,9 @@ msgid ""
 "You can enhance your Overte experience using full body motion capture "
 "(mocap). Overte currently supports mocap using HTC Vive Trackers."
 msgstr ""
+"Puedes mejorar tu experiencia con Overte usando la captura de movimiento de "
+"cuerpo completo (mocap). Overte actualmente es compatible con la captura de "
+"movimiento mediante rastreadores HTC Vive."
 
 #: ../../source/explore/get-started/vr-controls.rst:129
 #, fuzzy
@@ -19772,6 +19756,7 @@ msgstr "[Nuestras Aplicaciones](#our-apps)"
 #: ../../source/explore/personalize/install-apps.md:17
 msgid "[Spectator Cam: Record or Livestream in Overte](#spectator-cam)"
 msgstr ""
+"[Cámara de espectador: Graba o transmite en vivo en Overte](#spectator-cam)"
 
 #: ../../source/explore/personalize/install-apps.md:18
 #, fuzzy
@@ -20220,6 +20205,9 @@ msgid ""
 " view your profile. You can change this image on our `website "
 "<https://overte.org/dashboard/>`_."
 msgstr ""
+"Aquí es donde se verá tu foto de perfil. Haz clic en la imagen para ver tu "
+"perfil. Puedes cambiar esta imagen en nuestro `sitio web <https://overte.org/"
+"dashboard/>`_."
 
 #: ../../source/explore/socialize.rst:36
 #, fuzzy
@@ -20261,7 +20249,7 @@ msgstr "Master Volume"
 
 #: ../../source/explore/socialize.rst:43
 msgid "Set the volume of your audio in Overte."
-msgstr ""
+msgstr "Ajusta el volumen de tu audio en Overte."
 
 #: ../../source/explore/socialize.rst:45
 #, fuzzy
@@ -20621,6 +20609,8 @@ msgid ""
 "The **GoTo** app lets you travel between different places in Overte. Many"
 " of our places are created by users just like you."
 msgstr ""
+"La app **GoTo** te permite viajar entre diferentes lugares de Overte. Muchos "
+"de nuestros lugares son creados por usuarios como tú."
 
 #: ../../source/explore/travel.md:17
 #, fuzzy
@@ -20834,13 +20824,15 @@ msgstr "`¡Nadie puede oírme! <#no-input>`_"
 
 #: ../../source/faq.rst:57
 msgid "`I can't hear anything in Overte <#no-output>`_"
-msgstr ""
+msgstr "`No puedo escuchar en Overte <#no-output>`_"
 
 #: ../../source/faq.rst:58
 msgid ""
 "`I have a problem using Overte on Windows with my AMD graphics card "
 "<#amd-problem>`_"
 msgstr ""
+"`Tengo un problema al usar Overte en Windows con mi tarjeta gráfica AMD "
+"<#amd-problem>`_"
 
 #: ../../source/faq.rst:59
 #, fuzzy
@@ -20883,10 +20875,14 @@ msgid ""
 "The Overte folder name might be different on development or testing "
 "builds. E.g. ``Overte - dev``."
 msgstr ""
+"El nombre de la carpeta Overte puede ser diferente en las versiones de "
+"desarrollo o prueba. Por ejemplo, ``Overte - dev``."
 
 #: ../../source/faq.rst:79
 msgid "How do I access the hidden folders that most Overte files are stored in?"
 msgstr ""
+"¿Cómo puedo acceder a las carpetas ocultas en las que se almacenan la "
+"mayoría de los archivos Overte?"
 
 #: ../../source/faq.rst:81
 #, fuzzy
@@ -20953,6 +20949,7 @@ msgstr ""
 #: ../../source/faq.rst:104
 msgid "Ensure that your firewall settings allow you to run Overte."
 msgstr ""
+"Asegúrese de que la configuración de su firewall le permita ejecutar Overte."
 
 #: ../../source/faq.rst:106
 #, fuzzy
@@ -21130,7 +21127,7 @@ msgstr ""
 
 #: ../../source/faq.rst:163
 msgid "I can't hear anything in Overte."
-msgstr ""
+msgstr "No puedo escuchar nada en Overte."
 
 #: ../../source/faq.rst:165
 #, fuzzy
@@ -21206,7 +21203,7 @@ msgstr ""
 
 #: ../../source/faq.rst:187
 msgid "I have a problem with Overte on Windows with my AMD graphics card."
-msgstr ""
+msgstr "Tengo un problema con Overte en Windows con mi tarjeta gráfica AMD."
 
 #: ../../source/faq.rst:189
 #, fuzzy
@@ -21224,17 +21221,20 @@ msgstr ""
 
 #: ../../source/faq.rst:193
 msgid "Known broken driver versions include:"
-msgstr ""
+msgstr "Las versiones de drivers que presentan fallos son:"
 
 #: ../../source/faq.rst:195
 msgid ""
 "``23.12.1 31.0.23013.1023`` - ``24.3.1 31.0.24027.1012`` - not fixed yet "
 "(very low performance)"
 msgstr ""
+"``23.12.1 31.0.23013.1023`` - ``24.3.1 31.0.24027.1012`` - sin corrección a "
+"la fecha(muy mal desempeño)"
 
 #: ../../source/faq.rst:196
 msgid "``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (mangled graphics)"
 msgstr ""
+"``21.8.2 27.20.22025.1006`` - ``21.10.2 21.30.25.05`` (gráficos degradados)"
 
 #: ../../source/faq.rst:197
 msgid "``20.11.2 27.20.14501.18003`` (crashing)"
@@ -24090,7 +24090,7 @@ msgstr ""
 
 #: ../../source/host/configure-settings/permission-settings.rst:111
 msgid "Can View Asset URLs"
-msgstr ""
+msgstr "Puede ver las URLs de los recursos"
 
 #: ../../source/host/configure-settings/permission-settings.rst:111
 msgid ""
@@ -24099,6 +24099,10 @@ msgid ""
 "strings. Note: this is only a client-side protection. Learn more about "
 ":doc:`asset security <../../security/asset-security>`."
 msgstr ""
+"Establece si un usuario puede ver las URLs de los recursos en Create y en "
+"los scripts. Si el usuario no tiene este permiso, las URLs se mostrarán como "
+"cadenas vacía. Nota: esta es solo una protección del lado del cliente. Más "
+"información en :doc:`seguridad de recursos <../../security/asset-security>`."
 
 #: ../../source/host/configure-settings/place-setting.rst:5
 #, fuzzy
@@ -24149,6 +24153,8 @@ msgid ""
 "Go to https://mv.overte.org/dashboard/places to get a place name. If "
 "you're not logged in, you will be prompted to do so."
 msgstr ""
+"Ve a https://mv.overte.org/dashboard/places para obtener un nombre de lugar. "
+"Si no has iniciado sesión, se te pedirá que lo hagas."
 
 #: ../../source/host/configure-settings/place-setting.rst:19
 #, fuzzy
@@ -24248,6 +24254,8 @@ msgid ""
 "Go to https://overte.org/dashboard/places. If you're not logged in, you "
 "will be prompted to do so."
 msgstr ""
+"Ve a https://mv.overte.org/dashboard/places. Si no has iniciado sesión, se "
+"te pedirá que lo hagas."
 
 #: ../../source/host/configure-settings/place-setting.rst:52
 #, fuzzy
@@ -24404,7 +24412,7 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:38
 msgid "Promote Your Community Event with Overte"
-msgstr ""
+msgstr "Promocione su evento comunitario con Overte"
 
 #: ../../source/host/invite-users.rst:40
 #, fuzzy
@@ -24426,11 +24434,11 @@ msgstr "Entonces puedes:"
 
 #: ../../source/host/invite-users.rst:44
 msgid "Added to Overte's `Events Calendar <https://www.overte.org/events>`_"
-msgstr ""
+msgstr "Agregado al `Calendario de Eventos <https://www.overte.org/events>`_"
 
 #: ../../source/host/invite-users.rst:45
 msgid "Promoted on Overte's social channels"
-msgstr ""
+msgstr "Promocionado en los canales sociales de Overte"
 
 #: ../../source/host/invite-users.rst:49
 #, fuzzy
@@ -25304,6 +25312,8 @@ msgid ""
 "The Overte packages can help you get your own domain up and running "
 "quickly."
 msgstr ""
+"Los paquetes Overte pueden ayudarle a poner en funcionamiento su propio "
+"dominio rápidamente."
 
 #: ../../source/host/server-setup/linux-server.md:5
 #, fuzzy
@@ -25376,6 +25386,9 @@ msgid ""
 " server from source using the [Overte builder](https://github.com/overte-"
 "org/overte-builder)."
 msgstr ""
+"Si no ve su distribución en esta lista, puede compilar su propio servidor "
+"desde la fuente usando el [generador Overte](https://github.com/overte-org/"
+"overte-builder)."
 
 #: ../../source/host/server-setup/linux-server.md:100
 #, fuzzy
@@ -25773,6 +25786,8 @@ msgid ""
 "To host a domain on Windows, you must be running Overte's open source "
 "`Client + Server <https://overte.org/downloads.html>`_ software."
 msgstr ""
+"Para alojar un dominio en Windows, debe ejecutar el software de código "
+"abierto `Cliente + Servidor <https://overte.org/downloads.html>`_ de Overte."
 
 #: ../../source/host/server-setup/windows-server.rst:27
 #, fuzzy
@@ -26023,6 +26038,8 @@ msgid ""
 "`Update for new Overte releases <../maintain-domain/update-"
 "software.html>`_"
 msgstr ""
+"`Actualización para nuevas versiones de Overte <../maintain-domain/update-"
+"software.html>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:83
 #, fuzzy
@@ -26288,6 +26305,8 @@ msgid ""
 "The latest release notes for Overte `here <https://github.com/overte-"
 "org/overte/blob/master/CHANGELOG.md>`__."
 msgstr ""
+"Las notas de la última versión de Overte `acá <https://github.com/overte-org/"
+"overte/blob/master/CHANGELOG.md>`__."
 
 #: ../../source/release-notes.rst:7
 #, fuzzy
@@ -26313,6 +26332,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-0-Asteria.md:5
 msgid "The software version is denoted by the new versioning scheme:"
 msgstr ""
+"La versión del software esta definida por un nuevo esquema de versionamiento:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:9
 msgid ""
@@ -26332,6 +26352,9 @@ msgid ""
 "**2020.2.0-Asteria**. Whereas **2020.3.0-Demeter** will not be compatible"
 " with **2020.2.0-Asteria** or **2020.2.5-Asteria**."
 msgstr ""
+"Por ejemplo, 2020.2.5-Asteria será compatible con 2020.2.0-Asteria. En "
+"cambio, 2020.3.0-Demeter no será compatible con 2020.2.0-Asteria ni con "
+"2020.2.5-Asteria."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:14
 #: ../../source/release-notes/2020-2-1-Asteria.md:5
@@ -26376,6 +26399,8 @@ msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia "
 "[repo](https://github.com/vircadia/vircadia)."
 msgstr ""
+"Los números al final de cada elemento son los números de PR en el "
+"[repositorio de Vircadia](https://github.com/vircadia/vircadia)."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:18
 #: ../../source/release-notes/2020-2-0-Asteria.md:67
@@ -26412,19 +26437,25 @@ msgstr "Crear la App"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:21
 msgid "Now has tabs for entity properties. (#193)"
-msgstr ""
+msgstr "Ahora incluye pestañas para las propiedades de las entidades. (#193)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:22
 msgid "**\"Alpha\"** property added to the **\"Shape\"** entity's editor. (#215)"
 msgstr ""
+"Se añadió la propiedad **\"Alpha\"** al editor de la entidad **\"Shape\"**. "
+"(#215)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:23
 msgid "**\"renderWithZones\"** property added to all entities. (#274, #369)"
 msgstr ""
+"Se añadió la propiedad **\"renderWithZones\"** a todas las entidades. (#274, "
+"#369)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:24
 msgid "User Activity Logging separated from crash reporting functionality. (#257)"
 msgstr ""
+"El registro de actividad del usuario se separó de la funcionalidad de "
+"reporte de fallos. (#257)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:25
 msgid "QML branding updates. (#277)"
@@ -26432,17 +26463,21 @@ msgstr "Actualizaciones de QML. (#277)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:26
 msgid "Gridchat is now muted by default. (#287)"
-msgstr ""
+msgstr "Gridchat ahora está silenciado de manera predeterminada. (#287)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:27
 msgid "Grabbable property on entities is now disabled by default. (#344)"
 msgstr ""
+"La propiedad grabbable en las entidades ahora está desactivada de manera "
+"predeterminada. (#344)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:28
 msgid ""
 "Flying in VR is now enabled by default in new Interface installations. "
 "(#394)"
 msgstr ""
+"Volar en realidad virtual ahora está habilitado de manera predeterminada en "
+"nuevas instalaciones de la interfaz. (#394"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:30
 #: ../../source/release-notes/v86-k2.md:24
@@ -26454,123 +26489,152 @@ msgid ""
 "Zone Occlusion feature added. You can now have entities within a zone "
 "become culled if you are not within specified zones. (#78)"
 msgstr ""
+"Se añadió la función de oclusión por zona. Ahora es posible que las "
+"entidades dentro de una zona sean eliminadas de la vista (culled) si no te "
+"encuentras dentro de las zonas especificadas. (#78)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:33
 msgid "Models now support flipped normals on double sided geometry. (#301)"
 msgstr ""
+"Los modelos ahora admiten normales invertidas en geometría de doble cara. "
+"(#301)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:34
 msgid "Models now support blendshapes. (#62)"
-msgstr ""
+msgstr "Los modelos ahora admiten blendshapes (formas de mezcla). (#62)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:36
 #: ../../source/release-notes/v86-k2.md:34
 msgid "Technicals"
-msgstr ""
+msgstr "Aspectos técnicos"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:38
 msgid ""
 "Package scripts: rename to Vircadia, add deletion and migration "
 "functionality. (#273)"
 msgstr ""
+"Scripts de empaquetado: renombrados a Vircadia, se añadió funcionalidad de "
+"eliminación y migración. (#273)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:39
 msgid "VS2019 (Version 16.5.1) build fix. (#279)"
-msgstr ""
+msgstr "Corrección en la compilación para VS2019 (versión 16.5.1). (#279)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:40
 msgid "Make custom Qt builds work on unsupported Ubuntu distributions. (#292)"
 msgstr ""
+"Hacer que las compilaciones personalizadas de Qt funcionen en distribuciones "
+"de Ubuntu no compatibles. (#292)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:41
 msgid "Add community-apps repo to default QML whitelist. (#296)"
 msgstr ""
+"Añadir el repositorio community-apps a la lista blanca de QML "
+"predeterminada. (#296)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:42
 msgid "GitHub Actions for PR builds with artifact uploading. (#300)"
-msgstr ""
+msgstr "GitHub Actions para compilaciones de PR con carga de artefactos. (#300)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:43
 msgid "Snapshot name changed from \"hifi\" to \"vircadia\". (#334)"
-msgstr ""
+msgstr "El nombre de las instantáneas cambió de \"hifi\" a \"vircadia\". (#334)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:44
 msgid "Vircadia now uses version 1.11.11 of the OpenVR SDK. (#335)"
-msgstr ""
+msgstr "Vircadia ahora utiliza la versión 1.11.11 del OpenVR SDK. (#335)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:45
 msgid "Crash reporting information sent to Sentry improved. (#336)"
 msgstr ""
+"Se mejoró la información de los reportes de fallos enviados a Sentry. (#336)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:46
 msgid "Packet version size fixed. (#338)"
-msgstr ""
+msgstr "Se corrigió el tamaño de la versión de los paquetes. (#338)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:47
 msgid "Fix whitespace and line endings in tabs.css. (#339)"
-msgstr ""
+msgstr "Corrección de espacios en blanco y saltos de línea en tabs.css. (#339)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:48
 msgid ""
 "Attempt to fix issue #337: by ensuring the object is marked as dead. "
 "(#340)"
 msgstr ""
+"Intento de resolver el problema #337: asegurando que el objeto se marque "
+"como inactivo. (#340)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:49
 msgid "Log file names updated from \"hifi\" to \"vircadia\". (#343)"
 msgstr ""
+"Nombres de archivos de registro actualizados de \"hifi\" a \"vircadia\". "
+"(#343)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:50
 msgid "Remove all uses of QString::null. (#346)"
-msgstr ""
+msgstr "Se eliminaron todos los usos de QString::null. (#346)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:51
 msgid ""
 "Fix issue #347: Linux PR builds failing due to \"distro\" not found. "
 "(#364)"
 msgstr ""
+"Solución al problema #347: fallos en compilaciones PR de Linux debido a que "
+"no se encuentra \"distro\". (#364)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:52
 msgid ""
 "Fix issue #380: Create app now uses proper dimensions when creating "
 "entities. (#406)"
 msgstr ""
+"Corrección del problema #380: la aplicación Create ahora utiliza dimensiones "
+"adecuadas al crear entidades. (#406)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:53
 msgid "Revert commit 359248829c using -m 1 to temporarily fix issue 383. (#414)"
 msgstr ""
+"Reversión del commit 359248829c usando -m 1 para corregir temporalmente el "
+"problema #383. (#414)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:54
 msgid ""
 "Fix many GLTF (\\*.glb) files being unable to be loaded due to bad URL "
 "parsing. (#415)"
 msgstr ""
+"Solución para múltiples archivos GLTF (\\*.glb) que no podían cargarse "
+"debido a un mal análisis de URLs. (#415)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:55
 msgid ""
 "Include <stdexcept> for building on Windows 10 with Visual Studio 2019. "
 "(#418)"
 msgstr ""
+"Inclusión de <stdexcept> para permitir la compilación en Windows 10 con "
+"Visual Studio 2019. (#418)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:56
 msgid "Fix GHA PR building. (#421)"
-msgstr ""
+msgstr "Corrección de la compilación de PRs en GitHub Actions (GHA). (#421)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:57
 msgid "Rebrand HiFi & Athena -> Vircadia. (#427)"
-msgstr ""
+msgstr "Rebranding de HiFi y Athena a Vircadia. (#427)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:58
 msgid "Use newer Opus codec to fix illegal instruction in libopusCodec.so. (#429)"
 msgstr ""
+"Uso de una versión más reciente del códec Opus para corregir una instrucción "
+"ilegal en libopusCodec.so. (#429)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:59
 msgid "Remove path from boilerplate in coding standard. (#431)"
 msgstr ""
+"Eliminación de rutas en los textos base del estándar de codificación. (#431)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:61
 msgid "High Fidelity -> Vircadia Master Merge (#285)"
-msgstr ""
+msgstr "Fusión de rama principal: High Fidelity → Vircadia (#285)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:63
 msgid "(v0.86.0 -> v0.87.0)"
@@ -26582,6 +26646,10 @@ msgid ""
 "numbers here relate to the original High Fidelity repo and can only be "
 "retrieved if you have a backup of that repo before it was set to private."
 msgstr ""
+"La versión v0.87.0 de High Fidelity fue fusionada con la base de código de "
+"la versión v0.86.0 de Vircadia. Los números de PR se refieren al repositorio "
+"original de High Fidelity y solo pueden consultarse si se cuenta con una "
+"copia de seguridad previa a que el repositorio se hiciera privado."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:69
 msgid ""
@@ -26592,12 +26660,22 @@ msgid ""
 "New functionality (parametric occlusion/lowpass effect) is not currently "
 "used, as it will require a new audio zone type to enable. (#16480)"
 msgstr ""
+"DEV-2330: Mejora de las zonas de atenuación. Se redefinió un coeficiente de "
+"atenuación de zona de audio = 1.0 para significar “silencio a cualquier "
+"distancia” en lugar de caída extrema. Esto asegura que las conversaciones no "
+"sean audibles fuera de su límite. Se incluyeron mejoras en la calidad del "
+"código del HRTF. La nueva funcionalidad (oclusión paramétrica/efecto de paso "
+"bajo) aún no se utiliza, ya que requiere un nuevo tipo de zona de audio para "
+"habilitarse. (#16480)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:70
 msgid ""
 "DEV-2769: Remove the \"acceleration\" entity property from Create app "
 "It's a deprecated property that doesn't affect the entity. (#16497)"
 msgstr ""
+"DEV-2769: Se eliminó la propiedad \"acceleration\" de las entidades en la "
+"aplicación Create. Es una propiedad obsoleta que no afecta a la entidad. "
+"(#16497)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:72
 msgid ""
@@ -26606,14 +26684,20 @@ msgid ""
 "this is an independent application, separate from the main application. "
 "(#16532)"
 msgstr ""
+"Se añadió la herramienta animedit, un editor gráfico para archivos avatar-"
+"animation.json. Animedit es una herramienta para desarrolladores que permite "
+"inspeccionar y editar los gráficos de animación de avatares. Nota: es una "
+"aplicación independiente, separada de la aplicación principal. (#16532)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:73
 msgid "Use Alt to clone entities on Mac. (#16443)"
-msgstr ""
+msgstr "Usar la tecla Alt para clonar entidades en Mac. (#16443)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:74
 msgid "Add display name field to the log in screen. (#15334)"
 msgstr ""
+"Se añadió un campo para el nombre en la pantalla de inicio de sesión. "
+"(#15334)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:75
 msgid ""
@@ -26622,6 +26706,10 @@ msgid ""
 "human interaction during group interactions. This PR adds that script to "
 "the developer script folder. (#16545)"
 msgstr ""
+"Se añadió automaticLookAt.js a los scripts de desarrollo. Este script "
+"controla automáticamente la cabeza y los ojos del avatar para simular "
+"interacciones humanas durante encuentros grupales. Este PR añade el script a "
+"la carpeta de scripts de desarrollo. (#16545)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:80
 msgid "Screenshare in Interface! (#16429)"
@@ -26630,42 +26718,59 @@ msgstr "Compartir pantalla en Interface! (#16429)"
 #: ../../source/release-notes/2020-2-0-Asteria.md:81
 msgid "Fix a few Screenshare bugs. (#16534)"
 msgstr ""
+"Corrección de algunos errores de la función de compartir pantalla. (#16534)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:82
 msgid ""
 "Fix screenshare broadcast on MacOS DEV builds _only_ - this is related to"
 " [DEV-2812], but doesn't fix the issue."
 msgstr ""
+"Corrección de la transmisión de pantalla compartida únicamente en versiones "
+"de desarrollo de macOS. Esto está relacionado con [DEV-2812], pero no "
+"resuelve completamente el problema."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:83
 msgid "Fix z-fighting on smartboard in screenshare mode [DEV-2484]."
 msgstr ""
+"Corrección del efecto de z-fighting en la pizarra inteligente en modo de "
+"pantalla compartida. [DEV-2484]."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:84
 msgid "Ignore anonymous screenshare zone entry. (#16544)"
 msgstr ""
+"Ignorar la entrada a zonas de pantalla compartida de usuarios anónimos. "
+"(#16544)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:85
 msgid ""
 "DEV-2700: Add screenshare property to zones and evaluate in avatar mixer."
 " (#16540)"
 msgstr ""
+"DEV-2700: Se añadió una propiedad de pantalla compartida a las zonas y se "
+"evaluó en el mezclador de avatares. (#16540)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:86
 msgid "DEV-2858: White screen displayed when using screenshare. (#16555)"
 msgstr ""
+"DEV-2858: Se mostraba una pantalla blanca al usar la función de pantalla "
+"compartida. (#16555)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:87
 msgid ""
 "Attempt to fix DEV-2859 with tighter constraints on screenshare "
 "resolution and framerate. (#16554)"
 msgstr ""
+"Intento de resolver DEV-2859 ajustando las restricciones en la resolución y "
+"la tasa de fotogramas de la pantalla compartida. (#16554)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:88
 msgid ""
 "DEV-2832, DEV-2816, DEV-2843: Auto-minimize Screen Share; enable "
 "switching between windows; prevent video dropout. (#16549)"
 msgstr ""
+"DEV-2832, DEV-2816, DEV-2843: Minimización automática de la pantalla "
+"compartida; habilitar el cambio entre ventanas; prevenir la pérdida de "
+"vídeo. (#16549)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:90
 msgid "Important bug fixes."
@@ -26674,18 +26779,26 @@ msgstr "Correcciones importantes."
 #: ../../source/release-notes/2020-2-0-Asteria.md:91
 msgid "DEV-2663: Adding safeguard in case device list is empty. (#16481)"
 msgstr ""
+"DEV-2663: Se añadió una medida de seguridad para el caso en que la lista de "
+"dispositivos esté vacía. (#16481)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:92
 msgid "DEV-2742: Fix Graphics.exportModelToOBJ() JavaScript crash. (#16490)"
 msgstr ""
+"DEV-2742: Corrección de error en JavaScript al ejecutar "
+"Graphics.exportModelToOBJ(). (#16490)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:93
 msgid "DEV-2800: Fix crash in Stats.forceUpdateStats() at start-up. (#16533)"
 msgstr ""
+"DEV-2800: Corrección de fallo en el arranque dentro de "
+"Stats.forceUpdateStats(). (#16533)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:94
 msgid "DEV-2825: Fix camera pitch by mouse wheel. (#16531)"
 msgstr ""
+"DEV-2825: Corrección del ángulo vertical de la cámara controlado por la "
+"rueda del ratón. (#16531)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:95
 msgid ""
@@ -26695,10 +26808,18 @@ msgid ""
 "window is focused. This is so that people doing streaming can still have "
 "high frame rate rendering when using apps like OBS. (#16496)"
 msgstr ""
+"DEV-2760: Corrección de la opción Realtime Unfocused para que funcione a 60 "
+"Hz. Al elegir renderizado en tiempo real en configuración gráfica "
+"personalizada o en modo de alta calidad, la tasa de renderizado/juego debe "
+"mantenerse en 60 Hz incluso cuando la ventana no tiene el foco. Esto permite "
+"que quienes transmiten con herramientas como OBS mantengan una tasa de "
+"cuadros alta. (#16496)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:96
 msgid "DEV-2649: Fix entities list \"filter to frustum\" eye button. (#16461)"
 msgstr ""
+"DEV-2649: Corrección del botón con icono de ojo \"filtrar por frustum\" en "
+"la lista de entidades. (#16461)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:98
 msgid "GitHub Actions"
@@ -26706,11 +26827,12 @@ msgstr "GitHub Actions"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:100
 msgid "GitHub actions initial work. (#16401)"
-msgstr ""
+msgstr "Trabajo inicial con GitHub Actions. (#16401)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:101
 msgid "Switching Windows builds over to a self-hosted runner. (#16582)"
 msgstr ""
+"Cambio de las compilaciones para Windows a un runner autohospedado. (#16582)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:102
 msgid "GitHub Actions workflow clean-up."
@@ -26719,22 +26841,28 @@ msgstr "Limpieza del flujo de trabajo de GitHub Actions."
 #: ../../source/release-notes/2020-2-0-Asteria.md:103
 msgid "Add step to clear out working directory before starting build"
 msgstr ""
+"Añadir paso para limpiar el directorio de trabajo antes de iniciar la "
+"compilación"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:104
 msgid ""
 "Change \"find\" path for symbol packaging in hopes of fixing that error. "
 "(#16584)"
 msgstr ""
+"Modificar la ruta del comando find para el empaquetado de símbolos, con la "
+"esperanza de corregir el error. (#16584)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:105
 msgid ""
 "Add apt-update step to refresh the apt repository index for Linux builds."
 " (#16575)"
 msgstr ""
+"Añadir un paso con apt-update para actualizar el índice del repositorio en "
+"compilaciones para Linux. (#16575)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:106
 msgid "Enable label based PR builds. (#16569)"
-msgstr ""
+msgstr "Habilitar compilaciones de PR basadas en etiquetas. (#16569)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:107
 msgid ""
@@ -26742,18 +26870,23 @@ msgid ""
 "new files for Docker image creation but doesn't affect master-build "
 "workflow. (#16565)"
 msgstr ""
+"DEV-2572: Compilaciones de PR en Linux con GitHub Actions. Derivado de pull/"
+"16520; incluye nuevos archivos para la creación de imágenes Docker, pero no "
+"afecta al flujo de trabajo de compilación principal. (#16565)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:108
 msgid "Fix GHA S3 upload path. (#16568)"
-msgstr ""
+msgstr "Corregir la ruta de carga a S3 en GitHub Actions. (#16568)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:109
 msgid "Github Actions master builds. (#16552)"
-msgstr ""
+msgstr "Compilaciones de rama principal con GitHub Actions. (#16552)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:110
 msgid "Remove upload step and unlabel job from builds. (#16524)"
 msgstr ""
+"Eliminar el paso de carga y desetiquetar trabajos en las compilaciones. "
+"(#16524)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:115
 #, fuzzy
@@ -26773,7 +26906,7 @@ msgstr "DOC-209: AudioStats JSDoc. (#16495)"
 #: ../../source/release-notes/2020-2-0-Asteria.md:182
 #: ../../source/release-notes/2020-2-0-Asteria.md:188
 msgid "Namespaces:"
-msgstr ""
+msgstr "Espacios de nombres:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:117
 msgid "AudioStats"
@@ -26791,6 +26924,8 @@ msgstr "AudioStreamStats"
 #: ../../source/release-notes/2020-2-0-Asteria.md:120
 msgid "DOC-208: Revisions to JSDoc added by developers since July 2019."
 msgstr ""
+"DOC-208: Revisiones a JSDoc agregadas por los desarrolladores desde julio de "
+"2019."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:121
 msgid "pull/15974 - Sitting API."
@@ -26798,19 +26933,21 @@ msgstr "pull/15974 - Fortaleciendo la API."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:122
 msgid "pull/16025 - Debug API for Picks/Pointers."
-msgstr ""
+msgstr "pull/16025 – API de depuración para Picks/Pointers."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:123
 msgid "pull/16144 - Avatar \"look at\" target."
-msgstr ""
+msgstr "pull/16144 – Objetivo de \"mirada\" para el avatar."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:124
 msgid "pull/16245 - Directional blending for point reaction."
-msgstr ""
+msgstr "pull/16245 – Mezcla direccional para reacción a puntos."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:125
 msgid "pull/16399 - Updated blend shape support with ARKit compatibility."
 msgstr ""
+"pull/16399 – Soporte actualizado para blend shapes con compatibilidad con "
+"ARKit."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:126
 #, fuzzy
@@ -26837,24 +26974,33 @@ msgid ""
 "properties' documentation to `AnimationCache`, `ModelCache`, "
 "`SoundCache`, and `TextureCache`."
 msgstr ""
+"Se añadió la documentación faltante de las propiedades `"
+"numGlobalQueriesPending ` y `numGlobalQueriesLoading` en `AnimationCache`,` "
+"ModelCache`,` SoundCache` y `TextureCache`."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:131
 msgid ""
 "`Entities.MaterialResource` type now appears in and is used in the JSDoc "
 "output."
 msgstr ""
+"El tipo `Entities.MaterialResource` ahora aparece y se utiliza en la salida "
+"de JSDoc."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:132
 msgid "`Entities.Material` type now appears in and is used in the JSDoc output."
 msgstr ""
+"El tipo `Entities.Material` ahora aparece y se utiliza en la salida de JSDoc."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:133
+#, fuzzy
 msgid "`RGBS` global type now appears in and is used in the JSDoc output."
-msgstr ""
+msgstr "El tipo global `RGBS`ahora aparece y se utiliza en la salida de JSDoc."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:134
 msgid "Revised recent `Entities.Material` JSDoc changes."
 msgstr ""
+"Revisión de los cambios recientes en la documentación JSDoc de "
+"`Entities.Material`."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:135
 #, fuzzy
@@ -26911,11 +27057,13 @@ msgstr "DriveKeys"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:152
 msgid "Type MyAvatar.DriveKeys renamed to (global) type DriveKey."
-msgstr ""
+msgstr "El tipo MyAvatar.DriveKeys fue renombrado al tipo global DriveKey."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:153
 msgid "MyAvatar.disableDriveKey() example updated to use DriveKeys API."
 msgstr ""
+"El ejemplo de MyAvatar.disableDriveKey() fue actualizado para usar la API de "
+"DriveKeys."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:154
 #, fuzzy
@@ -26940,7 +27088,7 @@ msgstr "API del script actualizada."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:162
 msgid "Fixed global print function's JSDoc."
-msgstr ""
+msgstr "Corregir la función de impresión global de JSDoc."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:163
 msgid "DOC-239: Rates JSDoc (#16564)"
@@ -26953,6 +27101,7 @@ msgstr "Rates"
 #: ../../source/release-notes/2020-2-0-Asteria.md:165
 msgid "DOC-244: OverlayWindow and OverlayWebWindow JSDoc (#16573)"
 msgstr ""
+"DOC-244: Documentación JSDoc para OverlayWindow y OverlayWebWindow. (#16573)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:167
 msgid "OverlayWindow"
@@ -26964,7 +27113,7 @@ msgstr "OverlayWebWindow"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:170
 msgid "Fixed up some related InteractiveWindow JSDoc."
-msgstr ""
+msgstr "Se corrigió la documentación JSDoc relacionada de InteractiveWindow."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:171
 msgid "DOC-243: EntityScriptServerLog JSDoc (#16571)"
@@ -26983,10 +27132,12 @@ msgid ""
 "Updated WalletScripingInteface JSDoc with links to a relevant "
 "ContextOverlay method."
 msgstr ""
+"Se actualizó la documentación JSDoc de WalletScriptingInterface con enlaces "
+"a un método relevante de ContextOverlay."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:177
 msgid "DOC-242: WebSocket and WebSocketServer JSDoc (#16574)"
-msgstr ""
+msgstr "DOC-242: Documentación JSDoc para WebSocket y WebSocketServer. (#16574)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:179
 msgid "WebSocket"
@@ -26998,7 +27149,7 @@ msgstr "WebsocketServer"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:181
 msgid "DOC-157: LODManager and Performance JSDoc"
-msgstr ""
+msgstr "DOC-157: Documentación JSDoc para LODManager y Performance"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:183
 msgid "LODManager"
@@ -27012,6 +27163,8 @@ msgstr "Rendimiento"
 #: ../../source/release-notes/2020-2-0-Asteria.md:186
 msgid "Update the Stats API JSDoc to match."
 msgstr ""
+"Actualización de la documentación JSDoc de la API Stats para mantener "
+"coherencia."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:187
 msgid "DOC-55: XMLHttpRequest JSDoc (#16577)"
@@ -27024,12 +27177,15 @@ msgstr "XMLHttpRequest"
 #: ../../source/release-notes/2020-2-0-Asteria.md:191
 msgid "A few minor fixes to the WebSocket API JSDoc."
 msgstr ""
+"Algunas correcciones menores en la documentación JSDoc de la API WebSocket."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:192
 msgid ""
 "Combined API docs update. Condenses the following PRs into a single PR "
 "and resolves the merge conflicts. (#16583)"
 msgstr ""
+"Actualización combinada de documentación de la API. Reúne los siguientes PRs "
+"en uno solo y resuelve los conflictos de fusión. (#16583)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:193
 msgid "pull/16578"
@@ -27053,31 +27209,42 @@ msgstr "Cambios Técnicos/Otros"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:200
 msgid "Fix handleUrl helper regex. (#16511)"
-msgstr ""
+msgstr "Corrección en la expresión regular del asistente handleUrl. (#16511)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:201
 msgid ""
 "Reduce fidgety motions in seated fidgets; remove jitter and bounce from "
 "several seated idles and fidgets, also reduce look-around cone. (#16464)"
 msgstr ""
+"Reducción de movimientos nerviosos en animaciones de inquietud estando "
+"sentado; se eliminaron vibraciones y rebotes en varias animaciones de reposo "
+"e inquietud, y se redujo el cono de mirada. (#16464)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:202
 msgid ""
 "Fix for assert in AnimBlendDirectional on startup; specifically, "
 "std::vector subscript out of range. (#16458)"
 msgstr ""
+"Corrección de error en AnimBlendDirectional al iniciar; específicamente, un "
+"subíndice fuera de rango en std::vector. (#16458)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:203
 msgid "DEV-2650: Remove \"user\" icon from Entities List. (#16451)"
 msgstr ""
+"DEV-2650: Se eliminó el ícono de \"usuario\" de la lista de entidades. "
+"(#16451)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:204
 msgid "DEV-2648: Fix Cmd-click multi-select in entity list on Mac. (#16440)"
 msgstr ""
+"DEV-2648: Corrección del problema con la selección múltiple usando Cmd + "
+"clic en la lista de entidades en Mac. (#16440)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:205
 msgid "Remove Avatar app links to AvatarIsland and BodyMart. (#16504)"
 msgstr ""
+"Eliminación de los enlaces en la aplicación de Avatares a AvatarIsland y "
+"BodyMart. (#16504)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:206
 msgid ""
@@ -27085,10 +27252,15 @@ msgid ""
 " Now that avatars can potentially have their own custom pipeline, shadow "
 "pass needs to support it. (#16470)"
 msgstr ""
+"El material procedural provocaba fallos en el pase de sombras al renderizar "
+"formas deformadas. Dado que los avatares pueden tener su propia canalización "
+"personalizada, el pase de sombras debe ser compatible. (#16470)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:207
 msgid "Made web entities not grabbable by default. (#16468)"
 msgstr ""
+"Las entidades web ahora no se pueden agarrar de manera predeterminada. "
+"(#16468)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:208
 msgid ""
@@ -27097,6 +27269,10 @@ msgid ""
 "6DOF fix it will assume that the user is holding a Oculus GearVR remote "
 "controller. See more info about this issue at:"
 msgstr ""
+"Oculus Quest: Corrección para los controladores de mano en la versión más "
+"reciente. Este cambio permite usar ambas manos en el Quest. Sin esta "
+"corrección para 6DOF, se asume que el usuario está usando un control remoto "
+"de Oculus GearVR. Vea más información de este problema en:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:209
 msgid ""
@@ -27117,6 +27293,8 @@ msgid ""
 "Update WindowScriptingInterface.h; replace \"model\" with \"modal\". "
 "(#16742)"
 msgstr ""
+"Actualizar WindowScriptingInterface.h; reemplazar \"model\" por \"modal\". "
+"(#16742)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:212
 msgid ""
@@ -27126,6 +27304,12 @@ msgid ""
 "This creates a bool that is true when speed rises above 2.2 m/s. If true,"
 " play the larger settle. (#16467)"
 msgstr ""
+"Transición de asentamiento diferente según el impulso. La animación de "
+"asentamiento que pasa de caminar/correr a estar quieto es demasiado grande "
+"para ajustes muy pequeños, como pulsar ligeramente las teclas WASD solo para "
+"reposicionarse. Esto crea una variable booleana que es verdadera cuando la "
+"velocidad supera los 2.2 m/s. Si es verdadera, se reproduce la animación de "
+"asentamiento más grande. (#16467)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:213
 msgid ""
@@ -27133,14 +27317,20 @@ msgid ""
 " remove buggy json transitions between normal/HMD strafe states, and use "
 "isNotMoving to leave HMD strafe states. (#16486)"
 msgstr ""
+"Corregir la animación de locomoción lateral con HMD. Manejar el HMD en las "
+"variables de entrada en Rig.cpp, eliminar las transiciones defectuosas en "
+"JSON entre los estados de desplazamiento normal/HMD, y usar isNotMoving para "
+"salir de los estados de desplazamiento lateral con HMD. (#16486)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:214
 msgid "DEV-2709: Reset QAudioDevInfo on switch. (#16487)"
-msgstr ""
+msgstr "DEV-2709: Reiniciar QAudioDevInfo al cambiar. (#16487)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:215
 msgid "DEV-2711: Fix crash when highlighting custom pipeline shapes. (#16477)"
 msgstr ""
+"DEV-2711: Corregir el fallo al resaltar formas de canalización "
+"personalizada. (#16477)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:216
 msgid ""
@@ -27160,6 +27350,8 @@ msgid ""
 "Speculative fix for infinite loop in SafeLanding. This PR (#16479) "
 "contains two fixes:"
 msgstr ""
+"Corrección especulativa para el bucle infinito en SafeLanding. Esta PR "
+"(#16479) contiene dos correcciones:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:218
 msgid ""
@@ -27167,6 +27359,9 @@ msgid ""
 "conditions. By inspection there are cases where variables are read and "
 "modified outside of locks."
 msgstr ""
+"Reforzar los bloqueos en la clase SafeLanding para prevenir condiciones de "
+"carrera. Tras la inspección, hay casos donde las variables se leen y "
+"modifican fuera de los bloqueos."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:219
 msgid ""
@@ -27181,12 +27376,24 @@ msgid ""
 "guard to prevent this from happening and some logs to help diagnose this "
 "issue in the future."
 msgstr ""
+"Una verificación para ayudar a prevenir un bucle infinito en el cálculo de "
+"std::distance de _sequenceNumber. Este es el problema principal; en algunos "
+"casos, el seguimiento de pila informa que el hilo principal está bloqueado. "
+"El stacktrace apunta a un problema con el cálculo de std::distance(). Si "
+"EntityQueryInitialResultsComplete se retrasa significativamente, podría "
+"ocurrir un caso raro en el que el mapa _sequenceNumber crezca tanto que el "
+"operador de comparación circular ya no funcione correctamente. Esto haría "
+"que el cálculo de std::distance nunca finalice. Se añadió una protección "
+"para evitar que esto ocurra y algunos registros para ayudar a diagnosticar "
+"el problema en el futuro."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:220
 msgid ""
 "Revert safe landing \"fix\". This was introduced via this PR #16479. "
 "(#16494)"
 msgstr ""
+"Revertir la \"corrección\" de aterrizaje seguro. Esta se introdujo mediante "
+"la PR #16479. (#16494)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:221
 msgid ""
@@ -27194,28 +27401,33 @@ msgid ""
 "apply the entity deletion rules. The previous attempt was PR-16307. "
 "(#16361)"
 msgstr ""
+"DEV-1811 redux: Aplicar las reglas de eliminación de entidades. Este es el "
+"segundo intento de aplicar dichas reglas. El intento anterior fue la PR-"
+"16307. (#16361)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:222
 msgid ""
 "deleting an avatar-entity parent doesn't delete any domain-entity "
 "children."
 msgstr ""
+"eliminar una entidad padre de avatar no elimina ningún hijo de entidad de "
+"dominio."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:223
 msgid "deleting a domain-entity parent does delete all of its children."
-msgstr ""
+msgstr "eliminar una entidad padre de dominio sí elimina todos sus hijos."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:224
 msgid "Fix Realtime Unfocused to be 60 Hz. (#16496)"
-msgstr ""
+msgstr "Corregir Realtime Unfocused para que funcione a 60 Hz. (#16496)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:225
 msgid "Fix for inadvertent comment. (#16500)"
-msgstr ""
+msgstr "Corrección para comentario involuntario. (#16500)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:226
 msgid "DEV-2718: Models brought in at incorrect dimensions. (#16502)"
-msgstr ""
+msgstr "DEV-2718: Modelos importados con dimensiones incorrectas. (#16502)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:227
 msgid "Added desktopSharing variable. (#16504)"
@@ -27228,18 +27440,27 @@ msgid ""
 "allow us to get more clues about the \"sometimes fall through ground\" "
 "problem (DEV-2189). (#16483)"
 msgstr ""
+"Agregar herramientas para depurar los proxies de carga de entidades. Esta PR "
+"introduce algunas herramientas de depuración para examinar los proxies de "
+"carga de entidades. Se espera que esto nos permita obtener más pistas sobre "
+"el problema de \"a veces atravesar el suelo\" (DEV-2189). (#16483)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:229
 msgid ""
 "Clear more disk caches. When the user selects \"Clear Disk Cache\" from "
 "the Developer menu, clear more of the caches. (#15278)"
 msgstr ""
+"Limpiar más cachés de disco. Cuando el usuario selecciona "
+"\"Limpiar caché de disco\" desde el menú de Desarrollador, se eliminan más "
+"cachés. (#15278)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:230
 msgid ""
 "DEV-2789: Implement retry timer when retrieving screen share info. "
 "(#16508)"
 msgstr ""
+"DEV-2789: Implementar temporizador de reintento al recuperar la información "
+"de compartir pantalla. (#16508)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:231
 msgid ""
@@ -27249,6 +27470,11 @@ msgid ""
 " support for efficient rendering of multiple copies of the same geometry "
 "within a single model. (#16197)"
 msgstr ""
+"DEV-430 Instanciación: Introducir hfm::Shape para habilitar el soporte de "
+"instanciación. Esta PR introducirá el concepto de hfm::Shape en el formato "
+"de modelo en tiempo de ejecución y refactorizará el código de ejecución para "
+"usar el nuevo formato. Esto ayudará a soportar la renderización eficiente de "
+"múltiples copias de la misma geometría dentro de un solo modelo. (#16197)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:232
 msgid ""
@@ -27257,16 +27483,23 @@ msgid ""
 "back to seated idle. Remove deadspot beyond 90 degrees where Q/E don't "
 "work. (#16498)"
 msgstr ""
+"Mejorar la rotación sentado. Agregar soporte para aceleración en la rotación "
+"sentado y activar la animación de inclinación con entradas, así como la "
+"transición y el regreso al estado de reposo sentado. Eliminar el punto "
+"muerto más allá de los 90 grados donde Q/E no funcionan. (#16498)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:233
 msgid "DEV-2791: Update hard-coded screen values. (#16510)"
 msgstr ""
+"DEV-2791: Actualizar valores de pantalla codificados directamente. (#16510)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:234
 msgid ""
 "Fix for whiteboard poly lines getting their parentID incorrectly "
 "reverted. (#16512)"
 msgstr ""
+"Corrección para las líneas poligonales en la pizarra que revertían "
+"incorrectamente su parentID. (#16512)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:235
 #, fuzzy
@@ -27276,28 +27509,34 @@ msgstr "Fix-multiple-color-sphere-pops. (#16514)"
 #: ../../source/release-notes/2020-2-0-Asteria.md:236
 msgid "Pinch to zoom camera, two finger swipe to look around, bug fixes. (#16505)"
 msgstr ""
+"Pellizcar para hacer zoom en la cámara, deslizar con dos dedos para mirar "
+"alrededor, corrección de errores. (#16505)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:237
 msgid "Attempt to fix Mac release builds. (#16518)"
 msgstr ""
+"Intento de corregir las compilaciones para versión de lanzamiento en Mac. "
+"(#16518)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:238
 msgid ""
 "DEV-2797/DEV-2798: Add some comments to that click to zoom script, and "
 "connects the update signal only when necessary. (#16519)"
 msgstr ""
+"DEV-2797/DEV-2798: Agregar algunos comentarios al script de clic para hacer "
+"zoom y conectar la señal de actualización solo cuando sea necesario. (#16519)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:239
 msgid "Force rebuild for Mac build issue. (#16521)"
-msgstr ""
+msgstr "Forzar reconstrucción para problema de compilación en Mac. (#16521)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:240
 msgid "Remove worklist.net references. (#16516)"
-msgstr ""
+msgstr "Eliminar referencias a worklist.net. (#16516)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:241
 msgid "DEV-2794: Update BUILD.MD. (#16522)"
-msgstr ""
+msgstr "DEV-2794: Actualizar BUILD.MD. (#16522)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:242
 msgid ""
@@ -27305,14 +27544,17 @@ msgid ""
 "animation into compiled animation resource and update script to use local"
 " resource path. (#16523)"
 msgstr ""
+"Mover la animación de \"ausente\" del bucket de S3 a un recurso local. "
+"Incluir la animación de \"ausente\" en el recurso de animación compilado y "
+"actualizar el script para usar la ruta local del recurso. (#16523)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:244
 msgid "On Linux, remove quazip5 dynamic libs. (#16527)"
-msgstr ""
+msgstr "En Linux, eliminar las bibliotecas dinámicas quazip5. (#16527)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:245
 msgid "Call updateGeometry before Model::createRenderItemSet. (#16526)"
-msgstr ""
+msgstr "Llamar a updateGeometry antes de Model::createRenderItemSet. (#16526)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:246
 msgid ""
@@ -27320,10 +27562,13 @@ msgid ""
 "logic to emit after scripting interface has initialized the audio "
 "devices. (#16525)"
 msgstr ""
+"DEV-2871: Verificar la conexión de señal antes de emitir el cambio de "
+"dispositivos. Corregir la lógica para emitir después de que la interfaz de "
+"scripts haya inicializado los dispositivos de audio. (#16525)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:247
 msgid "Fix Linux build. (#16530)"
-msgstr ""
+msgstr "Corregir la compilación en Linux. (#16530)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:248
 msgid ""
@@ -27331,20 +27576,27 @@ msgid ""
 "plugin that works in conjunction with the FaceCap application for "
 "streaming facial blendshapes from an iPhone. (#16517)"
 msgstr ""
+"Complemento de entrada para transmitir blendshapes desde un iPhone. Un "
+"complemento de entrada OSC que funciona junto con la aplicación FaceCap para "
+"transmitir blendshapes faciales desde un iPhone. (#16517)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:249
 msgid "Update prebuilt dependencies. (#16536)"
-msgstr ""
+msgstr "Actualizar dependencias precompiladas. (#16536)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:250
 msgid "DEV-491: Create a README.md file to document the Qt Launcher. (#16537)"
 msgstr ""
+"DEV-491: Crear un archivo README.md para documentar el lanzador Qt. (#16537)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:251
 msgid ""
 "DEV-2840: Fix z-fighting issues in Smartboard and enable quicker "
 "positional iteration in the future. (#16547)"
 msgstr ""
+"DEV-2840: Corregir problemas de z-fighting en la pizarra inteligente "
+"(Smartboard) y permitir iteraciones posicionales más rápidas en el futuro. "
+"(#16547)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:252
 msgid ""
@@ -27355,18 +27607,25 @@ msgid ""
 " until its completed. Switching devices has lower priority than preparing"
 " local injectors. (otherwise we can cause starve problems.) (#16542)"
 msgstr ""
+"DEV-829: Esperando la preparación del inyector local. Se agrega un future a "
+"la llamada en el thread pool a prepareLocalInjectors. Como esta función se "
+"ejecuta en un hilo separado, no recibe notificación cuando el dispositivo se "
+"ha cambiado. Antes de cambiar, se verifica si la preparación de los "
+"inyectores locales está en ejecución y se espera hasta que finalice. Cambiar "
+"de dispositivo tiene menor prioridad que preparar los inyectores locales (de "
+"lo contrario, puede provocar problemas de inanición de recursos). (#16542)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:253
 msgid "DEV-2729: Airpods starve on startup. (#16550)"
-msgstr ""
+msgstr "DEV-2729: Los AirPods se quedan sin recursos al iniciar. (#16550)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:254
 msgid "DEV-2812: Broadcasting from MacOS won't work. (#16553)"
-msgstr ""
+msgstr "DEV-2812: La transmisión desde macOS no funciona. (#16553)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:255
 msgid "Dump installer logs on failure. (#16559)"
-msgstr ""
+msgstr "Volcar los registros del instalador en caso de error. (#16559)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:256
 msgid ""
@@ -27374,6 +27633,9 @@ msgid ""
 "built with DISABLE_QML true, Linux interface doesn't attempt to connect "
 "to domain. (#16566)"
 msgstr ""
+"Permitir que la interfaz de Linux se conecte al dominio cuando DISABLE_QML "
+"está en verdadero. Cuando se compila con DISABLE_QML en verdadero, la "
+"interfaz de Linux no intenta conectarse al dominio. (#16566)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:258
 msgid ""
@@ -27381,6 +27643,9 @@ msgid ""
 " MyAvatar.getAvatarEntityData() return all properties rather than just "
 "changed properties. (#16551)"
 msgstr ""
+"DEV-1943: Hacer que MyAvatar.getAvatarEntityData() devuelva todas las "
+"propiedades. Ahora devuelve todas las propiedades en lugar de solo las que "
+"han cambiado. (#16551)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:259
 msgid ""
@@ -27388,6 +27653,9 @@ msgid ""
 "of String objects. (So the JSON.stringify() produces the expected "
 "results.)"
 msgstr ""
+"Corregido: los valores de propiedades de tipo cadena ahora se devuelven como "
+"primitivas tipo string en lugar de objetos String. (Así, JSON.stringify() "
+"produce los resultados esperados.)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:260
 msgid ""
@@ -27396,26 +27664,35 @@ msgid ""
 "`Avatar.getAvatarEntitiesData()`, to match those returned by "
 "`Entities.getEntityProperties()`."
 msgstr ""
+"Se incluyeron propiedades como localPosition, etc., en los valores devueltos "
+"por MyAvatar.getAvatarEntitiesVariant() y Avatar.getAvatarEntitiesData(), "
+"para que coincidan con los devueltos por Entities.getEntityProperties()."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:261
 msgid ""
 "Removed now-unnecessary call to `Entities.getEntityProperties()` in "
 "WebTablet.js."
 msgstr ""
+"Se eliminó la llamada innecesaria a Entities.getEntityProperties() en "
+"WebTablet.js."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:262
 msgid "Make Agent.getAvatarEntityData() return all properties."
-msgstr ""
+msgstr "Hacer que Agent.getAvatarEntityData() devuelva todas las propiedades."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:263
 msgid ""
 "DEV-2810: Rename Stats.audioAudioInboundPPS to Stats.audioInboundPPS. "
 "(#16557)"
 msgstr ""
+"DEV-2810: Renombrar Stats.audioAudioInboundPPS a Stats.audioInboundPPS. "
+"(#16557)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:264
 msgid "DEV-2442: Fix main gamepad (XBox controller) controls. (#16562)"
 msgstr ""
+"DEV-2442: Corregir los controles del gamepad principal (controlador XBox). "
+"(#16562)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:265
 msgid "General fixes:"
@@ -27426,12 +27703,17 @@ msgid ""
 "`Controller.Actions.CycleCamera` fixed so that it doesn't get stuck in "
 "third person (HMD mode) or selfie view (desktop mode)."
 msgstr ""
+"Se corrigió Controller.Actions.CycleCamera para que no se quede atascado en "
+"la vista en tercera persona (modo HMD) o en la vista selfie (modo "
+"escritorio)."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:267
 msgid ""
 "JSDoc for `Controller.Actions.CycleCamera` updated to reflect new camera "
 "modes used."
 msgstr ""
+"Se actualizó la documentación JSDoc de Controller.Actions.CycleCamera para "
+"reflejar los nuevos modos de cámara utilizados."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:268
 msgid "Gamepad-specific fixes:"
@@ -27439,7 +27721,7 @@ msgstr "Correcciones específicas para Gamepad:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:269
 msgid "Reinstated teleporting on \"Y\" button."
-msgstr ""
+msgstr "Se restauró la teletransportación con el botón \"Y\"."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:274
 #: ../../source/release-notes/2020-2-1-Asteria.md:22
@@ -27476,38 +27758,45 @@ msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
 "Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx)."
 msgstr ""
+"Los números al final de cada ítem son los números de PR en el repositorio "
+"Vircadia-Docs-Sphinx repo."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:278
 msgid "Explore section updates with further rebranding. (#21, #40)"
 msgstr ""
+"Actualizaciones en la sección \"Explorar\" con más cambios de marca. (#21, "
+"#40)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:279
 msgid "Build Docs support added to the main documentation repo. (#25)"
 msgstr ""
+"Se añadió soporte de construcción de documentación al repositorio principal. "
+"(#25)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:280
 msgid "Various general and rebranding updates. (#29, #30, #39, #43)"
 msgstr ""
+"Varias actualizaciones generales y de cambio de marca. (#29, #30, #39, #43)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:281
 msgid "Last minute K2 release notes updated. (#27, #28)"
-msgstr ""
+msgstr "Se actualizaron las notas de la versión K2 de último minuto. (#27, #28)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:282
 msgid "Avatar thumbnails documentation added. (#32)"
-msgstr ""
+msgstr "Se añadió documentación sobre miniaturas de avatares. (#32)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:283
 msgid "Updated \"Get your 3D Model\" page. (#34)"
-msgstr ""
+msgstr "Página \"Consigue tu modelo 3D\" actualizada. (#34)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:284
 msgid "Videos in web entities documentation added. (#36)"
-msgstr ""
+msgstr "Se añadió documentación sobre videos en entidades web. (#36)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:285
 msgid "Meta documentation updated. (#37, #45)"
-msgstr ""
+msgstr "Documentación meta actualizada. (#37, #45)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:287
 #: ../../source/release-notes/2020-2-1-Asteria.md:29
@@ -27543,18 +27832,22 @@ msgid ""
 "source can be viewed [here](https://github.com/vircadia/vircadia-api-"
 "docs)."
 msgstr ""
+"La documentación de la API se genera a partir del repositorio del "
+"[código fuente](https://github.com/vircadia/vircadia) del software. La "
+"última versión desplegada en vivo puede verse [aquí](https://github.com/"
+"vircadia/vircadia-api-docs)."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:292
 msgid "Various API docs updates. (#277, #278)"
-msgstr ""
+msgstr "Varias actualizaciones en la documentación de la API. (#277, #278)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:293
 msgid "Various API docs fixes. (#320)"
-msgstr ""
+msgstr "Varias correcciones en la documentación de la API. (#320)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:294
 msgid "Installer creation docs updated. (#391)"
-msgstr ""
+msgstr "Se actualizó la documentación sobre la creación del instalador. (#391)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:296
 #: ../../source/release-notes/2020-2-1-Asteria.md:36
@@ -27573,7 +27866,7 @@ msgstr "Aplicaciones Extra"
 #: ../../source/release-notes/2020-2-4-Asteria.md:54
 #: ../../source/release-notes/v86-k2.md:88
 msgid "Explore App (Interim Version)"
-msgstr ""
+msgstr "Aplicación \"Explorar\" (Versión provisional)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:300
 #: ../../source/release-notes/2020-2-1-Asteria.md:40
@@ -27585,6 +27878,9 @@ msgid ""
 "Decentralized GoTo "
 "[repo](https://github.com/vircadia/Decentralized_GoTo_Experimental)."
 msgstr ""
+"Los números al final de cada ítem son los números de PR en el repositorio "
+"[Decentralized GoTo](https://github.com/vircadia/"
+"Decentralized_GoTo_Experimental)."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:302
 #: ../../source/release-notes/2020-2-1-Asteria.md:34
@@ -27614,52 +27910,58 @@ msgid ""
 "The numbers at the end of each item are the PR numbers in the Community "
 "Apps [repo](https://github.com/vircadia/community-apps)."
 msgstr ""
+"Los números al final de cada ítem son los números de PR en el repositorio "
+"[Community Apps](https://github.com/vircadia/community-apps)."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:309
 msgid "VR Grab Scale app updated. (#17)"
-msgstr ""
+msgstr "Aplicación VR Grab Scale actualizada. (#17)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:310
 msgid "Gizmo entities updated to avatar entities."
-msgstr ""
+msgstr "Las entidades Gizmo se actualizaron a entidades de avatar."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:311
 msgid "Added lifetime of 300 seconds for gizmo entities + interval updater."
 msgstr ""
+"Se añadió una duración de 300 segundos para las entidades gizmo más un "
+"actualizador por intervalo."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:312
 msgid "Added righthand distance checker."
-msgstr ""
+msgstr "Se añadió verificador de distancia de la mano derecha."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:313
 msgid "Changed renderLayer to front."
-msgstr ""
+msgstr "Se cambió renderLayer a frontal."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:314
 msgid "Don't scale gizmo to grabbed entity dimension."
-msgstr ""
+msgstr "No escalar el gizmo según la dimensión de la entidad agarrada."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:315
 msgid ""
 "Newly installed scripts are not loaded from the cache but rather the "
 "latest version is retrieved from the server. (#11)"
 msgstr ""
+"Los scripts recién instalados no se cargan desde la caché, sino que se "
+"recupera la versión más reciente desde el servidor. (#11)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:316
 msgid "Spectator Camera app added. (#12)"
-msgstr ""
+msgstr "Se añadió la aplicación de cámara de espectador. (#12)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:317
 msgid "Record app housekeeping. (#13, #14)"
-msgstr ""
+msgstr "Mantenimiento de la aplicación de grabación. (#13, #14)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:318
 msgid "Radar app created by ctrlaltdavid added. (#15)"
-msgstr ""
+msgstr "Se añadió la aplicación de radar creada por ctrlaltdavid. (#15)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:319
 msgid "Developer mode for main app added. (#16)"
-msgstr ""
+msgstr "Se añadió modo desarrollador a la aplicación principal. (#16)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:1
 #, fuzzy
@@ -27672,55 +27974,67 @@ msgid ""
 "the 2020.2.0-Asteria protocol. This version was released on June 11th, "
 "2020."
 msgstr ""
+"Esta versión de Vircadia es una actualización de 2020.2.0. Es compatible con "
+"el protocolo 2020.2.0-Asteria. Esta versión fue publicada el 11 de junio de "
+"2020."
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:11
 msgid "Fix not being able to delete entities in serverless domains. (#425)"
 msgstr ""
+"Se corrigió el problema que impedía eliminar entidades en dominios sin "
+"servidor. (#425)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:12
 msgid "Fix visibility of values in Wearables dialog. (#426)"
 msgstr ""
+"Se corrigió la visibilidad de los valores en el diálogo de elementos "
+"portables (Wearables). (#426)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:13
 msgid "Reduce minimum camera inspect distance. (#432)"
-msgstr ""
+msgstr "Se redujo la distancia mínima de inspección de la cámara. (#432)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:14
 msgid "Update VR login overlay to have Vircadia logo. (#437)"
 msgstr ""
+"Actualizar la superposición de inicio de sesión en VR para incluir el logo "
+"de Vircadia. (#437)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:15
 msgid ""
 "Remove old GoTo from defaultScripts.js and update the Explore app with "
 "navigation buttons and new beacon fields. (#439)"
 msgstr ""
+"Eliminar el antiguo GoTo de defaultScripts.js y actualizar la aplicación "
+"Explore con botones de navegación y nuevos campos de baliza. (#439)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:16
 msgid "Disable crash logger by default. (#440)"
-msgstr ""
+msgstr "Desactivar el registrador de fallos de manera predeterminada. (#440)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:17
 msgid "Fix user activity logger checkbox not being set to off by default. (#444)"
 msgstr ""
+"Corregir que la casilla del registrador de actividad del usuario no esté "
+"desactivada de manera predeterminada. (#444)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:18
 msgid "Update Readme for the main repo. (#445)"
-msgstr ""
+msgstr "Actualizar el archivo Readme del repositorio principal. (#445)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:26
 msgid "Release notes for 2020.2.0 and 2020.2.1. (#49, #50, #54)"
-msgstr ""
+msgstr "Notas de versión para 2020.2.0 y 2020.2.1. (#49, #50, #54)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:27
 msgid "Housekeeping for release notes, server links, etc. (#51)"
-msgstr ""
+msgstr "Mantenimiento de notas de versión, enlaces del servidor, etc. (#51)"
 
 #: ../../source/release-notes/2020-2-1-Asteria.md:42
 msgid "Add navigation buttons. (#4)"
-msgstr ""
+msgstr "Añadir botones de navegación. (#4)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:1
-#, fuzzy
 msgid "Alpha 2020.2.2 Asteria Release Notes"
 msgstr "Notas de versión de Alpha 2020.2.0 Asteria"
 
@@ -27730,77 +28044,98 @@ msgid ""
 "the 2020.2.0-Asteria protocol. This version was released on June 26th, "
 "2020."
 msgstr ""
+"Esta versión de Vircadia es una actualización de 2020.2.1. Es compatible con "
+"el protocolo 2020.2.0-Asteria. Esta versión fue publicada el 26 de junio de "
+"2020."
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:11
 msgid "Vive Pro Eye support added. (#350, #478)"
-msgstr ""
+msgstr "Se añadió soporte para Vive Pro Eye. (#350, #478)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:12
 msgid "Fix Linux default audio selection and warnings. (#377)"
 msgstr ""
+"Corregir la selección de audio predeterminada en Linux y las advertencias "
+"asociadas. (#377)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:13
 msgid "Rebranding and login screen updates. (#384, #471, #473)"
 msgstr ""
+"Actualización de la imagen de marca y de la pantalla de inicio de sesión. (#"
+"384, #471, #473)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:14
 msgid ""
 "Controller API: fix various crashes and fix more than one controller not "
 "buzzing on `triggerHapticPulse`. (#399)"
 msgstr ""
+"API de controladores: corregir varios bloqueos y corregir el fallo que "
+"impedía que más de un controlador vibrara al usar triggerHapticPulse. (#399)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:15
 msgid ""
 "Begin transitioning metaverse server URLs into central files for easier "
 "development around the Metaverse API. (#411)"
 msgstr ""
+"Iniciar la migración de las URLs del servidor del metaverso hacia archivos "
+"centrales para facilitar el desarrollo en torno a la API del Metaverso. "
+"(#411)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:16
 msgid ""
 "Disable certified entities being auto deleted by the server because the "
 "check returned false. (#438)"
 msgstr ""
+"Desactivar la eliminación automática por parte del servidor de entidades "
+"certificadas cuando la verificación devuelva falso. (#438)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:17
 msgid ""
 "Fix models not scaling correctly on load due to a low timeout; also fix "
 "resizing of models for the first time after they load. (#442)"
 msgstr ""
+"Corregir el escalado incorrecto de modelos al cargarse debido a un tiempo de "
+"espera bajo; también corregir el redimensionamiento de modelos la primera "
+"vez que se cargan. (#442)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:18
 msgid "Fix reloading content in serverless domains. (#447)"
-msgstr ""
+msgstr "Corregir la recarga de contenido en dominios sin servidor. (#447)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:26
 msgid ""
 "Add the \"Prometheus\" exporter, which allows for exporting of full "
 "domain and mixer statistics for visualization. (#280)"
 msgstr ""
+"Añadir el exportador \"Prometheus\", que permite exportar estadísticas "
+"completas del dominio y del mezclador para su visualización. (#280)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:34
 msgid ""
 "Update build docs from main repo, fix link for auto-updating of build "
 "docs. (#55)"
 msgstr ""
+"Actualizar la documentación de compilación desde el repositorio principal y "
+"corregir el enlace para la actualización automática de dicha documentación. "
+"(#55)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:35
 msgid "Create debugging tips for Interface on Windows. (#56)"
-msgstr ""
+msgstr "Crear consejos de depuración para la interfaz en Windows. (#56)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:36
 msgid "Release notes for 2020.2.2. (#57)"
-msgstr ""
+msgstr "Notas de versión para 2020.2.2. (#57)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:57
 msgid "Add \"Refresh\" app. (#18)"
-msgstr ""
+msgstr "Añadir la aplicación \"Refresh\". (#18)"
 
 #: ../../source/release-notes/2020-2-2-Asteria.md:58
 msgid "Add more info to \"Radar\" app. (#19)"
-msgstr ""
+msgstr "Añadir más información a la aplicación \"Radar\". (#19)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:1
-#, fuzzy
 msgid "Alpha 2020.2.3 Asteria Release Notes"
 msgstr "Notas de versión de Alpha 2020.2.0 Asteria"
 
@@ -27810,108 +28145,136 @@ msgid ""
 "the 2020.2.0-Asteria protocol. This version was released on July 15th, "
 "2020."
 msgstr ""
+"Esta versión de Vircadia es una actualización de 2020.2.2. Es compatible con "
+"el protocolo 2020.2.0-Asteria. Esta versión fue publicada el 15 de julio de "
+"2020."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:11
 msgid "VR: Experimental OpenVR support for Linux has been added. (#387)"
-msgstr ""
+msgstr "VR: Se ha añadido soporte experimental de OpenVR para Linux. (#387)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:12
 msgid ""
 "UI: The `Help` menu now has a `Tutorial` button which will teleport you "
 "to the serverless tutorial. (#459)"
 msgstr ""
+"UI: El menú Help ahora incluye un botón Tutorial que te teletransportará al "
+"tutorial sin servidor. (#459)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:13
 msgid ""
 "UI: The Audio settings panel layout has been adjusted to flow better. "
 "(#468)"
-msgstr ""
+msgstr "configuración de audio para que sea más fluido. (#468)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:14
 msgid ""
 "Avatar: Reduce log spam if you have missing joints, the notice is now "
 "given every 30 seconds. (#474)"
 msgstr ""
+"Avatar: Se redujo el exceso de registros si faltan articulaciones; ahora el "
+"aviso se muestra cada 30 segundos. (#474)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:15
 msgid "App: The More app has been updated from its main repo. (#476)"
 msgstr ""
+"App: Se actualizó la aplicación \"More\" desde su repositorio principal. "
+"(#476)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:16
 msgid "Stability: Prevent a crash for corrupted GLTF models. (#480)"
 msgstr ""
+"Estabilidad: Se evitó un fallo causado por modelos GLTF corruptos. (#480)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:17
 msgid "Stability: Prevent a crash on OSX due to an illegal instruction. (#481)"
 msgstr ""
+"Estabilidad: Se evitó un fallo en OSX debido a una instrucción ilegal. (#481)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:18
 msgid ""
 "VR: The option to enable/disable Vive Pro Eye eye tracking has been "
 "added. (#484)"
 msgstr ""
+"VR: Se añadió la opción para activar/desactivar el seguimiento ocular del "
+"Vive Pro Eye. (#484)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:19
 msgid "App: The main Chat window has had quite a few updates. (#485)"
 msgstr ""
+"App: La ventana principal de Chat ha recibido varias actualizaciones. (#485)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:20
 msgid "Shrunk the main window."
-msgstr ""
+msgstr "Se redujo el tamaño de la ventana principal."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:21
 msgid "Spacing between items has been reduced."
-msgstr ""
+msgstr "Se redujo el espaciado entre los elementos."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:22
 msgid "A more readable font has been selected."
-msgstr ""
+msgstr "Se ha seleccionado una fuente más legible."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:23
 msgid ""
 "The timestamp now has the day, month, and full time. The milliseconds "
 "have been removed."
 msgstr ""
+"La marca de tiempo ahora incluye el día, el mes y la hora completa. Se "
+"eliminaron los milisegundos."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:24
 msgid "URLs can now be opened in an external browser."
-msgstr ""
+msgstr "Ahora se pueden abrir URLs en un navegador externo."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:25
 msgid "URLs are now formatted correctly when copied."
-msgstr ""
+msgstr "Las URLs ahora se copian con el formato correcto."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:26
 msgid "Chat messages now have an optional subtle notification sound. (Pop!)"
 msgstr ""
+"Los mensajes de chat ahora pueden tener un sonido de notificación sutil y "
+"opcional. (¡Pop!)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:27
 msgid ""
 "API: `Entities.pasteEntities` now allows you to paste to any host type, "
 "defaulting to domain if not specified. (#497)"
 msgstr ""
+"API: Entities.pasteEntities ahora permite pegar en cualquier tipo de host, "
+"siendo el dominio el valor predeterminado si no se especifica. (#497)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:28
 msgid ""
 "Graphics: Particles now pause when you look away instead of dying and "
 "restarting. (#498)"
 msgstr ""
+"Gráficos: Las partículas ahora se pausan cuando miras en otra dirección en "
+"lugar de desaparecer y reiniciarse. (#498)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:29
 msgid ""
 "API: `Entities.importEntities` now allows you to import entities to your "
 "clipboard even if you have no create rights on the current domain. (#504)"
 msgstr ""
+"API: Entities.importEntities ahora permite importar entidades al "
+"portapapeles incluso si no tienes permisos de creación en el dominio actual. "
+"(#504)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:30
 msgid ""
 "Graphics: The maximum texture size has been upgraded from 2048 -> 8192. "
 "(#505)"
 msgstr ""
+"Gráficos: El tamaño máximo de textura se ha ampliado de 2048 a 8192. (#505)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:31
 msgid "App: The Explore app has been updated from its main repo. (#536)"
 msgstr ""
+"App: La aplicación Explore se ha actualizado desde su repositorio principal. "
+"(#536)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:33
 #: ../../source/release-notes/2020-2-4-Asteria.md:31
@@ -27932,33 +28295,43 @@ msgid ""
 "Building: Android building has been fixed by updating the URLs for "
 "packages. (#466)"
 msgstr ""
+"Compilación: Se corrigió la compilación en Android actualizando las URLs de "
+"los paquetes. (#466)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:36
 msgid ""
 "Docs: The general build documentation was updated to better reflect build"
 " variables. (#487)"
 msgstr ""
+"Documentación: Se actualizó la documentación general de compilación para "
+"reflejar mejor las variables de construcción. (#487)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:37
 msgid ""
 "Docs: The OSX build documentation was updated to better define "
 "instructions. (#499, #533)"
 msgstr ""
+"Documentación: Se actualizó la documentación de compilación para OSX con "
+"instrucciones mejor definidas. (#499, #533)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:45
 msgid "Stability: A potential crash fix was applied to the entity server. (#435)"
 msgstr ""
+"Estabilidad: Se aplicó una posible corrección de fallo al servidor de "
+"entidades. (#435)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:46
 msgid ""
 "UI: The descriptions for the Sandbox's get/set private user data fields "
 "was improved. (#486)"
 msgstr ""
+"UI: Se mejoraron las descripciones de los campos get/set de datos privados "
+"de usuario en el Sandbox. (#486)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:48
 #: ../../source/release-notes/2020-2-4-Asteria.md:44
 msgid "Metaverse Server (Codename Apollo)"
-msgstr ""
+msgstr "Servidor de Metaverso (Nombre clave Apollo)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:50
 msgid ""
@@ -27971,6 +28344,14 @@ msgid ""
 "and completion of the system is complete, we will begin the transition to"
 " our very own federated metaverse system!"
 msgstr ""
+"Aunque el [servidor de metaverso](https://github.com/vircadia/project-apollo)"
+" aún está en desarrollo, se ha logrado un progreso significativo desde su "
+"inicio. El proyecto cuenta con más de 150 commits al momento de publicar "
+"estas notas de versión, con más de 20 en las últimas dos semanas (1 al 14 de "
+"julio de 2020). Basándose en los cimientos establecidos por Zontreck, "
+"Misterblue ha creado un prototipo funcional del metaverso. Una vez que se "
+"haya completado y probado adecuadamente el sistema, comenzaremos la "
+"transición hacia nuestro propio sistema federado de metaverso!"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:52
 msgid ""
@@ -27980,6 +28361,11 @@ msgid ""
 "their identities on the metaverse. It has had **18 commits** in the last "
 "two weeks (July 1st - July 14th, 2020)."
 msgstr ""
+"La [interfaz del servidor de metaverso](https://github.com/vircadia/project-"
+"apollo-dashboard) también ha comenzado su desarrollo este mes. Servirá como "
+"la base de la interfaz de usuario para que tanto administradores como "
+"usuarios accedan y administren sus identidades en el metaverso. Ha tenido 18 "
+"commits en las últimas dos semanas (1 al 14 de julio de 2020)."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:54
 #: ../../source/release-notes/2020-2-4-Asteria.md:48
@@ -27992,7 +28378,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-1-Eos.md:121
 #: ../../source/release-notes/2021-1-2-Eos.md:53
 msgid "Vircadia Launcher (Codename Pantheon)"
-msgstr ""
+msgstr "Lanzador de Vircadia (Nombre clave Pantheon)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:56
 msgid ""
@@ -28004,16 +28390,30 @@ msgid ""
 "controls for sandboxes as well. It has over **130 commits** at the time "
 "of publishing these release notes."
 msgstr ""
+"El [lanzador de Vircadia](https://github.com/vircadia/pantheon-launcher) "
+"está en la versión 0.0.1r, avanzando constantemente hacia la versión 1.0.0. "
+"Actualmente incluye funciones como descarga y actualización con un solo "
+"clic, gestión de versiones, control fácil de configuraciones para la "
+"interfaz, listado de eventos y más. Tiene muchas funcionalidades "
+"planificadas, como el listado de mundos y controles adicionales para los "
+"sandboxes. Cuenta con más de 130 commits al momento de publicar estas notas "
+"de versión."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:64
 msgid "Update the Explore app's sorting order to be higher in the menu. (#5)"
 msgstr ""
+"Actualizar el orden de clasificación de la aplicación Explore para que "
+"aparezca más arriba en el menú. (#5)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:70
 msgid ""
 "The nametags app by ctrlaltdavid has been added to the community apps "
 "repo. This app allows you to have dynamically generated nametags. (#20)"
 msgstr ""
+"La aplicación de etiquetas de nombre (nametags) desarrollada por "
+"ctrlaltdavid ha sido añadida al repositorio de aplicaciones comunitarias. "
+"Esta aplicación permite tener etiquetas de nombre generadas dinámicamente. "
+"(#20)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:72
 msgid "Inventory App"
@@ -28027,6 +28427,11 @@ msgid ""
 "will incorporate the functions of the \"More\" app; that app will be "
 "deprecated at such a time."
 msgstr ""
+"Esta es una nueva aplicación que será incorporada al repositorio de "
+"aplicaciones comunitarias una vez que se fusione con la base de código "
+"principal de Vircadia (#521). Servirá como implementación inicial de un "
+"sistema de inventario en Vircadia. Posteriormente, incorporará las funciones "
+"de la aplicación \"More\", la cual será retirada en ese momento."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:76
 msgid "Slider App"
@@ -28041,43 +28446,59 @@ msgid ""
 "for presentations and such. This app will be merged into the main "
 "Vircadia codebase upon further work on its initial version."
 msgstr ""
+"Esta es otra nueva aplicación cuya funcionalidad principal es la "
+"sincronización y visualización de contenido desde tabletas de control hacia "
+"pantallas grandes. Una característica útil es su capacidad uno-a-varios, "
+"permitiendo que, por ejemplo, diez tabletas controlen cinco pantallas "
+"mediante el uso de canales. Es útil para presentaciones y similares. Esta "
+"aplicación se incorporará a la base de código principal de Vircadia una vez "
+"se avance en su versión inicial."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:86
 msgid "Update release notes layout. (#60)"
-msgstr ""
+msgstr "Actualizar el diseño de las notas de versión. (#60)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:87
 msgid ""
 "Add a detailed specification detailing zone entities. (#48) (Thanks "
 "JulianGro!)"
 msgstr ""
+"Añadir una especificación detallada sobre las entidades de zona. (#48) (¡"
+"Gracias JulianGro!)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:88
 msgid ""
 "Translation support system with automated building added. (#61) (Thanks "
 "JulianGro & Thoys!)"
 msgstr ""
+"Se añadió un sistema de soporte de traducciones con construcción "
+"automatizada. (#61) (¡Gracias JulianGro y Thoys!)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:89
 msgid ""
 "Add initial documentation regarding environment variables for the "
 "interface. (#63)"
 msgstr ""
+"Añadir documentación inicial sobre las variables de entorno para la "
+"interfaz. (#63)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:90
 msgid ""
 "Add 2020.2.3 Asteria release notes (this document, right here!) to the "
 "docs. (#65, #66)"
 msgstr ""
+"Añadir las notas de versión de 2020.2.3 Asteria (¡este documento!) a la "
+"documentación. (#65, #66)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:97
 msgid ""
 "The `Entities.enterEntity` signal description has been improved to take "
 "note of behavior when using it. (#507)"
 msgstr ""
+"Se mejoró la descripción de la señal Entities.enterEntity para incluir el "
+"comportamiento al utilizarla. (#507)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:1
-#, fuzzy
 msgid "Alpha 2020.2.4 Asteria Release Notes"
 msgstr "Notas de versión de Alpha 2020.2.0 Asteria"
 
@@ -28087,118 +28508,159 @@ msgid ""
 "the 2020.2.0-Asteria protocol. This version was released on August 6th, "
 "2020."
 msgstr ""
+"Esta versión de Vircadia es una actualización de 2020.2.3. Es compatible con "
+"el protocolo 2020.2.0-Asteria. Esta versión fue publicada el 6 de agosto de "
+"2020."
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:11
 msgid ""
 "API: `Window.getUserAgent` has been added to return the Interface's user "
 "agent. (#520)"
 msgstr ""
+"API: Se añadió Window.getUserAgent para devolver el user agent de la "
+"interfaz. (#520)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:12
 msgid ""
 "App: The Inventory app v2.0.2 has been merged as an unpublished script, "
 "to be deployed in the More app. (#521)"
 msgstr ""
+"App: La aplicación Inventory v2.0.2 se ha incorporado como script no "
+"publicado, para ser desplegado en la aplicación More. (#521)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:13
 msgid ""
 "Brand: Updated strings, comments, and folders (especially on OSX) to "
 "Vircadia. (#524)"
 msgstr ""
+"Marca: Se actualizaron cadenas, comentarios y carpetas (especialmente en OSX)"
+" a Vircadia. (#524)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:14
 msgid "UI: Fix bug where Snap app shows in screenshots occasionally. (#538)"
 msgstr ""
+"UI: Corregir error donde la aplicación Snap aparece ocasionalmente en "
+"capturas de pantalla. (#538)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:15
 msgid ""
 "App: Fix bug where the avatar does not show when a recording is reloaded."
 " (#539)"
 msgstr ""
+"App: Corregir error en el que el avatar no aparece al recargar una "
+"grabación. (#539)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:16
 msgid ""
 "Graphics: Fix bug where shapes with an alpha of 0.0 sometimes appear "
 "opaque. (#543)"
 msgstr ""
+"Gráficos: Corregir error en el que formas con valor alfa 0.0 a veces "
+"aparecen opacas. (#543)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:17
 msgid "UI: Connection dialog now says \"EXPLORE\" instead of \"GOTO\". (#544)"
 msgstr ""
+"UI: El diálogo de conexión ahora dice \"EXPLORE\" en lugar de \"GOTO\". "
+"(#544)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:18
 msgid ""
 "Graphics: Fix bug where FBX models will only show vertex colors if more "
 "than one color is given. (#545)"
 msgstr ""
+"Gráficos: Corregir error en el que los modelos FBX solo muestran colores de "
+"vértices si se proporciona más de un color. (#545)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:19
 msgid ""
 "Avatar: Fix bug where Interface lags extensively when moving after "
 "startup due to a physics issue. (#547)"
 msgstr ""
+"Avatar: Corregir error en el que la interfaz tiene una gran latencia al "
+"moverse tras iniciar debido a un problema de física. (#547)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:20
 msgid ""
 "UI: The graphics settings dialog now allows you to set the resolution "
 "scale to 2.0, up from 1.0. (#550)"
 msgstr ""
+"UI: El diálogo de configuración gráfica ahora permite establecer la escala "
+"de resolución hasta 2.0, anteriormente limitada a 1.0. (#550)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:21
 msgid ""
 "Graphics: Fix bug where `renderWithZones` doesn't work after reloading "
 "content. (#561)"
 msgstr ""
+"Gráficos: Corregir error en el que renderWithZones no funciona después de "
+"recargar contenido. (#561)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:22
 msgid ""
 "Graphics: Fix bug where `renderWithZones` would not work when loading "
 "content from a JSON file. (#564)"
 msgstr ""
+"Gráficos: Corrección de error donde `renderWithZones` no funcionaba al "
+"cargar contenido desde un archivo JSON. (#564)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:23
 msgid ""
 "Application: Fix bug where the --url command line parameter would not "
 "work under some circumstances. (#574)"
 msgstr ""
+"Aplicación: Corrección de error donde el parámetro de línea de comandos --"
+"url no funcionaba en ciertas circunstancias. (#574)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:24
 msgid "App: The Chat app has a few updates. (#579)"
-msgstr ""
+msgstr "App: La aplicación de Chat ha recibido algunas actualizaciones. (#579)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:25
 msgid "A notification has been added for when people enter or leave the domain."
 msgstr ""
+"Se ha añadido una notificación cuando las personas ingresan o salen del "
+"dominio."
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:26
 msgid ""
 "The main Chat window will open when you click on a chat message "
 "notification."
 msgstr ""
+"La ventana principal de Chat se abrirá al hacer clic en una notificación de "
+"mensaje."
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:27
 msgid ""
 "Security: You can now sign-in to OAuth2 enabled domains. (Alpha Feature) "
 "(#591)"
 msgstr ""
+"Seguridad: Ahora es posible iniciar sesión en dominios con OAuth2 "
+"habilitado. (Función alfa) (#591)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:28
 msgid ""
 "Graphics: The default \"Automatic\" maximum texture memory setting has "
 "been increased from 1GB to 2GB. (#594)"
 msgstr ""
+"Gráficos: La configuración predeterminada \"Automatic\" para la memoria "
+"máxima de texturas se ha incrementado de 1GB a 2GB. (#594)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:29
 msgid ""
 "UI: The graphics settings dialog now has a button in the toolbar for "
 "clear and easy access. (#595)"
 msgstr ""
+"UI: El cuadro de configuración gráfica ahora incluye un botón en la barra de "
+"herramientas para facilitar el acceso. (#595)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:33
 msgid ""
 "Docs: Packaging docs are more accurate now with respect to the "
 "requirements on Windows. (#537)"
 msgstr ""
+"Docs: La documentación de empaquetado ahora es más precisa respecto a los "
+"requisitos en Windows. (#537)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:34
 msgid ""
@@ -28206,12 +28668,18 @@ msgid ""
 "(server-console) to start after install or start with Windows as true. "
 "(#596)"
 msgstr ""
+"UX: El instalador NSIS ya no establece por defecto las opciones para que la "
+"Sandbox (consola del servidor) se inicie tras la instalación o con Windows "
+"como true. (#596)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:42
 msgid ""
 "Security: Domains can now accept user logins via groups based on "
 "WordPress roles via OAuth2. (Alpha Feature) (#591)"
 msgstr ""
+"Seguridad: Los dominios ahora pueden aceptar inicios de sesión de usuarios "
+"mediante grupos basados en roles de WordPress usando OAuth2. (Función alfa) "
+"(#591)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:46
 msgid ""
@@ -28237,15 +28705,20 @@ msgid ""
 "stability when Interface is launched with it. The drag and drop feature "
 "as well as crash reporting now also work correctly."
 msgstr ""
+"El lanzador de Vircadia (https://github.com/vircadia/pantheon-launcher) está "
+"en la versión 0.0.1u. Ahora ejecuta la Interfaz como un proceso separado de "
+"manera predeterminada. Gracias a esto, ahora tiene una estabilidad mucho "
+"mayor cuando se lanza la Interfaz con él. Las funciones de arrastrar y "
+"soltar, así como el informe de fallos, ahora también funcionan correctamente."
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:58
 #: ../../source/release-notes/2020-3-2-Demeter.md:228
 msgid "Nothing new to report!"
-msgstr ""
+msgstr "¡Nada nuevo que reportar!"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:64
 msgid "Add the initial release of the Inventory app. (#21)"
-msgstr ""
+msgstr "Añadir la versión inicial de la aplicación de Inventario. (#21)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:66
 msgid ""
@@ -28254,22 +28727,29 @@ msgid ""
 "merging. The PR can be viewed "
 "[here](https://github.com/vircadia/vircadia/pull/541)."
 msgstr ""
+"La aplicación Slider ahora cuenta con sincronización adecuada con múltiples "
+"usuarios al ver la pantalla de un presentador. Todavía se está trabajando "
+"para mejorar su uso antes de integrarla. El PR puede consultarse [aquí]( "
+"https://github.com/vircadia/vircadia/pull/541)."
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:74
 msgid "Enable GitHub Actions support with auto deployment for the docs. (#67)"
 msgstr ""
+"Habilitar soporte de GitHub Actions con despliegue automático para la "
+"documentación. (#67)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:75
 msgid "Translation configuration fixed. (#68)"
-msgstr ""
+msgstr "Configuración de traducción corregida. (#68)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:76
 msgid "Release notes for 2020.2.4 Asteria. (#71)"
-msgstr ""
+msgstr "Notas de versión para 2020.2.4 Asteria. (#71)"
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:83
 msgid "The `Window.getUserAgent` API call was created and documented. (#520)"
 msgstr ""
+"La llamada a la API `Window.getUserAgent` fue creada y documentada. (#520)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:1
 #, fuzzy
@@ -28282,10 +28762,15 @@ msgid ""
 "the 2020.2.0-Asteria protocol. This version was released on September "
 "6th, 2020."
 msgstr ""
+"Esta versión de Vircadia es una actualización de 2020.2.4. Es compatible con "
+"el protocolo 2020.2.0-Asteria. Esta versión fue lanzada el 6 de septiembre "
+"de 2020."
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:11
 msgid "Application: Improve performance of entity updates. (#276)"
 msgstr ""
+"Aplicación: Mejorar el rendimiento de las actualizaciones de entidades. "
+"(#276)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:12
 msgid ""
@@ -28300,24 +28785,32 @@ msgid ""
 "App: Add incremental suffix to cloned entities' names using the Create "
 "app. (#603)"
 msgstr ""
+"Aplicación: Añadir sufijo incremental a los nombres de entidades clonadas "
+"usando la aplicación Create. (#603)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:14
 msgid ""
 "App: Update the `colorSpread` color-picker and other misc. fixes in the "
 "Create app. (#606)"
 msgstr ""
+"Aplicación: Actualizar el selector de color `colorSpread` y otras "
+"correcciones en la aplicación Create. (#606)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:15
 msgid ""
 "API: Add `About` JavaScript API to replace the now deprecated `HifiAbout`"
 " API. (#624)"
 msgstr ""
+"API: Añadir la API de JavaScript `About` para reemplazar la ahora obsoleta "
+"API HifiAbout. (#624)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:16
 msgid ""
 "App: Fix freezing when opening the Avatar app when custom bookmarks are "
 "present that do not have thumbnails. (#631)"
 msgstr ""
+"Aplicación: Corregir congelamiento al abrir la aplicación Avatar cuando hay "
+"marcadores personalizados que no tienen miniaturas. (#631)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:17
 msgid ""
@@ -28325,50 +28818,67 @@ msgid ""
 " status or domain login menu item on domains that do not have the feature"
 " enabled. (#639)"
 msgstr ""
+"UI y Seguridad: Mejorar la función de dominio OAuth2 para que no muestre el "
+"estado de inicio de sesión ni el elemento del menú en dominios que no tengan "
+"la función habilitada. (#639)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:18
 msgid ""
 "App: Add update notification message on Interface start if a new version "
 "is available. (#658)"
 msgstr ""
+"Aplicación: Añadir mensaje de notificación de actualización al iniciar la "
+"Interfaz si hay una nueva versión disponible. (#658)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:19
 msgid "Graphics: Fix and extend glTF blendshapes support. (#671)"
-msgstr ""
+msgstr "Gráficos: Corregir y extender el soporte para blendshapes glTF. (#671)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:23
 msgid ""
 "Application: Code-signing has been re-enabled on Windows installers. "
 "(#303)"
 msgstr ""
+"Aplicación: Se ha vuelto a habilitar la firma de código en los instaladores "
+"de Windows. (#303)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:24
 msgid ""
 "Application: Improve the handling of C++ exceptions by Crashpad on "
 "Windows. (#441)"
 msgstr ""
+"Aplicación: Mejorar el manejo de excepciones C++ por parte de Crashpad en "
+"Windows. (#441)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:25
 msgid ""
 "App: Update the URLs to the default particle and image entities for the "
 "Create app. (#604)"
 msgstr ""
+"Aplicación: Actualizar las URLs de las entidades de partículas e imágenes "
+"predeterminadas para la aplicación Create. (#604)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:26
 msgid ""
 "Docs: Update build docs to include parameters for building client and "
 "server only packages. (#652)"
 msgstr ""
+"Documentación: Actualizar la documentación de compilación para incluir "
+"parámetros para construir paquetes solo de cliente o solo de servidor. (#652)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:27
 msgid ""
 "Application & Docs: Update the application folder icons for Vircadia on "
 "OSX; update build docs for OSX to be more up to date. (#653)"
 msgstr ""
+"Aplicación y Documentación: Actualizar los íconos de carpetas de la "
+"aplicación para Vircadia en OSX; actualizar la documentación de compilación "
+"para OSX con información más actualizada. (#653)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:35
 msgid "Server: Improve performance of entity updates. (#276)"
 msgstr ""
+"Servidor: Mejorar el rendimiento de las actualizaciones de entidades. (#276)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:36
 msgid ""
@@ -28376,16 +28886,21 @@ msgid ""
 "addition of an HTTP exporter that makes this data publicly available as "
 "JSON over HTTP if desired. (#465)"
 msgstr ""
+"UX: Se añadieron nuevos campos de metadatos para mejorar los detalles del "
+"dominio junto con un exportador HTTP que hace estos datos públicamente "
+"disponibles como JSON a través de HTTP si se desea. (#465)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:37
 msgid ""
 "UI: Updated text references from High Fidelity -> Vircadia in the "
 "`Assignment` tab of the domain-server panel. (#641)"
 msgstr ""
+"UI: Se actualizaron las referencias de texto de High Fidelity -> Vircadia en "
+"la pestaña `Assignment` del panel del servidor de dominio. (#641)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:39
 msgid "Metaverse Server (Codename Iamus)"
-msgstr ""
+msgstr "Servidor del Metaverso (Nombre clave Iamus)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:41
 msgid ""
@@ -28395,12 +28910,19 @@ msgid ""
 "community. The [metaverse server interface](https://github.com/vircadia"
 "/project-iamus-dashboard) is under continued development."
 msgstr ""
+"El servidor de metaverso ha sido renombrado como [Iamus] (https://github.com/"
+"vircadia/iamus), conocido como el hijo de Apolo en la mitología griega. Está "
+"comenzando pruebas activas con la comunidad más amplia de Vircadia. La "
+"interfaz del [servidor de metaverso] (https://github.com/vircadia/project-"
+"iamus-dashboard) sigue en desarrollo."
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:45
 msgid ""
 "[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) has "
 "not had any updates since the last release (2020.2.4 Asteria)."
 msgstr ""
+"El [lanzador de Vircadia](https://github.com/vircadia/pantheon-launcher) no "
+"ha tenido actualizaciones desde la última versión (2020.2.4 Asteria)."
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:49
 msgid "Explore App"
@@ -28409,25 +28931,27 @@ msgstr "Aplicación Explore"
 #: ../../source/release-notes/2020-2-5-Asteria.md:53
 #: ../../source/release-notes/2020-2-5-Asteria.md:59
 msgid "Nothing new to report, yet!"
-msgstr ""
+msgstr "¡Nada nuevo que reportar aún!"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:67
 msgid "Release notes for 2020.2.5 Asteria. (#76)"
-msgstr ""
+msgstr "Notas de versión para 2020.2.5 Asteria. (#76)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:74
 msgid "The `Stats` API was updated to include two new properties. (#276)"
 msgstr ""
+"La API `Stats` fue actualizada para incluir dos nuevas propiedades. (#276)"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:75
 msgid ""
 "The `About` API was added to replace the deprecated `HifiAbout` API. "
 "(#624)"
 msgstr ""
+"Se añadió la API `About` para reemplazar la obsoleta API `HifiAbout`. (#624)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:1
 msgid "Alpha 2020.3.0 Demeter Release Notes"
-msgstr ""
+msgstr "Notas de versión para Alpha 2020.3.0 Demeter"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:3
 msgid ""
@@ -28435,128 +28959,166 @@ msgid ""
 "the 2020.2.0-Asteria protocol. This version was released on September "
 "29th, 2020."
 msgstr ""
+"Esta versión de Vircadia es un nuevo lanzamiento. **No** es compatible con "
+"el protocolo 2020.2.0-Asteria. Esta versión fue lanzada el 29 de septiembre "
+"de 2020."
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:11
 msgid ""
 "Graphics: Fix procedural shaders applying to entities other than the "
 "target entity. (#309)"
 msgstr ""
+"Gráficos: Corregir sombreadores procedurales que se aplicaban a entidades "
+"distintas de la entidad objetivo. (#309)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:12
 msgid "Application: Fix Interface shutdown deadlock. (#311)"
-msgstr ""
+msgstr "Aplicación: Corregir bloqueo por cierre de la Interfaz. (#311)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:13
 msgid "Application: Add support for transparent web entities. (#605, #630)"
 msgstr ""
+"Aplicación: Añadir soporte para entidades web transparentes. (#605, #630)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:14
 msgid "App: Revamp the Explore App UI. (#654)"
-msgstr ""
+msgstr "Aplicación: Renovar la interfaz de la aplicación Explore. (#654)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:15
 msgid ""
 "API: `Script.getExternalPath` added to generate accessible URLs to "
 "Vircadia CDNs. (#668)"
 msgstr ""
+"API: Se añadió `Script.getExternalPath` para generar URLs accesibles a los "
+"CDNs de Vircadia. (#668)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:16
 msgid ""
 "UI: Add \"open in external browser\" button to Interface browser, improve"
 " buttons, and fix favicon support. (#689)"
 msgstr ""
+"UI: Añadir botón de \"abrir en navegador externo\" al navegador de la "
+"Interfaz, mejorar botones y corregir soporte para favicon. (#689)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:17
 msgid ""
 "Application: Support relative JSON URLs in the texture property for "
 "models. (#694)"
 msgstr ""
+"Aplicación: Soporte para URLs JSON relativas en la propiedad de textura para "
+"modelos. (#694)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:18
 msgid ""
 "Application: Fix not being able to click or interact with glTF models. "
 "(#699)"
 msgstr ""
+"Aplicación: Corregir problema al hacer clic o interactuar con modelos glTF. "
+"(#699)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:19
 msgid ""
 "App: Fix 'Create' app not refreshing when the image URL is updated on an "
 "image entity. (#701)"
 msgstr ""
+"Aplicación: Corregir que la app 'Create' no se actualice cuando se cambia la "
+"URL de imagen en una entidad de imagen. (#701)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:20
 msgid ""
 "Application: Fix crash when switching audio output devices when in "
 "desktop or VR. (#713)"
 msgstr ""
+"Aplicación: Corregir bloqueo al cambiar dispositivos de salida de audio en "
+"modo escritorio o VR. (#713)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:21
 msgid ""
 "App: Fix 'Chat' app opening when other users toggle their own & improve "
 "URL copying and pasting support. (#738)"
 msgstr ""
+"Aplicación: Corregir que la app 'Chat' se abra cuando otros usuarios activan "
+"la suya y mejorar el soporte de copiar y pegar URLs. (#738)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:22
 msgid ""
 "Application: Fix GLB files not being able to be added to the world from "
 "the Asset Server (ATP). (#743)"
 msgstr ""
+"Aplicación: Corregir que archivos GLB no puedan ser añadidos al mundo desde "
+"el Servidor de Recursos (ATP). (#743)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:26
 msgid "Application: Fix warnings emitted by GCC. (#349)"
-msgstr ""
+msgstr "Aplicación: Corregir advertencias emitidas por GCC. (#349)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:27
 msgid ""
 "Application & Docs: Add ability to package Interface with a custom "
 "startup location and improve installer docs. (#640)"
 msgstr ""
+"Aplicación y Documentación: Añadir capacidad para empaquetar la Interfaz con "
+"una ubicación de inicio personalizada y mejorar la documentación del "
+"instalador. (#640)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:28
 msgid "Application: Fix build of hifiSdl2 on GCC 10. (#656)"
-msgstr ""
+msgstr "Aplicación: Corregir compilación de hifiSdl2 con GCC 10. (#656)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:29
 msgid "Application: Fix build of Vircadia on Qt 5.14. (#657)"
-msgstr ""
+msgstr "Aplicación: Corregir compilación de Vircadia con Qt 5.14. (#657)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:30
 msgid ""
 "Application: Mass update of the codebase to better support metaverse "
 "servers. (#668)"
 msgstr ""
+"Aplicación: Actualización masiva del código para mejorar el soporte a "
+"servidores de metaverso. (#668)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:31
 msgid ""
 "Application: Quiet warnings for unused blendshapeCoefficients property. "
 "(#705)"
 msgstr ""
+"Aplicación: Silenciar advertencias por propiedad blendshapeCoefficients no "
+"usada. (#705)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:32
 msgid ""
 "Application: Fix 'Serverless' capitalization in the Interface title bar. "
 "(#715)"
 msgstr ""
+"Aplicación: Corregir la capitalización de 'Serverless' en la barra de título "
+"de la Interfaz. (#715)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:33
 msgid "Application: Further improve support for metaverse servers. (#718)"
 msgstr ""
+"Aplicación: Mejorar aún más el soporte para servidores de metaverso. (#718)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:41
 msgid ""
 "Server: Fix domain-server Docker packager's retrieval of a temp name. "
 "(#632)"
 msgstr ""
+"Servidor: Corregir la obtención del nombre temporal por parte del "
+"empaquetador Docker del servidor de dominio. (#632)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:42
 msgid "Mixer: Fix assignment-client custom port and hostname parameters. (#667)"
 msgstr ""
+"Mezclador: Corregir los parámetros personalizados de puerto y nombre de host "
+"del cliente de asignación. (#667)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:43
 msgid ""
 "Server: Correct and improve support for switching metaverse servers. "
 "(#718)"
 msgstr ""
+"Servidor: Corregir y mejorar el soporte para cambiar entre servidores de "
+"metaverso. (#718)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:45
 #: ../../source/release-notes/2020-3-1-Demeter.md:39
@@ -28567,7 +29129,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-2-Eos.md:41
 #: ../../source/release-notes/2021-1-3-Eos.md:115
 msgid "Metaverse Server & Dashboard (Codename Iamus)"
-msgstr ""
+msgstr "Servidor del Metaverso y Dashboard (Nombre clave Iamus)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:47
 msgid ""
@@ -28578,6 +29140,11 @@ msgid ""
 "/project-iamus-dashboard) live for user registration and interaction at "
 "on Vircadia's [website](https://dashboard.vircadia.com/)."
 msgstr ""
+"El servidor de metaverso [Iamus](https://github.com/vircadia/iamus) está "
+"activo en https://metaverse.vircadia.com/live, con la "
+"[interfaz del servidor de metaverso](https://github.com/vircadia/project-"
+"iamus-dashboard) disponible para registro e interacción de usuarios en el "
+"sitio web de [Vircadia](https://dashboard.vircadia.com/)."
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:51
 msgid ""
@@ -28585,18 +29152,22 @@ msgid ""
 "added support for outputting log files, checking for updates on startup, "
 "and metaverse server switching with version 0.0.1q."
 msgstr ""
+"El [lanzador de Vircadia](https://github.com/vircadia/pantheon-launcher) ha "
+"añadido soporte para exportar archivos de registro, verificar "
+"actualizaciones al inicio y cambiar entre servidores de metaverso con la "
+"versión 0.0.1q."
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:59
 msgid "Release notes for 2020.3.0 Demeter. (#83)"
-msgstr ""
+msgstr "Notas de lanzamiento para 2020.3.0 Demeter. (#83)"
 
 #: ../../source/release-notes/2020-3-0-Demeter.md:66
 msgid "The `Script.getExternalPath` API was added. (#668)"
-msgstr ""
+msgstr "Se añadió la API `Script.getExternalPath`. (#668)"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:1
 msgid "Alpha 2020.3.1 Demeter Release Notes"
-msgstr ""
+msgstr "Notas de lanzamiento para 2020.3.1 Demeter"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:3
 msgid ""
@@ -28604,38 +29175,54 @@ msgid ""
 "the 2020.3.0-Demeter protocol. This version was released on October 25th,"
 " 2020."
 msgstr ""
+"Esta versión de Vircadia es una actualización de 2020.3.0. Es compatible con "
+"el protocolo 2020.3.0-Demeter. Esta versión fue lanzada el 25 de octubre de "
+"2020."
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:11
 msgid "Application: Update shortcut names to include \"Vircadia\" in them. (#651)"
 msgstr ""
+"Aplicación: Actualizar los nombres de los accesos directos para incluir "
+"\"Vircadia\". (#651)"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:12
 msgid ""
 "UI: Add a checkbox for more details to messages logged in entity scripts "
 "such as the script URL and function with line numbers. (#669)"
 msgstr ""
+"UI: Añadir una casilla de verificación para mostrar más detalles en los "
+"mensajes registrados en los scripts de entidades, como la URL del script y "
+"la función con número de línea. (#669)"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:13
 msgid ""
 "Application: Allow mouse capture via scripting which enables first person"
 " and third person shooter camera views on desktop. (#677)"
 msgstr ""
+"Aplicación: Permitir la captura del mouse mediante scripts, habilitando "
+"vistas de cámara en primera y tercera persona en escritorio. (#677)"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:14
 msgid ""
 "App: 'Create' app now uses local entities instead of deprecated 3D "
 "overlays. (#737)"
 msgstr ""
+"Aplicación: La app 'Create' ahora utiliza entidades locales en lugar de "
+"superposiciones 3D obsoletas. (#737)"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:15
 msgid ""
 "App: 'Create' app now has: Copy, Cut, Paste, and Duplicate buttons for "
 "VR; Undo and Redo buttons for desktop and VR. (#760)"
 msgstr ""
+"Aplicación: La app 'Create' ahora incluye botones de Copiar, Cortar, Pegar y "
+"Duplicar para VR; botones de Deshacer y Rehacer para escritorio y VR. (#760)"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:16
 msgid "Graphics: Fix handling of missing glTF blendshape target meshes. (#773)"
 msgstr ""
+"Gráficos: Corregir el manejo de mallas objetivo de blendshape glTF "
+"faltantes. (#773)"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:17
 msgid "API: Add `url` parameter to `Window.openWebBrowser`. (#778)"
