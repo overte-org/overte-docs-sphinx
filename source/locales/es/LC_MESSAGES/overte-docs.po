@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-07-27 05:08+0000\n"
+"PO-Revision-Date: 2025-07-27 07:21+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
@@ -24,7 +24,6 @@ msgstr ""
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../<rst_prolog>:9
-#, fuzzy
 msgid ""
 "Help us hire a team member! `Donate ♥︎ <https://overte.org/donate.html>`_"
 " or `Learn more <https://overte.org/index.html#help-us-hire-a-team-"
@@ -32,8 +31,8 @@ msgid ""
 msgstr ""
 "¡Ayúdanos a contratar a un integrante del equipo! `Dona ♥︎ <https://"
 "overte.org/donate.html>`_ u `Obtén más información <https://overte.org/"
-"index.html#help-us-hire-a-team-member>`_. |br| Hasta ahora hemos recaudado "
-"464,62€ de 3000€."
+"index.html#help-us-hire-a-team-member>`_. Hasta ahora hemos recaudado 464,62€"
+" de 3000€."
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
@@ -56,7 +55,6 @@ msgstr ""
 "formas de contribuir a las distintas partes que componen Overte."
 
 #: ../../source/contribute.rst:11
-#, fuzzy
 msgid ""
 "If you run into any questions or seek some advice, have a look at our "
 "`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which "
@@ -64,9 +62,9 @@ msgid ""
 "|Discord| if you prefer that."
 msgstr ""
 "Si tiene alguna pregunta o necesita algún consejo, eche un vistazo a nuestro "
-"`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| que "
-"también está conectado a nuestro `Servidor Discord <https://discord.gg/"
-"4YuQvc8K2f>`_ |Discord| si lo prefiere."
+"`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ Matrix que también "
+"está conectado a nuestro `Servidor Discord <https://discord.gg/4YuQvc8K2f>`_ "
+"Discord si lo prefiere."
 
 #: ../../source/shared.rst:16
 msgid "Matrix"
@@ -319,9 +317,8 @@ msgid "2D art like posters or banners,"
 msgstr "Arte 2D como pósters o banners,"
 
 #: ../../source/contribute.rst:68
-#, fuzzy
 msgid "3D models,"
-msgstr "Modelos 3D"
+msgstr "Modelos 3D,"
 
 #: ../../source/contribute.rst:69
 msgid "scripts,"
@@ -917,7 +914,6 @@ msgid "Import an Animation"
 msgstr "Importar una Animación"
 
 #: ../../source/create/3d-models/import-animations.rst:36
-#, fuzzy
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Overte."
@@ -1031,13 +1027,12 @@ msgid "Play Automatically"
 msgstr "Play Automatically (Reproducir automáticamente)"
 
 #: ../../source/create/3d-models/import-animations.rst:49
-#, fuzzy
 msgid ""
 "Enable this to play your animation automatically when a user joins the "
 "Domain."
 msgstr ""
-"Habilita esto para reproducir tu animación automáticamente cuando un "
-"usuario cargue un dominio."
+"Habilita esto para reproducir tu animación automáticamente cuando un usuario "
+"cargue un Dominio."
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Loop"
@@ -1179,15 +1174,14 @@ msgid "Import a 3D Model"
 msgstr "Importa un Modelo 3D"
 
 #: ../../source/create/3d-models/import-model.rst:5
-#, fuzzy
 msgid ""
 "You can import a 3D model into Overte that is hosted online or on your "
 "domain's Asset Server. Importing your model brings it into your domain "
 "and adds it to your virtual world."
 msgstr ""
 "Puedes importar un modelo 3D a Overte que esté alojado en línea o en el "
-"servidor de activos de tu dominio. La importación de tu modelo lo lleva a"
-" tu dominio y lo agrega a tu mundo virtual."
+"servidor de activos de tu dominio. La importación de tu modelo lo lleva a tu "
+"dominio y lo agrega a tu mundo virtual."
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
@@ -1262,7 +1256,6 @@ msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr ":doc:`Crear Nuevas Entidades <../entities/create-entities>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:5
-#, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
 "materials supported in Overte are physically-based rendering (PBR) "
@@ -1270,10 +1263,9 @@ msgid ""
 "light (approximately) like how they would in real life."
 msgstr ""
 "La apariencia de un modelo 3D está controlada por sus materiales. Los "
-"materiales admitidos en Overte son materiales de renderizado de base "
-"física (PBR). Esto significa que los materiales de un modelo 3D "
-"reflejarán o absorberán la luz como lo harían en la vida real "
-"(aproximadamente)."
+"materiales admitidos en Overte son materiales de renderizado de base física "
+"(PBR). Esto significa que los materiales de un modelo 3D reflejarán o "
+"absorberán la luz como lo harían en la vida real (aproximadamente)."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:13
 msgid "Introduction to Materials, Textures, and Shading"
@@ -1293,7 +1285,6 @@ msgstr ""
 "rugosidad y color."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:18
-#, fuzzy
 msgid ""
 "Since Overte supports physically-based rendering (PBR) materials, your "
 "model will behave like a real world object when exposed to light. For "
@@ -1301,12 +1292,12 @@ msgid ""
 " falls on it. The 3D model of a brick wall will not shine, but will "
 "reflect enough light for you to observe its colors and surface."
 msgstr ""
-"Dado que Overte admite materiales de renderizado basados en la física "
-"(PBR), tú modelo se comportará como un objeto del mundo real cuando se "
-"exponga a la luz. Por ejemplo, el mismo modelo 3D de una llave brillará y"
-" reflejará cualquier luz que incida sobre ella. El modelo 3D de una pared"
-" de ladrillos no brillará, pero reflejará la suficiente luz para que "
-"observes sus colores y superficie."
+"Dado que Overte admite materiales de renderizado basados en la física (PBR), "
+"tú modelo se comportará como un objeto del mundo real cuando se exponga a la "
+"luz. Por ejemplo, el mismo modelo 3D de una llave brillará y reflejará "
+"cualquier luz que incida sobre ella. El modelo 3D de una pared de ladrillos "
+"no brillará, pero reflejará la suficiente luz para que observes sus colores "
+"y superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:21
 msgid "A material contains texture and shading information."
@@ -1324,7 +1315,6 @@ msgstr ""
 "corteza para mostrar cómo se ve la superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:29
-#, fuzzy
 msgid "Overte supports the use of the following texture formats:"
 msgstr "Overte admite el uso de los siguientes formatos de textura:"
 
@@ -1345,22 +1335,20 @@ msgid "TIFF, TIF"
 msgstr "TIFF, TIF"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:36
-#, fuzzy
 msgid ""
 "For best performance, we recommend :doc:`baking all 3D models <../../host"
 "/add-content/bake-content>` (including textures) before loading them into"
 " Overte."
 msgstr ""
-"Para un mejor rendimiento, recomendamos :doc:`cocinar todos los modelos "
-"3D <../../host/add-content/bake-content>` (incluidas las texturas) antes "
-"de cargarlo en Overte."
+"Para un mejor rendimiento, recomendamos :doc:`cocinar todos los modelos 3D <"
+"../../host/add-content/bake-content>` (incluidas las texturas) antes de "
+"cargarlo en Overte."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:40
 msgid "Shading"
 msgstr "Sombreado"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:42
-#, fuzzy
 msgid ""
 "Since Overte supports PBR materials, the shading used depicts an accurate"
 " representation of a how light interacts with different material "
@@ -1369,11 +1357,11 @@ msgid ""
 " or channels that can be modified to create different types of materials."
 msgstr ""
 "Dado que Overte admite materiales PBR, el sombreado utilizado es una "
-"representación precisa de cómo la luz interactúa con diferentes "
-"superficies de materiales. Esto significa que su modelo 3D no se verá "
-"igual bajo diferentes configuraciones de luz. El sombreador PBR tiene un "
-"conjunto de parámetros o canales de material que se pueden modificar para"
-" crear diferentes tipos de materiales."
+"representación precisa de cómo la luz interactúa con diferentes superficies "
+"de materiales. Esto significa que su modelo 3D no se verá igual bajo "
+"diferentes configuraciones de luz. El sombreador PBR tiene un conjunto de "
+"parámetros o canales de material que se pueden modificar para crear "
+"diferentes tipos de materiales."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:45
 msgid ""
@@ -14915,14 +14903,20 @@ msgid ""
 " via `export OPENSSL_ROOT_DIR=/usr/local/opt/openssl` or by appending "
 "`-DOPENSSL_ROOT_DIR=/usr/local/opt/openssl` to `cmake`."
 msgstr ""
+"Suponiendo que ha instalado OpenSSL siguiendo las instrucciones anteriores "
+"de Homebrew , deberá configurar `OPENSSL_ROOT_DIR` para que CMake pueda "
+"encontrar sus instalaciones. Para OpenSSL instalado a través de Homebrew, "
+"configura `OPENSSL_ROOT_DIR` mediante `export OPENSSL_ROOT_DIR=/usr/local/"
+"opt/openssl` o añadiendo `-DOPENSSL_ROOT_DIR=/usr/local/opt/openssl` a "
+"`cmake`."
 
 #: ../../source/developer/build/BUILD_OSX.md:44
 msgid "Generate and Build"
-msgstr ""
+msgstr "Generar y Compilar"
 
 #: ../../source/developer/build/BUILD_OSX.md:46
 msgid "You can choose to use either Unix Makefiles or Xcode."
-msgstr ""
+msgstr "Puede seleccionar entre usar Unix Makefiles o Xcode."
 
 #: ../../source/developer/build/BUILD_OSX.md:48
 #, fuzzy
@@ -14936,6 +14930,10 @@ msgid ""
 "select the Xcode installation in the terminal first if you have not done "
 "so already."
 msgstr ""
+"Puede pedirle a CMake que genere archivos de proyecto Xcode en lugar de "
+"Makefiles de Unix utilizando el parámetro `-G Xcode` después de CMake. "
+"Primero deberá seleccionar la instalación de Xcode en el terminal si aún no "
+"lo ha hecho."
 
 #: ../../source/developer/build/BUILD_OSX.md:58
 msgid ""
@@ -14944,6 +14942,10 @@ msgid ""
 "file, choose `ALL_BUILD` from the Product > Scheme menu (or target drop "
 "down), and click Run."
 msgstr ""
+"Después de ejecutar CMake, dispondrá de los archivos make o del archivo de "
+"proyecto Xcode necesarios para compilar todos los componentes. Abra el "
+"archivo `overte.xcodeproj`, seleccione `ALL_BUILD` en el menú Producto > "
+"Esquema (o en el menú desplegable de destinos) y haga clic en Ejecutar."
 
 #: ../../source/developer/build/BUILD_OSX.md:60
 #, python-brace-format
@@ -14951,6 +14953,9 @@ msgid ""
 "If the build completes successfully, you will have built targets for all "
 "components located in the `build/${target_name}/Debug` directories."
 msgstr ""
+"Si la compilación se completa correctamente, habrá creado objetivos de "
+"compilación para todos los componentes ubicados en los directorios `build/"
+"${target_name}/Debug`."
 
 #: ../../source/developer/build/BUILD_OSX.md:62
 #, fuzzy
@@ -14959,43 +14964,51 @@ msgstr "make"
 
 #: ../../source/developer/build/BUILD_OSX.md:64
 msgid "Run CMake."
-msgstr ""
+msgstr "Ejecutar CMake."
 
 #: ../../source/developer/build/BUILD_OSX.md:70
 msgid ""
 "You can append `-j4` to assign more threads to build with. The number "
 "indicates the number of threads, e.g. 4."
 msgstr ""
+"Puede añadir `-j4` para asignar más subprocesos a la compilación. El número "
+"indica el número de subprocesos, por ejemplo, 4."
 
 #: ../../source/developer/build/BUILD_OSX.md:72
 msgid "To package the installation, you can simply run `make package` afterwards."
-msgstr ""
+msgstr "Para empaquetar la instalación, puede ejecutar `make package`."
 
 #: ../../source/developer/build/BUILD_OSX.md:76
 msgid ""
 "**Problem:** Running the scheme `interface.app` from Xcode causes a crash"
 " for Interface related to `libgl`."
 msgstr ""
+"**Problema:** Al ejecutar el esquema `interface.app`» desde Xcode se produce "
+"un fallo en Interface relacionado con `libgl`."
 
 #: ../../source/developer/build/BUILD_OSX.md:77
 msgid ""
 "**Cause:** The target `gl` generates a binary called `libgl`. A macOS "
 "`libGL.framework` item gets loaded instead by Xcode."
 msgstr ""
+"**Causa:** El objetivo `gl` genera un binario llamado `libgl`. En su lugar, "
+"Xcode carga un elemento `libGL.framework` de macOS."
 
 #: ../../source/developer/build/BUILD_OSX.md:78
 msgid ""
 "**Solution:** In the Xcode target settings for `libgl`, set the version "
 "to `1.0.0`."
 msgstr ""
+"**Solución:** En la configuración de destino de Xcode para `libgl`, "
+"configure la versión en `1.0.0`."
 
 #: ../../source/developer/build/BUILD_OSX.md:79
 msgid "**Problem:** CMake complains about Python 3 being missing."
-msgstr ""
+msgstr "**Problema:** CMake indica que falta Python 3."
 
 #: ../../source/developer/build/BUILD_OSX.md:80
 msgid "**Cause:** CMake might be out of date."
-msgstr ""
+msgstr "**Causa:** CMake podría estar desactualizado."
 
 #: ../../source/developer/build/BUILD_OSX.md:81
 msgid ""
@@ -15004,16 +15017,22 @@ msgid ""
 "on how you originally installed CMake. Please keep in mind the "
 "recommended CMake versions noted above."
 msgstr ""
+"**Solución:** Intenta actualizar tu binario de CMake con el comando `brew "
+"upgrade cmake` o descargando y ejecutando un instalador de CMake más "
+"reciente, según cómo lo hayas instalado originalmente. Ten en cuenta las "
+"versiones recomendadas de CMake mencionadas anteriormente."
 
 #: ../../source/developer/build/BUILD_WIN.md:10
 msgid "*Last Updated on 2025-06-09*"
-msgstr ""
+msgstr "*Última actualización el 2025-06-09*"
 
 #: ../../source/developer/build/BUILD_WIN.md:12
 msgid ""
 "This is a stand-alone guide for creating your first Overte build for "
 "Windows 64-bit."
 msgstr ""
+"Esta es una guía para crear tu primera compilación de Overte para Windows de "
+"64 bits."
 
 #: ../../source/developer/build/BUILD_WIN.md:14
 msgid ""
@@ -15021,16 +15040,22 @@ msgid ""
 "upgrading from previous versions, do a clean uninstall of those versions "
 "before going through this guide."
 msgstr ""
+"Nota: Ahora utilizamos Visual Studio 2022 y Qt 5.15.x. Si va a actualizar "
+"desde versiones anteriores, desinstale completamente esas versiones antes de "
+"seguir esta guía."
 
 #: ../../source/developer/build/BUILD_WIN.md:17
 msgid ""
 "**Note: The prerequisites will require about 10 GB of space on your "
 "drive. You will also need a system with at least 8GB of main memory.**"
 msgstr ""
+"**Nota: Los prerrequisitos requieren aproximadamente 10 GB de espacio en su "
+"disco duro. También necesitará un sistema con al menos 8 GB de memoria "
+"principal.**"
 
 #: ../../source/developer/build/BUILD_WIN.md:19
 msgid "Step 1. Visual Studio & Python 3.x"
-msgstr ""
+msgstr "Paso 1. Visual Studio & Python 3.x"
 
 #: ../../source/developer/build/BUILD_WIN.md:21
 msgid ""
@@ -15040,10 +15065,16 @@ msgid ""
 "should still work, we don't support it anymore and might remove "
 "workarounds specific to it in the future."
 msgstr ""
+"Si no tiene la edición Community o Professional de Visual Studio 2022, "
+"descargue [Visual Studio Community 2022](https://visualstudio.microsoft.com/"
+"vs/). Aunque Visual Studio 2019 debería seguir funcionando, ya no le "
+"ofrecemos soporte y es posible que eliminemos sus soluciones alternativas en "
+"el futuro."
 
 #: ../../source/developer/build/BUILD_WIN.md:23
 msgid "When selecting components, check \"Desktop development with C++\"."
 msgstr ""
+"Al seleccionar los componentes, marque \"Desarrollo de escritorio con C++\"."
 
 #: ../../source/developer/build/BUILD_WIN.md:25
 msgid ""
@@ -15055,30 +15086,39 @@ msgid ""
 "installer, select \"Modify\" again, then check \"Python Development\" and"
 " allow the installer to apply the changes."
 msgstr ""
+"Si aún no tiene instalado un entorno de desarrollo de Python 3.x y desea "
+"instalarlo con Visual Studio, marque \"Desarrollo con Python\". Si ya tiene "
+"instalado Visual Studio y necesita agregar Python, abra el panel de control "
+"\"Agregar o quitar programas\" y busque el "
+"\"Instalador de Microsoft Visual Studio\". Selecciónelo y haga clic en "
+"\"Modificar\". En el instalador, vuelva a seleccionar \"Modificar\", marque "
+"\"Desarrollo con Python\" y permita que el instalador aplique los cambios."
 
 #: ../../source/developer/build/BUILD_WIN.md:27
 msgid "Visual Studio 2022"
-msgstr ""
+msgstr "Visual Studio 2022"
 
 #: ../../source/developer/build/BUILD_WIN.md:29
 msgid "On the right on the Summary toolbar, select the following components."
 msgstr ""
+"A la derecha de la barra de herramientas Summary (Resumen), seleccione los "
+"siguientes componentes."
 
 #: ../../source/developer/build/BUILD_WIN.md:31
 msgid "MSVC v142 - VS 2019 C++ X64/x86 build tools"
-msgstr ""
+msgstr "MSVC v142 - VS 2019 C++ X64/x86 build tools"
 
 #: ../../source/developer/build/BUILD_WIN.md:32
 msgid "MSVC v141 - VS 2017 C++ x64/x86 build tools"
-msgstr ""
+msgstr "Herramientas de compilación de MSVC v141 - VS 2017 C++ x64/x86"
 
 #: ../../source/developer/build/BUILD_WIN.md:33
 msgid "MSVC v140 - VS 2015 C++ build tools (v14.00)"
-msgstr ""
+msgstr "Herramientas de compilación de C++ en MSVC v140 - VS 2015 (v14.00)"
 
 #: ../../source/developer/build/BUILD_WIN.md:35
 msgid "Step 1a. Alternate Python"
-msgstr ""
+msgstr "Paso 1a. Python"
 
 #: ../../source/developer/build/BUILD_WIN.md:37
 msgid ""
@@ -15087,29 +15127,33 @@ msgid ""
 "[here](https://www.python.org/downloads/). Ensure that you get version "
 "3.6.6 or higher."
 msgstr ""
+"Si no desea usar la instalación de Python incluida con Visual Studio, puede "
+"descargar el instalador desde [aquí](https://www.python.org/downloads/). "
+"Asegúrese de tener la versión 3.6.6 o superior."
 
 #: ../../source/developer/build/BUILD_WIN.md:39
 msgid "Step 2. Python Dependencies"
-msgstr ""
+msgstr "Paso 2. Dependencias de Python"
 
 #: ../../source/developer/build/BUILD_WIN.md:41
 msgid ""
 "In an administrator command-line that can access Python's pip you will "
 "need to run the following command:"
 msgstr ""
+"En un terminal con permisos de administrador con acceso a pip de Python, "
+"deberá ejecutar el siguiente comando:"
 
 #: ../../source/developer/build/BUILD_WIN.md:43
-#, fuzzy
 msgid "`pip install distro`"
 msgstr "`pip install distro`"
 
 #: ../../source/developer/build/BUILD_WIN.md:45
 msgid "If you do not use an administrator command-line, you will get errors."
-msgstr ""
+msgstr "Si no usa una terminal con los permisos adecuados, obtendrá errores."
 
 #: ../../source/developer/build/BUILD_WIN.md:47
 msgid "Step 3. Installing Conan"
-msgstr ""
+msgstr "Paso 3. Instalando Conan"
 
 #: ../../source/developer/build/BUILD_WIN.md:49
 msgid ""
@@ -15117,14 +15161,16 @@ msgid ""
 "website](https://conan.io/downloads). Next, add the Overte remote to "
 "Conan:"
 msgstr ""
+"Descargue e instale Conan desde el [sitio web de Conan](https://conan.io/"
+"downloads). A continuación, añada el remoto de Overte a Conan:"
 
 #: ../../source/developer/build/BUILD_WIN.md:55
 msgid "Step 4. Installing CMake"
-msgstr ""
+msgstr "Paso 4. Instalar CMake"
 
 #: ../../source/developer/build/BUILD_WIN.md:57
 msgid "Download and install CMake version 3.15 or higher."
-msgstr ""
+msgstr "Descargue e instale CMake, versión 3.15 o mayor."
 
 #: ../../source/developer/build/BUILD_WIN.md:59
 msgid ""
@@ -15133,10 +15179,15 @@ msgid ""
 "make sure to check \"Add CMake to system PATH for all users\" when "
 "prompted."
 msgstr ""
+"Descargue el archivo cmake-[versión]-windows-x86_64.msi del "
+"[sitio web de CMake](https://cmake.org/download/). Durante la instalación, "
+"asegúrese de marcar la opción "
+"\"Agregar CMake a la ruta del sistema para todos los usuarios\" cuando se le "
+"solicite."
 
 #: ../../source/developer/build/BUILD_WIN.md:61
 msgid "Step 5. (Optional) Node.JS and NPM"
-msgstr ""
+msgstr "Paso 5. (Opcional) Node.JS y NPM"
 
 #: ../../source/developer/build/BUILD_WIN.md:63
 msgid ""
@@ -15144,11 +15195,14 @@ msgid ""
 "NPM](<https://nodejs.org/en/download/>). This is required to build the "
 "server-console and jsdoc, and for JavaScript console autocompletion."
 msgstr ""
+"Instale la última versión LTS de [Node.JS y NPM](<https://nodejs.org/en/"
+"download/>). Esto es necesario para compilar la consola del servidor y la "
+"documentación jsdoc, así como para el autocompletado de la consola de "
+"JavaScript."
 
 #: ../../source/developer/build/BUILD_WIN.md:66
-#, fuzzy
 msgid "Step 6. (Optional) Create conan environment variable"
-msgstr "Crea un Ambiente"
+msgstr "Paso 6. (Opcional) Crear la variable de entorno para conan"
 
 #: ../../source/developer/build/BUILD_WIN.md:67
 msgid ""
@@ -15158,11 +15212,15 @@ msgid ""
 " you can create a `CONAN_HOME` environment variable linked to a directory"
 " somewhere on your machine."
 msgstr ""
+"En el siguiente paso, utilizará conan para instalar las dependencias para "
+"compilar Overte. De manera predeterminada, conan compilará e instalará las "
+"dependencias en `<username>/.conan2`. Si desea cambiar esa ubicación, puede "
+"crear la variable de entorno `CONAN_HOME` vinculada a un directorio en algún "
+"lugar de su máquina."
 
 #: ../../source/developer/build/BUILD_WIN.md:70
-#, fuzzy
 msgid "To create this variable:"
-msgstr "Para crear la base de la paleta:"
+msgstr "Para crear esta variable:"
 
 #: ../../source/developer/build/BUILD_WIN.md:71
 msgid ""
@@ -15171,65 +15229,66 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:72
-#, fuzzy
 msgid "Click on 'Environment Variables'"
-msgstr "Quita las variables de entorno asociadas."
+msgstr "Seleccione 'Variables de entorno'"
 
 #: ../../source/developer/build/BUILD_WIN.md:73
-#, fuzzy
 msgid "Select 'New'"
-msgstr "Eliminar selección"
+msgstr "Seleccionar 'Nuevo'"
 
 #: ../../source/developer/build/BUILD_WIN.md:74
-#, fuzzy
 msgid "Set \"Variable name\" to `CONAN_HOME`"
-msgstr "Conjunto de Valores del Material en Maya"
+msgstr "Asigne \"Variable name\" a `CONAN_HOME`"
 
 #: ../../source/developer/build/BUILD_WIN.md:75
 msgid "Set \"Variable value\" to any directory that you have control over."
 msgstr ""
+"Asigne \"Variable value\" a una ruta de un directorio sobre el cual tenga "
+"control."
 
 #: ../../source/developer/build/BUILD_WIN.md:77
 msgid ""
 "*Make sure that you copy the contents of your old `.conan2` folder over, "
 "or that you add the remote from step 2 again.*"
 msgstr ""
+"*Asegúrate de copiar el contenido de tu antigua carpeta `.conan2` o de "
+"volver a añadir el remoto del paso 2.*"
 
 #: ../../source/developer/build/BUILD_WIN.md:79
 msgid "Step 7. Running CMake to Generate Build Files"
-msgstr ""
+msgstr "Paso 7. Ejecución de CMake para generar archivos de compilación"
 
 #: ../../source/developer/build/BUILD_WIN.md:81
 msgid "These instructions only apply to Visual Studio 2022."
-msgstr ""
+msgstr "Estas instrucciones solo aplican a Visual Studio 2022."
 
 #: ../../source/developer/build/BUILD_WIN.md:83
-#, fuzzy
 msgid "Automatic"
-msgstr "Play Automatically (Reproducir automáticamente)"
+msgstr "Automático"
 
 #: ../../source/developer/build/BUILD_WIN.md:85
 msgid ""
 "There is a batch file to automatically run the commands below for ease of"
 " use."
 msgstr ""
+"Hay un archivo por lotes para ejecutar automáticamente los siguientes "
+"comandos y facilitar su uso."
 
 #: ../../source/developer/build/BUILD_WIN.md:87
 msgid "`winprepareVS22.bat`"
-msgstr ""
+msgstr "`winprepareVS22.bat`"
 
 #: ../../source/developer/build/BUILD_WIN.md:89
-#, fuzzy
 msgid "Manual"
-msgstr "Maya"
+msgstr "Manual"
 
 #: ../../source/developer/build/BUILD_WIN.md:91
 msgid "Run the Command Prompt from Start and run the following commands:"
-msgstr ""
+msgstr "En una consola de comandos (terminal) ejecute los siguientes comandos:"
 
 #: ../../source/developer/build/BUILD_WIN.md:100
 msgid "Where `%OVERTE_DIR%` is the directory for the Overte repository."
-msgstr ""
+msgstr "Donde `%OVERTE_DIR%` es el directorio del repositorio de Overte."
 
 #: ../../source/developer/build/BUILD_WIN.md:102
 msgid ""
@@ -15237,14 +15296,17 @@ msgid ""
 "\"*\" -sbd` to clean the build folders created by Conan, saving disk "
 "space."
 msgstr ""
+"Nota: Después de ejecutar Conan, se recomienda ejecutar `conan cache clean "
+"\"*\" -sbd` para limpiar las carpetas de compilación creadas por Conan y "
+"ahorrar espacio en disco."
 
 #: ../../source/developer/build/BUILD_WIN.md:104
 msgid "Step 8. Making a Build"
-msgstr ""
+msgstr "Paso 8. Compilando"
 
 #: ../../source/developer/build/BUILD_WIN.md:106
 msgid "Open `%OVERTE_DIR%\\build\\overte.sln` using Visual Studio."
-msgstr ""
+msgstr "Abra `%OVERTE_DIR%\\build\\overte.sln` usando Visual Studio."
 
 #: ../../source/developer/build/BUILD_WIN.md:108
 msgid ""
@@ -15252,23 +15314,25 @@ msgid ""
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
+"Cambie la configuración de la solución (pestaña de menú situada debajo de la "
+"barra de menú, junto al botón verde de reproducción) de «Depurar» a «Lanzar» "
+"para obtener el mejor rendimiento."
 
 #: ../../source/developer/build/BUILD_WIN.md:110
 msgid "Run from the menu bar `Build > Build Solution`."
-msgstr ""
+msgstr "Ejecute `Compilar > Compilar solución`."
 
 #: ../../source/developer/build/BUILD_WIN.md:112
 msgid "Step 9. Testing Interface"
-msgstr ""
+msgstr "Paso 9. Probando la interfaz"
 
 #: ../../source/developer/build/BUILD_WIN.md:114
-#, fuzzy
 msgid "Create another environment variable (see Step #3)"
-msgstr "Quita las variables de entorno asociadas."
+msgstr "Crear otra variable de entorno (Ver el Paso #3)"
 
 #: ../../source/developer/build/BUILD_WIN.md:115
 msgid "Set \"Variable name\": `_NO_DEBUG_HEAP`"
-msgstr ""
+msgstr "Establezca \"Variable name\": `_NO_DEBUG_HEAP`"
 
 #: ../../source/developer/build/BUILD_WIN.md:116
 #, fuzzy
@@ -15277,7 +15341,7 @@ msgstr "Conjunto de Valores del Material en Maya"
 
 #: ../../source/developer/build/BUILD_WIN.md:118
 msgid "Restart Visual Studio again."
-msgstr ""
+msgstr "Reinicie Visual Studio."
 
 #: ../../source/developer/build/BUILD_WIN.md:120
 msgid ""
@@ -15342,7 +15406,7 @@ msgstr ""
 
 #: ../../source/developer/domain-server/command-line-parameters.md:13
 msgid "ICE server address"
-msgstr ""
+msgstr "Dirección del servidor ICE"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:17
 #, fuzzy
@@ -15355,7 +15419,7 @@ msgstr ""
 
 #: ../../source/developer/domain-server/command-line-parameters.md:25
 msgid "User config file path"
-msgstr ""
+msgstr "Ruta del archivo de configuración del usuario"
 
 #: ../../source/developer/domain-server/command-line-parameters.md:29
 msgid "Displays the PID of the parent process"
@@ -15413,7 +15477,7 @@ msgstr ""
 
 #: ../../source/developer/interface/command-line-parameters.md:17
 msgid "Displays the protocol version"
-msgstr ""
+msgstr "Muestra la versión del protocolo"
 
 #: ../../source/developer/interface/command-line-parameters.md:21
 msgid "Do not show the auto-updater"
@@ -15442,7 +15506,7 @@ msgstr ""
 
 #: ../../source/developer/interface/command-line-parameters.md:45
 msgid "Set path for defaultScripts."
-msgstr ""
+msgstr "Establece la ruta para defaultScripts."
 
 #: ../../source/developer/interface/command-line-parameters.md:49
 msgid "Allow multiple instances of the interface to run simultaneously."
@@ -15794,7 +15858,7 @@ msgstr "Pictionary en el antiguo Hub, 5 de julio de 2020."
 
 #: ../../source/explore/gallery.rst:50
 msgid "29th September 2020"
-msgstr ""
+msgstr "20 de septiembre de 2020"
 
 #: ../../source/explore/gallery.rst:54
 msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
@@ -15809,7 +15873,7 @@ msgstr ":doc:`Instala Overte <get-started/install>`"
 #: ../../source/explore/get-started/install.rst:3
 #: ../../source/explore/get-started/install.rst:65
 msgid "Install Overte"
-msgstr ""
+msgstr "Instalar Overte"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/architecture.rst:7
@@ -17756,7 +17820,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:153
 msgid "Delete the ``overte.org`` folder."
-msgstr ""
+msgstr "Borrar el directorio ``overte.org``."
 
 #: ../../source/explore/get-started/install.rst:154
 #, fuzzy
@@ -20732,15 +20796,15 @@ msgstr ""
 
 #: ../../source/faq.rst:44
 msgid "**Windows**: ``%AppData%\\Overte\\domain-server\\``"
-msgstr ""
+msgstr "**Windows**: ``%AppData%\\Overte\\domain-server\\``"
 
 #: ../../source/faq.rst:45
 msgid "**Mac**: ``~/Library/Application Support/Overte/domain-server/``"
-msgstr ""
+msgstr "**Mac**: ``~/Library/Application Support/Overte/domain-server/``"
 
 #: ../../source/faq.rst:46
 msgid "**Linux**: ``/var/lib/overte/default/domain-server/``"
-msgstr ""
+msgstr "**Linux**: ``/var/lib/overte/default/domain-server/``"
 
 #: ../../source/faq.rst:53
 #, fuzzy
@@ -20808,11 +20872,11 @@ msgstr ""
 
 #: ../../source/faq.rst:69
 msgid "**Mac**: ``~/Library/Application Support/Overte/Interface/Logs/``"
-msgstr ""
+msgstr "**Mac**: ``~/Library/Application Support/Overte/Interface/Logs/``"
 
 #: ../../source/faq.rst:70
 msgid "**Linux**: ``~/.local/share/Overte/Interface/Logs/``"
-msgstr ""
+msgstr "**Linux**: ``~/.local/share/Overte/Interface/Logs/``"
 
 #: ../../source/faq.rst:72
 msgid ""
@@ -21174,7 +21238,7 @@ msgstr ""
 
 #: ../../source/faq.rst:197
 msgid "``20.11.2 27.20.14501.18003`` (crashing)"
-msgstr ""
+msgstr "``20.11.2 27.20.14501.18003`` (fallando)"
 
 #: ../../source/faq.rst:199
 #, fuzzy
@@ -23264,6 +23328,8 @@ msgid ""
 "**Windows:** %Program "
 "Files%/Local/Overte/scripts/tutorials/entity_edit_filters"
 msgstr ""
+"**Windows:** %Program Files%/Local/Overte/scripts/tutorials/"
+"entity_edit_filters"
 
 #: ../../source/host/configure-settings/entity-filters.rst:47
 #, fuzzy
@@ -25270,12 +25336,12 @@ msgstr "Empaquetador de Avatar"
 #: ../../source/host/server-setup/linux-server.md:18
 #: ../../source/host/server-setup/linux-server.md:68
 msgid "Debian 11"
-msgstr ""
+msgstr "Debian 11"
 
 #: ../../source/host/server-setup/linux-server.md:25
 #: ../../source/host/server-setup/linux-server.md:75
 msgid "Ubuntu 22.04"
-msgstr ""
+msgstr "Ubuntu 22.04"
 
 #: ../../source/host/server-setup/linux-server.md:31
 msgid "Ubuntu 20.04"
@@ -25542,7 +25608,7 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:148
 msgid "Deleting a Overte Server"
-msgstr ""
+msgstr "Eliminando el servidor Overte"
 
 #: ../../source/host/server-setup/linux-server.md:150
 #, fuzzy
@@ -26280,7 +26346,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-0-Eos.md:5
 #: ../../source/release-notes/2021-1-1-Eos.md:5
 msgid "Interface (Codename Athena)"
-msgstr ""
+msgstr "Interfaz (Nombre clave Athena)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:16
 #: ../../source/release-notes/2020-2-1-Asteria.md:7
@@ -26342,7 +26408,7 @@ msgstr "General"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:20
 msgid "Create App"
-msgstr ""
+msgstr "Crear la App"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:21
 msgid "Now has tabs for entity properties. (#193)"
@@ -26362,7 +26428,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:25
 msgid "QML branding updates. (#277)"
-msgstr ""
+msgstr "Actualizaciones de QML. (#277)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:26
 msgid "Gridchat is now muted by default. (#287)"
@@ -26508,7 +26574,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:63
 msgid "(v0.86.0 -> v0.87.0)"
-msgstr ""
+msgstr "(v0.86.0 -> v0.87.0)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:65
 msgid ""
@@ -26559,7 +26625,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:80
 msgid "Screenshare in Interface! (#16429)"
-msgstr ""
+msgstr "Compartir pantalla en Interface! (#16429)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:81
 msgid "Fix a few Screenshare bugs. (#16534)"
@@ -26603,7 +26669,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:90
 msgid "Important bug fixes."
-msgstr ""
+msgstr "Correcciones importantes."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:91
 msgid "DEV-2663: Adding safeguard in case device list is empty. (#16481)"
@@ -26636,7 +26702,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:98
 msgid "GitHub Actions"
-msgstr ""
+msgstr "GitHub Actions"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:100
 msgid "GitHub actions initial work. (#16401)"
@@ -26648,7 +26714,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:102
 msgid "GitHub Actions workflow clean-up."
-msgstr ""
+msgstr "Limpieza del flujo de trabajo de GitHub Actions."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:103
 msgid "Add step to clear out working directory before starting build"
@@ -26690,8 +26756,9 @@ msgid "Remove upload step and unlabel job from builds. (#16524)"
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:115
+#, fuzzy
 msgid "DOC-209: AudioStats JSDoc. (#16495)"
-msgstr ""
+msgstr "DOC-209: AudioStats JSDoc. (#16495)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:116
 #: ../../source/release-notes/2020-2-0-Asteria.md:127
@@ -26710,16 +26777,16 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:117
 msgid "AudioStats"
-msgstr ""
+msgstr "AudioStats"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:118
 #: ../../source/release-notes/2020-2-0-Asteria.md:166
 msgid "Classes:"
-msgstr ""
+msgstr "Clases:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:119
 msgid "AudioStreamStats"
-msgstr ""
+msgstr "AudioStreamStats"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:120
 msgid "DOC-208: Revisions to JSDoc added by developers since July 2019."
@@ -26727,7 +26794,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:121
 msgid "pull/15974 - Sitting API."
-msgstr ""
+msgstr "pull/15974 - Fortaleciendo la API."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:122
 msgid "pull/16025 - Debug API for Picks/Pointers."
@@ -26746,12 +26813,13 @@ msgid "pull/16399 - Updated blend shape support with ARKit compatibility."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:126
+#, fuzzy
 msgid "DOC-233: MaterialCache JSDoc (#16541)"
-msgstr ""
+msgstr "DOC-233: MaterialCache JSDoc (#16541)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:128
 msgid "MaterialCache"
-msgstr ""
+msgstr "MaterialCache"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:129
 #: ../../source/release-notes/2020-2-0-Asteria.md:151
@@ -26761,7 +26829,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-0-Asteria.md:185
 #: ../../source/release-notes/2020-2-0-Asteria.md:190
 msgid "Also:"
-msgstr ""
+msgstr "También:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:130
 msgid ""
@@ -26789,8 +26857,9 @@ msgid "Revised recent `Entities.Material` JSDoc changes."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:135
+#, fuzzy
 msgid "DOC-227: Stats JSDoc (#16539)"
-msgstr ""
+msgstr "DOC-227: Stats JSDoc (#16539)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:137
 #, fuzzy
@@ -26799,43 +26868,46 @@ msgstr "Datos"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:138
 msgid "Globals:"
-msgstr ""
+msgstr "Globals:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:139
 msgid "RefreshRateProfile"
-msgstr ""
+msgstr "RefreshRateProfile"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:140
 msgid "RefreshRateRegime"
-msgstr ""
+msgstr "RefreshRateRegime"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:141
 msgid "UXMode"
-msgstr ""
+msgstr "UXMode"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:142
+#, fuzzy
 msgid "DOC-237: DialogsManager JSDoc (#16560)"
-msgstr ""
+msgstr "DOC-237: DialogsManager JSDoc (#16560)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:144
 msgid "DialogsManager"
-msgstr ""
+msgstr "DialogsManager"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:145
+#, fuzzy
 msgid "DOC-238: AddressManager JSDoc (#16561)"
-msgstr ""
+msgstr "DOC-238: AddressManager JSDoc (#16561)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:147
 msgid "AddressManager"
-msgstr ""
+msgstr "AddressManager"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:148
+#, fuzzy
 msgid "DOC-235: DriveKeys JSDoc (#16556)"
-msgstr ""
+msgstr "DOC-235: DriveKeys JSDoc (#16556)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:150
 msgid "DriveKeys"
-msgstr ""
+msgstr "DriveKeys"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:152
 msgid "Type MyAvatar.DriveKeys renamed to (global) type DriveKey."
@@ -26846,24 +26918,25 @@ msgid "MyAvatar.disableDriveKey() example updated to use DriveKeys API."
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:154
+#, fuzzy
 msgid "DOC-198: OffscreenFlags JSDoc (#16563)"
-msgstr ""
+msgstr "DOC-198: OffscreenFlags JSDoc (#16563)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:156
 msgid "OffscreenFlags"
-msgstr ""
+msgstr "OffscreenFlags"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:157
 msgid "DOC-240: console JSDoc (#16567)"
-msgstr ""
+msgstr "DOC-240: console JSDoc (#16567)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:159
 msgid "console"
-msgstr ""
+msgstr "consola"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:161
 msgid "Updated Script API accordingly."
-msgstr ""
+msgstr "API del script actualizada."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:162
 msgid "Fixed global print function's JSDoc."
@@ -26871,11 +26944,11 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:163
 msgid "DOC-239: Rates JSDoc (#16564)"
-msgstr ""
+msgstr "DOC-239: Rates JSDoc (#16564)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:164
 msgid "Rates"
-msgstr ""
+msgstr "Rates"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:165
 msgid "DOC-244: OverlayWindow and OverlayWebWindow JSDoc (#16573)"
@@ -26883,11 +26956,11 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:167
 msgid "OverlayWindow"
-msgstr ""
+msgstr "OverlayWindow"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:168
 msgid "OverlayWebWindow"
-msgstr ""
+msgstr "OverlayWebWindow"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:170
 msgid "Fixed up some related InteractiveWindow JSDoc."
@@ -26895,15 +26968,15 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:171
 msgid "DOC-243: EntityScriptServerLog JSDoc (#16571)"
-msgstr ""
+msgstr "DOC-243: EntityScriptServerLog JSDoc (#16571)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:172
 msgid "DOC-241: ContextOverlay JSDoc (#16570)"
-msgstr ""
+msgstr "DOC-241: ContextOverlay JSDoc (#16570)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:174
 msgid "ContextOverlay"
-msgstr ""
+msgstr "ContextOverlay"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:176
 msgid ""
@@ -26917,11 +26990,11 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:179
 msgid "WebSocket"
-msgstr ""
+msgstr "WebSocket"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:180
 msgid "WebsocketServer"
-msgstr ""
+msgstr "WebsocketServer"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:181
 msgid "DOC-157: LODManager and Performance JSDoc"
@@ -26929,7 +27002,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:183
 msgid "LODManager"
-msgstr ""
+msgstr "LODManager"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:184
 #, fuzzy
@@ -26942,11 +27015,11 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:187
 msgid "DOC-55: XMLHttpRequest JSDoc (#16577)"
-msgstr ""
+msgstr "DOC-55: XMLHttpRequest JSDoc (#16577)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:189
 msgid "XMLHttpRequest"
-msgstr ""
+msgstr "XMLHttpRequest"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:191
 msgid "A few minor fixes to the WebSocket API JSDoc."
@@ -26960,23 +27033,23 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:193
 msgid "pull/16578"
-msgstr ""
+msgstr "pull/16578"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:194
 msgid "pull/16579"
-msgstr ""
+msgstr "pull/16579"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:195
 msgid "pull/16580"
-msgstr ""
+msgstr "pull/16580"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:196
 msgid "pull/16581"
-msgstr ""
+msgstr "pull/16581"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:198
 msgid "Technical / Other Changes"
-msgstr ""
+msgstr "Cambios Técnicos/Otros"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:200
 msgid "Fix handleUrl helper regex. (#16511)"
@@ -27031,10 +27104,13 @@ msgid ""
 "native-"
 "manifest/?fbclid=IwAR3AgasGPJFVGsz7lyzfJNfuTB8R1FOg88Quq8YZz67eQlwEFvgEMDGjSdo"
 msgstr ""
+"https://developer.oculus.com/documentation/quest/latest/concepts/"
+"mobile-native-manifest/"
+"?fbclid=IwAR3AgasGPJFVGsz7lyzfJNfuTB8R1FOg88Quq8YZz67eQlwEFvgEMDGjSdo"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:210
 msgid "https://developers.google.com/vr/develop/android/3dof-to-6dof"
-msgstr ""
+msgstr "https://developers.google.com/vr/develop/android/3dof-to-6dof"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:211
 msgid ""
@@ -27143,7 +27219,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:227
 msgid "Added desktopSharing variable. (#16504)"
-msgstr ""
+msgstr "Variable desktopSharing agregada. (#16504)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:228
 msgid ""
@@ -27193,8 +27269,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:235
+#, fuzzy
 msgid "Fix-multiple-color-sphere-pops. (#16514)"
-msgstr ""
+msgstr "Fix-multiple-color-sphere-pops. (#16514)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:236
 msgid "Pinch to zoom camera, two finger swipe to look around, bug fixes. (#16505)"
@@ -27342,7 +27419,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:265
 msgid "General fixes:"
-msgstr ""
+msgstr "Arreglos generales:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:266
 msgid ""
@@ -27358,7 +27435,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:268
 msgid "Gamepad-specific fixes:"
-msgstr ""
+msgstr "Correcciones específicas para Gamepad:"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:269
 msgid "Reinstated teleporting on \"Y\" button."
@@ -27380,7 +27457,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-3-Eos.md:240
 #: ../../source/release-notes/v86-k2.md:69
 msgid "User Docs"
-msgstr ""
+msgstr "Documentación de Usuario"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:276
 #: ../../source/release-notes/2020-2-1-Asteria.md:24
@@ -27446,7 +27523,7 @@ msgstr ""
 #: ../../source/release-notes/2021-1-1-Eos.md:142
 #: ../../source/release-notes/v86-k2.md:76
 msgid "API Docs"
-msgstr ""
+msgstr "Documentación de la API"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:289
 #: ../../source/release-notes/2020-2-1-Asteria.md:31
@@ -27487,7 +27564,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:47
 #: ../../source/release-notes/v86-k2.md:86
 msgid "Extra Applications"
-msgstr ""
+msgstr "Aplicaciones Extra"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:298
 #: ../../source/release-notes/2020-2-1-Asteria.md:38
@@ -27515,7 +27592,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-2-Asteria.md:43
 #: ../../source/release-notes/2020-2-2-Asteria.md:51
 msgid "Nothing new!"
-msgstr ""
+msgstr "Nada nuevo!"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:305
 #: ../../source/release-notes/2020-2-1-Asteria.md:44
@@ -27525,7 +27602,7 @@ msgstr ""
 #: ../../source/release-notes/2020-2-5-Asteria.md:55
 #: ../../source/release-notes/v86-k2.md:96
 msgid "Community Apps"
-msgstr ""
+msgstr "Aplicaciones de la comunidad"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:307
 #: ../../source/release-notes/2020-2-1-Asteria.md:46
@@ -27940,7 +28017,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:72
 msgid "Inventory App"
-msgstr ""
+msgstr "Aplicación de Inventario (Inventory)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:74
 msgid ""
@@ -27953,7 +28030,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:76
 msgid "Slider App"
-msgstr ""
+msgstr "Aplicación Slider"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:78
 msgid ""
@@ -28327,7 +28404,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:49
 msgid "Explore App"
-msgstr ""
+msgstr "Aplicación Explore"
 
 #: ../../source/release-notes/2020-2-5-Asteria.md:53
 #: ../../source/release-notes/2020-2-5-Asteria.md:59
@@ -28672,7 +28749,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:69
 msgid "`Script` API:"
-msgstr ""
+msgstr "`Script` API:"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:70
 msgid "`type` property documented. (#730)"
@@ -28680,7 +28757,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:71
 msgid "`Window` API:"
-msgstr ""
+msgstr "`Window` API:"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:72
 msgid "`url` parameter added to `openWebBrowser`. (#623)"
@@ -28689,15 +28766,16 @@ msgstr ""
 #: ../../source/release-notes/2020-3-1-Demeter.md:73
 #: ../../source/release-notes/2021-1-0-Eos.md:166
 msgid "`About` API:"
-msgstr ""
+msgstr "`About` API:"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:74
 msgid "`openUrl` documentation updated. (#623)"
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:75
+#, fuzzy
 msgid "`Camera` API:"
-msgstr ""
+msgstr "`Camera` API:"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:76
 msgid "`captureMouse` and `sensitivity` properties added. (#677)"
@@ -28722,8 +28800,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:80
+#, fuzzy
 msgid "`Stats` API:"
-msgstr ""
+msgstr "`Stats` API:"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:81
 msgid ""
@@ -28768,7 +28847,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:16
 msgid "Add Actions menu."
-msgstr ""
+msgstr "Agregar menú Actions."
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:19
 #, fuzzy
@@ -28805,7 +28884,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:27
 msgid "Add Selection menu."
-msgstr ""
+msgstr "Agregar menú Selección."
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:28
 #, fuzzy
@@ -28819,7 +28898,7 @@ msgstr "Eliminar selección"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:30
 msgid "Inverse Selection"
-msgstr ""
+msgstr "Selección inversa"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:31
 msgid "Select All Entities In Box"
@@ -28849,7 +28928,7 @@ msgstr "Niño/a"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:37
 msgid "Parent & Child"
-msgstr ""
+msgstr "Padre e Hijo"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:38
 #, fuzzy
@@ -29024,43 +29103,43 @@ msgstr ""
 #: ../../source/release-notes/2021-1-2-Eos.md:43
 #: ../../source/release-notes/2021-1-3-Eos.md:117
 msgid "Iamus [Metaverse Server](https://github.com/vircadia/iamus)"
-msgstr ""
+msgstr "Iamus [Metaverse Server](https://github.com/vircadia/iamus)"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:83
 msgid "Version 2.3.3"
-msgstr ""
+msgstr "Version 2.3.3"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:93
 msgid "Version 2.3.2"
-msgstr ""
+msgstr "Versión 2.3.2"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:104
 msgid "Version 2.3.1"
-msgstr ""
+msgstr "Versión 2.3.1"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:111
 msgid "Version 2.2.24"
-msgstr ""
+msgstr "Versión 2.2.24"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:120
 msgid "Version 2.2.23"
-msgstr ""
+msgstr "Versión 2.2.23"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:129
 msgid "Version 2.2.22"
-msgstr ""
+msgstr "Versión 2.2.22"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:144
 msgid "Version 2.2.21"
-msgstr ""
+msgstr "Versión 2.2.21"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:168
 msgid "Version 2.2.20"
-msgstr ""
+msgstr "Versión 2.2.20"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:184
 msgid "Version 2.2.19"
-msgstr ""
+msgstr "Versión 2.2.19"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:198
 #: ../../source/release-notes/2020-3-3-Demeter.md:114
@@ -29072,6 +29151,8 @@ msgid ""
 "Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-"
 "dashboard)"
 msgstr ""
+"Tablero de comando del [Metaverso Iamus](https://github.com/vircadia/project-"
+"iamus-dashboard)"
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:200
 msgid "Updates are reflected [here](https://dashboard.vircadia.com/)."
@@ -29274,7 +29355,7 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:34
 msgid "Main \"Edit\" menu:"
-msgstr ""
+msgstr "Menú \"Edit\" principal:"
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:35
 msgid ""
@@ -29370,19 +29451,19 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:65
 msgid "Version 2.3.7"
-msgstr ""
+msgstr "Versión 2.3.7"
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:81
 msgid "Version 2.3.6"
-msgstr ""
+msgstr "Versión 2.3.6"
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:92
 msgid "Version 2.3.5"
-msgstr ""
+msgstr "Versión 2.3.5"
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:102
 msgid "Version 2.3.4"
-msgstr ""
+msgstr "Versión 2.3.4"
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:116
 msgid ""
@@ -29663,19 +29744,19 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:63
 msgid "Version 2.3.11"
-msgstr ""
+msgstr "Versión 2.3.11"
 
 #: ../../source/release-notes/2021-1-0-Eos.md:88
 msgid "Version 2.3.10"
-msgstr ""
+msgstr "Versión 2.3.10"
 
 #: ../../source/release-notes/2021-1-0-Eos.md:101
 msgid "Version 2.3.9"
-msgstr ""
+msgstr "Versión 2.3.9"
 
 #: ../../source/release-notes/2021-1-0-Eos.md:110
 msgid "Version 2.3.8"
-msgstr ""
+msgstr "Versión 2.3.8"
 
 #: ../../source/release-notes/2021-1-0-Eos.md:127
 msgid ""
@@ -29728,7 +29809,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:143
 msgid "Add 'Metaverse' tab."
-msgstr ""
+msgstr "Agregar la pestaña 'Metaverso'."
 
 #: ../../source/release-notes/2021-1-0-Eos.md:144
 msgid ""
@@ -29789,8 +29870,9 @@ msgid "`alignment` property added to text entities. (#1020)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-0-Eos.md:173
+#, fuzzy
 msgid "`PlatformInfo` API:"
-msgstr ""
+msgstr "`PlatformInfo` API:"
 
 #: ../../source/release-notes/2021-1-0-Eos.md:174
 msgid "Fix typo in `getPlatformTierNames` `UNKNWON` -> `UNKNOWN`. (#982)"
@@ -30039,19 +30121,19 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:73
 msgid "Version 2.3.15"
-msgstr ""
+msgstr "Versión 2.3.15"
 
 #: ../../source/release-notes/2021-1-1-Eos.md:82
 msgid "Version 2.3.14"
-msgstr ""
+msgstr "Versión 2.3.14"
 
 #: ../../source/release-notes/2021-1-1-Eos.md:93
 msgid "Version 2.3.13"
-msgstr ""
+msgstr "Versión 2.3.13"
 
 #: ../../source/release-notes/2021-1-1-Eos.md:103
 msgid "Version 2.3.12"
-msgstr ""
+msgstr "Versión 2.3.12"
 
 #: ../../source/release-notes/2021-1-1-Eos.md:115
 msgid ""
@@ -30119,8 +30201,9 @@ msgid "Release notes for 2021.1.1 Eos. (#132)"
 msgstr ""
 
 #: ../../source/release-notes/2021-1-1-Eos.md:147
+#, fuzzy
 msgid "`Users` API:"
-msgstr ""
+msgstr "`Users` API:"
 
 #: ../../source/release-notes/2021-1-1-Eos.md:148
 msgid ""
@@ -30636,7 +30719,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-3-Eos.md:58
 msgid "In Development"
-msgstr ""
+msgstr "En desarrollo"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:59
 msgid ""
@@ -30861,7 +30944,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-3-Eos.md:109
 msgid "Housekeeping"
-msgstr ""
+msgstr "Limpieza"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:111
 msgid ""
@@ -30874,6 +30957,8 @@ msgid ""
 "Fix whitespace. [#18](https://github.com/vircadia/vircadia-web-"
 "sdk/pull/18)"
 msgstr ""
+"Corregir espacios en blanco. [#18](https://github.com/vircadia/"
+"vircadia-web-sdk/pull/18)"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:113
 msgid ""
@@ -30883,45 +30968,47 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-3-Eos.md:119
 msgid "Version 2.4.7"
-msgstr ""
+msgstr "Versión 2.4.7"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:128
 msgid "Version 2.4.6"
-msgstr ""
+msgstr "Versión 2.4.6"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:141
 msgid "Version 2.4.5"
-msgstr ""
+msgstr "Versión 2.4.5"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:153
 msgid "Version 2.4.4"
-msgstr ""
+msgstr "Versión 2.4.4"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:164
 msgid "Version 2.4.3"
-msgstr ""
+msgstr "Versión 2.4.3"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:175
 msgid "Version 2.4.2"
-msgstr ""
+msgstr "Versión 2.4.2"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:187
 msgid "Version 2.4.1"
-msgstr ""
+msgstr "Versión 2.4.1"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:195
 msgid "Version 2.3.17"
-msgstr ""
+msgstr "Versión 2.3.17"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:210
 msgid "Version 2.3.16"
-msgstr ""
+msgstr "Versión 2.3.16"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:242
 msgid ""
 "[Full Changelog](https://github.com/vircadia/vircadia-docs-"
 "sphinx/compare/v2021.1.2...v2021.1.3)"
 msgstr ""
+"[Registro de cambios](https://github.com/vircadia/vircadia-docs-sphinx/"
+"compare/v2021.1.2...v2021.1.3)"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:244
 #, fuzzy
@@ -31015,7 +31102,7 @@ msgstr ""
 
 #: ../../source/release-notes/2021-1-3-Eos.md:261
 msgid "**Bug Fixes:**"
-msgstr ""
+msgstr "**Corrección de fallos:**"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:263
 msgid ""
@@ -31041,8 +31128,9 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v80.md:1
+#, fuzzy
 msgid "Beta Release 80"
-msgstr ""
+msgstr "Beta Release 80"
 
 #: ../../source/release-notes/v80.md:3
 msgid "We released Beta Release 80 on Tuesday, March 19, 2019."
@@ -31057,7 +31145,7 @@ msgstr ""
 
 #: ../../source/release-notes/v80.md:7
 msgid "New in v0.80.0!"
-msgstr ""
+msgstr "Nuevo en v0.80.0!"
 
 #: ../../source/release-notes/v80.md:9
 msgid ""
@@ -31124,6 +31212,8 @@ msgid ""
 "[Firewall Settings](https://docs.highfidelity.com/host/your-domain"
 "/configure-settings.html#firewall-settings)"
 msgstr ""
+"[Configuración del Firewall](https://docs.highfidelity.com/host/your-domain/"
+"configure-settings.html#firewall-settings)"
 
 #: ../../source/release-notes/v80.md:18
 msgid ""
@@ -31204,7 +31294,7 @@ msgstr ""
 #: ../../source/release-notes/v84.md:11 ../../source/release-notes/v85.md:23
 #: ../../source/release-notes/v86.md:12
 msgid "Improvements"
-msgstr ""
+msgstr "Mejoras"
 
 #: ../../source/release-notes/v80.md:35
 msgid ""
@@ -31241,7 +31331,7 @@ msgstr ""
 #: ../../source/release-notes/v85.md:40 ../../source/release-notes/v85.md:73
 #: ../../source/release-notes/v86.md:38 ../../source/release-notes/v86.md:65
 msgid "Other Mentions"
-msgstr ""
+msgstr "Otras menciones"
 
 #: ../../source/release-notes/v80.md:48
 msgid ""
@@ -31273,7 +31363,7 @@ msgstr ""
 #: ../../source/release-notes/v84.md:48 ../../source/release-notes/v85.md:45
 #: ../../source/release-notes/v86.md:46
 msgid "Fixes"
-msgstr ""
+msgstr "Arreglos"
 
 #: ../../source/release-notes/v80.md:57
 msgid ""
@@ -31400,7 +31490,7 @@ msgstr ""
 #: ../../source/release-notes/v83.md:161 ../../source/release-notes/v84.md:83
 #: ../../source/release-notes/v85.md:85 ../../source/release-notes/v86.md:69
 msgid "Crash Fixes"
-msgstr ""
+msgstr "Correcciones críticas"
 
 #: ../../source/release-notes/v80.md:85 ../../source/release-notes/v82.md:136
 #: ../../source/release-notes/v83.md:163 ../../source/release-notes/v84.md:85
@@ -31410,7 +31500,7 @@ msgstr ""
 
 #: ../../source/release-notes/v80.md:87
 msgid "Resizing entities"
-msgstr ""
+msgstr "Redimensionando entidades"
 
 #: ../../source/release-notes/v80.md:88
 msgid "Parsing AvatarEntity data with too many LocalJointTranslations"
@@ -31434,8 +31524,9 @@ msgid "Nothing specific for Android in this release."
 msgstr ""
 
 #: ../../source/release-notes/v81.md:1
+#, fuzzy
 msgid "Beta Release 81"
-msgstr ""
+msgstr "Beta Release 81"
 
 #: ../../source/release-notes/v81.md:3
 msgid "We released Beta Release 81 on Friday, March 29, 2019."
@@ -31443,7 +31534,7 @@ msgstr ""
 
 #: ../../source/release-notes/v81.md:7
 msgid "Hotfix v0.81.1"
-msgstr ""
+msgstr "Hotfix v0.81.1"
 
 #: ../../source/release-notes/v81.md:9
 msgid ""
@@ -31454,7 +31545,7 @@ msgstr ""
 
 #: ../../source/release-notes/v81.md:13
 msgid "New in v0.81.0!"
-msgstr ""
+msgstr "Nuevo en v0.81.0!"
 
 #: ../../source/release-notes/v81.md:15
 msgid ""
@@ -31673,18 +31764,23 @@ msgid ""
 "numerical fields will now display the correct value, rather than the "
 "minimum value."
 msgstr ""
+"Cuando se seleccionan varias entidades, al utilizar las flechas o arrastrar "
+"los campos numéricos, ahora se mostrará el valor correcto, en lugar del "
+"valor mínimo."
 
 #: ../../source/release-notes/v82.md:1
+#, fuzzy
 msgid "Beta Release 82"
-msgstr ""
+msgstr "Beta Release 82"
 
 #: ../../source/release-notes/v82.md:3
 msgid "We released Beta Release 82 on Tuesday April 30, 2019."
 msgstr ""
 
 #: ../../source/release-notes/v82.md:7
+#, fuzzy
 msgid "Hotfix v0.82.1"
-msgstr ""
+msgstr "Hotfix v0.82.1"
 
 #: ../../source/release-notes/v82.md:9
 msgid "A hotfix (v0.82.1) was released on April 30, 2019."
@@ -31717,7 +31813,7 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:17
 msgid "New in v0.82.0!"
-msgstr ""
+msgstr "Nuevo en v0.82.0!"
 
 #: ../../source/release-notes/v82.md:19
 msgid ""
@@ -31744,6 +31840,9 @@ msgid ""
 "Analog: Your movement speed is determined by far you push the stick "
 "forward on your controller. To run, fully push the stick forward."
 msgstr ""
+"Analógico: Tu velocidad de movimiento se determina por la distancia que "
+"llevas el joystick hacia adelante. Para correr, empuja el joystick "
+"completamente hacia adelante."
 
 #: ../../source/release-notes/v82.md:23
 msgid ""
@@ -31838,7 +31937,7 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:37 ../../source/release-notes/v83.md:33
 msgid "**New Documentation includes**:"
-msgstr ""
+msgstr "**Novedades en la Documentación**:"
 
 #: ../../source/release-notes/v82.md:38
 msgid ""
@@ -31851,6 +31950,8 @@ msgid ""
 "[Create Avatar Entities](https://docs.highfidelity.com/create/entities"
 "/avatar-interactions.html#create-avatar-entities)"
 msgstr ""
+"[Crear entidades tipo Avatar](https://docs.highfidelity.com/create/entities/"
+"avatar-interactions.html#create-avatar-entities)"
 
 #: ../../source/release-notes/v82.md:40
 msgid ""
@@ -31903,7 +32004,7 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:57
 msgid "Oven and Baking"
-msgstr ""
+msgstr "Oven y Baking"
 
 #: ../../source/release-notes/v82.md:59
 msgid ""
@@ -31933,7 +32034,7 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:65 ../../source/release-notes/v83.md:68
 msgid "API Documentation"
-msgstr ""
+msgstr "Documentación de la API"
 
 #: ../../source/release-notes/v82.md:66 ../../source/release-notes/v83.md:70
 msgid "Documentation is now updated and complete for the following APIs:"
@@ -31941,39 +32042,39 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:67
 msgid "[AnimationCache](https://apidocs.vircadia.dev/AnimationCache.html)"
-msgstr ""
+msgstr "[AnimationCache](https://apidocs.vircadia.dev/AnimationCache.html)"
 
 #: ../../source/release-notes/v82.md:68
 msgid "[Audio](https://apidocs.vircadia.dev/Audio.html)"
-msgstr ""
+msgstr "[Audio](https://apidocs.vircadia.dev/Audio.html)"
 
 #: ../../source/release-notes/v82.md:69
 msgid "[AvatarList](https://apidocs.vircadia.dev/AvatarList.html)"
-msgstr ""
+msgstr "[AvatarList](https://apidocs.vircadia.dev/AvatarList.html)"
 
 #: ../../source/release-notes/v82.md:70
 msgid "[AvatarManager](https://apidocs.vircadia.dev/AvatarManager.html)"
-msgstr ""
+msgstr "[AvatarManager](https://apidocs.vircadia.dev/AvatarManager.html)"
 
 #: ../../source/release-notes/v82.md:71
 msgid "[Camera](https://apidocs.vircadia.dev/Camera.html)"
-msgstr ""
+msgstr "[Camera](https://apidocs.vircadia.dev/Camera.html)"
 
 #: ../../source/release-notes/v82.md:72
 msgid "[HMD](https://apidocs.vircadia.dev/HMD.html)"
-msgstr ""
+msgstr "[HMD](https://apidocs.vircadia.dev/HMD.html)"
 
 #: ../../source/release-notes/v82.md:73
 msgid "[Menu](https://apidocs.vircadia.dev/Menu.html)"
-msgstr ""
+msgstr "[Menu](https://apidocs.vircadia.dev/Menu.html)"
 
 #: ../../source/release-notes/v82.md:74
 msgid "[Messages](https://apidocs.vircadia.dev/Messages.html)"
-msgstr ""
+msgstr "[Messages](https://apidocs.vircadia.dev/Messages.html)"
 
 #: ../../source/release-notes/v82.md:75
 msgid "[ModelCache](https://apidocs.vircadia.dev/ModelCache.html)"
-msgstr ""
+msgstr "[ModelCache](https://apidocs.vircadia.dev/ModelCache.html)"
 
 #: ../../source/release-notes/v82.md:76
 #, fuzzy
@@ -32005,6 +32106,12 @@ msgid ""
 "exporter/avatarExporter.unitypackage](https://github.com/highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/tools"
 "/unity-avatar-exporter/avatarExporter.unitypackage)"
 msgstr ""
+"El exportador de avatares de High Fidelity para Unity incluye correcciones y "
+"mejoras. Descargue el exportador actualizado desde(v0.4.1): [https://"
+"github.com/highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/"
+"tools/unity-avatar-exporter/avatarExporter.unitypackage](https://github.com/"
+"highfidelity/hifi/raw/57c3620587ae1ec4638a58988909b46602c14633/tools/"
+"unity-avatar-exporter/avatarExporter.unitypackage)"
 
 #: ../../source/release-notes/v82.md:88
 msgid ""
@@ -32036,7 +32143,7 @@ msgstr ""
 
 #: ../../source/release-notes/v82.md:97
 msgid "Marketplace and Inventory"
-msgstr ""
+msgstr "Marketplace e Inventory"
 
 #: ../../source/release-notes/v82.md:99
 msgid ""
@@ -32077,6 +32184,9 @@ msgid ""
 "The LOG IN and CANCEL buttons on the Inventory page now correctly respond"
 " if the user logs out while Inventory app is open."
 msgstr ""
+"Los botones INICIAR SESIÓN y CANCELAR de la página Inventario ahora "
+"responden correctamente si el usuario cierra sesión mientras la aplicación "
+"Inventario está abierta."
 
 #: ../../source/release-notes/v82.md:106
 msgid ""
@@ -32187,7 +32297,7 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:1
 msgid "Beta Release 83"
-msgstr ""
+msgstr "Beta Release 83"
 
 #: ../../source/release-notes/v83.md:3
 msgid "We released Beta Release 83 on Wednesday July 31, 2019."
@@ -32195,7 +32305,7 @@ msgstr ""
 
 #: ../../source/release-notes/v83.md:12
 msgid "New in v0.83.0!"
-msgstr ""
+msgstr "Nuevo en v0.83.0!"
 
 #: ../../source/release-notes/v83.md:14
 msgid ""
@@ -32336,12 +32446,16 @@ msgid ""
 "[Upgrade High Fidelity](https://docs.highfidelity.com/en/rc83/explore"
 "/get-started/install.html#upgrade-high-fidelity)"
 msgstr ""
+"[Actualizar High Fidelity](https://docs.highfidelity.com/en/rc83/explore/"
+"get-started/install.html#upgrade-high-fidelity)"
 
 #: ../../source/release-notes/v83.md:35
 msgid ""
 "[Comfort Mode](https://docs.highfidelity.com/en/rc83/explore/get-started"
 "/vr-controls.html#comfort-mode)"
 msgstr ""
+"[Modo comfort](https://docs.highfidelity.com/en/rc83/explore/get-started/vr-"
+"controls.html#comfort-mode)"
 
 #: ../../source/release-notes/v83.md:36
 msgid ""
@@ -32454,6 +32568,8 @@ msgid ""
 "frames. This will remove the stuttering that could occur when loading "
 "content."
 msgstr ""
+"Se optimizó la forma en que gestionamos el cambio entre diferentes contextos "
+"GL. Esto eliminará las interrupciones que podían ocurrir al cargar contenido."
 
 #: ../../source/release-notes/v83.md:63
 msgid ""
@@ -32558,59 +32674,65 @@ msgstr "[Pointers](https://apidocs.vircadia.dev/Pointers.html)"
 
 #: ../../source/release-notes/v83.md:86
 msgid "[Quat](https://apidocs.vircadia.dev/Quat.html)"
-msgstr ""
+msgstr "[Quat](https://apidocs.vircadia.dev/Quat.html)"
 
 #: ../../source/release-notes/v83.md:87
 msgid "[RayPick](https://apidocs.vircadia.dev/RayPick.html)"
-msgstr ""
+msgstr "[RayPick](https://apidocs.vircadia.dev/RayPick.html)"
 
 #: ../../source/release-notes/v83.md:88
 msgid "[ResourceRequestObserver](https://apidocs.vircadia.dev/ResourceRequestObserver.html)"
 msgstr ""
+"[ResourceRequestObserver](https://apidocs.vircadia.dev/"
+"ResourceRequestObserver.html)"
 
 #: ../../source/release-notes/v83.md:89
 msgid "[Reticle](https://apidocs.vircadia.dev/Reticle.html)"
-msgstr ""
+msgstr "[Reticle](https://apidocs.vircadia.dev/Reticle.html)"
 
 #: ../../source/release-notes/v83.md:90
 msgid "[Scene](https://apidocs.vircadia.dev/Scene.html)"
-msgstr ""
+msgstr "[Scene](https://apidocs.vircadia.dev/Scene.html)"
 
 #: ../../source/release-notes/v83.md:91
 msgid "[Script](https://apidocs.vircadia.dev/Script.html)"
-msgstr ""
+msgstr "[Script](https://apidocs.vircadia.dev/Script.html)"
 
 #: ../../source/release-notes/v83.md:92
+#, fuzzy
 msgid "[Selection](https://apidocs.vircadia.dev/Selection.html)"
-msgstr ""
+msgstr "[Selection](https://apidocs.vircadia.dev/Selection.html)"
 
 #: ../../source/release-notes/v83.md:93
+#, fuzzy
 msgid "[Settings](https://apidocs.vircadia.dev/Settings.html)"
-msgstr ""
+msgstr "[Settings](https://apidocs.vircadia.dev/Settings.html)"
 
 #: ../../source/release-notes/v83.md:94
+#, fuzzy
 msgid "[Snapshot](https://apidocs.vircadia.dev/Snapshot.html)"
-msgstr ""
+msgstr "[Snapshot](https://apidocs.vircadia.dev/Snapshot.html)"
 
 #: ../../source/release-notes/v83.md:95
+#, fuzzy
 msgid "[Tablet](https://apidocs.vircadia.dev/Tablet.html)"
-msgstr ""
+msgstr "[Tablet](https://apidocs.vircadia.dev/Tablet.html)"
 
 #: ../../source/release-notes/v83.md:96
 msgid "[Users](https://apidocs.vircadia.dev/Users.html)"
-msgstr ""
+msgstr "[Users](https://apidocs.vircadia.dev/Users.html)"
 
 #: ../../source/release-notes/v83.md:97
 msgid "[Uuid](https://apidocs.vircadia.dev/Uuid.html)"
-msgstr ""
+msgstr "[Uuid](https://apidocs.vircadia.dev/Uuid.html)"
 
 #: ../../source/release-notes/v83.md:98
 msgid "[Vec3](https://apidocs.vircadia.dev/Vec3.html)"
-msgstr ""
+msgstr "[Vec3](https://apidocs.vircadia.dev/Vec3.html)"
 
 #: ../../source/release-notes/v83.md:99
 msgid "[Window](https://apidocs.vircadia.dev/Window.html)"
-msgstr ""
+msgstr "[Window](https://apidocs.vircadia.dev/Window.html)"
 
 #: ../../source/release-notes/v83.md:103
 msgid ""
@@ -32676,6 +32798,9 @@ msgid ""
 "optimization tool like our Oven and is an alternative for content "
 "creators."
 msgstr ""
+"Se han añadido vhacd-util y Oven a todos los instaladores. VHACDUtil es una "
+"herramienta de optimización de contenido similar a nuestra Oven y es una "
+"alternativa para los creadores de contenido."
 
 #: ../../source/release-notes/v83.md:113
 msgid "Updated our installer icons."
@@ -32921,7 +33046,7 @@ msgstr ""
 
 #: ../../source/release-notes/v84.md:1
 msgid "Beta Release 84"
-msgstr ""
+msgstr "Beta Release 84"
 
 #: ../../source/release-notes/v84.md:3
 msgid "We released Beta Release 84 on Monday September 23, 2019."
@@ -32929,7 +33054,7 @@ msgstr ""
 
 #: ../../source/release-notes/v84.md:7
 msgid "New in v0.84.0!"
-msgstr ""
+msgstr "Nuevo en v0.84.0!"
 
 #: ../../source/release-notes/v84.md:9
 msgid ""
@@ -32999,7 +33124,7 @@ msgstr ""
 
 #: ../../source/release-notes/v84.md:31
 msgid "Invisible polylines"
-msgstr ""
+msgstr "Polilíneas invisibles"
 
 #: ../../source/release-notes/v84.md:32
 msgid "Black fringes surrounding polylines"
@@ -33092,7 +33217,7 @@ msgstr ""
 
 #: ../../source/release-notes/v84.md:60
 msgid "Changing network connections"
-msgstr ""
+msgstr "Cambiando las conexiones de red"
 
 #: ../../source/release-notes/v84.md:61
 msgid "Rapidly switching between avatars in Inventory"
@@ -33100,7 +33225,7 @@ msgstr ""
 
 #: ../../source/release-notes/v84.md:62
 msgid "User reloads content"
-msgstr ""
+msgstr "Recarga de contenido del usuario"
 
 #: ../../source/release-notes/v84.md:63
 msgid ""
@@ -33222,8 +33347,9 @@ msgid "There are no Android-specific fixes in this release."
 msgstr ""
 
 #: ../../source/release-notes/v85.md:1
+#, fuzzy
 msgid "Beta Release 85"
-msgstr ""
+msgstr "Beta Release 85"
 
 #: ../../source/release-notes/v85.md:3
 msgid "We released Beta Release 85 on Thursday October 17, 2019."
@@ -33235,7 +33361,7 @@ msgstr ""
 
 #: ../../source/release-notes/v85.md:12
 msgid "New in v0.85.0!"
-msgstr ""
+msgstr "Nuevo en v0.85.0!"
 
 #: ../../source/release-notes/v85.md:14
 msgid ""
@@ -33285,7 +33411,7 @@ msgstr ""
 
 #: ../../source/release-notes/v85.md:30
 msgid "Cloud Domains"
-msgstr ""
+msgstr "Dominios en la Nube"
 
 #: ../../source/release-notes/v85.md:32
 msgid ""
@@ -33326,7 +33452,7 @@ msgstr ""
 
 #: ../../source/release-notes/v85.md:47
 msgid "Build System"
-msgstr ""
+msgstr "Compilar el Sistema"
 
 #: ../../source/release-notes/v85.md:49
 msgid ""
@@ -33348,7 +33474,7 @@ msgstr ""
 
 #: ../../source/release-notes/v85.md:59
 msgid "Switching networks"
-msgstr ""
+msgstr "Intercambiar redes"
 
 #: ../../source/release-notes/v85.md:60
 msgid "Putting a computer to sleep"
@@ -33436,6 +33562,9 @@ msgid ""
 "The Blocks app and script now works correctly, and the \"BACK\" or "
 "\"CLOSE\" buttons have been removed from the top of the screen."
 msgstr ""
+"La aplicación y el script Blocks ahora funcionan correctamente, y los "
+"botones «ATRÁS» o «CERRAR» se han eliminado de la parte superior de la "
+"pantalla."
 
 #: ../../source/release-notes/v85.md:88
 msgid "Selecting the Calibration tab from the Controls window"
@@ -33456,8 +33585,9 @@ msgid "Addressed a race condition that was causing crashes when using HMDs"
 msgstr ""
 
 #: ../../source/release-notes/v86.md:1
+#, fuzzy
 msgid "Beta Release 86"
-msgstr ""
+msgstr "Beta Release 86"
 
 #: ../../source/release-notes/v86.md:3
 msgid "We released Beta Release 86 on Thursday November 14, 2019."
@@ -33465,7 +33595,7 @@ msgstr ""
 
 #: ../../source/release-notes/v86.md:7
 msgid "New in v0.86.0!"
-msgstr ""
+msgstr "Nuevo en v0.86.0!"
 
 #: ../../source/release-notes/v86.md:9
 msgid ""
@@ -33557,7 +33687,7 @@ msgstr ""
 
 #: ../../source/release-notes/v86.md:29
 msgid "Scripting API"
-msgstr ""
+msgstr "API de scripting"
 
 #: ../../source/release-notes/v86.md:31
 msgid ""
@@ -33846,7 +33976,7 @@ msgstr ""
 
 #: ../../source/release-notes/v86-k2.md:42
 msgid "VCPKG modernization. (#53)"
-msgstr ""
+msgstr "Modernización de CPKG. (#53)"
 
 #: ../../source/release-notes/v86-k2.md:43
 msgid "Fix Linux Building with `export HIFI_MEMORY_DEBUGGING=1`. (#54)"
@@ -34333,7 +34463,7 @@ msgstr ""
 #: ../../source/script/server-entity-scripts.md:61
 #: ../../source/script/write-scripts.md:79
 msgid "[API Reference](https://apidocs.overte.org)"
-msgstr ""
+msgstr "[Documentación de Referencia de la API](https://apidocs.overte.org)"
 
 #: ../../source/script/client-entity-scripts.md:3
 msgid ""
@@ -34451,7 +34581,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:23
 msgid "API(s)"
-msgstr ""
+msgstr "API(s)"
 
 #: ../../source/script/get-started-with-scripting.rst:25
 #, fuzzy
@@ -34477,8 +34607,9 @@ msgid "`AvatarList <https://apidocs.overte.org/AvatarList.html>`_"
 msgstr "`Referencia de API: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
 
 #: ../../source/script/get-started-with-scripting.rst:34
+#, fuzzy
 msgid "`AvatarManager <https://apidocs.overte.org/AvatarManager.html>`_"
-msgstr ""
+msgstr "`AvatarManager <https://apidocs.overte.org/AvatarManager.html>`_"
 
 #: ../../source/script/get-started-with-scripting.rst:36
 #, fuzzy
@@ -34523,7 +34654,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:53
 msgid "Types of Scripts"
-msgstr ""
+msgstr "Tipos de Scripts"
 
 #: ../../source/script/get-started-with-scripting.rst:56
 #, fuzzy
@@ -34586,7 +34717,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:79
 msgid "Scripting Permissions"
-msgstr ""
+msgstr "Permisos de Scripting"
 
 #: ../../source/script/get-started-with-scripting.rst:81
 msgid ""
@@ -34600,7 +34731,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:85
 msgid "Running Scripts Window"
-msgstr ""
+msgstr "Ejecutando la ventana de Scripts"
 
 #: ../../source/script/get-started-with-scripting.rst:87
 msgid ""
@@ -34617,7 +34748,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:93
 msgid "Sample Scripts"
-msgstr ""
+msgstr "Scripts de ejemplo"
 
 #: ../../source/script/get-started-with-scripting.rst:95
 msgid ""
@@ -34646,11 +34777,11 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:102
 msgid "Scripts Folder"
-msgstr ""
+msgstr "Directorio de Scripts"
 
 #: ../../source/script/get-started-with-scripting.rst:104
 msgid "``android``"
-msgstr ""
+msgstr "``android``"
 
 #: ../../source/script/get-started-with-scripting.rst:104
 msgid "These scripts were built to run on Android devices."
@@ -34658,7 +34789,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:106
 msgid "``developer``"
-msgstr ""
+msgstr "``desarrollador``"
 
 #: ../../source/script/get-started-with-scripting.rst:106
 msgid ""
@@ -34670,7 +34801,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:110
 msgid "``modules``"
-msgstr ""
+msgstr "``módulos``"
 
 #: ../../source/script/get-started-with-scripting.rst:110
 msgid ""
@@ -34681,7 +34812,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:114
 msgid "``system``"
-msgstr ""
+msgstr "``sistema``"
 
 #: ../../source/script/get-started-with-scripting.rst:114
 msgid ""
@@ -34692,7 +34823,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:118
 msgid "``tutorials``"
-msgstr ""
+msgstr "``tutoriales``"
 
 #: ../../source/script/get-started-with-scripting.rst:118
 msgid ""
@@ -34792,6 +34923,9 @@ msgid ""
 "Add your script to this file to make it run with other default scripts. "
 "Ensure the folder path to your script is correct."
 msgstr ""
+"Añade tu script a este archivo para que se ejecute con otros scripts "
+"predeterminados. Asegúrate de que la ruta de la carpeta de tu script sea "
+"correcta."
 
 #: ../../source/script/get-started-with-scripting.rst:156
 msgid ""
@@ -34821,7 +34955,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:168
 msgid "Debug Window"
-msgstr ""
+msgstr "Ventana de Depuración"
 
 #: ../../source/script/get-started-with-scripting.rst:170
 msgid ""
@@ -34836,7 +34970,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:176
 msgid ":doc:`Interface Scripts <interface-scripts>`"
-msgstr ""
+msgstr ":doc:`Interface Scripts <interface-scripts>`"
 
 #: ../../source/script/get-started-with-scripting.rst:177
 msgid ":doc:`Assignment Client Scripts <assignment-client-scripts>`"
@@ -34844,7 +34978,7 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:178
 msgid ":doc:`Avatar Scripts <avatar-scripts>`"
-msgstr ""
+msgstr ":doc:`Avatar Scripts <avatar-scripts>`"
 
 #: ../../source/script/get-started-with-scripting.rst:179
 msgid ":doc:`Client Entity Scripts <client-entity-scripts>`"
@@ -34957,7 +35091,7 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:15
 msgid "[Equip an Item](#equip-an-item)"
-msgstr ""
+msgstr "[Equipar un Elemento](#equip-an-item)"
 
 #: ../../source/script/js-tips.md:16
 msgid "[Connect a Signal to a Function](#connect-a-signal-to-a-function)"
@@ -35129,8 +35263,9 @@ msgid "Create a JS script that you want to access from your main script."
 msgstr ""
 
 #: ../../source/script/js-tips.md:131
+#, fuzzy
 msgid "**example.js**"
-msgstr ""
+msgstr "**example.js**"
 
 #: ../../source/script/js-tips.md:144
 msgid ""
@@ -35154,7 +35289,7 @@ msgstr ""
 
 #: ../../source/script/js-tips.md:160
 msgid "Equip an Item"
-msgstr ""
+msgstr "Equipar un elemento"
 
 #: ../../source/script/js-tips.md:161
 msgid ""
@@ -35227,7 +35362,7 @@ msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:16
 msgid "MIDI Class Basics"
-msgstr ""
+msgstr "Fundamentos de la clase MIDI"
 
 #: ../../source/script/midi-tutorial.rst:18
 msgid ""
@@ -35250,43 +35385,43 @@ msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "00000000"
-msgstr ""
+msgstr "00000000"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "0vvvvvvv"
-msgstr ""
+msgstr "0vvvvvvv"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "0nnnnnnn"
-msgstr ""
+msgstr "0nnnnnnn"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "1sss"
-msgstr ""
+msgstr "1sss"
 
 #: ../../source/script/midi-tutorial.rst:25
 msgid "cccc"
-msgstr ""
+msgstr "cccc"
 
 #: ../../source/script/midi-tutorial.rst:28
 msgid "Where:"
-msgstr ""
+msgstr "Donde:"
 
 #: ../../source/script/midi-tutorial.rst:30
 msgid "v = velocity"
-msgstr ""
+msgstr "v = velocidad"
 
 #: ../../source/script/midi-tutorial.rst:31
 msgid "n = notes"
-msgstr ""
+msgstr "n = notas"
 
 #: ../../source/script/midi-tutorial.rst:32
 msgid "s = status"
-msgstr ""
+msgstr "s = estado"
 
 #: ../../source/script/midi-tutorial.rst:33
 msgid "c = channel"
-msgstr ""
+msgstr "c = canal"
 
 #: ../../source/script/midi-tutorial.rst:35
 msgid ""
@@ -35313,19 +35448,19 @@ msgstr "Tipos"
 
 #: ../../source/script/midi-tutorial.rst:42
 msgid "08"
-msgstr ""
+msgstr "08"
 
 #: ../../source/script/midi-tutorial.rst:42
 msgid "note off"
-msgstr ""
+msgstr "nota desactivada"
 
 #: ../../source/script/midi-tutorial.rst:44
 msgid "09"
-msgstr ""
+msgstr "09"
 
 #: ../../source/script/midi-tutorial.rst:44
 msgid "note on"
-msgstr ""
+msgstr "nota activada"
 
 #: ../../source/script/midi-tutorial.rst:46
 #, fuzzy
@@ -35333,8 +35468,9 @@ msgid "10"
 msgstr "10"
 
 #: ../../source/script/midi-tutorial.rst:46
+#, fuzzy
 msgid "polyphonic key pressure"
-msgstr ""
+msgstr "presión de tecla polifónica"
 
 #: ../../source/script/midi-tutorial.rst:48
 #, fuzzy
@@ -35343,7 +35479,7 @@ msgstr "11"
 
 #: ../../source/script/midi-tutorial.rst:48
 msgid "control change"
-msgstr ""
+msgstr "control de cambios"
 
 #: ../../source/script/midi-tutorial.rst:50
 #, fuzzy
@@ -35352,7 +35488,7 @@ msgstr "12"
 
 #: ../../source/script/midi-tutorial.rst:50
 msgid "program change"
-msgstr ""
+msgstr "cambio de programa"
 
 #: ../../source/script/midi-tutorial.rst:52
 #, fuzzy
@@ -35360,8 +35496,9 @@ msgid "13"
 msgstr "13"
 
 #: ../../source/script/midi-tutorial.rst:52
+#, fuzzy
 msgid "channel pressure"
-msgstr ""
+msgstr "presión de canal"
 
 #: ../../source/script/midi-tutorial.rst:54
 #, fuzzy
@@ -35370,7 +35507,7 @@ msgstr "14"
 
 #: ../../source/script/midi-tutorial.rst:54
 msgid "pitch bend"
-msgstr ""
+msgstr "inflexión de tono"
 
 #: ../../source/script/midi-tutorial.rst:56
 #, fuzzy
@@ -35379,7 +35516,7 @@ msgstr "15"
 
 #: ../../source/script/midi-tutorial.rst:56
 msgid "system message"
-msgstr ""
+msgstr "mensaje del sistema"
 
 #: ../../source/script/midi-tutorial.rst:61
 msgid "Connect Your Controller Device"
@@ -35542,15 +35679,16 @@ msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:179
 msgid "`MIDI-API <../_static/resources/script/MidiAPI.txt>`_"
-msgstr ""
+msgstr "`MIDI-API <../_static/resources/script/MidiAPI.txt>`_"
 
 #: ../../source/script/midi-tutorial.rst:180
 msgid "`MIDI-Test <../_static/resources/script/midiTest.js>`_"
-msgstr ""
+msgstr "`MIDI-Test <../_static/resources/script/midiTest.js>`_"
 
 #: ../../source/script/midi-tutorial.rst:181
+#, fuzzy
 msgid "`MIDI-Examples <../_static/resources/script/MIDI-Example.js>`_"
-msgstr ""
+msgstr "`MIDI-Examples <../_static/resources/script/MIDI-Example.js>`_"
 
 #: ../../source/script/server-entity-scripts.md:3
 msgid ""
@@ -35575,7 +35713,7 @@ msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:8
 msgid "[Script API](#script-api)"
-msgstr ""
+msgstr "[API de Script](#script-api)"
 
 #: ../../source/script/server-entity-scripts.md:10
 msgid "Attach a Server Entity Script to an Entity"
@@ -35610,7 +35748,7 @@ msgstr ""
 
 #: ../../source/script/server-entity-scripts.md:51
 msgid "Script API"
-msgstr ""
+msgstr "API de Script"
 
 #: ../../source/script/server-entity-scripts.md:53
 msgid ""
@@ -35645,11 +35783,11 @@ msgstr ""
 
 #: ../../source/script/write-scripts.md:15
 msgid "[Create an Entity](#create-an-entity)"
-msgstr ""
+msgstr "[Crear una entidad](#create-an-entity)"
 
 #: ../../source/script/write-scripts.md:16
 msgid "[Edit an Entity](#edit-an-entity)"
-msgstr ""
+msgstr "[Editar una Entidad](#edit-an-entity)"
 
 #: ../../source/script/write-scripts.md:18
 msgid "Write to the Debug Window"
@@ -35680,7 +35818,7 @@ msgstr ""
 
 #: ../../source/script/write-scripts.md:29
 msgid "Create an Entity"
-msgstr ""
+msgstr "Crear una Entidad"
 
 #: ../../source/script/write-scripts.md:30
 msgid ""
@@ -35705,7 +35843,7 @@ msgstr ""
 
 #: ../../source/script/write-scripts.md:49
 msgid "Edit an Entity"
-msgstr ""
+msgstr "Editar una Entidad"
 
 #: ../../source/script/write-scripts.md:50
 msgid ""
@@ -35732,7 +35870,7 @@ msgstr "[Primeros pasos con Scripting](primeros-pasos-con-scripting)"
 
 #: ../../source/script/write-scripts.md:78
 msgid "[Interface Scripts](interface-scripts)"
-msgstr ""
+msgstr "[Scripts de interface](interface-scripts)"
 
 #: ../../source/security.rst:7 ../../source/security/crash-reporting.rst:3
 msgid "Crash Reporting"
@@ -35838,7 +35976,7 @@ msgstr ""
 
 #: ../../source/security/asset-security.rst:37
 msgid "Proposed Alternatives"
-msgstr ""
+msgstr "Alternativas propuestas"
 
 #: ../../source/security/asset-security.rst:39
 msgid ""
@@ -35886,7 +36024,7 @@ msgstr ""
 
 #: ../../source/security/asset-security.rst:55
 msgid "Peer-to-Peer Avatar Sharing"
-msgstr ""
+msgstr "Compartir Avatares entre Pares"
 
 #: ../../source/security/asset-security.rst:57
 msgid ""
