@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-07-26 13:47+0000\n"
+"PO-Revision-Date: 2025-07-27 05:08+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
@@ -32,7 +32,7 @@ msgid ""
 msgstr ""
 "¡Ayúdanos a contratar a un integrante del equipo! `Dona ♥︎ <https://"
 "overte.org/donate.html>`_ u `Obtén más información <https://overte.org/"
-"index.html#help-us-hire-a-team-member>`_. |br|Hasta ahora hemos recaudado "
+"index.html#help-us-hire-a-team-member>`_. |br| Hasta ahora hemos recaudado "
 "464,62€ de 3000€."
 
 #: ../../source/contribute.rst:5
@@ -162,12 +162,11 @@ msgstr ""
 "`GitHub <https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 
 #: ../../source/contribute.rst:23
-#, fuzzy
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
-"Cree o cambia páginas de documentación y abra una PR (pull request) en "
+"Cree o cambie páginas de documentación y abra una `PR (pull request) en "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 
 #: ../../source/contribute.rst:24
@@ -211,9 +210,8 @@ msgstr ""
 "<https://github.com/overte-org/overte-docs-sphinx/blob/master/README.md>`_."
 
 #: ../../source/contribute.rst:38
-#, fuzzy
 msgid "Donations"
-msgstr "Documentación"
+msgstr "Donaciones"
 
 #: ../../source/contribute.rst:39
 msgid ""
@@ -253,9 +251,8 @@ msgstr ""
 "realizado algo que a nadie más le interesa."
 
 #: ../../source/contribute.rst:50
-#, fuzzy
 msgid "Development"
-msgstr "Desarrollador"
+msgstr "Desarrollo"
 
 #: ../../source/contribute.rst:51
 msgid ""
@@ -404,7 +401,6 @@ msgid "Create"
 msgstr "Crear"
 
 #: ../../source/create.rst:5
-#, fuzzy
 msgid ""
 "Overte enables people connected by interest, community, and friendship to"
 " come together and express their creativity with each other. We invite "
@@ -414,15 +410,14 @@ msgid ""
 " and openly licensed Overte engine is encouraged!"
 msgstr ""
 "Overte permite que las personas conectadas por intereses, comunidad y "
-"amistad se reúnan y expresen su creatividad con los demás. Te invitamos a"
-" personalizar tu propia experiencia por medio de la creación de avatares "
-"y contenido, o desarrollando aplicaciones y ejecutables. Para hacer "
-"realmente tu propio metaverso, te recomendamos que para crear tu propio "
-"mundo o construir tu proyecto inmersivo utilices el motor gratuito y con "
-"licencia abierta de Overte!"
+"amistad se reúnan y expresen su creatividad con los demás. Te invitamos a "
+"personalizar tu propia experiencia por medio de la creación de avatares y "
+"contenido, o desarrollando aplicaciones y ejecutables. Para hacer realmente "
+"tu propio metaverso, te recomendamos que para crear tu propio mundo o "
+"construir tu proyecto inmersivo utilices el motor gratuito y con licencia "
+"abierta de Overte!"
 
 #: ../../source/create.rst:7
-#, fuzzy
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
@@ -476,18 +471,16 @@ msgstr ""
 "FBX y glTF."
 
 #: ../../source/create/3d-models.rst:7
-#, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
 "materials supported in Overte are Physically-based Rendering (PBR) "
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
-"La apariencia de un modelo 3D está controlada por materiales. Los "
-"materiales admitidos en Overte son materiales de \"Renderizado de base "
-"Física\" (PBR). Esto significa que los materiales de un modelo 3D "
-"reflejarán o absorberán luz como lo harían (aproximadamente) en la vida "
-"real."
+"La apariencia de un modelo 3D está controlada por materiales. Los materiales "
+"admitidos en Overte son materiales de \"Renderizado de base Física\" (PBR). "
+"Esto significa que los materiales de un modelo 3D reflejarán o absorberán "
+"luz como lo harían (aproximadamente) en la vida real."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
@@ -496,7 +489,6 @@ msgid "**In This Section:**"
 msgstr "**En Esta Sección:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
-#, fuzzy
 msgid ""
 "All 3D models should be in the FBX, glTF or OBJ format and have materials"
 " supported by Overte."
@@ -578,22 +570,20 @@ msgid "The 3D model is in the FBX, glTF or OBJ format."
 msgstr "El Modelo 3D esté en formato FBX, glTF u OBJ."
 
 #: ../../source/create/3d-models/get-model.rst:29
-#, fuzzy
 msgid ""
 "The 3D model materials are supported by Overte. Use our :doc:`materials "
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
-"Los materiales del modelo 3D son admitidos por Overte. Utiliza nuestra "
-":doc:`guía de materiales <pbr-materials-guide>` para asegurarte de que "
-"tus materiales se carguen correctamente."
+"Los materiales del modelo 3D son admitidos por Overte. Utiliza nuestra :doc:`"
+"guía de materiales <pbr-materials-guide>` para asegurarte de que tus "
+"materiales se carguen correctamente."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
 msgstr "Mejores Prácticas"
 
 #: ../../source/create/3d-models/get-model.rst:35
-#, fuzzy
 msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
@@ -626,13 +616,12 @@ msgstr ""
 "personas sientan náuseas."
 
 #: ../../source/create/3d-models/get-model.rst:40
-#, fuzzy
 msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
 msgstr ""
-"Hemos enumerado las mejores prácticas para crear modelos 3D para Overte "
-"(y Realidad Virtual)."
+"Hemos enumerado las mejores prácticas para crear modelos 3D para Overte (y "
+"Realidad Virtual)."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -699,7 +688,6 @@ msgstr ""
 "separados."
 
 #: ../../source/create/3d-models/get-model.rst:59
-#, fuzzy
 msgid "Overte’s engine only supports one UV mapping per material."
 msgstr "El motor de Overte solo admite un mapeo UV por material."
 
@@ -747,11 +735,10 @@ msgstr ""
 "máscaras translúcidas o texturas transparentes, usa PNG-32."
 
 #: ../../source/create/3d-models/get-model.rst:72
-#, fuzzy
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
 msgstr ""
-"No utilices PNG-48 o PNG-64, ya que ninguno de los dos son compatibles "
-"con Overte."
+"No utilices PNG-48 o PNG-64, ya que ninguno de los dos son compatibles con "
+"Overte."
 
 #: ../../source/create/3d-models/get-model.rst:74
 msgid ""
@@ -829,15 +816,14 @@ msgstr ""
 "Contenido <../../host/add-content/bake-content>`."
 
 #: ../../source/create/3d-models/import-animations.rst:5
-#, fuzzy
 msgid ""
 "Enrich your Overte experience by having 3D models in your domain with "
 "animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
-"Enriquezca su experiencia en Overte al tener modelos 3D en su dominio con"
-" animaciones. Por ejemplo, puede importar el modelo 3D de una bandera que"
-" parece ondear con el viento usando esta función."
+"Enriquezca su experiencia en Overte al tener modelos 3D en su dominio con "
+"animaciones. Por ejemplo, puede importar el modelo 3D de una bandera que "
+"parece ondear con el viento usando esta función."
 
 #: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:18
@@ -856,28 +842,25 @@ msgid "Prerequisites"
 msgstr "Prerrequisitos"
 
 #: ../../source/create/3d-models/import-animations.rst:14
-#, fuzzy
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
 "such as Blender or Maya before importing an animation into Overte."
 msgstr ""
-"Debe estar familiarizado con la creación de animaciones en herramientas "
-"de modelado 3D como Blender y Maya antes de importar una animación en "
-"Overte."
+"Debe estar familiarizado con la creación de animaciones en herramientas de "
+"modelado 3D como Blender y Maya antes de importar una animación en Overte."
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
 msgstr "Preparar una Animación de Modelo 3D"
 
 #: ../../source/create/3d-models/import-animations.rst:20
-#, fuzzy
 msgid ""
 "Before you import an animation into Overte, adjust some settings in the "
 "3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
-"Antes de importar una animación a Overte, ajusta algunas configuraciones "
-"en la herramienta de modelado 3D de tu elección para asegurarte de que se"
-" reproduce sin problemas."
+"Antes de importar una animación a Overte, ajusta algunas configuraciones en "
+"la herramienta de modelado 3D de tu elección para asegurarte de que se "
+"reproduce sin problemas."
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid ""
@@ -888,7 +871,6 @@ msgstr ""
 "como un buen compromiso entre la suavidad y el tamaño del archivo."
 
 #: ../../source/create/3d-models/import-animations.rst:23
-#, fuzzy
 msgid ""
 "Bake your animation channels, key frames, and in-betweens to ensure that "
 "Overte reads everything. This is to ensure that your animation doesn't "
@@ -896,8 +878,8 @@ msgid ""
 msgstr ""
 "Registra (Bake) tus canales de animación, fotogramas clave e intermedios "
 "para asegurarte de que Overte lo lea todo. Esto es para asegurar que tu "
-"animación no se detenga y comience, sino que parezca suave y fluya a "
-"través de cada movimiento."
+"animación no se detenga y comience, sino que parezca suave y fluya a través "
+"de cada movimiento."
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
@@ -14176,10 +14158,14 @@ msgid ""
 "run it. Once installed, click _File_ then _Settings_, expand _Appearance "
 "& Behavior_ then expand _System Settings_ and select _Android SDK_."
 msgstr ""
+"Descarga el instalador de [Android Studio](https://developer.android.com/"
+"studio/index.html) y ejecútalo. Una vez instalado, haz clic en _File_, luego "
+"en _Settings_, expande _Appearence & Behavior_, luego _System Settings_ y "
+"selecciona _Android SDK_."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:28
 msgid "From the _SDK Platforms_ tab, select API levels 26 and 28."
-msgstr ""
+msgstr "Desde la pestaña _SDK Platforms_, seleccione los API Levels 26 y 28."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:30
 #, fuzzy
@@ -14188,7 +14174,7 @@ msgstr "Ve a la pestaña de \"Properties\", y establece los siguientes valores:"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:32
 msgid "Android SDK Build-Tools"
-msgstr ""
+msgstr "Herramientas de compilación del SDK de Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:33
 #, fuzzy
@@ -14202,15 +14188,15 @@ msgstr "LLDB"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:35
 msgid "Android SDK Platform-Tools"
-msgstr ""
+msgstr "Herramientas de Plataforma del SDK de Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:36
 msgid "Android SDK Tools"
-msgstr ""
+msgstr "Herramientas del SDK de Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:37
 msgid "NDK (even if you have the NDK installed separately)"
-msgstr ""
+msgstr "NDK (aún si ha instalado NDK por separado)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:39
 msgid ""
@@ -14219,6 +14205,10 @@ msgid ""
 "installation.  Also, make sure the NDK installed version is 18 (or "
 "higher)."
 msgstr ""
+"En la pestaña _SDK Tools_, marque _Show Package Details_  en la parte "
+"inferior. Seleccione CMake 3.6.4. Haga esto incluso si tiene una instalación "
+"independiente de CMake. Además, asegúrese de que la versión del NDK "
+"instalado sea la 18 (o superior)."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:41
 msgid ""
@@ -14226,6 +14216,9 @@ msgid ""
 "the Android Gradle Plugin Version to `3.2.1` and Gradle Version to "
 "`4.10.1`."
 msgstr ""
+"Ahora retorne a __File__ - _Project Structure_ y luego, en _Project_, "
+"establece la Versión del complemento Gradle de Android en `3.2.1` y la "
+"Versión Gradle en `4.10.1`."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:43
 msgid ""
@@ -14233,6 +14226,10 @@ msgid ""
 "not click update, just click X on the top right to close.  Later versions"
 " of the Gradle plugin have known issues with cz.malohlava."
 msgstr ""
+"Si Android Studio abre el cuadro de diálogo \"Plugin Update Recommeded\", no "
+"hagas clic en Actualizar, solo haz clic en la X en la parte superior derecha "
+"para cerrarlo. Las versiones posteriores del complemento Gradle tienen "
+"problemas conocidos con cz.malohlava."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:45
 #, fuzzy
@@ -14241,7 +14238,7 @@ msgstr "Entornos"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:47
 msgid "Create a keystore in Android Studio"
-msgstr ""
+msgstr "Crear un almacén de claves en Android Studio"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:48
 msgid ""
@@ -14249,10 +14246,13 @@ msgid ""
 "/app-signing#generate-key) to create a keystore file. You can save it "
 "anywhere (preferably not in the `overte` folder)."
 msgstr ""
+"Sigue las instrucciones [aquí](https://developer.android.com/studio/publish/"
+"app-signing#generate-key) para crear un archivo de almacén de claves. Puedes "
+"guardarlo en cualquier lugar (preferiblemente fuera de la carpeta `overte`)."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:50
 msgid "Set up machine specific Gradle properties"
-msgstr ""
+msgstr "Configurar las propiedades específicas de Gradle"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:52
 msgid ""
@@ -14260,25 +14260,30 @@ msgid ""
 "(`$HOME/.gradle` on Unix, `Users/<yourname>/.gradle` on Windows). Edit "
 "the file to contain the following"
 msgstr ""
+"Crea un archivo `gradle.properties` en la carpeta `.gradle` (`$HOME/.gradle` "
+"en Unix, `Users/<su nombre>/.gradle` en Windows). Edita el archivo para que "
+"contenga lo siguiente"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:62
 msgid ""
 "Note, do not use $HOME for the path. It must be a fully qualified path "
 "name. Also, be sure to use forward slashes in your path."
 msgstr ""
+"Nota: No use $HOME como ruta. Debe ser un nombre de ruta completo. Además, "
+"asegúrese de usar barras diagonales en la ruta."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:64
 msgid "If you are building for an Android phone"
-msgstr ""
+msgstr "Si estás compilando para Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:66
 #: ../../source/developer/build/BUILD_ANDROID.md:75
 msgid "Add these lines to `gradle.properties`"
-msgstr ""
+msgstr "Agregue estas líneas al archivo `gradle.properties`"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:73
 msgid "If you are building for an Oculus Quest"
-msgstr ""
+msgstr "Si está compilando para Oculus Quest"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:82
 msgid ""
@@ -14286,10 +14291,13 @@ msgid ""
 "if you encounter problems with these during your build, you can skip them"
 " by adding these lines to `gradle.properties`"
 msgstr ""
+"El Frame Player tanto para Android como para Oculus Quest es opcional, por "
+"lo que si encuentra problemas con estos durante la compilación, puede "
+"omitirlos agregando estas líneas a `gradle.properties`"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:89
 msgid "Clone the repository"
-msgstr ""
+msgstr "Clonar el repositorio"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:91
 msgid "`git clone https://github.com/overte-org/overte.git`"
@@ -14297,37 +14305,44 @@ msgstr "`git clone https://github.com/overte-org/overte.git`"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:93
 msgid "Building & Running"
-msgstr ""
+msgstr "Compilar y ejecutar"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:95
 msgid "Building Modules"
-msgstr ""
+msgstr "Compilar los módulos"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:97
 msgid "Open Android Studio"
-msgstr ""
+msgstr "Abrir Android Studio"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:98
 msgid "Choose _Open an existing Android Studio project_"
-msgstr ""
+msgstr "Seleccionar _Open an existing Android Studio project_"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:99
 msgid ""
 "Navigate to the `overte` repository that had you cloned and choose the "
 "`android` folder and select _OK_"
 msgstr ""
+"Navegar hasta el repositorio `overte` que clonó. Elegir la carpeta `android` "
+"y seleccionar _OK_"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:100
 msgid ""
 "Wait for Gradle to sync (this should take around 20 minutes the first "
 "time)"
 msgstr ""
+"Esperar a que Gradle se sincronice (esto podría tardar más de 20 minutos la "
+"primera vez)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:101
 msgid ""
 "If a dialog pops open saying \"Plugin Update Recommeded\" dialog, do not "
 "click update, just click X on the top right to close."
 msgstr ""
+"Si aparece un cuadro de diálogo con el mensaje \"Plugin Update Recommeded\", "
+"no haga clic en \"Update\", simplemente haga clic en la X situada en la "
+"parte superior derecha para cerrarlo."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:102
 msgid ""
@@ -14335,6 +14350,9 @@ msgid ""
 "\"questInterface\") then click _Build_ in the top menu and choose _Make "
 "Module 'questInterface'_"
 msgstr ""
+"En la ventana _Project_, haga clic en el proyecto que desee compilar (por "
+"ejemplo, «questInterface»), luego haga clic en _Build_ en el menú superior y "
+"selecciona _Make Module 'questInterface'_"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:103
 msgid ""
@@ -14342,12 +14360,18 @@ msgid ""
 "opening the _Build Variants_ window along the left side and select other "
 "build types such as \"release\"."
 msgstr ""
+"De forma predeterminada, esto creará el apk tipo \"debug\". Puede cambiarlo "
+"abriendo la ventana _Build Variants_ (Variantes de compilación) en el lado "
+"izquierdo y seleccionando otros tipos de compilación, como \"release\" "
+"(lanzamiento)."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:104
 msgid ""
 "Your newly build APK should reside in "
 "`overte\\android\\apps\\questInterface\\release` (if you chose release)."
 msgstr ""
+"El APK recién creado debe residir en `overte\\android\\apps\\questInterface"
+"\\release` (si ha elegido la versión release)."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:106
 msgid "Running a Module"
@@ -14359,26 +14383,34 @@ msgid ""
 "to install (sideload on Quest) your newly built APK, or you can follow "
 "the instructions below to load the APK via Android Studio."
 msgstr ""
+"Puede utilizar la línea de comandos «adb» u otras herramientas de desarrollo "
+"para instalar (sideload en Quest) tu APK recién creado, o puede seguir las "
+"instrucciones que se indican a continuación para cargar el APK a través de "
+"Android Studio."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:110
 msgid ""
 "In the toolbar at the top of Android Studio, next to the green hammer "
 "icon, you should see a dropdown menu."
 msgstr ""
+"En la barra de herramientas situada en la parte superior de Android Studio, "
+"junto al icono del martillo verde, debería ver un menú desplegable."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:111
 msgid ""
 "You may already see a configuration for the module you are trying to "
 "build. If so, select it."
 msgstr ""
+"Es posible que ya vea una configuración para el módulo que está intentando "
+"compilar. Si es así, selecciónela."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:112
 msgid "Otherwise, select _Edit Configurations_."
-msgstr ""
+msgstr "En otro caso, seleccione _Edit Configurations_."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:114
 msgid "Your configuration should be as follows"
-msgstr ""
+msgstr "Su configuración debe ser"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:116
 #, fuzzy
@@ -14387,11 +14419,13 @@ msgstr "Consigue tu App para Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:117
 msgid "Module: <your module> (you probably want `interface` or `questInterface`)"
-msgstr ""
+msgstr "Module: <su módulo> (probablemente `interface` o `questInterface`)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:119
 msgid "For the interface modules, you also need to select the activity to launch."
 msgstr ""
+"Para los módulos de interfaz, también debe seleccionar la actividad que "
+"desea iniciar."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:121
 #, fuzzy
@@ -14401,33 +14435,39 @@ msgstr "Uso de la Interfaz de Línea de Comandos"
 #: ../../source/developer/build/BUILD_ANDROID.md:123
 #: ../../source/developer/build/BUILD_ANDROID.md:128
 msgid "From the _Launch_ drop down menu, select _Specified Activity_"
-msgstr ""
+msgstr "Desde el menú desplegable _Launch_ , seleccione _Specified Activity_"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:124
 msgid ""
 "In the _Activity_ field directly below, put "
 "`io.highfidelity.hifiinterface.PermissionChecker`"
 msgstr ""
+"En el cuadro de texto _Activity_, coloque "
+"`io.highfidelity.hifiinterface.PermissionChecker`"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:126
 msgid "For the Oculus Quest interface"
-msgstr ""
+msgstr "Para la interfaz Oculus Quest"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:129
 msgid ""
 "In the _Activity_ field directly below, put "
 "`io.highfidelity.questInterface.PermissionsChecker`"
 msgstr ""
+"En el campo _Activity_ , colocar "
+"`io.highfidelity.questInterface.PermissionsChecker`"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:131
 msgid "Note the 's' in Permission**s**Checker for the Quest."
-msgstr ""
+msgstr "Note la 's' en Permission**s**Checker para Quest."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:133
 msgid ""
 "Now you are able to run your module! Click the green play button in the "
 "top toolbar of Android Studio."
 msgstr ""
+"¡Ya puede ejecutar el módulo! Haga clic en el botón verde de reproducción en "
+"la barra de herramientas superior de Android Studio."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:135
 #: ../../source/developer/build/BUILD_WIN.md:126
@@ -14437,13 +14477,16 @@ msgstr "Solución de Problemas"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:137
 msgid "To view a more complete debug log,"
-msgstr ""
+msgstr "Para ver un registro de depuración más detallado,"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:139
 msgid ""
 "Click the icon with the two overlapping squares in the upper left corner "
 "of the tab where the sync is running (hover text says _Toggle view_)"
 msgstr ""
+"Haga clic en el icono con los dos cuadrados superpuestos en la esquina "
+"superior izquierda de la pestaña donde se está ejecutando la sincronización ("
+"el texto emergente dice _Toggle view_)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:140
 msgid ""
@@ -14451,40 +14494,51 @@ msgid ""
 "Deployment > Compiler_ you can add command-line flags, as per Gradle "
 "documentation"
 msgstr ""
+"Para cambiar el nivel de detalle de las notificaciones, selecciones _File > "
+"Settings_. Bajo _Build, Execution, Deployment > Compiler_ puede agregar "
+"banderas par la línea de comandos, tal como está definido en la "
+"documentación de Gradle"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:142
 msgid ""
 "If you encounter CMake issues, try adding the following system "
 "environment variable:"
 msgstr ""
+"Si tiene problemas con CMake, pruebe a añadir la siguiente variable de "
+"entorno del sistema:"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:144
 msgid ""
 "With your start menu, search for 'Edit the System Environment Variables' "
 "and open it."
 msgstr ""
+"En el menú de inicio, busque ‘Editar las variables de entorno del sistema’ y "
+"ábralo."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:145
 msgid "Click on 'Advanced' tab, then 'Environment Variables'"
-msgstr ""
+msgstr "Seleccione la pestaña 'Advanced' luego 'Environment Variables'"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:146
 msgid "Select 'New' under System variables"
-msgstr ""
+msgstr "Seleccione 'Nuevo' en Variables del sistema"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:147
 msgid "Set \"Variable name\" to QT_CMAKE_PREFIX_PATH"
-msgstr ""
+msgstr "Agregue QT_CMAKE_PREFIX_PATH en \"Variable name\""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:148
 msgid ""
 "Set \"Variable value\" to the directory that your android build placed "
 "the CMake 3.6.4 library CMake directory (i.e. android\\qt\\lib\\cmake)."
 msgstr ""
+"Establezca como «Variable value» el directorio en el que su compilación de "
+"Android colocó el directorio CMake de la biblioteca CMake 3.6.4 (por ejemplo:"
+" android\\qt\\lib\\cmake)."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:150
 msgid "Some things you can try if you want to do a clean build"
-msgstr ""
+msgstr "Algunas cosas que puedes probar si quieres hacer una compilación limpia"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:152
 msgid ""
@@ -14492,30 +14546,39 @@ msgid ""
 " each module you're building (for example, "
 "`overte/android/apps/interface`)"
 msgstr ""
+"Elimina las carpetas `build` y `.externalNativeBuild` de la carpeta de cada "
+"módulo que estás compilando (por ejemplo, `overte/android/apps/interface`)"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:153
 msgid ""
 "If you have set your `HIFI_VCPKG_ROOT` environment variable, delete the "
 "contents of that directory; otherwise, delete `AppData/Local/Temp/hifi`"
 msgstr ""
+"Si ha configurado la variable de entorno `HIFI_VCPKG_ROOT`, elimine el "
+"contenido del directorio definido; de lo contrario, elimine `AppData/Local/"
+"Temp/hifi`"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:154
 msgid ""
 "In Android Studio, click _File > Invalidate Caches / Restart_ and select "
 "_Invalidate and Restart_"
 msgstr ""
+"En Android Studio, haz clic en _File > Invalidate Caches / Restart_ y "
+"selecciona _Invalidate and Restart_"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:156
 msgid "If you see lots of \"couldn't acquire lock\" errors,"
-msgstr ""
+msgstr "Si ve muchos errores \"couldn't acquire lock\","
 
 #: ../../source/developer/build/BUILD_ANDROID.md:157
 msgid "Open Task Manager and close any running Clang / Gradle processes"
 msgstr ""
+"Abra el Administrador de Tareas y cierre todos los procesos Clang / Gradle "
+"que estén en ejecución"
 
 #: ../../source/developer/build/BUILD_LINUX.md:10
 msgid "*Last Updated on 2025-05-21*"
-msgstr ""
+msgstr "*Última Actualización 2025-05-21*"
 
 #: ../../source/developer/build/BUILD_LINUX.md:12
 msgid ""
@@ -14523,6 +14586,9 @@ msgid ""
 "dependencies required for all platforms. Only Linux specific instructions"
 " are found in this file."
 msgstr ""
+"Por favor, lea la [guía general de compilación](BUILD.md) para obtener "
+"información sobre las dependencias necesarias para todas las plataformas. En "
+"este archivo solo se incluyen instrucciones específicas para Linux."
 
 #: ../../source/developer/build/BUILD_LINUX.md:14
 msgid ""
@@ -14830,6 +14896,11 @@ msgid ""
 "[here](https://github.com/phracker/MacOSX-SDKs). You must copy it in to "
 "your Xcode SDK directory, e.g."
 msgstr ""
+"Necesitarás la versión `10.12` del SDK de macOS para la compilación, de lo "
+"contrario, es posible que se produzcan fallos u otros problemas imprevistos "
+"debido a la obsolescencia de OpenGL en macOS. Puedes obtener ese SDK desde "
+"[aquí](https://github.com/phracker/MacOSX-SDKs). Debes copiarlo en tu "
+"directorio SDK de Xcode, por ejemplo."
 
 #: ../../source/developer/build/BUILD_OSX.md:39
 #, fuzzy
@@ -15404,21 +15475,24 @@ msgstr ""
 
 #: ../../source/developer/interface/command-line-parameters.md:73
 msgid "Emulate a standalone device"
-msgstr ""
+msgstr "Emular un dispositivo"
 
 #: ../../source/developer/interface/command-line-parameters.md:77
 msgid "Disable the watchdog thread. The interface will crash on deadlocks."
 msgstr ""
+"Desactivar el hilo de vigilancia. La interfaz fallará en caso de bloqueo."
 
 #: ../../source/developer/interface/command-line-parameters.md:81
 msgid "(Needs clarification!)"
-msgstr ""
+msgstr "(Necesita explicación!)"
 
 #: ../../source/developer/interface/command-line-parameters.md:85
 msgid ""
 "Maximum concurrent resource downloads. Default is 16, except for Android "
 "where it is 4."
 msgstr ""
+"Máximo de descargas de recursos simultáneas. El valor predeterminado es 16, "
+"excepto en Android, donde es 4."
 
 #: ../../source/developer/interface/command-line-parameters.md:89
 #, fuzzy
@@ -15430,20 +15504,24 @@ msgid ""
 "Replaces the Avatar URL. If both this and --avatarURL is set, this one "
 "takes precedence."
 msgstr ""
+"Reemplaza la URL del avatar. Si --avatarURL también esta definida, esta "
+"tiene prioridad."
 
 #: ../../source/developer/interface/command-line-parameters.md:98
 msgid ""
 "Bookmarks are expected to be in a name=url form. An `=` character in the "
 "name or url is unsupported."
 msgstr ""
+"Se espera que los marcadores tengan el formato nombre=URL. No se admite el "
+"carácter `=` en el nombre ni en la URL."
 
 #: ../../source/developer/interface/command-line-parameters.md:102
 msgid "Disable level of detail auto config."
-msgstr ""
+msgstr "Desactivar la configuración automática del nivel de detalle."
 
 #: ../../source/developer/interface/command-line-parameters.md:106
 msgid "Force enable crash reporting for the Interface."
-msgstr ""
+msgstr "Forzar los informes de fallos para la interfaz."
 
 #: ../../source/developer/interface/debugging.md:1
 #, fuzzy
@@ -15452,7 +15530,7 @@ msgstr "Depuración de Sombreadores"
 
 #: ../../source/developer/interface/debugging.md:5
 msgid "Visual Studio"
-msgstr ""
+msgstr "Visual Studio"
 
 #: ../../source/developer/interface/debugging.md:7
 msgid ""
@@ -15463,6 +15541,12 @@ msgid ""
 "the **Local Windows Debugger** button on the debug toolbar will start "
 "Interface."
 msgstr ""
+"Para ejecutar Interface desde Visual Studio con el depurador conectado, debe "
+"configurar Interface como el proyecto de inicio. Para ello, en **Explorador "
+"de soluciones**, expanda la carpeta «Aplicaciones», haga clic con el botón "
+"derecho en **interface** y seleccione «Establecer como proyecto de inicio». "
+"Ahora, en **Depurar > Iniciar depuración**, el botón **Depurador local de "
+"Windows** de la barra de herramientas de depuración iniciará Interface."
 
 #: ../../source/developer/interface/debugging.md:9
 msgid ""
@@ -15470,24 +15554,33 @@ msgid ""
 " to start **ALL_BUILD** under the \"CMakeTargets\" folder, resulting in "
 "an \"Access is Denied\" error."
 msgstr ""
+"Si no configura el proyecto de inicio en Interface, el depurador intentará "
+"iniciar **ALL_BUILD** en la carpeta \"CMakeTargets\", lo que provocará un "
+"error tipo \"Access is Denied\"."
 
 #: ../../source/developer/interface/environment-variables.md:3
 msgid ""
 "You can alter Interface's functionality using the following environment "
 "variables."
 msgstr ""
+"Puede modificar la funcionalidad de la interfaz utilizando las siguientes "
+"variables de entorno."
 
 #: ../../source/developer/interface/environment-variables.md:7
 msgid ""
 "Use the source files for QML and other resources at runtime instead of "
 "the compiled files."
 msgstr ""
+"Utiliza los archivos fuente para QML y otros recursos en tiempo de ejecución "
+"en lugar de los archivos compilados."
 
 #: ../../source/developer/interface/environment-variables.md:13
 msgid ""
 "Enable the HMD debugging mode which emulates an HMD view in 2D for "
 "desktop testing."
 msgstr ""
+"Habilita el modo de depuración HMD, que emula una vista HMD en 2D para "
+"pruebas en escritorio."
 
 #: ../../source/developer/interface/environment-variables.md:19
 msgid ""
@@ -15495,18 +15588,21 @@ msgid ""
 "debugging the OpenVR plugin if you have an Oculus HMD but not a SteamVR "
 "HMD.)"
 msgstr ""
+"Habilite el complemento OpenVR para usarlo con un Oculus HMD. (Útil para "
+"depurar el complemento OpenVR si tiene un Oculus HMD pero no un SteamVR HMD)"
 
 #: ../../source/developer/interface/environment-variables.md:25
 msgid "Override the metaverse URL."
-msgstr ""
+msgstr "Sustituir la URL del metaverso."
 
 #: ../../source/developer/interface/environment-variables.md:31
 msgid "Allow multiple instances of Interface to run simultaneously."
 msgstr ""
+"Permitir que varias instancias de la interfaz se ejecuten simultáneamente."
 
 #: ../../source/developer/interface/environment-variables.md:37
 msgid "The Interface will have a custom default home and startup location."
-msgstr ""
+msgstr "La interfaz tendrá una ubicación de inicio y de inicio personalizada."
 
 #: ../../source/developer/interface/environment-variables.md:43
 msgid ""
@@ -15514,26 +15610,30 @@ msgid ""
 "variable. It can be set to any comma separated combination of the "
 "following options. Case and whitespace are not significant."
 msgstr ""
+"El log en la consola se puede controlar con la variable "
+"`VIRCADIA_LOG_OPTIONS`. Puede configurarse con cualquier combinación de las "
+"siguientes opciones, separadas por comas. No se distinguen mayúsculas y "
+"minúsculas ni espacios en blanco."
 
 #: ../../source/developer/interface/environment-variables.md:45
 msgid "`color` - Force ANSI colors depending on the message's severity."
-msgstr ""
+msgstr "`color` - Emplea los colores ANSI dependiendo la gravedad del mensaje."
 
 #: ../../source/developer/interface/environment-variables.md:46
 msgid "`nocolor` - Force ANSI colors off."
-msgstr ""
+msgstr "`nocolor` - No usa colores ANSI."
 
 #: ../../source/developer/interface/environment-variables.md:47
 msgid "`milliseconds` - Log timestamps with millisecond precision."
-msgstr ""
+msgstr "`milliseconds` - Registra los timestamps con precisión de milisegundos."
 
 #: ../../source/developer/interface/environment-variables.md:48
 msgid "`process_id` - Log the process ID."
-msgstr ""
+msgstr "`process_id` - Registra el ID del proceso."
 
 #: ../../source/developer/interface/environment-variables.md:49
 msgid "`thread_id` - Log the thread ID."
-msgstr ""
+msgstr "`thread_id` - Registra el ID del hilo."
 
 #: ../../source/developer/interface/environment-variables.md:51
 msgid "For example:"
@@ -15544,16 +15644,20 @@ msgid ""
 "This will cause logging with millisecond precision, and color coding "
 "messages by severity."
 msgstr ""
+"Esto provocará un registro con tiempo en milisegundos y codificación de "
+"mensajes por colores según su gravedad."
 
 #: ../../source/developer/interface/environment-variables.md:59
 msgid "Will result in only millisecond precision being applied to logging."
-msgstr ""
+msgstr "Solo se empleará una precisión de milisegundos en el registro."
 
 #: ../../source/developer/interface/environment-variables.md:61
 msgid ""
 "Color is enabled by default on Unix if output is being directed to a "
 "terminal, and disabled by default on Windows."
 msgstr ""
+"El color está habilitado de forma predeterminada en Unix si la salida se "
+"dirige a una terminal, y deshabilitado de forma predeterminada en Windows."
 
 #: ../../source/explore.rst:11 ../../source/explore/gallery.rst:3
 #: ../../source/shared.rst:6
@@ -15634,7 +15738,7 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:8
 msgid "Maker meeting 28th September 2020"
-msgstr ""
+msgstr "Reunión Maker del 28 de septiembre de 2020"
 
 #: ../../source/explore/gallery.rst:12
 msgid ""
@@ -17261,6 +17365,8 @@ msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Overte:"
 msgstr ""
+"Además, su red debe tener suficiente ancho de banda de Internet para "
+"ejecutar Overte:"
 
 #: ../../source/explore/get-started/install.rst:45
 #, fuzzy
@@ -17311,13 +17417,15 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:55
 msgid "Download Overte"
-msgstr ""
+msgstr "Descargar Overte"
 
 #: ../../source/explore/get-started/install.rst:57
 msgid ""
 "The current release is available to `download on our website "
 "<https://overte.org/downloads.html>`_."
 msgstr ""
+"La versión actual está disponible para su `descarga en nuestro sitio web "
+"<https://overte.org/downloads.html>`_."
 
 #: ../../source/explore/get-started/install.rst:59
 #, fuzzy
@@ -17386,7 +17494,7 @@ msgstr "Acepta el Acuerdo de licencia."
 
 #: ../../source/explore/get-started/install.rst:84
 msgid "Drag Overte to the Applications folder."
-msgstr ""
+msgstr "Arrastre Overte al directorio de aplicaciones."
 
 #: ../../source/explore/get-started/install.rst:85
 #, fuzzy
@@ -17449,6 +17557,8 @@ msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Overte-x86_64_20220219.AppImage``.)"
 msgstr ""
+"Marque el archivo AppImage descargado como ejecutable. (Por ejemplo, con ``"
+"chmod +x Overte-x86_64_20220219.AppImage``)"
 
 #: ../../source/explore/get-started/install.rst:99
 #, fuzzy
@@ -17478,7 +17588,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/install.rst:106
 msgid "Upgrade Overte"
-msgstr ""
+msgstr "Actualizar Overte"
 
 #: ../../source/explore/get-started/install.rst:108
 msgid ""
@@ -21451,6 +21561,10 @@ msgid ""
 " power to express your creativity, build your own virtual worlds, and be "
 "a part of a vibrant community."
 msgstr ""
+"La visión de Overte es una red descentralizada de mundos virtuales, creada y "
+"controlada por sus usuarios. Para hacer realidad esta visión, queremos que "
+"tengas la posibilidad de expresar tu creatividad, construir tus propios "
+"mundos virtuales y formar parte de una comunidad dinámica."
 
 #: ../../source/host.rst:7
 #, fuzzy
@@ -26141,6 +26255,10 @@ msgid ""
 " that will be compatible with its major version. The name of the release "
 "(Asteria, Demeter, etc.) changes when the major version changes."
 msgstr ""
+"La versión principal indicará un cambio en el protocolo y, por lo tanto, "
+"incompatibilidad con otras versiones. Una versión secundaria es un parche o "
+"actualización que será compatible con su versión principal. El nombre de la "
+"versión (Asteria, Demeter, etc.) cambia cuando cambia la versión principal."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:11
 msgid ""
@@ -26955,6 +27073,11 @@ msgid ""
 "been deleted, hence the t-pose. This PR updates and renames the "
 "android/optimized IK animation graph to the latest. (#16488)"
 msgstr ""
+"Corrección de error para el avatar en postura T al moverse. El gráfico de "
+"animación IK optimizado específico para Android estaba desactualizado, hacía "
+"referencia a animaciones que se habían eliminado, de ahí la postura T. Esta "
+"PR actualiza y renombra el gráfico de animación IK optimizado para Android a "
+"la última versión. (#16488)"
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:217
 msgid ""
@@ -28022,6 +28145,12 @@ msgid ""
 " for the long term. As of now (8/6/2020) it is at feature parity with its"
 " original C# implementation."
 msgstr ""
+"El [servidor metaverso](https://github.com/vircadia/project-apollo) y la "
+"[interfaz del servidor metaverso](https://github.com/vircadia/project-apollo-"
+"dashboard) están progresando satisfactoriamente. El servidor metaverso se "
+"está reescribiendo actualmente en TypeScript con Node.JS con el fin de "
+"mejorar sus capacidades a largo plazo. A día de hoy (6/8/2020), tiene las "
+"mismas características que su implementación original en C#."
 
 #: ../../source/release-notes/2020-2-4-Asteria.md:50
 msgid ""
@@ -29046,6 +29175,10 @@ msgid ""
 "0.33m. This makes the HUD always be reasonably centered on your view "
 "rather than possibly being very offset at times."
 msgstr ""
+"La distancia física (en el mundo real) necesaria para moverse antes de que "
+"la superposición del HUD se centre en tu avatar se ha reducido de 0,99 m a "
+"0,33 m. Esto permite que el HUD siempre esté razonablemente centrado en tu "
+"vista, en lugar de estar muy descentrado en algunas ocasiones."
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:18
 msgid ""
@@ -29172,6 +29305,10 @@ msgid ""
 "since it was only drawing a box that wasn't useful to assist in figuring "
 "out the shape of the zone."
 msgstr ""
+"Preferencia: Se ha eliminado la opción \"Mostrar zonas en modo de creación\""
+". El método que la habilitaba aún está en la API, pero no hace nada. Se ha "
+"abandonado porque solo dibujaba un cuadro que no servía para determinar la "
+"forma de la zona."
 
 #: ../../source/release-notes/2020-3-3-Demeter.md:40
 msgid ""
@@ -30935,6 +31072,10 @@ msgid ""
 "items. This is supported on the web-based Marketplace by opening it in a "
 "browser; it is not yet supported using the Market app."
 msgstr ""
+"**Recursos descargables**: Los creadores de contenido ahora pueden descargar "
+"los recursos al Marketplace, tanto los aprobados como los no validados. Esto "
+"es posible en el Marketplace web abriéndolo en un navegador; aún no es "
+"posible con la app del Marketplace."
 
 #: ../../source/release-notes/v80.md:11
 msgid ""
@@ -31249,6 +31390,11 @@ msgid ""
 "domain. This was occurring due to an issue with refreshing content, re-"
 "entering a domain, or recovering from crashes."
 msgstr ""
+"Se solucionó un problema en PAL donde se añadían números de índice después "
+"de los nombres para mostrar de los usuarios, incluso si eran los únicos "
+"usuarios con ese nombre en el dominio. Esto ocurría debido a un problema al "
+"actualizar el contenido, al reingresar a un dominio o al recuperarse de "
+"fallos."
 
 #: ../../source/release-notes/v80.md:83 ../../source/release-notes/v82.md:134
 #: ../../source/release-notes/v83.md:161 ../../source/release-notes/v84.md:83
@@ -31419,6 +31565,11 @@ msgid ""
 "rights. This ensures that users cannot be banned using unsolicited "
 "scripts within a domain."
 msgstr ""
+"Cuando se prohíbe el ingreso a alguien de un dominio, ahora enviamos un "
+"mensaje al propietario o administrador del dominio para confirmar la "
+"prohibición, asumiendo que tenga permisos de expulsión. Esto garantiza que "
+"no se restrinja a usuarios mediante scripts no solicitados dentro de un "
+"dominio."
 
 #: ../../source/release-notes/v81.md:42
 msgid "Far grab now uses two hands to reduce accidental activation."
@@ -31552,6 +31703,11 @@ msgid ""
 "server-side fix has been made 82.1. Any domains running should be "
 "immediately updated to 82.1."
 msgstr ""
+"En la versión RC82.0 se introdujo una función para ralentizar la velocidad a "
+"la que se añaden nodos al mezclador de avatares. Esta ruta de código no "
+"funcionaba correctamente y se ha realizado una corrección en el lado del "
+"servidor en la versión 82.1. Todos los dominios en funcionamiento deben "
+"actualizarse inmediatamente a la versión 82.1."
 
 #: ../../source/release-notes/v82.md:14
 msgid ""
@@ -31621,6 +31777,14 @@ msgid ""
 "volume-sliders](http://roadmap.highfidelity.com/feature-"
 "requests/p/implement-2-main-volume-sliders))"
 msgstr ""
+"**Nuevas configuraciones de audio**: En esta versión, hemos introducido "
+"controles de volumen independientes para los avatares, el volumen ambiental "
+"de fondo y el sonido general del sistema. El medidor de nivel de audio es "
+"más pequeño y ocupa menos espacio en la ventana. Ve a Configuración > Audio "
+"para cambiar tus ajustes. (Solicitud de Canny: [http://"
+"roadmap.highfidelity.com/feature-requests/p/implement-2-main-volume-"
+"sliders](http://roadmap.highfidelity.com/feature-requests/p/implement-2-main-"
+"volume-sliders))"
 
 #: ../../source/release-notes/v82.md:28
 msgid "**Additional Controls for Entities**:"
@@ -31812,12 +31976,14 @@ msgid "[ModelCache](https://apidocs.vircadia.dev/ModelCache.html)"
 msgstr ""
 
 #: ../../source/release-notes/v82.md:76
+#, fuzzy
 msgid "[SoundCache](https://apidocs.vircadia.dev/SoundCache.html)"
-msgstr ""
+msgstr "[SoundCache](https://apidocs.vircadia.dev/SoundCache.html)"
 
 #: ../../source/release-notes/v82.md:77
+#, fuzzy
 msgid "[TextureCache](https://apidocs.vircadia.dev/TextureCache.html)"
-msgstr ""
+msgstr "[TextureCache](https://apidocs.vircadia.dev/TextureCache.html)"
 
 #: ../../source/release-notes/v82.md:81
 msgid ""
@@ -32129,6 +32295,10 @@ msgid ""
 "avatar that they don't own, they instead will wear a generic avatar and "
 "given instructions on how to change to another avatar."
 msgstr ""
+"**Protección contra el robo de avatares**: Los usuarios ya no pueden usar "
+"avatares certificados que no les pertenezcan. Si alguien intenta usar un "
+"avatar certificado que no le pertenece, se le asignará un avatar genérico y "
+"se le proporcionarán instrucciones sobre cómo cambiar a otro avatar."
 
 #: ../../source/release-notes/v83.md:29
 msgid ""
@@ -32214,6 +32384,12 @@ msgid ""
 "[See this PR](https://github.com/highfidelity/hifi/pull/15806) for more "
 "details."
 msgstr ""
+"Se han rediseñado todos los movimientos para que coincidan con las "
+"velocidades de desplazamiento que se modificaron por diseño a 2,5 m/s para "
+"caminar y 5,2 m/s para correr. Se han perfeccionado las animaciones para que "
+"funcionen con la altura creada (Artemis) y también con los avatares "
+"pequeños. [Consulte este PR](https://github.com/highfidelity/hifi/pull/15806)"
+" para obtener más detalles."
 
 #: ../../source/release-notes/v83.md:48
 msgid ""
@@ -32306,64 +32482,79 @@ msgid ""
 msgstr ""
 
 #: ../../source/release-notes/v83.md:71
+#, fuzzy
 msgid "[AvatarBookmarks](https://apidocs.vircadia.dev/AvatarBookmarks.html)"
-msgstr ""
+msgstr "[AvatarBookmarks](https://apidocs.vircadia.dev/AvatarBookmarks.html)"
 
 #: ../../source/release-notes/v83.md:72
+#, fuzzy
 msgid "[AvatarInputs](https://apidocs.vircadia.dev/AvatarInputs.html)"
-msgstr ""
+msgstr "[AvatarInputs](https://apidocs.vircadia.dev/AvatarInputs.html)"
 
 #: ../../source/release-notes/v83.md:73
+#, fuzzy
 msgid "[Clipboard](https://apidocs.vircadia.dev/Clipboard.html)"
-msgstr ""
+msgstr "[Clipboard](https://apidocs.vircadia.dev/Clipboard.html)"
 
 #: ../../source/release-notes/v83.md:74
+#, fuzzy
 msgid "[Controller](https://apidocs.vircadia.dev/Controller.html)"
-msgstr ""
+msgstr "[Controller](https://apidocs.vircadia.dev/Controller.html)"
 
 #: ../../source/release-notes/v83.md:75
+#, fuzzy
 msgid "[Desktop](https://apidocs.vircadia.dev/Desktop.html)"
-msgstr ""
+msgstr "[Desktop](https://apidocs.vircadia.dev/Desktop.html)"
 
 #: ../../source/release-notes/v83.md:76
+#, fuzzy
 msgid "[Entities](https://apidocs.vircadia.dev/Entities.html)"
-msgstr ""
+msgstr "[Entities](https://apidocs.vircadia.dev/Entities.html)"
 
 #: ../../source/release-notes/v83.md:77
+#, fuzzy
 msgid "[location](https://apidocs.vircadia.dev/location.html)"
-msgstr ""
+msgstr "[location](https://apidocs.vircadia.dev/location.html)"
 
 #: ../../source/release-notes/v83.md:78
+#, fuzzy
 msgid "[LocationBookmarks](https://apidocs.vircadia.dev/LocationBookmarks.html)"
 msgstr ""
+"[LocationBookmarks](https://apidocs.vircadia.dev/LocationBookmarks.html)"
 
 #: ../../source/release-notes/v83.md:79
+#, fuzzy
 msgid "[Midi](https://apidocs.vircadia.dev/Midi.html)"
-msgstr ""
+msgstr "[Midi](https://apidocs.vircadia.dev/Midi.html)"
 
 #: ../../source/release-notes/v83.md:80
+#, fuzzy
 msgid "[Overlays](https://apidocs.vircadia.dev/Overlays.html)"
-msgstr ""
+msgstr "[Overlays](https://apidocs.vircadia.dev/Overlays.html)"
 
 #: ../../source/release-notes/v83.md:81
 msgid "[Paths](https://apidocs.vircadia.dev/Paths.html)"
-msgstr ""
+msgstr "[Paths](rutas)(https://apidocs.vircadia.dev/Paths.html)"
 
 #: ../../source/release-notes/v83.md:82
 msgid "[PlatformInfo](https://apidocs.vircadia.dev/PlatformInfo.html)"
 msgstr ""
+"[PlatformInfo](información de Plataforma)(https://apidocs.vircadia.dev/"
+"PlatformInfo.html)"
 
 #: ../../source/release-notes/v83.md:83
+#, fuzzy
 msgid "[Picks](https://apidocs.vircadia.dev/Picks.html)"
-msgstr ""
+msgstr "[Picks](https://apidocs.vircadia.dev/Picks.html)"
 
 #: ../../source/release-notes/v83.md:84
 msgid "[PickType](https://apidocs.vircadia.dev/PickType.html)"
-msgstr ""
+msgstr "[PickType](https://apidocs.vircadia.dev/PickType.html)"
 
 #: ../../source/release-notes/v83.md:85
+#, fuzzy
 msgid "[Pointers](https://apidocs.vircadia.dev/Pointers.html)"
-msgstr ""
+msgstr "[Pointers](https://apidocs.vircadia.dev/Pointers.html)"
 
 #: ../../source/release-notes/v83.md:86
 msgid "[Quat](https://apidocs.vircadia.dev/Quat.html)"
@@ -32627,6 +32818,10 @@ msgid ""
 "on a disconnect, when logging in, or anywhere else where the avatar was "
 "in a state of transition."
 msgstr ""
+"Los avatares ya no se congelan en medio de su estado de transición. Esto "
+"podía ocurrir al cerrar sesión, al desconectarse, al iniciar sesión o en "
+"cualquier otro momento en el que el avatar se encontrara en estado de "
+"transición."
 
 #: ../../source/release-notes/v83.md:148
 msgid ""
@@ -33060,6 +33255,10 @@ msgid ""
 "past versions, you can now move around while looking at yourself and use "
 "the camera to look around."
 msgstr ""
+"**Modo Selfie**: El modo espejo (accesible con la tecla «2» en el modo "
+"escritorio) ha sido sustituido por un nuevo modo selfie. A diferencia del "
+"modo espejo de versiones anteriores, ahora puedes moverte mientras te miras "
+"y utilizar la cámara para mirar a tu alrededor."
 
 #: ../../source/release-notes/v85.md:21
 msgid ""
@@ -33275,6 +33474,10 @@ msgid ""
 " \"I'm busy on my phone\" animation. When you press ESC, your bubble will"
 " still be activated and you will automatically be muted."
 msgstr ""
+"**Nueva animación \"Lejos del teclado\":** ¡Hay una nueva animación AFK! "
+"Hemos eliminado la animación de agacharse y la hemos actualizado con una "
+"animación de \"Estoy ocupado en el teléfono\". Al presionar ESC, la burbuja "
+"seguirá activada y se silenciará automáticamente."
 
 #: ../../source/release-notes/v86.md:10
 msgid ""
@@ -33759,6 +33962,11 @@ msgid ""
 "Explore app name and icon will be used again for the \"Decentralized "
 "GoTo\" successor."
 msgstr ""
+"Los números al final de cada elemento son los números PR en el repositorio "
+"GitHub de Decentralized GoTo (https://github.com/vircadia/"
+"Decentralized_GoTo_Experimental). Esta aplicación es temporal y se ha creado "
+"con el nombre de \"Explore\". El nombre y el icono de la aplicación Explore "
+"se volverán a utilizar para la sucesora de \"Decentralized GoTo\"."
 
 #: ../../source/release-notes/v86-k2.md:92
 msgid ""
@@ -34205,6 +34413,11 @@ msgid ""
 "behavior, you may need to :doc:`write your own scripts <write-scripts>` "
 "to make sure everything works correctly."
 msgstr ""
+"Muchos de los scripts de Overte se ejecutan en segundo plano, por lo que ni "
+"siquiera te das cuenta de que están funcionando. Sin embargo, si deseas "
+"crear algún comportamiento avanzado, es posible que tengas que :doc:`"
+"escribir tus propios scripts <write-scripts>` para asegurarte de que todo "
+"funciona correctamente."
 
 #: ../../source/script/get-started-with-scripting.rst:7
 msgid ""
@@ -34227,6 +34440,10 @@ msgid ""
 "Overte. For this reason, you cannot use JavaScript frameworks such as "
 "Angular, React, Express, jQuery, Vue, etc."
 msgstr ""
+"Tenga en cuenta que cualquier funcionalidad que se ejecute en páginas web ("
+"como cookies, almacenamientos locales o bases de datos) no funciona con "
+"entornos 3D como Overte. Por este motivo, no se pueden utilizar marcos de "
+"JavaScript como Angular, React, Express, jQuery, Vue, etc."
 
 #: ../../source/script/get-started-with-scripting.rst:20
 msgid "You are likely to interface most with these Overte APIs:"
@@ -34248,6 +34465,11 @@ msgid ""
 "Everyone has access to ``get`` properties of an entity, and can be used "
 "to find Entities in range, direction, collision, or raytrace."
 msgstr ""
+"Te permite manipular las entidades que te rodean, siempre y cuando tengas "
+"permisos para hacerlo. Esto significa que puedes añadir, eliminar y editar "
+"entidades. Todo el mundo tiene acceso a las propiedades ``get`` de una "
+"entidad, y se pueden utilizar para encontrar entidades en el rango, la "
+"dirección, la colisión o el trazado de rayos."
 
 #: ../../source/script/get-started-with-scripting.rst:32
 #, fuzzy
@@ -34285,6 +34507,12 @@ msgid ""
 "(Script.relativePath), refer to other scripts (Script.include), or create"
 " events which occur when the script is turned off (Script.scriptEnding)."
 msgstr ""
+"Te permite conectar callbacks desde tu cliente al script, como "
+"funcionalidades que dependen del tiempo (Script.update, Script.setTime, "
+"Script.setInterval, etc.), conectar rutas relativas a Assets "
+"(Script.relativePath), hacer referencia a otros scripts (Script.include) o "
+"crear eventos que se producen cuando se desactiva el script "
+"(Script.scriptEnding)."
 
 #: ../../source/script/get-started-with-scripting.rst:49
 msgid ""
@@ -34398,6 +34626,10 @@ msgid ""
 "We encourage you to look at these scripts as a resource to learn how to "
 "code your own."
 msgstr ""
+"Overte incluye una colección de scripts diseñados para mejorar tu "
+"experiencia de usuario y proporcionarte herramientas para desarrollar tu "
+"propio contenido. Te animamos a que consideres estos scripts como recurso "
+"para aprender a programar el tuyo."
 
 #: ../../source/script/get-started-with-scripting.rst:97
 msgid ""
@@ -34568,6 +34800,10 @@ msgid ""
 "the file will be overwritten. You can avoid this by writing and running a"
 " 'loader' script to load scripts on start up."
 msgstr ""
+"El archivo 'defaultScripts.js' se actualiza cada vez que actualizas la "
+"interfaz a la última versión. Esto significa que cualquier cambio que "
+"realices en el archivo se sobrescribirá. Puedes evitarlo escribiendo y "
+"ejecutando un script 'loader' para cargar los scripts al iniciar."
 
 #: ../../source/script/get-started-with-scripting.rst:160
 #, fuzzy
@@ -34947,6 +35183,10 @@ msgid ""
 "changes when collisions are enabled or disabled, you can connect a "
 "function to react to this specific event such as:"
 msgstr ""
+"Las señales se pueden conectar a funciones. Esto significa que cada vez que "
+"se activa una señal, se ejecuta una función. Por ejemplo, si tu avatar "
+"cambia al activar o desactivar las colisiones, puedes conectar una función "
+"para que reaccione a este evento específico, como:"
 
 #: ../../source/script/js-tips.md:189
 msgid ""
@@ -35457,6 +35697,11 @@ msgid ""
 "line to the 'Debug Window'. In this case, the entity will be a red box. "
 "![](_images/add-entity.png)"
 msgstr ""
+"Al [cargar y ejecutar este script](get-started-with-scripting.rst#load-and-"
+"run-a-script), este localizará tu avatar en el dominio, creará una nueva "
+"entidad según las propiedades personalizadas que hayas configurado y luego "
+"mostrará una línea en la ventana de depuración. En este caso, la entidad "
+"será un cuadro rojo. ![](_images/add-entity.png)"
 
 #: ../../source/script/write-scripts.md:49
 msgid "Edit an Entity"
@@ -35535,6 +35780,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/security/asset-security.rst:18
+#, fuzzy
 msgid ""
 "Multiple types of Entities refer to external assets such as models, "
 "images, shaders, sounds, etc. These URLs are most commonly accessed via "
@@ -35542,6 +35788,11 @@ msgid ""
 "Create by revoking their **Rez** and **Rez Temporary** :doc:`permissions "
 "<../host/configure-settings/permission-settings>`."
 msgstr ""
+"Varios tipos de Entidades hacen referencia a recursos externos como modelos, "
+"imágenes, sombreadores, sonidos, etc. Se accede a estas URL comúnmente a "
+"través de la aplicación **Create**. Puedes impedir que un visitante de tu "
+"dominio use Create revocando sus permisos **Rez** y **Rez Temporary** :doc:`<"
+"../host/configure-settings/permission-settings>`."
 
 #: ../../source/security/asset-security.rst:20
 msgid ""
@@ -35650,6 +35901,11 @@ msgid ""
 "lead to legal consequences for people in many countries and institutions "
 "(e.g. schools) even if the content itself is not illegal."
 msgstr ""
+"Al igual que lo anterior, esto abre otros a problemas legales por compartir "
+"contenido protegido por derechos de autor o ilegal. Además, el tráfico peer-"
+"to-peer puede acarrear consecuencias legales para personas en muchos países "
+"e instituciones (por ejemplo, escuelas), incluso si el contenido en sí no es "
+"ilegal."
 
 #: ../../source/security/asset-security.rst:63
 #, fuzzy
@@ -35698,6 +35954,10 @@ msgid ""
 "can be confusing to have others not be able to see your true avatar, this"
 " would be a nice option to have for those who want it."
 msgstr ""
+"Si bien hay preguntas técnicas sobre cómo funcionaría esto con avatares de "
+"distintos tamaños o diseños como alternativa, y puede resultar confuso que "
+"otros no puedan ver tu avatar real, esta sería una buena opción para quienes "
+"la quieran."
 
 #: ../../source/security/asset-security.rst:81
 #, fuzzy
