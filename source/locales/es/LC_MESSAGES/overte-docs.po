@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-07-27 07:21+0000\n"
+"PO-Revision-Date: 2025-07-27 07:34+0000\n"
 "Last-Translator: Julian Groß <julian.gro@overte.org>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
@@ -32650,7 +32650,7 @@ msgstr "[Overlays](https://apidocs.vircadia.dev/Overlays.html)"
 
 #: ../../source/release-notes/v83.md:81
 msgid "[Paths](https://apidocs.vircadia.dev/Paths.html)"
-msgstr "[Paths](rutas)(https://apidocs.vircadia.dev/Paths.html)"
+msgstr "[Paths (rutas)](https://apidocs.overte.org/Paths.html)"
 
 #: ../../source/release-notes/v83.md:82
 msgid "[PlatformInfo](https://apidocs.vircadia.dev/PlatformInfo.html)"
