@@ -12909,13 +12909,12 @@ msgstr ""
 "[InetC Plug-in for Nullsoft](http://nsis.sourceforge.net/Inetc_plug-in) - 1.0"
 
 #: ../../source/developer/INSTALLER.md:50
-#, fuzzy
 msgid ""
 "Copy `Plugin\\x86-ansi\\InetC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
-"Copiar`Plugin\\x86-ansi\\InetC.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins"
-"\\x86-ansi\\`"
+"Copiar`Plugin\\x86-ansi\\InetC.dll` a C:\\Program Files (x86)\\NSIS\\Plugins"
+"\\x86-ansi\\"
 
 #: ../../source/developer/INSTALLER.md:51
 #, fuzzy
