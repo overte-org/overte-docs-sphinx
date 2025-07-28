@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-07-27 15:50+0000\n"
+"PO-Revision-Date: 2025-07-28 03:41+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
@@ -4123,8 +4123,8 @@ msgid ""
 "`AnimationCache.prefetch <https://apidocs.overte.org/ "
 "AnimationCache.html#.prefetch>`_"
 msgstr ""
-"`AnimationCache.prefetch "
-"<https://apidocs.overte.org/AnimationCache.html#.prefetch>`_"
+"`AnimationCache.prefetch <https://apidocs.overte.org/"
+"AnimationCache.html#.prefetch>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
@@ -4144,8 +4144,8 @@ msgid ""
 "`MyAvatar.restoreAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.restoreAnimation>`_"
 msgstr ""
-"`MyAvatar.restoreAnimation "
-"<https://apidocs.overte.org/MyAvatar.html#.restoreAnimation>`_"
+"`MyAvatar.restoreAnimation <https://apidocs.overte.org/"
+"MyAvatar.html#.restoreAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
@@ -4173,29 +4173,26 @@ msgstr ""
 "existente:"
 
 #: ../../source/create/avatars/custom-animations.rst:100
-#, fuzzy
 msgid ""
 "Use `MyAvatar.getAnimationRoles "
 "<https://apidocs.overte.org/MyAvatar.html#.getAnimationRoles>`_ to view "
 "the list of roles for the current avatar."
 msgstr ""
-"Usa `MyAvatar.getAnimationRoles "
-"<https://apidocs.overte.org/MyAvatar.html#.getAnimationRoles>`_ para ver "
-"la lista de funciones del avatar actual."
+"Usa `MyAvatar.getAnimationRoles <https://apidocs.overte.org/"
+"MyAvatar.html#.getAnimationRoles>`_ para ver la lista de funciones del "
+"avatar actual."
 
 #: ../../source/create/avatars/custom-animations.rst:101
-#, fuzzy
 msgid ""
 "You can replace the animation for each role with a custom animation (FBX "
 "file) using `MyAvatar.overrideRoleAnimation "
 "<https://apidocs.overte.org/MyAvatar.html#.overrideRoleAnimation>`_."
 msgstr ""
 "Puedes reemplazar la animación para cada función con una animación "
-"personalizada (archivo FBX) usando `MyAvatar.overrideRoleAnimation "
-"<https://apidocs.overte.org/MyAvatar.html#.overrideRoleAnimation>`_."
+"personalizada (archivo FBX) usando `MyAvatar.overrideRoleAnimation <https://"
+"apidocs.overte.org/MyAvatar.html#.overrideRoleAnimation>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:103
-#, fuzzy
 msgid ""
 "We've listed the animation roles and their description. These are "
 "frequently updated, so we recommend using ``MyAvatar.getAnimationRoles`` "
@@ -4207,10 +4204,10 @@ msgstr ""
 "Hemos enumerado las funciones de animación y su descripción. Estas se "
 "actualizan con frecuencia, por lo que recomendamos usar "
 "``MyAvatar.getAnimationRoles`` para obtener las últimas funciones de "
-"animación antes de continuar. Los archivos FBX de animación estándar para"
-" estas funciones se pueden encontrar en el repositorio de código fuente "
-"de Vircadia en `GitHub "
-"<https://github.com/vircadia/vircadia/tree/master/interface/resources/avatar/animations>`_."
+"animación antes de continuar. Los archivos FBX de animación estándar para "
+"estas funciones se pueden encontrar en el repositorio de código fuente de "
+"Vircadia en `GitHub <https://github.com/vircadia/vircadia/tree/master/"
+"interface/resources/avatar/animations>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:106
 msgid "Animation Roles"
@@ -4647,9 +4644,9 @@ msgid ""
 "/overte-org/overte/blob/master/interface/resources/avatar/avatar-"
 "animation.json>`_ file."
 msgstr ""
-"Aquí está el archivo `avatar-animation.json <https://github.com/overte-"
-"org/overte/blob/master/interface/resources/avatar/avatar-animation.json>`"
-" predeterminado actual."
+"Aquí está el archivo `avatar-animation.json <https://github.com/overte-org/"
+"overte/blob/master/interface/resources/avatar/avatar-animation.json>` "
+"predeterminado actual."
 
 #: ../../source/create/avatars/custom-animations.rst:235
 msgid ""
@@ -4809,9 +4806,9 @@ msgid ":doc:`Script <../../script>`"
 msgstr ":doc:`Script <../../script>`"
 
 #: ../../source/create/avatars/custom-animations.rst:273
-#, fuzzy
 msgid "`API Reference: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
-msgstr "`Referencia de API: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
+msgstr ""
+"`Referencia de API: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
 
 #: ../../source/create/avatars/find-avatars.rst:2
 msgid ""
@@ -4822,7 +4819,6 @@ msgstr ""
 "Exporter arreglando todos los esqueletos que no pueden hacerse"
 
 #: ../../source/create/avatars/find-avatars.rst:9
-#, fuzzy
 msgid ""
 "You can download avatars for use from external sources such as TurboSquid"
 " or CGTrader. Once you get the avatar, you will need to process it in "
@@ -4831,19 +4827,19 @@ msgid ""
 "them as FST and FBX files to import in-world. Learn more about the "
 ":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
-"Puedes descargar avatares para usar desde fuentes externas como "
-"TurboSquid o CGTrader. Una vez que obtengas el avatar, deberás procesarlo"
-" en Unity utilizando Overte Avatar Exporter. Esta herramienta importa la "
-"mayoría de los avatares a Unity, mapea su esqueleto usando la herramienta"
-" humanoide de Unity y los exporta como archivos FST y FBX para "
-"importarlos al mundo."
+"Puedes descargar avatares para usar desde fuentes externas como TurboSquid o "
+"CGTrader. Una vez que obtengas el avatar, deberás procesarlo en Unity "
+"utilizando Overte Avatar Exporter. Esta herramienta importa la mayoría de "
+"los avatares a Unity, mapea su esqueleto usando la herramienta humanoide de "
+"Unity y los exporta como archivos FST y FBX para importarlos al mundo. "
+"Aprende más sobre :doc:`seguridad de sus activos <../../security/asset-"
+"security>`."
 
 #: ../../source/create/avatars/find-avatars.rst:17
 msgid "Avatar Guidelines"
 msgstr "Pautas de Avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:19
-#, fuzzy
 msgid ""
 "Many external sites like TurboSquid and CGTrader provide avatars that you"
 " can use. However, note that not all of the avatars you find may work in "
@@ -4851,26 +4847,24 @@ msgid ""
 "with Overte, we've compiled a list of guidelines to help you \"sanity "
 "check\" it prior to use."
 msgstr ""
-"Muchos sitios externos como TurboSquid y CGTrader proporcionan avatares "
-"que puedes utilizar. Sin embargo, ten en cuenta que no todos los avatares"
-" que encuentres pueden funcionar en Overte. Para mejorar las "
-"posibilidades de que tu avatar descargado sea compatible con Vircadia, "
-"hemos compilado una lista de pautas para ayudarte con tú \"chequeo "
-"sanitario\" antes de usarlo."
+"Muchos sitios externos como TurboSquid y CGTrader proporcionan avatares que "
+"puedes utilizar. Sin embargo, ten en cuenta que no todos los avatares que "
+"encuentres pueden funcionar en Overte. Para mejorar las posibilidades de que "
+"tu avatar descargado sea compatible con Overte, hemos compilado una lista de "
+"pautas para ayudarte con tú \"chequeo\" antes de usarlo."
 
 #: ../../source/create/avatars/find-avatars.rst:21
 msgid "You should ensure that:"
 msgstr "Debes asegurarte de que:"
 
 #: ../../source/create/avatars/find-avatars.rst:23
-#, fuzzy
 msgid ""
 "You downloaded a `real-time model <https://blog.turbosquid.com/real-time-"
 "models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
-"Descarga unos `modelos en tiempo real <https://blog.turbosquid.com/real-"
-"time-models>`_ (preparados para el tiempo de ejecución, no preparados "
-"para renderizar)."
+"Descargaste unos `modelos en tiempo real <https://blog.turbosquid.com/real-"
+"time-models>`_ (preparados para el tiempo de ejecución, no preparados para "
+"renderizar)."
 
 #: ../../source/create/avatars/find-avatars.rst:24
 msgid "You have the correct downloaded files"
@@ -4895,7 +4889,6 @@ msgid "Your avatar is rigged."
 msgstr "Tu avatar está equipado."
 
 #: ../../source/create/avatars/find-avatars.rst:30
-#, fuzzy
 msgid ""
 "If your avatar is not rigged, you can use :doc:`Mixamo <mixamo-tutorial>`"
 " to rig it. If you use Mixamo, you do not necessarily need to use Unity "
@@ -4903,20 +4896,18 @@ msgid ""
 "support, you can use our `Avatar Packager <create-avatars.html#package-"
 "your-avatar>`_ to import your avatar into Overte."
 msgstr ""
-"Si su avatar no está equipado, puedes usar :doc:`Mixamo <mixamo-"
-"tutorial>` para equipártelo. Si usas Mixamo, no es necesario que uses "
-"Unity y el exportador de avatar. Debido a que Mixamo ya usa un esqueleto "
-"que soportamos, puedes usar nuestro `Empaquetador de Avatar <create-"
-"avatars.html#package-your-avatar>`_ para importar tu avatar a Overte."
+"Si su avatar no está equipado, puedes usar :doc:`Mixamo <mixamo-tutorial>` "
+"para equipártelo. Si usas Mixamo, no es necesario que uses Unity y el "
+"exportador de avatar. Debido a que Mixamo ya usa un esqueleto que "
+"soportamos, puedes usar nuestro `Empaquetador de Avatar <create-avatars.html"
+"#package-your-avatar>`_ para importar tu avatar a Overte."
 
 #: ../../source/create/avatars/find-avatars.rst:34
 #: ../../source/create/avatars/package-avatar.rst:26
-#, fuzzy
 msgid "Overte Avatar Exporter for Unity"
 msgstr "Exportador de Avatares de Overte para Unity"
 
 #: ../../source/create/avatars/find-avatars.rst:36
-#, fuzzy
 msgid ""
 "Overte supports only one standard type of rigging for avatars. Because "
 "many avatars do not match this skeleton, we created the Overte Avatar "
@@ -4925,13 +4916,12 @@ msgid ""
 "limbs). The avatar exporter also automatically packages your avatar for "
 "use in Overte."
 msgstr ""
-"Overte admite solo un tipo estándar de aparejo para avatares. Debido a "
-"que muchos avatares no coinciden con este esqueleto, creamos Overte "
-"Avatar Exporter para Unity (también conocido como el \"exportador de "
-"avatares\") para convertir avatares de apariencia humana con una "
-"estructura ósea humanoide (cuerpo, cabeza y extremidades). El exportador "
-"de avatar también empaqueta automáticamente tu avatar para usarlo en "
-"Overte."
+"Overte admite solo un tipo estándar de aparejo para avatares. Debido a que "
+"muchos avatares no coinciden con este esqueleto, creamos Overte Avatar "
+"Exporter para Unity (también conocido como el \"exportador de avatares\") "
+"para convertir avatares de apariencia humana con una estructura ósea "
+"humanoide (cuerpo, cabeza y extremidades). El exportador de avatar también "
+"empaqueta automáticamente tu avatar para usarlo en Overte."
 
 #: ../../source/create/avatars/find-avatars.rst:38
 msgid ""
@@ -4953,7 +4943,6 @@ msgid "You will need the following to use this tool:"
 msgstr "Necesitarás lo siguiente para utilizar esta herramienta:"
 
 #: ../../source/create/avatars/find-avatars.rst:42
-#, fuzzy
 msgid "Unity (Recommended versions: 2019.4.31f1)"
 msgstr "Unity (Versiones recomendadas: 2017.4.17f1 - 2018.2.12f1)"
 
@@ -4962,14 +4951,13 @@ msgid "Overte"
 msgstr "Overte"
 
 #: ../../source/create/avatars/find-avatars.rst:44
-#, fuzzy
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-"
 "avatar-exporter>`_ (v0.6.0)"
 msgstr ""
-"`Exportador de Avatar de Overte para Unity <https://github.com/overte-"
-"org/overte/blob/master/tools/unity-avatar-"
-"exporter/avatarExporter.unitypackage?raw=true>`_ (v0.4.1)"
+"`Exportador de Avatar de Overte para Unity <https://github.com/overte-org/"
+"overte/blob/master/tools/unity-avatar-exporter/"
+"avatarExporter.unitypackage?raw=true>`_ (v0.6.0)"
 
 #: ../../source/create/avatars/find-avatars.rst:46
 msgid ""
@@ -5003,15 +4991,14 @@ msgstr ""
 " en un solo proyecto de Unity."
 
 #: ../../source/create/avatars/find-avatars.rst:54
-#, fuzzy
 msgid ""
 "Download the `avatar exporter <https://github.com/overte-"
 "org/overte/blob/master/tools/unity-avatar-"
 "exporter/avatarExporter.unitypackage?raw=true>`_ from Overte."
 msgstr ""
-"Descarga el `exportador de avatar <https://github.com/overte-"
-"org/overte/blob/master/tools/unity-avatar-"
-"exporter/avatarExporter.unitypackage?raw=true>`_ desde Overte."
+"Descarga el `exportador de avatar <https://github.com/overte-org/overte/blob/"
+"master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ "
+"desde Overte."
 
 #: ../../source/create/avatars/find-avatars.rst:55
 msgid "In Unity, open the 'Project' window at the bottom."
@@ -5048,13 +5035,12 @@ msgstr ""
 "lugar fuera de tu proyecto."
 
 #: ../../source/create/avatars/find-avatars.rst:65
-#, fuzzy
 msgid ""
 "Click 'Import'. The package's files are added to the Assets folder. You "
 "should now have a 'Overte' menu in Unity."
 msgstr ""
 "Click en \"Import\". Los archivos del paquete se agregan a la carpeta "
-"\"Assets\". Ahora deberías tener un menú de \"HighFidelity\" en Unity."
+"\"Assets\". Ahora deberías tener un menú de 'Overte' en Unity."
 
 #: ../../source/create/avatars/find-avatars.rst:71
 msgid "Create an Avatar Package"
@@ -5126,7 +5112,6 @@ msgstr ""
 "huesos desde el panel \"Avatar Configuration\" al panel \"Inspector\"."
 
 #: ../../source/create/avatars/find-avatars.rst:95
-#, fuzzy
 msgid ""
 "Avatars in Overte must have a Chest bone. If your avatar does not have a "
 "chest bone, the avatar exporter may suggest a suitable alternative from "
@@ -5135,11 +5120,11 @@ msgid ""
 "get an error and need to manually map a bone to the Chest from 'Avatar "
 "Configuration'."
 msgstr ""
-"Los avatares de Overte deben tener un hueso de pecho. Si tu avatar no "
-"tiene tórax, el exportador de avatar puede sugerir una alternativa "
-"adecuada desde el panel \"Avatar Configuration\". Si el exportador no "
-"sugiere una alternativa y Humanoid no asigna correctamente el Pecho, "
-"obtendrás un error y deberás asignar manualmente un hueso al Pecho desde "
+"Los avatares de Overte deben tener un hueso de pecho. Si tu avatar no tiene "
+"tórax, el exportador de avatar puede sugerir una alternativa adecuada desde "
+"el panel \"Avatar Configuration\". Si el exportador no sugiere una "
+"alternativa y Humanoid no asigna correctamente el Pecho, obtendrás un error "
+"y deberás asignar manualmente un hueso al Pecho desde "
 "\"Avatar Configuration\"."
 
 #: ../../source/create/avatars/find-avatars.rst:97
@@ -5151,18 +5136,16 @@ msgid "Click on the FBX file in the 'Assets' manager."
 msgstr "Haz click sobre el archivo FBX en el administrador de \"Assets\"."
 
 #: ../../source/create/avatars/find-avatars.rst:102
-#, fuzzy
 msgid ""
 "Make sure that you have the `avatar exporter installed <#install-the-"
 "avatar-exporter>`_. Open the 'Overte' menu in the top menu bar, then "
 "select 'Export New Avatar'."
 msgstr ""
 "Asegúrate de que tienes el `exportador de avatar instalado <#install-the-"
-"avatar-exporter>`_. Abre el menú de \"High Fidelity\" en la barra "
-"superior del menú, luego selecciona \"Export New Avatar\"."
+"avatar-exporter>`_. Abre el menú de 'Overte' en la barra superior del menú, "
+"luego selecciona \"Export New Avatar\"."
 
 #: ../../source/create/avatars/find-avatars.rst:103
-#, fuzzy
 msgid ""
 "Give your avatar project a name. The default project location is your "
 "local user's ``Documents\\Overte Projects`` directory, which is created "
@@ -5170,10 +5153,10 @@ msgid ""
 "this directory, you can change it to another location on your computer."
 msgstr ""
 "Dale a tu avatar un nombre de proyecto. La ubicación del proyecto por "
-"defecto es tu directorio local de usuario ``Documents\\High Fidelity "
-"Projects``, el cual es creado automáticamente para ti. Aunque te "
-"recomendamos que mantengas tus avatares en este directorio, puedes "
-"cambiarlo a otra ubicación en tu computadora."
+"defecto es tu directorio local de usuario ``Documents\\Overte Projects``, el "
+"cual es creado automáticamente para ti. Aunque te recomendamos que mantengas "
+"tus avatares en este directorio, puedes cambiarlo a otra ubicación en tu "
+"computadora."
 
 #: ../../source/create/avatars/find-avatars.rst:107
 msgid "Click 'Export'."
@@ -5188,34 +5171,31 @@ msgstr ""
 " en tu nuevo proyecto de avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:113
-#, fuzzy
 msgid ""
 "If you are using any external textures with your avatar model, copy those"
 " textures to your local user's ``Documents\\Overte "
 "Projects\\avatar\\<project name>\\textures`` directory. Otherwise, they "
 "may not show up on your avatar."
 msgstr ""
-"Si estás utilizando texturas externas con tu modelo de avatar, copia esas"
-" texturas en el directorio ``Documents\\High Fidelity "
-"Projects\\avatar\\<project name>\\textures`` de tu usuario local. De lo "
-"contrario, es posible que no aparezcan en tu avatar."
+"Si estás utilizando texturas externas con tu modelo de avatar, copia esas "
+"texturas en el directorio ``Documents\\OverteProjects\\avatar\\<project name>"
+"\\textures`` de tu usuario local. De lo contrario, es posible que no "
+"aparezcan en tu avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:117
 msgid "Test Your Avatar"
 msgstr "Prueba tu Avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:119
-#, fuzzy
 msgid ""
 "We encourage you to \"spot check\" your avatar in Unity before exporting "
 "it with the `Overte Avatar Exporter for Unity`_. Check for the following:"
 msgstr ""
-"Te recomendamos que realices una \"verificación puntual\" de tu avatar en"
-" Unity antes de exportarlo con el `Exportador de avatares de Overte para "
+"Te recomendamos que realices una \"verificación puntual\" de tu avatar en "
+"Unity antes de exportarlo con el `Exportador de avatares de Overte para "
 "Unity`_. Comprueba lo siguiente:"
 
 #: ../../source/create/avatars/find-avatars.rst:121
-#, fuzzy
 msgid ""
 "Confirm that there are no extraneous objects attached to your model. For "
 "example, this `Mech avatar <https://www.cgtrader.com/free-3d-"
@@ -5224,10 +5204,10 @@ msgid ""
 "into Overte and may affect the rendering or animation of your avatar."
 msgstr ""
 "Confirma que no haya objetos extraños adjuntos a tu modelo. Por ejemplo, "
-"este `Avatar de Mech <https://www.cgtrader.com/free-3d-models/character"
-"/sci-fi/low-poly-construction-mech>`_ tiene un objeto azul tierra "
-"incluido en el modelo. Todos los objetos extraños se importarán a Overte "
-"y pueden afectar la representación o animación de tu avatar."
+"este `Avatar de Mech <https://www.cgtrader.com/free-3d-models/character/"
+"sci-fi/low-poly-construction-mech>`_ tiene un objeto azul tierra incluido en "
+"el modelo. Todos los objetos extraños se importarán a Overte y pueden "
+"afectar la representación o animación de tu avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:122
 msgid ""
@@ -5439,7 +5419,6 @@ msgstr ""
 "armado (aparejo). ![](_images/character-upload.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:19
-#, fuzzy
 msgid ""
 "Once your avatar is processed, Mixamo's auto-rigger will show your "
 "animated avatar. Ensure that Facial Blendshapes are 'Enabled' and "
@@ -5491,7 +5470,6 @@ msgstr ""
 "lo que no necesitas para empaquetar, menciona Marketplace"
 
 #: ../../source/create/avatars/package-avatar.rst:9
-#, fuzzy
 msgid ""
 "At a minimum, avatars in Overte must have an FBX, glTF, or GLB model, and"
 " an associated FST file that includes information about how your avatar "
@@ -5500,30 +5478,28 @@ msgid ""
 "an avatar package: by using the `Avatar Packager`_ in Interface or the "
 "`Overte Avatar Exporter for Unity`_ in Unity."
 msgstr ""
-"Como mínimo, los avatares en Overte deben tener un modelo FBX, glTF, o "
-"GLB y un archivo FST asociado que incluya información acerca de como se "
-"ve y se comporta tu avatar. Juntos, esos dos archivos (con cualquier "
-"textura o script opcional) forman un \"paquete de avatar\". Hay dos "
-"maneras en la que puedes crear un paquete de avatar: utilizando el "
-"`Empaquetador de Avatar`_ en una interfaz o el `Exportador de Avatares de"
-" Overte para Unity (sin mantenimiento)`_ en Unity."
+"Como mínimo, los avatares en Overte deben tener un modelo FBX, glTF, o GLB y "
+"un archivo FST asociado que incluya información acerca de como se ve y se "
+"comporta tu avatar. Juntos, esos dos archivos (con cualquier textura o "
+"script opcional) forman un \"paquete de avatar\". Hay dos maneras en la que "
+"puedes crear un paquete de avatar: utilizando el `Empaquetador de Avatar`_ "
+"en una interfaz o el `Exportador de Avatares de Overte para Unity (sin "
+"mantenimiento)`_ en Unity."
 
 #: ../../source/create/avatars/package-avatar.rst:11
-#, fuzzy
 msgid ""
 "Once you have packaged your avatar, you need to host it on the cloud so "
 "that Overte can access it and correctly render your avatar for all users."
 msgstr ""
-"Una vez que hayas empaquetado tu avatar, necesitas alojarlo en la nube "
-"para que Overte pueda acceder a él y renderizar correctamente tu avatar "
-"para todos los usuarios."
+"Una vez que hayas empaquetado tu avatar, necesitas alojarlo en la nube para "
+"que Overte pueda acceder a él y renderizar correctamente tu avatar para "
+"todos los usuarios."
 
 #: ../../source/create/avatars/package-avatar.rst:18
 msgid "Package Your Avatar"
 msgstr "Empaqueta Tu Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:20
-#, fuzzy
 msgid ""
 "If you're reading this page, you likely already :doc:`built your own FBX "
 "model <create-avatars>` or :doc:`found and downloaded a model <find-"
@@ -5532,12 +5508,12 @@ msgid ""
 "information about the skeleton, blendshapes, textures, and scripts used "
 "by your avatar."
 msgstr ""
-"Si está leyendo esta página, probablemente ya :doc:`construiste tu propio"
-" modelo FBX <create-avatars>` o :doc:`encontraste y descargaste un modelo"
-" <find-avatars>` que quieras usar en Overte. Por lo tanto, todo lo que "
-"queda es empaquetar tu avatar y crear el archivo FST. Este archivo "
-"incluye información sobre el esqueleto, las combinaciones de formas "
-"(blendshapes), las texturas y los scripts utilizados por tu avatar."
+"Si está leyendo esta página, probablemente ya :doc:`construiste tu propio "
+"modelo FBX <create-avatars>` o :doc:`encontraste y descargaste un modelo "
+"<find-avatars>` que quieras usar en Overte. Por lo tanto, todo lo que queda "
+"es empaquetar tu avatar y crear el archivo FST. Este archivo incluye "
+"información sobre el esqueleto, las combinaciones de formas (blendshapes), "
+"las texturas y los scripts utilizados por tu avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:22
 msgid ""
@@ -5548,18 +5524,17 @@ msgstr ""
 "mediante nuestro Empaquetador de Avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:28
-#, fuzzy
 msgid ""
 "In some cases, you will want to :doc:`download an avatar from an external"
 " website <find-avatars>` and use that avatar in Overte. The Overte Avatar"
 " Exporter for Unity (also known as the \"avatar exporter\") converts "
 "human-like avatars and packages them for use in Overte."
 msgstr ""
-"En algunos casos, necesitarás :doc:`descargar un avatar desde una página "
-"web externa <find-avatars>` y usar el avatar en Vircadia. El Exportador "
-"de Avatar de Overte para Unity (también conocido como \"exportador de "
-"avatar\") convierte avatares de apariencia humana y los empaqueta para "
-"usarlos en Overte."
+"En algunos casos, necesitarás :doc:`descargar un avatar desde una página web "
+"externa <find-avatars>` y usar el avatar en Overte. El Exportador de Avatar "
+"de Overte para Unity (también conocido como \"exportador de avatar\") "
+"convierte avatares de apariencia humana y los empaqueta para usarlos en "
+"Overte."
 
 #: ../../source/create/avatars/package-avatar.rst:30
 msgid ""
@@ -5576,15 +5551,14 @@ msgid "Avatar Packager"
 msgstr "Empaquetador de Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:36
-#, fuzzy
 msgid ""
 "The **Avatar Packager** is a tool in Interface (the Overte client) that "
 "identifies potential errors in your avatar's model and then creates an "
 "FST file for you."
 msgstr ""
-"El **Empaquetador de Avatar** es una herramienta en la interfaz que "
-"identifica potenciales errores en tu modelo de avatar FBX y luego crea un"
-" archivo FST para ti."
+"El **Empaquetador de Avatar** es una herramienta en la interfaz (cliente "
+"Overte) que identifica potenciales errores en tu modelo de avatar FBX y "
+"luego crea un archivo FST para ti."
 
 #: ../../source/create/avatars/package-avatar.rst:38
 msgid "To package your avatar using the Avatar Packager:"
@@ -5648,27 +5622,26 @@ msgstr ""
 "FBX a una ubicación de la nube de tu elección."
 
 #: ../../source/create/avatars/package-avatar.rst:54
-#, fuzzy
 msgid "Host and Use Your Avatar"
-msgstr "Aloja Tu Avatar"
+msgstr "Alojamiento y Uso de Tu Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:56
-#, fuzzy
 msgid ""
 "Before you can use a custom avatar, you must first host its FST and model"
 " (FBX/glTF/GLB) files in a place that is publicly accessible."
 msgstr ""
-"Antes de poder utilizar un avatar personalizado, primero debes alojar sus"
-" archivos FST y FBX/glTF/GLB en un lugar de acceso público. Puedes "
-"utilizar cualquier plataforma en la nube, incluidos Amazon S3, Google "
-"Cloud Storage, Microsoft Azure, Dropbox, etc."
+"Antes de poder utilizar un avatar personalizado, primero debes alojar sus "
+"archivos FST y FBX/glTF/GLB en un lugar de acceso público. Puedes utilizar "
+"cualquier plataforma en la nube, incluidos Amazon S3, Google Cloud Storage, "
+"Microsoft Azure, Dropbox, etc."
 
 #: ../../source/create/avatars/package-avatar.rst:58
-#, fuzzy
 msgid ""
 "Upload your avatar's model file (FBX/glTF/GLB) to the service of your "
 "choice."
-msgstr "Abre el archivo FST de tu avatar en un editor de texto de tu elección."
+msgstr ""
+"Sube to archivo de modelo de avatar (FBX/glTF/GLB) al servicio de su "
+"elección."
 
 #: ../../source/create/avatars/package-avatar.rst:59
 msgid ""
@@ -5689,9 +5662,8 @@ msgstr ""
 "cambiarse por ``filename = https://mywebsite.example/avatar.fbx``"
 
 #: ../../source/create/avatars/package-avatar.rst:61
-#, fuzzy
 msgid "Save your FST file and upload it to the service of your choice."
-msgstr "Abre el archivo FST de tu avatar en un editor de texto de tu elección."
+msgstr "Guarda el archivo FST y súbelo al servicio de tu elección."
 
 #: ../../source/create/avatars/package-avatar.rst:62
 msgid ""
@@ -5725,7 +5697,6 @@ msgid "Troubleshooting with the Avatar Packager"
 msgstr "Solución de problemas con el Empaquetador de Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:74
-#, fuzzy
 msgid ""
 "The Avatar Packager will notify you of any errors or warnings that may "
 "affect the way your avatar looks and behaves in Overte. This is a list of"
@@ -5734,13 +5705,13 @@ msgid ""
 " avatar, while **Warnings** (in orange) may or may not affect whether "
 "your avatar will show up and behave correctly in Overte."
 msgstr ""
-"El Empaquetador de Avatar te notificará de cualquier error o advertencia "
-"que pueda afectar la forma en que tu avatar se vea y se comporte en "
-"Overte. Esta es una lista de los errores que puedes encontrar, junto con "
-"instrucciones básicas sobre cómo corregir tu avatar. Los **errores** (en "
-"rojo) deben ser arreglados antes de subir tu avatar, mientras que las "
-"**advertencias** (en naranja) pueden o no afectar sí tu avatar apareciera"
-" y se comportara correctamente en Overte."
+"El Empaquetador de Avatar te notificará de cualquier error o advertencia que "
+"pueda afectar la forma en que tu avatar se vea y se comporte en Overte. Esta "
+"es una lista de los errores que puedes encontrar, junto con instrucciones "
+"básicas sobre cómo corregir tu avatar. Los **errores** (en rojo) deben ser "
+"arreglados antes de subir tu avatar, mientras que las **advertencias** (en "
+"naranja) pueden o no afectar sí tu avatar apareciera y se comportara "
+"correctamente en Overte."
 
 #: ../../source/create/avatars/package-avatar.rst:78
 msgid ""
@@ -5753,7 +5724,6 @@ msgstr ""
 "problemas intentarán corregir los errores en Unity."
 
 #: ../../source/create/avatars/package-avatar.rst:80
-#, fuzzy
 msgid ""
 "However, if the bone structure of the model does not resemble a humanoid "
 "skeleton (with two legs, two arms, hips, chest, spine, and head), then it"
@@ -5762,13 +5732,12 @@ msgid ""
 "advanced knowledge of building, rigging, and mapping bones in a 3D "
 "modeling tool such as Blender or Maya."
 msgstr ""
-"Sin embargo, si la estructura ósea del modelo no se parece a un esqueleto"
-" humanoide (con dos piernas, dos brazos, caderas, pecho, columna y "
-"cabeza), es probable que no sea compatible con Overte por cómo fue hecho."
-" No podrás arreglar estos avatares solo en Unity. De hecho, es probable "
-"que necesites conocimientos avanzados de construcción, armado (rigging) y"
-" mapeo (mapping) de huesos en una herramienta de modelado 3D como Blender"
-" o Maya."
+"Sin embargo, si la estructura ósea del modelo no se parece a un esqueleto "
+"humanoide (con dos piernas, dos brazos, caderas, pecho, columna y cabeza), "
+"es probable que no sea compatible con Overte por cómo fue hecho. No podrás "
+"arreglar estos avatares solo en Unity. De hecho, es probable que necesites "
+"conocimientos avanzados de construcción, armado (rigging) y mapeo (mapping) "
+"de huesos en una herramienta de modelado 3D como Blender o Maya."
 
 #: ../../source/create/avatars/scattering-tutorial.rst:2
 msgid "This document is slightly outdated. FIXME: HiFi hosted content"
@@ -5777,7 +5746,6 @@ msgstr ""
 "en HiFi (High Fidelity)"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:9
-#, fuzzy
 msgid ""
 "Subsurface Scattering (SSS) is the diffuse reflection caused by light "
 "entering a material, being absorbed, scattered, and eventually exiting "
@@ -5786,9 +5754,9 @@ msgid ""
 msgstr ""
 "Dispersión del Subsuelo (Subsurface Scattering) es la reflexión difusa "
 "causada por la luz que entra en un material, se absorbe, se dispersa y, "
-"finalmente, sale del material. Es fundamental para superficies como "
-"papel, mármol, cera y piel realista. Puedes agregar este efecto a tu "
-"avatar en Overte."
+"finalmente, sale del material. Es fundamental para superficies como papel, "
+"mármol, cera y piel realista. Puedes agregar este efecto a tu avatar en "
+"Overte."
 
 #: ../../source/create/avatars/scattering-tutorial.rst:16
 msgid "Subsurface Scattering Map and Value"
@@ -5868,7 +5836,6 @@ msgid "Add scattering information to the avatar's FST file. For example:"
 msgstr "Agrega información de dispersión al archivo FST del avatar. Por ejemplo:"
 
 #: ../../source/create/avatars/scattering-tutorial.rst:40
-#, fuzzy
 msgid "Wear the avatar to observe the scattering effects in Overte."
 msgstr "Usa el avatar para observar los efectos de dispersión en Overte."
 
@@ -5949,9 +5916,8 @@ msgstr "Agregar una Entidad Material"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/procedural-particle-entity.rst:3
-#, fuzzy
 msgid "Add a Procedural Particle Entity"
-msgstr "Agregar una Entidad Material"
+msgstr "Agregar una Entidad Particle Procedural"
 
 #: ../../source/create/entities.rst:9
 #: ../../source/create/entities/zone-entity.rst:3
@@ -5983,7 +5949,6 @@ msgid "Entity Tutorials"
 msgstr "Tutoriales de Entidades"
 
 #: ../../source/create/entities.rst:5
-#, fuzzy
 msgid ""
 "To build any content in Overte, whether it is an object that you interact"
 " with, or a domain to host an event, you need entities. *Entities* are "
@@ -5993,12 +5958,12 @@ msgid ""
 "that define its appearance and behavior."
 msgstr ""
 "Para crear cualquier contenido en Overte, ya sea un objeto con el que "
-"interactuar o un dominio para albergar un evento, necesitas entidades. "
-"Las *Entidades* son los bloques de construcción del mundo virtual y se "
-"utilizan para construir elementos tan simples como cajas y cuadrados para"
-" elementos animados complejos como mariposas y equipo estéreo. Cada tipo "
-"de entidad tiene su propio conjunto de propiedades que definen su "
-"apariencia y comportamiento."
+"interactuar o un dominio para albergar un evento, necesitas entidades. Las "
+"*Entidades* son los bloques de construcción del mundo virtual y se utilizan "
+"para construir elementos tan simples como cajas y cuadrados para elementos "
+"animados complejos como mariposas y equipo estéreo. Cada tipo de entidad "
+"tiene su propio conjunto de propiedades que definen su apariencia y "
+"comportamiento."
 
 #: ../../source/create/entities/add-sounds.md:1
 msgid "Add Sound to Entities"
@@ -6063,25 +6028,23 @@ msgid "[Add a cube entity](create-entities) to your domain."
 msgstr "[Agrega una entidad de cubo](create-entities) a tu dominio."
 
 #: ../../source/create/entities/add-sounds.md:16
-#, fuzzy
 msgid ""
 "[Resize the entity](entity-appearance.rst#set-the-size-of-an-entity) to "
 "approximately 10m wide, 10m high and 1m deep (X:10, Y:10, Z:1)."
 msgstr ""
-"[Cambia el tamaño de la entidad](entity-appearance.html#set-the-size-of-"
-"an-entity) hasta aproximadamente 10m de ancho, 10m de alto y 1m de "
-"profundidad (X: 10, Y: 10, Z: 1)."
+"[Cambia el tamaño de la entidad](entity-appearance.html#set-the-size-of-an-"
+"entity) hasta aproximadamente 10m de ancho, 10m de alto y 1m de profundidad "
+"(X: 10, Y: 10, Z: 1)."
 
 #: ../../source/create/entities/add-sounds.md:17
-#, fuzzy
 msgid ""
 "Create a ball by [adding a sphere entity](create-entities) to your "
 "domain. Optionally, [change the color](entity-appearance.rst#change-the-"
 "color-of-an-entity) of your ball, so that it is different than your wall."
 msgstr ""
 "Crea una pelota [agregando una entidad de esfera](create-entities) a tu "
-"domino. Opcionalmente, [cambia el color](entity-appearance.html#change-"
-"the-color-of-an-entity) de tu pelota, para que sea diferente a tu pared."
+"dominio. Opcionalmente, [cambia el color](entity-appearance.html#change-the-"
+"color-of-an-entity) de tu pelota, para que sea diferente a tu pared."
 
 #: ../../source/create/entities/add-sounds.md:18
 msgid ""
@@ -6126,7 +6089,6 @@ msgstr ""
 "y el sonido debería reproducirse."
 
 #: ../../source/create/entities/add-sounds.md:26
-#, fuzzy
 msgid ""
 "[Set Entity Behavior on Collision](entity-behavior.rst#set-entity-"
 "behavior-on-collision)"
@@ -6135,7 +6097,6 @@ msgstr ""
 "behavior.html#set-entity-behavior-on-collision)"
 
 #: ../../source/create/entities/add-sounds.md:27
-#, fuzzy
 msgid ""
 "[Set How an Entity Moves in a Gravitational Field](entity-physics.rst"
 "#set-how-an-entity-moves-in-a-gravitational-field)"
@@ -6144,7 +6105,6 @@ msgstr ""
 "physics.html#set-how-an-entity-moves-in-a-gravitational-field)"
 
 #: ../../source/create/entities/avatar-interactions.md:3
-#, fuzzy
 msgid ""
 "In real life, you interact with objects on a daily basis. In Overte, your"
 " avatar can also interact with objects (entities) in the metaverse. There"
@@ -6155,23 +6115,22 @@ msgid ""
 "behavior and collision properties, so that objects are grabbable, "
 "triggerable, or dynamic."
 msgstr ""
-"En la vida real, interactúas con objetos a diario. En Vircadia, tu avatar"
-" también puede interactuar con objetos (entidades) en el metaverso. Hay "
+"En la vida real, interactúas con objetos a diario. En Overte, tu avatar "
+"también puede interactuar con objetos (entidades) en el metaverso. Hay "
 "varias maneras de definir las interacciones que tienes con los objetos: "
-"puedes escribir scripts para cambiar las propiedades de una entidad. "
-"Puedes crear entidades que sean exclusivas de tu avatar (las llamamos "
+"puedes escribir scripts para cambiar las propiedades de una entidad. Puedes "
+"crear entidades que sean exclusivas de tu avatar (las llamamos "
 "\"entidades de avatar\") . Y no olvides que puedes establecer el "
-"comportamiento de una entidad y las propiedades de colisión, de modo que "
-"los objetos sean manipulables, activables o dinámicos."
+"comportamiento de una entidad y las propiedades de colisión, de modo que los "
+"objetos sean manipulables, activables o dinámicos."
 
 #: ../../source/create/entities/avatar-interactions.md:6
-#, fuzzy
 msgid ""
 "[Control Interactions with Entities using Scripts](#control-interactions-"
 "with-entities-using-scripts)"
 msgstr ""
-"[Controlar las Interacciones con las Entidades mediante Scripts"
-"](#control-interactions-with-entities-using-Scripts)"
+"[Controlar las Interacciones con las Entidades mediante Scripts](#control-"
+"interactions-with-entities-using-Scripts)"
 
 #: ../../source/create/entities/avatar-interactions.md:7
 msgid "[Create Avatar Entities](#create-avatar-entities)"
@@ -6207,7 +6166,6 @@ msgstr ""
 "modelo de malla real (mesh model)."
 
 #: ../../source/create/entities/avatar-interactions.md:15
-#, fuzzy
 msgid ""
 "There are two methods you can use to script these interactions. "
 "[`Entities.enterEntity()`](https://apidocs.overte.org/Entities.html#.enterEntity)"
@@ -6217,11 +6175,12 @@ msgid ""
 " occurs when the avatar exits the bounding box."
 msgstr ""
 "Hay dos métodos que puedes utilizar para programar estas interacciones. "
-"[`Entities.enterEntity()`](https://apidocs.overte.org/Entities.html#.enterEntity)"
-" ocurre cuando el avatar entra en contacto con el cuadro delimitador, no "
-"con el modelo en sí. De manera similar, "
-"[`Entities.leaveEntity()`](https://apidocs.overte.org/Entities.html#.leaveEntity)"
-" ocurre cuando el avatar sale del cuadro delimitador."
+"[`Entities.enterEntity()`](https://apidocs.overte.org/"
+"Entities.html#.enterEntity) ocurre cuando el avatar entra en contacto con el "
+"cuadro delimitador, no con el modelo en sí. De manera similar, "
+"[`Entities.leaveEntity()`](https://apidocs.overte.org/"
+"Entities.html#.leaveEntity) ocurre cuando el avatar sale del cuadro "
+"delimitador."
 
 #: ../../source/create/entities/avatar-interactions.md:17
 msgid "Tutorial: Enter a Box to Change Its Color"
@@ -6294,17 +6253,16 @@ msgstr ""
 " gafas o sombreros."
 
 #: ../../source/create/entities/avatar-interactions.md:46
-#, fuzzy
 msgid ""
 "Avatar entities live on the [Avatar Mixer](../../explore/get-"
 "started/architecture.rst#assignment-clients), so they are connected to "
 "(and move with) your avatar. We've listed the ways you can create avatar "
 "entities with some examples:"
 msgstr ""
-"Las entidades Avatar viven en el [Avatar Mixer](../../explore/get-"
-"started/architecture.html#assignment-clients) (mezclador de avatares), "
-"para que estén conectados a (y se muevan con) tu avatar. Hemos enumerado "
-"las formas en que puedes crear entidades de avatar con algunos ejemplos:"
+"Las entidades Avatar viven en el [Avatar Mixer](../../explore/get-started/"
+"architecture.html#assignment-clients) (mezclador de avatares), para que "
+"estén conectados a (y se muevan con) tu avatar. Hemos enumerado las formas "
+"en que puedes crear entidades de avatar con algunos ejemplos:"
 
 #: ../../source/create/entities/avatar-interactions.md:48
 msgid "[Create a wearable:](../wearables) All wearables are avatar entities."
@@ -6313,7 +6271,6 @@ msgstr ""
 "entidades de avatar."
 
 #: ../../source/create/entities/avatar-interactions.md:49
-#, fuzzy
 msgid ""
 "[Clone as an avatar entity:](entity-behavior.rst#make-an-entity-"
 "cloneable) When you clone an entity as an avatar entity, you make a copy "
@@ -6325,24 +6282,22 @@ msgid ""
 "domain free of clutter using this property."
 msgstr ""
 "[Clonar como una entidad de avatar:](entity-behavior.html#make-an-entity-"
-"cloneable) Cuando clonas una entidad como entidad avatar, haces una copia"
-" de la entidad y la adjuntas a tu avatar. Cada copia de esa entidad se "
-"irá ahora con el avatar cuando abandones el dominio. Por ejemplo, si "
-"tienes una cafetería en tu dominio, puedes configurar todas las tazas de "
-"café para que se clonen como entidades avatar. Cualquier usuario que "
-"clone una taza de café se llevará la entidad de avatar cuando salga del "
-"dominio."
+"cloneable) Cuando clonas una entidad como entidad avatar, haces una copia de "
+"la entidad y la adjuntas a tu avatar. Cada copia de esa entidad se irá ahora "
+"con el avatar cuando abandones el dominio. Por ejemplo, si tienes una "
+"cafetería en tu dominio, puedes configurar todas las tazas de café para que "
+"se clonen como entidades avatar. Cualquier usuario que clone una taza de "
+"café se llevará la entidad de avatar cuando salga del dominio."
 
 #: ../../source/create/entities/avatar-interactions.md:50
-#, fuzzy
 msgid ""
 "Add an avatar entity using a script: You can add an avatar entity using "
 "scripts. For example, you can create a script to have a pet (avatar "
 "entity) follow you around as you explore Overte."
 msgstr ""
-"Agregar una entidad de avatar usando un script: Puedes agregar una "
-"entidad de avatar usando scripts. Por ejemplo, puedes crear un script "
-"para que una mascota (entidad avatar) te siga mientras exploras Overte."
+"Agregar una entidad de avatar usando un script: Puedes agregar una entidad "
+"de avatar usando scripts. Por ejemplo, puedes crear un script para que una "
+"mascota (entidad avatar) te siga mientras exploras Overte."
 
 #: ../../source/create/entities/avatar-interactions.md:52
 msgid "This example script adds a cube as an avatar entity to your domain."
@@ -6363,9 +6318,9 @@ msgid "[Interact with Your Environment](../../explore/interact)"
 msgstr "[Interactuar con Tu Entorno](../../explore/interact)"
 
 #: ../../source/create/entities/avatar-interactions.md:67
-#, fuzzy
 msgid "[API Reference: Entities](https://apidocs.overte.org/Entities.html)"
-msgstr "[Referencia de API: Entidades](https://apidocs.overte.org/Entities.html)"
+msgstr ""
+"[Referencia de API: Entidades](https://apidocs.overte.org/Entities.html)"
 
 #: ../../source/create/entities/avatar-interactions.md:68
 #: ../../source/create/entities/portal-tutorial.md:24
@@ -6381,7 +6336,6 @@ msgid "Tutorial: Create an Avatar Scaling Button"
 msgstr "Tutorial: Crear un Botón de Escalado de Avatar"
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:5
-#, fuzzy
 msgid ""
 "You can build content in Overte that breaks the laws of physical "
 "boundaries by making them oversized or extremely small. To give any "
@@ -6389,11 +6343,11 @@ msgid ""
 "scaling button to your domain. This will help users fit into the spaces "
 "you design."
 msgstr ""
-"Puedes crear contenido en Overte que rompa las leyes de los límites "
-"físicos haciéndolos sobredimensionados o extremadamente pequeños. Para "
-"que cualquier usuario visitante acceda a dicha experiencia, puedes "
-"agregar un botón de escalado de avatar a tu dominio. Esto ayudará a los "
-"usuarios a adaptarse a los espacios que diseñes."
+"Puedes crear contenido en Overte que rompa las leyes de los límites físicos "
+"haciéndolos sobredimensionados o extremadamente pequeños. Para que cualquier "
+"usuario visitante acceda a dicha experiencia, puedes agregar un botón de "
+"escalado de avatar a tu dominio. Esto ayudará a los usuarios a adaptarse a "
+"los espacios que diseñes."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:14
 #: ../../source/create/entities/create-fountain.rst:15
@@ -6482,17 +6436,16 @@ msgstr ""
 "satisfacer tus necesidades."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:35
-#, fuzzy
 msgid ""
 "The shrink-avatar.js uses Overte's `JavaScript API "
 "<https://apidocs.overte.org>`_ to determine when a user clicks with the "
 "mouse or triggers the entity with their hand controllers. It then scales "
 "the avatar to one-tenth its original size."
 msgstr ""
-"El shrink-avatar.js usa la `API JavaScript <https://apidocs.overte.org>`_"
-" de Overte para determinar cuándo un usuario hace click con el mouse o "
-"activa la entidad con sus controladores de mano. Luego escala el avatar a"
-" una décima parte de su tamaño original."
+"El shrink-avatar.js usa la `API JavaScript <https://apidocs.overte.org>`_ de "
+"Overte para determinar cuándo un usuario hace click con el mouse o activa la "
+"entidad con sus controladores de mano. Luego escala el avatar a una décima "
+"parte de su tamaño original."
 
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:39
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:33
@@ -7096,17 +7049,16 @@ msgstr ""
 "boombox."
 
 #: ../../source/create/entities/create-entities.md:3
-#, fuzzy
 msgid ""
 "We are continually surprised by the ingenuity and creativity of the "
 "content creators in the community. You too can join this community by "
 "creating new entities. The easiest way to start building is to use "
 "Overte's **Create** app."
 msgstr ""
-"Continuamente nos sorprende el ingenio y la creatividad de los creadores "
-"de contenido de la comunidad. Tú también puedes unirte a esta comunidad "
-"creando nuevas entidades. La forma más fácil de comenzar a construir es "
-"usar la aplicación **Create** de Overte."
+"Continuamente nos sorprende el ingenio y la creatividad de los creadores de "
+"contenido de la comunidad. Tú también puedes unirte a esta comunidad creando "
+"nuevas entidades. La forma más fácil de comenzar a construir es usar la "
+"aplicación **Create** de Overte."
 
 #: ../../source/create/entities/create-entities.md:10
 msgid "To add a new entity to your domain:"
@@ -7237,7 +7189,6 @@ msgstr ""
 " existentes en otras entidades y avatars."
 
 #: ../../source/create/entities/create-entities.md:38
-#, fuzzy
 msgid "[The Create App](../tools.rst#the-create-app)"
 msgstr "[La Aplicación de Creación](../tools.html#the-create-app)"
 
@@ -7773,26 +7724,23 @@ msgid "Tutorial: Display a YouTube Channel"
 msgstr "Tutorial: Mostrar un Canal de YouTube"
 
 #: ../../source/create/entities/display-youtube.md:3
-#, fuzzy
 msgid ""
 "In this tutorial, you will learn how web entities work by creating one "
 "displaying a YouTube channel. You can watch videos in Overte using this "
 "web entity."
 msgstr ""
-"En este tutorial, aprenderás cómo funcionan las entidades web creando una"
-" que muestre un canal de YouTube. Puedes ver videos en Overte usando esta"
-" entidad web."
+"En este tutorial, aprenderás cómo funcionan las entidades web creando una "
+"que muestre un canal de YouTube. Puedes ver videos en Overte usando esta "
+"entidad web."
 
 #: ../../source/create/entities/display-youtube.md:8
 msgid "[Create a Web Entity](#create-a-web-entity)"
 msgstr "[Crear una Entidad Web](#create-a-web-entity)"
 
 #: ../../source/create/entities/display-youtube.md:9
-#, fuzzy
 msgid "[Display Overte's YouTube Channel](#display-overtes-youtube-channel)"
 msgstr ""
-"[Mostrar el Canal de YouTube de Vircadia](#display-vircadia-s-youtube-"
-"channel)"
+"[Mostrar el Canal de YouTube de Overte](#display-vircadia-s-youtube-channel)"
 
 #: ../../source/create/entities/display-youtube.md:18
 msgid "Create a Web Entity"
@@ -7813,38 +7761,34 @@ msgid "To create a web entity:"
 msgstr "Para crear una entidad web:"
 
 #: ../../source/create/entities/display-youtube.md:25
-#, fuzzy
 msgid ""
 "Click the 'Web' icon to create a web entity. By default, a web entity "
 "always displays Overte's home page."
 msgstr ""
-"Haz click en el ícono \"Web\" para crear una entidad web. Por defecto, "
-"una entidad web siempre muestra la página principal de Overte."
+"Haz click en el ícono \"Web\" para crear una entidad web. Por defecto, una "
+"entidad web siempre muestra la página principal de Overte."
 
 #: ../../source/create/entities/display-youtube.md:32
-#, fuzzy
 msgid "Display Overte's YouTube Channel"
-msgstr "Mostrar el Canal de YouTube de Vircadia"
+msgstr "Mostrar el Canal de YouTube de Overte"
 
 #: ../../source/create/entities/display-youtube.md:34
-#, fuzzy
 msgid "You can make the web entity display Overte's YouTube channel."
-msgstr "Puedes hacer que la entidad web muestre el canal de YouTube de Vircadia."
+msgstr "Puedes hacer que la entidad web muestre el canal de YouTube de Overte."
 
 #: ../../source/create/entities/display-youtube.md:37
 msgid "Select your web entity and go to the 'Properties' tab."
 msgstr "Selecciona tu entidad web y ve a la pestaña \"Properties\"."
 
 #: ../../source/create/entities/display-youtube.md:38
-#, fuzzy
 msgid ""
 "Scroll down until you see the 'Source URL' option. Enter the Overte "
 "YouTube channel URL: https://www.youtube.com/@Overte-ru3ey. You should "
 "see the new page as soon as you hit 'Enter'."
 msgstr ""
 "Desplázate hacia abajo hasta que veas la opción \"Source URL\". Entra al "
-"canal de Youtube de Vircadia, URL: https://www.youtube.com/channel"
-"/UC5gVObAP0ANbXr-lNCjP3xg. Deberías ver la nueva página tan pronto como "
+"canal de Youtube de Overte, URL: https://www.youtube.com/channel/"
+"UC5gVObAP0ANbXr-lNCjP3xg. Deberías ver la nueva página tan pronto como "
 "presiones \"Enter\"."
 
 #: ../../source/create/entities/display-youtube.md:40
@@ -8317,7 +8261,6 @@ msgid "`The Create App <../tools.html#the-create-app>`_"
 msgstr "`La Aplicación Crear <../tools.html#the-create-app>`_"
 
 #: ../../source/create/entities/entity-behavior.rst:5
-#, fuzzy
 msgid ""
 "An entity's behavior controls its interactions with other entities and "
 "avatars in Overte. Can an entity be grabbed, does it collide with other "
@@ -8325,10 +8268,10 @@ msgid ""
 "You can check and change an entity's behavior by editing its properties."
 msgstr ""
 "El comportamiento de una entidad controla sus interacciones con otras "
-"entidades y avatares en Overte. ¿Se puede agarrar/tomar una entidad, "
-"choca con otras entidades y avatares, o puede afectarla un cambio en la "
-"gravedad del dominio? Puedes verificar y cambiar el comportamiento de una"
-" entidad editando sus propiedades."
+"entidades y avatares en Overte. ¿Se puede agarrar/tomar una entidad, choca "
+"con otras entidades y avatares, o puede afectarla un cambio en la gravedad "
+"del dominio? Puedes verificar y cambiar el comportamiento de una entidad "
+"editando sus propiedades."
 
 #: ../../source/create/entities/entity-behavior.rst:19
 msgid "Set an Entity to Respond to Physics"
@@ -8691,7 +8634,6 @@ msgid "Set an Entity to Cast a Shadow"
 msgstr "Establecer una Entidad para Proyectar una Sombra"
 
 #: ../../source/create/entities/entity-behavior.rst:142
-#, fuzzy
 msgid ""
 "You can make your entity behave like a real world object by making it "
 "cast a shadow on other entities and avatars. In Overte, entities cast "
@@ -8700,9 +8642,9 @@ msgid ""
 msgstr ""
 "Puedes hacer que tu entidad se comporte como un objeto del mundo real "
 "haciendo que proyecte una sombra sobre otras entidades y avatares. En "
-"Overte, las entidades proyectan sombras solo desde la luz clave (key "
-"light), no desde las entidades de luz. La luz clave es una fuente de luz "
-"paralela, como el sol."
+"Overte, las entidades proyectan sombras solo desde la luz clave (key light), "
+"no desde las entidades de luz. La luz clave es una fuente de luz paralela, "
+"como el sol."
 
 #: ../../source/create/entities/entity-behavior.rst:144
 msgid "Here are the different shadow settings you can configure:"
@@ -8730,7 +8672,6 @@ msgid ":doc:`Add Sound to Entities <add-sounds>`"
 msgstr ":doc:`Añadir Sonido a las Entidades <add-sounds>`"
 
 #: ../../source/create/entities/entity-physics.rst:5
-#, fuzzy
 msgid ""
 "Your Overte VR experience is made realistic with the help of a `physics "
 "engine <https://pybullet.org/wordpress>`_. Overte uses this engine to "
@@ -8740,14 +8681,14 @@ msgid ""
 "collision. You can modify an entity's physics behavior using the Create "
 "app."
 msgstr ""
-"Tu experiencia Vircadia VR se hace realista con la ayuda de un `motor de "
-"física <https://pybullet.org/wordpress>`_. Vircadia utiliza este motor "
-"para simular el comportamiento de un objeto de acuerdo con las leyes de "
-"la física newtoniana. Por ejemplo, si golpea una pelota con un bate en "
-"Vircadia, el motor de física calcula estos movimientos y hace que la "
-"pelota gire alejándose del bate después de la colisión. Puedes modificar "
-"el comportamiento físico de una entidad mediante la aplicación Crear "
-"(Create App)."
+"Tu experiencia Overte VR se hace realista con la ayuda de un `motor de "
+"física <https://pybullet.org/wordpress>`_. Overte utiliza este motor para "
+"simular el comportamiento de un objeto de acuerdo con las leyes de la física "
+"newtoniana. Por ejemplo, si golpea una pelota con un bate en Overte, el "
+"motor de física calcula estos movimientos y hace que la pelota gire "
+"alejándose del bate después de la colisión. Puedes modificar el "
+"comportamiento físico de una entidad mediante la aplicación Crear (Create "
+"App)."
 
 #: ../../source/create/entities/entity-physics.rst:18
 msgid "Apply Physics to an Entity"
@@ -8777,16 +8718,15 @@ msgid "Change an Entity's Velocity"
 msgstr "Cambiar la Velocidad de una Entidad"
 
 #: ../../source/create/entities/entity-physics.rst:32
-#, fuzzy
 msgid ""
 "Velocity is the speed of an object in a certain direction. All entities "
 "that have a position and orientation in Overte will have linear and "
 "angular velocity. These velocities might be zero, but they still exist."
 msgstr ""
 "\"Velocity\" es la velocidad de un objeto en una determinada dirección. "
-"Todas las entidades que tienen una posición y orientación en Overte "
-"tendrán velocidad lineal y angular. Estas velocidades pueden ser cero, "
-"pero aún existen."
+"Todas las entidades que tienen una posición y orientación en Overte tendrán "
+"velocidad lineal y angular. Estas velocidades pueden ser cero, pero aún "
+"existen."
 
 #: ../../source/create/entities/entity-physics.rst:36
 msgid "Linear Velocity"
@@ -8916,7 +8856,6 @@ msgid "**Default Value:** 0.00"
 msgstr "**Valor por Defecto:** 0.00"
 
 #: ../../source/create/entities/entity-physics.rst:78
-#, fuzzy
 msgid ""
 "In Overte, damping represents how much of an entity's linear or angular "
 "velocity is lost over time. All moving objects we see in the real world "
@@ -8929,14 +8868,14 @@ msgid ""
 msgstr ""
 "En Overte, la amortiguación representa la cantidad de velocidad lineal o "
 "angular de una entidad que se pierde con el tiempo. Todos los objetos en "
-"movimiento que vemos en el mundo real experimentan cierta fricción con el"
-" aire, reduciendo sus velocidades con el tiempo. La amortiguación se "
-"utiliza para aproximar este efecto del mundo real en Overte. Entonces, si"
-" la amortiguación de un objeto es`0.00`, no perderá nada velocidad y no "
-"se ralentizará. Si la amortiguación de un objeto es`1.00`, perderá toda "
-"su velocidad y se detendrá inmediatamente. Si quieres lanzar una pelota y"
-" hacer que se ralentice con el tiempo, puedes agregar un valor de "
-"amortiguación para hacerlo."
+"movimiento que vemos en el mundo real experimentan cierta fricción con el "
+"aire, reduciendo sus velocidades con el tiempo. La amortiguación se utiliza "
+"para aproximar este efecto del mundo real en Overte. Entonces, si la "
+"amortiguación de un objeto es`0.00`, no perderá nada velocidad y no se "
+"ralentizará. Si la amortiguación de un objeto es`1.00`, perderá toda su "
+"velocidad y se detendrá inmediatamente. Si quieres lanzar una pelota y hacer "
+"que se ralentice con el tiempo, puedes agregar un valor de amortiguación "
+"para hacerlo."
 
 #: ../../source/create/entities/entity-physics.rst:80
 msgid "To set the linear damping of an object:"
@@ -9098,7 +9037,6 @@ msgstr ""
 " materiales densos como el hierro."
 
 #: ../../source/create/entities/entity-physics.rst:133
-#, fuzzy
 msgid ""
 "In Overte, the maximum (`10000`) and minimum (`100`) values of density "
 "were chosen for stability. It's difficult to perform stable physics "
@@ -9108,9 +9046,9 @@ msgid ""
 msgstr ""
 "En Overte, los valores máximos (`10000`) y mínimos (`100`) de densidad "
 "fueron elegidos por la estabilidad. Es difícil realizar cálculos físicos "
-"estables entre objetos de masas muy dispares (como una pluma ligera y una"
-" bola de hierro). Para ayudar a mantener estable el medio ambiente, "
-"elegimos límites de densidad conservadores."
+"estables entre objetos de masas muy dispares (como una pluma ligera y una "
+"bola de hierro). Para ayudar a mantener estable el medio ambiente, elegimos "
+"límites de densidad conservadores."
 
 #: ../../source/create/entities/entity-physics.rst:135
 msgid ""
@@ -9307,15 +9245,14 @@ msgid "Generate a Material Entity"
 msgstr "Generar una Entidad Material"
 
 #: ../../source/create/entities/material-entity.rst:16
-#, fuzzy
 msgid ""
 "To add a material to your object in Overte, you need to specify the "
 "material data in a JSON file or add the material directly into the "
 "**Create** app."
 msgstr ""
-"Para agregar un material a tu objeto en Overte, debes especificar los "
-"datos del material en un archivo JSON o agregar el material directamente "
-"en la aplicación **Crear**."
+"Para agregar un material a tu objeto en Overte, debes especificar los datos "
+"del material en un archivo JSON o agregar el material directamente en la "
+"aplicación **Crear**."
 
 #: ../../source/create/entities/material-entity.rst:18
 msgid ""
@@ -9332,18 +9269,16 @@ msgstr ""
 "o glTF si tienes dificultades para generar un archivo JSON."
 
 #: ../../source/create/entities/material-entity.rst:20
-#, fuzzy
 msgid ""
 "This is what the JSON file for a sample `castle wall material "
 "<https://docs.overte.org/_static/resources/material-"
 "entity/CastleWall.hfm.json>`_ looks like:"
 msgstr ""
-"Es así como se ve el archivo JSON para una muestra de `material de muro "
-"de castillo <https://docs.overte.org/_static/resources/material-"
-"entity/CastleWall.hfm.json>`_:"
+"Es así como se ve el archivo JSON para una muestra de `material de muro de "
+"castillo <https://docs.overte.org/_static/resources/material-entity/"
+"CastleWall.hfm.json>`_:"
 
 #: ../../source/create/entities/material-entity.rst:39
-#, fuzzy
 msgid ""
 "This file contains all related material data, such as the color, "
 "roughness, and other texture and shading information. Note that you can "
@@ -9352,14 +9287,14 @@ msgid ""
 "define its properties using `EntityProperties-Material "
 "<https://apidocs.overte.org/Entities.html#.EntityProperties-Material>`_."
 msgstr ""
-"Este archivo contiene todos los datos de materiales relacionados, como el"
-" color, la rugosidad y otra información de textura y sombreado. Ten en "
-"cuenta que puedes editar esta información mediante programación con el "
-"`Material` `EntityType "
-"<https://apidocs.vircadia.dev/Entities.html#.EntityType>`_ (Material de "
-"Tipo de Entidad) en nuestra API, y definir sus propiedades usando el "
-"`EntityProperties-Material <https://apidocs.vircadia.dev/Entities.html"
-"#.EntityProperties-Material>`_ (Material de Propiedad de Entidad)."
+"Este archivo contiene todos los datos de materiales relacionados, como el "
+"color, la rugosidad y otra información de textura y sombreado. Ten en cuenta "
+"que puedes editar esta información mediante programación con el `Material` `"
+"EntityType <https://apidocs.overte.org/Entities.html#.EntityType>`_ ("
+"Material de Tipo de Entidad) en nuestra API, y definir sus propiedades "
+"usando el `EntityProperties-Material <https://apidocs.overte.org/"
+"Entities.html#.EntityProperties-Material>`_ (Material de Propiedad de "
+"Entidad)."
 
 #: ../../source/create/entities/material-entity.rst:47
 msgid "Use the Material Entity JSON File"
@@ -9375,17 +9310,16 @@ msgstr ""
 " JSON."
 
 #: ../../source/create/entities/material-entity.rst:51
-#, fuzzy
 msgid ""
 "Once you have your material entity JSON file, you can add it to an object"
 " in Overte. Let's add the `castle wall material "
 "<https://docs.overte.org/_static/resources/material-"
 "entity/CastleWall.hfm.json>`_ to a box entity in your domain."
 msgstr ""
-"Una vez que tengas tu archivo JSON de entidad material, puedes agregarlo "
-"a un objeto en Overte. Agreguemos el `material de muro de castillo "
-"<https://docs.overte.org/_static/resources/material-"
-"entity/CastleWall.hfm.json>`_ a una entidad de caja en tu dominio."
+"Una vez que tengas tu archivo JSON de entidad material, puedes agregarlo a "
+"un objeto en Overte. Agreguemos el `material de muro de castillo <https://"
+"docs.overte.org/_static/resources/material-entity/CastleWall.hfm.json>`_ a "
+"una entidad de caja en tu dominio."
 
 #: ../../source/create/entities/material-entity.rst:54
 #: ../../source/create/entities/material-entity.rst:73
@@ -9433,11 +9367,10 @@ msgid "Use the materialData Field"
 msgstr "Usar el Campo materialData (Datos del material)"
 
 #: ../../source/create/entities/material-entity.rst:70
-#, fuzzy
 msgid "To add a material entity directly into the **Create** Tools app:"
 msgstr ""
-"Para añdar un material de la entidad direcetamente en apliación Crear "
-"(Create App)"
+"Para añadir una entidad tipo material directamente en la aplicación Crear "
+"Herrramientas (Create Tools App):"
 
 #: ../../source/create/entities/material-entity.rst:74
 msgid ""
@@ -9452,16 +9385,14 @@ msgid "Enter `materialData` when you're prompted for a 'Material URL'."
 msgstr "Introduzca `materialData` cuando se le pida una 'URL del material'."
 
 #: ../../source/create/entities/material-entity.rst:77
-#, fuzzy
 msgid ""
 "Click and select the material entity. Go to the 'Properties' tab and "
 "paste the copied parent ID in the 'Parent' box. In this step, you are "
 "parenting or applying a material to an entity."
 msgstr ""
-"Haz click y selecciona el material de la entidad. Ve a la pestaña "
-"\"Properties\" y pega el ID padre copiado en el campo \"Parent\". Verás "
-"el material aplicado al muro. En este paso, estás familiarizando o "
-"aplicando el material a la entidad."
+"Haz click y selecciona la entidad tipo material. Ve a la pestaña "
+"\"Properties\" y pega el ID padre copiado en el campo \"Parent\". En este "
+"paso, te estás familiarizando o aplicando el material a la entidad."
 
 #: ../../source/create/entities/material-entity.rst:78
 msgid ""
@@ -9504,7 +9435,6 @@ msgid "Write a Script to Open a Web Page"
 msgstr "Escribir un Script para Abrir una Página Web"
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:27
-#, fuzzy
 msgid ""
 "The script used here opens a web page on the Tablet or the external web "
 "browser when a user clicks or triggers an entity. In this example, we've "
@@ -9512,12 +9442,11 @@ msgid ""
 "an entity/item is triggered. The script looks for the URL in the 'User "
 "data' property of the entity."
 msgstr ""
-"El script utilizado aquí abre una página web en la Tableta o el navegador"
-" web externo cuando un usuario hace click o activa una entidad. En este "
+"El script utilizado aquí abre una página web en la Tableta o el navegador "
+"web externo cuando un usuario hace click o activa una entidad. En este "
 "ejemplo, hemos escrito un script de entidad cliente que abre la "
 "documentación de Overte cuando se activa una entidad/elemento. El script "
-"busca la URL en la propiedad \"User Data\" (Datos de usuario) de la "
-"entidad."
+"busca la URL en la propiedad \"User Data\" (Datos de usuario) de la entidad."
 
 #: ../../source/create/entities/open-tablet-page-tutorial.rst:29
 msgid ""
@@ -9567,15 +9496,14 @@ msgid "Tutorial: Create a Portal"
 msgstr "Tutorial: Crear un Portal"
 
 #: ../../source/create/entities/portal-tutorial.md:8
-#, fuzzy
 msgid ""
 "Portals in Overte transport you to the domain of your choice. You can use"
 " these portals to travel to a domain you visit frequently instead of "
 "using the **GoTo** app on your HUD or Tablet."
 msgstr ""
-"Los portales de Overte te transportan al dominio de tu elección. Puedes "
-"usar estos portales para viajar a un dominio que visites con frecuencia "
-"en lugar de usar la aplicación **GoTo** en tu HUD o tableta."
+"Los portales de Overte te transportan al dominio de tu elección. Puedes usar "
+"estos portales para viajar a un dominio que visites con frecuencia en lugar "
+"de usar la aplicación **GoTo** en tu HUD o tableta."
 
 #: ../../source/create/entities/portal-tutorial.md:13
 msgid "[Write a Script for the Portal](#write-a-script-for-the-portal)"
@@ -9608,7 +9536,6 @@ msgid "Write a Script for the Portal"
 msgstr "Escribe un Script para el Portal"
 
 #: ../../source/create/entities/portal-tutorial.md:30
-#, fuzzy
 msgid ""
 "A portal is an entity with a script attached (entity script). This "
 "attached script defines what happens when a user comes in contact with "
@@ -9619,26 +9546,24 @@ msgid ""
 "own script](../../script/write-scripts) to suit your needs."
 msgstr ""
 "Un portal es una entidad con un script adjunto (script de entidad). Este "
-"script adjunto define lo que sucede cuando un usuario entra en contacto "
-"con el portal. Usamos [portal.js](https://raw.githubusercontent.com"
-"/overte-org/overte-"
-"content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/portal.js),"
-" el script utilizado para teletransportarse en los dominios de Overte. "
-"También puedes [escribir tu propio script](../../script/write-scripts) "
-"para adaptarlo a tus necesidades."
+"script adjunto define lo que sucede cuando un usuario entra en contacto con "
+"el portal. Usamos [portal.js](https://raw.githubusercontent.com/overte-org/"
+"overte-content/44a10a3fb07f3271307ef0a2c28429d51f696326/DomainContent/Home/"
+"portal.js), el script utilizado para teletransportarse en los dominios de "
+"Overte. También puedes [escribir tu propio script](../../script/write-"
+"scripts) para adaptarlo a tus necesidades."
 
 #: ../../source/create/entities/portal-tutorial.md:32
 msgid "The portal.js script we've used:"
 msgstr "El script portal.js que hemos utilizado:"
 
 #: ../../source/create/entities/portal-tutorial.md:33
-#, fuzzy
 msgid ""
 "Uses Overte's [JavaScript API](https://apidocs.overte.org) to determine "
 "when a user walks into the entity and the teleport destination."
 msgstr ""
-"Utiliza la [API de JavaScript](https://apidocs.overte.org) de Overte para"
-" determinar cuándo un usuario ingresa a la entidad y el destino del "
+"Utiliza la [API de JavaScript](https://apidocs.overte.org) de Overte para "
+"determinar cuándo un usuario ingresa a la entidad y el destino del "
 "teletransporte."
 
 #: ../../source/create/entities/portal-tutorial.md:34
@@ -9656,16 +9581,14 @@ msgid "Create and Edit an Entity to Use as a Portal"
 msgstr "Crear y Editar una Entidad para Usar como Portal"
 
 #: ../../source/create/entities/portal-tutorial.md:39
-#, fuzzy
 msgid ""
 "Any entity you create to be used as a portal has to be [collisionless"
 "](entity-behavior.rst#set-entity-behavior-on-collision) so that the "
 "script can detect when you walk into the entity."
 msgstr ""
-"Cualquier entidad que creas para ser utilizada como portal tiene que ser "
-"sin colisiones[collisionless](entity-behavior.html # set-entity-behavior-"
-"on-collision) para que el script pueda detectar cuando ingreses a la "
-"entidad."
+"Cualquier entidad que creas para ser utilizada como portal tiene que ser sin "
+"colisiones[collisionless](entity-behavior.html # set-entity-behavior-on-"
+"collision) para que el script pueda detectar cuando ingreses a la entidad."
 
 #: ../../source/create/entities/portal-tutorial.md:42
 msgid ""
@@ -9694,11 +9617,10 @@ msgstr ""
 "campo \"User Data\" debajo de \"Behavior\"."
 
 #: ../../source/create/entities/portal-tutorial.md:46
-#, fuzzy
 msgid "Add `hifi:// welcome` (Overte's welcome domain) to the 'User Data' field."
 msgstr ""
-"Añade `hifi:// welcome` (Dominio de bienvenida de Overte) al campo \"User"
-" Data\"."
+"Añade `hifi:// welcome` (Dominio de bienvenida de Overte) al campo "
+"\"User Data\"."
 
 #: ../../source/create/entities/portal-tutorial.md:47
 msgid ""
@@ -9718,7 +9640,6 @@ msgid "![](_images/create-portal.png)"
 msgstr "![](_images/create-portal.png)"
 
 #: ../../source/create/entities/portal-tutorial.md:52
-#, fuzzy
 msgid "You will be teleported to Overte's welcome domain."
 msgstr "Serás teletransportado al dominio de bienvenida de Overte."
 
@@ -9728,17 +9649,16 @@ msgid "Tutorial: Build a Painting Set"
 msgstr "Tutorial: Construir un Conjunto de Pintura"
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:3
-#, fuzzy
 msgid ""
 "There are different ways to create games and experiences in Overte. In "
 "this tutorial, we'll cover how to make a pixel-like painting set to allow"
 " users to \"paint\" pictures on a canvas made out of \"pixels\" that are "
 "box entities."
 msgstr ""
-"Hay diferentes formas de crear juegos y experiencias en Vircadia. En este"
-" tutorial, cubriremos cómo hacer un conjunto de pintura similar a un "
-"píxel para permitir a los usuarios \"pintar\" imágenes en un lienzo hecho"
-" de \"píxeles\" que son entidades de caja."
+"Hay diferentes formas de crear juegos y experiencias en Overte. En este "
+"tutorial, cubriremos cómo hacer un conjunto de pintura similar a un píxel "
+"para permitir a los usuarios \"pintar\" imágenes en un lienzo hecho de "
+"\"píxeles\" que son entidades tipo caja."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:8
 msgid "[Create a Painting Set](#create-a-painting-set)"
@@ -10094,15 +10014,13 @@ msgstr ""
 "URL\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:91
-#, fuzzy
 msgid ""
 "Paste [this "
 "URL](https://docs.overte.org/_static/resources/entities/canvas.json) into"
 " the dialog window and select 'OK'."
 msgstr ""
-"Pega [esta "
-"URL](https://docs.overte.org/_static/resources/entities/canvas.json) "
-"dentro de la ventana de diáologo y selecciona \"OK\"."
+"Pega [esta URL](https://docs.overte.org/_static/resources/entities/"
+"canvas.json) dentro de la ventana de diálogo y selecciona \"OK\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:93
 msgid ""
@@ -10155,13 +10073,13 @@ msgid "Select the Paint-Brush-Head entity."
 msgstr "Selecciona la entidad Paint-Brush-Head."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:107
-#, fuzzy
 msgid ""
 "Next to 'Script', paste the script URL. In this case, it is "
 "'[brushScript.js](https://docs.overte.org/_static/resources/entities/brushScript.js)'."
 msgstr ""
-"Junto a \"Script\", pega la URL del script. En este caso, es "
-"\"[brushScript.js](https://docs.overte.org/_static/resources/entities/brushScript.js)\"."
+"Junto a \"Script\", pega la URL del script. En este caso, es \""
+"[brushScript.js](https://docs.overte.org/_static/resources/entities/"
+"brushScript.js)\"."
 
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:108
 msgid ""
@@ -10182,7 +10100,6 @@ msgstr ""
 "te preguntará si quieres que sea procedimental o no."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:7
-#, fuzzy
 msgid ""
 "**Non-procedural particles** are represented by the `ParticleEffect` "
 "`EntityType <https://apidocs.overte.org/Entities.html#.EntityType>`_. "
@@ -10194,8 +10111,8 @@ msgid ""
 "billboarded, quads, and moving via euler integration (position + velocity"
 " + acceleration)."
 msgstr ""
-"Las **Non-procedural particles**están representadas por el tipo de entidad "
-"`ParticleEffect` <https://apidocs.overte.org/Entities.html#.EntityType>`_. "
+"Las **Non-procedural particles** están representadas por el `tipo de entidad "
+"<https://apidocs.overte.org/Entities.html#.EntityType>`_ `ParticleEffect`. "
 "Tienen muchas opciones de configuración (véase `EntityProperties-"
 "ParticleEffect <https://apidocs.overte.org/Entities.html#.EntityProperties-"
 "ParticleEffect>`_) y son adecuadas para muchas situaciones. Sin embargo, "
@@ -10204,7 +10121,6 @@ msgstr ""
 "Euler (posición + velocidad + aceleración)."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:9
-#, fuzzy
 msgid ""
 "If you instead create a **procedural particle** entity, you will get an "
 "entity with the `ProceduralParticleEffect` `EntityType "
@@ -10217,8 +10133,8 @@ msgid ""
 "ProceduralParticleEffect>`_)."
 msgstr ""
 "Si en su lugar creas una entidad **procedural particle**, obtendrás una "
-"entidad con el tipo de entidad `<https://apidocs.overte.org/"
-"Entities.html#.EntityType>` `ProceduralParticleEffect` . Esto le da un "
+"entidad con el `tipo de entidad <https://apidocs.overte.org/"
+"Entities.html#.EntityType>`_ `ProceduralParticleEffect` . Esto le da un "
 "control detallado sobre un sistema de partículas GPU, utilizando \"shaders\" "
 "para la actualización y renderizado. Además de mayores límites (hasta "
 "millones de partículas). Las partículas procedimentales tienen un conjunto "
@@ -10250,9 +10166,8 @@ msgstr ""
 #: ../../source/release-notes/v83.md:59 ../../source/release-notes/v83.md:144
 #: ../../source/release-notes/v84.md:23 ../../source/release-notes/v84.md:67
 #: ../../source/release-notes/v85.md:69
-#, fuzzy
 msgid "Rendering"
-msgstr "Representación"
+msgstr "Renderización"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:23
 msgid ""
@@ -10265,9 +10180,8 @@ msgstr ""
 "vértices como uno de fragmentos."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:25
-#, fuzzy
 msgid "The vertex shader must implement:"
-msgstr "Un sombreador de vértices debe implementar::"
+msgstr "Un sombreador de vértices debe implementar:"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:31
 msgid ""
@@ -10297,7 +10211,6 @@ msgstr ""
 "global."
 
 #: ../../source/create/entities/procedural-particle-entity.rst:44
-#, fuzzy
 msgid ""
 "One difference between procedural particles and procedural materials on "
 "other entities is that particles do not have per-fragment normals or UVs "
@@ -10396,9 +10309,9 @@ msgstr ""
 "triángulo utilizando una propiedad de posición almacenada:"
 
 #: ../../source/create/entities/procedural-particle-entity.rst:120
-#, fuzzy
 msgid ":doc:`Procedural Shaders Guide <../materials/procedural-shaders>`"
-msgstr ":doc:`Guía de Materiales PBR <../3d-models/pbr-materials-guide>`"
+msgstr ""
+":doc:`Guía de Sombreadores Procedimentales <../materials/procedural-shaders>`"
 
 #: ../../source/create/entities/tutorials.rst:7
 #: ../../source/create/entities/zone-tutorial.md:6
@@ -11635,7 +11548,6 @@ msgstr ""
 "proporcionaste."
 
 #: ../../source/create/environments.rst:5
-#, fuzzy
 msgid ""
 "A Overte domain can have an environment to express a theme. Environments "
 "include all the domain content, such as entities, skyboxes, assets, and "
@@ -11643,9 +11555,9 @@ msgid ""
 "cyberpunk apartment environment."
 msgstr ""
 "Un dominio de Overte puede tener un entorno para expresar un tema. Los "
-"entornos incluyen todo el contenido del dominio, como entidades, "
-"skyboxes, activos (assets) y más. Podrías tener un dominio con un entorno"
-" de isla desierta o un entorno de apartamento cyberpunk."
+"entornos incluyen todo el contenido del dominio, como entidades, skyboxes, "
+"activos (assets) y más. Podrías tener un dominio con un entorno de isla "
+"desierta o un entorno de apartamento cyberpunk."
 
 #: ../../source/create/environments.rst:10
 msgid "Create an Environment"
@@ -11680,22 +11592,20 @@ msgid "Your 3D Models"
 msgstr "Tus Modelos 3D"
 
 #: ../../source/create/environments.rst:21
-#, fuzzy
 msgid ""
 "You can use 3D modeling software like Blender or Maya to create your own "
 "3D models and `import them into your Overte Domain <3d-models/import-"
 "model.html#import-3d-models-using-the-asset-server>`_."
 msgstr ""
-"Puedes utilizar software de modelado 3D como Blender o Maya para crear "
-"tus propios modelos 3D e `importarlos a tu dominio de Overte <3d-models"
-"/import-model.html#import-3d-models-using-the-asset-server>`_."
+"Puedes utilizar software de modelado 3D como Blender o Maya para crear tus "
+"propios modelos 3D e `importarlos a tu dominio de Overte <3d-models/import-"
+"model.html#import-3d-models-using-the-asset-server>`_."
 
 #: ../../source/create/environments.rst:25
 msgid "A Content Archive File"
 msgstr "Un Archivo de Contenido"
 
 #: ../../source/create/environments.rst:25
-#, fuzzy
 msgid ""
 "Overte Domain settings have downloadable content archives. These archives"
 " are zip files containing all domain content information. You can `use a "
@@ -11704,9 +11614,9 @@ msgid ""
 msgstr ""
 "La configuración del dominio de Overte tiene archivos de contenido "
 "descargables. Estos archivos son archivos zip que contienen toda la "
-"información del contenido del dominio. Puedes `utilizar un archivo de "
-"copia de seguridad propio o uno que te haya enviado un usuario <../host"
-"/maintain-domain/backup-domain.html>`_."
+"información del contenido del dominio. Puedes `utilizar un archivo de copia "
+"de seguridad propio o uno que te haya enviado un usuario <../host/"
+"maintain-domain/backup-domain.html>`_."
 
 #: ../../source/create/environments.rst:32
 msgid ":doc:`Get Your 3D Model <3d-models/get-model>`"
@@ -11847,7 +11757,6 @@ msgstr ""
 " extraordinariamente rápido."
 
 #: ../../source/create/materials/procedural-shaders.rst:29
-#, fuzzy
 msgid ""
 "Overte has support for vertex and fragment shaders on shape and material "
 "entities, and avatars. These shaders are based on the GLSL shader "
@@ -11855,11 +11764,11 @@ msgid ""
 "language. It does not have support for geometry, tessellation and "
 "evaluation, or compute shaders."
 msgstr ""
-"Vircadia tiene soporte para sombreadores de vértices y fragmentos en "
-"entidades de forma y material, y avatares. Estos sombreadores se basan en"
-" el lenguaje de sombreado GLSL, que utiliza la sintaxis y las "
-"características del lenguaje de programación C. No tiene soporte para "
-"geometría, teselación y evaluación, ni computar sombreadores."
+"Overte tiene soporte para sombreadores de vértices y fragmentos en entidades "
+"de forma y material, y avatares. Estos sombreadores se basan en el lenguaje "
+"de sombreado GLSL, que utiliza la sintaxis y las características del "
+"lenguaje de programación C. No tiene soporte para geometría, teselación y "
+"evaluación, ni computar sombreadores."
 
 #: ../../source/create/materials/procedural-shaders.rst:31
 msgid ""
@@ -11877,7 +11786,6 @@ msgstr ""
 "de esos libros que se cita a menudo."
 
 #: ../../source/create/materials/procedural-shaders.rst:33
-#, fuzzy
 msgid ""
 "An understanding of how to use JavaScript and JSON with Overte is "
 "important before you dive into this topic. If you intend to create "
@@ -11885,30 +11793,27 @@ msgid ""
 "important."
 msgstr ""
 "Es importante comprender cómo usar JavaScript y JSON con Overte antes de "
-"profundizar en este tema. Si tienes la intención de crear sombreadores tú"
-" mismo, conocer el lenguaje de programación C también será importante."
+"profundizar en este tema. Si tienes la intención de crear sombreadores tú "
+"mismo, conocer el lenguaje de programación C también será importante."
 
 #: ../../source/create/materials/procedural-shaders.rst:37
-#, fuzzy
 msgid "Differences Between Overte and GLSL Shaders"
 msgstr "Diferencias entre los Sombreadores Overte y GLSL"
 
 #: ../../source/create/materials/procedural-shaders.rst:39
-#, fuzzy
 msgid ""
 "When exploring shaders online, you may have come across many shader "
 "examples. Or you might have seen websites and applications that allow you"
 " to experiment with shader code in a live environment. Most of the code "
 "from these sources will not work with Overte without modification."
 msgstr ""
-"Al explorar sombreadores en línea, es posible que te hayas encontrado con"
-" muchos ejemplos de sombreadores. O es posible que hayas visto sitios web"
-" y aplicaciones que te permiten experimentar con el código de sombreado "
-"en vivo en un entorno. La mayor parte del código de estas fuentes no "
-"funcionará con Overte sin modificaciones."
+"Al explorar sombreadores en línea, es posible que te hayas encontrado con "
+"muchos ejemplos de sombreadores. O es posible que hayas visto sitios web y "
+"aplicaciones que te permiten experimentar con el código de sombreado en vivo "
+"en un entorno. La mayor parte del código de estas fuentes no funcionará con "
+"Overte sin modificaciones."
 
 #: ../../source/create/materials/procedural-shaders.rst:41
-#, fuzzy
 msgid ""
 "The first thing to be aware of is that there are a few shader languages. "
 "GLSL is one that is used by OpenGL, and Overte’s shaders are based on "
@@ -11917,22 +11822,20 @@ msgid ""
 "you cannot use HLSL code in an OpenGL application without modification."
 msgstr ""
 "Lo primero que debes tener en cuenta es que existen algunos lenguajes de "
-"sombreado. GLSL es uno que utiliza OpenGL, y los shaders (sombreadores) "
-"de Overte se basan en este lenguaje. Otro común es HLSL, que se usa a "
-"menudo para programas DirectX. Aunque estos lenguajes comparten muchas "
-"similitudes, no puedes usar código HLSL en una aplicación OpenGL sin "
-"modificaciones."
+"sombreado. GLSL es uno que utiliza OpenGL, y los shaders (sombreadores) de "
+"Overte se basan en este lenguaje. Otro común es HLSL, que se usa a menudo "
+"para programas DirectX. Aunque estos lenguajes comparten muchas similitudes, "
+"no puedes usar código HLSL en una aplicación OpenGL sin modificaciones."
 
 #: ../../source/create/materials/procedural-shaders.rst:43
-#, fuzzy
 msgid ""
 "Another consideration is that Overte does not expose the full range of "
 "what GLSL offers to scripters. Instead, users are offered a subset of "
 "GLSL, and a custom set of naming conventions for fragment or vertex "
 "components."
 msgstr ""
-"Otra consideración es que Overte no expone la gama completa de lo que "
-"GLSL ofrece a los scripters. En cambio, a los usuarios se les ofrece un "
+"Otra consideración es que Overte no expone la gama completa de lo que GLSL "
+"ofrece a los scripters. En cambio, a los usuarios se les ofrece un "
 "subconjunto de GLSL y un conjunto personalizado de convenciones de "
 "nomenclatura para componentes de fragmentos o vértices."
 
@@ -11970,25 +11873,22 @@ msgstr ""
 "más información :doc:`aquí <../entities/material-entity>`."
 
 #: ../../source/create/materials/procedural-shaders.rst:55
-#, fuzzy
 msgid ""
 "Material entities have data that is stored in the JSON format, and they "
 "have a property called ``materialData``. The ``materialData`` property "
 "requires ``model`` and ``procedural`` fields. Here is an example::"
 msgstr ""
 "Las entidades materiales tienen datos que se almacenan en formato JSON y "
-"tienen una propiedad llamada ``materialData``. La propiedad "
-"``materialData``requiere los campos ``model`` y ``procedural``. Aquí hay "
-"un ejemplo::"
+"tienen una propiedad llamada ``materialData``. La propiedad ``materialData`` "
+"requiere los campos ``model`` y ``procedural``. Aquí hay un ejemplo:"
 
 #: ../../source/create/materials/procedural-shaders.rst:67
-#, fuzzy
 msgid ""
 "The ``materialData`` JSON can be applied either via the Overte "
 "Interface’s edit tools or with a script. Here's another example::"
 msgstr ""
-"El JSON ``materialData`` se puede aplicar a través de las herramientas de"
-" edición de Interfaz de Overte o con un script. Aquí hay otro ejemplo::"
+"El JSON ``materialData`` se puede aplicar a través de las herramientas de "
+"edición de Interfaz de Overte o con un script. Aquí hay otro ejemplo:"
 
 #: ../../source/create/materials/procedural-shaders.rst:84
 msgid ""
@@ -12020,18 +11920,16 @@ msgid "Shader Template"
 msgstr "Plantilla de Sombreado"
 
 #: ../../source/create/materials/procedural-shaders.rst:92
-#, fuzzy
 msgid ""
 "When you learn about shaders for other applications, the shader may have "
 "a function like ``main()`` that is run first. By contrast, Overte has a "
 "specific function name that must be called. Which function is used "
 "depends on which version of the shader you use."
 msgstr ""
-"Cuando aprendas sobre sombreadores para otras aplicaciones, el sombreador"
-" puede tener una función como ``main ()`` que se ejecuta primero. Por el "
-"contrario, Overte tiene un nombre de función específico que debe "
-"llamarse. La función que se utilice depende de la versión del sombreador "
-"que utilices."
+"Cuando aprendas sobre sombreadores para otras aplicaciones, el sombreador "
+"puede tener una función como ``main ()`` que se ejecuta primero. Por el "
+"contrario, Overte tiene un nombre de función específico que debe llamarse. "
+"La función que se utilice depende de la versión del sombreador que utilices."
 
 #: ../../source/create/materials/procedural-shaders.rst:94
 msgid ""
@@ -12066,13 +11964,12 @@ msgstr ""
 "de la función principal)."
 
 #: ../../source/create/materials/procedural-shaders.rst:98
-#, fuzzy
 msgid ""
 "A basic template for a shader without helper functions looks something "
 "like this example::"
 msgstr ""
-"Una plantilla básica para un sombreador sin funciones auxiliares se "
-"parece a este ejemplo::"
+"Una plantilla básica para un sombreador sin funciones auxiliares se parece a "
+"este ejemplo:"
 
 #: ../../source/create/materials/procedural-shaders.rst:111
 msgid ""
@@ -12105,36 +12002,31 @@ msgstr ""
 "útiles al calcular los efectos de procedimiento."
 
 #: ../../source/create/materials/procedural-shaders.rst:119
-#, fuzzy
 msgid "The following global variables are provided::"
-msgstr "Se proporcionan las siguientes variables globales::"
+msgstr "Se proporcionan las siguientes variables globales:"
 
 #: ../../source/create/materials/procedural-shaders.rst:132
-#, fuzzy
 msgid "The following variables are defined but currently not implemented::"
 msgstr ""
-"Las siguientes variables están definidas pero actualmente no "
-"implementadas::"
+"Las siguientes variables están definidas pero actualmente no implementadas:"
 
 #: ../../source/create/materials/procedural-shaders.rst:139
-#, fuzzy
 msgid ""
 "The following per-fragment uniforms are also provided in all shader "
 "versions::"
 msgstr ""
-"Los siguientes uniformes por fragmento también se proporcionan en todas "
-"las versiones de sombreado::"
+"Los siguientes uniformes por fragmento también se proporcionan en todas las "
+"versiones de sombreado:"
 
 #: ../../source/create/materials/procedural-shaders.rst:150
 msgid "Provided Methods, Constants, and Structs"
 msgstr "Métodos, Constantes y Estructuras Proporcionadas"
 
 #: ../../source/create/materials/procedural-shaders.rst:152
-#, fuzzy
 msgid "Here is a full list of the provided methods, constants, and structs::"
 msgstr ""
 "Aquí hay una lista completa de los métodos, constantes y estructuras "
-"proporcionadas::"
+"proporcionadas:"
 
 #: ../../source/create/materials/procedural-shaders.rst:215
 msgid "Shader Version 1"
@@ -12162,14 +12054,12 @@ msgid "Shader Version 3"
 msgstr "Versión 3 del Sombreador"
 
 #: ../../source/create/materials/procedural-shaders.rst:239
-#, fuzzy
 msgid "``ProceduralFragment`` **struct**::"
-msgstr "**Estructura** del ``ProceduralFragment``::"
+msgstr "**Estructura** del ``ProceduralFragment``:"
 
 #: ../../source/create/materials/procedural-shaders.rst:253
-#, fuzzy
 msgid "The default values for some of these are::"
-msgstr "Los valores predeterminados para algunos de estos son::"
+msgstr "Los valores predeterminados para algunos de estos son:"
 
 #: ../../source/create/materials/procedural-shaders.rst:264
 msgid ""
@@ -12187,9 +12077,8 @@ msgid "Shader Version 4"
 msgstr "Versión 4 del Sombreador"
 
 #: ../../source/create/materials/procedural-shaders.rst:274
-#, fuzzy
 msgid "``ProceduralFragmentWithPosition`` **struct**::"
-msgstr "**Estructura** del ``ProceduralFragmentWithPosition``::"
+msgstr "**Estructura** ``ProceduralFragmentWithPosition``:"
 
 #: ../../source/create/materials/procedural-shaders.rst:289
 msgid ""
@@ -12211,22 +12100,19 @@ msgid "Zone Entities"
 msgstr "Entidades de Zona"
 
 #: ../../source/create/materials/procedural-shaders.rst:295
-#, fuzzy
 msgid ""
 "Zone entities operate slightly differently. They support the same global "
 "defines but not the provided methods or constants. They also provide the "
 "following inputs: ::"
 msgstr ""
-"Las entidades de zona operan de manera ligeramente diferente. Admiten las"
-" mismas definiciones globales pero no los métodos o constantes "
-"proporcionados. También proporcionan las siguientes entradas: ::"
+"Las entidades de zona operan de manera ligeramente diferente. Admiten las "
+"mismas definiciones globales pero no los métodos o constantes "
+"proporcionados. También proporcionan las siguientes entradas:"
 
 #: ../../source/create/materials/procedural-shaders.rst:302
-#, fuzzy
 msgid "And must implement the following method, regardless of version: ::"
 msgstr ""
-"Y debes implementar el siguiente método, independientemente de la "
-"versión: ::"
+"Y debes implementar el siguiente método, independientemente de la versión:"
 
 #: ../../source/create/materials/procedural-shaders.rst:307
 msgid ""
@@ -12241,14 +12127,12 @@ msgid "Vertex Shaders"
 msgstr "Sombreadores de Vértices"
 
 #: ../../source/create/materials/procedural-shaders.rst:313
-#, fuzzy
 msgid "A vertex shader must implement::"
-msgstr "Un sombreador de vértices debe implementar::"
+msgstr "Un sombreador de vértices debe implementar:"
 
 #: ../../source/create/materials/procedural-shaders.rst:317
-#, fuzzy
 msgid "And will include this struct::"
-msgstr "E incluirá esta estructura::"
+msgstr "E incluirá esta estructura:"
 
 #: ../../source/create/materials/procedural-shaders.rst:332
 msgid "For Both Fragment and Vertex Shaders"
@@ -12259,14 +12143,13 @@ msgid "Custom Uniforms and Textures"
 msgstr "Texturas y Uniformes Personalizados"
 
 #: ../../source/create/materials/procedural-shaders.rst:338
-#, fuzzy
 msgid ""
 "Procedural materials also support up to 4 custom textures and many custom"
 " uniforms. These can be defined as follows::"
 msgstr ""
 "Los materiales de procedimiento también admiten hasta 4 texturas "
-"personalizadas y muchos uniformes personalizados. Estos se pueden definir"
-" de la siguiente manera::"
+"personalizadas y muchos uniformes personalizados. Estos se pueden definir de "
+"la siguiente manera:"
 
 #: ../../source/create/materials/procedural-shaders.rst:357
 msgid ""
@@ -12277,17 +12160,15 @@ msgstr ""
 "llenados, así cómo iChannelResolution[0] - iChannelResolution[3]."
 
 #: ../../source/create/materials/procedural-shaders.rst:359
-#, fuzzy
 msgid ""
 "When you provide uniforms, you must also include them at the top of your "
 "shader file, with optional defaults::"
 msgstr ""
 "Cuando proporciones uniformes (uniforms), también debes incluirlos en la "
 "parte superior de tu archivo de sombreado, con valores predeterminados "
-"opcionales::"
+"opcionales:"
 
 #: ../../source/create/materials/procedural-shaders.rst:366
-#, fuzzy
 msgid ""
 "Supported uniform types are: ``float``, ``vec2``, ``vec3``, ``vec4``, "
 "``mat3``, and ``mat4``. (Multiple values are provided as arrays.)"
@@ -12305,9 +12186,8 @@ msgstr ""
 "tener:"
 
 #: ../../source/create/materials/procedural-shaders.rst:372
-#, fuzzy
 msgid "Which can be set from JavaScript::"
-msgstr "Que puede estar ponado por JavaScript::"
+msgstr "El cual puede estar dado desde JavaScript:"
 
 #: ../../source/create/materials/procedural-shaders.rst:391
 msgid ""
@@ -12398,7 +12278,6 @@ msgid "A Cautionary Note on Shaders"
 msgstr "Una Nota de Advertencia sobre los Sombreadores"
 
 #: ../../source/create/materials/procedural-shaders.rst:457
-#, fuzzy
 msgid ""
 "Shaders are an experimental feature. They are a very powerful tool, and "
 "when used incorrectly, can harm the user experience for everyone on the "
@@ -12407,12 +12286,12 @@ msgid ""
 "virtual world."
 msgstr ""
 "Overte no habilita la visualización de sombreadores de procedimiento por "
-"defecto. Esto se debe a que actualmente son una función experimental. Los"
-" sombreadores son una herramienta muy poderosa y, cuando se usan "
-"incorrectamente, pueden dañar la experiencia del usuario para todos en el"
-" dominio. Un sombreador mal escrito o un sombreador creado por un mal "
-"actor pueden ralentizar las cosas o interferir con la visión del mundo "
-"virtual del usuario."
+"defecto. Esto se debe a que actualmente son una función experimental. Los "
+"sombreadores son una herramienta muy poderosa y, cuando se usan "
+"incorrectamente, pueden dañar la experiencia del usuario para todos en el "
+"dominio. Un sombreador mal escrito o un sombreador creado por un mal actor "
+"pueden ralentizar las cosas o interferir con la visión del mundo virtual del "
+"usuario."
 
 #: ../../source/create/materials/procedural-shaders.rst:459
 msgid ""
@@ -12429,14 +12308,13 @@ msgstr ""
 " cientos de líneas de código, considera recortarlo si es posible."
 
 #: ../../source/create/materials/procedural-shaders.rst:461
-#, fuzzy
 msgid ""
 "If you find yourself in a position where a shader is causing trouble for "
 "you, remember that you can disable them in the Overte Interface Graphics "
 "settings."
 msgstr ""
-"Si te encuentras en una posición en la que un sombreador te está causando"
-" problemas, recuerda que puedes deshabilitarlos en la Interfaz de Overte."
+"Si te encuentras en una posición en la que un sombreador te está causando "
+"problemas, recuerda que puedes deshabilitarlos en la Interfaz de Overte."
 
 #: ../../source/create/tools.rst:2
 msgid ""
@@ -12447,7 +12325,6 @@ msgstr ""
 "COMENTARIO: supuestamente se mencionan problemas conocidos"
 
 #: ../../source/create/tools.rst:9
-#, fuzzy
 msgid ""
 "To build and create things in Overte, you need to become familiar with "
 "the tools available to you. We've created our own custom tools (including"
@@ -12459,8 +12336,8 @@ msgstr ""
 "herramientas disponibles. Hemos creado nuestras propias herramientas "
 "personalizadas (incluida la aplicación Crear). Además, puedes utilizar "
 "muchas herramientas externas para perfeccionar tus creaciones. Estas "
-"herramientas pueden ayudarte a crear cualquier cosa, desde un avatar "
-"genial o una gorra de béisbol, hasta un dominio temático mágico."
+"herramientas pueden ayudarte a crear cualquier cosa, desde un avatar genial "
+"o una gorra de béisbol, hasta un dominio temático mágico."
 
 #: ../../source/create/tools.rst:16
 msgid "The Create App"
@@ -12617,7 +12494,6 @@ msgid "Blender"
 msgstr "Blender"
 
 #: ../../source/create/tools.rst:57
-#, fuzzy
 msgid ""
 "`Blender <https://www.blender.org>`_ is an open-source 3D modeling "
 "creation suite which supports everything from modeling and rigging, to "
@@ -12625,26 +12501,25 @@ msgid ""
 "avatar, and ensure that the materials and textures render correctly in "
 "Overte."
 msgstr ""
-"`Blender <https://www.blender.org>`_ es una suite de creación de modelado"
-" 3D de código abierto que admite todo, desde modelado y rigging, hasta "
-"animación y simulación. También puedes usar Blender para ajustar tu "
-"avatar y asegurarte de que los materiales y texturas se representen "
-"correctamente en Overte."
+"`Blender <https://www.blender.org>`_ es una suite de creación de modelado 3D "
+"de código abierto que admite todo, desde modelado y rigging, hasta animación "
+"y simulación. También puedes usar Blender para ajustar tu avatar y "
+"asegurarte de que los materiales y texturas se representen correctamente en "
+"Overte."
 
 #: ../../source/create/tools.rst:61
 msgid "Maya"
 msgstr "Maya"
 
 #: ../../source/create/tools.rst:63
-#, fuzzy
 msgid ""
 "`Maya <https://www.autodesk.in/products/maya/overview>`_ is a "
 "subscription based 3D modeling toolset that you can use to create 3D "
 "models to import into Overte."
 msgstr ""
-"`Maya <https://www.autodesk.in/products/maya/overview>`_ es un conjunto "
-"de herramientas de modelado 3D basado en suscripción que puedes utilizar "
-"para crear modelos 3D para importarlos a Overte."
+"`Maya <https://www.autodesk.in/products/maya/overview>`_ es un conjunto de "
+"herramientas de modelado 3D basado en suscripción que puedes utilizar para "
+"crear modelos 3D para importarlos a Overte."
 
 #: ../../source/create/tools.rst:67
 msgid "Blocks"
@@ -12699,7 +12574,6 @@ msgstr ""
 "/add-wearables)."
 
 #: ../../source/create/wearables.md:10
-#, fuzzy
 msgid ""
 "Before you can use a custom wearable, you must first host its FBX and "
 "JSON files in a place that is publicly accessible to Overte. You can use "
@@ -12707,9 +12581,9 @@ msgid ""
 "Azure, Dropbox, etc."
 msgstr ""
 "Antes de poder usar un wearable personalizado, primero debes alojar tus "
-"archivos FBX y JSON en un lugar que sea de acceso público para Vircadia. "
-"Puedes utilizar cualquier plataforma en la nube, incluidas Amazon S3, "
-"Google Cloud Storage, Microsoft Azure, Dropbox, etc."
+"archivos FBX y JSON en un lugar que sea de acceso público para Overte. "
+"Puedes utilizar cualquier plataforma en la nube, incluidas Amazon S3, Google "
+"Cloud Storage, Microsoft Azure, Dropbox, etc."
 
 #: ../../source/create/wearables.md:12
 msgid "Build a Custom Wearable"
@@ -12800,7 +12674,6 @@ msgstr ""
 "avatar y tener un peso mayor."
 
 #: ../../source/create/wearables.md:31
-#, fuzzy
 msgid ""
 "When building your model, be sure to [follow these guidelines](3d-models"
 "/get-model) to ensure that it is compatible with Overte.  Once you're "
@@ -12808,9 +12681,9 @@ msgid ""
 "now created your own custom model!"
 msgstr ""
 "Cuando crees tu modelo, asegúrate de [seguir estas pautas](3d-models/get-"
-"model) para asegurarte de que sea compatible con Overte. Una vez que "
-"hayas terminado de editar tu modelo, exporta el archivo como un archivo "
-"FBX u OBJ. ¡Ya haz creado tu propio modelo personalizado!"
+"model) para asegurarte de que sea compatible con Overte. Una vez que hayas "
+"terminado de editar tu modelo, exporta el archivo como un archivo FBX u OBJ. "
+"¡Ya haz creado tu propio modelo personalizado!"
 
 #: ../../source/create/wearables.md:33
 msgid ""
@@ -12833,9 +12706,8 @@ msgid "Build from Source"
 msgstr "Compilar desde los Archivos Fuente"
 
 #: ../../source/developer.rst:11
-#, fuzzy
 msgid "Create an Installer"
-msgstr "Crear una Paleta de Pintura"
+msgstr "Crear un Instalador"
 
 #: ../../source/developer.rst:11
 #: ../../source/developer/build/BUILD_LINUX.md:165
@@ -12870,19 +12742,16 @@ msgid "Developer"
 msgstr "Desarrollador"
 
 #: ../../source/developer.rst:5
-#, fuzzy
 msgid ""
 "Developer information such as how to build the project from source, "
 "develop, or technically manage it can be found here."
 msgstr ""
 "Información para el desarrollador referida a la compilación del proyecto "
-"desde las fuentes, desarrollo, o gestión técnica puede ser encontrada "
-"`aquí <https://docs.vircadia.dev/>`_."
+"desde las fuentes, desarrollo, o gestión técnica puede ser encontrada aquí ."
 
 #: ../../source/developer.rst:9
-#, fuzzy
 msgid "Development Instructions"
-msgstr "Desarrollador"
+msgstr "Instrucciones de Desarrollo"
 
 #: ../../source/developer/INSTALLER.md:8
 msgid "Creating an Installer"
@@ -12958,15 +12827,14 @@ msgstr ""
 "\\NSIS`)"
 
 #: ../../source/developer/INSTALLER.md:33
-#, fuzzy
 msgid ""
 "[NSIS Plugins](https://build-deps.overte.org/conan/nsis-overte-plugins"
 "/NSIS-hifi-plugins-1.0.zip) Copy contents to `C:\\Program Files "
 "(x86)\\NSIS\\`. **Alternatively**, install the following:"
 msgstr ""
 "[NSIS Plugins](https://build-deps.overte.org/conan/nsis-overte-plugins/NSIS-"
-"hifi-plugins-1.0.zip) Copie el contenido en `C:\\Program Files (x86)\\NSIS\\`"
-". **Alternativamente**, instale lo siguiente:"
+"hifi-plugins-1.0.zip) Copie el contenido en C:\\Program Files (x86)\\NSIS\\. "
+"**Alternativamente**, instale lo siguiente:"
 
 #: ../../source/developer/INSTALLER.md:36
 msgid ""
@@ -12985,27 +12853,24 @@ msgid "Extract Zip"
 msgstr "Extraer el Zip"
 
 #: ../../source/developer/INSTALLER.md:38
-#, fuzzy
 msgid "Copy `UAC.nsh` to `C:\\Program Files (x86)\\NSIS\\Include\\`"
-msgstr "Copiar `UAC.nsh` a `C:\\Program Files (x86)\\NSIS\\Include\\`"
+msgstr "Copiar `UAC.nsh` a C:\\Program Files (x86)\\NSIS\\Include\\"
 
 #: ../../source/developer/INSTALLER.md:39
-#, fuzzy
 msgid ""
 "Copy `Plugins\\x86-ansi\\UAC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
-"Copiar `Plugins\\x86-ansi\\UAC.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins"
-"\\x86-ansi\\`"
+"Copiar `Plugins\\x86-ansi\\UAC.dll` a C:\\Program Files (x86)\\NSIS\\Plugins"
+"\\x86-ansi\\"
 
 #: ../../source/developer/INSTALLER.md:40
-#, fuzzy
 msgid ""
 "Copy `Plugins\\x86-unicode\\UAC.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
-"Copiar `Plugins\\x86-unicode\\UAC.dll` a `C:\\Program Files (x86)\\NSIS"
-"\\Plugins\\x86-unicode\\`"
+"Copiar `Plugins\\x86-unicode\\UAC.dll` a C:\\Program Files (x86)\\NSIS"
+"\\Plugins\\x86-unicode\\"
 
 #: ../../source/developer/INSTALLER.md:42
 msgid ""
@@ -13017,13 +12882,12 @@ msgstr ""
 "NsProcess_plugin) - 1.6 (use el enlace **nsProcess_1_6.7z**)"
 
 #: ../../source/developer/INSTALLER.md:44
-#, fuzzy
 msgid ""
 "Copy `Include\\nsProcess.nsh` to `C:\\Program Files "
 "(x86)\\NSIS\\Include\\`"
 msgstr ""
 "Copiar`Include\\n"
-"sProcess.nsh` a `C:\\Program Files (x86)\\NSIS\\Include\\`"
+"sProcess.nsh` a C:\\Program Files (x86)\\NSIS\\Include\\"
 
 #: ../../source/developer/INSTALLER.md:45
 #, fuzzy
@@ -13203,7 +13067,6 @@ msgid "Creating the Installer"
 msgstr "Creación del instalador."
 
 #: ../../source/developer/INSTALLER.md:82
-#, fuzzy
 msgid "Perform a clean cmake from a new terminal."
 msgstr "Realizar una Instalación Limpia"
 
@@ -13357,7 +13220,6 @@ msgstr ""
 "[Guía de compilación de macOS](build/BUILD_OSX.md)."
 
 #: ../../source/developer/INSTALLER.md:110
-#, fuzzy
 msgid "Perform a clean CMake in your build folder. e.g."
 msgstr "Realiza un CMake limpio en tu carpeta de compilación, por ejemplo:"
 
@@ -13476,14 +13338,12 @@ msgstr ""
 "verificar en cual distribución Linux la AppImage será capaz de ejecutarse."
 
 #: ../../source/developer/INSTALLER.md:156
-#, fuzzy
 msgid "**Alternatively**, you can also create the AppImage manually:"
-msgstr "Alternativamente, puedes explorar estos enlaces:"
+msgstr "Alternativamente, puede crear la AppImage manualmente:"
 
 #: ../../source/developer/INSTALLER.md:158
-#, fuzzy
 msgid "Build Interface"
-msgstr "Interfaz"
+msgstr "Compilar las Interfaz"
 
 #: ../../source/developer/INSTALLER.md:163
 msgid ""
@@ -13513,14 +13373,12 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:174
 #: ../../source/developer/build/BUILD_LINUX.md:156
 #: ../../source/release-notes/v86-k2.md:58
-#, fuzzy
 msgid "Server"
 msgstr "Servidor"
 
 #: ../../source/developer/INSTALLER.md:176
-#, fuzzy
 msgid "Debian package"
-msgstr "Empaquetador de Avatar"
+msgstr "Paquete Debian"
 
 #: ../../source/developer/INSTALLER.md:178
 msgid "Building Overte server Debian packages using Docker"
@@ -13546,25 +13404,21 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:185
 #: ../../source/developer/INSTALLER.md:214
-#, fuzzy
 msgid "Prepare build environment"
-msgstr "Crea un Ambiente"
+msgstr "Preparar el ambiente de compilación"
 
 #: ../../source/developer/INSTALLER.md:194
 #: ../../source/developer/INSTALLER.md:223
-#, fuzzy
 msgid "Build"
-msgstr "Tipo de build"
+msgstr "Compilar"
 
 #: ../../source/developer/INSTALLER.md:199
-#, fuzzy
 msgid "Create Debian package"
-msgstr "Crear un Paquete de Avatar"
+msgstr "Crear un Paquete Debian"
 
 #: ../../source/developer/INSTALLER.md:205
-#, fuzzy
 msgid "RPM package"
-msgstr "Empaquetador de Avatar"
+msgstr "Paquete RPM"
 
 #: ../../source/developer/INSTALLER.md:207
 msgid "Building Overte server RPM packages using Docker"
@@ -13589,9 +13443,8 @@ msgstr ""
 "overte -it overte/overte-server-build:0.1.2-fedora-36-amd64`"
 
 #: ../../source/developer/INSTALLER.md:228
-#, fuzzy
 msgid "Create RPM package"
-msgstr "Crear un Paquete de Avatar"
+msgstr "Crear un Paquete RPM"
 
 #: ../../source/developer/assignment-client.rst:5
 #: ../../source/developer/assignment-client/command-line-parameters.md:1
@@ -13599,9 +13452,8 @@ msgstr "Crear un Paquete de Avatar"
 #: ../../source/developer/domain-server/command-line-parameters.md:1
 #: ../../source/developer/interface.rst:5
 #: ../../source/developer/interface/command-line-parameters.md:1
-#, fuzzy
 msgid "Command Line Parameters"
-msgstr "Hacer Actualizaciones en Vivo"
+msgstr "Parámetros de línea de comando"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:3
 msgid "You can launch an assignment-client with these parameters."
@@ -13609,7 +13461,6 @@ msgstr "Puede lanzar un cliente con estos parámetros."
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:5
 #: ../../source/developer/domain-server/command-line-parameters.md:5
-#, fuzzy
 msgid "Displays help information"
 msgstr "Mostrar información de ayuda"
 
@@ -13620,9 +13471,8 @@ msgid "Displays version information"
 msgstr "Muestra información sobre la versión"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:13
-#, fuzzy
 msgid "Assignment client type"
-msgstr "Cliente de Asignación"
+msgstr "Tipo Cliente de Asignación"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:17
 #, fuzzy
@@ -13645,41 +13495,34 @@ msgid "3 = asset-server"
 msgstr "3 = asset-server"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:21
-#, fuzzy
 msgid "4 = message-mixer"
 msgstr "4 = message-mixer"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:22
-#, fuzzy
 msgid "5 = entity-script-server"
 msgstr "5 = entity-script-server"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:23
-#, fuzzy
 msgid "6 = entity-server"
 msgstr "6 = entity-server"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:25
-#, fuzzy
 msgid "Assignment pool"
-msgstr "Cliente de Asignación"
+msgstr "Área de Asignación"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:29
-#, fuzzy
 msgid "Assignment client UDP port"
-msgstr "Scripts de Asignación de Clientes"
+msgstr "Asignación de puerto UDP del cliente"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:33
 msgid "Wallet destination"
 msgstr "Wallet destino"
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:37
-#, fuzzy
 msgid "Assignment server hostname"
-msgstr "Hostname del servidor de asignación"
+msgstr ""
 
 #: ../../source/developer/assignment-client/command-line-parameters.md:41
-#, fuzzy
 msgid "Assignment server port"
 msgstr "Puerto del servidor de asignación"
 
@@ -13717,9 +13560,8 @@ msgstr "Información general sobre la generación del programa"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_WIN.md:8
-#, fuzzy
 msgid "Build Windows"
-msgstr "Windows"
+msgstr "Compilar para Windows"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_LINUX.md:8
@@ -13727,15 +13569,13 @@ msgid "Build Linux"
 msgstr "Generar para Linux"
 
 #: ../../source/developer/build.rst:7
-#, fuzzy
 msgid "Build OSX"
-msgstr "Tipo de build"
+msgstr "Compilar para OSX"
 
 #: ../../source/developer/build.rst:7
 #: ../../source/developer/build/BUILD_ANDROID.md:8
-#, fuzzy
 msgid "Build Android"
-msgstr "Androide"
+msgstr "Compilar para Android"
 
 #: ../../source/developer/build.rst:3
 msgid "Building Overte"
@@ -13778,7 +13618,6 @@ msgid "Dependencies"
 msgstr "Dependencias"
 
 #: ../../source/developer/build/BUILD.md:20
-#, fuzzy
 msgid "[git](https://git-scm.com/downloads): >= 1.6"
 msgstr "[git](https://git-scm.com/downloads): >= 1.6"
 
@@ -13787,7 +13626,6 @@ msgid "[CMake](https://cmake.org/download/):  3.9 (or greater up to latest 3.x.x
 msgstr "[CMake](https://cmake.org/download/): 3.9 (o superior a 3.x.x)"
 
 #: ../../source/developer/build/BUILD.md:22
-#, fuzzy
 msgid "[Conan](https://conan.io/downloads): 2.x"
 msgstr "[Conan](https://conan.io/downloads): 2.x"
 
@@ -13796,7 +13634,6 @@ msgid "[Python](https://www.python.org/downloads/): 3.6 or higher"
 msgstr "[Python](https://www.python.org/downloads/): 3.6 o superior"
 
 #: ../../source/developer/build/BUILD.md:24
-#, fuzzy
 msgid "[Node.JS](https://nodejs.org/en/): >= 12.13.1 LTS"
 msgstr "[Node.JS](https://nodejs.org/en/): >= 12.13.1 LTS"
 
@@ -13807,9 +13644,8 @@ msgstr ""
 "autocompletado de scripts."
 
 #: ../../source/developer/build/BUILD.md:27
-#, fuzzy
 msgid "Conan Dependencies"
-msgstr "Independent Mode"
+msgstr "Dependencias de Conan"
 
 #: ../../source/developer/build/BUILD.md:28
 msgid ""
@@ -13822,7 +13658,6 @@ msgstr ""
 "completa de las dependencias."
 
 #: ../../source/developer/build/BUILD.md:31
-#, fuzzy
 msgid "CMake"
 msgstr "CMake"
 
@@ -13835,7 +13670,6 @@ msgstr ""
 "proyecto para su plataforma."
 
 #: ../../source/developer/build/BUILD.md:35
-#, fuzzy
 msgid "Conan"
 msgstr "Conan"
 
@@ -13872,7 +13706,6 @@ msgid "Linux:"
 msgstr "Linux:"
 
 #: ../../source/developer/build/BUILD.md:51
-#, fuzzy
 msgid "Windows:"
 msgstr "Windows:"
 
@@ -13889,14 +13722,12 @@ msgid "Generating Build Files"
 msgstr "Generando los archivos de compilación"
 
 #: ../../source/developer/build/BUILD.md:60
-#, fuzzy
 msgid "Possible Environment Variables"
-msgstr "Quita las variables de entorno asociadas."
+msgstr "Posibles variables de entorno"
 
 #: ../../source/developer/build/BUILD.md:78
-#, fuzzy
 msgid "Possible CMake Variables"
-msgstr "Quita las variables de entorno asociadas."
+msgstr "Posible variables CMake"
 
 #: ../../source/developer/build/BUILD.md:96
 msgid "Generate Files"
@@ -13911,9 +13742,8 @@ msgstr ""
 "compilación, intenta eliminar `CMakeCache.txt`."
 
 #: ../../source/developer/build/BUILD.md:105
-#, fuzzy
 msgid "Finding Dependencies"
-msgstr "Independent Mode"
+msgstr "Encontrando dependencias"
 
 #: ../../source/developer/build/BUILD.md:107
 msgid "The following applies for dependencies we do not grab via Conan."
@@ -13976,36 +13806,30 @@ msgstr ""
 "Se pueden utilizar las siguientes opciones de compilación al ejecutar CMake"
 
 #: ../../source/developer/build/BUILD.md:123
-#, fuzzy
 msgid "OVERTE_BUILD_CLIENT"
 msgstr "OVERTE_BUILD_CLIENT"
 
 #: ../../source/developer/build/BUILD.md:124
-#, fuzzy
 msgid "OVERTE_BUILD_SERVER"
 msgstr "OVERTE_BUILD_SERVER"
 
 #: ../../source/developer/build/BUILD.md:125
-#, fuzzy
 msgid "OVERTE_BUILD_TESTS"
-msgstr "BUILD_TESTS"
+msgstr "OVERTE_BUILD_TESTS"
 
 #: ../../source/developer/build/BUILD.md:126
-#, fuzzy
 msgid "OVERTE_BUILD_TOOLS"
-msgstr "BUILD_TOOLS"
+msgstr "OVERTE_BUILD_TOOLS"
 
 #: ../../source/developer/build/BUILD.md:128
 msgid "Developer Build Options"
 msgstr "Opciones de Compilación del Desarrollador"
 
 #: ../../source/developer/build/BUILD.md:130
-#, fuzzy
 msgid "OVERTE_RENDERING_BACKEND"
 msgstr "OVERTE_RENDERING_BACKEND"
 
 #: ../../source/developer/build/BUILD.md:131
-#, fuzzy
 msgid "OVERTE_DISABLE_QML"
 msgstr "OVERTE_DISABLE_QML"
 
@@ -14081,7 +13905,6 @@ msgstr ""
 "Android."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:24
-#, fuzzy
 msgid "Android Studio"
 msgstr "Android Studio"
 
@@ -14102,21 +13925,18 @@ msgid "From the _SDK Platforms_ tab, select API levels 26 and 28."
 msgstr "Desde la pestaña _SDK Platforms_, seleccione los API Levels 26 y 28."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:30
-#, fuzzy
 msgid "From the _SDK Tools_ tab, select the following"
-msgstr "Ve a la pestaña de \"Properties\", y establece los siguientes valores:"
+msgstr "Desde la pestaña _SDK Tools_, seleccione"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:32
 msgid "Android SDK Build-Tools"
 msgstr "Herramientas de compilación del SDK de Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:33
-#, fuzzy
 msgid "GPU Debugging Tools"
-msgstr "Depuración de Sombreadores"
+msgstr "Herramientas de depuración de GPU"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:34
-#, fuzzy
 msgid "LLDB"
 msgstr "LLDB"
 
@@ -14166,9 +13986,8 @@ msgstr ""
 "problemas conocidos con cz.malohlava."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:45
-#, fuzzy
 msgid "Environment"
-msgstr "Entornos"
+msgstr "Entorno"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:47
 msgid "Create a keystore in Android Studio"
@@ -14347,9 +14166,8 @@ msgid "Your configuration should be as follows"
 msgstr "Su configuración debe ser"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:116
-#, fuzzy
 msgid "Type: Android App"
-msgstr "Consigue tu App para Android"
+msgstr "Tipo: App para Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:117
 msgid "Module: <your module> (you probably want `interface` or `questInterface`)"
@@ -14362,9 +14180,8 @@ msgstr ""
 "desea iniciar."
 
 #: ../../source/developer/build/BUILD_ANDROID.md:121
-#, fuzzy
 msgid "For the Android phone interface"
-msgstr "Uso de la Interfaz de Línea de Comandos"
+msgstr "Para la Interfaz Android"
 
 #: ../../source/developer/build/BUILD_ANDROID.md:123
 #: ../../source/developer/build/BUILD_ANDROID.md:128
@@ -14599,7 +14416,6 @@ msgstr ""
 "por Conan."
 
 #: ../../source/developer/build/BUILD_LINUX.md:44
-#, fuzzy
 msgid "OpenGL:"
 msgstr "OpenGL:"
 
@@ -14619,7 +14435,6 @@ msgid "Then run `glxinfo | grep \"OpenGL version\"`."
 msgstr "Luego ejecute `glxinfo | grep \"OpenGL version\"`."
 
 #: ../../source/developer/build/BUILD_LINUX.md:53
-#, fuzzy
 msgid "QT 5:"
 msgstr "QT 5:"
 
@@ -14728,12 +14543,10 @@ msgstr ""
 "núcleos, usted podría utilizar:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:177
-#, fuzzy
 msgid "Running the software"
-msgstr "Ejecuta el instalador."
+msgstr "Ejecuta el instalador"
 
 #: ../../source/developer/build/BUILD_LINUX.md:179
-#, fuzzy
 msgid "Domain server"
 msgstr "Servidor de Dominio"
 
@@ -14742,7 +14555,6 @@ msgid "Running Domain server:"
 msgstr "Ejecutando el Servidor de Dominio:"
 
 #: ../../source/developer/build/BUILD_LINUX.md:186
-#, fuzzy
 msgid "Assignment clients"
 msgstr "Clientes de Asignación"
 
@@ -14803,7 +14615,6 @@ msgstr ""
 "[Github](https://github.com/Kitware/CMake/releases)."
 
 #: ../../source/developer/build/BUILD_OSX.md:26
-#, fuzzy
 msgid "Python 3"
 msgstr "Python 3"
 
@@ -14818,7 +14629,6 @@ msgstr ""
 "que se proporciona con el instalador."
 
 #: ../../source/developer/build/BUILD_OSX.md:31
-#, fuzzy
 msgid "macOS SDK"
 msgstr "macOS SDK"
 
@@ -14837,7 +14647,6 @@ msgstr ""
 "directorio SDK de Xcode, por ejemplo."
 
 #: ../../source/developer/build/BUILD_OSX.md:39
-#, fuzzy
 msgid "OpenSSL"
 msgstr "OpenSSL"
 
@@ -14865,7 +14674,6 @@ msgid "You can choose to use either Unix Makefiles or Xcode."
 msgstr "Puede seleccionar entre usar Unix Makefiles o Xcode."
 
 #: ../../source/developer/build/BUILD_OSX.md:48
-#, fuzzy
 msgid "Xcode"
 msgstr "Xcode"
 
@@ -14904,7 +14712,6 @@ msgstr ""
 "${target_name}/Debug`."
 
 #: ../../source/developer/build/BUILD_OSX.md:62
-#, fuzzy
 msgid "make"
 msgstr "make"
 
@@ -15283,9 +15090,8 @@ msgid "Set \"Variable name\": `_NO_DEBUG_HEAP`"
 msgstr "Establezca \"Variable name\": `_NO_DEBUG_HEAP`"
 
 #: ../../source/developer/build/BUILD_WIN.md:116
-#, fuzzy
 msgid "Set \"Variable value\": `1`"
-msgstr "Conjunto de Valores del Material en Maya"
+msgstr "Coloque \"Variable value\": `1`"
 
 #: ../../source/developer/build/BUILD_WIN.md:118
 msgid "Restart Visual Studio again."
@@ -15412,24 +15218,20 @@ msgid "Override the default statistics exporter port."
 msgstr "Reemplaza el puerto predeterminado del exportador de estadísticas."
 
 #: ../../source/developer/domain-server/environment-variables.md:37
-#, fuzzy
 msgid "Override the default metadata exporter port."
-msgstr "Exportador de Avatares de Overte para Unity"
+msgstr "Sobreescriba el puerto del exportador de metadatos predeterminado."
 
 #: ../../source/developer/interface.rst:5
-#, fuzzy
 msgid "Debugging"
-msgstr "Debug"
+msgstr "Depuración"
 
 #: ../../source/developer/interface/command-line-parameters.md:3
-#, fuzzy
 msgid "You can launch Interface with the following parameters."
-msgstr "Puedes editar las siguientes propiedades de animación:"
+msgstr "Puede ejecutar la Interfaz con los siguientes parámetros."
 
 #: ../../source/developer/interface/command-line-parameters.md:5
-#, fuzzy
 msgid "Displays help dialog"
-msgstr "Complemento de visualización"
+msgstr "Mostrar el cuadro de diálogo de ayuda"
 
 #: ../../source/developer/interface/command-line-parameters.md:13
 msgid "Start up at specified URL location"
@@ -15448,9 +15250,8 @@ msgid "Checks to see if the machine meets the minimum specification requirements
 msgstr "Verifica si el equipo cumple con los requisitos mínimos del sistema."
 
 #: ../../source/developer/interface/command-line-parameters.md:29
-#, fuzzy
 msgid "Whether to run the server"
-msgstr "Para ejecutar el script:"
+msgstr "Para ejecutar el script"
 
 #: ../../source/developer/interface/command-line-parameters.md:33
 msgid "Port to listen on. (Needs clarification!)"
@@ -16846,92 +16647,74 @@ msgid "``W`` or ``UP ARROW``"
 msgstr "``W`` o ``FLECHA ARRIBA``"
 
 #: ../../source/explore/get-started/desktop.rst:23
-#, fuzzy
 msgid "Walk Backward"
 msgstr "Caminar hacia Atrás"
 
 #: ../../source/explore/get-started/desktop.rst:23
-#, fuzzy
 msgid "``S`` or ``DOWN ARROW``"
 msgstr "``S`` o ``FLECHA ABAJO``"
 
 #: ../../source/explore/get-started/desktop.rst:25
-#, fuzzy
 msgid "Run"
 msgstr "Ejecutar"
 
 #: ../../source/explore/get-started/desktop.rst:25
-#, fuzzy
 msgid "Hold ``SHIFT`` while using any shortcut to walk"
 msgstr "Mantén presionado ``SHIFT`` mientras usas cualquier tecla para caminar"
 
 #: ../../source/explore/get-started/desktop.rst:27
-#, fuzzy
 msgid "Side Step to the Left"
 msgstr "Paso Lateral a la Izquierda"
 
 #: ../../source/explore/get-started/desktop.rst:27
-#, fuzzy
 msgid "``Q`` or Right Click + ``A``  or ``SHIFT`` + ``LEFT ARROW``"
 msgstr "``Q`` o Click Derecho + ``A`` o ``SHIFT`` + ``FLECHA IZQUIERDA``"
 
 #: ../../source/explore/get-started/desktop.rst:29
-#, fuzzy
 msgid "Side Step to the Right"
 msgstr "Paso Lateral a la Derecha"
 
 #: ../../source/explore/get-started/desktop.rst:29
-#, fuzzy
 msgid "``E`` or Right Click + ``D`` or ``SHIFT`` + ``RIGHT ARROW``"
 msgstr "``E`` o Click Derecho + ``D`` o ``SHIFT`` + ``FLECHA DERECHA``"
 
 #: ../../source/explore/get-started/desktop.rst:31
-#, fuzzy
 msgid "Turn Left"
 msgstr "Giro a la Izquierda"
 
 #: ../../source/explore/get-started/desktop.rst:31
-#, fuzzy
 msgid "``A`` or ``LEFT ARROW``"
 msgstr "``A`` o ``FLECHA IZQUIERDA``"
 
 #: ../../source/explore/get-started/desktop.rst:33
-#, fuzzy
 msgid "Turn Right"
 msgstr "Giro a la Derecha"
 
 #: ../../source/explore/get-started/desktop.rst:33
-#, fuzzy
 msgid "``D`` or ``RIGHT ARROW``"
 msgstr "``D`` o ``FLECHA DERECHA``"
 
 #: ../../source/explore/get-started/desktop.rst:35
-#, fuzzy
 msgid "Jump"
 msgstr "Salto"
 
 #: ../../source/explore/get-started/desktop.rst:35
-#, fuzzy
 msgid "``SPACE`` or ``PGUP``"
 msgstr "``ESPACIO`` o ``PGUP``"
 
 #: ../../source/explore/get-started/desktop.rst:37
-#, fuzzy
 msgid "Fly"
-msgstr "Mosca"
+msgstr "Volar"
 
 #: ../../source/explore/get-started/desktop.rst:37
-#, fuzzy
 msgid "Hold ``SPACE`` or ``PGUP``"
 msgstr "Mantener ``ESPACIO`` o ``PGUP``"
 
 #: ../../source/explore/get-started/desktop.rst:39
-#, fuzzy
 msgid "Fly Down"
 msgstr "Volar hacia Abajo"
 
 #: ../../source/explore/get-started/desktop.rst:39
-#, fuzzy
 msgid "``C`` or ``PGDN``"
 msgstr "``C`` o ``PGDN``"
 
@@ -16941,106 +16724,86 @@ msgid "``X``"
 msgstr "``X``"
 
 #: ../../source/explore/get-started/desktop.rst:51
-#, fuzzy
 msgid "Toggle Privacy Shield"
 msgstr "Alternar Escudo de Privacidad"
 
 #: ../../source/explore/get-started/desktop.rst:51
-#, fuzzy
 msgid "``CTRL`` + ``N``"
 msgstr "``CTRL`` + ``N``"
 
 #: ../../source/explore/get-started/desktop.rst:53
-#, fuzzy
 msgid "Open Tablet"
 msgstr "Abrir Tableta"
 
 #: ../../source/explore/get-started/desktop.rst:53
-#, fuzzy
 msgid "``TAB`` *(when 'Desktop becomes toolbar' is not checked)*"
 msgstr ""
-"``TAB`` *(cuando \"El escritorio se convierte en barra de herramientas\" "
-"no está marcado)*"
+"``TAB`` *(cuando \"El escritorio se convierte en barra de herramientas\" no "
+"está marcado)*"
 
 #: ../../source/explore/get-started/desktop.rst:55
-#, fuzzy
 msgid "Select Item"
 msgstr "Seleccionar Item"
 
 #: ../../source/explore/get-started/desktop.rst:55
 #: ../../source/explore/get-started/desktop.rst:57
-#, fuzzy
 msgid "Left Click"
 msgstr "Click Izquierdo"
 
 #: ../../source/explore/get-started/desktop.rst:57
-#, fuzzy
 msgid "Grab Item"
 msgstr "Agarrar Item"
 
 #: ../../source/explore/get-started/desktop.rst:59
-#, fuzzy
 msgid "Inspect Item"
 msgstr "Inspeccionar Item"
 
 #: ../../source/explore/get-started/desktop.rst:59
-#, fuzzy
 msgid "Right Click"
 msgstr "Click Derecho"
 
 #: ../../source/explore/get-started/desktop.rst:61
-#, fuzzy
 msgid "Open Browser"
 msgstr "Abrir Navegador"
 
 #: ../../source/explore/get-started/desktop.rst:61
-#, fuzzy
 msgid "``CTRL`` + ``B``"
 msgstr "``CTRL`` + ``B``"
 
 #: ../../source/explore/get-started/desktop.rst:63
-#, fuzzy
 msgid "Toggle 'Away from Keyboard'"
 msgstr "Alternar \"Lejos del teclado\""
 
 #: ../../source/explore/get-started/desktop.rst:63
-#, fuzzy
 msgid "``ESC``"
 msgstr "``ESC``"
 
 #: ../../source/explore/get-started/desktop.rst:65
-#, fuzzy
 msgid "Toggle 'Mute Mic'"
 msgstr "Alternar \"Silenciar Micrófono\""
 
 #: ../../source/explore/get-started/desktop.rst:65
-#, fuzzy
 msgid "``CTRL`` + ``M``"
 msgstr "``CTRL`` + ``M``"
 
 #: ../../source/explore/get-started/desktop.rst:67
-#, fuzzy
 msgid "Toggle 'Show Statistics'"
 msgstr "Alternar \"Mostrar Estadísticas\""
 
 #: ../../source/explore/get-started/desktop.rst:67
-#, fuzzy
 msgid "``/``"
 msgstr "``/``"
 
 #: ../../source/explore/get-started/desktop.rst:69
-#, fuzzy
 msgid "Screenshot"
 msgstr "Captura de Pantalla"
 
 #: ../../source/explore/get-started/desktop.rst:69
 #: ../../source/explore/get-started/desktop.rst:91
-#, fuzzy
 msgid "``P``"
 msgstr "``P``"
 
 #: ../../source/explore/get-started/desktop.rst:71
-#, fuzzy
 msgid "Push to Talk"
 msgstr "Presionar-para-hablar"
 
