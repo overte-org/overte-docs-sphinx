@@ -15251,7 +15251,7 @@ msgstr "Verifica si el equipo cumple con los requisitos mínimos del sistema."
 
 #: ../../source/developer/interface/command-line-parameters.md:29
 msgid "Whether to run the server"
-msgstr "Para ejecutar el script"
+msgstr "Si se debe ejecutar el servidor"
 
 #: ../../source/developer/interface/command-line-parameters.md:33
 msgid "Port to listen on. (Needs clarification!)"
