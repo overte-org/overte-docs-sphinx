@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-06-15 16:35+0000\n"
-"PO-Revision-Date: 2025-07-28 03:41+0000\n"
+"PO-Revision-Date: 2025-07-28 03:47+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
@@ -4096,12 +4096,11 @@ msgid "Method"
 msgstr "Método"
 
 #: ../../source/create/avatars/custom-animations.rst:81
-#, fuzzy
 msgid ""
 "`MyAvatar.overrideAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.overrideAnimation>`_"
 msgstr ""
-"`MyAvatar.overrideAnimation <https://apidocs.overte.org/"
+"`MyAvatar.overrideAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.overrideAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:81
@@ -4123,7 +4122,7 @@ msgid ""
 "`AnimationCache.prefetch <https://apidocs.overte.org/ "
 "AnimationCache.html#.prefetch>`_"
 msgstr ""
-"`AnimationCache.prefetch <https://apidocs.overte.org/"
+"`AnimationCache.prefetch <https://apidocs.overte.org/ "
 "AnimationCache.html#.prefetch>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:86
@@ -4139,12 +4138,11 @@ msgstr ""
 "una pose en T brevemente mientras se descarga la animación."
 
 #: ../../source/create/avatars/custom-animations.rst:91
-#, fuzzy
 msgid ""
 "`MyAvatar.restoreAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.restoreAnimation>`_"
 msgstr ""
-"`MyAvatar.restoreAnimation <https://apidocs.overte.org/"
+"`MyAvatar.restoreAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.restoreAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:91
@@ -4638,15 +4636,13 @@ msgid "Examples"
 msgstr "Ejemplos"
 
 #: ../../source/create/avatars/custom-animations.rst:234
-#, fuzzy
 msgid ""
 "Here is the current default `avatar-animation.json <https://github.com"
 "/overte-org/overte/blob/master/interface/resources/avatar/avatar-"
 "animation.json>`_ file."
 msgstr ""
 "Aquí está el archivo `avatar-animation.json <https://github.com/overte-org/"
-"overte/blob/master/interface/resources/avatar/avatar-animation.json>` "
-"predeterminado actual."
+"overte/blob/master/interface/resources/avatar/avatar-animation.json>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:235
 msgid ""
@@ -12890,25 +12886,22 @@ msgstr ""
 "sProcess.nsh` a C:\\Program Files (x86)\\NSIS\\Include\\"
 
 #: ../../source/developer/INSTALLER.md:45
-#, fuzzy
 msgid ""
 "Copy `Plugins\\nsProcess.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 "Copiar `Plugins\\n"
-"sProcess.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
+"sProcess.dll` a C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\"
 
 #: ../../source/developer/INSTALLER.md:46
-#, fuzzy
 msgid ""
 "Copy `Plugins\\nsProcessW.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
 "Copiar `Plugins\\n"
-"sProcessW.dll` a `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\`"
+"sProcessW.dll` a C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\"
 
 #: ../../source/developer/INSTALLER.md:48
-#, fuzzy
 msgid ""
 "[InetC Plug-in for Nullsoft](http://nsis.sourceforge.net/Inetc_plug-in) -"
 " 1.0"
@@ -15328,9 +15321,8 @@ msgstr ""
 "excepto en Android, donde es 4."
 
 #: ../../source/developer/interface/command-line-parameters.md:89
-#, fuzzy
 msgid "Override the avatar URL"
-msgstr "Otros Avatares (Other Avatars)"
+msgstr "Sobrescribir la URL del avatar"
 
 #: ../../source/developer/interface/command-line-parameters.md:93
 msgid ""
@@ -15357,9 +15349,8 @@ msgid "Force enable crash reporting for the Interface."
 msgstr "Forzar los informes de fallos para la interfaz."
 
 #: ../../source/developer/interface/debugging.md:1
-#, fuzzy
 msgid "Debugging Tips"
-msgstr "Depuración de Sombreadores"
+msgstr "Tips de depuración"
 
 #: ../../source/developer/interface/debugging.md:5
 msgid "Visual Studio"
@@ -15498,7 +15489,6 @@ msgid "Gallery"
 msgstr "Galería"
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
-#, fuzzy
 msgid "Get Started with Overte"
 msgstr "Comenzar con Overte"
 
@@ -15523,7 +15513,6 @@ msgid "Explore"
 msgstr "Explora"
 
 #: ../../source/explore.rst:5
-#, fuzzy
 msgid ""
 "Overte is a virtual worlds software where you can connect and create with"
 " others. We invite you to explore the worlds created in Overte and "
@@ -15532,13 +15521,12 @@ msgid ""
 "immersive and interactive experience with realistic visuals and audio."
 msgstr ""
 "Overte es un metaverso al que puedes conectarte y crear con otros. Te "
-"invitamos a explorar los mundos creados en Overte e interactuar con otros"
-" usuarios. Puedes visitar mundos virtuales de amigos, conocer gente, ir a"
-" eventos, y aprender sobre la creación en un entorno virtual. Es una "
+"invitamos a explorar los mundos creados en Overte e interactuar con otros "
+"usuarios. Puedes visitar mundos virtuales de amigos, conocer gente, ir a "
+"eventos, y aprender sobre la creación en un entorno virtual. Es una "
 "experiencia inmersiva e interactiva con visualización y audio realistas."
 
 #: ../../source/explore.rst:7
-#, fuzzy
 msgid ""
 "If it's your first time using Overte, you'll start your journey in a "
 "local tutorial space by yourself, where you can experiment with the "
@@ -15547,9 +15535,9 @@ msgid ""
 " metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
 msgstr ""
-"Si es tu primera vez usando Overte, puedes empezar tu viaje en un "
-"tutorial en un espacio local por ti mismo, donde puedes experimentar con "
-"los controles y aprender sobre la Interfaz. Cuando estés listo, prueba a "
+"Si es tu primera vez usando Overte, puedes empezar tu viaje en un tutorial "
+"en un espacio local por ti mismo, donde puedes experimentar con los "
+"controles y aprender sobre la Interfaz. Cuando estés listo, prueba a "
 "explorar otros Dominios usando la app de Exploración y socializar con "
 "personas alrededor del metaverso. Si visitaste Overte antes, volverás al "
 "lugar que visitaste por última vez."
@@ -15561,7 +15549,6 @@ msgstr ""
 "exploración:"
 
 #: ../../source/explore/gallery.rst:5
-#, fuzzy
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
@@ -15596,11 +15583,8 @@ msgid "Group photo at the end of Startup Asia X, 12th June 2020."
 msgstr "Foto grupal durante el final de la Startup Asia X, 12 de Junio de 2020."
 
 #: ../../source/explore/gallery.rst:29
-#, fuzzy
 msgid "Developer Meeting 20th September 2020"
-msgstr ""
-"Dale Glass hablando en la reunión de desarrolladores (Developer Meeting),"
-" 20 de Septiembre de 2020."
+msgstr "Developer Meeting, 20 de Septiembre de 2020."
 
 #: ../../source/explore/gallery.rst:33
 msgid "Dale Glass speaking at the Developer Meeting, 20th September 2020."
@@ -15617,9 +15601,8 @@ msgid "Mannequin army, 13th July 2020."
 msgstr "Ejército de Maniquíes, 13 de Julio de 2020."
 
 #: ../../source/explore/gallery.rst:43
-#, fuzzy
 msgid "Pictionary 5th July 2020"
-msgstr "Pictionary en el antiguo Hub, 5 de julio de 2020."
+msgstr "Pictionary en el antiguo Hub, 5 de julio de 2020"
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary in the old Hub, 5th July 2020."
@@ -15634,9 +15617,8 @@ msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
 msgstr "Vircadia ejecutándose sobre Linux Mint 19.3, 29 de Septiembre de 2020."
 
 #: ../../source/explore/gallery.rst:60
-#, fuzzy
 msgid ":doc:`Install Overte <get-started/install>`"
-msgstr ":doc:`Instala Overte <get-started/install>`"
+msgstr ":doc:`Instalar Overte <get-started/install>`"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
@@ -15699,16 +15681,14 @@ msgstr ""
 "totalmente cierto en nuestro caso)"
 
 #: ../../source/explore/get-started/adjust-settings.rst:9
-#, fuzzy
 msgid ""
 "You can adjust various settings in Overte so that it runs to your "
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
-"Puedes ajustar varias configuraciones en Overte para que se ejecute según"
-" tus preferencias. Muchas de estas configuraciones se cambian utilizando "
-"el HUD (en el modo de escritorio) o la Tableta (en el modo de realidad "
-"virtual)."
+"Puedes ajustar varias configuraciones en Overte para que se ejecute según "
+"tus preferencias. Muchas de estas configuraciones se cambian utilizando el "
+"HUD (en el modo de escritorio) o la Tableta (en el modo de realidad virtual)."
 
 #: ../../source/explore/get-started/adjust-settings.rst:16
 msgid "The Tablet and HUD"
@@ -15748,7 +15728,6 @@ msgid "Enter or Exit VR Mode"
 msgstr "Entrar o Salir del Modo VR"
 
 #: ../../source/explore/get-started/adjust-settings.rst:30
-#, fuzzy
 msgid ""
 "You can enjoy Overte with or with VR equipment such as head mounted "
 "displays (HMD), hand controllers and audio headsets. Our Desktop mode "
@@ -15756,10 +15735,10 @@ msgid ""
 "gestures, and the ability to travel to different domains."
 msgstr ""
 "Puedes disfrutar de Overte con o sin equipos de realidad virtual, como "
-"pantallas montadas en la cabeza (HMD), controladores de mano y "
-"auriculares de audio. Nuestro modo de escritorio contiene muchas de las "
-"funciones de Overte, como audio, movimientos y gestos básicos, y la "
-"capacidad de viajar a diferentes dominios."
+"pantallas montadas en la cabeza (HMD), controladores de mano y auriculares "
+"de audio. Nuestro modo de escritorio contiene muchas de las funciones de "
+"Overte, como audio, movimientos y gestos básicos, y la capacidad de viajar a "
+"diferentes dominios."
 
 #: ../../source/explore/get-started/adjust-settings.rst:32
 msgid ""
@@ -15821,15 +15800,14 @@ msgid "First Person"
 msgstr "First Person"
 
 #: ../../source/explore/get-started/adjust-settings.rst:51
-#, fuzzy
 msgid ""
 "Select this setting if you want to change your perspective in Overte to "
 "first person. In this view, you will not see yourself, only the "
 "environment around you."
 msgstr ""
-"Selecciona esta configuración si quieres cambiar tu perspectiva en Overte"
-" a primera persona. En esta vista, no te verás a tí mismo, solo el "
-"entorno que te rodea."
+"Selecciona esta configuración si quieres cambiar tu perspectiva en Overte a "
+"primera persona. En esta vista, no te verás a tí mismo, solo el entorno que "
+"te rodea."
 
 #: ../../source/explore/get-started/adjust-settings.rst:54
 msgid "Third Person"
@@ -15897,13 +15875,12 @@ msgid "General Settings"
 msgstr "Configuraciones Generales"
 
 #: ../../source/explore/get-started/adjust-settings.rst:76
-#, fuzzy
 msgid ""
 "You can modify general settings such user interface and privacy settings "
 "in Overte."
 msgstr ""
-"Puedes modificar la configuración general, como la interfaz de usuario y "
-"la configuración de privacidad en Overte."
+"Puedes modificar la configuración general, como la interfaz de usuario y la "
+"configuración de privacidad en Overte."
 
 #: ../../source/explore/get-started/adjust-settings.rst:78
 msgid ""
@@ -15922,7 +15899,6 @@ msgid "In-World Graphics Settings"
 msgstr "Configuraciones Gráficas en el Mundo"
 
 #: ../../source/explore/get-started/adjust-settings.rst:87
-#, fuzzy
 msgid "You can make changes to the graphics in Overte."
 msgstr "Puedes realizar cambios a los gráficos en Overte."
 
@@ -15960,61 +15936,56 @@ msgid "World Detail"
 msgstr "World Detail"
 
 #: ../../source/explore/get-started/adjust-settings.rst:100
-#, fuzzy
 msgid ""
 "Control the level of detail visible to you in Overte by moving this "
 "slider."
 msgstr ""
-"Controla el nivel de detalle visible para ti en Overte moviendo este "
-"control deslizante."
+"Controla el nivel de detalle visible para ti en Overte moviendo este control "
+"deslizante."
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
 msgid "Rendering Effects"
 msgstr "Efectos de Renderizado"
 
 #: ../../source/explore/get-started/adjust-settings.rst:102
-#, fuzzy
 msgid ""
 "Choose the level of rendering effects that are present in Overte. Local "
 "lights, fog, bloom, and shadows are all examples of rendering effects."
 msgstr ""
-"Elije el nivel de efectos de renderizado que están presentes en Overte. "
-"Las luces locales, la niebla, la floración y las sombras son ejemplos de "
-"efectos de renderizado."
+"Elije el nivel de efectos de renderizado que están presentes en Overte. Las "
+"luces locales, la niebla, la floración y las sombras son ejemplos de efectos "
+"de renderizado."
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
 msgid "Refresh Rate"
-msgstr "Refresh Rate"
+msgstr "Taza de refresco"
 
 #: ../../source/explore/get-started/adjust-settings.rst:105
-#, fuzzy
 msgid ""
 "Choose the frequency that Overte updates its graphics buffers. Most mid-"
 "range computers run well on 'Interactive'."
 msgstr ""
 "Elije la frecuencia con la que Overte actualiza sus búferes gráficos. La "
-"mayoría de las computadoras de gama media funcionan bien en "
-"\"Interactivo\" (Interactive)."
+"mayoría de las computadoras de gama media funcionan bien en \"Interactivo\" "
+"(Interactive)."
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
 msgid "Resolution"
 msgstr "Resolution"
 
 #: ../../source/explore/get-started/adjust-settings.rst:108
-#, fuzzy
 msgid ""
 "Adjust the resolution using the slider. This affects how clear Overte "
 "appears on your monitor or screen."
 msgstr ""
-"Ajusta la resolución con el control deslizante. Esto afecta la claridad "
-"de Overte en tu monitor o pantalla."
+"Ajusta la resolución con el control deslizante. Esto afecta la claridad de "
+"Overte en tu monitor o pantalla."
 
 #: ../../source/explore/get-started/adjust-settings.rst:114
 msgid "Account Security Settings"
 msgstr "Configuración de Seguridad de la Cuenta"
 
 #: ../../source/explore/get-started/adjust-settings.rst:116
-#, fuzzy
 msgid "You can change your account security settings in Overte."
 msgstr "Puedes cambiar la configuración de seguridad de tu cuenta en Overte."
 
@@ -16035,7 +16006,6 @@ msgid "Account"
 msgstr "Account"
 
 #: ../../source/explore/get-started/adjust-settings.rst:124
-#, fuzzy
 msgid "Enable to stay logged in (in the current device) even if you exit Overte."
 msgstr ""
 "Habilita para permanecer conectado (en el dispositivo actual) incluso si "
@@ -16043,7 +16013,7 @@ msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Secure Transactions"
-msgstr "Secure Transactions"
+msgstr "Transacciones seguras"
 
 #: ../../source/explore/get-started/adjust-settings.rst:126
 msgid "Change your security picture."
