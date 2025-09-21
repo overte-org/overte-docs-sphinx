@@ -2,7 +2,7 @@
 Get Your 3D Model
 #########################
 
-All 3D models should be in the FBX, glTF or OBJ format and have materials supported by Overte.
+All 3D models should be in the glTF/GLB, FBX or OBJ format and have materials supported by Overte. PBR material support is best with glTF/GLB files.
 
 .. contents:: On This Page
     :depth: 2
@@ -25,7 +25,7 @@ Create Your Own 3D Model
 
 You can create your own 3D model using 3D modeling software such as Blender or Maya. Use any software of your choice as long as:
 
-+ The 3D model is in the FBX, glTF or OBJ format.
++ The 3D model is in the glTF/GLB, FBX or OBJ format.
 + The 3D model materials are supported by Overte. Use our :doc:`materials guide <pbr-materials-guide>` to make sure that your materials load correctly.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -56,10 +56,8 @@ We've listed the best practices for creating 3D models for Overte (and VR).
 |            | robot, all its pieces should share one UV map, instead of giving its hands,   |
 |            | feet, or face separate materials and UV maps.                                 |
 +------------+-------------------------------------------------------------------------------+
-| Materials  | Overte’s engine only supports one UV mapping per material.                    |
-+------------+-------------------------------------------------------------------------------+
-| Textures   | PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and     |
-|            | TIFF formats.                                                                 |
+| Textures   | WEBP, PNG, JPEG and JPG files are recommended, but we also support TGA, TIF   |
+|            | and TIFF formats.                                                             |
 +------------+-------------------------------------------------------------------------------+
 | Textures   | Choose the color types wisely to minimize the size of the final file.         |
 +------------+-------------------------------------------------------------------------------+
@@ -70,6 +68,10 @@ We've listed the best practices for creating 3D models for Overte (and VR).
 |            | transparent textures, use PNG-32.                                             |
 +------------+-------------------------------------------------------------------------------+
 | Textures   | Do not use PNG-48 or PNG-64, as neither are supported by Overte.              |
++------------+-------------------------------------------------------------------------------+
+| Textures   | Overte supports HDR environment maps and lightmaps. Use 16-bit floating point |
+|            | EXR format with lossy compression to save space. Don't use                    |
+|            | 32-bit floating point format.                                                 |
 +------------+-------------------------------------------------------------------------------+
 | Textures   | When loaded in the engine, textures are automatically resized to a grid       |
 |            | of 128x128. Pick sizes which are multiples of 128 to not waste any memory.    |

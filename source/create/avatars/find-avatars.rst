@@ -6,7 +6,7 @@
 Find and Use an Existing Avatar
 ###############################
 
-You can download avatars for use from external sources such as TurboSquid or CGTrader. Once you get the avatar, you will need to process it in Unity using the Overte Avatar Exporter. This tool imports most avatars into Unity, maps their skeleton using Unity's humanoid tool, and exports them as FST and FBX files to import in-world.
+You can download avatars for use from external sources such as TurboSquid or CGTrader. Once you get the avatar, you will need to process it in Unity using the Overte Avatar Exporter. This tool imports most avatars into Unity, maps their skeleton using Unity's humanoid tool, and exports them as FST and GLB/FBX files to import in-world.
 Learn more about the :doc:`security of your assets <../../security/asset-security>`.
 
 .. contents:: On This Page
@@ -23,11 +23,11 @@ You should ensure that:
 * You downloaded a `real-time model <https://blog.turbosquid.com/real-time-models>`_ (rigged for run-time, not rigged for render).
 * You have the correct downloaded files
 
-    * An FBX model for your avatar. We do not support other 3D model formats.
-    * (Optional) One or more image files to give your avatar color and texture. Sometimes, these are already embedded in your FBX model and you won't have any additional image files in your download.
+    * An glTF/GLB/FBX model for your avatar. We do not support other 3D model formats. GLB/glTF is recommended over FBX due to better PBR material support.
+    * (Optional) One or more image files to give your avatar color and texture. Sometimes, these are already embedded in your GLB/FBX model and you won't have any additional image files in your download.
 * Your avatar is rigged.
 
-.. note:: If your avatar is not rigged, you can use :doc:`Mixamo <mixamo-tutorial>` to rig it. If you use Mixamo, you do not necessarily need to use Unity and the avatar exporter. Because Mixamo already uses a skeleton that we support, you can use our `Avatar Packager <create-avatars.html#package-your-avatar>`_ to import your avatar into Overte.
+.. note:: If your avatar is not rigged, you can use Blender or :doc:`Mixamo <mixamo-tutorial>` to rig it. If you use Mixamo, you do not necessarily need to use Unity and the avatar exporter. Because Mixamo already uses a skeleton that we support, you can load the GLB/FBX file directly, create FST file by hand or use our `Avatar Packager <create-avatars.html#package-your-avatar>`_ to import your avatar into Overte. Avatar Packager needs maintenance so it's not recommended currently.
 
 ----------------------------------
 Overte Avatar Exporter for Unity
@@ -39,36 +39,29 @@ Overte supports only one standard type of rigging for avatars. Because many avat
 
 You will need the following to use this tool:
 
-+ Unity (Recommended versions: 2019.4.31f1)
++ Unity (Recommended versions: 2022.3.22f1)
 + Overte
-+ `Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-avatar-exporter>`_ (v0.6.0)
++ `Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-avatar-exporter>`_
 
-Please note that the recommended version of Unity is not the latest version. If you are using a newer version of Unity, we recommend that you apply a T-Pose to your avatar. To do so, go to the 'Inspector', and click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We recommend doing this after correcting any issues with remapping bones.
+Please note that the recommended version of Unity is not the latest version.
+
+We recommend that you apply a T-Pose to your avatar. To do so, go to the 'Inspector', and click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We recommend doing this after correcting any issues with remapping bones.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Install the Avatar Exporter
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-You need to install the extension for every Unity project that you have. Keep in mind, however, that you can import and export multiple avatars in a single Unity project.
+You need to install the extension for every Unity project that you have.
 
-1. Download the `avatar exporter <https://github.com/overte-org/overte/blob/master/tools/unity-avatar-exporter/avatarExporter.unitypackage?raw=true>`_ from Overte.
-2. In Unity, open the 'Project' window at the bottom.
-
-.. image:: _images/project-window.png
-
-3. Right-click the 'Assets' folder, then select **Import Package > Custom Package**.
-
-.. image:: _images/import-package.png
-
-4. Navigate to the `avatarExporter` package (with a .unitypackage extension). Click 'Open'. You can also double-click the package on your computer to import it automatically.
-5. In the 'Importing Package' window, review the list of files to be imported and check for conflicts with files already in your project. If a conflict exists, save any local changes somewhere outside of your project.
-6. Click 'Import'. The package's files are added to the Assets folder. You should now have a 'Overte' menu in Unity.
+To install the exporter follow the directions in `Unity Avatar Exporter's README file<https://github.com/overte-org/unity-avatar-exporter/blob/main/README.md>`_.
 
 .. image:: _images/hifi-menu.png
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Create an Avatar Package
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. warning::
+    FIXME: This part is outdated. Newest exporter saves GLB files together with FST.
 
 1. If you don't already have your model open in Unity, you need to import your model. Use any of the following methods:
 

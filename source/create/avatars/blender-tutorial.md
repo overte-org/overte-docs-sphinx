@@ -1,9 +1,30 @@
-<div class="admonition warning">
-    <p class="admonition-title">Warning</p>
-    <p>This document is outdated. FIXME: Contains HiFi hosted content, only talks about FBX, Blender changed a LOT</p>
-</div>
+# Workflow for importing avatars to Overte using Blender
+
+Overte avatars can be created or imported using Blender without and non-standard addons. Preferred export format for avatars using PBR materials is GLB/glTF. Some materials in models exported as FBX may not render correctly.
+
+Typical workflow of importing avatar to Overte usin Blender consists of following steps:
+
+1. Import avatar model to Blender.
+2. Rename bones according to example armature in Avatar Standards Guide <avatar-standards>.
+3. Modify bone rolls so that they are the same as in Avatar Standars Guide.
+4. Set up materials for glTF export.
+5. Rename flow bones.
+6. Rename blendshapes according to Avatar Standards Guide.
+7. Export avatar as GLB/glTF file.
+8. Create FST file and setup Flow bones if desired.
+
+# Video tutorial:
+
+Full workflow of modifying an avatar to conform to Overte avatar standars, exporting it as GLB file, creating FST file and setting up the Flow:
+
+https://www.youtube.com/watch?v=IFuZWNppXZY
 
 # Tutorial: Modify Materials and Textures Using Blender
+
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This tutorial is outdated. GLB/glTF models are currently remommended over FBX. FIXME: Contains HiFi hosted content, Blender changed a LOT</p>
+</div>
 
 Blender is an open-source 3D modeling tool that you can use to fine tune your avatar and ensure that the materials and textures render correctly in Overte.
 
@@ -32,6 +53,11 @@ In this tutorial, we will walk you through simple modifications you can make to 
 Now, you are ready to bring your avatar into Overte.
 
 ## Example: Update Eyelashes from an Image
+
+<div class="admonition warning">
+    <p class="admonition-title">Warning</p>
+    <p>This tutorial is outdated. GLB/glTF models are currently remommended over FBX. FIXME: Contains HiFi hosted content, Blender changed a LOT</p>
+</div>
 
 1. Save [this texture](http://hifi-content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png) to a directory where you will remember.
 2. From the Outliner, open the 'Armature' tree and select 'Eyelashes'.

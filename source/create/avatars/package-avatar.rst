@@ -6,9 +6,11 @@
 Package and Host Your Avatar
 ##################################
 
-At a minimum, avatars in Overte must have an FBX, glTF, or GLB model, and an associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are two ways you can create an avatar package: by using the `Avatar Packager`_ in Interface or the `Overte Avatar Exporter for Unity`_ in Unity.
+At a minimum, avatars in Overte must have an glTF, GLB or FBX model, and an optional associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are three ways you can create an avatar package: by using the `Overte Avatar Exporter for Unity`_ in Unity, creating FST file by hand or using the `Avatar Packager`_ in Interface. Interface's Avatar packager needs maintenance, so it's not recommended currently.
 
-Once you have packaged your avatar, you need to host it on the cloud so that Overte can access it and correctly render your avatar for all users.
+Models conforming to Avatar Standards Guide <avatar-standards> work directly as avatars with no FST file needed.
+
+Once you have packaged your avatar, you need to host it on the cloud so that Overte can access it and correctly render your avatar for all users. Any web server with direct HTTP or HTTPS access is compatible.
 
 .. contents:: On This Page
     :depth: 2
@@ -19,19 +21,43 @@ Package Your Avatar
 
 If you're reading this page, you likely already :doc:`built your own FBX model <create-avatars>` or :doc:`found and downloaded a model <find-avatars>` that you want to use in Overte. Therefore, all that remains is to package your avatar and create the FST file. This file includes information about the skeleton, blendshapes, textures, and scripts used by your avatar.
 
-We provide two ways to create an avatar package: either through Unity or through our Avatar Packager.
+We provide three ways of creating an avatar package: either through Unity, manually in a text editor or through our Avatar Packager. In-game Avatar Packager needs maintenance and is not recommended currently. 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Overte Avatar Exporter for Unity
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in Overte. The Overte Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in Overte. 
+In some cases, you will want to :doc:`download an avatar from an external website <find-avatars>` and use that avatar in Overte. The Overte Avatar Exporter for Unity (also known as the "avatar exporter") converts human-like avatars and packages them for use in Overte.
 
-Once you have successfully used the :doc:`avatar exporter <find-avatars>` to package your avatar, you must host it somewhere on the cloud. You can upload it to Amazon S3 or a webserver for example.
+Once you have successfully used the :doc:`avatar exporter <find-avatars>` to package your avatar, you must host it somewhere on the cloud. You can upload it to Amazon S3, Cloudflare R2 or a webserver for example.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+Creating FST file manually
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+FST file is a regular text file and can be created in a text editor. In the simplest form it contains avatar's name, filename or URL of the model file and scale. Overte uses metric scale, so `scale = 1` means that 1 length unit in model file is 1 meter. If `filename` is just a file name and not full URL, then relative path will be used.
+
+Flow bones configuration can be generated using an interactive tool available in Overte's Community Apps (`More` icon in Overte's UI).
+
+Example avatar FST file with custom animations and materials override:
+
+```
+name = MyAvatar
+scale = 1
+filename = MyAvatar.glb
+animGraphUrl = http://some_hosting_website_url/avatar-animation.json
+flowPhysicsData = {"tail":{"active":true,"damping":0.55,"delta":0.5,"gravity":0,"inertia":1,"radius":0.1,"stiffness":0.6}}
+texdir = textures
+materialMap = {   "mat::MyAvatarMaterial": {     "materialVersion": 1,     "materials": {       "albedo": [         1,         1,         1       ],       "metallic": 1,       "roughness": 1,       "emissive": [         0,         0,         0       ],       "albedoMap": "textures/MyMaterial_colors.png",       "metallicMap": "textures/MyMaterial_metallic.png",       "roughnessMap": "textures/MyMaterial_roughness.png"       }   } }
+
+```
+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 Avatar Packager
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. warning::
+    Avatar Packager is not remommended currently.
 
 The **Avatar Packager** is a tool in Interface (the Overte client) that identifies potential errors in your avatar's model and then creates an FST file for you.
 
@@ -63,8 +89,9 @@ Before you can use a custom avatar, you must first host its FST and model (FBX/g
 6. You should see a prompt with the label "Specify Avatar URL". Paste your FST file's direct URL into the text box here and confirm.
 
 
-If you are looking for a place to host these files, you can simply use Amazon S3, Dropbox, Google Cloud Storage, Microsoft Azure, GitHub, Catbox, etc. It doesn't matter as long as *anyone* can view the file link!
+If you are looking for a place to host these files, you can simply use Cloudflare R2, Amazon S3, Google Cloud Storage, Microsoft Azure, GitHub, Catbox, etc. It doesn't matter as long as *anyone* can view the file link and it's a direct link to the file. Links to a separate download page won't work.
 
+Video tutorial on uploading to Cloudflare R2: https://www.youtube.com/watch?v=Q_whpCUHqlw
 
 
 -------------------------------------------

@@ -1,6 +1,7 @@
 <div class="admonition warning">
     <p class="admonition-title">Warning</p>
     <p>This document is slightly outdated. FIXME: Texture resolutions should have more guidance, contains HiFi hosted resources</p>
+    <p>FIXME: Scale of the default skeleton needs to be applied in Blender, so that flow bones work correctly with it</p>
 </div>
 
 # Avatar Standards Guide
@@ -25,7 +26,7 @@ As we delve deeper into creating custom avatars, we may use terminology that you
 * Skeleton - A hierarchy of joints.
 * Rigging - The process of creating a skeleton of the avatar model.
 * Blendshapes - Variations of the topology that defines how the mesh is modified to create various "shapes".
-* FST file - The main avatar file, which contains information about the skeleton, blendshapes, FBX file and textures used by an avatar.
+* FST file - The main avatar file, which contains information about the skeleton, blendshapes, glTF/GLB/FBX file and textures used by an avatar.
 
 
 ## Reference Pose
