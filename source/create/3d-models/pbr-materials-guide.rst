@@ -1,3 +1,7 @@
+.. warning::
+    FIXME: This document needs to be updated for new features like samplers, splatmaps, triplanam mapping and matterial layering.
+
+
 ###################
 PBR Materials Guide
 ###################
@@ -28,8 +32,10 @@ Textures are flat images that are applied to 3D models. These add detail on how 
 
 Overte supports the use of the following texture formats:
 
+* WEBP (recommended)
 * PNG (recommended)
 * JPEG, JPG (recommended)
+* EXR (recommended for HDR envirnoment maps and lightmaps)
 * TGA
 * TIFF, TIF
 

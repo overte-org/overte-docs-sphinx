@@ -1,6 +1,5 @@
 .. warning::
-    This document is outdated and will be revisited in the future.
-    FIXME: Mentions services like VRoid Studio even though their skeletons have never been supported (the Unity avatar exporter will not be able to fix that)
+    Parts of this document are outdated and will be revisited in the future.
 
 ##############################
 Create Your Own Avatar
@@ -8,11 +7,10 @@ Create Your Own Avatar
 
 There are three ways to get your own avatar. You can either:
 
-* Create your avatar from scratch using 3D modeling tools such as Mixamo and Blender
-* Use MakeHuman or VRoid Studio to create a human or anime avatar
-* Download an existing avatar from external sources such as TurboSquid or CGTrader
+* Create your avatar from scratch using 3D modeling tools such as Mixamo and Blender.
+* Download an existing avatar from external sources and modify it to conform to Overte's avatar standards using Unity avatar importer tool or Blender.
 
-.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Overte, use the `Overte Avatar Exporter for Unity <find-avatars.html#overte-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar.
+.. note:: If you get an avatar from an external source such as TurboSquid, CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does not match our :doc:`avatar standards <avatar-standards>`. To use these avatars with Overte, use the `Overte Avatar Exporter for Unity <find-avatars.html#overte-avatar-exporter-for-unity>`_ to correctly map the skeleton and package your avatar. The avatar can also be modified using Blender to conform to Overte's avatar standards. For more information and a video tutorial check the `Blender Avatar import tutorial <blender-tutorial>`_. The Unity Avatar Exporter might not be able to export avatars with very unusual armatures, and in such cases reworking the armature in Blender might be needed.
 
 If you want to create an avatar from scratch, this page covers the steps needed to create, rig, and package your avatar. Learn more about the :doc:`security of your assets <../../security/asset-security>`.
 
@@ -34,9 +32,10 @@ Create an Avatar from Scratch
 The steps involved in creating your avatar are:
 
 1. Create an avatar with 3D character modeling tool such as Blender or Maya.
-2. Rig and animate your avatar with an animation tool such as Mixamo.
-3. Fine tune your avatar using a tool such as Blender or Maya.
-4. Package the model in Overte for use as an avatar.
+2. Rig your avatar with an animation tool such as Blender or Mixamo. When rigging avatar with Blender, bone names and orientations must conform to `Avatar Standards Guide <avatar-standards>`.
+3. Optionally create custom animations for the avatar (most avatars work well with default animations). 
+4. Fine tune your avatar using a tool such as Blender or Maya.
+5. Optionally add .fst metadata file containing informations such as flow bone setups and avatar scripts.
 
 * :doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`
 * :doc:`Modify Materials and Textures with Blender <blender-tutorial>`
@@ -50,6 +49,10 @@ As you're creating your avatar, remember that Overte is an open-source project. 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 `Blender Add-on by Menithal <https://github.com/Menithal/Blender-Metaverse-Addon>`_
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+.. warning::
+    This tool is outddated and needs upgrading to current Blender version. Use Unity avatar importer or Blender (without addons) instead.
+
 
 Plugin ("Project Hermes") is a plugin for Blender to allow for easier content creation and importing for the Overte Platform. It features:
 

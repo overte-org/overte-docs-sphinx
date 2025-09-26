@@ -24,11 +24,13 @@ In order to use the Flow technology, your avatar must contain flow threads, whic
 
 While experimenting, feel free to use `Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_, whose hair has flow threads already configured.
 
+Currently for the Flow to work correctly, avatar model needs to be scaled in meters and scale of the armature and meshed needs to be equal to 1. To fix this issue for models that have different armature scale, open the model in Blender and apply scale to both armature and meshes.
+
 --------
 Flow App
 --------
 
-Load the `Flow app <https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_ into Overte to configure your flow settings. See :doc:`Load an Interface Script </script/interface-scripts>`
+Load the `Flow app` into Overte to configure your flow settings. The flow app is available in Community Apps repository. It can be installed by clicking on `More` icon and searching for `Flow`.
 
 The Flow app will show up as an icon on your HUD or tablet. Click this icon to open the Flow app.
 
@@ -80,6 +82,10 @@ The **Joints** panel lists all of the available flow threads, and lets you confi
 | Delta     | Controls the amount of time between each joint movement.                                |
 +-----------+-----------------------------------------------------------------------------------------+
 
+.. warning::
+    Damping value is currently reversed. 0 means full damping, and 1 means no damping at all.
+
+
 ^^^^^^^^^^^^^^^^
 Collisions Panel
 ^^^^^^^^^^^^^^^^
@@ -112,11 +118,11 @@ Resources
 ------------------------------
 
 +---------------------+-------------------------------------------------------------+-------------------------------------------+
-| File                | Description                                                 | URL                                       |
+| File                | Description                                                 |                                           |
 +=====================+=============================================================+===========================================+
-| Flow App            | This app lets users easily update Flow settings without     | `flowAppCpp.js <https://docs.overte.org/  |
-|                     | the need for scripting or advanced knowledge of avatars.    | _static/resources/script/flow/flowAppCpp/ |
-|                     |                                                             | flowAppCpp.js>`_                          |
+| Flow App            | This app lets users easily update Flow settings without     | Part of the Community Apps                |
+|                     | the need for scripting or advanced knowledge of avatars.    | Can be installed by clicking `More` icon  |
+|                     |                                                             | and selecting Flow                        |
 +---------------------+-------------------------------------------------------------+-------------------------------------------+
 | Mannequin with Hair | This avatar is properly rigged to work with Flow. Use this  | `Mannequin with Hair <https://hifi-c      |
 |                     | as an example for your own avatar models.                   | ontent.s3.amazonaws.com/jimi/avatar/      |
