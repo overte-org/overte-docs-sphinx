@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-09-26 20:05+0000\n"
-"PO-Revision-Date: 2025-05-04 16:19+0000\n"
+"PO-Revision-Date: 2025-09-27 09:04+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Language-Team: French <https://weblate.overte.org/projects/overte/"
+"overte-documentation/fr/>\n"
 "Language: fr\n"
-"Language-Team: French <https://weblate.overte.org/projects/overte/overte-"
-"documentation/fr/>\n"
-"Plural-Forms: nplurals=2; plural=n > 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: Weblate 5.13.3\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../<rst_prolog>:9
@@ -1973,6 +1974,7 @@ msgid "**Close the app gracefully**"
 msgstr "**Fermer l'application avec élégance**"
 
 #: ../../source/create/applications.rst:148
+#, fuzzy
 msgid ""
 "The AppUI module ensures that your app closes gracefully. However, if you"
 " want to do something else when you close the app, you can with the "
@@ -1981,8 +1983,8 @@ msgid ""
 msgstr ""
 "Le module AppUI vous permet de fermer votre application avec élégance. "
 "Toutefois, si vous souhaitez faire autre chose lorsque vous fermez "
-"l'application, vous pouvez le faire grâce à la fonctionnalité "
-"\"onClosed\" intégrée au module AppUI. Par exemple, vous pouvez :"
+"l'application, vous pouvez le faire grâce à la fonctionnalité \"onClosed\" "
+"intégrée au module AppUI. Par exemple, vous pouvez :"
 
 #: ../../source/create/applications.rst:150
 msgid "Remove 3D interfaces"
@@ -13407,12 +13409,13 @@ msgid "Click the **Display** menu, then select your VR device."
 msgstr "Cliquez sur le menu **Display**, puis sélectionnez votre appareil VR."
 
 #: ../../source/explore/get-started/adjust-settings.rst:37
+#, fuzzy
 msgid ""
 "To exit from VR mode, remove your headset, click **Exit VR** on the HUD "
 "or press ``ESC`` on your keyboard."
 msgstr ""
-"Pour sortir du mode VR, retirez votre casque, cliquez sur **Exit VR** sur"
-" le HUD ou appuyez sur \"ESC\" sur votre clavier."
+"Pour sortir du mode VR, retirez votre casque, cliquez sur **Exit VR** sur le "
+"HUD ou appuyez sur \"ESC\" sur votre clavier."
 
 #: ../../source/explore/get-started/adjust-settings.rst:41
 msgid "Set Your Perspective"
@@ -14261,14 +14264,15 @@ msgstr ""
 "au maximum de votre expérience dans Vircadia."
 
 #: ../../source/explore/get-started/desktop.rst:7
+#, fuzzy
 msgid ""
 "The shortcuts below are for Windows and Linux computers. If you're "
 "running on a Mac, use the same commands, substituting the ``Command`` key"
 " for the ``Ctrl`` key."
 msgstr ""
-"Les raccourcis ci-dessous concernent les ordinateurs Windows et Linux. Si"
-" vous utilisez un Mac, utilisez les mêmes commandes, en remplaçant la "
-"touche \"Ctrl\" par la touche \"Commande\"."
+"Les raccourcis ci-dessous concernent les ordinateurs Windows et Linux. Si "
+"vous utilisez un Mac, utilisez les mêmes commandes, en remplaçant la touche "
+"\"Ctrl\" par la touche \"Commande\"."
 
 #: ../../source/explore/get-started/desktop.rst:19
 #: ../../source/explore/get-started/desktop.rst:47
@@ -15124,14 +15128,15 @@ msgid "Open your Applications folder and delete the Overte folder."
 msgstr "Ouvrez votre dossier Applications et supprimez le dossier Vircadia."
 
 #: ../../source/explore/get-started/install.rst:152
+#, fuzzy
 msgid ""
 "Open the ``<username>/.config`` folder. This is a hidden folder than is "
 "accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
 " + Shift + .`` (period)."
 msgstr ""
-"Ouvrez le dossier \"<nom d'utilisateur>/.config \". C'est un dossier "
-"caché qui est accessible en allant sur *Go > Home*. Appuyez sur le "
-"raccourci clavier \"``Command + Shift + .`` (période)."
+"Ouvrez le dossier \"<nom d'utilisateur>/.config \". C'est un dossier caché "
+"qui est accessible en allant sur *Go > Home*. Appuyez sur le raccourci "
+"clavier \"``Command + Shift + .`` (période)."
 
 #: ../../source/explore/get-started/install.rst:153
 #, fuzzy
@@ -15139,13 +15144,14 @@ msgid "Delete the ``overte.org`` folder."
 msgstr "Supprimez le dossier ``vircadia.com``."
 
 #: ../../source/explore/get-started/install.rst:154
+#, fuzzy
 msgid ""
 "Open the ``~/Library`` folder by holding the Option key and clicking the "
 "'Go' menu while in the Finder. The Library option should appear in the "
 "menu."
 msgstr ""
-"Ouvrez le dossier `~/Library`` en maintenant la touche Option enfoncée et"
-" en cliquant sur le menu 'Go' dans le Finder. L'option 'Library' devrait "
+"Ouvrez le dossier `~/Library`` en maintenant la touche Option enfoncée et en "
+"cliquant sur le menu 'Go' dans le Finder. L'option 'Library' devrait "
 "apparaître dans le menu."
 
 #: ../../source/explore/get-started/install.rst:155
@@ -16804,12 +16810,13 @@ msgstr ""
 "télécharger."
 
 #: ../../source/explore/personalize/change-avatar.md:27
+#, fuzzy
 msgid ""
 "In the **Avatar** window, click the link icon next to your current "
 "avatar. ![](_images/avatar-link.png)"
 msgstr ""
-"Dans la fenêtre Avatar, cliquez sur l'icône de lien à côté de votre "
-"avatar actuel. ![](_images/avatar-link.png)"
+"Dans la fenêtre Avatar, cliquez sur l'icône de lien à côté de votre avatar "
+"actuel. ![](_images/avatar-link.png)"
 
 #: ../../source/explore/personalize/change-avatar.md:28
 msgid "Enter the .fst file's URL and click 'Confirm'."
@@ -38775,4 +38782,3 @@ msgstr "Séance de métaverse UUID"
 #~ "variable linked to a directory somewhere"
 #~ " on your machine."
 #~ msgstr ""
-
