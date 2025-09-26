@@ -2,7 +2,7 @@
 Get Your 3D Model
 #########################
 
-All 3D models should be in the glTF/GLB, FBX or OBJ format and have materials supported by Overte. PBR material support is best with glTF/GLB files.
+All 3D models should be in the glTF/GLB, FBX or OBJ format and have materials supported by Overte. Best supported are glTF/GLB files.
 
 .. contents:: On This Page
     :depth: 2

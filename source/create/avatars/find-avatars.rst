@@ -53,9 +53,7 @@ Install the Avatar Exporter
 
 You need to install the extension for every Unity project that you have.
 
-To install the exporter follow the directions in `Unity Avatar Exporter's README file<https://github.com/overte-org/unity-avatar-exporter/blob/main/README.md>`_.
-
-.. image:: _images/hifi-menu.png
+To install the exporter follow the directions in `Unity Avatar Exporter's README file <https://github.com/overte-org/unity-avatar-exporter/blob/main/README.md>`_.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Create an Avatar Package

@@ -6,7 +6,7 @@
 Package and Host Your Avatar
 ##################################
 
-At a minimum, avatars in Overte must have an glTF, GLB or FBX model, and an optional associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are three ways you can create an avatar package: by using the `Overte Avatar Exporter for Unity`_ in Unity, creating FST file by hand or using the `Avatar Packager`_ in Interface. Interface's Avatar packager needs maintenance, so it's not recommended currently.
+At a minimum, avatars in Overte must have a glTF, GLB or FBX model, and an optional associated FST file that includes information about how your avatar looks and behaves. Together, these two files (with any optional texture or script) form an "avatar package". There are three ways you can create an avatar package: by using the `Overte Avatar Exporter for Unity`_ in Unity, creating FST file by hand or using the `Avatar Packager`_ in Interface. Interface's Avatar packager needs maintenance, so it's not recommended currently.
 
 Models conforming to Avatar Standards Guide <avatar-standards> work directly as avatars with no FST file needed.
 
@@ -35,22 +35,21 @@ Once you have successfully used the :doc:`avatar exporter <find-avatars>` to pac
 Creating FST file manually
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-FST file is a regular text file and can be created in a text editor. In the simplest form it contains avatar's name, filename or URL of the model file and scale. Overte uses metric scale, so `scale = 1` means that 1 length unit in model file is 1 meter. If `filename` is just a file name and not full URL, then relative path will be used.
+FST file is a regular text file and can be created in a text editor. In the simplest form it contains the avatar's name, filename or URL of the model file and its scale. Overte uses metric scale, so `scale = 1` means that 1 length unit in model file is 1 meter. If `filename` is just a file name and not a full URL, then relative path will be used.
 
-Flow bones configuration can be generated using an interactive tool available in Overte's Community Apps (`More` icon in Overte's UI).
+Flow bones configuration can be generated using the `Flow app` available in Overte's Community Apps (`More` icon in Overte's UI).
 
 Example avatar FST file with custom animations and materials override:
 
-```
-name = MyAvatar
-scale = 1
-filename = MyAvatar.glb
-animGraphUrl = http://some_hosting_website_url/avatar-animation.json
-flowPhysicsData = {"tail":{"active":true,"damping":0.55,"delta":0.5,"gravity":0,"inertia":1,"radius":0.1,"stiffness":0.6}}
-texdir = textures
-materialMap = {   "mat::MyAvatarMaterial": {     "materialVersion": 1,     "materials": {       "albedo": [         1,         1,         1       ],       "metallic": 1,       "roughness": 1,       "emissive": [         0,         0,         0       ],       "albedoMap": "textures/MyMaterial_colors.png",       "metallicMap": "textures/MyMaterial_metallic.png",       "roughnessMap": "textures/MyMaterial_roughness.png"       }   } }
+.. code:: json
 
-```
+   name = MyAvatar
+   scale = 1
+   filename = MyAvatar.glb
+   animGraphUrl = http://some_hosting_website_url/avatar-animation.json
+   flowPhysicsData = {"tail":{"active":true,"damping":0.55,"delta":0.5,"gravity":0,"inertia":1,"radius":0.1,"stiffness":0.6}}
+   texdir = textures
+   materialMap = {   "mat::MyAvatarMaterial": {     "materialVersion": 1,     "materials": {       "albedo": [         1,         1,         1       ],       "metallic": 1,       "roughness": 1,       "emissive": [         0,         0,         0       ],       "albedoMap": "textures/MyMaterial_colors.png",       "metallicMap": "textures/MyMaterial_metallic.png",       "roughnessMap": "textures/MyMaterial_roughness.png"       }   } }
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^

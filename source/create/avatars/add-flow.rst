@@ -24,7 +24,7 @@ In order to use the Flow technology, your avatar must contain flow threads, whic
 
 While experimenting, feel free to use `Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_, whose hair has flow threads already configured.
 
-Currently for the Flow to work correctly, avatar model needs to be scaled in meters and scale of the armature and meshed needs to be equal to 1. To fix this issue for models that have different armature scale, open the model in blender and apply scale to both armature and meshes.
+Currently for the Flow to work correctly, avatar model needs to be scaled in meters and scale of the armature and meshed needs to be equal to 1. To fix this issue for models that have different armature scale, open the model in Blender and apply scale to both armature and meshes.
 
 --------
 Flow App

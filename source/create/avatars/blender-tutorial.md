@@ -1,12 +1,12 @@
 # Workflow for importing avatars to Overte using Blender
 
-Overte avatars can be created or imported using Blender without and non-standard addons. Preferred export format for avatars using PBR materials is GLB/glTF. Some materials in models exported as FBX may not render correctly.
+Overte avatars can be created or imported using Blender without any non-standard addons. Preferred export format for avatars using PBR materials is GLB/glTF. Some materials in models exported as FBX may not render correctly.
 
-Typical workflow of importing avatar to Overte usin Blender consists of following steps:
+Typical workflow of importing avatar to Overte using Blender consists of following steps:
 
 1. Import avatar model to Blender.
-2. Rename bones according to example armature in Avatar Standards Guide <avatar-standards>.
-3. Modify bone rolls so that they are the same as in Avatar Standars Guide.
+2. Rename bones according to example armature in [Avatar Standards Guide](avatar-standards).
+3. Modify bone rolls so that they are the same as in the Avatar Standards Guide.
 4. Set up materials for glTF export.
 5. Rename flow bones.
 6. Rename blendshapes according to Avatar Standards Guide.
@@ -15,9 +15,7 @@ Typical workflow of importing avatar to Overte usin Blender consists of followin
 
 # Video tutorial:
 
-Full workflow of modifying an avatar to conform to Overte avatar standars, exporting it as GLB file, creating FST file and setting up the Flow:
-
-https://www.youtube.com/watch?v=IFuZWNppXZY
+Full workflow of modifying an avatar to conform to Overte avatar standards, exporting it as GLB file, creating FST file and setting up the Flow: [https://www.youtube.com/watch?v=IFuZWNppXZY](https://www.youtube.com/watch?v=IFuZWNppXZY)
 
 # Tutorial: Modify Materials and Textures Using Blender
 

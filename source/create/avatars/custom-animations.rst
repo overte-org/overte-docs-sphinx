@@ -233,7 +233,7 @@ Examples
 
 + Here is the current default `avatar-animation.json <https://github.com/overte-org/overte/blob/master/interface/resources/avatar/avatar-animation.json>`_ file.
 + This `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/scoot-animation.json>`_ file replaces the idle and walk animations with a sitting pose. This example shows how you can replace some of an avatar's default animations.
-+ Example of avatar with custom animations: `Golden Dragon<https://oaktown.pl/golden_dragon_r_1/avatar5.fst>`_.
++ Example of avatar with custom animations: `Golden Dragon <https://oaktown.pl/golden_dragon_r_1/avatar5.fst>`_.
 
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
