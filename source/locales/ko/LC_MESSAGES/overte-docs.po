@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-07-31 07:08+0000\n"
+"POT-Creation-Date: 2025-09-26 20:05+0000\n"
 "PO-Revision-Date: 2025-05-04 16:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: ko\n"
@@ -70,12 +70,12 @@ msgstr "디스코드"
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
 #: ../../source/create/3d-models/import-model.rst:8
-#: ../../source/create/3d-models/pbr-materials-guide.rst:9
+#: ../../source/create/3d-models/pbr-materials-guide.rst:13
 #: ../../source/create/avatars/add-flow.rst:12
-#: ../../source/create/avatars/create-avatars.rst:20
+#: ../../source/create/avatars/create-avatars.rst:18
 #: ../../source/create/avatars/custom-animations.rst:14
 #: ../../source/create/avatars/find-avatars.rst:13
-#: ../../source/create/avatars/package-avatar.rst:14
+#: ../../source/create/avatars/package-avatar.rst:16
 #: ../../source/create/avatars/scattering-tutorial.rst:12
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:8
 #: ../../source/create/entities/boombox-tutorial.rst:12
@@ -334,7 +334,7 @@ msgstr "도구 만들기"
 msgid "Avatars"
 msgstr "아바타"
 
-#: ../../source/create.rst:11 ../../source/create/wearables.md:6
+#: ../../source/create.rst:11 ../../source/create/wearables.md:7
 msgid "Wearables"
 msgstr "웨어러블"
 
@@ -344,7 +344,6 @@ msgid "Entities"
 msgstr "엔티티"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
-#: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
@@ -404,7 +403,7 @@ msgid "Import Your 3D Model"
 msgstr "3D 모델 가져오기"
 
 #: ../../source/create/3d-models.rst:11
-#: ../../source/create/3d-models/pbr-materials-guide.rst:3
+#: ../../source/create/3d-models/pbr-materials-guide.rst:7
 msgid "PBR Materials Guide"
 msgstr "PBR 머티리얼 가이드"
 
@@ -419,11 +418,13 @@ msgid "Import Animations"
 msgstr "애니메이션 가져오기"
 
 #: ../../source/create/3d-models.rst:5
+#, fuzzy
 msgid ""
 "3D models are :doc:`entities <entities>` that represent objects you'd "
 "like to see in-world such as a water fountain, a castle, or a coffee mug."
 " You can get your 3D model by creating your own or sourcing it "
-"externally. We only support 3D models in the OBJ, FBX, and glTF formats."
+"externally. We only support 3D models in the glTF/GLB, OBJ, and FBX "
+"formats. PBR material support works best with glTF/GLB models."
 msgstr ""
 "3D 모델은 분수대, 성, 커피잔 등 월드에서 보고 싶은 오브젝트를 나타내는 :doc:`객체<entities>` 입니다. 3D "
 "모델은 직접 만들거나 외부에서 소싱하여 얻을 수 있습니다. 우리는OBJ, FBX, glTF 형식의 3D 모델만 지원합니다."
@@ -446,9 +447,10 @@ msgid "**In This Section:**"
 msgstr "**이 섹션의 내용:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
+#, fuzzy
 msgid ""
-"All 3D models should be in the FBX, glTF or OBJ format and have materials"
-" supported by Overte."
+"All 3D models should be in the glTF/GLB, FBX or OBJ format and have "
+"materials supported by Overte. Best supported are glTF/GLB files."
 msgstr "모든 3D 모델은 FBX, glTF 또는 OBJ 형식이어야 하며, 오버티에서 지원하는 머티리얼이 있어야 합니다."
 
 #: ../../source/create/3d-models/get-model.rst:12
@@ -514,7 +516,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:28
 #, fuzzy
-msgid "The 3D model is in the FBX, glTF or OBJ format."
+msgid "The 3D model is in the glTF/GLB, FBX or OBJ format."
 msgstr "3D 모델은 FBX, glTF 또는 OBJ 형식입니다."
 
 #: ../../source/create/3d-models/get-model.rst:29
@@ -619,33 +621,31 @@ msgstr ""
 "공유해야 합니다."
 
 #: ../../source/create/3d-models/get-model.rst:59
-msgid "Overte’s engine only supports one UV mapping per material."
-msgstr "오버트 엔진은 머티리얼당 하나의 UV 매핑만 지원합니다."
-
-#: ../../source/create/3d-models/get-model.rst:61
+#: ../../source/create/3d-models/get-model.rst:62
 #: ../../source/create/3d-models/get-model.rst:64
-#: ../../source/create/3d-models/get-model.rst:66
-#: ../../source/create/3d-models/get-model.rst:69
+#: ../../source/create/3d-models/get-model.rst:67
+#: ../../source/create/3d-models/get-model.rst:70
 #: ../../source/create/3d-models/get-model.rst:72
-#: ../../source/create/3d-models/get-model.rst:74
-#: ../../source/create/3d-models/get-model.rst:77
-#: ../../source/create/3d-models/pbr-materials-guide.rst:25
-#: ../../source/create/avatars/avatar-standards.md:257
+#: ../../source/create/3d-models/get-model.rst:76
+#: ../../source/create/3d-models/get-model.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:29
+#: ../../source/create/avatars/avatar-standards.md:258
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
 msgstr "텍스처"
 
-#: ../../source/create/3d-models/get-model.rst:61
+#: ../../source/create/3d-models/get-model.rst:59
+#, fuzzy
 msgid ""
-"PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
-" TIFF formats."
+"WEBP, PNG, JPEG and JPG files are recommended, but we also support TGA, "
+"TIF and TIFF formats."
 msgstr "PNG, JPEG, JPG 파일을 권장하지만 TGA, TIF, TIFF 형식도 지원합니다."
 
-#: ../../source/create/3d-models/get-model.rst:64
+#: ../../source/create/3d-models/get-model.rst:62
 msgid "Choose the color types wisely to minimize the size of the final file."
 msgstr "최종 파일의 크기를 최소화하기 위해 색상 유형을 현명하게 선택하세요."
 
-#: ../../source/create/3d-models/get-model.rst:66
+#: ../../source/create/3d-models/get-model.rst:64
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
@@ -653,17 +653,24 @@ msgstr ""
 "PNG-8은 투명도를 ON/OFF로만 설정할 수 있고, 색상 팔레트(GIF와 같은 256가지 색상)가 있으며, 투명도를 마스킹하는 "
 "데 사용할 수 있습니다."
 
-#: ../../source/create/3d-models/get-model.rst:69
+#: ../../source/create/3d-models/get-model.rst:67
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr "더 높은 색상 해상도를 원하면 PNG-24를 사용할 수 있습니다. 반투명 마스크 또는 투명 텍스처의 경우 PNG-32를 사용합니다."
 
-#: ../../source/create/3d-models/get-model.rst:72
+#: ../../source/create/3d-models/get-model.rst:70
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
 msgstr "PNG-48이나 PNG-64는 오버트에서 지원하지 않으므로 사용하지 마세요."
 
-#: ../../source/create/3d-models/get-model.rst:74
+#: ../../source/create/3d-models/get-model.rst:72
+msgid ""
+"Overte supports HDR environment maps and lightmaps. Use 16-bit floating "
+"point EXR format with lossy compression to save space. Don't use 32-bit "
+"floating point format."
+msgstr ""
+
+#: ../../source/create/3d-models/get-model.rst:76
 msgid ""
 "When loaded in the engine, textures are automatically resized to a grid "
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
@@ -672,7 +679,7 @@ msgstr ""
 "엔진에 로드되면 텍스처의 크기가 128x128 그리드에 맞게 자동으로 조정됩니다. 메모리를 낭비하지 않으려면 128의 배수인 크기를"
 " 선택하세요."
 
-#: ../../source/create/3d-models/get-model.rst:77
+#: ../../source/create/3d-models/get-model.rst:79
 msgid ""
 "While textures are automatically downscaled if they don't fit into the "
 "texture memory, it makes sense to use a resolution as low as possible to "
@@ -686,19 +693,19 @@ msgstr ""
 "머신의 부담을 줄이려면 가능한 한 낮은 해상도를 사용하는 것이 좋습니다. 예를 들어 4096x4096 텍스처는 디테일한 아바타에 "
 "충분합니다. 노멀 맵, 방출 맵 등은 메인 컬러 텍스처만큼 해상도가 높을 필요는 없습니다."
 
-#: ../../source/create/3d-models/get-model.rst:84
+#: ../../source/create/3d-models/get-model.rst:86
 msgid "Draw Calls"
 msgstr "드로우 콜"
 
-#: ../../source/create/3d-models/get-model.rst:84
+#: ../../source/create/3d-models/get-model.rst:86
 msgid "Draw calls happen before something gets rendered on screen."
 msgstr "드로우 콜은 화면에 무언가가 렌더링되기 전에 발생합니다."
 
-#: ../../source/create/3d-models/get-model.rst:86
+#: ../../source/create/3d-models/get-model.rst:88
 msgid "``1 model w/ 1 material = 1 draw call``"
 msgstr "'``모델 1개, 머티리얼 1개 = 드로우 콜 1개``"
 
-#: ../../source/create/3d-models/get-model.rst:88
+#: ../../source/create/3d-models/get-model.rst:90
 msgid ""
 "There are no definitive measures for a desirable polycount. You need to "
 "balance between draw calls and polys. Fewer draw calls means more room "
@@ -707,11 +714,11 @@ msgstr ""
 "바람직한 폴리 카운트에 대한 확실한 정의는 없습니다. 드로우 콜과 폴리 카운트 사이의 균형을 맞춰야 합니다. 드로우 콜 수가 적으면"
 " 폴리곤를 위한 공간이 더 많아집니다. 텍스처가 작을수록 더 높은 폴리곤 모델을 위한 공간이 더 많아집니다."
 
-#: ../../source/create/3d-models/get-model.rst:92
+#: ../../source/create/3d-models/get-model.rst:94
 msgid "Baking"
 msgstr "베이킹"
 
-#: ../../source/create/3d-models/get-model.rst:92
+#: ../../source/create/3d-models/get-model.rst:94
 #, fuzzy
 msgid ""
 "Baking assets can be very effective at lowering loading times and "
@@ -871,11 +878,11 @@ msgid "You can edit the following animation properties:"
 msgstr "다음 애니메이션 속성을 편집할 수 있습니다:"
 
 #: ../../source/create/3d-models/import-animations.rst:47
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
-#: ../../source/create/avatars/add-flow.rst:46
-#: ../../source/create/avatars/add-flow.rst:66
-#: ../../source/create/avatars/add-flow.rst:92
-#: ../../source/create/avatars/add-flow.rst:115
+#: ../../source/create/3d-models/pbr-materials-guide.rst:68
+#: ../../source/create/avatars/add-flow.rst:48
+#: ../../source/create/avatars/add-flow.rst:68
+#: ../../source/create/avatars/add-flow.rst:98
+#: ../../source/create/avatars/add-flow.rst:121
 #: ../../source/create/avatars/custom-animations.rst:23
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/avatars/custom-animations.rst:106
@@ -991,14 +998,14 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
-#: ../../source/create/3d-models/pbr-materials-guide.rst:150
+#: ../../source/create/3d-models/pbr-materials-guide.rst:156
 #: ../../source/create/applications.rst:297
-#: ../../source/create/avatars/add-flow.rst:127
-#: ../../source/create/avatars/avatar-standards.md:272
-#: ../../source/create/avatars/blender-tutorial.md:52
-#: ../../source/create/avatars/create-avatars.rst:67
-#: ../../source/create/avatars/custom-animations.rst:269
-#: ../../source/create/avatars/find-avatars.rst:178
+#: ../../source/create/avatars/add-flow.rst:133
+#: ../../source/create/avatars/avatar-standards.md:273
+#: ../../source/create/avatars/blender-tutorial.md:76
+#: ../../source/create/avatars/create-avatars.rst:70
+#: ../../source/create/avatars/custom-animations.rst:270
+#: ../../source/create/avatars/find-avatars.rst:169
 #: ../../source/create/avatars/mixamo-tutorial.md:24
 #: ../../source/create/avatars/scattering-tutorial.rst:66
 #: ../../source/create/entities/add-sounds.md:24
@@ -1021,7 +1028,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/entities/zone-tutorial.md:155
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:71
-#: ../../source/create/wearables.md:41 ../../source/explore/gallery.rst:58
+#: ../../source/create/wearables.md:43 ../../source/explore/gallery.rst:58
 #: ../../source/explore/get-started/adjust-settings.rst:129
 #: ../../source/explore/get-started/android.rst:82
 #: ../../source/explore/get-started/architecture.rst:105
@@ -1119,7 +1126,13 @@ msgstr ""
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:5
+#: ../../source/create/3d-models/pbr-materials-guide.rst:2
+msgid ""
+"FIXME: This document needs to be updated for new features like samplers, "
+"splatmaps, triplanam mapping and matterial layering."
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:9
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
 "materials supported in Overte are physically-based rendering (PBR) "
@@ -1127,11 +1140,11 @@ msgid ""
 "light (approximately) like how they would in real life."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:13
+#: ../../source/create/3d-models/pbr-materials-guide.rst:17
 msgid "Introduction to Materials, Textures, and Shading"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:15
+#: ../../source/create/3d-models/pbr-materials-guide.rst:19
 msgid ""
 "A 3D model's appearance is controlled by its materials. For example, a 3D"
 " model of a key will use a material that determines its color, how "
@@ -1139,7 +1152,7 @@ msgid ""
 " brick wall will have material that determines its roughness and color."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:18
+#: ../../source/create/3d-models/pbr-materials-guide.rst:22
 msgid ""
 "Since Overte supports physically-based rendering (PBR) materials, your "
 "model will behave like a real world object when exposed to light. For "
@@ -1148,49 +1161,57 @@ msgid ""
 "reflect enough light for you to observe its colors and surface."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:21
+#: ../../source/create/3d-models/pbr-materials-guide.rst:25
 msgid "A material contains texture and shading information."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:27
+#: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid ""
 "Textures are flat images that are applied to 3D models. These add detail "
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a bark texture to show what the surface looks like."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:29
+#: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "Overte supports the use of the following texture formats:"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:31
-msgid "PNG (recommended)"
-msgstr ""
-
-#: ../../source/create/3d-models/pbr-materials-guide.rst:32
-msgid "JPEG, JPG (recommended)"
-msgstr ""
-
-#: ../../source/create/3d-models/pbr-materials-guide.rst:33
-msgid "TGA"
-msgstr ""
-
-#: ../../source/create/3d-models/pbr-materials-guide.rst:34
-msgid "TIFF, TIF"
+#: ../../source/create/3d-models/pbr-materials-guide.rst:35
+msgid "WEBP (recommended)"
 msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:36
+msgid "PNG (recommended)"
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:37
+msgid "JPEG, JPG (recommended)"
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:38
+msgid "EXR (recommended for HDR envirnoment maps and lightmaps)"
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:39
+msgid "TGA"
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:40
+msgid "TIFF, TIF"
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:42
 msgid ""
 "For best performance, we recommend :doc:`baking all 3D models <../../host"
 "/add-content/bake-content>` (including textures) before loading them into"
 " Overte."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:40
+#: ../../source/create/3d-models/pbr-materials-guide.rst:46
 msgid "Shading"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:42
+#: ../../source/create/3d-models/pbr-materials-guide.rst:48
 msgid ""
 "Since Overte supports PBR materials, the shading used depicts an accurate"
 " representation of a how light interacts with different material "
@@ -1199,7 +1220,7 @@ msgid ""
 " or channels that can be modified to create different types of materials."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:45
+#: ../../source/create/3d-models/pbr-materials-guide.rst:51
 msgid ""
 "You can combine shaders with material entities on shape and zone entities"
 " to apply shaders to models and avatars. This feature was released as an "
@@ -1209,24 +1230,24 @@ msgid ""
 " Models and Avatars <../materials/procedural-shaders>`."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:49
+#: ../../source/create/3d-models/pbr-materials-guide.rst:55
 msgid "**Material Channels**"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:51
+#: ../../source/create/3d-models/pbr-materials-guide.rst:57
 msgid ""
 "Material channels determine various parameters such as the roughness or "
 "color of a material. You can determine the value of each channel in two "
 "ways:"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:53
+#: ../../source/create/3d-models/pbr-materials-guide.rst:59
 msgid ""
 "**Setting a Value:** The value of a channel is a value set on a slider. "
 "Setting a value is like turning off or turning on a switch."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:54
+#: ../../source/create/3d-models/pbr-materials-guide.rst:60
 msgid ""
 "For example, if you look at your phone, some parts of it are shiny and "
 "some are matte. When you use a value, the entire object reflects that "
@@ -1234,174 +1255,174 @@ msgid ""
 "roughness, you'll need to use a map."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:56
+#: ../../source/create/3d-models/pbr-materials-guide.rst:62
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
 "property. You may use a map to apply a texture to your 3D model."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:57
+#: ../../source/create/3d-models/pbr-materials-guide.rst:63
 msgid ""
 "For instance, your phone may have a case that is matte, while the rest of"
 " your phone is shiny. You can use a map to set the case as matte and the "
 "phone as shiny."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:59
+#: ../../source/create/3d-models/pbr-materials-guide.rst:65
 msgid ""
 "All materials in Overte have the following channels that determine how "
 "they look:"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
+#: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "Channel Type"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
+#: ../../source/create/3d-models/pbr-materials-guide.rst:68
 #: ../../source/create/entities/create-fountain.rst:35
 #, fuzzy
 msgid "Value"
 msgstr "값"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
+#: ../../source/create/3d-models/pbr-materials-guide.rst:68
 #, fuzzy
 msgid "Map"
 msgstr "맵"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
 msgid "Albedo"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
 msgid ""
 "This channel defines the material's color. You can pick any color value "
 "of your choice."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
+#: ../../source/create/3d-models/pbr-materials-guide.rst:88
 msgid "sRGB"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:67
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "Metallic"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:67
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid ""
 "This channel determines how metallic the material is. Metal refracts "
 "light different than other materials."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:67
-#: ../../source/create/3d-models/pbr-materials-guide.rst:70
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:76
+#: ../../source/create/3d-models/pbr-materials-guide.rst:83
+#: ../../source/create/3d-models/pbr-materials-guide.rst:85
+#: ../../source/create/3d-models/pbr-materials-guide.rst:90
 msgid "[0,1]"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:70
+#: ../../source/create/3d-models/pbr-materials-guide.rst:76
 #, fuzzy
 msgid "Roughness"
 msgstr "표면 거칠기"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:70
+#: ../../source/create/3d-models/pbr-materials-guide.rst:76
 msgid "This determines how rough/matte or glossy/shiny an object is."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 #, fuzzy
 msgid "Normal"
 msgstr "보통"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid ""
 "Normal is a channel that renders an object like there is actual geometry."
 " For instance, normal would add bumps and other irregularities to a stone"
 " or ridges to a sea-shell."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "xyz"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "bump"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:83
 #, fuzzy
 msgid "Opacity"
 msgstr "불투명도"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:83
 msgid "Opacity determines if an object is transparent or opaque."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:83
 msgid "mask, alpha"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:85
 msgid "Occlusion"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:85
 msgid ""
 "This property approximates the shading to be as natural as possible. This"
 " means that it will reproduce how objects interact with light."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:85
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 #, fuzzy
 msgid "---"
 msgstr "---"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:88
 msgid "Emissive"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:88
 msgid "This channel controls the amount of light that is coming from an object."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
+#: ../../source/create/3d-models/pbr-materials-guide.rst:90
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 msgid "Scattering"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
+#: ../../source/create/3d-models/pbr-materials-guide.rst:90
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 msgid "Material Type"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 msgid "This channel decides if an object is impacted by light."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 msgid "[lit, unlit]"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:90
+#: ../../source/create/3d-models/pbr-materials-guide.rst:96
 msgid "Notes:"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:92
+#: ../../source/create/3d-models/pbr-materials-guide.rst:98
 msgid ""
 "If you set transparency with a texture, the transparency (alpha) must be "
 "in the material’s albedo texture, as a file with transparency and *not* "
 "as a separate transparency texture."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:93
+#: ../../source/create/3d-models/pbr-materials-guide.rst:99
 msgid ""
 "Overte renderer can draw two different kinds of transparency: \"alpha\" "
 "(255 graduates steps of transparency, no shading on surface, casts no "
@@ -1409,23 +1430,23 @@ msgid ""
 "surface, whole surface casts shadow.)"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:94
+#: ../../source/create/3d-models/pbr-materials-guide.rst:100
 msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
 "engine looks for alpha values between 2% and 98%."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:95
+#: ../../source/create/3d-models/pbr-materials-guide.rst:101
 msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Emissive Texture, Normal Map and Ambient Occlusion."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:99
+#: ../../source/create/3d-models/pbr-materials-guide.rst:105
 msgid "Sample Materials and Their Textures and Shading"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:101
+#: ../../source/create/3d-models/pbr-materials-guide.rst:107
 msgid ""
 "Overte supports different types of materials. We've created sample "
 "objects with each material type. You can download each object from `this "
@@ -1437,7 +1458,7 @@ msgid ""
 " in Overte to upload all sample objects in your domain."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:108
+#: ../../source/create/3d-models/pbr-materials-guide.rst:114
 msgid ""
 "We've listed all material information (including textures, shading, and "
 "channel values and maps) for these sample objects `here "
@@ -1445,15 +1466,15 @@ msgid ""
 "models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:113
+#: ../../source/create/3d-models/pbr-materials-guide.rst:119
 msgid "Set Material Values in Blender"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:118
+#: ../../source/create/3d-models/pbr-materials-guide.rst:124
 msgid "This section is outdated."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:120
+#: ../../source/create/3d-models/pbr-materials-guide.rst:126
 msgid ""
 "When you create a model in Blender, you have to export it in FBX, glTF, "
 "GLB or OBJ format to use in Overte. Additionally, you have to modify "
@@ -1461,11 +1482,11 @@ msgid ""
 "textures in Overte."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:122
+#: ../../source/create/3d-models/pbr-materials-guide.rst:128
 msgid "Doing so ensures that your model appears how you intend it to."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:124
+#: ../../source/create/3d-models/pbr-materials-guide.rst:130
 msgid ""
 "By default, any material property set with a texture will override a "
 "property set with a value. The only exception to this is in the case of "
@@ -1474,7 +1495,7 @@ msgid ""
 "performant colored models using grey-scale textures and vertex colors."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:127
+#: ../../source/create/3d-models/pbr-materials-guide.rst:133
 msgid ""
 "We've included images where the fields corresponding to each supported "
 "PBR channel in Blender are highlighted, along with details about which "
@@ -1483,27 +1504,27 @@ msgid ""
 " PBR material support in Overte yet."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:136
+#: ../../source/create/3d-models/pbr-materials-guide.rst:142
 msgid "Set Material Values in Maya"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:141
+#: ../../source/create/3d-models/pbr-materials-guide.rst:147
 msgid "This section hasn't been tested in a long while and might be outdated."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:143
+#: ../../source/create/3d-models/pbr-materials-guide.rst:149
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:152
+#: ../../source/create/3d-models/pbr-materials-guide.rst:158
 msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
 "content>`"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:153
+#: ../../source/create/3d-models/pbr-materials-guide.rst:159
 msgid ":doc:`Add a Material Entity <../entities/material-entity>`"
 msgstr ""
 
@@ -1816,7 +1837,7 @@ msgid "`API Reference: Vec3 <https://apidocs.overte.org/Vec3.html>`_"
 msgstr ""
 
 #: ../../source/create/avatars.rst:9
-#: ../../source/create/avatars/create-avatars.rst:7
+#: ../../source/create/avatars/create-avatars.rst:6
 msgid "Create Your Own Avatar"
 msgstr ""
 
@@ -1910,106 +1931,113 @@ msgid ""
 " whose hair has flow threads already configured."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:29
-#: ../../source/create/avatars/add-flow.rst:117
-msgid "Flow App"
+#: ../../source/create/avatars/add-flow.rst:27
+msgid ""
+"Currently for the Flow to work correctly, avatar model needs to be scaled"
+" in meters and scale of the armature and meshed needs to be equal to 1. "
+"To fix this issue for models that have different armature scale, open the"
+" model in Blender and apply scale to both armature and meshes."
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:31
-msgid ""
-"Load the `Flow app "
-"<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_"
-" into Overte to configure your flow settings. See :doc:`Load an Interface"
-" Script </script/interface-scripts>`"
+#: ../../source/create/avatars/add-flow.rst:123
+msgid "Flow App"
 msgstr ""
 
 #: ../../source/create/avatars/add-flow.rst:33
+msgid ""
+"Load the `Flow app` into Overte to configure your flow settings. The flow"
+" app is available in Community Apps repository. It can be installed by "
+"clicking on `More` icon and searching for `Flow`."
+msgstr ""
+
+#: ../../source/create/avatars/add-flow.rst:35
 msgid ""
 "The Flow app will show up as an icon on your HUD or tablet. Click this "
 "icon to open the Flow app."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:39
+#: ../../source/create/avatars/add-flow.rst:41
 msgid "Display Panel"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:41
+#: ../../source/create/avatars/add-flow.rst:43
 msgid ""
 "The **Display** panel affects how your avatar looks while the Flow app is"
 " open. Using these options, you can choose to view meshes and collisions "
 "to help you determine what your final flow configuration will look like."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:46
-#: ../../source/create/avatars/add-flow.rst:66
-#: ../../source/create/avatars/add-flow.rst:92
+#: ../../source/create/avatars/add-flow.rst:48
+#: ../../source/create/avatars/add-flow.rst:68
+#: ../../source/create/avatars/add-flow.rst:98
 #, fuzzy
 msgid "Option"
 msgstr "옵션"
 
-#: ../../source/create/avatars/add-flow.rst:48
+#: ../../source/create/avatars/add-flow.rst:50
 #, fuzzy
 msgid "Avatar"
 msgstr "아바타"
 
-#: ../../source/create/avatars/add-flow.rst:48
+#: ../../source/create/avatars/add-flow.rst:50
 msgid "Hides or displays the avatar mesh."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:50
+#: ../../source/create/avatars/add-flow.rst:52
 #: ../../source/explore/interact.md:28
 msgid "Collisions"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:50
+#: ../../source/create/avatars/add-flow.rst:52
 msgid "Activates or deactivates collisions."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:52
+#: ../../source/create/avatars/add-flow.rst:54
 #, fuzzy
 msgid "Debug"
 msgstr "디버그"
 
-#: ../../source/create/avatars/add-flow.rst:52
+#: ../../source/create/avatars/add-flow.rst:54
 msgid "Hides or displays the debug shapes."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:54
+#: ../../source/create/avatars/add-flow.rst:56
 #, fuzzy
 msgid "Solid"
 msgstr "단색 레이어"
 
-#: ../../source/create/avatars/add-flow.rst:54
+#: ../../source/create/avatars/add-flow.rst:56
 msgid "Enables either a solid or wireframe display for debug shapes."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:59
+#: ../../source/create/avatars/add-flow.rst:61
 msgid "Joints Panel"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:61
+#: ../../source/create/avatars/add-flow.rst:63
 msgid ""
 "The **Joints** panel lists all of the available flow threads, and lets "
 "you configure the behavior of your joints."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:68
-#: ../../source/create/avatars/add-flow.rst:94
+#: ../../source/create/avatars/add-flow.rst:70
+#: ../../source/create/avatars/add-flow.rst:100
 #, fuzzy
 msgid "Radius"
 msgstr "반지름"
 
-#: ../../source/create/avatars/add-flow.rst:68
+#: ../../source/create/avatars/add-flow.rst:70
 msgid ""
 "Determines the thickness of segments and knots (needed for collision "
 "testing)."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:70
+#: ../../source/create/avatars/add-flow.rst:72
 msgid "Gravity"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:70
+#: ../../source/create/avatars/add-flow.rst:72
 msgid ""
 "Sets the how each joint will respond to gravity. A positive value will "
 "lift your joints in the air, while a negative value will respond to "
@@ -2017,43 +2045,49 @@ msgid ""
 "movement to happen more quickly."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:74
+#: ../../source/create/avatars/add-flow.rst:76
 msgid "Stiffness"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:74
+#: ../../source/create/avatars/add-flow.rst:76
 msgid "Defines how susceptible the flow threads are to movement."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:76
+#: ../../source/create/avatars/add-flow.rst:78
 msgid "Damping"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:76
+#: ../../source/create/avatars/add-flow.rst:78
 msgid "Determines how easily the bones oscillate or move around the joints."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:78
+#: ../../source/create/avatars/add-flow.rst:80
 msgid "Inertia"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:78
+#: ../../source/create/avatars/add-flow.rst:80
 msgid "Changes the rotational velocity of the bones."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:80
+#: ../../source/create/avatars/add-flow.rst:82
 msgid "Delta"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:80
+#: ../../source/create/avatars/add-flow.rst:82
 msgid "Controls the amount of time between each joint movement."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:85
+#: ../../source/create/avatars/add-flow.rst:86
+msgid ""
+"Damping value is currently reversed. 0 means full damping, and 1 means no"
+" damping at all."
+msgstr ""
+
+#: ../../source/create/avatars/add-flow.rst:91
 msgid "Collisions Panel"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:87
+#: ../../source/create/avatars/add-flow.rst:93
 msgid ""
 "The **Collisions** panel controls the collision spheres that define the "
 "interactions between flow threads and the joints in your avatar. Each "
@@ -2063,92 +2097,86 @@ msgid ""
 "maximum of 4 collisions defined for your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:94
+#: ../../source/create/avatars/add-flow.rst:100
 msgid "Controls the collision sphere radius."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:96
+#: ../../source/create/avatars/add-flow.rst:102
 #, fuzzy
 msgid "Offset"
 msgstr "오프셋"
 
-#: ../../source/create/avatars/add-flow.rst:96
+#: ../../source/create/avatars/add-flow.rst:102
 msgid "Controls the collision sphere offset."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:101
+#: ../../source/create/avatars/add-flow.rst:107
 msgid "Output Panel"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:103
+#: ../../source/create/avatars/add-flow.rst:109
 msgid ""
 "The **Output** panel displays the resulting FST data for your avatar's "
 "flow configuration, based on what you entered in the `Joints Panel`_ and "
 "the `Collisions Panel`_."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:105
+#: ../../source/create/avatars/add-flow.rst:111
 msgid ""
 "Copy this data directly into your avatar's FST file to complete the flow "
 "process."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:112
+#: ../../source/create/avatars/add-flow.rst:118
 #, fuzzy
 msgid "Resources"
 msgstr "리소스"
 
-#: ../../source/create/avatars/add-flow.rst:115
+#: ../../source/create/avatars/add-flow.rst:121
 #: ../../source/create/entities/boombox-tutorial.rst:99
 #, fuzzy
 msgid "File"
 msgstr "파일"
 
-#: ../../source/create/avatars/add-flow.rst:115
-#: ../../source/create/entities/boombox-tutorial.rst:99
-#, fuzzy
-msgid "URL"
-msgstr "URL"
-
-#: ../../source/create/avatars/add-flow.rst:117
+#: ../../source/create/avatars/add-flow.rst:123
 msgid ""
 "This app lets users easily update Flow settings without the need for "
 "scripting or advanced knowledge of avatars."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:117
+#: ../../source/create/avatars/add-flow.rst:123
 msgid ""
-"`flowAppCpp.js <https://docs.overte.org/ "
-"_static/resources/script/flow/flowAppCpp/ flowAppCpp.js>`_"
+"Part of the Community Apps Can be installed by clicking `More` icon and "
+"selecting Flow"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:121
+#: ../../source/create/avatars/add-flow.rst:127
 msgid "Mannequin with Hair"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:121
+#: ../../source/create/avatars/add-flow.rst:127
 msgid ""
 "This avatar is properly rigged to work with Flow. Use this as an example "
 "for your own avatar models."
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:121
+#: ../../source/create/avatars/add-flow.rst:127
 msgid ""
 "`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
 " Mannequin/hairTest/mannequinHairTest8. fst>`_"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:129
-#: ../../source/create/avatars/custom-animations.rst:271
+#: ../../source/create/avatars/add-flow.rst:135
+#: ../../source/create/avatars/custom-animations.rst:272
 msgid ":doc:`Avatar Standards Guide <avatar-standards>`"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:130
+#: ../../source/create/avatars/add-flow.rst:136
 #: ../../source/create/avatars/scattering-tutorial.rst:69
 msgid "`Package Your Avatar <create-avatars.html#package-your-avatar>`_"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:131
+#: ../../source/create/avatars/add-flow.rst:137
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:64
 #: ../../source/create/entities/boombox-tutorial.rst:21
 #: ../../source/create/entities/boombox-tutorial.rst:170
@@ -2158,12 +2186,12 @@ msgid ""
 "scripting>`"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:6
-#: ../../source/create/avatars/create-avatars.rst:24
+#: ../../source/create/avatars/avatar-standards.md:7
+#: ../../source/create/avatars/create-avatars.rst:22
 msgid "Avatar Standards Guide"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:8
+#: ../../source/create/avatars/avatar-standards.md:9
 msgid ""
 "This document outlines the standards you should follow when [creating "
 "your avatar](create-avatars). Your avatar uses bones to animate the "
@@ -2173,7 +2201,7 @@ msgid ""
 "scripting to define advanced behaviors."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:10
+#: ../../source/create/avatars/avatar-standards.md:11
 #: ../../source/create/entities/avatar-interactions.md:5
 #: ../../source/create/entities/create-spotlight.md:5
 #: ../../source/create/entities/display-youtube.md:5
@@ -2188,115 +2216,115 @@ msgstr ""
 msgid "**On This Page:**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:11
+#: ../../source/create/avatars/avatar-standards.md:12
 msgid "[Glossary](#glossary)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:12
+#: ../../source/create/avatars/avatar-standards.md:13
 msgid "[Reference Pose](#reference-pose)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:13
+#: ../../source/create/avatars/avatar-standards.md:14
 msgid "[Skeleton](#skeleton)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:14
+#: ../../source/create/avatars/avatar-standards.md:15
 msgid "[Flow Bones](#flow-bones)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:15
+#: ../../source/create/avatars/avatar-standards.md:16
 msgid "[Look-at Vectors](#look-at-vectors)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:16
+#: ../../source/create/avatars/avatar-standards.md:17
 msgid "[Blendshapes](#blendshapes)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:17
+#: ../../source/create/avatars/avatar-standards.md:18
 msgid "[Other Considerations](#other-considerations)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:19
+#: ../../source/create/avatars/avatar-standards.md:20
 #, fuzzy
 msgid "Glossary"
 msgstr "용어집"
 
-#: ../../source/create/avatars/avatar-standards.md:20
+#: ../../source/create/avatars/avatar-standards.md:21
 msgid ""
 "As we delve deeper into creating custom avatars, we may use terminology "
 "that you are unfamiliar with. Here are some terms you might come across:"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:22
+#: ../../source/create/avatars/avatar-standards.md:23
 msgid "Avatar - A virtual representation of a person or NPC."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:23
+#: ../../source/create/avatars/avatar-standards.md:24
 msgid ""
 "Mesh - The collection of 3D vertices and triangles for the avatar model. "
 "Without this, the avatar is invisible."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:24
+#: ../../source/create/avatars/avatar-standards.md:25
 msgid ""
 "Bones - A component of a skeleton that defines a \"limb\" such as an arm,"
 " leg, etc. Each bone may be animated as a separate limb in your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:25
+#: ../../source/create/avatars/avatar-standards.md:26
 msgid "Skeleton - A hierarchy of joints."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:26
+#: ../../source/create/avatars/avatar-standards.md:27
 msgid "Rigging - The process of creating a skeleton of the avatar model."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:27
+#: ../../source/create/avatars/avatar-standards.md:28
 msgid ""
 "Blendshapes - Variations of the topology that defines how the mesh is "
 "modified to create various \"shapes\"."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:28
+#: ../../source/create/avatars/avatar-standards.md:29
 msgid ""
 "FST file - The main avatar file, which contains information about the "
-"skeleton, blendshapes, FBX file and textures used by an avatar."
-msgstr ""
-
-#: ../../source/create/avatars/avatar-standards.md:31
-msgid "Reference Pose"
+"skeleton, blendshapes, glTF/GLB/FBX file and textures used by an avatar."
 msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:32
+msgid "Reference Pose"
+msgstr ""
+
+#: ../../source/create/avatars/avatar-standards.md:33
 msgid ""
 "For the Reference pose, use a T-Pose which complies with the "
 "specifications below. You may wish to refer to the properly configured "
 "example avatar fbx with source files."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:33
+#: ../../source/create/avatars/avatar-standards.md:34
 msgid "The character must face along the positive direction of the Z-axis."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:34
+#: ../../source/create/avatars/avatar-standards.md:35
 msgid ""
 "The arms must be spread along the X-axis. The left arm should therefore "
 "be pointing along the positive direction of the X-axis."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:35
+#: ../../source/create/avatars/avatar-standards.md:36
 msgid ""
 "The top of the character's head must be up, in the positive direction of "
 "the Y-axis."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:36
+#: ../../source/create/avatars/avatar-standards.md:37
 msgid ""
 "The character's hands are flat, palms facing the ground, with the thumbs "
 "parallel to the X axis."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:37
+#: ../../source/create/avatars/avatar-standards.md:38
 msgid ""
 "The character's feet need to be perpendicular to the legs (with the toes "
 "pointing along the Z-axis as shown). The feet must not be rotated around "
@@ -2304,22 +2332,22 @@ msgid ""
 "toward the right leg or outward away from the right leg)."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:39
+#: ../../source/create/avatars/avatar-standards.md:40
 msgid "![](_images/hifi-skel.png)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:41
+#: ../../source/create/avatars/avatar-standards.md:42
 msgid ""
 "You can download the standard Overte skeleton [here](http://hifi-"
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:43
+#: ../../source/create/avatars/avatar-standards.md:44
 msgid "Skeleton"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:44
+#: ../../source/create/avatars/avatar-standards.md:45
 msgid ""
 "The standard humanoid skeleton of your avatar should follow [HumanIK "
 "Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/index.html?url=files"
@@ -2330,21 +2358,21 @@ msgid ""
 "any)."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:46
+#: ../../source/create/avatars/avatar-standards.md:47
 msgid ""
 "Overte avatars should match the following standard skeletal structure. "
 "Each of these joints can be animated."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:53
+#: ../../source/create/avatars/avatar-standards.md:54
 msgid "![](_images/avatar-skeleton.png)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:55
+#: ../../source/create/avatars/avatar-standards.md:56
 msgid "Flow Bones"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:57
+#: ../../source/create/avatars/avatar-standards.md:58
 msgid ""
 "The  `sim` and `flow` prefixes are reserved for flow bones, such as "
 "clothing, hair and tails. These bones should _not_ be animated by an "
@@ -2352,39 +2380,39 @@ msgid ""
 "model Ouka Miko(櫻歌ミコ) used in this diagram!)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:60
+#: ../../source/create/avatars/avatar-standards.md:61
 msgid "For example, consider a full cape that surrounds the avatar:"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:73
+#: ../../source/create/avatars/avatar-standards.md:74
 msgid ""
 "Alternatively, you can use the `flow` prefix, separating the name and "
 "joint number with an underscore. The same cape as above would look like:"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:86
+#: ../../source/create/avatars/avatar-standards.md:87
 msgid "Look-at Vectors"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:88
+#: ../../source/create/avatars/avatar-standards.md:89
 msgid "The look-at vectors are driven by the z-vector of the eye joints."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:90
+#: ../../source/create/avatars/avatar-standards.md:91
 msgid ""
 "The +z axis of the eye joints should go through the center of the pupil, "
 "and should continue to do so as the eye joint is rotated."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:92
+#: ../../source/create/avatars/avatar-standards.md:93
 msgid "The eye joints are defined in the FST."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:94
+#: ../../source/create/avatars/avatar-standards.md:95
 msgid "Blendshapes"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:96
+#: ../../source/create/avatars/avatar-standards.md:97
 msgid ""
 "Overte uses blendshapes to animate your avatar's face. Blendshapes allow "
 "you to specify a new state for your avatar's mesh, and facial positions "
@@ -2397,122 +2425,122 @@ msgid ""
 "expressions."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:98
+#: ../../source/create/avatars/avatar-standards.md:99
 msgid ""
 "Overte avatars support a number of blendshapes for creating different "
 "facial expressions."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:100
+#: ../../source/create/avatars/avatar-standards.md:101
 msgid "**Basic Blendshapes**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:102
+#: ../../source/create/avatars/avatar-standards.md:103
 msgid "`EyeBlink_L`:  Blinking action for the left eye."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:103
+#: ../../source/create/avatars/avatar-standards.md:104
 msgid "`EyeBlink_R`: Blicking action for the right eye."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:104
+#: ../../source/create/avatars/avatar-standards.md:105
 msgid "`JawOpen`: Opening of the jaw."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:106
+#: ../../source/create/avatars/avatar-standards.md:107
 msgid "**Audio Blendshapes**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:108
+#: ../../source/create/avatars/avatar-standards.md:109
 msgid "These blendshapes are used when you speak."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:110
+#: ../../source/create/avatars/avatar-standards.md:111
 msgid ""
 "Your eyebrows are blendshapes that react to a change in volume. They will"
 " move upwards when your voice gets louder. These include:"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:112
+#: ../../source/create/avatars/avatar-standards.md:113
 msgid "`BrowsU_C`: Center of the brow going up"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:113
+#: ../../source/create/avatars/avatar-standards.md:114
 msgid "`BrowsU_L`: Outside corner of the left brow going up"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:114
+#: ../../source/create/avatars/avatar-standards.md:115
 msgid "`BrowsU_R`: Outside corner of the right brow going up"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:116
+#: ../../source/create/avatars/avatar-standards.md:117
 msgid "Other audio blendshapes are randomly mixed when you speak. These include:"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:118
+#: ../../source/create/avatars/avatar-standards.md:119
 msgid "`MouthSmile_L`: Left side of the mouth lifting up to a smile"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:119
+#: ../../source/create/avatars/avatar-standards.md:120
 msgid "`MouthSmile_R`: Right side of the mouth lifting up to a smile"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:120
+#: ../../source/create/avatars/avatar-standards.md:121
 msgid "`LipsFunnel`: Funneling of the lips, as when you say \"Oh!\""
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:121
+#: ../../source/create/avatars/avatar-standards.md:122
 msgid "`LipsUpperClose`:  Upper lips rolled inwards"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:123
+#: ../../source/create/avatars/avatar-standards.md:124
 msgid "**Eyelid Offset**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:125
+#: ../../source/create/avatars/avatar-standards.md:126
 msgid ""
 "To ensure that the top of the eyelid rests on the iris, blendshapes are "
 "used to track the current position of the eye along with your head "
 "orientation."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:127
+#: ../../source/create/avatars/avatar-standards.md:128
 msgid "`EyeBlink_L`: Blinking action for the left eye"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:128
+#: ../../source/create/avatars/avatar-standards.md:129
 msgid "`EyeBlink_R`: Blicking action for the right eye"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:129
+#: ../../source/create/avatars/avatar-standards.md:130
 msgid "`EyeOpen_L`: Opening of left eye"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:130
+#: ../../source/create/avatars/avatar-standards.md:131
 msgid "`EyeOpen_R`: Opening of right eye"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:131
+#: ../../source/create/avatars/avatar-standards.md:132
 msgid "`BrowsD_L`: Outside corner of the left brow moving down"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:132
+#: ../../source/create/avatars/avatar-standards.md:133
 msgid "`BrowsD_R`: Outside corner of the right brow moving down"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:135
+#: ../../source/create/avatars/avatar-standards.md:136
 msgid ""
 "We apply a small procedural offset to the blendshape coefficients to "
 "prevent sleepy or crazy eye lids:"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:137
+#: ../../source/create/avatars/avatar-standards.md:138
 msgid ""
 "If you are looking straight ahead: The `EyeBlink` and `EyeOpen` "
 "coefficients will be `0`."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:138
+#: ../../source/create/avatars/avatar-standards.md:139
 msgid ""
 "If your eyes begin to look upward: `EyeBlink`, `EyeOpen`, and `BrowsU` "
 "start changing in value, reaching the values of `-1`, `1`, and `0.5` "
@@ -2520,7 +2548,7 @@ msgid ""
 " lids and brows as you look upward."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:139
+#: ../../source/create/avatars/avatar-standards.md:140
 msgid ""
 "If your eyes begin to look downward: `EyeBlink` and `EyeOpen` start "
 "changing in value. `EyeBlink` reaches a value of `0.5` at `32` degrees. "
@@ -2528,311 +2556,311 @@ msgid ""
 "effect of lowering your lids as you look downward."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:142
+#: ../../source/create/avatars/avatar-standards.md:143
 msgid ""
 "Tweaks to your blendshapes can be made with a 3D modeling tool, or "
 "directly in your avatar's FST file. In the FST file, blendshapes are "
 "defined with the syntax:"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:148
+#: ../../source/create/avatars/avatar-standards.md:149
 msgid "Here is an example of modifying your blendshapes in your FST file:"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:167
+#: ../../source/create/avatars/avatar-standards.md:168
 msgid "**ReadyPlayerMe Blendshapes**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:169
+#: ../../source/create/avatars/avatar-standards.md:170
 msgid ""
 "ReadyPlayerMe blendshapes are converted into Overte blendshapes "
 "automatically."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:171
+#: ../../source/create/avatars/avatar-standards.md:172
 msgid "**Unsupported Blendshapes**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:173
+#: ../../source/create/avatars/avatar-standards.md:174
 msgid ""
 "To utilize blendshapes present on avatars, they must match the "
 "blendshapes below. Alternatively, an .fst file can be used to remap the "
 "blendshapes to any of the ones below."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:175
+#: ../../source/create/avatars/avatar-standards.md:176
 msgid "**Eye Blendshapes**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:177
+#: ../../source/create/avatars/avatar-standards.md:178
 msgid "EyeBlink_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:178
+#: ../../source/create/avatars/avatar-standards.md:179
 msgid "EyeBlink_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:179
+#: ../../source/create/avatars/avatar-standards.md:180
 msgid "EyeSquint_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:180
+#: ../../source/create/avatars/avatar-standards.md:181
 msgid "EyeSquint_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:181
+#: ../../source/create/avatars/avatar-standards.md:182
 msgid "EyeDown_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:182
+#: ../../source/create/avatars/avatar-standards.md:183
 msgid "EyeDown_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:183
+#: ../../source/create/avatars/avatar-standards.md:184
 msgid "EyeIn_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:184
+#: ../../source/create/avatars/avatar-standards.md:185
 msgid "EyeIn_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:185
+#: ../../source/create/avatars/avatar-standards.md:186
 msgid "EyeOpen_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:186
+#: ../../source/create/avatars/avatar-standards.md:187
 msgid "EyeOpen_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:187
+#: ../../source/create/avatars/avatar-standards.md:188
 msgid "EyeOut_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:188
+#: ../../source/create/avatars/avatar-standards.md:189
 msgid "EyeOut_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:189
+#: ../../source/create/avatars/avatar-standards.md:190
 msgid "EyeUp_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:190
+#: ../../source/create/avatars/avatar-standards.md:191
 msgid "EyeUp_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:191
+#: ../../source/create/avatars/avatar-standards.md:192
 msgid "BrowsD_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:192
+#: ../../source/create/avatars/avatar-standards.md:193
 msgid "BrowsD_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:193
+#: ../../source/create/avatars/avatar-standards.md:194
 msgid "BrowsU_C"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:194
+#: ../../source/create/avatars/avatar-standards.md:195
 msgid "BrowsU_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:195
+#: ../../source/create/avatars/avatar-standards.md:196
 msgid "BrowsU_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:197
+#: ../../source/create/avatars/avatar-standards.md:198
 msgid "**Jaw Blendshapes**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:199
+#: ../../source/create/avatars/avatar-standards.md:200
 msgid "JawFwd"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:200
+#: ../../source/create/avatars/avatar-standards.md:201
 msgid "JawLeft"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:201
+#: ../../source/create/avatars/avatar-standards.md:202
 msgid "JawOpen"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:202
+#: ../../source/create/avatars/avatar-standards.md:203
 msgid "JawRight"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:203
+#: ../../source/create/avatars/avatar-standards.md:204
 msgid "MouthLeft"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:204
+#: ../../source/create/avatars/avatar-standards.md:205
 msgid "MouthRight"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:205
+#: ../../source/create/avatars/avatar-standards.md:206
 msgid "MouthFrown_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:206
+#: ../../source/create/avatars/avatar-standards.md:207
 msgid "MouthFrown_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:207
+#: ../../source/create/avatars/avatar-standards.md:208
 msgid "MouthSmile_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:208
+#: ../../source/create/avatars/avatar-standards.md:209
 msgid "MouthSmile_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:209
+#: ../../source/create/avatars/avatar-standards.md:210
 msgid "MouthDimple_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:210
+#: ../../source/create/avatars/avatar-standards.md:211
 msgid "MouthDimple_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:212
+#: ../../source/create/avatars/avatar-standards.md:213
 msgid "**Lip Blendshapes**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:214
+#: ../../source/create/avatars/avatar-standards.md:215
 msgid "LipsStretch_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:215
+#: ../../source/create/avatars/avatar-standards.md:216
 msgid "LipsStretch_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:216
+#: ../../source/create/avatars/avatar-standards.md:217
 msgid "LipsUpperClose"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:217
+#: ../../source/create/avatars/avatar-standards.md:218
 msgid "LipsLowerClose"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:218
+#: ../../source/create/avatars/avatar-standards.md:219
 msgid "LipsFunnel"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:219
+#: ../../source/create/avatars/avatar-standards.md:220
 msgid "LipsPucker"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:220
+#: ../../source/create/avatars/avatar-standards.md:221
 msgid "Puff"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:222
+#: ../../source/create/avatars/avatar-standards.md:223
 msgid "**Mouth, Cheek and User Blendshapes**"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:224
+#: ../../source/create/avatars/avatar-standards.md:225
 msgid "CheekSquint_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:225
+#: ../../source/create/avatars/avatar-standards.md:226
 msgid "CheekSquint_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:227
+#: ../../source/create/avatars/avatar-standards.md:228
 msgid "MouthClose"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:228
+#: ../../source/create/avatars/avatar-standards.md:229
 msgid "MouthUpperUp_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:229
+#: ../../source/create/avatars/avatar-standards.md:230
 msgid "MouthUpperUp_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:230
+#: ../../source/create/avatars/avatar-standards.md:231
 msgid "MouthLowerDown_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:231
+#: ../../source/create/avatars/avatar-standards.md:232
 msgid "MouthLowerDown_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:232
+#: ../../source/create/avatars/avatar-standards.md:233
 msgid "MouthPress_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:233
+#: ../../source/create/avatars/avatar-standards.md:234
 msgid "MouthPress_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:234
+#: ../../source/create/avatars/avatar-standards.md:235
 msgid "MouthShrugLower"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:235
+#: ../../source/create/avatars/avatar-standards.md:236
 msgid "MouthShrugUpper"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:236
+#: ../../source/create/avatars/avatar-standards.md:237
 msgid "NoseSneer_L"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:237
+#: ../../source/create/avatars/avatar-standards.md:238
 msgid "NoseSneer_R"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:238
+#: ../../source/create/avatars/avatar-standards.md:239
 msgid "TongueOut"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:240
+#: ../../source/create/avatars/avatar-standards.md:241
 msgid "UserBlendshape0"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:241
+#: ../../source/create/avatars/avatar-standards.md:242
 msgid "UserBlendshape1"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:242
+#: ../../source/create/avatars/avatar-standards.md:243
 msgid "UserBlendshape2"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:243
+#: ../../source/create/avatars/avatar-standards.md:244
 msgid "UserBlendshape3"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:244
+#: ../../source/create/avatars/avatar-standards.md:245
 msgid "UserBlendshape4"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:245
+#: ../../source/create/avatars/avatar-standards.md:246
 msgid "UserBlendshape5"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:246
+#: ../../source/create/avatars/avatar-standards.md:247
 msgid "UserBlendshape6"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:247
+#: ../../source/create/avatars/avatar-standards.md:248
 msgid "UserBlendshape7"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:248
+#: ../../source/create/avatars/avatar-standards.md:249
 msgid "UserBlendshape8"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:249
+#: ../../source/create/avatars/avatar-standards.md:250
 msgid "UserBlendshape9"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:252
+#: ../../source/create/avatars/avatar-standards.md:253
 msgid "Other Considerations"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:254
+#: ../../source/create/avatars/avatar-standards.md:255
 msgid "File Optimization"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:255
+#: ../../source/create/avatars/avatar-standards.md:256
 msgid ""
 "Content creators will have limited bandwidth on servers (read small print"
 " on any unlimited host plans) so optimization is important, for both the "
@@ -2841,7 +2869,7 @@ msgid ""
 "Optimally, keep your avatar models under 20 MB."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:258
+#: ../../source/create/avatars/avatar-standards.md:259
 msgid ""
 "We recommend that you try to keep total size of all the textures per "
 "avatar below 8 MB. They should be always smaller than 1024x1024, unless "
@@ -2853,11 +2881,11 @@ msgid ""
 " instead of color variation."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:260
+#: ../../source/create/avatars/avatar-standards.md:261
 msgid "Avatar Collision Hulls"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:262
+#: ../../source/create/avatars/avatar-standards.md:263
 msgid ""
 "When you wear different avatars, you'll notice that each avatar has a "
 "different collision shape or _collision hull_. The collision hull is the "
@@ -2865,7 +2893,7 @@ msgid ""
 "other avatars or entities collide with you."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:264
+#: ../../source/create/avatars/avatar-standards.md:265
 msgid ""
 "Depending on the avatar's design, the collision hulls can be very large "
 "or small. This occurs because Overte analyzes the shape of the avatar's "
@@ -2876,11 +2904,11 @@ msgid ""
 "collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:267
+#: ../../source/create/avatars/avatar-standards.md:268
 msgid "Avatar Thumbnails"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:269
+#: ../../source/create/avatars/avatar-standards.md:270
 msgid ""
 "The Avatar app will look for a thumbnail with a .jpg extension with the "
 "same name and at the same URL location as your avatar's. For example, if "
@@ -2888,32 +2916,98 @@ msgid ""
 "look for a thumbnail at `https://overte.org/avatar.jpg`."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:274
-#: ../../source/create/avatars/blender-tutorial.md:55
+#: ../../source/create/avatars/avatar-standards.md:275
+#: ../../source/create/avatars/blender-tutorial.md:79
 #: ../../source/create/avatars/mixamo-tutorial.md:27
 msgid "[Create Your Own Avatar](create-avatars)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:275
+#: ../../source/create/avatars/avatar-standards.md:276
 msgid "[Find and Use an Existing Avatar](find-avatars)"
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:276
+#: ../../source/create/avatars/avatar-standards.md:277
 msgid "[Add Flow to Your Avatar](add-flow)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:6
-msgid "Tutorial: Modify Materials and Textures Using Blender"
+#: ../../source/create/avatars/blender-tutorial.md:1
+msgid "Workflow for importing avatars to Overte using Blender"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:3
+msgid ""
+"Overte avatars can be created or imported using Blender without any non-"
+"standard addons. Preferred export format for avatars using PBR materials "
+"is GLB/glTF. Some materials in models exported as FBX may not render "
+"correctly."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:5
+msgid ""
+"Typical workflow of importing avatar to Overte using Blender consists of "
+"following steps:"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:7
+msgid "Import avatar model to Blender."
 msgstr ""
 
 #: ../../source/create/avatars/blender-tutorial.md:8
+msgid ""
+"Rename bones according to example armature in [Avatar Standards Guide"
+"](avatar-standards)."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:9
+msgid ""
+"Modify bone rolls so that they are the same as in the Avatar Standards "
+"Guide."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:10
+msgid "Set up materials for glTF export."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:11
+msgid "Rename flow bones."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:12
+msgid "Rename blendshapes according to Avatar Standards Guide."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:13
+msgid "Export avatar as GLB/glTF file."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:14
+msgid "Create FST file and setup Flow bones if desired."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:16
+msgid "Video tutorial:"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:18
+msgid ""
+"Full workflow of modifying an avatar to conform to Overte avatar "
+"standards, exporting it as GLB file, creating FST file and setting up the"
+" Flow: "
+"[https://www.youtube.com/watch?v=IFuZWNppXZY](https://www.youtube.com/watch?v=IFuZWNppXZY)"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:20
+msgid "Tutorial: Modify Materials and Textures Using Blender"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:27
 msgid ""
 "Blender is an open-source 3D modeling tool that you can use to fine tune "
 "your avatar and ensure that the materials and textures render correctly "
 "in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:10
+#: ../../source/create/avatars/blender-tutorial.md:29
 msgid ""
 "In this tutorial, we will walk you through simple modifications you can "
 "make to your avatar using Blender. You will need to import an FBX file "
@@ -2921,50 +3015,50 @@ msgid ""
 "](mixamo-tutorial)."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:12
+#: ../../source/create/avatars/blender-tutorial.md:31
 msgid "In Blender, go to **File > Import > FBX (.fbx)**."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:13
+#: ../../source/create/avatars/blender-tutorial.md:32
 msgid ""
 "Choose your avatar's FBX file and click 'Import FBX'. This will open your"
 " avatar in the main view. ![](_images/import-avatar.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:14
+#: ../../source/create/avatars/blender-tutorial.md:33
 msgid ""
 "By default, you will not see the materials on your avatar. You can change"
 " your view using the toolbar at the bottom of the view. ![](_images/view-"
 "materials.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:15
+#: ../../source/create/avatars/blender-tutorial.md:34
 msgid "To get a better view of your avatar, change the lamp settings:"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:16
+#: ../../source/create/avatars/blender-tutorial.md:35
 msgid "From the Outliner, click the Lamp node in Blender."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:17
+#: ../../source/create/avatars/blender-tutorial.md:36
 msgid "For 'Type of Active Data to display and edit', choose the 'Data' icon."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:18
+#: ../../source/create/avatars/blender-tutorial.md:37
 msgid "Change the lamp to Sun."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:19
+#: ../../source/create/avatars/blender-tutorial.md:38
 msgid "Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:20
+#: ../../source/create/avatars/blender-tutorial.md:39
 msgid ""
 "From the Outliner, open the 'Armature' tree and select the item you want "
 "to fine tune. You can also click on the item directly on your model."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:21
+#: ../../source/create/avatars/blender-tutorial.md:40
 msgid ""
 "Using the toolbox below, you can change the materials and texture of each"
 " body part as desired. We've included an example below that [changes our "
@@ -2973,207 +3067,216 @@ msgid ""
 "material.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:27
+#: ../../source/create/avatars/blender-tutorial.md:46
 msgid ""
 "When you're done changing your materials and textures, go to **File > "
 "Export > FBX (.fbx)**."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:28
+#: ../../source/create/avatars/blender-tutorial.md:47
 msgid ""
 "Change the 'Path Mode' to 'Copy', then click the 'Embed Textures' icon. "
 "This makes sure that all of the textures are embedded into your model. "
 "![](_images/blender-export.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:29
+#: ../../source/create/avatars/blender-tutorial.md:48
 msgid "Give your avatar a unique name."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:30
+#: ../../source/create/avatars/blender-tutorial.md:49
 msgid "Click the 'Export FBX' button."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:32
+#: ../../source/create/avatars/blender-tutorial.md:51
 msgid "Now, you are ready to bring your avatar into Overte."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:34
+#: ../../source/create/avatars/blender-tutorial.md:53
 msgid "Example: Update Eyelashes from an Image"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:36
+#: ../../source/create/avatars/blender-tutorial.md:60
 msgid ""
 "Save [this texture](http://hifi-"
 "content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png)"
 " to a directory where you will remember."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:37
+#: ../../source/create/avatars/blender-tutorial.md:61
 msgid "From the Outliner, open the 'Armature' tree and select 'Eyelashes'."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:38
+#: ../../source/create/avatars/blender-tutorial.md:62
 msgid ""
 "In the Toolbox below, click the 'Materials' icon. ![](_images/materials-"
 "tab.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:39
+#: ../../source/create/avatars/blender-tutorial.md:63
 msgid ""
 "Click the '+' button next to the material list to create a new material "
 "slot."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:40
+#: ../../source/create/avatars/blender-tutorial.md:64
 msgid "Click '+ New' to add a new material."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:41
+#: ../../source/create/avatars/blender-tutorial.md:65
 msgid "Rename the new material to 'lashes'."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:42
+#: ../../source/create/avatars/blender-tutorial.md:66
 msgid ""
 "At the bottom of the Blender window, switch to 'Edit Mode'. ![](_images"
 "/edit-mode.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:43
+#: ../../source/create/avatars/blender-tutorial.md:67
 msgid "Under the material list, click 'Assign'."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:44
+#: ../../source/create/avatars/blender-tutorial.md:68
 msgid ""
 "Scroll to the 'Transparency' section. Check the Transparency box and "
 "change the 'Alpha' value to `0.00`. ![](_images/transparency-setting.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:45
+#: ../../source/create/avatars/blender-tutorial.md:69
 msgid ""
 "Scroll to the 'Specular' section. Set the specular color to black. "
 "![](_images/specular-setting.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:46
+#: ../../source/create/avatars/blender-tutorial.md:70
 msgid "Change to the 'Textures' view. ![](_images/texture-tab.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:47
+#: ../../source/create/avatars/blender-tutorial.md:71
 msgid "Click '+ New' to add a new texture."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:48
+#: ../../source/create/avatars/blender-tutorial.md:72
 msgid ""
 "Scroll to the Image section. Click 'Open' and find the lashes texture "
 "named 'mixamo_eyelashes' you previously downloaded. Click 'Open Image'. "
 "![](_images/image-setting.png)"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:49
+#: ../../source/create/avatars/blender-tutorial.md:73
 msgid ""
 "Check the 'Alpha' options in the following sections: Image, Preview, "
 "Texture, Influence"
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:50
+#: ../../source/create/avatars/blender-tutorial.md:74
 msgid ""
 "Go to **File > External Data > Pack All Into .blend**. This will include "
 "the texture in your model."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:54
+#: ../../source/create/avatars/blender-tutorial.md:78
 msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:2
-msgid ""
-"This document is outdated and will be revisited in the future. FIXME: "
-"Mentions services like VRoid Studio even though their skeletons have "
-"never been supported (the Unity avatar exporter will not be able to fix "
-"that)"
+msgid "Parts of this document are outdated and will be revisited in the future."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:9
+#: ../../source/create/avatars/create-avatars.rst:8
 msgid "There are three ways to get your own avatar. You can either:"
+msgstr ""
+
+#: ../../source/create/avatars/create-avatars.rst:10
+msgid ""
+"Create your avatar from scratch using 3D modeling tools such as Mixamo "
+"and Blender."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:11
 msgid ""
-"Create your avatar from scratch using 3D modeling tools such as Mixamo "
-"and Blender"
-msgstr ""
-
-#: ../../source/create/avatars/create-avatars.rst:12
-msgid "Use MakeHuman or VRoid Studio to create a human or anime avatar"
+"Download an existing avatar from external sources and modify it to "
+"conform to Overte's avatar standards using Unity avatar importer tool or "
+"Blender."
 msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:13
-msgid ""
-"Download an existing avatar from external sources such as TurboSquid or "
-"CGTrader"
-msgstr ""
-
-#: ../../source/create/avatars/create-avatars.rst:15
 msgid ""
 "If you get an avatar from an external source such as TurboSquid, "
 "CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does"
 " not match our :doc:`avatar standards <avatar-standards>`. To use these "
 "avatars with Overte, use the `Overte Avatar Exporter for Unity <find-"
 "avatars.html#overte-avatar-exporter-for-unity>`_ to correctly map the "
-"skeleton and package your avatar."
+"skeleton and package your avatar. The avatar can also be modified using "
+"Blender to conform to Overte's avatar standards. For more information and"
+" a video tutorial check the `Blender Avatar import tutorial <blender-"
+"tutorial>`_. The Unity Avatar Exporter might not be able to export "
+"avatars with very unusual armatures, and in such cases reworking the "
+"armature in Blender might be needed."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:17
+#: ../../source/create/avatars/create-avatars.rst:15
 msgid ""
 "If you want to create an avatar from scratch, this page covers the steps "
 "needed to create, rig, and package your avatar. Learn more about the "
 ":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:22
+#: ../../source/create/avatars/create-avatars.rst:20
 #: ../../source/explore/get-started.rst:7 ../../source/host/add-content.rst:7
 #: ../../source/host/configure-settings.rst:12
 msgid "**In This Section**"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:32
+#: ../../source/create/avatars/create-avatars.rst:30
 msgid "Create an Avatar from Scratch"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:34
+#: ../../source/create/avatars/create-avatars.rst:32
 msgid "The steps involved in creating your avatar are:"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:36
+#: ../../source/create/avatars/create-avatars.rst:34
 msgid "Create an avatar with 3D character modeling tool such as Blender or Maya."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:37
-msgid "Rig and animate your avatar with an animation tool such as Mixamo."
+#: ../../source/create/avatars/create-avatars.rst:35
+msgid ""
+"Rig your avatar with an animation tool such as Blender or Mixamo. When "
+"rigging avatar with Blender, bone names and orientations must conform to "
+"`Avatar Standards Guide <avatar-standards>`."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:38
+#: ../../source/create/avatars/create-avatars.rst:36
+msgid ""
+"Optionally create custom animations for the avatar (most avatars work "
+"well with default animations)."
+msgstr ""
+
+#: ../../source/create/avatars/create-avatars.rst:37
 msgid "Fine tune your avatar using a tool such as Blender or Maya."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:39
-msgid "Package the model in Overte for use as an avatar."
+#: ../../source/create/avatars/create-avatars.rst:38
+msgid ""
+"Optionally add .fst metadata file containing informations such as flow "
+"bone setups and avatar scripts."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:41
+#: ../../source/create/avatars/create-avatars.rst:40
 msgid ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:42
+#: ../../source/create/avatars/create-avatars.rst:41
 msgid ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:46
+#: ../../source/create/avatars/create-avatars.rst:45
 msgid "Community Tools for Avatars"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:48
+#: ../../source/create/avatars/create-avatars.rst:47
 msgid ""
 "As you're creating your avatar, remember that Overte is an open-source "
 "project. Many of our community members have created plug-ins, add-ons, "
@@ -3181,7 +3284,7 @@ msgid ""
 "avatars. Here are a few for you to play around with."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:52
+#: ../../source/create/avatars/create-avatars.rst:51
 msgid ""
 "`Blender Add-on by Menithal <https://github.com/Menithal/Blender-"
 "Metaverse-Addon>`_"
@@ -3189,58 +3292,64 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:54
 msgid ""
+"This tool is outddated and needs upgrading to current Blender version. "
+"Use Unity avatar importer or Blender (without addons) instead."
+msgstr ""
+
+#: ../../source/create/avatars/create-avatars.rst:57
+msgid ""
 "Plugin (\"Project Hermes\") is a plugin for Blender to allow for easier "
 "content creation and importing for the Overte Platform. It features:"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:56
+#: ../../source/create/avatars/create-avatars.rst:59
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:57
+#: ../../source/create/avatars/create-avatars.rst:60
 msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Overte and "
 "let you configure bone names for use in advanced scripts."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:58
+#: ../../source/create/avatars/create-avatars.rst:61
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:59
+#: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Overte."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:60
+#: ../../source/create/avatars/create-avatars.rst:63
 msgid ""
 "**Import Tools**: Imports primitive entities from Overte so that you can "
 "make modifications to them."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:62
+#: ../../source/create/avatars/create-avatars.rst:65
 msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:64
+#: ../../source/create/avatars/create-avatars.rst:67
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:69
+#: ../../source/create/avatars/create-avatars.rst:72
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:70
-#: ../../source/create/avatars/find-avatars.rst:180
+#: ../../source/create/avatars/create-avatars.rst:73
+#: ../../source/create/avatars/find-avatars.rst:171
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
 msgstr ""
 
@@ -3483,7 +3592,7 @@ msgid ""
 "to get the latest animation roles before continuing. The standard "
 "animation FBX files for these roles can be found in the Overte source "
 "code repository on `GitHub <https://github.com/overte-"
-"org/vircadia/tree/master/interface/resources/avatar/animations>`_."
+"org/overte/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
 
 #: ../../source/create/avatars/custom-animations.rst:106
@@ -3893,18 +4002,24 @@ msgid ""
 "avatar's default animations."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:240
+#: ../../source/create/avatars/custom-animations.rst:236
+msgid ""
+"Example of avatar with custom animations: `Golden Dragon "
+"<https://oaktown.pl/golden_dragon_r_1/avatar5.fst>`_."
+msgstr ""
+
+#: ../../source/create/avatars/custom-animations.rst:241
 msgid "Advanced Topic: AnimNode System"
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:242
+#: ../../source/create/avatars/custom-animations.rst:243
 msgid ""
 "The Avatar Animation JSON file contains a hierarchical tree of nodes "
 "called the AnimNode System. The AnimNode system defines how an avatar "
 "moves and is described in the Animation Graph JSON file."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:244
+#: ../../source/create/avatars/custom-animations.rst:245
 msgid ""
 "The movement of an avatar is determined by a complex blend of procedural "
 "animation, pre-recorded animation clips, and inverse kinematics. This "
@@ -3917,54 +4032,54 @@ msgid ""
 "functionalities are handled by the AnimNode system."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:246
+#: ../../source/create/avatars/custom-animations.rst:247
 msgid "We've listed some features of the system:"
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:248
+#: ../../source/create/avatars/custom-animations.rst:249
 msgid "The AnimNode system is a graph of nodes."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:249
+#: ../../source/create/avatars/custom-animations.rst:250
 msgid "Some nodes are output only, such as pre-recorded animation clips."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:250
+#: ../../source/create/avatars/custom-animations.rst:251
 msgid ""
 "Other nodes produce output by processing nodes below it in the graph and "
 "blending the results together."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:251
+#: ../../source/create/avatars/custom-animations.rst:252
 msgid ""
 "By manipulating the node hierarchy, certain animation actions will occur "
 "before or after other animation actions."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:252
+#: ../../source/create/avatars/custom-animations.rst:253
 msgid ""
 "The node parameters can be dynamically changed at runtime. This "
 "flexibility is necessary to achieve good visual results."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:253
+#: ../../source/create/avatars/custom-animations.rst:254
 msgid ""
 "The system is in the default Animation Graph JSON file and is loaded "
 "during avatar initialization."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:255
+#: ../../source/create/avatars/custom-animations.rst:256
 msgid "**Key Concepts**"
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:257
+#: ../../source/create/avatars/custom-animations.rst:258
 msgid ""
 "The AnimNode system operates like an expression parse tree.  For example "
 "the following expression: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, can be "
 "represented by the following parse tree."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:262
+#: ../../source/create/avatars/custom-animations.rst:263
 msgid ""
 "This parse tree can then be evaluated at runtime to compute the actual "
 "value. In this tree, the leaf nodes are values and interior nodes are "
@@ -3973,7 +4088,7 @@ msgid ""
 "should be the result of the entire expression: ``30.2957142``."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:264
+#: ../../source/create/avatars/custom-animations.rst:265
 msgid ""
 "In the expression case, the output value of each node is a floating point"
 " number, and operations can be implemented simply by evaluating each sub-"
@@ -3981,7 +4096,7 @@ msgid ""
 "addition or multiplication."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:266
+#: ../../source/create/avatars/custom-animations.rst:267
 msgid ""
 "The AnimNode system works on a similar concept. Except the value of each "
 "node contains all of the avatar's joint translations and rotations. Leaf "
@@ -3991,11 +4106,11 @@ msgid ""
 "one animation with the lower body of another."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:272
+#: ../../source/create/avatars/custom-animations.rst:273
 msgid ":doc:`Script <../../script>`"
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:273
+#: ../../source/create/avatars/custom-animations.rst:274
 msgid "`API Reference: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
 msgstr ""
 
@@ -4011,7 +4126,7 @@ msgid ""
 " or CGTrader. Once you get the avatar, you will need to process it in "
 "Unity using the Overte Avatar Exporter. This tool imports most avatars "
 "into Unity, maps their skeleton using Unity's humanoid tool, and exports "
-"them as FST and FBX files to import in-world. Learn more about the "
+"them as FST and GLB/FBX files to import in-world. Learn more about the "
 ":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
 
@@ -4043,14 +4158,17 @@ msgid "You have the correct downloaded files"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:26
-msgid "An FBX model for your avatar. We do not support other 3D model formats."
+msgid ""
+"An glTF/GLB/FBX model for your avatar. We do not support other 3D model "
+"formats. GLB/glTF is recommended over FBX due to better PBR material "
+"support."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:27
 msgid ""
 "(Optional) One or more image files to give your avatar color and texture."
-" Sometimes, these are already embedded in your FBX model and you won't "
-"have any additional image files in your download."
+" Sometimes, these are already embedded in your GLB/FBX model and you "
+"won't have any additional image files in your download."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:28
@@ -4059,15 +4177,17 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:30
 msgid ""
-"If your avatar is not rigged, you can use :doc:`Mixamo <mixamo-tutorial>`"
-" to rig it. If you use Mixamo, you do not necessarily need to use Unity "
-"and the avatar exporter. Because Mixamo already uses a skeleton that we "
-"support, you can use our `Avatar Packager <create-avatars.html#package-"
-"your-avatar>`_ to import your avatar into Overte."
+"If your avatar is not rigged, you can use Blender or :doc:`Mixamo "
+"<mixamo-tutorial>` to rig it. If you use Mixamo, you do not necessarily "
+"need to use Unity and the avatar exporter. Because Mixamo already uses a "
+"skeleton that we support, you can load the GLB/FBX file directly, create "
+"FST file by hand or use our `Avatar Packager <create-avatars.html"
+"#package-your-avatar>`_ to import your avatar into Overte. Avatar "
+"Packager needs maintenance so it's not recommended currently."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:34
-#: ../../source/create/avatars/package-avatar.rst:26
+#: ../../source/create/avatars/package-avatar.rst:28
 msgid "Overte Avatar Exporter for Unity"
 msgstr ""
 
@@ -4095,7 +4215,7 @@ msgid "You will need the following to use this tool:"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
-msgid "Unity (Recommended versions: 2019.4.31f1)"
+msgid "Unity (Recommended versions: 2022.3.22f1)"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:43
@@ -4105,109 +4225,85 @@ msgstr "오버트"
 #: ../../source/create/avatars/find-avatars.rst:44
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-"
-"avatar-exporter>`_ (v0.6.0)"
+"avatar-exporter>`_"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:46
 msgid ""
 "Please note that the recommended version of Unity is not the latest "
-"version. If you are using a newer version of Unity, we recommend that you"
-" apply a T-Pose to your avatar. To do so, go to the 'Inspector', and "
-"click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from "
-"the drop-down. Click 'Apply' and 'Done'. We recommend doing this after "
-"correcting any issues with remapping bones."
+"version."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:50
-msgid "Install the Avatar Exporter"
+#: ../../source/create/avatars/find-avatars.rst:48
+msgid ""
+"We recommend that you apply a T-Pose to your avatar. To do so, go to the "
+"'Inspector', and click 'Pose' near the bottom of the panel. Select "
+"'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We "
+"recommend doing this after correcting any issues with remapping bones."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:52
-msgid ""
-"You need to install the extension for every Unity project that you have. "
-"Keep in mind, however, that you can import and export multiple avatars in"
-" a single Unity project."
+msgid "Install the Avatar Exporter"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:54
+msgid "You need to install the extension for every Unity project that you have."
+msgstr ""
+
+#: ../../source/create/avatars/find-avatars.rst:56
 msgid ""
-"Download the `avatar exporter <https://github.com/overte-"
-"org/overte/blob/master/tools/unity-avatar-"
-"exporter/avatarExporter.unitypackage?raw=true>`_ from Overte."
+"To install the exporter follow the directions in `Unity Avatar Exporter's"
+" README file <https://github.com/overte-org/unity-avatar-"
+"exporter/blob/main/README.md>`_."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:55
-msgid "In Unity, open the 'Project' window at the bottom."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:59
-msgid ""
-"Right-click the 'Assets' folder, then select **Import Package > Custom "
-"Package**."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:63
-msgid ""
-"Navigate to the `avatarExporter` package (with a .unitypackage "
-"extension). Click 'Open'. You can also double-click the package on your "
-"computer to import it automatically."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:64
-msgid ""
-"In the 'Importing Package' window, review the list of files to be "
-"imported and check for conflicts with files already in your project. If a"
-" conflict exists, save any local changes somewhere outside of your "
-"project."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:65
-msgid ""
-"Click 'Import'. The package's files are added to the Assets folder. You "
-"should now have a 'Overte' menu in Unity."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:71
+#: ../../source/create/avatars/find-avatars.rst:60
 msgid "Create an Avatar Package"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:73
+#: ../../source/create/avatars/find-avatars.rst:62
+msgid ""
+"FIXME: This part is outdated. Newest exporter saves GLB files together "
+"with FST."
+msgstr ""
+
+#: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
 "If you don't already have your model open in Unity, you need to import "
 "your model. Use any of the following methods:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:75
+#: ../../source/create/avatars/find-avatars.rst:66
 msgid ""
 "Drag and drop the FBX file into the 'Assets' folder of your 'Project' "
 "window."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:76
+#: ../../source/create/avatars/find-avatars.rst:67
 msgid ""
 "In the 'Project' window, right-click the 'Assets' folder, then select "
 "**Import Package > Import New Asset**. Navigate to the FBX file and click"
 " 'Import'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:77
+#: ../../source/create/avatars/find-avatars.rst:68
 msgid ""
 "In Unity, open the 'Assets' menu, then select **Import Package > Import "
 "New Asset**. Navigate to the FBX file and click 'Import'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:78
+#: ../../source/create/avatars/find-avatars.rst:69
 msgid ""
 "In the 'Project' window, select your avatar’s FBX file. In the "
 "'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then"
 " click 'Apply'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:86
+#: ../../source/create/avatars/find-avatars.rst:77
 msgid "Click 'Configure' to investigate and tweak the mapping of your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:90
+#: ../../source/create/avatars/find-avatars.rst:81
 msgid ""
 "All bones mapped in Unity are highlighted in green and can be selected. "
 "Check if anything is missing. Any errors will appear in red. The minimum "
@@ -4217,7 +4313,7 @@ msgid ""
 "to the 'Inspector' panel."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:95
+#: ../../source/create/avatars/find-avatars.rst:86
 msgid ""
 "Avatars in Overte must have a Chest bone. If your avatar does not have a "
 "chest bone, the avatar exporter may suggest a suitable alternative from "
@@ -4227,22 +4323,22 @@ msgid ""
 "Configuration'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:97
+#: ../../source/create/avatars/find-avatars.rst:88
 msgid "If you made any changes, click 'Done'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:98
+#: ../../source/create/avatars/find-avatars.rst:89
 msgid "Click on the FBX file in the 'Assets' manager."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:102
+#: ../../source/create/avatars/find-avatars.rst:93
 msgid ""
 "Make sure that you have the `avatar exporter installed <#install-the-"
 "avatar-exporter>`_. Open the 'Overte' menu in the top menu bar, then "
 "select 'Export New Avatar'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:103
+#: ../../source/create/avatars/find-avatars.rst:94
 msgid ""
 "Give your avatar project a name. The default project location is your "
 "local user's ``Documents\\Overte Projects`` directory, which is created "
@@ -4250,17 +4346,17 @@ msgid ""
 "this directory, you can change it to another location on your computer."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:107
+#: ../../source/create/avatars/find-avatars.rst:98
 msgid "Click 'Export'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:109
+#: ../../source/create/avatars/find-avatars.rst:100
 msgid ""
 "Your avatar package has been created! The File Explorer will open to your"
 " new avatar project."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:113
+#: ../../source/create/avatars/find-avatars.rst:104
 msgid ""
 "If you are using any external textures with your avatar model, copy those"
 " textures to your local user's ``Documents\\Overte "
@@ -4268,17 +4364,17 @@ msgid ""
 "may not show up on your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:117
+#: ../../source/create/avatars/find-avatars.rst:108
 msgid "Test Your Avatar"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:119
+#: ../../source/create/avatars/find-avatars.rst:110
 msgid ""
 "We encourage you to \"spot check\" your avatar in Unity before exporting "
 "it with the `Overte Avatar Exporter for Unity`_. Check for the following:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:121
+#: ../../source/create/avatars/find-avatars.rst:112
 msgid ""
 "Confirm that there are no extraneous objects attached to your model. For "
 "example, this `Mech avatar <https://www.cgtrader.com/free-3d-"
@@ -4287,7 +4383,7 @@ msgid ""
 "into Overte and may affect the rendering or animation of your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:122
+#: ../../source/create/avatars/find-avatars.rst:113
 msgid ""
 "Test your bone movements. In Unity's 'Inspector', open 'Rig'. For "
 "'Animation Type', choose 'Humanoid' and then click 'Apply'. Go to "
@@ -4295,7 +4391,7 @@ msgid ""
 "that it works as expected."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:131
+#: ../../source/create/avatars/find-avatars.rst:122
 msgid ""
 "If everything looks good, you need to `host your avatar <package-"
 "avatar.html#host-your-avatar>`_ then `change your avatar "
@@ -4303,11 +4399,11 @@ msgid ""
 "avatar>`_ to wear it."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:135
+#: ../../source/create/avatars/find-avatars.rst:126
 msgid "Troubleshooting Tips"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:137
+#: ../../source/create/avatars/find-avatars.rst:128
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar’s "
 "skeleton. These are fully documented here: `Troubleshooting with the "
@@ -4316,25 +4412,25 @@ msgid ""
 "downloaded avatar and using the avatar exporter:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:140
+#: ../../source/create/avatars/find-avatars.rst:131
 #: ../../source/explore/get-started/vr-controls.rst:190
 #, fuzzy
 msgid "Issue"
 msgstr "발급"
 
-#: ../../source/create/avatars/find-avatars.rst:140
+#: ../../source/create/avatars/find-avatars.rst:131
 msgid "Troubleshooting Tip"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:142
+#: ../../source/create/avatars/find-avatars.rst:133
 msgid "*You receive a warning in Unity:*"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:144
+#: ../../source/create/avatars/find-avatars.rst:135
 msgid "\"Character is not in T pose.\""
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:142
+#: ../../source/create/avatars/find-avatars.rst:133
 msgid ""
 "Go to the 'Inspector', click 'Configure', and then select 'Pose' near the"
 " bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click "
@@ -4342,64 +4438,64 @@ msgid ""
 "with remapping bones."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:146
+#: ../../source/create/avatars/find-avatars.rst:137
 msgid "In Unity, your avatar is a solid color."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:146
+#: ../../source/create/avatars/find-avatars.rst:137
 msgid ""
 "This suggests that the materials or shaders you are using are not "
 "supported."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:148
+#: ../../source/create/avatars/find-avatars.rst:139
 msgid "Click and drag your model into the 'Scene' window."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:149
+#: ../../source/create/avatars/find-avatars.rst:140
 msgid ""
 "Select all of the unsupported materials. These will be one solid color, "
 "such as pink."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:151
+#: ../../source/create/avatars/find-avatars.rst:142
 msgid ""
 "In the 'Inspector', change the 'Shader' to one of the 'Standard' options."
 " All materials should now show up correctly."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:154
+#: ../../source/create/avatars/find-avatars.rst:145
 msgid "Your avatar is gray."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:154
+#: ../../source/create/avatars/find-avatars.rst:145
 msgid "One of the following issues could have occurred:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:156
+#: ../../source/create/avatars/find-avatars.rst:147
 msgid ""
 "Make sure you copied your avatar's textures into the project’s textures "
 "folder"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:157
+#: ../../source/create/avatars/find-avatars.rst:148
 msgid ""
 "Verify that your textures are in a format that we support (PNG, JPEG, "
 "JPG, TGA, TIF, or TIFF)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:159
+#: ../../source/create/avatars/find-avatars.rst:150
 msgid ""
 "If your textures are embedded in your avatar: select the FBX file, go to "
 "'Inspector', and click 'Extract Textures'. Extract your textures into "
 "your asset's folder. You can do the same with Materials."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:163
+#: ../../source/create/avatars/find-avatars.rst:154
 msgid "Your avatar is tied up into knots or laying down."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:163
+#: ../../source/create/avatars/find-avatars.rst:154
 msgid ""
 "This could mean that your skeleton is not right. Re-open your avatar in "
 "Unity and run through steps 2-5 of `Create an Avatar Package`_ again. "
@@ -4407,17 +4503,17 @@ msgid ""
 "to your avatar package)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:168
+#: ../../source/create/avatars/find-avatars.rst:159
 msgid ""
 "If it still doesn't work, ensure that you are testing the correct file "
 "that the avatar exporter created."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:171
+#: ../../source/create/avatars/find-avatars.rst:162
 msgid "Your avatar's skin doesn't move properly with animations."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:171
+#: ../../source/create/avatars/find-avatars.rst:162
 msgid ""
 "The avatar exporter was written to improve the process of rigging and "
 "mapping the skeleton rig. This will not affect the animations in your "
@@ -4486,25 +4582,34 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:9
 msgid ""
-"At a minimum, avatars in Overte must have an FBX, glTF, or GLB model, and"
-" an associated FST file that includes information about how your avatar "
-"looks and behaves. Together, these two files (with any optional texture "
-"or script) form an \"avatar package\". There are two ways you can create "
-"an avatar package: by using the `Avatar Packager`_ in Interface or the "
-"`Overte Avatar Exporter for Unity`_ in Unity."
+"At a minimum, avatars in Overte must have a glTF, GLB or FBX model, and "
+"an optional associated FST file that includes information about how your "
+"avatar looks and behaves. Together, these two files (with any optional "
+"texture or script) form an \"avatar package\". There are three ways you "
+"can create an avatar package: by using the `Overte Avatar Exporter for "
+"Unity`_ in Unity, creating FST file by hand or using the `Avatar "
+"Packager`_ in Interface. Interface's Avatar packager needs maintenance, "
+"so it's not recommended currently."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:11
 msgid ""
-"Once you have packaged your avatar, you need to host it on the cloud so "
-"that Overte can access it and correctly render your avatar for all users."
+"Models conforming to Avatar Standards Guide <avatar-standards> work "
+"directly as avatars with no FST file needed."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:18
-msgid "Package Your Avatar"
+#: ../../source/create/avatars/package-avatar.rst:13
+msgid ""
+"Once you have packaged your avatar, you need to host it on the cloud so "
+"that Overte can access it and correctly render your avatar for all users."
+" Any web server with direct HTTP or HTTPS access is compatible."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:20
+msgid "Package Your Avatar"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:22
 msgid ""
 "If you're reading this page, you likely already :doc:`built your own FBX "
 "model <create-avatars>` or :doc:`found and downloaded a model <find-"
@@ -4514,13 +4619,14 @@ msgid ""
 "by your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:22
+#: ../../source/create/avatars/package-avatar.rst:24
 msgid ""
-"We provide two ways to create an avatar package: either through Unity or "
-"through our Avatar Packager."
+"We provide three ways of creating an avatar package: either through "
+"Unity, manually in a text editor or through our Avatar Packager. In-game "
+"Avatar Packager needs maintenance and is not recommended currently."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:28
+#: ../../source/create/avatars/package-avatar.rst:30
 msgid ""
 "In some cases, you will want to :doc:`download an avatar from an external"
 " website <find-avatars>` and use that avatar in Overte. The Overte Avatar"
@@ -4528,45 +4634,72 @@ msgid ""
 "human-like avatars and packages them for use in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:30
+#: ../../source/create/avatars/package-avatar.rst:32
 msgid ""
 "Once you have successfully used the :doc:`avatar exporter <find-avatars>`"
 " to package your avatar, you must host it somewhere on the cloud. You can"
-" upload it to Amazon S3 or a webserver for example."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:34
-msgid "Avatar Packager"
+" upload it to Amazon S3, Cloudflare R2 or a webserver for example."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:36
+msgid "Creating FST file manually"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:38
+msgid ""
+"FST file is a regular text file and can be created in a text editor. In "
+"the simplest form it contains the avatar's name, filename or URL of the "
+"model file and its scale. Overte uses metric scale, so `scale = 1` means "
+"that 1 length unit in model file is 1 meter. If `filename` is just a file"
+" name and not a full URL, then relative path will be used."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:40
+msgid ""
+"Flow bones configuration can be generated using the `Flow app` available "
+"in Overte's Community Apps (`More` icon in Overte's UI)."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:42
+msgid "Example avatar FST file with custom animations and materials override:"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:57
+msgid "Avatar Packager"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:59
+msgid "Avatar Packager is not remommended currently."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:61
 msgid ""
 "The **Avatar Packager** is a tool in Interface (the Overte client) that "
 "identifies potential errors in your avatar's model and then creates an "
 "FST file for you."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:38
+#: ../../source/create/avatars/package-avatar.rst:63
 msgid "To package your avatar using the Avatar Packager:"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:40
+#: ../../source/create/avatars/package-avatar.rst:65
 msgid "In Interface, go to **Edit > Avatar Packager**."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:41
+#: ../../source/create/avatars/package-avatar.rst:66
 msgid "In the Avatar Packager window, click 'New Project'."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:42
+#: ../../source/create/avatars/package-avatar.rst:67
 msgid "In the Create Project window, fill in the following details:"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:44
+#: ../../source/create/avatars/package-avatar.rst:69
 msgid "Name: The name you want for your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:45
+#: ../../source/create/avatars/package-avatar.rst:70
 msgid ""
 "Project Location: The folder path where your avatar's files are stored. "
 "The Avatar Packager will create a new folder for your project at this "
@@ -4574,87 +4707,94 @@ msgid ""
 "scripts/textures in your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:46
+#: ../../source/create/avatars/package-avatar.rst:71
 msgid "Avatar Model: The location of your avatar's FBX model."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:47
+#: ../../source/create/avatars/package-avatar.rst:72
 msgid ""
 "Texture Folder: If your avatar has textures in a separate folder, specify"
 " the folder location. If your avatar's textures are embedded in the FBX, "
 "you do not need to specify anything."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:48
+#: ../../source/create/avatars/package-avatar.rst:73
 #: ../../source/host/configure-settings/place-setting.rst:21
 msgid "Click 'Create'."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:50
+#: ../../source/create/avatars/package-avatar.rst:75
 msgid ""
 "At this point, you have successfully packaged your avatar. You can close "
 "the Avatar Packager here and upload your FST file and FBX model to the "
 "cloud location of your choice."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:54
+#: ../../source/create/avatars/package-avatar.rst:79
 msgid "Host and Use Your Avatar"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:56
+#: ../../source/create/avatars/package-avatar.rst:81
 msgid ""
 "Before you can use a custom avatar, you must first host its FST and model"
 " (FBX/glTF/GLB) files in a place that is publicly accessible."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:58
+#: ../../source/create/avatars/package-avatar.rst:83
 msgid ""
 "Upload your avatar's model file (FBX/glTF/GLB) to the service of your "
 "choice."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:59
+#: ../../source/create/avatars/package-avatar.rst:84
 msgid ""
 "Copy the exact URL of the file, as if you were sharing a direct download "
 "link."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:60
+#: ../../source/create/avatars/package-avatar.rst:85
 msgid ""
 "Open your FST file in a text editor and replace the ``filename`` entry "
 "with the URL from the previous step. E.g: `filename = MyAvatar` should be"
 " changed to ``filename = https://mywebsite.example/avatar.fbx``"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:61
+#: ../../source/create/avatars/package-avatar.rst:86
 msgid "Save your FST file and upload it to the service of your choice."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:62
+#: ../../source/create/avatars/package-avatar.rst:87
 msgid ""
 "In Interface (the Overte client), select **Avatar** and click the "
 "chain/link icon."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:63
+#: ../../source/create/avatars/package-avatar.rst:88
 msgid ""
 "You should see a prompt with the label \"Specify Avatar URL\". Paste your"
 " FST file's direct URL into the text box here and confirm."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:66
+#: ../../source/create/avatars/package-avatar.rst:91
 msgid ""
 "If you are looking for a place to host these files, you can simply use "
-"Amazon S3, Dropbox, Google Cloud Storage, Microsoft Azure, GitHub, "
-"Catbox, etc. It doesn't matter as long as *anyone* can view the file "
-"link!"
+"Cloudflare R2, Amazon S3, Google Cloud Storage, Microsoft Azure, GitHub, "
+"Catbox, etc. It doesn't matter as long as *anyone* can view the file link"
+" and it's a direct link to the file. Links to a separate download page "
+"won't work."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:72
+#: ../../source/create/avatars/package-avatar.rst:93
+msgid ""
+"Video tutorial on uploading to Cloudflare R2: "
+"https://www.youtube.com/watch?v=Q_whpCUHqlw"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:98
 msgid "Troubleshooting with the Avatar Packager"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:74
+#: ../../source/create/avatars/package-avatar.rst:100
 msgid ""
 "The Avatar Packager will notify you of any errors or warnings that may "
 "affect the way your avatar looks and behaves in Overte. This is a list of"
@@ -4664,14 +4804,14 @@ msgid ""
 "your avatar will show up and behave correctly in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:78
+#: ../../source/create/avatars/package-avatar.rst:104
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar's "
 "skeleton. The troubleshooting tips below will attempt to fix the errors "
 "in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:80
+#: ../../source/create/avatars/package-avatar.rst:106
 msgid ""
 "However, if the bone structure of the model does not resemble a humanoid "
 "skeleton (with two legs, two arms, hips, chest, spine, and head), then it"
@@ -5490,6 +5630,11 @@ msgid ""
 "The boombox system contains the following scripts and files that allows a"
 " user to control audio playback:"
 msgstr ""
+
+#: ../../source/create/entities/boombox-tutorial.rst:99
+#, fuzzy
+msgid "URL"
+msgstr "URL"
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid "Entity Server Script"
@@ -10007,7 +10152,15 @@ msgid ""
 "/blender-tutorial>`"
 msgstr ""
 
-#: ../../source/create/wearables.md:8
+#: ../../source/create/wearables.md:1
+msgid "-<div class=\"admonition warning\">"
+msgstr ""
+
+#: ../../source/create/wearables.md:4
+msgid "-</div>"
+msgstr ""
+
+#: ../../source/create/wearables.md:9
 msgid ""
 "Wearables are objects that attach to your avatar. They can be hats, "
 "skirts, glasses, headphones and anything else that can accessorize your "
@@ -10015,105 +10168,116 @@ msgid ""
 "of your own and [putting them on](../explore/personalize/add-wearables)."
 msgstr ""
 
-#: ../../source/create/wearables.md:10
+#: ../../source/create/wearables.md:11
 msgid ""
-"Before you can use a custom wearable, you must first host its FBX and "
-"JSON files in a place that is publicly accessible to Overte. You can use "
-"any cloud platforms including Amazon S3, Google Cloud Storage, Microsoft "
-"Azure, Dropbox, etc."
-msgstr ""
-
-#: ../../source/create/wearables.md:12
-msgid "Build a Custom Wearable"
+"Overte supports soft and hard wearables. Soft wearables deform together "
+"with the avatar, so they need to share same or a very similar armature. "
+"Hard wearables don't deform, and instead attach to a chosen bone of the "
+"armature. As an example, a hat can be a hard wearable that attaches to "
+"the `Head` bone."
 msgstr ""
 
 #: ../../source/create/wearables.md:13
+msgid ""
+"Before you can use a custom wearable, you must first host its "
+"GLB/glTF/FBX and JSON files in a place that is publicly accessible to "
+"Overte. You can use any HTTP/HTTPS server or cloud platforms including "
+"Cloudflare R2, Amazon S3, Google Cloud Storage, Microsoft Azure, Catbox, "
+"etc."
+msgstr ""
+
+#: ../../source/create/wearables.md:15
+msgid "Build a Custom Wearable"
+msgstr ""
+
+#: ../../source/create/wearables.md:16
 msgid ""
 "Wearables are simply [3D models](3d-models) that are customized to fit on"
 " your avatar. Therefore, the first step in creating your wearable is to "
 "build one or find an existing model that you want to use."
 msgstr ""
 
-#: ../../source/create/wearables.md:15
+#: ../../source/create/wearables.md:18
 msgid ""
 "There are a few different applications you can use to build and edit the "
 "3D model for your wearable, including:"
 msgstr ""
 
-#: ../../source/create/wearables.md:16
+#: ../../source/create/wearables.md:19
 msgid "[Blender](https://www.blender.org)"
 msgstr ""
 
-#: ../../source/create/wearables.md:17
+#: ../../source/create/wearables.md:20
 msgid "[Maya](https://www.autodesk.com/products/maya/overview)"
 msgstr ""
 
-#: ../../source/create/wearables.md:18
+#: ../../source/create/wearables.md:21
 msgid "[Google Blocks](https://vr.google.com/blocks)"
 msgstr ""
 
-#: ../../source/create/wearables.md:19
+#: ../../source/create/wearables.md:22
 msgid "[Oculus Medium](https://www.oculus.com/medium)"
 msgstr ""
 
-#: ../../source/create/wearables.md:20
+#: ../../source/create/wearables.md:23
 msgid "[Tiltbrush](https://www.tiltbrush.com)"
 msgstr ""
 
-#: ../../source/create/wearables.md:22
+#: ../../source/create/wearables.md:25
 msgid ""
 "Some guidelines to follow when you're building soft wearables like "
 "clothes:"
 msgstr ""
 
-#: ../../source/create/wearables.md:24
+#: ../../source/create/wearables.md:27
 msgid ""
 "Your soft wearable should be designed to fit a particular type of avatar."
 " Since avatars vary in size and structure, a soft wearable designed to "
 "fit one avatar may not fit another one as well."
 msgstr ""
 
-#: ../../source/create/wearables.md:25
+#: ../../source/create/wearables.md:28
 msgid ""
 "The soft wearable should be slightly larger than the avatar to avoid "
 "clipping. Clipping is when one 3D object goes through another 3D object "
 "without colliding."
 msgstr ""
 
-#: ../../source/create/wearables.md:26
+#: ../../source/create/wearables.md:29
 msgid "Your soft wearable's shape should match the avatar's."
 msgstr ""
 
-#: ../../source/create/wearables.md:27
-msgid "The soft wearable should have similar or the same weights as the avatar."
-msgstr ""
-
-#: ../../source/create/wearables.md:29
+#: ../../source/create/wearables.md:30
 msgid ""
-"When building soft wearables like clothes, ensure that you are making it "
-"to fit the avatar well. Its mesh should match the avatar's and have a "
-"higher weight."
+"The armature of the wearable needs to be similar or the same as the "
+"avatar's armature."
 msgstr ""
 
 #: ../../source/create/wearables.md:31
 msgid ""
-"When building your model, be sure to [follow these guidelines](3d-models"
-"/get-model) to ensure that it is compatible with Overte.  Once you're "
-"done editing your model, export the file as an FBX or OBJ file. You've "
-"now created your own custom model!"
+"The soft wearable's mesh should have similar or the same weights as the "
+"avatar."
 msgstr ""
 
 #: ../../source/create/wearables.md:33
+msgid ""
+"When building your model, be sure to [follow these guidelines](3d-models"
+"/get-model) to ensure that it is compatible with Overte.  Once you're "
+"done editing your model, export the file as a GLB, glTF, FBX or OBJ file."
+" You've now created your own custom model!"
+msgstr ""
+
+#: ../../source/create/wearables.md:35
 msgid ""
 "After hosting your wearable in the cloud [put it "
 "on](../explore/personalize/add-wearables) and adopt your new look."
 msgstr ""
 
-#: ../../source/create/wearables.md:43
+#: ../../source/create/wearables.md:45
 msgid "[Get Your 3D Model](3d-models/get-model)"
 msgstr ""
 
-#: ../../source/create/wearables.md:44
+#: ../../source/create/wearables.md:46
 msgid "[Put On Wearables](../explore/personalize/add-wearables)"
 msgstr ""
 
@@ -11386,7 +11550,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:135
-#: ../../source/developer/build/BUILD_WIN.md:126
+#: ../../source/developer/build/BUILD_WIN.md:131
 #: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
 #, fuzzy
 msgid "Troubleshooting"
@@ -11845,7 +12009,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:10
-msgid "*Last Updated on 2025-06-09*"
+msgid "*Last Updated on 2025-08-01*"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:12
@@ -11880,11 +12044,11 @@ msgid ""
 "workarounds specific to it in the future."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:23
+#: ../../source/developer/build/BUILD_WIN.md:24
 msgid "When selecting components, check \"Desktop development with C++\"."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:25
+#: ../../source/developer/build/BUILD_WIN.md:26
 msgid ""
 "If you do not already have a Python 3.x development environment installed"
 " and want to install it with Visual Studio, check \"Python Development\"."
@@ -11895,31 +12059,24 @@ msgid ""
 " allow the installer to apply the changes."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:27
-msgid "Visual Studio 2022"
-msgstr ""
-
 #: ../../source/developer/build/BUILD_WIN.md:29
-msgid "On the right on the Summary toolbar, select the following components."
+msgid ""
+"Note: MSVC 14.44.35207 seems to be bugged and cannot compile libnode. Get"
+" an older MSVC 143 version using `.\\VisualStudioSetup.exe modify "
+"--installPath \"C:\\Program Files\\Microsoft Visual "
+"Studio\\2022\\Community\" --add "
+"Microsoft.VisualStudio.Component.VC.14.33.17.3.x86.x64` (this installs "
+"version 14.33.31629). Notice how the relevant component has been added to"
+" the \"Single components\" section on the right. Make sure to reload your"
+" environment (by restarting your terminal for example), otherwise the new"
+" compiler version won't be found."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:31
-msgid "MSVC v142 - VS 2019 C++ X64/x86 build tools"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:32
-msgid "MSVC v141 - VS 2017 C++ x64/x86 build tools"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:33
-msgid "MSVC v140 - VS 2015 C++ build tools (v14.00)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:35
+#: ../../source/developer/build/BUILD_WIN.md:34
 msgid "Step 1a. Alternate Python"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:37
+#: ../../source/developer/build/BUILD_WIN.md:36
 msgid ""
 "If you do not wish to use the Python installation bundled with Visual "
 "Studio, you can download the installer from "
@@ -11927,44 +12084,48 @@ msgid ""
 "3.6.6 or higher."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:39
+#: ../../source/developer/build/BUILD_WIN.md:38
 msgid "Step 2. Python Dependencies"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:41
+#: ../../source/developer/build/BUILD_WIN.md:40
 msgid ""
 "In an administrator command-line that can access Python's pip you will "
 "need to run the following command:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:43
-msgid "`pip install distro`"
+#: ../../source/developer/build/BUILD_WIN.md:42
+msgid "`pip install distro setuptools html5lib`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:45
+#: ../../source/developer/build/BUILD_WIN.md:44
 msgid "If you do not use an administrator command-line, you will get errors."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:47
+#: ../../source/developer/build/BUILD_WIN.md:46
 msgid "Step 3. Installing Conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:49
+#: ../../source/developer/build/BUILD_WIN.md:48
 msgid ""
 "Download and install Conan from the [Conan "
 "website](https://conan.io/downloads). Next, add the Overte remote to "
 "Conan:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:55
+#: ../../source/developer/build/BUILD_WIN.md:53
+msgid "We also need to generate a default Conan profile:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:58
 msgid "Step 4. Installing CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:57
+#: ../../source/developer/build/BUILD_WIN.md:60
 msgid "Download and install CMake version 3.15 or higher."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:59
+#: ../../source/developer/build/BUILD_WIN.md:62
 msgid ""
 "Download the file named cmake-[version]-windows-x86_64.msi Installer from"
 " the [CMake Website](https://cmake.org/download/). During installation, "
@@ -11972,28 +12133,20 @@ msgid ""
 "prompted."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:61
-msgid "Step 5. (Optional) Node.JS and NPM"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:63
-msgid ""
-"Install the latest LTS version of [Node.JS and "
-"NPM](<https://nodejs.org/en/download/>). This is required to build the "
-"server-console and jsdoc, and for JavaScript console autocompletion."
-msgstr ""
+#: ../../source/developer/build/BUILD_WIN.md:64
+#, fuzzy
+msgid "Step 5. Create conan environment variable"
+msgstr "환경 변수"
 
 #: ../../source/developer/build/BUILD_WIN.md:66
-msgid "Step 6. (Optional) Create conan environment variable"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:67
 msgid ""
 "In the next step, you will use conan to install the dependencies required"
 " to build Overte. By default, conan will build and install the "
-"dependencies in `<username>/.conan2`. If you want to change that location"
-" you can create a `CONAN_HOME` environment variable linked to a directory"
-" somewhere on your machine."
+"dependencies in `<username>/.conan2`. Because Windows doesn't support "
+"paths which are longer than 260 characters, we need to move this folder "
+"to a more shallow location like `C:\\`. If you don't do this, some things"
+" will fail with `No such file or directory`, namely building Qt WebEngine"
+" from source."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:70
@@ -12020,7 +12173,9 @@ msgid "Set \"Variable name\" to `CONAN_HOME`"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:75
-msgid "Set \"Variable value\" to any directory that you have control over."
+msgid ""
+"Set \"Variable value\" to any directory that you have control over. For "
+"example `C:\\Conan2`."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:77
@@ -12030,132 +12185,276 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:79
-msgid "Step 7. Running CMake to Generate Build Files"
+msgid "Step 6. (Optional) Node.JS and NPM"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:81
+msgid ""
+"Install the latest LTS version of [Node.JS and "
+"NPM](<https://nodejs.org/en/download/>). This is required to build the "
+"server-console and jsdoc, and for JavaScript console autocompletion."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:84
+msgid "Step 7. Running CMake to Generate Build Files"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:86
 msgid "These instructions only apply to Visual Studio 2022."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:83
+#: ../../source/developer/build/BUILD_WIN.md:88
 msgid "Automatic"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:85
+#: ../../source/developer/build/BUILD_WIN.md:90
 msgid ""
 "There is a batch file to automatically run the commands below for ease of"
 " use."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:87
+#: ../../source/developer/build/BUILD_WIN.md:92
 msgid "`winprepareVS22.bat`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:89
+#: ../../source/developer/build/BUILD_WIN.md:94
 #, fuzzy
 msgid "Manual"
 msgstr "마야"
 
-#: ../../source/developer/build/BUILD_WIN.md:91
+#: ../../source/developer/build/BUILD_WIN.md:96
 msgid "Run the Command Prompt from Start and run the following commands:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:100
+#: ../../source/developer/build/BUILD_WIN.md:105
 msgid "Where `%OVERTE_DIR%` is the directory for the Overte repository."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:102
+#: ../../source/developer/build/BUILD_WIN.md:107
 msgid ""
 "Note: After running Conan it is recommended to run `conan cache clean "
 "\"*\" -sbd` to clean the build folders created by Conan, saving disk "
 "space."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:104
+#: ../../source/developer/build/BUILD_WIN.md:109
 msgid "Step 8. Making a Build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:106
+#: ../../source/developer/build/BUILD_WIN.md:111
 msgid "Open `%OVERTE_DIR%\\build\\overte.sln` using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:108
+#: ../../source/developer/build/BUILD_WIN.md:113
 msgid ""
 "Change the Solution Configuration (menu ribbon under the menu bar, next "
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:110
+#: ../../source/developer/build/BUILD_WIN.md:115
 msgid "Run from the menu bar `Build > Build Solution`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:112
+#: ../../source/developer/build/BUILD_WIN.md:117
 msgid "Step 9. Testing Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:114
+#: ../../source/developer/build/BUILD_WIN.md:119
 msgid "Create another environment variable (see Step #3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:115
+#: ../../source/developer/build/BUILD_WIN.md:120
 msgid "Set \"Variable name\": `_NO_DEBUG_HEAP`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:116
+#: ../../source/developer/build/BUILD_WIN.md:121
 msgid "Set \"Variable value\": `1`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:118
+#: ../../source/developer/build/BUILD_WIN.md:123
 msgid "Restart Visual Studio again."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:120
+#: ../../source/developer/build/BUILD_WIN.md:125
 msgid ""
 "In Visual Studio, right-click \"interface\" under the Apps folder in "
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar `Debug > Start Debugging`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:122
+#: ../../source/developer/build/BUILD_WIN.md:127
 msgid ""
 "Now, you should have a full build of Overte and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:124
+#: ../../source/developer/build/BUILD_WIN.md:129
 msgid ""
 "Note: You can also run Interface by launching it from command line or "
 "File Explorer from "
 "`%OVERTE_DIR%\\build\\interface\\Release\\interface.exe`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:128
+#: ../../source/developer/build/BUILD_WIN.md:133
 msgid "For any problems after Step #7, first try this:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:129
+#: ../../source/developer/build/BUILD_WIN.md:134
 msgid "Delete your locally cloned copy of the Overte repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:130
+#: ../../source/developer/build/BUILD_WIN.md:135
 msgid "Restart your computer"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:131
+#: ../../source/developer/build/BUILD_WIN.md:136
 msgid "Redownload the [repository](https://github.com/overte-org/overte)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:132
+#: ../../source/developer/build/BUILD_WIN.md:137
 msgid "Restart directions from Step #7"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:134
+#: ../../source/developer/build/BUILD_WIN.md:139
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:136
+#: ../../source/developer/build/BUILD_WIN.md:141
 msgid "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:143
+msgid "MSVC bugs"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:144
+msgid ""
+"MSVC is apparently a buggy mess, and almost every version has *something*"
+" broken in it."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:146
+msgid ""
+"Available MSVC versions can be found here: https://learn.microsoft.com"
+"/en-us/visualstudio/install/workload-component-id-vs-"
+"community?view=vs-2022 Just search for "
+"`Microsoft.VisualStudio.Component.VC.14.` using your internet browser "
+"search."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:149
+msgid ""
+"`EtcLib.lib(EtcImage.obj) : error LNK2019: unresolved external symbol "
+"__std_init_once_link_alternate_names_and_abort`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:150
+msgid ""
+"This is a bug in MSVC 14.31.31103. Solution is to upgrade or downgrade "
+"from that specific version."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:152
+msgid ""
+"The issue if fixed in MSVC 14.32.31326. Install a probably working "
+"version using: `.\\VisualStudioSetup.exe modify --installPath "
+"\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\" --add "
+"Microsoft.VisualStudio.Component.VC.14.33.17.3.x86.x64` Notice how the "
+"relevant component has been added to the \"Single components\" section on"
+" the right. Make sure to reload your environment (by restarting your "
+"terminal for example), otherwise the new compiler version won't be found."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:157
+msgid ""
+"`v8_compiler.lib(v8_pch.obj) : error LNK2019: unresolved external symbol "
+"\"protected: static class v8::internal::Handle<class "
+"v8::internal::NameDictionary> ?`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:158
+msgid ""
+"This is a bug in MSVC 14.44.35207. Solution is to upgrade or downgrade "
+"from that specific version."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:160
+msgid ""
+"Currently (2025-06-28), this is the latest version, so we need to "
+"downgrade to an older version. A probably working version is MSVC "
+"14.33.17.3, which can be installed using: `.\\VisualStudioSetup.exe "
+"modify --installPath \"C:\\Program Files\\Microsoft Visual "
+"Studio\\2022\\Community\" --add "
+"Microsoft.VisualStudio.Component.VC.14.33.17.3.x86.x64` Notice how the "
+"relevant component has been added to the \"Single components\" section on"
+" the right. Make sure to reload your environment (by restarting your "
+"terminal for example), otherwise the new compiler version won't be found."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:166
+msgid ""
+"`draco.lib(point_cloud.obj) : error LNK2019: unresolved external symbol "
+"\"__std_find_trivial_4\"`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:167
+msgid ""
+"This is a bug in MSVC 14.32.31326. Solution is to upgrade or downgrade "
+"from that specific version."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:169
+msgid ""
+"Install a probably working version using: `.\\VisualStudioSetup.exe "
+"modify --installPath \"C:\\Program Files\\Microsoft Visual "
+"Studio\\2022\\Community\" --add "
+"Microsoft.VisualStudio.Component.VC.14.33.17.3.x86.x64` Notice how the "
+"relevant component has been added to the \"Single components\" section on"
+" the right. Make sure to reload your environment (by restarting your "
+"terminal for example), otherwise the new compiler version won't be found."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:174
+msgid "Removing specific MSVC versions"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:176
+msgid ""
+"To remove a version, replace `--add` with `--remove`. E.g. "
+"`.\\VisualStudioSetup.exe modify --installPath \"C:\\Program "
+"Files\\Microsoft Visual Studio\\2022\\Community\" --remove "
+"Microsoft.VisualStudio.Component.VC.14.31.17.1.x86.x64` Don't uninstall "
+"or manually delete the latest version! This will make your build tools "
+"unable to find Visual Studio. Instead, just install whatever compiler "
+"version you need. The last installed version will be given priority. If "
+"you don't know the version number Visual Studio uses to select MSVC "
+"versions, just open the `VisualStudioSetup.exe` directly, press "
+"\"modify\", and deselect it from the \"Single components\" section on the"
+" right. The tooltips help determining what is what."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:183
+msgid "`\"atlbase.h\": No such file or directory`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:185
+msgid ""
+"*Sometimes* the build process requires ATL support. To fix this, install "
+"\"C++ vXX.XX (...) ATL (...)\" replacing XX.XX with the first two numbers"
+" that you used to install an specific MSVC version above using the "
+"`VisualStudioSetup.exe`. E.g. \"C++ v14.32 (...) ATL (...)\"."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:188
+msgid "`warning : cannot resolve item 'api-ms-win-(...)-l1-1-0.dll'`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:190
+msgid ""
+"You may be able to ignore this warning. My assumption is that the MSVC "
+"version used is incompatible with the currently installed Windows SDK, "
+"and Overte will just use the newer SDK during runtime."
 msgstr ""
 
 #: ../../source/developer/domain-server.rst:5
@@ -34441,5 +34740,325 @@ msgstr ""
 #~ "`Learn more <https://overte.org/index.html#help-"
 #~ "us-hire-a-team-member>`_. |br| So far "
 #~ "we have raised 464,62€ of 3000€."
+#~ msgstr ""
+
+#~ msgid "Overte’s engine only supports one UV mapping per material."
+#~ msgstr "오버트 엔진은 머티리얼당 하나의 UV 매핑만 지원합니다."
+
+#~ msgid ""
+#~ "Load the `Flow app "
+#~ "<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_"
+#~ " into Overte to configure your flow"
+#~ " settings. See :doc:`Load an Interface "
+#~ "Script </script/interface-scripts>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`flowAppCpp.js <https://docs.overte.org/ "
+#~ "_static/resources/script/flow/flowAppCpp/ flowAppCpp.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "FST file - The main avatar file,"
+#~ " which contains information about the "
+#~ "skeleton, blendshapes, FBX file and "
+#~ "textures used by an avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated and will "
+#~ "be revisited in the future. FIXME: "
+#~ "Mentions services like VRoid Studio even"
+#~ " though their skeletons have never "
+#~ "been supported (the Unity avatar "
+#~ "exporter will not be able to fix"
+#~ " that)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create your avatar from scratch using"
+#~ " 3D modeling tools such as Mixamo "
+#~ "and Blender"
+#~ msgstr ""
+
+#~ msgid "Use MakeHuman or VRoid Studio to create a human or anime avatar"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download an existing avatar from "
+#~ "external sources such as TurboSquid or"
+#~ " CGTrader"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you get an avatar from an "
+#~ "external source such as TurboSquid, "
+#~ "CGTrader, MakeHuman, or VRoid Studio, it"
+#~ " is likely that the skeleton does "
+#~ "not match our :doc:`avatar standards "
+#~ "<avatar-standards>`. To use these avatars"
+#~ " with Overte, use the `Overte Avatar"
+#~ " Exporter for Unity <find-avatars.html"
+#~ "#overte-avatar-exporter-for-unity>`_ to "
+#~ "correctly map the skeleton and package"
+#~ " your avatar."
+#~ msgstr ""
+
+#~ msgid "Rig and animate your avatar with an animation tool such as Mixamo."
+#~ msgstr ""
+
+#~ msgid "Package the model in Overte for use as an avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We've listed the animation roles and "
+#~ "their description. These are frequently "
+#~ "updated, so we recommend using "
+#~ "``MyAvatar.getAnimationRoles`` to get the "
+#~ "latest animation roles before continuing. "
+#~ "The standard animation FBX files for "
+#~ "these roles can be found in the"
+#~ " Overte source code repository on "
+#~ "`GitHub <https://github.com/overte-"
+#~ "org/vircadia/tree/master/interface/resources/avatar/animations>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can download avatars for use "
+#~ "from external sources such as TurboSquid"
+#~ " or CGTrader. Once you get the "
+#~ "avatar, you will need to process "
+#~ "it in Unity using the Overte "
+#~ "Avatar Exporter. This tool imports most"
+#~ " avatars into Unity, maps their "
+#~ "skeleton using Unity's humanoid tool, "
+#~ "and exports them as FST and FBX"
+#~ " files to import in-world. Learn "
+#~ "more about the :doc:`security of your"
+#~ " assets <../../security/asset-security>`."
+#~ msgstr ""
+
+#~ msgid "An FBX model for your avatar. We do not support other 3D model formats."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(Optional) One or more image files "
+#~ "to give your avatar color and "
+#~ "texture. Sometimes, these are already "
+#~ "embedded in your FBX model and you"
+#~ " won't have any additional image "
+#~ "files in your download."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If your avatar is not rigged, you"
+#~ " can use :doc:`Mixamo <mixamo-tutorial>`"
+#~ " to rig it. If you use Mixamo,"
+#~ " you do not necessarily need to "
+#~ "use Unity and the avatar exporter. "
+#~ "Because Mixamo already uses a skeleton"
+#~ " that we support, you can use "
+#~ "our `Avatar Packager <create-avatars.html"
+#~ "#package-your-avatar>`_ to import your "
+#~ "avatar into Overte."
+#~ msgstr ""
+
+#~ msgid "Unity (Recommended versions: 2019.4.31f1)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Overte Avatar Exporter for Unity "
+#~ "<https://github.com/overte-org/unity-avatar-"
+#~ "exporter>`_ (v0.6.0)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please note that the recommended version"
+#~ " of Unity is not the latest "
+#~ "version. If you are using a newer"
+#~ " version of Unity, we recommend that"
+#~ " you apply a T-Pose to your "
+#~ "avatar. To do so, go to the "
+#~ "'Inspector', and click 'Pose' near the"
+#~ " bottom of the panel. Select 'Enforce"
+#~ " T-Pose' from the drop-down. Click"
+#~ " 'Apply' and 'Done'. We recommend "
+#~ "doing this after correcting any issues"
+#~ " with remapping bones."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to install the extension "
+#~ "for every Unity project that you "
+#~ "have. Keep in mind, however, that "
+#~ "you can import and export multiple "
+#~ "avatars in a single Unity project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the `avatar exporter "
+#~ "<https://github.com/overte-org/overte/blob/master/tools"
+#~ "/unity-avatar-"
+#~ "exporter/avatarExporter.unitypackage?raw=true>`_ from "
+#~ "Overte."
+#~ msgstr ""
+
+#~ msgid "In Unity, open the 'Project' window at the bottom."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the 'Assets' folder, then"
+#~ " select **Import Package > Custom "
+#~ "Package**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigate to the `avatarExporter` package "
+#~ "(with a .unitypackage extension). Click "
+#~ "'Open'. You can also double-click "
+#~ "the package on your computer to "
+#~ "import it automatically."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the 'Importing Package' window, "
+#~ "review the list of files to be "
+#~ "imported and check for conflicts with"
+#~ " files already in your project. If"
+#~ " a conflict exists, save any local"
+#~ " changes somewhere outside of your "
+#~ "project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Import'. The package's files are"
+#~ " added to the Assets folder. You "
+#~ "should now have a 'Overte' menu in"
+#~ " Unity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At a minimum, avatars in Overte "
+#~ "must have an FBX, glTF, or GLB "
+#~ "model, and an associated FST file "
+#~ "that includes information about how your"
+#~ " avatar looks and behaves. Together, "
+#~ "these two files (with any optional "
+#~ "texture or script) form an \"avatar "
+#~ "package\". There are two ways you "
+#~ "can create an avatar package: by "
+#~ "using the `Avatar Packager`_ in "
+#~ "Interface or the `Overte Avatar Exporter"
+#~ " for Unity`_ in Unity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have packaged your avatar, "
+#~ "you need to host it on the "
+#~ "cloud so that Overte can access it"
+#~ " and correctly render your avatar for"
+#~ " all users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We provide two ways to create an"
+#~ " avatar package: either through Unity "
+#~ "or through our Avatar Packager."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have successfully used the "
+#~ ":doc:`avatar exporter <find-avatars>` to "
+#~ "package your avatar, you must host "
+#~ "it somewhere on the cloud. You can"
+#~ " upload it to Amazon S3 or a"
+#~ " webserver for example."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are looking for a place "
+#~ "to host these files, you can "
+#~ "simply use Amazon S3, Dropbox, Google"
+#~ " Cloud Storage, Microsoft Azure, GitHub,"
+#~ " Catbox, etc. It doesn't matter as"
+#~ " long as *anyone* can view the "
+#~ "file link!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Before you can use a custom "
+#~ "wearable, you must first host its "
+#~ "FBX and JSON files in a place "
+#~ "that is publicly accessible to Overte."
+#~ " You can use any cloud platforms "
+#~ "including Amazon S3, Google Cloud "
+#~ "Storage, Microsoft Azure, Dropbox, etc."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The soft wearable should have similar"
+#~ " or the same weights as the "
+#~ "avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When building soft wearables like "
+#~ "clothes, ensure that you are making "
+#~ "it to fit the avatar well. Its "
+#~ "mesh should match the avatar's and "
+#~ "have a higher weight."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When building your model, be sure "
+#~ "to [follow these guidelines](3d-models/get-"
+#~ "model) to ensure that it is "
+#~ "compatible with Overte.  Once you're "
+#~ "done editing your model, export the "
+#~ "file as an FBX or OBJ file. "
+#~ "You've now created your own custom "
+#~ "model!"
+#~ msgstr ""
+
+#~ msgid "*Last Updated on 2025-06-09*"
+#~ msgstr ""
+
+#~ msgid "Visual Studio 2022"
+#~ msgstr ""
+
+#~ msgid "On the right on the Summary toolbar, select the following components."
+#~ msgstr ""
+
+#~ msgid "MSVC v142 - VS 2019 C++ X64/x86 build tools"
+#~ msgstr ""
+
+#~ msgid "MSVC v141 - VS 2017 C++ x64/x86 build tools"
+#~ msgstr ""
+
+#~ msgid "MSVC v140 - VS 2015 C++ build tools (v14.00)"
+#~ msgstr ""
+
+#~ msgid "`pip install distro`"
+#~ msgstr ""
+
+#~ msgid "Step 5. (Optional) Node.JS and NPM"
+#~ msgstr ""
+
+#~ msgid "Step 6. (Optional) Create conan environment variable"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the next step, you will use "
+#~ "conan to install the dependencies "
+#~ "required to build Overte. By default,"
+#~ " conan will build and install the "
+#~ "dependencies in `<username>/.conan2`. If you"
+#~ " want to change that location you "
+#~ "can create a `CONAN_HOME` environment "
+#~ "variable linked to a directory somewhere"
+#~ " on your machine."
+#~ msgstr ""
+
+#~ msgid "Set \"Variable value\" to any directory that you have control over."
 #~ msgstr ""
 

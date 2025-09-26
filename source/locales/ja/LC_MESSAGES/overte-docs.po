@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-07-31 07:08+0000\n"
+"POT-Creation-Date: 2025-09-26 20:05+0000\n"
 "PO-Revision-Date: 2025-05-04 16:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: ja\n"
@@ -70,12 +70,12 @@ msgstr "Discord"
 #: ../../source/contribute.rst:15 ../../source/create/3d-models/get-model.rst:8
 #: ../../source/create/3d-models/import-animations.rst:8
 #: ../../source/create/3d-models/import-model.rst:8
-#: ../../source/create/3d-models/pbr-materials-guide.rst:9
+#: ../../source/create/3d-models/pbr-materials-guide.rst:13
 #: ../../source/create/avatars/add-flow.rst:12
-#: ../../source/create/avatars/create-avatars.rst:20
+#: ../../source/create/avatars/create-avatars.rst:18
 #: ../../source/create/avatars/custom-animations.rst:14
 #: ../../source/create/avatars/find-avatars.rst:13
-#: ../../source/create/avatars/package-avatar.rst:14
+#: ../../source/create/avatars/package-avatar.rst:16
 #: ../../source/create/avatars/scattering-tutorial.rst:12
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:8
 #: ../../source/create/entities/boombox-tutorial.rst:12
@@ -327,7 +327,7 @@ msgstr "クリエイターツール"
 msgid "Avatars"
 msgstr "アバター"
 
-#: ../../source/create.rst:11 ../../source/create/wearables.md:6
+#: ../../source/create.rst:11 ../../source/create/wearables.md:7
 msgid "Wearables"
 msgstr "ウェアラブル"
 
@@ -337,7 +337,6 @@ msgid "Entities"
 msgstr "エンティティー"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
-#: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/materials.rst:3
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
@@ -394,7 +393,7 @@ msgid "Import Your 3D Model"
 msgstr "3Dモデルのインポート"
 
 #: ../../source/create/3d-models.rst:11
-#: ../../source/create/3d-models/pbr-materials-guide.rst:3
+#: ../../source/create/3d-models/pbr-materials-guide.rst:7
 msgid "PBR Materials Guide"
 msgstr "PBRマテリアルガイド"
 
@@ -409,11 +408,13 @@ msgid "Import Animations"
 msgstr "アニメーションのインポート"
 
 #: ../../source/create/3d-models.rst:5
+#, fuzzy
 msgid ""
 "3D models are :doc:`entities <entities>` that represent objects you'd "
 "like to see in-world such as a water fountain, a castle, or a coffee mug."
 " You can get your 3D model by creating your own or sourcing it "
-"externally. We only support 3D models in the OBJ, FBX, and glTF formats."
+"externally. We only support 3D models in the glTF/GLB, OBJ, and FBX "
+"formats. PBR material support works best with glTF/GLB models."
 msgstr ""
 "3Dモデルは :doc:`エンティティ <entities>` "
 "で、噴水、城、コーヒーカップなど、世界で見たいオブジェクトを表します。自分で作成するか、外部で調達することができます。3Dモデルは、OBJ、FBX、glTF形式のみサポートしています。"
@@ -435,9 +436,10 @@ msgid "**In This Section:**"
 msgstr "**セクション**"
 
 #: ../../source/create/3d-models/get-model.rst:5
+#, fuzzy
 msgid ""
-"All 3D models should be in the FBX, glTF or OBJ format and have materials"
-" supported by Overte."
+"All 3D models should be in the glTF/GLB, FBX or OBJ format and have "
+"materials supported by Overte. Best supported are glTF/GLB files."
 msgstr "すべての3DモデルはFBX、glTF、またはOBJ形式であり、Overteによってサポートされているマテリアルを持つ必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:12
@@ -495,7 +497,8 @@ msgid ""
 msgstr "BlenderやMayaなどの3Dモデリングソフトウェアを使用して、3Dモデルを作成できます。以下の条件を満たす限り、お好きなソフトをお使いください。"
 
 #: ../../source/create/3d-models/get-model.rst:28
-msgid "The 3D model is in the FBX, glTF or OBJ format."
+#, fuzzy
+msgid "The 3D model is in the glTF/GLB, FBX or OBJ format."
 msgstr "3Dモデルは、FBX、glTF、OBJのいずれかの形式であること。"
 
 #: ../../source/create/3d-models/get-model.rst:29
@@ -593,49 +596,54 @@ msgid ""
 msgstr "常にアトラスマップを作成するようにしましょう。コンテンツのすべてのピースが同じマテリアルとUV空間を共有している場合、それがアトラスマップです。例えば、ロボットを作成する場合、その手、足、または顔に別々のマテリアルとUVマップを与えるのではなく、すべてのピースが1つのUVマップを共有する必要があります。"
 
 #: ../../source/create/3d-models/get-model.rst:59
-msgid "Overte’s engine only supports one UV mapping per material."
-msgstr "Overteのエンジンは、1つのマテリアルにつき1つのUVマッピングしかサポートしていません。"
-
-#: ../../source/create/3d-models/get-model.rst:61
+#: ../../source/create/3d-models/get-model.rst:62
 #: ../../source/create/3d-models/get-model.rst:64
-#: ../../source/create/3d-models/get-model.rst:66
-#: ../../source/create/3d-models/get-model.rst:69
+#: ../../source/create/3d-models/get-model.rst:67
+#: ../../source/create/3d-models/get-model.rst:70
 #: ../../source/create/3d-models/get-model.rst:72
-#: ../../source/create/3d-models/get-model.rst:74
-#: ../../source/create/3d-models/get-model.rst:77
-#: ../../source/create/3d-models/pbr-materials-guide.rst:25
-#: ../../source/create/avatars/avatar-standards.md:257
+#: ../../source/create/3d-models/get-model.rst:76
+#: ../../source/create/3d-models/get-model.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:29
+#: ../../source/create/avatars/avatar-standards.md:258
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
 msgstr "テクスチャ"
 
-#: ../../source/create/3d-models/get-model.rst:61
+#: ../../source/create/3d-models/get-model.rst:59
+#, fuzzy
 msgid ""
-"PNG, JPEG and JPG files are recommended, but we also support TGA, TIF and"
-" TIFF formats."
+"WEBP, PNG, JPEG and JPG files are recommended, but we also support TGA, "
+"TIF and TIFF formats."
 msgstr "PNG、JPEG、JPGファイルを推奨しますが、TGA、TIF、TIFFフォーマットにも対応します。"
 
-#: ../../source/create/3d-models/get-model.rst:64
+#: ../../source/create/3d-models/get-model.rst:62
 msgid "Choose the color types wisely to minimize the size of the final file."
 msgstr "色の種類を賢く選んで、最終的なファイルサイズを最小にしましょう。"
 
-#: ../../source/create/3d-models/get-model.rst:66
+#: ../../source/create/3d-models/get-model.rst:64
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr "PNG-8は、透明度がON/OFFのみで、色のパレット（GIFと同じ256色）を持ち、透明度のマスクが可能です。"
 
-#: ../../source/create/3d-models/get-model.rst:69
+#: ../../source/create/3d-models/get-model.rst:67
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr "色の解像度を上げたい場合は、PNG-24を使用します。半透明のマスクや透明なテクスチャを使用する場合は、PNG-32を使用してください。"
 
-#: ../../source/create/3d-models/get-model.rst:72
+#: ../../source/create/3d-models/get-model.rst:70
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
 msgstr "PNG-48やPNG-64はOverteではサポートされていませんので、使用しないでください。"
 
-#: ../../source/create/3d-models/get-model.rst:74
+#: ../../source/create/3d-models/get-model.rst:72
+msgid ""
+"Overte supports HDR environment maps and lightmaps. Use 16-bit floating "
+"point EXR format with lossy compression to save space. Don't use 32-bit "
+"floating point format."
+msgstr ""
+
+#: ../../source/create/3d-models/get-model.rst:76
 msgid ""
 "When loaded in the engine, textures are automatically resized to a grid "
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
@@ -644,7 +652,7 @@ msgstr ""
 "エンジンにロードされると、テクスチャは自動的に 128x128 "
 "のグリッドにリサイズされます。128の倍数のサイズを選ぶと、メモリの無駄遣いになりません。"
 
-#: ../../source/create/3d-models/get-model.rst:77
+#: ../../source/create/3d-models/get-model.rst:79
 msgid ""
 "While textures are automatically downscaled if they don't fit into the "
 "texture memory, it makes sense to use a resolution as low as possible to "
@@ -655,30 +663,30 @@ msgid ""
 "texture."
 msgstr "テクスチャは、テクスチャメモリに収まらない場合は自動的にダウンスケールされますが、ファイルサイズを小さくし、テクスチャのダウンスケールと再圧縮によるローエンドマシンの負担を軽減するために、できるだけ低い解像度を使用することは理にかなっています。例えば、4096x4096のテクスチャは、詳細なアバターには十分でしょう。ノーマルマップやエミッションマップなどは、メインカラーテクスチャほど高解像度である必要はありません。"
 
-#: ../../source/create/3d-models/get-model.rst:84
+#: ../../source/create/3d-models/get-model.rst:86
 msgid "Draw Calls"
 msgstr "ドローコール"
 
-#: ../../source/create/3d-models/get-model.rst:84
+#: ../../source/create/3d-models/get-model.rst:86
 msgid "Draw calls happen before something gets rendered on screen."
 msgstr "ドローコールは、何かが画面にレンダリングされる前に発生します。"
 
-#: ../../source/create/3d-models/get-model.rst:86
+#: ../../source/create/3d-models/get-model.rst:88
 msgid "``1 model w/ 1 material = 1 draw call``"
 msgstr "``1モデル1マテリアル＝1ドローコール``"
 
-#: ../../source/create/3d-models/get-model.rst:88
+#: ../../source/create/3d-models/get-model.rst:90
 msgid ""
 "There are no definitive measures for a desirable polycount. You need to "
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
 msgstr "望ましいポリカウントの決定的な尺度はありません。ドローコールとポリゴン数の間でバランスをとる必要があります。ドローコールが少なければ、ポリゴン数に余裕があります。テクスチャが小さいと、ハイポリモデルのための領域が広くなります。"
 
-#: ../../source/create/3d-models/get-model.rst:92
+#: ../../source/create/3d-models/get-model.rst:94
 msgid "Baking"
 msgstr "ベイク"
 
-#: ../../source/create/3d-models/get-model.rst:92
+#: ../../source/create/3d-models/get-model.rst:94
 msgid ""
 "Baking assets can be very effective at lowering loading times and "
 "lowering strain on the target CPU. Baked textures can be loaded straight "
@@ -847,11 +855,11 @@ msgid "You can edit the following animation properties:"
 msgstr "次のアニメーションプロパティを編集できます："
 
 #: ../../source/create/3d-models/import-animations.rst:47
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
-#: ../../source/create/avatars/add-flow.rst:46
-#: ../../source/create/avatars/add-flow.rst:66
-#: ../../source/create/avatars/add-flow.rst:92
-#: ../../source/create/avatars/add-flow.rst:115
+#: ../../source/create/3d-models/pbr-materials-guide.rst:68
+#: ../../source/create/avatars/add-flow.rst:48
+#: ../../source/create/avatars/add-flow.rst:68
+#: ../../source/create/avatars/add-flow.rst:98
+#: ../../source/create/avatars/add-flow.rst:121
 #: ../../source/create/avatars/custom-animations.rst:23
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/avatars/custom-animations.rst:106
@@ -987,14 +995,14 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
-#: ../../source/create/3d-models/pbr-materials-guide.rst:150
+#: ../../source/create/3d-models/pbr-materials-guide.rst:156
 #: ../../source/create/applications.rst:297
-#: ../../source/create/avatars/add-flow.rst:127
-#: ../../source/create/avatars/avatar-standards.md:272
-#: ../../source/create/avatars/blender-tutorial.md:52
-#: ../../source/create/avatars/create-avatars.rst:67
-#: ../../source/create/avatars/custom-animations.rst:269
-#: ../../source/create/avatars/find-avatars.rst:178
+#: ../../source/create/avatars/add-flow.rst:133
+#: ../../source/create/avatars/avatar-standards.md:273
+#: ../../source/create/avatars/blender-tutorial.md:76
+#: ../../source/create/avatars/create-avatars.rst:70
+#: ../../source/create/avatars/custom-animations.rst:270
+#: ../../source/create/avatars/find-avatars.rst:169
 #: ../../source/create/avatars/mixamo-tutorial.md:24
 #: ../../source/create/avatars/scattering-tutorial.rst:66
 #: ../../source/create/entities/add-sounds.md:24
@@ -1017,7 +1025,7 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:167
 #: ../../source/create/entities/zone-tutorial.md:155
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:71
-#: ../../source/create/wearables.md:41 ../../source/explore/gallery.rst:58
+#: ../../source/create/wearables.md:43 ../../source/explore/gallery.rst:58
 #: ../../source/explore/get-started/adjust-settings.rst:129
 #: ../../source/explore/get-started/android.rst:82
 #: ../../source/explore/get-started/architecture.rst:105
@@ -1131,7 +1139,13 @@ msgstr ":doc:`ツールの作成 <../tools>`"
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
 msgstr ":doc:`新しいエンティティの作成 <../entities/create-entities>`"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:5
+#: ../../source/create/3d-models/pbr-materials-guide.rst:2
+msgid ""
+"FIXME: This document needs to be updated for new features like samplers, "
+"splatmaps, triplanam mapping and matterial layering."
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:9
 #, fuzzy
 msgid ""
 "The appearance of a 3D model is controlled by its materials. The "
@@ -1140,12 +1154,12 @@ msgid ""
 "light (approximately) like how they would in real life."
 msgstr "3Dモデルの外観はマテリアルによって制御されます。Vircadiaでサポートされているマテリアルは、物理ベースレンダリング（PBR）マテリアルです。つまり、3Dモデルのマテリアルは、実際の環境と同じように（おおよそ）光を反射したり吸収したりします。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:13
+#: ../../source/create/3d-models/pbr-materials-guide.rst:17
 #, fuzzy
 msgid "Introduction to Materials, Textures, and Shading"
 msgstr "マテリアル、テクスチャ、およびシェーディングの概要"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:15
+#: ../../source/create/3d-models/pbr-materials-guide.rst:19
 #, fuzzy
 msgid ""
 "A 3D model's appearance is controlled by its materials. For example, a 3D"
@@ -1154,7 +1168,7 @@ msgid ""
 " brick wall will have material that determines its roughness and color."
 msgstr "3Dモデルの外観は、マテリアルによって制御されます。例えば、鍵の3Dモデルには、色、金属の見え方、表面がでこぼこしているか滑らかかを決定する材料が使用されます。レンガの壁の3Dモデルには、その粗さと色を決定するマテリアルが使用されます。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:18
+#: ../../source/create/3d-models/pbr-materials-guide.rst:22
 #, fuzzy
 msgid ""
 "Since Overte supports physically-based rendering (PBR) materials, your "
@@ -1164,12 +1178,12 @@ msgid ""
 "reflect enough light for you to observe its colors and surface."
 msgstr "Vircadiaは物理ベースレンダリング（PBR）マテリアルをサポートしているので、モデルに光が当たると、現実世界のオブジェクトと同じような振る舞いをします。例えば、同じ鍵の3Dモデルでも、そこに降り注ぐ光はすべて輝き、反射します。レンガの壁の3Dモデルは、光りませんが、その色と表面を確認するために十分な光を反射します。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:21
+#: ../../source/create/3d-models/pbr-materials-guide.rst:25
 #, fuzzy
 msgid "A material contains texture and shading information."
 msgstr "マテリアルには、テクスチャとシェーディングの情報が含まれています。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:27
+#: ../../source/create/3d-models/pbr-materials-guide.rst:31
 #, fuzzy
 msgid ""
 "Textures are flat images that are applied to 3D models. These add detail "
@@ -1177,31 +1191,40 @@ msgid ""
 "trunk will use a bark texture to show what the surface looks like."
 msgstr "テクスチャは、3Dモデルに適用される平面画像です。3Dモデルの素材の見え方を詳細に表現します。例えば、木の幹の3Dモデルには、樹皮のテクスチャを使用して、表面がどのように見えるかを表現します。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:29
+#: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "Overte supports the use of the following texture formats:"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:31
+#: ../../source/create/3d-models/pbr-materials-guide.rst:35
+#, fuzzy
+msgid "WEBP (recommended)"
+msgstr "PNG (recommended)"
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:36
 #, fuzzy
 msgid "PNG (recommended)"
 msgstr "PNG (recommended)"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:32
+#: ../../source/create/3d-models/pbr-materials-guide.rst:37
 #, fuzzy
 msgid "JPEG, JPG (recommended)"
 msgstr "JPEG, JPG (recommended)"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:33
+#: ../../source/create/3d-models/pbr-materials-guide.rst:38
+msgid "EXR (recommended for HDR envirnoment maps and lightmaps)"
+msgstr ""
+
+#: ../../source/create/3d-models/pbr-materials-guide.rst:39
 #, fuzzy
 msgid "TGA"
 msgstr "TGA"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:34
+#: ../../source/create/3d-models/pbr-materials-guide.rst:40
 #, fuzzy
 msgid "TIFF, TIF"
 msgstr "TIFF, TIF"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:36
+#: ../../source/create/3d-models/pbr-materials-guide.rst:42
 #, fuzzy
 msgid ""
 "For best performance, we recommend :doc:`baking all 3D models <../../host"
@@ -1211,12 +1234,12 @@ msgstr ""
 "最高のパフォーマンスを得るために、 :doc:`すべての3Dモデル <../../host/add-content/bake-content>` "
 "（テクスチャを含む）をVircadiaにロードする前にベイクすることをお勧めします。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:40
+#: ../../source/create/3d-models/pbr-materials-guide.rst:46
 #, fuzzy
 msgid "Shading"
 msgstr "Shading"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:42
+#: ../../source/create/3d-models/pbr-materials-guide.rst:48
 #, fuzzy
 msgid ""
 "Since Overte supports PBR materials, the shading used depicts an accurate"
@@ -1226,7 +1249,7 @@ msgid ""
 " or channels that can be modified to create different types of materials."
 msgstr "VircadiaはPBRマテリアルをサポートしているので、使用されるシェーディングは、光が異なるマテリアルサーフェスとどのように相互作用するかを正確に表現しています。つまり、3Dモデルは異なる光の設定下で同じように見えるわけではありません。PBRシェーダにはマテリアルパラメータまたはチャンネルがあり、これを変更することで様々な種類のマテリアルを作成することができます。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:45
+#: ../../source/create/3d-models/pbr-materials-guide.rst:51
 #, fuzzy
 msgid ""
 "You can combine shaders with material entities on shape and zone entities"
@@ -1241,12 +1264,12 @@ msgstr ""
 "でモデルやアバターにプロシージャルマテリアルを適用してみたい場合は、 :doc:`Procedural Shaders for Models "
 "and Avatars <../materials/procedural-shaders>` を参照してください。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:49
+#: ../../source/create/3d-models/pbr-materials-guide.rst:55
 #, fuzzy
 msgid "**Material Channels**"
 msgstr "**マテリアルチャネル**"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:51
+#: ../../source/create/3d-models/pbr-materials-guide.rst:57
 #, fuzzy
 msgid ""
 "Material channels determine various parameters such as the roughness or "
@@ -1254,14 +1277,14 @@ msgid ""
 "ways:"
 msgstr "素材チャンネルは、素材の粗さや色など、様々なパラメータを決定します。各チャンネルの値は、2つの方法で決定できます :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:53
+#: ../../source/create/3d-models/pbr-materials-guide.rst:59
 #, fuzzy
 msgid ""
 "**Setting a Value:** The value of a channel is a value set on a slider. "
 "Setting a value is like turning off or turning on a switch."
 msgstr "**値の設定:** チャンネルの値は、スライダーで設定された値です。値を設定することは、スイッチを切ったり入れたりするのと同じです。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:54
+#: ../../source/create/3d-models/pbr-materials-guide.rst:60
 #, fuzzy
 msgid ""
 "For example, if you look at your phone, some parts of it are shiny and "
@@ -1270,7 +1293,7 @@ msgid ""
 "roughness, you'll need to use a map."
 msgstr "例えば、携帯電話を見ると、ある部分は光沢があり、ある部分はつや消しになっています。ある値を使用すると、オブジェクト全体にその値が反映されます。オブジェクトのさまざまな部分にさまざまな質感を反映させたい場合は、マップを使用する必要があります。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:56
+#: ../../source/create/3d-models/pbr-materials-guide.rst:62
 #, fuzzy
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
@@ -1279,7 +1302,7 @@ msgstr ""
 "**マップの使用:** "
 "マップは、プロパティを定義するためにインポートすることができる画像です。マップを使用して、3Dモデルにテクスチャを適用することになります。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:57
+#: ../../source/create/3d-models/pbr-materials-guide.rst:63
 #, fuzzy
 msgid ""
 "For instance, your phone may have a case that is matte, while the rest of"
@@ -1287,83 +1310,83 @@ msgid ""
 "phone as shiny."
 msgstr "例えば、あなたの携帯電話のケースはつや消しで、他の部分は光沢がある場合があります。マップを使って、ケースをつや消しに、携帯電話を光沢のあるものに設定することができます。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:59
+#: ../../source/create/3d-models/pbr-materials-guide.rst:65
 msgid ""
 "All materials in Overte have the following channels that determine how "
 "they look:"
 msgstr ""
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
+#: ../../source/create/3d-models/pbr-materials-guide.rst:68
 #, fuzzy
 msgid "Channel Type"
 msgstr "チャネルタイプ"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
+#: ../../source/create/3d-models/pbr-materials-guide.rst:68
 #: ../../source/create/entities/create-fountain.rst:35
 #, fuzzy
 msgid "Value"
 msgstr "値"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:62
+#: ../../source/create/3d-models/pbr-materials-guide.rst:68
 #, fuzzy
 msgid "Map"
 msgstr "マップ"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
 #, fuzzy
 msgid "Albedo"
 msgstr "アルベド（Albedo）"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
 #, fuzzy
 msgid ""
 "This channel defines the material's color. You can pick any color value "
 "of your choice."
 msgstr "このチャンネルは、素材の色を定義します。好きな色の値を選ぶことができます。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:64
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:70
+#: ../../source/create/3d-models/pbr-materials-guide.rst:88
 #, fuzzy
 msgid "sRGB"
 msgstr "sRGB"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:67
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
 #, fuzzy
 msgid "Metallic"
 msgstr "メタリック（Metallic）"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:67
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
 #, fuzzy
 msgid ""
 "This channel determines how metallic the material is. Metal refracts "
 "light different than other materials."
 msgstr "このチャンネルは、素材がメタリックであるか否かを決定します。半分だけメタリックな素材は存在せず、メタリックかそうでないかのどちらかです。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:67
-#: ../../source/create/3d-models/pbr-materials-guide.rst:70
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
+#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:76
+#: ../../source/create/3d-models/pbr-materials-guide.rst:83
+#: ../../source/create/3d-models/pbr-materials-guide.rst:85
+#: ../../source/create/3d-models/pbr-materials-guide.rst:90
 #, fuzzy
 msgid "[0,1]"
 msgstr "[0,1]"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:70
+#: ../../source/create/3d-models/pbr-materials-guide.rst:76
 #, fuzzy
 msgid "Roughness"
 msgstr "ラフネス（Roughness）"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:70
+#: ../../source/create/3d-models/pbr-materials-guide.rst:76
 #, fuzzy
 msgid "This determines how rough/matte or glossy/shiny an object is."
 msgstr "輝度レベルを用いて、オブジェクトの粗さ/マットさ、または光沢/テカリを決定します。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 #, fuzzy
 msgid "Normal"
 msgstr "法線"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 #, fuzzy
 msgid ""
 "Normal is a channel that renders an object like there is actual geometry."
@@ -1371,93 +1394,93 @@ msgid ""
 " or ridges to a sea-shell."
 msgstr "法線は、オブジェクトを実際のジオメトリのようにレンダリングするチャンネルです。例えば、石に凹凸をつけたり、貝に隆起をつけたりするのが法線です。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 #, fuzzy
 msgid "xyz"
 msgstr "xyz"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:73
+#: ../../source/create/3d-models/pbr-materials-guide.rst:79
 #, fuzzy
 msgid "bump"
 msgstr "bump"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:83
 #, fuzzy
 msgid "Opacity"
 msgstr "オパシティ（Opacity）"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:83
 #, fuzzy
 msgid "Opacity determines if an object is transparent or opaque."
 msgstr "不透明度は、オブジェクトが透明であるか不透明であるかを決定するものです。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:77
+#: ../../source/create/3d-models/pbr-materials-guide.rst:83
 #, fuzzy
 msgid "mask, alpha"
 msgstr "mask, alpha"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:85
 #, fuzzy
 msgid "Occlusion"
 msgstr "オクルージョン（Occlusion）"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
+#: ../../source/create/3d-models/pbr-materials-guide.rst:85
 #, fuzzy
 msgid ""
 "This property approximates the shading to be as natural as possible. This"
 " means that it will reproduce how objects interact with light."
 msgstr "このプロパティは、シェーディングを可能な限り自然になるように近似させます。つまり、オブジェクトが光とどのように相互作用するかを再現することになります。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:79
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:85
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 #, fuzzy
 msgid "---"
 msgstr "---"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:88
 #, fuzzy
 msgid "Emissive"
 msgstr "エミッシブ（Emissive）"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:82
+#: ../../source/create/3d-models/pbr-materials-guide.rst:88
 #, fuzzy
 msgid "This channel controls the amount of light that is coming from an object."
 msgstr "オブジェクトから反射される光の量を制御するチャンネルです。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
+#: ../../source/create/3d-models/pbr-materials-guide.rst:90
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 #, fuzzy
 msgid "Scattering"
 msgstr "スキャタリング（Scattering）"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:84
+#: ../../source/create/3d-models/pbr-materials-guide.rst:90
 #, fuzzy
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
 msgstr "スキャタリングは、光が人間の皮膚に当たったときにどのような反応をするかを決定します。このチャンネルでは、人体で光がどのように反射・吸収されるかを詳しく説明します。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 #, fuzzy
 msgid "Material Type"
 msgstr "素材の種類（Material Type）"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 #, fuzzy
 msgid "This channel decides if an object is impacted by light."
 msgstr "オブジェクトが点灯しているか否かを決定するチャンネルです。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:87
+#: ../../source/create/3d-models/pbr-materials-guide.rst:93
 #, fuzzy
 msgid "[lit, unlit]"
 msgstr "[lit, unlit]"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:90
+#: ../../source/create/3d-models/pbr-materials-guide.rst:96
 #, fuzzy
 msgid "Notes:"
 msgstr "備考 :"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:92
+#: ../../source/create/3d-models/pbr-materials-guide.rst:98
 #, fuzzy
 msgid ""
 "If you set transparency with a texture, the transparency (alpha) must be "
@@ -1467,7 +1490,7 @@ msgstr ""
 "テクスチャで透明度を設定する場合、透明度（アルファ）はマテリアルのアルベドテクスチャ(Albedo "
 "texture)に、透明度を持つPNGファイルとして、別の透明度テクスチャとしてではなく、含まれている必要があります。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:93
+#: ../../source/create/3d-models/pbr-materials-guide.rst:99
 msgid ""
 "Overte renderer can draw two different kinds of transparency: \"alpha\" "
 "(255 graduates steps of transparency, no shading on surface, casts no "
@@ -1475,14 +1498,14 @@ msgid ""
 "surface, whole surface casts shadow.)"
 msgstr "Overteのレンダラーは2つの異なる種類の透明度を描画できます。「アルファ」(255段階の透明度、表面に影をつけない、影を落とさない)と「マスク」(2値の透明度、不透明な表面の完全な影、表面全体に影を落とす)です。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:94
+#: ../../source/create/3d-models/pbr-materials-guide.rst:100
 #, fuzzy
 msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
 "engine looks for alpha values between 2% and 98%."
 msgstr "テクスチャをマスクとして扱うかアルファとして扱うかを決定するために、エンジンは2%から98%の間のアルファ値を探します。PNG-8は2値の透明度しかサポートしていませんが、PNG-24はさまざまな透明度をサポートしているからです。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:95
+#: ../../source/create/3d-models/pbr-materials-guide.rst:101
 #, fuzzy
 msgid ""
 "We support using a second UV set with the following texture channels "
@@ -1491,12 +1514,12 @@ msgstr ""
 "以下のテクスチャチャンネルのみで2つ目のUVセットを使用することをサポートします： エミッシブマテリアル（Emissive "
 "Texture）、法線マップ（Normal Map）、アンビエントオクルージョン（Ambient Occlusion）。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:99
+#: ../../source/create/3d-models/pbr-materials-guide.rst:105
 #, fuzzy
 msgid "Sample Materials and Their Textures and Shading"
 msgstr "サンプルマテリアルとそのテクスチャ、シェーディング"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:101
+#: ../../source/create/3d-models/pbr-materials-guide.rst:107
 #, fuzzy
 msgid ""
 "Overte supports different types of materials. We've created sample "
@@ -1515,7 +1538,7 @@ msgstr ""
 "`このスクリプト<https://raw.githubusercontent.com/vircadia/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`"
 " を実行すると、あなたのドメイン内のすべてのサンプルオブジェクトをアップロードすることができます。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:108
+#: ../../source/create/3d-models/pbr-materials-guide.rst:114
 #, fuzzy
 msgid ""
 "We've listed all material information (including textures, shading, and "
@@ -1527,17 +1550,17 @@ msgstr ""
 "`ここに<../../_static/resources/3d-"
 "models/Sample_Material_Textures_and_Shading_Guide.html>` リストアップしました。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:113
+#: ../../source/create/3d-models/pbr-materials-guide.rst:119
 #, fuzzy
 msgid "Set Material Values in Blender"
 msgstr "Blenderでマテリアル値を設定する"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:118
+#: ../../source/create/3d-models/pbr-materials-guide.rst:124
 #, fuzzy
 msgid "This section is outdated."
 msgstr "このセクションは古くなっています。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:120
+#: ../../source/create/3d-models/pbr-materials-guide.rst:126
 #, fuzzy
 msgid ""
 "When you create a model in Blender, you have to export it in FBX, glTF, "
@@ -1546,12 +1569,12 @@ msgid ""
 "textures in Overte."
 msgstr "Blenderでモデルを作成したら、Vircadiaで使うためにFBX、glTF、GLBまたはOBJフォーマットでエクスポートする必要があります。さらに、VircadiaのPBRマテリアルテクスチャに合わせるために、Blenderのマテリアルプロパティとテクスチャを修正する必要があります。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:122
+#: ../../source/create/3d-models/pbr-materials-guide.rst:128
 #, fuzzy
 msgid "Doing so ensures that your model appears how you intend it to."
 msgstr "そうすることで、意図したとおりにモデルが表示されるようになります。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:124
+#: ../../source/create/3d-models/pbr-materials-guide.rst:130
 #, fuzzy
 msgid ""
 "By default, any material property set with a texture will override a "
@@ -1563,7 +1586,7 @@ msgstr ""
 "デフォルトでは、テクスチャで設定されたマテリアルのプロパティは、値で設定されたプロパティより優先されます。唯一の例外は、頂点カラー(Vertex "
 "color)とテクスチャの場合で、この場合、頂点カラーとテクスチャは一緒に乗算されます。これは、グレースケールのテクスチャと頂点カラーを使用して、パフォーマンスの高いカラーモデルを作成する場合に便利です。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:127
+#: ../../source/create/3d-models/pbr-materials-guide.rst:133
 #, fuzzy
 msgid ""
 "We've included images where the fields corresponding to each supported "
@@ -1573,24 +1596,24 @@ msgid ""
 " PBR material support in Overte yet."
 msgstr "Blenderでサポートされている各PBRチャンネルに対応するフィールドがハイライトされている画像と、そのチャンネルに対応する範囲にどの値と色が対応しているかの詳細が含まれています。OBJとしてエクスポートされたモデルは、Vircadiaの完全なPBRマテリアルサポートをまだ持っていない可能性があることに留意してください。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:136
+#: ../../source/create/3d-models/pbr-materials-guide.rst:142
 #, fuzzy
 msgid "Set Material Values in Maya"
 msgstr "Mayaでマテリアル値を設定する"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:141
+#: ../../source/create/3d-models/pbr-materials-guide.rst:147
 #, fuzzy
 msgid "This section hasn't been tested in a long while and might be outdated."
 msgstr "このセクションは長い間テストされていないので、古くなっている可能性があります。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:143
+#: ../../source/create/3d-models/pbr-materials-guide.rst:149
 #, fuzzy
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
 msgstr "以下のグラフィックスを使用して、Mayaで適切なマテリアル値とテクスチャを設定します。"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:152
+#: ../../source/create/3d-models/pbr-materials-guide.rst:158
 #, fuzzy
 msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
@@ -1599,7 +1622,7 @@ msgstr ""
 ":doc:`オーブン(Oven)を使ってコンテンツをベイク(Bake)には <../../host/add-content/bake-"
 "content>`"
 
-#: ../../source/create/3d-models/pbr-materials-guide.rst:153
+#: ../../source/create/3d-models/pbr-materials-guide.rst:159
 #, fuzzy
 msgid ":doc:`Add a Material Entity <../entities/material-entity>`"
 msgstr ":doc:`マテリアルエンティティを追加するには <../entities/material-entity>`"
@@ -2001,7 +2024,7 @@ msgid "`API Reference: Vec3 <https://apidocs.overte.org/Vec3.html>`_"
 msgstr ""
 
 #: ../../source/create/avatars.rst:9
-#: ../../source/create/avatars/create-avatars.rst:7
+#: ../../source/create/avatars/create-avatars.rst:6
 #, fuzzy
 msgid "Create Your Own Avatar"
 msgstr "アバター作成"
@@ -2118,38 +2141,40 @@ msgstr ""
 "content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`"
 " を使って、試してみてください。"
 
-#: ../../source/create/avatars/add-flow.rst:29
-#: ../../source/create/avatars/add-flow.rst:117
+#: ../../source/create/avatars/add-flow.rst:27
+msgid ""
+"Currently for the Flow to work correctly, avatar model needs to be scaled"
+" in meters and scale of the armature and meshed needs to be equal to 1. "
+"To fix this issue for models that have different armature scale, open the"
+" model in Blender and apply scale to both armature and meshes."
+msgstr ""
+
+#: ../../source/create/avatars/add-flow.rst:31
+#: ../../source/create/avatars/add-flow.rst:123
 #, fuzzy
 msgid "Flow App"
 msgstr "フロー（Flow）アプリ"
 
-#: ../../source/create/avatars/add-flow.rst:31
-#, fuzzy
-msgid ""
-"Load the `Flow app "
-"<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_"
-" into Overte to configure your flow settings. See :doc:`Load an Interface"
-" Script </script/interface-scripts>`"
-msgstr ""
-"Vircadiaに `Flowアプリ "
-"<https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`"
-" をロードして、フロー設定を行います。 :doc:`インターフェーススクリプトの読み込み</script/interface-scripts>` "
-"を参照"
-
 #: ../../source/create/avatars/add-flow.rst:33
+msgid ""
+"Load the `Flow app` into Overte to configure your flow settings. The flow"
+" app is available in Community Apps repository. It can be installed by "
+"clicking on `More` icon and searching for `Flow`."
+msgstr ""
+
+#: ../../source/create/avatars/add-flow.rst:35
 #, fuzzy
 msgid ""
 "The Flow app will show up as an icon on your HUD or tablet. Click this "
 "icon to open the Flow app."
 msgstr "HUDやタブレットにFlowアプリがアイコンとして表示されます。このアイコンをクリックすると、Flowアプリが起動します。"
 
-#: ../../source/create/avatars/add-flow.rst:39
+#: ../../source/create/avatars/add-flow.rst:41
 #, fuzzy
 msgid "Display Panel"
 msgstr "Displayパネル"
 
-#: ../../source/create/avatars/add-flow.rst:41
+#: ../../source/create/avatars/add-flow.rst:43
 #, fuzzy
 msgid ""
 "The **Display** panel affects how your avatar looks while the Flow app is"
@@ -2159,85 +2184,85 @@ msgstr ""
 "**Display** "
 "パネルは、Flowアプリを開いている間のアバターの見え方に影響します。これらのオプションを使用して、メッシュとコリジョン(Collision)を表示することを選択し、最終的なフロー構成がどのように見えるかを判断するのに役立ちます。"
 
-#: ../../source/create/avatars/add-flow.rst:46
-#: ../../source/create/avatars/add-flow.rst:66
-#: ../../source/create/avatars/add-flow.rst:92
+#: ../../source/create/avatars/add-flow.rst:48
+#: ../../source/create/avatars/add-flow.rst:68
+#: ../../source/create/avatars/add-flow.rst:98
 #, fuzzy
 msgid "Option"
 msgstr "オプション"
 
-#: ../../source/create/avatars/add-flow.rst:48
+#: ../../source/create/avatars/add-flow.rst:50
 #, fuzzy
 msgid "Avatar"
 msgstr "アバター"
 
-#: ../../source/create/avatars/add-flow.rst:48
+#: ../../source/create/avatars/add-flow.rst:50
 #, fuzzy
 msgid "Hides or displays the avatar mesh."
 msgstr "アバターメッシュの表示／非表示を切り替えます。"
 
-#: ../../source/create/avatars/add-flow.rst:50
+#: ../../source/create/avatars/add-flow.rst:52
 #: ../../source/explore/interact.md:28
 #, fuzzy
 msgid "Collisions"
 msgstr "衝突"
 
-#: ../../source/create/avatars/add-flow.rst:50
+#: ../../source/create/avatars/add-flow.rst:52
 #, fuzzy
 msgid "Activates or deactivates collisions."
 msgstr "コリジョンを有効または無効にします。"
 
-#: ../../source/create/avatars/add-flow.rst:52
+#: ../../source/create/avatars/add-flow.rst:54
 #, fuzzy
 msgid "Debug"
 msgstr "デバッグ"
 
-#: ../../source/create/avatars/add-flow.rst:52
+#: ../../source/create/avatars/add-flow.rst:54
 #, fuzzy
 msgid "Hides or displays the debug shapes."
 msgstr "デバッグシェイプの表示／非表示を切り替えます。"
 
-#: ../../source/create/avatars/add-flow.rst:54
+#: ../../source/create/avatars/add-flow.rst:56
 #, fuzzy
 msgid "Solid"
 msgstr "通常色"
 
-#: ../../source/create/avatars/add-flow.rst:54
+#: ../../source/create/avatars/add-flow.rst:56
 #, fuzzy
 msgid "Enables either a solid or wireframe display for debug shapes."
 msgstr "デバッグ図形をソリッドまたはワイヤーフレームで表示することができます。"
 
-#: ../../source/create/avatars/add-flow.rst:59
+#: ../../source/create/avatars/add-flow.rst:61
 #, fuzzy
 msgid "Joints Panel"
 msgstr "関節（Joint）パネル"
 
-#: ../../source/create/avatars/add-flow.rst:61
+#: ../../source/create/avatars/add-flow.rst:63
 #, fuzzy
 msgid ""
 "The **Joints** panel lists all of the available flow threads, and lets "
 "you configure the behavior of your joints."
 msgstr "**関節（Joint）**パネルでは、利用可能なすべてのフロースレッドが一覧表示され、ジョイントの動作を設定することができます。"
 
-#: ../../source/create/avatars/add-flow.rst:68
-#: ../../source/create/avatars/add-flow.rst:94
+#: ../../source/create/avatars/add-flow.rst:70
+#: ../../source/create/avatars/add-flow.rst:100
 #, fuzzy
 msgid "Radius"
 msgstr "半径"
 
-#: ../../source/create/avatars/add-flow.rst:68
+#: ../../source/create/avatars/add-flow.rst:70
 #, fuzzy
 msgid ""
 "Determines the thickness of segments and knots (needed for collision "
 "testing)."
 msgstr "セグメントとノット（衝突試験で必要）の厚さを決定します。"
 
-#: ../../source/create/avatars/add-flow.rst:70
+#: ../../source/create/avatars/add-flow.rst:72
 #, fuzzy
 msgid "Gravity"
 msgstr "Gravity"
 
-#: ../../source/create/avatars/add-flow.rst:70
+#: ../../source/create/avatars/add-flow.rst:72
 #, fuzzy
 msgid ""
 "Sets the how each joint will respond to gravity. A positive value will "
@@ -2246,52 +2271,58 @@ msgid ""
 "movement to happen more quickly."
 msgstr "各ジョイントが重力に対してどのように反応するかを設定します。正の値を設定すると関節が空中に浮き上がり、負の値を設定すると重力に反応して地面に引っ張られます。値を大きくすると、より素早く動作します。"
 
-#: ../../source/create/avatars/add-flow.rst:74
+#: ../../source/create/avatars/add-flow.rst:76
 #, fuzzy
 msgid "Stiffness"
 msgstr "Stiffness"
 
-#: ../../source/create/avatars/add-flow.rst:74
+#: ../../source/create/avatars/add-flow.rst:76
 #, fuzzy
 msgid "Defines how susceptible the flow threads are to movement."
 msgstr "フロースレッドがどの程度動きやすいかを定義します。"
 
-#: ../../source/create/avatars/add-flow.rst:76
+#: ../../source/create/avatars/add-flow.rst:78
 #, fuzzy
 msgid "Damping"
 msgstr "Damping"
 
-#: ../../source/create/avatars/add-flow.rst:76
+#: ../../source/create/avatars/add-flow.rst:78
 #, fuzzy
 msgid "Determines how easily the bones oscillate or move around the joints."
 msgstr "ボーンがジョイントの周りでどのくらい簡単に振動または移動するかを定義します。"
 
-#: ../../source/create/avatars/add-flow.rst:78
+#: ../../source/create/avatars/add-flow.rst:80
 #, fuzzy
 msgid "Inertia"
 msgstr "Inertia"
 
-#: ../../source/create/avatars/add-flow.rst:78
+#: ../../source/create/avatars/add-flow.rst:80
 #, fuzzy
 msgid "Changes the rotational velocity of the bones."
 msgstr "ボーンの回転速度を定義します。"
 
-#: ../../source/create/avatars/add-flow.rst:80
+#: ../../source/create/avatars/add-flow.rst:82
 #, fuzzy
 msgid "Delta"
 msgstr "Delta"
 
-#: ../../source/create/avatars/add-flow.rst:80
+#: ../../source/create/avatars/add-flow.rst:82
 #, fuzzy
 msgid "Controls the amount of time between each joint movement."
 msgstr "各関節の動作の間隔を定義します。"
 
-#: ../../source/create/avatars/add-flow.rst:85
+#: ../../source/create/avatars/add-flow.rst:86
+msgid ""
+"Damping value is currently reversed. 0 means full damping, and 1 means no"
+" damping at all."
+msgstr ""
+
+#: ../../source/create/avatars/add-flow.rst:91
 #, fuzzy
 msgid "Collisions Panel"
 msgstr "コリジョン（Collision）パネル"
 
-#: ../../source/create/avatars/add-flow.rst:87
+#: ../../source/create/avatars/add-flow.rst:93
 #, fuzzy
 msgid ""
 "The **Collisions** panel controls the collision spheres that define the "
@@ -2305,27 +2336,27 @@ msgstr ""
 "パネルは、フロースレッドとアバターのジョイントの間の相互作用を定義するコリジョンスフィア（Collision "
 "spher）をコントロールします。各コリジョン球は、既存のアバタージョイントとオフセットを使って配置されます。コリジョン球の半径を大きくすると、フロースレッドとジョイントの間の距離が長くなります。アバターには最大4つのコリジョンしか定義できません。"
 
-#: ../../source/create/avatars/add-flow.rst:94
+#: ../../source/create/avatars/add-flow.rst:100
 #, fuzzy
 msgid "Controls the collision sphere radius."
 msgstr "コリジョン球の半径を定義します。"
 
-#: ../../source/create/avatars/add-flow.rst:96
+#: ../../source/create/avatars/add-flow.rst:102
 #, fuzzy
 msgid "Offset"
 msgstr "オフセット"
 
-#: ../../source/create/avatars/add-flow.rst:96
+#: ../../source/create/avatars/add-flow.rst:102
 #, fuzzy
 msgid "Controls the collision sphere offset."
 msgstr "コリジョン球のオフセットを定義します。"
 
-#: ../../source/create/avatars/add-flow.rst:101
+#: ../../source/create/avatars/add-flow.rst:107
 #, fuzzy
 msgid "Output Panel"
 msgstr "出力パネル"
 
-#: ../../source/create/avatars/add-flow.rst:103
+#: ../../source/create/avatars/add-flow.rst:109
 #, fuzzy
 msgid ""
 "The **Output** panel displays the resulting FST data for your avatar's "
@@ -2335,56 +2366,50 @@ msgstr ""
 "**出力** パネルには、`Joints Panel` と `Collisions Panel` "
 "で入力した内容に基づいて、アバターのフロー設定に対する FST データの結果が表示されます。"
 
-#: ../../source/create/avatars/add-flow.rst:105
+#: ../../source/create/avatars/add-flow.rst:111
 #, fuzzy
 msgid ""
 "Copy this data directly into your avatar's FST file to complete the flow "
 "process."
 msgstr "このデータをアバターのFSTファイルに直接コピーすれば、フロー処理は完了です。"
 
-#: ../../source/create/avatars/add-flow.rst:112
+#: ../../source/create/avatars/add-flow.rst:118
 #, fuzzy
 msgid "Resources"
 msgstr "リソース"
 
-#: ../../source/create/avatars/add-flow.rst:115
+#: ../../source/create/avatars/add-flow.rst:121
 #: ../../source/create/entities/boombox-tutorial.rst:99
 #, fuzzy
 msgid "File"
 msgstr "ファイル"
 
-#: ../../source/create/avatars/add-flow.rst:115
-#: ../../source/create/entities/boombox-tutorial.rst:99
-#, fuzzy
-msgid "URL"
-msgstr "URL"
-
-#: ../../source/create/avatars/add-flow.rst:117
+#: ../../source/create/avatars/add-flow.rst:123
 #, fuzzy
 msgid ""
 "This app lets users easily update Flow settings without the need for "
 "scripting or advanced knowledge of avatars."
 msgstr "このアプリは、スクリプトやアバターに関する高度な知識がなくても、ユーザーが簡単にFlowの設定を更新できるようにするものです。"
 
-#: ../../source/create/avatars/add-flow.rst:117
+#: ../../source/create/avatars/add-flow.rst:123
 msgid ""
-"`flowAppCpp.js <https://docs.overte.org/ "
-"_static/resources/script/flow/flowAppCpp/ flowAppCpp.js>`_"
+"Part of the Community Apps Can be installed by clicking `More` icon and "
+"selecting Flow"
 msgstr ""
 
-#: ../../source/create/avatars/add-flow.rst:121
+#: ../../source/create/avatars/add-flow.rst:127
 #, fuzzy
 msgid "Mannequin with Hair"
 msgstr "Mannequin with Hair"
 
-#: ../../source/create/avatars/add-flow.rst:121
+#: ../../source/create/avatars/add-flow.rst:127
 #, fuzzy
 msgid ""
 "This avatar is properly rigged to work with Flow. Use this as an example "
 "for your own avatar models."
 msgstr "このアバターは、Flowで動作するように適切に構成されています。あなた自身のアバターモデルの例としてお使いください。"
 
-#: ../../source/create/avatars/add-flow.rst:121
+#: ../../source/create/avatars/add-flow.rst:127
 #, fuzzy
 msgid ""
 "`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
@@ -2393,19 +2418,19 @@ msgstr ""
 "`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
 " Mannequin/hairTest/mannequinHairTest8. fst>`_"
 
-#: ../../source/create/avatars/add-flow.rst:129
-#: ../../source/create/avatars/custom-animations.rst:271
+#: ../../source/create/avatars/add-flow.rst:135
+#: ../../source/create/avatars/custom-animations.rst:272
 #, fuzzy
 msgid ":doc:`Avatar Standards Guide <avatar-standards>`"
 msgstr ":doc:`アバタースタンダードガイド <avatar-standards>`"
 
-#: ../../source/create/avatars/add-flow.rst:130
+#: ../../source/create/avatars/add-flow.rst:136
 #: ../../source/create/avatars/scattering-tutorial.rst:69
 #, fuzzy
 msgid "`Package Your Avatar <create-avatars.html#package-your-avatar>`_"
 msgstr "`アバターのパッケージ化 <create-avatars.html#package-your-avatar>`_"
 
-#: ../../source/create/avatars/add-flow.rst:131
+#: ../../source/create/avatars/add-flow.rst:137
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:64
 #: ../../source/create/entities/boombox-tutorial.rst:21
 #: ../../source/create/entities/boombox-tutorial.rst:170
@@ -2416,13 +2441,13 @@ msgid ""
 "scripting>`"
 msgstr ":doc:`スクリプト作成を始めよう <../../script/get-started-with-scripting>`"
 
-#: ../../source/create/avatars/avatar-standards.md:6
-#: ../../source/create/avatars/create-avatars.rst:24
+#: ../../source/create/avatars/avatar-standards.md:7
+#: ../../source/create/avatars/create-avatars.rst:22
 #, fuzzy
 msgid "Avatar Standards Guide"
 msgstr "アバタースタンダードガイド"
 
-#: ../../source/create/avatars/avatar-standards.md:8
+#: ../../source/create/avatars/avatar-standards.md:9
 #, fuzzy
 msgid ""
 "This document outlines the standards you should follow when [creating "
@@ -2435,7 +2460,7 @@ msgstr ""
 "この文書では、[アバターを作成する](create-"
 "avatars)ときに従うべき基準の概要を説明します。アバターはボーンを使って、キャラクターの手足をアニメーション化し、手足のスケール変数を定義します。カスタムボーンを追加して、アバターの形状をさらに調整することができます。アバターのカスタマイズは、ブレンドシェイプを使った顔のアニメーションや、スクリプトを使った高度な動作の定義で細かく調整することができます。"
 
-#: ../../source/create/avatars/avatar-standards.md:10
+#: ../../source/create/avatars/avatar-standards.md:11
 #: ../../source/create/entities/avatar-interactions.md:5
 #: ../../source/create/entities/create-spotlight.md:5
 #: ../../source/create/entities/display-youtube.md:5
@@ -2451,66 +2476,66 @@ msgstr ""
 msgid "**On This Page:**"
 msgstr "**コンテンツ**"
 
-#: ../../source/create/avatars/avatar-standards.md:11
+#: ../../source/create/avatars/avatar-standards.md:12
 #, fuzzy
 msgid "[Glossary](#glossary)"
 msgstr "[用語集](#glossary)"
 
-#: ../../source/create/avatars/avatar-standards.md:12
+#: ../../source/create/avatars/avatar-standards.md:13
 #, fuzzy
 msgid "[Reference Pose](#reference-pose)"
 msgstr "[基準ポーズ（Reference Pose）](#reference-pose)"
 
-#: ../../source/create/avatars/avatar-standards.md:13
+#: ../../source/create/avatars/avatar-standards.md:14
 #, fuzzy
 msgid "[Skeleton](#skeleton)"
 msgstr "[スケルトン（Skeleton）](#skeleton)"
 
-#: ../../source/create/avatars/avatar-standards.md:14
+#: ../../source/create/avatars/avatar-standards.md:15
 #, fuzzy
 msgid "[Flow Bones](#flow-bones)"
 msgstr "[フローボーン（Flow Bone）](#flow-bones)"
 
-#: ../../source/create/avatars/avatar-standards.md:15
+#: ../../source/create/avatars/avatar-standards.md:16
 #, fuzzy
 msgid "[Look-at Vectors](#look-at-vectors)"
 msgstr "[ルックアットベクトル（Look-at Vector）](#look-at-vectors)"
 
-#: ../../source/create/avatars/avatar-standards.md:16
+#: ../../source/create/avatars/avatar-standards.md:17
 #, fuzzy
 msgid "[Blendshapes](#blendshapes)"
 msgstr "[ブレンドシェイプ（Blendshapes）](#blendshapes)"
 
-#: ../../source/create/avatars/avatar-standards.md:17
+#: ../../source/create/avatars/avatar-standards.md:18
 #, fuzzy
 msgid "[Other Considerations](#other-considerations)"
 msgstr "[その他の考慮事項](#other-considerations)"
 
-#: ../../source/create/avatars/avatar-standards.md:19
+#: ../../source/create/avatars/avatar-standards.md:20
 #, fuzzy
 msgid "Glossary"
 msgstr "用語集"
 
-#: ../../source/create/avatars/avatar-standards.md:20
+#: ../../source/create/avatars/avatar-standards.md:21
 #, fuzzy
 msgid ""
 "As we delve deeper into creating custom avatars, we may use terminology "
 "that you are unfamiliar with. Here are some terms you might come across:"
 msgstr "カスタムアバターの制作を進めていくと、聞き慣れない用語が出てくることがあります。ここでは、そのような用語について説明します。"
 
-#: ../../source/create/avatars/avatar-standards.md:22
+#: ../../source/create/avatars/avatar-standards.md:23
 #, fuzzy
 msgid "Avatar - A virtual representation of a person or NPC."
 msgstr "アバター（Avatar ） - 人物やNPCを仮想的に表現したもの。"
 
-#: ../../source/create/avatars/avatar-standards.md:23
+#: ../../source/create/avatars/avatar-standards.md:24
 #, fuzzy
 msgid ""
 "Mesh - The collection of 3D vertices and triangles for the avatar model. "
 "Without this, the avatar is invisible."
 msgstr "メッシュ（Mesh）- アバターモデルの3D頂点と三角形の集合体。これがないと、アバターは見えません。"
 
-#: ../../source/create/avatars/avatar-standards.md:24
+#: ../../source/create/avatars/avatar-standards.md:25
 #, fuzzy
 msgid ""
 "Bones - A component of a skeleton that defines a \"limb\" such as an arm,"
@@ -2519,38 +2544,38 @@ msgstr ""
 "ボーン（Bone） - "
 "腕、脚などの「手足」を定義するスケルトンの構成要素。各ボーンは、アバターで個別の手足としてアニメーションさせることができます。"
 
-#: ../../source/create/avatars/avatar-standards.md:25
+#: ../../source/create/avatars/avatar-standards.md:26
 #, fuzzy
 msgid "Skeleton - A hierarchy of joints."
 msgstr "骨格（Skeleton） - 関節の階層構造。"
 
-#: ../../source/create/avatars/avatar-standards.md:26
+#: ../../source/create/avatars/avatar-standards.md:27
 #, fuzzy
 msgid "Rigging - The process of creating a skeleton of the avatar model."
 msgstr "リギング（Rigging） - アバターモデルのスケルトンを作成する工程。"
 
-#: ../../source/create/avatars/avatar-standards.md:27
+#: ../../source/create/avatars/avatar-standards.md:28
 #, fuzzy
 msgid ""
 "Blendshapes - Variations of the topology that defines how the mesh is "
 "modified to create various \"shapes\"."
 msgstr "ブレンドシェイプ（Blendshap） - 様々な「形状」を作成するためにメッシュをどのように修正するかを定義するトポロジーのバリエーションです。"
 
-#: ../../source/create/avatars/avatar-standards.md:28
+#: ../../source/create/avatars/avatar-standards.md:29
 #, fuzzy
 msgid ""
 "FST file - The main avatar file, which contains information about the "
-"skeleton, blendshapes, FBX file and textures used by an avatar."
+"skeleton, blendshapes, glTF/GLB/FBX file and textures used by an avatar."
 msgstr ""
 "FSTファイル - "
 "アバターのメインファイル。アバターが使用するスケルトン、ブレンドシェイプ、FBXファイル、テクスチャーに関する情報が含まれています。"
 
-#: ../../source/create/avatars/avatar-standards.md:31
+#: ../../source/create/avatars/avatar-standards.md:32
 #, fuzzy
 msgid "Reference Pose"
 msgstr "基準ポーズ（Reference Pose）"
 
-#: ../../source/create/avatars/avatar-standards.md:32
+#: ../../source/create/avatars/avatar-standards.md:33
 #, fuzzy
 msgid ""
 "For the Reference pose, use a T-Pose which complies with the "
@@ -2560,33 +2585,33 @@ msgstr ""
 "Referenceポーズには、以下の仕様に準拠したT-"
 "Poseを使用します。正しく設定されたアバターfbxのサンプルとソースファイルを参照してください。"
 
-#: ../../source/create/avatars/avatar-standards.md:33
+#: ../../source/create/avatars/avatar-standards.md:34
 #, fuzzy
 msgid "The character must face along the positive direction of the Z-axis."
 msgstr "キャラクタはZ軸の正の方向に沿って向いている必要があります。"
 
-#: ../../source/create/avatars/avatar-standards.md:34
+#: ../../source/create/avatars/avatar-standards.md:35
 #, fuzzy
 msgid ""
 "The arms must be spread along the X-axis. The left arm should therefore "
 "be pointing along the positive direction of the X-axis."
 msgstr "両腕はX軸に沿って広げなければなりません。そのため、左腕はX軸の正の方向に沿って向ける必要があります。"
 
-#: ../../source/create/avatars/avatar-standards.md:35
+#: ../../source/create/avatars/avatar-standards.md:36
 #, fuzzy
 msgid ""
 "The top of the character's head must be up, in the positive direction of "
 "the Y-axis."
 msgstr "キャラクターの頭頂部は、Y軸の正の方向で、上にある必要があります。"
 
-#: ../../source/create/avatars/avatar-standards.md:36
+#: ../../source/create/avatars/avatar-standards.md:37
 #, fuzzy
 msgid ""
 "The character's hands are flat, palms facing the ground, with the thumbs "
 "parallel to the X axis."
 msgstr "キャラクターの手は平らで、手のひらを地面に向けて、親指がX軸と平行になるようにします。"
 
-#: ../../source/create/avatars/avatar-standards.md:37
+#: ../../source/create/avatars/avatar-standards.md:38
 #, fuzzy
 msgid ""
 "The character's feet need to be perpendicular to the legs (with the toes "
@@ -2595,12 +2620,12 @@ msgid ""
 "toward the right leg or outward away from the right leg)."
 msgstr "キャラクタの足は、脚に対して垂直である必要があります（図のようにつま先がZ軸に沿っている状態）。足はY軸を中心に回転してはいけません（つまり、左足のつま先が右足の内側を向いたり、右足の外側を向いたりしてはいけないということです）。"
 
-#: ../../source/create/avatars/avatar-standards.md:39
+#: ../../source/create/avatars/avatar-standards.md:40
 #, fuzzy
 msgid "![](_images/hifi-skel.png)"
 msgstr "![](_images/hifi-skel.png)"
 
-#: ../../source/create/avatars/avatar-standards.md:41
+#: ../../source/create/avatars/avatar-standards.md:42
 #, fuzzy
 msgid ""
 "You can download the standard Overte skeleton [here](http://hifi-"
@@ -2610,12 +2635,12 @@ msgstr ""
 "Vircadiaの標準スケルトンは[こちら](http://hifi-"
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)からダウンロードできます。このスケルトンは上記の仕様に準拠しています。"
 
-#: ../../source/create/avatars/avatar-standards.md:43
+#: ../../source/create/avatars/avatar-standards.md:44
 #, fuzzy
 msgid "Skeleton"
 msgstr "スケルトン（Skeleton）"
 
-#: ../../source/create/avatars/avatar-standards.md:44
+#: ../../source/create/avatars/avatar-standards.md:45
 #, fuzzy
 msgid ""
 "The standard humanoid skeleton of your avatar should follow [HumanIK "
@@ -2631,24 +2656,24 @@ msgstr ""
 "/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) "
 "に従って、Mixamo用に若干の修正を加えたものであるべきです。このスケルトンシステムは、Vircadiaにすでにある入力システムと連動しており、ユーザーは自分の入力デバイスを使って、アバターの腕や指の動きをコントロールすることができます（入力デバイスを持っていれば可能）。"
 
-#: ../../source/create/avatars/avatar-standards.md:46
+#: ../../source/create/avatars/avatar-standards.md:47
 #, fuzzy
 msgid ""
 "Overte avatars should match the following standard skeletal structure. "
 "Each of these joints can be animated."
 msgstr "Vircadiaアバターは、以下の標準的な骨格構造に一致する必要があります。これらの各関節はアニメーションさせることができます。"
 
-#: ../../source/create/avatars/avatar-standards.md:53
+#: ../../source/create/avatars/avatar-standards.md:54
 #, fuzzy
 msgid "![](_images/avatar-skeleton.png)"
 msgstr "![](_images/avatar-skeleton.png)"
 
-#: ../../source/create/avatars/avatar-standards.md:55
+#: ../../source/create/avatars/avatar-standards.md:56
 #, fuzzy
 msgid "Flow Bones"
 msgstr "フローボーン（Flow Bone）"
 
-#: ../../source/create/avatars/avatar-standards.md:57
+#: ../../source/create/avatars/avatar-standards.md:58
 #, fuzzy
 msgid ""
 "The  `sim` and `flow` prefixes are reserved for flow bones, such as "
@@ -2659,12 +2684,12 @@ msgstr ""
 "接頭辞 `sim` と `flow` は、服や髪、しっぽなどのフローボーン用に予約されています。これらのボーンはアニメーターによって "
 "_アニメーションされるべきではありません_ 。(この図に使われている櫻歌ミコのモデルを提供してくださった Akazukin さんに感謝します!)"
 
-#: ../../source/create/avatars/avatar-standards.md:60
+#: ../../source/create/avatars/avatar-standards.md:61
 #, fuzzy
 msgid "For example, consider a full cape that surrounds the avatar:"
 msgstr "例えば、アバターを包む全身マントを考えてみましょう。"
 
-#: ../../source/create/avatars/avatar-standards.md:73
+#: ../../source/create/avatars/avatar-standards.md:74
 #, fuzzy
 msgid ""
 "Alternatively, you can use the `flow` prefix, separating the name and "
@@ -2673,34 +2698,34 @@ msgstr ""
 "また、名前とジョイント番号をアンダースコアで区切り、 `flow` "
 "というプレフィックスを使うこともできます。上記と同じケープを使用すると、次のようになります。"
 
-#: ../../source/create/avatars/avatar-standards.md:86
+#: ../../source/create/avatars/avatar-standards.md:87
 #, fuzzy
 msgid "Look-at Vectors"
 msgstr "視線（Look-at）ベクトル"
 
-#: ../../source/create/avatars/avatar-standards.md:88
+#: ../../source/create/avatars/avatar-standards.md:89
 #, fuzzy
 msgid "The look-at vectors are driven by the z-vector of the eye joints."
 msgstr "視線ベクトルは、目の関節の z ベクトルによって駆動します。"
 
-#: ../../source/create/avatars/avatar-standards.md:90
+#: ../../source/create/avatars/avatar-standards.md:91
 #, fuzzy
 msgid ""
 "The +z axis of the eye joints should go through the center of the pupil, "
 "and should continue to do so as the eye joint is rotated."
 msgstr "眼球の＋z軸は瞳孔の中心を通るようにし、眼球を回転させてもその軸が変わらないようにします。"
 
-#: ../../source/create/avatars/avatar-standards.md:92
+#: ../../source/create/avatars/avatar-standards.md:93
 #, fuzzy
 msgid "The eye joints are defined in the FST."
 msgstr "目の関節は FST で定義されます。"
 
-#: ../../source/create/avatars/avatar-standards.md:94
+#: ../../source/create/avatars/avatar-standards.md:95
 #, fuzzy
 msgid "Blendshapes"
 msgstr "ブレンドシェイプ（Blendshapes）"
 
-#: ../../source/create/avatars/avatar-standards.md:96
+#: ../../source/create/avatars/avatar-standards.md:97
 #, fuzzy
 msgid ""
 "Overte uses blendshapes to animate your avatar's face. Blendshapes allow "
@@ -2717,96 +2742,96 @@ msgstr ""
 " "
 "Keys）やMayaなどの3Dモデリングツールを使ってアバターメッシュに追加されます。AdobeのFuseプログラムとMixamoパイプラインを使えば、ブレンドシェイプをFBXの一部としてエクスポートできますが、アバターを一からモデリングする場合は、自分で顔の表情を指定する必要がある場合が多いでしょう。"
 
-#: ../../source/create/avatars/avatar-standards.md:98
+#: ../../source/create/avatars/avatar-standards.md:99
 #, fuzzy
 msgid ""
 "Overte avatars support a number of blendshapes for creating different "
 "facial expressions."
 msgstr "Vircadiaのアバターは、様々な表情を作るためのブレンドシェイプに対応しています。"
 
-#: ../../source/create/avatars/avatar-standards.md:100
+#: ../../source/create/avatars/avatar-standards.md:101
 #, fuzzy
 msgid "**Basic Blendshapes**"
 msgstr "**基本的なブレンドシェイプ（Blendshape）**"
 
-#: ../../source/create/avatars/avatar-standards.md:102
+#: ../../source/create/avatars/avatar-standards.md:103
 #, fuzzy
 msgid "`EyeBlink_L`:  Blinking action for the left eye."
 msgstr "`EyeBlink_L`: 左目のまばたき。"
 
-#: ../../source/create/avatars/avatar-standards.md:103
+#: ../../source/create/avatars/avatar-standards.md:104
 #, fuzzy
 msgid "`EyeBlink_R`: Blicking action for the right eye."
 msgstr "`EyeBlink_R`: 右目のまばたき。"
 
-#: ../../source/create/avatars/avatar-standards.md:104
+#: ../../source/create/avatars/avatar-standards.md:105
 #, fuzzy
 msgid "`JawOpen`: Opening of the jaw."
 msgstr "`JawOpen`: 顎の開き。"
 
-#: ../../source/create/avatars/avatar-standards.md:106
+#: ../../source/create/avatars/avatar-standards.md:107
 #, fuzzy
 msgid "**Audio Blendshapes**"
 msgstr "**オーディオ ブレンドシェイプ（Blendshape）**"
 
-#: ../../source/create/avatars/avatar-standards.md:108
+#: ../../source/create/avatars/avatar-standards.md:109
 #, fuzzy
 msgid "These blendshapes are used when you speak."
 msgstr "これらのブレンドシェイプは、話すときに使用されます。"
 
-#: ../../source/create/avatars/avatar-standards.md:110
+#: ../../source/create/avatars/avatar-standards.md:111
 #, fuzzy
 msgid ""
 "Your eyebrows are blendshapes that react to a change in volume. They will"
 " move upwards when your voice gets louder. These include:"
 msgstr "眉毛は、ボリュームの変化に反応するブレンドシェイプです。あなたの声が大きくなると、それらは上に移動します。これらには以下が含まれます："
 
-#: ../../source/create/avatars/avatar-standards.md:112
+#: ../../source/create/avatars/avatar-standards.md:113
 #, fuzzy
 msgid "`BrowsU_C`: Center of the brow going up"
 msgstr "`BrowsU_C`: 眉の中心を上げる"
 
-#: ../../source/create/avatars/avatar-standards.md:113
+#: ../../source/create/avatars/avatar-standards.md:114
 #, fuzzy
 msgid "`BrowsU_L`: Outside corner of the left brow going up"
 msgstr "`BrowsU_L`: 左眉の外側の角を上げる"
 
-#: ../../source/create/avatars/avatar-standards.md:114
+#: ../../source/create/avatars/avatar-standards.md:115
 #, fuzzy
 msgid "`BrowsU_R`: Outside corner of the right brow going up"
 msgstr "`BrowsU_R`: 右眉の外側の角を上げる"
 
-#: ../../source/create/avatars/avatar-standards.md:116
+#: ../../source/create/avatars/avatar-standards.md:117
 #, fuzzy
 msgid "Other audio blendshapes are randomly mixed when you speak. These include:"
 msgstr "他のオーディオ ブレンドシェイプは、話すときにランダムにミックスされます。これらには以下が含まれます："
 
-#: ../../source/create/avatars/avatar-standards.md:118
+#: ../../source/create/avatars/avatar-standards.md:119
 #, fuzzy
 msgid "`MouthSmile_L`: Left side of the mouth lifting up to a smile"
 msgstr "`MouthSmile_L`: 口の左側を上げて微笑む"
 
-#: ../../source/create/avatars/avatar-standards.md:119
+#: ../../source/create/avatars/avatar-standards.md:120
 #, fuzzy
 msgid "`MouthSmile_R`: Right side of the mouth lifting up to a smile"
 msgstr "`MouthSmile_R`: 口の右側を上げて微笑む"
 
-#: ../../source/create/avatars/avatar-standards.md:120
+#: ../../source/create/avatars/avatar-standards.md:121
 #, fuzzy
 msgid "`LipsFunnel`: Funneling of the lips, as when you say \"Oh!\""
 msgstr "`LipsFunnel`: 「ああ!」と言うときのように、唇の漏斗"
 
-#: ../../source/create/avatars/avatar-standards.md:121
+#: ../../source/create/avatars/avatar-standards.md:122
 #, fuzzy
 msgid "`LipsUpperClose`:  Upper lips rolled inwards"
 msgstr "`LipsUpperClose`: 上唇が内側に丸まる"
 
-#: ../../source/create/avatars/avatar-standards.md:123
+#: ../../source/create/avatars/avatar-standards.md:124
 #, fuzzy
 msgid "**Eyelid Offset**"
 msgstr "**まぶたのオフセット**"
 
-#: ../../source/create/avatars/avatar-standards.md:125
+#: ../../source/create/avatars/avatar-standards.md:126
 #, fuzzy
 msgid ""
 "To ensure that the top of the eyelid rests on the iris, blendshapes are "
@@ -2814,51 +2839,51 @@ msgid ""
 "orientation."
 msgstr "まぶたの上部が虹彩の上にあることを確認するために、ブレンドシェイプを使用して、頭の向きとともに目の現在の位置を追跡します。"
 
-#: ../../source/create/avatars/avatar-standards.md:127
+#: ../../source/create/avatars/avatar-standards.md:128
 #, fuzzy
 msgid "`EyeBlink_L`: Blinking action for the left eye"
 msgstr "`EyeBlink_L`: 左目のまばたき"
 
-#: ../../source/create/avatars/avatar-standards.md:128
+#: ../../source/create/avatars/avatar-standards.md:129
 #, fuzzy
 msgid "`EyeBlink_R`: Blicking action for the right eye"
 msgstr "`EyeBlink_R`: 右目のまばたき"
 
-#: ../../source/create/avatars/avatar-standards.md:129
+#: ../../source/create/avatars/avatar-standards.md:130
 #, fuzzy
 msgid "`EyeOpen_L`: Opening of left eye"
 msgstr "`EyeOpen_L`: 左目を開く"
 
-#: ../../source/create/avatars/avatar-standards.md:130
+#: ../../source/create/avatars/avatar-standards.md:131
 #, fuzzy
 msgid "`EyeOpen_R`: Opening of right eye"
 msgstr "`EyeOpen_R`: 右目を開く"
 
-#: ../../source/create/avatars/avatar-standards.md:131
+#: ../../source/create/avatars/avatar-standards.md:132
 #, fuzzy
 msgid "`BrowsD_L`: Outside corner of the left brow moving down"
 msgstr "`BrowsD_L`: 左眉の外側の角を下げる"
 
-#: ../../source/create/avatars/avatar-standards.md:132
+#: ../../source/create/avatars/avatar-standards.md:133
 #, fuzzy
 msgid "`BrowsD_R`: Outside corner of the right brow moving down"
 msgstr "`BrowsD_R`: 右眉の外側の角を下げる"
 
-#: ../../source/create/avatars/avatar-standards.md:135
+#: ../../source/create/avatars/avatar-standards.md:136
 #, fuzzy
 msgid ""
 "We apply a small procedural offset to the blendshape coefficients to "
 "prevent sleepy or crazy eye lids:"
 msgstr "ブレンドシェープの係数にわずかなプロシージャ的オフセットを適用し、眠そうなまぶたやおかしなまぶたにならないようにしています。"
 
-#: ../../source/create/avatars/avatar-standards.md:137
+#: ../../source/create/avatars/avatar-standards.md:138
 #, fuzzy
 msgid ""
 "If you are looking straight ahead: The `EyeBlink` and `EyeOpen` "
 "coefficients will be `0`."
 msgstr "まっすぐ前を見ている場合: `EyeBlink` および `EyeOpen` 係数は `0` になります。"
 
-#: ../../source/create/avatars/avatar-standards.md:138
+#: ../../source/create/avatars/avatar-standards.md:139
 #, fuzzy
 msgid ""
 "If your eyes begin to look upward: `EyeBlink`, `EyeOpen`, and `BrowsU` "
@@ -2869,7 +2894,7 @@ msgstr ""
 "目が上を向き始めたら: `EyeBlink` , `EyeOpen` , `BrowsU` の値が変化し始め、それぞれ `-1` , `1` , "
 "`0.5` の値で `16.3` 度まで到達します。これは、上を向いたときにまぶたと眉毛を上げる効果があります。"
 
-#: ../../source/create/avatars/avatar-standards.md:139
+#: ../../source/create/avatars/avatar-standards.md:140
 #, fuzzy
 msgid ""
 "If your eyes begin to look downward: `EyeBlink` and `EyeOpen` start "
@@ -2880,7 +2905,7 @@ msgstr ""
 "目が下を向き始めたら: `EyeBlink` と `EyeOpen` の値が変化し始める。 `EyeBlink` は `32` 度で `0.5` "
 "の値になります。 `EyeOpen` は27度で `0.5` の値になります。これは下を向くと瞼が下がるという効果があります。"
 
-#: ../../source/create/avatars/avatar-standards.md:142
+#: ../../source/create/avatars/avatar-standards.md:143
 #, fuzzy
 msgid ""
 "Tweaks to your blendshapes can be made with a 3D modeling tool, or "
@@ -2888,28 +2913,28 @@ msgid ""
 "defined with the syntax:"
 msgstr "ブレンドシェープの変更は、3Dモデリングツールで行うか、アバターのFSTファイルで直接行うことができます。FSTファイルでは、ブレンドシェイプは以下のシンタックスで定義されます。"
 
-#: ../../source/create/avatars/avatar-standards.md:148
+#: ../../source/create/avatars/avatar-standards.md:149
 #, fuzzy
 msgid "Here is an example of modifying your blendshapes in your FST file:"
 msgstr "FSTファイル内のブレンドシェイプを修正する例をご紹介します。"
 
-#: ../../source/create/avatars/avatar-standards.md:167
+#: ../../source/create/avatars/avatar-standards.md:168
 #, fuzzy
 msgid "**ReadyPlayerMe Blendshapes**"
 msgstr "**ReadyPlayerMe Blendshapes（ReadyPlayerMe ブレンドシェイプ）**"
 
-#: ../../source/create/avatars/avatar-standards.md:169
+#: ../../source/create/avatars/avatar-standards.md:170
 msgid ""
 "ReadyPlayerMe blendshapes are converted into Overte blendshapes "
 "automatically."
 msgstr ""
 
-#: ../../source/create/avatars/avatar-standards.md:171
+#: ../../source/create/avatars/avatar-standards.md:172
 #, fuzzy
 msgid "**Unsupported Blendshapes**"
 msgstr "**サポートされていないブレンドシェイプ**"
 
-#: ../../source/create/avatars/avatar-standards.md:173
+#: ../../source/create/avatars/avatar-standards.md:174
 #, fuzzy
 msgid ""
 "To utilize blendshapes present on avatars, they must match the "
@@ -2917,347 +2942,347 @@ msgid ""
 "blendshapes to any of the ones below."
 msgstr "アバターでブレンドシェイプを使用するには、以下のブレンドシェイプと一致させる必要があります。また、.fstファイルを使用して、ブレンドシェイプを下記のどれかにリマップすることもできます。"
 
-#: ../../source/create/avatars/avatar-standards.md:175
+#: ../../source/create/avatars/avatar-standards.md:176
 #, fuzzy
 msgid "**Eye Blendshapes**"
 msgstr "**Eye ブレンドシェイプ**"
 
-#: ../../source/create/avatars/avatar-standards.md:177
+#: ../../source/create/avatars/avatar-standards.md:178
 #, fuzzy
 msgid "EyeBlink_L"
 msgstr "EyeBlink_L"
 
-#: ../../source/create/avatars/avatar-standards.md:178
+#: ../../source/create/avatars/avatar-standards.md:179
 #, fuzzy
 msgid "EyeBlink_R"
 msgstr "EyeBlink_R"
 
-#: ../../source/create/avatars/avatar-standards.md:179
+#: ../../source/create/avatars/avatar-standards.md:180
 #, fuzzy
 msgid "EyeSquint_L"
 msgstr "EyeSquint_L"
 
-#: ../../source/create/avatars/avatar-standards.md:180
+#: ../../source/create/avatars/avatar-standards.md:181
 #, fuzzy
 msgid "EyeSquint_R"
 msgstr "EyeSquint_R"
 
-#: ../../source/create/avatars/avatar-standards.md:181
+#: ../../source/create/avatars/avatar-standards.md:182
 #, fuzzy
 msgid "EyeDown_L"
 msgstr "EyeDown_L"
 
-#: ../../source/create/avatars/avatar-standards.md:182
+#: ../../source/create/avatars/avatar-standards.md:183
 #, fuzzy
 msgid "EyeDown_R"
 msgstr "EyeDown_R"
 
-#: ../../source/create/avatars/avatar-standards.md:183
+#: ../../source/create/avatars/avatar-standards.md:184
 #, fuzzy
 msgid "EyeIn_L"
 msgstr "EyeIn_L"
 
-#: ../../source/create/avatars/avatar-standards.md:184
+#: ../../source/create/avatars/avatar-standards.md:185
 #, fuzzy
 msgid "EyeIn_R"
 msgstr "EyeIn_R"
 
-#: ../../source/create/avatars/avatar-standards.md:185
+#: ../../source/create/avatars/avatar-standards.md:186
 #, fuzzy
 msgid "EyeOpen_L"
 msgstr "EyeOpen_L"
 
-#: ../../source/create/avatars/avatar-standards.md:186
+#: ../../source/create/avatars/avatar-standards.md:187
 #, fuzzy
 msgid "EyeOpen_R"
 msgstr "EyeOpen_R"
 
-#: ../../source/create/avatars/avatar-standards.md:187
+#: ../../source/create/avatars/avatar-standards.md:188
 #, fuzzy
 msgid "EyeOut_L"
 msgstr "EyeOut_L"
 
-#: ../../source/create/avatars/avatar-standards.md:188
+#: ../../source/create/avatars/avatar-standards.md:189
 #, fuzzy
 msgid "EyeOut_R"
 msgstr "EyeOut_R"
 
-#: ../../source/create/avatars/avatar-standards.md:189
+#: ../../source/create/avatars/avatar-standards.md:190
 #, fuzzy
 msgid "EyeUp_L"
 msgstr "EyeUp_L"
 
-#: ../../source/create/avatars/avatar-standards.md:190
+#: ../../source/create/avatars/avatar-standards.md:191
 #, fuzzy
 msgid "EyeUp_R"
 msgstr "EyeUp_R"
 
-#: ../../source/create/avatars/avatar-standards.md:191
+#: ../../source/create/avatars/avatar-standards.md:192
 #, fuzzy
 msgid "BrowsD_L"
 msgstr "BrowsD_L"
 
-#: ../../source/create/avatars/avatar-standards.md:192
+#: ../../source/create/avatars/avatar-standards.md:193
 #, fuzzy
 msgid "BrowsD_R"
 msgstr "BrowsD_R"
 
-#: ../../source/create/avatars/avatar-standards.md:193
+#: ../../source/create/avatars/avatar-standards.md:194
 #, fuzzy
 msgid "BrowsU_C"
 msgstr "BrowsU_C"
 
-#: ../../source/create/avatars/avatar-standards.md:194
+#: ../../source/create/avatars/avatar-standards.md:195
 #, fuzzy
 msgid "BrowsU_L"
 msgstr "BrowsU_L"
 
-#: ../../source/create/avatars/avatar-standards.md:195
+#: ../../source/create/avatars/avatar-standards.md:196
 #, fuzzy
 msgid "BrowsU_R"
 msgstr "BrowsU_R"
 
-#: ../../source/create/avatars/avatar-standards.md:197
+#: ../../source/create/avatars/avatar-standards.md:198
 #, fuzzy
 msgid "**Jaw Blendshapes**"
 msgstr "**顎のBlendshapes**"
 
-#: ../../source/create/avatars/avatar-standards.md:199
+#: ../../source/create/avatars/avatar-standards.md:200
 #, fuzzy
 msgid "JawFwd"
 msgstr "JawFwd"
 
-#: ../../source/create/avatars/avatar-standards.md:200
+#: ../../source/create/avatars/avatar-standards.md:201
 #, fuzzy
 msgid "JawLeft"
 msgstr "JawLeft"
 
-#: ../../source/create/avatars/avatar-standards.md:201
+#: ../../source/create/avatars/avatar-standards.md:202
 #, fuzzy
 msgid "JawOpen"
 msgstr "JawOpen"
 
-#: ../../source/create/avatars/avatar-standards.md:202
+#: ../../source/create/avatars/avatar-standards.md:203
 #, fuzzy
 msgid "JawRight"
 msgstr "JawRight"
 
-#: ../../source/create/avatars/avatar-standards.md:203
+#: ../../source/create/avatars/avatar-standards.md:204
 #, fuzzy
 msgid "MouthLeft"
 msgstr "MouthLeft"
 
-#: ../../source/create/avatars/avatar-standards.md:204
+#: ../../source/create/avatars/avatar-standards.md:205
 #, fuzzy
 msgid "MouthRight"
 msgstr "MouthRight"
 
-#: ../../source/create/avatars/avatar-standards.md:205
+#: ../../source/create/avatars/avatar-standards.md:206
 #, fuzzy
 msgid "MouthFrown_L"
 msgstr "MouthFrown_L"
 
-#: ../../source/create/avatars/avatar-standards.md:206
+#: ../../source/create/avatars/avatar-standards.md:207
 #, fuzzy
 msgid "MouthFrown_R"
 msgstr "MouthFrown_R"
 
-#: ../../source/create/avatars/avatar-standards.md:207
+#: ../../source/create/avatars/avatar-standards.md:208
 #, fuzzy
 msgid "MouthSmile_L"
 msgstr "MouthSmile_L"
 
-#: ../../source/create/avatars/avatar-standards.md:208
+#: ../../source/create/avatars/avatar-standards.md:209
 #, fuzzy
 msgid "MouthSmile_R"
 msgstr "MouthSmile_R"
 
-#: ../../source/create/avatars/avatar-standards.md:209
+#: ../../source/create/avatars/avatar-standards.md:210
 #, fuzzy
 msgid "MouthDimple_L"
 msgstr "MouthDimple_L"
 
-#: ../../source/create/avatars/avatar-standards.md:210
+#: ../../source/create/avatars/avatar-standards.md:211
 #, fuzzy
 msgid "MouthDimple_R"
 msgstr "MouthDimple_R"
 
-#: ../../source/create/avatars/avatar-standards.md:212
+#: ../../source/create/avatars/avatar-standards.md:213
 #, fuzzy
 msgid "**Lip Blendshapes**"
 msgstr "**唇Blendshapes**"
 
-#: ../../source/create/avatars/avatar-standards.md:214
+#: ../../source/create/avatars/avatar-standards.md:215
 #, fuzzy
 msgid "LipsStretch_L"
 msgstr "LipsStretch_L"
 
-#: ../../source/create/avatars/avatar-standards.md:215
+#: ../../source/create/avatars/avatar-standards.md:216
 #, fuzzy
 msgid "LipsStretch_R"
 msgstr "LipsStretch_R"
 
-#: ../../source/create/avatars/avatar-standards.md:216
+#: ../../source/create/avatars/avatar-standards.md:217
 #, fuzzy
 msgid "LipsUpperClose"
 msgstr "LipsUpperClose"
 
-#: ../../source/create/avatars/avatar-standards.md:217
+#: ../../source/create/avatars/avatar-standards.md:218
 #, fuzzy
 msgid "LipsLowerClose"
 msgstr "LipsLowerClose"
 
-#: ../../source/create/avatars/avatar-standards.md:218
+#: ../../source/create/avatars/avatar-standards.md:219
 #, fuzzy
 msgid "LipsFunnel"
 msgstr "LipsFunnel"
 
-#: ../../source/create/avatars/avatar-standards.md:219
+#: ../../source/create/avatars/avatar-standards.md:220
 #, fuzzy
 msgid "LipsPucker"
 msgstr "LipsPucker"
 
-#: ../../source/create/avatars/avatar-standards.md:220
+#: ../../source/create/avatars/avatar-standards.md:221
 #, fuzzy
 msgid "Puff"
 msgstr "Puff"
 
-#: ../../source/create/avatars/avatar-standards.md:222
+#: ../../source/create/avatars/avatar-standards.md:223
 #, fuzzy
 msgid "**Mouth, Cheek and User Blendshapes**"
 msgstr "**Mouth, Cheek and User Blendshape"
 
-#: ../../source/create/avatars/avatar-standards.md:224
+#: ../../source/create/avatars/avatar-standards.md:225
 #, fuzzy
 msgid "CheekSquint_L"
 msgstr "CheekSquint_L"
 
-#: ../../source/create/avatars/avatar-standards.md:225
+#: ../../source/create/avatars/avatar-standards.md:226
 #, fuzzy
 msgid "CheekSquint_R"
 msgstr "CheekSquint_R"
 
-#: ../../source/create/avatars/avatar-standards.md:227
+#: ../../source/create/avatars/avatar-standards.md:228
 #, fuzzy
 msgid "MouthClose"
 msgstr "MouthClose"
 
-#: ../../source/create/avatars/avatar-standards.md:228
+#: ../../source/create/avatars/avatar-standards.md:229
 #, fuzzy
 msgid "MouthUpperUp_L"
 msgstr "MouthUpperUp_L"
 
-#: ../../source/create/avatars/avatar-standards.md:229
+#: ../../source/create/avatars/avatar-standards.md:230
 #, fuzzy
 msgid "MouthUpperUp_R"
 msgstr "MouthUpperUp_R"
 
-#: ../../source/create/avatars/avatar-standards.md:230
+#: ../../source/create/avatars/avatar-standards.md:231
 #, fuzzy
 msgid "MouthLowerDown_L"
 msgstr "MouthLowerDown_L"
 
-#: ../../source/create/avatars/avatar-standards.md:231
+#: ../../source/create/avatars/avatar-standards.md:232
 #, fuzzy
 msgid "MouthLowerDown_R"
 msgstr "MouthLowerDown_R"
 
-#: ../../source/create/avatars/avatar-standards.md:232
+#: ../../source/create/avatars/avatar-standards.md:233
 #, fuzzy
 msgid "MouthPress_L"
 msgstr "MouthPress_L"
 
-#: ../../source/create/avatars/avatar-standards.md:233
+#: ../../source/create/avatars/avatar-standards.md:234
 #, fuzzy
 msgid "MouthPress_R"
 msgstr "MouthPress_R"
 
-#: ../../source/create/avatars/avatar-standards.md:234
+#: ../../source/create/avatars/avatar-standards.md:235
 #, fuzzy
 msgid "MouthShrugLower"
 msgstr "MouthShrugLower"
 
-#: ../../source/create/avatars/avatar-standards.md:235
+#: ../../source/create/avatars/avatar-standards.md:236
 #, fuzzy
 msgid "MouthShrugUpper"
 msgstr "MouthShrugUpper"
 
-#: ../../source/create/avatars/avatar-standards.md:236
+#: ../../source/create/avatars/avatar-standards.md:237
 #, fuzzy
 msgid "NoseSneer_L"
 msgstr "NoseSneer_L"
 
-#: ../../source/create/avatars/avatar-standards.md:237
+#: ../../source/create/avatars/avatar-standards.md:238
 #, fuzzy
 msgid "NoseSneer_R"
 msgstr "NoseSneer_R"
 
-#: ../../source/create/avatars/avatar-standards.md:238
+#: ../../source/create/avatars/avatar-standards.md:239
 #, fuzzy
 msgid "TongueOut"
 msgstr "TongueOut"
 
-#: ../../source/create/avatars/avatar-standards.md:240
+#: ../../source/create/avatars/avatar-standards.md:241
 #, fuzzy
 msgid "UserBlendshape0"
 msgstr "UserBlendshape0"
 
-#: ../../source/create/avatars/avatar-standards.md:241
+#: ../../source/create/avatars/avatar-standards.md:242
 #, fuzzy
 msgid "UserBlendshape1"
 msgstr "UserBlendshape1"
 
-#: ../../source/create/avatars/avatar-standards.md:242
+#: ../../source/create/avatars/avatar-standards.md:243
 #, fuzzy
 msgid "UserBlendshape2"
 msgstr "UserBlendshape2"
 
-#: ../../source/create/avatars/avatar-standards.md:243
+#: ../../source/create/avatars/avatar-standards.md:244
 #, fuzzy
 msgid "UserBlendshape3"
 msgstr "UserBlendshape3"
 
-#: ../../source/create/avatars/avatar-standards.md:244
+#: ../../source/create/avatars/avatar-standards.md:245
 #, fuzzy
 msgid "UserBlendshape4"
 msgstr "UserBlendshape4"
 
-#: ../../source/create/avatars/avatar-standards.md:245
+#: ../../source/create/avatars/avatar-standards.md:246
 #, fuzzy
 msgid "UserBlendshape5"
 msgstr "UserBlendshape5"
 
-#: ../../source/create/avatars/avatar-standards.md:246
+#: ../../source/create/avatars/avatar-standards.md:247
 #, fuzzy
 msgid "UserBlendshape6"
 msgstr "UserBlendshape6"
 
-#: ../../source/create/avatars/avatar-standards.md:247
+#: ../../source/create/avatars/avatar-standards.md:248
 #, fuzzy
 msgid "UserBlendshape7"
 msgstr "UserBlendshape7"
 
-#: ../../source/create/avatars/avatar-standards.md:248
+#: ../../source/create/avatars/avatar-standards.md:249
 #, fuzzy
 msgid "UserBlendshape8"
 msgstr "UserBlendshape8"
 
-#: ../../source/create/avatars/avatar-standards.md:249
+#: ../../source/create/avatars/avatar-standards.md:250
 #, fuzzy
 msgid "UserBlendshape9"
 msgstr "UserBlendshape9"
 
-#: ../../source/create/avatars/avatar-standards.md:252
+#: ../../source/create/avatars/avatar-standards.md:253
 #, fuzzy
 msgid "Other Considerations"
 msgstr "その他の考慮事項"
 
-#: ../../source/create/avatars/avatar-standards.md:254
+#: ../../source/create/avatars/avatar-standards.md:255
 #, fuzzy
 msgid "File Optimization"
 msgstr "ファイルの最適化"
 
-#: ../../source/create/avatars/avatar-standards.md:255
+#: ../../source/create/avatars/avatar-standards.md:256
 #, fuzzy
 msgid ""
 "Content creators will have limited bandwidth on servers (read small print"
@@ -3267,7 +3292,7 @@ msgid ""
 "Optimally, keep your avatar models under 20 MB."
 msgstr "コンテンツ制作者は、サーバーの帯域幅に制限があるため（無制限ホストプランの小冊子を読んでください）、エンドユーザーとコンテンツ制作者の両方にとって、最適化が重要です。ポリゴン数が多く、テクスチャが大きければ大きいほど、1回の負荷でサーバーから使用する帯域幅が大きくなります。最適なのは、アバターモデルを20MB未満に抑えることです。"
 
-#: ../../source/create/avatars/avatar-standards.md:258
+#: ../../source/create/avatars/avatar-standards.md:259
 #, fuzzy
 msgid ""
 "We recommend that you try to keep total size of all the textures per "
@@ -3280,12 +3305,12 @@ msgid ""
 " instead of color variation."
 msgstr "アバター1つにつき、すべてのテクスチャの合計サイズを8MB以下に抑えることをお勧めします。すべてのテクスチャが1つのファイルに収まっている場合を除き、常に1024x1024より小さいサイズにする必要があります。複数のテクスチャファイルを使用する場合は、小さいほどよいでしょう。テクスチャだけでなく、ラフネスとノーマルマッピングによって、より多くの細部が表現できることに留意してください。色の変化ではなく、光の反射による最高のディテールを得るために、アルベドをラフネスよりも小さいサイズにしておくことをお勧めします。"
 
-#: ../../source/create/avatars/avatar-standards.md:260
+#: ../../source/create/avatars/avatar-standards.md:261
 #, fuzzy
 msgid "Avatar Collision Hulls"
 msgstr "アバター コリジョン ハル（Collision Hull）"
 
-#: ../../source/create/avatars/avatar-standards.md:262
+#: ../../source/create/avatars/avatar-standards.md:263
 #, fuzzy
 msgid ""
 "When you wear different avatars, you'll notice that each avatar has a "
@@ -3296,7 +3321,7 @@ msgstr ""
 "異なるアバターを装着すると、それぞれのアバターが異なる衝突形状（_collision "
 "hull_）を持つことに気がつくでしょう。コリジョンハルとは、アバターの周りにある見えない領域のことで、他のアバターやエンティティがあなたと衝突したときに検出するために使われるものです。"
 
-#: ../../source/create/avatars/avatar-standards.md:264
+#: ../../source/create/avatars/avatar-standards.md:265
 #, fuzzy
 msgid ""
 "Depending on the avatar's design, the collision hulls can be very large "
@@ -3312,12 +3337,12 @@ msgstr ""
 " は尻尾の先端が腰の一部であると考え、非常に大きなコリジョンハルを作ってしまいます。 "
 "コリジョンハルのサイズを小さくするには、アバターの尻尾にスケルトンジョイントを追加するとよいでしょう。"
 
-#: ../../source/create/avatars/avatar-standards.md:267
+#: ../../source/create/avatars/avatar-standards.md:268
 #, fuzzy
 msgid "Avatar Thumbnails"
 msgstr "アバターのサムネイル"
 
-#: ../../source/create/avatars/avatar-standards.md:269
+#: ../../source/create/avatars/avatar-standards.md:270
 #, fuzzy
 msgid ""
 "The Avatar app will look for a thumbnail with a .jpg extension with the "
@@ -3329,29 +3354,96 @@ msgstr ""
 "`https://vircadia.dev/avatar.fbx` でホストされている場合、サムネイルは "
 "`https://vircadia.dev/avatar.jpg` で検索されます。"
 
-#: ../../source/create/avatars/avatar-standards.md:274
-#: ../../source/create/avatars/blender-tutorial.md:55
+#: ../../source/create/avatars/avatar-standards.md:275
+#: ../../source/create/avatars/blender-tutorial.md:79
 #: ../../source/create/avatars/mixamo-tutorial.md:27
 #, fuzzy
 msgid "[Create Your Own Avatar](create-avatars)"
 msgstr "[アバターを作成する](create-avatars)"
 
-#: ../../source/create/avatars/avatar-standards.md:275
+#: ../../source/create/avatars/avatar-standards.md:276
 #, fuzzy
 msgid "[Find and Use an Existing Avatar](find-avatars)"
 msgstr "[アバターを見つけて使用する](find-avatars)"
 
-#: ../../source/create/avatars/avatar-standards.md:276
+#: ../../source/create/avatars/avatar-standards.md:277
 #, fuzzy
 msgid "[Add Flow to Your Avatar](add-flow)"
 msgstr "[アバターにフロー（Flow）を追加する](add-flow)"
 
-#: ../../source/create/avatars/blender-tutorial.md:6
+#: ../../source/create/avatars/blender-tutorial.md:1
+msgid "Workflow for importing avatars to Overte using Blender"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:3
+msgid ""
+"Overte avatars can be created or imported using Blender without any non-"
+"standard addons. Preferred export format for avatars using PBR materials "
+"is GLB/glTF. Some materials in models exported as FBX may not render "
+"correctly."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:5
+msgid ""
+"Typical workflow of importing avatar to Overte using Blender consists of "
+"following steps:"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:7
+msgid "Import avatar model to Blender."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:8
+msgid ""
+"Rename bones according to example armature in [Avatar Standards Guide"
+"](avatar-standards)."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:9
+msgid ""
+"Modify bone rolls so that they are the same as in the Avatar Standards "
+"Guide."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:10
+msgid "Set up materials for glTF export."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:11
+#, fuzzy
+msgid "Rename flow bones."
+msgstr "フローボーン（Flow Bone）"
+
+#: ../../source/create/avatars/blender-tutorial.md:12
+msgid "Rename blendshapes according to Avatar Standards Guide."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:13
+msgid "Export avatar as GLB/glTF file."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:14
+msgid "Create FST file and setup Flow bones if desired."
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:16
+msgid "Video tutorial:"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:18
+msgid ""
+"Full workflow of modifying an avatar to conform to Overte avatar "
+"standards, exporting it as GLB file, creating FST file and setting up the"
+" Flow: "
+"[https://www.youtube.com/watch?v=IFuZWNppXZY](https://www.youtube.com/watch?v=IFuZWNppXZY)"
+msgstr ""
+
+#: ../../source/create/avatars/blender-tutorial.md:20
 #, fuzzy
 msgid "Tutorial: Modify Materials and Textures Using Blender"
 msgstr "チュートリアル: Blender でマテリアルとテクスチャを変更する"
 
-#: ../../source/create/avatars/blender-tutorial.md:8
+#: ../../source/create/avatars/blender-tutorial.md:27
 #, fuzzy
 msgid ""
 "Blender is an open-source 3D modeling tool that you can use to fine tune "
@@ -3359,7 +3451,7 @@ msgid ""
 "in Overte."
 msgstr "Blenderはオープンソースの3Dモデリングツールで、Vircadiaでアバターを微調整し、マテリアルやテクスチャを正しくレンダリングするために使用できます。"
 
-#: ../../source/create/avatars/blender-tutorial.md:10
+#: ../../source/create/avatars/blender-tutorial.md:29
 #, fuzzy
 msgid ""
 "In this tutorial, we will walk you through simple modifications you can "
@@ -3370,12 +3462,12 @@ msgstr ""
 "このチュートリアルでは、Blenderを使ってアバターにできる簡単な改造を説明します。アバター用のFBXファイルをインポートする必要があります。お持ちでない方は、[Mixamo"
 "](mixamo-tutorial)のチュートリアルをご覧ください。"
 
-#: ../../source/create/avatars/blender-tutorial.md:12
+#: ../../source/create/avatars/blender-tutorial.md:31
 #, fuzzy
 msgid "In Blender, go to **File > Import > FBX (.fbx)**."
 msgstr "Blender で、**File > Import > FBX (.fbx)** に移動します。"
 
-#: ../../source/create/avatars/blender-tutorial.md:13
+#: ../../source/create/avatars/blender-tutorial.md:32
 #, fuzzy
 msgid ""
 "Choose your avatar's FBX file and click 'Import FBX'. This will open your"
@@ -3384,7 +3476,7 @@ msgstr ""
 "アバターのFBXファイルを選択し、「Import FBX」をクリックします。これで、メインビューにアバターが表示されます。![](_images"
 "/import-avatar.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:14
+#: ../../source/create/avatars/blender-tutorial.md:33
 #, fuzzy
 msgid ""
 "By default, you will not see the materials on your avatar. You can change"
@@ -3394,39 +3486,39 @@ msgstr ""
 "初期設定では、アバターには素材が表示されません。ビューの下にあるツールバーを使って変更できます。![](_images/view-"
 "materials.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:15
+#: ../../source/create/avatars/blender-tutorial.md:34
 #, fuzzy
 msgid "To get a better view of your avatar, change the lamp settings:"
 msgstr "アバターを見やすくするために、ランプの設定を変更します。"
 
-#: ../../source/create/avatars/blender-tutorial.md:16
+#: ../../source/create/avatars/blender-tutorial.md:35
 #, fuzzy
 msgid "From the Outliner, click the Lamp node in Blender."
 msgstr "Outlinerから、BlenderのLampノードをクリックします。"
 
-#: ../../source/create/avatars/blender-tutorial.md:17
+#: ../../source/create/avatars/blender-tutorial.md:36
 #, fuzzy
 msgid "For 'Type of Active Data to display and edit', choose the 'Data' icon."
 msgstr "「Type of Active Data to display and edit」は、「Data」アイコンを選択します。"
 
-#: ../../source/create/avatars/blender-tutorial.md:18
+#: ../../source/create/avatars/blender-tutorial.md:37
 #, fuzzy
 msgid "Change the lamp to Sun."
 msgstr "ランプをSunに変更します。"
 
-#: ../../source/create/avatars/blender-tutorial.md:19
+#: ../../source/create/avatars/blender-tutorial.md:38
 #, fuzzy
 msgid "Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)"
 msgstr "ランプを回転させるとアバターが点灯します。![](_images/lamp-settings.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:20
+#: ../../source/create/avatars/blender-tutorial.md:39
 #, fuzzy
 msgid ""
 "From the Outliner, open the 'Armature' tree and select the item you want "
 "to fine tune. You can also click on the item directly on your model."
 msgstr "アウトライナーから「Armature」ツリーを開き、微調整したい項目を選択します。また、モデル上で直接アイテムをクリックすることもできます。"
 
-#: ../../source/create/avatars/blender-tutorial.md:21
+#: ../../source/create/avatars/blender-tutorial.md:40
 #, fuzzy
 msgid ""
 "Using the toolbox below, you can change the materials and texture of each"
@@ -3438,14 +3530,14 @@ msgstr ""
 "下のツールボックスを使って、各ボディパーツの素材や質感を自由に変更することができます。以下に、[アバターのまつ毛を変更する例](#example-"
 "update-eyelashes-from-an-image)を掲載します。他のアバターアイテムも同様の手順で変更することができます。"
 
-#: ../../source/create/avatars/blender-tutorial.md:27
+#: ../../source/create/avatars/blender-tutorial.md:46
 #, fuzzy
 msgid ""
 "When you're done changing your materials and textures, go to **File > "
 "Export > FBX (.fbx)**."
 msgstr "マテリアルとテクスチャの変更が終わったら、 **File > Export > FBX (.fbx)** に移動します。"
 
-#: ../../source/create/avatars/blender-tutorial.md:28
+#: ../../source/create/avatars/blender-tutorial.md:47
 #, fuzzy
 msgid ""
 "Change the 'Path Mode' to 'Copy', then click the 'Embed Textures' icon. "
@@ -3456,26 +3548,26 @@ msgstr ""
 "Textures」アイコンをクリックします。これで、すべてのテクスチャがモデルに埋め込まれたことになります。![](_images"
 "/blender-export.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:29
+#: ../../source/create/avatars/blender-tutorial.md:48
 #, fuzzy
 msgid "Give your avatar a unique name."
 msgstr "アバターにはユニークな名前を付けましょう。"
 
-#: ../../source/create/avatars/blender-tutorial.md:30
+#: ../../source/create/avatars/blender-tutorial.md:49
 #, fuzzy
 msgid "Click the 'Export FBX' button."
 msgstr "「Export FBX」ボタンをクリックします。"
 
-#: ../../source/create/avatars/blender-tutorial.md:32
+#: ../../source/create/avatars/blender-tutorial.md:51
 msgid "Now, you are ready to bring your avatar into Overte."
 msgstr ""
 
-#: ../../source/create/avatars/blender-tutorial.md:34
+#: ../../source/create/avatars/blender-tutorial.md:53
 #, fuzzy
 msgid "Example: Update Eyelashes from an Image"
 msgstr "例： 画像からまつ毛を更新する"
 
-#: ../../source/create/avatars/blender-tutorial.md:36
+#: ../../source/create/avatars/blender-tutorial.md:60
 #, fuzzy
 msgid ""
 "Save [this texture](http://hifi-"
@@ -3485,48 +3577,48 @@ msgstr ""
 "[this texture](http://hifi-"
 "content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png)を任意のディレクトリに保存してください。"
 
-#: ../../source/create/avatars/blender-tutorial.md:37
+#: ../../source/create/avatars/blender-tutorial.md:61
 #, fuzzy
 msgid "From the Outliner, open the 'Armature' tree and select 'Eyelashes'."
 msgstr "アウトライナーから「Armature」ツリーを開き、「Eyelashes」を選択します。"
 
-#: ../../source/create/avatars/blender-tutorial.md:38
+#: ../../source/create/avatars/blender-tutorial.md:62
 #, fuzzy
 msgid ""
 "In the Toolbox below, click the 'Materials' icon. ![](_images/materials-"
 "tab.png)"
 msgstr "下のツールボックスで、「Materials」アイコンをクリックします。 ![](_images/materials-tab.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:39
+#: ../../source/create/avatars/blender-tutorial.md:63
 #, fuzzy
 msgid ""
 "Click the '+' button next to the material list to create a new material "
 "slot."
 msgstr "材料リストの横にある「＋」ボタンをクリックすると、新しい材料スロットが作成されます。"
 
-#: ../../source/create/avatars/blender-tutorial.md:40
+#: ../../source/create/avatars/blender-tutorial.md:64
 #, fuzzy
 msgid "Click '+ New' to add a new material."
 msgstr "新規に素材を追加する場合は、「+New」をクリックします。"
 
-#: ../../source/create/avatars/blender-tutorial.md:41
+#: ../../source/create/avatars/blender-tutorial.md:65
 #, fuzzy
 msgid "Rename the new material to 'lashes'."
 msgstr "新しい素材の名前を「lashes」に変更します。"
 
-#: ../../source/create/avatars/blender-tutorial.md:42
+#: ../../source/create/avatars/blender-tutorial.md:66
 #, fuzzy
 msgid ""
 "At the bottom of the Blender window, switch to 'Edit Mode'. ![](_images"
 "/edit-mode.png)"
 msgstr "Blenderウィンドウの下部で、「Edit Mode」に切り替えます。![](_images/edit-mode.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:43
+#: ../../source/create/avatars/blender-tutorial.md:67
 #, fuzzy
 msgid "Under the material list, click 'Assign'."
 msgstr "素材リストの下にある「Assign」をクリックします。"
 
-#: ../../source/create/avatars/blender-tutorial.md:44
+#: ../../source/create/avatars/blender-tutorial.md:68
 #, fuzzy
 msgid ""
 "Scroll to the 'Transparency' section. Check the Transparency box and "
@@ -3535,7 +3627,7 @@ msgstr ""
 "「Transparency」セクションまでスクロールします。透明度'のボックスをチェックし、「Alpha」の値を `0.00` "
 "に変更します。![](_images/transparency-setting.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:45
+#: ../../source/create/avatars/blender-tutorial.md:69
 #, fuzzy
 msgid ""
 "Scroll to the 'Specular' section. Set the specular color to black. "
@@ -3544,17 +3636,17 @@ msgstr ""
 "「Specular」セクションまでスクロールします。スペキュラカラーを黒に設定します。![](_images/specular-"
 "setting.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:46
+#: ../../source/create/avatars/blender-tutorial.md:70
 #, fuzzy
 msgid "Change to the 'Textures' view. ![](_images/texture-tab.png)"
 msgstr "「Textures」ビューに変更します。![](_images/texture-tab.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:47
+#: ../../source/create/avatars/blender-tutorial.md:71
 #, fuzzy
 msgid "Click '+ New' to add a new texture."
 msgstr "新規にテクスチャを追加する場合は、「+New」をクリックします。"
 
-#: ../../source/create/avatars/blender-tutorial.md:48
+#: ../../source/create/avatars/blender-tutorial.md:72
 #, fuzzy
 msgid ""
 "Scroll to the Image section. Click 'Open' and find the lashes texture "
@@ -3565,14 +3657,14 @@ msgstr ""
 "」セクションにスクロールします。「開く」をクリックし、以前ダウンロードした「mixamo_eyelashes」という名前のまつ毛のテクスチャを見つけます。「画像を開く」をクリックします。![](_images"
 "/image-setting.png)"
 
-#: ../../source/create/avatars/blender-tutorial.md:49
+#: ../../source/create/avatars/blender-tutorial.md:73
 #, fuzzy
 msgid ""
 "Check the 'Alpha' options in the following sections: Image, Preview, "
 "Texture, Influence"
 msgstr "以下のセクションの「Alpha」オプションにチェックを入れます：Image, Preview, Texture, Influence"
 
-#: ../../source/create/avatars/blender-tutorial.md:50
+#: ../../source/create/avatars/blender-tutorial.md:74
 #, fuzzy
 msgid ""
 "Go to **File > External Data > Pack All Into .blend**. This will include "
@@ -3581,47 +3673,35 @@ msgstr ""
 "**File > External Data > Pack All Into "
 ".blend**に進みます。以上で、テクスチャがモデルに含まれるようになります。"
 
-#: ../../source/create/avatars/blender-tutorial.md:54
+#: ../../source/create/avatars/blender-tutorial.md:78
 #, fuzzy
 msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
 msgstr "[チュートリアル：Mixamoでアバターをリグる](mixamo-tutorial)"
 
 #: ../../source/create/avatars/create-avatars.rst:2
-#, fuzzy
-msgid ""
-"This document is outdated and will be revisited in the future. FIXME: "
-"Mentions services like VRoid Studio even though their skeletons have "
-"never been supported (the Unity avatar exporter will not be able to fix "
-"that)"
+msgid "Parts of this document are outdated and will be revisited in the future."
 msgstr ""
-"この文書は古く、将来的に見直される予定です。FIXME: VRoid Studio "
-"のようなスケルトンがサポートされていないサービスについても言及しています（Unity アバターエクスポーターでは修正できません）"
 
-#: ../../source/create/avatars/create-avatars.rst:9
+#: ../../source/create/avatars/create-avatars.rst:8
 #, fuzzy
 msgid "There are three ways to get your own avatar. You can either:"
 msgstr "自分のアバターを手に入れるには、3つの方法があります。いずれかです："
 
-#: ../../source/create/avatars/create-avatars.rst:11
+#: ../../source/create/avatars/create-avatars.rst:10
 #, fuzzy
 msgid ""
 "Create your avatar from scratch using 3D modeling tools such as Mixamo "
-"and Blender"
+"and Blender."
 msgstr "MixamoやBlenderなどの3Dモデリングツールを使って、アバターを最初から作ります"
 
-#: ../../source/create/avatars/create-avatars.rst:12
-#, fuzzy
-msgid "Use MakeHuman or VRoid Studio to create a human or anime avatar"
-msgstr "MakeHumanやVRoid Studioを使って人間やアニメのアバターを作成します"
+#: ../../source/create/avatars/create-avatars.rst:11
+msgid ""
+"Download an existing avatar from external sources and modify it to "
+"conform to Overte's avatar standards using Unity avatar importer tool or "
+"Blender."
+msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:13
-#, fuzzy
-msgid ""
-"Download an existing avatar from external sources such as TurboSquid or "
-"CGTrader"
-msgstr "TurboSquidやCGTraderなどの外部ソースから既存のアバターをダウンロードします"
-
-#: ../../source/create/avatars/create-avatars.rst:15
 #, fuzzy
 msgid ""
 "If you get an avatar from an external source such as TurboSquid, "
@@ -3629,14 +3709,19 @@ msgid ""
 " not match our :doc:`avatar standards <avatar-standards>`. To use these "
 "avatars with Overte, use the `Overte Avatar Exporter for Unity <find-"
 "avatars.html#overte-avatar-exporter-for-unity>`_ to correctly map the "
-"skeleton and package your avatar."
+"skeleton and package your avatar. The avatar can also be modified using "
+"Blender to conform to Overte's avatar standards. For more information and"
+" a video tutorial check the `Blender Avatar import tutorial <blender-"
+"tutorial>`_. The Unity Avatar Exporter might not be able to export "
+"avatars with very unusual armatures, and in such cases reworking the "
+"armature in Blender might be needed."
 msgstr ""
 "TurboSquid、CGTrader、MakeHuman、VRoid Studioなどの外部ソースからアバターを入手した場合、スケルトンが "
 ":doc:`アバター標準<avatar-standards>` と一致しない可能性があります。これらのアバターをVircadiaで使うには、 "
 "`Vircadia Avatar Exporter for Unity <find-avatars.html#vircadia-avatar-"
 "exporter-for-unity>` を使ってスケルトンを正しくマッピングして、アバターをパッケージングしてください。"
 
-#: ../../source/create/avatars/create-avatars.rst:17
+#: ../../source/create/avatars/create-avatars.rst:15
 #, fuzzy
 msgid ""
 "If you want to create an avatar from scratch, this page covers the steps "
@@ -3644,58 +3729,68 @@ msgid ""
 ":doc:`security of your assets <../../security/asset-security>`."
 msgstr "アバターを最初から作成する場合、このページではアバターの作成、リギング、パッケージングに必要な手順を説明します。"
 
-#: ../../source/create/avatars/create-avatars.rst:22
+#: ../../source/create/avatars/create-avatars.rst:20
 #: ../../source/explore/get-started.rst:7 ../../source/host/add-content.rst:7
 #: ../../source/host/configure-settings.rst:12
 #, fuzzy
 msgid "**In This Section**"
 msgstr "**セクション**"
 
-#: ../../source/create/avatars/create-avatars.rst:32
+#: ../../source/create/avatars/create-avatars.rst:30
 #, fuzzy
 msgid "Create an Avatar from Scratch"
 msgstr "アバターをいちから作る"
 
-#: ../../source/create/avatars/create-avatars.rst:34
+#: ../../source/create/avatars/create-avatars.rst:32
 #, fuzzy
 msgid "The steps involved in creating your avatar are:"
 msgstr "アバターの作成手順は以下の通りです："
 
-#: ../../source/create/avatars/create-avatars.rst:36
+#: ../../source/create/avatars/create-avatars.rst:34
 #, fuzzy
 msgid "Create an avatar with 3D character modeling tool such as Blender or Maya."
 msgstr "BlenderやMayaなどの3Dキャラクターモデリングツールでアバターを作成する。"
 
-#: ../../source/create/avatars/create-avatars.rst:37
-#, fuzzy
-msgid "Rig and animate your avatar with an animation tool such as Mixamo."
-msgstr "Mixamoなどのアニメーションツールを使って、アバターのリグやアニメーションを作成します。"
+#: ../../source/create/avatars/create-avatars.rst:35
+msgid ""
+"Rig your avatar with an animation tool such as Blender or Mixamo. When "
+"rigging avatar with Blender, bone names and orientations must conform to "
+"`Avatar Standards Guide <avatar-standards>`."
+msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:38
+#: ../../source/create/avatars/create-avatars.rst:36
+msgid ""
+"Optionally create custom animations for the avatar (most avatars work "
+"well with default animations)."
+msgstr ""
+
+#: ../../source/create/avatars/create-avatars.rst:37
 #, fuzzy
 msgid "Fine tune your avatar using a tool such as Blender or Maya."
 msgstr "BlenderやMayaなどのツールを使って、アバターを微調整します。"
 
-#: ../../source/create/avatars/create-avatars.rst:39
-msgid "Package the model in Overte for use as an avatar."
+#: ../../source/create/avatars/create-avatars.rst:38
+msgid ""
+"Optionally add .fst metadata file containing informations such as flow "
+"bone setups and avatar scripts."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:41
+#: ../../source/create/avatars/create-avatars.rst:40
 #, fuzzy
 msgid ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
 msgstr ":doc:`Mixamo でアバターを作る <mixamo-tutorial>`"
 
-#: ../../source/create/avatars/create-avatars.rst:42
+#: ../../source/create/avatars/create-avatars.rst:41
 #, fuzzy
 msgid ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
 msgstr ":doc:`Blenderでマテリアルとテクスチャを変更する <blender-tutorial>`"
 
-#: ../../source/create/avatars/create-avatars.rst:46
+#: ../../source/create/avatars/create-avatars.rst:45
 #, fuzzy
 msgid "Community Tools for Avatars"
 msgstr "アバター用コミュニティツール"
 
-#: ../../source/create/avatars/create-avatars.rst:48
+#: ../../source/create/avatars/create-avatars.rst:47
 #, fuzzy
 msgid ""
 "As you're creating your avatar, remember that Overte is an open-source "
@@ -3704,7 +3799,7 @@ msgid ""
 "avatars. Here are a few for you to play around with."
 msgstr "アバターを作成する際には、Vircadiaがオープンソースのプロジェクトであることを思い出してください。コミュニティのメンバーの多くが、プラグイン、アドオン、ツールキット、スケルトンなどを作成し、アバターを含むコンテンツの作成に役立てています。ここでは、そのいくつかをご紹介します。"
 
-#: ../../source/create/avatars/create-avatars.rst:52
+#: ../../source/create/avatars/create-avatars.rst:51
 #, fuzzy
 msgid ""
 "`Blender Add-on by Menithal <https://github.com/Menithal/Blender-"
@@ -3715,18 +3810,24 @@ msgstr ""
 
 #: ../../source/create/avatars/create-avatars.rst:54
 msgid ""
+"This tool is outddated and needs upgrading to current Blender version. "
+"Use Unity avatar importer or Blender (without addons) instead."
+msgstr ""
+
+#: ../../source/create/avatars/create-avatars.rst:57
+msgid ""
 "Plugin (\"Project Hermes\") is a plugin for Blender to allow for easier "
 "content creation and importing for the Overte Platform. It features:"
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:56
+#: ../../source/create/avatars/create-avatars.rst:59
 #, fuzzy
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Overte."
 msgstr "**Material Tools**: Vircadiaですぐに使えるように、オブジェクトにマテリアルを適用するパイプラインが簡単になりました。"
 
-#: ../../source/create/avatars/create-avatars.rst:57
+#: ../../source/create/avatars/create-avatars.rst:60
 #, fuzzy
 msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Overte and "
@@ -3735,27 +3836,27 @@ msgstr ""
 "**Armature Tools**: "
 "Vircadiaと互換性のあるスケルトンを追加し、高度なスクリプトで使用するために骨の名前を設定することができます。"
 
-#: ../../source/create/avatars/create-avatars.rst:58
+#: ../../source/create/avatars/create-avatars.rst:61
 #, fuzzy
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Overte."
 msgstr "**Avatar Converters**: MMDやMixamoのモデルや素材をVircadiaで使えるように移行・修正します。"
 
-#: ../../source/create/avatars/create-avatars.rst:59
+#: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Overte."
 msgstr ""
 
-#: ../../source/create/avatars/create-avatars.rst:60
+#: ../../source/create/avatars/create-avatars.rst:63
 #, fuzzy
 msgid ""
 "**Import Tools**: Imports primitive entities from Overte so that you can "
 "make modifications to them."
 msgstr "**Import Tools**: Vircadiaからプリミティブなエンティティをインポートし、それらに変更を加えることができるようにします。"
 
-#: ../../source/create/avatars/create-avatars.rst:62
+#: ../../source/create/avatars/create-avatars.rst:65
 #, fuzzy
 msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
@@ -3764,20 +3865,20 @@ msgstr ""
 "こちらからインストールしてください：`https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`"
 
-#: ../../source/create/avatars/create-avatars.rst:64
+#: ../../source/create/avatars/create-avatars.rst:67
 #, fuzzy
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
 msgstr "あなたが取り組んでいるプロジェクトで、私たちに紹介してほしいものがありますか？GitHubでこのページを編集して教えてください！"
 
-#: ../../source/create/avatars/create-avatars.rst:69
+#: ../../source/create/avatars/create-avatars.rst:72
 #, fuzzy
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
 msgstr ":doc:`既存のアバターを検索して使用する <find-avatars>`"
 
-#: ../../source/create/avatars/create-avatars.rst:70
-#: ../../source/create/avatars/find-avatars.rst:180
+#: ../../source/create/avatars/create-avatars.rst:73
+#: ../../source/create/avatars/find-avatars.rst:171
 #, fuzzy
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
 msgstr ":doc:`アバターをパッケージ化してホストする <package-avatar>`"
@@ -4086,7 +4187,7 @@ msgid ""
 "to get the latest animation roles before continuing. The standard "
 "animation FBX files for these roles can be found in the Overte source "
 "code repository on `GitHub <https://github.com/overte-"
-"org/vircadia/tree/master/interface/resources/avatar/animations>`_."
+"org/overte/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
 "アニメーションの役割とその説明をリストアップしました。これらは頻繁に更新されますので、先に進む前に "
 "``MyAvatar.getAnimationRoles`` "
@@ -4601,12 +4702,18 @@ msgstr ""
 "/scoot-animation.json>` "
 "ファイルは、アイドルとウォークのアニメーションを、座っているポーズに置き換えたものです。この例では、アバターのデフォルトアニメーションをどのように置き換えることができるかを示しています。"
 
-#: ../../source/create/avatars/custom-animations.rst:240
+#: ../../source/create/avatars/custom-animations.rst:236
+msgid ""
+"Example of avatar with custom animations: `Golden Dragon "
+"<https://oaktown.pl/golden_dragon_r_1/avatar5.fst>`_."
+msgstr ""
+
+#: ../../source/create/avatars/custom-animations.rst:241
 #, fuzzy
 msgid "Advanced Topic: AnimNode System"
 msgstr "Advanced Topic: AnimNode System"
 
-#: ../../source/create/avatars/custom-animations.rst:242
+#: ../../source/create/avatars/custom-animations.rst:243
 #, fuzzy
 msgid ""
 "The Avatar Animation JSON file contains a hierarchical tree of nodes "
@@ -4616,7 +4723,7 @@ msgstr ""
 "アバターアニメーションJSONファイルには、AnimNodeシステムと呼ばれるノードの階層的なツリーが含まれています。AnimNodeシステムは、アバターがどのように動くかを定義し、Animation"
 " Graph JSONファイルに記述されます。"
 
-#: ../../source/create/avatars/custom-animations.rst:244
+#: ../../source/create/avatars/custom-animations.rst:245
 #, fuzzy
 msgid ""
 "The movement of an avatar is determined by a complex blend of procedural "
@@ -4633,62 +4740,62 @@ msgstr ""
 " "
 "Viveのトラッカー一式を装着したユーザーのアニメーションを処理しなければなりません。センサーがシステムに追加されたり削除されたりしても、即座に設定されなければなりません。また、ユニークなアニメーションやアバターの構成が可能なように、拡張にオープンである必要があります。これらの機能は、AnimNodeシステムによって処理されます。"
 
-#: ../../source/create/avatars/custom-animations.rst:246
+#: ../../source/create/avatars/custom-animations.rst:247
 #, fuzzy
 msgid "We've listed some features of the system:"
 msgstr "その特徴を挙げてみました。"
 
-#: ../../source/create/avatars/custom-animations.rst:248
+#: ../../source/create/avatars/custom-animations.rst:249
 #, fuzzy
 msgid "The AnimNode system is a graph of nodes."
 msgstr "AnimNodeシステムは、ノードのグラフです。"
 
-#: ../../source/create/avatars/custom-animations.rst:249
+#: ../../source/create/avatars/custom-animations.rst:250
 #, fuzzy
 msgid "Some nodes are output only, such as pre-recorded animation clips."
 msgstr "録画済みのアニメーションクリップなど、出力のみのノードもあります。"
 
-#: ../../source/create/avatars/custom-animations.rst:250
+#: ../../source/create/avatars/custom-animations.rst:251
 #, fuzzy
 msgid ""
 "Other nodes produce output by processing nodes below it in the graph and "
 "blending the results together."
 msgstr "他のノードは、グラフ内のその下のノードを処理し、その結果を組み合わせて出力を生成します。"
 
-#: ../../source/create/avatars/custom-animations.rst:251
+#: ../../source/create/avatars/custom-animations.rst:252
 #, fuzzy
 msgid ""
 "By manipulating the node hierarchy, certain animation actions will occur "
 "before or after other animation actions."
 msgstr "ノード階層を操作することで、特定のアニメーションアクションを他のアニメーションアクションの前や後に発生させることができます。"
 
-#: ../../source/create/avatars/custom-animations.rst:252
+#: ../../source/create/avatars/custom-animations.rst:253
 #, fuzzy
 msgid ""
 "The node parameters can be dynamically changed at runtime. This "
 "flexibility is necessary to achieve good visual results."
 msgstr "ノードのパラメータは、実行時に動的に変更することができます。このような柔軟性は、良好なビジュアル結果を得るために必要です。"
 
-#: ../../source/create/avatars/custom-animations.rst:253
+#: ../../source/create/avatars/custom-animations.rst:254
 #, fuzzy
 msgid ""
 "The system is in the default Animation Graph JSON file and is loaded "
 "during avatar initialization."
 msgstr "このシステムは、デフォルトのAnimation Graph JSONファイルにあり、アバターの初期化時に読み込まれます。"
 
-#: ../../source/create/avatars/custom-animations.rst:255
+#: ../../source/create/avatars/custom-animations.rst:256
 #, fuzzy
 msgid "**Key Concepts**"
 msgstr "**重要な概念**"
 
-#: ../../source/create/avatars/custom-animations.rst:257
+#: ../../source/create/avatars/custom-animations.rst:258
 msgid ""
 "The AnimNode system operates like an expression parse tree.  For example "
 "the following expression: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, can be "
 "represented by the following parse tree."
 msgstr ""
 
-#: ../../source/create/avatars/custom-animations.rst:262
+#: ../../source/create/avatars/custom-animations.rst:263
 #, fuzzy
 msgid ""
 "This parse tree can then be evaluated at runtime to compute the actual "
@@ -4700,7 +4807,7 @@ msgstr ""
 "このパースツリーを実行時に評価することで、実際の値を計算することができる。このツリーでは、リーフノードが値で、内部ノードが2つ以上のサブツリーを結合して新しい値を生成する操作です。この木は1つの値が残るまで評価され、それが式全体の結果である"
 " ``30.2957142`` となります。"
 
-#: ../../source/create/avatars/custom-animations.rst:264
+#: ../../source/create/avatars/custom-animations.rst:265
 #, fuzzy
 msgid ""
 "In the expression case, the output value of each node is a floating point"
@@ -4709,7 +4816,7 @@ msgid ""
 "addition or multiplication."
 msgstr "式の場合、各ノードの出力値は浮動小数点数であり、演算は各サブツリーを評価し、加算や乗算などの算術演算と組み合わせるだけで実装ができます。"
 
-#: ../../source/create/avatars/custom-animations.rst:266
+#: ../../source/create/avatars/custom-animations.rst:267
 #, fuzzy
 msgid ""
 "The AnimNode system works on a similar concept. Except the value of each "
@@ -4723,12 +4830,12 @@ msgstr ""
 "システムも同じようなコンセプトで動いています。ただし、各ノードの値にはアバターのすべての関節の移動および回転が含まれます。リーフノードには、Tポーズなどのアバターの静的なポーズや、アニメーションクリップの1フレームを指定することができます。内部ノードでは、2"
 " つ以上のサブツリー間の合成や 1 つのアニメーションの上半身と別のアニメーションの下半身の合成などの処理を行うことができます。"
 
-#: ../../source/create/avatars/custom-animations.rst:272
+#: ../../source/create/avatars/custom-animations.rst:273
 #, fuzzy
 msgid ":doc:`Script <../../script>`"
 msgstr ":doc:`Script <../../script>`"
 
-#: ../../source/create/avatars/custom-animations.rst:273
+#: ../../source/create/avatars/custom-animations.rst:274
 msgid "`API Reference: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
 msgstr ""
 
@@ -4748,7 +4855,7 @@ msgid ""
 " or CGTrader. Once you get the avatar, you will need to process it in "
 "Unity using the Overte Avatar Exporter. This tool imports most avatars "
 "into Unity, maps their skeleton using Unity's humanoid tool, and exports "
-"them as FST and FBX files to import in-world. Learn more about the "
+"them as FST and GLB/FBX files to import in-world. Learn more about the "
 ":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
 "TurboSquid や CGTrader "
@@ -4784,14 +4891,17 @@ msgid "You have the correct downloaded files"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:26
-msgid "An FBX model for your avatar. We do not support other 3D model formats."
+msgid ""
+"An glTF/GLB/FBX model for your avatar. We do not support other 3D model "
+"formats. GLB/glTF is recommended over FBX due to better PBR material "
+"support."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:27
 msgid ""
 "(Optional) One or more image files to give your avatar color and texture."
-" Sometimes, these are already embedded in your FBX model and you won't "
-"have any additional image files in your download."
+" Sometimes, these are already embedded in your GLB/FBX model and you "
+"won't have any additional image files in your download."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:28
@@ -4800,15 +4910,17 @@ msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:30
 msgid ""
-"If your avatar is not rigged, you can use :doc:`Mixamo <mixamo-tutorial>`"
-" to rig it. If you use Mixamo, you do not necessarily need to use Unity "
-"and the avatar exporter. Because Mixamo already uses a skeleton that we "
-"support, you can use our `Avatar Packager <create-avatars.html#package-"
-"your-avatar>`_ to import your avatar into Overte."
+"If your avatar is not rigged, you can use Blender or :doc:`Mixamo "
+"<mixamo-tutorial>` to rig it. If you use Mixamo, you do not necessarily "
+"need to use Unity and the avatar exporter. Because Mixamo already uses a "
+"skeleton that we support, you can load the GLB/FBX file directly, create "
+"FST file by hand or use our `Avatar Packager <create-avatars.html"
+"#package-your-avatar>`_ to import your avatar into Overte. Avatar "
+"Packager needs maintenance so it's not recommended currently."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:34
-#: ../../source/create/avatars/package-avatar.rst:26
+#: ../../source/create/avatars/package-avatar.rst:28
 msgid "Overte Avatar Exporter for Unity"
 msgstr ""
 
@@ -4836,7 +4948,7 @@ msgid "You will need the following to use this tool:"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:42
-msgid "Unity (Recommended versions: 2019.4.31f1)"
+msgid "Unity (Recommended versions: 2022.3.22f1)"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:43
@@ -4846,109 +4958,85 @@ msgstr "Overte"
 #: ../../source/create/avatars/find-avatars.rst:44
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-"
-"avatar-exporter>`_ (v0.6.0)"
+"avatar-exporter>`_"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:46
 msgid ""
 "Please note that the recommended version of Unity is not the latest "
-"version. If you are using a newer version of Unity, we recommend that you"
-" apply a T-Pose to your avatar. To do so, go to the 'Inspector', and "
-"click 'Pose' near the bottom of the panel. Select 'Enforce T-Pose' from "
-"the drop-down. Click 'Apply' and 'Done'. We recommend doing this after "
-"correcting any issues with remapping bones."
+"version."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:50
-msgid "Install the Avatar Exporter"
+#: ../../source/create/avatars/find-avatars.rst:48
+msgid ""
+"We recommend that you apply a T-Pose to your avatar. To do so, go to the "
+"'Inspector', and click 'Pose' near the bottom of the panel. Select "
+"'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We "
+"recommend doing this after correcting any issues with remapping bones."
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:52
-msgid ""
-"You need to install the extension for every Unity project that you have. "
-"Keep in mind, however, that you can import and export multiple avatars in"
-" a single Unity project."
+msgid "Install the Avatar Exporter"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:54
+msgid "You need to install the extension for every Unity project that you have."
+msgstr ""
+
+#: ../../source/create/avatars/find-avatars.rst:56
 msgid ""
-"Download the `avatar exporter <https://github.com/overte-"
-"org/overte/blob/master/tools/unity-avatar-"
-"exporter/avatarExporter.unitypackage?raw=true>`_ from Overte."
+"To install the exporter follow the directions in `Unity Avatar Exporter's"
+" README file <https://github.com/overte-org/unity-avatar-"
+"exporter/blob/main/README.md>`_."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:55
-msgid "In Unity, open the 'Project' window at the bottom."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:59
-msgid ""
-"Right-click the 'Assets' folder, then select **Import Package > Custom "
-"Package**."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:63
-msgid ""
-"Navigate to the `avatarExporter` package (with a .unitypackage "
-"extension). Click 'Open'. You can also double-click the package on your "
-"computer to import it automatically."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:64
-msgid ""
-"In the 'Importing Package' window, review the list of files to be "
-"imported and check for conflicts with files already in your project. If a"
-" conflict exists, save any local changes somewhere outside of your "
-"project."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:65
-msgid ""
-"Click 'Import'. The package's files are added to the Assets folder. You "
-"should now have a 'Overte' menu in Unity."
-msgstr ""
-
-#: ../../source/create/avatars/find-avatars.rst:71
+#: ../../source/create/avatars/find-avatars.rst:60
 msgid "Create an Avatar Package"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:73
+#: ../../source/create/avatars/find-avatars.rst:62
+msgid ""
+"FIXME: This part is outdated. Newest exporter saves GLB files together "
+"with FST."
+msgstr ""
+
+#: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
 "If you don't already have your model open in Unity, you need to import "
 "your model. Use any of the following methods:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:75
+#: ../../source/create/avatars/find-avatars.rst:66
 msgid ""
 "Drag and drop the FBX file into the 'Assets' folder of your 'Project' "
 "window."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:76
+#: ../../source/create/avatars/find-avatars.rst:67
 msgid ""
 "In the 'Project' window, right-click the 'Assets' folder, then select "
 "**Import Package > Import New Asset**. Navigate to the FBX file and click"
 " 'Import'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:77
+#: ../../source/create/avatars/find-avatars.rst:68
 msgid ""
 "In Unity, open the 'Assets' menu, then select **Import Package > Import "
 "New Asset**. Navigate to the FBX file and click 'Import'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:78
+#: ../../source/create/avatars/find-avatars.rst:69
 msgid ""
 "In the 'Project' window, select your avatar’s FBX file. In the "
 "'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then"
 " click 'Apply'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:86
+#: ../../source/create/avatars/find-avatars.rst:77
 msgid "Click 'Configure' to investigate and tweak the mapping of your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:90
+#: ../../source/create/avatars/find-avatars.rst:81
 msgid ""
 "All bones mapped in Unity are highlighted in green and can be selected. "
 "Check if anything is missing. Any errors will appear in red. The minimum "
@@ -4958,7 +5046,7 @@ msgid ""
 "to the 'Inspector' panel."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:95
+#: ../../source/create/avatars/find-avatars.rst:86
 msgid ""
 "Avatars in Overte must have a Chest bone. If your avatar does not have a "
 "chest bone, the avatar exporter may suggest a suitable alternative from "
@@ -4968,22 +5056,22 @@ msgid ""
 "Configuration'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:97
+#: ../../source/create/avatars/find-avatars.rst:88
 msgid "If you made any changes, click 'Done'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:98
+#: ../../source/create/avatars/find-avatars.rst:89
 msgid "Click on the FBX file in the 'Assets' manager."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:102
+#: ../../source/create/avatars/find-avatars.rst:93
 msgid ""
 "Make sure that you have the `avatar exporter installed <#install-the-"
 "avatar-exporter>`_. Open the 'Overte' menu in the top menu bar, then "
 "select 'Export New Avatar'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:103
+#: ../../source/create/avatars/find-avatars.rst:94
 msgid ""
 "Give your avatar project a name. The default project location is your "
 "local user's ``Documents\\Overte Projects`` directory, which is created "
@@ -4991,17 +5079,17 @@ msgid ""
 "this directory, you can change it to another location on your computer."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:107
+#: ../../source/create/avatars/find-avatars.rst:98
 msgid "Click 'Export'."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:109
+#: ../../source/create/avatars/find-avatars.rst:100
 msgid ""
 "Your avatar package has been created! The File Explorer will open to your"
 " new avatar project."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:113
+#: ../../source/create/avatars/find-avatars.rst:104
 msgid ""
 "If you are using any external textures with your avatar model, copy those"
 " textures to your local user's ``Documents\\Overte "
@@ -5009,17 +5097,17 @@ msgid ""
 "may not show up on your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:117
+#: ../../source/create/avatars/find-avatars.rst:108
 msgid "Test Your Avatar"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:119
+#: ../../source/create/avatars/find-avatars.rst:110
 msgid ""
 "We encourage you to \"spot check\" your avatar in Unity before exporting "
 "it with the `Overte Avatar Exporter for Unity`_. Check for the following:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:121
+#: ../../source/create/avatars/find-avatars.rst:112
 msgid ""
 "Confirm that there are no extraneous objects attached to your model. For "
 "example, this `Mech avatar <https://www.cgtrader.com/free-3d-"
@@ -5028,7 +5116,7 @@ msgid ""
 "into Overte and may affect the rendering or animation of your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:122
+#: ../../source/create/avatars/find-avatars.rst:113
 msgid ""
 "Test your bone movements. In Unity's 'Inspector', open 'Rig'. For "
 "'Animation Type', choose 'Humanoid' and then click 'Apply'. Go to "
@@ -5036,7 +5124,7 @@ msgid ""
 "that it works as expected."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:131
+#: ../../source/create/avatars/find-avatars.rst:122
 msgid ""
 "If everything looks good, you need to `host your avatar <package-"
 "avatar.html#host-your-avatar>`_ then `change your avatar "
@@ -5044,11 +5132,11 @@ msgid ""
 "avatar>`_ to wear it."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:135
+#: ../../source/create/avatars/find-avatars.rst:126
 msgid "Troubleshooting Tips"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:137
+#: ../../source/create/avatars/find-avatars.rst:128
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar’s "
 "skeleton. These are fully documented here: `Troubleshooting with the "
@@ -5057,25 +5145,25 @@ msgid ""
 "downloaded avatar and using the avatar exporter:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:140
+#: ../../source/create/avatars/find-avatars.rst:131
 #: ../../source/explore/get-started/vr-controls.rst:190
 #, fuzzy
 msgid "Issue"
 msgstr "問題"
 
-#: ../../source/create/avatars/find-avatars.rst:140
+#: ../../source/create/avatars/find-avatars.rst:131
 msgid "Troubleshooting Tip"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:142
+#: ../../source/create/avatars/find-avatars.rst:133
 msgid "*You receive a warning in Unity:*"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:144
+#: ../../source/create/avatars/find-avatars.rst:135
 msgid "\"Character is not in T pose.\""
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:142
+#: ../../source/create/avatars/find-avatars.rst:133
 msgid ""
 "Go to the 'Inspector', click 'Configure', and then select 'Pose' near the"
 " bottom of the panel. Select 'Enforce T-Pose' from the drop-down. Click "
@@ -5083,64 +5171,64 @@ msgid ""
 "with remapping bones."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:146
+#: ../../source/create/avatars/find-avatars.rst:137
 msgid "In Unity, your avatar is a solid color."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:146
+#: ../../source/create/avatars/find-avatars.rst:137
 msgid ""
 "This suggests that the materials or shaders you are using are not "
 "supported."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:148
+#: ../../source/create/avatars/find-avatars.rst:139
 msgid "Click and drag your model into the 'Scene' window."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:149
+#: ../../source/create/avatars/find-avatars.rst:140
 msgid ""
 "Select all of the unsupported materials. These will be one solid color, "
 "such as pink."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:151
+#: ../../source/create/avatars/find-avatars.rst:142
 msgid ""
 "In the 'Inspector', change the 'Shader' to one of the 'Standard' options."
 " All materials should now show up correctly."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:154
+#: ../../source/create/avatars/find-avatars.rst:145
 msgid "Your avatar is gray."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:154
+#: ../../source/create/avatars/find-avatars.rst:145
 msgid "One of the following issues could have occurred:"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:156
+#: ../../source/create/avatars/find-avatars.rst:147
 msgid ""
 "Make sure you copied your avatar's textures into the project’s textures "
 "folder"
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:157
+#: ../../source/create/avatars/find-avatars.rst:148
 msgid ""
 "Verify that your textures are in a format that we support (PNG, JPEG, "
 "JPG, TGA, TIF, or TIFF)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:159
+#: ../../source/create/avatars/find-avatars.rst:150
 msgid ""
 "If your textures are embedded in your avatar: select the FBX file, go to "
 "'Inspector', and click 'Extract Textures'. Extract your textures into "
 "your asset's folder. You can do the same with Materials."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:163
+#: ../../source/create/avatars/find-avatars.rst:154
 msgid "Your avatar is tied up into knots or laying down."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:163
+#: ../../source/create/avatars/find-avatars.rst:154
 msgid ""
 "This could mean that your skeleton is not right. Re-open your avatar in "
 "Unity and run through steps 2-5 of `Create an Avatar Package`_ again. "
@@ -5148,17 +5236,17 @@ msgid ""
 "to your avatar package)."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:168
+#: ../../source/create/avatars/find-avatars.rst:159
 msgid ""
 "If it still doesn't work, ensure that you are testing the correct file "
 "that the avatar exporter created."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:171
+#: ../../source/create/avatars/find-avatars.rst:162
 msgid "Your avatar's skin doesn't move properly with animations."
 msgstr ""
 
-#: ../../source/create/avatars/find-avatars.rst:171
+#: ../../source/create/avatars/find-avatars.rst:162
 msgid ""
 "The avatar exporter was written to improve the process of rigging and "
 "mapping the skeleton rig. This will not affect the animations in your "
@@ -5227,25 +5315,34 @@ msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:9
 msgid ""
-"At a minimum, avatars in Overte must have an FBX, glTF, or GLB model, and"
-" an associated FST file that includes information about how your avatar "
-"looks and behaves. Together, these two files (with any optional texture "
-"or script) form an \"avatar package\". There are two ways you can create "
-"an avatar package: by using the `Avatar Packager`_ in Interface or the "
-"`Overte Avatar Exporter for Unity`_ in Unity."
+"At a minimum, avatars in Overte must have a glTF, GLB or FBX model, and "
+"an optional associated FST file that includes information about how your "
+"avatar looks and behaves. Together, these two files (with any optional "
+"texture or script) form an \"avatar package\". There are three ways you "
+"can create an avatar package: by using the `Overte Avatar Exporter for "
+"Unity`_ in Unity, creating FST file by hand or using the `Avatar "
+"Packager`_ in Interface. Interface's Avatar packager needs maintenance, "
+"so it's not recommended currently."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:11
 msgid ""
-"Once you have packaged your avatar, you need to host it on the cloud so "
-"that Overte can access it and correctly render your avatar for all users."
+"Models conforming to Avatar Standards Guide <avatar-standards> work "
+"directly as avatars with no FST file needed."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:18
-msgid "Package Your Avatar"
+#: ../../source/create/avatars/package-avatar.rst:13
+msgid ""
+"Once you have packaged your avatar, you need to host it on the cloud so "
+"that Overte can access it and correctly render your avatar for all users."
+" Any web server with direct HTTP or HTTPS access is compatible."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:20
+msgid "Package Your Avatar"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:22
 msgid ""
 "If you're reading this page, you likely already :doc:`built your own FBX "
 "model <create-avatars>` or :doc:`found and downloaded a model <find-"
@@ -5255,13 +5352,14 @@ msgid ""
 "by your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:22
+#: ../../source/create/avatars/package-avatar.rst:24
 msgid ""
-"We provide two ways to create an avatar package: either through Unity or "
-"through our Avatar Packager."
+"We provide three ways of creating an avatar package: either through "
+"Unity, manually in a text editor or through our Avatar Packager. In-game "
+"Avatar Packager needs maintenance and is not recommended currently."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:28
+#: ../../source/create/avatars/package-avatar.rst:30
 msgid ""
 "In some cases, you will want to :doc:`download an avatar from an external"
 " website <find-avatars>` and use that avatar in Overte. The Overte Avatar"
@@ -5269,45 +5367,73 @@ msgid ""
 "human-like avatars and packages them for use in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:30
+#: ../../source/create/avatars/package-avatar.rst:32
 msgid ""
 "Once you have successfully used the :doc:`avatar exporter <find-avatars>`"
 " to package your avatar, you must host it somewhere on the cloud. You can"
-" upload it to Amazon S3 or a webserver for example."
-msgstr ""
-
-#: ../../source/create/avatars/package-avatar.rst:34
-msgid "Avatar Packager"
+" upload it to Amazon S3, Cloudflare R2 or a webserver for example."
 msgstr ""
 
 #: ../../source/create/avatars/package-avatar.rst:36
+#, fuzzy
+msgid "Creating FST file manually"
+msgstr "インストーラーを実行します。"
+
+#: ../../source/create/avatars/package-avatar.rst:38
+msgid ""
+"FST file is a regular text file and can be created in a text editor. In "
+"the simplest form it contains the avatar's name, filename or URL of the "
+"model file and its scale. Overte uses metric scale, so `scale = 1` means "
+"that 1 length unit in model file is 1 meter. If `filename` is just a file"
+" name and not a full URL, then relative path will be used."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:40
+msgid ""
+"Flow bones configuration can be generated using the `Flow app` available "
+"in Overte's Community Apps (`More` icon in Overte's UI)."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:42
+msgid "Example avatar FST file with custom animations and materials override:"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:57
+msgid "Avatar Packager"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:59
+msgid "Avatar Packager is not remommended currently."
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:61
 msgid ""
 "The **Avatar Packager** is a tool in Interface (the Overte client) that "
 "identifies potential errors in your avatar's model and then creates an "
 "FST file for you."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:38
+#: ../../source/create/avatars/package-avatar.rst:63
 msgid "To package your avatar using the Avatar Packager:"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:40
+#: ../../source/create/avatars/package-avatar.rst:65
 msgid "In Interface, go to **Edit > Avatar Packager**."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:41
+#: ../../source/create/avatars/package-avatar.rst:66
 msgid "In the Avatar Packager window, click 'New Project'."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:42
+#: ../../source/create/avatars/package-avatar.rst:67
 msgid "In the Create Project window, fill in the following details:"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:44
+#: ../../source/create/avatars/package-avatar.rst:69
 msgid "Name: The name you want for your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:45
+#: ../../source/create/avatars/package-avatar.rst:70
 msgid ""
 "Project Location: The folder path where your avatar's files are stored. "
 "The Avatar Packager will create a new folder for your project at this "
@@ -5315,89 +5441,96 @@ msgid ""
 "scripts/textures in your avatar."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:46
+#: ../../source/create/avatars/package-avatar.rst:71
 msgid "Avatar Model: The location of your avatar's FBX model."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:47
+#: ../../source/create/avatars/package-avatar.rst:72
 msgid ""
 "Texture Folder: If your avatar has textures in a separate folder, specify"
 " the folder location. If your avatar's textures are embedded in the FBX, "
 "you do not need to specify anything."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:48
+#: ../../source/create/avatars/package-avatar.rst:73
 #: ../../source/host/configure-settings/place-setting.rst:21
 #, fuzzy
 msgid "Click 'Create'."
 msgstr "「Create」をクリックします。"
 
-#: ../../source/create/avatars/package-avatar.rst:50
+#: ../../source/create/avatars/package-avatar.rst:75
 msgid ""
 "At this point, you have successfully packaged your avatar. You can close "
 "the Avatar Packager here and upload your FST file and FBX model to the "
 "cloud location of your choice."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:54
+#: ../../source/create/avatars/package-avatar.rst:79
 #, fuzzy
 msgid "Host and Use Your Avatar"
 msgstr "アバターを変更する"
 
-#: ../../source/create/avatars/package-avatar.rst:56
+#: ../../source/create/avatars/package-avatar.rst:81
 msgid ""
 "Before you can use a custom avatar, you must first host its FST and model"
 " (FBX/glTF/GLB) files in a place that is publicly accessible."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:58
+#: ../../source/create/avatars/package-avatar.rst:83
 msgid ""
 "Upload your avatar's model file (FBX/glTF/GLB) to the service of your "
 "choice."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:59
+#: ../../source/create/avatars/package-avatar.rst:84
 msgid ""
 "Copy the exact URL of the file, as if you were sharing a direct download "
 "link."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:60
+#: ../../source/create/avatars/package-avatar.rst:85
 msgid ""
 "Open your FST file in a text editor and replace the ``filename`` entry "
 "with the URL from the previous step. E.g: `filename = MyAvatar` should be"
 " changed to ``filename = https://mywebsite.example/avatar.fbx``"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:61
+#: ../../source/create/avatars/package-avatar.rst:86
 msgid "Save your FST file and upload it to the service of your choice."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:62
+#: ../../source/create/avatars/package-avatar.rst:87
 msgid ""
 "In Interface (the Overte client), select **Avatar** and click the "
 "chain/link icon."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:63
+#: ../../source/create/avatars/package-avatar.rst:88
 msgid ""
 "You should see a prompt with the label \"Specify Avatar URL\". Paste your"
 " FST file's direct URL into the text box here and confirm."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:66
+#: ../../source/create/avatars/package-avatar.rst:91
 msgid ""
 "If you are looking for a place to host these files, you can simply use "
-"Amazon S3, Dropbox, Google Cloud Storage, Microsoft Azure, GitHub, "
-"Catbox, etc. It doesn't matter as long as *anyone* can view the file "
-"link!"
+"Cloudflare R2, Amazon S3, Google Cloud Storage, Microsoft Azure, GitHub, "
+"Catbox, etc. It doesn't matter as long as *anyone* can view the file link"
+" and it's a direct link to the file. Links to a separate download page "
+"won't work."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:72
+#: ../../source/create/avatars/package-avatar.rst:93
+msgid ""
+"Video tutorial on uploading to Cloudflare R2: "
+"https://www.youtube.com/watch?v=Q_whpCUHqlw"
+msgstr ""
+
+#: ../../source/create/avatars/package-avatar.rst:98
 msgid "Troubleshooting with the Avatar Packager"
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:74
+#: ../../source/create/avatars/package-avatar.rst:100
 msgid ""
 "The Avatar Packager will notify you of any errors or warnings that may "
 "affect the way your avatar looks and behaves in Overte. This is a list of"
@@ -5407,14 +5540,14 @@ msgid ""
 "your avatar will show up and behave correctly in Overte."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:78
+#: ../../source/create/avatars/package-avatar.rst:104
 msgid ""
 "Many of the errors you will encounter describe issues with the avatar's "
 "skeleton. The troubleshooting tips below will attempt to fix the errors "
 "in Unity."
 msgstr ""
 
-#: ../../source/create/avatars/package-avatar.rst:80
+#: ../../source/create/avatars/package-avatar.rst:106
 msgid ""
 "However, if the bone structure of the model does not resemble a humanoid "
 "skeleton (with two legs, two arms, hips, chest, spine, and head), then it"
@@ -6236,6 +6369,11 @@ msgid ""
 "The boombox system contains the following scripts and files that allows a"
 " user to control audio playback:"
 msgstr ""
+
+#: ../../source/create/entities/boombox-tutorial.rst:99
+#, fuzzy
+msgid "URL"
+msgstr "URL"
 
 #: ../../source/create/entities/boombox-tutorial.rst:101
 msgid "Entity Server Script"
@@ -10760,7 +10898,15 @@ msgid ""
 "/blender-tutorial>`"
 msgstr ""
 
-#: ../../source/create/wearables.md:8
+#: ../../source/create/wearables.md:1
+msgid "-<div class=\"admonition warning\">"
+msgstr ""
+
+#: ../../source/create/wearables.md:4
+msgid "-</div>"
+msgstr ""
+
+#: ../../source/create/wearables.md:9
 msgid ""
 "Wearables are objects that attach to your avatar. They can be hats, "
 "skirts, glasses, headphones and anything else that can accessorize your "
@@ -10768,105 +10914,116 @@ msgid ""
 "of your own and [putting them on](../explore/personalize/add-wearables)."
 msgstr ""
 
-#: ../../source/create/wearables.md:10
+#: ../../source/create/wearables.md:11
 msgid ""
-"Before you can use a custom wearable, you must first host its FBX and "
-"JSON files in a place that is publicly accessible to Overte. You can use "
-"any cloud platforms including Amazon S3, Google Cloud Storage, Microsoft "
-"Azure, Dropbox, etc."
-msgstr ""
-
-#: ../../source/create/wearables.md:12
-msgid "Build a Custom Wearable"
+"Overte supports soft and hard wearables. Soft wearables deform together "
+"with the avatar, so they need to share same or a very similar armature. "
+"Hard wearables don't deform, and instead attach to a chosen bone of the "
+"armature. As an example, a hat can be a hard wearable that attaches to "
+"the `Head` bone."
 msgstr ""
 
 #: ../../source/create/wearables.md:13
+msgid ""
+"Before you can use a custom wearable, you must first host its "
+"GLB/glTF/FBX and JSON files in a place that is publicly accessible to "
+"Overte. You can use any HTTP/HTTPS server or cloud platforms including "
+"Cloudflare R2, Amazon S3, Google Cloud Storage, Microsoft Azure, Catbox, "
+"etc."
+msgstr ""
+
+#: ../../source/create/wearables.md:15
+msgid "Build a Custom Wearable"
+msgstr ""
+
+#: ../../source/create/wearables.md:16
 msgid ""
 "Wearables are simply [3D models](3d-models) that are customized to fit on"
 " your avatar. Therefore, the first step in creating your wearable is to "
 "build one or find an existing model that you want to use."
 msgstr ""
 
-#: ../../source/create/wearables.md:15
+#: ../../source/create/wearables.md:18
 msgid ""
 "There are a few different applications you can use to build and edit the "
 "3D model for your wearable, including:"
 msgstr ""
 
-#: ../../source/create/wearables.md:16
+#: ../../source/create/wearables.md:19
 msgid "[Blender](https://www.blender.org)"
 msgstr ""
 
-#: ../../source/create/wearables.md:17
+#: ../../source/create/wearables.md:20
 msgid "[Maya](https://www.autodesk.com/products/maya/overview)"
 msgstr ""
 
-#: ../../source/create/wearables.md:18
+#: ../../source/create/wearables.md:21
 msgid "[Google Blocks](https://vr.google.com/blocks)"
 msgstr ""
 
-#: ../../source/create/wearables.md:19
+#: ../../source/create/wearables.md:22
 msgid "[Oculus Medium](https://www.oculus.com/medium)"
 msgstr ""
 
-#: ../../source/create/wearables.md:20
+#: ../../source/create/wearables.md:23
 msgid "[Tiltbrush](https://www.tiltbrush.com)"
 msgstr ""
 
-#: ../../source/create/wearables.md:22
+#: ../../source/create/wearables.md:25
 msgid ""
 "Some guidelines to follow when you're building soft wearables like "
 "clothes:"
 msgstr ""
 
-#: ../../source/create/wearables.md:24
+#: ../../source/create/wearables.md:27
 msgid ""
 "Your soft wearable should be designed to fit a particular type of avatar."
 " Since avatars vary in size and structure, a soft wearable designed to "
 "fit one avatar may not fit another one as well."
 msgstr ""
 
-#: ../../source/create/wearables.md:25
+#: ../../source/create/wearables.md:28
 msgid ""
 "The soft wearable should be slightly larger than the avatar to avoid "
 "clipping. Clipping is when one 3D object goes through another 3D object "
 "without colliding."
 msgstr ""
 
-#: ../../source/create/wearables.md:26
+#: ../../source/create/wearables.md:29
 msgid "Your soft wearable's shape should match the avatar's."
 msgstr ""
 
-#: ../../source/create/wearables.md:27
-msgid "The soft wearable should have similar or the same weights as the avatar."
-msgstr ""
-
-#: ../../source/create/wearables.md:29
+#: ../../source/create/wearables.md:30
 msgid ""
-"When building soft wearables like clothes, ensure that you are making it "
-"to fit the avatar well. Its mesh should match the avatar's and have a "
-"higher weight."
+"The armature of the wearable needs to be similar or the same as the "
+"avatar's armature."
 msgstr ""
 
 #: ../../source/create/wearables.md:31
 msgid ""
-"When building your model, be sure to [follow these guidelines](3d-models"
-"/get-model) to ensure that it is compatible with Overte.  Once you're "
-"done editing your model, export the file as an FBX or OBJ file. You've "
-"now created your own custom model!"
+"The soft wearable's mesh should have similar or the same weights as the "
+"avatar."
 msgstr ""
 
 #: ../../source/create/wearables.md:33
+msgid ""
+"When building your model, be sure to [follow these guidelines](3d-models"
+"/get-model) to ensure that it is compatible with Overte.  Once you're "
+"done editing your model, export the file as a GLB, glTF, FBX or OBJ file."
+" You've now created your own custom model!"
+msgstr ""
+
+#: ../../source/create/wearables.md:35
 msgid ""
 "After hosting your wearable in the cloud [put it "
 "on](../explore/personalize/add-wearables) and adopt your new look."
 msgstr ""
 
-#: ../../source/create/wearables.md:43
+#: ../../source/create/wearables.md:45
 msgid "[Get Your 3D Model](3d-models/get-model)"
 msgstr ""
 
-#: ../../source/create/wearables.md:44
+#: ../../source/create/wearables.md:46
 msgid "[Put On Wearables](../explore/personalize/add-wearables)"
 msgstr ""
 
@@ -12133,7 +12290,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:135
-#: ../../source/developer/build/BUILD_WIN.md:126
+#: ../../source/developer/build/BUILD_WIN.md:131
 #: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
 msgid "Troubleshooting"
 msgstr ""
@@ -12587,7 +12744,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:10
-msgid "*Last Updated on 2025-06-09*"
+msgid "*Last Updated on 2025-08-01*"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:12
@@ -12622,11 +12779,11 @@ msgid ""
 "workarounds specific to it in the future."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:23
+#: ../../source/developer/build/BUILD_WIN.md:24
 msgid "When selecting components, check \"Desktop development with C++\"."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:25
+#: ../../source/developer/build/BUILD_WIN.md:26
 msgid ""
 "If you do not already have a Python 3.x development environment installed"
 " and want to install it with Visual Studio, check \"Python Development\"."
@@ -12637,31 +12794,24 @@ msgid ""
 " allow the installer to apply the changes."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:27
-msgid "Visual Studio 2022"
-msgstr ""
-
 #: ../../source/developer/build/BUILD_WIN.md:29
-msgid "On the right on the Summary toolbar, select the following components."
+msgid ""
+"Note: MSVC 14.44.35207 seems to be bugged and cannot compile libnode. Get"
+" an older MSVC 143 version using `.\\VisualStudioSetup.exe modify "
+"--installPath \"C:\\Program Files\\Microsoft Visual "
+"Studio\\2022\\Community\" --add "
+"Microsoft.VisualStudio.Component.VC.14.33.17.3.x86.x64` (this installs "
+"version 14.33.31629). Notice how the relevant component has been added to"
+" the \"Single components\" section on the right. Make sure to reload your"
+" environment (by restarting your terminal for example), otherwise the new"
+" compiler version won't be found."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:31
-msgid "MSVC v142 - VS 2019 C++ X64/x86 build tools"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:32
-msgid "MSVC v141 - VS 2017 C++ x64/x86 build tools"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:33
-msgid "MSVC v140 - VS 2015 C++ build tools (v14.00)"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:35
+#: ../../source/developer/build/BUILD_WIN.md:34
 msgid "Step 1a. Alternate Python"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:37
+#: ../../source/developer/build/BUILD_WIN.md:36
 msgid ""
 "If you do not wish to use the Python installation bundled with Visual "
 "Studio, you can download the installer from "
@@ -12669,44 +12819,48 @@ msgid ""
 "3.6.6 or higher."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:39
+#: ../../source/developer/build/BUILD_WIN.md:38
 msgid "Step 2. Python Dependencies"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:41
+#: ../../source/developer/build/BUILD_WIN.md:40
 msgid ""
 "In an administrator command-line that can access Python's pip you will "
 "need to run the following command:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:43
-msgid "`pip install distro`"
+#: ../../source/developer/build/BUILD_WIN.md:42
+msgid "`pip install distro setuptools html5lib`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:45
+#: ../../source/developer/build/BUILD_WIN.md:44
 msgid "If you do not use an administrator command-line, you will get errors."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:47
+#: ../../source/developer/build/BUILD_WIN.md:46
 msgid "Step 3. Installing Conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:49
+#: ../../source/developer/build/BUILD_WIN.md:48
 msgid ""
 "Download and install Conan from the [Conan "
 "website](https://conan.io/downloads). Next, add the Overte remote to "
 "Conan:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:55
+#: ../../source/developer/build/BUILD_WIN.md:53
+msgid "We also need to generate a default Conan profile:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:58
 msgid "Step 4. Installing CMake"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:57
+#: ../../source/developer/build/BUILD_WIN.md:60
 msgid "Download and install CMake version 3.15 or higher."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:59
+#: ../../source/developer/build/BUILD_WIN.md:62
 msgid ""
 "Download the file named cmake-[version]-windows-x86_64.msi Installer from"
 " the [CMake Website](https://cmake.org/download/). During installation, "
@@ -12714,28 +12868,20 @@ msgid ""
 "prompted."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:61
-msgid "Step 5. (Optional) Node.JS and NPM"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:63
-msgid ""
-"Install the latest LTS version of [Node.JS and "
-"NPM](<https://nodejs.org/en/download/>). This is required to build the "
-"server-console and jsdoc, and for JavaScript console autocompletion."
-msgstr ""
+#: ../../source/developer/build/BUILD_WIN.md:64
+#, fuzzy
+msgid "Step 5. Create conan environment variable"
+msgstr "関連する環境変数を削除します。"
 
 #: ../../source/developer/build/BUILD_WIN.md:66
-msgid "Step 6. (Optional) Create conan environment variable"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_WIN.md:67
 msgid ""
 "In the next step, you will use conan to install the dependencies required"
 " to build Overte. By default, conan will build and install the "
-"dependencies in `<username>/.conan2`. If you want to change that location"
-" you can create a `CONAN_HOME` environment variable linked to a directory"
-" somewhere on your machine."
+"dependencies in `<username>/.conan2`. Because Windows doesn't support "
+"paths which are longer than 260 characters, we need to move this folder "
+"to a more shallow location like `C:\\`. If you don't do this, some things"
+" will fail with `No such file or directory`, namely building Qt WebEngine"
+" from source."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:70
@@ -12761,7 +12907,9 @@ msgid "Set \"Variable name\" to `CONAN_HOME`"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:75
-msgid "Set \"Variable value\" to any directory that you have control over."
+msgid ""
+"Set \"Variable value\" to any directory that you have control over. For "
+"example `C:\\Conan2`."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:77
@@ -12771,132 +12919,276 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:79
-msgid "Step 7. Running CMake to Generate Build Files"
+msgid "Step 6. (Optional) Node.JS and NPM"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_WIN.md:81
+msgid ""
+"Install the latest LTS version of [Node.JS and "
+"NPM](<https://nodejs.org/en/download/>). This is required to build the "
+"server-console and jsdoc, and for JavaScript console autocompletion."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:84
+msgid "Step 7. Running CMake to Generate Build Files"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:86
 msgid "These instructions only apply to Visual Studio 2022."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:83
+#: ../../source/developer/build/BUILD_WIN.md:88
 msgid "Automatic"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:85
+#: ../../source/developer/build/BUILD_WIN.md:90
 msgid ""
 "There is a batch file to automatically run the commands below for ease of"
 " use."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:87
+#: ../../source/developer/build/BUILD_WIN.md:92
 msgid "`winprepareVS22.bat`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:89
+#: ../../source/developer/build/BUILD_WIN.md:94
 #, fuzzy
 msgid "Manual"
 msgstr "Maya"
 
-#: ../../source/developer/build/BUILD_WIN.md:91
+#: ../../source/developer/build/BUILD_WIN.md:96
 msgid "Run the Command Prompt from Start and run the following commands:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:100
+#: ../../source/developer/build/BUILD_WIN.md:105
 msgid "Where `%OVERTE_DIR%` is the directory for the Overte repository."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:102
+#: ../../source/developer/build/BUILD_WIN.md:107
 msgid ""
 "Note: After running Conan it is recommended to run `conan cache clean "
 "\"*\" -sbd` to clean the build folders created by Conan, saving disk "
 "space."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:104
+#: ../../source/developer/build/BUILD_WIN.md:109
 msgid "Step 8. Making a Build"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:106
+#: ../../source/developer/build/BUILD_WIN.md:111
 msgid "Open `%OVERTE_DIR%\\build\\overte.sln` using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:108
+#: ../../source/developer/build/BUILD_WIN.md:113
 msgid ""
 "Change the Solution Configuration (menu ribbon under the menu bar, next "
 "to the green play button) from \"Debug\" to \"Release\" for best "
 "performance."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:110
+#: ../../source/developer/build/BUILD_WIN.md:115
 msgid "Run from the menu bar `Build > Build Solution`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:112
+#: ../../source/developer/build/BUILD_WIN.md:117
 msgid "Step 9. Testing Interface"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:114
+#: ../../source/developer/build/BUILD_WIN.md:119
 msgid "Create another environment variable (see Step #3)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:115
+#: ../../source/developer/build/BUILD_WIN.md:120
 msgid "Set \"Variable name\": `_NO_DEBUG_HEAP`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:116
+#: ../../source/developer/build/BUILD_WIN.md:121
 msgid "Set \"Variable value\": `1`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:118
+#: ../../source/developer/build/BUILD_WIN.md:123
 msgid "Restart Visual Studio again."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:120
+#: ../../source/developer/build/BUILD_WIN.md:125
 msgid ""
 "In Visual Studio, right-click \"interface\" under the Apps folder in "
 "Solution Explorer and select \"Set as Startup Project\". Run from the "
 "menu bar `Debug > Start Debugging`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:122
+#: ../../source/developer/build/BUILD_WIN.md:127
 msgid ""
 "Now, you should have a full build of Overte and be able to run the "
 "Interface using Visual Studio."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:124
+#: ../../source/developer/build/BUILD_WIN.md:129
 msgid ""
 "Note: You can also run Interface by launching it from command line or "
 "File Explorer from "
 "`%OVERTE_DIR%\\build\\interface\\Release\\interface.exe`"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:128
+#: ../../source/developer/build/BUILD_WIN.md:133
 msgid "For any problems after Step #7, first try this:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:129
+#: ../../source/developer/build/BUILD_WIN.md:134
 msgid "Delete your locally cloned copy of the Overte repository"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:130
+#: ../../source/developer/build/BUILD_WIN.md:135
 msgid "Restart your computer"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:131
+#: ../../source/developer/build/BUILD_WIN.md:136
 msgid "Redownload the [repository](https://github.com/overte-org/overte)"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:132
+#: ../../source/developer/build/BUILD_WIN.md:137
 msgid "Restart directions from Step #7"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:134
+#: ../../source/developer/build/BUILD_WIN.md:139
 msgid "CMake gives you the same error message repeatedly after the build fails"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_WIN.md:136
+#: ../../source/developer/build/BUILD_WIN.md:141
 msgid "Remove `CMakeCache.txt` found in the `%OVERTE_DIR%\\build` directory."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:143
+msgid "MSVC bugs"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:144
+msgid ""
+"MSVC is apparently a buggy mess, and almost every version has *something*"
+" broken in it."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:146
+msgid ""
+"Available MSVC versions can be found here: https://learn.microsoft.com"
+"/en-us/visualstudio/install/workload-component-id-vs-"
+"community?view=vs-2022 Just search for "
+"`Microsoft.VisualStudio.Component.VC.14.` using your internet browser "
+"search."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:149
+msgid ""
+"`EtcLib.lib(EtcImage.obj) : error LNK2019: unresolved external symbol "
+"__std_init_once_link_alternate_names_and_abort`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:150
+msgid ""
+"This is a bug in MSVC 14.31.31103. Solution is to upgrade or downgrade "
+"from that specific version."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:152
+msgid ""
+"The issue if fixed in MSVC 14.32.31326. Install a probably working "
+"version using: `.\\VisualStudioSetup.exe modify --installPath "
+"\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\" --add "
+"Microsoft.VisualStudio.Component.VC.14.33.17.3.x86.x64` Notice how the "
+"relevant component has been added to the \"Single components\" section on"
+" the right. Make sure to reload your environment (by restarting your "
+"terminal for example), otherwise the new compiler version won't be found."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:157
+msgid ""
+"`v8_compiler.lib(v8_pch.obj) : error LNK2019: unresolved external symbol "
+"\"protected: static class v8::internal::Handle<class "
+"v8::internal::NameDictionary> ?`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:158
+msgid ""
+"This is a bug in MSVC 14.44.35207. Solution is to upgrade or downgrade "
+"from that specific version."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:160
+msgid ""
+"Currently (2025-06-28), this is the latest version, so we need to "
+"downgrade to an older version. A probably working version is MSVC "
+"14.33.17.3, which can be installed using: `.\\VisualStudioSetup.exe "
+"modify --installPath \"C:\\Program Files\\Microsoft Visual "
+"Studio\\2022\\Community\" --add "
+"Microsoft.VisualStudio.Component.VC.14.33.17.3.x86.x64` Notice how the "
+"relevant component has been added to the \"Single components\" section on"
+" the right. Make sure to reload your environment (by restarting your "
+"terminal for example), otherwise the new compiler version won't be found."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:166
+msgid ""
+"`draco.lib(point_cloud.obj) : error LNK2019: unresolved external symbol "
+"\"__std_find_trivial_4\"`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:167
+msgid ""
+"This is a bug in MSVC 14.32.31326. Solution is to upgrade or downgrade "
+"from that specific version."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:169
+msgid ""
+"Install a probably working version using: `.\\VisualStudioSetup.exe "
+"modify --installPath \"C:\\Program Files\\Microsoft Visual "
+"Studio\\2022\\Community\" --add "
+"Microsoft.VisualStudio.Component.VC.14.33.17.3.x86.x64` Notice how the "
+"relevant component has been added to the \"Single components\" section on"
+" the right. Make sure to reload your environment (by restarting your "
+"terminal for example), otherwise the new compiler version won't be found."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:174
+msgid "Removing specific MSVC versions"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:176
+msgid ""
+"To remove a version, replace `--add` with `--remove`. E.g. "
+"`.\\VisualStudioSetup.exe modify --installPath \"C:\\Program "
+"Files\\Microsoft Visual Studio\\2022\\Community\" --remove "
+"Microsoft.VisualStudio.Component.VC.14.31.17.1.x86.x64` Don't uninstall "
+"or manually delete the latest version! This will make your build tools "
+"unable to find Visual Studio. Instead, just install whatever compiler "
+"version you need. The last installed version will be given priority. If "
+"you don't know the version number Visual Studio uses to select MSVC "
+"versions, just open the `VisualStudioSetup.exe` directly, press "
+"\"modify\", and deselect it from the \"Single components\" section on the"
+" right. The tooltips help determining what is what."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:183
+msgid "`\"atlbase.h\": No such file or directory`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:185
+msgid ""
+"*Sometimes* the build process requires ATL support. To fix this, install "
+"\"C++ vXX.XX (...) ATL (...)\" replacing XX.XX with the first two numbers"
+" that you used to install an specific MSVC version above using the "
+"`VisualStudioSetup.exe`. E.g. \"C++ v14.32 (...) ATL (...)\"."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:188
+msgid "`warning : cannot resolve item 'api-ms-win-(...)-l1-1-0.dll'`"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_WIN.md:190
+msgid ""
+"You may be able to ignore this warning. My assumption is that the MSVC "
+"version used is incompatible with the currently installed Windows SDK, "
+"and Overte will just use the newer SDK during runtime."
 msgstr ""
 
 #: ../../source/developer/domain-server.rst:5
@@ -36666,5 +36958,276 @@ msgstr "メタバースセッションUUID"
 #~ "`Learn more <https://overte.org/index.html#help-"
 #~ "us-hire-a-team-member>`_. |br| So far "
 #~ "we have raised 464,62€ of 3000€."
+#~ msgstr ""
+
+#~ msgid "Overte’s engine only supports one UV mapping per material."
+#~ msgstr "Overteのエンジンは、1つのマテリアルにつき1つのUVマッピングしかサポートしていません。"
+
+#~ msgid ""
+#~ "Load the `Flow app "
+#~ "<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_"
+#~ " into Overte to configure your flow"
+#~ " settings. See :doc:`Load an Interface "
+#~ "Script </script/interface-scripts>`"
+#~ msgstr ""
+#~ "Vircadiaに `Flowアプリ "
+#~ "<https://docs.vircadia.com/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`"
+#~ " をロードして、フロー設定を行います。 :doc:`インターフェーススクリプトの読み込み</script"
+#~ "/interface-scripts>` を参照"
+
+#~ msgid ""
+#~ "`flowAppCpp.js <https://docs.overte.org/ "
+#~ "_static/resources/script/flow/flowAppCpp/ flowAppCpp.js>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is outdated and will "
+#~ "be revisited in the future. FIXME: "
+#~ "Mentions services like VRoid Studio even"
+#~ " though their skeletons have never "
+#~ "been supported (the Unity avatar "
+#~ "exporter will not be able to fix"
+#~ " that)"
+#~ msgstr ""
+#~ "この文書は古く、将来的に見直される予定です。FIXME: VRoid Studio "
+#~ "のようなスケルトンがサポートされていないサービスについても言及しています（Unity アバターエクスポーターでは修正できません）"
+
+#~ msgid "Use MakeHuman or VRoid Studio to create a human or anime avatar"
+#~ msgstr "MakeHumanやVRoid Studioを使って人間やアニメのアバターを作成します"
+
+#~ msgid ""
+#~ "Download an existing avatar from "
+#~ "external sources such as TurboSquid or"
+#~ " CGTrader"
+#~ msgstr "TurboSquidやCGTraderなどの外部ソースから既存のアバターをダウンロードします"
+
+#~ msgid "Rig and animate your avatar with an animation tool such as Mixamo."
+#~ msgstr "Mixamoなどのアニメーションツールを使って、アバターのリグやアニメーションを作成します。"
+
+#~ msgid "Package the model in Overte for use as an avatar."
+#~ msgstr ""
+
+#~ msgid "An FBX model for your avatar. We do not support other 3D model formats."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "(Optional) One or more image files "
+#~ "to give your avatar color and "
+#~ "texture. Sometimes, these are already "
+#~ "embedded in your FBX model and you"
+#~ " won't have any additional image "
+#~ "files in your download."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If your avatar is not rigged, you"
+#~ " can use :doc:`Mixamo <mixamo-tutorial>`"
+#~ " to rig it. If you use Mixamo,"
+#~ " you do not necessarily need to "
+#~ "use Unity and the avatar exporter. "
+#~ "Because Mixamo already uses a skeleton"
+#~ " that we support, you can use "
+#~ "our `Avatar Packager <create-avatars.html"
+#~ "#package-your-avatar>`_ to import your "
+#~ "avatar into Overte."
+#~ msgstr ""
+
+#~ msgid "Unity (Recommended versions: 2019.4.31f1)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Overte Avatar Exporter for Unity "
+#~ "<https://github.com/overte-org/unity-avatar-"
+#~ "exporter>`_ (v0.6.0)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Please note that the recommended version"
+#~ " of Unity is not the latest "
+#~ "version. If you are using a newer"
+#~ " version of Unity, we recommend that"
+#~ " you apply a T-Pose to your "
+#~ "avatar. To do so, go to the "
+#~ "'Inspector', and click 'Pose' near the"
+#~ " bottom of the panel. Select 'Enforce"
+#~ " T-Pose' from the drop-down. Click"
+#~ " 'Apply' and 'Done'. We recommend "
+#~ "doing this after correcting any issues"
+#~ " with remapping bones."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You need to install the extension "
+#~ "for every Unity project that you "
+#~ "have. Keep in mind, however, that "
+#~ "you can import and export multiple "
+#~ "avatars in a single Unity project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Download the `avatar exporter "
+#~ "<https://github.com/overte-org/overte/blob/master/tools"
+#~ "/unity-avatar-"
+#~ "exporter/avatarExporter.unitypackage?raw=true>`_ from "
+#~ "Overte."
+#~ msgstr ""
+
+#~ msgid "In Unity, open the 'Project' window at the bottom."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Right-click the 'Assets' folder, then"
+#~ " select **Import Package > Custom "
+#~ "Package**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Navigate to the `avatarExporter` package "
+#~ "(with a .unitypackage extension). Click "
+#~ "'Open'. You can also double-click "
+#~ "the package on your computer to "
+#~ "import it automatically."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the 'Importing Package' window, "
+#~ "review the list of files to be "
+#~ "imported and check for conflicts with"
+#~ " files already in your project. If"
+#~ " a conflict exists, save any local"
+#~ " changes somewhere outside of your "
+#~ "project."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Import'. The package's files are"
+#~ " added to the Assets folder. You "
+#~ "should now have a 'Overte' menu in"
+#~ " Unity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At a minimum, avatars in Overte "
+#~ "must have an FBX, glTF, or GLB "
+#~ "model, and an associated FST file "
+#~ "that includes information about how your"
+#~ " avatar looks and behaves. Together, "
+#~ "these two files (with any optional "
+#~ "texture or script) form an \"avatar "
+#~ "package\". There are two ways you "
+#~ "can create an avatar package: by "
+#~ "using the `Avatar Packager`_ in "
+#~ "Interface or the `Overte Avatar Exporter"
+#~ " for Unity`_ in Unity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have packaged your avatar, "
+#~ "you need to host it on the "
+#~ "cloud so that Overte can access it"
+#~ " and correctly render your avatar for"
+#~ " all users."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We provide two ways to create an"
+#~ " avatar package: either through Unity "
+#~ "or through our Avatar Packager."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you have successfully used the "
+#~ ":doc:`avatar exporter <find-avatars>` to "
+#~ "package your avatar, you must host "
+#~ "it somewhere on the cloud. You can"
+#~ " upload it to Amazon S3 or a"
+#~ " webserver for example."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are looking for a place "
+#~ "to host these files, you can "
+#~ "simply use Amazon S3, Dropbox, Google"
+#~ " Cloud Storage, Microsoft Azure, GitHub,"
+#~ " Catbox, etc. It doesn't matter as"
+#~ " long as *anyone* can view the "
+#~ "file link!"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Before you can use a custom "
+#~ "wearable, you must first host its "
+#~ "FBX and JSON files in a place "
+#~ "that is publicly accessible to Overte."
+#~ " You can use any cloud platforms "
+#~ "including Amazon S3, Google Cloud "
+#~ "Storage, Microsoft Azure, Dropbox, etc."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The soft wearable should have similar"
+#~ " or the same weights as the "
+#~ "avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When building soft wearables like "
+#~ "clothes, ensure that you are making "
+#~ "it to fit the avatar well. Its "
+#~ "mesh should match the avatar's and "
+#~ "have a higher weight."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When building your model, be sure "
+#~ "to [follow these guidelines](3d-models/get-"
+#~ "model) to ensure that it is "
+#~ "compatible with Overte.  Once you're "
+#~ "done editing your model, export the "
+#~ "file as an FBX or OBJ file. "
+#~ "You've now created your own custom "
+#~ "model!"
+#~ msgstr ""
+
+#~ msgid "*Last Updated on 2025-06-09*"
+#~ msgstr ""
+
+#~ msgid "Visual Studio 2022"
+#~ msgstr ""
+
+#~ msgid "On the right on the Summary toolbar, select the following components."
+#~ msgstr ""
+
+#~ msgid "MSVC v142 - VS 2019 C++ X64/x86 build tools"
+#~ msgstr ""
+
+#~ msgid "MSVC v141 - VS 2017 C++ x64/x86 build tools"
+#~ msgstr ""
+
+#~ msgid "MSVC v140 - VS 2015 C++ build tools (v14.00)"
+#~ msgstr ""
+
+#~ msgid "`pip install distro`"
+#~ msgstr ""
+
+#~ msgid "Step 5. (Optional) Node.JS and NPM"
+#~ msgstr ""
+
+#~ msgid "Step 6. (Optional) Create conan environment variable"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the next step, you will use "
+#~ "conan to install the dependencies "
+#~ "required to build Overte. By default,"
+#~ " conan will build and install the "
+#~ "dependencies in `<username>/.conan2`. If you"
+#~ " want to change that location you "
+#~ "can create a `CONAN_HOME` environment "
+#~ "variable linked to a directory somewhere"
+#~ " on your machine."
+#~ msgstr ""
+
+#~ msgid "Set \"Variable value\" to any directory that you have control over."
 #~ msgstr ""
 
