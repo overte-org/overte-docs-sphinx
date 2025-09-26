@@ -12,7 +12,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2025-09-26 20:05+0000\n"
 "PO-Revision-Date: 2025-09-27 09:04+0000\n"
-"Last-Translator: Anonymous <noreply@weblate.org>\n"
+"Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language-Team: Spanish <https://weblate.overte.org/projects/overte/"
 "overte-documentation/es/>\n"
 "Language: es\n"
@@ -1792,15 +1792,16 @@ msgstr ""
 "alta fidelidad(HiFi), potencialmente más."
 
 #: ../../source/create/applications.rst:9
+#, fuzzy
 msgid ""
 "THIS GUIDE IS OUT OF DATE. THE CODE MAY NOT WORK EXACTLY AS OUTLINED, USE"
 " FOR REFERENCE ONLY UNTIL UPDATED. SEE `API "
 "DOCS<https://apidocs.overte.org/>` FOR MORE."
 msgstr ""
-"ESTA GUÍA NO ESTÁ ACTUALIZADA. EL CÓDIGO PUEDE NO FUNCIONAR EXACTAMENTE "
-"COMO SE INDICA, UTILÍZALO COMO REFERENCIA SOLAMENTE HASTA QUE SE "
-"ACTUALICE. CONSULTE LOS`DOCUMENTOS DE LA "
-"API<https://apidocs.overte.org/>` PARA MÁS INFORMACIÓN."
+"ESTA GUÍA NO ESTÁ ACTUALIZADA. EL CÓDIGO PUEDE NO FUNCIONAR EXACTAMENTE COMO "
+"SE INDICA, UTILÍZALO COMO REFERENCIA SOLAMENTE HASTA QUE SE ACTUALICE. "
+"CONSULTE LOS`DOCUMENTOS DE LA API<https://apidocs.overte.org/>` PARA MÁS "
+"INFORMACIÓN."
 
 #: ../../source/create/applications.rst:11
 msgid ""
@@ -9525,10 +9526,11 @@ msgid "Use the materialData Field"
 msgstr "Usar el Campo materialData (Datos del material)"
 
 #: ../../source/create/entities/material-entity.rst:70
+#, fuzzy
 msgid "To add a material entity directly into the **Create** Tools app:"
 msgstr ""
-"Para añadir una entidad tipo material directamente en la aplicación Crear"
-" Herrramientas (Create Tools App):"
+"Para añadir una entidad tipo material directamente en la aplicación Crear "
+"Herrramientas (Create Tools App):"
 
 #: ../../source/create/entities/material-entity.rst:74
 msgid ""
@@ -12335,6 +12337,7 @@ msgstr ""
 "opcionales:"
 
 #: ../../source/create/materials/procedural-shaders.rst:366
+#, fuzzy
 msgid ""
 "Supported uniform types are: ``float``, ``vec2``, ``vec3``, ``vec4``, "
 "``mat3``, and ``mat4``. (Multiple values are provided as arrays.)"
@@ -13509,6 +13512,7 @@ msgstr ""
 "ejecutarse."
 
 #: ../../source/developer/INSTALLER.md:156
+#, fuzzy
 msgid "**Alternatively**, you can also create the AppImage manually:"
 msgstr "Alternativamente, puede crear la AppImage manualmente:"
 
@@ -17275,6 +17279,7 @@ msgstr ""
 "experimentas Overte en modo de escritorio."
 
 #: ../../source/explore/get-started/install.rst:5
+#, fuzzy
 msgid ""
 "Overte has two different installers. The *Client Installer* comes with "
 "everything you need to view and interact with Overte's content and users."
@@ -17285,15 +17290,15 @@ msgid ""
 "provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
 "Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
-"Overte tiene dos instaladores diferentes. El *Client Installer* que viene"
-" con todo lo que necesitas para ver e interactuar con el contenido y los "
+"Overte tiene dos instaladores diferentes. El *Client Installer* que viene "
+"con todo lo que necesitas para ver e interactuar con el contenido y los "
 "usuarios de Overte. Sin embargo, no puedes alojar contenido con este "
 "instalador. El *Client + Server Installer* que tiene todo lo que hace el "
 "instalador del cliente, pero también te permite :doc:`alojar tu propio "
-"contenido <../../host>` y compartirlo con el mundo. La descarga del "
-"*Client + Server Installer* solo se proporciona para Windows. Para Linux,"
-" consulta: :doc:`Aloja un dominio desde un Servidor Linux Local o en la "
-"Nube <../../host/server-setup/linux-server>`."
+"contenido <../../host>` y compartirlo con el mundo. La descarga del *Client +"
+" Server Installer* solo se proporciona para Windows. Para Linux, consulta: "
+":doc:`Aloja un dominio desde un Servidor Linux Local o en la Nube <../../"
+"host/server-setup/linux-server>`."
 
 #: ../../source/explore/get-started/install.rst:15
 msgid "System Requirements"
@@ -17738,14 +17743,15 @@ msgid "Open your Applications folder and delete the Overte folder."
 msgstr "Abra su directorio de Aplicaciones y borre el directorio de Overte."
 
 #: ../../source/explore/get-started/install.rst:152
+#, fuzzy
 msgid ""
 "Open the ``<username>/.config`` folder. This is a hidden folder than is "
 "accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
 " + Shift + .`` (period)."
 msgstr ""
-"Abre la carpeta ``<username>/.config``. Esta es una carpeta oculta a la "
-"que se puede acceder yendo a *Go > Home*. Presiona el atajo de teclado "
-"Command + Shift + . (secuencialmente)."
+"Abre la carpeta ``<username>/.config``. Esta es una carpeta oculta a la que "
+"se puede acceder yendo a *Go > Home*. Presiona el atajo de teclado Command + "
+"Shift + . (secuencialmente)."
 
 #: ../../source/explore/get-started/install.rst:153
 msgid "Delete the ``overte.org`` folder."
@@ -17762,8 +17768,10 @@ msgstr ""
 "\"Library\" debería aparecer en el menú."
 
 #: ../../source/explore/get-started/install.rst:155
+#, fuzzy
 msgid "Browse to ``~/Library/Application Support`` and delete the Overte folder."
-msgstr "Vaya a``~/Library/Application Support`` y borre el directorio de Overte."
+msgstr ""
+"Vaya a``~/Library/Application Support`` y borre el directorio de Overte."
 
 #: ../../source/explore/get-started/install.rst:156
 msgid "Empty the Trash."
@@ -18869,6 +18877,7 @@ msgid "Connect your trackers, HMD, and controllers to SteamVR."
 msgstr "Conecta tus rastreadores, HMD y controladores a SteamVR."
 
 #: ../../source/explore/get-started/vr-controls.rst:165
+#, fuzzy
 msgid ""
 "In Interface, pull up your HUD or Tablet and go to **Menu > Settings > "
 "Calibration**."
@@ -23328,17 +23337,17 @@ msgid "Can View Asset URLs"
 msgstr "Puede ver las URLs de los recursos"
 
 #: ../../source/host/configure-settings/permission-settings.rst:111
+#, fuzzy
 msgid ""
 "Sets whether a user can view asset URLs in **Create** and scripts. If a "
 "user doesn't have this permission, the URLs will be reported as empty "
 "strings. Note: this is only a client-side protection. Learn more about "
 ":doc:`asset security <../../security/asset-security>`."
 msgstr ""
-"Establece si un usuario puede ver las URLs de los recursos en Create y en"
-" los scripts. Si el usuario no tiene este permiso, las URLs se mostrarán "
-"como cadenas vacía. Nota: esta es solo una protección del lado del "
-"cliente. Más información en :doc:`seguridad de recursos <../../security"
-"/asset-security>`."
+"Establece si un usuario puede ver las URLs de los recursos en Create y en "
+"los scripts. Si el usuario no tiene este permiso, las URLs se mostrarán como "
+"cadenas vacía. Nota: esta es solo una protección del lado del cliente. Más "
+"información en :doc:`seguridad de recursos <../../security/asset-security>`."
 
 #: ../../source/host/configure-settings/place-setting.rst:5
 msgid ""
@@ -24659,6 +24668,7 @@ msgstr ""
 "two**.conf</code>"
 
 #: ../../source/host/server-setup/linux-server.md:145
+#, fuzzy
 msgid "Content stored in <code>/var/lib/overte/**my-server-two**</code>"
 msgstr "Contenido almacenado en /var/lib/overte/**my-server-two**"
 
@@ -25310,6 +25320,7 @@ msgstr ""
 "principal."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:11
+#, fuzzy
 msgid ""
 "For example, **2020.2.5-Asteria** will be compatible with "
 "**2020.2.0-Asteria**. Whereas **2020.3.0-Demeter** will not be compatible"
@@ -26724,12 +26735,13 @@ msgstr "Documentación de Usuario"
 #: ../../source/release-notes/2021-1-0-Eos.md:151
 #: ../../source/release-notes/2021-1-1-Eos.md:132
 #: ../../source/release-notes/2021-1-2-Eos.md:63
+#, fuzzy
 msgid ""
 "The numbers at the end of each item are the PR numbers in the Vircadia-"
 "Docs-Sphinx [repo](https://github.com/vircadia/vircadia-docs-sphinx)."
 msgstr ""
-"Los números al final de cada ítem son los números de PR en el repositorio"
-" Vircadia-Docs-Sphinx repo."
+"Los números al final de cada ítem son los números de PR en el repositorio "
+"Vircadia-Docs-Sphinx repo."
 
 #: ../../source/release-notes/2020-2-0-Asteria.md:278
 msgid "Explore section updates with further rebranding. (#21, #40)"
@@ -27307,6 +27319,7 @@ msgid "Metaverse Server (Codename Apollo)"
 msgstr "Servidor de Metaverso (Nombre clave Apollo)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:50
+#, fuzzy
 msgid ""
 "While the [metaverse server](https://github.com/vircadia/project-apollo) "
 "is still in development, much progress has been made since starting. The "
@@ -27317,17 +27330,17 @@ msgid ""
 "and completion of the system is complete, we will begin the transition to"
 " our very own federated metaverse system!"
 msgstr ""
-"Aunque el [servidor de metaverso](https://github.com/vircadia/project-"
-"apollo) aún está en desarrollo, se ha logrado un progreso significativo "
-"desde su inicio. El proyecto cuenta con más de 150 commits al momento de "
-"publicar estas notas de versión, con más de 20 en las últimas dos semanas"
-" (1 al 14 de julio de 2020). Basándose en los cimientos establecidos por "
-"Zontreck, Misterblue ha creado un prototipo funcional del metaverso. Una "
-"vez que se haya completado y probado adecuadamente el sistema, "
-"comenzaremos la transición hacia nuestro propio sistema federado de "
-"metaverso!"
+"Aunque el [servidor de metaverso](https://github.com/vircadia/project-apollo)"
+" aún está en desarrollo, se ha logrado un progreso significativo desde su "
+"inicio. El proyecto cuenta con más de 150 commits al momento de publicar "
+"estas notas de versión, con más de 20 en las últimas dos semanas (1 al 14 de "
+"julio de 2020). Basándose en los cimientos establecidos por Zontreck, "
+"Misterblue ha creado un prototipo funcional del metaverso. Una vez que se "
+"haya completado y probado adecuadamente el sistema, comenzaremos la "
+"transición hacia nuestro propio sistema federado de metaverso!"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:52
+#, fuzzy
 msgid ""
 "The [metaverse server interface](https://github.com/vircadia/project-"
 "apollo-dashboard) has also gotten underway this month. It will serve as "
@@ -27335,12 +27348,11 @@ msgid ""
 "their identities on the metaverse. It has had **18 commits** in the last "
 "two weeks (July 1st - July 14th, 2020)."
 msgstr ""
-"La [interfaz del servidor de metaverso](https://github.com/vircadia"
-"/project-apollo-dashboard) también ha comenzado su desarrollo este mes. "
-"Servirá como la base de la interfaz de usuario para que tanto "
-"administradores como usuarios accedan y administren sus identidades en el"
-" metaverso. Ha tenido 18 commits en las últimas dos semanas (1 al 14 de "
-"julio de 2020)."
+"La [interfaz del servidor de metaverso](https://github.com/vircadia/project-"
+"apollo-dashboard) también ha comenzado su desarrollo este mes. Servirá como "
+"la base de la interfaz de usuario para que tanto administradores como "
+"usuarios accedan y administren sus identidades en el metaverso. Ha tenido 18 "
+"commits en las últimas dos semanas (1 al 14 de julio de 2020)."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:54
 #: ../../source/release-notes/2020-2-4-Asteria.md:48
@@ -27356,6 +27368,7 @@ msgid "Vircadia Launcher (Codename Pantheon)"
 msgstr "Lanzador de Vircadia (Nombre clave Pantheon)"
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:56
+#, fuzzy
 msgid ""
 "[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) is "
 "at version 0.0.1r, steadily approaching version 1.0.0. It currently "
@@ -27366,13 +27379,13 @@ msgid ""
 "of publishing these release notes."
 msgstr ""
 "El [lanzador de Vircadia](https://github.com/vircadia/pantheon-launcher) "
-"está en la versión 0.0.1r, avanzando constantemente hacia la versión "
-"1.0.0. Actualmente incluye funciones como descarga y actualización con un"
-" solo clic, gestión de versiones, control fácil de configuraciones para "
-"la interfaz, listado de eventos y más. Tiene muchas funcionalidades "
+"está en la versión 0.0.1r, avanzando constantemente hacia la versión 1.0.0. "
+"Actualmente incluye funciones como descarga y actualización con un solo "
+"clic, gestión de versiones, control fácil de configuraciones para la "
+"interfaz, listado de eventos y más. Tiene muchas funcionalidades "
 "planificadas, como el listado de mundos y controles adicionales para los "
-"sandboxes. Cuenta con más de 130 commits al momento de publicar estas "
-"notas de versión."
+"sandboxes. Cuenta con más de 130 commits al momento de publicar estas notas "
+"de versión."
 
 #: ../../source/release-notes/2020-2-3-Asteria.md:64
 msgid "Update the Explore app's sorting order to be higher in the menu. (#5)"
@@ -28283,30 +28296,33 @@ msgstr ""
 " debido a problemas de registro. (#840)"
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:41
+#, fuzzy
 msgid ""
 "Iamus [Metaverse Server](https://github.com/vircadia/iamus) updates can "
 "be found [here](https://github.com/vircadia/Iamus/commits/master)."
 msgstr ""
-"Actualizaciones del servidor de metaverso Iamus disponibles "
-"[aquí](https://github.com/vircadia/iamus)."
+"Actualizaciones del servidor de metaverso Iamus disponibles [aquí](https://"
+"github.com/vircadia/iamus)."
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:43
+#, fuzzy
 msgid ""
 "Iamus [Metaverse Dashboard](https://github.com/vircadia/project-iamus-"
 "dashboard) updates can be found [here](https://dashboard.vircadia.com/)."
 msgstr ""
-"Actualizaciones del panel de metaverso Iamus disponibles "
-"[aquí](https://dashboard.vircadia.com/)."
+"Actualizaciones del panel de metaverso Iamus disponibles [aquí](https://"
+"dashboard.vircadia.com/)."
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:47
+#, fuzzy
 msgid ""
 "[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) "
 "updates can be found [here](https://github.com/vircadia/pantheon-"
 "launcher/commits/master). Some changes are listed below. The launcher is "
 "now on experimental version 0.0.1s."
 msgstr ""
-"Actualizaciones del [lanzador de Vircadia](https://github.com/vircadia"
-"/pantheon-launcher/commits/master). El launcher se encuentra ahora en la "
+"Actualizaciones del [lanzador de Vircadia](https://github.com/vircadia/"
+"pantheon-launcher/commits/master). El launcher se encuentra ahora en la "
 "versión experimental 0.0.1s."
 
 #: ../../source/release-notes/2020-3-1-Demeter.md:49
@@ -28851,14 +28867,15 @@ msgstr ""
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:210
 #: ../../source/release-notes/2020-3-3-Demeter.md:125
+#, fuzzy
 msgid ""
 "[Vircadia's launcher](https://github.com/vircadia/pantheon-launcher) "
 "updates can be found [here](https://github.com/vircadia/pantheon-"
 "launcher/commits/master). The launcher is on experimental version 0.0.1s."
 msgstr ""
 "Las actualizaciones del launcher de Vircadia se pueden encontrar [aquí] "
-"(https://github.com/vircadia/pantheon-launcher/commits/master). El "
-"lanzador está en la versión experimental 0.0.1s."
+"(https://github.com/vircadia/pantheon-launcher/commits/master). El lanzador "
+"está en la versión experimental 0.0.1s."
 
 #: ../../source/release-notes/2020-3-2-Demeter.md:218
 msgid "Add description of `VIRCADIA_LOG_OPTIONS` environment variable. (#88)"
@@ -29291,13 +29308,14 @@ msgid "2021.1.0 Eos Release Notes"
 msgstr "Notas de lanzamiento de 2021.1.0 Eos"
 
 #: ../../source/release-notes/2021-1-0-Eos.md:3
+#, fuzzy
 msgid ""
 "This version of Vircadia is a new release. It is **not** compatible with "
 "the 2020.3.0 Demeter protocol. This version was released on February "
 "21st, 2021."
 msgstr ""
-"Esta versión de Vircadia es un nuevo lanzamiento. No es compatible con el"
-" protocolo 2020.3.0 Demeter. Fue lanzada el 21 de febrero de 2021."
+"Esta versión de Vircadia es un nuevo lanzamiento. No es compatible con el "
+"protocolo 2020.3.0 Demeter. Fue lanzada el 21 de febrero de 2021."
 
 #: ../../source/release-notes/2021-1-0-Eos.md:11
 msgid ""
@@ -30220,22 +30238,24 @@ msgid "Enhancements"
 msgstr "Mejoras"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:11
+#, fuzzy
 msgid ""
 "[**osx**][**windows**] Hash Windows and Mac machine fingerprints. "
 "[#1126](https://github.com/vircadia/vircadia/pull/1126)"
 msgstr ""
-"[osx][windows] Crear hash de las huellas digitales de máquina de Windows "
-"y Mac. https://github.com/vircadia/vircadia/pull/1126"
+"[osx][windows] Crear hash de las huellas digitales de máquina de Windows y "
+"Mac. https://github.com/vircadia/vircadia/pull/1126"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:12
+#, fuzzy
 msgid ""
 "[**domain-server**] The domain server should see Packet ID=1 as a "
 "(broken) attempt to connect to the domain server. "
 "[#692](https://github.com/vircadia/vircadia/pull/692)"
 msgstr ""
-"[domain-server] El servidor de dominio ahora reconoce el Paquete ID=1 "
-"como un intento (fallido) de conexión. "
-"https://github.com/vircadia/vircadia/pull/692"
+"[domain-server] El servidor de dominio ahora reconoce el Paquete ID=1 como "
+"un intento (fallido) de conexión. https://github.com/vircadia/vircadia/pull/"
+"692"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:13
 msgid ""
@@ -30274,12 +30294,12 @@ msgid "Update to Qt 5.15.2. [#938](https://github.com/vircadia/vircadia/pull/938
 msgstr "Actualización a Qt 5.15.2. https://github.com/vircadia/vircadia/pull/938"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:18
+#, fuzzy
 msgid ""
 "[**osx**] Revise OSX DMGs. "
 "[#1162](https://github.com/vircadia/vircadia/pull/1162)"
 msgstr ""
-"[osx] Revisar los DMG de OSX. "
-"https://github.com/vircadia/vircadia/pull/1162"
+"[osx] Revisar los DMG de OSX. https://github.com/vircadia/vircadia/pull/1162"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:19
 msgid ""
@@ -30296,20 +30316,22 @@ msgid "Bug Fixes"
 msgstr "Corregir errores"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:23
+#, fuzzy
 msgid ""
 "[**linux**] Fix videos showing as white box on AMD Linux. (Issue #801) "
 "[#938](https://github.com/vircadia/vircadia/pull/938)"
 msgstr ""
-"[linux] Corregir problema de videos que se muestran como cajas blancas en"
-" AMD Linux. (Issue #801) https://github.com/vircadia/vircadia/pull/938"
+"[linux] Corregir problema de videos que se muestran como cajas blancas en "
+"AMD Linux. (Issue #801) https://github.com/vircadia/vircadia/pull/938"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:24
+#, fuzzy
 msgid ""
 "[**linux**] Link to pthread last. "
 "[#1188](https://github.com/vircadia/vircadia/pull/1188)"
 msgstr ""
-"[linux] Enlazar con pthread al final. "
-"https://github.com/vircadia/vircadia/pull/1188"
+"[linux] Enlazar con pthread al final. https://github.com/vircadia/vircadia/"
+"pull/1188"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:25
 msgid ""
@@ -30320,12 +30342,13 @@ msgstr ""
 "Vircadia. https://github.com/vircadia/vircadia/pull/1193"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:26
+#, fuzzy
 msgid ""
 "[**linux**] Add patch for building Qt 5.15 on gcc11. "
 "[#1218](https://github.com/vircadia/vircadia/pull/1218)"
 msgstr ""
-"[linux] Añadir parche para compilar Qt 5.15 con gcc11. "
-"https://github.com/vircadia/vircadia/pull/1218"
+"[linux] Añadir parche para compilar Qt 5.15 con gcc11. https://github.com/"
+"vircadia/vircadia/pull/1218"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:27
 msgid ""
@@ -30336,13 +30359,14 @@ msgstr ""
 "https://github.com/vircadia/vircadia/pull/1173"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:28
+#, fuzzy
 msgid ""
 "[**android**] Fix PR autobuild for Ubuntu-18.04, android with correct "
 "cmake version. [#1225](https://github.com/vircadia/vircadia/pull/1225)"
 msgstr ""
 "[android] Corregir la construcción automática de PR para Ubuntu-18.04 y "
-"Android con la versión correcta de CMake. "
-"https://github.com/vircadia/vircadia/pull/1225"
+"Android con la versión correcta de CMake. https://github.com/vircadia/"
+"vircadia/pull/1225"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:29
 msgid ""
@@ -30361,12 +30385,13 @@ msgstr ""
 "https://github.com/vircadia/vircadia/pull/1161"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:31
+#, fuzzy
 msgid ""
 "[**renderer**] Fix glTF mesh colors. "
 "[#1181](https://github.com/vircadia/vircadia/pull/1181)"
 msgstr ""
-"[renderer] Corregir los colores de mallas glTF. "
-"https://github.com/vircadia/vircadia/pull/1181"
+"[renderer] Corregir los colores de mallas glTF. https://github.com/vircadia/"
+"vircadia/pull/1181"
 
 #: ../../source/release-notes/2021-1-2-Eos.md:32
 msgid ""
@@ -31242,6 +31267,7 @@ msgstr ""
 "sphinx/compare/v2021.1.2...v2021.1.3)"
 
 #: ../../source/release-notes/2021-1-3-Eos.md:244
+#, fuzzy
 msgid "**Documentation:**"
 msgstr "Documentación"
 
@@ -32009,6 +32035,7 @@ msgstr ""
 "Interface."
 
 #: ../../source/release-notes/v81.md:21
+#, fuzzy
 msgid ""
 "**Track Hand Controllers in Oculus Home**: When leaving High Fidelity to "
 "the Oculus Home, we now continue to track your hand position rather than "
@@ -32018,14 +32045,13 @@ msgid ""
 "hands-in-oculus-dash](http://roadmap.highfidelity.com/feature-requests/p"
 "/track-hands-in-oculus-dash))"
 msgstr ""
-"**Rastrear controladores de mano en Oculus Home**: Al salir de High "
-"Fidelity hacia Oculus Home, ahora continuamos rastreando la posición de "
-"tus manos en lugar de ponerte en estado **Ausente**. Ve a Settings > "
-"Controls > Calibration para activarlo o desactivarlo. ¡Gracias a nuestro "
-"usuario Saracen! (Solicitud en Canny: [http://roadmap.highfidelity.com"
-"/feature-requests/p/track-hands-in-oculus-"
-"dash](http://roadmap.highfidelity.com/feature-requests/p/track-hands-in-"
-"oculus-dash))"
+"**Rastrear controladores de mano en Oculus Home**: Al salir de High Fidelity "
+"hacia Oculus Home, ahora continuamos rastreando la posición de tus manos en "
+"lugar de ponerte en estado **Ausente**. Ve a Settings > Controls > "
+"Calibration para activarlo o desactivarlo. ¡Gracias a nuestro usuario "
+"Saracen! (Solicitud en Canny: [http://roadmap.highfidelity.com/"
+"feature-requests/p/track-hands-in-oculus-dash](http://"
+"roadmap.highfidelity.com/feature-requests/p/track-hands-in-oculus-dash))"
 
 #: ../../source/release-notes/v81.md:28
 msgid "The High Fidelity Avatar Exporter for Unity has been updated:"
@@ -32209,17 +32235,17 @@ msgstr ""
 "/windowdomainchanged-does-not-work-on-avatar-entities))"
 
 #: ../../source/release-notes/v81.md:59
+#, fuzzy
 msgid ""
 "The Escape key now consistently places the user in \"Away\" mode. (Canny "
 "request: [http://roadmap.highfidelity.com/bugs/p/escape-key-doesnt-set-"
 "avatar-to-away-mode](http://roadmap.highfidelity.com/bugs/p/escape-key-"
 "doesnt-set-avatar-to-away-mode))"
 msgstr ""
-"La tecla Escape ahora coloca consistentemente al usuario en modo "
-"**Ausente**. (Solicitud en Canny: [http://roadmap.highfidelity.com/bugs/p"
-"/escape-key-doesnt-set-avatar-to-away-"
-"mode](http://roadmap.highfidelity.com/bugs/p/escape-key-doesnt-set-"
-"avatar-to-away-mode))"
+"La tecla Escape ahora coloca consistentemente al usuario en modo **Ausente**"
+". (Solicitud en Canny: [http://roadmap.highfidelity.com/bugs/p/escape-key-"
+"doesnt-set-avatar-to-away-mode](http://roadmap.highfidelity.com/bugs/p/"
+"escape-key-doesnt-set-avatar-to-away-mode))"
 
 #: ../../source/release-notes/v81.md:60
 msgid ""
@@ -33041,6 +33067,7 @@ msgid "Decreasing your field of vision by darkening the edges of the screen."
 msgstr "Disminuye tu campo de visión al oscurecer los bordes de la pantalla."
 
 #: ../../source/release-notes/v83.md:26
+#, fuzzy
 msgid "Adding a ground plane and grid."
 msgstr "**Añadir un plano de suelo y una cuadrícula**."
 
@@ -33477,6 +33504,7 @@ msgstr ""
 "avatar está dentro de la entidad."
 
 #: ../../source/release-notes/v83.md:107
+#, fuzzy
 msgid "Unmuting while away will now remove your away state."
 msgstr ""
 "Desactivar el silencio (unmute) mientras estás en estado **Away** ahora "
@@ -37431,14 +37459,15 @@ msgstr ""
 "/configure-settings/permission-settings>` **Rez** y **Rez Temporary**."
 
 #: ../../source/security/asset-security.rst:20
+#, fuzzy
 msgid ""
 "However, even if a user doesn't have Rez permission and can't access "
 "Create, the URLs can still be accessed via scripts. You can prevent "
 "scripts from accessing these URLs by revoking a user's **Can View Asset "
 "URLs** permission."
 msgstr ""
-"Varios tipos de Entidades hacen referencia a recursos externos como "
-"modelos, imágenes y sombreadores."
+"Varios tipos de Entidades hacen referencia a recursos externos como modelos, "
+"imágenes y sombreadores."
 
 #: ../../source/security/asset-security.rst:22
 msgid ""
