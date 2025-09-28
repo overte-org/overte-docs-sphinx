@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-26 20:05+0000\n"
+"POT-Creation-Date: 2025-09-28 10:05+0000\n"
 "PO-Revision-Date: 2023-07-08 23:17+0000\n"
 "Last-Translator: Bliffykins <tentacles@rape.lol>\n"
 "Language: lt\n"
@@ -22,13 +22,6 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
-
-#: ../../<rst_prolog>:9
-msgid ""
-"Help us hire a team member! `Donate ♥︎ <https://overte.org/donate.html>`_"
-" or `Learn more <https://overte.org/index.html#help-us-hire-a-team-"
-"member>`_. |br| So far we have raised 562,77€ of 3000€."
-msgstr ""
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
@@ -31223,5 +31216,13 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "Set \"Variable value\" to any directory that you have control over."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Help us hire a team member! "
+#~ "`Donate ♥︎ <https://overte.org/donate.html>`_ or "
+#~ "`Learn more <https://overte.org/index.html#help-"
+#~ "us-hire-a-team-member>`_. |br| So far "
+#~ "we have raised 562,77€ of 3000€."
 #~ msgstr ""
 
