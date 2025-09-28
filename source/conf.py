@@ -83,20 +83,6 @@ highlight_language = "javascript"
 # Disable Smartquotes for French in html to work around issue https://github.com/vircadia/vircadia-docs-sphinx/issues/112
 smartquotes_excludes = {'languages': ['fr'], 'builders': ['html']}
 
-# Include at the beginning of every RST source file.
-rst_prolog = """
-
-.. |br| raw:: html
-
-     <br>
-
-.. note::
-
-    Help us hire a team member! `Donate ♥︎ <https://overte.org/donate.html>`_ or `Learn more <https://overte.org/index.html#help-us-hire-a-team-member>`_. |br|
-    So far we have raised 562,77€ of 3000€.
-
-"""
-
 # -- Options for HTML output -------------------------------------------------
 
 # The theme to use for HTML and HTML Help pages.  See the documentation for
@@ -212,3 +198,4 @@ epub_title = project
 
 # A list of files that should not be packed into the epub file.
 epub_exclude_files = ['search.html']
+
