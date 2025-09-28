@@ -41,7 +41,7 @@ Flow bones configuration can be generated using the `Flow app` available in Over
 
 Example avatar FST file with custom animations and materials override:
 
-.. code:: json
+.. code:: text
 
    name = MyAvatar
    scale = 1
