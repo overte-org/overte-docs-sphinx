@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-09-28 10:05+0000\n"
+"POT-Creation-Date: 2025-10-16 10:10+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: bg\n"
@@ -10664,69 +10664,69 @@ msgid ""
 "linuxdeploy and that both are executable)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:174
+#: ../../source/developer/INSTALLER.md:175
 #: ../../source/developer/build/BUILD_LINUX.md:156
 #: ../../source/release-notes/v86-k2.md:58
 msgid "Server"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:176
+#: ../../source/developer/INSTALLER.md:177
 msgid "Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:178
+#: ../../source/developer/INSTALLER.md:179
 msgid "Building Overte server Debian packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:180
+#: ../../source/developer/INSTALLER.md:181
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/deb_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/deb_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:182
+#: ../../source/developer/INSTALLER.md:183
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-debian-11-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:185
-#: ../../source/developer/INSTALLER.md:214
+#: ../../source/developer/INSTALLER.md:186
+#: ../../source/developer/INSTALLER.md:215
 msgid "Prepare build environment"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:194
-#: ../../source/developer/INSTALLER.md:223
+#: ../../source/developer/INSTALLER.md:195
+#: ../../source/developer/INSTALLER.md:224
 msgid "Build"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:199
+#: ../../source/developer/INSTALLER.md:200
 msgid "Create Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:205
+#: ../../source/developer/INSTALLER.md:206
 msgid "RPM package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:207
+#: ../../source/developer/INSTALLER.md:208
 msgid "Building Overte server RPM packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:209
+#: ../../source/developer/INSTALLER.md:210
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/rpm_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/rpm_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:211
+#: ../../source/developer/INSTALLER.md:212
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-fedora-36-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:228
+#: ../../source/developer/INSTALLER.md:229
 msgid "Create RPM package"
 msgstr ""
 
@@ -12406,13 +12406,13 @@ msgstr ""
 #: ../../source/developer/interface/command-line-parameters.md:57
 msgid ""
 "Disable display plugin. Possible devices include \"OpenVR (Vive)\", "
-"\"Oculus Rift\"."
+"\"Oculus Rift\", \"OpenXR\"."
 msgstr ""
 
 #: ../../source/developer/interface/command-line-parameters.md:61
 msgid ""
 "Disable input plugin. Possible devices include \"OpenVR (Vive)\", "
-"\"Oculus Rift\"."
+"\"Oculus Rift\", \"OpenXR\", \"Sdl2\"."
 msgstr ""
 
 #: ../../source/developer/interface/command-line-parameters.md:65
@@ -31220,5 +31220,15 @@ msgstr ""
 #~ "`Learn more <https://overte.org/index.html#help-"
 #~ "us-hire-a-team-member>`_. |br| So far "
 #~ "we have raised 562,77€ of 3000€."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Disable display plugin. Possible devices "
+#~ "include \"OpenVR (Vive)\", \"Oculus Rift\"."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Disable input plugin. Possible devices "
+#~ "include \"OpenVR (Vive)\", \"Oculus Rift\"."
 #~ msgstr ""
 

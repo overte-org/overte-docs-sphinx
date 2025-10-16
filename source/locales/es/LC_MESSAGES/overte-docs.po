@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-09-28 10:05+0000\n"
+"POT-Creation-Date: 2025-10-16 10:10+0000\n"
 "PO-Revision-Date: 2025-09-27 09:04+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language: es\n"
@@ -13536,21 +13536,21 @@ msgstr ""
 "Ejecute linuxdeploy (asegúrese que el linuxdeploy-plugin-qt esté en el "
 "mismo directorio que linuxdeploy y que juntos sean ejecutables)"
 
-#: ../../source/developer/INSTALLER.md:174
+#: ../../source/developer/INSTALLER.md:175
 #: ../../source/developer/build/BUILD_LINUX.md:156
 #: ../../source/release-notes/v86-k2.md:58
 msgid "Server"
 msgstr "Servidor"
 
-#: ../../source/developer/INSTALLER.md:176
+#: ../../source/developer/INSTALLER.md:177
 msgid "Debian package"
 msgstr "Paquete Debian"
 
-#: ../../source/developer/INSTALLER.md:178
+#: ../../source/developer/INSTALLER.md:179
 msgid "Building Overte server Debian packages using Docker"
 msgstr "Construyendo los paquetes Debian del servidor Overte usando Docker"
 
-#: ../../source/developer/INSTALLER.md:180
+#: ../../source/developer/INSTALLER.md:181
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/deb_package/](https://github.com/overte-"
@@ -13560,7 +13560,7 @@ msgstr ""
 "scripts/deb_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/deb_package)"
 
-#: ../../source/developer/INSTALLER.md:182
+#: ../../source/developer/INSTALLER.md:183
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-debian-11-amd64`"
@@ -13569,29 +13569,29 @@ msgstr ""
 "$(pwd)/../../..:/overte -it overte/overte-server-"
 "build:0.1.2-debian-11-amd64`"
 
-#: ../../source/developer/INSTALLER.md:185
-#: ../../source/developer/INSTALLER.md:214
+#: ../../source/developer/INSTALLER.md:186
+#: ../../source/developer/INSTALLER.md:215
 msgid "Prepare build environment"
 msgstr "Preparar el ambiente de compilación"
 
-#: ../../source/developer/INSTALLER.md:194
-#: ../../source/developer/INSTALLER.md:223
+#: ../../source/developer/INSTALLER.md:195
+#: ../../source/developer/INSTALLER.md:224
 msgid "Build"
 msgstr "Compilar"
 
-#: ../../source/developer/INSTALLER.md:199
+#: ../../source/developer/INSTALLER.md:200
 msgid "Create Debian package"
 msgstr "Crear un Paquete Debian"
 
-#: ../../source/developer/INSTALLER.md:205
+#: ../../source/developer/INSTALLER.md:206
 msgid "RPM package"
 msgstr "Paquete RPM"
 
-#: ../../source/developer/INSTALLER.md:207
+#: ../../source/developer/INSTALLER.md:208
 msgid "Building Overte server RPM packages using Docker"
 msgstr "Creación de paquetes RPM del servidor Overte mediante Docker"
 
-#: ../../source/developer/INSTALLER.md:209
+#: ../../source/developer/INSTALLER.md:210
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/rpm_package/](https://github.com/overte-"
@@ -13601,7 +13601,7 @@ msgstr ""
 "scripts/rpm_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/rpm_package)"
 
-#: ../../source/developer/INSTALLER.md:211
+#: ../../source/developer/INSTALLER.md:212
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-fedora-36-amd64`"
@@ -13610,7 +13610,7 @@ msgstr ""
 "$(pwd)/../../..:/overte -it overte/overte-server-"
 "build:0.1.2-fedora-36-amd64`"
 
-#: ../../source/developer/INSTALLER.md:228
+#: ../../source/developer/INSTALLER.md:229
 msgid "Create RPM package"
 msgstr "Crear un Paquete RPM"
 
@@ -15597,17 +15597,19 @@ msgid "Preferred displays."
 msgstr "Pantallas preferidas."
 
 #: ../../source/developer/interface/command-line-parameters.md:57
+#, fuzzy
 msgid ""
 "Disable display plugin. Possible devices include \"OpenVR (Vive)\", "
-"\"Oculus Rift\"."
+"\"Oculus Rift\", \"OpenXR\"."
 msgstr ""
 "Desactivar el complemento de visualización. Los dispositivos posibles "
 "incluyen \"OpenVR (Vive)\", \"Oculus Rift\"."
 
 #: ../../source/developer/interface/command-line-parameters.md:61
+#, fuzzy
 msgid ""
 "Disable input plugin. Possible devices include \"OpenVR (Vive)\", "
-"\"Oculus Rift\"."
+"\"Oculus Rift\", \"OpenXR\", \"Sdl2\"."
 msgstr ""
 "Desactivar el complemento de entrada. Los dispositivos posibles incluyen "
 "\"OpenVR (Vive)\", \"Oculus Rift\"."
