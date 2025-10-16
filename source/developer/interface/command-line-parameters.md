@@ -54,13 +54,13 @@ Preferred displays.
 
     --displays=<device>
 
-Disable display plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift".
+Disable display plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift", "OpenXR".
 
-    --disable-displays=<device>
+    --disableDisplayPlugins=<device>
 
-Disable input plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift".
+Disable input plugin. Possible devices include "OpenVR (Vive)", "Oculus Rift", "OpenXR", "Sdl2".
 
-    --disable-inputs=<device>
+    --disableInputPlugins=<device>
 
 Suppress the prompt to reset interface settings
 
