@@ -43,39 +43,3 @@ It will then be:
 
 * Added to Overte's `Events Calendar <https://www.overte.org/events>`_ 
 * Promoted on Overte's social channels
-
---------------------
-Blast to Connections
---------------------
-
-If you want to let all of your Overte colleagues know about something that’s happening right now, you can blast an announcement to all of your connections. Within about a minute, all of your interested `connections and friends <../explore/socialize.html#make-connections-and-friends>`_ will get notified whenever they come online. 
-
-To send a blast notification: 
-
-1. Take a snapshot of your domain. 
-
-    * In Interface, pull up your Tablet or HUD and go to **Snap**.
-    * In the Snapshot app, press the large red circle to capture a snapshot.
-2. Choose to 'Share: Blast to Connections'.
-
-When a friend or connection clicks on the notification, it will open the GoTo app with your snapshot available. Clicking on the snapshot will take them directly to the place where the picture was taken within the metaverse.  
-
----------------------------------------------
-Post a Snapshot on Social Media
----------------------------------------------
-
-You can also share your domain directly to Twitter or Facebook. To do so:
-
-1. Take a snapshot of your domain. 
-
-    * In Interface, pull up your Tablet or HUD and go to **Snap**.
-    * In the Snapshot app, press the large red circle to capture a snapshot.
-2. Choose to 'Share to Facebook' or 'Share to Twitter'.
-3. Log in to your social media account.
-
-When someone clicks the story in their Facebook or Twitter feed, they are taken to a page that gives them more info about the domain. Clicking the picture or “visit” button on that page will bring them to the place where the picture was taken within the metaverse (if they have Interface installed).  
- 
-
-
-
-
