@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-10-16 10:10+0000\n"
+"POT-Creation-Date: 2025-11-07 22:45+0000\n"
 "PO-Revision-Date: 2025-09-27 09:04+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language: es\n"
@@ -23643,90 +23643,6 @@ msgstr "Agregado al `Calendario de Eventos <https://www.overte.org/events>`_"
 msgid "Promoted on Overte's social channels"
 msgstr "Promocionado en los canales sociales de Overte"
 
-#: ../../source/host/invite-users.rst:49
-msgid "Blast to Connections"
-msgstr "Anuncio a Conexiones"
-
-#: ../../source/host/invite-users.rst:51
-msgid ""
-"If you want to let all of your Overte colleagues know about something "
-"that’s happening right now, you can blast an announcement to all of your "
-"connections. Within about a minute, all of your interested `connections "
-"and friends <../explore/socialize.html#make-connections-and-friends>`_ "
-"will get notified whenever they come online."
-msgstr ""
-"Si quieres informar a todos tus colegas de Overte sobre algo que está "
-"sucediendo en este momento, puedes enviar un anuncio a todas sus "
-"conexiones. En aproximadamente un minuto, todas tus `conexiones y amigos "
-"interesados <../explore/socialize.html#make-connections-and-friends>`_ "
-"recibirán una notificación cada vez que se conecten."
-
-#: ../../source/host/invite-users.rst:53
-msgid "To send a blast notification:"
-msgstr "Para enviar una notificación de anuncio:"
-
-#: ../../source/host/invite-users.rst:55 ../../source/host/invite-users.rst:69
-msgid "Take a snapshot of your domain."
-msgstr "Toma una instantánea de tu dominio."
-
-#: ../../source/host/invite-users.rst:57 ../../source/host/invite-users.rst:71
-msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
-msgstr "En Interfaz, abre tu tableta o HUD y ve a **Snap**."
-
-#: ../../source/host/invite-users.rst:58 ../../source/host/invite-users.rst:72
-msgid "In the Snapshot app, press the large red circle to capture a snapshot."
-msgstr ""
-"En la aplicación Snapshot, presiona el círculo rojo grande para capturar "
-"una instantánea."
-
-#: ../../source/host/invite-users.rst:59
-msgid "Choose to 'Share: Blast to Connections'."
-msgstr "Elije \"Share: Blast to Connections\"."
-
-#: ../../source/host/invite-users.rst:61
-msgid ""
-"When a friend or connection clicks on the notification, it will open the "
-"GoTo app with your snapshot available. Clicking on the snapshot will take"
-" them directly to the place where the picture was taken within the "
-"metaverse."
-msgstr ""
-"Cuando un amigo o contacto haga click en la notificación, se abrirá la "
-"aplicación GoTo con tu instantánea disponible. Al hacer click en la "
-"instantánea, los llevará directamente al lugar donde se tomó la imagen "
-"dentro del metaverso."
-
-#: ../../source/host/invite-users.rst:65
-msgid "Post a Snapshot on Social Media"
-msgstr "Publicar una Instantánea en las Redes Sociales"
-
-#: ../../source/host/invite-users.rst:67
-msgid "You can also share your domain directly to Twitter or Facebook. To do so:"
-msgstr ""
-"También puedes compartir tu dominio directamente en Twitter o Facebook. "
-"Para hacerlo:"
-
-#: ../../source/host/invite-users.rst:73
-msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
-msgstr "Elije \"Share to Facebook\" o \"Share to Twitter\"."
-
-#: ../../source/host/invite-users.rst:74
-msgid "Log in to your social media account."
-msgstr "Inicia sesión en tus cuentas de redes sociales."
-
-#: ../../source/host/invite-users.rst:76
-msgid ""
-"When someone clicks the story in their Facebook or Twitter feed, they are"
-" taken to a page that gives them more info about the domain. Clicking the"
-" picture or “visit” button on that page will bring them to the place "
-"where the picture was taken within the metaverse (if they have Interface "
-"installed)."
-msgstr ""
-"Cuando alguien haga click en la historia en tu feed de Facebook o "
-"Twitter, se lo lleva a una página que le brinda más información sobre el "
-"dominio. Al hacer click en la imagen o en el botón \"visit\" en esa "
-"página, los llevará al lugar donde se tomó la imagen dentro del metaverso"
-" (si tienen instalada la interfaz)."
-
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/backup-domain.rst:3
 msgid "Backup and Restore Your Domain"
@@ -41814,4 +41730,103 @@ msgstr "UUID de sesión en Metaverso"
 #~ "información <https://overte.org/index.html#help-us-"
 #~ "hire-a-team-member>`_. Hasta ahora hemos "
 #~ "recaudado 464,62€ de 3000€."
+
+#~ msgid "Blast to Connections"
+#~ msgstr "Anuncio a Conexiones"
+
+#~ msgid ""
+#~ "If you want to let all of "
+#~ "your Overte colleagues know about "
+#~ "something that’s happening right now, "
+#~ "you can blast an announcement to "
+#~ "all of your connections. Within about"
+#~ " a minute, all of your interested "
+#~ "`connections and friends <../explore/socialize.html"
+#~ "#make-connections-and-friends>`_ will get"
+#~ " notified whenever they come online."
+#~ msgstr ""
+#~ "Si quieres informar a todos tus "
+#~ "colegas de Overte sobre algo que "
+#~ "está sucediendo en este momento, puedes"
+#~ " enviar un anuncio a todas sus "
+#~ "conexiones. En aproximadamente un minuto, "
+#~ "todas tus `conexiones y amigos "
+#~ "interesados <../explore/socialize.html#make-"
+#~ "connections-and-friends>`_ recibirán una "
+#~ "notificación cada vez que se conecten."
+
+#~ msgid "To send a blast notification:"
+#~ msgstr "Para enviar una notificación de anuncio:"
+
+#~ msgid "Take a snapshot of your domain."
+#~ msgstr "Toma una instantánea de tu dominio."
+
+#~ msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
+#~ msgstr "En Interfaz, abre tu tableta o HUD y ve a **Snap**."
+
+#~ msgid "In the Snapshot app, press the large red circle to capture a snapshot."
+#~ msgstr ""
+#~ "En la aplicación Snapshot, presiona el"
+#~ " círculo rojo grande para capturar "
+#~ "una instantánea."
+
+#~ msgid "Choose to 'Share: Blast to Connections'."
+#~ msgstr "Elije \"Share: Blast to Connections\"."
+
+#~ msgid ""
+#~ "When a friend or connection clicks "
+#~ "on the notification, it will open "
+#~ "the GoTo app with your snapshot "
+#~ "available. Clicking on the snapshot will"
+#~ " take them directly to the place "
+#~ "where the picture was taken within "
+#~ "the metaverse."
+#~ msgstr ""
+#~ "Cuando un amigo o contacto haga "
+#~ "click en la notificación, se abrirá "
+#~ "la aplicación GoTo con tu instantánea"
+#~ " disponible. Al hacer click en la "
+#~ "instantánea, los llevará directamente al "
+#~ "lugar donde se tomó la imagen "
+#~ "dentro del metaverso."
+
+#~ msgid "Post a Snapshot on Social Media"
+#~ msgstr "Publicar una Instantánea en las Redes Sociales"
+
+#~ msgid ""
+#~ "You can also share your domain "
+#~ "directly to Twitter or Facebook. To "
+#~ "do so:"
+#~ msgstr ""
+#~ "También puedes compartir tu dominio "
+#~ "directamente en Twitter o Facebook. Para"
+#~ " hacerlo:"
+
+#~ msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
+#~ msgstr "Elije \"Share to Facebook\" o \"Share to Twitter\"."
+
+#~ msgid "Log in to your social media account."
+#~ msgstr "Inicia sesión en tus cuentas de redes sociales."
+
+#~ msgid ""
+#~ "When someone clicks the story in "
+#~ "their Facebook or Twitter feed, they "
+#~ "are taken to a page that gives "
+#~ "them more info about the domain. "
+#~ "Clicking the picture or “visit” button"
+#~ " on that page will bring them "
+#~ "to the place where the picture was"
+#~ " taken within the metaverse (if they"
+#~ " have Interface installed)."
+#~ msgstr ""
+#~ "Cuando alguien haga click en la "
+#~ "historia en tu feed de Facebook o"
+#~ " Twitter, se lo lleva a una "
+#~ "página que le brinda más información "
+#~ "sobre el dominio. Al hacer click "
+#~ "en la imagen o en el botón "
+#~ "\"visit\" en esa página, los llevará "
+#~ "al lugar donde se tomó la imagen"
+#~ " dentro del metaverso (si tienen "
+#~ "instalada la interfaz)."
 

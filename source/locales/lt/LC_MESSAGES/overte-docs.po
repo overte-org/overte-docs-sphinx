@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-10-16 10:10+0000\n"
+"POT-Creation-Date: 2025-11-07 22:45+0000\n"
 "PO-Revision-Date: 2023-07-08 23:17+0000\n"
 "Last-Translator: Bliffykins <tentacles@rape.lol>\n"
 "Language: lt\n"
@@ -18706,72 +18706,6 @@ msgstr ""
 msgid "Promoted on Overte's social channels"
 msgstr ""
 
-#: ../../source/host/invite-users.rst:49
-msgid "Blast to Connections"
-msgstr ""
-
-#: ../../source/host/invite-users.rst:51
-msgid ""
-"If you want to let all of your Overte colleagues know about something "
-"that’s happening right now, you can blast an announcement to all of your "
-"connections. Within about a minute, all of your interested `connections "
-"and friends <../explore/socialize.html#make-connections-and-friends>`_ "
-"will get notified whenever they come online."
-msgstr ""
-
-#: ../../source/host/invite-users.rst:53
-msgid "To send a blast notification:"
-msgstr ""
-
-#: ../../source/host/invite-users.rst:55 ../../source/host/invite-users.rst:69
-msgid "Take a snapshot of your domain."
-msgstr ""
-
-#: ../../source/host/invite-users.rst:57 ../../source/host/invite-users.rst:71
-msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
-msgstr ""
-
-#: ../../source/host/invite-users.rst:58 ../../source/host/invite-users.rst:72
-msgid "In the Snapshot app, press the large red circle to capture a snapshot."
-msgstr ""
-
-#: ../../source/host/invite-users.rst:59
-msgid "Choose to 'Share: Blast to Connections'."
-msgstr ""
-
-#: ../../source/host/invite-users.rst:61
-msgid ""
-"When a friend or connection clicks on the notification, it will open the "
-"GoTo app with your snapshot available. Clicking on the snapshot will take"
-" them directly to the place where the picture was taken within the "
-"metaverse."
-msgstr ""
-
-#: ../../source/host/invite-users.rst:65
-msgid "Post a Snapshot on Social Media"
-msgstr ""
-
-#: ../../source/host/invite-users.rst:67
-msgid "You can also share your domain directly to Twitter or Facebook. To do so:"
-msgstr ""
-
-#: ../../source/host/invite-users.rst:73
-msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
-msgstr ""
-
-#: ../../source/host/invite-users.rst:74
-msgid "Log in to your social media account."
-msgstr ""
-
-#: ../../source/host/invite-users.rst:76
-msgid ""
-"When someone clicks the story in their Facebook or Twitter feed, they are"
-" taken to a page that gives them more info about the domain. Clicking the"
-" picture or “visit” button on that page will bring them to the place "
-"where the picture was taken within the metaverse (if they have Interface "
-"installed)."
-msgstr ""
-
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/backup-domain.rst:3
 msgid "Backup and Restore Your Domain"
@@ -31234,5 +31168,72 @@ msgstr ""
 #~ msgid ""
 #~ "Disable input plugin. Possible devices "
 #~ "include \"OpenVR (Vive)\", \"Oculus Rift\"."
+#~ msgstr ""
+
+#~ msgid "Blast to Connections"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you want to let all of "
+#~ "your Overte colleagues know about "
+#~ "something that’s happening right now, "
+#~ "you can blast an announcement to "
+#~ "all of your connections. Within about"
+#~ " a minute, all of your interested "
+#~ "`connections and friends <../explore/socialize.html"
+#~ "#make-connections-and-friends>`_ will get"
+#~ " notified whenever they come online."
+#~ msgstr ""
+
+#~ msgid "To send a blast notification:"
+#~ msgstr ""
+
+#~ msgid "Take a snapshot of your domain."
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
+#~ msgstr ""
+
+#~ msgid "In the Snapshot app, press the large red circle to capture a snapshot."
+#~ msgstr ""
+
+#~ msgid "Choose to 'Share: Blast to Connections'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When a friend or connection clicks "
+#~ "on the notification, it will open "
+#~ "the GoTo app with your snapshot "
+#~ "available. Clicking on the snapshot will"
+#~ " take them directly to the place "
+#~ "where the picture was taken within "
+#~ "the metaverse."
+#~ msgstr ""
+
+#~ msgid "Post a Snapshot on Social Media"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also share your domain "
+#~ "directly to Twitter or Facebook. To "
+#~ "do so:"
+#~ msgstr ""
+
+#~ msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
+#~ msgstr ""
+
+#~ msgid "Log in to your social media account."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When someone clicks the story in "
+#~ "their Facebook or Twitter feed, they "
+#~ "are taken to a page that gives "
+#~ "them more info about the domain. "
+#~ "Clicking the picture or “visit” button"
+#~ " on that page will bring them "
+#~ "to the place where the picture was"
+#~ " taken within the metaverse (if they"
+#~ " have Interface installed)."
 #~ msgstr ""
 

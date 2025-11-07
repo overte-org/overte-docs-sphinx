@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-10-16 10:10+0000\n"
+"POT-Creation-Date: 2025-11-07 22:45+0000\n"
 "PO-Revision-Date: 2025-05-04 16:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: ja\n"
@@ -20922,88 +20922,6 @@ msgstr ""
 msgid "Promoted on Overte's social channels"
 msgstr ""
 
-#: ../../source/host/invite-users.rst:49
-#, fuzzy
-msgid "Blast to Connections"
-msgstr "ブラストへ接続する"
-
-#: ../../source/host/invite-users.rst:51
-#, fuzzy
-msgid ""
-"If you want to let all of your Overte colleagues know about something "
-"that’s happening right now, you can blast an announcement to all of your "
-"connections. Within about a minute, all of your interested `connections "
-"and friends <../explore/socialize.html#make-connections-and-friends>`_ "
-"will get notified whenever they come online."
-msgstr ""
-"Vircadiaの仲間全員に今起こっていることを知らせたい場合、あなたのコネクション全てにアナウンスを流すことができます。約1分以内に、興味のあるすべての`コネクションと友達"
-" <.../explore/socialize.html#make-connections and-friends>`_ "
-"がオンラインになったときに通知されます。"
-
-#: ../../source/host/invite-users.rst:53
-#, fuzzy
-msgid "To send a blast notification:"
-msgstr "ブラスト通知を送信するには :"
-
-#: ../../source/host/invite-users.rst:55 ../../source/host/invite-users.rst:69
-#, fuzzy
-msgid "Take a snapshot of your domain."
-msgstr "ドメインのスナップショットを取ります。"
-
-#: ../../source/host/invite-users.rst:57 ../../source/host/invite-users.rst:71
-#, fuzzy
-msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
-msgstr "インターフェイスで、Tablet またはHUDをプルアップし、 **Snap** に移動します。"
-
-#: ../../source/host/invite-users.rst:58 ../../source/host/invite-users.rst:72
-#, fuzzy
-msgid "In the Snapshot app, press the large red circle to capture a snapshot."
-msgstr "スナップショットアプリで、大きな赤い円を押してスナップショットをキャプチャします。"
-
-#: ../../source/host/invite-users.rst:59
-#, fuzzy
-msgid "Choose to 'Share: Blast to Connections'."
-msgstr "「Share: Blast to Connections」を選択します。"
-
-#: ../../source/host/invite-users.rst:61
-#, fuzzy
-msgid ""
-"When a friend or connection clicks on the notification, it will open the "
-"GoTo app with your snapshot available. Clicking on the snapshot will take"
-" them directly to the place where the picture was taken within the "
-"metaverse."
-msgstr "友人または接続が通知をクリックすると、スナップショットが利用可能な状態でGoToアプリが開きます。スナップショットをクリックすると、メタバース内で写真が撮影された場所に直接移動します。"
-
-#: ../../source/host/invite-users.rst:65
-#, fuzzy
-msgid "Post a Snapshot on Social Media"
-msgstr "ソーシャルメディアにスナップショットを投稿する"
-
-#: ../../source/host/invite-users.rst:67
-#, fuzzy
-msgid "You can also share your domain directly to Twitter or Facebook. To do so:"
-msgstr "ドメインをTwitterまたはFacebookに直接共有することもできます。以下を参照："
-
-#: ../../source/host/invite-users.rst:73
-#, fuzzy
-msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
-msgstr "「Facebookに共有」または「Twitterに共有」を選択します。"
-
-#: ../../source/host/invite-users.rst:74
-#, fuzzy
-msgid "Log in to your social media account."
-msgstr "ソーシャルメディアアカウントにログインします。"
-
-#: ../../source/host/invite-users.rst:76
-#, fuzzy
-msgid ""
-"When someone clicks the story in their Facebook or Twitter feed, they are"
-" taken to a page that gives them more info about the domain. Clicking the"
-" picture or “visit” button on that page will bring them to the place "
-"where the picture was taken within the metaverse (if they have Interface "
-"installed)."
-msgstr "FacebookまたはTwitterフィードのストーリーをクリックすると、ドメインに関する詳細情報を提供するページに移動します。そのページの写真または「訪問」ボタンをクリックすると、メタバース内で写真が撮影された場所に移動します（インターフェイスがインストールされている場合）。"
-
 #: ../../source/host/maintain-domain.rst:7
 #: ../../source/host/maintain-domain/backup-domain.rst:3
 #, fuzzy
@@ -37241,4 +37159,74 @@ msgstr "メタバースセッションUUID"
 #~ "Disable input plugin. Possible devices "
 #~ "include \"OpenVR (Vive)\", \"Oculus Rift\"."
 #~ msgstr ""
+
+#~ msgid "Blast to Connections"
+#~ msgstr "ブラストへ接続する"
+
+#~ msgid ""
+#~ "If you want to let all of "
+#~ "your Overte colleagues know about "
+#~ "something that’s happening right now, "
+#~ "you can blast an announcement to "
+#~ "all of your connections. Within about"
+#~ " a minute, all of your interested "
+#~ "`connections and friends <../explore/socialize.html"
+#~ "#make-connections-and-friends>`_ will get"
+#~ " notified whenever they come online."
+#~ msgstr ""
+#~ "Vircadiaの仲間全員に今起こっていることを知らせたい場合、あなたのコネクション全てにアナウンスを流すことができます。約1分以内に、興味のあるすべての`コネクションと友達"
+#~ " <.../explore/socialize.html#make-connections and-"
+#~ "friends>`_ がオンラインになったときに通知されます。"
+
+#~ msgid "To send a blast notification:"
+#~ msgstr "ブラスト通知を送信するには :"
+
+#~ msgid "Take a snapshot of your domain."
+#~ msgstr "ドメインのスナップショットを取ります。"
+
+#~ msgid "In Interface, pull up your Tablet or HUD and go to **Snap**."
+#~ msgstr "インターフェイスで、Tablet またはHUDをプルアップし、 **Snap** に移動します。"
+
+#~ msgid "In the Snapshot app, press the large red circle to capture a snapshot."
+#~ msgstr "スナップショットアプリで、大きな赤い円を押してスナップショットをキャプチャします。"
+
+#~ msgid "Choose to 'Share: Blast to Connections'."
+#~ msgstr "「Share: Blast to Connections」を選択します。"
+
+#~ msgid ""
+#~ "When a friend or connection clicks "
+#~ "on the notification, it will open "
+#~ "the GoTo app with your snapshot "
+#~ "available. Clicking on the snapshot will"
+#~ " take them directly to the place "
+#~ "where the picture was taken within "
+#~ "the metaverse."
+#~ msgstr "友人または接続が通知をクリックすると、スナップショットが利用可能な状態でGoToアプリが開きます。スナップショットをクリックすると、メタバース内で写真が撮影された場所に直接移動します。"
+
+#~ msgid "Post a Snapshot on Social Media"
+#~ msgstr "ソーシャルメディアにスナップショットを投稿する"
+
+#~ msgid ""
+#~ "You can also share your domain "
+#~ "directly to Twitter or Facebook. To "
+#~ "do so:"
+#~ msgstr "ドメインをTwitterまたはFacebookに直接共有することもできます。以下を参照："
+
+#~ msgid "Choose to 'Share to Facebook' or 'Share to Twitter'."
+#~ msgstr "「Facebookに共有」または「Twitterに共有」を選択します。"
+
+#~ msgid "Log in to your social media account."
+#~ msgstr "ソーシャルメディアアカウントにログインします。"
+
+#~ msgid ""
+#~ "When someone clicks the story in "
+#~ "their Facebook or Twitter feed, they "
+#~ "are taken to a page that gives "
+#~ "them more info about the domain. "
+#~ "Clicking the picture or “visit” button"
+#~ " on that page will bring them "
+#~ "to the place where the picture was"
+#~ " taken within the metaverse (if they"
+#~ " have Interface installed)."
+#~ msgstr "FacebookまたはTwitterフィードのストーリーをクリックすると、ドメインに関する詳細情報を提供するページに移動します。そのページの写真または「訪問」ボタンをクリックすると、メタバース内で写真が撮影された場所に移動します（インターフェイスがインストールされている場合）。"
 
