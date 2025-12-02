@@ -35,7 +35,7 @@ If you decide not to connect it during setup, you can do so later:
 
 1. Go to your domain's web Dashboard
 2. Navigate to Settings > Network/Directory services
-2. Click connect and follow the instructions
+3. Click connect and follow the instructions
 4. Your Domain will soon appear in the Places App (maybe 15 minutes or so)
 
 If you would like to edit your Place you can do so at `Overte Directory Service <mv.overte.org/dashboard/home>`_ under *Places*.
