@@ -27,11 +27,22 @@ Share your domain by giving out its IP address or place name. Anyone with an Ove
 Add Your Domain to the Places App
 ----------------------------------------------
 
-The Places app is designed to advertise public domains across the metaverse.
+The Places app is designed to advertise public domains across Overte.
 
-In order to be featured on Overte's Place app, you must add a location marker by opening the app and going to the spot in your domain that you want people to spawn at. In your app, scroll to the bottom and click the "Add Location" button, fill it out and you should be set! You may want to open your domain to the public, such as being open to logged in users or everyone. This means that, in your Domain Settings, under 'Standard Permissions', either the 'anonymous' or 'logged-in' group must have the Connect permission.
+You can connect your Domain by following the instructions during the initial setup wizard, and it will automatically appear in the Places app.
 
-To restrict access to your domain, you will need to create a blacklist of users without permission to connect to your domain. This can be set up by username, IP address, MAC address or machine fingerprint.
+If you decide not to connect it during setup, you can do so later:
+
+1. Go to your domain's web Dashboard
+2. Navigate to Settings > Network/Directory services
+2. Click connect and follow the instructions
+4. Your Domain will soon appear in the Places App (maybe 15 minutes or so)
+
+If you would like to edit your Place you can do so at `Overte Directory Service <mv.overte.org/dashboard/home>`_ under *Places*.
+
+You may want to open your domain to the public, such as being open to logged in users or everyone. This means that, in your Domain Settings, under 'Standard Permissions', either the 'anonymous' or 'logged-in' group must have the Connect permission.
+
+To restrict access to your domain, you will need to create a blocklist of users without permission to connect to your domain. This can be set up by username, IP address, MAC address or machine fingerprint.
 
 ------------------------------------------
 Promote Your Community Event with Overte
