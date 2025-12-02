@@ -37,7 +37,7 @@ To restrict access to your domain, you will need to create a blacklist of users 
 Promote Your Community Event with Overte
 ------------------------------------------
 
-To get your event or experience added to the calendar on our website, you can submit it to us by joining us on `Matrix<https://matrix.to/#/#overte:overte.org>` or `Discord<https://discord.gg/4YuQvc8K2f>` and reaching out to a Core Team Member.
+To get your event or experience added to the calendar on our website, you can submit it to us by joining us on `Matrix <https://matrix.to/#/#overte:overte.org>`_ or `Discord <https://discord.gg/4YuQvc8K2f>`_ and reaching out in the events channel.
 
 It will then be:
 

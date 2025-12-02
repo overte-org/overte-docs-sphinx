@@ -70,8 +70,8 @@ What's Next?
 +-----------------------------------------------+--------------------------------------+-----------------------------------------------+
 | Visit Your Domain                             | Personalize Your Content             | Configure More Settings                       |
 +===============================================+======================================+===============================================+
-| * `Go visit your domain using the Places app | * `Create a unique content set and   | * `Create a Place name <../configure-settings |
-|   <../../explore/travel.html#places-app>`_      |   upload it to your domain           |   /place-setting.html>`_                      |
+| * `Go visit your domain using the Places app  | * `Create a unique content set and   | * `Create a Place name <../configure-settings |
+|   <../../explore/travel.html#places-app>`_    |   upload it to your domain           |   /place-setting.html>`_                      |
 | * `Invite people to your domain <../invite-us |   <../add-content.html>`_            | * `Set additional user permissions <../config |
 |   ers.html>`_                                 |                                      |   ure-settings/permission-settings.html>`_    |
 | * :doc:`Meet new people and explore other     |                                      | * `Adjust audio settings <../configure-settin |
