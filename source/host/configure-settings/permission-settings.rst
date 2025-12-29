@@ -65,7 +65,7 @@ Your domain comes with four basic security groups that are already set up, based
 
 The 'Connect' permission for these standard user groups determine the privacy level of your domain:
 
-* **Public**: A public domain allows 'anonymous' and/or 'logged-in' users to connect to it. These domains may be shown in the Explore app and in other places around the metaverse.
+* **Public**: A public domain allows 'anonymous' and/or 'logged-in' users to connect to it. These domains may be shown in the Places app and in other places around the metaverse.
 * **Private**: A private domain does not allow 'anonymous' and/or 'logged-in' users to connect to it. Domain owners are responsible for promoting their domains to other users and maintaining connect permissions for users to enter their domain.
 
 ----------------

@@ -4,7 +4,7 @@ Host a Domain Locally on Windows
 
 A local server lets you use your own computer to host your virtual domain on the metaverse.
 
-.. warning:: Hosting any kind of server from your home means exposing your network to the world. Therefore, we recommend using local servers only for private events and small gatherings. If you want to host a public domain or advertise your domain in the Explore app, we recommend using a cloud hosting provider such as DigitalOcean.
+.. warning:: Hosting any kind of server from your home means exposing your network to the world. Therefore, we recommend using local servers only for private events and small gatherings. If you want to host a public domain or advertise your domain in the Places app, we recommend using a cloud hosting provider such as DigitalOcean.
 
 .. contents:: On This Page
     :depth: 2
@@ -36,7 +36,7 @@ To set up a domain and host it on your local server:
 2. Follow the steps of the Wizard to create a domain on the metaverse and connect it to your local server. 
     
     * **Step 1: Connect your Metaverse account**: When you connect your account, you become the owner of the new domain ID that is created for your server. The security token that you copy and paste gives the Metaverse Server access to your domain settings, which are stored on your local server.
-    * **Step 2: Create Place name**: Your Place name is how users will visit your domain in the metaverse. Alternatively, they can enter your domain's ID or IP address into the Explore app.
+    * **Step 2: Create Place name**: Your Place name is how users will visit your domain in the metaverse. Alternatively, they can enter your domain's ID or IP address into the Places app.
     
     .. note:: Learn :doc:`how to configure a Place name <../configure-settings/place-setting>`.
     
@@ -70,8 +70,8 @@ What's Next?
 +-----------------------------------------------+--------------------------------------+-----------------------------------------------+
 | Visit Your Domain                             | Personalize Your Content             | Configure More Settings                       |
 +===============================================+======================================+===============================================+
-| * `Go visit your domain using the Explore app | * `Create a unique content set and   | * `Create a Place name <../configure-settings |
-|   <../../explore/travel.html#goto-app>`_      |   upload it to your domain           |   /place-setting.html>`_                      |
+| * `Go visit your domain using the Places app  | * `Create a unique content set and   | * `Create a Place name <../configure-settings |
+|   <../../explore/travel.html#places-app>`_    |   upload it to your domain           |   /place-setting.html>`_                      |
 | * `Invite people to your domain <../invite-us |   <../add-content.html>`_            | * `Set additional user permissions <../config |
 |   ers.html>`_                                 |                                      |   ure-settings/permission-settings.html>`_    |
 | * :doc:`Meet new people and explore other     |                                      | * `Adjust audio settings <../configure-settin |
