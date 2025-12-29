@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-11-07 22:45+0000\n"
+"POT-Creation-Date: 2025-12-29 17:44+0000\n"
 "PO-Revision-Date: 2025-09-27 09:04+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language: es\n"
@@ -1155,7 +1155,7 @@ msgstr ""
 #: ../../source/explore/personalize/add-wearables.rst:35
 #: ../../source/explore/personalize/change-avatar.md:31
 #: ../../source/explore/personalize/install-apps.md:101
-#: ../../source/explore/travel.md:40
+#: ../../source/explore/travel.md:35
 #: ../../source/script/assignment-client-scripts.md:54
 #: ../../source/script/avatar-scripts.md:78
 #: ../../source/script/client-entity-scripts.md:44
@@ -2617,7 +2617,7 @@ msgstr ""
 #: ../../source/explore/interact.md:7
 #: ../../source/explore/personalize/change-avatar.md:10
 #: ../../source/explore/personalize/install-apps.md:12
-#: ../../source/explore/travel.md:10 ../../source/script/js-tips.md:7
+#: ../../source/explore/travel.md:5 ../../source/script/js-tips.md:7
 #: ../../source/script/write-scripts.md:12
 msgid "**On This Page:**"
 msgstr "**En Esta Página:**"
@@ -9647,10 +9647,11 @@ msgid "Tutorial: Create a Portal"
 msgstr "Tutorial: Crear un Portal"
 
 #: ../../source/create/entities/portal-tutorial.md:8
+#, fuzzy
 msgid ""
 "Portals in Overte transport you to the domain of your choice. You can use"
 " these portals to travel to a domain you visit frequently instead of "
-"using the **GoTo** app on your HUD or Tablet."
+"using the **Places** app on your HUD or Tablet."
 msgstr ""
 "Los portales de Overte te transportan al dominio de tu elección. Puedes "
 "usar estos portales para viajar a un dominio que visites con frecuencia "
@@ -15826,7 +15827,7 @@ msgstr "Personaliza tu Experiencia"
 msgid "Socialize with Others"
 msgstr "Socializa con Otros"
 
-#: ../../source/explore.rst:11 ../../source/explore/travel.md:6
+#: ../../source/explore.rst:11 ../../source/explore/travel.md:1
 msgid "Travel Between Worlds"
 msgstr "Viaja Entre Mundos"
 
@@ -15853,12 +15854,13 @@ msgstr ""
 "experiencia inmersiva e interactiva con visualización y audio realistas."
 
 #: ../../source/explore.rst:7
+#, fuzzy
 msgid ""
 "If it's your first time using Overte, you'll start your journey in a "
 "local tutorial space by yourself, where you can experiment with the "
 "controls and learn about the Interface. When you are ready, try exploring"
-" other domains using the Explore app and socialize with people around the"
-" metaverse. If you've visited Overte before, you will return to the "
+" other domains using the Places app and socialize with people around the "
+"metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
 msgstr ""
 "Si es tu primera vez usando Overte, puedes empezar tu viaje en un "
@@ -20176,7 +20178,7 @@ msgstr ""
 "importante para ti, puedes agregarlo a tus scripts predeterminados para "
 "que siempre esté allí."
 
-#: ../../source/explore/travel.md:8
+#: ../../source/explore/travel.md:3
 msgid ""
 "Overte is made up of many virtual places that let you participate in "
 "activities and interact with the people around you. Many of these places "
@@ -20190,35 +20192,39 @@ msgstr ""
 "explorar en cualquier momento, mientras que otros se crearon para "
 "albergar eventos e interactuar con las personas que te rodean."
 
-#: ../../source/explore/travel.md:11
-msgid "[GoTo App](#goto-app)"
-msgstr "[Aplicación GoTo](#goto-app)"
+#: ../../source/explore/travel.md:6
+#, fuzzy
+msgid "[Places App](#places-app)"
+msgstr "[Actualizar una Aplicación](#update-an-app)"
 
-#: ../../source/explore/travel.md:12
+#: ../../source/explore/travel.md:7
 msgid "[Visit a Friend](#visit-a-friend)"
 msgstr "[Visita un Amigo](#visit-a-friend)"
 
-#: ../../source/explore/travel.md:14
-msgid "GoTo App"
-msgstr "Aplicación GoTo"
+#: ../../source/explore/travel.md:9
+#, fuzzy
+msgid "Places App"
+msgstr "Aplicación Explore"
 
-#: ../../source/explore/travel.md:15
+#: ../../source/explore/travel.md:10
+#, fuzzy
 msgid ""
-"The **GoTo** app lets you travel between different places in Overte. Many"
-" of our places are created by users just like you."
+"The **Places** app lets you travel between different places in Overte. "
+"Many of our places are created by users just like you."
 msgstr ""
 "La app **GoTo** te permite viajar entre diferentes lugares de Overte. "
 "Muchos de nuestros lugares son creados por usuarios como tú."
 
-#: ../../source/explore/travel.md:17
+#: ../../source/explore/travel.md:12
 msgid "To go and explore new places:"
 msgstr "Para ir y explorar nuevos lugares:"
 
-#: ../../source/explore/travel.md:18
-msgid "In Interface, pull up your tablet or HUD and go to **GoTo**."
-msgstr "En la interfaz, trae tu HUD o Tableta y ve a **GoTo**."
+#: ../../source/explore/travel.md:13
+#, fuzzy
+msgid "In Interface, pull up your tablet or HUD and go to **Places**."
+msgstr "En la interface, abre tu Tableta o HUD y ve a **People**."
 
-#: ../../source/explore/travel.md:19
+#: ../../source/explore/travel.md:14
 msgid ""
 "If you know where you want to go, enter the domain address or place name."
 " As you type, the matching places will show up. Otherwise, browse the "
@@ -20229,7 +20235,7 @@ msgstr ""
 "De lo contrario, explora los lugares abiertos en \"Featured\" y "
 "\"Places\"."
 
-#: ../../source/explore/travel.md:20
+#: ../../source/explore/travel.md:15
 msgid ""
 "Click on a place name to go to the place. If you have permissions, you "
 "will be transported to that location automatically."
@@ -20237,13 +20243,14 @@ msgstr ""
 "Haz click en el nombre de un lugar para ir al lugar. Si tienes permisos, "
 "serás transportado a esa ubicación automáticamente."
 
-#: ../../source/explore/travel.md:27
+#: ../../source/explore/travel.md:22
 msgid "![](_images/goto-app.png)"
 msgstr "![](_images/goto-app.png)"
 
-#: ../../source/explore/travel.md:29
+#: ../../source/explore/travel.md:24
+#, fuzzy
 msgid ""
-"The **GoTo** app also shows you a visual feed of snapshots that people "
+"The **Places** app also shows you a visual feed of snapshots that people "
 "have taken and shared in the metaverse. Clicking on a snap will take you "
 "directly to the place where the picture was taken."
 msgstr ""
@@ -20252,15 +20259,15 @@ msgstr ""
 "hacer click en una captura, te llevará directamente al lugar donde se "
 "tomó la imagen."
 
-#: ../../source/explore/travel.md:31
+#: ../../source/explore/travel.md:26
 msgid "![](_images/goto-snaps.png)"
 msgstr "![](_images/goto-snaps.png)"
 
-#: ../../source/explore/travel.md:33
+#: ../../source/explore/travel.md:28
 msgid "Visit a Friend"
 msgstr "Visitar a un Amigo"
 
-#: ../../source/explore/travel.md:34
+#: ../../source/explore/travel.md:29
 msgid ""
 "Once you've [made a friend](socialize.rst#make-connections-and-friends), "
 "you can see where they are and even teleport directly to them."
@@ -20269,19 +20276,19 @@ msgstr ""
 "friends), puedes ver dónde están e incluso teletransportarte directamente"
 " a ellos."
 
-#: ../../source/explore/travel.md:36
+#: ../../source/explore/travel.md:31
 msgid "In Interface, open your tablet or HUD and go to **People**."
 msgstr "En la interfaz, abre tu HUD o Tableta y ve a **People**."
 
-#: ../../source/explore/travel.md:37
+#: ../../source/explore/travel.md:32
 msgid "Click 'Connections' and find the friend you want to visit."
 msgstr "Haz click en \"Connections\" y busca el amigo que deseas visitar."
 
-#: ../../source/explore/travel.md:38
+#: ../../source/explore/travel.md:33
 msgid "Select their name then 'Visit'."
 msgstr "Selecciona su nombre y luego \"Visit\"."
 
-#: ../../source/explore/travel.md:41
+#: ../../source/explore/travel.md:36
 msgid "[Socialize with Others](socialize)"
 msgstr "[Socializar con Otros](socialize)"
 
@@ -23167,9 +23174,10 @@ msgstr ""
 " nivel de privacidad de tu dominio:"
 
 #: ../../source/host/configure-settings/permission-settings.rst:68
+#, fuzzy
 msgid ""
 "**Public**: A public domain allows 'anonymous' and/or 'logged-in' users "
-"to connect to it. These domains may be shown in the Explore app and in "
+"to connect to it. These domains may be shown in the Places app and in "
 "other places around the metaverse."
 msgstr ""
 "**Public**: Un dominio público permite que los usuarios \"anónimos\" y/o "
@@ -23491,18 +23499,20 @@ msgid "For 'Path', enter the coordinates where your visitors will spawn."
 msgstr "Para \"Path\", ingresa las coordenadas donde aparecerán tus visitantes."
 
 #: ../../source/host/configure-settings/place-setting.rst:55
+#, fuzzy
 msgid ""
 "(Optional) Enter a description for your domain. This shows up when a user"
-" clicks the info icon if your domain is displayed in the Explore app."
+" clicks the info icon if your domain is displayed in the Places app."
 msgstr ""
 "(Opcional) Introduce una descripción para tu dominio. Esto aparece cuando"
 " un usuario hace click en el ícono de información si tu dominio se "
 "muestra en la aplicación Explorar (Explore App)."
 
 #: ../../source/host/configure-settings/place-setting.rst:56
+#, fuzzy
 msgid ""
 "(Optional) Upload a preview image of your domain. This shows up when your"
-" domain is displayed in the Explore app."
+" domain is displayed in the Places app."
 msgstr ""
 "(Opcional) Carga una imagen de vista previa de tu dominio. Esto aparece "
 "cuando tu dominio se muestra en la aplicación Explorar."
@@ -23512,15 +23522,9 @@ msgid "Click 'Update Place'."
 msgstr "Haz click en \"Update Place\"."
 
 #: ../../source/host/invite-users.rst:2
-msgid ""
-"This document is outdated. FIXME: grammar errors, mentions GoTo, mentions"
-" Blast functionality, mentions social media share linking to a domain "
-"info page (I assume that this functionality hasn't been restored)"
-msgstr ""
-"Este documento está desactualizado. A TENER EN CUENTA: errores "
-"gramaticales, menciona GoTo, menciona la funcionalidad Blast, menciona el"
-" enlace compartido de redes sociales a una página de información de "
-"dominio (se supone que esta funcionalidad no se ha restaurado)"
+#, fuzzy
+msgid "This document is outdated. FIXME: grammar errors"
+msgstr "Este documento está desactualizado. A tener en cuenta: menciona Sandbox"
 
 #: ../../source/host/invite-users.rst:9
 msgid ""
@@ -23547,10 +23551,12 @@ msgstr ""
 "personal a visitar tu dominio."
 
 #: ../../source/host/invite-users.rst:20
+#, fuzzy
 msgid ""
 "Share your domain by giving out its IP address or place name. Anyone with"
-" a Overte account can enter the IP address or place name directly into "
-"the GoTo app to teleport directly to your domain."
+" an Overte account can enter the place name directly into the Places app "
+"to find it, or use a hifi:// address with either your IP address or place"
+" name to teleport directly to your domain."
 msgstr ""
 "Comparte tu dominio dando tu dirección IP o el nombre del lugar. "
 "Cualquier persona con una cuenta de Overte puede ingresar la dirección IP"
@@ -23559,40 +23565,65 @@ msgstr ""
 
 #: ../../source/host/invite-users.rst:24
 msgid ""
-"TIP: You can send other Overte users clickable URLs that send them "
-"directly to your domain. Simply send them the URL "
-"``https://hifi.place/<domain IP | place name>``. When they click the "
-"link, they will be prompted to open Interface.exe and land at the spawn "
-"point in your domain."
+"TIP: You can send other Overte users hifi:// addresses which send them "
+"directly to a location in your domain. Simply click \"Navigate\" -> "
+"\"Copy Address to clipboard\" and send them the address. When they paste "
+"the address into their Places app they will be instantly teleported to "
+"where you were when you copied the address."
 msgstr ""
-"CONSEJO: Puedes enviar a otros usuarios de Overte una URL clickeable que "
-"los envíe directamente a tu dominio. Simplemente envíales la URL "
-"``https://hifi.place/<dominio IP | place name>``. Cuando hagan clic en el"
-" enlace, se les pedirá que abran Interface.exe y aparecerán en el punto "
-"de generación de tu dominio."
 
 #: ../../source/host/invite-users.rst:28
-msgid "Add Your Domain to the Explore App"
+#, fuzzy
+msgid "Add Your Domain to the Places App"
 msgstr "Añade tu Dominio a la Aplicación Explore"
 
 #: ../../source/host/invite-users.rst:30
-msgid ""
-"The Explore app is designed to advertise public domains across the "
-"metaverse."
+#, fuzzy
+msgid "The Places app is designed to advertise public domains across Overte."
 msgstr ""
 "La aplicación Explore está diseñada para anunciar dominios públicos en el"
 " metaverso."
 
 #: ../../source/host/invite-users.rst:32
 msgid ""
-"In order to be featured on Overte's Explore app, you must add a location "
-"marker by opening the app and going to the spot in your domain that you "
-"want people to spawn at. In your app, scroll to the bottom and click the "
-"\"Add Location\" button, fill it out and you should be set! You may want "
-"to open your domain to the public, such as being open to logged in users "
-"or everyone. This means that, in your Domain Settings, under 'Standard "
-"Permissions', either the 'anonymous' or 'logged-in' group must have the "
-"Connect permission."
+"You can connect your Domain by following the instructions during the "
+"initial setup wizard, and it will automatically appear in the Places app."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:34
+msgid "If you decide not to connect it during setup, you can do so later:"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:36
+msgid "Go to your domain's web Dashboard"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:37
+msgid "Navigate to Settings > Network/Directory services"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:38
+#, fuzzy
+msgid "Click connect and follow the instructions"
+msgstr "Haz clik en \"Save\" y cierra la página de Configuraciones del Dominio."
+
+#: ../../source/host/invite-users.rst:39
+msgid "Your Domain will soon appear in the Places App (maybe 15 minutes or so)"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:41
+msgid ""
+"If you would like to edit your Place you can do so at `Overte Directory "
+"Service <mv.overte.org/dashboard/home>`_ under *Places*."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:43
+#, fuzzy
+msgid ""
+"You may want to open your domain to the public, such as being open to "
+"logged in users or everyone. This means that, in your Domain Settings, "
+"under 'Standard Permissions', either the 'anonymous' or 'logged-in' group"
+" must have the Connect permission."
 msgstr ""
 "Para aparecer en la aplicación Explore de Overte, debes agregar un "
 "marcador de ubicación al abrir la aplicación y dirigirte al lugar de tu "
@@ -23604,9 +23635,10 @@ msgstr ""
 "\"Standard Permissions\", el grupo \"anonymous\" o \"logged-in\" debe "
 "tener el permiso Conectar (Connect Permission)."
 
-#: ../../source/host/invite-users.rst:34
+#: ../../source/host/invite-users.rst:45
+#, fuzzy
 msgid ""
-"To restrict access to your domain, you will need to create a blacklist of"
+"To restrict access to your domain, you will need to create a blocklist of"
 " users without permission to connect to your domain. This can be set up "
 "by username, IP address, MAC address or machine fingerprint."
 msgstr ""
@@ -23615,31 +23647,32 @@ msgstr ""
 "configurar por nombre de usuario, dirección IP, dirección MAC o huella "
 "digital de la máquina."
 
-#: ../../source/host/invite-users.rst:38
+#: ../../source/host/invite-users.rst:49
 msgid "Promote Your Community Event with Overte"
 msgstr "Promocione su evento comunitario con Overte"
 
-#: ../../source/host/invite-users.rst:40
+#: ../../source/host/invite-users.rst:51
+#, fuzzy
 msgid ""
 "To get your event or experience added to the calendar on our website, you"
-" can submit it to us by filling out by joining our "
-"`Discord<https://discordapp.com/invite/Pvx2vke>` server and reaching out "
-"to a Core Team Member."
+" can submit it to us by joining us on `Matrix "
+"<https://matrix.to/#/#overte:overte.org>`_ or `Discord "
+"<https://discord.gg/4YuQvc8K2f>`_ and reaching out in the events channel."
 msgstr ""
 "Para agregar tu evento o experiencia al calendario de nuestro sitio web, "
 "puedes pedirlo a través de nuestro servidor de "
 "`Discord<https://discordapp.com/invite/Pvx2vke>` y poniéndote en contacto"
 " con un miembro del equipo central."
 
-#: ../../source/host/invite-users.rst:42
+#: ../../source/host/invite-users.rst:53
 msgid "It will then be:"
 msgstr "Entonces puedes:"
 
-#: ../../source/host/invite-users.rst:44
+#: ../../source/host/invite-users.rst:55
 msgid "Added to Overte's `Events Calendar <https://www.overte.org/events>`_"
 msgstr "Agregado al `Calendario de Eventos <https://www.overte.org/events>`_"
 
-#: ../../source/host/invite-users.rst:45
+#: ../../source/host/invite-users.rst:56
 msgid "Promoted on Overte's social channels"
 msgstr "Promocionado en los canales sociales de Overte"
 
@@ -24680,11 +24713,12 @@ msgstr ""
 "dominio virtual en el metaverso."
 
 #: ../../source/host/server-setup/windows-server.rst:7
+#, fuzzy
 msgid ""
 "Hosting any kind of server from your home means exposing your network to "
 "the world. Therefore, we recommend using local servers only for private "
 "events and small gatherings. If you want to host a public domain or "
-"advertise your domain in the Explore app, we recommend using a cloud "
+"advertise your domain in the Places app, we recommend using a cloud "
 "hosting provider such as DigitalOcean."
 msgstr ""
 "Alojar cualquier tipo de servidor desde tu hogar significa exponer tu red"
@@ -24778,10 +24812,11 @@ msgstr ""
 "almacena en tu servidor local."
 
 #: ../../source/host/server-setup/windows-server.rst:39
+#, fuzzy
 msgid ""
 "**Step 2: Create Place name**: Your Place name is how users will visit "
 "your domain in the metaverse. Alternatively, they can enter your domain's"
-" ID or IP address into the Explore app."
+" ID or IP address into the Places app."
 msgstr ""
 "**Paso 2: Crear el Place Name**: el nombre de lugar (place name) es la "
 "forma en que los usuarios visitarán tu dominio en el metaverso. "
@@ -24906,9 +24941,10 @@ msgid "Configure More Settings"
 msgstr "Configurar Más Ajustes"
 
 #: ../../source/host/server-setup/windows-server.rst:73
+#, fuzzy
 msgid ""
-"`Go visit your domain using the Explore app <../../explore/travel.html"
-"#goto-app>`_"
+"`Go visit your domain using the Places app <../../explore/travel.html"
+"#places-app>`_"
 msgstr ""
 "`Ve a visitar tu dominio usando la Explore app <../../explore/travel.html"
 "#goto-app>`_"
@@ -41829,4 +41865,50 @@ msgstr "UUID de sesión en Metaverso"
 #~ "al lugar donde se tomó la imagen"
 #~ " dentro del metaverso (si tienen "
 #~ "instalada la interfaz)."
+
+#~ msgid "[GoTo App](#goto-app)"
+#~ msgstr "[Aplicación GoTo](#goto-app)"
+
+#~ msgid "GoTo App"
+#~ msgstr "Aplicación GoTo"
+
+#~ msgid "In Interface, pull up your tablet or HUD and go to **GoTo**."
+#~ msgstr "En la interfaz, trae tu HUD o Tableta y ve a **GoTo**."
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "grammar errors, mentions GoTo, mentions "
+#~ "Blast functionality, mentions social media "
+#~ "share linking to a domain info "
+#~ "page (I assume that this functionality"
+#~ " hasn't been restored)"
+#~ msgstr ""
+#~ "Este documento está desactualizado. A "
+#~ "TENER EN CUENTA: errores gramaticales, "
+#~ "menciona GoTo, menciona la funcionalidad "
+#~ "Blast, menciona el enlace compartido de"
+#~ " redes sociales a una página de "
+#~ "información de dominio (se supone que"
+#~ " esta funcionalidad no se ha "
+#~ "restaurado)"
+
+#~ msgid ""
+#~ "TIP: You can send other Overte "
+#~ "users clickable URLs that send them "
+#~ "directly to your domain. Simply send "
+#~ "them the URL ``https://hifi.place/<domain IP"
+#~ " | place name>``. When they click "
+#~ "the link, they will be prompted to"
+#~ " open Interface.exe and land at the"
+#~ " spawn point in your domain."
+#~ msgstr ""
+#~ "CONSEJO: Puedes enviar a otros usuarios"
+#~ " de Overte una URL clickeable que "
+#~ "los envíe directamente a tu dominio. "
+#~ "Simplemente envíales la URL "
+#~ "``https://hifi.place/<dominio IP | place "
+#~ "name>``. Cuando hagan clic en el "
+#~ "enlace, se les pedirá que abran "
+#~ "Interface.exe y aparecerán en el punto"
+#~ " de generación de tu dominio."
 

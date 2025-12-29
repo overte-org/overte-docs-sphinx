@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2025-11-07 22:45+0000\n"
+"POT-Creation-Date: 2025-12-29 17:44+0000\n"
 "PO-Revision-Date: 2025-05-04 16:19+0000\n"
 "Last-Translator: Anonymous <noreply@weblate.org>\n"
 "Language: ja\n"
@@ -1028,7 +1028,7 @@ msgstr ""
 #: ../../source/explore/personalize/add-wearables.rst:35
 #: ../../source/explore/personalize/change-avatar.md:31
 #: ../../source/explore/personalize/install-apps.md:101
-#: ../../source/explore/travel.md:40
+#: ../../source/explore/travel.md:35
 #: ../../source/script/assignment-client-scripts.md:54
 #: ../../source/script/avatar-scripts.md:78
 #: ../../source/script/client-entity-scripts.md:44
@@ -2463,7 +2463,7 @@ msgstr ""
 #: ../../source/explore/interact.md:7
 #: ../../source/explore/personalize/change-avatar.md:10
 #: ../../source/explore/personalize/install-apps.md:12
-#: ../../source/explore/travel.md:10 ../../source/script/js-tips.md:7
+#: ../../source/explore/travel.md:5 ../../source/script/js-tips.md:7
 #: ../../source/script/write-scripts.md:12
 #, fuzzy
 msgid "**On This Page:**"
@@ -8525,7 +8525,7 @@ msgstr ""
 msgid ""
 "Portals in Overte transport you to the domain of your choice. You can use"
 " these portals to travel to a domain you visit frequently instead of "
-"using the **GoTo** app on your HUD or Tablet."
+"using the **Places** app on your HUD or Tablet."
 msgstr ""
 
 #: ../../source/create/entities/portal-tutorial.md:13
@@ -13490,7 +13490,7 @@ msgstr "カスタマイズする"
 msgid "Socialize with Others"
 msgstr "他の人と交流する"
 
-#: ../../source/explore.rst:11 ../../source/explore/travel.md:6
+#: ../../source/explore.rst:11 ../../source/explore/travel.md:1
 msgid "Travel Between Worlds"
 msgstr "ワールド間を移動する"
 
@@ -13512,12 +13512,13 @@ msgid ""
 msgstr "Overteは、他の人とつながり、創造することができるバーチャルワールドソフトウェアです。Overteで作られた世界を探索し、他のユーザーと交流しましょう。友達のバーチャルワールドを訪れたり、人と会ったり、イベントに参加したり、バーチャルでの創造について学んだりすることができます。リアルなビジュアルと音声で、没入感のあるインタラクティブな体験ができます。"
 
 #: ../../source/explore.rst:7
+#, fuzzy
 msgid ""
 "If it's your first time using Overte, you'll start your journey in a "
 "local tutorial space by yourself, where you can experiment with the "
 "controls and learn about the Interface. When you are ready, try exploring"
-" other domains using the Explore app and socialize with people around the"
-" metaverse. If you've visited Overte before, you will return to the "
+" other domains using the Places app and socialize with people around the "
+"metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
 msgstr "Overteを使うのが初めての方は、まずローカルのチュートリアルスペースで一人旅を始めましょう。準備ができたら、Exploreアプリを使って他のドメインを探索し、メタバース各地の人々と交流してみてください。以前にOverteを訪れたことがある場合は、最後に訪れた場所に戻ります。"
 
@@ -17726,7 +17727,7 @@ msgid ""
 "this to your default scripts so it's always there."
 msgstr "スクリプトの実行が開始され、テキストチャットウィンドウがポップアップで表示されます。このウィンドウを使って、同じドメインで同じスクリプトを実行している他のユーザーとチャットすることができます。テキストチャットを頻繁にする場合は、これをデフォルトのスクリプトに追加することで、常に表示されるようにすることができます。"
 
-#: ../../source/explore/travel.md:8
+#: ../../source/explore/travel.md:3
 #, fuzzy
 msgid ""
 "Overte is made up of many virtual places that let you participate in "
@@ -17736,38 +17737,38 @@ msgid ""
 "around you."
 msgstr "Vircadiaは、アクティビティに参加したり、周囲の人々と交流できる多くのバーチャルな場所で構成されています。これらの場所の多くは、いつでも探検できるような美しいディテールの世界であり、また、イベントを開催したり、周囲の人々と関わるために作られた場所もあります。"
 
-#: ../../source/explore/travel.md:11
+#: ../../source/explore/travel.md:6
 #, fuzzy
-msgid "[GoTo App](#goto-app)"
-msgstr "[GoToアプリ](#goto-app)"
+msgid "[Places App](#places-app)"
+msgstr "[アプリを更新する](#update-an-app)"
 
-#: ../../source/explore/travel.md:12
+#: ../../source/explore/travel.md:7
 #, fuzzy
 msgid "[Visit a Friend](#visit-a-friend)"
 msgstr "[友達を訪ねる](#visit-a-friend)"
 
-#: ../../source/explore/travel.md:14
+#: ../../source/explore/travel.md:9
 #, fuzzy
-msgid "GoTo App"
-msgstr "GoToアプリ"
+msgid "Places App"
+msgstr "アプリを更新する"
 
-#: ../../source/explore/travel.md:15
+#: ../../source/explore/travel.md:10
 msgid ""
-"The **GoTo** app lets you travel between different places in Overte. Many"
-" of our places are created by users just like you."
+"The **Places** app lets you travel between different places in Overte. "
+"Many of our places are created by users just like you."
 msgstr ""
 
-#: ../../source/explore/travel.md:17
+#: ../../source/explore/travel.md:12
 #, fuzzy
 msgid "To go and explore new places:"
 msgstr "新しい場所に行って探索するには :"
 
-#: ../../source/explore/travel.md:18
+#: ../../source/explore/travel.md:13
 #, fuzzy
-msgid "In Interface, pull up your tablet or HUD and go to **GoTo**."
-msgstr "インターフェイスで、タブレットまたはHUDをプルアップし、 **GoTo** に移動します。"
+msgid "In Interface, pull up your tablet or HUD and go to **Places**."
+msgstr "インターフェイスで、Tablet またはHUDをプルアップし、 **People** に移動します。"
 
-#: ../../source/explore/travel.md:19
+#: ../../source/explore/travel.md:14
 #, fuzzy
 msgid ""
 "If you know where you want to go, enter the domain address or place name."
@@ -17775,39 +17776,39 @@ msgid ""
 "open places under 'Featured' and 'Places'."
 msgstr "行きたい場所が決まっている場合は、ドメインアドレスや地名を入力します。入力すると、一致する場所が表示されます。そうでない場合は、「Featured」や「Places」で開いている場所を閲覧してください。"
 
-#: ../../source/explore/travel.md:20
+#: ../../source/explore/travel.md:15
 #, fuzzy
 msgid ""
 "Click on a place name to go to the place. If you have permissions, you "
 "will be transported to that location automatically."
 msgstr "地名をクリックすると、その場所に移動します。権限がある場合は、自動的にその場所に移動します。"
 
-#: ../../source/explore/travel.md:27
+#: ../../source/explore/travel.md:22
 #, fuzzy
 msgid "![](_images/goto-app.png)"
 msgstr "![](_images/goto-app.png)"
 
-#: ../../source/explore/travel.md:29
+#: ../../source/explore/travel.md:24
 #, fuzzy
 msgid ""
-"The **GoTo** app also shows you a visual feed of snapshots that people "
+"The **Places** app also shows you a visual feed of snapshots that people "
 "have taken and shared in the metaverse. Clicking on a snap will take you "
 "directly to the place where the picture was taken."
 msgstr ""
 "また、 **GoTo** "
 "アプリは、人々が撮影しメタバースで共有したスナップショットのビジュアルフィードを表示します。スナップ写真をクリックすると、その写真が撮影された場所に直接行くことができます。"
 
-#: ../../source/explore/travel.md:31
+#: ../../source/explore/travel.md:26
 #, fuzzy
 msgid "![](_images/goto-snaps.png)"
 msgstr "![](_images/goto-snaps.png)"
 
-#: ../../source/explore/travel.md:33
+#: ../../source/explore/travel.md:28
 #, fuzzy
 msgid "Visit a Friend"
 msgstr "友人を訪ねる"
 
-#: ../../source/explore/travel.md:34
+#: ../../source/explore/travel.md:29
 #, fuzzy
 msgid ""
 "Once you've [made a friend](socialize.rst#make-connections-and-friends), "
@@ -17816,22 +17817,22 @@ msgstr ""
 "一度 [友達になると](socialize.html#make-connections-and-friends) "
 "、相手の居場所を確認でき、直接テレポートすることも可能です。"
 
-#: ../../source/explore/travel.md:36
+#: ../../source/explore/travel.md:31
 #, fuzzy
 msgid "In Interface, open your tablet or HUD and go to **People**."
 msgstr "インターフェイスで、タブレットまたはHUDを開き、 **People** に移動します。"
 
-#: ../../source/explore/travel.md:37
+#: ../../source/explore/travel.md:32
 #, fuzzy
 msgid "Click 'Connections' and find the friend you want to visit."
 msgstr "「Connections」をクリックし、訪問したい友人を探します。"
 
-#: ../../source/explore/travel.md:38
+#: ../../source/explore/travel.md:33
 #, fuzzy
 msgid "Select their name then 'Visit'."
 msgstr "名前を選択してから「Visit」を選択します。"
 
-#: ../../source/explore/travel.md:41
+#: ../../source/explore/travel.md:36
 #, fuzzy
 msgid "[Socialize with Others](socialize)"
 msgstr "[他の人と交流する](socialize)"
@@ -20486,7 +20487,7 @@ msgstr "これらの標準ユーザーグループの「Connect」権限によ�
 #, fuzzy
 msgid ""
 "**Public**: A public domain allows 'anonymous' and/or 'logged-in' users "
-"to connect to it. These domains may be shown in the Explore app and in "
+"to connect to it. These domains may be shown in the Places app and in "
 "other places around the metaverse."
 msgstr "**パブリック**：パブリックドメインは、「匿名」および/または「ログイン」ユーザーがそれに接続することを許可します。これらのドメインは、Exploreアプリやメタバース周辺の他の場所に表示される場合があります。"
 
@@ -20793,14 +20794,14 @@ msgstr "「Path」には、訪問者がスポーンする座標を入力しま�
 #, fuzzy
 msgid ""
 "(Optional) Enter a description for your domain. This shows up when a user"
-" clicks the info icon if your domain is displayed in the Explore app."
+" clicks the info icon if your domain is displayed in the Places app."
 msgstr "（オプション）ドメインの説明を入力します。これは、ドメインがExploreアプリに表示されている場合に、ユーザーが情報アイコンをクリックしたときに表示されます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:56
 #, fuzzy
 msgid ""
 "(Optional) Upload a preview image of your domain. This shows up when your"
-" domain is displayed in the Explore app."
+" domain is displayed in the Places app."
 msgstr "（オプション）ドメインのプレビュー画像をアップロードします。これは、ドメインがExploreアプリに表示されたときに表示されます。"
 
 #: ../../source/host/configure-settings/place-setting.rst:57
@@ -20810,11 +20811,8 @@ msgstr "「Update Place」をクリックします。"
 
 #: ../../source/host/invite-users.rst:2
 #, fuzzy
-msgid ""
-"This document is outdated. FIXME: grammar errors, mentions GoTo, mentions"
-" Blast functionality, mentions social media share linking to a domain "
-"info page (I assume that this functionality hasn't been restored)"
-msgstr "このドキュメントは古くなっています。FIXME：文法エラー、GoToについての言及、Blast機能についての言及、ドメイン情報ページへのソーシャルメディア共有リンクについての言及（この機能は復元されていないと思います）"
+msgid "This document is outdated. FIXME: grammar errors"
+msgstr "このドキュメントは古くなっています。FIXME：サンドボックスについて言及"
 
 #: ../../source/host/invite-users.rst:9
 #, fuzzy
@@ -20841,84 +20839,108 @@ msgstr "メタバースの新しい場所を見に来てください！という
 #, fuzzy
 msgid ""
 "Share your domain by giving out its IP address or place name. Anyone with"
-" a Overte account can enter the IP address or place name directly into "
-"the GoTo app to teleport directly to your domain."
+" an Overte account can enter the place name directly into the Places app "
+"to find it, or use a hifi:// address with either your IP address or place"
+" name to teleport directly to your domain."
 msgstr "IPアドレスまたは地名を指定して、ドメインを共有します。Vircadiaアカウントを持っている人は誰でも、IPアドレスまたは地名をGoToアプリに直接入力して、ドメインに直接移動できます。"
 
 #: ../../source/host/invite-users.rst:24
-#, fuzzy
 msgid ""
-"TIP: You can send other Overte users clickable URLs that send them "
-"directly to your domain. Simply send them the URL "
-"``https://hifi.place/<domain IP | place name>``. When they click the "
-"link, they will be prompted to open Interface.exe and land at the spawn "
-"point in your domain."
+"TIP: You can send other Overte users hifi:// addresses which send them "
+"directly to a location in your domain. Simply click \"Navigate\" -> "
+"\"Copy Address to clipboard\" and send them the address. When they paste "
+"the address into their Places app they will be instantly teleported to "
+"where you were when you copied the address."
 msgstr ""
-"ヒント：他のVircadiaユーザーに、あなたのドメインに直接送られるクリック可能なURLを送ることができます。 "
-"``https://hifi.place/<domain IP | place name>`` "
-"というURLを送るだけです。リンクをクリックすると、Interface.exeを開くように指示され、あなたのドメインの地点に着陸します。"
 
 #: ../../source/host/invite-users.rst:28
 #, fuzzy
-msgid "Add Your Domain to the Explore App"
+msgid "Add Your Domain to the Places App"
 msgstr "ドメインをエクスプローラアプリに追加する"
 
 #: ../../source/host/invite-users.rst:30
 #, fuzzy
-msgid ""
-"The Explore app is designed to advertise public domains across the "
-"metaverse."
+msgid "The Places app is designed to advertise public domains across Overte."
 msgstr "Exploreアプリは、メタバース全体でパブリックドメインをアドバタイズするように設計されています。"
 
 #: ../../source/host/invite-users.rst:32
+msgid ""
+"You can connect your Domain by following the instructions during the "
+"initial setup wizard, and it will automatically appear in the Places app."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:34
+msgid "If you decide not to connect it during setup, you can do so later:"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:36
+msgid "Go to your domain's web Dashboard"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:37
+msgid "Navigate to Settings > Network/Directory services"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:38
+#, fuzzy
+msgid "Click connect and follow the instructions"
+msgstr "[保存]をクリックして、[ドメイン設定]ページを閉じます。"
+
+#: ../../source/host/invite-users.rst:39
+msgid "Your Domain will soon appear in the Places App (maybe 15 minutes or so)"
+msgstr ""
+
+#: ../../source/host/invite-users.rst:41
+msgid ""
+"If you would like to edit your Place you can do so at `Overte Directory "
+"Service <mv.overte.org/dashboard/home>`_ under *Places*."
+msgstr ""
+
+#: ../../source/host/invite-users.rst:43
 #, fuzzy
 msgid ""
-"In order to be featured on Overte's Explore app, you must add a location "
-"marker by opening the app and going to the spot in your domain that you "
-"want people to spawn at. In your app, scroll to the bottom and click the "
-"\"Add Location\" button, fill it out and you should be set! You may want "
-"to open your domain to the public, such as being open to logged in users "
-"or everyone. This means that, in your Domain Settings, under 'Standard "
-"Permissions', either the 'anonymous' or 'logged-in' group must have the "
-"Connect permission."
+"You may want to open your domain to the public, such as being open to "
+"logged in users or everyone. This means that, in your Domain Settings, "
+"under 'Standard Permissions', either the 'anonymous' or 'logged-in' group"
+" must have the Connect permission."
 msgstr ""
 "VircadiaのExploreアプリで紹介されるには、アプリを開いて、人々にスポーンしてもらいたいあなたのドメインのスポットに行き、ロケーションマーカーを追加する必要があります。アプリの一番下までスクロールして、「Add"
 " "
 "Location」ボタンをクリックし、必要事項を記入すれば完了です。ログインしているユーザーや誰でも利用できるように、ドメインを一般に公開したい場合があります。この場合、ドメイン設定の「標準権限」で、「匿名」または「ログイン」グループのいずれかに接続権限が必要です。"
 
-#: ../../source/host/invite-users.rst:34
+#: ../../source/host/invite-users.rst:45
 #, fuzzy
 msgid ""
-"To restrict access to your domain, you will need to create a blacklist of"
+"To restrict access to your domain, you will need to create a blocklist of"
 " users without permission to connect to your domain. This can be set up "
 "by username, IP address, MAC address or machine fingerprint."
 msgstr "ドメインへのアクセスを制限するには、ドメインへの接続を許可されていないユーザーのブラックリストを作成する必要があります。これは、ユーザー名、IPアドレス、MACアドレス、またはマシンのフィンガープリントによって設定することができます。"
 
-#: ../../source/host/invite-users.rst:38
+#: ../../source/host/invite-users.rst:49
 msgid "Promote Your Community Event with Overte"
 msgstr ""
 
-#: ../../source/host/invite-users.rst:40
+#: ../../source/host/invite-users.rst:51
 #, fuzzy
 msgid ""
 "To get your event or experience added to the calendar on our website, you"
-" can submit it to us by filling out by joining our "
-"`Discord<https://discordapp.com/invite/Pvx2vke>` server and reaching out "
-"to a Core Team Member."
+" can submit it to us by joining us on `Matrix "
+"<https://matrix.to/#/#overte:overte.org>`_ or `Discord "
+"<https://discord.gg/4YuQvc8K2f>`_ and reaching out in the events channel."
 msgstr ""
 "イベントや体験をウェブサイトのカレンダーに追加するには、 `Discord "
 "<https://discordapp.com/invite/Pvx2vke>` サーバーに参加してコアチームに連絡し記入して送信してください。"
 
-#: ../../source/host/invite-users.rst:42
+#: ../../source/host/invite-users.rst:53
 #, fuzzy
 msgid "It will then be:"
 msgstr "その場合、次のようになります :"
 
-#: ../../source/host/invite-users.rst:44
+#: ../../source/host/invite-users.rst:55
 msgid "Added to Overte's `Events Calendar <https://www.overte.org/events>`_"
 msgstr ""
 
-#: ../../source/host/invite-users.rst:45
+#: ../../source/host/invite-users.rst:56
 msgid "Promoted on Overte's social channels"
 msgstr ""
 
@@ -21935,7 +21957,7 @@ msgid ""
 "Hosting any kind of server from your home means exposing your network to "
 "the world. Therefore, we recommend using local servers only for private "
 "events and small gatherings. If you want to host a public domain or "
-"advertise your domain in the Explore app, we recommend using a cloud "
+"advertise your domain in the Places app, we recommend using a cloud "
 "hosting provider such as DigitalOcean."
 msgstr "自宅からあらゆる種類のサーバーをホストするということは、ネットワークを世界に公開することを意味します。したがって、ローカルサーバーはプライベートイベントや小規模な集まりにのみ使用することをお勧めします。パブリックドメインをホストしたり、Exploreアプリでドメインをアドバタイズしたりする場合は、DigitalOceanなどのクラウドホスティングプロバイダーを使用することをお勧めします。"
 
@@ -22020,7 +22042,7 @@ msgstr "**ステップ1：メタバースアカウントを接続する**：ア�
 msgid ""
 "**Step 2: Create Place name**: Your Place name is how users will visit "
 "your domain in the metaverse. Alternatively, they can enter your domain's"
-" ID or IP address into the Explore app."
+" ID or IP address into the Places app."
 msgstr "**ステップ2：プレイスネームの作成**。プレースネームは、ユーザーがメタバース内であなたのドメインにアクセスする方法です。または、ExploreアプリにドメインのIDまたはIPアドレスを入力することもできます。"
 
 #: ../../source/host/server-setup/windows-server.rst:41
@@ -22135,8 +22157,8 @@ msgstr "その他の設定を構成する"
 #: ../../source/host/server-setup/windows-server.rst:73
 #, fuzzy
 msgid ""
-"`Go visit your domain using the Explore app <../../explore/travel.html"
-"#goto-app>`_"
+"`Go visit your domain using the Places app <../../explore/travel.html"
+"#places-app>`_"
 msgstr "`Exploreアプリを使用してドメインにアクセスします <../../explore/travel.html#goto-app>`_"
 
 #: ../../source/host/server-setup/windows-server.rst:75
@@ -37229,4 +37251,53 @@ msgstr "メタバースセッションUUID"
 #~ " taken within the metaverse (if they"
 #~ " have Interface installed)."
 #~ msgstr "FacebookまたはTwitterフィードのストーリーをクリックすると、ドメインに関する詳細情報を提供するページに移動します。そのページの写真または「訪問」ボタンをクリックすると、メタバース内で写真が撮影された場所に移動します（インターフェイスがインストールされている場合）。"
+
+#~ msgid ""
+#~ "Portals in Overte transport you to "
+#~ "the domain of your choice. You can"
+#~ " use these portals to travel to "
+#~ "a domain you visit frequently instead"
+#~ " of using the **GoTo** app on "
+#~ "your HUD or Tablet."
+#~ msgstr ""
+
+#~ msgid "[GoTo App](#goto-app)"
+#~ msgstr "[GoToアプリ](#goto-app)"
+
+#~ msgid "GoTo App"
+#~ msgstr "GoToアプリ"
+
+#~ msgid ""
+#~ "The **GoTo** app lets you travel "
+#~ "between different places in Overte. Many"
+#~ " of our places are created by "
+#~ "users just like you."
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your tablet or HUD and go to **GoTo**."
+#~ msgstr "インターフェイスで、タブレットまたはHUDをプルアップし、 **GoTo** に移動します。"
+
+#~ msgid ""
+#~ "This document is outdated. FIXME: "
+#~ "grammar errors, mentions GoTo, mentions "
+#~ "Blast functionality, mentions social media "
+#~ "share linking to a domain info "
+#~ "page (I assume that this functionality"
+#~ " hasn't been restored)"
+#~ msgstr "このドキュメントは古くなっています。FIXME：文法エラー、GoToについての言及、Blast機能についての言及、ドメイン情報ページへのソーシャルメディア共有リンクについての言及（この機能は復元されていないと思います）"
+
+#~ msgid ""
+#~ "TIP: You can send other Overte "
+#~ "users clickable URLs that send them "
+#~ "directly to your domain. Simply send "
+#~ "them the URL ``https://hifi.place/<domain IP"
+#~ " | place name>``. When they click "
+#~ "the link, they will be prompted to"
+#~ " open Interface.exe and land at the"
+#~ " spawn point in your domain."
+#~ msgstr ""
+#~ "ヒント：他のVircadiaユーザーに、あなたのドメインに直接送られるクリック可能なURLを送ることができます。 "
+#~ "``https://hifi.place/<domain IP | place "
+#~ "name>`` "
+#~ "というURLを送るだけです。リンクをクリックすると、Interface.exeを開くように指示され、あなたのドメインの地点に着陸します。"
 
