@@ -9,14 +9,14 @@ If you are setting up Linux just for an Overte server, **Debian is recommended**
 ### Debian, Ubuntu and derivates
 
 Download the latest package for your distribution from [public.overte.org](https://public.overte.org/index.html#build/overte/release/).
-You can copy the link to the relevant package and download it directly to your remote server using <code>wget</code>.
+You can copy the link to the relevant package and download it directly to your remote server using <code>wget</code>. E.g.:
 ```bash
-wget https://public.overte.org/build/overte/release/2025.12.1/overte-server_2025.12.1-763c774-debian-13-1_amd64.deb
+wget https://public.overte.org/build/overte/release/VERSION/overte-server_REST-OF-PACKAGE-NAME_amd64.deb
 ```
 Pay attention to the amd64 and arm64 in the file name; You want **amd64** unless you are installing to a Raspberry Pi or another ARM machine.
 If you are not sure which version of Debian or Ubuntu you are using, run `cat /etc/os-release`.
 
-To actually install the package run the following command, replacing `overte-server_REST-OF-PACKAGE-NAME_amd64.deb` with the file name of whatever package you are trying to install:
+To actually install the package run the following command(s), replacing `overte-server_REST-OF-PACKAGE-NAME_amd64.deb` with the file name of whatever package you are trying to install:
 ```bash
 sudo su  # This may or may not be needed.
 apt update && apt install ./overte-server_REST-OF-PACKAGE-NAME_amd64.deb
@@ -32,14 +32,14 @@ You can run these same commands on an existing Overte domain to upgrade it if th
 Our Fedora packages aren't as well tested and used as for example Debian/Ubuntu packages; Please report any issues you are running into on our [GitHub issue tracker](https://github.com/overte-org/overte/issues) or on Matrix or Discord.
 
 Download the latest package for your distribution from [public.overte.org](https://public.overte.org/index.html#build/overte/release/).
-You can copy the link to the relevant package and download it directly to your remote server using <code>wget</code>.
+You can copy the link to the relevant package and download it directly to your remote server using <code>wget</code>. E.g.:
 ```bash
-wget https://public.overte.org/build/overte/release/2025.12.1/overte-server-2025.12.1.763c774-1.fc42.x86_64.rpm
+wget https://public.overte.org/build/overte/release/VERSION/overte-server-REST-OF-PACKAGE-NAME.x86_64.rpm
 ```
 Pay attention to the x86_64 and aarch64 in the file name; You want **x86_64** unless you are installing to a Raspberry Pi or another ARM machine.
 If you are not sure which version of Fedora you are using, run `cat /etc/os-release`.
 
-To actually install the package run the following command, replacing `overte-server_REST-OF-PACKAGE-NAME_x86_64.rpm` with the file name of whatever package you are trying to install:
+To actually install the package run the following command(s), replacing `overte-server_REST-OF-PACKAGE-NAME_x86_64.rpm` with the file name of whatever package you are trying to install:
 ```bash
 sudo su  # This may or may not be needed.
 yum update && rpm -i ./overte-server_REST-OF-PACKAGE-NAME_x86_64.rpm
@@ -56,9 +56,9 @@ Go to whichever folder you want the Overte server to save its logs and files to,
 ```bash
 docker run -d --name overte-server -p 40100-40102:40100-40102 -p 40100-40102:40100-40102/udp -p 48000-48006:48000-48006/udp -v $(pwd)/logs:/var/log -v $(pwd)/data:/root/.local/share/Overte --restart unless-stopped overte/overte-server:latest
 ```
-Keep in mind that the ports currently cannot be changes using Overte's Docker image. Doing so will cause connectivity issues for some people (but may work fine for others).
+Keep in mind that the ports currently cannot be changed using Overte's Docker image. Doing so will cause connectivity issues for some people (but may work fine for others).
 
-The container should restart automatically when the host machine is restarted.
+The container restarts automatically when the host machine is restarted.
 
 Since the ports cannot be changed without modifying the container, it isn't currently feasible to run multiple Overte servers on one machine using Docker.
 
