@@ -4,98 +4,64 @@ The Overte packages can help you get your own domain up and running quickly.
 
 ## Installation
 
-You can run these same commands on an existing Overte domain to upgrade it if the original domain was installed using the package. Packages are currently available for the following distributions:
+If you are setting up Linux just for an Overte server, **Debian is recommended** as it is popular among Overte developers.
 
-## Server:
+### Debian, Ubuntu and derivates
 
-### Debian 12
-
+Download the latest package for your distribution from [public.overte.org](https://public.overte.org/index.html#build/overte/release/).
+You can copy the link to the relevant package and download it directly to your remote server using <code>wget</code>. E.g.:
 ```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server_2024.11.1-07c57f6-debian-12-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2024.11.1-07c57f6-debian-12-1_amd64.deb
+wget https://public.overte.org/build/overte/release/VERSION/overte-server_REST-OF-PACKAGE-NAME_amd64.deb
+```
+Pay attention to the amd64 and arm64 in the file name; You want **amd64** unless you are installing to a Raspberry Pi or another ARM machine.
+If you are not sure which version of Debian or Ubuntu you are using, run `cat /etc/os-release`.
+
+To actually install the package run the following command(s), replacing `overte-server_REST-OF-PACKAGE-NAME_amd64.deb` with the file name of whatever package you are trying to install:
+```bash
+sudo su  # This may or may not be needed.
+apt update && apt install ./overte-server_REST-OF-PACKAGE-NAME_amd64.deb
 ```
 
-### Debian 11
+Keep in mind that *apt* might print the following notice, which is **safe to ignore**: `Notice: Download is performed unsandboxed as root as file 'overte-server.deb' couldn't be accessed by user '_apt'. - pkgAcquire::Run (13: Permission denied)`
 
+You can run these same commands on an existing Overte domain to upgrade it if the original domain was installed using the package.
+
+
+### Fedora
+
+Our Fedora packages aren't as well tested and used as for example Debian/Ubuntu packages; Please report any issues you are running into on our [GitHub issue tracker](https://github.com/overte-org/overte/issues) or on Matrix or Discord.
+
+Download the latest package for your distribution from [public.overte.org](https://public.overte.org/index.html#build/overte/release/).
+You can copy the link to the relevant package and download it directly to your remote server using <code>wget</code>. E.g.:
 ```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server_2024.11.1-07c57f6-debian-11-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2024.11.1-07c57f6-debian-11-1_amd64.deb
+wget https://public.overte.org/build/overte/release/VERSION/overte-server-REST-OF-PACKAGE-NAME.x86_64.rpm
+```
+Pay attention to the x86_64 and aarch64 in the file name; You want **x86_64** unless you are installing to a Raspberry Pi or another ARM machine.
+If you are not sure which version of Fedora you are using, run `cat /etc/os-release`.
+
+To actually install the package run the following command(s), replacing `overte-server_REST-OF-PACKAGE-NAME_x86_64.rpm` with the file name of whatever package you are trying to install:
+```bash
+sudo su  # This may or may not be needed.
+yum update && rpm -i ./overte-server_REST-OF-PACKAGE-NAME_x86_64.rpm
 ```
 
-### Ubuntu 22.04
+You can run these same commands on an existing Overte domain to upgrade it if the original domain was installed using the package.
 
+
+### Docker
+
+If you do not see your distribution listed here, you may try our Docker images, available for both amd64 and aarch64.
+
+Go to whichever folder you want the Overte server to save its logs and files to, and run the following to start the container:
 ```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server_2024.11.1-07c57f6-ubuntu-22.04-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2024.11.1-07c57f6-ubuntu-22.04-1_amd64.deb
+docker run -d --name overte-server -p 40100-40102:40100-40102 -p 40100-40102:40100-40102/udp -p 48000-48006:48000-48006/udp -v $(pwd)/logs:/var/log -v $(pwd)/data:/root/.local/share/Overte --restart unless-stopped overte/overte-server:latest
 ```
-### Ubuntu 20.04
+Keep in mind that the ports currently cannot be changed using Overte's Docker image. Doing so will cause connectivity issues for some people (but may work fine for others).
 
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server_2024.11.1-07c57f6-ubuntu-20.04-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2024.11.1-07c57f6-ubuntu-20.04-1_amd64.deb
-```
+The container restarts automatically when the host machine is restarted.
 
-### Fedora 40
+Since the ports cannot be changed without modifying the container, it isn't currently feasible to run multiple Overte servers on one machine using Docker.
 
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server-2024.11.1.07c57f6-1.fc40.x86_64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2024.11.1.07c57f6-1.fc40.x86_64.rpm
-```
-
-### Fedora 39
-
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server-2024.11.1.07c57f6-1.fc39.x86_64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2024.11.1.07c57f6-1.fc39.x86_64.rpm
-```
-
-### Rocky Linux 9
-
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server-2024.11.1.07c57f6-1.el9.x86_64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2024.11.1.07c57f6-1.el9.x86_64.rpm
-```
-
-## aarch64 server:
-
-### Debian 12
-
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server_2024.11.1-07c57f6-debian-12-1_arm64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2024.11.1-07c57f6-debian-12-1_arm64.deb
-```
-
-### Debian 11
-
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server_2024.11.1-07c57f6-debian-11-1_arm64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2024.11.1-07c57f6-debian-11-1_arm64.deb
-```
-
-### Ubuntu 22.04
-
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server_2024.11.1-07c57f6-ubuntu-22.04-1_amd64.deb
-sudo apt-get update && sudo apt-get install ./overte-server_2024.11.1-07c57f6-ubuntu-22.04-1_amd64.deb
-```
-
-### Fedora 40
-
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server-2024.11.1.07c57f6-1.fc40.aarch64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2024.11.1.07c57f6-1.fc40.aarch64.rpm
-```
-
-### Fedora 39
-
-```bash
-wget https://public.overte.org/build/overte/release/2024.11.1/overte-server-2024.11.1.07c57f6-1.fc39.aarch64.rpm
-sudo yum update && sudo rpm -i ./overte-server-2024.11.1.07c57f6-1.fc39.aarch64.rpm
-```
-
-### Unlisted Distribution
-
-If you do not see your distribution listed here, you may compile your own server from source using the [Overte builder](https://github.com/overte-org/overte-builder).
 
 ## Configuration
 
@@ -153,8 +119,10 @@ Uninstall the package.
 # Ubuntu/Debian
 # Note: 'apt-get purge' will remove configuration files as well. Use 'apt-get remove' to keep them.
 sudo apt-get purge overte-server
-# Fedora/Rock Linux
+# Fedora/Rocky Linux
 sudo yum remove overte-server
+# Docker
+docker container rm overte-server
 ```
 
 ### Deleting a Domain from a Multiple Domain Installation
