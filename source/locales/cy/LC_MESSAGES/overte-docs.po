@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-12-29 17:44+0000\n"
+"POT-Creation-Date: 2026-01-03 17:41+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: cy\n"
@@ -19266,80 +19266,131 @@ msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:7
 msgid ""
-"You can run these same commands on an existing Overte domain to upgrade "
-"it if the original domain was installed using the package. Packages are "
-"currently available for the following distributions:"
+"If you are setting up Linux just for an Overte server, **Debian is "
+"recommended** as it is popular among Overte developers."
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:9
-msgid "Server:"
+msgid "Debian, Ubuntu and derivates"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:11
-#: ../../source/host/server-setup/linux-server.md:61
-msgid "Debian 12"
+#: ../../source/host/server-setup/linux-server.md:34
+msgid ""
+"Download the latest package for your distribution from "
+"[public.overte.org](https://public.overte.org/index.html#build/overte/release/)."
+" You can copy the link to the relevant package and download it directly "
+"to your remote server using <code>wget</code>. E.g.:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:18
-#: ../../source/host/server-setup/linux-server.md:68
-msgid "Debian 11"
+#: ../../source/host/server-setup/linux-server.md:16
+msgid ""
+"Pay attention to the amd64 and arm64 in the file name; You want **amd64**"
+" unless you are installing to a Raspberry Pi or another ARM machine. If "
+"you are not sure which version of Debian or Ubuntu you are using, run "
+"`cat /etc/os-release`."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:19
+msgid ""
+"To actually install the package run the following command(s), replacing "
+"`overte-server_REST-OF-PACKAGE-NAME_amd64.deb` with the file name of "
+"whatever package you are trying to install:"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:25
-#: ../../source/host/server-setup/linux-server.md:75
-msgid "Ubuntu 22.04"
+msgid ""
+"Keep in mind that *apt* might print the following notice, which is **safe"
+" to ignore**: `Notice: Download is performed unsandboxed as root as file "
+"'overte-server.deb' couldn't be accessed by user '_apt'. - "
+"pkgAcquire::Run (13: Permission denied)`"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:31
-msgid "Ubuntu 20.04"
+#: ../../source/host/server-setup/linux-server.md:27
+#: ../../source/host/server-setup/linux-server.md:48
+msgid ""
+"You can run these same commands on an existing Overte domain to upgrade "
+"it if the original domain was installed using the package."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:38
-#: ../../source/host/server-setup/linux-server.md:82
-msgid "Fedora 40"
+#: ../../source/host/server-setup/linux-server.md:30
+msgid "Fedora"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:45
-#: ../../source/host/server-setup/linux-server.md:89
-msgid "Fedora 39"
+#: ../../source/host/server-setup/linux-server.md:32
+msgid ""
+"Our Fedora packages aren't as well tested and used as for example "
+"Debian/Ubuntu packages; Please report any issues you are running into on "
+"our [GitHub issue tracker](https://github.com/overte-org/overte/issues) "
+"or on Matrix or Discord."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:52
-msgid "Rocky Linux 9"
+#: ../../source/host/server-setup/linux-server.md:39
+msgid ""
+"Pay attention to the x86_64 and aarch64 in the file name; You want "
+"**x86_64** unless you are installing to a Raspberry Pi or another ARM "
+"machine. If you are not sure which version of Fedora you are using, run "
+"`cat /etc/os-release`."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:42
+msgid ""
+"To actually install the package run the following command(s), replacing "
+"`overte-server_REST-OF-PACKAGE-NAME_x86_64.rpm` with the file name of "
+"whatever package you are trying to install:"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:51
+msgid "Docker"
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:53
+msgid ""
+"If you do not see your distribution listed here, you may try our Docker "
+"images, available for both amd64 and aarch64."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:55
+msgid ""
+"Go to whichever folder you want the Overte server to save its logs and "
+"files to, and run the following to start the container:"
 msgstr ""
 
 #: ../../source/host/server-setup/linux-server.md:59
-msgid "aarch64 server:"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:96
-msgid "Unlisted Distribution"
-msgstr ""
-
-#: ../../source/host/server-setup/linux-server.md:98
 msgid ""
-"If you do not see your distribution listed here, you may compile your own"
-" server from source using the [Overte builder](https://github.com/overte-"
-"org/overte-builder)."
+"Keep in mind that the ports currently cannot be changed using Overte's "
+"Docker image. Doing so will cause connectivity issues for some people "
+"(but may work fine for others)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:100
+#: ../../source/host/server-setup/linux-server.md:61
+msgid "The container restarts automatically when the host machine is restarted."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:63
+msgid ""
+"Since the ports cannot be changed without modifying the container, it "
+"isn't currently feasible to run multiple Overte servers on one machine "
+"using Docker."
+msgstr ""
+
+#: ../../source/host/server-setup/linux-server.md:66
 msgid "Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:102
+#: ../../source/host/server-setup/linux-server.md:68
 msgid ""
 "The installation packages will create a domain at the default port "
 "location and configure a service to keep it running on that machine."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:104
+#: ../../source/host/server-setup/linux-server.md:70
 msgid ""
 "For the list of network ports that you will need to open and manage, see "
 "[here](../configure-settings/network-settings)."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:106
+#: ../../source/host/server-setup/linux-server.md:72
 msgid ""
 "Connect a web browser to the server at port 40100. (If you are on the "
 "machine that the server is running on, this would be "
@@ -19347,44 +19398,44 @@ msgid ""
 "have a functioning domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:108
+#: ../../source/host/server-setup/linux-server.md:74
 msgid "Files and Server Configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:110
+#: ../../source/host/server-setup/linux-server.md:76
 msgid "The program files are installed in /opt/overte:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:111
+#: ../../source/host/server-setup/linux-server.md:77
 msgid "**/opt/overte** contains the executables"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:112
+#: ../../source/host/server-setup/linux-server.md:78
 msgid "**/opt/overte/lib** contains libraries required for operation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:113
+#: ../../source/host/server-setup/linux-server.md:79
 msgid "**/opt/overte/plugins** is currently used for audio codecs"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:114
+#: ../../source/host/server-setup/linux-server.md:80
 msgid "**/opt/overte/resources** is required for the administrative website"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:116
+#: ../../source/host/server-setup/linux-server.md:82
 msgid ""
 "The executables in this folder (with the exception of <code>new-"
 "server</code>) cannot be launched from the command prompt without first "
 "setting <code>LD_LIBRARY_PATH=/opt/overte/lib</code>."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:118
+#: ../../source/host/server-setup/linux-server.md:84
 msgid ""
 "The file <code>/etc/opt/overte/default.conf</code> contains any "
 "environment variables necessary to running the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:120
+#: ../../source/host/server-setup/linux-server.md:86
 msgid ""
 "All content is stored under <code>/var/lib/overte/default</code>. All "
 "files underneath <code>/var/lib/overte</code> are owned by the user "
@@ -19392,81 +19443,81 @@ msgid ""
 "processes."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:122
+#: ../../source/host/server-setup/linux-server.md:88
 msgid "Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:124
+#: ../../source/host/server-setup/linux-server.md:90
 msgid ""
 "The installation packages setup the following systemd services to manage "
 "the Overte domain:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:125
+#: ../../source/host/server-setup/linux-server.md:91
 msgid "**overte-domain-server@default.service**: Manages the core domain server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:126
+#: ../../source/host/server-setup/linux-server.md:92
 msgid ""
 "**overte-assignment-client@default.service**: Spawns and manages the "
 "assignment clients"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:127
+#: ../../source/host/server-setup/linux-server.md:93
 msgid ""
 "**overte-server@default.target**: Controls startup and shutdown of the "
 "above services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:129
+#: ../../source/host/server-setup/linux-server.md:95
 msgid ""
 "The <code>overte-server@default.target</code> service is the only one "
 "that is set to auto-start. Starting or stopping it will bring the other "
 "two services down."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:131
+#: ../../source/host/server-setup/linux-server.md:97
 msgid ""
 "The first two services log a large amount of data to their service "
 "journal. Checking their logs (via <code>systemctl status</code>) is a "
 "good way to ensure they are operating properly."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:133
+#: ../../source/host/server-setup/linux-server.md:99
 msgid "Multiple Domains"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:135
+#: ../../source/host/server-setup/linux-server.md:101
 msgid ""
 "The installation package is configured to permit multiple domains to run "
 "on a single server at different port numbers. New servers can be created "
 "using the following command:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:141
+#: ../../source/host/server-setup/linux-server.md:107
 msgid ""
 "where <code>name</code> is a word used to name and manage the domain and "
 "<code>base-port</code> must be the the first of a range of four "
 "contiguous port numbers not overlapping with any other use on the system."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:143
+#: ../../source/host/server-setup/linux-server.md:109
 msgid ""
 "Assuming you created a new server with the name **my-server-two**, this "
 "would setup the following:"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:144
+#: ../../source/host/server-setup/linux-server.md:110
 msgid ""
 "Environment variables in <code>/etc/opt/overte/**my-server-"
 "two**.conf</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:145
+#: ../../source/host/server-setup/linux-server.md:111
 msgid "Content stored in <code>/var/lib/overte/**my-server-two**</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:146
+#: ../../source/host/server-setup/linux-server.md:112
 msgid ""
 "Services launched as <code>overte-domain-server@**my-server-"
 "two**.service</code>, <code>overte-assignment-client@**my-server-"
@@ -19474,45 +19525,45 @@ msgid ""
 "two**.target</code>"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:148
+#: ../../source/host/server-setup/linux-server.md:114
 msgid "Deleting a Overte Server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:150
+#: ../../source/host/server-setup/linux-server.md:116
 msgid "Uninstall the package."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:160
+#: ../../source/host/server-setup/linux-server.md:128
 msgid "Deleting a Domain from a Multiple Domain Installation"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:162
+#: ../../source/host/server-setup/linux-server.md:130
 msgid "Find the name of the domain that you want to remove."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:168
+#: ../../source/host/server-setup/linux-server.md:136
 msgid ""
 "Pick the name of the domain that you want to remove from the list and "
 "then stop it."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:174
+#: ../../source/host/server-setup/linux-server.md:142
 msgid "Disable the service for the domain."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:180
+#: ../../source/host/server-setup/linux-server.md:148
 msgid "Remove the associated environment variables."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:186
+#: ../../source/host/server-setup/linux-server.md:154
 msgid "Remove all data and configurations."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:193
+#: ../../source/host/server-setup/linux-server.md:161
 msgid "Legacy Services"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:195
+#: ../../source/host/server-setup/linux-server.md:163
 msgid ""
 "There are a number of tweaks that are made to the default configuration "
 "to simplify storage and the ability to run multiple domains on one "
@@ -19521,18 +19572,18 @@ msgid ""
 "provided as an option."
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:196
+#: ../../source/host/server-setup/linux-server.md:164
 msgid ""
 "Systemd services named <code>overte-domain-server.service</code>, <code"
 ">overte-assignment-client.service</code>, and <code>overte-"
 "server.target</code> *(without the @name)* have simplified configuration"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:197
+#: ../../source/host/server-setup/linux-server.md:165
 msgid "No file is provided to specify environment variables for the server"
 msgstr ""
 
-#: ../../source/host/server-setup/linux-server.md:198
+#: ../../source/host/server-setup/linux-server.md:166
 msgid "Content would be stored in <code>/var/lib/overte/.local</code>"
 msgstr ""
 
@@ -31431,5 +31482,52 @@ msgstr ""
 #~ msgid ""
 #~ "`Go visit your domain using the "
 #~ "Explore app <../../explore/travel.html#goto-app>`_"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can run these same commands on"
+#~ " an existing Overte domain to upgrade"
+#~ " it if the original domain was "
+#~ "installed using the package. Packages "
+#~ "are currently available for the "
+#~ "following distributions:"
+#~ msgstr ""
+
+#~ msgid "Server:"
+#~ msgstr ""
+
+#~ msgid "Debian 12"
+#~ msgstr ""
+
+#~ msgid "Debian 11"
+#~ msgstr ""
+
+#~ msgid "Ubuntu 22.04"
+#~ msgstr ""
+
+#~ msgid "Ubuntu 20.04"
+#~ msgstr ""
+
+#~ msgid "Fedora 40"
+#~ msgstr ""
+
+#~ msgid "Fedora 39"
+#~ msgstr ""
+
+#~ msgid "Rocky Linux 9"
+#~ msgstr ""
+
+#~ msgid "aarch64 server:"
+#~ msgstr ""
+
+#~ msgid "Unlisted Distribution"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you do not see your "
+#~ "distribution listed here, you may "
+#~ "compile your own server from source "
+#~ "using the [Overte builder](https://github.com"
+#~ "/overte-org/overte-builder)."
 #~ msgstr ""
 
