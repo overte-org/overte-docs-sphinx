@@ -1,6 +1,6 @@
 # Client Entity Scripts
 
-You can make content in Overte interactive by attaching scripts to entities. *Client entity scripts* are entity scripts that run locally on each user's computer. When a user comes into contact with the entity, it will "preload" (or run) the script, then "unload" (or stop) the script when the user leaves.
+You can make content in Overte interactive by attaching scripts to entities. *Client entity scripts* are entity scripts that run locally on each user's computer. When a user encounters the entity by loading it into view, it will "preload" (or run) the script, then "unload" (or stop) the script when the user leaves.
 
 There can be (and typically are) multiple entities in a domain, and each one can have a different client entity script associated with it.
 
