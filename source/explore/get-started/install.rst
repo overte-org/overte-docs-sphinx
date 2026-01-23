@@ -76,23 +76,6 @@ Windows Install
 To install on Windows, simply double-click on the downloaded installer file to open it. Run through the prompts on the installer.
 Once you finish the install process, Interface will open, and you will be able to log in and begin exploring the metaverse.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Mac Install
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-At this time, the Overte installer for Mac is unsigned, so you will need give the OS permission to install the application.
-
-1. Open the downloaded installer dmg file.
-2. Agree to the License Agreement.
-3. Drag Overte to the Applications folder.
-4. Try opening Interface.app. You will be prompted that macOS will not open the file because it is unsigned.
-5. Open **System Preferences > Security & Privacy**. On older macOS versions this might be in **System Preferences > General**.
-6. Next to the warning indicating that Interface is blocked, click 'Open Anyway'.
-7. Confirm that you want to open the application.
-8. Allow microphone access if prompted, in order to be able to talk inside the application.
-
-At this point, Interface will open and you will be able to log in and begin exploring the metaverse.
-
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Linux Install
@@ -154,19 +137,7 @@ Windows Clean Install
 4. Browse to your local %AppData% folder (usually ``C:/Users/<your_username>/AppData/Local``). If you do not see the folder,
    make sure you can view hidden folders: in File Explorer, click View and make sure "Hidden Items" is checked. Delete all folders related to Overte.
 5. Browse to your roaming %AppData% folder (usually ``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related to Overte.
-6. Re-install Overte using the steps above. To restore your local Server's content, copy the ``assignment-client`` folders you previously saved back into to their respective locations.
-
-^^^^^^^^^^^^^^^^^^^^^^^^
-Mac Clean Install
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-1. Open your Applications folder and delete the Overte folder.
-2. Open the ``<username>/.config`` folder. This is a hidden folder than is accessible by going to *Go > Home*. Press the keyboard shortcut ``Command + Shift + .`` (period).
-3. Delete the ``overte.org`` folder.
-4. Open the ``~/Library`` folder by holding the Option key and clicking the 'Go' menu while in the Finder. The Library option should appear in the menu.
-5. Browse to ``~/Library/Application Support`` and delete the Overte folder.
-6. Empty the Trash.
-7. Re-install Overte using the steps above.
+6. Re-install Overte using the steps above. To restore your local Server's content, copy the ``assignment-client`` folders you previously saved back into their respective locations.
 
 
 **See Also**
