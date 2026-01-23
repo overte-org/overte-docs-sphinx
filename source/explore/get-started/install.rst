@@ -2,10 +2,11 @@
 Install Overte
 ################
 
-Overte has two different installers. The *Client Installer* comes with everything you need to view and interact with Overte's content and users.
-However, you are unable to host content using this installer. The *Client + Server Installer* has everything the client installer does,
-but it also enables you to :doc:`host your own content <../../host>` and share it with the world.
-The Client + Server Installer download is only provided for Windows. For Linux see: :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`.
+Overte is currently available for Linux and Windows.
+
+For Linux the Interface Client is provided as an AppImage. There are seperate domain server packages available for common Linux distributions. To set up your own domain on Linux, see: :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`.
+
+For Windows the installer comes with both the client Interface and the domain server so you can :doc:`host your own content <../../host>` easily from your own computer.
 
 .. contents:: On This Page
     :depth: 2
@@ -42,7 +43,7 @@ In order to run Overte, ensure that your computer meets these system requirement
 
 In addition, your network must have enough internet bandwidth to run Overte:
 
-* If you are using Interface only to explore the metaverse, then you should have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s upload**.
+* If you are using Interface only to explore Overte, then you should have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s upload**.
 * If you are hosting a domain server on a remote machine or your local computer, you need to add **10 Mbit/s upload** for each user that
   you want to allow to concurrently visit your domain. You will need only **2 Mbit/s upload** per user if you host your assets on an external web server rather than your domain server.
 
@@ -106,7 +107,7 @@ Upgrade Overte
 ----------------------------
 
 Overte is always changing, as we work to improve performance and add features that will enhance your experience in the metaverse.
-At any time, you can download the latest release from our `website <https://overte.org/#downloads>`_.
+At any time, you can download the latest release from our `website <https://overte.org/downloads.html>`_.
 
 You cannot upgrade Overte on Windows if you have Overte Interface or Server running on your computer. Be sure to quit these applications before upgrading.
 Keep in mind that Overte Server could be running in the background.
@@ -124,6 +125,15 @@ If you're facing problems when you load Interface or the local Server, then you 
 A clean install removes multiple files and settings that you may need once you install Overte again.
 
 .. note:: Ensure that you back up the following files before a clean install: Favorites, Wearables, Server content, and Entities. These settings will be deleted during the clean install.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Linux Clean Install
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Find the location where you downloaded the AppImage and delete it.
+2. Browse to `~/.local/share/` and delete all folders related to Overte.
+2. Browse to `~/.config/` and delete all folders related to Overte.
+3. Re-install Overte using the steps above.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Windows Clean Install
