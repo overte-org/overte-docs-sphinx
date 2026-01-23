@@ -57,9 +57,11 @@ Download Overte
 
 The current release is available to `download on our website <https://overte.org/downloads.html>`_.
 
-If you intend to use Overte in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Overte.
-VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
+If you intend to use Overte in VR mode with an HMD, ensure your OpenVR or OpenXR runtime is also installed on your system before launching Overte.
 
+We currently recommend using the SteamVR runtime with OpenVR for the best experience, including full body tracking.
+
+Overte also supports OpenXR runtimes, including Monada and Wivrn, however there are still some issues with body tracking.
 
 ---------------------------------
 Install Overte
