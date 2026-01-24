@@ -66,7 +66,7 @@ Maya
 Blocks
 ^^^^^^^^^^^^^^^^^
 
-`Blocks <https://vr.google.com/blocks>`_ is a 3D modeling tool you can use in VR. Blocks lets you create models easily regardless of your experience. You can create something on `Blocks through Steam <http://store.steampowered.com/app/533970/Blocks_by_Google>`_ or download it for the VR equipment you are using.
+`Blocks <https://vr.google.com/blocks>`_ is a 3D modeling tool you can use in VR. Blocks lets you create models easily regardless of your experience. Blocks has since been discontinued by Google but a community fork under the title `Open-Blocks <https://openblocks.app/>`_ is available for Windows (works on Linux through Proton) and Android on `Steam <https://store.steampowered.com/app/3077230/Open_Blocks/>`_ or their `GitHub page <https://github.com/icosa-foundation/open-blocks>`_.
 
 **See Also**
 
