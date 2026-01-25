@@ -81,7 +81,7 @@ Once you finish the install process, Interface will open, and you will be able t
 Linux Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Mark the downloaded AppImage file as executable. (for example, with ``chmod +x Overte-x86_64_20220219.AppImage``.)
+1. Mark the downloaded AppImage file as executable. (for example, with ``chmod +x Overte-2025.12.1-x86_64.AppImage``.)
 2. (Optional) If you want the AppImage to be integrated into your system, install `AppImageLauncher <https://github.com/TheAssassin/AppImageLauncher>`_.
 3. Execute AppImage.
 
