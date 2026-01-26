@@ -1,6 +1,6 @@
 .. warning::
     This document is slightly outdated.
-    FIXME: instructions for Windows are most likely outdated, no mention that you should *not* use "open mic" setups without push to talk
+    FIXME: instructions for Windows are most likely outdated
 
 #################################
 Set Up Your Audio Devices
@@ -27,12 +27,14 @@ Change your Input or Output Device
 ----------------------------------------
 
 
-Overte's 3D spatialized audio is guaranteed to enhance your experience in the metaverse, whether you are in Desktop mode or using VR equipment. By default, we will select the default audio devices that your operating system or headset has detected. If you want to use a different headset or audio setup than the default, you can change your computer's default device. If you need to use a different device for Overte than other applications on your computer, then you can change your device in the application.
+Overte's 3D spatialized audio is guaranteed to enhance your experience in cyberspace, whether you are in Desktop mode or using VR equipment. By default, we will select the default audio devices that your operating system or headset has detected. If you want to use a different headset or audio setup than the default, you can change your computer's default device. If you need to use a different device for Overte than other applications on your computer, then you can change your device in the application.
 
-* An *audio input device* is any device that captures sound and generates a signal that can be accessed by other devices. Examples of audio input devices include a USB microphone or a microphone headset that is plugged into your computer, or your sound card’s "Stereo Mix" or "What U Hear" device (think of these sound card devices as if they were microphones being held up to your speakers while they output sound).
+* An *audio input device* is any device that captures sound and generates a signal that can be accessed by other devices. Examples of audio input devices inlude a USB microphone or a microphone headset that is plugged into your computer.
 * An *audio output device* is any device that receives information from audio files and converts it into audible sound signals. Examples of audio output devices include your desktop computer speakers, headphones, or huge speakers in a movie theater.
 
 If you are using a headset with a microphone, then your input and output devices will likely be the same device. However, if you are using external speakers or some other open mic setup, then these devices may be different. In these cases, we encourage you to enable `acoustic echo cancellation <#id1>`_ for improved audio quality.
+
+You may also want to try using `push-to-talk <#enable-push-to-talk-ptt>`_ to completely eliminate any unwanted speaker echo and background sounds coming from your avatar when you are not talking.
 
 To change your audio devices:
 
@@ -52,7 +54,7 @@ Unfortunately, bluetooth audio devices do not currently support stereo input. Th
 * Use the bluetooth headset's built-in microphone. In this case, other users will only experience mono sound coming from you, rather than the normal stereo audio.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Acoustic Echo Cancellation 
+Acoustic Echo Cancellation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Acoustic echo is the process by which sounds from your speakers get picked up and transmitted by your microphone, resulting in an echoing effect. This is common when you use Overte with a laptop's built-in microphone and speakers (i.e. an "open mic"), rather than a detached headset.
@@ -138,16 +140,20 @@ There are a number of settings you can configure to customize your audio experie
 +----------------------------+--------------------------------------------------------------------------------------+
 | HMD Mute Warning (VR)      | Enable to receive a warning when your microphone is muted when wearing a HMD device. |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Noise reduction            | Enable to turn on noise reduction. This removes outside noise from audio signals.    |
+| Push To Talk               | Enable or disable `push to talk <#enable-push-to-talk-ptt>`_.                        |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Audio level meter          | By default, the audio level meter is visible on the top left corner of your screen.  |
 |                            | Uncheck this box to hide the meter.                                                  |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Echo Cancellation          | Enable or disable `acoustic echo cancellation <#id1>`_.                              |
-+----------------------------+--------------------------------------------------------------------------------------+
 | Stereo input               | Enable or disable stereo input. Stereo reproduces sound using two or more audio      |
 |                            | channels. This means that you will hear sound from various directions, like how you  |
 |                            | would in the real world.                                                             |
++----------------------------+--------------------------------------------------------------------------------------+
+| Echo Cancellation          | Enable or disable `acoustic echo cancellation <#id1>`_.                              |
++----------------------------+--------------------------------------------------------------------------------------+
+| Noise reduction            | Enable to turn on noise reduction. This removes outside noise from audio signals.    |
++----------------------------+--------------------------------------------------------------------------------------+
+| Manual Noise Reduction     | Enable to allow setting a custom threshold for noise reduction.                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 
 
