@@ -1,7 +1,3 @@
-.. warning::
-    This document is slightly outdated.
-    FIXME: instructions for Windows are most likely outdated
-
 #################################
 Set Up Your Audio Devices
 #################################
@@ -67,7 +63,7 @@ For best performance with open mic setups, ensure that you:
 
 * Disable any processing and effects on the input and output devices. This includes:
 
-    * On Windows: Turn off all 'Enhancements' (Control Panel > Sound > Recording tab > click on your device > Properties button > Enhancements tab)
+    * On Windows: Turn off all 'Enhancements'; see `Microsoft support article <https://support.microsoft.com/en-us/topic/disable-audio-enhancements-0ec686c4-8d79-4588-b7e7-9287dd296f72>`_ for instructions.
 
 * Lower the microphone's physical gain setting to approximately 3/4 of the maximum
 * Lower the speaker's physical volume level to approximately 3/4 of the maximum
@@ -163,14 +159,9 @@ Many device settings, such as input levels, boost, gains, and enhancements, cann
 
 * **Update the driver software for your audio devices**:
 
-    * On Windows: Open the **Device Manager** and select the arrow next to **Sound, audio and game controllers**. Right-click on your audio device and select 'Update driver'.
+    * On Windows: Follow steps in Microsoft support article `Update drivers through Device Manager in Windows <https://support.microsoft.com/en-us/windows/update-drivers-through-device-manager-in-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6>`_
+
 * **Adjust microphone levels and/or boost**: 
     
-    * On Windows: Go to **Control Panel > Sound > Recording**. Choose your microphone and click 'Properties'.
-* **Adjust other advanced sound settings**:
+    * On Windows: Follow the steps under *"To test a microphone that's already installed"* of Microsoft support article `How to set up and test microphones in Windows <https://support.microsoft.com/en-au/windows/how-to-set-up-and-test-microphones-in-windows-ba9a4aab-35d1-12ee-5835-cccac7ee87a4>`_
 
-    * On Windows:
-
-        * Go to **Control Panel > Sound**
-        * Go to **Settings > System > Sound**
-        * Go to **Control Panel > Hardware and Sound > Adjust System Volume**
