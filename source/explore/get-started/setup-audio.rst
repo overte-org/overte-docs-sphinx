@@ -67,10 +67,8 @@ For best performance with open mic setups, ensure that you:
 
 * Disable any processing and effects on the input and output devices. This includes:
 
-    * On Mac: Turn off 'Ambient noise reduction' (System Preferences > Sound > Input > Use ambient noise reduction)
     * On Windows: Turn off all 'Enhancements' (Control Panel > Sound > Recording tab > click on your device > Properties button > Enhancements tab)
 
-* On Mac devices, set the balance of the output device to either the left or the right (System Preferences > Sound > Output > Balance)
 * Lower the microphone's physical gain setting to approximately 3/4 of the maximum
 * Lower the speaker's physical volume level to approximately 3/4 of the maximum
 * If you are not using your laptop's audio devices, move and point the microphone away from the speakers
@@ -165,14 +163,14 @@ Many device settings, such as input levels, boost, gains, and enhancements, cann
 
 * **Update the driver software for your audio devices**:
 
-    * On Mac: Apple handles all driver updates on your computer. To check for updates, click on the Apple icon in the top-left corner of the screen and select 'Software Update'.
     * On Windows: Open the **Device Manager** and select the arrow next to **Sound, audio and game controllers**. Right-click on your audio device and select 'Update driver'.
 * **Adjust microphone levels and/or boost**: 
     
-    * On Mac: Go to **System Preferences > Sound > Input**. 
     * On Windows: Go to **Control Panel > Sound > Recording**. Choose your microphone and click 'Properties'.
 * **Adjust other advanced sound settings**:
 
-    * Go to **Control Panel > Sound**
-    * Go to **Settings > System > Sound**
-    * Go to **Control Panel > Hardware and Sound > Adjust System Volume**
+    * On Windows:
+
+        * Go to **Control Panel > Sound**
+        * Go to **Settings > System > Sound**
+        * Go to **Control Panel > Hardware and Sound > Adjust System Volume**
