@@ -101,13 +101,13 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 |                            | your head's position.                                                           |
 |                            |                                                                                 |
 |                            | * **When I'm standing**:  When you are standing and lean your avatar will lean  |
-|                            | too, but when you are seating or crouching your body will move with your head   |
-|                            | position.                                                                       |
-|                            | * **Always**: Your avatar will always lean as your head moves around; ideally   |
-|                            | suited when you will stay in place and will not be walking around your play     |
-|                            | space.                                                                          |
+|                            |   too, but when you are seating or crouching your body will move with your head |
+|                            |   position.                                                                     |
+|                            | * **Always**: Your avatar will always lean as your head moves horizontally;     |
+|                            |   ideally suited for when you will stay in one spot and will not be walking     |
+|                            |   around your play space.                                                       |
 |                            | * **Never**: Whether standing, sitting or crouching your avatar will always     |
-|                            | moved to follow your head position; ideal for room-scale VR.                     |
+|                            |   move to follow your head position; perfect for room-scale VR.                 |
 +----------------------------+---------------------------------------------------------------------------------+
 | User real world height     | You can change your real world height for better tracking in VR mode.           |
 | (in meters)                |                                                                                 |
