@@ -16,5 +16,4 @@ Getting started doesn't need to be difficult. This section will help you become 
     Use Your VR Equipment <get-started/vr-controls>
     Explore in Desktop Mode <get-started/desktop>
     Adjust Your Settings <get-started/adjust-settings>
-    Get Our Android App <get-started/android>
 
