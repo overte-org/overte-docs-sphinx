@@ -1,6 +1,6 @@
 .. warning::
     This document is slightly outdated.
-    FIXME: some perspective options don't exist anymore, mentions security picture, says that lower graphics setting increase performance (not entirely true in our case)
+    FIXME: says that lower graphics setting increase performance (not entirely true in our case)
 
 ####################
 Adjust Your Settings
@@ -19,7 +19,7 @@ In VR, all of your settings are found in your **Tablet**. The Tablet also gives 
 
 .. image:: _images/tablet.png
 
-In Desktop Mode, you have the option to use either the Tablet or a smaller version called the "Heads-up Display" or HUD. It contains the exact same options as the Tablet (settings, apps, etc), but it takes up less space on your screen. To enable the HUD, first enable the **Developer** menu by going to **Settings > Developer Menu**. Then, go to **Developer > UI > Desktop Tablet Becomes Toolbar**. 
+In Desktop Mode, rather than the tablet you have a smaller version called the "Heads-up Display" or HUD. It contains the exact same options as the Tablet (settings, apps, etc), but it takes up less space on your screen. if you would rather, you have the option to use the Tablet instead just like in VR. To enable the Tablet, first enable the **Developer** menu by going to **Settings > Developer Menu**. Then, go to **Developer > UI > Desktop Tablet Becomes Toolbar** and toggle it off.
 
 .. image:: _images/hud.png
 
@@ -27,7 +27,7 @@ In Desktop Mode, you have the option to use either the Tablet or a smaller versi
 Enter or Exit VR Mode
 ---------------------
 
-You can enjoy Overte with or with VR equipment such as head mounted displays (HMD), hand controllers and audio headsets. Our Desktop mode contains many of Overte's features such as audio, basic movements and gestures, and the ability to travel to different domains. 
+You can enjoy Overte with or without VR equipment such as head mounted displays (HMD), hand controllers and audio headsets. Our Desktop mode contains many of Overte's features such as audio, basic movements and gestures, and the ability to travel to different domains.
 
 Keep in mind, however, that the most immersive and powerful experience is when you use VR equipment. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. Once you have set up your VR equipment, you can easily switch between VR mode and Desktop mode. To switch to VR mode, use one of the following methods: 
 
@@ -56,10 +56,6 @@ You can choose how you view things around you by changing your perspective. To c
 +------------------+---------------------------------------------------------------------------------------------------------+
 | Selfie           | Select this to change your perspective to look at yourself. In this view, you will see yourself and     |
 |                  | the space behind you.                                                                                   |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| Independent Mode | Select this to change what you see through scripting instead of avatar's movements.                     |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| Entity Mode      | Select this to set your perspective to a specific entity, allowing you to move with entity as it moves. |
 +------------------+---------------------------------------------------------------------------------------------------------+
 
 
@@ -121,9 +117,7 @@ You can change your account security settings in Overte.
 +---------------------+----------------------------------------------------------------------------------+
 | Setting             | Description                                                                      |
 +=====================+==================================================================================+
-| Account             | Enable to stay logged in (in the current device) even if you exit Overte.        |
-+---------------------+----------------------------------------------------------------------------------+
-| Secure Transactions | Change your security picture.                                                    |
+| Keep Me Logged In   | Enable to stay logged in (in the current device) even if you exit Overte.        |
 +---------------------+----------------------------------------------------------------------------------+
 
 **See Also**
