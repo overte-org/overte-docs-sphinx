@@ -117,8 +117,8 @@ Linux Clean Install
 
 1. Find the location where you downloaded the AppImage and delete it.
 2. Browse to `~/.local/share/` and delete all folders related to Overte.
-2. Browse to `~/.config/` and delete all folders related to Overte.
-3. Re-install Overte using the steps above.
+3. Browse to `~/.config/` and delete all folders related to Overte.
+4. Re-install Overte using the steps above.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Windows Clean Install
