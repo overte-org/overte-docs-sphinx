@@ -71,12 +71,5 @@ You can always get back home either by pressing the house icon in the top left o
 
 If you would like to be in your Home location every time you start Overte, you can set your **Start-Up Location** from the **Navigate** menu.
 
-## Visit a Friend
-Once you've [made a friend](socialize.rst#make-connections-and-friends), you can see where they are and even teleport directly to them.
-
-1. In Interface, open your tablet or HUD and go to **People**.
-2. Click 'Connections' and find the friend you want to visit.
-3. Select their name then 'Visit'.
-
 **See Also**
 + [Socialize with Others](socialize)
