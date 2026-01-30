@@ -29,12 +29,11 @@ Enter or Exit VR Mode
 
 You can enjoy Overte with or without VR equipment such as head mounted displays (HMD), hand controllers and audio headsets. Our Desktop mode contains many of Overte's features such as audio, basic movements and gestures, and the ability to travel to different domains.
 
-Keep in mind, however, that the most immersive and powerful experience is when you use VR equipment. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. Once you have set up your VR equipment, you can easily switch between VR mode and Desktop mode. To switch to VR mode, use one of the following methods: 
+Keep in mind, however, that the most immersive and powerful experience is when you use VR equipment. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. Once you have set up your VR equipment, you can easily switch between VR mode and Desktop mode.
 
-1. From the HUD, click **Enter VR**.
-2. Click the **Display** menu, then select your VR device. 
+.. note:: In order to use VR you must launch Overte straight into VR first, as Overte will not load VR plugins unnecessarily for desktop users. Once you have launched into VR, you will be able to switch between VR and Desktop mode with ease.
 
-To exit from VR mode, remove your headset, click **Exit VR** on the HUD or press ``ESC`` on your keyboard.
+To switch between Desktop and VR mode, you can select it from the Display menu. The menu can be found at the top of your screen when in desktop mode, or on your **Tablet** in VR. Click the **Display** menu, then select your desktop or VR device.
 
 --------------------
 Set Your Perspective
