@@ -1,3 +1,5 @@
+.. WARNING:: This page is outdated. Many of the social features listed on this page are either not currently working or have been temporarily removed. We hope to bring them back soon.
+
 #####################
 Socialize with Others
 #####################
