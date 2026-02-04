@@ -38,33 +38,35 @@ The following script makes your avatar throw balls when its right hand moves.
 .. code-block:: javascript
 
     (function(){
-        var triggerDistance = 0.0;
-        var TRIGGER_THRESHOLD = 0.9;
-        var LOAD_THRESHOLD = 0.6
-        var init = false;
-        var rightHandIndex = MyAvatar.getJointIndex("RightHand");
-        var rightArmIndex = MyAvatar.getJointIndex("RightArm");
-        var distance = 0.0;
-        var triggered = false;
+        "use strict"
+        let triggerDistance = 0.0;
+        const TRIGGER_THRESHOLD = 0.9;
+        const LOAD_THRESHOLD = 0.6
+        const rightHandIndex = MyAvatar.getJointIndex("RightHand");
+        const rightArmIndex = MyAvatar.getJointIndex("RightArm");
+        let triggered = false;
+
         function fireBall(position, speed) {
-            var baseID = Entities.addEntity({
+            const baseID = Entities.addEntity({
                 type: "Sphere",
                 color: { blue: 128, green: 128, red: 20 },
                 dimensions: { x: 0.1, y: 0.1, z: 0.1 },
                 position: position,
                 dynamic: true,
                 collisionless: false,
-                lifetime: 10,
+                lifetime: 10, // Thrown fireball will despawn after 10 seconds
                 gravity: speed,
                 userData: "{ \"grabbableKey\": { \"grabbable\": true, \"kinematic\": false } }"
             });
             Entities.editEntity(baseID, { velocity: speed });
         }
+
+        // VR users can push their right hand forwards from their shoulder to throw
         Script.update.connect(function() {
-            rightHandPos = MyAvatar.getJointPosition(rightHandIndex);
-            rightArmPos = MyAvatar.getJointPosition(rightArmIndex);
-            fireDir = Vec3.subtract(rightHandPos, rightArmPos);
-            var distance = Vec3.length(fireDir);
+            const rightHandPos = MyAvatar.getJointPosition(rightHandIndex);
+            const rightArmPos = MyAvatar.getJointPosition(rightArmIndex);
+            const fireDir = Vec3.subtract(rightHandPos, rightArmPos);
+            const distance = Vec3.length(fireDir);
             triggerDistance = distance > triggerDistance ? distance : triggerDistance;
             if (!triggered) {
                 if (distance < LOAD_THRESHOLD * triggerDistance) {
@@ -78,7 +80,25 @@ The following script makes your avatar throw balls when its right hand moves.
         MyAvatar.scaleChanged.connect(function () {
             triggerDistance = 0.0;
         });
+
+        // Desktop users can press and release "x" to throw
+        function keyReleaseEvent(event) {
+            if ((event.text.toUpperCase() === "X") && !event.isAutoRepeat && !event.isShifted && !event.isMeta && !event.isControl && !event.isAlt) {
+                const rightHandPos = MyAvatar.getJointPosition(rightHandIndex);
+                const rightArmPos = MyAvatar.getJointPosition(rightArmIndex);
+                const fireDir = getPointingDirection();
+                fireBall(rightHandPos, Vec3.normalize(fireDir));
+            }
+        }
+        // Runs desktop function whenever (any) key is released
+        Controller.keyReleaseEvent.connect(keyReleaseEvent);
+        // It is a good idea to clean up when the script stops
+        Script.scriptEnding.connect(function () {
+            print("removing key mapping");
+            Controller.keyReleaseEvent.disconnect(keyReleaseEvent);
+        });
     }());
+
 
 This example script uses the `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_ namespace to determine if your avatar's hand moves. Upon detecting movement, the script makes your avatar launch balls. It also uses some other namespaces such as `Entities <https://apidocs.overte.org/Entities.html>`_ (to create the ball you will launch) and `Vec3 <https://apidocs.overte.org/Vec3.html>`_ (to determine the right positions and distances). Add it to your avatar to see how it works.
 
