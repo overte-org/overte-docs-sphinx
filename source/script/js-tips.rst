@@ -139,10 +139,10 @@ Create a JS script that you want to access from your main script.
 
     module.exports = {
         sayHello: function () {
-            console.log("Hello!");
+            print("Hello!");
         },
         sayGoodbye: function () {
-            console.log("Goodbye!");
+            print("Goodbye!");
         }
     };
 
