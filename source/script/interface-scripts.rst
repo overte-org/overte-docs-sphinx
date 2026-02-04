@@ -13,10 +13,11 @@ With interface scripts, you can do things like add new menus to the Interface, a
 Load an Interface Script
 ------------------------
 
-To load and run an interface script: 
-1. In Interface, go to **Edit > Running Scripts** or press <kbd class="keyboard">Ctrl</kbd> + <kbd class="keyboard">J</kbd> on your keyboard.
-2. For scripts hosted in the cloud, click 'From URL'. Enter the URL of your script file and click 'OK'.
-3. For scripts on your local computer, click 'From Disk'. Browse to your script file and click 'Open'.
+To load and run an interface script:
+
+1. In Interface, go to **Edit > Running Scripts** or press :kbd:`Ctrl+J` on your keyboard.
+2. For scripts hosted on the internet, click **From URL**. Enter the URL of your script file and click **OK**.
+3. For scripts on your local computer, click **From Disk**. Browse to your script file and click **Open**.
 
 ------------------------------
 Example of an Interface Script
@@ -41,5 +42,5 @@ The following script automatically enters a first person perspective when you en
 
 **See Also**
 
-+ [Get Started with Scripting](get-started-with-scripting)
-+ [Write Your Own Scripts](write-scripts)
+- `Get Started with Scripting <get-started-with-scripting>`_
+- `Write Your Own Scripts <write-scripts>`_
