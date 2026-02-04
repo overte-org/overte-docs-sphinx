@@ -31,13 +31,14 @@ The following script counts the number of entities found in a domain using Overt
 
 .. code-block:: javascript
 
-    var SEARCH_CENTER = {x: 0, y: -10, z: 0};
-    var SEARCH_RADIUS = 100;
+    "use strict"
+    const SEARCH_CENTER = {x: 0, y: -10, z: 0};
+    const SEARCH_RADIUS = 100;
 
-    var isInitialized = false;
-    var timeout = 1000;
+    let isInitialized = false;
+    const timeout = 1000;
 
-    var update = function(deltaTime) {
+    const update = function(deltaTime) {
         if (!isInitialized) {
             if (Entities.serversExist() && Entities.canRez()) {
                 EntityViewer.setPosition(SEARCH_CENTER);
