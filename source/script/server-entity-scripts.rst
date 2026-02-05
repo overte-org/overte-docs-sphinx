@@ -15,10 +15,15 @@ To attach a server entity script to an entity:
 
 1. In Interface, pull up your tablet or HUD and go to **Create**.
 2. Select the entity you'd like to script by either clicking on it in Interface or finding it in the 'Entity List'.
-3. In the **Create** app, go to the 'Properties' tab and scroll down to the 'Behavior' section.
+3. In the **Create** app, go to the 'Properties' tab and select the Scripts icon. |scripts-icon|
 4. For 'Server Script', enter the URL to your server entity script.
 
 .. note:: An entity can have multiple server entity scripts attached to it, but all of these must be through a single file URL.
+
+.. |scripts-icon| image:: _images/create-properties-scripts-icon.png
+   :height: 4ex
+   :class: no-scaled-link inline
+   :alt: paper and quill icon
 
 ---------------------------------
 Example of a Server Entity Script
@@ -29,15 +34,16 @@ The following script modifies the intensity of a light entity, so that it flicke
 .. code-block:: javascript
 
     (function() {
-        var MINIMUM_LIGHT_INTENSITY = 100.0;
-        var MAXIMUM_LIGHT_INTENSITY = 125.0;
+        "use strict"
+        const MINIMUM_LIGHT_INTENSITY = 100.0;
+        const MAXIMUM_LIGHT_INTENSITY = 125.0;
 
         // Return a random number between `low` (inclusive) and `high` (exclusive)
         function randFloat(low, high) {
             return low + Math.random() * (high - low);
         }
 
-        var self = this;
+        const self = this;
         this.preload = function(entityID) {
             self.intervalID = Script.setInterval(function() {
                 Entities.editEntity(entityID, {
