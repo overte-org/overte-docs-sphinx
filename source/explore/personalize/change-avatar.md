@@ -1,11 +1,6 @@
-<div class="admonition warning">
-    <p class="admonition-title">Warning</p>
-    <p>This document is outdated. FIXME: mentions only FST files</p>
-</div>
-
 # Change Your Avatar
 
-When you first use Overte, you will be wearing the default avatar, Woody. Your avatar is a representation of you in the metaverse. You can control how your avatar moves and speak to other users in-world using it.
+When you first use Overte, you will be wearing the default avatar, Woody. Your avatar will represent you in the digital realm. With it you dictate how other people see you through how your avatar looks and moves. You can have full control over your persona as you speak to other users in-world.
 
 **On This Page:**
 
@@ -18,10 +13,10 @@ You can use an avatar that you created. Learn more about how you can create your
 
 <div class="admonition note">
     <p class="admonition-title">Note</p>
-    <p>All avatars must be hosted in the cloud before they can be used with Overte. Examples of cloud storage options include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure.
+    <p>All avatars must be hosted at a publicly accessible web address, so everyone you meet can see it. They can be hosted on your own HTTP(s) server, on your website or at any web hosting service. Just make sure you can provide a direct link to the file itself; a web page with a download link will not work.</p>
 </div>
 
-Once you have your avatar's .fst file, you can upload it.
+Once you have your avatar, you can upload it. Your avatar may include an .fst, .glb/fbx/gLTF, images, animation .json,  and any number of other files which should all be uploaded to a publicly accessible location so all users of Overte can see it.
 
 1. In Interface, pull up your tablet or HUD and click on **Avatar**.
 2. In the **Avatar** window, click the link icon next to your current avatar. ![](_images/avatar-link.png)

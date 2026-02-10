@@ -2,10 +2,11 @@
 Install Overte
 ################
 
-Overte has two different installers. The *Client Installer* comes with everything you need to view and interact with Overte's content and users.
-However, you are unable to host content using this installer. The *Client + Server Installer* has everything the client installer does,
-but it also enables you to :doc:`host your own content <../../host>` and share it with the world.
-The Client + Server Installer download is only provided for Windows. For Linux see: :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`.
+Overte is currently available for Linux and Windows.
+
+For Linux the Interface Client is provided as an AppImage. There are seperate domain server packages available for common Linux distributions. To set up your own domain on Linux, see: :doc:`Host a Domain from a Local or Cloud Linux Server <../../host/server-setup/linux-server>`.
+
+For Windows the installer comes with both the client Interface and the domain server so you can :doc:`host your own content <../../host>` easily from your own computer.
 
 .. contents:: On This Page
     :depth: 2
@@ -42,7 +43,7 @@ In order to run Overte, ensure that your computer meets these system requirement
 
 In addition, your network must have enough internet bandwidth to run Overte:
 
-* If you are using Interface only to explore the metaverse, then you should have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s upload**.
+* If you are using Interface only to explore Overte, then you should have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s upload**.
 * If you are hosting a domain server on a remote machine or your local computer, you need to add **10 Mbit/s upload** for each user that
   you want to allow to concurrently visit your domain. You will need only **2 Mbit/s upload** per user if you host your assets on an external web server rather than your domain server.
 
@@ -56,9 +57,11 @@ Download Overte
 
 The current release is available to `download on our website <https://overte.org/downloads.html>`_.
 
-If you intend to use Overte in VR mode with an HMD, ensure that SteamVR or Oculus Runtime is also installed on your system before launching Overte.
-VR mode is not supported on macOS. The Oculus Runtime is not supported on Linux.
+If you intend to use Overte in VR mode with an HMD, ensure your OpenVR or OpenXR runtime is also installed on your system before launching Overte.
 
+We currently recommend using the SteamVR runtime with OpenVR for the best experience, including full body tracking.
+
+Overte also supports OpenXR runtimes, including Monada and Wivrn, however there are still some issues with body tracking.
 
 ---------------------------------
 Install Overte
@@ -73,29 +76,12 @@ Windows Install
 To install on Windows, simply double-click on the downloaded installer file to open it. Run through the prompts on the installer.
 Once you finish the install process, Interface will open, and you will be able to log in and begin exploring the metaverse.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Mac Install
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-At this time, the Overte installer for Mac is unsigned, so you will need give the OS permission to install the application.
-
-1. Open the downloaded installer dmg file.
-2. Agree to the License Agreement.
-3. Drag Overte to the Applications folder.
-4. Try opening Interface.app. You will be prompted that macOS will not open the file because it is unsigned.
-5. Open **System Preferences > Security & Privacy**. On older macOS versions this might be in **System Preferences > General**.
-6. Next to the warning indicating that Interface is blocked, click 'Open Anyway'.
-7. Confirm that you want to open the application.
-8. Allow microphone access if prompted, in order to be able to talk inside the application.
-
-At this point, Interface will open and you will be able to log in and begin exploring the metaverse.
-
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Linux Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-1. Mark the downloaded AppImage file as executable. (for example, with ``chmod +x Overte-x86_64_20220219.AppImage``.)
+1. Mark the downloaded AppImage file as executable. (for example, with ``chmod +x Overte-2025.12.1-x86_64.AppImage``.)
 2. (Optional) If you want the AppImage to be integrated into your system, install `AppImageLauncher <https://github.com/TheAssassin/AppImageLauncher>`_.
 3. Execute AppImage.
 
@@ -106,7 +92,7 @@ Upgrade Overte
 ----------------------------
 
 Overte is always changing, as we work to improve performance and add features that will enhance your experience in the metaverse.
-At any time, you can download the latest release from our `website <https://overte.org/#downloads>`_.
+At any time, you can download the latest release from our `website <https://overte.org/downloads.html>`_.
 
 You cannot upgrade Overte on Windows if you have Overte Interface or Server running on your computer. Be sure to quit these applications before upgrading.
 Keep in mind that Overte Server could be running in the background.
@@ -126,6 +112,15 @@ A clean install removes multiple files and settings that you may need once you i
 .. note:: Ensure that you back up the following files before a clean install: Favorites, Wearables, Server content, and Entities. These settings will be deleted during the clean install.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Linux Clean Install
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+1. Find the location where you downloaded the AppImage and delete it.
+2. Browse to `~/.local/share/` and delete all folders related to Overte.
+3. Browse to `~/.config/` and delete all folders related to Overte.
+4. Re-install Overte using the steps above.
+
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Windows Clean Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -142,19 +137,7 @@ Windows Clean Install
 4. Browse to your local %AppData% folder (usually ``C:/Users/<your_username>/AppData/Local``). If you do not see the folder,
    make sure you can view hidden folders: in File Explorer, click View and make sure "Hidden Items" is checked. Delete all folders related to Overte.
 5. Browse to your roaming %AppData% folder (usually ``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related to Overte.
-6. Re-install Overte using the steps above. To restore your local Server's content, copy the ``assignment-client`` folders you previously saved back into to their respective locations.
-
-^^^^^^^^^^^^^^^^^^^^^^^^
-Mac Clean Install
-^^^^^^^^^^^^^^^^^^^^^^^^
-
-1. Open your Applications folder and delete the Overte folder.
-2. Open the ``<username>/.config`` folder. This is a hidden folder than is accessible by going to *Go > Home*. Press the keyboard shortcut ``Command + Shift + .`` (period).
-3. Delete the ``overte.org`` folder.
-4. Open the ``~/Library`` folder by holding the Option key and clicking the 'Go' menu while in the Finder. The Library option should appear in the menu.
-5. Browse to ``~/Library/Application Support`` and delete the Overte folder.
-6. Empty the Trash.
-7. Re-install Overte using the steps above.
+6. Re-install Overte using the steps above. To restore your local Server's content, copy the ``assignment-client`` folders you previously saved back into their respective locations.
 
 
 **See Also**
