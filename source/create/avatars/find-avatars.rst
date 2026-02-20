@@ -41,7 +41,7 @@ You will need the following to use this tool:
 
 + Unity (Recommended versions: 2022.3.22f1)
 + Overte
-+ `Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-avatar-exporter>`_
++ `Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-avatar-exporter>`__
 
 Please note that the recommended version of Unity is not the latest version.
 
