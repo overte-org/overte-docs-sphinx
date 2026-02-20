@@ -5,5 +5,8 @@ git+https://github.com/overte-org/video.git
 
 myst-parser>=2.0.0
 
+# Transient dependency. Version 0.22 changed behaviour which causes more warnings.
+docutils>=0.22
+
 # Utility for easily running builds in Python virtual environments.
 venv-run
