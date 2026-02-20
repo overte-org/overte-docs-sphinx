@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-02-09 20:32+0000\n"
+"POT-Creation-Date: 2026-02-20 11:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sr\n"
@@ -4108,7 +4108,7 @@ msgstr ""
 #: ../../source/create/avatars/find-avatars.rst:44
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-"
-"avatar-exporter>`_"
+"avatar-exporter>`__"
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:46
@@ -10155,8 +10155,8 @@ msgid "Create an Installer"
 msgstr ""
 
 #: ../../source/developer.rst:11
-#: ../../source/developer/build/BUILD_LINUX.md:165
-#: ../../source/developer/build/BUILD_LINUX.md:193
+#: ../../source/developer/build/BUILD_LINUX.md:139
+#: ../../source/developer/build/BUILD_LINUX.md:162
 #: ../../source/developer/interface.rst:3
 #: ../../source/release-notes/v86-k2.md:5
 msgid "Interface"
@@ -10670,7 +10670,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:175
-#: ../../source/developer/build/BUILD_LINUX.md:156
+#: ../../source/developer/build/BUILD_LINUX.md:130
 #: ../../source/release-notes/v86-k2.md:58
 msgid "Server"
 msgstr ""
@@ -11477,7 +11477,7 @@ msgid "Open Task Manager and close any running Clang / Gradle processes"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:10
-msgid "*Last Updated on 2025-05-21*"
+msgid "*Last Updated on 2026-02-13*"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:12
@@ -11561,129 +11561,124 @@ msgstr ""
 msgid "Then run `glxinfo | grep \"OpenGL version\"`."
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:53
-msgid "QT 5:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:76
+#: ../../source/developer/build/BUILD_LINUX.md:52
 msgid "Extra dependencies to compile Interface on a server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:79
+#: ../../source/developer/build/BUILD_LINUX.md:53
 msgid "Install the following:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:84
+#: ../../source/developer/build/BUILD_LINUX.md:58
 msgid "Misc dependencies:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:89
+#: ../../source/developer/build/BUILD_LINUX.md:63
 msgid "Install Python 3 and required packages:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:94
+#: ../../source/developer/build/BUILD_LINUX.md:68
 msgid "Install Node.js as it is required to build the jsdoc documentation:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:99
+#: ../../source/developer/build/BUILD_LINUX.md:73
 msgid "Get code and checkout the branch you need"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:101
+#: ../../source/developer/build/BUILD_LINUX.md:75
 msgid "Clone this repository:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:106
+#: ../../source/developer/build/BUILD_LINUX.md:80
 msgid "Then checkout the master branch with:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:111
+#: ../../source/developer/build/BUILD_LINUX.md:85
 msgid "If you need a different branch, you can get a list of all tags with:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:117
+#: ../../source/developer/build/BUILD_LINUX.md:91
 msgid "Prepare conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:119
+#: ../../source/developer/build/BUILD_LINUX.md:93
 msgid "The next step is setting up conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:121
+#: ../../source/developer/build/BUILD_LINUX.md:95
 msgid "First, create a conan profile"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:126
+#: ../../source/developer/build/BUILD_LINUX.md:100
 msgid "Next, add the overte remote to conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:131
-msgid ""
-"Optionally you can let conan automatically install the required system "
-"packages"
+#: ../../source/developer/build/BUILD_LINUX.md:105
+msgid "Let conan automatically install the required system packages"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:137
+#: ../../source/developer/build/BUILD_LINUX.md:110
+msgid ""
+"If you don't do this, Conan will still complain if it notices system "
+"packages being missing, so you can manually install them."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:112
 msgid "Compiling"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:139
+#: ../../source/developer/build/BUILD_LINUX.md:114
 msgid "Install the dependencies with conan"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:145
-msgid "On systems with GCC 15 additional parameter is needed:"
+#: ../../source/developer/build/BUILD_LINUX.md:120
+msgid ""
+"If you want to build Debug or RelWithDebInfo versions, change the "
+"`build_type` to `Debug` or `RelWithDebInfo` and run the command again. "
+"E.g.:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:151
-msgid "Prepare makefiles:"
+#: ../../source/developer/build/BUILD_LINUX.md:125
+msgid "Prepare ninja files:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:158
+#: ../../source/developer/build/BUILD_LINUX.md:132
 msgid "To compile the Domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:163
+#: ../../source/developer/build/BUILD_LINUX.md:137
 msgid "*Note: For a server, it is not necessary to compile the Interface.*"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:167
+#: ../../source/developer/build/BUILD_LINUX.md:141
 msgid "To compile the Interface client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:172
-msgid ""
-"The commands above will compile with a single thread. If you have enough "
-"memory, you can decrease your build time using the `-j` flag. Since most "
-"x64 CPUs support two threads per core, this works out to CPU_COUNT*2. As "
-"an example, if you have a 2 core machine, you could use:"
-msgstr ""
-
-#: ../../source/developer/build/BUILD_LINUX.md:177
+#: ../../source/developer/build/BUILD_LINUX.md:146
 msgid "Running the software"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:179
+#: ../../source/developer/build/BUILD_LINUX.md:148
 msgid "Domain server"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:181
+#: ../../source/developer/build/BUILD_LINUX.md:150
 msgid "Running Domain server:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:186
+#: ../../source/developer/build/BUILD_LINUX.md:155
 msgid "Assignment clients"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:188
+#: ../../source/developer/build/BUILD_LINUX.md:157
 msgid "Running assignment client:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:195
+#: ../../source/developer/build/BUILD_LINUX.md:164
 msgid "Running Interface:"
 msgstr ""
 
-#: ../../source/developer/build/BUILD_LINUX.md:200
+#: ../../source/developer/build/BUILD_LINUX.md:169
 msgid ""
 "Go to \"localhost\" in the running Interface to visit your newly launched"
 " Domain server."
@@ -31557,5 +31552,41 @@ msgstr ""
 #~ "<http://store.steampowered.com/app/533970/Blocks_by_Google>`_ or"
 #~ " download it for the VR equipment "
 #~ "you are using."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Overte Avatar Exporter for Unity "
+#~ "<https://github.com/overte-org/unity-avatar-"
+#~ "exporter>`_"
+#~ msgstr ""
+
+#~ msgid "*Last Updated on 2025-05-21*"
+#~ msgstr ""
+
+#~ msgid "QT 5:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Optionally you can let conan "
+#~ "automatically install the required system "
+#~ "packages"
+#~ msgstr ""
+
+#~ msgid "On systems with GCC 15 additional parameter is needed:"
+#~ msgstr ""
+
+#~ msgid "Prepare makefiles:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The commands above will compile with "
+#~ "a single thread. If you have "
+#~ "enough memory, you can decrease your "
+#~ "build time using the `-j` flag. "
+#~ "Since most x64 CPUs support two "
+#~ "threads per core, this works out "
+#~ "to CPU_COUNT*2. As an example, if "
+#~ "you have a 2 core machine, you "
+#~ "could use:"
 #~ msgstr ""
 
