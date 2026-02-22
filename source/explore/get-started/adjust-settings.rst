@@ -131,11 +131,6 @@ You can make changes to the graphics in Overte.
 | Clipping           | pass through walls, furniture, avatars or any other entities.                          |
 +--------------------+----------------------------------------------------------------------------------------+
 
-
-| Rendering          | Choose the level of rendering effects that are present in Overte. Local lights,        |
-| Effects            | fog, bloom, and shadows are all examples of rendering effects.                         |
-+--------------------+----------------------------------------------------------------------------------------+
-
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Account Security Settings
 ^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -145,11 +140,13 @@ You can change your account security settings in Overte.
 - In Desktop mode, go to **Settings > Security** in the menu on the top left corner. 
 - In VR mode, open your Tablet and go to **Menu > Settings > Security**.
 
-+---------------------+----------------------------------------------------------------------------------+
-| Setting             | Description                                                                      |
-+=====================+==================================================================================+
-| Keep Me Logged In   | Enable to stay logged in (in the current device) even if you exit Overte.        |
-+---------------------+----------------------------------------------------------------------------------+
++------------------------------+----------------------------------------------------------------------------------+
+| Setting                      | Description                                                                      |
++==============================+==================================================================================+
+| Keep Me Logged In            | Enable to stay logged in (in the current device) even if you exit Overte.        |
++------------------------------+----------------------------------------------------------------------------------+
+| Enable custom script plugins | Toggles the activation of scripting plugins in the 'plugins/scripting' folder.   |
++------------------------------+----------------------------------------------------------------------------------+
 
 **See Also**
 
