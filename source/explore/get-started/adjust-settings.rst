@@ -115,9 +115,9 @@ You can make changes to the graphics in Overte.
 +--------------------+----------------------------------------------------------------------------------------+
 | Anti-aliasing      | Smooth out the edges on your screen by choosing your anti-aliasing method.             |
 |                    |                                                                                        |
-|                    | * TAA:                                                                                 |
-|                    | * FXAA:                                                                                |
-|                    | * MXAA: Note: Not available when Deferred Rendering is enabled.                        |
+|                    | * TAA                                                                                  |
+|                    | * FXAA                                                                                 |
+|                    | * MXAA - Note: Not available when Deferred Rendering is enabled.                       |
 +--------------------+----------------------------------------------------------------------------------------+
 | LOD Settings       | Control the level of detail visible to you in Overte by moving this slider.            |
 +--------------------+----------------------------------------------------------------------------------------+
