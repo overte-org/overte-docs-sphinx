@@ -47,7 +47,7 @@ If you would like to lock it in place, so it cannot be grabbed, click the lock i
 Modify your Wearable
 --------------------------------
 
-You can even modify your wearable using the Create app whilst you are wearing it.
+You can even modify your wearable using the `Create app <../../create/tools.html#the-create-app>`_ whilst you are wearing it.
 
 .. note:: Modified wearables will follow you to different domains and remain when you next load Overte, however any modifications will not be saved to your avatar until you favourite it again.
 
