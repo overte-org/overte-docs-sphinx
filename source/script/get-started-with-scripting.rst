@@ -4,7 +4,7 @@ Get Started with Scripting
 
 Overte has a powerful scripting interface, in fact many of the features you might use whilst exploring Overte's worlds run on the scripting engine. The tablet you use to access apps, the community apps themselves, even the entities which make up much of the world; all of them are powered by scripts. You can modify many of these existing scripts, and even :doc:`write your own scripts<write-scripts>` to reshape the Overte experience into your own.
 
-This page ensure that you know what type of script to use and helps you get started running your own simple scripts.
+This page ensures that you know what type of script to use and helps you get started running your own simple scripts.
 
 .. contents:: On This Page
     :depth: 2
