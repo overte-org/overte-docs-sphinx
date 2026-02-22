@@ -1,7 +1,3 @@
-.. warning::
-    This document is slightly outdated.
-    FIXME: says that lower graphics setting increase performance (not entirely true in our case)
-
 ####################
 Adjust Your Settings
 ####################
@@ -116,7 +112,7 @@ You can make changes to the graphics in Overte.
 | Anti-aliasing      | Smooth out the edges on your screen by choosing your anti-aliasing method.             |
 |                    |                                                                                        |
 |                    | * TAA                                                                                  |
-|                    | * FXAA                                                                                 |
+|                    | * FXAA - Typically the cheapest and *fastest*.                                         |
 |                    | * MXAA - Note: Not available when Deferred Rendering is enabled.                       |
 +--------------------+----------------------------------------------------------------------------------------+
 | LOD Settings       | Control the level of detail visible to you in Overte by moving this slider.            |
@@ -130,6 +126,9 @@ You can make changes to the graphics in Overte.
 | Allow Camera       | Disable to allow object geometry to block your camera; when enabled your camera may    |
 | Clipping           | pass through walls, furniture, avatars or any other entities.                          |
 +--------------------+----------------------------------------------------------------------------------------+
+
+.. note::
+    Disabling *Deferred Rendering* will typically increase performance as it is lighter, however on some GPUs you may find that it runs better with it enabled. You should test how Overte performs on your machine when changing this setting.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Account Security Settings
