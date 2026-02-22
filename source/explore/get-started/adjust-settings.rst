@@ -84,25 +84,57 @@ You can make changes to the graphics in Overte.
 - In Desktop mode, go to **Settings > Graphics** in the menu on the top left corner. 
 - In VR mode, open your Tablet and go to **Menu > Settings > Graphics**.
 
-+--------------+----------------------------------------------------------------------------------------+
-| Setting      | Description                                                                            |
-+==============+========================================================================================+
-| Graphics     | Choose the graphics settings for your computer tier. In general, a lower graphics      |
-| Settings     | setting sacrifices artistic details and rendering effects for increased performance    |
-|              | and optimization. **Custom** lets you configure the world detail, rendering effects,   |
-|              | refresh rate, and resolution yourself.                                                 |
-+--------------+----------------------------------------------------------------------------------------+
-| World Detail | Control the level of detail visible to you in Overte by moving this slider.            |
-+--------------+----------------------------------------------------------------------------------------+
-| Rendering    | Choose the level of rendering effects that are present in Overte. Local lights,        |  
-| Effects      | fog, bloom, and shadows are all examples of rendering effects.                         |
-+--------------+----------------------------------------------------------------------------------------+
-| Refresh Rate | Choose the frequency that Overte updates its graphics buffers. Most mid-range          |  
-|              | computers run well on 'Interactive'.                                                   |
-+--------------+----------------------------------------------------------------------------------------+
-| Resolution   | Adjust the resolution using the slider. This affects how clear Overte appears          |
-|              | on your monitor or screen.                                                             |
-+--------------+----------------------------------------------------------------------------------------+
++--------------------+----------------------------------------------------------------------------------------+
+| Setting            | Description                                                                            |
++====================+========================================================================================+
+| Graphics           | Select the Graphics Preset which best suits your desired performance. Generally a      |
+| Preset             | lower graphics setting will sacrifice some visual details for increased performance,   |
+|                    | however "Low Power" is intended to reduce the resource usage of Overte to lower its    |
+|                    | impact on the rest of your system.                                                     |
++--------------------+----------------------------------------------------------------------------------------+
+| Local Lights       | Allow local light sources to light nearby objects.                                     |
++--------------------+----------------------------------------------------------------------------------------+
+| Bloom              | Make bright areas look brighter by simulating a light-bleed halo effect around them.   |
++--------------------+----------------------------------------------------------------------------------------+
+| Custom Shaders     | Shaders are fancy effects which you may see on avatars or entities in Overte.          |
++--------------------+----------------------------------------------------------------------------------------+
+| Deferred Rendering | Advanced rendering technique, primarily for fancy lighting effects.                    |
+|                    | You may want to disable this if you have limited memory bandwidth or want to           |
+|                    | prioritise anti-aliasing.                                                              |
+|                    |                                                                                        |
+|                    | With this enabled, the following options are revealed:                                 |
+|                    | * Shadows                                                                              |
+|                    | * Ambient Occlusion                                                                    |
+|                    | * Haze                                                                                 |
++--------------------+----------------------------------------------------------------------------------------+
+| Field of View      | Set your field of view using the slider. A higher value lets you see more of your      |
+|                    | surroundings.                                                                          |
++--------------------+----------------------------------------------------------------------------------------+
+| Resolution         | Adjust the resolution using the slider. This affects how clear Overte appears          |
+|                    | on your monitor or screen.                                                             |
++--------------------+----------------------------------------------------------------------------------------+
+| Anti-aliasing      | Smooth out the edges on your screen by choosing your anti-aliasing method.             |
+|                    |                                                                                        |
+|                    | * TAA:                                                                                 |
+|                    | * FXAA:                                                                                |
+|                    | * MXAA: Note: Not available when Deferred Rendering is enabled.                        |
++--------------------+----------------------------------------------------------------------------------------+
+| LOD Settings       | Control the level of detail visible to you in Overte by moving this slider.            |
++--------------------+----------------------------------------------------------------------------------------+
+| Refresh Rate       | Choose the frequency that Overte updates its graphics buffers. Most mid-range          |
+|                    | computers run well on 'Interactive'.                                                   |
++--------------------+----------------------------------------------------------------------------------------+
+| Full Screen        | Select the screen to display Overte on.                                                |
+| Display            |                                                                                        |
++--------------------+----------------------------------------------------------------------------------------+
+| Allow Camera       | Disable to allow object geometry to block your camera; when enabled your camera may    |
+| Clipping           | pass through walls, furniture, avatars or any other entities.                          |
++--------------------+----------------------------------------------------------------------------------------+
+
+
+| Rendering          | Choose the level of rendering effects that are present in Overte. Local lights,        |
+| Effects            | fog, bloom, and shadows are all examples of rendering effects.                         |
++--------------------+----------------------------------------------------------------------------------------+
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Account Security Settings
