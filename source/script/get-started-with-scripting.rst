@@ -13,7 +13,7 @@ This page ensures that you know what type of script to use and helps you get sta
 JavaScript Basics in Overte
 -----------------------------
 
-Overte scripting runs on a JavaScript engine that is provided with Qt. 
+Overte scripting runs on the V8 scripting engine, with support for both javascript and WebAssembly. To access the Overte API you will need to use Javascript.
 
 .. note:: Note that any functionality that runs around web pages (such as cookies, local storages, or databases) does not work with 3D environments such as Overte. For this reason, you cannot use JavaScript frameworks such as Angular, React, Express, jQuery, Vue, etc.
 
@@ -133,6 +133,9 @@ To run a script:
 2. For scripts hosted on the internet, click 'From URL'. Enter the URL of your script file and click 'OK'.
 3. For scripts on your local computer, click 'From Disk'. Browse to your script file and click 'Open'.
 4. To load a sample script, browse to the script at the bottom of the 'Running Scripts' window. 
+
+.. note::
+    Any scripts you load from the 'Running Scripts' window will load automatically the next time you start Overte.
 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Reload or Stop a Script
