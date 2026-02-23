@@ -6,7 +6,7 @@ You can make content in Overte interactive by attaching scripts to entities. *Cl
 
 There can be (and typically are) multiple entities in a domain, and each one can have a different client entity script associated with it.
 
-As each client entity script will run on all users' clients simultaneously, it is most suitable for responding to each user interacting with it. If you want to control its behaviour indepently, you can give it a brain using a :doc:`server entity script <server-entity-scripts>`.
+As each client entity script will run on all users' clients simultaneously, it is most suitable for responding to each user interacting with it. If you want to control its behaviour independently, you can give it a brain using a :doc:`server entity script <server-entity-scripts>`.
 
 .. contents:: On This Page
     :depth: 2
@@ -52,6 +52,9 @@ The following script changes the color of a non-model entity (such as a box or a
     });
 
 This example is written as a JavaScript class prototype function, and it uses the mouse event `clickDownOnEntity() <https://apidocs.overte.org/Entities.html#.sendClickDownOnEntity>`_. When the user clicks on an entity, ``clickDownOnEntity()`` triggers the function associated with that click event. In this case, it changes the entity's color back and forth between yellow and magenta.
+
+.. note::
+    In the above example we include ``"use strict"`` on the first line of the client entity script to enable `strict mode <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode>`_ . This must be inside the class prototype function, not the first line of the file as in other scripts.
 
 **See Also**
 

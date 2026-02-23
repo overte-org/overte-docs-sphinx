@@ -58,6 +58,9 @@ The following script modifies the intensity of a light entity, so that it flicke
 
 This script is a good example of a server entity script because it only needs one actor to update the intensity of the light. The same script could be attached as an entity client script, but all clients who could see the tea light would be editing the entity to vary the intensity of the light to flicker it.
 
+.. note::
+    In the above example we include ``"use strict"`` on the first line of the server entity script to enable `strict mode <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode>`_ . This must be inside the class prototype function, not the first line of the file as in other scripts.
+
 ----------
 Script API
 ----------
