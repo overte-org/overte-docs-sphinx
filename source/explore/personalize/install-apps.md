@@ -61,5 +61,19 @@ To use the Body Paint app:
 4. Click 'Brushes' to select the settings for your brush, such as stroke width, type of brush, and special effects.
 ![](_images/fingerpaint.png)
 
+### Body Poser
+
+With the Body Poser app you will be able to move and rotate each of your limbs to form whatever pose you want!
+
+[Use the instructions above](#install-tablet-apps) to install the Body Poser app.
+
+To use the Body Poser App:
+1. Open your context menu with **b** on your keyboard, or the context menu button on your controller. Select **Poser** and then toggle **Enabled**.
+2. Your avatar will form a T-pose and you will now see your "handles" as coloured boxes on your avatar.
+3. You can grab a handle with either your mouse left click or your grab button on controller and drag to move it.
+4. On desktop you can hold **shift** to move the handle up/down, and **control** to rotate it.
+5. Once you are happy with your pose you can hide your handles from the context menu; **Poser** -> toggle **Show handles**
+![](_images/app_bodyposer.png)
+
 **See Also**
 + [Create Tablet Apps](../../create/applications)
