@@ -170,13 +170,13 @@ You can equip an item using a script:
 
 .. code-block:: javascript
 
-    Messages.sendLocalMessage('Hifi-Hand-Grab', JSON.stringify({hand: 'XXX', entityID: 'YYY'})); // where XXX is either the left or right hand and YYY is entityID to equip
+    Messages.sendLocalMessage('Hifi-Hand-Grab', JSON.stringify({hand: 'XXX', entityID: 'YYY'})); // where XXX is either the 'left' or 'right' hand and YYY is entityID to equip
 
 To drop the entity from your avatar's hand:
 
 .. code-block:: javascript
 
-    Messages.sendLocalMessage('Hifi-Hand-Drop', 'XXX'); // where XXX is either the left or right hand
+    Messages.sendLocalMessage('Hifi-Hand-Drop', 'XXX'); // where XXX is either the 'left' or 'right' hand
 
 .. note:: In order for an entity to be equipped it must be `equippable <https://apidocs.overte.org/Entities.html#grab:~:text=equippable>`_ . A user must be able to *grab* an entity before they can equip it, however a script does not need the entity to be `grabbable <https://apidocs.overte.org/Entities.html#grab:~:text=grabbable>`_ before it can equip it with the ``'Hifi-Hand-Grab'`` message.
 
