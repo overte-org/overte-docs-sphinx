@@ -40,7 +40,7 @@ The following script changes the color of a non-model entity (such as a box or a
     (function () {
         "use strict"
         let clicked = false;
-        this.clickDownOnEntity = function (entityID, mouseEvent) {
+        this.mousePressOnEntity = function (entityID, mouseEvent) {
             if (clicked){
                 Entities.editEntity(entityID, { color: { red: 0, green: 255, blue: 255} });
                 clicked = false;
@@ -51,7 +51,7 @@ The following script changes the color of a non-model entity (such as a box or a
         };
     });
 
-This example is written as a JavaScript class prototype function, and it uses the mouse event `clickDownOnEntity() <https://apidocs.overte.org/Entities.html#.sendClickDownOnEntity>`_. When the user clicks on an entity, ``clickDownOnEntity()`` triggers the function associated with that click event. In this case, it changes the entity's color back and forth between yellow and magenta.
+This example is written as a JavaScript class prototype function, and it uses the mouse/controller event `mousePressOnEntity() <https://apidocs.overte.org/Entities.html#.sendMousePressOnEntity>`_. When the user clicks on an entity, ``mousePressOnEntity()`` triggers the function associated with that click event. In this case, it changes the entity's color back and forth between yellow and magenta.
 
 .. note::
     In the above example we include ``"use strict"`` on the first line of the client entity script to enable `strict mode <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode>`_ . This must be inside the class prototype function, not the first line of the file as in other scripts.
