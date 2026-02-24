@@ -78,7 +78,7 @@ You can use the `Quat <https://apidocs.overte.org/Quat.html>`_ namespace to get 
 Make an Entity Appear Before Your Avatar
 ++++++++++++++++++++++++++++++++++++++++++++
 
-You can make an entity appear before your avatar and also control the distance at which it appears. 
+You can make an entity appear before your avatar and also control the distance at which it appears.
 
 Use the `Vec3 <https://apidocs.overte.org/Vec3.html>`_ namespace and the direction your avatar is facing to return the position at which you can make your entity appear. This position is 1m away from your avatar:
 

@@ -33,7 +33,7 @@ To attach a client entity script to an entity:
 Example of a Client Entity Script
 ---------------------------------
 
-The following script changes the color of a non-model entity (such as a box or a sphere) when you click on it: 
+The following script changes the color of a non-model entity (such as a box or a sphere) when you click on it:
 
 .. code-block:: javascript
 

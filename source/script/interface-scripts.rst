@@ -2,7 +2,7 @@
 Interface Scripts
 #################
 
-Interface scripts run on your local machine, as long as you have Interface up and running. Each user has full control over when interface scripts are started and stopped. The results (such as when your script changes the color of a box) can be seen by everyone in your domain, but the script itself is running on your local machine. Your Interface will communicate that information to the Entity Server, which will communicate it to whoever is visiting the domain. 
+Interface scripts run on your local machine, as long as you have Interface up and running. Each user has full control over when interface scripts are started and stopped. The results (such as when your script changes the color of a box) can be seen by everyone in your domain, but the script itself is running on your local machine. Your Interface will communicate that information to the Entity Server, which will communicate it to whoever is visiting the domain.
 
 With interface scripts, you can do things like add new menus to the Interface, add plug-ins, or add 3D overlays that you have control over.
 
