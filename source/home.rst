@@ -58,5 +58,4 @@ You have the power to shape your VR experience in Overte.
     DEVELOP <developer>
     SECURITY <security>
     FAQ <faq>
-    RELEASE NOTES <release-notes>
     API REFERENCE <https://apidocs.overte.org>
