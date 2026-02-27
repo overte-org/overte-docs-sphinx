@@ -2,7 +2,7 @@
 Get Started with Scripting
 ##########################
 
-Many of the scripts in Overte run behind the scenes, so that you don't even know they're running. However, if you want to create some advanced behavior, you may need to :doc:`write your own scripts <write-scripts>` to make sure everything works correctly. 
+Overte has a powerful scripting interface, in fact many of the features you might use whilst exploring Overte's worlds run on the scripting engine. The tablet you use to access apps, the community apps themselves, even the entities which make up much of the world; all of them are powered by scripts. You can modify many of these existing scripts, and even :doc:`write your own scripts<write-scripts>` to reshape the Overte experience into your own.
 
 This page ensures that you know what type of script to use and helps you get started running your own simple scripts.
 
@@ -13,40 +13,40 @@ This page ensures that you know what type of script to use and helps you get sta
 JavaScript Basics in Overte
 -----------------------------
 
-Overte scripting runs on a JavaScript engine that is provided with Qt. 
+Overte scripting runs on the V8 scripting engine, with support for both javascript and WebAssembly. To access the Overte API you will need to use Javascript.
 
 .. note:: Note that any functionality that runs around web pages (such as cookies, local storages, or databases) does not work with 3D environments such as Overte. For this reason, you cannot use JavaScript frameworks such as Angular, React, Express, jQuery, Vue, etc.
 
 You are likely to interface most with these Overte APIs:  
 
-+-------------------------------------------------------------------------+------------------------------------------------------------------+
-| API(s)                                                                  | Description                                                      |
-+=========================================================================+==================================================================+
-| `Entities <https://apidocs.overte.org/Entities.html>`_                  | Lets you manipulate the entities around you, as long             |
-|                                                                         | as you have permissions to do so. This means you can             |
-|                                                                         | add, remove, and edit entities. Everyone has access              |
-|                                                                         | to ``get`` properties of an entity, and can be used              |
-|                                                                         | to find Entities in range, direction, collision, or              |
-|                                                                         | raytrace.                                                        |
-+-------------------------------------------------------------------------+------------------------------------------------------------------+
-| `AvatarList <https://apidocs.overte.org/AvatarList.html>`_              | Lets you get information on an `Avatar                           |
-|                                                                         | <https://apidocs.overte.org/Avatar.html>`_,                      |
-| `AvatarManager <https://apidocs.overte.org/AvatarManager.html>`_        | or manipulate your own client-only `MyAvatar                     |
-|                                                                         | <https://apidocs.overte.org/MyAvatar.html>`_. The                |
-| `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_                  | information here will be always the avatar information           |
-|                                                                         | of the client running the script. AvatarList and                 |
-|                                                                         | AvatarManager are basically the same.                            |
-+-------------------------------------------------------------------------+------------------------------------------------------------------+
-| `Script <https://apidocs.overte.org/Script.html>`_                      | Lets you to connect callbacks from your client to script,        |
-|                                                                         | such as functionality that is dependent on time                  |
-|                                                                         | (Script.update, Script.setTime, Script.setInterval etc),         |
-|                                                                         | connect paths relatively to Assets (Script.relativePath),        |
-|                                                                         | refer to other scripts (Script.include), or create events        |
-|                                                                         | which occur when the script is turned off (Script.scriptEnding). |
-+-------------------------------------------------------------------------+------------------------------------------------------------------+
++---------------------------------------------------------------------+----------------------------------------------------------------------+
+| API(s)                                                              | Description                                                          |
++=====================================================================+======================================================================+
+| `Entities <https://apidocs.overte.org/Entities.html>`_              | Lets you manipulate the entities around you, as long                 |
+|                                                                     | as you have permissions to do so. This means you can                 |
+|                                                                     | add, remove, and edit entities. Everyone has access                  |
+|                                                                     | to ``get`` properties of an entity, and can be used                  |
+|                                                                     | to find Entities in range, direction, collision, or                  |
+|                                                                     | raytrace.                                                            |
++---------------------------------------------------------------------+----------------------------------------------------------------------+
+| `AvatarList <https://apidocs.overte.org/AvatarList.html>`_          | Lets you get information on an `Avatar                               |
+|                                                                     | <https://apidocs.overte.org/Avatar.html>`_,                          |
+| `AvatarManager <https://apidocs.overte.org/AvatarManager.html>`_    | or manipulate your own client-only `MyAvatar                         |
+|                                                                     | <https://apidocs.overte.org/MyAvatar.html>`_. The                    |
+| `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_              | information here will always be the avatar information               |
+|                                                                     | of the client running the script. AvatarList and                     |
+|                                                                     | AvatarManager are basically the same.                                |
++---------------------------------------------------------------------+----------------------------------------------------------------------+
+| `Script <https://apidocs.overte.org/Script.html>`_                  | Allows you to connect callbacks from your client to script,          |
+|                                                                     | such as functionality that is dependent on time                      |
+|                                                                     | (``Script.update``, ``Script.setTime``, ``Script.setInterval`` etc), |
+|                                                                     | connect paths relatively to Assets (``Script.relativePath``),        |
+|                                                                     | refer to other scripts (``Script.include``), or create events        |
+|                                                                     | which occur when the script is turned off (``Script.scriptEnding``). |
++---------------------------------------------------------------------+----------------------------------------------------------------------+
 
 
-There are `many other APIs available <https://apidocs.overte.org>`_, and we encourage you to make sure use of them as you become more comfortable scripting in Overte.
+There are `many other APIs available <https://apidocs.overte.org>`_, which we encourage you to make use of as you become more comfortable scripting in Overte.
 
 ----------------
 Types of Scripts
@@ -66,8 +66,8 @@ Types of Scripts
 |                          | hair.                                                                               |
 +--------------------------+-------------------------------------------------------------------------------------+
 | Client Entity Script     | *Client entity scripts* are scripts attached to entities that run locally in        |
-|                          | response to a user in a domain. With these scripts, you can customize what happens  |
-|                          | when a user encounters an entity.                                                   |
+|                          | response to each user in a domain. With these scripts, you can customize what       |
+|                          | happens when a user encounters an entity by loading it into view.                   |
 +--------------------------+-------------------------------------------------------------------------------------+
 | Server Entity Script     | *Server entity scripts* are scripts attached to entities that do not require a      |
 |                          | user to trigger. These scripts control entities so that their behavior is seen and  |
@@ -94,31 +94,34 @@ Sample Scripts
 
 Overte comes with a collection of scripts designed to improve your experience as a user and provide tools for developing your own content. We encourage you to look at these scripts as a resource to learn how to code your own. 
 
-.. note:: Loading (or running) a script lets you test the functionality and see how it behaves. If you want to view the actual code, you will need to open the file in the text editor of your choice. In the 'Running Scripts' window, click the 'Reveal Scripts' folder and browse to the JavaScript file that you want to view. 
+.. note:: Loading (or running) a script lets you test the functionality and see how it behaves. If you want to view the actual code, you will need to open the file in the text editor of your choice. In the 'Running Scripts' window, click 'Reveal Scripts Folder' and browse to the JavaScript file that you want to view.
 
-These are the scripts we have available:  
+These are the scripts we have available:
 
-+----------------+------------------------------------------------------------------------------------+
-| Scripts Folder | Description                                                                        |
-+================+====================================================================================+
-| ``android``    | These scripts were built to run on Android devices.                                |
-+----------------+------------------------------------------------------------------------------------+
-| ``developer``  | These scripts were created for internal use and debugging, but are available as    |
-|                | advanced developers may find them useful when creating content. These scripts are  |
-|                | not "entry-level" and are not guaranteed to work or be documented.                 |
-+----------------+------------------------------------------------------------------------------------+
-| ``modules``    | These scripts create external tools that simplify scripting in Overte.             |
-|                | For example, the AppUI module helps you create a tablet app, while the Request     |
-|                | module processes HTTP requests.                                                    |
-+----------------+------------------------------------------------------------------------------------+
-| ``system``     | These scripts are critical to the stability and usability of Overte.               |
-|                | Making changes to these scripts is not recommended, nor is it easy, as you may     |
-|                | need 'administrative' privileges.                                                  |
-+----------------+------------------------------------------------------------------------------------+
-| ``tutorials``  | These scripts provide examples of what you can do using scripts in Overte.         |
-|                | Examples include: creating butterflies, making your avatar clap, and adding        |
-|                | ambient sound to your domain.                                                      |
-+----------------+------------------------------------------------------------------------------------+
++----------------------+------------------------------------------------------------------------------------+
+| Scripts Folder       | Description                                                                        |
++======================+====================================================================================+
+| ``android``          | These scripts were built to run on Android devices.                                |
++----------------------+------------------------------------------------------------------------------------+
+| ``communityScripts`` | These scripts were contributed by the community to improve the default             |
+|                      | Overte experience.                                                                 |
++----------------------+------------------------------------------------------------------------------------+
+| ``developer``        | These scripts were created for internal use and debugging, but are available as    |
+|                      | advanced developers may find them useful when creating content. These scripts are  |
+|                      | not "entry-level" and are not guaranteed to work or be documented.                 |
++----------------------+------------------------------------------------------------------------------------+
+| ``modules``          | These scripts create external tools that simplify scripting in Overte.             |
+|                      | For example, the AppUI module helps you create a tablet app, while the Request     |
+|                      | module processes HTTP requests.                                                    |
++----------------------+------------------------------------------------------------------------------------+
+| ``system``           | These scripts are critical to the stability and usability of Overte.               |
+|                      | Making changes to these scripts is not recommended, nor is it easy, as you may     |
+|                      | need 'administrative' privileges.                                                  |
++----------------------+------------------------------------------------------------------------------------+
+| ``tutorials``        | These scripts provide examples of what you can do using scripts in Overte.         |
+|                      | Examples include: creating butterflies, making your avatar clap, and adding        |
+|                      | ambient sound to your domain.                                                      |
++----------------------+------------------------------------------------------------------------------------+
 
 ^^^^^^^^^^^^^^^^^^^^^
 Load and Run a Script
@@ -127,9 +130,12 @@ Load and Run a Script
 To run a script:
  
 1. Open the 'Running Scripts' window. 
-2. For scripts hosted in the cloud, click 'From URL'. Enter the URL of your script file and click 'OK'.
+2. For scripts hosted on the internet, click 'From URL'. Enter the URL of your script file and click 'OK'.
 3. For scripts on your local computer, click 'From Disk'. Browse to your script file and click 'Open'.
 4. To load a sample script, browse to the script at the bottom of the 'Running Scripts' window. 
+
+.. note::
+    Any scripts you load from the 'Running Scripts' window will load automatically the next time you start Overte.
 
 ^^^^^^^^^^^^^^^^^^^^^^^
 Reload or Stop a Script
@@ -139,21 +145,10 @@ To reload or stop a script, open the 'Running Scripts' window and do one of the 
 
 * To reload all running scripts, click the 'Reload All' button at the top of the 'Running Scripts' window.
 * To reload a specific script, click the circular arrow next to the script.
-* To stop all running scripts, click the 'Stop All' button at the top of the 'Running Scripts' window.
+* To stop all running scripts, click the 'Remove All' button at the top of the 'Running Scripts' window.
 * To stop a specific script, click the 'X' next to the script.
 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Add a Script to the Default Scripts
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-You can add a script to the default scripts to run every time you start Interface. 
-
-* In Interface, pull up your Tablet or HUD and go to **Menu > Edit > Running Scripts**.
-* Click 'Reveal Scripts Folder' at the bottom. 
-* In the file explorer window, open the 'defaultScripts.js' file. 
-* Add your script to this file to make it run with other default scripts. Ensure the folder path to your script is correct.
-
-.. note:: The 'defaultScripts.js' file is updated every time you update Interface to the latest release version. This means that any changes you make to the file will be overwritten. You can avoid this by writing and running a 'loader' script to load scripts on start up. 
+.. note:: By stopping a script, you are in effect *removing* that script from the running list. You will need to find and load that script again to have it appear in the list. If you **Remove All** scripts you can get the default scripts back by selecting **Load Defaults**
 
 -----------------
 Scripting Console 
@@ -167,7 +162,7 @@ The Scripting Console lets you test and run short script snippets quickly in Ove
 Debug Window
 ------------
 
-The Debug Window shows the output generated by your running scripts. This lets you watch the script(s) in action and make sure that it is running as you intended. If the script fails, the debugger can help you identify what went wrong, and point you to specific lines of code where the error occurred. To open the Debug Window, go to the 'Developer' menu, then **Scripting > Script Log** (HMD Friendly). If the Developer menu is not visible, first go to the 'Settings' menu and click 'Developer' Menu.
+The Debug Window shows the output generated by your running scripts. This lets you watch the script(s) in action and make sure that it is running as you intended. If the script fails, the debugger can help you identify what went wrong, and point you to specific lines of code where the error occurred. To open the Debug Window, go to the 'Developer' menu, then **Scripting > Script Log (HMD Friendly)**. If the Developer menu is not visible, first go to the 'Settings' menu and click 'Developer' Menu.
 
 .. image:: _images/debug-window.png
 

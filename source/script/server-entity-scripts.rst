@@ -1,0 +1,76 @@
+#####################
+Server Entity Scripts
+#####################
+
+You can make content in Overte interactive by attaching scripts to entities. *Server entity scripts* are entity scripts that run on the server (or domain) that hosts the entity. These scripts run persistently in a domain, even if there are no users present. This means that there is only one instance of the script is running at a time, and it is running on the server. Any behavior that is controlled by your script will be seen and heard by everyone in the domain.
+
+.. contents:: On This Page
+    :depth: 2
+
+------------------------------------------
+Attach a Server Entity Script to an Entity
+------------------------------------------
+
+To attach a server entity script to an entity:
+
+1. In Interface, pull up your tablet or HUD and go to **Create**.
+2. Select the entity you'd like to script by either clicking on it in Interface or finding it in the 'Entity List'.
+3. In the **Create** app, go to the 'Properties' tab and select the Scripts icon. |scripts-icon|
+4. For 'Server Script', enter the URL to your server entity script.
+
+.. note:: An entity can have multiple server entity scripts attached to it, but all of these must be through a single file URL.
+
+.. |scripts-icon| image:: _images/create-properties-scripts-icon.png
+   :height: 4ex
+   :class: no-scaled-link inline
+   :alt: paper and quill icon
+
+---------------------------------
+Example of a Server Entity Script
+---------------------------------
+
+The following script modifies the intensity of a light entity, so that it flickers tea lights.
+
+.. code-block:: javascript
+
+    (function() {
+        "use strict"
+        const MINIMUM_LIGHT_INTENSITY = 100.0;
+        const MAXIMUM_LIGHT_INTENSITY = 125.0;
+
+        // Return a random number between `low` (inclusive) and `high` (exclusive)
+        function randFloat(low, high) {
+            return low + Math.random() * (high - low);
+        }
+
+        const self = this;
+        this.preload = function(entityID) {
+            self.intervalID = Script.setInterval(function() {
+                Entities.editEntity(entityID, {
+                    intensity: randFloat(MINIMUM_LIGHT_INTENSITY, MAXIMUM_LIGHT_INTENSITY)
+                });
+            }, 100);
+        };
+        this.unload = function() {
+            Script.clearInterval(self.intervalID);
+        }
+    });
+
+This script is a good example of a server entity script because it only needs one actor to update the intensity of the light. The same script could be attached as an entity client script, but all clients who could see the tea light would be editing the entity to vary the intensity of the light to flicker it.
+
+.. note::
+    In the above example we include ``"use strict"`` on the first line of the server entity script to enable `strict mode <https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode>`_ . This must be inside the class prototype function, not the first line of the file as in other scripts.
+
+----------
+Script API
+----------
+
+The Entity Script Server does not have access to all of the listed components of the API. APIs for avatars, controllers, recording, overlays, and mouse and keyboard events are not available in the Entity Script Server.
+
+Learn more about what APIs are available to server entity scripts `here <https://apidocs.overte.org/Entities.html>`_.
+
+**See Also**
+
+- `Get Started with Scripting <get-started-with-scripting>`_
+- `Write Your Own Scripts <write-scripts>`_
+- `API Reference <https://apidocs.overte.org>`_

@@ -1,6 +1,6 @@
 # Write Your Own Scripts
 
-Overte's robust [JavaScript API](https://apidocs.overte.org) provides the tools for you to build great content and user experiences in VR.
+Overte's robust [JavaScript API](https://apidocs.overte.org) provides the tools for you to build great content and experiences, whether the user is in VR or on Desktop.
 
 In this section, you can find simple code samples to do common tasks in Overte. To see these code samples in action, copy the code to a file, `testScripts.js`, saved somewhere on your computer.
 
@@ -16,9 +16,11 @@ In this section, you can find simple code samples to do common tasks in Overte. 
 * [Edit an Entity](#edit-an-entity)
 
 ## Write to the Debug Window
+
 This is an example of an [interface script](interface-scripts) and cannot be attached to an entity. It shows you how to print something to the [debug window ](get-started-with-scripting.rst#debug-window). In this example, we'll start with a simple "Hello, World" script.
 
 ```javascript
+"use strict";
 print("Hello, World");
 ```
 
@@ -27,18 +29,20 @@ print("Hello, World");
    ![](_images/hello-world.png)
 
 ## Create an Entity
+
 Instead of [using the Create app to add an entity](../create/entities/create-entities), you can create one using an [interface script](interface-scripts).
 
 ```javascript
+"use strict";
 // Get your position in the domain, so that the cube is spawned in front of you
-var position = Vec3.sum(MyAvatar.position, Quat.getFront(MyAvatar.orientation));
-var properties = {
+const position = Vec3.sum(MyAvatar.position, Quat.getFront(MyAvatar.orientation));
+const properties = {
     type: "Box",
     name: "ScriptBox",
     position: position,
     color: { red: 255, green: 0, blue: 0 }
 };
-var entityID = Entities.addEntity(properties);
+const entityID = Entities.addEntity(properties);
 print("Entity added");
 ```
 
@@ -47,15 +51,17 @@ print("Entity added");
 ![](_images/add-entity.png)
 
 ## Edit an Entity
+
 To manipulate an entity's properties, you can use `Entities.editEntity`in an [interface script](interface-scripts).
 
 ```javascript
-var entityID = Entities.addEntity({
+"use strict";
+const entityID = Entities.addEntity({
     type: "Box",
     position: Vec3.sum(MyAvatar.position, Quat.getFront(MyAvatar.orientation)),
 });
 
-var properties = Entities.getEntityProperties(entityID, ["color"]);
+let properties = Entities.getEntityProperties(entityID, ["color"]);
 print("Entity color: " + JSON.stringify(properties.color));
 
 Entities.editEntity(entityID, {
@@ -68,7 +74,11 @@ print("Entity color: " + JSON.stringify(properties.color));
 1. Copy and paste this in a file `testScript.js` and save it on your computer.
 2. When you [load and run this script](get-started-with-scripting.rst#load-and-run-a-script), it will locate your avatar in the domain, create a new entity based on the customized properties that you set, then print the color of that entity to the 'Debug Window'. Then, the script changes the color of the entity to red, and prints the new color in the 'Debug Window'.
 ![](_images/edit-entity.png)
-
+    
+<div class="admonition note">
+    <p class="admonition-title">Note</p>
+    <p>In these examples we include <code>"use strict"</code> on the first line. Please include this at the start of all of your scripts, as it will alert you to mistakes in your code and in some cases make your script run faster. See <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Strict_mode">Strict mode</a> for more information.</p>
+</div>
 
 
 **See Also**
