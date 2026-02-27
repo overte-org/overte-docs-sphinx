@@ -96,7 +96,7 @@ The following script makes your avatar throw balls when its right hand moves.
             if ((event.text.toUpperCase() === "X") && !event.isAutoRepeat && !event.isShifted && !event.isMeta && !event.isControl && !event.isAlt) {
                 const rightHandPos = MyAvatar.getJointPosition(rightHandIndex);
                 const rightArmPos = MyAvatar.getJointPosition(rightArmIndex);
-                const fireDir = getPointingDirection();
+                const fireDir = Vec3.subtract(rightHandPos, rightArmPos);
                 fireBall(rightHandPos, Vec3.normalize(fireDir));
             }
         }

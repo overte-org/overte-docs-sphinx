@@ -211,7 +211,7 @@ Signals can be connected to functions. This means that every time a signal is tr
         if(enabled) {
             console.log("avatar collision is enabled");
         } else {
-            console.log("avatar collision id disabled")
+            console.log("avatar collision is disabled")
         }
     }
 

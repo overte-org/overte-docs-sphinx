@@ -15,7 +15,7 @@ Add an AC Script
 
 Once you've written and hosted your script, you need to add it to a domain, either your own or one where you have permissions to run an AC script.
 
-1. Open your 'Domain Administration Panel'. If you are on a local sandbox, open it by clicking on the Overte icon in the taskbar notifications and 'click Settings'.
+1. Open your 'Domain Administration Panel'. If you are on a local domain server, open it by clicking on the Overte icon in the taskbar notifications and 'click Settings'.
 2. From the menu, go to **Content > Scripts**.
 3. In the Persistent Scripts section, click **+** and paste the URL to your script under 'Script URL'. 
 

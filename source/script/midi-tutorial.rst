@@ -2,7 +2,7 @@
 Tutorial: Use MIDI to Control Your Environment
 ###################################################
 
-MIDI (Musical Instrument Digital Interface) is a protocol (with electrical connectors and a digital interface) that allows digital tools and electronic devices (virtual and physical) to communicate with each other. MIDI is usually used as a music sequencer. Originally, this format was created in the 80s as a way for instruments to communicate with each other, but over the next several decades, it has evolved into a highly organized specification that is heavily tested and adopted for a multitude of purposes.
+MIDI (Musical Instrument Digital Interface) is a protocol (with electrical connectors and a digital interface) that allows digital tools and electronic devices (virtual and physical) to communicate with each other. MIDI is usually used as a music sequencer. Originally, this format was created in the 80s as a way for instruments to communicate with each other, but since then, it has evolved into a highly organized specification that is heavily tested and adopted for a multitude of purposes.
 
 We created a MIDI class (with the help of one of our community members, Brainstormer) that can be used to control your environment in Overte. For example, we used MIDI to control lighting in a domain for a music show.
 
