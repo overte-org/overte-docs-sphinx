@@ -1,7 +1,3 @@
-.. warning::
-    This document is slightly outdated.
-    FIXME: some perspective options don't exist anymore, mentions security picture, says that lower graphics setting increase performance (not entirely true in our case)
-
 ####################
 Adjust Your Settings
 ####################
@@ -19,7 +15,7 @@ In VR, all of your settings are found in your **Tablet**. The Tablet also gives 
 
 .. image:: _images/tablet.png
 
-In Desktop Mode, you have the option to use either the Tablet or a smaller version called the "Heads-up Display" or HUD. It contains the exact same options as the Tablet (settings, apps, etc), but it takes up less space on your screen. To enable the HUD, first enable the **Developer** menu by going to **Settings > Developer Menu**. Then, go to **Developer > UI > Desktop Tablet Becomes Toolbar**. 
+In Desktop Mode, rather than the tablet you have a smaller version called the "Heads-up Display" or HUD. It contains the exact same options as the Tablet (settings, apps, etc), but it takes up less space on your screen. if you would rather, you have the option to use the Tablet instead just like in VR. To enable the Tablet, first enable the **Developer** menu by going to **Settings > Developer Menu**. Then, go to **Developer > UI > Desktop Tablet Becomes Toolbar** and toggle it off.
 
 .. image:: _images/hud.png
 
@@ -27,14 +23,13 @@ In Desktop Mode, you have the option to use either the Tablet or a smaller versi
 Enter or Exit VR Mode
 ---------------------
 
-You can enjoy Overte with or with VR equipment such as head mounted displays (HMD), hand controllers and audio headsets. Our Desktop mode contains many of Overte's features such as audio, basic movements and gestures, and the ability to travel to different domains. 
+You can enjoy Overte with or without VR equipment such as head mounted displays (HMD), hand controllers and audio headsets. Our Desktop mode contains many of Overte's features such as audio, basic movements and gestures, and the ability to travel to different domains.
 
-Keep in mind, however, that the most immersive and powerful experience is when you use VR equipment. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. Once you have set up your VR equipment, you can easily switch between VR mode and Desktop mode. To switch to VR mode, use one of the following methods: 
+Keep in mind, however, that the most immersive and powerful experience is when you use VR equipment. Only then will you be able to interact with people in 3D, track body movements, and easily engage with the objects around you. Once you have set up your VR equipment, you can easily switch between VR mode and Desktop mode.
 
-1. From the HUD, click **Enter VR**.
-2. Click the **Display** menu, then select your VR device. 
+.. note:: In order to use VR you must launch Overte straight into VR first, as Overte will not load VR plugins unnecessarily for desktop users. Once you have launched into VR, you will be able to switch between VR and Desktop mode with ease.
 
-To exit from VR mode, remove your headset, click **Exit VR** on the HUD or press ``ESC`` on your keyboard.
+To switch between Desktop and VR mode, you can select it from the Display menu. The menu can be found at the top of your screen when in desktop mode, or on your **Tablet** in VR. Click the **Display** menu, then select your desktop or VR device.
 
 --------------------
 Set Your Perspective
@@ -56,10 +51,6 @@ You can choose how you view things around you by changing your perspective. To c
 +------------------+---------------------------------------------------------------------------------------------------------+
 | Selfie           | Select this to change your perspective to look at yourself. In this view, you will see yourself and     |
 |                  | the space behind you.                                                                                   |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| Independent Mode | Select this to change what you see through scripting instead of avatar's movements.                     |
-+------------------+---------------------------------------------------------------------------------------------------------+
-| Entity Mode      | Select this to set your perspective to a specific entity, allowing you to move with entity as it moves. |
 +------------------+---------------------------------------------------------------------------------------------------------+
 
 
@@ -89,25 +80,55 @@ You can make changes to the graphics in Overte.
 - In Desktop mode, go to **Settings > Graphics** in the menu on the top left corner. 
 - In VR mode, open your Tablet and go to **Menu > Settings > Graphics**.
 
-+--------------+----------------------------------------------------------------------------------------+
-| Setting      | Description                                                                            |
-+==============+========================================================================================+
-| Graphics     | Choose the graphics settings for your computer tier. In general, a lower graphics      |
-| Settings     | setting sacrifices artistic details and rendering effects for increased performance    |
-|              | and optimization. **Custom** lets you configure the world detail, rendering effects,   |
-|              | refresh rate, and resolution yourself.                                                 |
-+--------------+----------------------------------------------------------------------------------------+
-| World Detail | Control the level of detail visible to you in Overte by moving this slider.            |
-+--------------+----------------------------------------------------------------------------------------+
-| Rendering    | Choose the level of rendering effects that are present in Overte. Local lights,        |  
-| Effects      | fog, bloom, and shadows are all examples of rendering effects.                         |
-+--------------+----------------------------------------------------------------------------------------+
-| Refresh Rate | Choose the frequency that Overte updates its graphics buffers. Most mid-range          |  
-|              | computers run well on 'Interactive'.                                                   |
-+--------------+----------------------------------------------------------------------------------------+
-| Resolution   | Adjust the resolution using the slider. This affects how clear Overte appears          |
-|              | on your monitor or screen.                                                             |
-+--------------+----------------------------------------------------------------------------------------+
++--------------------+----------------------------------------------------------------------------------------+
+| Setting            | Description                                                                            |
++====================+========================================================================================+
+| Graphics           | Select the Graphics Preset which best suits your desired performance. Generally a      |
+| Preset             | lower graphics setting will sacrifice some visual details for increased performance,   |
+|                    | however "Low Power" is intended to reduce the resource usage of Overte to lower its    |
+|                    | impact on the rest of your system.                                                     |
++--------------------+----------------------------------------------------------------------------------------+
+| Local Lights       | Allow local light sources to light nearby objects.                                     |
++--------------------+----------------------------------------------------------------------------------------+
+| Bloom              | Make bright areas look brighter by simulating a light-bleed halo effect around them.   |
++--------------------+----------------------------------------------------------------------------------------+
+| Custom Shaders     | Shaders are fancy effects which you may see on avatars or entities in Overte.          |
++--------------------+----------------------------------------------------------------------------------------+
+| Deferred Rendering | Advanced rendering technique, primarily for fancy lighting effects.                    |
+|                    | You may want to disable this if you have limited memory bandwidth or want to           |
+|                    | prioritise anti-aliasing.                                                              |
+|                    |                                                                                        |
+|                    | With this enabled, the following options are revealed:                                 |
+|                    | * Shadows                                                                              |
+|                    | * Ambient Occlusion                                                                    |
+|                    | * Haze                                                                                 |
++--------------------+----------------------------------------------------------------------------------------+
+| Field of View      | Set your field of view using the slider. A higher value lets you see more of your      |
+|                    | surroundings.                                                                          |
++--------------------+----------------------------------------------------------------------------------------+
+| Resolution         | Adjust the resolution using the slider. This affects how clear Overte appears          |
+|                    | on your monitor or screen.                                                             |
++--------------------+----------------------------------------------------------------------------------------+
+| Anti-aliasing      | Smooth out the edges on your screen by choosing your anti-aliasing method.             |
+|                    |                                                                                        |
+|                    | * TAA                                                                                  |
+|                    | * FXAA - Typically the cheapest and *fastest*.                                         |
+|                    | * MXAA - Note: Not available when Deferred Rendering is enabled.                       |
++--------------------+----------------------------------------------------------------------------------------+
+| LOD Settings       | Control the level of detail visible to you in Overte by moving this slider.            |
++--------------------+----------------------------------------------------------------------------------------+
+| Refresh Rate       | Choose the frequency that Overte updates its graphics buffers. Most mid-range          |
+|                    | computers run well on 'Interactive'.                                                   |
++--------------------+----------------------------------------------------------------------------------------+
+| Full Screen        | Select the screen to display Overte on.                                                |
+| Display            |                                                                                        |
++--------------------+----------------------------------------------------------------------------------------+
+| Allow Camera       | Disable to allow object geometry to block your camera; when enabled your camera may    |
+| Clipping           | pass through walls, furniture, avatars or any other entities.                          |
++--------------------+----------------------------------------------------------------------------------------+
+
+.. note::
+    Disabling *Deferred Rendering* will typically increase performance as it is lighter, however on some GPUs you may find that it runs better with it enabled. You should test how Overte performs on your machine when changing this setting.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 Account Security Settings
@@ -118,13 +139,13 @@ You can change your account security settings in Overte.
 - In Desktop mode, go to **Settings > Security** in the menu on the top left corner. 
 - In VR mode, open your Tablet and go to **Menu > Settings > Security**.
 
-+---------------------+----------------------------------------------------------------------------------+
-| Setting             | Description                                                                      |
-+=====================+==================================================================================+
-| Account             | Enable to stay logged in (in the current device) even if you exit Overte.        |
-+---------------------+----------------------------------------------------------------------------------+
-| Secure Transactions | Change your security picture.                                                    |
-+---------------------+----------------------------------------------------------------------------------+
++------------------------------+----------------------------------------------------------------------------------+
+| Setting                      | Description                                                                      |
++==============================+==================================================================================+
+| Keep Me Logged In            | Enable to stay logged in (in the current device) even if you exit Overte.        |
++------------------------------+----------------------------------------------------------------------------------+
+| Enable custom script plugins | Toggles the activation of scripting plugins in the 'plugins/scripting' folder.   |
++------------------------------+----------------------------------------------------------------------------------+
 
 **See Also**
 

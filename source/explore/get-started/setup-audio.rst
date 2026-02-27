@@ -1,7 +1,3 @@
-.. warning::
-    This document is slightly outdated.
-    FIXME: instructions for Windows are most likely outdated, no mention that you should *not* use "open mic" setups without push to talk
-
 #################################
 Set Up Your Audio Devices
 #################################
@@ -27,12 +23,14 @@ Change your Input or Output Device
 ----------------------------------------
 
 
-Overte's 3D spatialized audio is guaranteed to enhance your experience in the metaverse, whether you are in Desktop mode or using VR equipment. By default, we will select the default audio devices that your operating system or headset has detected. If you want to use a different headset or audio setup than the default, you can change your computer's default device. If you need to use a different device for Overte than other applications on your computer, then you can change your device in the application.
+Overte's 3D spatialized audio is guaranteed to enhance your experience in cyberspace, whether you are in Desktop mode or using VR equipment. By default, we will select the default audio devices that your operating system or headset has detected. If you want to use a different headset or audio setup than the default, you can change your computer's default device. If you need to use a different device for Overte than other applications on your computer, then you can change your device in the application.
 
-* An *audio input device* is any device that captures sound and generates a signal that can be accessed by other devices. Examples of audio input devices include a USB microphone or a microphone headset that is plugged into your computer, or your sound card’s "Stereo Mix" or "What U Hear" device (think of these sound card devices as if they were microphones being held up to your speakers while they output sound).
+* An *audio input device* is any device that captures sound and generates a signal that can be accessed by other devices. Examples of audio input devices include a USB microphone or a microphone headset that is plugged into your computer.
 * An *audio output device* is any device that receives information from audio files and converts it into audible sound signals. Examples of audio output devices include your desktop computer speakers, headphones, or huge speakers in a movie theater.
 
 If you are using a headset with a microphone, then your input and output devices will likely be the same device. However, if you are using external speakers or some other open mic setup, then these devices may be different. In these cases, we encourage you to enable `acoustic echo cancellation <#id1>`_ for improved audio quality.
+
+You may also want to try using `push-to-talk <#enable-push-to-talk-ptt>`_ to completely eliminate any unwanted speaker echo and background sounds coming from your avatar when you are not talking.
 
 To change your audio devices:
 
@@ -52,7 +50,7 @@ Unfortunately, bluetooth audio devices do not currently support stereo input. Th
 * Use the bluetooth headset's built-in microphone. In this case, other users will only experience mono sound coming from you, rather than the normal stereo audio.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Acoustic Echo Cancellation 
+Acoustic Echo Cancellation
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Acoustic echo is the process by which sounds from your speakers get picked up and transmitted by your microphone, resulting in an echoing effect. This is common when you use Overte with a laptop's built-in microphone and speakers (i.e. an "open mic"), rather than a detached headset.
@@ -65,10 +63,8 @@ For best performance with open mic setups, ensure that you:
 
 * Disable any processing and effects on the input and output devices. This includes:
 
-    * On Mac: Turn off 'Ambient noise reduction' (System Preferences > Sound > Input > Use ambient noise reduction)
-    * On Windows: Turn off all 'Enhancements' (Control Panel > Sound > Recording tab > click on your device > Properties button > Enhancements tab)
+    * On Windows: Turn off all 'Enhancements'; see `Microsoft support article <https://support.microsoft.com/en-us/topic/disable-audio-enhancements-0ec686c4-8d79-4588-b7e7-9287dd296f72>`_ for instructions.
 
-* On Mac devices, set the balance of the output device to either the left or the right (System Preferences > Sound > Output > Balance)
 * Lower the microphone's physical gain setting to approximately 3/4 of the maximum
 * Lower the speaker's physical volume level to approximately 3/4 of the maximum
 * If you are not using your laptop's audio devices, move and point the microphone away from the speakers
@@ -138,16 +134,20 @@ There are a number of settings you can configure to customize your audio experie
 +----------------------------+--------------------------------------------------------------------------------------+
 | HMD Mute Warning (VR)      | Enable to receive a warning when your microphone is muted when wearing a HMD device. |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Noise reduction            | Enable to turn on noise reduction. This removes outside noise from audio signals.    |
+| Push To Talk               | Enable or disable `push to talk <#enable-push-to-talk-ptt>`_.                        |
 +----------------------------+--------------------------------------------------------------------------------------+
 | Audio level meter          | By default, the audio level meter is visible on the top left corner of your screen.  |
 |                            | Uncheck this box to hide the meter.                                                  |
 +----------------------------+--------------------------------------------------------------------------------------+
-| Echo Cancellation          | Enable or disable `acoustic echo cancellation <#id1>`_.                              |
-+----------------------------+--------------------------------------------------------------------------------------+
 | Stereo input               | Enable or disable stereo input. Stereo reproduces sound using two or more audio      |
 |                            | channels. This means that you will hear sound from various directions, like how you  |
 |                            | would in the real world.                                                             |
++----------------------------+--------------------------------------------------------------------------------------+
+| Echo Cancellation          | Enable or disable `acoustic echo cancellation <#id1>`_.                              |
++----------------------------+--------------------------------------------------------------------------------------+
+| Noise reduction            | Enable to turn on noise reduction. This removes outside noise from audio signals.    |
++----------------------------+--------------------------------------------------------------------------------------+
+| Manual Noise Reduction     | Enable to allow setting a custom threshold for noise reduction.                      |
 +----------------------------+--------------------------------------------------------------------------------------+
 
 
@@ -159,14 +159,9 @@ Many device settings, such as input levels, boost, gains, and enhancements, cann
 
 * **Update the driver software for your audio devices**:
 
-    * On Mac: Apple handles all driver updates on your computer. To check for updates, click on the Apple icon in the top-left corner of the screen and select 'Software Update'.
-    * On Windows: Open the **Device Manager** and select the arrow next to **Sound, audio and game controllers**. Right-click on your audio device and select 'Update driver'.
+    * On Windows: Follow steps in Microsoft support article `Update drivers through Device Manager in Windows <https://support.microsoft.com/en-us/windows/update-drivers-through-device-manager-in-windows-ec62f46c-ff14-c91d-eead-d7126dc1f7b6>`_
+
 * **Adjust microphone levels and/or boost**: 
     
-    * On Mac: Go to **System Preferences > Sound > Input**. 
-    * On Windows: Go to **Control Panel > Sound > Recording**. Choose your microphone and click 'Properties'.
-* **Adjust other advanced sound settings**:
+    * On Windows: Follow the steps under *"To test a microphone that's already installed"* of Microsoft support article `How to set up and test microphones in Windows <https://support.microsoft.com/en-au/windows/how-to-set-up-and-test-microphones-in-windows-ba9a4aab-35d1-12ee-5835-cccac7ee87a4>`_
 
-    * Go to **Control Panel > Sound**
-    * Go to **Settings > System > Sound**
-    * Go to **Control Panel > Hardware and Sound > Adjust System Volume**
