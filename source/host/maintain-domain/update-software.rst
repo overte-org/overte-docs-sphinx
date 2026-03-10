@@ -22,7 +22,7 @@ Both of these will result in an error message "Protocol Mismatch".
 Upgrade Your Domain Server
 ------------------------------------------
 
-Because all of Overte's users are encouraged to update to the latest release, it is highly likely that the majority of your visitors are running the newest version of Overte. Therefore, if there has been a protocol change (check the :doc:`Release Notes <../../release-notes>` for your version), we strongly recommend that you upgrade your domain server to the newest release.
+Because all of Overte's users are encouraged to update to the latest release, it is highly likely that the majority of your visitors are running the newest version of Overte. Therefore, if there has been a protocol change (check the `changelog <https://github.com/overte-org/overte/blob/master/CHANGELOG.md>`_ for your version), we strongly recommend that you upgrade your domain server to the newest release.
 
 To update a local server on Windows:
 

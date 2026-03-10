@@ -113,7 +113,7 @@ Keep in mind that Overte Server could be running in the background.
 
 For Windows, locate the Overte app in your system tray. Right-click on the icon and select 'Quit'. Alternatively, end the 'server-console' background process using the Task Manager.
 
-For more information on the latest releases, see our :doc:`Release Notes <../../release-notes>`.
+For more information on the latest releases, see our `changelog <https://github.com/overte-org/overte/blob/master/CHANGELOG.md>`_.
 
 
 ---------------------------------
