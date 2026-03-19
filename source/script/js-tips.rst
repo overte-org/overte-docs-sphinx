@@ -17,7 +17,7 @@ When you script for virtual worlds like Overte, you need 3D math operations to c
 
 + `Vec3 <https://apidocs.overte.org/Vec3.html>`_: The Vec3 API has facilities for generating and manipulating 3-dimensional vectors.
 + `Quat <https://apidocs.overte.org/Quat.html>`_: The Quat API provides facilities for generating and manipulating quaternions.
-+ `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_: The MyAvatar API provides facilities for manipulating avatars.
++ `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_: The MyAvatar API provides facilities for manipulating your avatar.
 
 ++++++++++++++++++++++++++++++++
 Get Your Avatar's Position
