@@ -2,7 +2,7 @@
 Server Entity Scripts
 #####################
 
-You can make content in Overte interactive by attaching scripts to entities. *Server entity scripts* are entity scripts that run on the server (or domain) that hosts the entity. These scripts run persistently in a domain, even if there are no users present. This means that there is only one instance of the script is running at a time, and it is running on the server. Any behavior that is controlled by your script will be seen and heard by everyone in the domain.
+You can make content in Overte interactive by attaching scripts to entities. *Server entity scripts* are entity scripts that run on the server (or domain) that hosts the entity. These scripts run persistently in a domain, even if there are no users present. This means that there is only one instance of the script running at a time, and it is running on the server. Any behavior that is controlled by your script will be seen or heard by everyone in the domain.
 
 .. contents:: On This Page
     :depth: 2
