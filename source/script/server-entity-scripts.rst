@@ -69,6 +69,14 @@ The Entity Script Server does not have access to all of the listed components of
 
 Learn more about what APIs are available to server entity scripts `here <https://apidocs.overte.org/Entities.html>`_.
 
+.. _server entity script log:
+
+------------------------
+Entity Script Server Log
+------------------------
+
+The Entity Script Server Log allows you to see the output from entity scripts which are running on the domain server. As these scripts do not interact with your interface client directly, their messages will not show up in your :ref:`debug window<debug window>` or interface logs. To open the Server Entity Script Log window, go to the 'Developer' menu, then **Scripting > Entity Script Server Log**. If the Developer menu is not visible, first go to the 'Settings' menu and click 'Developer' Menu.
+
 **See Also**
 
 - `Get Started with Scripting <get-started-with-scripting>`_
