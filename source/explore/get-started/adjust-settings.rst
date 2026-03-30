@@ -119,7 +119,7 @@ You can make changes to the graphics in Overte.
 | LOD Settings       | Control at which point Overte hides objects to allow smooth operation.                 |
 |                    | High detail means that it will only start to hide objects when your frame rate gets    |
 |                    | very low. Low detail means that it will start hiding objects early to give you the     |
-|                    | smoothest experience.  
+|                    | smoothest experience.                                                                  |
 +--------------------+----------------------------------------------------------------------------------------+
 | Refresh Rate       | Choose the frequency that Overte updates its graphics buffers. Most mid-range          |
 |                    | computers run well on 'Interactive'.                                                   |
