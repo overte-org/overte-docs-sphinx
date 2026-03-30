@@ -37,7 +37,7 @@ Set Your Perspective
 
 You can choose how you view things around you by changing your perspective. To change your perspective: 
 
-* In Desktop mode, go to **View** in the menu on the top left corner. 
+* In Desktop mode, go to **View** in the menu on the top left corner or use your keyboard :ref:`Camera Controls<camera-controls>`.
 * In VR mode, open your Tablet and go to **Menu > View**.
 
 +------------------+---------------------------------------------------------------------------------------------------------+
