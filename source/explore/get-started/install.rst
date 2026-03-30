@@ -51,6 +51,8 @@ In addition, your network must have enough internet bandwidth to run Overte:
 
 .. note:: Running Overte on a high resolution display or in VR mode will need a much better graphics adapter, depending on your display's resolution and targeted frame rate.
 
+.. _download-overte:
+
 -----------------------------------
 Download Overte
 -----------------------------------
@@ -63,11 +65,15 @@ We currently recommend using the SteamVR runtime with OpenVR for the best experi
 
 Overte also supports OpenXR runtimes, including Monada and Wivrn, however there are still some issues with body tracking.
 
+.. _install-overte:
+
 ---------------------------------
 Install Overte
 ---------------------------------
 
 Once you've downloaded the installer, you're ready to install Overte. The process will be different based on your operating system:
+
+.. _install-overte-windows:
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Windows Install
@@ -76,6 +82,7 @@ Windows Install
 To install on Windows, simply double-click on the downloaded installer file to open it. Run through the prompts on the installer.
 Once you finish the install process, Interface will open, and you will be able to log in and begin exploring the metaverse.
 
+.. _install-overte-linux:
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Linux Install
@@ -117,9 +124,9 @@ Linux Clean Install
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Find the location where you downloaded the AppImage and delete it.
-2. Browse to `~/.local/share/` and delete all folders related to Overte.
-3. Browse to `~/.config/` and delete all folders related to Overte.
-4. Re-install Overte using the steps above.
+2. Browse to `~/.local/share/` and delete all folders with "Overte" in the name.
+3. Browse to `~/.config/` and delete all folders with "Overte" in the name.
+4. :ref:`download<download-overte>`, and :ref:`install<install-overte-linux>` Overte again.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Windows Clean Install
@@ -127,7 +134,7 @@ Windows Clean Install
 
 1. Click on the Start menu and type "Add or Remove Programs" in your Windows search bar.
 2. Uninstall any versions of Overte that are visible.
-3. Once Overte is uninstalled, browse to your %Program Files% directory. Delete all folders related to Overte.
+3. Once Overte is uninstalled, browse to your %Program Files% directory. Delete all folders with "Overte" in the name.
 
 .. warning::
 
@@ -136,9 +143,9 @@ Windows Clean Install
     Repeat for %AppData%/Roaming/Overte/assignment-client.
 
 4. Browse to your local %AppData% folder (usually ``C:/Users/<your_username>/AppData/Local``). If you do not see the folder,
-   make sure you can view hidden folders: in File Explorer, click View and make sure "Hidden Items" is checked. Delete all folders related to Overte.
-5. Browse to your roaming %AppData% folder (usually ``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related to Overte.
-6. Re-install Overte using the steps above. To restore your local Server's content, copy the ``assignment-client`` folders you previously saved back into their respective locations.
+   make sure you can view hidden folders: in File Explorer, click View and make sure "Hidden Items" is checked. Delete all folders with "Overte" in the name.
+5. Browse to your roaming %AppData% folder (usually ``C:/Users/<your_username>/AppData/Roaming``). Delete all folders with "Overte" in the name.
+6. :ref:`Re-install Overte<install-overte-windows>` using the steps above. To restore your local Server's content, copy the ``assignment-client`` folders you previously saved back into their respective locations.
 
 
 **See Also**
