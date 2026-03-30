@@ -2,7 +2,7 @@
 Understand the Architecture
 ################################
 
-Overte's architecture shows how different parts of the system work together to give you the best VR experience.
+This page shows how different parts of the system work together to give you the best VR experience.
 
 .. contents:: On This Page
     :depth: 2
@@ -15,7 +15,7 @@ Overte's architecture consists of the following components that work together an
 
 + The `Overte Interface`_ runs your personal VR experience. With it, you can :doc:`visit places <../travel>`, :doc:`meet people <../socialize>`, `attend live events <../socialize.html#attend-live-events>`_ and more.
 + The `Domain Server`_ is the server that hosts a domain. The domain server hosts the content in the domain, and manages the :doc:`domain-wide settings <../../host/configure-settings>`, such as audio spatialization, user permissions, and running scripts.
-+ The `Global Services`_ connect all of the servers together. An instance of these services are maintained by Overte so that you can sign in and move seamlessly between places.
++ The `Global Services`_ connect all of the servers together. An instance of these services is maintained by Overte so that you can sign in and move seamlessly between places.
 
 .. image:: _images/overview.png
 
@@ -87,7 +87,7 @@ Assignment clients control and manage various aspects of a domain. They also com
 |                   | which could be Interfaces or Agents.                                                                |
 +-------------------+-----------------------------------------------------------------------------------------------------+
 
-.. note:: Sandbox manages all these components on the domain server, five dedicated assignment clients, and as many agent assignments clients as needed. However, it is possible to spread the assignment clients over multiple computers, and even to divide each function among a hierarchy of assignment components, which may be on different computers. For instance, multiple audio mixers could be used to mix the audio in different geographic regions of the domain.
+.. note:: Usually the domain server manages all these components for you: five dedicated assignment clients, and as many agent assignments clients as needed. However, it is possible to spread the assignment clients over multiple computers, and even to divide each function among a hierarchy of assignment components, which may be on different computers. For instance, multiple audio mixers could be used to mix the audio in different geographic regions of the domain.
 
 --------------------
 Global Services

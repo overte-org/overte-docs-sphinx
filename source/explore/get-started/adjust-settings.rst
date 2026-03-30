@@ -15,7 +15,7 @@ In VR, all of your settings are found in your **Tablet**. The Tablet also gives 
 
 .. image:: _images/tablet.png
 
-In Desktop Mode, rather than the tablet you have a smaller version called the "Heads-up Display" or HUD. It contains the exact same options as the Tablet (settings, apps, etc), but it takes up less space on your screen. if you would rather, you have the option to use the Tablet instead just like in VR. To enable the Tablet, first enable the **Developer** menu by going to **Settings > Developer Menu**. Then, go to **Developer > UI > Desktop Tablet Becomes Toolbar** and toggle it off.
+In Desktop Mode, rather than the tablet you have a smaller version called the "Heads-up Display" or HUD. It contains the exact same options as the Tablet (settings, apps, etc), but it takes up less space on your screen. If you would rather, you have the option to use the Tablet instead, just like in VR. To enable the Tablet, first enable the **Developer** menu by going to **Settings > Developer Menu**. Then, go to **Developer > UI > Desktop Tablet Becomes Toolbar** and toggle it off.
 
 .. image:: _images/hud.png
 
@@ -99,6 +99,7 @@ You can make changes to the graphics in Overte.
 |                    | prioritise anti-aliasing.                                                              |
 |                    |                                                                                        |
 |                    | With this enabled, the following options are revealed:                                 |
+|                    |                                                                                        |
 |                    | * Shadows                                                                              |
 |                    | * Ambient Occlusion                                                                    |
 |                    | * Haze                                                                                 |
@@ -106,7 +107,7 @@ You can make changes to the graphics in Overte.
 | Field of View      | Set your field of view using the slider. A higher value lets you see more of your      |
 |                    | surroundings.                                                                          |
 +--------------------+----------------------------------------------------------------------------------------+
-| Resolution         | Adjust the resolution using the slider. This affects how clear Overte appears          |
+| Resolution         | Adjust the resolution using the slider. This affects how sharp Overte appears          |
 |                    | on your monitor or screen.                                                             |
 +--------------------+----------------------------------------------------------------------------------------+
 | Anti-aliasing      | Smooth out the edges on your screen by choosing your anti-aliasing method.             |
@@ -115,7 +116,10 @@ You can make changes to the graphics in Overte.
 |                    | * FXAA - Typically the cheapest and *fastest*.                                         |
 |                    | * MXAA - Note: Not available when Deferred Rendering is enabled.                       |
 +--------------------+----------------------------------------------------------------------------------------+
-| LOD Settings       | Control the level of detail visible to you in Overte by moving this slider.            |
+| LOD Settings       | Control at which point Overte hides objects to allow smooth operation.                 |
+|                    | High detail means that it will only start to hide objects when your frame rate gets    |
+|                    | very low. Low detail means that it will start hiding objects early to give you the     |
+|                    | smoothest experience.  
 +--------------------+----------------------------------------------------------------------------------------+
 | Refresh Rate       | Choose the frequency that Overte updates its graphics buffers. Most mid-range          |
 |                    | computers run well on 'Interactive'.                                                   |

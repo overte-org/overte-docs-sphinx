@@ -83,7 +83,6 @@ Test Your Audio Devices
 Audio is an integral part of social VR experience, so of course, we want to make sure that your devices are working correctly and that everyone can hear you! There's nothing more annoying than walking up to a group of friends in a virtual world, only to realize that they haven't heard a word you said! The good news is that you can test your audio setup to make sure that both your input and output devices are working correctly.
 
 .. note:: The 'Test Your Voice' feature does not automatically mute your voice! We recommend muting yourself prior to checking your voice input if you do not want others to hear your microphone check.
-
 1. From the Tablet or HUD, click **Audio**.
 2. Click 'Test Your Voice' to test your input device. Speak into your mic, and the sound will be played right back at you through the selected output device. Make any adjustments to your input device to achieve your desired sound.
 3. Click 'Test Your Sound' to test your output device. Adjust the headset and/or application volume until the sound is a comfortable volume. 
@@ -105,7 +104,7 @@ To change one or more of these sound types independently of the others:
 1. From the Tablet or HUD, click **Audio**.
 2. Choose 'Desktop' or 'VR' depending on the mode you are in.
 3. Scroll down to 'Choose Output Device'.
-4. Adjust the sliders to the desired volume levels for each of the sound types.
+3. Adjust the sliders to the desired volume levels for each of the sound types.
 
 --------------------------------------
 Enable Push to Talk (PTT)

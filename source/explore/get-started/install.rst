@@ -102,6 +102,7 @@ For Windows, locate the Overte app in your system tray. Right-click on the icon 
 For more information on the latest releases, see our :doc:`Release Notes <../../release-notes>`.
 
 
+
 ---------------------------------
 Perform a Clean Install
 ---------------------------------
