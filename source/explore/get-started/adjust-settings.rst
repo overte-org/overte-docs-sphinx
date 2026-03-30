@@ -29,7 +29,7 @@ Keep in mind, however, that the most immersive and powerful experience is when y
 
 .. note:: In order to use VR you must launch Overte straight into VR first, as Overte will not load VR plugins unnecessarily for desktop users. Once you have launched into VR, you will be able to switch between VR and Desktop mode with ease.
 
-To switch between Desktop and VR mode, you can select it from the Display menu. The menu can be found at the top of your screen when in desktop mode, or on your **Tablet** in VR. Click the **Display** menu, then select your desktop or VR device.
+Switch between Desktop and VR mode by simply putting on or taking off your headset. You can also select the mode from the Display menu at the top of your screen when in desktop mode, or on your **Tablet** in VR. Click the **Display** menu, then select your desktop or VR device.
 
 --------------------
 Set Your Perspective
