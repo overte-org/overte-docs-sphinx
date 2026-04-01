@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-03-29 04:02+0000\n"
+"PO-Revision-Date: 2026-04-01 13:59+0000\n"
 "Last-Translator: mxreia <mxreixa@tuta.io>\n"
 "Language-Team: Japanese <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ja/>\n"
@@ -618,6 +618,10 @@ msgid ""
 "point EXR format with lossy compression to save space. Don't use 32-bit "
 "floating point format."
 msgstr ""
+"Overte はHDR "
+"環境マップとライトマップに対応しております。容量を節約するために、"
+"非可逆圧縮を適用した 16bit 浮動小数点 EXR 形式を使用し、32bit "
+"浮動小数点形式を使用しないでください。"
 
 #: ../../source/create/3d-models/get-model.rst:76
 msgid ""
@@ -1120,6 +1124,9 @@ msgid ""
 "FIXME: This document needs to be updated for new features like samplers, "
 "splatmaps, triplanam mapping and matterial layering."
 msgstr ""
+"FIXME: "
+"サンプラー、スプラットマップ、トライプラナマッピング、マテリアルレイヤリング"
+"の各新機能の対応のために、このドキュメントを更新してください。"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:9
 #, fuzzy
@@ -1169,26 +1176,23 @@ msgstr "テクスチャは、3Dモデルに適用される平面画像です。3
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "Overte supports the use of the following texture formats:"
-msgstr ""
+msgstr "Overteは、以下のテクスチャ形式に対応しています。："
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:35
-#, fuzzy
 msgid "WEBP (recommended)"
-msgstr "PNG (recommended)"
+msgstr "WebP (推奨)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:36
-#, fuzzy
 msgid "PNG (recommended)"
-msgstr "PNG (recommended)"
+msgstr "PNG (推奨)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:37
-#, fuzzy
 msgid "JPEG, JPG (recommended)"
-msgstr "JPEG, JPG (recommended)"
+msgstr "JPEG, JPG (推奨)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:38
 msgid "EXR (recommended for HDR envirnoment maps and lightmaps)"
-msgstr ""
+msgstr "EXR（HDR環境マップおよびライトマップで推奨されます）"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:39
 #, fuzzy
@@ -1290,12 +1294,12 @@ msgstr "例えば、あなたの携帯電話のケースはつや消しで、他
 msgid ""
 "All materials in Overte have the following channels that determine how "
 "they look:"
-msgstr ""
+msgstr "Overte内のすべての Material には、その外観を決定する以下の Channel "
+"があります："
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
-#, fuzzy
 msgid "Channel Type"
-msgstr "チャネルタイプ"
+msgstr "チャンネルタイプ"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 #: ../../source/create/entities/create-fountain.rst:35
