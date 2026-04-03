@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-03 15:53+0000\n"
+"PO-Revision-Date: 2026-04-03 20:48+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -1317,15 +1317,15 @@ msgstr "JPEG, JPG (consigliato)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:38
 msgid "EXR (recommended for HDR envirnoment maps and lightmaps)"
-msgstr ""
+msgstr "EXR (consigliato per mappe ambientali e lightmap HDR)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:39
 msgid "TGA"
-msgstr ""
+msgstr "TGA"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:40
 msgid "TIFF, TIF"
-msgstr ""
+msgstr "TIFF, TIF"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:42
 msgid ""
@@ -1333,10 +1333,13 @@ msgid ""
 "/add-content/bake-content>` (including textures) before loading them into"
 " Overte."
 msgstr ""
+"Per ottenere prestazioni ottimali, consigliamo di eseguire il baking di "
+"tutti i modelli 3D  :doc:`baking all 3D models <../../host/add-content/bake-"
+"content>` (incluse le texture) prima di caricarli in Overte"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:46
 msgid "Shading"
-msgstr ""
+msgstr "Ombreggiatura"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:48
 msgid ""
@@ -1346,6 +1349,12 @@ msgid ""
 "different light settings. The PBR shader has a set of material parameters"
 " or channels that can be modified to create different types of materials."
 msgstr ""
+"Poiché Overte supporta i materiali PBR, l'ombreggiatura utilizzata "
+"rappresenta in modo accurato l'interazione della luce con le diverse "
+"superfici dei materiali. Ciò significa che il modello 3D non avrà lo stesso "
+"aspetto con impostazioni di illuminazione diverse. Lo shader PBR dispone di "
+"una serie di parametri o canali che possono essere modificati per creare "
+"diversi tipi di materiali."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:51
 msgid ""
@@ -1356,10 +1365,17 @@ msgid ""
 "risk*, then you can find more information at :doc:`Procedural Shaders for"
 " Models and Avatars <../materials/procedural-shaders>`."
 msgstr ""
+"È possibile combinare gli shader con le entità dei materiali su forme e zone "
+"per applicare gli shader a modelli e avatar. Questa funzionalità è stata "
+"rilasciata come **funzionalità sperimentale** e non è stata testata a fondo. "
+"Se si desidera provare ad applicare materiali procedurali a modelli o avatar "
+"*a proprio rischio*, è possibile trovare maggiori informazioni alla pagina "
+":doc:`Procedural Shaders for Models and Avatars <../materials/procedural-"
+"shaders>`."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:55
 msgid "**Material Channels**"
-msgstr ""
+msgstr "**Opzioni dei materiali**"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:57
 msgid ""
@@ -1367,12 +1383,18 @@ msgid ""
 "color of a material. You can determine the value of each channel in two "
 "ways:"
 msgstr ""
+"Le opzioni del materiale determinano vari parametri, come la rugosità o il "
+"colore di un materiale. È possibile determinare il valore di ciascun opzione "
+"in due modi:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:59
 msgid ""
 "**Setting a Value:** The value of a channel is a value set on a slider. "
 "Setting a value is like turning off or turning on a switch."
 msgstr ""
+"**Impostazione di un valore:** Il valore di una opzione è un valore "
+"impostato su un cursore. Impostare un valore è come accendere o spegnere un "
+"interruttore."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:60
 msgid ""
@@ -1381,12 +1403,19 @@ msgid ""
 "value. If you want different parts of an object to reflect varied "
 "roughness, you'll need to use a map."
 msgstr ""
+"Ad esempio, se guardate il vostro telefono, alcune parti sono lucide e altre "
+"opache. Quando si utilizza un valore, l'intero oggetto riflette quel valore. "
+"Se si desidera che diverse parti di un oggetto riflettano una rugosità "
+"variabile, è necessario utilizzare una mappa."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:62
 msgid ""
 "**Using a Map:** The map is an image which you can import to define a "
 "property. You may use a map to apply a texture to your 3D model."
 msgstr ""
+"**Utilizzo di una mappa:** La mappa è un'immagine che è possibile importare "
+"per definire una proprietà. È possibile utilizzare una mappa per applicare "
+"una texture al modello 3D."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:63
 msgid ""
@@ -1394,25 +1423,30 @@ msgid ""
 " your phone is shiny. You can use a map to set the case as matte and the "
 "phone as shiny."
 msgstr ""
+"Ad esempio, il tuo telefono potrebbe avere una custodia opaca, mentre il "
+"resto del telefono è lucido. Puoi utilizzare una mappa per impostare la "
+"custodia come opaca e il resto del telefono come lucido."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:65
 msgid ""
 "All materials in Overte have the following channels that determine how "
 "they look:"
 msgstr ""
+"Tutti i materiali in Overte hanno le seguenti opzioni che ne determinano "
+"l'aspetto:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "Channel Type"
-msgstr ""
+msgstr "Tipi di Opzioni"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 #: ../../source/create/entities/create-fountain.rst:35
 msgid "Value"
-msgstr ""
+msgstr "Valore"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
 msgid "Map"
-msgstr ""
+msgstr "Mappa"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
 msgid "Albedo"
@@ -1423,21 +1457,25 @@ msgid ""
 "This channel defines the material's color. You can pick any color value "
 "of your choice."
 msgstr ""
+"Questa opzione definisce il colore del materiale. Puoi scegliere qualsiasi "
+"valore di colore."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
 #: ../../source/create/3d-models/pbr-materials-guide.rst:88
 msgid "sRGB"
-msgstr ""
+msgstr "sRGB"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid "Metallic"
-msgstr ""
+msgstr "Metallico"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
 msgid ""
 "This channel determines how metallic the material is. Metal refracts "
 "light different than other materials."
 msgstr ""
+"Questa opzione determina quanto metallico sia il materiale. Il metallo "
+"rifrange la luce in modo diverso rispetto ad altri materiali."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:73
 #: ../../source/create/3d-models/pbr-materials-guide.rst:76
@@ -1445,19 +1483,19 @@ msgstr ""
 #: ../../source/create/3d-models/pbr-materials-guide.rst:85
 #: ../../source/create/3d-models/pbr-materials-guide.rst:90
 msgid "[0,1]"
-msgstr ""
+msgstr "[0,1]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:76
 msgid "Roughness"
-msgstr ""
+msgstr "Rugosità"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:76
 msgid "This determines how rough/matte or glossy/shiny an object is."
-msgstr ""
+msgstr "Questo determina quanto un oggetto sia ruvido/opaco o lucido/brillante."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "Normal"
-msgstr ""
+msgstr "Normale"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid ""
@@ -1465,22 +1503,25 @@ msgid ""
 " For instance, normal would add bumps and other irregularities to a stone"
 " or ridges to a sea-shell."
 msgstr ""
+"l'opzione \"normale\" è un opzione che renderizza un oggetto come se avesse "
+"una geometria reale. Ad esempio, l'opzione \"normale\" aggiungerebbe "
+"protuberanze e altre irregolarità a una pietra o creste a una conchiglia."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "xyz"
-msgstr ""
+msgstr "xyz"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:79
 msgid "bump"
-msgstr ""
+msgstr "urto"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:83
 msgid "Opacity"
-msgstr ""
+msgstr "Opacità"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:83
 msgid "Opacity determines if an object is transparent or opaque."
-msgstr ""
+msgstr "L'opacità determina se un oggetto è trasparente o opaco."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:83
 msgid "mask, alpha"
@@ -1488,53 +1529,59 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:85
 msgid "Occlusion"
-msgstr ""
+msgstr "Occlusione"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:85
 msgid ""
 "This property approximates the shading to be as natural as possible. This"
 " means that it will reproduce how objects interact with light."
 msgstr ""
+"Questa proprietà approssima l'ombreggiatura in modo che sia il più naturale "
+"possibile. Ciò significa che riprodurrà il modo in cui gli oggetti "
+"interagiscono con la luce."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:85
 #: ../../source/create/3d-models/pbr-materials-guide.rst:93
 msgid "---"
-msgstr ""
+msgstr "---"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:88
 msgid "Emissive"
-msgstr ""
+msgstr "Emissivo"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:88
 msgid "This channel controls the amount of light that is coming from an object."
-msgstr ""
+msgstr "Questa opzione controlla la quantità di luce proveniente da un oggetto."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:90
 #: ../../source/create/avatars/scattering-tutorial.rst:47
 msgid "Scattering"
-msgstr ""
+msgstr "Diffusione"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:90
 msgid ""
 "Scattering determines how light will behave when it hits human skin. This"
 " channel details how light is reflected or absorbed by human bodies."
 msgstr ""
+"La diffusione determina il comportamento della luce quando colpisce la pelle "
+"umana. Questo canale descrive in dettaglio come la luce viene riflessa o "
+"assorbita dal corpo umano."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:93
 msgid "Material Type"
-msgstr ""
+msgstr "Tipo di Materiale"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:93
 msgid "This channel decides if an object is impacted by light."
-msgstr ""
+msgstr "Questa opzione determina se un oggetto viene colpito dalla luce."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:93
 msgid "[lit, unlit]"
-msgstr ""
+msgstr "[lit, unlit]"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:96
 msgid "Notes:"
-msgstr ""
+msgstr "Note:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:98
 msgid ""
@@ -1542,6 +1589,9 @@ msgid ""
 "in the material’s albedo texture, as a file with transparency and *not* "
 "as a separate transparency texture."
 msgstr ""
+"Se si imposta la trasparenza con una texture, la trasparenza (alfa) deve "
+"essere presente nella texture albedo del materiale, come file con "
+"trasparenza e *non* come texture di trasparenza separata."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:99
 msgid ""
@@ -1550,22 +1600,31 @@ msgid ""
 "shadows,) and \"mask\" (binary transparency, full shading of opaque "
 "surface, whole surface casts shadow.)"
 msgstr ""
+"Il renderer Overte può disegnare due diversi tipi di trasparenza: \"alpha\" ("
+"255 livelli di trasparenza graduata, nessuna ombreggiatura sulla superficie, "
+"non proietta ombre) e \"maschera\" (trasparenza binaria, ombreggiatura "
+"completa della superficie opaca, l'intera superficie proietta un'ombra)."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:100
 msgid ""
 "To determine whether a texture is treated as a mask or as alpha, the "
 "engine looks for alpha values between 2% and 98%."
 msgstr ""
+"Per determinare se una texture viene trattata come una maschera o come "
+"trasparenza (alpha), il motore di gioco cerca valori alpha compresi tra il "
+"2% e il 98%."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:101
 msgid ""
 "We support using a second UV set with the following texture channels "
 "only: Emissive Texture, Normal Map and Ambient Occlusion."
 msgstr ""
+"Supportiamo l'utilizzo di un secondo set UV solo con i seguenti canali di "
+"texture: Texture emissiva, Mappa normale e Occlusione ambientale."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:105
 msgid "Sample Materials and Their Textures and Shading"
-msgstr ""
+msgstr "Campioni di materiali, le loro texture e le loro sfumature"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:107
 msgid ""
@@ -1605,7 +1664,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:128
 msgid "Doing so ensures that your model appears how you intend it to."
-msgstr ""
+msgstr "Così facendo, il modello apparirà come previsto."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:130
 msgid ""
@@ -1615,6 +1674,12 @@ msgid ""
 "will multiplied together. This can be useful for creating highly "
 "performant colored models using grey-scale textures and vertex colors."
 msgstr ""
+"Per impostazione predefinita, qualsiasi proprietà del materiale impostata "
+"con una texture sovrascriverà una proprietà impostata con un valore. L'unica "
+"eccezione si verifica nel caso del colore del vertice e di una texture, in "
+"cui il colore del vertice e la texture verranno moltiplicati tra loro. "
+"Questo può essere utile per creare modelli colorati ad alte prestazioni "
+"utilizzando texture in scala di grigi e colori dei vertici."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:133
 msgid ""
@@ -1624,20 +1689,28 @@ msgid ""
 "channel. It should be noted that models exported as OBJ may not have full"
 " PBR material support in Overte yet."
 msgstr ""
+"Abbiamo incluso delle immagini in cui i campi corrispondenti a ciascun "
+"canale PBR supportato in Blender sono evidenziati, insieme ai dettagli sui "
+"valori e i colori corrispondenti all'intervallo di valori di quel canale. È "
+"importante notare che i modelli esportati in formato OBJ potrebbero non "
+"avere ancora il supporto completo per i materiali PBR in Overte."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:142
 msgid "Set Material Values in Maya"
-msgstr ""
+msgstr "Impostare i valori dei materiali in Maya"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:147
 msgid "This section hasn't been tested in a long while and might be outdated."
 msgstr ""
+"Questa sezione non è stata testata da molto tempo e potrebbe essere obsoleta."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:149
 msgid ""
 "Use the graphics below to set the right material values and textures in "
 "Maya."
 msgstr ""
+"Utilizza le immagini sottostanti per impostare i valori dei materiali e le "
+"texture corretti in Maya."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:158
 msgid ""
@@ -1654,6 +1727,8 @@ msgid ""
 "This document is outdated. FIXME: Uses HiFi hosted resources, potentially"
 " more."
 msgstr ""
+"Questo documento è obsoleto. FIXME: Utilizza risorse ospitate da HiFi, "
+"potenzialmente anche di più."
 
 #: ../../source/create/applications.rst:9
 msgid ""
@@ -1661,6 +1736,10 @@ msgid ""
 " FOR REFERENCE ONLY UNTIL UPDATED. SEE `API "
 "DOCS<https://apidocs.overte.org/>` FOR MORE."
 msgstr ""
+"QUESTA GUIDA È OBSOLETA. IL CODICE POTREBBE NON FUNZIONARE ESATTAMENTE COME "
+"DESCRITTO, UTILIZZARLO SOLO COME RIFERIMENTO FINO A QUANDO NON VERRÀ "
+"AGGIORNATO. CONSULTARE LA `API DOCS<https://apidocs.overte.org/>` PER "
+"ULTERIORI INFORMAZIONI."
 
 #: ../../source/create/applications.rst:11
 msgid ""
@@ -1669,16 +1748,24 @@ msgid ""
 " complex code from our `JavaScript API <https://apidocs.overte.org>`_ and"
 " simplify it into a window with controls for others to use."
 msgstr ""
+"Le app per tablet (o semplicemente \"app\") in Overte sono programmi "
+"personalizzabili che offrono funzionalità tramite un'interfaccia utente "
+"intuitiva. Le app consentono di semplificare il codice complesso della "
+"nostra `API JavaScript <https://apidocs.overte.org>`_ trasformandolo in una "
+"finestra con controlli utilizzabili da altri."
 
 #: ../../source/create/applications.rst:15
 msgid ""
 "To create custom apps, you must have a basic knowledge of web development"
 " (HTML, CSS and JavaScript) and be able to navigate our API."
 msgstr ""
+"Per creare app personalizzate, è necessario possedere una conoscenza di base "
+"dello sviluppo web (HTML, CSS e JavaScript) ed essere in grado di utilizzare "
+"le nostre API."
 
 #: ../../source/create/applications.rst:17
 msgid "The steps involved in creating a tablet app are:"
-msgstr ""
+msgstr "I passaggi necessari per creare un'app per tablet sono:"
 
 #: ../../source/create/applications.rst:19
 msgid ""
@@ -1704,29 +1791,31 @@ msgstr ""
 
 #: ../../source/create/applications.rst:24
 msgid "Adds a button to the tablet and HUD"
-msgstr ""
+msgstr "Aggiunge un pulsante al tablet e all'HUD"
 
 #: ../../source/create/applications.rst:25
 msgid "Loads your app"
-msgstr ""
+msgstr "Carica la tua app"
 
 #: ../../source/create/applications.rst:26
 msgid "Closes your app"
-msgstr ""
+msgstr "Chiudi la tua app"
 
 #: ../../source/create/applications.rst:27
 msgid "Listens for events"
-msgstr ""
+msgstr "Elenca gli eventi"
 
 #: ../../source/create/applications.rst:28
 msgid ""
 "Runs your code (in this case, `create some gemstones <#create-"
 "gemstones>`_)"
 msgstr ""
+"Esegue il tuo codice (in questo caso, `create some gemstones <#create-"
+"gemstones>`_)"
 
 #: ../../source/create/applications.rst:32
 msgid "Tutorial: Create Gemstone Switching Tablet App"
-msgstr ""
+msgstr "Tutorial: Creare un'app per tablet per lo scambio di pietre preziose"
 
 #: ../../source/create/applications.rst:34
 msgid ""
@@ -1734,10 +1823,14 @@ msgid ""
 "called \"Gemstone Magic Maker\". This simple app lets you spawn colorful "
 "little gemstones in VR that you can share with your friends."
 msgstr ""
+"In questo tutorial, illustreremo i passaggi sopra descritti per creare "
+"un'app chiamata \"Gemstone Magic Maker\". Questa semplice app ti permette di "
+"generare piccole gemme colorate in realtà virtuale che potrai condividere "
+"con i tuoi amici."
 
 #: ../../source/create/applications.rst:38
 msgid "Create icons to show up on the tablet and HUD"
-msgstr ""
+msgstr "Crea icone da visualizzare sul tablet e sull'HUD"
 
 #: ../../source/create/applications.rst:40
 msgid ""
@@ -1746,34 +1839,42 @@ msgid ""
 "``<appName>-a.svg`` and another to display when the app is inactive, "
 "usually named ``<appName>-i.svg``."
 msgstr ""
+"Sono necessarie due icone da visualizzare sul tablet e sull'HUD: un'immagine "
+"SVG o PNG da visualizzare sul pulsante dell'app quando l'app è attiva, "
+"solitamente denominata ``<appName>-a.svg``, e un'altra da visualizzare "
+"quando l'app è inattiva, solitamente denominata ``<appName>-i.svg``."
 
 #: ../../source/create/applications.rst:44
 msgid "We recommend the following specs for your icons:"
-msgstr ""
+msgstr "Per le tue icone, raccomandiamo le seguenti specifiche:"
 
 #: ../../source/create/applications.rst:46
 msgid "Size: 50px by 50px"
-msgstr ""
+msgstr "Dimensioni: 50px per 50px"
 
 #: ../../source/create/applications.rst:47
 msgid ""
 "Color: White on a transparent background (for inactive icons) and black "
 "on a transparent background (for active icons)"
 msgstr ""
+"Colore: Bianco su sfondo trasparente (per le icone inattive) e nero su "
+"sfondo trasparente (per le icone attive)"
 
 #: ../../source/create/applications.rst:48
 msgid "File format: SVG or PNG"
-msgstr ""
+msgstr "Formato file: SVG o PNG"
 
 #: ../../source/create/applications.rst:50
 msgid ""
 "You can create your own icon using graphic design software or any other "
 "online resources."
 msgstr ""
+"È possibile creare la propria icona utilizzando un software di progettazione "
+"grafica o qualsiasi altra risorsa online."
 
 #: ../../source/create/applications.rst:54
 msgid "Design your app's UI in HTML and CSS"
-msgstr ""
+msgstr "Progetta l'interfaccia utente della tua app in HTML e CSS"
 
 #: ../../source/create/applications.rst:56
 msgid ""
@@ -1782,6 +1883,11 @@ msgid ""
 "scroll bars, and links). Keep in mind that the tablet screen dimensions "
 "are 480 x 720, so all of your UI should be confined to this space."
 msgstr ""
+"L'interfaccia utente della tua app dovrebbe includere del testo che spieghi "
+"il funzionamento dell'app e utilizzare elementi familiari con cui l'utente "
+"sa interagire (come pulsanti, barre di scorrimento e link). Tieni presente "
+"che le dimensioni dello schermo del tablet sono 480 x 720, quindi tutta "
+"l'interfaccia utente deve essere contenuta in questo spazio."
 
 #: ../../source/create/applications.rst:58
 msgid ""
@@ -1792,10 +1898,17 @@ msgid ""
 "for your app title. With just a few simple modifications, you can create "
 "have a simple app UI within minutes."
 msgstr ""
+"Per aiutarti a iniziare, abbiamo creato un modello HTML di avvio rapido "
+"<https://hifi-content.s3.amazonaws.com/faye/tablet-sample-app/"
+"quick_start_template.html>` che puoi riutilizzare. Contiene lo stesso "
+"layout, stile e carattere della schermata del menu principale e include una "
+"barra di intestazione per il titolo della tua app. Con poche semplici "
+"modifiche, puoi creare un'interfaccia utente semplice per la tua app in "
+"pochi minuti."
 
 #: ../../source/create/applications.rst:64
 msgid "Add event handlers to your HTML file"
-msgstr ""
+msgstr "Aggiungi i gestori di eventi al tuo file HTML"
 
 #: ../../source/create/applications.rst:66
 msgid ""
@@ -1806,10 +1919,16 @@ msgid ""
 "``<script> </script>`` tags in the body of your HTML file to handle the "
 "button clicks::"
 msgstr ""
+"Il framework Tablet UI fornisce un canale di comunicazione chiamato "
+"EventBridge. Consente di inviare e ricevere eventi tra lo script client "
+"(gemstoneApp.js) e il codice JavaScript della tua applicazione web "
+"(gemstoneMagicMaker.html). Utilizza il seguente codice EventBridge "
+"all'interno dei tag ``<script> </script>`` nel corpo del tuo file HTML per "
+"gestire i clic sui pulsanti:"
 
 #: ../../source/create/applications.rst:94
 msgid "Write a JavaScript file"
-msgstr ""
+msgstr "Scrivi un file JavaScript"
 
 #: ../../source/create/applications.rst:96
 msgid ""
@@ -1819,44 +1938,57 @@ msgid ""
 "listens for events. Below, you will find code samples to do each of these"
 " things."
 msgstr ""
+"Il tuo file JavaScript conterrà tutte le funzionalità principali della tua "
+"app. Come minimo, ti chiediamo di includere del codice che aggiunga un "
+"pulsante al tablet e all'HUD, carichi l'app, la chiuda correttamente e sia "
+"in ascolto degli eventi. Di seguito, troverai degli esempi di codice per "
+"ciascuna di queste operazioni."
 
 #: ../../source/create/applications.rst:98
 msgid "**Add buttons to the tablet and HUD**"
-msgstr ""
+msgstr "**Aggiungi pulsanti al tablet e all'HUD**"
 
 #: ../../source/create/applications.rst:100
 msgid ""
 "Use the AppUI module to automatically add your app’s button to the tablet"
 " and HUD, and to wire button click handlers::"
 msgstr ""
+"Utilizza il modulo AppUI per aggiungere automaticamente il pulsante della "
+"tua app al tablet e all'HUD e per collegare i gestori di clic del pulsante:"
 
 #: ../../source/create/applications.rst:116
 msgid "**Determine the app's startup behavior**"
-msgstr ""
+msgstr "**Determinare il comportamento di avvio dell'app**"
 
 #: ../../source/create/applications.rst:118
 msgid ""
 "If you want your app to do something specific when it is opened, use the "
 "AppUI module's  ``onOpened`` functionality. For example, you could:"
 msgstr ""
+"Se desideri che la tua app esegua un'azione specifica all'apertura, utilizza "
+"la funzionalità ``onOpened`` del modulo AppUI. Ad esempio, potresti:"
 
 #: ../../source/create/applications.rst:120
 msgid "Query a server to get a response and determine what to show on the UI"
 msgstr ""
+"Interroga un server per ottenere una risposta e determina cosa mostrare "
+"nell'interfaccia utente"
 
 #: ../../source/create/applications.rst:121
 msgid "Start displaying a 3D interface separate from the tablet"
-msgstr ""
+msgstr "Inizia a visualizzare un'interfaccia 3D separata dal tablet"
 
 #: ../../source/create/applications.rst:122
 msgid ""
 "Determine the display mode (VR/Desktop) and change things to show on the "
 "UI"
 msgstr ""
+"Determina la modalità di visualizzazione (VR/Desktop) e modifica gli "
+"elementi da mostrare nell'interfaccia utente"
 
 #: ../../source/create/applications.rst:146
 msgid "**Close the app gracefully**"
-msgstr ""
+msgstr "**Chiudi l'app correttamente**"
 
 #: ../../source/create/applications.rst:148
 msgid ""
@@ -1865,18 +1997,21 @@ msgid ""
 "``onClosed`` functionality built into the AppUI module. For example, you "
 "could:"
 msgstr ""
+"Il modulo AppUI garantisce che l'app si chiuda correttamente. Tuttavia, se "
+"desideri eseguire altre azioni alla chiusura dell'app, puoi farlo tramite la "
+"funzionalità ``onClosed`` integrata nel modulo AppUI. Ad esempio, potresti:"
 
 #: ../../source/create/applications.rst:150
 msgid "Remove 3D interfaces"
-msgstr ""
+msgstr "Rimuovere le interfacce 3D"
 
 #: ../../source/create/applications.rst:151
 msgid "Stop secondary scripts"
-msgstr ""
+msgstr "Interrompi gli script secondari"
 
 #: ../../source/create/applications.rst:180
 msgid "**Listen for events**"
-msgstr ""
+msgstr "**Ascolta gli eventi**"
 
 #: ../../source/create/applications.rst:182
 msgid ""
