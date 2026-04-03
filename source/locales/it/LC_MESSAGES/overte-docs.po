@@ -5,25 +5,26 @@
 # package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2023.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: Overte Docs \n"
+"Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"PO-Revision-Date: 2026-04-03 15:53+0000\n"
+"Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
+"Language-Team: Italian <https://weblate.overte.org/projects/overte/"
+"overte-documentation/it/>\n"
 "Language: it\n"
-"Language-Team: it <LL@li.org>\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.13.3\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
-msgstr ""
+msgstr "Contribuire"
 
 #: ../../source/contribute.rst:7
 msgid ""
@@ -34,14 +35,26 @@ msgid ""
 "software for creating virtual worlds. There are plenty of ways you can "
 "contribute to the various parts that make up Overte."
 msgstr ""
+"Overte è un progetto open-source, quindi tutto il nostro codice e la "
+"documentazione sono a vostra disposizione. Anche voi potete contribuire alla "
+"nostra impresa per il metaverso! Il nostro repository Git principale "
+"<https://github.com/overte-org/overte> contiene il codice sorgente di molti "
+"dei componenti del nostro software per la creazione di mondi virtuali. Ci "
+"sono molti modi in cui potete contribuire alle diverse parti che compongono "
+"Overte."
 
 #: ../../source/contribute.rst:11
+#, fuzzy
 msgid ""
 "If you run into any questions or seek some advice, have a look at our "
 "`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which "
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
 msgstr ""
+"Se hai domande o cerchi consigli, dai un'occhiata al nostro `Matrix Space "
+"<https://matrix.to/#/#overte:overte.org>`_ |Matrix| che è anche collegato al "
+"nostro `server Discord <https://discord.gg/4YuQvc8K2f>`_ |Discord| se "
+"preferisci."
 
 #: ../../source/shared.rst:16
 msgid "Matrix"
@@ -101,27 +114,34 @@ msgstr ""
 #: ../../source/script/midi-tutorial.rst:12
 #: ../../source/security/asset-security.rst:12
 msgid "On This Page"
-msgstr ""
+msgstr "In questa pagina"
 
 #: ../../source/contribute.rst:19
 msgid "Documentation"
-msgstr ""
+msgstr "Documentazione"
 
 #: ../../source/contribute.rst:20
 msgid "You can help create and maintain the documentation in several ways:"
 msgstr ""
+"Puoi contribuire alla creazione e alla manutenzione della documentazione in "
+"diversi modi:"
 
 #: ../../source/contribute.rst:22
 msgid ""
 "Report errors or missing information to the `GitHub issue tracker "
 "<https://github.com/overte-org/overte-docs-sphinx/issues>`_."
 msgstr ""
+"Segnala eventuali errori o informazioni mancanti al sistema di tracciamento "
+"dei problemi di GitHub <https://github.com/overte-org/overte-docs-sphinx/"
+"issues>."
 
 #: ../../source/contribute.rst:23
 msgid ""
 "Create or change documentation pages and open a `PR (pull request) on "
 "GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 msgstr ""
+"Crea o modifica le pagine della documentazione e apri una `PR (pull request) "
+"su GitHub <https://github.com/overte-org/overte-docs-sphinx/pulls>`_."
 
 #: ../../source/contribute.rst:24
 msgid ""
@@ -131,10 +151,14 @@ msgid ""
 "changes, as there are always things that the writer and the first "
 "reviewer overlook."
 msgstr ""
+"`Revisionare le modifiche <https://github.com/overte-org/overte-docs-sphinx/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+review\">`_ alla documentazione su "
+"GitHub. Vorremmo avere due revisori per la maggior parte delle modifiche, "
+"poiché ci sono sempre aspetti che l'autore e il primo revisore trascurano."
 
 #: ../../source/contribute.rst:29
 msgid "Translation"
-msgstr ""
+msgstr "Traduzione"
 
 #: ../../source/contribute.rst:30
 msgid ""
@@ -149,10 +173,20 @@ msgid ""
 "`README <https://github.com/overte-org/overte-docs-"
 "sphinx/blob/master/README.md>`_."
 msgstr ""
+"Essendo un progetto internazionale, Overte si affida ai traduttori per poter "
+"raggiungere gli utenti che non parlano inglese. Attualmente, l'unico "
+"componente per cui è disponibile il supporto alla traduzione è la "
+"documentazione. Puoi contribuire alla traduzione utilizzando il nostro "
+"sistema di traduzione online `Weblate <https://weblate.overte.org/projects/"
+"overte/overte-documentation/>`_ inviando le tue traduzioni o diventando un "
+"manutentore per la tua lingua e controllando le traduzioni prima che vengano "
+"inserite nella documentazione. Ulteriori informazioni sulla traduzione della "
+"documentazione sono disponibili nel file `README <https://github.com/"
+"overte-org/overte-docs-sphinx/blob/master/README.md>`_."
 
 #: ../../source/contribute.rst:38
 msgid "Donations"
-msgstr ""
+msgstr "Donazioni"
 
 #: ../../source/contribute.rst:39
 msgid ""
@@ -161,6 +195,10 @@ msgid ""
 "donations, you can donate to specific members of the team via various "
 "services like PayPal, Patreon, or GitHub Sponsors."
 msgstr ""
+"Overte si basa principalmente sul contributo volontario della sua community "
+"e del team principale. Sebbene non disponiamo ancora di un'entità per la "
+"gestione delle donazioni, è possibile donare a specifici membri del team "
+"tramite diversi servizi come PayPal, Patreon o GitHub Sponsors."
 
 #: ../../source/contribute.rst:42
 msgid ""
@@ -175,32 +213,50 @@ msgid ""
 "of US$40 an hour in the free market. Keep that in mind if you want to see"
 " something accomplished that no one else is personally interested in."
 msgstr ""
+"Puoi anche offrire ricompense per funzionalità specifiche che desideri "
+"vengano implementate o problemi che desideri vengano risolti, lasciando un "
+"commento sul nostro `tracker dei problemi <https://github.com/overte-org/"
+"overte/issues>`_. Naturalmente, le ricompense sono un'opzione anche per "
+"altre parti del progetto, come la documentazione. Le ricompense vengono "
+"create e assegnate in base alla fiducia, quindi se hai dubbi su qualcosa che "
+"riguarda una ricompensa, parla con uno sviluppatore principale o solleva la "
+"questione durante una riunione della community o degli sviluppatori. La "
+"maggior parte degli sviluppatori è altamente qualificata ed esperta, e in "
+"genere guadagna oltre 40 dollari l'ora sul mercato libero. Tienilo presente "
+"se desideri che venga realizzato qualcosa che nessun altro sta personalmente "
+"cercando di realizzare."
 
 #: ../../source/contribute.rst:50
 msgid "Development"
-msgstr ""
+msgstr "Sviluppo"
 
 #: ../../source/contribute.rst:51
 msgid ""
 "You can help the general development of the Overte project without being "
 "a developer yourself by:"
 msgstr ""
+"Puoi contribuire allo sviluppo generale del progetto Overte anche senza "
+"essere uno sviluppatore, svolgendo le seguenti attività:"
 
 #: ../../source/contribute.rst:53
 msgid ""
 "filing issues on our `issue tracker <https://github.com/overte-"
 "org/overte/issues>`_,"
 msgstr ""
+"segnalare problemi sul nostro `tracker dei problemi <https://github.com/"
+"overte-org/overte/issues>`_,"
 
 #: ../../source/contribute.rst:54
 msgid "helping to narrow down those issues,"
-msgstr ""
+msgstr "contribuendo a circoscrivere tali questioni,"
 
 #: ../../source/contribute.rst:55
 msgid ""
 "or `testing pull requests <https://github.com/overte-"
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 msgstr ""
+"o `test delle pull request <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A\"needs+QA+(testing)\">`_."
 
 #: ../../source/contribute.rst:57
 msgid ""
@@ -214,36 +270,45 @@ msgid ""
 "org/overte/pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ of "
 "open pull requests."
 msgstr ""
+"Se sei uno sviluppatore, puoi contribuire direttamente al progetto tramite "
+"pull request. Tieni a mente le `linee guida <https://github.com/overte-org/"
+"overte/blob/master/CONTRIBUTING.md>`_ quando contribuisci al software "
+"principale. Ulteriori informazioni sono disponibili nella sezione :doc:`"
+"Developer Section <developer>`. Un compito importante per gli sviluppatori "
+"che hanno acquisito maggiore familiarità con la piattaforma è la `revisione "
+"del codice <https://github.com/overte-org/overte/"
+"pulls?q=is%3Apr+is%3Aopen+label%3A%22needs+testing%22>`_ delle pull request "
+"aperte."
 
 #: ../../source/contribute.rst:64
 msgid "Miscellaneous Work"
-msgstr ""
+msgstr "Lavori vari"
 
 #: ../../source/contribute.rst:65
 msgid ""
 "There is also a lot of miscellaneous work that comes up every now and "
 "then:"
-msgstr ""
+msgstr "Ci sono anche molti lavori vari che si presentano di tanto in tanto:"
 
 #: ../../source/contribute.rst:67
 msgid "2D art like posters or banners,"
-msgstr ""
+msgstr "Arte 2D come poster o striscioni,"
 
 #: ../../source/contribute.rst:68
 msgid "3D models,"
-msgstr ""
+msgstr "Modelli 3D,"
 
 #: ../../source/contribute.rst:69
 msgid "scripts,"
-msgstr ""
+msgstr "scripts,"
 
 #: ../../source/contribute.rst:70
 msgid "video editing,"
-msgstr ""
+msgstr "editing video,"
 
 #: ../../source/contribute.rst:71
 msgid "and so on."
-msgstr ""
+msgstr "e così via."
 
 #: ../../source/contribute.rst:73
 msgid ""
@@ -251,48 +316,51 @@ msgid ""
 "ask for assistance when they need work done that is outside their area of"
 " expertise."
 msgstr ""
+"Per gli sviluppatori è estremamente utile avere qualcuno a cui chiedere "
+"aiuto quando hanno bisogno di svolgere un lavoro che esula dalla loro area "
+"di competenza."
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 msgid "Create Tools"
-msgstr ""
+msgstr "Strumenti di creazione"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 #: ../../source/host/add-content/bake-content.rst:45
 #: ../../source/security/asset-security.rst:29
 msgid "Avatars"
-msgstr ""
+msgstr "Avatars"
 
 #: ../../source/create.rst:11 ../../source/create/wearables.md:7
 msgid "Wearables"
-msgstr ""
+msgstr "dispositivi indossabili"
 
 #: ../../source/create.rst:11 ../../source/create/entities.rst:3
 #: ../../source/security/asset-security.rst:16
 msgid "Entities"
-msgstr ""
+msgstr "Entità"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models/get-model.rst:54
 #: ../../source/create/materials.rst:3
 #: ../../source/host/add-content/bake-content.rst:33
 msgid "Materials"
-msgstr ""
+msgstr "Materiali"
 
 #: ../../source/create.rst:11 ../../source/create/3d-models.rst:3
 #: ../../source/host/add-content/bake-content.rst:37
 msgid "3D Models"
-msgstr ""
+msgstr "Modelli 3D"
 
 #: ../../source/create.rst:11 ../../source/create/environments.rst:3
 msgid "Environments"
-msgstr ""
+msgstr "Ambienti"
 
 #: ../../source/create.rst:11 ../../source/create/applications.rst:7
 msgid "Tablet Apps"
-msgstr ""
+msgstr "Applicazioni per tablet"
 
 #: ../../source/create.rst:3
 msgid "Create"
-msgstr ""
+msgstr "Creare"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -303,44 +371,55 @@ msgid ""
 "creating your own world or building your immersive project using the free"
 " and openly licensed Overte engine is encouraged!"
 msgstr ""
+"Overte permette a persone unite da interessi, senso di comunità e amicizia "
+"di incontrarsi ed esprimere la propria creatività. Ti invitiamo a "
+"personalizzare la tua esperienza creando avatar e contenuti, oppure "
+"sviluppando app e script. Per un'esperienza davvero unica, ti consigliamo di "
+"creare il tuo mondo o di realizzare il tuo progetto immersivo utilizzando il "
+"motore Overte, gratuito e con licenza aperta!"
 
 #: ../../source/create.rst:7
 msgid ""
 "No matter your level of expertise, Overte provides the tools you need to "
 "create anything you can imagine."
 msgstr ""
+"A prescindere dal tuo livello di esperienza, Overte ti offre gli strumenti "
+"necessari per creare qualsiasi cosa tu possa immaginare."
 
 #: ../../source/create.rst:9
 msgid ""
 "Throughout this chapter, learn how to create, build, and bring to life "
 "your own VR experience:"
 msgstr ""
+"In questo capitolo imparerai come creare, costruire e dare vita alla tua "
+"esperienza di realtà virtuale:"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/get-model.rst:3
 msgid "Get Your 3D Model"
-msgstr ""
+msgstr "Ottieni il tuo modello 3D"
 
 #: ../../source/create/3d-models.rst:11
 msgid "Import Your 3D Model"
-msgstr ""
+msgstr "Importa il tuo modello 3D"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/pbr-materials-guide.rst:7
 msgid "PBR Materials Guide"
-msgstr ""
+msgstr "Guida ai materiali PBR"
 
 #: ../../source/create/3d-models.rst:11 ../../source/create/materials.rst:9
 #: ../../source/create/materials/procedural-shaders.rst:3
 msgid "Procedural Shaders for Models and Avatars"
-msgstr ""
+msgstr "Shader procedurali per modelli e avatar"
 
 #: ../../source/create/3d-models.rst:11
 #: ../../source/create/3d-models/import-animations.rst:3
 msgid "Import Animations"
-msgstr ""
+msgstr "Importazione di animazioni"
 
 #: ../../source/create/3d-models.rst:5
+#, fuzzy
 msgid ""
 "3D models are :doc:`entities <entities>` that represent objects you'd "
 "like to see in-world such as a water fountain, a castle, or a coffee mug."
@@ -348,6 +427,12 @@ msgid ""
 "externally. We only support 3D models in the glTF/GLB, OBJ, and FBX "
 "formats. PBR material support works best with glTF/GLB models."
 msgstr ""
+"I modelli 3D sono :doc:`entità <entità>` che rappresentano oggetti che "
+"vorresti vedere nel mondo virtuale, come una fontana, un castello o una "
+"tazza di caffè. Puoi ottenere il tuo modello 3D creandolo tu stesso o "
+"reperendolo da fonti esterne. Supportiamo solo modelli 3D nei formati glTF/"
+"GLB, OBJ e FBX. Il supporto per i materiali PBR funziona al meglio con i "
+"modelli glTF/GLB."
 
 #: ../../source/create/3d-models.rst:7
 msgid ""
@@ -356,22 +441,29 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light as they would (approximately) in real life."
 msgstr ""
+"L'aspetto di un modello 3D è controllato dai suoi materiali. I materiali "
+"supportati in Overte sono materiali di rendering basati sulla fisica (PBR). "
+"Ciò significa che i materiali di un modello 3D rifletteranno o assorbiranno "
+"la luce come farebbero (approssimativamente) nella realtà."
 
 #: ../../source/create/3d-models.rst:9 ../../source/create/avatars.rst:7
 #: ../../source/create/entities.rst:7 ../../source/create/materials.rst:7
 #: ../../source/explore/personalize.rst:7
 msgid "**In This Section:**"
-msgstr ""
+msgstr "**In questa sezione:**"
 
 #: ../../source/create/3d-models/get-model.rst:5
 msgid ""
 "All 3D models should be in the glTF/GLB, FBX or OBJ format and have "
 "materials supported by Overte. Best supported are glTF/GLB files."
 msgstr ""
+"Tutti i modelli 3D devono essere in formato glTF/GLB, FBX o OBJ e avere "
+"materiali supportati da Overte. I file glTF/GLB sono quelli maggiormente "
+"supportati."
 
 #: ../../source/create/3d-models/get-model.rst:12
 msgid "Get Your 3D Model from 3D Content Stores"
-msgstr ""
+msgstr "Ottieni il tuo modello 3D dai negozi di contenuti 3D"
 
 #: ../../source/create/3d-models/get-model.rst:14
 msgid ""
@@ -379,6 +471,9 @@ msgid ""
 "can purchase or get for free. Keep the following in mind when sourcing 3D"
 " models from such sites:"
 msgstr ""
+"Esistono molti siti web di contenuti 3D online che offrono modelli "
+"acquistabili o scaricabili gratuitamente. Quando si scaricano modelli 3D da "
+"questi siti, è importante tenere a mente quanto segue:"
 
 #: ../../source/create/3d-models/get-model.rst:16
 msgid ""
@@ -386,6 +481,9 @@ msgid ""
 "before you use it. It is your responsibility to ensure that you have "
 "sufficient rights to use the content."
 msgstr ""
+"**Verifica i termini di licenza:** Assicurati di controllare i termini di "
+"licenza di un modello prima di utilizzarlo. È tua responsabilità accertarti "
+"di avere i diritti sufficienti per utilizzare il contenuto."
 
 #: ../../source/create/3d-models/get-model.rst:17
 msgid ""
@@ -394,6 +492,10 @@ msgid ""
 "viewing an image on a website. You should be comfortable that you have "
 "the rights to re-distribute the 3D content."
 msgstr ""
+"Quando rendi disponibile un modello 3D sul tuo server Overte, i visitatori "
+"ottengono i link a quei file nello stesso modo in cui otterrebbero "
+"visualizzando un'immagine su un sito web. Devi essere certo di avere i "
+"diritti per ridistribuire il contenuto 3D."
 
 #: ../../source/create/3d-models/get-model.rst:19
 msgid ""
@@ -401,6 +503,8 @@ msgid ""
 "textures. If that happens, first check to see if the textures are "
 "included."
 msgstr ""
+"**Verifica i materiali:** Potresti scoprire che al modello mancano le "
+"texture. In tal caso, controlla innanzitutto se le texture sono incluse."
 
 #: ../../source/create/3d-models/get-model.rst:20
 msgid ""
@@ -408,37 +512,49 @@ msgid ""
 "error information in the Interface logs. See `Where do I find the "
 "Interface log files? <../../faq.html#interface-log-files>`_"
 msgstr ""
+"Se un modello viene caricato in Overte e non viene visualizzato "
+"correttamente, è possibile trovare informazioni di errore anche nei log "
+"dell'interfaccia. Vedi `Dove trovo i file di log dell'interfaccia? <../../"
+"faq.html#interface-log-files>`_"
 
 #: ../../source/create/3d-models/get-model.rst:24
 msgid "Create Your Own 3D Model"
-msgstr ""
+msgstr "Crea il tuo modello 3D"
 
 #: ../../source/create/3d-models/get-model.rst:26
 msgid ""
 "You can create your own 3D model using 3D modeling software such as "
 "Blender or Maya. Use any software of your choice as long as:"
 msgstr ""
+"Puoi creare il tuo modello 3D utilizzando un software di modellazione 3D "
+"come Blender o Maya. Usa qualsiasi software tu scelga, purché:"
 
 #: ../../source/create/3d-models/get-model.rst:28
 msgid "The 3D model is in the glTF/GLB, FBX or OBJ format."
-msgstr ""
+msgstr "Il modello 3D è disponibile nei formati glTF/GLB, FBX o OBJ."
 
 #: ../../source/create/3d-models/get-model.rst:29
+#, fuzzy
 msgid ""
 "The 3D model materials are supported by Overte. Use our :doc:`materials "
 "guide <pbr-materials-guide>` to make sure that your materials load "
 "correctly."
 msgstr ""
+"I materiali del modello 3D sono supportati da Overte. Consulta la nostra "
+"guida ai materiali <pbr-materials-guide> per assicurarti che i materiali "
+"vengano caricati correttamente."
 
 #: ../../source/create/3d-models/get-model.rst:33
 msgid "Best Practices"
-msgstr ""
+msgstr "Buone Pratiche"
 
 #: ../../source/create/3d-models/get-model.rst:35
 msgid ""
 "Making 3D models for Overte (and VR) is different than making models for "
 "films, videos, and games."
 msgstr ""
+"Realizzare modelli 3D per Overte (e per la realtà virtuale) è diverso dal "
+"realizzare modelli per film, video e videogiochi."
 
 #: ../../source/create/3d-models/get-model.rst:37
 msgid ""
@@ -446,6 +562,10 @@ msgid ""
 "means that the number of polygons on your model and the number of "
 "materials you use will affect your performance."
 msgstr ""
+"I modelli 3D per la realtà virtuale vengono renderizzati due volte (una per "
+"l'occhio destro e una per l'occhio sinistro): questo significa che il numero "
+"di poligoni del modello e il numero di materiali utilizzati influiranno "
+"sulle prestazioni."
 
 #: ../../source/create/3d-models/get-model.rst:38
 msgid ""
@@ -454,12 +574,18 @@ msgid ""
 "are too big or very complex can slow down the framerate and make people "
 "feel nauseous."
 msgstr ""
+"La maggior parte dei visori VR funziona a 90 Hz o superiore: dovrai "
+"mantenere il framerate a 90 fps e fare attenzione alle dimensioni del "
+"modello. Modelli troppo grandi o molto complessi possono rallentare il "
+"framerate e provocare nausea."
 
 #: ../../source/create/3d-models/get-model.rst:40
 msgid ""
 "We've listed the best practices for creating 3D models for Overte (and "
 "VR)."
 msgstr ""
+"Abbiamo elencato le migliori pratiche per la creazione di modelli 3D per "
+"Overte (e VR)."
 
 #: ../../source/create/3d-models/get-model.rst:43
 #: ../../source/create/3d-models/import-animations.rst:47
@@ -470,11 +596,11 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 msgid "Property"
-msgstr ""
+msgstr "Proprietà"
 
 #: ../../source/create/3d-models/get-model.rst:43
 msgid "Best Practice"
-msgstr ""
+msgstr "Buone Pratiche"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
@@ -486,6 +612,9 @@ msgid ""
 "high, but not too low either. For example 50000 Polygons should be more "
 "than enough for a detailed avatar."
 msgstr ""
+"Il numero di poligoni dovrebbe essere simile a quello di un modello per un "
+"gioco per tablet, né troppo alto, né troppo basso. Ad esempio, 50.000 "
+"poligoni dovrebbero essere più che sufficienti per un avatar dettagliato."
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
@@ -493,17 +622,20 @@ msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
-msgstr ""
+msgstr "Rimuovi i edge loops non necessari."
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid "Mesh"
-msgstr ""
+msgstr "Maglia"
 
 #: ../../source/create/3d-models/get-model.rst:51
 msgid ""
 "Clean the mesh to make sure there are no N-gons and no coplanar faces. "
 "Any good 3D modelling software should do this on export."
 msgstr ""
+"Pulisci la mesh per assicurarti che non ci siano poligoni con più di N lati "
+"e nessuna faccia complanare. Qualsiasi buon software di modellazione 3D "
+"dovrebbe farlo automaticamente in fase di esportazione."
 
 #: ../../source/create/3d-models/get-model.rst:54
 msgid ""
@@ -512,6 +644,11 @@ msgid ""
 "create a robot, all its pieces should share one UV map, instead of giving"
 " its hands, feet, or face separate materials and UV maps."
 msgstr ""
+"Cerca sempre di creare mappe Atlas. Quando ogni elemento del tuo contenuto "
+"condivide lo stesso materiale e lo stesso spazio UV, si parla di mappa "
+"Atlas. Ad esempio, se crei un robot, tutte le sue parti dovrebbero "
+"condividere un'unica mappa UV, invece di assegnare materiali e mappe UV "
+"separati a mani, piedi o viso."
 
 #: ../../source/create/3d-models/get-model.rst:59
 #: ../../source/create/3d-models/get-model.rst:62
@@ -532,26 +669,36 @@ msgid ""
 "WEBP, PNG, JPEG and JPG files are recommended, but we also support TGA, "
 "TIF and TIFF formats."
 msgstr ""
+"Si consiglia di utilizzare file WEBP, PNG, JPEG e JPG, ma supportiamo anche "
+"i formati TGA, TIF e TIFF."
 
 #: ../../source/create/3d-models/get-model.rst:62
 msgid "Choose the color types wisely to minimize the size of the final file."
 msgstr ""
+"Scegliete con attenzione i tipi di colore per ridurre al minimo le "
+"dimensioni del file finale."
 
 #: ../../source/create/3d-models/get-model.rst:64
 msgid ""
 "PNG-8 has only ON/OFF transparency, has a palette of colors (256 colors, "
 "like GIF), and can be used to mask transparency."
 msgstr ""
+"Il formato PNG-8 offre solo trasparenza attivabile/disattivabile, dispone di "
+"una tavolozza di colori (256 colori, come il GIF) e può essere utilizzato "
+"per mascherare la trasparenza."
 
 #: ../../source/create/3d-models/get-model.rst:67
 msgid ""
 "For more color resolution, you can use PNG-24. For translucent mask or "
 "transparent textures, use PNG-32."
 msgstr ""
+"Per una maggiore risoluzione dei colori, è possibile utilizzare PNG-24. Per "
+"maschere traslucide o texture trasparenti, utilizzare PNG-32."
 
 #: ../../source/create/3d-models/get-model.rst:70
 msgid "Do not use PNG-48 or PNG-64, as neither are supported by Overte."
 msgstr ""
+"Non utilizzare i formati PNG-48 o PNG-64, poiché Overte non li supporta."
 
 #: ../../source/create/3d-models/get-model.rst:72
 msgid ""
@@ -559,6 +706,9 @@ msgid ""
 "point EXR format with lossy compression to save space. Don't use 32-bit "
 "floating point format."
 msgstr ""
+"Overte supporta mappe ambientali e lightmap HDR. Utilizza il formato EXR a "
+"virgola mobile a 16 bit con compressione con perdita di dati per risparmiare "
+"spazio. Non utilizzare il formato a virgola mobile a 32 bit."
 
 #: ../../source/create/3d-models/get-model.rst:76
 msgid ""
@@ -566,6 +716,9 @@ msgid ""
 "of 128x128. Pick sizes which are multiples of 128 to not waste any "
 "memory."
 msgstr ""
+"Quando vengono caricate nel motore grafico, le texture vengono "
+"automaticamente ridimensionate a una griglia di 128x128. Scegli dimensioni "
+"che siano multipli di 128 per evitare sprechi di memoria."
 
 #: ../../source/create/3d-models/get-model.rst:79
 msgid ""
@@ -577,6 +730,13 @@ msgid ""
 "maps, etc. don't need to be nearly as high resolution as the main color "
 "texture."
 msgstr ""
+"Sebbene le texture vengano automaticamente ridimensionate se non rientrano "
+"nella memoria dedicata, è consigliabile utilizzare una risoluzione il più "
+"bassa possibile per ridurre le dimensioni dei file e il carico sui computer "
+"meno potenti, evitando di doverle ridimensionare e ricomprimere. Ad esempio, "
+"una texture 4096x4096 dovrebbe essere più che sufficiente per un avatar "
+"dettagliato. Le normal map, le emission map, ecc. non necessitano di una "
+"risoluzione elevata come quella della texture principale a colori."
 
 #: ../../source/create/3d-models/get-model.rst:86
 msgid "Draw Calls"
@@ -585,10 +745,12 @@ msgstr ""
 #: ../../source/create/3d-models/get-model.rst:86
 msgid "Draw calls happen before something gets rendered on screen."
 msgstr ""
+"Le chiamate di disegno avvengono prima che qualcosa venga visualizzato sullo "
+"schermo."
 
 #: ../../source/create/3d-models/get-model.rst:88
 msgid "``1 model w/ 1 material = 1 draw call``"
-msgstr ""
+msgstr "``1 modello con 1 materiale = 1 chiamata di disegno``"
 
 #: ../../source/create/3d-models/get-model.rst:90
 msgid ""
@@ -596,6 +758,11 @@ msgid ""
 "balance between draw calls and polys. Fewer draw calls means more room "
 "for polys. Smaller textures means more room for higher poly models."
 msgstr ""
+"Non esistono misure definitive per un numero di poligoni ideale. È "
+"necessario trovare un equilibrio tra chiamate di disegno e poligoni. Un "
+"minor numero di chiamate di disegno significa più spazio per i poligoni. "
+"Texture più piccole significano più spazio per modelli con un numero "
+"maggiore di poligoni."
 
 #: ../../source/create/3d-models/get-model.rst:94
 msgid "Baking"
@@ -610,6 +777,13 @@ msgid ""
 "might profit from slightly lower filesizes. See :doc:`Bake Your Content "
 "<../../host/add-content/bake-content>`."
 msgstr ""
+"Il baking delle risorse può essere molto efficace nel ridurre i tempi di "
+"caricamento e il carico sulla CPU di destinazione. Le texture precompilate "
+"possono essere caricate direttamente nella memoria video senza che la CPU "
+"debba leggerle e comprimerle in anticipo (a condizione che non sia "
+"necessario ridimensionarle). I modelli precompilati potrebbero beneficiare "
+"di dimensioni dei file leggermente inferiori. Vedi :doc:`Bake Your Content <"
+"../../host/add-content/bake-content>`."
 
 #: ../../source/create/3d-models/import-animations.rst:5
 msgid ""
@@ -617,6 +791,9 @@ msgid ""
 "animations. For example, you can import the 3D model of a flag that "
 "appears to flutter with the wind using this feature."
 msgstr ""
+"Arricchisci la tua esperienza con Overte inserendo modelli 3D animati nel "
+"tuo dominio. Ad esempio, puoi importare il modello 3D di una bandiera che "
+"sembra sventolare al vento grazie a questa funzionalità."
 
 #: ../../source/create/3d-models/import-animations.rst:12
 #: ../../source/create/avatars/custom-animations.rst:18
@@ -632,29 +809,37 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:25
 #: ../../source/developer/build/BUILD_OSX.md:14
 msgid "Prerequisites"
-msgstr ""
+msgstr "Prerequisiti"
 
 #: ../../source/create/3d-models/import-animations.rst:14
 msgid ""
 "You need to be familiar with creating animations in 3D modeling tools "
 "such as Blender or Maya before importing an animation into Overte."
 msgstr ""
+"Prima di importare un'animazione in Overte, è necessario avere familiarità "
+"con la creazione di animazioni in software di modellazione 3D come Blender o "
+"Maya."
 
 #: ../../source/create/3d-models/import-animations.rst:18
 msgid "Prepare a 3D Model Animation"
-msgstr ""
+msgstr "Preparare un'animazione di un modello 3D"
 
 #: ../../source/create/3d-models/import-animations.rst:20
 msgid ""
 "Before you import an animation into Overte, adjust some settings in the "
 "3D modeling tool of your choice to ensure that it plays smoothly."
 msgstr ""
+"Prima di importare un'animazione in Overte, regola alcune impostazioni nel "
+"tuo strumento di modellazione 3D per assicurarti che venga riprodotta senza "
+"intoppi."
 
 #: ../../source/create/3d-models/import-animations.rst:22
 msgid ""
 "We recommend setting the framerate to 30 fps as a good compromise between"
 " smoothness and file size."
 msgstr ""
+"Consigliamo di impostare il framerate a 30 fps come buon compromesso tra "
+"fluidità e dimensioni del file."
 
 #: ../../source/create/3d-models/import-animations.rst:23
 msgid ""
@@ -662,12 +847,18 @@ msgid ""
 "Overte reads everything. This is to ensure that your animation doesn't "
 "stop and start, but appears smooth and flows through each movement."
 msgstr ""
+"Esegui il baking dei canali di animazione, dei fotogrammi chiave e degli "
+"intermezzi per assicurarti che Overte legga tutto. Questo garantisce che "
+"l'animazione non si interrompa e riprenda, ma appaia fluida e scorrevole in "
+"ogni movimento."
 
 #: ../../source/create/3d-models/import-animations.rst:24
 msgid ""
 "Prepare to export the skeleton and frames that are being used in the "
 "animation."
 msgstr ""
+"Preparati a esportare lo scheletro e i fotogrammi che verranno utilizzati "
+"nell'animazione."
 
 #: ../../source/create/3d-models/import-animations.rst:25
 msgid ""
@@ -675,26 +866,33 @@ msgid ""
 "\"simplify\" setting to 0.00 when exporting an FBX file otherwise the "
 "animation may not play correctly."
 msgstr ""
+"Disabilita qualsiasi tipo di riduzione dei fotogrammi chiave. Ad esempio, in "
+"Blender, imposta il parametro \"simplify\" su 0.00 quando esporti un file "
+"FBX, altrimenti l'animazione potrebbe non essere riprodotta correttamente."
 
 #: ../../source/create/3d-models/import-animations.rst:29
 msgid ""
 "Export your animation as an FBX file. (Reading animations from other "
 "formats like glTF is currently not supported.)"
 msgstr ""
+"Esporta la tua animazione come file FBX. (La lettura di animazioni da altri "
+"formati come glTF non è attualmente supportata.)"
 
 #: ../../source/create/3d-models/import-animations.rst:30
 msgid "Upload this FBX file to a cloud server and copy the URL."
-msgstr ""
+msgstr "Carica questo file FBX su un server cloud e copia l'URL."
 
 #: ../../source/create/3d-models/import-animations.rst:34
 msgid "Import an Animation"
-msgstr ""
+msgstr "Importa una Animazione"
 
 #: ../../source/create/3d-models/import-animations.rst:36
 msgid ""
 "Once you complete uploading your animation's FBX file, you can import the"
 " 3D model and it's animation into Overte."
 msgstr ""
+"Una volta completato il caricamento del file FBX della tua animazione, puoi "
+"importare il modello 3D e la relativa animazione in Overte."
 
 #: ../../source/create/3d-models/import-animations.rst:38
 #: ../../source/create/3d-models/import-model.rst:17
@@ -728,7 +926,7 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:105
 #: ../../source/host/configure-settings/entity-filters.rst:34
 msgid "In Interface, pull up your HUD or Tablet and go to **Create**."
-msgstr ""
+msgstr "In Interface, apri l'HUD o il tablet e vai su **Crea**."
 
 #: ../../source/create/3d-models/import-animations.rst:39
 msgid ""
@@ -737,16 +935,22 @@ msgid ""
 "the animation's URL will be the same. Otherwise, your animation is saved "
 "as a separate FBX file."
 msgstr ""
+"Fai clic sull'icona \"MODELLO\" e inserisci l'URL del tuo modello 3D. Se hai "
+"salvato il file FBX del modello 3D insieme all'animazione, l'URL del modello "
+"e quello dell'animazione saranno identici. In caso contrario, l'animazione "
+"verrà salvata come file FBX separato."
 
 #: ../../source/create/3d-models/import-animations.rst:40
 msgid ""
 "In the 'Properties' tab, scroll down to 'Animation' and paste the "
 "animation's URL."
 msgstr ""
+"Nella scheda \"Proprietà\", scorri verso il basso fino a \"Animazione\" e "
+"incolla l'URL dell'animazione."
 
 #: ../../source/create/3d-models/import-animations.rst:44
 msgid "You can edit the following animation properties:"
-msgstr ""
+msgstr "È possibile modificare le seguenti proprietà dell'animazione:"
 
 #: ../../source/create/3d-models/import-animations.rst:47
 #: ../../source/create/3d-models/pbr-materials-guide.rst:68
@@ -789,35 +993,41 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:56
 #: ../../source/script/get-started-with-scripting.rst:102
 msgid "Description"
-msgstr ""
+msgstr "Descrizione"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid "Play Automatically"
-msgstr ""
+msgstr "Riproduzione automatica"
 
 #: ../../source/create/3d-models/import-animations.rst:49
 msgid ""
 "Enable this to play your animation automatically when a user joins the "
 "Domain."
 msgstr ""
+"Abilita questa opzione per riprodurre automaticamente l'animazione quando un "
+"utente si unisce al dominio."
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Loop"
-msgstr ""
+msgstr "Ciclo continuo"
 
 #: ../../source/create/3d-models/import-animations.rst:51
 msgid "Select this property to play your animation in a continuous loop."
 msgstr ""
+"Seleziona questa proprietà per riprodurre l'animazione in un ciclo continuo."
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid "Allow Transition"
-msgstr ""
+msgstr "Consenti la transizione"
 
 #: ../../source/create/3d-models/import-animations.rst:53
 msgid ""
 "Enable this to let the animation move through space. This means that the "
 "joints will not only rotate, but translate through three dimensions."
 msgstr ""
+"Abilitando questa opzione, l'animazione si muoverà nello spazio. Ciò "
+"significa che le articolazioni non solo ruoteranno, ma si trasleranno anche "
+"in tre dimensioni."
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Hold"
@@ -826,46 +1036,55 @@ msgstr ""
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Select to pause your animation at a particular frame."
 msgstr ""
+"Seleziona questa opzione per mettere in pausa l'animazione in un fotogramma "
+"specifico."
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Animation Frame"
-msgstr ""
+msgstr "Fotogramma di animazione"
 
 #: ../../source/create/3d-models/import-animations.rst:58
 msgid "Enter the frame at which you want to pause or hold your animation."
 msgstr ""
+"Inserisci il fotogramma in cui desideri mettere in pausa o bloccare "
+"l'animazione."
 
 #: ../../source/create/3d-models/import-animations.rst:60
 msgid "First Frame"
-msgstr ""
+msgstr "Primo Fotogramma"
 
 #: ../../source/create/3d-models/import-animations.rst:60
 msgid "This is the first frame from when your want your animation to start."
-msgstr ""
+msgstr "Questo è il primo fotogramma da cui si desidera che inizi l'animazione."
 
 #: ../../source/create/3d-models/import-animations.rst:62
 msgid "Last Frame"
-msgstr ""
+msgstr "Ultimo fotogramma"
 
 #: ../../source/create/3d-models/import-animations.rst:62
 msgid ""
 "This is the last frame where you want your animation to stop. It will not"
 " play beyond this specified frame."
 msgstr ""
+"Questo è l'ultimo fotogramma in cui desideri che l'animazione si interrompa. "
+"Non verrà riprodotta oltre questo fotogramma."
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "Animation FPS"
-msgstr ""
+msgstr "FPS Animatione"
 
 #: ../../source/create/3d-models/import-animations.rst:65
 msgid "This is the animation's framerate."
-msgstr ""
+msgstr "Questa è la frequenza dei fotogrammi dell'animazione."
 
 #: ../../source/create/3d-models/import-animations.rst:68
 msgid ""
 "You can also control an animation's properties and when it starts playing"
 " with an :doc:`entity script <../../script/client-entity-scripts>`."
 msgstr ""
+"È inoltre possibile controllare le proprietà di un'animazione e il momento "
+"in cui inizia la riproduzione tramite uno':doc:`entity script <../../script/"
+"client-entity-scripts>`."
 
 #: ../../source/create/3d-models/import-animations.rst:70
 #: ../../source/create/3d-models/import-model.rst:37
@@ -920,7 +1139,7 @@ msgstr ""
 #: ../../source/script/write-scripts.md:74
 #: ../../source/security/asset-security.rst:79
 msgid "**See Also**"
-msgstr ""
+msgstr "**Vedi anche**"
 
 #: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
@@ -928,7 +1147,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-model.rst:3
 msgid "Import a 3D Model"
-msgstr ""
+msgstr "Importa un modello 3D"
 
 #: ../../source/create/3d-models/import-model.rst:5
 msgid ""
@@ -936,34 +1155,41 @@ msgid ""
 "domain's Asset Server. Importing your model brings it into your domain "
 "and adds it to your virtual world."
 msgstr ""
+"È possibile importare in Overte un modello 3D ospitato online o sul server "
+"di risorse del proprio dominio. L'importazione del modello lo trasferisce "
+"nel proprio dominio e lo aggiunge al proprio mondo virtuale."
 
 #: ../../source/create/3d-models/import-model.rst:12
 msgid "Import Models from the Cloud"
-msgstr ""
+msgstr "Importa modelli dal cloud"
 
 #: ../../source/create/3d-models/import-model.rst:14
 msgid ""
 "If you want your model available to users in other domains, we recommend "
 "uploading it to a cloud hosting service of your choice."
 msgstr ""
+"Se desideri che il tuo modello sia disponibile agli utenti di altri domini, "
+"ti consigliamo di caricarlo su un servizio di hosting cloud a tua scelta."
 
 #: ../../source/create/3d-models/import-model.rst:16
 msgid ""
 "Locate and copy the URL of the model you would like to import. The model "
 "should be an FBX, glTF, or OBJ file."
 msgstr ""
+"Individua e copia l'URL del modello che desideri importare. Il modello deve "
+"essere un file FBX, glTF o OBJ."
 
 #: ../../source/create/3d-models/import-model.rst:18
 msgid "Select the 'Model' icon."
-msgstr ""
+msgstr "Seleziona l'icona 'Modello'."
 
 #: ../../source/create/3d-models/import-model.rst:19
 msgid "Paste the model's URL and click 'Add'."
-msgstr ""
+msgstr "Incolla l'URL del modello e fai clic su \"Aggiungi\"."
 
 #: ../../source/create/3d-models/import-model.rst:25
 msgid "Import Models from the Asset Server"
-msgstr ""
+msgstr "Importa i modelli dal server delle risorse"
 
 #: ../../source/create/3d-models/import-model.rst:27
 msgid ""
@@ -973,20 +1199,27 @@ msgid ""
 "permissions to \"rez\" entities in the domain that the Asset Server is "
 "running on."
 msgstr ""
+"L'Asset Server ospita file o risorse che possono essere aggiunti così come "
+"sono a un dominio oppure a cui fanno riferimento entità e script già "
+"presenti nel dominio. Per importare risorse dall'Asset Server, è necessario "
+"disporre delle autorizzazioni per \"restituire\" le entità nel dominio in "
+"cui è in esecuzione l'Asset Server."
 
 #: ../../source/create/3d-models/import-model.rst:31
 msgid "Click 'Open this Domain's Asset Server'."
-msgstr ""
+msgstr "Fai clic su \"Apri il server delle risorse di questo dominio\"."
 
 #: ../../source/create/3d-models/import-model.rst:32
 msgid "In the Asset Browser, browse to the model you would like to import."
-msgstr ""
+msgstr "Nel Browser risorse, individua il modello che desideri importare."
 
 #: ../../source/create/3d-models/import-model.rst:33
 msgid ""
 "Click 'Add to World'. Then click 'Add' on the confirmation window that "
 "opens."
 msgstr ""
+"Fai clic su \"Aggiungi al mondo\". Quindi fai clic su \"Aggiungi\" nella "
+"finestra di conferma che si apre."
 
 #: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
@@ -1002,6 +1235,9 @@ msgid ""
 "FIXME: This document needs to be updated for new features like samplers, "
 "splatmaps, triplanam mapping and matterial layering."
 msgstr ""
+"FIXME: Questo documento deve essere aggiornato per includere nuove "
+"funzionalità come campionatori, mappe di splat, mappatura triplanare e "
+"stratificazione dei materiali."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:9
 msgid ""
@@ -1010,10 +1246,14 @@ msgid ""
 "materials. This means that a 3D model's materials will reflect or absorb "
 "light (approximately) like how they would in real life."
 msgstr ""
+"L'aspetto di un modello 3D è controllato dai suoi materiali. I materiali "
+"supportati in Overte sono materiali di rendering basati sulla fisica (PBR). "
+"Ciò significa che i materiali di un modello 3D rifletteranno o assorbiranno "
+"la luce (approssimativamente) come farebbero nella realtà."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:17
 msgid "Introduction to Materials, Textures, and Shading"
-msgstr ""
+msgstr "Introduzione a Materiali, Texture e Ombreggiature"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:19
 msgid ""
@@ -1022,6 +1262,11 @@ msgid ""
 "metallic it looks, and if its surface is bumpy or smooth. A 3D model of a"
 " brick wall will have material that determines its roughness and color."
 msgstr ""
+"L'aspetto di un modello 3D è controllato dai suoi materiali. Ad esempio, un "
+"modello 3D di una chiave utilizzerà un materiale che ne determina il colore, "
+"l'aspetto metallico e la ruvidità o la levigatezza della superficie. Un "
+"modello 3D di un muro di mattoni avrà un materiale che ne determina la "
+"rugosità e il colore."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:22
 msgid ""
@@ -1031,10 +1276,17 @@ msgid ""
 " falls on it. The 3D model of a brick wall will not shine, but will "
 "reflect enough light for you to observe its colors and surface."
 msgstr ""
+"Poiché Overte supporta i materiali di rendering basati sulla fisica (PBR), "
+"il tuo modello si comporterà come un oggetto reale se esposto alla luce. Ad "
+"esempio, lo stesso modello 3D di una chiave brillerà e rifletterà qualsiasi "
+"luce lo colpisca. Il modello 3D di un muro di mattoni non brillerà, ma "
+"rifletterà abbastanza luce da permetterti di osservarne i colori e la "
+"superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:25
 msgid "A material contains texture and shading information."
 msgstr ""
+"Un materiale contiene informazioni relative alla texture e alle sfumature."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:31
 msgid ""
@@ -1042,22 +1294,26 @@ msgid ""
 "on how a 3D model's material looks. For example, a 3D model of a tree "
 "trunk will use a bark texture to show what the surface looks like."
 msgstr ""
+"Le texture sono immagini piatte che vengono applicate ai modelli 3D. "
+"Aggiungono dettagli sull'aspetto del materiale di un modello 3D. Ad esempio, "
+"un modello 3D di un tronco d'albero utilizzerà una texture di corteccia per "
+"mostrare l'aspetto della superficie."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:33
 msgid "Overte supports the use of the following texture formats:"
-msgstr ""
+msgstr "Overte supporta l'utilizzo dei seguenti formati di texture:"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:35
 msgid "WEBP (recommended)"
-msgstr ""
+msgstr "WEBP (consigliato)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:36
 msgid "PNG (recommended)"
-msgstr ""
+msgstr "PNG (consigliato)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:37
 msgid "JPEG, JPG (recommended)"
-msgstr ""
+msgstr "JPEG, JPG (consigliato)"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:38
 msgid "EXR (recommended for HDR envirnoment maps and lightmaps)"
@@ -31149,4 +31405,3 @@ msgstr ""
 #~ " between February 26th & March 16th,"
 #~ " 2020."
 #~ msgstr ""
-
