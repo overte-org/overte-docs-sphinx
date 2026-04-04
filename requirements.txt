@@ -1,4 +1,5 @@
 # Sphinx 9.x.x throws new warnings: https://github.com/sphinx-doc/sphinx/issues/14162
+# More specifically titles having uppercase letters and links to them having lowercase letters instead throws a false positive.
 Sphinx <9.0.0,>=6.0.0
 sphinx-intl>=2.0.1
 sphinx-rtd-theme>=3.0.0
@@ -7,7 +8,8 @@ git+https://github.com/overte-org/video.git
 myst-parser>=2.0.0
 
 # Transient dependency. Version 0.22 changed behaviour which causes more warnings.
-docutils>=0.22
+# Reenable once https://github.com/sphinx-doc/sphinx/issues/14162 is fixed.
+#docutils>=0.22
 
 # Utility for easily running builds in Python virtual environments.
 venv-run
