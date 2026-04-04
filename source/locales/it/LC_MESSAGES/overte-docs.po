@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-04 11:32+0000\n"
+"PO-Revision-Date: 2026-04-04 13:02+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -604,7 +604,7 @@ msgstr "Buone Pratiche"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid "Polycount"
-msgstr ""
+msgstr "Polycount"
 
 #: ../../source/create/3d-models/get-model.rst:45
 msgid ""
@@ -1721,10 +1721,11 @@ msgid ""
 ":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-"
 "content>`"
 msgstr ""
+":doc:`Bake Your Content Using the Oven <../../host/add-content/bake-content>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:159
 msgid ":doc:`Add a Material Entity <../entities/material-entity>`"
-msgstr ""
+msgstr ":doc:`Add a Material Entity <../entities/material-entity>`"
 
 #: ../../source/create/applications.rst:2
 msgid ""
@@ -2103,7 +2104,7 @@ msgstr "Fai clic sull'icona dell'app sul tablet o sull'HUD per aprire l'app."
 
 #: ../../source/create/applications.rst:299
 msgid ":doc:`Write Your Own Scripts <../script/write-scripts>`"
-msgstr ""
+msgstr ":doc:`Write Your Own Scripts <../script/write-scripts>`"
 
 #: ../../source/create/applications.rst:300
 msgid "`API Reference: Entities <https://apidocs.overte.org/Entities.html>`_"
@@ -2336,31 +2337,36 @@ msgstr "Solido"
 #: ../../source/create/avatars/add-flow.rst:56
 msgid "Enables either a solid or wireframe display for debug shapes."
 msgstr ""
+"Consente la visualizzazione a tinta unita o a reticolo per le forme di debug."
 
 #: ../../source/create/avatars/add-flow.rst:61
 msgid "Joints Panel"
-msgstr ""
+msgstr "Pannello dei Giunti"
 
 #: ../../source/create/avatars/add-flow.rst:63
 msgid ""
 "The **Joints** panel lists all of the available flow threads, and lets "
 "you configure the behavior of your joints."
 msgstr ""
+"Il pannello **Giunti** elenca tutti i flussi di dati disponibili e consente "
+"di configurare il comportamento dei giunti."
 
 #: ../../source/create/avatars/add-flow.rst:70
 #: ../../source/create/avatars/add-flow.rst:100
 msgid "Radius"
-msgstr ""
+msgstr "Raggio"
 
 #: ../../source/create/avatars/add-flow.rst:70
 msgid ""
 "Determines the thickness of segments and knots (needed for collision "
 "testing)."
 msgstr ""
+"Determina lo spessore dei segmenti e dei nodi (necessario per i test di "
+"collisione)."
 
 #: ../../source/create/avatars/add-flow.rst:72
 msgid "Gravity"
-msgstr ""
+msgstr "Gravità"
 
 #: ../../source/create/avatars/add-flow.rst:72
 msgid ""
@@ -2369,48 +2375,56 @@ msgid ""
 "gravity and be pulled towards the ground. Larger values will cause the "
 "movement to happen more quickly."
 msgstr ""
+"Imposta la reazione di ciascuna articolazione alla gravità. Un valore "
+"positivo solleverà le articolazioni in aria, mentre un valore negativo le "
+"farà reagire alla gravità e le attirerà verso il basso. Valori più elevati "
+"renderanno il movimento più rapido."
 
 #: ../../source/create/avatars/add-flow.rst:76
 msgid "Stiffness"
-msgstr ""
+msgstr "Rigidità"
 
 #: ../../source/create/avatars/add-flow.rst:76
 msgid "Defines how susceptible the flow threads are to movement."
-msgstr ""
+msgstr "Definisce quanto i flussi di flusso siano suscettibili al movimento."
 
 #: ../../source/create/avatars/add-flow.rst:78
 msgid "Damping"
-msgstr ""
+msgstr "Smorzamento"
 
 #: ../../source/create/avatars/add-flow.rst:78
 msgid "Determines how easily the bones oscillate or move around the joints."
 msgstr ""
+"Determina con quanta facilità le ossa oscillano o si muovono attorno alle "
+"articolazioni."
 
 #: ../../source/create/avatars/add-flow.rst:80
 msgid "Inertia"
-msgstr ""
+msgstr "Inerzia"
 
 #: ../../source/create/avatars/add-flow.rst:80
 msgid "Changes the rotational velocity of the bones."
-msgstr ""
+msgstr "Modifica la velocità di rotazione delle ossa."
 
 #: ../../source/create/avatars/add-flow.rst:82
 msgid "Delta"
-msgstr ""
+msgstr "Delta"
 
 #: ../../source/create/avatars/add-flow.rst:82
 msgid "Controls the amount of time between each joint movement."
-msgstr ""
+msgstr "Controlla l'intervallo di tempo tra ciascun movimento articolare."
 
 #: ../../source/create/avatars/add-flow.rst:86
 msgid ""
 "Damping value is currently reversed. 0 means full damping, and 1 means no"
 " damping at all."
 msgstr ""
+"Il valore di smorzamento è attualmente invertito. 0 significa smorzamento "
+"massimo, mentre 1 significa nessun smorzamento."
 
 #: ../../source/create/avatars/add-flow.rst:91
 msgid "Collisions Panel"
-msgstr ""
+msgstr "Pannello collisioni"
 
 #: ../../source/create/avatars/add-flow.rst:93
 msgid ""
@@ -2421,82 +2435,103 @@ msgid ""
 "distance between the flow thread and the joint. You can only have a "
 "maximum of 4 collisions defined for your avatar."
 msgstr ""
+"Il pannello **Collisioni** controlla le sfere di collisione che definiscono "
+"le interazioni tra i flussi di movimento e le articolazioni del tuo avatar. "
+"Ogni sfera di collisione viene posizionata utilizzando un'articolazione e un "
+"offset esistenti dell'avatar: aumentando il raggio di una sfera di "
+"collisione, aumenta la distanza tra il flusso di movimento e "
+"l'articolazione. È possibile definire un massimo di 4 collisioni per il "
+"proprio avatar."
 
 #: ../../source/create/avatars/add-flow.rst:100
 msgid "Controls the collision sphere radius."
-msgstr ""
+msgstr "Controlla il raggio della sfera di collisione."
 
 #: ../../source/create/avatars/add-flow.rst:102
 msgid "Offset"
-msgstr ""
+msgstr "Offset"
 
 #: ../../source/create/avatars/add-flow.rst:102
 msgid "Controls the collision sphere offset."
-msgstr ""
+msgstr "Controlla l'offset della sfera di collisione."
 
 #: ../../source/create/avatars/add-flow.rst:107
 msgid "Output Panel"
-msgstr ""
+msgstr "Pannello di Uscita"
 
 #: ../../source/create/avatars/add-flow.rst:109
+#, fuzzy
 msgid ""
 "The **Output** panel displays the resulting FST data for your avatar's "
 "flow configuration, based on what you entered in the `Joints Panel`_ and "
 "the `Collisions Panel`_."
 msgstr ""
+"Il pannello **Output** visualizza i dati FST risultanti per la "
+"configurazione del flusso del tuo avatar, in base a quanto inserito nel "
+"pannello `Giunti` e nel pannello `Collisioni`._."
 
 #: ../../source/create/avatars/add-flow.rst:111
 msgid ""
 "Copy this data directly into your avatar's FST file to complete the flow "
 "process."
 msgstr ""
+"Copia questi dati direttamente nel file FST del tuo avatar per completare il "
+"processo."
 
 #: ../../source/create/avatars/add-flow.rst:118
 msgid "Resources"
-msgstr ""
+msgstr "Risorse"
 
 #: ../../source/create/avatars/add-flow.rst:121
 #: ../../source/create/entities/boombox-tutorial.rst:99
 msgid "File"
-msgstr ""
+msgstr "File"
 
 #: ../../source/create/avatars/add-flow.rst:123
 msgid ""
 "This app lets users easily update Flow settings without the need for "
 "scripting or advanced knowledge of avatars."
 msgstr ""
+"Questa app consente agli utenti di aggiornare facilmente le impostazioni di "
+"Flow senza bisogno di script o di conoscenze avanzate sugli avatar."
 
 #: ../../source/create/avatars/add-flow.rst:123
 msgid ""
 "Part of the Community Apps Can be installed by clicking `More` icon and "
 "selecting Flow"
 msgstr ""
+"Parte delle app della community possono essere installata facendo clic "
+"sull'icona \"Altro\" e selezionando Flow"
 
 #: ../../source/create/avatars/add-flow.rst:127
 msgid "Mannequin with Hair"
-msgstr ""
+msgstr "Manichino con Capelli"
 
 #: ../../source/create/avatars/add-flow.rst:127
 msgid ""
 "This avatar is properly rigged to work with Flow. Use this as an example "
 "for your own avatar models."
 msgstr ""
+"Questo avatar è correttamente configurato per funzionare con Flow. Usalo "
+"come esempio per i tuoi modelli di avatar."
 
 #: ../../source/create/avatars/add-flow.rst:127
 msgid ""
 "`Mannequin with Hair <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/"
 " Mannequin/hairTest/mannequinHairTest8. fst>`_"
 msgstr ""
+"`Mannechino con capelli <https://hifi-c ontent.s3.amazonaws.com/jimi/avatar/ "
+"Mannequin/hairTest/mannequinHairTest8. fst>`_"
 
 #: ../../source/create/avatars/add-flow.rst:135
 #: ../../source/create/avatars/custom-animations.rst:272
 msgid ":doc:`Avatar Standards Guide <avatar-standards>`"
-msgstr ""
+msgstr ":doc:`Avatar Standards Guide <avatar-standards>`"
 
 #: ../../source/create/avatars/add-flow.rst:136
 #: ../../source/create/avatars/scattering-tutorial.rst:69
 msgid "`Package Your Avatar <create-avatars.html#package-your-avatar>`_"
-msgstr ""
+msgstr "`Crea il tuo avatar <create-avatars.html#package-your-avatar>`_"
 
 #: ../../source/create/avatars/add-flow.rst:137
 #: ../../source/create/entities/avatar-scaling-tutorial.rst:64
@@ -2507,11 +2542,12 @@ msgid ""
 ":doc:`Get Started with Scripting <../../script/get-started-with-"
 "scripting>`"
 msgstr ""
+":doc:`Get Started with Scripting <../../script/get-started-with-scripting>`"
 
 #: ../../source/create/avatars/avatar-standards.md:7
 #: ../../source/create/avatars/create-avatars.rst:22
 msgid "Avatar Standards Guide"
-msgstr ""
+msgstr "Guida agli Standard degli Avatar"
 
 #: ../../source/create/avatars/avatar-standards.md:9
 msgid ""
@@ -2522,6 +2558,13 @@ msgid ""
 "avatar can be fine-tuned using blendshapes to animate the face and "
 "scripting to define advanced behaviors."
 msgstr ""
+"Questo documento illustra gli standard da seguire durante la "
+"[creating your avatar]. L'avatar utilizza le ossa per animare gli arti del "
+"personaggio e definire la variabile di scala degli arti. È possibile "
+"aggiungere ossa personalizzate per regolare ulteriormente la forma "
+"dell'avatar. La personalizzazione dell'avatar può essere perfezionata "
+"utilizzando i blendshape per animare il viso e gli script per definire "
+"comportamenti avanzati."
 
 #: ../../source/create/avatars/avatar-standards.md:11
 #: ../../source/create/entities/avatar-interactions.md:5
@@ -2536,19 +2579,19 @@ msgstr ""
 #: ../../source/explore/travel.md:5 ../../source/script/js-tips.md:7
 #: ../../source/script/write-scripts.md:12
 msgid "**On This Page:**"
-msgstr ""
+msgstr "**In questa pagina:**"
 
 #: ../../source/create/avatars/avatar-standards.md:12
 msgid "[Glossary](#glossary)"
-msgstr ""
+msgstr "[Glossario](#glossary)"
 
 #: ../../source/create/avatars/avatar-standards.md:13
 msgid "[Reference Pose](#reference-pose)"
-msgstr ""
+msgstr "[Posizione di riferimento](#reference-pose)"
 
 #: ../../source/create/avatars/avatar-standards.md:14
 msgid "[Skeleton](#skeleton)"
-msgstr ""
+msgstr "[Scheletro](#skeleton)"
 
 #: ../../source/create/avatars/avatar-standards.md:15
 msgid "[Flow Bones](#flow-bones)"
