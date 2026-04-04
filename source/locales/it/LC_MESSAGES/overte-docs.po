@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-03 20:48+0000\n"
+"PO-Revision-Date: 2026-04-04 11:32+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -1661,6 +1661,10 @@ msgid ""
 "material properties and textures in Blender to match the PBR material "
 "textures in Overte."
 msgstr ""
+"Quando crei un modello in Blender, devi esportarlo in formato FBX, glTF, GLB "
+"o OBJ per poterlo utilizzare in Overte. Inoltre, devi modificare le "
+"proprietà dei materiali e le texture in Blender affinché corrispondano alle "
+"texture dei materiali PBR di Overte."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:128
 msgid "Doing so ensures that your model appears how you intend it to."
@@ -1772,22 +1776,28 @@ msgid ""
 "`Create icons to show up on the tablet and HUD <#create-icons-to-show-up-"
 "on-the-tablet-and-hud>`_"
 msgstr ""
+"`Crea icone da visualizzare sul tablet e sull'HUD <#create-icons-to-show-up-"
+"on-the-tablet-and-hud>`_"
 
 #: ../../source/create/applications.rst:20
 msgid ""
 "`Design your app's UI in HTML and CSS <#design-your-apps-ui-in-html-and-"
 "css>`_"
 msgstr ""
+"`Progetta l'interfaccia utente della tua app in HTML e CSS <#design-your-"
+"apps-ui-in-html-and-css>`_"
 
 #: ../../source/create/applications.rst:21
 msgid ""
 "`Add event handlers to your HTML file <#add-event-handlers-to-your-html-"
 "file>`_"
 msgstr ""
+"`Aggiungi gestori di eventi al tuo file HTML <#add-event-handlers-to-your-"
+"html-file>`_"
 
 #: ../../source/create/applications.rst:22
 msgid "`Write a JavaScript file that: <#write-a-javascript-file>`_"
-msgstr ""
+msgstr "`Scrivi un file JavaScript che: <#write-a-javascript-file>`_"
 
 #: ../../source/create/applications.rst:24
 msgid "Adds a button to the tablet and HUD"
@@ -2014,15 +2024,19 @@ msgid "**Listen for events**"
 msgstr "**Ascolta gli eventi**"
 
 #: ../../source/create/applications.rst:182
+#, fuzzy
 msgid ""
 "In step 3 above, we `added event handlers <#add-event-handlers-to-your-"
 "files>`_ to your HTML file. Now, you need to add code to your JavaScript "
 "file to listen for the events::"
 msgstr ""
+"Nel passaggio 3 sopra, abbiamo `added event handlers <#add-event-handlers-to-"
+"your-files>` al tuo file HTML. Ora, devi aggiungere il codice al tuo file "
+"JavaScript per rimanere in ascolto degli eventi::"
 
 #: ../../source/create/applications.rst:191
 msgid "Create gemstones"
-msgstr ""
+msgstr "Creare pietre preziose"
 
 #: ../../source/create/applications.rst:193
 msgid ""
@@ -2031,24 +2045,33 @@ msgid ""
 " will be created as an entity, and we can change the gemstone's "
 "properties using the ``Entity`` namespace."
 msgstr ""
+"Il passaggio finale consiste nel programmare il comportamento del file "
+"JavaScript. In questo caso, creeremo delle gemme utilizzando l'API "
+"JavaScript di Overte. Ogni gemma verrà creata come un'entità e potremo "
+"modificarne le proprietà utilizzando il namespace ``Entity``."
 
 #: ../../source/create/applications.rst:195
 msgid "**Calculate the position of each new gemstone**"
-msgstr ""
+msgstr "**Calcola la posizione di ogni nuova gemma**"
 
 #: ../../source/create/applications.rst:197
+#, fuzzy
 msgid "The following code gives us a position right in front of the user::"
 msgstr ""
+"Il codice seguente ci fornisce una posizione proprio di fronte all'utente::"
 
 #: ../../source/create/applications.rst:209
 msgid "**Set the gemstone's properties and add it**"
-msgstr ""
+msgstr "**Imposta le proprietà della gemma e aggiungila**"
 
 #: ../../source/create/applications.rst:211
+#, fuzzy
 msgid ""
 "The gemstone will be created when gemstoneApp.js receives click events "
 "from each of the buttons::"
 msgstr ""
+"La gemma verrà creata quando gemstoneApp.js riceverà gli eventi di clic da "
+"ciascuno dei pulsanti::"
 
 #: ../../source/create/applications.rst:289
 msgid ""
@@ -2057,20 +2080,26 @@ msgid ""
 "Storage, Microsoft Azure, etc. Once hosted, you can install it and use "
 "it:"
 msgstr ""
+"Congratulazioni, hai creato con successo un'app in Overte! Per utilizzare la "
+"tua app, caricala su una piattaforma cloud, come Amazon S3, Google Cloud "
+"Storage, Microsoft Azure, ecc. Una volta caricata, potrai installarla e "
+"utilizzarla:"
 
 #: ../../source/create/applications.rst:291
 msgid "In Interface, go to **Edit > Running Scripts**."
-msgstr ""
+msgstr "Nell'interfaccia, vai su **Edit > Running Scripts**."
 
 #: ../../source/create/applications.rst:292
 msgid ""
 "Under Load Scripts, click 'From URL' and enter the URL to your hosted "
 "JavaScript file."
 msgstr ""
+"Nella sezione \"Carica script\", fai clic su \"Da URL\" e inserisci l'URL "
+"del tuo file JavaScript ospitato."
 
 #: ../../source/create/applications.rst:293
 msgid "Click the app icon on the tablet or HUD to open the app."
-msgstr ""
+msgstr "Fai clic sull'icona dell'app sul tablet o sull'HUD per aprire l'app."
 
 #: ../../source/create/applications.rst:299
 msgid ":doc:`Write Your Own Scripts <../script/write-scripts>`"
@@ -2078,57 +2107,60 @@ msgstr ""
 
 #: ../../source/create/applications.rst:300
 msgid "`API Reference: Entities <https://apidocs.overte.org/Entities.html>`_"
-msgstr ""
+msgstr "Riferimento API: Entità <https://apidocs.overte.org/Entities.html>"
 
 #: ../../source/create/applications.rst:301
 msgid "`API Reference: Script <https://apidocs.overte.org/Script.html>`_"
-msgstr ""
+msgstr "`Riferimento API: Script <https://apidocs.overte.org/Script.html>`_"
 
 #: ../../source/create/applications.rst:302
 msgid "`API Reference: Quat <https://apidocs.overte.org/Quat.html>`_"
-msgstr ""
+msgstr "`Riferimento API: Quat <https://apidocs.overte.org/Quat.html>`_"
 
 #: ../../source/create/applications.rst:303
+#, fuzzy
 msgid "`API Reference: Vec3 <https://apidocs.overte.org/Vec3.html>`_"
 msgstr ""
+"`Riferimento API: Vec3 <https://apidocs.overte.org/Vec3.html><https://"
+"apidocs.overte.org/Vec3.html><https://apidocs.overte.org/Vec3.html>`_"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/create-avatars.rst:6
 msgid "Create Your Own Avatar"
-msgstr ""
+msgstr "Crea il tuo avatar"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/find-avatars.rst:7
 msgid "Find and Use an Existing Avatar"
-msgstr ""
+msgstr "Trova e utilizza un avatar esistente"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/package-avatar.rst:7
 msgid "Package and Host Your Avatar"
-msgstr ""
+msgstr "Prepara e ospita il tuo avatar"
 
 #: ../../source/create/avatars.rst:9 ../../source/create/avatars/add-flow.rst:7
 msgid "Add Flow to Your Avatar"
-msgstr ""
+msgstr "Aggiungi Flow al tuo avatar"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/custom-animations.rst:7
 msgid "Customize Avatar Animations"
-msgstr ""
+msgstr "Personalizza le animazioni dell'avatar"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/mixamo-tutorial.md:6
 msgid "Tutorial: Rig Avatars in Mixamo"
-msgstr ""
+msgstr "Tutorial: Creare avatar in Mixamo"
 
 #: ../../source/create/avatars.rst:9
 msgid "Tutorial: Modify Materials and Textures with Blender"
-msgstr ""
+msgstr "Tutorial: Modificare materiali e texture con Blender"
 
 #: ../../source/create/avatars.rst:9
 #: ../../source/create/avatars/scattering-tutorial.rst:7
 msgid "Tutorial: Add a Scattering Effect"
-msgstr ""
+msgstr "Tutorial: Aggiungere un effetto di dispersione"
 
 #: ../../source/create/avatars.rst:5
 msgid ""
@@ -2138,12 +2170,19 @@ msgid ""
 "avatars must be hosted somewhere in the cloud so that Overte can access "
 "it."
 msgstr ""
+"Quando utilizzi Overte per la prima volta, indosserai l'avatar predefinito. "
+"Il tuo avatar ti rappresenta nel metaverso. Puoi rendere la tua esperienza "
+"in Overte unica creando un avatar personalizzato. Tutti gli avatar "
+"personalizzati devono essere ospitati da qualche parte nel cloud affinché "
+"Overte possa accedervi."
 
 #: ../../source/create/avatars/add-flow.rst:2
 msgid "This document is outdated. FIXME: Links to HiFi hosted resources"
 msgstr ""
+"Questo documento è obsoleto. FIXME: Collegamenti a risorse ospitate su HiFi"
 
 #: ../../source/create/avatars/add-flow.rst:9
+#, fuzzy
 msgid ""
 "You can simulate physics on your avatar's hair, clothes, and body parts "
 "with a little bit of scripting and the help of Overte's flow "
@@ -2153,10 +2192,17 @@ msgid ""
 "<https://docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>`_."
 " In order to use the Flow App, your avatar must contain flow threads."
 msgstr ""
+"Con un po' di scripting e l'aiuto della funzionalità \"Flow\" di Overte, "
+"puoi simulare la fisica sui capelli, i vestiti e le parti del corpo del tuo "
+"avatar. Il concetto di \"Flow\" imita semplicemente il movimento naturale "
+"dei capelli e di altri elementi del tuo avatar. Puoi facilmente modificare "
+"le impostazioni di Flow del tuo avatar utilizzando l'app `Flow App <https://"
+"docs.overte.org/_static/resources/script/flow/flowAppCpp/flowAppCpp.js>_`. "
+"Per utilizzare l'app Flow, il tuo avatar deve contenere thread di flusso."
 
 #: ../../source/create/avatars/add-flow.rst:16
 msgid "Prepare Your Avatar"
-msgstr ""
+msgstr "Prepara il tuo Avatar"
 
 #: ../../source/create/avatars/add-flow.rst:18
 msgid ""
@@ -2164,12 +2210,17 @@ msgid ""
 "threads, which are sets of connected joints in your avatar. Each flow "
 "thread must comply with the following rules:"
 msgstr ""
+"Per utilizzare la tecnologia Flow, il tuo avatar deve contenere dei flow "
+"thread, ovvero insiemi di giunti collegati tra loro. Ogni flow thread deve "
+"rispettare le seguenti regole:"
 
 #: ../../source/create/avatars/add-flow.rst:20
 msgid ""
 "The first joint is connected to an existing avatar joint, such as "
 "\"Hips\"."
 msgstr ""
+"La prima articolazione è collegata a un'articolazione dell'avatar già "
+"esistente, come ad esempio \"Fianchi\"."
 
 #: ../../source/create/avatars/add-flow.rst:21
 msgid ""
@@ -2179,6 +2230,11 @@ msgid ""
 "thread is used to simulate a skirt, all the \"skirt\" joints are named "
 "flow_skirt_01, flow_skirt_02, etc."
 msgstr ""
+"Ogni giunto nel thread deve essere denominato ``flow_[TYPE]_[INDEX]`` o ``sim"
+"[TYPE]_[INDEX]``, dove **TYPE** definisce un gruppo di giunti che "
+"condividono una configurazione fisica comune e **INDEX** è un numero intero. "
+"Ad esempio, se il thread viene utilizzato per simulare una gonna, tutti i "
+"giunti \"gonna\" si chiamano flow_skirt_01, flow_skirt_02, ecc."
 
 #: ../../source/create/avatars/add-flow.rst:25
 msgid ""
@@ -2186,6 +2242,10 @@ msgid ""
 "content.s3.amazonaws.com/jimi/avatar/Mannequin/hairTest/mannequinHairTest8.fst>`_,"
 " whose hair has flow threads already configured."
 msgstr ""
+"Durante la fase di sperimentazione, sentitevi liberi di utilizzare `"
+"Mannequin with Hair <https://hifi-content.s3.amazonaws.com/jimi/avatar/"
+"Mannequin/hairTest/mannequinHairTest8.fst>`_, i cui capelli hanno già i flow "
+"thread configurati."
 
 #: ../../source/create/avatars/add-flow.rst:27
 msgid ""
@@ -2194,11 +2254,16 @@ msgid ""
 "To fix this issue for models that have different armature scale, open the"
 " model in Blender and apply scale to both armature and meshes."
 msgstr ""
+"Attualmente, affinché Flow funzioni correttamente, il modello dell'avatar "
+"deve essere scalato in metri e la scala dell'armatura e della mesh deve "
+"essere uguale a 1. Per risolvere questo problema per i modelli che hanno una "
+"scala dell'armatura diversa, apri il modello in Blender e applica la scala "
+"sia all'armatura che alla mesh."
 
 #: ../../source/create/avatars/add-flow.rst:31
 #: ../../source/create/avatars/add-flow.rst:123
 msgid "Flow App"
-msgstr ""
+msgstr "App Flow"
 
 #: ../../source/create/avatars/add-flow.rst:33
 msgid ""
@@ -2206,16 +2271,21 @@ msgid ""
 " app is available in Community Apps repository. It can be installed by "
 "clicking on `More` icon and searching for `Flow`."
 msgstr ""
+"Carica l'app `Flow` in Overte per configurare le impostazioni del tuo "
+"flusso. L'app Flow è disponibile nel repository delle app della community. "
+"Puoi installarla cliccando sull'icona `Altro` e cercando `Flow`."
 
 #: ../../source/create/avatars/add-flow.rst:35
 msgid ""
 "The Flow app will show up as an icon on your HUD or tablet. Click this "
 "icon to open the Flow app."
 msgstr ""
+"L'app Flow verrà visualizzata come un'icona sul tuo HUD o tablet. Fai clic "
+"su questa icona per aprire l'app Flow."
 
 #: ../../source/create/avatars/add-flow.rst:41
 msgid "Display Panel"
-msgstr ""
+msgstr "Pannello di Visualizzazione"
 
 #: ../../source/create/avatars/add-flow.rst:43
 msgid ""
@@ -2223,41 +2293,45 @@ msgid ""
 " open. Using these options, you can choose to view meshes and collisions "
 "to help you determine what your final flow configuration will look like."
 msgstr ""
+"Il pannello **Display** influisce sull'aspetto del tuo avatar mentre l'app "
+"Flow è aperta. Utilizzando queste opzioni, puoi scegliere di visualizzare "
+"mesh e collisioni per aiutarti a determinare l'aspetto finale della "
+"configurazione del tuo flusso."
 
 #: ../../source/create/avatars/add-flow.rst:48
 #: ../../source/create/avatars/add-flow.rst:68
 #: ../../source/create/avatars/add-flow.rst:98
 msgid "Option"
-msgstr ""
+msgstr "Opzioni"
 
 #: ../../source/create/avatars/add-flow.rst:50
 msgid "Avatar"
-msgstr ""
+msgstr "Avatar"
 
 #: ../../source/create/avatars/add-flow.rst:50
 msgid "Hides or displays the avatar mesh."
-msgstr ""
+msgstr "Nasconde o mostra la mesh dell'avatar."
 
 #: ../../source/create/avatars/add-flow.rst:52
 #: ../../source/explore/interact.md:28
 msgid "Collisions"
-msgstr ""
+msgstr "Collisione"
 
 #: ../../source/create/avatars/add-flow.rst:52
 msgid "Activates or deactivates collisions."
-msgstr ""
+msgstr "Attiva o disattiva le collisioni."
 
 #: ../../source/create/avatars/add-flow.rst:54
 msgid "Debug"
-msgstr ""
+msgstr "Debug"
 
 #: ../../source/create/avatars/add-flow.rst:54
 msgid "Hides or displays the debug shapes."
-msgstr ""
+msgstr "Nasconde o visualizza le forme di debug."
 
 #: ../../source/create/avatars/add-flow.rst:56
 msgid "Solid"
-msgstr ""
+msgstr "Solido"
 
 #: ../../source/create/avatars/add-flow.rst:56
 msgid "Enables either a solid or wireframe display for debug shapes."
