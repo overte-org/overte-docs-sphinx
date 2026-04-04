@@ -1,4 +1,5 @@
-Sphinx>=6.0.0
+# Sphinx 9.x.x throws new warnings: https://github.com/sphinx-doc/sphinx/issues/14162
+Sphinx <9.0.0,>=6.0.0
 sphinx-intl>=2.0.1
 sphinx-rtd-theme>=3.0.0
 git+https://github.com/overte-org/video.git
