@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-07 07:50+0000\n"
+"PO-Revision-Date: 2026-04-07 07:54+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -3388,10 +3388,18 @@ msgid ""
 "hips, and makes a very large collision hull.  To reduce the size of the "
 "collision hull, you can add skeleton joints to your avatar's tail."
 msgstr ""
+"A seconda del design dell'avatar, le collisioni possono essere molto grandi "
+"o molto piccole. Questo accade perché Overte analizza la forma del busto "
+"dell'avatar (dai fianchi alla testa) e cerca di trovare la forma migliore "
+"per racchiudere la mesh. Ad esempio, se il tuo avatar ha fianchi larghi o "
+"una coda completamente estesa, Overte pensa che la punta della coda faccia "
+"parte dei fianchi e crea una collisione molto grande. Per ridurre le "
+"dimensioni della collisione, puoi aggiungere delle articolazioni "
+"scheletriche alla coda del tuo avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:268
 msgid "Avatar Thumbnails"
-msgstr ""
+msgstr "Miniature degli Avatar"
 
 #: ../../source/create/avatars/avatar-standards.md:270
 msgid ""
@@ -3400,16 +3408,20 @@ msgid ""
 "your avatar is hosted at `https://overte.org/avatar.fbx`, then it will "
 "look for a thumbnail at `https://overte.org/avatar.jpg`."
 msgstr ""
+"L'app Avatar cercherà un'immagine in miniatura con estensione .jpg avente lo "
+"stesso nome e allo stesso URL del tuo avatar. Ad esempio, se il tuo avatar è "
+"ospitato all'indirizzo `https://overte.org/avatar.fbx`, cercherà un'immagine "
+"in miniatura all'indirizzo `https://overte.org/avatar.jpg`."
 
 #: ../../source/create/avatars/avatar-standards.md:275
 #: ../../source/create/avatars/blender-tutorial.md:79
 #: ../../source/create/avatars/mixamo-tutorial.md:27
 msgid "[Create Your Own Avatar](create-avatars)"
-msgstr ""
+msgstr "[Crea il tuo avatar](create-avatars)"
 
 #: ../../source/create/avatars/avatar-standards.md:276
 msgid "[Find and Use an Existing Avatar](find-avatars)"
-msgstr ""
+msgstr "[Trova e usa un avatar esistente](find-avatars)"
 
 #: ../../source/create/avatars/avatar-standards.md:277
 msgid "[Add Flow to Your Avatar](add-flow)"
