@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-07 07:27+0000\n"
+"PO-Revision-Date: 2026-04-07 07:50+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -3058,135 +3058,135 @@ msgstr "**Eye Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:178
 msgid "EyeBlink_L"
-msgstr ""
+msgstr "EyeBlink_L"
 
 #: ../../source/create/avatars/avatar-standards.md:179
 msgid "EyeBlink_R"
-msgstr ""
+msgstr "EyeBlink_R"
 
 #: ../../source/create/avatars/avatar-standards.md:180
 msgid "EyeSquint_L"
-msgstr ""
+msgstr "EyeSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:181
 msgid "EyeSquint_R"
-msgstr ""
+msgstr "EyeSquint_R"
 
 #: ../../source/create/avatars/avatar-standards.md:182
 msgid "EyeDown_L"
-msgstr ""
+msgstr "EyeDown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:183
 msgid "EyeDown_R"
-msgstr ""
+msgstr "EyeDown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:184
 msgid "EyeIn_L"
-msgstr ""
+msgstr "EyeIn_L"
 
 #: ../../source/create/avatars/avatar-standards.md:185
 msgid "EyeIn_R"
-msgstr ""
+msgstr "EyeIn_R"
 
 #: ../../source/create/avatars/avatar-standards.md:186
 msgid "EyeOpen_L"
-msgstr ""
+msgstr "EyeOpen_L"
 
 #: ../../source/create/avatars/avatar-standards.md:187
 msgid "EyeOpen_R"
-msgstr ""
+msgstr "EyeOpen_R"
 
 #: ../../source/create/avatars/avatar-standards.md:188
 msgid "EyeOut_L"
-msgstr ""
+msgstr "EyeOut_L"
 
 #: ../../source/create/avatars/avatar-standards.md:189
 msgid "EyeOut_R"
-msgstr ""
+msgstr "EyeOut_R"
 
 #: ../../source/create/avatars/avatar-standards.md:190
 msgid "EyeUp_L"
-msgstr ""
+msgstr "EyeUp_L"
 
 #: ../../source/create/avatars/avatar-standards.md:191
 msgid "EyeUp_R"
-msgstr ""
+msgstr "EyeUp_R"
 
 #: ../../source/create/avatars/avatar-standards.md:192
 msgid "BrowsD_L"
-msgstr ""
+msgstr "BrowsD_L"
 
 #: ../../source/create/avatars/avatar-standards.md:193
 msgid "BrowsD_R"
-msgstr ""
+msgstr "BrowsD_R"
 
 #: ../../source/create/avatars/avatar-standards.md:194
 msgid "BrowsU_C"
-msgstr ""
+msgstr "BrowsU_C"
 
 #: ../../source/create/avatars/avatar-standards.md:195
 msgid "BrowsU_L"
-msgstr ""
+msgstr "BrowsU_L"
 
 #: ../../source/create/avatars/avatar-standards.md:196
 msgid "BrowsU_R"
-msgstr ""
+msgstr "BrowsU_R"
 
 #: ../../source/create/avatars/avatar-standards.md:198
 msgid "**Jaw Blendshapes**"
-msgstr ""
+msgstr "**Jaw Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:200
 msgid "JawFwd"
-msgstr ""
+msgstr "JawFwd"
 
 #: ../../source/create/avatars/avatar-standards.md:201
 msgid "JawLeft"
-msgstr ""
+msgstr "JawLeft"
 
 #: ../../source/create/avatars/avatar-standards.md:202
 msgid "JawOpen"
-msgstr ""
+msgstr "JawOpen"
 
 #: ../../source/create/avatars/avatar-standards.md:203
 msgid "JawRight"
-msgstr ""
+msgstr "JawRight"
 
 #: ../../source/create/avatars/avatar-standards.md:204
 msgid "MouthLeft"
-msgstr ""
+msgstr "MouthLeft"
 
 #: ../../source/create/avatars/avatar-standards.md:205
 msgid "MouthRight"
-msgstr ""
+msgstr "MouthRight"
 
 #: ../../source/create/avatars/avatar-standards.md:206
 msgid "MouthFrown_L"
-msgstr ""
+msgstr "MouthFrown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:207
 msgid "MouthFrown_R"
-msgstr ""
+msgstr "MouthFrown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:208
 msgid "MouthSmile_L"
-msgstr ""
+msgstr "MouthSmile_L"
 
 #: ../../source/create/avatars/avatar-standards.md:209
 msgid "MouthSmile_R"
-msgstr ""
+msgstr "MouthSmile_R"
 
 #: ../../source/create/avatars/avatar-standards.md:210
 msgid "MouthDimple_L"
-msgstr ""
+msgstr "MouthDimple_L"
 
 #: ../../source/create/avatars/avatar-standards.md:211
 msgid "MouthDimple_R"
-msgstr ""
+msgstr "MouthDimple_R"
 
 #: ../../source/create/avatars/avatar-standards.md:213
 msgid "**Lip Blendshapes**"
-msgstr ""
+msgstr "**Lip Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:215
 msgid "LipsStretch_L"
@@ -3194,35 +3194,35 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:216
 msgid "LipsStretch_R"
-msgstr ""
+msgstr "LipsStretch_R"
 
 #: ../../source/create/avatars/avatar-standards.md:217
 msgid "LipsUpperClose"
-msgstr ""
+msgstr "LipsUpperClose"
 
 #: ../../source/create/avatars/avatar-standards.md:218
 msgid "LipsLowerClose"
-msgstr ""
+msgstr "LipsLowerClose"
 
 #: ../../source/create/avatars/avatar-standards.md:219
 msgid "LipsFunnel"
-msgstr ""
+msgstr "LipsFunnel"
 
 #: ../../source/create/avatars/avatar-standards.md:220
 msgid "LipsPucker"
-msgstr ""
+msgstr "LipsPucker"
 
 #: ../../source/create/avatars/avatar-standards.md:221
 msgid "Puff"
-msgstr ""
+msgstr "Puff"
 
 #: ../../source/create/avatars/avatar-standards.md:223
 msgid "**Mouth, Cheek and User Blendshapes**"
-msgstr ""
+msgstr "**Mouth, Cheek and User Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:225
 msgid "CheekSquint_L"
-msgstr ""
+msgstr "CheekSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:226
 msgid "CheekSquint_R"
@@ -3230,99 +3230,99 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:228
 msgid "MouthClose"
-msgstr ""
+msgstr "MouthClose"
 
 #: ../../source/create/avatars/avatar-standards.md:229
 msgid "MouthUpperUp_L"
-msgstr ""
+msgstr "MouthUpperUp_L"
 
 #: ../../source/create/avatars/avatar-standards.md:230
 msgid "MouthUpperUp_R"
-msgstr ""
+msgstr "MouthUpperUp_R"
 
 #: ../../source/create/avatars/avatar-standards.md:231
 msgid "MouthLowerDown_L"
-msgstr ""
+msgstr "MouthLowerDown_L"
 
 #: ../../source/create/avatars/avatar-standards.md:232
 msgid "MouthLowerDown_R"
-msgstr ""
+msgstr "MouthLowerDown_R"
 
 #: ../../source/create/avatars/avatar-standards.md:233
 msgid "MouthPress_L"
-msgstr ""
+msgstr "MouthPress_L"
 
 #: ../../source/create/avatars/avatar-standards.md:234
 msgid "MouthPress_R"
-msgstr ""
+msgstr "MouthPress_R"
 
 #: ../../source/create/avatars/avatar-standards.md:235
 msgid "MouthShrugLower"
-msgstr ""
+msgstr "MouthShrugLower"
 
 #: ../../source/create/avatars/avatar-standards.md:236
 msgid "MouthShrugUpper"
-msgstr ""
+msgstr "MouthShrugUpper"
 
 #: ../../source/create/avatars/avatar-standards.md:237
 msgid "NoseSneer_L"
-msgstr ""
+msgstr "NoseSneer_L"
 
 #: ../../source/create/avatars/avatar-standards.md:238
 msgid "NoseSneer_R"
-msgstr ""
+msgstr "NoseSneer_R"
 
 #: ../../source/create/avatars/avatar-standards.md:239
 msgid "TongueOut"
-msgstr ""
+msgstr "TongueOut"
 
 #: ../../source/create/avatars/avatar-standards.md:241
 msgid "UserBlendshape0"
-msgstr ""
+msgstr "UserBlendshape0"
 
 #: ../../source/create/avatars/avatar-standards.md:242
 msgid "UserBlendshape1"
-msgstr ""
+msgstr "UserBlendshape1"
 
 #: ../../source/create/avatars/avatar-standards.md:243
 msgid "UserBlendshape2"
-msgstr ""
+msgstr "UserBlendshape2"
 
 #: ../../source/create/avatars/avatar-standards.md:244
 msgid "UserBlendshape3"
-msgstr ""
+msgstr "UserBlendshape3"
 
 #: ../../source/create/avatars/avatar-standards.md:245
 msgid "UserBlendshape4"
-msgstr ""
+msgstr "UserBlendshape4"
 
 #: ../../source/create/avatars/avatar-standards.md:246
 msgid "UserBlendshape5"
-msgstr ""
+msgstr "UserBlendshape5"
 
 #: ../../source/create/avatars/avatar-standards.md:247
 msgid "UserBlendshape6"
-msgstr ""
+msgstr "UserBlendshape6"
 
 #: ../../source/create/avatars/avatar-standards.md:248
 msgid "UserBlendshape7"
-msgstr ""
+msgstr "UserBlendshape7"
 
 #: ../../source/create/avatars/avatar-standards.md:249
 msgid "UserBlendshape8"
-msgstr ""
+msgstr "UserBlendshape8"
 
 #: ../../source/create/avatars/avatar-standards.md:250
 msgid "UserBlendshape9"
-msgstr ""
+msgstr "UserBlendshape9"
 
 #: ../../source/create/avatars/avatar-standards.md:253
 msgid "Other Considerations"
-msgstr ""
+msgstr "Altre considerazioni"
 
 #: ../../source/create/avatars/avatar-standards.md:255
 msgid "File Optimization"
-msgstr ""
+msgstr "Ottimizzazione dei file"
 
 #: ../../source/create/avatars/avatar-standards.md:256
 msgid ""
@@ -3332,6 +3332,13 @@ msgid ""
 " use, the more bandwidth you are using from your servers per load. "
 "Optimally, keep your avatar models under 20 MB."
 msgstr ""
+"I creatori di contenuti avranno una larghezza di banda limitata sui server ("
+"leggete attentamente le clausole in piccolo di qualsiasi piano di hosting "
+"illimitato), quindi l'ottimizzazione è importante, sia per gli utenti finali "
+"che per i creatori di contenuti. Maggiore è il numero di poligoni e le "
+"dimensioni delle texture utilizzate, maggiore sarà la larghezza di banda "
+"utilizzata dai server per ogni caricamento. Idealmente, mantenete i modelli "
+"degli avatar al di sotto dei 20 MB."
 
 #: ../../source/create/avatars/avatar-standards.md:259
 msgid ""
@@ -3344,10 +3351,20 @@ msgid ""
 "smaller size than your roughness for best detail through light reflection"
 " instead of color variation."
 msgstr ""
+"Si consiglia di mantenere la dimensione totale di tutte le texture per "
+"avatar al di sotto degli 8 MB. Dovrebbero essere sempre inferiori a "
+"1024x1024, a meno che non siano tutte contenute in un unico file. Se si "
+"utilizzano più file di texture, più piccole sono, meglio è, soprattutto se è "
+"possibile ridurne ulteriormente le dimensioni. Ricorda che è possibile "
+"ottenere molti più dettagli tramite la mappatura della rugosità e delle "
+"normali, piuttosto che solo con le texture. Si consiglia di mantenere "
+"l'Albedo a un valore inferiore rispetto alla rugosità per ottenere i "
+"migliori dettagli tramite la riflessione della luce anziché tramite la "
+"variazione di colore."
 
 #: ../../source/create/avatars/avatar-standards.md:261
 msgid "Avatar Collision Hulls"
-msgstr ""
+msgstr "Guscio di collisione Avatar"
 
 #: ../../source/create/avatars/avatar-standards.md:263
 msgid ""
@@ -3356,6 +3373,10 @@ msgid ""
 "invisible area around your avatar that is used to used to detect when "
 "other avatars or entities collide with you."
 msgstr ""
+"Quando indossi avatar diversi, noterai che ognuno di essi ha una forma di "
+"collisione o _collision hull_ diversa. Il collision hull è l'area invisibile "
+"attorno al tuo avatar che viene utilizzata per rilevare quando altri avatar "
+"o entità entrano in collisione con te."
 
 #: ../../source/create/avatars/avatar-standards.md:265
 msgid ""
