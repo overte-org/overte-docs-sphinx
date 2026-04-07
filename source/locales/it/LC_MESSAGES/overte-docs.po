@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-07 07:54+0000\n"
+"PO-Revision-Date: 2026-04-07 08:13+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -3425,11 +3425,11 @@ msgstr "[Trova e usa un avatar esistente](find-avatars)"
 
 #: ../../source/create/avatars/avatar-standards.md:277
 msgid "[Add Flow to Your Avatar](add-flow)"
-msgstr ""
+msgstr "[Aggiungi Movimento al tuo avatar](add-flow)"
 
 #: ../../source/create/avatars/blender-tutorial.md:1
 msgid "Workflow for importing avatars to Overte using Blender"
-msgstr ""
+msgstr "Flusso di lavoro per l'importazione di avatar in Overte tramite Blender"
 
 #: ../../source/create/avatars/blender-tutorial.md:3
 msgid ""
@@ -3438,52 +3438,64 @@ msgid ""
 "is GLB/glTF. Some materials in models exported as FBX may not render "
 "correctly."
 msgstr ""
+"Gli avatar Overte possono essere creati o importati utilizzando Blender "
+"senza bisogno di componenti aggiuntivi non standard. Il formato di "
+"esportazione preferito per gli avatar che utilizzano materiali PBR è GLB/"
+"glTF. Alcuni materiali nei modelli esportati in formato FBX potrebbero non "
+"essere renderizzati correttamente."
 
 #: ../../source/create/avatars/blender-tutorial.md:5
 msgid ""
 "Typical workflow of importing avatar to Overte using Blender consists of "
 "following steps:"
 msgstr ""
+"Il tipico flusso di lavoro per importare un avatar in Overte utilizzando "
+"Blender consiste nei seguenti passaggi:"
 
 #: ../../source/create/avatars/blender-tutorial.md:7
 msgid "Import avatar model to Blender."
-msgstr ""
+msgstr "Importa il modello dell'avatar in Blender."
 
 #: ../../source/create/avatars/blender-tutorial.md:8
 msgid ""
 "Rename bones according to example armature in [Avatar Standards Guide"
 "](avatar-standards)."
 msgstr ""
+"Rinominare le ossa secondo l'esempio di armatura presente nella "
+"[Guida agli standard di Avatar](avatar-standards)."
 
 #: ../../source/create/avatars/blender-tutorial.md:9
 msgid ""
 "Modify bone rolls so that they are the same as in the Avatar Standards "
 "Guide."
 msgstr ""
+"Modifica le pieghe delle ossa in modo che siano uguali a quelle della Guida "
+"agli standard dell'avatar."
 
 #: ../../source/create/avatars/blender-tutorial.md:10
 msgid "Set up materials for glTF export."
-msgstr ""
+msgstr "Configura i materiali per l'esportazione in formato glTF."
 
 #: ../../source/create/avatars/blender-tutorial.md:11
 msgid "Rename flow bones."
-msgstr ""
+msgstr "Rinominare i movimenti delle ossa."
 
 #: ../../source/create/avatars/blender-tutorial.md:12
 msgid "Rename blendshapes according to Avatar Standards Guide."
 msgstr ""
+"Rinominare le ombreggiature secondo la Guida agli standard degli avatar."
 
 #: ../../source/create/avatars/blender-tutorial.md:13
 msgid "Export avatar as GLB/glTF file."
-msgstr ""
+msgstr "Esporta l'avatar come file GLB/glTF."
 
 #: ../../source/create/avatars/blender-tutorial.md:14
 msgid "Create FST file and setup Flow bones if desired."
-msgstr ""
+msgstr "Crea il file FST e configura i movimenti delle ossa, se lo desideri."
 
 #: ../../source/create/avatars/blender-tutorial.md:16
 msgid "Video tutorial:"
-msgstr ""
+msgstr "Video tutorial:"
 
 #: ../../source/create/avatars/blender-tutorial.md:18
 msgid ""
@@ -3492,10 +3504,15 @@ msgid ""
 " Flow: "
 "[https://www.youtube.com/watch?v=IFuZWNppXZY](https://www.youtube.com/watch?v=IFuZWNppXZY)"
 msgstr ""
+"Flusso di lavoro completo per modificare un avatar in modo che sia conforme "
+"agli standard degli avatar di Overte, esportarlo come file GLB, creare un "
+"file FST e configurare il Movimento: "
+"[https://www.youtube.com/watch?v=IFuZWNppXZY](https://www.youtube.com/"
+"watch?v=IFuZWNppXZY)"
 
 #: ../../source/create/avatars/blender-tutorial.md:20
 msgid "Tutorial: Modify Materials and Textures Using Blender"
-msgstr ""
+msgstr "Tutorial: Modificare materiali e texture con Blender"
 
 #: ../../source/create/avatars/blender-tutorial.md:27
 msgid ""
@@ -3503,6 +3520,9 @@ msgid ""
 "your avatar and ensure that the materials and textures render correctly "
 "in Overte."
 msgstr ""
+"Blender è uno strumento di modellazione 3D open-source che puoi utilizzare "
+"per perfezionare il tuo avatar e assicurarti che materiali e texture vengano "
+"renderizzati correttamente in Overte."
 
 #: ../../source/create/avatars/blender-tutorial.md:29
 msgid ""
@@ -3511,16 +3531,23 @@ msgid ""
 "for your avatar. If you don't have one, see our tutorial for [Mixamo"
 "](mixamo-tutorial)."
 msgstr ""
+"In questo tutorial, ti guideremo attraverso semplici modifiche che puoi "
+"apportare al tuo avatar utilizzando Blender. Dovrai importare un file FBX "
+"del tuo avatar. Se non ne hai uno, consulta il nostro tutorial su [Mixamo]"
+"(mixamo-tutorial)."
 
 #: ../../source/create/avatars/blender-tutorial.md:31
 msgid "In Blender, go to **File > Import > FBX (.fbx)**."
-msgstr ""
+msgstr "In Blender, vai su **File > Import > FBX (.fbx)**."
 
 #: ../../source/create/avatars/blender-tutorial.md:32
 msgid ""
 "Choose your avatar's FBX file and click 'Import FBX'. This will open your"
 " avatar in the main view. ![](_images/import-avatar.png)"
 msgstr ""
+"Seleziona il file FBX del tuo avatar e fai clic su \"Importa FBX\". Questo "
+"aprirà il tuo avatar nella visualizzazione principale. ![](_images/import-"
+"avatar.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:33
 msgid ""
@@ -3528,32 +3555,42 @@ msgid ""
 " your view using the toolbar at the bottom of the view. ![](_images/view-"
 "materials.png)"
 msgstr ""
+"Di default, i materiali non saranno visibili sul tuo avatar. Puoi modificare "
+"la visualizzazione utilizzando la barra degli strumenti in fondo alla "
+"schermata. ![](_images/view-materials.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:34
 msgid "To get a better view of your avatar, change the lamp settings:"
 msgstr ""
+"Per una visuale migliore del tuo avatar, modifica le impostazioni della "
+"lampada:"
 
 #: ../../source/create/avatars/blender-tutorial.md:35
 msgid "From the Outliner, click the Lamp node in Blender."
-msgstr ""
+msgstr "Dall'Outliner, fai clic sul nodo Lampada in Blender."
 
 #: ../../source/create/avatars/blender-tutorial.md:36
 msgid "For 'Type of Active Data to display and edit', choose the 'Data' icon."
 msgstr ""
+"Per \"Tipo di dati attivi da visualizzare e modificare\", selezionare "
+"l'icona \"Dati\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:37
 msgid "Change the lamp to Sun."
-msgstr ""
+msgstr "Imposta la lampada su Sole."
 
 #: ../../source/create/avatars/blender-tutorial.md:38
 msgid "Rotate the Lamp to light up your avatar.![](_images/lamp-settings.png)"
 msgstr ""
+"Ruota la lampada per illuminare il tuo avatar![](_images/lamp-settings.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:39
 msgid ""
 "From the Outliner, open the 'Armature' tree and select the item you want "
 "to fine tune. You can also click on the item directly on your model."
 msgstr ""
+"Dall'Outliner, apri l'albero 'Armatura' e seleziona l'elemento che desideri "
+"regolare. Puoi anche fare clic direttamente sull'elemento nel tuo modello."
 
 #: ../../source/create/avatars/blender-tutorial.md:40
 msgid ""
@@ -3563,12 +3600,19 @@ msgid ""
 "follow similar steps for other avatar items.  ![](_images/texture-"
 "material.png)"
 msgstr ""
+"Utilizzando la barra degli strumenti qui sotto, puoi modificare i materiali "
+"e la texture di ogni parte del corpo a tuo piacimento. Abbiamo incluso un "
+"esempio qui sotto che [modifica le ciglia del nostro avatar](#example-update-"
+"eyelashes-from-an-image). Puoi seguire passaggi simili per altri elementi "
+"dell'avatar. ![](_images/texture-material.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:46
 msgid ""
 "When you're done changing your materials and textures, go to **File > "
 "Export > FBX (.fbx)**."
 msgstr ""
+"Una volta terminata la modifica dei materiali e delle texture, vai su **File "
+"> Export > FBX (.fbx)**."
 
 #: ../../source/create/avatars/blender-tutorial.md:47
 msgid ""
@@ -3576,10 +3620,13 @@ msgid ""
 "This makes sure that all of the textures are embedded into your model. "
 "![](_images/blender-export.png)"
 msgstr ""
+"Cambia la 'Modalità percorso' in 'Copia', quindi fai clic sull'icona "
+"'Incorpora texture'. In questo modo ti assicuri che tutte le texture vengano "
+"incorporate nel tuo modello. ![](_images/blender-export.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:48
 msgid "Give your avatar a unique name."
-msgstr ""
+msgstr "Dai al tuo avatar un nome unico."
 
 #: ../../source/create/avatars/blender-tutorial.md:49
 msgid "Click the 'Export FBX' button."
