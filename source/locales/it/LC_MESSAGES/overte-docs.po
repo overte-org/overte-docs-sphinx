@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-04 14:42+0000\n"
+"PO-Revision-Date: 2026-04-07 07:13+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -2599,29 +2599,34 @@ msgstr ""
 
 #: ../../source/create/avatars/avatar-standards.md:16
 msgid "[Look-at Vectors](#look-at-vectors)"
-msgstr ""
+msgstr "[Visualizza vettori](#look-at-vectors)"
 
 #: ../../source/create/avatars/avatar-standards.md:17
 msgid "[Blendshapes](#blendshapes)"
-msgstr ""
+msgstr "[Forme di fusione](#blendshapes)"
 
 #: ../../source/create/avatars/avatar-standards.md:18
 msgid "[Other Considerations](#other-considerations)"
-msgstr ""
+msgstr "[Altre considerazioni](#other-considerations)"
 
 #: ../../source/create/avatars/avatar-standards.md:20
 msgid "Glossary"
-msgstr ""
+msgstr "Glossario"
 
 #: ../../source/create/avatars/avatar-standards.md:21
 msgid ""
 "As we delve deeper into creating custom avatars, we may use terminology "
 "that you are unfamiliar with. Here are some terms you might come across:"
 msgstr ""
+"Man mano che approfondiremo la creazione di avatar personalizzati, potremmo "
+"utilizzare una terminologia a te sconosciuta. Ecco alcuni termini che "
+"potresti incontrare:"
 
 #: ../../source/create/avatars/avatar-standards.md:23
 msgid "Avatar - A virtual representation of a person or NPC."
 msgstr ""
+"Avatar - Una rappresentazione virtuale di una persona o di un PNG ("
+"personaggio non giocante)."
 
 #: ../../source/create/avatars/avatar-standards.md:24
 msgid ""
