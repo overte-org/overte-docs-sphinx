@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-07 07:13+0000\n"
+"PO-Revision-Date: 2026-04-07 07:27+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -2633,36 +2633,47 @@ msgid ""
 "Mesh - The collection of 3D vertices and triangles for the avatar model. "
 "Without this, the avatar is invisible."
 msgstr ""
+"Mesh - L'insieme di vertici e triangoli 3D che costituiscono il modello "
+"dell'avatar. Senza di essa, l'avatar è invisibile."
 
 #: ../../source/create/avatars/avatar-standards.md:25
 msgid ""
 "Bones - A component of a skeleton that defines a \"limb\" such as an arm,"
 " leg, etc. Each bone may be animated as a separate limb in your avatar."
 msgstr ""
+"Ossa - Componenti dello scheletro che definiscono un \"arto\", come un "
+"braccio, una gamba, ecc. Ogni osso può essere animato come un arto separato "
+"nel tuo avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:26
 msgid "Skeleton - A hierarchy of joints."
-msgstr ""
+msgstr "Scheletro - Una gerarchia di articolazioni."
 
 #: ../../source/create/avatars/avatar-standards.md:27
 msgid "Rigging - The process of creating a skeleton of the avatar model."
 msgstr ""
+"Rigging - Il processo di creazione dello scheletro del modello dell'avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:28
 msgid ""
 "Blendshapes - Variations of the topology that defines how the mesh is "
 "modified to create various \"shapes\"."
 msgstr ""
+"Blendshapes - Variazioni della topologia che definiscono come la mesh viene "
+"modificata per creare diverse \"forme\"."
 
 #: ../../source/create/avatars/avatar-standards.md:29
 msgid ""
 "FST file - The main avatar file, which contains information about the "
 "skeleton, blendshapes, glTF/GLB/FBX file and textures used by an avatar."
 msgstr ""
+"File FST - Il file principale dell'avatar, che contiene informazioni sullo "
+"scheletro, i blendshape, il file glTF/GLB/FBX e le texture utilizzate "
+"dall'avatar."
 
 #: ../../source/create/avatars/avatar-standards.md:32
 msgid "Reference Pose"
-msgstr ""
+msgstr "Posa di riferimento"
 
 #: ../../source/create/avatars/avatar-standards.md:33
 msgid ""
@@ -2670,28 +2681,38 @@ msgid ""
 "specifications below. You may wish to refer to the properly configured "
 "example avatar fbx with source files."
 msgstr ""
+"Per la posa di riferimento, utilizzare una posa a T conforme alle specifiche "
+"riportate di seguito. È possibile fare riferimento all'esempio di avatar fbx "
+"correttamente configurato, completo di file sorgente."
 
 #: ../../source/create/avatars/avatar-standards.md:34
 msgid "The character must face along the positive direction of the Z-axis."
 msgstr ""
+"Il personaggio deve essere rivolto lungo la direzione positiva dell'asse Z."
 
 #: ../../source/create/avatars/avatar-standards.md:35
 msgid ""
 "The arms must be spread along the X-axis. The left arm should therefore "
 "be pointing along the positive direction of the X-axis."
 msgstr ""
+"Le braccia devono essere distese lungo l'asse X. Il braccio sinistro deve "
+"quindi essere orientato nella direzione positiva dell'asse X."
 
 #: ../../source/create/avatars/avatar-standards.md:36
 msgid ""
 "The top of the character's head must be up, in the positive direction of "
 "the Y-axis."
 msgstr ""
+"La parte superiore della testa del personaggio deve essere rivolta verso "
+"l'alto, nella direzione positiva dell'asse Y."
 
 #: ../../source/create/avatars/avatar-standards.md:37
 msgid ""
 "The character's hands are flat, palms facing the ground, with the thumbs "
 "parallel to the X axis."
 msgstr ""
+"Le mani del personaggio sono piatte, con i palmi rivolti verso il basso e i "
+"pollici paralleli all'asse X."
 
 #: ../../source/create/avatars/avatar-standards.md:38
 msgid ""
@@ -2700,10 +2721,15 @@ msgid ""
 "the Y-axis (meaning the toes of the left foot should not point inward "
 "toward the right leg or outward away from the right leg)."
 msgstr ""
+"I piedi del personaggio devono essere perpendicolari alle gambe (con le dita "
+"rivolte lungo l'asse Z, come mostrato). I piedi non devono essere ruotati "
+"attorno all'asse Y (ovvero, le dita del piede sinistro non devono essere "
+"rivolte verso l'interno, in direzione della gamba destra, né verso "
+"l'esterno, in direzione opposta alla gamba destra)."
 
 #: ../../source/create/avatars/avatar-standards.md:40
 msgid "![](_images/hifi-skel.png)"
-msgstr ""
+msgstr "![](_images/hifi-skel.png)"
 
 #: ../../source/create/avatars/avatar-standards.md:42
 msgid ""
@@ -2711,10 +2737,14 @@ msgid ""
 "content.s3.amazonaws.com/Examples%20Content/skeleton/standard_hifi_skeleton.fbx)."
 " This skeleton conforms to the specifications above."
 msgstr ""
+"È possibile scaricare lo scheletro standard di Overte [qui](http://hifi-"
+"content.s3.amazonaws.com/Examples%20Content/skeleton/"
+"standard_hifi_skeleton.fbx). Questo scheletro è conforme alle specifiche "
+"sopra indicate."
 
 #: ../../source/create/avatars/avatar-standards.md:44
 msgid "Skeleton"
-msgstr ""
+msgstr "Scheletro"
 
 #: ../../source/create/avatars/avatar-standards.md:45
 msgid ""
@@ -2726,12 +2756,21 @@ msgid ""
 "devices to control their avatar's arm and finger movements (if they have "
 "any)."
 msgstr ""
+"Lo scheletro umanoide standard del tuo avatar dovrebbe seguire "
+"[HumanIK Skeleton](http://download.autodesk.com/global/docs/maya2014/en_us/"
+"index.html?url=files/GUID-945BCFFE-A772-4D52-87B8-FCFC50C974FB.htm) con "
+"alcune modifiche apportate per Mixamo. Questo sistema di scheletro "
+"funzionerà con i sistemi di input già presenti in Overte e consentirà agli "
+"utenti di utilizzare i propri dispositivi di input per controllare i "
+"movimenti delle braccia e delle dita del proprio avatar (se presenti)."
 
 #: ../../source/create/avatars/avatar-standards.md:47
 msgid ""
 "Overte avatars should match the following standard skeletal structure. "
 "Each of these joints can be animated."
 msgstr ""
+"Gli avatar di Overte devono corrispondere alla seguente struttura "
+"scheletrica standard. Ciascuna di queste articolazioni può essere animata."
 
 #: ../../source/create/avatars/avatar-standards.md:54
 msgid "![](_images/avatar-skeleton.png)"
@@ -2988,17 +3027,19 @@ msgstr "Ecco un esempio di come modificare le sfumature nel file FST:"
 
 #: ../../source/create/avatars/avatar-standards.md:168
 msgid "**ReadyPlayerMe Blendshapes**"
-msgstr ""
+msgstr "**ReadyPlayerMe Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:170
 msgid ""
 "ReadyPlayerMe blendshapes are converted into Overte blendshapes "
 "automatically."
 msgstr ""
+"Le blendshape di ReadyPlayerMe vengono convertite automaticamente in "
+"blendshape di Overte."
 
 #: ../../source/create/avatars/avatar-standards.md:172
 msgid "**Unsupported Blendshapes**"
-msgstr ""
+msgstr "**Unsupported Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:174
 msgid ""
@@ -3006,10 +3047,14 @@ msgid ""
 "blendshapes below. Alternatively, an .fst file can be used to remap the "
 "blendshapes to any of the ones below."
 msgstr ""
+"Per utilizzare i blendshape presenti sugli avatar, questi devono "
+"corrispondere ai blendshape indicati di seguito. In alternativa, è possibile "
+"utilizzare un file .fst per rimappare i blendshape su uno qualsiasi di "
+"quelli riportati di seguito."
 
 #: ../../source/create/avatars/avatar-standards.md:176
 msgid "**Eye Blendshapes**"
-msgstr ""
+msgstr "**Eye Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:178
 msgid "EyeBlink_L"
