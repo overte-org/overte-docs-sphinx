@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-04-07 08:13+0000\n"
+"PO-Revision-Date: 2026-04-07 21:05+0000\n"
 "Last-Translator: Pasquale Pittaluga <pasquale@pittaluga.net>\n"
 "Language-Team: Italian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/it/>\n"
@@ -618,7 +618,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Edge Loops"
-msgstr ""
+msgstr "Edge Loops"
 
 #: ../../source/create/3d-models/get-model.rst:49
 msgid "Remove edge loops that are not needed."
@@ -662,7 +662,7 @@ msgstr ""
 #: ../../source/create/avatars/avatar-standards.md:258
 #: ../../source/host/add-content/bake-content.rst:25
 msgid "Textures"
-msgstr ""
+msgstr "Texture"
 
 #: ../../source/create/3d-models/get-model.rst:59
 msgid ""
@@ -740,7 +740,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:86
 msgid "Draw Calls"
-msgstr ""
+msgstr "Draw Calls"
 
 #: ../../source/create/3d-models/get-model.rst:86
 msgid "Draw calls happen before something gets rendered on screen."
@@ -766,7 +766,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/get-model.rst:94
 msgid "Baking"
-msgstr ""
+msgstr "Baking"
 
 #: ../../source/create/3d-models/get-model.rst:94
 msgid ""
@@ -1031,7 +1031,7 @@ msgstr ""
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Hold"
-msgstr ""
+msgstr "Hold"
 
 #: ../../source/create/3d-models/import-animations.rst:56
 msgid "Select to pause your animation at a particular frame."
@@ -1143,7 +1143,7 @@ msgstr "**Vedi anche**"
 
 #: ../../source/create/3d-models/import-animations.rst:72
 msgid ":doc:`Import Your 3D Model <import-model>`"
-msgstr ""
+msgstr ":doc:`Import Your 3D Model <import-model>`"
 
 #: ../../source/create/3d-models/import-model.rst:3
 msgid "Import a 3D Model"
@@ -1224,11 +1224,11 @@ msgstr ""
 #: ../../source/create/3d-models/import-model.rst:39
 #: ../../source/create/entities/create-fountain.rst:94
 msgid ":doc:`Create Tools <../tools>`"
-msgstr ""
+msgstr ":doc:`Create Tools <../tools>`"
 
 #: ../../source/create/3d-models/import-model.rst:40
 msgid ":doc:`Create New Entities <../entities/create-entities>`"
-msgstr ""
+msgstr ":doc:`Create New Entities <../entities/create-entities>`"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:2
 msgid ""
@@ -1450,7 +1450,7 @@ msgstr "Mappa"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
 msgid "Albedo"
-msgstr ""
+msgstr "Albedo"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:70
 msgid ""
@@ -1525,7 +1525,7 @@ msgstr "L'opacità determina se un oggetto è trasparente o opaco."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:83
 msgid "mask, alpha"
-msgstr ""
+msgstr "mask, alpha"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:85
 msgid "Occlusion"
@@ -1637,6 +1637,13 @@ msgid ""
 "org/hifi_tests/master/assets/models/material_matrix_models/material_matrix.js>`_"
 " in Overte to upload all sample objects in your domain."
 msgstr ""
+"Overte supporta diversi tipi di materiali. Abbiamo creato oggetti di esempio "
+"per ogni tipo di materiale. Puoi scaricare ciascun oggetto da questo "
+"repository <https://github.com/overte-org/hifi_tests/tree/master/assets/"
+"models/material_matrix_models/fbx/blender> su GitHub, oppure eseguire questo "
+"script <https://raw.githubusercontent.com/overte-org/hifi_tests/master/"
+"assets/models/material_matrix_models/material_matrix.js> in Overte per "
+"caricare tutti gli oggetti di esempio nel tuo dominio."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:114
 msgid ""
@@ -1645,14 +1652,18 @@ msgid ""
 "<../../_static/resources/3d-"
 "models/Sample_Material_Textures_and_Shading_Guide.html>`_."
 msgstr ""
+"Abbiamo elencato tutte le informazioni sui materiali (incluse texture, "
+"ombreggiature, valori dei canali e mappe) per questi oggetti di esempio `qui "
+"<../../_static/resources/3d-models/"
+"Sample_Material_Textures_and_Shading_Guide.html>`_."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:119
 msgid "Set Material Values in Blender"
-msgstr ""
+msgstr "Imposta i valori dei materiali in Blender"
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:124
 msgid "This section is outdated."
-msgstr ""
+msgstr "Questa sezione è obsoleta."
 
 #: ../../source/create/3d-models/pbr-materials-guide.rst:126
 msgid ""
@@ -2595,7 +2606,7 @@ msgstr "[Scheletro](#skeleton)"
 
 #: ../../source/create/avatars/avatar-standards.md:15
 msgid "[Flow Bones](#flow-bones)"
-msgstr ""
+msgstr "[Flow Bones](#flow-bones)"
 
 #: ../../source/create/avatars/avatar-standards.md:16
 msgid "[Look-at Vectors](#look-at-vectors)"
@@ -3190,7 +3201,7 @@ msgstr "**Lip Blendshapes**"
 
 #: ../../source/create/avatars/avatar-standards.md:215
 msgid "LipsStretch_L"
-msgstr ""
+msgstr "LipsStretch_L"
 
 #: ../../source/create/avatars/avatar-standards.md:216
 msgid "LipsStretch_R"
@@ -3226,7 +3237,7 @@ msgstr "CheekSquint_L"
 
 #: ../../source/create/avatars/avatar-standards.md:226
 msgid "CheekSquint_R"
-msgstr ""
+msgstr "CheekSquint_R"
 
 #: ../../source/create/avatars/avatar-standards.md:228
 msgid "MouthClose"
@@ -3630,15 +3641,15 @@ msgstr "Dai al tuo avatar un nome unico."
 
 #: ../../source/create/avatars/blender-tutorial.md:49
 msgid "Click the 'Export FBX' button."
-msgstr ""
+msgstr "Fai clic sul pulsante \"Esporta FBX\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:51
 msgid "Now, you are ready to bring your avatar into Overte."
-msgstr ""
+msgstr "Ora sei pronto per importare il tuo avatar in Overte."
 
 #: ../../source/create/avatars/blender-tutorial.md:53
 msgid "Example: Update Eyelashes from an Image"
-msgstr ""
+msgstr "Esempio: Aggiornare le ciglia da un'immagine"
 
 #: ../../source/create/avatars/blender-tutorial.md:60
 msgid ""
@@ -3646,60 +3657,73 @@ msgid ""
 "content.s3.amazonaws.com/DomainContent/Event%20/Images/mixamo_eyelashes.png)"
 " to a directory where you will remember."
 msgstr ""
+"Salva [questa texture](http://hifi-content.s3.amazonaws.com/DomainContent/"
+"Event%20/Images/mixamo_eyelashes.png) in una cartella che ricorderai."
 
 #: ../../source/create/avatars/blender-tutorial.md:61
 msgid "From the Outliner, open the 'Armature' tree and select 'Eyelashes'."
-msgstr ""
+msgstr "Dall'Outliner, apri l'albero 'Armatura' e seleziona 'Ciglia'."
 
 #: ../../source/create/avatars/blender-tutorial.md:62
 msgid ""
 "In the Toolbox below, click the 'Materials' icon. ![](_images/materials-"
 "tab.png)"
 msgstr ""
+"Nella casella degli strumenti sottostante, fai clic sull'icona 'Materials' . "
+"![](_images/materials-tab.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:63
 msgid ""
 "Click the '+' button next to the material list to create a new material "
 "slot."
 msgstr ""
+"Fai clic sul pulsante '+' accanto all'elenco dei materiali per creare un "
+"nuovo slot per i materiali."
 
 #: ../../source/create/avatars/blender-tutorial.md:64
 msgid "Click '+ New' to add a new material."
-msgstr ""
+msgstr "Fai clic su '+ Nuovo' per aggiungere un nuovo materiale."
 
 #: ../../source/create/avatars/blender-tutorial.md:65
 msgid "Rename the new material to 'lashes'."
-msgstr ""
+msgstr "Rinominare il nuovo materiale in 'ciglia'."
 
 #: ../../source/create/avatars/blender-tutorial.md:66
 msgid ""
 "At the bottom of the Blender window, switch to 'Edit Mode'. ![](_images"
 "/edit-mode.png)"
 msgstr ""
+"Nella parte inferiore della finestra di Blender, passa alla "
+"\"Modalità di modifica\". ![](_images/edit-mode.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:67
 msgid "Under the material list, click 'Assign'."
-msgstr ""
+msgstr "Nella lista dei materiali, fai clic su \"Assegna\"."
 
 #: ../../source/create/avatars/blender-tutorial.md:68
 msgid ""
 "Scroll to the 'Transparency' section. Check the Transparency box and "
 "change the 'Alpha' value to `0.00`. ![](_images/transparency-setting.png)"
 msgstr ""
+"Scorri fino alla sezione \"Trasparenza\". Seleziona la casella "
+"\"Trasparenza\" e cambia il valore \"Alfa\" in `0.00`. ![](_images/"
+"transparency-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:69
 msgid ""
 "Scroll to the 'Specular' section. Set the specular color to black. "
 "![](_images/specular-setting.png)"
 msgstr ""
+"Scorri fino alla sezione 'Specular'. Imposta il colore speculare su nero. "
+"![](_images/specular-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:70
 msgid "Change to the 'Textures' view. ![](_images/texture-tab.png)"
-msgstr ""
+msgstr "Passa alla visualizzazione 'Texture'. ![](_images/texture-tab.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:71
 msgid "Click '+ New' to add a new texture."
-msgstr ""
+msgstr "Fai clic su '+ Nuovo' per aggiungere una nuova texture."
 
 #: ../../source/create/avatars/blender-tutorial.md:72
 msgid ""
@@ -3707,36 +3731,46 @@ msgid ""
 "named 'mixamo_eyelashes' you previously downloaded. Click 'Open Image'. "
 "![](_images/image-setting.png)"
 msgstr ""
+"Scorri fino alla sezione Immagine. Fai clic su 'Apri' e trova la texture "
+"delle ciglia denominata 'mixamo_eyelashes' che hai scaricato in precedenza. "
+"Fai clic su 'Apri immagine'. ![](_images/image-setting.png)"
 
 #: ../../source/create/avatars/blender-tutorial.md:73
 msgid ""
 "Check the 'Alpha' options in the following sections: Image, Preview, "
 "Texture, Influence"
 msgstr ""
+"Controlla le opzioni 'Alpha' nelle seguenti sezioni: Immagine, Anteprima, "
+"Texture, Influenza"
 
 #: ../../source/create/avatars/blender-tutorial.md:74
 msgid ""
 "Go to **File > External Data > Pack All Into .blend**. This will include "
 "the texture in your model."
 msgstr ""
+"Vai su **File > Dati esterni > Impacchetta tutto in .blend**. In questo modo "
+"la texture verrà inclusa nel tuo modello."
 
 #: ../../source/create/avatars/blender-tutorial.md:78
 msgid "[Tutorial: Rig Your Avatar in Mixamo](mixamo-tutorial)"
-msgstr ""
+msgstr "[Tutorial: Come creare l'avatar in Mixamo](mixamo-tutorial)"
 
 #: ../../source/create/avatars/create-avatars.rst:2
 msgid "Parts of this document are outdated and will be revisited in the future."
 msgstr ""
+"Alcune parti di questo documento sono obsolete e verranno riviste in futuro."
 
 #: ../../source/create/avatars/create-avatars.rst:8
 msgid "There are three ways to get your own avatar. You can either:"
-msgstr ""
+msgstr "Esistono tre modi per ottenere il tuo avatar. Puoi:"
 
 #: ../../source/create/avatars/create-avatars.rst:10
 msgid ""
 "Create your avatar from scratch using 3D modeling tools such as Mixamo "
 "and Blender."
 msgstr ""
+"Crea il tuo avatar da zero utilizzando strumenti di modellazione 3D come "
+"Mixamo e Blender."
 
 #: ../../source/create/avatars/create-avatars.rst:11
 msgid ""
@@ -3744,8 +3778,12 @@ msgid ""
 "conform to Overte's avatar standards using Unity avatar importer tool or "
 "Blender."
 msgstr ""
+"Scarica un avatar esistente da fonti esterne e modificalo per renderlo "
+"conforme agli standard degli avatar di Overte utilizzando lo strumento di "
+"importazione avatar di Unity o Blender."
 
 #: ../../source/create/avatars/create-avatars.rst:13
+#, fuzzy
 msgid ""
 "If you get an avatar from an external source such as TurboSquid, "
 "CGTrader, MakeHuman, or VRoid Studio, it is likely that the skeleton does"
@@ -3759,6 +3797,18 @@ msgid ""
 "avatars with very unusual armatures, and in such cases reworking the "
 "armature in Blender might be needed."
 msgstr ""
+"Se ottieni un avatar da una fonte esterna come TurboSquid, CGTrader, "
+"MakeHuman o VRoid Studio, è probabile che lo scheletro non corrisponda ai "
+"nostri standard per avatar :doc:`avatar standards <avatar-standards>`Per "
+"utilizzare questi avatar con Overte, usa l'`Overte Avatar Exporter per Unity "
+"<find-avatars.html#overte-avatar-exporter-for-unity>`_ per mappare "
+"correttamente lo scheletro e impacchettare il tuo avatar. L'avatar può anche "
+"essere modificato usando Blender per essere conforme agli standard di "
+"Overte. Per ulteriori informazioni e un tutorial video, consulta il `Blender "
+"Avatar import tutorial <blender-tutorial>`_. L'Unity Avatar Exporter "
+"potrebbe non essere in grado di esportare avatar con armature molto "
+"particolari e, in questi casi, potrebbe essere necessario rielaborare "
+"l'armatura in Blender."
 
 #: ../../source/create/avatars/create-avatars.rst:15
 msgid ""
@@ -3766,24 +3816,27 @@ msgid ""
 "needed to create, rig, and package your avatar. Learn more about the "
 ":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
+"Se desideri creare un avatar da zero, questa pagina illustra i passaggi "
+"necessari per creare, animare e impacchettare il tuo avatar. Scopri di più "
+"sulla :doc:`security of your assets <../../security/asset-security>`."
 
 #: ../../source/create/avatars/create-avatars.rst:20
 #: ../../source/explore/get-started.rst:7 ../../source/host/add-content.rst:7
 #: ../../source/host/configure-settings.rst:12
 msgid "**In This Section**"
-msgstr ""
+msgstr "**In This Section**"
 
 #: ../../source/create/avatars/create-avatars.rst:30
 msgid "Create an Avatar from Scratch"
-msgstr ""
+msgstr "Crea un avatar da zero"
 
 #: ../../source/create/avatars/create-avatars.rst:32
 msgid "The steps involved in creating your avatar are:"
-msgstr ""
+msgstr "I passaggi necessari per creare il tuo avatar sono:"
 
 #: ../../source/create/avatars/create-avatars.rst:34
 msgid "Create an avatar with 3D character modeling tool such as Blender or Maya."
-msgstr ""
+msgstr "Crea un avatar con un software di modellazione 3D come Blender o Maya."
 
 #: ../../source/create/avatars/create-avatars.rst:35
 msgid ""
@@ -3791,34 +3844,43 @@ msgid ""
 "rigging avatar with Blender, bone names and orientations must conform to "
 "`Avatar Standards Guide <avatar-standards>`."
 msgstr ""
+"Crea il rigging del tuo avatar con un software di animazione come Blender o "
+"Mixamo. Quando crei il rigging di un avatar con Blender, i nomi e gli "
+"orientamenti delle ossa devono essere conformi alla `Guida agli standard per "
+"avatar <avatar-standards>`."
 
 #: ../../source/create/avatars/create-avatars.rst:36
 msgid ""
 "Optionally create custom animations for the avatar (most avatars work "
 "well with default animations)."
 msgstr ""
+"Facoltativamente, è possibile creare animazioni personalizzate per l'avatar ("
+"la maggior parte degli avatar funziona bene con le animazioni predefinite)."
 
 #: ../../source/create/avatars/create-avatars.rst:37
 msgid "Fine tune your avatar using a tool such as Blender or Maya."
-msgstr ""
+msgstr "Perfeziona il tuo avatar utilizzando un programma come Blender o Maya."
 
 #: ../../source/create/avatars/create-avatars.rst:38
 msgid ""
 "Optionally add .fst metadata file containing informations such as flow "
 "bone setups and avatar scripts."
 msgstr ""
+"Facoltativamente, è possibile aggiungere un file di metadati .fst contenente "
+"informazioni quali le configurazioni delle ossa del flusso e gli script "
+"dell'avatar."
 
 #: ../../source/create/avatars/create-avatars.rst:40
 msgid ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
-msgstr ""
+msgstr ":doc:`Rig Your Avatar in Mixamo <mixamo-tutorial>`"
 
 #: ../../source/create/avatars/create-avatars.rst:41
 msgid ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
-msgstr ""
+msgstr ":doc:`Modify Materials and Textures with Blender <blender-tutorial>`"
 
 #: ../../source/create/avatars/create-avatars.rst:45
 msgid "Community Tools for Avatars"
-msgstr ""
+msgstr "Strumenti della community per gli avatar"
 
 #: ../../source/create/avatars/create-avatars.rst:47
 msgid ""
@@ -3827,81 +3889,109 @@ msgid ""
 "toolkits, skeletons and more to help you create content, including "
 "avatars. Here are a few for you to play around with."
 msgstr ""
+"Mentre crei il tuo avatar, ricorda che Overte è un progetto open source. "
+"Molti membri della nostra community hanno creato plugin, componenti "
+"aggiuntivi, toolkit, scheletri e altro ancora per aiutarti a creare "
+"contenuti, inclusi gli avatar. Eccone alcuni con cui puoi sperimentare."
 
 #: ../../source/create/avatars/create-avatars.rst:51
 msgid ""
 "`Blender Add-on by Menithal <https://github.com/Menithal/Blender-"
 "Metaverse-Addon>`_"
 msgstr ""
+"`Blender Add-on by Menithal <https://github.com/Menithal/Blender-Metaverse-"
+"Addon>`_"
 
 #: ../../source/create/avatars/create-avatars.rst:54
 msgid ""
 "This tool is outddated and needs upgrading to current Blender version. "
 "Use Unity avatar importer or Blender (without addons) instead."
 msgstr ""
+"Questo strumento è obsoleto e necessita di un aggiornamento alla versione "
+"più recente di Blender. Utilizza invece l'importatore di avatar di Unity o "
+"Blender (senza componenti aggiuntivi)."
 
 #: ../../source/create/avatars/create-avatars.rst:57
 msgid ""
 "Plugin (\"Project Hermes\") is a plugin for Blender to allow for easier "
 "content creation and importing for the Overte Platform. It features:"
 msgstr ""
+"Il plugin (\"Project Hermes\") è un plugin per Blender che consente una "
+"creazione e un'importazione di contenuti più semplici per la piattaforma "
+"Overte. Le sue caratteristiche principali sono:"
 
 #: ../../source/create/avatars/create-avatars.rst:59
 msgid ""
 "**Material Tools**: Allows for easier pipeline to apply materials to "
 "objects so that they are ready to use in Overte."
 msgstr ""
+"**Material Tools**: Consente una pipeline più semplice per applicare i "
+"materiali agli oggetti, in modo che siano pronti per l'uso in Overte."
 
 #: ../../source/create/avatars/create-avatars.rst:60
 msgid ""
 "**Armature Tools**: Adds a skeleton that is compatible with Overte and "
 "let you configure bone names for use in advanced scripts."
 msgstr ""
+"**Armature Tools**: Aggiunge uno scheletro compatibile con Overte e consente "
+"di configurare i nomi delle ossa per l'utilizzo in script avanzati."
 
 #: ../../source/create/avatars/create-avatars.rst:61
 msgid ""
 "**Avatar Converters**: Translates and fixes models and materials from MMD"
 " and Mixamo so that they work in Overte."
 msgstr ""
+"**Avatar Converters**: Traduce e corregge modelli e materiali da MMD e "
+"Mixamo in modo che funzionino in Overte."
 
 #: ../../source/create/avatars/create-avatars.rst:62
 msgid ""
 "**Export Tools**: Exports avatars and scenes so that they can be used in "
 "Overte."
 msgstr ""
+"**Export Tools**: Esporta avatar e scene in modo che possano essere "
+"utilizzati in Overte."
 
 #: ../../source/create/avatars/create-avatars.rst:63
 msgid ""
 "**Import Tools**: Imports primitive entities from Overte so that you can "
 "make modifications to them."
 msgstr ""
+"**Import Tools**: Importa entità primitive da Overte in modo da poterle "
+"modificare."
 
 #: ../../source/create/avatars/create-avatars.rst:65
 msgid ""
 "Install it here: `https://github.com/Menithal/Blender-Metaverse-Addon "
 "<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 msgstr ""
+"Installalo qui: `https://github.com/Menithal/Blender-Metaverse-Addon "
+"<https://github.com/Menithal/Blender-Metaverse-Addon>`_"
 
 #: ../../source/create/avatars/create-avatars.rst:67
 msgid ""
 "Have a project you've been working on that you'd like us to share? Let us"
 " know by editing this page in GitHub!"
 msgstr ""
+"Hai un progetto a cui stai lavorando e che vorresti condividere con noi? "
+"Faccelo sapere modificando questa pagina su GitHub!"
 
 #: ../../source/create/avatars/create-avatars.rst:72
 msgid ":doc:`Find and Use an Existing Avatar <find-avatars>`"
-msgstr ""
+msgstr ":doc:`Find and Use an Existing Avatar <find-avatars>`"
 
 #: ../../source/create/avatars/create-avatars.rst:73
 #: ../../source/create/avatars/find-avatars.rst:171
 msgid ":doc:`Package and Host Your Avatar <package-avatar>`"
-msgstr ""
+msgstr ":doc:`Package and Host Your Avatar <package-avatar>`"
 
 #: ../../source/create/avatars/custom-animations.rst:2
 msgid ""
 "This document is slightly outdated. FIXME: Mentions only FBX (check if "
 "glTF is also supported), contains HiFi hosted content"
 msgstr ""
+"Questo documento è leggermente obsoleto. FIXME: Menziona solo FBX ("
+"verificare se è supportato anche glTF), contiene contenuti ospitati in HiFi"
 
 #: ../../source/create/avatars/custom-animations.rst:9
 msgid ""
@@ -3910,6 +4000,10 @@ msgid ""
 "waving. Any custom animations you set up will be independent to each "
 "avatar you own and wear."
 msgstr ""
+"Puoi esprimere te stesso sovrascrivendo le animazioni standard di Overte con "
+"animazioni personalizzate, come ballare, fare giocoleria o salutare. Tutte "
+"le animazioni personalizzate che imposti saranno indipendenti per ogni "
+"avatar che possiedi e indossi."
 
 #: ../../source/create/avatars/custom-animations.rst:11
 msgid ""
@@ -3918,6 +4012,11 @@ msgid ""
 "you may need to modify them in the future as our custom animation support"
 " continues to improve."
 msgstr ""
+"Aggiorniamo frequentemente la procedura di importazione delle animazioni "
+"personalizzate per renderla più intuitiva. Durante lo sviluppo di animazioni "
+"personalizzate, tenete presente che potrebbe essere necessario modificarle "
+"in futuro, poiché il supporto per le animazioni personalizzate continua a "
+"migliorare."
 
 #: ../../source/create/avatars/custom-animations.rst:20
 msgid ""
@@ -3925,14 +4024,17 @@ msgid ""
 "terminology that you are unfamiliar with. Here are some terms you might "
 "come across:"
 msgstr ""
+"Man mano che approfondiremo la creazione di animazioni personalizzate, "
+"potremmo utilizzare una terminologia a te sconosciuta. Ecco alcuni termini "
+"che potresti incontrare:"
 
 #: ../../source/create/avatars/custom-animations.rst:23
 msgid "Term"
-msgstr ""
+msgstr "Term"
 
 #: ../../source/create/avatars/custom-animations.rst:25
 msgid "Avatar animations"
-msgstr ""
+msgstr "Avatar animations"
 
 #: ../../source/create/avatars/custom-animations.rst:25
 msgid ""
@@ -3941,10 +4043,14 @@ msgid ""
 "org/overte/blob/master/interface/resources/avatar/animations/turn_left.f "
 "bx>`_ is the standard animation file for your avatar turning left."
 msgstr ""
+"Le animazioni dell'avatar sono file FBX che definiscono il movimento del tuo "
+"avatar. Ad esempio, `turn_left.fbx <https://github.com/overte-org/overte/"
+"blob/master/interface/resources/avatar/animations/turn_left.fbx>`_ è il file "
+"di animazione standard per il tuo avatar che gira a sinistra."
 
 #: ../../source/create/avatars/custom-animations.rst:29
 msgid "Animation roles"
-msgstr ""
+msgstr "Animation roles"
 
 #: ../../source/create/avatars/custom-animations.rst:29
 msgid ""
@@ -3955,10 +4061,16 @@ msgid ""
 "left arrow key or ``A`` in Desktop mode or using your hand controllers in"
 " VR mode."
 msgstr ""
+"I ruoli di animazione sono trigger che corrispondono a un'azione che un "
+"avatar può eseguire. Ad esempio, \"turnLeft\" è un ruolo di animazione che "
+"fa girare a sinistra il tuo avatar rimanendo fermo. Questo ruolo di "
+"animazione è mappato al file turn_left.fbx. Puoi vederlo in azione premendo "
+"il tasto freccia sinistra o il tasto ``A`` in modalità desktop oppure "
+"utilizzando i controller manuali in modalità VR."
 
 #: ../../source/create/avatars/custom-animations.rst:35
 msgid "Avatar Animation JSON or Animation Graph File"
-msgstr ""
+msgstr "File JSON o file grafico dell'animazione dell'avatar"
 
 #: ../../source/create/avatars/custom-animations.rst:35
 msgid ""
@@ -3971,10 +4083,19 @@ msgid ""
 " same `Animation Graph file <https://github.com/overte-org/overt "
 "e/blob/master/interface/resources/avatar/avatar-animation.json>`_."
 msgstr ""
+"Il sistema di animazione standard combina e sovrappone una serie di "
+"animazioni provenienti da file FBX utilizzando un file di dati JSON. Questo "
+"file JSON è chiamato file Animation Graph e specifica esattamente quali "
+"animazioni riprodurre e come vengono combinate. Determina anche l'ordine "
+"delle operazioni, in modo che operazioni come la cinematica inversa "
+"avvengano dopo che il resto del corpo è stato animato con metodi "
+"tradizionali. Per impostazione predefinita, ogni avatar utilizza lo stesso "
+"file Animation Graph <https://github.com/overte-org/overte/blob/master/"
+"interface/resources/avatar/avatar-animation.json>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:46
 msgid "Prepare Your Custom Animation"
-msgstr ""
+msgstr "Prepara la tua animazione personalizzata"
 
 #: ../../source/create/avatars/custom-animations.rst:48
 msgid ""
@@ -3982,20 +4103,27 @@ msgid ""
 "your custom animation file. Use our :doc:`Avatar Standards Guide <avatar-"
 "standards>` and keep the following guidelines in mind:"
 msgstr ""
+"Prima di sostituire le animazioni standard esistenti, è necessario preparare "
+"il file di animazione personalizzato. Consulta la nostra :doc:`Avatar "
+"Standards Guide <avatar-standards>` e tieni a mente le seguenti linee guida:"
 
 #: ../../source/create/avatars/custom-animations.rst:50
 msgid "Animations must have standard joint names for Overte."
-msgstr ""
+msgstr "Le animazioni devono avere nomi di giunzione standard per Overte."
 
 #: ../../source/create/avatars/custom-animations.rst:51
 msgid "Animations must have standard joint orientations (y down the bone)."
 msgstr ""
+"Le animazioni devono avere orientamenti standard delle articolazioni (asse y "
+"lungo l'osso)."
 
 #: ../../source/create/avatars/custom-animations.rst:52
 msgid ""
 "Key frames must have key frames for every joint at a uniform interval of "
 "30 frames per second."
 msgstr ""
+"I fotogrammi chiave devono essere presenti per ogni articolazione a un "
+"intervallo uniforme di 30 fotogrammi al secondo."
 
 #: ../../source/create/avatars/custom-animations.rst:53
 msgid ""
@@ -4003,71 +4131,92 @@ msgid ""
 "first frame. Try to match this phase if you want your locomotion "
 "animation to blend with the default set."
 msgstr ""
+"Nella fase di animazione della locomozione, la caviglia sinistra si trova in "
+"posizione di passaggio nel primo fotogramma. Cerca di sincronizzarti con "
+"questa fase se desideri che la tua animazione di locomozione si integri con "
+"quella predefinita."
 
 #: ../../source/create/avatars/custom-animations.rst:55
 msgid "Once you create your animation:"
-msgstr ""
+msgstr "Una volta creata l'animazione:"
 
 #: ../../source/create/avatars/custom-animations.rst:57
 msgid ""
 "Export your animation from the external tool of your choice as an FBX "
 "file."
 msgstr ""
+"Esporta la tua animazione dal programma esterno che preferisci come file FBX."
 
 #: ../../source/create/avatars/custom-animations.rst:58
 msgid "Upload your animation FBX file to a cloud server and copy the URL."
 msgstr ""
+"Carica il file FBX della tua animazione su un server cloud e copia l'URL."
 
 #: ../../source/create/avatars/custom-animations.rst:62
 msgid "Replace Standard Animations"
-msgstr ""
+msgstr "Sostituisci le animazioni standard"
 
 #: ../../source/create/avatars/custom-animations.rst:64
 msgid ""
 "You can have your avatar use your custom animations by overriding the "
 "default animations. There are two different ways to do this:"
 msgstr ""
+"Puoi far sì che il tuo avatar utilizzi animazioni personalizzate "
+"sovrascrivendo quelle predefinite. Ci sono due modi diversi per farlo:"
 
 #: ../../source/create/avatars/custom-animations.rst:66
 msgid ""
 "`Override Using a Script`_: Write a script to override standard "
 "animations."
 msgstr ""
+"`Sovrascrivi tramite script`_: Scrivi uno script per sovrascrivere le "
+"animazioni standard."
 
 #: ../../source/create/avatars/custom-animations.rst:67
 msgid ""
 "`Create a Custom Avatar Animation JSON file`_: You can modify this file "
 "or create a new data file."
 msgstr ""
+"`Crea un file JSON per l'animazione di un avatar personalizzato`_: Puoi "
+"modificare questo file o crearne uno nuovo."
 
 #: ../../source/create/avatars/custom-animations.rst:72
 msgid "Override Using a Script"
-msgstr ""
+msgstr "Sovrascrivi tramite uno script"
 
 #: ../../source/create/avatars/custom-animations.rst:74
+#, fuzzy
 msgid ""
 "You can `write a script <../../script/write-scripts.html>`_ and use the "
 "`MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_ namespace to "
 "override an existing animation or animation role."
 msgstr ""
+"È possibile scrivere uno script <../../script/write-scripts.html> e "
+"utilizzare lo spazio dei nomi `MyAvatar <https://apidocs.overte.org/"
+"MyAvatar.html>`_ per sovrascrivere un'animazione o un ruolo di animazione "
+"esistente."
 
 #: ../../source/create/avatars/custom-animations.rst:76
 msgid ""
 "We've listed the methods you can use to replace the standard animations "
 "on your avatar."
 msgstr ""
+"Abbiamo elencato i metodi che puoi utilizzare per sostituire le animazioni "
+"standard del tuo avatar."
 
 #: ../../source/create/avatars/custom-animations.rst:79
 #: ../../source/create/environments.rst:15
 #: ../../source/host/add-content/create-content.rst:36
 msgid "Method"
-msgstr ""
+msgstr "Metodo"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
 "`MyAvatar.overrideAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.overrideAnimation>`_"
 msgstr ""
+"`MyAvatar.overrideAnimation <https://apidocs.overte.org/ "
+"MyAvatar.html#.overrideAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:81
 msgid ""
@@ -4076,12 +4225,19 @@ msgid ""
 "custom animation. For example, if your avatar is waving, this script will"
 " stop your avatar waving and play the custom animation provided."
 msgstr ""
+"Questo metodo può essere utilizzato per riprodurre qualsiasi animazione "
+"sull'avatar corrente. Il passaggio dalla posa attuale al fotogramma iniziale "
+"dell'animazione personalizzata avverrà in modo fluido. Ad esempio, se il tuo "
+"avatar sta salutando, questo script interromperà il saluto e riprodurrà "
+"l'animazione personalizzata fornita."
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
 "`AnimationCache.prefetch <https://apidocs.overte.org/ "
 "AnimationCache.html#.prefetch>`_"
 msgstr ""
+"`AnimationCache.prefetch <https://apidocs.overte.org/ "
+"AnimationCache.html#.prefetch>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:86
 msgid ""
@@ -4090,18 +4246,27 @@ msgid ""
 "animations before playing them, you might see a t-pose appear briefly as "
 "the animation is downloaded."
 msgstr ""
+"Questo metodo recupera una risorsa. Puoi usarlo per recuperare un'animazione "
+"personalizzata che hai ospitato su un server cloud. Se non precarichi le tue "
+"animazioni prima di riprodurle, potresti vedere apparire brevemente una posa "
+"a T durante il download dell'animazione."
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
 "`MyAvatar.restoreAnimation <https://apidocs.overte.org/ "
 "MyAvatar.html#.restoreAnimation>`_"
 msgstr ""
+"`MyAvatar.restoreAnimation <https://apidocs.overte.org/ "
+"MyAvatar.html#.restoreAnimation>`_"
 
 #: ../../source/create/avatars/custom-animations.rst:91
 msgid ""
 "This method stops the override function from playing any custom "
 "animation. Your avatar will go back to playing the standard animations."
 msgstr ""
+"Questo metodo impedisce alla funzione di override di riprodurre qualsiasi "
+"animazione personalizzata. Il tuo avatar tornerà a riprodurre le animazioni "
+"standard."
 
 #: ../../source/create/avatars/custom-animations.rst:96
 msgid ""
@@ -4109,10 +4274,16 @@ msgid ""
 "of all avatar joints. Inverse Kinematics of the hands and head of HMD "
 "users will be disabled."
 msgstr ""
+"Questo processo di sostituzione di un'animazione esistente assumerà il "
+"controllo completo di tutte le articolazioni dell'avatar. La cinematica "
+"inversa delle mani e della testa degli utenti di visori HMD verrà "
+"disabilitata."
 
 #: ../../source/create/avatars/custom-animations.rst:98
 msgid "You can also override an existing animation role mapping:"
 msgstr ""
+"È anche possibile sovrascrivere una mappatura del ruolo di animazione "
+"esistente:"
 
 #: ../../source/create/avatars/custom-animations.rst:100
 msgid ""
@@ -4120,6 +4291,9 @@ msgid ""
 "<https://apidocs.overte.org/MyAvatar.html#.getAnimationRoles>`_ to view "
 "the list of roles for the current avatar."
 msgstr ""
+"Utilizza `MyAvatar.getAnimationRoles <https://apidocs.overte.org/"
+"MyAvatar.html#.getAnimationRoles>`_  per visualizzare l'elenco dei ruoli per "
+"l'avatar corrente."
 
 #: ../../source/create/avatars/custom-animations.rst:101
 msgid ""
@@ -4127,6 +4301,9 @@ msgid ""
 "file) using `MyAvatar.overrideRoleAnimation "
 "<https://apidocs.overte.org/MyAvatar.html#.overrideRoleAnimation>`_."
 msgstr ""
+"È possibile sostituire l'animazione per ciascun ruolo con un'animazione "
+"personalizzata (file FBX) utilizzando `MyAvatar.overrideRoleAnimation "
+"<https://apidocs.overte.org/MyAvatar.html#.overrideRoleAnimation>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:103
 msgid ""
@@ -4137,221 +4314,237 @@ msgid ""
 "code repository on `GitHub <https://github.com/overte-"
 "org/overte/tree/master/interface/resources/avatar/animations>`_."
 msgstr ""
+"Abbiamo elencato i ruoli di animazione e la relativa descrizione. Questi "
+"vengono aggiornati frequentemente, quindi consigliamo di utilizzare "
+"``MyAvatar.getAnimationRoles`` per ottenere i ruoli di animazione più "
+"recenti prima di continuare. I file FBX di animazione standard per questi "
+"ruoli sono disponibili nel repository del codice sorgente di Overte su `"
+"GitHub <https://github.com/overte-org/overte/tree/master/interface/resources/"
+"avatar/animations>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:106
 msgid "Animation Roles"
-msgstr ""
+msgstr "Animation Roles"
 
 #: ../../source/create/avatars/custom-animations.rst:108
 msgid "rightHandGraspOpen"
-msgstr ""
+msgstr "rightHandGraspOpenrightHandGraspOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:108
 #: ../../source/create/avatars/custom-animations.rst:124
 msgid "When hand controller trigger is not squeezed."
-msgstr ""
+msgstr "Quando il grilletto del controller manuale non viene premuto."
 
 #: ../../source/create/avatars/custom-animations.rst:110
 msgid "rightHandGraspClosed"
-msgstr ""
+msgstr "rightHandGraspClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:110
 #: ../../source/create/avatars/custom-animations.rst:126
 msgid "When hand controller trigger is fully squeezed."
-msgstr ""
+msgstr "Quando il grilletto del controller manuale viene premuto completamente."
 
 #: ../../source/create/avatars/custom-animations.rst:112
 msgid "rightIndexPointOpen"
-msgstr ""
+msgstr "rightIndexPointOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:112
 #: ../../source/create/avatars/custom-animations.rst:128
 msgid "Point gesture."
-msgstr ""
+msgstr "Point gesture."
 
 #: ../../source/create/avatars/custom-animations.rst:114
 msgid "rightIndexPointClosed"
-msgstr ""
+msgstr "rightIndexPointClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:114
 #: ../../source/create/avatars/custom-animations.rst:130
 msgid "Point gesture with trigger squeezed."
-msgstr ""
+msgstr "Gesticolare indicando con il grilletto premuto."
 
 #: ../../source/create/avatars/custom-animations.rst:116
 msgid "rightThumbRaiseOpen"
-msgstr ""
+msgstr "rightThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:116
 #: ../../source/create/avatars/custom-animations.rst:132
 msgid "Thumbs up gesture."
-msgstr ""
+msgstr "Thumbs up gesture."
 
 #: ../../source/create/avatars/custom-animations.rst:118
 msgid "rightThumbRaiseClosed"
-msgstr ""
+msgstr "rightThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:118
 #: ../../source/create/avatars/custom-animations.rst:134
 msgid "Thumbs up gesture with trigger squeezed."
-msgstr ""
+msgstr "Gesto del pollice in su con il grilletto premuto."
 
 #: ../../source/create/avatars/custom-animations.rst:120
 msgid "rightIndexPointAndThumbRaiseOpen"
-msgstr ""
+msgstr "rightIndexPointAndThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:120
 #: ../../source/create/avatars/custom-animations.rst:136
 msgid "Simultaneous thumbs up and point gesture."
-msgstr ""
+msgstr "Pollice in su e gesto di indicare simultaneamente."
 
 #: ../../source/create/avatars/custom-animations.rst:122
 msgid "rightIndexPointAndThumbRaiseClosed"
-msgstr ""
+msgstr "rightIndexPointAndThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:122
 #: ../../source/create/avatars/custom-animations.rst:138
 msgid "Simultaneous thumbs up and point gesture, with trigger squeezed."
 msgstr ""
+"Gesti simultanei di pollice in su e indicazione con il dito, tenendo premuto "
+"il grilletto."
 
 #: ../../source/create/avatars/custom-animations.rst:124
 msgid "leftHandGraspOpen"
-msgstr ""
+msgstr "leftHandGraspOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:126
 msgid "leftHandGraspClosed"
-msgstr ""
+msgstr "leftHandGraspClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:128
 msgid "leftIndexPointOpen"
-msgstr ""
+msgstr "leftIndexPointOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:130
 msgid "leftIndexPointClosed"
-msgstr ""
+msgstr "leftIndexPointClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:132
 msgid "leftThumbRaiseOpen"
-msgstr ""
+msgstr "leftThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:134
 msgid "leftThumbRaiseClosed"
-msgstr ""
+msgstr "leftThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:136
 msgid "leftIndexPointAndThumbRaiseOpen"
-msgstr ""
+msgstr "leftIndexPointAndThumbRaiseOpen"
 
 #: ../../source/create/avatars/custom-animations.rst:138
 msgid "leftIndexPointAndThumbRaiseClosed"
-msgstr ""
+msgstr "leftIndexPointAndThumbRaiseClosed"
 
 #: ../../source/create/avatars/custom-animations.rst:140
 msgid "idleStand"
-msgstr ""
+msgstr "idleStand"
 
 #: ../../source/create/avatars/custom-animations.rst:140
 msgid "Standing still, not talking."
-msgstr ""
+msgstr "Rimanendo immobile, in silenzio."
 
 #: ../../source/create/avatars/custom-animations.rst:142
 msgid "idleTalk"
-msgstr ""
+msgstr "idleTalk"
 
 #: ../../source/create/avatars/custom-animations.rst:142
 msgid "Standing still, but avatar is talking."
-msgstr ""
+msgstr "L'avatar è fermo, ma sta parlando."
 
 #: ../../source/create/avatars/custom-animations.rst:144
 msgid "walkFwdShort_c"
-msgstr ""
+msgstr "walkFwdShort_c"
 
 #: ../../source/create/avatars/custom-animations.rst:144
 msgid "Walking forward at 0.5 m/s."
-msgstr ""
+msgstr "Camminando in avanti a 0,5 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:146
 msgid "walkFwdNormal_c, walkFwdFast_c"
-msgstr ""
+msgstr "walkFwdNormal_c, walkFwdFast_c"
 
 #: ../../source/create/avatars/custom-animations.rst:146
 msgid "Walking forward at 1.8 m/s. Walking forward at 2.3 m/s."
-msgstr ""
+msgstr "Camminare in avanti a 1,8 m/s. Camminare in avanti a 2,3 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:148
 msgid "walkFwdJog_c, walkFwdRun_c"
-msgstr ""
+msgstr "walkFwdJog_c, walkFwdRun_c"
 
 #: ../../source/create/avatars/custom-animations.rst:148
 msgid "Walking forward at 3.2 m/s. Walking forward at 4.5 m/s."
-msgstr ""
+msgstr "Camminare in avanti a 3,2 m/s. Camminare in avanti a 4,5 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:150
 msgid "idleToWalkFwd, idleSettle"
-msgstr ""
+msgstr "idleToWalkFwd, idleSettle"
 
 #: ../../source/create/avatars/custom-animations.rst:150
 msgid ""
 "Short transition from standing idle to walking forward. Transition from "
 "walk to idle."
 msgstr ""
+"Breve transizione dallo stare in piedi inattivi al camminare in avanti. "
+"Transizione dal camminare all'essere inattivi."
 
 #: ../../source/create/avatars/custom-animations.rst:153
 msgid "walkBwdShort_c"
-msgstr ""
+msgstr "walkBwdShort_c"
 
 #: ../../source/create/avatars/custom-animations.rst:153
 msgid "Walking backward at 0.6 m/s."
-msgstr ""
+msgstr "Camminare all'indietro a 0,6 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:155
 msgid "walkBwdFast_c, jogBwd_c, runBwd_c"
-msgstr ""
+msgstr "walkBwdFast_c, jogBwd_c, runBwd_c"
 
 #: ../../source/create/avatars/custom-animations.rst:155
 msgid ""
 "Walking backward at 1.6 m/s. Jog backward at 2.3 m/s. Jog backward at 3.1"
 " m/s."
 msgstr ""
+"Camminare all'indietro a 1,6 m/s. Correre all'indietro a 2,3 m/s. Correre "
+"all'indietro a 3,1 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:158
 msgid "turnLeft"
-msgstr ""
+msgstr "turnLeft"
 
 #: ../../source/create/avatars/custom-animations.rst:158
 #: ../../source/create/avatars/custom-animations.rst:160
 msgid "Standing turning in place animation."
-msgstr ""
+msgstr "Animazione di rotazione sul posto in posizione eretta."
 
 #: ../../source/create/avatars/custom-animations.rst:160
 msgid "turnRight"
-msgstr ""
+msgstr "turnRight"
 
 #: ../../source/create/avatars/custom-animations.rst:162
 msgid "strafeLeftShortStep_c"
-msgstr ""
+msgstr "strafeLeftShortStep_c"
 
 #: ../../source/create/avatars/custom-animations.rst:162
 msgid "Sidestep at 0.1 m/s."
-msgstr ""
+msgstr "Spostamento laterale a 0,1 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:164
 msgid "strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
 msgstr ""
+"strafeLeftStep_c, strafeLeftWalk_c, strafeLeftWalkFast_c, strafeLeftJog_c"
 
 #: ../../source/create/avatars/custom-animations.rst:164
 msgid ""
 "Sidestep at 0.5 m/s. Side walk at 1.0 m/s. Side walk at 2.6 m/s. Side jog"
 " at 3.0 m/s."
 msgstr ""
+"Passo laterale a 0,5 m/s. Camminata laterale a 1,0 m/s. Camminata laterale a "
+"2,6 m/s. Corsa laterale a 3,0 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:167
 msgid "strafeRightShortStep_c, strafeRightStep_c"
-msgstr ""
+msgstr "strafeRightShortStep_c, strafeRightStep_c"
 
 #: ../../source/create/avatars/custom-animations.rst:167
 msgid "Sidestep at 0.1 m/s. Sidestep at 0.5 m/s."
-msgstr ""
+msgstr "Schivata laterale a 0,1 m/s. Schivata laterale a 0,5 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:169
 msgid ""
@@ -4359,6 +4552,9 @@ msgid ""
 "stepLeft_c, strafeLeftAnim_c, stepRightShort_c, stepRight_c, "
 "strafeRightAnim_c"
 msgstr ""
+"strafeRightWalk_c, strafeRightFast_c, strafeRightJog_c, stepLeftShort_c, "
+"stepLeft_c, strafeLeftAnim_c, stepRightShort_c, stepRight_c, "
+"strafeRightAnim_c"
 
 #: ../../source/create/avatars/custom-animations.rst:169
 msgid ""
@@ -4366,109 +4562,118 @@ msgid ""
 "at 0 m/s. HMD step left at 0.5 m/s. HMD strafe left at 2.5 m/s. HMD step "
 "right at 0 m/s. HMD step right at 0.5 m/s. HMD strafe right at 2.5 m/s."
 msgstr ""
+"Camminata laterale a 1 m/s. Marciapiede a 2,6 m/s. Corsa laterale a 3 m/s. "
+"Passo a sinistra con HMD a 0 m/s. Passo a sinistra con HMD a 0,5 m/s. "
+"Spostamento laterale a sinistra con HMD a 2,5 m/s. Passo a destra con HMD a "
+"0 m/s. Passo a destra con HMD a 0,5 m/s. Spostamento laterale a destra con "
+"HMD a 2,5 m/s."
 
 #: ../../source/create/avatars/custom-animations.rst:175
 msgid "fly"
-msgstr ""
+msgstr "fly"
 
 #: ../../source/create/avatars/custom-animations.rst:175
 msgid "Flying idle."
-msgstr ""
+msgstr "Flying idle."
 
 #: ../../source/create/avatars/custom-animations.rst:177
 msgid "takeoffStand"
-msgstr ""
+msgstr "takeoffStand"
 
 #: ../../source/create/avatars/custom-animations.rst:177
 msgid "Standing jump takeoff."
-msgstr ""
+msgstr "Standing jump takeoff."
 
 #: ../../source/create/avatars/custom-animations.rst:179
 msgid "TAKEOFFRUN"
-msgstr ""
+msgstr "TAKEOFFRUN"
 
 #: ../../source/create/avatars/custom-animations.rst:179
 msgid "Running jump takeoff."
-msgstr ""
+msgstr "Decollo con rincorsa."
 
 #: ../../source/create/avatars/custom-animations.rst:181
 msgid "inAirStandPreApex"
-msgstr ""
+msgstr "inAirStandPreApex"
 
 #: ../../source/create/avatars/custom-animations.rst:181
 msgid "Standing jump in air on the way upward towards the jump apex."
 msgstr ""
+"Salto in aria da fermo, in fase ascendente verso il punto più alto del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:183
 msgid "inAirStandApex"
-msgstr ""
+msgstr "inAirStandApex"
 
 #: ../../source/create/avatars/custom-animations.rst:183
 msgid "Standing jump in air at apex of the jump."
-msgstr ""
+msgstr "Salto in aria da fermo al culmine del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:185
 msgid "inAirStandPostApex"
-msgstr ""
+msgstr "inAirStandPostApex"
 
 #: ../../source/create/avatars/custom-animations.rst:185
 msgid "Standing jump in air on the downward arc of the jump."
-msgstr ""
+msgstr "Salto in aria da fermo, durante la fase discendente del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:187
 msgid "inAirRunPreApex"
-msgstr ""
+msgstr "inAirRunPreApex"
 
 #: ../../source/create/avatars/custom-animations.rst:187
 msgid "Running jump in air on the way upward towards the jump apex."
-msgstr ""
+msgstr "Salto in corsa in aria durante la salita verso l'apice del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:189
 msgid "inAirRunApex"
-msgstr ""
+msgstr "inAirRunApex"
 
 #: ../../source/create/avatars/custom-animations.rst:189
 msgid "Running jump in air at apex of the jump."
-msgstr ""
+msgstr "Salto in corsa in aria al culmine del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:191
 msgid "inAirRunPostApex"
-msgstr ""
+msgstr "inAirRunPostApex"
 
 #: ../../source/create/avatars/custom-animations.rst:191
 msgid "Running jump in air on the downward arc of the jump."
-msgstr ""
+msgstr "Salto in corsa in aria durante la fase discendente del salto."
 
 #: ../../source/create/avatars/custom-animations.rst:193
 msgid "landStandImpact"
-msgstr ""
+msgstr "landStandImpact"
 
 #: ../../source/create/avatars/custom-animations.rst:193
 #: ../../source/create/avatars/custom-animations.rst:195
 msgid "Standing land."
-msgstr ""
+msgstr "Coi piedi per terra."
 
 #: ../../source/create/avatars/custom-animations.rst:195
 msgid "landStand"
-msgstr ""
+msgstr "landStand"
 
 #: ../../source/create/avatars/custom-animations.rst:197
 msgid "LANDRUN"
-msgstr ""
+msgstr "LANDRUN"
 
 #: ../../source/create/avatars/custom-animations.rst:197
 msgid "Running land."
-msgstr ""
+msgstr "Running land."
 
 #: ../../source/create/avatars/custom-animations.rst:202
 msgid "Create a Custom Avatar Animation JSON file"
-msgstr ""
+msgstr "Crea un file JSON per l'animazione di un avatar personalizzato"
 
 #: ../../source/create/avatars/custom-animations.rst:204
 msgid ""
 "If you're not comfortable using a script, you can edit or replace the "
 "existing Avatar Animation JSON file to override the standard animations."
 msgstr ""
+"Se non ti senti a tuo agio nell'utilizzare uno script, puoi modificare o "
+"sostituire il file JSON di animazione dell'avatar esistente per "
+"sovrascrivere le animazioni standard."
 
 #: ../../source/create/avatars/custom-animations.rst:206
 msgid ""
@@ -4476,6 +4681,10 @@ msgid ""
 "not inherit any updates made to the standard animations' JSON file. You "
 "can perform a text merge to the latest version at any time."
 msgstr ""
+"Se crei un file JSON personalizzato per le animazioni del tuo avatar, non "
+"erediterà gli aggiornamenti apportati al file JSON delle animazioni "
+"standard. Puoi eseguire un'unione di testo con la versione più recente in "
+"qualsiasi momento."
 
 #: ../../source/create/avatars/custom-animations.rst:208
 msgid ""
@@ -4484,38 +4693,45 @@ msgid ""
 "animation's FBX files. Or, you can write a new JSON file with the new "
 "mappings for each animation role."
 msgstr ""
+"Il file JSON mostra quale ruolo di animazione è mappato a quale file FBX di "
+"animazione. È possibile sostituire i file FBX di animazione standard con i "
+"file FBX delle proprie animazioni personalizzate. In alternativa, è "
+"possibile creare un nuovo file JSON con le nuove mappature per ciascun ruolo "
+"di animazione."
 
 #: ../../source/create/avatars/custom-animations.rst:210
 msgid "To replace standard animations:"
-msgstr ""
+msgstr "Per sostituire le animazioni standard:"
 
 #: ../../source/create/avatars/custom-animations.rst:212
 msgid "Upload your custom JSON file to a cloud server and copy the URL."
 msgstr ""
+"Carica il tuo file JSON personalizzato su un server cloud e copia l'URL."
 
 #: ../../source/create/avatars/custom-animations.rst:213
 msgid "In Interface, pull up your HUD or Tablet and go to **Avatar**."
-msgstr ""
+msgstr "Nell'interfaccia, apri l'HUD o il tablet e vai su **Avatar**."
 
 #: ../../source/create/avatars/custom-animations.rst:214
 msgid "Click on the Settings icon on the top-right corner."
-msgstr ""
+msgstr "Fai clic sull'icona Impostazioni nell'angolo in alto a destra."
 
 #: ../../source/create/avatars/custom-animations.rst:215
 msgid "Under 'Avatar Animation JSON', paste the URL for your JSON file."
 msgstr ""
+"Nella sezione \"Animazione Avatar JSON\", incolla l'URL del tuo file JSON."
 
 #: ../../source/create/avatars/custom-animations.rst:218
 msgid "OR"
-msgstr ""
+msgstr "O"
 
 #: ../../source/create/avatars/custom-animations.rst:220
 msgid "Open your avatar's FST file in a text editor."
-msgstr ""
+msgstr "Apri il file FST del tuo avatar in un editor di testo."
 
 #: ../../source/create/avatars/custom-animations.rst:221
 msgid "Add your Animation Graph file's URL."
-msgstr ""
+msgstr "Inserisci l'URL del file del grafico di animazione."
 
 #: ../../source/create/avatars/custom-animations.rst:223
 msgid ""
@@ -4523,11 +4739,13 @@ msgid ""
 "<package-avatar.html#host-your-avatar>`_ to include the changes in your "
 "FST file."
 msgstr ""
+"Dovrai elaborare i file del tuo avatar tramite `Avatar Packager <package-"
+"avatar.html#host-your-avatar>`_ per includere le modifiche nel tuo file FST."
 
 #: ../../source/create/avatars/custom-animations.rst:232
 #: ../../source/create/entities/procedural-particle-entity.rst:75
 msgid "Examples"
-msgstr ""
+msgstr "Esempi"
 
 #: ../../source/create/avatars/custom-animations.rst:234
 msgid ""
@@ -4535,6 +4753,9 @@ msgid ""
 "/overte-org/overte/blob/master/interface/resources/avatar/avatar-"
 "animation.json>`_ file."
 msgstr ""
+"Ecco il file `avatar-animation.json` predefinito attualmente disponibile "
+"<https://github.com/overte-org/overte/blob/master/interface/resources/avatar/"
+"avatar-animation.json>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:235
 msgid ""
@@ -4543,16 +4764,22 @@ msgid ""
 "a sitting pose. This example shows how you can replace some of an "
 "avatar's default animations."
 msgstr ""
+"Questo file `scoot-animation.json <https://s3.amazonaws.com/hifi-public/tony/"
+"scoot-animation.json>`_  sostituisce le animazioni di inattività e di "
+"camminata con una posa seduta. Questo esempio mostra come sostituire alcune "
+"delle animazioni predefinite di un avatar."
 
 #: ../../source/create/avatars/custom-animations.rst:236
 msgid ""
 "Example of avatar with custom animations: `Golden Dragon "
 "<https://oaktown.pl/golden_dragon_r_1/avatar5.fst>`_."
 msgstr ""
+"Esempio di avatar con animazioni personalizzate: `Drago d'oro <https://"
+"oaktown.pl/golden_dragon_r_1/avatar5.fst>`_."
 
 #: ../../source/create/avatars/custom-animations.rst:241
 msgid "Advanced Topic: AnimNode System"
-msgstr ""
+msgstr "Argomento avanzato: Sistema AnimNode"
 
 #: ../../source/create/avatars/custom-animations.rst:243
 msgid ""
@@ -4560,6 +4787,10 @@ msgid ""
 "called the AnimNode System. The AnimNode system defines how an avatar "
 "moves and is described in the Animation Graph JSON file."
 msgstr ""
+"Il file JSON di animazione dell'avatar contiene una struttura ad albero "
+"gerarchica di nodi chiamata sistema AnimNode. Il sistema AnimNode definisce "
+"il movimento dell'avatar ed è descritto nel file JSON del grafico di "
+"animazione."
 
 #: ../../source/create/avatars/custom-animations.rst:245
 msgid ""
@@ -4573,46 +4804,68 @@ msgid ""
 "unique animations and avatar configurations are possible. These "
 "functionalities are handled by the AnimNode system."
 msgstr ""
+"Il movimento di un avatar è determinato da una complessa combinazione di "
+"animazione procedurale, clip di animazione preregistrate e cinematica "
+"inversa. Questa combinazione viene calcolata a ogni fotogramma per garantire "
+"che il corpo dell'avatar segua le leggi della fisica e gli input del "
+"controller nel modo più rapido possibile. Il sistema deve essere in grado di "
+"gestire le animazioni per utenti desktop, utenti con visori HMD e utenti che "
+"indossano un set completo di tracker HTC Vive. Deve inoltre essere "
+"configurabile dinamicamente man mano che i sensori vengono aggiunti e "
+"rimossi dal sistema. Infine, deve essere aperto alle estensioni per "
+"consentire animazioni e configurazioni di avatar personalizzate. Queste "
+"funzionalità sono gestite dal sistema AnimNode."
 
 #: ../../source/create/avatars/custom-animations.rst:247
 msgid "We've listed some features of the system:"
-msgstr ""
+msgstr "Abbiamo elencato alcune caratteristiche del sistema:"
 
 #: ../../source/create/avatars/custom-animations.rst:249
 msgid "The AnimNode system is a graph of nodes."
-msgstr ""
+msgstr "Il sistema AnimNode è un grafo di nodi."
 
 #: ../../source/create/avatars/custom-animations.rst:250
 msgid "Some nodes are output only, such as pre-recorded animation clips."
 msgstr ""
+"Alcuni nodi sono solo in uscita, come ad esempio i clip di animazione "
+"preregistrati."
 
 #: ../../source/create/avatars/custom-animations.rst:251
 msgid ""
 "Other nodes produce output by processing nodes below it in the graph and "
 "blending the results together."
 msgstr ""
+"Altri nodi producono output elaborando i nodi sottostanti nel grafo e "
+"combinando i risultati."
 
 #: ../../source/create/avatars/custom-animations.rst:252
 msgid ""
 "By manipulating the node hierarchy, certain animation actions will occur "
 "before or after other animation actions."
 msgstr ""
+"Manipolando la gerarchia dei nodi, determinate azioni di animazione si "
+"verificheranno prima o dopo altre azioni di animazione."
 
 #: ../../source/create/avatars/custom-animations.rst:253
 msgid ""
 "The node parameters can be dynamically changed at runtime. This "
 "flexibility is necessary to achieve good visual results."
 msgstr ""
+"I parametri del nodo possono essere modificati dinamicamente in fase di "
+"esecuzione. Questa flessibilità è necessaria per ottenere buoni risultati "
+"visivi."
 
 #: ../../source/create/avatars/custom-animations.rst:254
 msgid ""
 "The system is in the default Animation Graph JSON file and is loaded "
 "during avatar initialization."
 msgstr ""
+"Il sistema è presente nel file JSON predefinito del grafico di animazione e "
+"viene caricato durante l'inizializzazione dell'avatar."
 
 #: ../../source/create/avatars/custom-animations.rst:256
 msgid "**Key Concepts**"
-msgstr ""
+msgstr "**Key Concepts**"
 
 #: ../../source/create/avatars/custom-animations.rst:258
 msgid ""
@@ -4620,6 +4873,9 @@ msgid ""
 "the following expression: ``4 + 3 * 7 - (5 / (3 + 4)) + 6``, can be "
 "represented by the following parse tree."
 msgstr ""
+"Il sistema AnimNode funziona come un albero di analisi sintattica di "
+"espressioni. Ad esempio, la seguente espressione: ``4 + 3 * 7 - (5 / (3 + 4))"
+" + 6``, può essere rappresentata dal seguente albero di analisi sintattica."
 
 #: ../../source/create/avatars/custom-animations.rst:263
 msgid ""
@@ -4629,6 +4885,12 @@ msgid ""
 "The tree is evaluated until there is a single value remaining, which "
 "should be the result of the entire expression: ``30.2957142``."
 msgstr ""
+"Questo albero di analisi sintattica può quindi essere valutato in fase di "
+"esecuzione per calcolare il valore effettivo. In questo albero, i nodi "
+"foglia rappresentano i valori e i nodi interni le operazioni che combinano "
+"due o più sottoalberi e producono un nuovo valore. L'albero viene valutato "
+"finché non rimane un singolo valore, che dovrebbe essere il risultato "
+"dell'intera espressione: ``30.2957142``."
 
 #: ../../source/create/avatars/custom-animations.rst:265
 msgid ""
@@ -4637,6 +4899,10 @@ msgid ""
 "tree, and then combining them with an arithmetic operation, such as "
 "addition or multiplication."
 msgstr ""
+"Nel caso delle espressioni, il valore di output di ciascun nodo è un numero "
+"in virgola mobile e le operazioni possono essere implementate semplicemente "
+"valutando ciascun sottoalbero e combinandoli poi con un'operazione "
+"aritmetica, come l'addizione o la moltiplicazione."
 
 #: ../../source/create/avatars/custom-animations.rst:267
 msgid ""
@@ -4647,20 +4913,29 @@ msgid ""
 " blending between two or more sub-trees, or combining the upper body of "
 "one animation with the lower body of another."
 msgstr ""
+"Il sistema AnimNode funziona con un concetto simile. Tuttavia, il valore di "
+"ciascun nodo contiene tutte le traslazioni e rotazioni delle articolazioni "
+"dell'avatar. I nodi foglia possono rappresentare pose statiche dell'avatar, "
+"come la posa a T, oppure un singolo fotogramma di una clip di animazione. I "
+"nodi interni possono eseguire operazioni come la fusione tra due o più "
+"sottostrutture ad albero, o la combinazione della parte superiore del corpo "
+"di un'animazione con la parte inferiore di un'altra."
 
 #: ../../source/create/avatars/custom-animations.rst:273
 msgid ":doc:`Script <../../script>`"
-msgstr ""
+msgstr ":doc:`Script <../../script>`"
 
 #: ../../source/create/avatars/custom-animations.rst:274
 msgid "`API Reference: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
-msgstr ""
+msgstr "`API Reference: MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_"
 
 #: ../../source/create/avatars/find-avatars.rst:2
 msgid ""
 "This document is outdated. FIXME: Mentions Unity Avatar Exporter fixing "
 "all skeletons which it is unable to do"
 msgstr ""
+"Questo documento è obsoleto. FIXME: Menziona che Unity Avatar Exporter "
+"corregge tutti gli scheletri, cosa che non è in grado di fare"
 
 #: ../../source/create/avatars/find-avatars.rst:9
 msgid ""
@@ -4671,10 +4946,18 @@ msgid ""
 "them as FST and GLB/FBX files to import in-world. Learn more about the "
 ":doc:`security of your assets <../../security/asset-security>`."
 msgstr ""
+"È possibile scaricare avatar da utilizzare da fonti esterne come TurboSquid "
+"o CGTrader. Una volta ottenuto l'avatar, sarà necessario elaborarlo in Unity "
+"utilizzando Overte Avatar Exporter. Questo strumento importa la maggior "
+"parte degli avatar in Unity, ne mappa lo scheletro utilizzando lo strumento "
+"umanoide di Unity e li esporta come file FST e GLB/FBX per l'importazione "
+"nel mondo virtuale. Ulteriori informazioni sulla sicurezza delle risorse "
+"sono disponibili nella documentazione: :doc:`security of your assets <../../"
+"security/asset-security>`."
 
 #: ../../source/create/avatars/find-avatars.rst:17
 msgid "Avatar Guidelines"
-msgstr ""
+msgstr "Linee guida per gli Avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:19
 msgid ""
@@ -4684,20 +4967,27 @@ msgid ""
 "with Overte, we've compiled a list of guidelines to help you \"sanity "
 "check\" it prior to use."
 msgstr ""
+"Molti siti esterni come TurboSquid e CGTrader offrono avatar utilizzabili. "
+"Tuttavia, tieni presente che non tutti gli avatar che trovi potrebbero "
+"essere compatibili con Overte. Per aumentare le probabilità che l'avatar "
+"scaricato sia compatibile con Overte, abbiamo compilato un elenco di linee "
+"guida per aiutarti a verificarne la compatibilità prima dell'utilizzo."
 
 #: ../../source/create/avatars/find-avatars.rst:21
 msgid "You should ensure that:"
-msgstr ""
+msgstr "È necessario assicurarsi che:"
 
 #: ../../source/create/avatars/find-avatars.rst:23
 msgid ""
 "You downloaded a `real-time model <https://blog.turbosquid.com/real-time-"
 "models>`_ (rigged for run-time, not rigged for render)."
 msgstr ""
+"Hai scaricato un `modello in tempo reale <https://blog.turbosquid.com/real-"
+"time-models>`_ (configurato per l'esecuzione, non per il rendering)."
 
 #: ../../source/create/avatars/find-avatars.rst:24
 msgid "You have the correct downloaded files"
-msgstr ""
+msgstr "Hai scaricato i file corretti"
 
 #: ../../source/create/avatars/find-avatars.rst:26
 msgid ""
@@ -4705,6 +4995,9 @@ msgid ""
 "formats. GLB/glTF is recommended over FBX due to better PBR material "
 "support."
 msgstr ""
+"Un modello glTF/GLB/FBX per il tuo avatar. Non supportiamo altri formati di "
+"modelli 3D. Si consiglia il formato GLB/glTF rispetto a FBX per il miglior "
+"supporto dei materiali PBR."
 
 #: ../../source/create/avatars/find-avatars.rst:27
 msgid ""
@@ -4712,10 +5005,13 @@ msgid ""
 " Sometimes, these are already embedded in your GLB/FBX model and you "
 "won't have any additional image files in your download."
 msgstr ""
+"(Opzionale) Uno o più file immagine per dare colore e texture al tuo avatar. "
+"A volte, questi sono già incorporati nel tuo modello GLB/FBX e non troverai "
+"file immagine aggiuntivi nel download."
 
 #: ../../source/create/avatars/find-avatars.rst:28
 msgid "Your avatar is rigged."
-msgstr ""
+msgstr "Il tuo avatar è truccato."
 
 #: ../../source/create/avatars/find-avatars.rst:30
 msgid ""
@@ -4727,11 +5023,18 @@ msgid ""
 "#package-your-avatar>`_ to import your avatar into Overte. Avatar "
 "Packager needs maintenance so it's not recommended currently."
 msgstr ""
+"Se il tuo avatar non è animato, puoi usare Blender o  :doc:`Mixamo <mixamo-"
+"tutorial>`  per animarlo. Se usi Mixamo, non è necessario utilizzare Unity e "
+"l'esportatore di avatar. Poiché Mixamo utilizza già uno scheletro che "
+"supportiamo, puoi caricare direttamente il file GLB/FBX, creare manualmente "
+"il file FST o utilizzare il nostro `Avatar Packager <create-avatars.html"
+"#package-your-avatar>`_ per importare il tuo avatar in Overte. Avatar "
+"Packager necessita di manutenzione, quindi al momento non è consigliato."
 
 #: ../../source/create/avatars/find-avatars.rst:34
 #: ../../source/create/avatars/package-avatar.rst:28
 msgid "Overte Avatar Exporter for Unity"
-msgstr ""
+msgstr "Esportatore di Avatar Overte per Unity"
 
 #: ../../source/create/avatars/find-avatars.rst:36
 msgid ""
@@ -4742,6 +5045,12 @@ msgid ""
 "limbs). The avatar exporter also automatically packages your avatar for "
 "use in Overte."
 msgstr ""
+"Overte supporta un solo tipo standard di rigging per gli avatar. Poiché "
+"molti avatar non corrispondono a questo scheletro, abbiamo creato l'Overte "
+"Avatar Exporter per Unity (noto anche come \"avatar exporter\") per "
+"convertire gli avatar simili a umani con una struttura ossea umanoide ("
+"corpo, testa e arti). L'esportatore di avatar inoltre impacchetta "
+"automaticamente il tuo avatar per l'utilizzo in Overte."
 
 #: ../../source/create/avatars/find-avatars.rst:38
 msgid ""
@@ -4751,30 +5060,39 @@ msgid ""
 " 3D modeling tool such as Blender or Maya and make modifications to your "
 "avatar prior to using the avatar exporter in Unity."
 msgstr ""
+"L'esportatore di avatar è stato creato per migliorare il processo di rigging "
+"e mappatura dello scheletro. Questo non influirà sulle animazioni o sui "
+"materiali del tuo avatar. Per modificare i materiali, dovrai utilizzare un "
+"software di modellazione 3D come Blender o Maya e apportare le modifiche "
+"necessarie al tuo avatar prima di utilizzare l'esportatore in Unity."
 
 #: ../../source/create/avatars/find-avatars.rst:40
 msgid "You will need the following to use this tool:"
-msgstr ""
+msgstr "Per utilizzare questo strumento avrai bisogno dei seguenti strumenti:"
 
 #: ../../source/create/avatars/find-avatars.rst:42
 msgid "Unity (Recommended versions: 2022.3.22f1)"
-msgstr ""
+msgstr "Unity (Recommended versions: 2022.3.22f1)"
 
 #: ../../source/create/avatars/find-avatars.rst:43
 msgid "Overte"
-msgstr ""
+msgstr "Overte"
 
 #: ../../source/create/avatars/find-avatars.rst:44
 msgid ""
 "`Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-"
 "avatar-exporter>`__"
 msgstr ""
+"`Overte Avatar Exporter for Unity <https://github.com/overte-org/unity-"
+"avatar-exporter>`__"
 
 #: ../../source/create/avatars/find-avatars.rst:46
 msgid ""
 "Please note that the recommended version of Unity is not the latest "
 "version."
 msgstr ""
+"Si prega di notare che la versione di Unity consigliata non è l'ultima "
+"versione."
 
 #: ../../source/create/avatars/find-avatars.rst:48
 msgid ""
@@ -4783,14 +5101,21 @@ msgid ""
 "'Enforce T-Pose' from the drop-down. Click 'Apply' and 'Done'. We "
 "recommend doing this after correcting any issues with remapping bones."
 msgstr ""
+"Consigliamo di applicare una posa a T al vostro avatar. Per farlo, andate su "
+"\"Inspector\" e cliccate su \"Pose\" in fondo al pannello. Selezionate "
+"\"Enforce T-Pose\" dal menu a tendina. Cliccate su \"Apply\" e \"Done\". "
+"Consigliamo di eseguire questa operazione dopo aver corretto eventuali "
+"problemi di rimappatura delle ossa."
 
 #: ../../source/create/avatars/find-avatars.rst:52
 msgid "Install the Avatar Exporter"
-msgstr ""
+msgstr "Installa Avatar Exporter"
 
 #: ../../source/create/avatars/find-avatars.rst:54
 msgid "You need to install the extension for every Unity project that you have."
 msgstr ""
+"È necessario installare l'estensione per ogni progetto Unity in vostro "
+"possesso."
 
 #: ../../source/create/avatars/find-avatars.rst:56
 msgid ""
@@ -4798,28 +5123,37 @@ msgid ""
 " README file <https://github.com/overte-org/unity-avatar-"
 "exporter/blob/main/README.md>`_."
 msgstr ""
+"Per installare l'esportatore, segui le istruzioni contenute nel file README "
+"di Unity Avatar Exporter <https://github.com/overte-org/"
+"unity-avatar-exporter/blob/main/README.md>_."
 
 #: ../../source/create/avatars/find-avatars.rst:60
 msgid "Create an Avatar Package"
-msgstr ""
+msgstr "Crea un Pacchetto Avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:62
 msgid ""
 "FIXME: This part is outdated. Newest exporter saves GLB files together "
 "with FST."
 msgstr ""
+"FIXME: Questa parte è obsoleta. L'esportatore più recente salva i file GLB "
+"insieme ai file FST."
 
 #: ../../source/create/avatars/find-avatars.rst:64
 msgid ""
 "If you don't already have your model open in Unity, you need to import "
 "your model. Use any of the following methods:"
 msgstr ""
+"Se il tuo modello non è già aperto in Unity, devi importarlo. Puoi "
+"utilizzare uno dei seguenti metodi:"
 
 #: ../../source/create/avatars/find-avatars.rst:66
 msgid ""
 "Drag and drop the FBX file into the 'Assets' folder of your 'Project' "
 "window."
 msgstr ""
+"Trascina e rilascia il file FBX nella cartella \"Assets\" della finestra "
+"\"Progetto\"."
 
 #: ../../source/create/avatars/find-avatars.rst:67
 msgid ""
@@ -4827,12 +5161,17 @@ msgid ""
 "**Import Package > Import New Asset**. Navigate to the FBX file and click"
 " 'Import'."
 msgstr ""
+"Nella finestra \"Progetto\", fai clic con il pulsante destro del mouse sulla "
+"cartella \"Risorse\", quindi seleziona **Import Package > Import New Asset**"
+". Individua il file FBX e fai clic su \"Importa\"."
 
 #: ../../source/create/avatars/find-avatars.rst:68
 msgid ""
 "In Unity, open the 'Assets' menu, then select **Import Package > Import "
 "New Asset**. Navigate to the FBX file and click 'Import'."
 msgstr ""
+"In Unity, apri il menu \"Assets\", quindi seleziona **Import Package > "
+"Import New Asset**. Individua il file FBX e fai clic su \"Import\"."
 
 #: ../../source/create/avatars/find-avatars.rst:69
 msgid ""
@@ -4840,10 +5179,15 @@ msgid ""
 "'Inspector', open 'Rig'. For 'Animation Type', choose 'Humanoid' and then"
 " click 'Apply'."
 msgstr ""
+"Nella finestra \"Progetto\", seleziona il file FBX del tuo avatar. Nell'"
+"\"Inspector\", apri \"Rig\". Come \"Animation Type\", scegli \"Humanoid\" e "
+"poi fai clic su \"Applica\"."
 
 #: ../../source/create/avatars/find-avatars.rst:77
 msgid "Click 'Configure' to investigate and tweak the mapping of your avatar."
 msgstr ""
+"Fai clic su \"Configura\" per esaminare e modificare la mappatura del tuo "
+"avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:81
 msgid ""
@@ -4854,6 +5198,12 @@ msgid ""
 "can do this by dragging the bones from the 'Avatar Configuration' panel "
 "to the 'Inspector' panel."
 msgstr ""
+"Tutte le ossa mappate in Unity sono evidenziate in verde e possono essere "
+"selezionate. Verifica se manca qualcosa. Eventuali errori appariranno in "
+"rosso. Le ossa minime richieste per la mappatura sono Fianchi, Colonna "
+"vertebrale, Torace e Testa. Se una di queste ossa manca, è necessario "
+"aggiungerle manualmente prima di continuare. Puoi farlo trascinando le ossa "
+"dal pannello \"Avatar Configuration\" al pannello \"Inspector\"."
 
 #: ../../source/create/avatars/find-avatars.rst:86
 msgid ""
@@ -4864,14 +5214,20 @@ msgid ""
 "get an error and need to manually map a bone to the Chest from 'Avatar "
 "Configuration'."
 msgstr ""
+"Gli avatar in Overte devono avere un osso del torace. Se il tuo avatar non "
+"ha un osso del torace, l'esportatore di avatar potrebbe suggerirti "
+"un'alternativa adatta dal pannello 'Avatar Configuration'. Se l'esportatore "
+"non suggerisce un'alternativa e Humanoid non mappa correttamente il torace, "
+"riceverai un errore e dovrai mappare manualmente un osso al torace dal "
+"pannello 'Avatar Configuration'."
 
 #: ../../source/create/avatars/find-avatars.rst:88
 msgid "If you made any changes, click 'Done'."
-msgstr ""
+msgstr "Se hai apportato delle modifiche, fai clic su \"Fine\"."
 
 #: ../../source/create/avatars/find-avatars.rst:89
 msgid "Click on the FBX file in the 'Assets' manager."
-msgstr ""
+msgstr "Fai clic sul file FBX nella gestione 'Assets'."
 
 #: ../../source/create/avatars/find-avatars.rst:93
 msgid ""
@@ -4879,6 +5235,9 @@ msgid ""
 "avatar-exporter>`_. Open the 'Overte' menu in the top menu bar, then "
 "select 'Export New Avatar'."
 msgstr ""
+"Assicurati di aver installato `avatar exporter <#install-the-avatar-"
+"exporter>`_. Apri il menu 'Overte' nella barra dei menu in alto, quindi "
+"seleziona 'Export New Avatar'."
 
 #: ../../source/create/avatars/find-avatars.rst:94
 msgid ""
@@ -4887,16 +5246,23 @@ msgid ""
 "automatically for you. Though we recommend that you keep your avatars in "
 "this directory, you can change it to another location on your computer."
 msgstr ""
+"Assegna un nome al tuo progetto avatar. La posizione predefinita del "
+"progetto è la cartella ``Documents\\Overte Projects`` del tuo utente locale, "
+"che viene creata automaticamente. Sebbene consigliamo di conservare i tuoi "
+"avatar in questa cartella, puoi modificarla e scegliere un'altra posizione "
+"sul tuo computer."
 
 #: ../../source/create/avatars/find-avatars.rst:98
 msgid "Click 'Export'."
-msgstr ""
+msgstr "Click 'Export'."
 
 #: ../../source/create/avatars/find-avatars.rst:100
 msgid ""
 "Your avatar package has been created! The File Explorer will open to your"
 " new avatar project."
 msgstr ""
+"Il tuo pacchetto avatar è stato creato! Esplora file si aprirà sul tuo nuovo "
+"progetto avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:104
 msgid ""
@@ -4905,16 +5271,24 @@ msgid ""
 "Projects\\avatar\\<project name>\\textures`` directory. Otherwise, they "
 "may not show up on your avatar."
 msgstr ""
+"Se utilizzi texture esterne per il tuo avatar, copiale nella cartella ``"
+"Documents\\Overte Projects\\avatar\\<project name>\\textures`` del tuo "
+"utente locale. In caso contrario, potrebbero non essere visualizzate sul tuo "
+"avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:108
 msgid "Test Your Avatar"
-msgstr ""
+msgstr "Metti alla prova il tuo avatar"
 
 #: ../../source/create/avatars/find-avatars.rst:110
+#, fuzzy
 msgid ""
 "We encourage you to \"spot check\" your avatar in Unity before exporting "
 "it with the `Overte Avatar Exporter for Unity`_. Check for the following:"
 msgstr ""
+"Ti consigliamo di effettuare un controllo a campione del tuo avatar in Unity "
+"prima di esportarlo con \"Overte Avatar Exporter for Unity\"_. Verifica "
+"quanto segue:"
 
 #: ../../source/create/avatars/find-avatars.rst:112
 msgid ""
@@ -4924,6 +5298,11 @@ msgid ""
 "object included in the model. All extraneous objects will be imported "
 "into Overte and may affect the rendering or animation of your avatar."
 msgstr ""
+"Verifica che non ci siano oggetti estranei collegati al tuo modello. Ad "
+"esempio, questo `Mech avatar <https://www.cgtrader.com/free-3d-models/"
+"character/sci-fi/low-poly-construction-mech>`_ ha un oggetto blu a terra "
+"incluso nel modello. Tutti gli oggetti estranei verranno importati in Overte "
+"e potrebbero influire sul rendering o sull'animazione del tuo avatar."
 
 #: ../../source/create/avatars/find-avatars.rst:113
 msgid ""
@@ -4932,6 +5311,10 @@ msgid ""
 "'Muscles & Settings' to test your avatar's bone configuration and ensure "
 "that it works as expected."
 msgstr ""
+"Verifica i movimenti delle ossa. Nell'Inspector di Unity, apri 'Rig' Per "
+"'Animation Type', scegli 'Humanoid' e poi fai clic su 'Apply'. Vai su "
+"'Muscles & Settings' per testare la configurazione delle ossa del tuo avatar "
+"e assicurarti che funzioni come previsto."
 
 #: ../../source/create/avatars/find-avatars.rst:122
 msgid ""
@@ -4940,10 +5323,13 @@ msgid ""
 "<../../explore/personalize/change-avatar.html#use-your-own-custom-"
 "avatar>`_ to wear it."
 msgstr ""
+"Se tutto sembra a posto, devi `host your avatar <package-avatar.html#host-"
+"your-avatar>`_ e poi `cambiare il tuo avatar <../../explore/personalize/"
+"change-avatar.html#use-your-own-custom-avatar>`_ per indossarlo."
 
 #: ../../source/create/avatars/find-avatars.rst:126
 msgid "Troubleshooting Tips"
-msgstr ""
+msgstr "Suggerimenti per la risoluzione dei problemi"
 
 #: ../../source/create/avatars/find-avatars.rst:128
 msgid ""
@@ -4953,23 +5339,29 @@ msgid ""
 "packager>`_. Here are some other issues you may encounter after using a "
 "downloaded avatar and using the avatar exporter:"
 msgstr ""
+"Molti degli errori che potresti riscontrare riguardano problemi con lo "
+"scheletro dell'avatar. Questi problemi sono documentati in dettaglio qui: `"
+"Troubleshooting with the Avatar Packager <package-avatar.html"
+"#troubleshooting-with-the-avatar-packager>`_. Ecco alcuni altri problemi che "
+"potresti incontrare dopo aver utilizzato un avatar scaricato e aver usato "
+"l'esportatore di avatar:"
 
 #: ../../source/create/avatars/find-avatars.rst:131
 #: ../../source/explore/get-started/vr-controls.rst:190
 msgid "Issue"
-msgstr ""
+msgstr "Problema"
 
 #: ../../source/create/avatars/find-avatars.rst:131
 msgid "Troubleshooting Tip"
-msgstr ""
+msgstr "Suggerimento per la risoluzione dei problemi"
 
 #: ../../source/create/avatars/find-avatars.rst:133
 msgid "*You receive a warning in Unity:*"
-msgstr ""
+msgstr "*You receive a warning in Unity:*"
 
 #: ../../source/create/avatars/find-avatars.rst:135
 msgid "\"Character is not in T pose.\""
-msgstr ""
+msgstr "\"Character is not in T pose.\""
 
 #: ../../source/create/avatars/find-avatars.rst:133
 msgid ""
@@ -4978,52 +5370,67 @@ msgid ""
 "'Apply' and 'Done'. We recommend doing this after correcting any issues "
 "with remapping bones."
 msgstr ""
+"Vai all''Inspector', fai clic su 'Configure' e poi seleziona 'Pose' in fondo "
+"al pannello. Seleziona 'Enforce T-Pose' dal menu a tendina. Fai clic su "
+"'Apply' e 'Done'. Consigliamo di eseguire questa operazione dopo aver "
+"corretto eventuali problemi con la rimappatura delle ossa."
 
 #: ../../source/create/avatars/find-avatars.rst:137
 msgid "In Unity, your avatar is a solid color."
-msgstr ""
+msgstr "In Unity, il tuo avatar è di un colore uniforme."
 
 #: ../../source/create/avatars/find-avatars.rst:137
 msgid ""
 "This suggests that the materials or shaders you are using are not "
 "supported."
 msgstr ""
+"Ciò suggerisce che i materiali o gli shader che stai utilizzando non sono "
+"supportati."
 
 #: ../../source/create/avatars/find-avatars.rst:139
 msgid "Click and drag your model into the 'Scene' window."
-msgstr ""
+msgstr "Fai clic e trascina il tuo modello nella finestra 'Scena'."
 
 #: ../../source/create/avatars/find-avatars.rst:140
 msgid ""
 "Select all of the unsupported materials. These will be one solid color, "
 "such as pink."
 msgstr ""
+"Seleziona tutti i materiali non supportati. Questi saranno di un unico "
+"colore, come il rosa."
 
 #: ../../source/create/avatars/find-avatars.rst:142
 msgid ""
 "In the 'Inspector', change the 'Shader' to one of the 'Standard' options."
 " All materials should now show up correctly."
 msgstr ""
+"Nella finestra 'Inspector', cambia lo 'Shader' scegliendo una delle opzioni "
+"'Standard'. Ora tutti i materiali dovrebbero essere visualizzati "
+"correttamente."
 
 #: ../../source/create/avatars/find-avatars.rst:145
 msgid "Your avatar is gray."
-msgstr ""
+msgstr "Il tuo avatar è grigio."
 
 #: ../../source/create/avatars/find-avatars.rst:145
 msgid "One of the following issues could have occurred:"
-msgstr ""
+msgstr "Potrebbe essersi verificato uno dei seguenti problemi:"
 
 #: ../../source/create/avatars/find-avatars.rst:147
 msgid ""
 "Make sure you copied your avatar's textures into the project’s textures "
 "folder"
 msgstr ""
+"Assicurati di aver copiato le texture del tuo avatar nella cartella delle "
+"texture del progetto"
 
 #: ../../source/create/avatars/find-avatars.rst:148
 msgid ""
 "Verify that your textures are in a format that we support (PNG, JPEG, "
 "JPG, TGA, TIF, or TIFF)."
 msgstr ""
+"Verifica che le tue texture siano in un formato da noi supportato (PNG, "
+"JPEG, JPG, TGA, TIF o TIFF)."
 
 #: ../../source/create/avatars/find-avatars.rst:150
 msgid ""
@@ -5031,10 +5438,13 @@ msgid ""
 "'Inspector', and click 'Extract Textures'. Extract your textures into "
 "your asset's folder. You can do the same with Materials."
 msgstr ""
+"Se le texture sono incorporate nel tuo avatar: seleziona il file FBX, vai su "
+"'Inspector' e fai clic su 'Extract Textures'. Estrai le texture nella "
+"cartella del tuo asset. Puoi fare lo stesso con i materiali."
 
 #: ../../source/create/avatars/find-avatars.rst:154
 msgid "Your avatar is tied up into knots or laying down."
-msgstr ""
+msgstr "Il tuo avatar è annodato o sdraiato."
 
 #: ../../source/create/avatars/find-avatars.rst:154
 msgid ""
@@ -5043,16 +5453,23 @@ msgid ""
 "Update your project in Unity (go to Update Existing Avatar, then browse "
 "to your avatar package)."
 msgstr ""
+"Questo potrebbe significare che lo scheletro non è corretto. Riapri il tuo "
+"avatar in Unity e ripeti i passaggi da 2 a 5 di `Create an Avatar Package`_. "
+"Aggiorna il tuo progetto in Unity (vai su Update Existing Avatar,, quindi "
+"cerca il tuo pacchetto avatar)."
 
 #: ../../source/create/avatars/find-avatars.rst:159
 msgid ""
 "If it still doesn't work, ensure that you are testing the correct file "
 "that the avatar exporter created."
 msgstr ""
+"Se il problema persiste, assicurati di utilizzare il file corretto creato "
+"dall'esportatore di avatar per il test."
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid "Your avatar's skin doesn't move properly with animations."
 msgstr ""
+"La pelle del tuo avatar non si muove correttamente durante le animazioni."
 
 #: ../../source/create/avatars/find-avatars.rst:162
 msgid ""
@@ -5062,6 +5479,11 @@ msgid ""
 " such as Blender or Maya and fix the skin weighting on the avatar prior "
 "to using the avatar exporter in Unity."
 msgstr ""
+"L'esportatore di avatar è stato creato per migliorare il processo di rigging "
+"e mappatura dello scheletro. Questo non influirà sulle animazioni del tuo "
+"avatar. Per regolare le animazioni, dovrai utilizzare un software di "
+"modellazione 3D come Blender o Maya e correggere la ponderazione della pelle "
+"dell'avatar prima di utilizzare l'esportatore in Unity."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:8
 msgid ""
@@ -5069,20 +5491,25 @@ msgid ""
 "automatically for you. You do not need any advanced knowledge of rigging "
 "to create simple animations for your avatar."
 msgstr ""
+"Mixamo è un sistema di intelaiatura che crea automaticamente lo scheletro "
+"del tuo modello. Non è necessaria alcuna conoscenza avanzata di intelaiatura "
+"per creare semplici animazioni per il tuo avatar."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:10
 msgid "In this tutorial, we will use an avatar"
-msgstr ""
+msgstr "In questo tutorial useremo un avatar"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:12
 msgid "Go to **File > Animate with Mixamo**."
-msgstr ""
+msgstr "Vai a **File > Animate with Mixamo**."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:13
 msgid ""
 "Save your avatar with a name and wait while it is exported to the auto-"
 "rigger.  ![](_images/character-upload.png)"
 msgstr ""
+"Salva il tuo avatar con un nome e attendi che venga esportato nell'auto-"
+"rigger.  ![](_images/character-upload.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:19
 msgid ""
@@ -5091,16 +5518,23 @@ msgid ""
 "Skeleton LOD has been set to 'Standard'. These settings ensure that your "
 "avatar will work property in Overte. ![](_images/auto-rigger.png)"
 msgstr ""
+"Una volta elaborato il tuo avatar, l'auto-intelaiatura di Mixamo mostrerà il "
+"tuo avatar animato. Assicurati che Facial Blendshapes sia impostato su "
+"'Enabled' e che Skeleton LOD sia impostato su 'Standard'. Queste "
+"impostazioni garantiscono che il tuo avatar funzioni correttamente in "
+"Overte. ![](_images/auto-rigger.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:20
 msgid ""
 "If you made changes to your settings, click 'Update Rig'. Mixamo will re-"
 "process your avatar with these updates."
 msgstr ""
+"Se hai apportato modifiche alle impostazioni, fai clic su 'Update Rig'. "
+"Mixamo rielaborerà il tuo avatar con questi aggiornamenti."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:21
 msgid "Click 'Finish' to start applying animation."
-msgstr ""
+msgstr "Fai clic su \"Fine\" per avviare l'applicazione dell'animazione."
 
 #: ../../source/create/avatars/mixamo-tutorial.md:22
 msgid ""
@@ -5109,10 +5543,15 @@ msgid ""
 "select Format as 'FBX' and Pose as 'T-pose'. ![](_images/mixamo-"
 "download.png)"
 msgstr ""
+"Una volta che il tuo avatar è stato correttamente animato, puoi scaricarlo e "
+"modificarlo ulteriormente utilizzando un software 3D a tua scelta. Quando "
+"richiesto, seleziona il formato 'FBX' e la posa 'T-pose'. ![](_images/mixamo-"
+"download.png)"
 
 #: ../../source/create/avatars/mixamo-tutorial.md:26
 msgid "[Tutorial: Modify Materials and Textures Using Blender](blender-tutorial)"
 msgstr ""
+"[Tutorial: Modificare materiali e texture con Blender](blender-tutorial)"
 
 #: ../../source/create/avatars/package-avatar.rst:2
 msgid ""
@@ -5120,6 +5559,9 @@ msgid ""
 "FBX (glTF also supported), doesn't mention that you don't need to "
 "package, mentions Marketplace"
 msgstr ""
+"Questo documento è obsoleto. FIXME: Menziona High Fidelity, menziona solo "
+"FBX (è supportato anche glTF), non menziona che non è necessario creare "
+"pacchetti, menziona Marketplace"
 
 #: ../../source/create/avatars/package-avatar.rst:9
 msgid ""
@@ -5132,12 +5574,22 @@ msgid ""
 "Packager`_ in Interface. Interface's Avatar packager needs maintenance, "
 "so it's not recommended currently."
 msgstr ""
+"Come minimo, gli avatar in Overte devono avere un modello glTF, GLB o FBX e "
+"un file FST associato opzionale che includa informazioni sull'aspetto e sul "
+"comportamento dell'avatar. Insieme, questi due file (con eventuali texture o "
+"script opzionali) formano un \"pacchetto avatar\". Esistono tre modi per "
+"creare un pacchetto avatar: utilizzando l'`Overte Avatar Exporter for Unity`"
+"_  in Unity, creando manualmente il file FST oppure utilizzando l'`Avatar "
+"Packager`_  in Interface. L'Avatar Packager di Interface necessita di "
+"manutenzione, quindi al momento non è consigliato."
 
 #: ../../source/create/avatars/package-avatar.rst:11
 msgid ""
 "Models conforming to Avatar Standards Guide <avatar-standards> work "
 "directly as avatars with no FST file needed."
 msgstr ""
+"I modelli conformi alla Guida agli standard degli avatar <avatar-standards> "
+"funzionano direttamente come avatar senza bisogno di un file FST."
 
 #: ../../source/create/avatars/package-avatar.rst:13
 msgid ""
@@ -5145,10 +5597,14 @@ msgid ""
 "that Overte can access it and correctly render your avatar for all users."
 " Any web server with direct HTTP or HTTPS access is compatible."
 msgstr ""
+"Una volta creato il pacchetto del tuo avatar, devi caricarlo sul cloud in "
+"modo che Overte possa accedervi e visualizzarlo correttamente per tutti gli "
+"utenti. Qualsiasi server web con accesso diretto tramite HTTP o HTTPS è "
+"compatibile."
 
 #: ../../source/create/avatars/package-avatar.rst:20
 msgid "Package Your Avatar"
-msgstr ""
+msgstr "Prepara il tuo Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:22
 msgid ""
@@ -5159,6 +5615,12 @@ msgid ""
 "information about the skeleton, blendshapes, textures, and scripts used "
 "by your avatar."
 msgstr ""
+"Se stai leggendo questa pagina, probabilmente hai già :doc:`built your own "
+"FBX model <create-avatars>` o :doc:`found and downloaded a model <find-"
+"avatars>` che desideri utilizzare in Overte. Pertanto, non resta che "
+"impacchettare il tuo avatar e creare il file FST. Questo file include "
+"informazioni sullo scheletro, i blendshape, le texture e gli script "
+"utilizzati dal tuo avatar."
 
 #: ../../source/create/avatars/package-avatar.rst:24
 msgid ""
@@ -5166,6 +5628,10 @@ msgid ""
 "Unity, manually in a text editor or through our Avatar Packager. In-game "
 "Avatar Packager needs maintenance and is not recommended currently."
 msgstr ""
+"Offriamo tre modi per creare un pacchetto avatar: tramite Unity, manualmente "
+"in un editor di testo oppure tramite il nostro Avatar Packager. L'Avatar "
+"Packager integrato nel gioco necessita di manutenzione e al momento non è "
+"consigliato."
 
 #: ../../source/create/avatars/package-avatar.rst:30
 msgid ""
@@ -5174,17 +5640,27 @@ msgid ""
 " Exporter for Unity (also known as the \"avatar exporter\") converts "
 "human-like avatars and packages them for use in Overte."
 msgstr ""
+"In alcuni casi, potrebbe essere necessario scaricare :doc:`download an "
+"avatar from an external website <find-avatars>` e utilizzarlo in Overte. "
+"L'Overte Avatar Exporter per Unity (noto anche come \"esportatore di avatar\""
+") converte gli avatar dall'aspetto umano e li impacchetta per l'utilizzo in "
+"Overte."
 
 #: ../../source/create/avatars/package-avatar.rst:32
+#, fuzzy
 msgid ""
 "Once you have successfully used the :doc:`avatar exporter <find-avatars>`"
 " to package your avatar, you must host it somewhere on the cloud. You can"
 " upload it to Amazon S3, Cloudflare R2 or a webserver for example."
 msgstr ""
+"Una volta utilizzato con successo lo strumento :doc:`avatar exporter <find-"
+"avatars>`per creare il pacchetto del tuo avatar, devi caricarlo da qualche "
+"parte nel cloud. Puoi caricarlo su Amazon S3, Cloudflare R2 o su un server "
+"web, ad esempio."
 
 #: ../../source/create/avatars/package-avatar.rst:36
 msgid "Creating FST file manually"
-msgstr ""
+msgstr "Creazione manuale del file FST"
 
 #: ../../source/create/avatars/package-avatar.rst:38
 msgid ""
@@ -5194,24 +5670,35 @@ msgid ""
 "that 1 length unit in model file is 1 meter. If `filename` is just a file"
 " name and not a full URL, then relative path will be used."
 msgstr ""
+"Il file FST è un normale file di testo e può essere creato con un editor di "
+"testo. Nella sua forma più semplice, contiene il nome dell'avatar, il nome "
+"del file o l'URL del file del modello e la sua scala. Overte utilizza la "
+"scala metrica, quindi `scale = 1` significa che 1 unità di lunghezza nel "
+"file del modello corrisponde a 1 metro. Se `filename` è solo il nome del "
+"file e non un URL completo, verrà utilizzato un percorso relativo."
 
 #: ../../source/create/avatars/package-avatar.rst:40
 msgid ""
 "Flow bones configuration can be generated using the `Flow app` available "
 "in Overte's Community Apps (`More` icon in Overte's UI)."
 msgstr ""
+"La configurazione delle ossa di Flow può essere generata utilizzando l'app "
+"`Flow` disponibile nelle app della community di Overte (icona `More` "
+"nell'interfaccia utente di Overte)."
 
 #: ../../source/create/avatars/package-avatar.rst:42
 msgid "Example avatar FST file with custom animations and materials override:"
 msgstr ""
+"Esempio di file FST per avatar con animazioni personalizzate e override dei "
+"materiali:"
 
 #: ../../source/create/avatars/package-avatar.rst:57
 msgid "Avatar Packager"
-msgstr ""
+msgstr "Pacchetto Avatar"
 
 #: ../../source/create/avatars/package-avatar.rst:59
 msgid "Avatar Packager is not remommended currently."
-msgstr ""
+msgstr "Avatar Packager non è attualmente raccomandato."
 
 #: ../../source/create/avatars/package-avatar.rst:61
 msgid ""
