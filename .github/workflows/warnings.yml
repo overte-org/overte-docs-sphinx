@@ -1,4 +1,4 @@
-name: Master CI Check Warnings
+name: CI Check Warnings
 
 on:
   push:
