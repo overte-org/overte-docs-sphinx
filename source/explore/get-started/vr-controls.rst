@@ -1,23 +1,10 @@
-.. warning::
-    This document is slightly outdated.
-    FIXME: since we support OpenVR and Oculus Runtime we support almost all HMDs and input devices on the market, we probably support alternatives to Vive Trackers
-
 #########################
 Use Your VR Equipment
 #########################
 
-To get the best and most immersive experience in Overte, we encourage you to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support the following VR equipment:
+To get the best and most immersive experience in Overte, we encourage you to use VR equipment, such as the HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support both OpenVR and OpenXR, which means we support most currently available HMDs and hand controllers.
 
-+------------------------------------------------+---------------------+
-| Head Mounted Displays                          | Hand Controllers    |
-+================================================+=====================+
-| Oculus Rift (CV1 and S)                        | Oculus Touch        |
-+------------------------------------------------+---------------------+
-| HTC Vive                                       | HTC Vive            |
-+------------------------------------------------+---------------------+
-| Windows MR                                     | XBox One Controller |
-+------------------------------------------------+---------------------+
-
+We recommend you use SteamVR, which should allow you to use any VR equipment you choose. Monado and Wivrn are also supported, as are any OpenVR or OpenXR runtimes.
 
 .. contents:: On This Page
     :depth: 2
@@ -73,7 +60,10 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 | Strafing                   |                                                                                 | 
 +----------------------------+---------------------------------------------------------------------------------+
 | *VR Movement* >            | Enables jump and fly controls.                                                  |
-| Jumping and flying         |                                                                                 | 
+| Jumping and flying         |                                                                                 |
++----------------------------+---------------------------------------------------------------------------------+
+| *VR Movement* >            | Enables floating when there is no longer a surface below your feet.             |
+| Hover when unsupported     |                                                                                 |
 +----------------------------+---------------------------------------------------------------------------------+
 | *VR Movement* >            | This setting controls which direction you move in:                              |
 | Movement Direction         |                                                                                 |
@@ -106,13 +96,18 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 |                            |   walking speed in meters/second. Fully pushing your joystick forward will make |
 |                            |   your avatar run.                                                              |
 +----------------------------+---------------------------------------------------------------------------------+
-| *VR Movement* >            | This setting controls if and when your avatar leans in VR mode.                 |
-| Avatar leaning behavior    |                                                                                 |
-|                            | * **Auto**: This is the default setting. Your avatar will lean if you are       |
-|                            |   standing in the real world.                                                   |
-|                            | * **Seated**: Your avatar will not lean if you are sitting in the real world.   |
-|                            | * **Standing**: Your avatar will lean if you are sitting in the real world.     |
-|                            | * **Disabled**: Your avatar can sit on the floor (experimental).                |
+| *VR Movement* >            | When you lean, your avatar would naturally lean too. This setting dictates when |
+| Allow my avatar to lean    | your avatar would stand still and lean, or if it would instead move to follow   |
+|                            | your head's position.                                                           |
+|                            |                                                                                 |
+|                            | * **When I'm standing**:  When you are standing and lean your avatar will lean  |
+|                            |   too, but when you are seating or crouching your body will move with your head |
+|                            |   position.                                                                     |
+|                            | * **Always**: Your avatar will always lean as your head moves horizontally;     |
+|                            |   ideally suited for when you will stay in one spot and will not be walking     |
+|                            |   around your play space.                                                       |
+|                            | * **Never**: Whether standing, sitting or crouching your avatar will always     |
+|                            |   move to follow your head position; perfect for room-scale VR.                 |
 +----------------------------+---------------------------------------------------------------------------------+
 | User real world height     | You can change your real world height for better tracking in VR mode.           |
 | (in meters)                |                                                                                 |
@@ -124,11 +119,15 @@ You can change many avatar movement settings in VR such as jumping, flying, and 
 Motion Capture Using Vive Trackers
 ------------------------------------------
 
-You can enhance your Overte experience using full body motion capture (mocap). Overte currently supports mocap using HTC Vive Trackers. 
+You can enhance your Overte experience using full body tracking (FBT), also known as full body motion capture (mocap). Overte currently supports FBT using any trackers compatible with OpenVR or OpenXR runtimes, including the HTC Vive Trackers.
+
+.. note:: Whilst Overte supports full body tracking in both OpenVR and OpenXR, for best compatibility we recommend you use SteamVR runtime for accurate body tracking.
+
+This section will focus exclusively on HTC Vive Trackers, but any full body trackers should work just as well.
 
 Vive trackers need to be strapped to the body part you wish to track. You can replace the HMD and hand controllers with trackers if you only need to track the movement of your head and hands. 
 
-You can set up different mocap systems:
+You can set up different FBT systems:
 
 +---------------------+--------------------------+---------------------------------------------------------+
 | Mocap System        | Equipment Needed         | Recommended Straps                                      |
@@ -163,7 +162,7 @@ Configure Your Mocap System
 1. Strap your Vive trackers to your body as shown in the image.
 2. Connect your trackers, HMD, and controllers to SteamVR.
 3. In Interface, pull up your HUD or Tablet and go to **Menu > Settings > Calibration**.
-4. Configure your mocap system by:
+4. Configure your full body tracking system by:
 
    * Selecting the right device for your head and hands. If you're using a head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop Mode'.
    * Selecting the body position of any additional trackers. 
