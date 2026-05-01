@@ -10,21 +10,22 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-02-27 09:30+0000\n"
+"PO-Revision-Date: 2026-05-01 20:27+0000\n"
 "Last-Translator: Pavel Volkov <plvolkov14@gmail.com>\n"
+"Language-Team: Russian <https://weblate.overte.org/projects/overte/"
+"overte-documentation/ru/>\n"
 "Language: ru\n"
-"Language-Team: Russian <https://weblate.overte.org/projects/overte"
-"/overte-documentation/ru/>\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: Weblate 5.13.3\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/contribute.rst:5
 msgid "Contribute"
-msgstr "Сделать вклад"
+msgstr "Участие"
 
 #: ../../source/contribute.rst:7
 #, fuzzy
@@ -365,7 +366,7 @@ msgstr "Приложения для таблетов"
 
 #: ../../source/create.rst:3
 msgid "Create"
-msgstr "Создать"
+msgstr "Создание"
 
 #: ../../source/create.rst:5
 msgid ""
@@ -6488,6 +6489,8 @@ msgid ""
 "Click the 'Web' icon to create a web entity. By default, a web entity "
 "always displays Overte's home page."
 msgstr ""
+"Нажмите на иконку 'Web', чтобы создать объект Web. По умолчанию он всегда "
+"отображает главную страницу Overte."
 
 #: ../../source/create/entities/display-youtube.md:32
 msgid "Display Overte's YouTube Channel"
@@ -10355,7 +10358,7 @@ msgstr ""
 
 #: ../../source/developer.rst:3
 msgid "Developer"
-msgstr "Разработчик"
+msgstr "Разработчикам"
 
 #: ../../source/developer.rst:5
 msgid ""
@@ -12773,7 +12776,7 @@ msgstr ""
 
 #: ../../source/explore.rst:3
 msgid "Explore"
-msgstr ""
+msgstr "Использование"
 
 #: ../../source/explore.rst:5
 msgid ""
@@ -16751,11 +16754,11 @@ msgstr ""
 
 #: ../../source/home.rst:47
 msgid "HOME"
-msgstr ""
+msgstr "Главная"
 
 #: ../../source/home.rst:47
 msgid "EXPLORE"
-msgstr ""
+msgstr "ИСПОЛЬЗОВАНИЕ"
 
 #: ../../source/home.rst:47
 msgid "CREATE"
@@ -16783,7 +16786,7 @@ msgstr ""
 
 #: ../../source/home.rst:47
 msgid "API REFERENCE"
-msgstr ""
+msgstr "СПРАВОЧНИК API"
 
 #: ../../source/home.rst:5
 msgid "Home"
@@ -16796,6 +16799,11 @@ msgid ""
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
 msgstr ""
+"Overte — это программное обеспечение с открытым исходным кодом, позволяющее "
+"создавать и делиться виртуальными мирами в виртуальной реальности (VR) и на "
+"обычных компьютерах. Вы можете создавать и размещать свой собственный "
+"виртуальный мир, исследовать другие миры, встречаться и общаться с другими "
+"пользователями, посещать или проводить прямые VR-мероприятия и многое другое."
 
 #: ../../source/home.rst:10
 msgid ""
@@ -16806,31 +16814,45 @@ msgid ""
 "always be able to interact with your environment, engage with your "
 "friends, and listen to conversations just like you would in real life."
 msgstr ""
+"Overte для виртуальных миров предоставляет встроенные социальные функции, "
+"такие как взаимодействие с аватарами, пространственный звук и интерактивную "
+"физику. Кроме того, вы можете импортировать любой 3D-объект в свою "
+"виртуальную среду. Где бы вы ни находились в Overte, вы всегда сможете "
+"взаимодействовать со своим окружением, общаться с друзьями и вести "
+"разговоры, как в реальной жизни."
 
 #: ../../source/home.rst:14
+#, fuzzy
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
 msgstr ""
+":doc:`Установите Overte <explore/get-started/install>` |Download| или "
+"посмотрите нашу :doc:`Галерею <explore/gallery>` |Gallery|."
 
 #: ../../source/shared.rst:1
 msgid "Download"
 msgstr ""
 
 #: ../../source/home.rst:17
+#, fuzzy
 msgid ""
 "In addition to the documentation, you can join the discussion on the "
 "Overte `Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| or "
 "`Discord server <https://discord.gg/4YuQvc8K2f>`_ |Discord|."
 msgstr ""
+"В дополнение к документации, вы можете присоединится к обсуждению в Overte `"
+"Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| или `сервере "
+"Discord <https://discord.gg/4YuQvc8K2f>`_ |Discord|."
 
 #: ../../source/home.rst:20
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
 msgstr ""
+"Документация написана на `английском языке <https://docs.overte.org/>`_."
 
 #: ../../source/home.rst:22
 msgid "The following translations are available:"
-msgstr ""
+msgstr "Доступны следующие переводы:"
 
 #: ../../source/home.rst:24
 msgid "`Deutsch <https://docs.overte.org/de/latest/>`_ |de_trans|"
@@ -16882,51 +16904,62 @@ msgstr ""
 
 #: ../../source/home.rst:34
 msgid "What can I do?"
-msgstr ""
+msgstr "Что вы можете сделать?"
 
 #: ../../source/home.rst:36
 msgid "You have the power to shape your VR experience in Overte."
-msgstr ""
+msgstr "Вы сами определяете свой VR-опыт в Overte."
 
 #: ../../source/home.rst:38
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
 msgstr ""
+":doc:`ИССЛЕДУЙТЕ <explore>` ,перемещаясь между доменами в метавселенной, "
+"посещайте мероприятия и узнавайте, чем занимаются другие!"
 
 #: ../../source/home.rst:39
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
 msgstr ""
+":doc:`СОЗДАВАЙТЕ <create>` контент: аватары, домены, приложения для "
+"планшетов и многое другое для себя и других."
 
 #: ../../source/home.rst:40
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
 msgstr ""
+":doc:`СКРИПТЫ <script>` позволят проявить свою креативность, применяя "
+"передовые концепции программирования к объектам и аватарам в метавселенной."
 
 #: ../../source/home.rst:41
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
 msgstr ""
+":doc:`ХОСТИТЕ <host>` и создавайте захватывающие пространства, чтобы "
+"обучать, развлекать и общаться с вашей аудиторией."
 
 #: ../../source/home.rst:42
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
-msgstr ""
+msgstr ":doc:`УЧАСТВУЙТЕ <contribute>` в развитии Overte."
 
 #: ../../source/home.rst:43
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
 msgstr ""
+":doc:`РАЗРАБАТЫВАЙТЕ <developer>` проекты, адаптируйте их под себя, или "
+"просто помогайте."
 
 #: ../../source/home.rst:44
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
 msgstr ""
+":doc:`БЕЗОПАСНОСТЬ <security>` : информация о платформе и её компонентах."
 
 #: ../../source/host.rst:9 ../../source/host/start-hosting.rst:3
 msgid "Get Started with Hosting"
@@ -16954,7 +16987,7 @@ msgstr ""
 
 #: ../../source/host.rst:3
 msgid "Host"
-msgstr ""
+msgstr "Хостинг"
 
 #: ../../source/host.rst:5
 msgid ""
@@ -20106,7 +20139,7 @@ msgstr ""
 
 #: ../../source/script.rst:3
 msgid "Script"
-msgstr ""
+msgstr "Скрипты"
 
 #: ../../source/script.rst:5
 msgid ""
@@ -21681,7 +21714,7 @@ msgstr ""
 
 #: ../../source/security.rst:3
 msgid "Security"
-msgstr ""
+msgstr "Безопасность"
 
 #: ../../source/security.rst:5
 msgid ""
@@ -31339,4 +31372,3 @@ msgstr ""
 #~ " between February 26th & March 16th,"
 #~ " 2020."
 #~ msgstr ""
-
