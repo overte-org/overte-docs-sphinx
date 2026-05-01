@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-05-01 20:44+0000\n"
+"PO-Revision-Date: 2026-05-01 20:47+0000\n"
 "Last-Translator: Pavel Volkov <plvolkov14@gmail.com>\n"
 "Language-Team: Russian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ru/>\n"
@@ -328,7 +328,7 @@ msgstr ""
 
 #: ../../source/create.rst:11 ../../source/create/tools.rst:7
 msgid "Create Tools"
-msgstr "Средства творения"
+msgstr "Инструменты"
 
 #: ../../source/create.rst:11 ../../source/create/avatars.rst:3
 #: ../../source/host/add-content/bake-content.rst:45
