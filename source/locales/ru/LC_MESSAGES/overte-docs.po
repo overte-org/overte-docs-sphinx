@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-05-02 22:04+0000\n"
+"PO-Revision-Date: 2026-05-03 04:06+0000\n"
 "Last-Translator: Pavel Volkov <plvolkov14@gmail.com>\n"
 "Language-Team: Russian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ru/>\n"
@@ -14076,15 +14076,15 @@ msgstr "**Минимум:** Nvidia 600 серии"
 
 #: ../../source/explore/get-started/install.rst:36
 msgid "**Recommended:** Nvidia 900 series or higher"
-msgstr ""
+msgstr "**Рекомендуется:** Nvidia 900 серии или выше"
 
 #: ../../source/explore/get-started/install.rst:37
 msgid "**Minimum:** AMD Radeon HD 87XX series"
-msgstr ""
+msgstr "**Минимум:** AMD Radeon HD 87XX серии"
 
 #: ../../source/explore/get-started/install.rst:38
 msgid "**Recommended:** AMD Radeon HD 89XX series or higher"
-msgstr ""
+msgstr "**Рекомендуется:** AMD Radeon HD 89XX серии или выше"
 
 #: ../../source/explore/get-started/install.rst:39
 msgid ""
@@ -14099,12 +14099,16 @@ msgid ""
 "The listed graphics adapters support OpenGL 4.1 and above. This is a "
 "requirement for any graphics adapter running Overte."
 msgstr ""
+"Указанные видеокарты поддерживают OpenGL 4.1 и выше. Это обязательное "
+"условие для любого графического адаптера для запуска Overte."
 
 #: ../../source/explore/get-started/install.rst:43
 msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Overte:"
 msgstr ""
+"Кроме того, ваша сеть должна обладать достаточной пропускной способностью "
+"для работы Overte:"
 
 #: ../../source/explore/get-started/install.rst:45
 msgid ""
@@ -14112,6 +14116,9 @@ msgid ""
 " have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
 "upload**."
 msgstr ""
+"Если вы используете Интерфейс только для путешествия по метавселенной, то "
+"скорость интернета должна быть не менее **10 Мбит/с на загрузку** и **2 Мбит/"
+"с на выгрузку**."
 
 #: ../../source/explore/get-started/install.rst:46
 msgid ""
@@ -14121,12 +14128,20 @@ msgid ""
 "Mbit/s upload** per user if you host your assets on an external web "
 "server rather than your domain server."
 msgstr ""
+"Если вы размещаете доменный сервер на удаленной машине или на своем "
+"локальном компьютере, вам необходимо добавить **10 Мбит/с на выгрузку** для "
+"каждого пользователя, которому вы хотите разрешить одновременно заходить на "
+"ваш домен. И всего **2 Мбит/с на выгрузку** на пользователя, если вы "
+"размещаете свои ресурсы на внешнем веб-сервере, а не на доменном сервере."
 
 #: ../../source/explore/get-started/install.rst:49
 msgid ""
 "A world that is specifically built for low-end systems might run fine on "
 "a system with slightly less memory or a lower CPU core count."
 msgstr ""
+"Мир, специально созданный для систем низкого уровня, может нормально "
+"работать и на системе с немного меньшим объемом памяти или меньшим "
+"количеством ядер процессора."
 
 #: ../../source/explore/get-started/install.rst:51
 msgid ""
@@ -14134,16 +14149,21 @@ msgid ""
 "much better graphics adapter, depending on your display's resolution and "
 "targeted frame rate."
 msgstr ""
+"Для запуска Overte на дисплее с высоким разрешением или в режиме VR "
+"потребуется гораздо более мощная видеокарта, в зависимости от разрешения "
+"вашего дисплея и желаемой частоты кадров."
 
 #: ../../source/explore/get-started/install.rst:55
 msgid "Download Overte"
-msgstr ""
+msgstr "Загрузите Overte"
 
 #: ../../source/explore/get-started/install.rst:57
 msgid ""
 "The current release is available to `download on our website "
 "<https://overte.org/downloads.html>`_."
 msgstr ""
+"Текущая версия доступна для `скачивания на нашем сайте <https://overte.org/"
+"downloads.html>`_."
 
 #: ../../source/explore/get-started/install.rst:59
 msgid ""
@@ -14152,6 +14172,10 @@ msgid ""
 "Overte. VR mode is not supported on macOS. The Oculus Runtime is not "
 "supported on Linux."
 msgstr ""
+"Если вы планируете использовать Overte в режиме VR с HMD, убедитесь, что "
+"SteamVR или Oculus Runtime также установлены в вашей системе перед запуском "
+"Overte. Режим VR не поддерживается на macOS. Oculus Runtime не "
+"поддерживается на Linux."
 
 #: ../../source/explore/get-started/install.rst:67
 msgid ""
