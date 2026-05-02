@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-05-01 21:57+0000\n"
+"PO-Revision-Date: 2026-05-02 22:04+0000\n"
 "Last-Translator: Pavel Volkov <plvolkov14@gmail.com>\n"
 "Language-Team: Russian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ru/>\n"
@@ -12765,7 +12765,7 @@ msgstr "Галерея"
 
 #: ../../source/explore.rst:11 ../../source/explore/get-started.rst:3
 msgid "Get Started with Overte"
-msgstr ""
+msgstr "Знакомство с Overte"
 
 #: ../../source/explore.rst:11 ../../source/explore/personalize.rst:3
 msgid "Personalize Your Experience"
@@ -12795,6 +12795,12 @@ msgid ""
 "people, attend events, and learn about creation in virtuality. It's an "
 "immersive and interactive experience with realistic visuals and audio."
 msgstr ""
+"Overte — это программное обеспечение для виртуальных миров, где вы можете "
+"общаться и творить вместе с другими. Исследуйте миры, созданные в Overte, и "
+"общайтесь с другими пользователями. Вы можете посещать виртуальные миры "
+"друзей, знакомиться с людьми, участвовать в мероприятиях и учится творить в "
+"виртуальной реальности. Это захватывающий и интерактивный опыт с "
+"реалистичной графикой и звуком."
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -12805,16 +12811,25 @@ msgid ""
 "metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
 msgstr ""
+"Если вы впервые используете Overte, вы начнете свое путешествие в локальном "
+"учебном пространстве, где сможете поэкспериментировать с элементами "
+"управления и изучить интерфейс. Когда вы будете готовы, попробуйте "
+"исследовать другие области с помощью приложения \"Места\" и пообщаться с "
+"людьми в метавселенной. Если вы уже посещали Overte, вы вернетесь в то "
+"место, где были в последний раз."
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
 msgstr ""
+"В этой главе вы узнаете, как максимально эффективно использовать Overte:"
 
 #: ../../source/explore/gallery.rst:5
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
 msgstr ""
+"В этой галерее представлены интерфейсы Overte/Vircadia, а также некоторые "
+"прошлые мероприятия и места, где мы принимали участие."
 
 #: ../../source/explore/gallery.rst:8
 msgid "Maker meeting 28th September 2020"
@@ -12825,6 +12840,8 @@ msgid ""
 "Maker Meeting, 28th September 2020, on the \"El Papa Viejo\" (meaning "
 "\"The Old Pope\")."
 msgstr ""
+"Встреча разработчиков, 28 сентября 2020, на \"El Papa Viejo\" (что означает "
+"\"Старый Папа\")."
 
 #: ../../source/explore/gallery.rst:15 ../../source/explore/gallery.rst:22
 msgid "Startup Asia X 12th June 2020"
@@ -12832,11 +12849,11 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:19
 msgid "Startup Lab Lagoon Koza booth at Startup Asia X, 12th June 2020."
-msgstr ""
+msgstr "Стенд Startup Lab Lagoon Koza на Startup Asia X, 12 июня 2020."
 
 #: ../../source/explore/gallery.rst:26
 msgid "Group photo at the end of Startup Asia X, 12th June 2020."
-msgstr ""
+msgstr "Групповое фото в конце Startup Asia X, 12 июня 2020."
 
 #: ../../source/explore/gallery.rst:29
 msgid "Developer Meeting 20th September 2020"
@@ -12844,7 +12861,7 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:33
 msgid "Dale Glass speaking at the Developer Meeting, 20th September 2020."
-msgstr ""
+msgstr "Dale Glass выступает на Встрече разработчиков, 20 сентября 2020."
 
 #: ../../source/explore/gallery.rst:36
 msgid "Community Meeting 13th July 2020"
@@ -12852,7 +12869,7 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:40
 msgid "Mannequin army, 13th July 2020."
-msgstr ""
+msgstr "Армия манекенов, 13 июля 2020."
 
 #: ../../source/explore/gallery.rst:43
 msgid "Pictionary 5th July 2020"
@@ -12860,7 +12877,7 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:47
 msgid "Pictionary in the old Hub, 5th July 2020."
-msgstr ""
+msgstr "Pictionary на старом Хабе, 5 июля 2020."
 
 #: ../../source/explore/gallery.rst:50
 msgid "29th September 2020"
@@ -12868,7 +12885,7 @@ msgstr ""
 
 #: ../../source/explore/gallery.rst:54
 msgid "Vircadia running on Linux Mint 19.3, 29th September 2020."
-msgstr ""
+msgstr "Vircadia работает на Linux Mint 19.3, 29 сентября 2020."
 
 #: ../../source/explore/gallery.rst:60
 msgid ":doc:`Install Overte <get-started/install>`"
@@ -12878,7 +12895,7 @@ msgstr ""
 #: ../../source/explore/get-started/install.rst:3
 #: ../../source/explore/get-started/install.rst:65
 msgid "Install Overte"
-msgstr ""
+msgstr "Установка Overte"
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/architecture.rst:7
@@ -12918,6 +12935,11 @@ msgid ""
 "application, so that you can begin making friends and exploring the "
 "metaverse."
 msgstr ""
+"Мы знаем, что начать работу с новым приложением может быть непросто: "
+"установка программного обеспечения и изучение элементов управления никогда "
+"не доставляют удовольствия. Надеемся, этот раздел поможет вам познакомиться "
+"с нашим приложением, чтобы вы могли начать заводить друзей и исследовать "
+"метавселенную."
 
 #: ../../source/explore/get-started/adjust-settings.rst:2
 msgid ""
@@ -13989,56 +14011,68 @@ msgid ""
 "provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
 "Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"Overte имеет два разных установщика. *Установщик клиента* содержит все "
+"необходимое для просмотра контента и взаимодействия с пользователями Overte. "
+"Однако с помощью этого установщика вы не можете размещать контент. *"
+"Установщик клиента + сервера* содержит все функции установщика клиента, но "
+"также позволяет :doc:`размещать собственный контент <../../host>` и делиться "
+"им со всем миром. Загрузка установщика клиента + сервера доступна только для "
+"Windows. Для Linux см.: :doc:`Размещение домена на локальном или облачном "
+"сервере Linux <../../host/server-setup/linux-server>`."
 
 #: ../../source/explore/get-started/install.rst:15
 msgid "System Requirements"
-msgstr ""
+msgstr "Системные требования"
 
 #: ../../source/explore/get-started/install.rst:17
 msgid ""
 "In order to run Overte, ensure that your computer meets these system "
 "requirements:"
 msgstr ""
+"Для запуска Overte убедитесь, что ваш компьютер соответствует следующим "
+"системным требованиям:"
 
 #: ../../source/explore/get-started/install.rst:19
 msgid "Operating system:"
-msgstr ""
+msgstr "Операционная система:"
 
 #: ../../source/explore/get-started/install.rst:21
 msgid "Windows 10 64-bit, or Windows 11 64-bit"
-msgstr ""
+msgstr "Windows 10 64-бит или Windows 11 64-бит"
 
 #: ../../source/explore/get-started/install.rst:22
 msgid "Ubuntu 20.04 64 bit, or most other modern Linux distributions"
 msgstr ""
+"Ubuntu 20.04 64-бит или большинство других современных дистрибутивов Linux"
 
 #: ../../source/explore/get-started/install.rst:24
 msgid "CPU:"
-msgstr ""
+msgstr "Процессор:"
 
 #: ../../source/explore/get-started/install.rst:26
 msgid "**Minimum:** Dual-core with hyper-threading"
-msgstr ""
+msgstr "**Минимум:** двухъядерный с поддержкой Hyper-Threading"
 
 #: ../../source/explore/get-started/install.rst:27
 msgid "**Recommended:** Quad-core with hyper-threading or better"
 msgstr ""
+"**Рекомендуется:** четырехъядерный с поддержкой Hyper-Threading или лучше"
 
 #: ../../source/explore/get-started/install.rst:29
 msgid "System memory:"
-msgstr ""
+msgstr "Оперативная память:"
 
 #: ../../source/explore/get-started/install.rst:31
 msgid "**Minimum:** 8GB"
-msgstr ""
+msgstr "**Минимум:** 8Гб"
 
 #: ../../source/explore/get-started/install.rst:33
 msgid "Graphics adapter:"
-msgstr ""
+msgstr "Видеокарта:"
 
 #: ../../source/explore/get-started/install.rst:35
 msgid "**Minimum:** Nvidia 600 series"
-msgstr ""
+msgstr "**Минимум:** Nvidia 600 серии"
 
 #: ../../source/explore/get-started/install.rst:36
 msgid "**Recommended:** Nvidia 900 series or higher"
@@ -14057,6 +14091,8 @@ msgid ""
 "**Minimum:** Intel 5th generation CPU integrated Iris graphics. Using "
 "Intel integrated graphics is not recommended."
 msgstr ""
+"**Минимум:** интегрированная графика Iris для процессоров Intel 5-го "
+"поколения. Использование интегрированной графики Intel не рекомендуется."
 
 #: ../../source/explore/get-started/install.rst:41
 msgid ""
