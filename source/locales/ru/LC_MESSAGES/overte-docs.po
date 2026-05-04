@@ -10,7 +10,7 @@ msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-03-20 17:11+0000\n"
-"PO-Revision-Date: 2026-05-03 04:06+0000\n"
+"PO-Revision-Date: 2026-05-04 20:30+0000\n"
 "Last-Translator: Pavel Volkov <plvolkov14@gmail.com>\n"
 "Language-Team: Russian <https://weblate.overte.org/projects/overte/"
 "overte-documentation/ru/>\n"
@@ -14182,10 +14182,12 @@ msgid ""
 "Once you've downloaded the installer, you're ready to install Overte. The"
 " process will be different based on your operating system:"
 msgstr ""
+"После загрузки установочного файла все готово для установки Overte. Процесс "
+"установки будет отличаться в зависимости от вашей операционной системы:"
 
 #: ../../source/explore/get-started/install.rst:71
 msgid "Windows Install"
-msgstr ""
+msgstr "Windows"
 
 #: ../../source/explore/get-started/install.rst:73
 msgid ""
@@ -14194,72 +14196,92 @@ msgid ""
 "finish the install process, Interface will open, and you will be able to "
 "log in and begin exploring the metaverse."
 msgstr ""
+"Для установки на Windows просто дважды щелкните по иконке файла установщика. "
+"Следуйте инструкциям установщика. После завершения процесса установки "
+"откроется Интерфейс, вы сможете войти в систему и начать изучать "
+"метавселенную."
 
 #: ../../source/explore/get-started/install.rst:78
 msgid "Mac Install"
-msgstr ""
+msgstr "Mac"
 
 #: ../../source/explore/get-started/install.rst:80
 msgid ""
 "At this time, the Overte installer for Mac is unsigned, so you will need "
 "give the OS permission to install the application."
 msgstr ""
+"В настоящее время установщик Overte для Mac не имеет цифровой подписи, "
+"поэтому вам потребуется дать операционной системе разрешение на установку "
+"приложения."
 
 #: ../../source/explore/get-started/install.rst:82
 msgid "Open the downloaded installer dmg file."
-msgstr ""
+msgstr "Откройте загруженный dmg файл установки."
 
 #: ../../source/explore/get-started/install.rst:83
 msgid "Agree to the License Agreement."
-msgstr ""
+msgstr "Примите лицензионное соглашение."
 
 #: ../../source/explore/get-started/install.rst:84
 msgid "Drag Overte to the Applications folder."
-msgstr ""
+msgstr "Перетащите Overte в папку \"Приложения\"."
 
 #: ../../source/explore/get-started/install.rst:85
 msgid ""
 "Try opening Interface.app. You will be prompted that macOS will not open "
 "the file because it is unsigned."
 msgstr ""
+"Попробуйте открыть Interface.app. Выйдет сообщение, что macOS не может "
+"открыть не подписанный файл."
 
 #: ../../source/explore/get-started/install.rst:86
 msgid ""
 "Open **System Preferences > Security & Privacy**. On older macOS versions"
 " this might be in **System Preferences > General**."
 msgstr ""
+"Откройте **Системные настройки > Безопасность и конфиденциальность**. В "
+"более старых версиях macOS это может находиться в **Системные настройки > "
+"Общие**."
 
 #: ../../source/explore/get-started/install.rst:87
 msgid ""
 "Next to the warning indicating that Interface is blocked, click 'Open "
 "Anyway'."
 msgstr ""
+"Рядом с предупреждением о том, что Interface заблокирован, нажмите 'Открыть "
+"в любом случае'."
 
 #: ../../source/explore/get-started/install.rst:88
 msgid "Confirm that you want to open the application."
-msgstr ""
+msgstr "Подтвердите, что хотите открыть приложение."
 
 #: ../../source/explore/get-started/install.rst:89
 msgid ""
 "Allow microphone access if prompted, in order to be able to talk inside "
 "the application."
 msgstr ""
+"Если нужно разрешите доступ к микрофону, чтобы иметь возможность общаться в "
+"приложении."
 
 #: ../../source/explore/get-started/install.rst:91
 msgid ""
 "At this point, Interface will open and you will be able to log in and "
 "begin exploring the metaverse."
 msgstr ""
+"После этого Интерфейс откроется, вы сможете войти в систему и начать "
+"путешествие по метавселенной."
 
 #: ../../source/explore/get-started/install.rst:96
 msgid "Linux Install"
-msgstr ""
+msgstr "Linux"
 
 #: ../../source/explore/get-started/install.rst:98
 msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Overte-x86_64_20220219.AppImage``.)"
 msgstr ""
+"Пометьте загруженный файл AppImage как исполняемый. (например так: ``chmod +"
+"x Overte-x86_64_20220219.AppImage``.)"
 
 #: ../../source/explore/get-started/install.rst:99
 msgid ""
@@ -14267,10 +14289,13 @@ msgid ""
 "install `AppImageLauncher "
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 msgstr ""
+"(Необязательно) Если вы хотите интегрировать AppImage в свою систему, "
+"установите `AppImageLauncher <https://github.com/TheAssassin/"
+"AppImageLauncher>`_."
 
 #: ../../source/explore/get-started/install.rst:100
 msgid "Execute AppImage."
-msgstr ""
+msgstr "Запустите AppImage."
 
 #: ../../source/explore/get-started/install.rst:102
 msgid ""
@@ -14278,10 +14303,13 @@ msgid ""
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
 "Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
+"В настоящее время сервер не является частью Interface Linux AppImage. Для "
+"размещения домена см. раздел :doc:`Хостинг домена на локальном или облачном "
+"сервере Linux <../../host/server-setup/linux-server>`."
 
 #: ../../source/explore/get-started/install.rst:106
 msgid "Upgrade Overte"
-msgstr ""
+msgstr "Обновление Overte"
 
 #: ../../source/explore/get-started/install.rst:108
 msgid ""
@@ -14290,6 +14318,10 @@ msgid ""
 " you can download the latest release from our `website "
 "<https://overte.org/#downloads>`_."
 msgstr ""
+"Overte постоянно обновляется: мы работаем над улучшением производительности "
+"и добавлением новых возможностей, которые сделают ваше пребывание в "
+"метавселенной еще лучше. В любой момент вы можете загрузить последнюю версию "
+"с нашего `сайта <https://overte.org/#downloads>`_."
 
 #: ../../source/explore/get-started/install.rst:111
 msgid ""
@@ -14298,6 +14330,9 @@ msgid ""
 "before upgrading. Keep in mind that Overte Server could be running in the"
 " background."
 msgstr ""
+"Вы не можете обновить Overte в Windows, если на вашем компьютере запущены "
+"Overte Interface или Overte Server. Обязательно закройте эти приложения "
+"перед обновлением. Учтите, что Overte Server может работать в фоновом режиме."
 
 #: ../../source/explore/get-started/install.rst:114
 msgid ""
@@ -14305,12 +14340,17 @@ msgid ""
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
+"В Windows найдите приложение Overte в системном трее. Щелкните правой "
+"кнопкой мыши по иконке и выберите 'Завершить'. Или завершите фоновый процесс "
+"'server-console' с помощью диспетчера задач."
 
 #: ../../source/explore/get-started/install.rst:116
 msgid ""
 "For more information on the latest releases, see our `changelog "
 "<https://github.com/overte-org/overte/blob/master/CHANGELOG.md>`_."
 msgstr ""
+"Получить больше информации о последних версиях можно в нашем `списке "
+"изменений <https://github.com/overte-org/overte/blob/master/CHANGELOG.md>`_."
 
 #: ../../source/explore/get-started/install.rst:121
 msgid "Perform a Clean Install"
