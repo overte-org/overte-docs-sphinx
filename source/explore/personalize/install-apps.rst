@@ -38,7 +38,7 @@ Below are some examples of the apps available in the More app and how you can us
 Spectator Camera
 ================
 
-The Spectator Camera is a camera you can use to record or livestream what you and your friends do in Overte. It is only available in HMD mode, and requires a recording software such as `Open Broadcaster Software (OBS) <https://obsproject.com/>`_ to work correctly. Check out their `official overview guide <https://obsproject.com/forum/threads/official-overview-guide.402/>`_ for more details.
+The Spectator Camera is a camera you can use to record or livestream what you and your friends do in Overte. It is only available in VR mode, and requires a recording software such as `Open Broadcaster Software (OBS) <https://obsproject.com/>`_ to work correctly. Check out their `official overview guide <https://obsproject.com/forum/threads/official-overview-guide.402/>`_ for more details.
 
 `Use the instructions above <#install-tablet-apps>`_ to install the Spectator Camera app.
 
