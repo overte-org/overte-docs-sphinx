@@ -51,7 +51,7 @@ You can even modify your wearable using the `Create app <../../create/tools.html
 
 .. note:: Modified wearables will follow you to different domains and remain when you next load Overte, however any modifications will not be saved to your avatar until you favourite it again.
 
-You can edit any property of your wearable, just like any other object in the domain. Give it a name, shift its position in relation the joint it is attached to, give it an animation or attach an entity script. Your modifications will remain until you switch avatar.
+You can edit any property of your wearable, just like any other object in the domain. Give it a name, shift its position in relation to the joint it is attached to, give it an animation or attach an entity script. Your modifications will remain until you switch to another avatar.
 
 ----------------------------------------
 Favourite Wearables for your Avatar
