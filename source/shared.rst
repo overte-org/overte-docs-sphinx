@@ -30,6 +30,10 @@
               :class: inline
               :target: https://weblate.overte.org/engage/overte/fr/?utm_source=widget
 
+.. |ru_trans| image:: https://weblate.overte.org/widgets/overte/ru/overte-documentation/svg-badge.svg
+              :class: inline
+              :target: https://weblate.overte.org/engage/overte/ru/?utm_source=widget
+
 .. |jp_trans| image:: https://weblate.overte.org/widgets/overte/ja/overte-documentation/svg-badge.svg
               :class: inline
               :target: https://weblate.overte.org/engage/overte/ja/?utm_source=widget

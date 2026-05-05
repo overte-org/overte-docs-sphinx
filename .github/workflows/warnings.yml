@@ -36,6 +36,11 @@ jobs:
       shell: bash
       run: |
         make BUILDDIR=build-fr SPHINXOPTS="-Dlanguage=fr -W --keep-going" html
+    - name: Check Russian documentation
+      if: ${{ success() || failure() }}
+      shell: bash
+      run: |
+        make BUILDDIR=build-ru SPHINXOPTS="-Dlanguage=ru -W --keep-going" html
     - name: Check Japanese documentation
       if: ${{ success() || failure() }}
       shell: bash
