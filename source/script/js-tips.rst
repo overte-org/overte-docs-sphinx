@@ -135,7 +135,7 @@ Any script that you try to retrieve using this method must export either a funct
 Create a JS script that you want to access from your main script.
 
 .. code-block:: javascript
-   :caption: **example.js**
+    :caption: **example.js**
 
     module.exports = {
         sayHello: function () {
@@ -151,7 +151,7 @@ In **example.js**, you are exporting two functions that print either Hello or Go
 Create a JS script called **main.js**:
 
 .. code-block:: javascript
-   :caption: **main.js**
+    :caption: **main.js**
 
     const greet = Script.require(Script.resolvePath("example.js"));
     greet.sayHello(); // prints Hello to the console

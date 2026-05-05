@@ -19,8 +19,8 @@ The recommended way to add an avatar script to your FST file is by manually edit
 2. Add a line telling the avatar where to find the script file using the syntax ``script = [SCRIPT URL]``.
 
 .. code-block:: javascript
-   :emphasize-lines: 5
-   :caption: A sample of woody's FST file with a script added
+    :emphasize-lines: 5
+    :caption: A sample of woody's FST file with a script added
 
     name = mannequin
     type = body+head
@@ -45,7 +45,7 @@ Example of an Avatar Script
 The following script makes your avatar throw balls when its right hand moves.
 
 .. code-block:: javascript
-   :caption: throw_ball.js
+    :caption: throw_ball.js
 
     (function(){
         "use strict"

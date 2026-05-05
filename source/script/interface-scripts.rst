@@ -26,7 +26,7 @@ Example of an Interface Script
 The following script creates a light cube of a randomised colour in front of you when you load it, and shows how you can spawn a text entity whenever you switch into or out of VR.
 
 .. code-block:: javascript
-   :caption: **example-interface-script.js**
+    :caption: **example-interface-script.js**
 
     "use strict"
 
