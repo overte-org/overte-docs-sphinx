@@ -4,7 +4,7 @@ Use Your VR Equipment
 
 To get the best and most immersive experience in Overte, we encourage you to use VR equipment, such as the HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support both OpenVR and OpenXR, which means we support most currently available HMDs and hand controllers.
 
-We recommend you use SteamVR, which should allow you to use any VR equipment you choose. Monado and Wivrn are also supported, as are any OpenVR or OpenXR runtimes.
+We recommend you use OpenXR, as it performs better, supports hand tracking and has better compatibility with newer controller features. You can also choose to use OpenVR, which currently has the best support for body tracking.
 
 .. contents:: On This Page
     :depth: 2
