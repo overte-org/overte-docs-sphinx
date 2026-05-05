@@ -16,7 +16,7 @@ Put on a :doc:`wearable that you created <../../create/wearables>`. All wearable
 
 .. note:: Your wearable must be hosted at a publicly accessible URL so everyone can see it. You must be able to link directly to the file on the internet; Do not use an url to a download page, local network address or a file on your local computer.
 
-Once you know the URL for your wearable's FBX/GLB/gLTX/OBJ file, then put it on your avatar:
+Once you know the URL for your wearable's FBX/GLB/glTF/OBJ file, then put it on your avatar:
 
 1. In Interface, pull up your tablet or HUD and click on **Avatar**.
 2. In the **Avatar** window, click the hat icon next to 'Wearables'.
