@@ -84,7 +84,7 @@ Each domain owner has the ability to :doc:`restrict create and edit permissions 
 Running Scripts Window
 ----------------------
 
-The Running Scripts window can be used to load, run and stop scripts from a URL or from a disk drive. Overte also provides a number of sample scripts for you to try out. 
+The Running Scripts window can be used to load, run and stop scripts from a URL or from a local file. Overte also provides a number of sample scripts for you to try out.
 
 To open the *Running Scripts* window, go to **Edit > Running Scripts** or press ``Ctrl`` + ``J`` on your keyboard.
 
