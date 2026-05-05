@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2026-03-20 17:11+0000\n"
+"POT-Creation-Date: 2026-05-05 10:45+0000\n"
 "PO-Revision-Date: 2025-09-27 09:04+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
 "Language: es\n"
@@ -12895,7 +12895,8 @@ msgid "Creating an Installer"
 msgstr "Creando el instalador"
 
 #: ../../source/developer/INSTALLER.md:10
-msgid "*Last Updated on April 12, 2025*"
+#, fuzzy
+msgid "*Last Updated on April 17, 2026*"
 msgstr "*Última actualización: 12 de abril de 2025*"
 
 #: ../../source/developer/INSTALLER.md:12
@@ -13208,14 +13209,6 @@ msgstr "Construir la solución."
 
 #: ../../source/developer/INSTALLER.md:85
 msgid ""
-"Build `packaged-server-console-npm-install` (found under **hidden/Server "
-"Console**)"
-msgstr ""
-"Construir `packaged-server-console-npm-install` (que se encuentra en "
-"**hidden/Server Console**)"
-
-#: ../../source/developer/INSTALLER.md:86
-msgid ""
 "Build `packaged-server-console` (found under **Server Console**) This "
 "will add 2 folders to `build\\server-console\\` - `server-console-"
 "win32-x64` and `x64`"
@@ -13224,7 +13217,7 @@ msgstr ""
 "Console**) Esto agregar 2 directorios a `build\\server-console\\` - "
 "`server-console-win32-x64` y `x64`"
 
-#: ../../source/developer/INSTALLER.md:89
+#: ../../source/developer/INSTALLER.md:88
 msgid ""
 "Build CMakeTargets->PACKAGE The installer is now available in "
 "`build\\_CPack_Packages\\win64\\NSIS`"
@@ -13232,15 +13225,15 @@ msgstr ""
 "Construir CMakeTargets->PACKAGE El instalador estará disponible en "
 "`build\\_CPack_Packages\\win64\\NSIS`"
 
-#: ../../source/developer/INSTALLER.md:92
+#: ../../source/developer/INSTALLER.md:91
 msgid "Create an MSIX Package"
 msgstr "Crear un Paquete de Avatar MSIX"
 
-#: ../../source/developer/INSTALLER.md:94
+#: ../../source/developer/INSTALLER.md:93
 msgid "Get the 'MSIX Packaging Tool' from the Windows Store."
 msgstr "Consigue la “Herramienta de empaquetado MSIX” de la Tienda Windows."
 
-#: ../../source/developer/INSTALLER.md:95
+#: ../../source/developer/INSTALLER.md:94
 msgid ""
 "Run the process to create a new MSIX package from an existing .exe or "
 ".msi installer. This process will allow you to install Overte with the "
@@ -13254,13 +13247,13 @@ msgstr ""
 "cambios para replicar la funcionalidad en el Paquete MSIX. Por lo tanto, "
 "evitar hacer cualquier otra cosa en durante este proceso."
 
-#: ../../source/developer/INSTALLER.md:96
+#: ../../source/developer/INSTALLER.md:95
 msgid "Be sure to select no shortcuts and install only the Overte Interface."
 msgstr ""
 "Asegúrese de no seleccionar ningún acceso directo e instale sólo la "
 "interfaz Overte."
 
-#: ../../source/developer/INSTALLER.md:97
+#: ../../source/developer/INSTALLER.md:96
 msgid ""
 "When asked for \"Entry\" points, select only the Interface entry and not "
 "the uninstaller. This is because the MSIX package is uninstalled by "
@@ -13276,7 +13269,7 @@ msgstr ""
 "quitarlo manualmente, incluso si el desinstalador está presente en el "
 "paquete. Esto es necesario para subir a la Tienda Windows."
 
-#: ../../source/developer/INSTALLER.md:98
+#: ../../source/developer/INSTALLER.md:97
 msgid ""
 "Once completed, you can sign the package with this application or with "
 "other tools such as 'MSIX Hero'. It must be signed with a local "
@@ -13286,7 +13279,7 @@ msgstr ""
 "otras herramientas como “MSIX Hero”. Debe firmarse con un certificado "
 "local para probarlo, y con un certificado propio para distribuirlo."
 
-#: ../../source/developer/INSTALLER.md:99
+#: ../../source/developer/INSTALLER.md:98
 msgid ""
 "If uploading to the Windows Store, you will have to ensure all your "
 "manifest info including publisher information matches what is registered "
@@ -13298,12 +13291,12 @@ msgstr ""
 "con la registrada en tu cuenta de desarrollador de Microsoft para "
 "Windows. Verás estos errores y los valores esperados al validarlo."
 
-#: ../../source/developer/INSTALLER.md:101
-#: ../../source/developer/build/BUILD_OSX.md:74 ../../source/home.rst:47
+#: ../../source/developer/INSTALLER.md:100
+#: ../../source/developer/build/BUILD_OSX.md:74 ../../source/home.rst:48
 msgid "FAQ"
 msgstr "PREGUNTAS FRECUENTES"
 
-#: ../../source/developer/INSTALLER.md:103
+#: ../../source/developer/INSTALLER.md:102
 msgid ""
 "**Problem:** Failure to open a file. ```File: failed opening file "
 "\"\\FOLDERSHARE\\XYZSRelease\\...\\Credits.rtf\" Error in script "
@@ -13315,7 +13308,7 @@ msgstr ""
 "\"C:\\TFS\\XYZProject\\Releases\\NullsoftInstaller\\XYZWin7Installer.nsi\""
 " on line 77 -- aborting creation process```"
 
-#: ../../source/developer/INSTALLER.md:104
+#: ../../source/developer/INSTALLER.md:103
 msgid ""
 "**Cause:** The complete path (current directory + relative path) has to "
 "be < 260 characters to any of the relevant files."
@@ -13323,7 +13316,7 @@ msgstr ""
 "**Causa:** La ruta completa (directorio actual + ruta relativa) debe "
 "tener < 260 carácteres."
 
-#: ../../source/developer/INSTALLER.md:105
+#: ../../source/developer/INSTALLER.md:104
 msgid ""
 "**Solution:** Move your build and packaging folder as high up in the "
 "drive as possible to prevent an overage."
@@ -13331,11 +13324,11 @@ msgstr ""
 "**Solución:** Mueva los directorios de build y packaging a un nivel "
 "superior en el disco."
 
-#: ../../source/developer/INSTALLER.md:107
+#: ../../source/developer/INSTALLER.md:106
 msgid "MacOS"
 msgstr "MacOS"
 
-#: ../../source/developer/INSTALLER.md:109
+#: ../../source/developer/INSTALLER.md:108
 msgid ""
 "Ensure you have all the prerequisites fulfilled from the [MacOS Build "
 "Guide](build/BUILD_OSX.md)."
@@ -13343,23 +13336,23 @@ msgstr ""
 "Asegúrese de que cumple todos los requisitos de la [Guía de compilación "
 "de macOS](build/BUILD_OSX.md)."
 
-#: ../../source/developer/INSTALLER.md:110
+#: ../../source/developer/INSTALLER.md:109
 msgid "Perform a clean CMake in your build folder. e.g."
 msgstr "Realiza un CMake limpio en tu carpeta de compilación, por ejemplo."
 
-#: ../../source/developer/INSTALLER.md:114
+#: ../../source/developer/INSTALLER.md:113
 msgid "Pick a method to build and package your release."
 msgstr "Elije un método para crear y empaquetar tu versión."
 
-#: ../../source/developer/INSTALLER.md:116
+#: ../../source/developer/INSTALLER.md:115
 msgid "Option A: Use Xcode GUI"
 msgstr "Opción A: Usa Xcode GUI"
 
-#: ../../source/developer/INSTALLER.md:118
+#: ../../source/developer/INSTALLER.md:117
 msgid "Perform a Release build of ALL_BUILD"
 msgstr "Realice una compilación Release de ALL_BUILD"
 
-#: ../../source/developer/INSTALLER.md:119
+#: ../../source/developer/INSTALLER.md:118
 msgid ""
 "Perform a Release build of `packaged-server-console`   This will add a "
 "folder to `build\\server-console\\` -   Sandbox-darwin-x64"
@@ -13367,7 +13360,7 @@ msgstr ""
 "Realizar una Release build de `packaged-server-console` Esto agregará un "
 "directorio a build\\server-console\\ - Sandbox-darwin-x64"
 
-#: ../../source/developer/INSTALLER.md:122
+#: ../../source/developer/INSTALLER.md:121
 msgid ""
 "Perform a Release build of `package`    Installer is now available in "
 "`build/_CPack_Packages/Darwin/DragNDrop`"
@@ -13375,15 +13368,15 @@ msgstr ""
 "Realice un \"Release build\" de `package`    El instalador está ahora en "
 "`build/_CPack_Packages/Darwin/DragNDrop`"
 
-#: ../../source/developer/INSTALLER.md:125
+#: ../../source/developer/INSTALLER.md:124
 msgid "Option B: Use Terminal"
 msgstr "Opción B: Use el terminal"
 
-#: ../../source/developer/INSTALLER.md:127
+#: ../../source/developer/INSTALLER.md:126
 msgid "Navigate to your build folder with your terminal."
 msgstr "Vaya al directorio de compilación desde la consola."
 
-#: ../../source/developer/INSTALLER.md:128
+#: ../../source/developer/INSTALLER.md:127
 msgid ""
 "`make -j4`, you can change the number to match the number of threads you "
 "would like to use."
@@ -13391,23 +13384,23 @@ msgstr ""
 "`make -j4`, puede cambiar el número para que coincida con el número de "
 "hilos que desea utilizar."
 
-#: ../../source/developer/INSTALLER.md:129
+#: ../../source/developer/INSTALLER.md:128
 msgid "`make package` to create the package."
 msgstr "`make package` para crear el paquete."
 
-#: ../../source/developer/INSTALLER.md:131
+#: ../../source/developer/INSTALLER.md:130
 msgid "Linux"
 msgstr "Linux"
 
-#: ../../source/developer/INSTALLER.md:133
+#: ../../source/developer/INSTALLER.md:132
 msgid "Client"
 msgstr "Cliente"
 
-#: ../../source/developer/INSTALLER.md:135
+#: ../../source/developer/INSTALLER.md:134
 msgid "AppImage"
 msgstr "AppImage"
 
-#: ../../source/developer/INSTALLER.md:137
+#: ../../source/developer/INSTALLER.md:136
 msgid ""
 "Overte Interface AppImages are built using "
 "[linuxdeploy](https://github.com/linuxdeploy/linuxdeploy) and "
@@ -13425,21 +13418,21 @@ msgstr ""
 "funcionar.** Nuestro objetivo es el Ubuntu LTS más antiguo que todavía "
 "reciba actualizaciones de seguridad estándar (no ESM)."
 
-#: ../../source/developer/INSTALLER.md:140
+#: ../../source/developer/INSTALLER.md:139
 msgid "Prepare build environment Follow the [Linux build guide](BUILD_LINUX.md)."
 msgstr ""
 "Prepare el ambiente de compilación siguiendo la [Guía de compilación para"
 " Linux](BUILD_LINUX.md)."
 
-#: ../../source/developer/INSTALLER.md:143
+#: ../../source/developer/INSTALLER.md:142
 msgid "Configure Interface"
 msgstr "Configurar Interface"
 
-#: ../../source/developer/INSTALLER.md:148
+#: ../../source/developer/INSTALLER.md:147
 msgid "Create AppImage"
 msgstr "Crear AppImage"
 
-#: ../../source/developer/INSTALLER.md:152
+#: ../../source/developer/INSTALLER.md:151
 msgid ""
 "CPack will build target ALL instead of INTERFACE, which is a limitation "
 "of CPack."
@@ -13447,7 +13440,7 @@ msgstr ""
 "CPack construirá el target ALL en lugar de INTERFACE, lo cual es una "
 "limitación de CPack."
 
-#: ../../source/developer/INSTALLER.md:154
+#: ../../source/developer/INSTALLER.md:153
 msgid ""
 "Lint with [appimagelint](https://github.com/TheAssassin/appimagelint) to "
 "check which Linux distributions the AppImage will likely be able to run "
@@ -13457,16 +13450,16 @@ msgstr ""
 " verificar en cual distribución Linux la AppImage será capaz de "
 "ejecutarse."
 
-#: ../../source/developer/INSTALLER.md:156
+#: ../../source/developer/INSTALLER.md:155
 #, fuzzy
 msgid "**Alternatively**, you can also create the AppImage manually:"
 msgstr "Alternativamente, puede crear la AppImage manualmente:"
 
-#: ../../source/developer/INSTALLER.md:158
+#: ../../source/developer/INSTALLER.md:157
 msgid "Build Interface"
 msgstr "Compilar las Interfaz"
 
-#: ../../source/developer/INSTALLER.md:163
+#: ../../source/developer/INSTALLER.md:162
 msgid ""
 "Copy `build/interface/plugins` `build/interface/scripts` "
 "`build/interface/resources.rcc` and `build/interface/resources` into "
@@ -13476,7 +13469,7 @@ msgstr ""
 "`build/interface/resources.rcc` y `build/interface/resources` a "
 "`build/AppDir/usr/bin/`"
 
-#: ../../source/developer/INSTALLER.md:165
+#: ../../source/developer/INSTALLER.md:164
 msgid ""
 "Copy `interface/org.overte.interface.appdata.xml` to "
 "`build/AppDir/usr/share/metainfo/org.overte.interface.appdata.xml`"
@@ -13484,7 +13477,7 @@ msgstr ""
 "Copiar `interface/org.overte.interface.appdata.xml` a "
 "`build/AppDir/usr/share/metainfo/org.overte.interface.appdata.xml`"
 
-#: ../../source/developer/INSTALLER.md:167
+#: ../../source/developer/INSTALLER.md:166
 msgid ""
 "Run linuxdeploy (make sure that linuxdeploy-plugin-qt is next to "
 "linuxdeploy and that both are executable)"
@@ -13492,20 +13485,20 @@ msgstr ""
 "Ejecute linuxdeploy (asegúrese que el linuxdeploy-plugin-qt esté en el "
 "mismo directorio que linuxdeploy y que juntos sean ejecutables)"
 
-#: ../../source/developer/INSTALLER.md:175
+#: ../../source/developer/INSTALLER.md:174
 #: ../../source/developer/build/BUILD_LINUX.md:130
 msgid "Server"
 msgstr "Servidor"
 
-#: ../../source/developer/INSTALLER.md:177
+#: ../../source/developer/INSTALLER.md:176
 msgid "Debian package"
 msgstr "Paquete Debian"
 
-#: ../../source/developer/INSTALLER.md:179
+#: ../../source/developer/INSTALLER.md:178
 msgid "Building Overte server Debian packages using Docker"
 msgstr "Construyendo los paquetes Debian del servidor Overte usando Docker"
 
-#: ../../source/developer/INSTALLER.md:181
+#: ../../source/developer/INSTALLER.md:180
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/deb_package/](https://github.com/overte-"
@@ -13515,7 +13508,7 @@ msgstr ""
 "scripts/deb_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/deb_package)"
 
-#: ../../source/developer/INSTALLER.md:183
+#: ../../source/developer/INSTALLER.md:182
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-debian-11-amd64`"
@@ -13524,29 +13517,29 @@ msgstr ""
 "$(pwd)/../../..:/overte -it overte/overte-server-"
 "build:0.1.2-debian-11-amd64`"
 
-#: ../../source/developer/INSTALLER.md:186
-#: ../../source/developer/INSTALLER.md:215
+#: ../../source/developer/INSTALLER.md:185
+#: ../../source/developer/INSTALLER.md:214
 msgid "Prepare build environment"
 msgstr "Preparar el ambiente de compilación"
 
-#: ../../source/developer/INSTALLER.md:195
-#: ../../source/developer/INSTALLER.md:224
+#: ../../source/developer/INSTALLER.md:194
+#: ../../source/developer/INSTALLER.md:223
 msgid "Build"
 msgstr "Compilar"
 
-#: ../../source/developer/INSTALLER.md:200
+#: ../../source/developer/INSTALLER.md:199
 msgid "Create Debian package"
 msgstr "Crear un Paquete Debian"
 
-#: ../../source/developer/INSTALLER.md:206
+#: ../../source/developer/INSTALLER.md:205
 msgid "RPM package"
 msgstr "Paquete RPM"
 
-#: ../../source/developer/INSTALLER.md:208
+#: ../../source/developer/INSTALLER.md:207
 msgid "Building Overte server RPM packages using Docker"
 msgstr "Creación de paquetes RPM del servidor Overte mediante Docker"
 
-#: ../../source/developer/INSTALLER.md:210
+#: ../../source/developer/INSTALLER.md:209
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/rpm_package/](https://github.com/overte-"
@@ -13556,7 +13549,7 @@ msgstr ""
 "scripts/rpm_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/rpm_package)"
 
-#: ../../source/developer/INSTALLER.md:212
+#: ../../source/developer/INSTALLER.md:211
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-fedora-36-amd64`"
@@ -13565,7 +13558,7 @@ msgstr ""
 "$(pwd)/../../..:/overte -it overte/overte-server-"
 "build:0.1.2-fedora-36-amd64`"
 
-#: ../../source/developer/INSTALLER.md:229
+#: ../../source/developer/INSTALLER.md:228
 msgid "Create RPM package"
 msgstr "Crear un Paquete RPM"
 
@@ -14457,7 +14450,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:10
 #, fuzzy
-msgid "*Last Updated on 2026-02-13*"
+msgid "*Last Updated on 2026-04-16*"
 msgstr "*Última actualización el 2025-06-09*"
 
 #: ../../source/developer/build/BUILD_LINUX.md:12
@@ -14694,6 +14687,53 @@ msgid ""
 msgstr ""
 "Vaya a \"localhost\" en la interfaz cliente para visitar su recién "
 "lanzado servidor de Dominio."
+
+#: ../../source/developer/build/BUILD_LINUX.md:171
+msgid "Unit Testing"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:173
+msgid ""
+"Overte contains some unit tests based on the Qt Test API. Using them for "
+"developing changes and improvements is highly encouraged. They're also "
+"useful when testing thread safety and memory safety is needed, as the "
+"`interface` binary is far too big to run under Valgrind."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:175
+msgid ""
+"To build the tests, first run CMake with the `-DOVERTE_BUILD_TESTS=ON` "
+"argument, eg:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:179
+msgid ""
+"The tests are still not built by default, the test target has to be built"
+" with:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:183
+msgid ""
+"The tests will be generated under the `tests/` directory, grouped by "
+"category. To run all of them, use the `test` target. This produces a test"
+" summary of pass/fail results."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:188
+msgid ""
+"To run just one, go into the corresponding directory and run the binary. "
+"This will produce a more detailed output, which can be useful for "
+"debugging."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:193
+#, python-brace-format
+msgid ""
+"For developing new tests, see the [Qt Test "
+"documentation](https://doc.qt.io/archives/qt-5.15/qttest-index.html). "
+"Tests need to be in `tests/$category/${name}Tests.h` and "
+"`tests/$category/${name}Tests.cpp` (the `Tests.cpp` naming is important)."
+msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:8
 msgid "Build macOS"
@@ -20834,39 +20874,39 @@ msgstr ""
 "controlador \"Recomendada\". Simplemente descarga e instala siguiendo los"
 " mismos pasos que arriba."
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "HOME"
 msgstr "INICIO"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "EXPLORE"
 msgstr "EXPLORAR"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "CREATE"
 msgstr "CREAR"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "SCRIPT"
 msgstr "CODIFICAR"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "HOST"
 msgstr "ALOJAR"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "CONTRIBUTE"
 msgstr "CONTRIBUIR"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "DEVELOP"
 msgstr "DESARROLLAR"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "SECURITY"
 msgstr "SEGURIDAD"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "API REFERENCE"
 msgstr "REFERENCIA DE API"
 
@@ -20963,41 +21003,51 @@ msgstr ""
 
 #: ../../source/home.rst:27
 #, fuzzy
+msgid "`Pусский язык <https://docs.overte.org/ru/latest/>`_ |ru_trans|"
+msgstr "`Japonés <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
+
+#: ../../source/shared.rst:33
+#, fuzzy
+msgid "ru_trans"
+msgstr "es_trans"
+
+#: ../../source/home.rst:28
+#, fuzzy
 msgid "`日本語 <https://docs.overte.org/ja/latest/>`_ |jp_trans|"
 msgstr "`Japonés <https://docs.vircadia.com/jp/>`_ |jp_trans|"
 
-#: ../../source/shared.rst:33
+#: ../../source/shared.rst:37
 msgid "jp_trans"
 msgstr ""
 
-#: ../../source/home.rst:28
+#: ../../source/home.rst:29
 #, fuzzy
 msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr "`Japonés <https://docs.vircadia.dev/jp/>`_ |jp_trans|"
 
-#: ../../source/shared.rst:37
+#: ../../source/shared.rst:41
 msgid "ko_trans"
 msgstr ""
 
-#: ../../source/home.rst:29
+#: ../../source/home.rst:30
 msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
 msgstr "`Español <https://docs.overte.org/es/>`_ es_trans"
 
-#: ../../source/shared.rst:41
+#: ../../source/shared.rst:45
 msgid "cs_trans"
 msgstr "es_trans"
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:35
 msgid "What can I do?"
 msgstr "¿Qué puedo hacer?"
 
-#: ../../source/home.rst:36
+#: ../../source/home.rst:37
 msgid "You have the power to shape your VR experience in Overte."
 msgstr ""
 "Tienes el poder darle forma a tu experiencia de Realidad Virtual en "
 "Overte."
 
-#: ../../source/home.rst:38
+#: ../../source/home.rst:39
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -21005,7 +21055,7 @@ msgstr ""
 ":doc:`EXPLORA <explore>` saltando entre dominios en el metaverso, asiste "
 "a eventos y mira lo que otros están haciendo!"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:40
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
@@ -21014,7 +21064,7 @@ msgstr ""
 "avatars, dominios, aplicaciones para tablet y más para que tú y otros "
 "disfruten."
 
-#: ../../source/home.rst:40
+#: ../../source/home.rst:41
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
@@ -21023,7 +21073,7 @@ msgstr ""
 "de conceptos avanzados de codificación a entidades y avatares en el "
 "metaverso."
 
-#: ../../source/home.rst:41
+#: ../../source/home.rst:42
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
@@ -21031,11 +21081,11 @@ msgstr ""
 ":doc:`ALOJA <host>` y crea experiencias inmersivas para educar, "
 "entretener y conectar con tu audiencia."
 
-#: ../../source/home.rst:42
+#: ../../source/home.rst:43
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ":doc:`CONTRIBUIR <contribute>` al esfuerzo del proyecto."
 
-#: ../../source/home.rst:43
+#: ../../source/home.rst:44
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
@@ -21043,7 +21093,7 @@ msgstr ""
 ":doc:`DESARROLLE <developer>` el proyecto y adáptelo a sus necesidades, o"
 " simplemente puede hacerlo para ayudar."
 
-#: ../../source/home.rst:44
+#: ../../source/home.rst:45
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
@@ -43116,4 +43166,13 @@ msgstr "UUID de sesión en Metaverso"
 #~ "[aquí](https://github.com/vircadia/Decentralized_GoTo_Experimental/commits/master)"
 #~ " entre el 26 de febrero y el"
 #~ " 16 de marzo de 2020."
+
+#~ msgid ""
+#~ "Build `packaged-server-console-npm-"
+#~ "install` (found under **hidden/Server "
+#~ "Console**)"
+#~ msgstr ""
+#~ "Construir `packaged-server-console-npm-"
+#~ "install` (que se encuentra en "
+#~ "**hidden/Server Console**)"
 

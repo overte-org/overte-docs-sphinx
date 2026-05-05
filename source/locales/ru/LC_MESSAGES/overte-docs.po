@@ -9,18 +9,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-20 17:11+0000\n"
+"POT-Creation-Date: 2026-05-05 10:45+0000\n"
 "PO-Revision-Date: 2026-05-04 20:30+0000\n"
 "Last-Translator: Pavel Volkov <plvolkov14@gmail.com>\n"
-"Language-Team: Russian <https://weblate.overte.org/projects/overte/"
-"overte-documentation/ru/>\n"
 "Language: ru\n"
+"Language-Team: Russian <https://weblate.overte.org/projects/overte"
+"/overte-documentation/ru/>\n"
+"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
+"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
-"n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
-"X-Generator: Weblate 5.13.3\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/contribute.rst:5
@@ -380,9 +379,9 @@ msgstr ""
 "Overte позволяет людям объединённых интересами, сообществом и дружбой "
 "приходить вместе и делится друг с другом творчеством. Настраивайте "
 "пространство под себя: создавайте аватары и контент или разрабатывайте "
-"приложения и скрипты. А чтобы сделать этот мир действительно своим, создайте "
-"собственный домен или воплотите любой проект на свободном и открытом движке "
-"Overte!"
+"приложения и скрипты. А чтобы сделать этот мир действительно своим, "
+"создайте собственный домен или воплотите любой проект на свободном и "
+"открытом движке Overte!"
 
 #: ../../source/create.rst:7
 msgid ""
@@ -6489,8 +6488,8 @@ msgid ""
 "Click the 'Web' icon to create a web entity. By default, a web entity "
 "always displays Overte's home page."
 msgstr ""
-"Нажмите на иконку 'Web', чтобы создать объект Web. По умолчанию он всегда "
-"отображает главную страницу Overte."
+"Нажмите на иконку 'Web', чтобы создать объект Web. По умолчанию он всегда"
+" отображает главную страницу Overte."
 
 #: ../../source/create/entities/display-youtube.md:32
 msgid "Display Overte's YouTube Channel"
@@ -10035,10 +10034,10 @@ msgid ""
 " avatar or a baseball hat, to a magic themed domain."
 msgstr ""
 "Для создания контента в Overte необходимо ознакомиться с доступными "
-"инструментами. Мы разработали собственные инструменты (включая приложение "
-"Создать(Create). Кроме того, вы можете использовать множество внешних "
-"инструментов для тонкой проработки своих работ. Эти инструменты помогут вам "
-"создать что угодно, от крутого аватара или бейсболки до волшебного "
+"инструментами. Мы разработали собственные инструменты (включая приложение"
+" Создать(Create). Кроме того, вы можете использовать множество внешних "
+"инструментов для тонкой проработки своих работ. Эти инструменты помогут "
+"вам создать что угодно, от крутого аватара или бейсболки до волшебного "
 "тематического мира."
 
 #: ../../source/create/tools.rst:16
@@ -10051,9 +10050,10 @@ msgid ""
 "/create-entities>`. In Interface, pull up your HUD or Tablet and go to "
 "**Create** to get started. With the Create app, you can:"
 msgstr ""
-"Используйте приложение **Создать**, чтобы получить любой :doc:`тип объекта <"
-"entities/create-entities>`. В Интерфейсе откройте HUD или планшет и "
-"перейдите в раздел **Создать**. С помощью этого приложения вы можете:"
+"Используйте приложение **Создать**, чтобы получить любой :doc:`тип "
+"объекта <entities/create-entities>`. В Интерфейсе откройте HUD или "
+"планшет и перейдите в раздел **Создать**. С помощью этого приложения вы "
+"можете:"
 
 #: ../../source/create/tools.rst:20
 msgid ""
@@ -10384,7 +10384,7 @@ msgid "Creating an Installer"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:10
-msgid "*Last Updated on April 12, 2025*"
+msgid "*Last Updated on April 17, 2026*"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:12
@@ -10633,32 +10633,26 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:85
 msgid ""
-"Build `packaged-server-console-npm-install` (found under **hidden/Server "
-"Console**)"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:86
-msgid ""
 "Build `packaged-server-console` (found under **Server Console**) This "
 "will add 2 folders to `build\\server-console\\` - `server-console-"
 "win32-x64` and `x64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:89
+#: ../../source/developer/INSTALLER.md:88
 msgid ""
 "Build CMakeTargets->PACKAGE The installer is now available in "
 "`build\\_CPack_Packages\\win64\\NSIS`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:92
+#: ../../source/developer/INSTALLER.md:91
 msgid "Create an MSIX Package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:94
+#: ../../source/developer/INSTALLER.md:93
 msgid "Get the 'MSIX Packaging Tool' from the Windows Store."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:95
+#: ../../source/developer/INSTALLER.md:94
 msgid ""
 "Run the process to create a new MSIX package from an existing .exe or "
 ".msi installer. This process will allow you to install Overte with the "
@@ -10667,11 +10661,11 @@ msgid ""
 " to avoid doing anything else on your computer during this process."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:96
+#: ../../source/developer/INSTALLER.md:95
 msgid "Be sure to select no shortcuts and install only the Overte Interface."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:97
+#: ../../source/developer/INSTALLER.md:96
 msgid ""
 "When asked for \"Entry\" points, select only the Interface entry and not "
 "the uninstaller. This is because the MSIX package is uninstalled by "
@@ -10681,14 +10675,14 @@ msgid ""
 " Windows Store."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:98
+#: ../../source/developer/INSTALLER.md:97
 msgid ""
 "Once completed, you can sign the package with this application or with "
 "other tools such as 'MSIX Hero'. It must be signed with a local "
 "certificate to test, and with a proper certificate to distribute."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:99
+#: ../../source/developer/INSTALLER.md:98
 msgid ""
 "If uploading to the Windows Store, you will have to ensure all your "
 "manifest info including publisher information matches what is registered "
@@ -10696,12 +10690,12 @@ msgid ""
 "errors and the expected values when validating it."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:101
-#: ../../source/developer/build/BUILD_OSX.md:74 ../../source/home.rst:47
+#: ../../source/developer/INSTALLER.md:100
+#: ../../source/developer/build/BUILD_OSX.md:74 ../../source/home.rst:48
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:103
+#: ../../source/developer/INSTALLER.md:102
 msgid ""
 "**Problem:** Failure to open a file. ```File: failed opening file "
 "\"\\FOLDERSHARE\\XYZSRelease\\...\\Credits.rtf\" Error in script "
@@ -10709,87 +10703,87 @@ msgid ""
 " on line 77 -- aborting creation process```"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:104
+#: ../../source/developer/INSTALLER.md:103
 msgid ""
 "**Cause:** The complete path (current directory + relative path) has to "
 "be < 260 characters to any of the relevant files."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:105
+#: ../../source/developer/INSTALLER.md:104
 msgid ""
 "**Solution:** Move your build and packaging folder as high up in the "
 "drive as possible to prevent an overage."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:107
+#: ../../source/developer/INSTALLER.md:106
 msgid "MacOS"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:109
+#: ../../source/developer/INSTALLER.md:108
 msgid ""
 "Ensure you have all the prerequisites fulfilled from the [MacOS Build "
 "Guide](build/BUILD_OSX.md)."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:110
+#: ../../source/developer/INSTALLER.md:109
 msgid "Perform a clean CMake in your build folder. e.g."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:114
+#: ../../source/developer/INSTALLER.md:113
 msgid "Pick a method to build and package your release."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:116
+#: ../../source/developer/INSTALLER.md:115
 msgid "Option A: Use Xcode GUI"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:118
+#: ../../source/developer/INSTALLER.md:117
 msgid "Perform a Release build of ALL_BUILD"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:119
+#: ../../source/developer/INSTALLER.md:118
 msgid ""
 "Perform a Release build of `packaged-server-console`   This will add a "
 "folder to `build\\server-console\\` -   Sandbox-darwin-x64"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:122
+#: ../../source/developer/INSTALLER.md:121
 msgid ""
 "Perform a Release build of `package`    Installer is now available in "
 "`build/_CPack_Packages/Darwin/DragNDrop`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:125
+#: ../../source/developer/INSTALLER.md:124
 msgid "Option B: Use Terminal"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:127
+#: ../../source/developer/INSTALLER.md:126
 msgid "Navigate to your build folder with your terminal."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:128
+#: ../../source/developer/INSTALLER.md:127
 msgid ""
 "`make -j4`, you can change the number to match the number of threads you "
 "would like to use."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:129
+#: ../../source/developer/INSTALLER.md:128
 msgid "`make package` to create the package."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:131
+#: ../../source/developer/INSTALLER.md:130
 msgid "Linux"
 msgstr "Linux"
 
-#: ../../source/developer/INSTALLER.md:133
+#: ../../source/developer/INSTALLER.md:132
 msgid "Client"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:135
+#: ../../source/developer/INSTALLER.md:134
 msgid "AppImage"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:137
+#: ../../source/developer/INSTALLER.md:136
 msgid ""
 "Overte Interface AppImages are built using "
 "[linuxdeploy](https://github.com/linuxdeploy/linuxdeploy) and "
@@ -10800,122 +10794,122 @@ msgid ""
 "updates."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:140
+#: ../../source/developer/INSTALLER.md:139
 msgid "Prepare build environment Follow the [Linux build guide](BUILD_LINUX.md)."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:143
+#: ../../source/developer/INSTALLER.md:142
 #, fuzzy
 msgid "Configure Interface"
 msgstr "Интерфейс"
 
-#: ../../source/developer/INSTALLER.md:148
+#: ../../source/developer/INSTALLER.md:147
 msgid "Create AppImage"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:152
+#: ../../source/developer/INSTALLER.md:151
 msgid ""
 "CPack will build target ALL instead of INTERFACE, which is a limitation "
 "of CPack."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:154
+#: ../../source/developer/INSTALLER.md:153
 msgid ""
 "Lint with [appimagelint](https://github.com/TheAssassin/appimagelint) to "
 "check which Linux distributions the AppImage will likely be able to run "
 "on."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:156
+#: ../../source/developer/INSTALLER.md:155
 msgid "**Alternatively**, you can also create the AppImage manually:"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:158
+#: ../../source/developer/INSTALLER.md:157
 #, fuzzy
 msgid "Build Interface"
 msgstr "Интерфейс"
 
-#: ../../source/developer/INSTALLER.md:163
+#: ../../source/developer/INSTALLER.md:162
 msgid ""
 "Copy `build/interface/plugins` `build/interface/scripts` "
 "`build/interface/resources.rcc` and `build/interface/resources` into "
 "`build/AppDir/usr/bin/`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:165
+#: ../../source/developer/INSTALLER.md:164
 msgid ""
 "Copy `interface/org.overte.interface.appdata.xml` to "
 "`build/AppDir/usr/share/metainfo/org.overte.interface.appdata.xml`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:167
+#: ../../source/developer/INSTALLER.md:166
 msgid ""
 "Run linuxdeploy (make sure that linuxdeploy-plugin-qt is next to "
 "linuxdeploy and that both are executable)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:175
+#: ../../source/developer/INSTALLER.md:174
 #: ../../source/developer/build/BUILD_LINUX.md:130
 msgid "Server"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:177
+#: ../../source/developer/INSTALLER.md:176
 msgid "Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:179
+#: ../../source/developer/INSTALLER.md:178
 msgid "Building Overte server Debian packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:181
+#: ../../source/developer/INSTALLER.md:180
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/deb_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/deb_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:183
+#: ../../source/developer/INSTALLER.md:182
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-debian-11-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:186
-#: ../../source/developer/INSTALLER.md:215
+#: ../../source/developer/INSTALLER.md:185
+#: ../../source/developer/INSTALLER.md:214
 msgid "Prepare build environment"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:195
-#: ../../source/developer/INSTALLER.md:224
+#: ../../source/developer/INSTALLER.md:194
+#: ../../source/developer/INSTALLER.md:223
 msgid "Build"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:200
+#: ../../source/developer/INSTALLER.md:199
 msgid "Create Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:206
+#: ../../source/developer/INSTALLER.md:205
 msgid "RPM package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:208
+#: ../../source/developer/INSTALLER.md:207
 msgid "Building Overte server RPM packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:210
+#: ../../source/developer/INSTALLER.md:209
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/rpm_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/rpm_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:212
+#: ../../source/developer/INSTALLER.md:211
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-fedora-36-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:229
+#: ../../source/developer/INSTALLER.md:228
 msgid "Create RPM package"
 msgstr ""
 
@@ -11661,7 +11655,7 @@ msgid "Open Task Manager and close any running Clang / Gradle processes"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:10
-msgid "*Last Updated on 2026-02-13*"
+msgid "*Last Updated on 2026-04-16*"
 msgstr ""
 
 #: ../../source/developer/build/BUILD_LINUX.md:12
@@ -11866,6 +11860,53 @@ msgstr ""
 msgid ""
 "Go to \"localhost\" in the running Interface to visit your newly launched"
 " Domain server."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:171
+msgid "Unit Testing"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:173
+msgid ""
+"Overte contains some unit tests based on the Qt Test API. Using them for "
+"developing changes and improvements is highly encouraged. They're also "
+"useful when testing thread safety and memory safety is needed, as the "
+"`interface` binary is far too big to run under Valgrind."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:175
+msgid ""
+"To build the tests, first run CMake with the `-DOVERTE_BUILD_TESTS=ON` "
+"argument, eg:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:179
+msgid ""
+"The tests are still not built by default, the test target has to be built"
+" with:"
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:183
+msgid ""
+"The tests will be generated under the `tests/` directory, grouped by "
+"category. To run all of them, use the `test` target. This produces a test"
+" summary of pass/fail results."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:188
+msgid ""
+"To run just one, go into the corresponding directory and run the binary. "
+"This will produce a more detailed output, which can be useful for "
+"debugging."
+msgstr ""
+
+#: ../../source/developer/build/BUILD_LINUX.md:193
+#, python-brace-format
+msgid ""
+"For developing new tests, see the [Qt Test "
+"documentation](https://doc.qt.io/archives/qt-5.15/qttest-index.html). "
+"Tests need to be in `tests/$category/${name}Tests.h` and "
+"`tests/$category/${name}Tests.cpp` (the `Tests.cpp` naming is important)."
 msgstr ""
 
 #: ../../source/developer/build/BUILD_OSX.md:8
@@ -12795,12 +12836,12 @@ msgid ""
 "people, attend events, and learn about creation in virtuality. It's an "
 "immersive and interactive experience with realistic visuals and audio."
 msgstr ""
-"Overte — это программное обеспечение для виртуальных миров, где вы можете "
-"общаться и творить вместе с другими. Исследуйте миры, созданные в Overte, и "
-"общайтесь с другими пользователями. Вы можете посещать виртуальные миры "
-"друзей, знакомиться с людьми, участвовать в мероприятиях и учится творить в "
-"виртуальной реальности. Это захватывающий и интерактивный опыт с "
-"реалистичной графикой и звуком."
+"Overte — это программное обеспечение для виртуальных миров, где вы можете"
+" общаться и творить вместе с другими. Исследуйте миры, созданные в "
+"Overte, и общайтесь с другими пользователями. Вы можете посещать "
+"виртуальные миры друзей, знакомиться с людьми, участвовать в мероприятиях"
+" и учится творить в виртуальной реальности. Это захватывающий и "
+"интерактивный опыт с реалистичной графикой и звуком."
 
 #: ../../source/explore.rst:7
 msgid ""
@@ -12811,25 +12852,24 @@ msgid ""
 "metaverse. If you've visited Overte before, you will return to the "
 "location where you last visited."
 msgstr ""
-"Если вы впервые используете Overte, вы начнете свое путешествие в локальном "
-"учебном пространстве, где сможете поэкспериментировать с элементами "
-"управления и изучить интерфейс. Когда вы будете готовы, попробуйте "
-"исследовать другие области с помощью приложения \"Места\" и пообщаться с "
-"людьми в метавселенной. Если вы уже посещали Overte, вы вернетесь в то "
-"место, где были в последний раз."
+"Если вы впервые используете Overte, вы начнете свое путешествие в "
+"локальном учебном пространстве, где сможете поэкспериментировать с "
+"элементами управления и изучить интерфейс. Когда вы будете готовы, "
+"попробуйте исследовать другие области с помощью приложения \"Места\" и "
+"пообщаться с людьми в метавселенной. Если вы уже посещали Overte, вы "
+"вернетесь в то место, где были в последний раз."
 
 #: ../../source/explore.rst:9
 msgid "Throughout this chapter, learn how to make the most of your exploration:"
-msgstr ""
-"В этой главе вы узнаете, как максимально эффективно использовать Overte:"
+msgstr "В этой главе вы узнаете, как максимально эффективно использовать Overte:"
 
 #: ../../source/explore/gallery.rst:5
 msgid ""
 "This gallery showcases the Overte/Vircadia Interface and some past events"
 " and locations attended with it."
 msgstr ""
-"В этой галерее представлены интерфейсы Overte/Vircadia, а также некоторые "
-"прошлые мероприятия и места, где мы принимали участие."
+"В этой галерее представлены интерфейсы Overte/Vircadia, а также некоторые"
+" прошлые мероприятия и места, где мы принимали участие."
 
 #: ../../source/explore/gallery.rst:8
 msgid "Maker meeting 28th September 2020"
@@ -12840,8 +12880,8 @@ msgid ""
 "Maker Meeting, 28th September 2020, on the \"El Papa Viejo\" (meaning "
 "\"The Old Pope\")."
 msgstr ""
-"Встреча разработчиков, 28 сентября 2020, на \"El Papa Viejo\" (что означает "
-"\"Старый Папа\")."
+"Встреча разработчиков, 28 сентября 2020, на \"El Papa Viejo\" (что "
+"означает \"Старый Папа\")."
 
 #: ../../source/explore/gallery.rst:15 ../../source/explore/gallery.rst:22
 msgid "Startup Asia X 12th June 2020"
@@ -12936,10 +12976,10 @@ msgid ""
 "metaverse."
 msgstr ""
 "Мы знаем, что начать работу с новым приложением может быть непросто: "
-"установка программного обеспечения и изучение элементов управления никогда "
-"не доставляют удовольствия. Надеемся, этот раздел поможет вам познакомиться "
-"с нашим приложением, чтобы вы могли начать заводить друзей и исследовать "
-"метавселенную."
+"установка программного обеспечения и изучение элементов управления "
+"никогда не доставляют удовольствия. Надеемся, этот раздел поможет вам "
+"познакомиться с нашим приложением, чтобы вы могли начать заводить друзей "
+"и исследовать метавселенную."
 
 #: ../../source/explore/get-started/adjust-settings.rst:2
 msgid ""
@@ -14012,13 +14052,14 @@ msgid ""
 "Cloud Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
 "Overte имеет два разных установщика. *Установщик клиента* содержит все "
-"необходимое для просмотра контента и взаимодействия с пользователями Overte. "
-"Однако с помощью этого установщика вы не можете размещать контент. *"
-"Установщик клиента + сервера* содержит все функции установщика клиента, но "
-"также позволяет :doc:`размещать собственный контент <../../host>` и делиться "
-"им со всем миром. Загрузка установщика клиента + сервера доступна только для "
-"Windows. Для Linux см.: :doc:`Размещение домена на локальном или облачном "
-"сервере Linux <../../host/server-setup/linux-server>`."
+"необходимое для просмотра контента и взаимодействия с пользователями "
+"Overte. Однако с помощью этого установщика вы не можете размещать "
+"контент. *Установщик клиента + сервера* содержит все функции установщика "
+"клиента, но также позволяет :doc:`размещать собственный контент "
+"<../../host>` и делиться им со всем миром. Загрузка установщика клиента +"
+" сервера доступна только для Windows. Для Linux см.: :doc:`Размещение "
+"домена на локальном или облачном сервере Linux <../../host/server-setup"
+"/linux-server>`."
 
 #: ../../source/explore/get-started/install.rst:15
 msgid "System Requirements"
@@ -14042,8 +14083,7 @@ msgstr "Windows 10 64-бит или Windows 11 64-бит"
 
 #: ../../source/explore/get-started/install.rst:22
 msgid "Ubuntu 20.04 64 bit, or most other modern Linux distributions"
-msgstr ""
-"Ubuntu 20.04 64-бит или большинство других современных дистрибутивов Linux"
+msgstr "Ubuntu 20.04 64-бит или большинство других современных дистрибутивов Linux"
 
 #: ../../source/explore/get-started/install.rst:24
 msgid "CPU:"
@@ -14055,8 +14095,7 @@ msgstr "**Минимум:** двухъядерный с поддержкой Hyp
 
 #: ../../source/explore/get-started/install.rst:27
 msgid "**Recommended:** Quad-core with hyper-threading or better"
-msgstr ""
-"**Рекомендуется:** четырехъядерный с поддержкой Hyper-Threading или лучше"
+msgstr "**Рекомендуется:** четырехъядерный с поддержкой Hyper-Threading или лучше"
 
 #: ../../source/explore/get-started/install.rst:29
 msgid "System memory:"
@@ -14107,8 +14146,8 @@ msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Overte:"
 msgstr ""
-"Кроме того, ваша сеть должна обладать достаточной пропускной способностью "
-"для работы Overte:"
+"Кроме того, ваша сеть должна обладать достаточной пропускной способностью"
+" для работы Overte:"
 
 #: ../../source/explore/get-started/install.rst:45
 msgid ""
@@ -14116,9 +14155,9 @@ msgid ""
 " have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
 "upload**."
 msgstr ""
-"Если вы используете Интерфейс только для путешествия по метавселенной, то "
-"скорость интернета должна быть не менее **10 Мбит/с на загрузку** и **2 Мбит/"
-"с на выгрузку**."
+"Если вы используете Интерфейс только для путешествия по метавселенной, то"
+" скорость интернета должна быть не менее **10 Мбит/с на загрузку** и **2 "
+"Мбит/с на выгрузку**."
 
 #: ../../source/explore/get-started/install.rst:46
 msgid ""
@@ -14129,10 +14168,11 @@ msgid ""
 "server rather than your domain server."
 msgstr ""
 "Если вы размещаете доменный сервер на удаленной машине или на своем "
-"локальном компьютере, вам необходимо добавить **10 Мбит/с на выгрузку** для "
-"каждого пользователя, которому вы хотите разрешить одновременно заходить на "
-"ваш домен. И всего **2 Мбит/с на выгрузку** на пользователя, если вы "
-"размещаете свои ресурсы на внешнем веб-сервере, а не на доменном сервере."
+"локальном компьютере, вам необходимо добавить **10 Мбит/с на выгрузку** "
+"для каждого пользователя, которому вы хотите разрешить одновременно "
+"заходить на ваш домен. И всего **2 Мбит/с на выгрузку** на пользователя, "
+"если вы размещаете свои ресурсы на внешнем веб-сервере, а не на доменном "
+"сервере."
 
 #: ../../source/explore/get-started/install.rst:49
 msgid ""
@@ -14162,8 +14202,8 @@ msgid ""
 "The current release is available to `download on our website "
 "<https://overte.org/downloads.html>`_."
 msgstr ""
-"Текущая версия доступна для `скачивания на нашем сайте <https://overte.org/"
-"downloads.html>`_."
+"Текущая версия доступна для `скачивания на нашем сайте "
+"<https://overte.org/downloads.html>`_."
 
 #: ../../source/explore/get-started/install.rst:59
 msgid ""
@@ -14173,8 +14213,8 @@ msgid ""
 "supported on Linux."
 msgstr ""
 "Если вы планируете использовать Overte в режиме VR с HMD, убедитесь, что "
-"SteamVR или Oculus Runtime также установлены в вашей системе перед запуском "
-"Overte. Режим VR не поддерживается на macOS. Oculus Runtime не "
+"SteamVR или Oculus Runtime также установлены в вашей системе перед "
+"запуском Overte. Режим VR не поддерживается на macOS. Oculus Runtime не "
 "поддерживается на Linux."
 
 #: ../../source/explore/get-started/install.rst:67
@@ -14182,8 +14222,9 @@ msgid ""
 "Once you've downloaded the installer, you're ready to install Overte. The"
 " process will be different based on your operating system:"
 msgstr ""
-"После загрузки установочного файла все готово для установки Overte. Процесс "
-"установки будет отличаться в зависимости от вашей операционной системы:"
+"После загрузки установочного файла все готово для установки Overte. "
+"Процесс установки будет отличаться в зависимости от вашей операционной "
+"системы:"
 
 #: ../../source/explore/get-started/install.rst:71
 msgid "Windows Install"
@@ -14196,10 +14237,10 @@ msgid ""
 "finish the install process, Interface will open, and you will be able to "
 "log in and begin exploring the metaverse."
 msgstr ""
-"Для установки на Windows просто дважды щелкните по иконке файла установщика. "
-"Следуйте инструкциям установщика. После завершения процесса установки "
-"откроется Интерфейс, вы сможете войти в систему и начать изучать "
-"метавселенную."
+"Для установки на Windows просто дважды щелкните по иконке файла "
+"установщика. Следуйте инструкциям установщика. После завершения процесса "
+"установки откроется Интерфейс, вы сможете войти в систему и начать "
+"изучать метавселенную."
 
 #: ../../source/explore/get-started/install.rst:78
 msgid "Mac Install"
@@ -14211,8 +14252,8 @@ msgid ""
 "give the OS permission to install the application."
 msgstr ""
 "В настоящее время установщик Overte для Mac не имеет цифровой подписи, "
-"поэтому вам потребуется дать операционной системе разрешение на установку "
-"приложения."
+"поэтому вам потребуется дать операционной системе разрешение на установку"
+" приложения."
 
 #: ../../source/explore/get-started/install.rst:82
 msgid "Open the downloaded installer dmg file."
@@ -14240,16 +14281,16 @@ msgid ""
 " this might be in **System Preferences > General**."
 msgstr ""
 "Откройте **Системные настройки > Безопасность и конфиденциальность**. В "
-"более старых версиях macOS это может находиться в **Системные настройки > "
-"Общие**."
+"более старых версиях macOS это может находиться в **Системные настройки >"
+" Общие**."
 
 #: ../../source/explore/get-started/install.rst:87
 msgid ""
 "Next to the warning indicating that Interface is blocked, click 'Open "
 "Anyway'."
 msgstr ""
-"Рядом с предупреждением о том, что Interface заблокирован, нажмите 'Открыть "
-"в любом случае'."
+"Рядом с предупреждением о том, что Interface заблокирован, нажмите "
+"'Открыть в любом случае'."
 
 #: ../../source/explore/get-started/install.rst:88
 msgid "Confirm that you want to open the application."
@@ -14260,8 +14301,8 @@ msgid ""
 "Allow microphone access if prompted, in order to be able to talk inside "
 "the application."
 msgstr ""
-"Если нужно разрешите доступ к микрофону, чтобы иметь возможность общаться в "
-"приложении."
+"Если нужно разрешите доступ к микрофону, чтобы иметь возможность общаться"
+" в приложении."
 
 #: ../../source/explore/get-started/install.rst:91
 msgid ""
@@ -14280,8 +14321,8 @@ msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
 "``chmod +x Overte-x86_64_20220219.AppImage``.)"
 msgstr ""
-"Пометьте загруженный файл AppImage как исполняемый. (например так: ``chmod +"
-"x Overte-x86_64_20220219.AppImage``.)"
+"Пометьте загруженный файл AppImage как исполняемый. (например так: "
+"``chmod +x Overte-x86_64_20220219.AppImage``.)"
 
 #: ../../source/explore/get-started/install.rst:99
 msgid ""
@@ -14290,8 +14331,8 @@ msgid ""
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 msgstr ""
 "(Необязательно) Если вы хотите интегрировать AppImage в свою систему, "
-"установите `AppImageLauncher <https://github.com/TheAssassin/"
-"AppImageLauncher>`_."
+"установите `AppImageLauncher "
+"<https://github.com/TheAssassin/AppImageLauncher>`_."
 
 #: ../../source/explore/get-started/install.rst:100
 msgid "Execute AppImage."
@@ -14303,9 +14344,9 @@ msgid ""
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
 "Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
-"В настоящее время сервер не является частью Interface Linux AppImage. Для "
-"размещения домена см. раздел :doc:`Хостинг домена на локальном или облачном "
-"сервере Linux <../../host/server-setup/linux-server>`."
+"В настоящее время сервер не является частью Interface Linux AppImage. Для"
+" размещения домена см. раздел :doc:`Хостинг домена на локальном или "
+"облачном сервере Linux <../../host/server-setup/linux-server>`."
 
 #: ../../source/explore/get-started/install.rst:106
 msgid "Upgrade Overte"
@@ -14318,10 +14359,10 @@ msgid ""
 " you can download the latest release from our `website "
 "<https://overte.org/#downloads>`_."
 msgstr ""
-"Overte постоянно обновляется: мы работаем над улучшением производительности "
-"и добавлением новых возможностей, которые сделают ваше пребывание в "
-"метавселенной еще лучше. В любой момент вы можете загрузить последнюю версию "
-"с нашего `сайта <https://overte.org/#downloads>`_."
+"Overte постоянно обновляется: мы работаем над улучшением "
+"производительности и добавлением новых возможностей, которые сделают ваше"
+" пребывание в метавселенной еще лучше. В любой момент вы можете загрузить"
+" последнюю версию с нашего `сайта <https://overte.org/#downloads>`_."
 
 #: ../../source/explore/get-started/install.rst:111
 msgid ""
@@ -14330,9 +14371,10 @@ msgid ""
 "before upgrading. Keep in mind that Overte Server could be running in the"
 " background."
 msgstr ""
-"Вы не можете обновить Overte в Windows, если на вашем компьютере запущены "
-"Overte Interface или Overte Server. Обязательно закройте эти приложения "
-"перед обновлением. Учтите, что Overte Server может работать в фоновом режиме."
+"Вы не можете обновить Overte в Windows, если на вашем компьютере запущены"
+" Overte Interface или Overte Server. Обязательно закройте эти приложения "
+"перед обновлением. Учтите, что Overte Server может работать в фоновом "
+"режиме."
 
 #: ../../source/explore/get-started/install.rst:114
 msgid ""
@@ -14341,8 +14383,8 @@ msgid ""
 "background process using the Task Manager."
 msgstr ""
 "В Windows найдите приложение Overte в системном трее. Щелкните правой "
-"кнопкой мыши по иконке и выберите 'Завершить'. Или завершите фоновый процесс "
-"'server-console' с помощью диспетчера задач."
+"кнопкой мыши по иконке и выберите 'Завершить'. Или завершите фоновый "
+"процесс 'server-console' с помощью диспетчера задач."
 
 #: ../../source/explore/get-started/install.rst:116
 msgid ""
@@ -14350,7 +14392,8 @@ msgid ""
 "<https://github.com/overte-org/overte/blob/master/CHANGELOG.md>`_."
 msgstr ""
 "Получить больше информации о последних версиях можно в нашем `списке "
-"изменений <https://github.com/overte-org/overte/blob/master/CHANGELOG.md>`_."
+"изменений <https://github.com/overte-"
+"org/overte/blob/master/CHANGELOG.md>`_."
 
 #: ../../source/explore/get-started/install.rst:121
 msgid "Perform a Clean Install"
@@ -16861,39 +16904,39 @@ msgid ""
 "same steps as above."
 msgstr ""
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "HOME"
 msgstr "Главная"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "EXPLORE"
 msgstr "ИСПОЛЬЗОВАНИЕ"
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "CREATE"
 msgstr ""
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "SCRIPT"
 msgstr ""
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "HOST"
 msgstr ""
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "CONTRIBUTE"
 msgstr ""
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "DEVELOP"
 msgstr ""
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "SECURITY"
 msgstr ""
 
-#: ../../source/home.rst:47
+#: ../../source/home.rst:48
 msgid "API REFERENCE"
 msgstr "СПРАВОЧНИК API"
 
@@ -16908,11 +16951,12 @@ msgid ""
 "create and host your own virtual world, explore other worlds, meet and "
 "connect with other users, attend or host live VR events, and much more."
 msgstr ""
-"Overte — это программное обеспечение с открытым исходным кодом, позволяющее "
-"создавать и делиться виртуальными мирами в виртуальной реальности (VR) и на "
-"обычных компьютерах. Вы можете создавать и размещать свой собственный "
-"виртуальный мир, исследовать другие миры, встречаться и общаться с другими "
-"пользователями, посещать или проводить прямые VR-мероприятия и многое другое."
+"Overte — это программное обеспечение с открытым исходным кодом, "
+"позволяющее создавать и делиться виртуальными мирами в виртуальной "
+"реальности (VR) и на обычных компьютерах. Вы можете создавать и размещать"
+" свой собственный виртуальный мир, исследовать другие миры, встречаться и"
+" общаться с другими пользователями, посещать или проводить прямые "
+"VR-мероприятия и многое другое."
 
 #: ../../source/home.rst:10
 msgid ""
@@ -16923,12 +16967,12 @@ msgid ""
 "always be able to interact with your environment, engage with your "
 "friends, and listen to conversations just like you would in real life."
 msgstr ""
-"Overte для виртуальных миров предоставляет встроенные социальные функции, "
-"такие как взаимодействие с аватарами, пространственный звук и интерактивную "
-"физику. Кроме того, вы можете импортировать любой 3D-объект в свою "
-"виртуальную среду. Где бы вы ни находились в Overte, вы всегда сможете "
-"взаимодействовать со своим окружением, общаться с друзьями и вести "
-"разговоры, как в реальной жизни."
+"Overte для виртуальных миров предоставляет встроенные социальные функции,"
+" такие как взаимодействие с аватарами, пространственный звук и "
+"интерактивную физику. Кроме того, вы можете импортировать любой 3D-объект"
+" в свою виртуальную среду. Где бы вы ни находились в Overte, вы всегда "
+"сможете взаимодействовать со своим окружением, общаться с друзьями и "
+"вести разговоры, как в реальной жизни."
 
 #: ../../source/home.rst:14
 #, fuzzy
@@ -16950,14 +16994,13 @@ msgid ""
 "Overte `Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| or "
 "`Discord server <https://discord.gg/4YuQvc8K2f>`_ |Discord|."
 msgstr ""
-"В дополнение к документации, вы можете присоединится к обсуждению в Overte `"
-"Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| или `сервере "
-"Discord <https://discord.gg/4YuQvc8K2f>`_ |Discord|."
+"В дополнение к документации, вы можете присоединится к обсуждению в "
+"Overte `Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| или "
+"`сервере Discord <https://discord.gg/4YuQvc8K2f>`_ |Discord|."
 
 #: ../../source/home.rst:20
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
-msgstr ""
-"Документация написана на `английском языке <https://docs.overte.org/>`_."
+msgstr "Документация написана на `английском языке <https://docs.overte.org/>`_."
 
 #: ../../source/home.rst:22
 msgid "The following translations are available:"
@@ -16988,38 +17031,46 @@ msgid "fr_trans"
 msgstr ""
 
 #: ../../source/home.rst:27
-msgid "`日本語 <https://docs.overte.org/ja/latest/>`_ |jp_trans|"
+msgid "`Pусский язык <https://docs.overte.org/ru/latest/>`_ |ru_trans|"
 msgstr ""
 
 #: ../../source/shared.rst:33
-msgid "jp_trans"
+msgid "ru_trans"
 msgstr ""
 
 #: ../../source/home.rst:28
-msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
+msgid "`日本語 <https://docs.overte.org/ja/latest/>`_ |jp_trans|"
 msgstr ""
 
 #: ../../source/shared.rst:37
-msgid "ko_trans"
+msgid "jp_trans"
 msgstr ""
 
 #: ../../source/home.rst:29
-msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
+msgid "`한국어 <https://docs.overte.org/ko/latest/>`_ |ko_trans|"
 msgstr ""
 
 #: ../../source/shared.rst:41
+msgid "ko_trans"
+msgstr ""
+
+#: ../../source/home.rst:30
+msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
+msgstr ""
+
+#: ../../source/shared.rst:45
 msgid "cs_trans"
 msgstr ""
 
-#: ../../source/home.rst:34
+#: ../../source/home.rst:35
 msgid "What can I do?"
 msgstr "Что вы можете сделать?"
 
-#: ../../source/home.rst:36
+#: ../../source/home.rst:37
 msgid "You have the power to shape your VR experience in Overte."
 msgstr "Вы сами определяете свой VR-опыт в Overte."
 
-#: ../../source/home.rst:38
+#: ../../source/home.rst:39
 msgid ""
 ":doc:`EXPLORE <explore>` by hopping between domains in the metaverse, "
 "attend events, and check out what others are up to!"
@@ -17027,7 +17078,7 @@ msgstr ""
 ":doc:`ИССЛЕДУЙТЕ <explore>` ,перемещаясь между доменами в метавселенной, "
 "посещайте мероприятия и узнавайте, чем занимаются другие!"
 
-#: ../../source/home.rst:39
+#: ../../source/home.rst:40
 msgid ""
 ":doc:`CREATE <create>` personal experiences by building avatars, domains,"
 " tablet apps, and more for you and others to enjoy."
@@ -17035,15 +17086,16 @@ msgstr ""
 ":doc:`СОЗДАВАЙТЕ <create>` контент: аватары, домены, приложения для "
 "планшетов и многое другое для себя и других."
 
-#: ../../source/home.rst:40
+#: ../../source/home.rst:41
 msgid ""
 ":doc:`SCRIPT <script>` and express your creativity by applying advanced "
 "scripting concepts to entities and avatars in the metaverse."
 msgstr ""
 ":doc:`СКРИПТЫ <script>` позволят проявить свою креативность, применяя "
-"передовые концепции программирования к объектам и аватарам в метавселенной."
+"передовые концепции программирования к объектам и аватарам в "
+"метавселенной."
 
-#: ../../source/home.rst:41
+#: ../../source/home.rst:42
 msgid ""
 ":doc:`HOST <host>` and make immersive experiences to educate, entertain, "
 "and connect with your audience."
@@ -17051,11 +17103,11 @@ msgstr ""
 ":doc:`ХОСТИТЕ <host>` и создавайте захватывающие пространства, чтобы "
 "обучать, развлекать и общаться с вашей аудиторией."
 
-#: ../../source/home.rst:42
+#: ../../source/home.rst:43
 msgid ":doc:`CONTRIBUTE <contribute>` to the project's endeavor."
 msgstr ":doc:`УЧАСТВУЙТЕ <contribute>` в развитии Overte."
 
-#: ../../source/home.rst:43
+#: ../../source/home.rst:44
 msgid ""
 ":doc:`DEVELOP <developer>` the project and tailor it to your needs, or "
 "just to help out."
@@ -17063,12 +17115,11 @@ msgstr ""
 ":doc:`РАЗРАБАТЫВАЙТЕ <developer>` проекты, адаптируйте их под себя, или "
 "просто помогайте."
 
-#: ../../source/home.rst:44
+#: ../../source/home.rst:45
 msgid ""
 ":doc:`SECURITY <security>` information about the project and its "
 "components."
-msgstr ""
-":doc:`БЕЗОПАСНОСТЬ <security>` : информация о платформе и её компонентах."
+msgstr ":doc:`БЕЗОПАСНОСТЬ <security>` : информация о платформе и её компонентах."
 
 #: ../../source/host.rst:9 ../../source/host/start-hosting.rst:3
 msgid "Get Started with Hosting"
@@ -31481,3 +31532,16 @@ msgstr ""
 #~ " between February 26th & March 16th,"
 #~ " 2020."
 #~ msgstr ""
+
+#~ msgid "*Last Updated on April 12, 2025*"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Build `packaged-server-console-npm-"
+#~ "install` (found under **hidden/Server "
+#~ "Console**)"
+#~ msgstr ""
+
+#~ msgid "*Last Updated on 2026-02-13*"
+#~ msgstr ""
+
