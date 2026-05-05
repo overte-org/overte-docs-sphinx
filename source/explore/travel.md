@@ -62,7 +62,7 @@ Portals allow anyone to travel to their corresponding place from anywhere in the
 
 <div class="admonition note">
    <p class="admonition-title">Note</p>
-   <p>Any portal you create from the Places app will only remain for a short period of time. This will allow anyone you are with to walk through it to join you in the next place, but anyone who comes by at a later time will not see the portal and cannot follow you in his way.</p>
+   <p>Any portal you create from the Places app will only remain for a short period of time. This will allow anyone you are with to walk through it to join you in the next place, but anyone who comes by at a later time will not see the portal and cannot follow you in this way.</p>
 </div>
 
 ### Home Sweet Home
