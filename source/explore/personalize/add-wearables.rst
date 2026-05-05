@@ -23,7 +23,7 @@ Once you know the URL for your wearable's FBX/GLB/glTF/OBJ file, then put it on 
 
     .. image:: _images/add-wearable.png
 3. Click 'Add custom' at the top of the window.
-4. Enter the avatar file's URL and click 'Confirm'.
+4. Enter the wearable file's URL and click 'Confirm'.
 5. Select the joint you'd like to use for your wearable. For example, a hat would be on your head, and fairy wings would be on your spine.
 6. Fine tune the placement using the 'Position' and 'Rotation' options.
 7. Check 'Is soft' if the item is rigged with your skeleton. This allows the item to move and bend with the avatar as it moves.
