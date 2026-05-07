@@ -67,7 +67,7 @@ Portals allow anyone to travel to their corresponding place from anywhere in the
 
 ### Home Sweet Home
 
-Have a favourite spot you in Overte you always want to return to? You can set a home location from the **Bookmarks** tab of the Places app, or from the **Navigate** menu.
+Have a favorite spot you in Overte you always want to return to? You can set a home location from the **Bookmarks** tab of the Places app, or from the **Navigate** menu.
 
 You can always get back home either by pressing the house icon in the top left of the Places app, or by heading to the **Navigate** menu, then **Bookmarks** and select **Home**.
 

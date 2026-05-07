@@ -49,19 +49,19 @@ Modify your Wearable
 
 You can even modify your wearable using the `Create app <../../create/tools.html#the-create-app>`_ whilst you are wearing it.
 
-.. note:: Modified wearables will follow you to different domains and remain when you next load Overte, however any modifications will not be saved to your avatar until you favourite it again.
+.. note:: Modified wearables will follow you to different domains and remain when you next load Overte, however any modifications will not be saved to your avatar until you favorite it again.
 
 You can edit any property of your wearable, just like any other object in the domain. Give it a name, shift its position in relation to the joint it is attached to, give it an animation or attach an entity script. Your modifications will remain until you switch to another avatar.
 
 ----------------------------------------
-Favourite Wearables for your Avatar
+Favorite Wearables for your Avatar
 ----------------------------------------
 
-So you have added a wearable or two as accessories for your current avatar, and you like them so much you just know you will be wearing them all the time? It's time to save them as a set with your favourite avatar.
+So you have added a wearable or two as accessories for your current avatar, and you like them so much you just know you will be wearing them all the time? It's time to save them as a set with your favorite avatar.
 
-When you add an Avatar as a favourite, it will also save any wearables you have added along with it. So whenever you change your set of wearables be sure to press **Add to favorites** to save them as a favourite set. Then whenever you load it from your favourites again, your wearables will load along with it!
+When you add an Avatar as a favorite, it will also save any wearables you have added along with it. So whenever you change your set of wearables be sure to press **Add to favorites** to save them as a favorite set. Then whenever you load it from your favorites again, your wearables will load along with it!
 
-.. note:: Changes made to your wearables are not automatically saved to your favourites. You must **Add to favorites** again to save changes after grabbing, modifying, adding or removing wearables.
+.. note:: Changes made to your wearables are not automatically saved to your favorites. You must **Add to favorites** again to save changes after grabbing, modifying, adding or removing wearables.
 
 **See Also**
 

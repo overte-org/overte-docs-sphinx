@@ -85,7 +85,7 @@ To use the Body Poser App:
 
 1. Open your context menu with :kbd:`b` on your keyboard, or the context menu button on your controller.
 2. Select **Poser** and then toggle **Enabled**.
-3. Your avatar will form a T-pose and you will now see your "handles" as coloured boxes on your avatar.
+3. Your avatar will form a T-pose and you will now see your "handles" as colored boxes on your avatar.
 4. You can grab a handle with either your mouse left click or your grab button on controller and drag to move it.
 5. On desktop you can hold :kbd:`Shift` to move the handle up/down, and :kbd:`Ctrl` to rotate it.
 6. Once you are happy with your pose you can hide your handles from the context menu; **Poser** -> toggle **Show handles**
