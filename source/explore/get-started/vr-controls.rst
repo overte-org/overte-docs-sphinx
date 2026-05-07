@@ -2,7 +2,7 @@
 Use Your VR Equipment
 #########################
 
-To get the best and most immersive experience in Overte, we encourage you to use VR equipment, such as the HTC Vive. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support both OpenVR and OpenXR, which means we support most currently available HMDs and hand controllers.
+To get the best and most immersive experience in Overte, we encourage you to use VR equipment. With these HMD devices and hand controllers, you will be able to interact with people in 3D, track body movements, and engage with the objects around you. We support both OpenVR and OpenXR, which means we support most currently available HMDs and hand controllers.
 
 We recommend you use OpenXR, as it performs better, supports hand tracking and has better compatibility with newer controller features. You can also choose to use OpenVR, which currently has the best support for body tracking.
 
@@ -121,7 +121,7 @@ Motion Capture Using Vive Trackers
 
 You can enhance your Overte experience using full body tracking (FBT), also known as full body motion capture (mocap). Overte currently supports FBT using any trackers compatible with OpenVR or OpenXR runtimes, including the HTC Vive Trackers.
 
-.. note:: Whilst Overte supports full body tracking in both OpenVR and OpenXR, for best compatibility we recommend you use SteamVR runtime for accurate body tracking.
+.. note:: Whilst Overte supports full body tracking in both OpenVR and OpenXR, for best compatibility we recommend you use OpenVR for accurate body tracking.
 
 This section will focus exclusively on HTC Vive Trackers, but any full body trackers should work just as well.
 
