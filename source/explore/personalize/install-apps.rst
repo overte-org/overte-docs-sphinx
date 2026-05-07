@@ -16,7 +16,7 @@ Install Tablet Apps
 
 We and many users have created tablet apps that are available in Overte. To find and install an app:
 
-1. In Interface, pull up your HUD or Tablet and go to **More**.
+1. In Overte Interface, pull up your HUD or Tablet and go to **More**.
 2. Search for a specific app, or browse all apps.
 3. Once you find the app of your choice, click **Install** to start using the app in Overte.
 4. Once the app is installed, you can access the app through your HUD or Tablet.
@@ -26,7 +26,7 @@ We and many users have created tablet apps that are available in Overte. To find
 Update an App
 -------------
 
-Apps installed through the more app, and indeed any scripts loaded from URL, do not need to be updated manually. When Interface loads it will automatically check for updates and install them, so you don't need to worry about keeping up to date!
+Apps installed through the more app, and indeed any scripts loaded from URL, do not need to be updated manually. When Overte Interface loads it will automatically check for updates and install them, so you don't need to worry about keeping up to date!
 
 ---------
 More Apps
@@ -43,11 +43,11 @@ The Spectator Camera is a camera you can use to record or livestream what you an
 `Use the instructions above <#install-tablet-apps>`_ to install the Spectator Camera app.
 
 .. note::
-    While using the Spectator Camera, Interface's framerate might be affected. This is because Interface is rendering not only what you see, but what the Spectator Camera sees as well.
+    While using the Spectator Camera, Overte's framerate might be affected. This is because Overte is rendering not only what you see, but what the Spectator Camera sees as well.
 
 To use the Spectator Camera app:
 
-1. In Interface, pull up your Tablet and go to **Spectator**.
+1. In Overte Interface, pull up your Tablet and go to **Spectator**.
 2. Turn on your Spectator Cam by moving the slider. You'll see the camera appear in-world. By default, the app's display shows you what you see in VR through your HMD. This is to show you what you're recording without having to take off your HMD.
 
 .. image:: _images/spec-cam-window.png
@@ -55,8 +55,7 @@ To use the Spectator Camera app:
 3. To record yourself, switch your display from your HMD's view to the camera view. This lets you record videos of yourself, such as your avatar dancing or trying on different wearables.
 4. Enable switching views with your controllers in the **Spectator** app on your Tablet.
 
-    * **Rift**: If you're using Oculus Touch controllers, click the left thumbstick to switch views.
-    * **Vive**: If you're using HTC Vive controllers, press on the center of the thumb pad to switch views.
+    * Click in the left thumbstick to switch views. For controllers without a thumbstick, press on the center of the thumbpad instead.
 
 ==========
 Body Paint
@@ -66,7 +65,7 @@ The Body Paint app lets your paint your environment, your own avatar, or even an
 
 To use the Body Paint app:
 
-1. In Interface, pull up your HUD or Tablet and go to **Body Paint**.
+1. In Overte Interface, pull up your HUD or Tablet and go to **Body Paint**.
 2. First, click 'Options' to select what you would like to paint on - the world around you, your avatar, or another user's avatar (with their permission).
 3. Click 'Palette' to select a color for your paint.
 4. Click 'Brushes' to select the settings for your brush, such as stroke width, type of brush, and special effects.

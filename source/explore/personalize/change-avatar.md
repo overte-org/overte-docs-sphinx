@@ -18,7 +18,7 @@ You can use an avatar that you created. Learn more about how you can create your
 
 Once you have your avatar, you can upload it. Your avatar may include an .fst, .glb/fbx/glTF, images, animation .json,  and any number of other files which should all be uploaded to a publicly accessible location so all users of Overte can see it.
 
-1. In Interface, pull up your tablet or HUD and click on **Avatar**.
+1. In Overte Interface, pull up your tablet or HUD and click on **Avatar**.
 2. In the **Avatar** window, click the link icon next to your current avatar. ![](_images/avatar-link.png)
 3. Enter the .fst file's URL and click 'Confirm'.
 4. If you want to access this avatar later without loading the .fst file information again, you can click on 'Add to Favorites' to save the current avatar information.

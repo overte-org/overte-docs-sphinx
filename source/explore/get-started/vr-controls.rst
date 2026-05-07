@@ -161,7 +161,7 @@ Configure Your Mocap System
 
 1. Strap your Vive trackers to your body as shown in the image.
 2. Connect your trackers, HMD, and controllers to SteamVR.
-3. In Interface, pull up your HUD or Tablet and go to **Menu > Settings > Calibration**.
+3. In Overte Interface, pull up your HUD or Tablet and go to **Menu > Settings > Calibration**.
 4. Configure your full body tracking system by:
 
    * Selecting the right device for your head and hands. If you're using a head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop Mode'.

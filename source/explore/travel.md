@@ -11,7 +11,7 @@ Overte is made up of many virtual places that let you participate in activities 
 The **Places** app lets you travel between different places in Overte. Many of our places are created by users just like you.
 
 To go and explore new places:
-1. In Interface, pull up your tablet or HUD and go to **Places**.
+1. In Overte Interface, pull up your tablet or HUD and go to **Places**.
 2. If you know where you want to go, enter the domain address or place name. As you type, only the matching places will be shown. Otherwise, browse the open places under 'Domains' and 'Places'.
 3. Click on a place name to go to the place. If you have permissions, you will be transported to that location automatically.
 

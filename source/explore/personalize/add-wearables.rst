@@ -18,7 +18,7 @@ Put on a :doc:`wearable that you created <../../create/wearables>`. All wearable
 
 Once you know the URL for your wearable's FBX/GLB/glTF/OBJ file, then put it on your avatar:
 
-1. In Interface, pull up your tablet or HUD and click on **Avatar**.
+1. In Overte Interface, pull up your tablet or HUD and click on **Avatar**.
 2. In the **Avatar** window, click the hat icon next to 'Wearables'.
 
     .. image:: _images/add-wearable.png
