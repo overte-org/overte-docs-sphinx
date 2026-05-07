@@ -13,7 +13,7 @@ This page ensures that you know what type of script to use and helps you get sta
 JavaScript Basics in Overte
 -----------------------------
 
-Overte scripting runs on the V8 scripting engine, with support for both javascript and WebAssembly. To access the Overte API you will need to use Javascript.
+Overte scripting runs on the V8 scripting engine, with support for both JavaScript and WebAssembly. To access the Overte API you will need to use JavaScript.
 
 .. note:: Note that any functionality that runs around web pages (such as cookies, local storages, or databases) does not work with 3D environments such as Overte. For this reason, you cannot use JavaScript frameworks such as Angular, React, Express, jQuery, Vue, etc.
 
@@ -25,7 +25,7 @@ You are likely to interface most with these Overte APIs:
 | `Entities <https://apidocs.overte.org/Entities.html>`_              | Lets you manipulate the entities around you, as long                 |
 |                                                                     | as you have permissions to do so. This means you can                 |
 |                                                                     | add, remove, and edit entities. Everyone has access                  |
-|                                                                     | to ``get`` properties of an entity, and can be used                  |
+|                                                                     | to ``get`` properties of an entity, which can be used                |
 |                                                                     | to find Entities in range, direction, collision, or                  |
 |                                                                     | raytrace.                                                            |
 +---------------------------------------------------------------------+----------------------------------------------------------------------+
@@ -37,9 +37,9 @@ You are likely to interface most with these Overte APIs:
 |                                                                     | of the client running the script. AvatarList and                     |
 |                                                                     | AvatarManager are basically the same.                                |
 +---------------------------------------------------------------------+----------------------------------------------------------------------+
-| `Script <https://apidocs.overte.org/Script.html>`_                  | Allows you to connect callbacks from your client to script,          |
+| `Script <https://apidocs.overte.org/Script.html>`_                  | Allows you to connect callbacks from your client to a script,        |
 |                                                                     | such as functionality that is dependent on time                      |
-|                                                                     | (``Script.update``, ``Script.setTime``, ``Script.setInterval`` etc), |
+|                                                                     | (``Script.update``, ``Script.setTime``, ``Script.setInterval``, etc),|
 |                                                                     | connect paths relatively to Assets (``Script.relativePath``),        |
 |                                                                     | refer to other scripts (``Script.include``), or create events        |
 |                                                                     | which occur when the script is turned off (``Script.scriptEnding``). |
@@ -70,7 +70,7 @@ Types of Scripts
 |                          | happens when a user encounters an entity by loading it into view.                   |
 +--------------------------+-------------------------------------------------------------------------------------+
 | Server Entity Script     | *Server entity scripts* are scripts attached to entities that do not require a      |
-|                          | user to trigger. These scripts control entities so that their behavior is seen and  |
+|                          | user to trigger. These scripts control entities so that their behavior is seen or   |
 |                          | heard by everyone in the domain.                                                    |
 +--------------------------+-------------------------------------------------------------------------------------+
 
