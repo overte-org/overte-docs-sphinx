@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
-"POT-Creation-Date: 2026-05-05 10:45+0000\n"
+"POT-Creation-Date: 2026-05-08 17:36+0000\n"
 "PO-Revision-Date: 2026-04-01 13:59+0000\n"
 "Last-Translator: mxreia <mxreixa@tuta.io>\n"
 "Language: ja\n"
@@ -106,8 +106,13 @@ msgstr "Discord"
 #: ../../source/host/maintain-domain/update-software.rst:8
 #: ../../source/host/server-setup/windows-server.rst:10
 #: ../../source/host/start-hosting.rst:8
+#: ../../source/script/assignment-client-scripts.rst:10
+#: ../../source/script/avatar-scripts.rst:10
+#: ../../source/script/client-entity-scripts.rst:12
 #: ../../source/script/get-started-with-scripting.rst:10
-#: ../../source/script/midi-tutorial.rst:12
+#: ../../source/script/interface-scripts.rst:10
+#: ../../source/script/js-tips.rst:10 ../../source/script/midi-tutorial.rst:12
+#: ../../source/script/server-entity-scripts.rst:8
 #: ../../source/security/asset-security.rst:12
 msgid "On This Page"
 msgstr "['コンテンツ']"
@@ -1007,14 +1012,15 @@ msgstr ""
 #: ../../source/explore/personalize/change-avatar.md:31
 #: ../../source/explore/personalize/install-apps.md:101
 #: ../../source/explore/travel.md:35
-#: ../../source/script/assignment-client-scripts.md:54
-#: ../../source/script/avatar-scripts.md:78
-#: ../../source/script/client-entity-scripts.md:44
-#: ../../source/script/get-started-with-scripting.rst:174
-#: ../../source/script/interface-scripts.md:37
-#: ../../source/script/js-tips.md:200 ../../source/script/midi-tutorial.rst:176
-#: ../../source/script/server-entity-scripts.md:57
-#: ../../source/script/write-scripts.md:74
+#: ../../source/script/assignment-client-scripts.rst:63
+#: ../../source/script/avatar-scripts.rst:115
+#: ../../source/script/client-entity-scripts.rst:59
+#: ../../source/script/get-started-with-scripting.rst:173
+#: ../../source/script/interface-scripts.rst:107
+#: ../../source/script/js-tips.rst:229
+#: ../../source/script/midi-tutorial.rst:176
+#: ../../source/script/server-entity-scripts.rst:80
+#: ../../source/script/write-scripts.md:84
 #: ../../source/security/asset-security.rst:79
 #, fuzzy
 msgid "**See Also**"
@@ -2439,8 +2445,7 @@ msgstr ""
 #: ../../source/explore/interact.md:7
 #: ../../source/explore/personalize/change-avatar.md:10
 #: ../../source/explore/personalize/install-apps.md:12
-#: ../../source/explore/travel.md:5 ../../source/script/js-tips.md:7
-#: ../../source/script/write-scripts.md:12
+#: ../../source/explore/travel.md:5 ../../source/script/write-scripts.md:12
 #, fuzzy
 msgid "**On This Page:**"
 msgstr "**コンテンツ**"
@@ -6549,8 +6554,8 @@ msgid "To add a new entity to your domain:"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:11
-#: ../../source/script/client-entity-scripts.md:13
-#: ../../source/script/server-entity-scripts.md:12
+#: ../../source/script/client-entity-scripts.rst:20
+#: ../../source/script/server-entity-scripts.rst:16
 #, fuzzy
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
 msgstr "インターフェイスにおいて、タブレットまたはHUDをプルアップし、**作成**に移動します。"
@@ -22391,24 +22396,25 @@ msgstr "スクリプトを作成する"
 msgid "JavaScript Tips and Tricks"
 msgstr "JavaScriptのヒントとコツ"
 
-#: ../../source/script.rst:9 ../../source/script/interface-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/interface-scripts.rst:3
 msgid "Interface Scripts"
 msgstr "インターフェイススクリプト"
 
-#: ../../source/script.rst:9 ../../source/script/assignment-client-scripts.md:1
+#: ../../source/script.rst:9
+#: ../../source/script/assignment-client-scripts.rst:3
 #, fuzzy
 msgid "Assignment Client Scripts"
 msgstr "割り当てクライアントスクリプト"
 
-#: ../../source/script.rst:9 ../../source/script/avatar-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/avatar-scripts.rst:3
 msgid "Avatar Scripts"
 msgstr "アバタースクリプト"
 
-#: ../../source/script.rst:9 ../../source/script/client-entity-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/client-entity-scripts.rst:3
 msgid "Client Entity Scripts"
 msgstr "クライアントエンティティスクリプト"
 
-#: ../../source/script.rst:9 ../../source/script/server-entity-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/server-entity-scripts.rst:3
 msgid "Server Entity Scripts"
 msgstr "サーバーエンティティスクリプト"
 
@@ -22435,7 +22441,7 @@ msgid ""
 "how you can use them to create new experiences:"
 msgstr "この章全体を通して、さまざまな種類のスクリプトと、それらを使用して新しいエクスペリエンスを作成する方法について学習します。"
 
-#: ../../source/script/assignment-client-scripts.md:3
+#: ../../source/script/assignment-client-scripts.rst:5
 #, fuzzy
 msgid ""
 "Assignment Client (AC) scripts (also known as \"persistent scripts\") run"
@@ -22445,7 +22451,7 @@ msgid ""
 "domain or you shut down the domain entirely."
 msgstr "割り当てクライアント（AC）スクリプト（「永続スクリプト」とも呼ばれます）は、ドメイン内で永続的に実行され、他のスクリプトの影響を受けません。これらのスクリプトは、インターフェイスとは別の割り当てクライアントで実行されるため、ドメインからスクリプトを削除するか、ドメインを完全にシャットダウンするまで、スクリプトは実行され続けます。"
 
-#: ../../source/script/assignment-client-scripts.md:5
+#: ../../source/script/assignment-client-scripts.rst:7
 #, fuzzy
 msgid ""
 "With AC scripts, you can do things like coordinate actions between "
@@ -22453,31 +22459,12 @@ msgid ""
 "domain."
 msgstr "ACスクリプトを使用すると、エンティティとアバター間のアクションを調整したり、仮想ペットを追加してドメインへの訪問者を迎えたりすることができます。"
 
-#: ../../source/script/assignment-client-scripts.md:7
-#: ../../source/script/avatar-scripts.md:7
-#: ../../source/script/client-entity-scripts.md:7
-#: ../../source/script/interface-scripts.md:7
-#: ../../source/script/server-entity-scripts.md:5
-#, fuzzy
-msgid "**On This Page**"
-msgstr "**コンテンツ**"
-
-#: ../../source/script/assignment-client-scripts.md:8
-#, fuzzy
-msgid "[Add an AC Script](#add-an-ac-script)"
-msgstr "[ACスクリプトを追加](#add-an-ac-script)"
-
-#: ../../source/script/assignment-client-scripts.md:9
-#, fuzzy
-msgid "[Example of an AC Script](#example-of-an-ac-script)"
-msgstr "[ACスクリプトの例](#example-of-an-ac-script)"
-
-#: ../../source/script/assignment-client-scripts.md:11
+#: ../../source/script/assignment-client-scripts.rst:14
 #, fuzzy
 msgid "Add an AC Script"
 msgstr "ACスクリプトを追加する"
 
-#: ../../source/script/assignment-client-scripts.md:12
+#: ../../source/script/assignment-client-scripts.rst:16
 #, fuzzy
 msgid ""
 "Once you've written and hosted your script, you need to add it to a "
@@ -22485,73 +22472,71 @@ msgid ""
 "script."
 msgstr "スクリプトを書き、ホスティングしたら、自分のドメインか、ACスクリプトを実行する権限があるドメインにスクリプトを追加する必要があります。"
 
-#: ../../source/script/assignment-client-scripts.md:14
+#: ../../source/script/assignment-client-scripts.rst:18
 #, fuzzy
 msgid ""
-"Open your 'Domain Administration Panel'. If you are on a local sandbox, "
-"open it by clicking on the Overte icon in the taskbar notifications and "
-"'click Settings'."
+"Open your 'Domain Administration Panel'. If you are on a local domain "
+"server, open it by clicking on the Overte icon in the taskbar "
+"notifications and 'click Settings'."
 msgstr "「ドメイン管理パネル」を開きます。ローカルサンドボックスを使用している場合は、タスクバー通知のVircadiaアイコンをクリックしてサンドボックスを開き、[設定]をクリックします。"
 
-#: ../../source/script/assignment-client-scripts.md:15
+#: ../../source/script/assignment-client-scripts.rst:19
 #, fuzzy
 msgid "From the menu, go to **Content > Scripts**."
 msgstr "メニューから、**コンテンツ>スクリプト**を選択します。"
 
-#: ../../source/script/assignment-client-scripts.md:16
+#: ../../source/script/assignment-client-scripts.rst:20
 #, fuzzy
 msgid ""
 "In the Persistent Scripts section, click **+** and paste the URL to your "
-"script under 'Script URL'.  ![](_images/ac-script.png)"
+"script under 'Script URL'."
 msgstr ""
 "[永続スクリプト]セクションで、[** + **]をクリックし、[スクリプトURL]の下のスクリプトにURLを貼り付けます。![](_images"
 "/ac-script.png)"
 
-#: ../../source/script/assignment-client-scripts.md:18
+#: ../../source/script/assignment-client-scripts.rst:24
 #, fuzzy
 msgid ""
 "At the top of the page, click 'Save and Restart'. Now, every time you "
 "enter that domain, the AC script will be running."
 msgstr "ページの上部にある[保存して再起動]をクリックします。今後は、そのドメインに入るたびに、ACスクリプトが実行されます。"
 
-#: ../../source/script/assignment-client-scripts.md:20
+#: ../../source/script/assignment-client-scripts.rst:28
 #, fuzzy
 msgid "Example of an AC Script"
 msgstr "ACスクリプトの例"
 
-#: ../../source/script/assignment-client-scripts.md:22
+#: ../../source/script/assignment-client-scripts.rst:30
 msgid ""
 "The following script counts the number of entities found in a domain "
-"using Overte's "
-"[EntityViewer](https://apidocs.overte.org/EntityViewer.html)."
+"using Overte's `EntityViewer "
+"<https://apidocs.overte.org/EntityViewer.html>`_."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:56
+#: ../../source/script/assignment-client-scripts.rst:65
 #, fuzzy
-msgid "[Configure Your Domain Settings](../host/configure-settings)"
-msgstr "[ドメイン設定を構成する](../host/configure-settings)"
+msgid "`Configure Your Domain Settings <../host/configure-settings>`_"
+msgstr ":doc:`ドメイン設定の構成 <../../host/configure-settings>`"
 
-#: ../../source/script/assignment-client-scripts.md:57
-#: ../../source/script/avatar-scripts.md:80
-#: ../../source/script/client-entity-scripts.md:46
-#: ../../source/script/interface-scripts.md:39
-#: ../../source/script/server-entity-scripts.md:59
-#: ../../source/script/write-scripts.md:76
+#: ../../source/script/assignment-client-scripts.rst:66
+#: ../../source/script/avatar-scripts.rst:117
+#: ../../source/script/client-entity-scripts.rst:61
+#: ../../source/script/interface-scripts.rst:109
+#: ../../source/script/server-entity-scripts.rst:82
 #, fuzzy
-msgid "[Get Started with Scripting](get-started-with-scripting)"
+msgid "`Get Started with Scripting <get-started-with-scripting>`_"
 msgstr "[スクリプトをはじめよう](get-started-with-scripting)"
 
-#: ../../source/script/assignment-client-scripts.md:58
-#: ../../source/script/avatar-scripts.md:81
-#: ../../source/script/client-entity-scripts.md:47
-#: ../../source/script/interface-scripts.md:40
-#: ../../source/script/js-tips.md:202
-#: ../../source/script/server-entity-scripts.md:60
+#: ../../source/script/assignment-client-scripts.rst:67
+#: ../../source/script/avatar-scripts.rst:118
+#: ../../source/script/client-entity-scripts.rst:62
+#: ../../source/script/interface-scripts.rst:110
+#: ../../source/script/server-entity-scripts.rst:83
 #, fuzzy
-msgid "[Write Your Own Scripts](write-scripts)"
-msgstr "[スクリプトを書いてみよう](write-scripts)"
+msgid "`Write Your Own Scripts <write-scripts>`_"
+msgstr ":doc:`独自のスクリプトを作成する <write-scripts>`"
 
-#: ../../source/script/avatar-scripts.md:3
+#: ../../source/script/avatar-scripts.rst:5
 #, fuzzy
 msgid ""
 "Avatar scripts are bound to an avatar. This means that they run when a "
@@ -22561,127 +22546,90 @@ msgid ""
 "script themselves."
 msgstr "アバタースクリプトはアバターにバインドされます。つまり、ユーザーが特定のアバターを身につけたときに実行されます。同様に、アバタースクリプトはアバターが削除されたり変更されたりすると、実行を停止します。ドメイン内の他のユーザーは、スクリプトの動作を見ることができますが、自分でスクリプトを実行することはできません。"
 
-#: ../../source/script/avatar-scripts.md:5
+#: ../../source/script/avatar-scripts.rst:7
 #, fuzzy
 msgid ""
 "With avatar scripts, you can do things like make your hair flow or create"
 " particle clouds around your avatar."
 msgstr "アバタースクリプトを使えば、髪をなびかせたり、アバターの周りにパーティクルクラウドを発生させたりすることができます。"
 
-#: ../../source/script/avatar-scripts.md:9
-#, fuzzy
-msgid "[Add an Avatar Script](#add-an-avatar-script)"
-msgstr "[アバタースクリプトの追加](#add-an-avatar-script)"
-
-#: ../../source/script/avatar-scripts.md:10
-#, fuzzy
-msgid "[Example of an Avatar Script](#example-of-an-avatar-script)"
-msgstr "[アバタースクリプトの例](#example-of-an-avatar-script)"
-
-#: ../../source/script/avatar-scripts.md:12
+#: ../../source/script/avatar-scripts.rst:14
 #, fuzzy
 msgid "Add an Avatar Script"
 msgstr "アバタースクリプトを追加する"
 
-#: ../../source/script/avatar-scripts.md:13
+#: ../../source/script/avatar-scripts.rst:16
 #, fuzzy
 msgid ""
-"There are two different ways you can add an avatar script to your FST "
-"file: either by using our Package Model tool or by manually adding the "
-"script."
+"The recommended way to add an avatar script to your FST file is by "
+"manually editing the file to add your script url:"
 msgstr "FSTファイルにアバタースクリプトを追加するには、パッケージモデルツールを使用する方法と、手動でスクリプトを追加する方法の2種類があります。"
 
-#: ../../source/script/avatar-scripts.md:15
-#, fuzzy
-msgid "To add an avatar script using the Package Model tools:"
-msgstr "パッケージモデルツールを使用してアバタースクリプトを追加するには："
-
-#: ../../source/script/avatar-scripts.md:16
-#, fuzzy
-msgid ""
-"Create a folder called `scripts` in the same location as your FBX, GLB, "
-"or glTF file."
-msgstr "FBX、GLB、またはglTFファイルと同じ場所に`scripts`というフォルダを作成します。"
-
-#: ../../source/script/avatar-scripts.md:17
-#, fuzzy
-msgid "Copy your avatar script into this new folder."
-msgstr "アバタースクリプトをこの新しいフォルダーにコピーします。"
-
-#: ../../source/script/avatar-scripts.md:18
-#, fuzzy
-msgid "In Interface, go to **Edit > Package Model as .fst**"
-msgstr "インターフェイスにおいて、**[編集]>[パッケージモデル]**に移動します"
-
-#: ../../source/script/avatar-scripts.md:19
-#, fuzzy
-msgid ""
-"For 'Script Directory', enter the path to the `scripts` folder you "
-"created above."
-msgstr "[スクリプトディレクトリ]には、上記で作成した`scripts`フォルダへのパスを入力します。"
-
-#: ../../source/script/avatar-scripts.md:21
-#, fuzzy
-msgid "To add an avatar script manually:"
-msgstr "アバタースクリプトを手動で追加するには："
-
-#: ../../source/script/avatar-scripts.md:22
+#: ../../source/script/avatar-scripts.rst:18
 #, fuzzy
 msgid "Open the FST file for your avatar in the text editor of your choice."
 msgstr "選択したテキストエディタでアバターのFSTファイルを開きます。"
 
-#: ../../source/script/avatar-scripts.md:23
+#: ../../source/script/avatar-scripts.rst:19
 #, fuzzy
 msgid ""
 "Add a line telling the avatar where to find the script file using the "
-"syntax `script = [SCRIPT URL]`.![](_images/add-script.png)"
+"syntax ``script = [SCRIPT URL]``."
 msgstr ""
 "構文`script = [SCRIPT URL]`を使用して、アバターにスクリプトファイルの場所を示す行を追加します。![](_images"
 "/add-script.png)"
 
-#: ../../source/script/avatar-scripts.md:25
+#: ../../source/script/avatar-scripts.rst:21
+msgid "A sample of woody's FST file with a script added"
+msgstr ""
+
+#: ../../source/script/avatar-scripts.rst:39
 #, fuzzy
 msgid ""
-"You can add multiple scripts to your avatar by adding multiple `script = "
-"url` lines."
+"You can add multiple scripts to your avatar by adding multiple ``script ="
+" url`` lines."
 msgstr "複数の`script = url`行を追加することで、アバターに複数のスクリプトを追加できます。"
 
-#: ../../source/script/avatar-scripts.md:27
+#: ../../source/script/avatar-scripts.rst:43
 #, fuzzy
 msgid "Example of an Avatar Script"
 msgstr "アバタースクリプトの例"
 
-#: ../../source/script/avatar-scripts.md:29
+#: ../../source/script/avatar-scripts.rst:45
 #, fuzzy
 msgid ""
 "The following script makes your avatar throw balls when its right hand "
 "moves."
 msgstr "次のスクリプトは、右手が動いたときにアバターにボールを投げさせます。"
 
-#: ../../source/script/avatar-scripts.md:76
+#: ../../source/script/avatar-scripts.rst:47
+msgid "throw_ball.js"
+msgstr ""
+
+#: ../../source/script/avatar-scripts.rst:113
 #, fuzzy
 msgid ""
-"This example script uses the "
-"[MyAvatar](https://apidocs.overte.org/MyAvatar.html) namespace to "
-"determine if your avatar's hand moves. Upon detecting movement, the "
-"script makes your avatar launch balls. It also uses some other namespaces"
-" such as [Entities](https://apidocs.overte.org/Entities.html) (to create "
-"the ball you will launch) and "
-"[Vec3](https://apidocs.overte.org/Vec3.html) (to determine the right "
-"positions and distances). Add it to your avatar to see how it works."
+"This example script uses the `MyAvatar "
+"<https://apidocs.overte.org/MyAvatar.html>`_ namespace to determine if "
+"your avatar's hand moves. Upon detecting movement, the script makes your "
+"avatar launch balls. It also uses some other namespaces such as `Entities"
+" <https://apidocs.overte.org/Entities.html>`_ (to create the ball you "
+"will launch) and `Vec3 <https://apidocs.overte.org/Vec3.html>`_ (to "
+"determine the right positions and distances). Add it to your avatar to "
+"see how it works."
 msgstr ""
 "このサンプルスクリプトは、[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html)名前空間を使用して、アバターの手が動くかどうかを判断します。動きを検出すると、スクリプトはアバターにボールを発射させます。また、[Entities](https://apidocs.vircadia.dev/Entities.html)(起動するボールを作成するため)や[Vec3](https://apidocs.vircadia.dev/)などの他の名前も使用します。[Vec3](https://apidocs.vircadia.dev/Vec3.html)"
 " (適切な位置と距離を決定するため)。それをアバターに追加して、どのように機能するかを確認してください。"
 
-#: ../../source/script/avatar-scripts.md:82
-#: ../../source/script/client-entity-scripts.md:48
-#: ../../source/script/js-tips.md:203
-#: ../../source/script/server-entity-scripts.md:61
-#: ../../source/script/write-scripts.md:79
-msgid "[API Reference](https://apidocs.overte.org)"
-msgstr ""
+#: ../../source/script/avatar-scripts.rst:119
+#: ../../source/script/client-entity-scripts.rst:63
+#: ../../source/script/js-tips.rst:232
+#: ../../source/script/server-entity-scripts.rst:84
+#, fuzzy
+msgid "`API Reference <https://apidocs.overte.org>`_"
+msgstr "`Français <https://docs.overte.org/fr/latest/>`_ |fr_trans|"
 
-#: ../../source/script/client-entity-scripts.md:3
+#: ../../source/script/client-entity-scripts.rst:5
 #, fuzzy
 msgid ""
 "You can make content in Overte interactive by attaching scripts to "
@@ -22691,77 +22639,87 @@ msgid ""
 "stop) the script when the user leaves."
 msgstr "スクリプトをエンティティに添付することで、Vircadiaのコンテンツをインタラクティブにすることができます。*クライアントエンティティスクリプト*は、各ユーザーのコンピューターでローカルに実行されるエンティティスクリプトです。ユーザーがエンティティに接触すると、スクリプトが「プリロード」（または実行）され、ユーザーが離れるときにスクリプトが「アンロード」（または停止）されます。"
 
-#: ../../source/script/client-entity-scripts.md:5
+#: ../../source/script/client-entity-scripts.rst:7
 #, fuzzy
 msgid ""
-"There can be (and typically are) multiple entities in a domain, and each "
-"one can have a different client entity script associated with it."
+"There typically are multiple entities in a domain, and each one can have "
+"a different client entity script associated with it."
 msgstr "ドメインには複数のエンティティが存在する可能性があり（通常は存在します）、各エンティティに異なるクライアントエンティティスクリプトを関連付けることができます。"
 
-#: ../../source/script/client-entity-scripts.md:8
-#, fuzzy
+#: ../../source/script/client-entity-scripts.rst:9
 msgid ""
-"[Attach a Client Entity Script to an Entity](#attach-a-client-entity-"
-"script-to-an-entity)"
+"As each client entity script will run on all users' clients "
+"simultaneously, it is most suitable for responding to each user "
+"interacting with it. If you want to control its behaviour independently, "
+"you can give it a brain using a :doc:`server entity script <server-"
+"entity-scripts>`."
 msgstr ""
-"[クライアントエンティティスクリプトをエンティティにアタッチする](#attach-a-client-entity-script-to-an-"
-"entity)"
 
-#: ../../source/script/client-entity-scripts.md:9
-#, fuzzy
-msgid "[Example of a Client Entity Script](#example-of-a-client-entity-script)"
-msgstr "[クライアントエンティティスクリプトの例](#example-of-a-client-entity-script)"
-
-#: ../../source/script/client-entity-scripts.md:11
+#: ../../source/script/client-entity-scripts.rst:16
 #, fuzzy
 msgid "Attach a Client Entity Script to an Entity"
 msgstr "クライアントエンティティスクリプトをエンティティに添付する"
 
-#: ../../source/script/client-entity-scripts.md:12
+#: ../../source/script/client-entity-scripts.rst:18
 #, fuzzy
 msgid "To attach a client entity script to an entity:"
 msgstr "クライアントエンティティスクリプトをエンティティにアタッチするには："
 
-#: ../../source/script/client-entity-scripts.md:14
-#: ../../source/script/server-entity-scripts.md:13
+#: ../../source/script/client-entity-scripts.rst:21
+#: ../../source/script/server-entity-scripts.rst:17
 #, fuzzy
 msgid ""
 "Select the entity you'd like to script by either clicking on it in "
 "Interface or finding it in the 'Entity List'."
 msgstr "インターフェースでクリックするか、[エンティティリスト]で検索して、スクリプトを作成するエンティティを選択します。"
 
-#: ../../source/script/client-entity-scripts.md:15
-#: ../../source/script/server-entity-scripts.md:14
+#: ../../source/script/client-entity-scripts.rst:22
+#: ../../source/script/server-entity-scripts.rst:18
 #, fuzzy
 msgid ""
-"In the **Create** app, go to the 'Properties' tab and scroll down to the "
-"'Behavior' section."
+"In the **Create** app, go to the 'Properties' tab and select the Scripts "
+"icon. |scripts-icon|"
 msgstr "**作成**アプリで、[プロパティ]タブに移動し、[動作]セクションまで下にスクロールします。"
 
-#: ../../source/script/client-entity-scripts.md:16
+#: ../../source/script/client-entity-scripts.rst:27
+#: ../../source/script/server-entity-scripts.rst:23
+msgid "paper and quill icon"
+msgstr ""
+
+#: ../../source/script/client-entity-scripts.rst:23
 #, fuzzy
 msgid "For Script, enter the URL to your client entity script."
 msgstr "スクリプトに、クライアントエンティティスクリプトのURLを入力します。"
 
-#: ../../source/script/client-entity-scripts.md:23
+#: ../../source/script/client-entity-scripts.rst:25
+msgid ""
+"For client entity scripts, the URL content must be available to every "
+"user who visits the domain. This means the URL should be a public http(s)"
+" URL, or an Asset Server (ATP) URL for the domain. It cannot be a file "
+"URL. The script property also accepts a string as input, allowing you to "
+"insert the code directly."
+msgstr ""
+
+#: ../../source/script/client-entity-scripts.rst:34
 #, fuzzy
 msgid "Example of a Client Entity Script"
 msgstr "クライアントエンティティスクリプトの例"
 
-#: ../../source/script/client-entity-scripts.md:24
+#: ../../source/script/client-entity-scripts.rst:36
 #, fuzzy
 msgid ""
 "The following script changes the color of a non-model entity (such as a "
 "box or a sphere) when you click on it:"
 msgstr "次のスクリプトは、モデル以外のエンティティ（ボックスや球など）をクリックすると、その色を変更します。"
 
-#: ../../source/script/client-entity-scripts.md:42
+#: ../../source/script/client-entity-scripts.rst:54
 #, fuzzy
 msgid ""
-"This example is written as a JavaScript class prototype function, and it "
-"uses the mouse event "
-"[clickDownOnEntity()](https://apidocs.overte.org/Entities.html#.sendClickDownOnEntity)."
-" When the user clicks on an entity, `clickDownOnEntity()` triggers the "
+"Client Entity Scripts are written as a JavaScript class prototype "
+"function, and this example uses the mouse/controller event "
+"`mousePressOnEntity() "
+"<https://apidocs.overte.org/Entities.html#.sendMousePressOnEntity>`_. "
+"When the user clicks on an entity, ``mousePressOnEntity()`` triggers the "
 "function associated with that click event. In this case, it changes the "
 "entity's color back and forth between yellow and magenta."
 msgstr ""
@@ -22769,16 +22727,27 @@ msgstr ""
 " "
 "`clickDownOnEntity()`がそのクリックイベントに関連付けられた関数をトリガーします。この場合、エンティティの色が黄色とマゼンタの間で前後に変化します。"
 
-#: ../../source/script/get-started-with-scripting.rst:5
-#, fuzzy
+#: ../../source/script/client-entity-scripts.rst:57
 msgid ""
-"Many of the scripts in Overte run behind the scenes, so that you don't "
-"even know they're running. However, if you want to create some advanced "
-"behavior, you may need to :doc:`write your own scripts <write-scripts>` "
-"to make sure everything works correctly."
+"Entity scripts **must** be inside a class prototype function. In the "
+"above example we include ``\"use strict\"`` on the first line of the "
+"client entity script to enable `strict mode "
+"<https://developer.mozilla.org/en-"
+"US/docs/Web/JavaScript/Reference/Strict_mode>`_ . This must be inside the"
+" class prototype function, not the first line of the file as in other "
+"scripts."
 msgstr ""
-"Vircadiaのスクリプトの多くは舞台裏で実行されているため、実行されていることすらわかりません。ただし、高度な動作を作成する場合は、すべてが正しく機能することを確認するために、:doc:`独自のスクリプト"
-" <write-scripts>` を作成する必要があります。"
+
+#: ../../source/script/get-started-with-scripting.rst:5
+msgid ""
+"Overte has a powerful scripting interface, in fact many of the features "
+"you might use whilst exploring Overte's worlds run on the scripting "
+"engine. The tablet you use to access apps, the community apps themselves,"
+" even the entities which make up much of the world; all of them are "
+"powered by scripts. You can modify many of these existing scripts, and "
+"even :doc:`write your own scripts<write-scripts>` to reshape the Overte "
+"experience into your own."
+msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:7
 #, fuzzy
@@ -22792,7 +22761,10 @@ msgid "JavaScript Basics in Overte"
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:16
-msgid "Overte scripting runs on a JavaScript engine that is provided with Qt."
+msgid ""
+"Overte scripting runs on the V8 scripting engine, with support for both "
+"JavaScript and WebAssembly. To access the Overte API you will need to use"
+" JavaScript."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:18
@@ -22822,8 +22794,8 @@ msgstr ""
 msgid ""
 "Lets you manipulate the entities around you, as long as you have "
 "permissions to do so. This means you can add, remove, and edit entities. "
-"Everyone has access to ``get`` properties of an entity, and can be used "
-"to find Entities in range, direction, collision, or raytrace."
+"Everyone has access to ``get`` properties of an entity, which can be used"
+" to find Entities in range, direction, collision, or raytrace."
 msgstr ""
 "権限がある限り、周囲のエンティティを操作できます。これは、エンティティを追加、削除、および編集できることを意味します。誰もがエンティティの "
 "``get`` プロパティにアクセスでき、範囲、方向、衝突、またはレイトレースでエンティティを検索するために使用できます。"
@@ -22846,7 +22818,7 @@ msgid ""
 "Lets you get information on an `Avatar "
 "<https://apidocs.overte.org/Avatar.html>`_, or manipulate your own "
 "client-only `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_. The "
-"information here will be always the avatar information of the client "
+"information here will always be the avatar information of the client "
 "running the script. AvatarList and AvatarManager are basically the same."
 msgstr ""
 "`アバター <https://apidocs.vircadia.dev/Avatar.html>` "
@@ -22861,11 +22833,12 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:40
 #, fuzzy
 msgid ""
-"Lets you to connect callbacks from your client to script, such as "
-"functionality that is dependent on time (Script.update, Script.setTime, "
-"Script.setInterval etc), connect paths relatively to Assets "
-"(Script.relativePath), refer to other scripts (Script.include), or create"
-" events which occur when the script is turned off (Script.scriptEnding)."
+"Allows you to connect callbacks from your client to a script, such as "
+"functionality that is dependent on time (``Script.update``, "
+"``Script.setTime``, ``Script.setInterval``, etc), connect paths "
+"relatively to Assets (``Script.relativePath``), refer to other scripts "
+"(``Script.include``), or create events which occur when the script is "
+"turned off (``Script.scriptEnding``)."
 msgstr ""
 "クライアントからスクリプトへのコールバックの接続、例えば時間に依存する機能（Script.update, Script.setTime, "
 "Script.setInterval "
@@ -22873,8 +22846,8 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:49
 msgid ""
-"There are `many other APIs available <https://apidocs.overte.org>`_, and "
-"we encourage you to make sure use of them as you become more comfortable "
+"There are `many other APIs available <https://apidocs.overte.org>`_, "
+"which we encourage you to make use of as you become more comfortable "
 "scripting in Overte."
 msgstr ""
 
@@ -22934,8 +22907,9 @@ msgstr "*アバタースクリプト* はアバター上で実行され、なび
 #, fuzzy
 msgid ""
 "*Client entity scripts* are scripts attached to entities that run locally"
-" in response to a user in a domain. With these scripts, you can customize"
-" what happens when a user encounters an entity."
+" in response to each user in a domain. With these scripts, you can "
+"customize what happens when a user encounters an entity by loading it "
+"into view."
 msgstr ""
 "*クライアントエンティティスクリプト* "
 "は、ドメイン内のユーザーに応答してローカルで実行される、エンティティに添付されたスクリプトです。これらのスクリプトを使用すると、ユーザーがエンティティに遭遇したときの挙動をカスタマイズすることができます。"
@@ -22950,7 +22924,7 @@ msgstr "サーバーエンティティスクリプト"
 msgid ""
 "*Server entity scripts* are scripts attached to entities that do not "
 "require a user to trigger. These scripts control entities so that their "
-"behavior is seen and heard by everyone in the domain."
+"behavior is seen or heard by everyone in the domain."
 msgstr ""
 "*サーバーエンティティスクリプト* "
 "は、ユーザーがトリガーする必要のないエンティティに添付されたスクリプトです。これらのスクリプトは、ドメイン内のすべての人はその動作が把握できるようにエンティティを制御します。"
@@ -22984,7 +22958,7 @@ msgstr "スクリプトウィンドウの実行"
 #, fuzzy
 msgid ""
 "The Running Scripts window can be used to load, run and stop scripts from"
-" a URL or from a disk drive. Overte also provides a number of sample "
+" a URL or from a local file. Overte also provides a number of sample "
 "scripts for you to try out."
 msgstr "[スクリプトの実行]ウィンドウを使用して、URLまたはディスクドライブからスクリプトをロード、実行、および停止できます。Vircadiaには、試してみるためのサンプルスクリプトも多数用意されています。"
 
@@ -23017,8 +22991,8 @@ msgid ""
 "Loading (or running) a script lets you test the functionality and see how"
 " it behaves. If you want to view the actual code, you will need to open "
 "the file in the text editor of your choice. In the 'Running Scripts' "
-"window, click the 'Reveal Scripts' folder and browse to the JavaScript "
-"file that you want to view."
+"window, click 'Reveal Scripts Folder' and browse to the JavaScript file "
+"that you want to view."
 msgstr ""
 "スクリプトをロード（または実行）すると、動作確認や機能テストとして、その挙動を確認することができます。実際のコードを表示したい場合は、お好みのテキストエディターでファイルを開く必要があります。[Running"
 " Scripts]ウィンドウで、「Reveal "
@@ -23045,11 +23019,21 @@ msgid "These scripts were built to run on Android devices."
 msgstr "これらのスクリプトは、Androidデバイスで実行するために作成されました。"
 
 #: ../../source/script/get-started-with-scripting.rst:106
+msgid "``communityScripts``"
+msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:106
+msgid ""
+"These scripts were contributed by the community to improve the default "
+"Overte experience."
+msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:109
 #, fuzzy
 msgid "``developer``"
 msgstr "``開発者``"
 
-#: ../../source/script/get-started-with-scripting.rst:106
+#: ../../source/script/get-started-with-scripting.rst:109
 #, fuzzy
 msgid ""
 "These scripts were created for internal use and debugging, but are "
@@ -23058,12 +23042,12 @@ msgid ""
 "work or be documented."
 msgstr "これらのスクリプトは、内部使用とデバッグのために作成されましたが、上級開発者がコンテンツを作成する際に役立つと思われるため、公開しています。これらのスクリプトは「入門用」ではなく、動作やドキュメントを保証するものではありません。"
 
-#: ../../source/script/get-started-with-scripting.rst:110
+#: ../../source/script/get-started-with-scripting.rst:113
 #, fuzzy
 msgid "``modules``"
 msgstr "``モジュール``"
 
-#: ../../source/script/get-started-with-scripting.rst:110
+#: ../../source/script/get-started-with-scripting.rst:113
 #, fuzzy
 msgid ""
 "These scripts create external tools that simplify scripting in Overte. "
@@ -23073,12 +23057,12 @@ msgstr ""
 "これらのスクリプトは Vircadia でのスクリプト作成を簡素化する外部ツールを作成する。例えば、AppUI "
 "モジュールはタブレットアプリの作成を支援し、Request モジュールは HTTP リクエストを操作します。"
 
-#: ../../source/script/get-started-with-scripting.rst:114
+#: ../../source/script/get-started-with-scripting.rst:117
 #, fuzzy
 msgid "``system``"
 msgstr "``システム``"
 
-#: ../../source/script/get-started-with-scripting.rst:114
+#: ../../source/script/get-started-with-scripting.rst:117
 #, fuzzy
 msgid ""
 "These scripts are critical to the stability and usability of Overte. "
@@ -23086,12 +23070,12 @@ msgid ""
 "you may need 'administrative' privileges."
 msgstr "これらのスクリプトはVircadiaの安定性と使いやすさに不可欠です。これらのスクリプトに変更を加えることは推奨されませんし、「管理者」権限が必要な場合もあり、簡単ではありません。"
 
-#: ../../source/script/get-started-with-scripting.rst:118
+#: ../../source/script/get-started-with-scripting.rst:121
 #, fuzzy
 msgid "``tutorials``"
 msgstr "``チュートリアル``"
 
-#: ../../source/script/get-started-with-scripting.rst:118
+#: ../../source/script/get-started-with-scripting.rst:121
 #, fuzzy
 msgid ""
 "These scripts provide examples of what you can do using scripts in "
@@ -23099,131 +23083,98 @@ msgid ""
 "and adding ambient sound to your domain."
 msgstr "これらのスクリプトは、Vircadiaでスクリプトを使ってできることの例を示しています。例えば、蝶々を作ったり、アバターを拍手させたり、アンビエントサウンドをあなたのドメインに追加したりすることができます。"
 
-#: ../../source/script/get-started-with-scripting.rst:125
+#: ../../source/script/get-started-with-scripting.rst:128
 #, fuzzy
 msgid "Load and Run a Script"
 msgstr "スクリプトのロードと実行"
 
-#: ../../source/script/get-started-with-scripting.rst:127
+#: ../../source/script/get-started-with-scripting.rst:130
 #, fuzzy
 msgid "To run a script:"
 msgstr "スクリプトを実行するには："
 
-#: ../../source/script/get-started-with-scripting.rst:129
+#: ../../source/script/get-started-with-scripting.rst:132
 #, fuzzy
 msgid "Open the 'Running Scripts' window."
 msgstr "[スクリプトの実行]ウィンドウを開きます。"
 
-#: ../../source/script/get-started-with-scripting.rst:130
-#: ../../source/script/interface-scripts.md:15
+#: ../../source/script/get-started-with-scripting.rst:133
 #, fuzzy
 msgid ""
-"For scripts hosted in the cloud, click 'From URL'. Enter the URL of your "
-"script file and click 'OK'."
+"For scripts hosted on the internet, click 'From URL'. Enter the URL of "
+"your script file and click 'OK'."
 msgstr "クラウドでホストされているスクリプトの場合は、[URLから]をクリックします。スクリプトファイルのURLを入力し、[OK]をクリックします。"
 
-#: ../../source/script/get-started-with-scripting.rst:131
-#: ../../source/script/interface-scripts.md:16
+#: ../../source/script/get-started-with-scripting.rst:134
 #, fuzzy
 msgid ""
 "For scripts on your local computer, click 'From Disk'. Browse to your "
 "script file and click 'Open'."
 msgstr "ローカルコンピュータのスクリプトについては、[ディスクから]をクリックします。スクリプトファイルを参照し、[開く]をクリックします。"
 
-#: ../../source/script/get-started-with-scripting.rst:132
+#: ../../source/script/get-started-with-scripting.rst:135
 #, fuzzy
 msgid ""
 "To load a sample script, browse to the script at the bottom of the "
 "'Running Scripts' window."
 msgstr "サンプルスクリプトをロードするには、[スクリプトの実行]ウィンドウの下部にあるスクリプトを参照します。"
 
-#: ../../source/script/get-started-with-scripting.rst:136
+#: ../../source/script/get-started-with-scripting.rst:138
+msgid ""
+"Any scripts you load from the 'Running Scripts' window will load "
+"automatically the next time you start Overte."
+msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:142
 #, fuzzy
 msgid "Reload or Stop a Script"
 msgstr "スクリプトのリロードと停止"
 
-#: ../../source/script/get-started-with-scripting.rst:138
+#: ../../source/script/get-started-with-scripting.rst:144
 #, fuzzy
 msgid ""
 "To reload or stop a script, open the 'Running Scripts' window and do one "
 "of the following:"
 msgstr "スクリプトをリロードまたは停止するには、[スクリプトの実行]ウィンドウを開き、次のいずれかを実行します。"
 
-#: ../../source/script/get-started-with-scripting.rst:140
+#: ../../source/script/get-started-with-scripting.rst:146
 #, fuzzy
 msgid ""
 "To reload all running scripts, click the 'Reload All' button at the top "
 "of the 'Running Scripts' window."
 msgstr "実行中のすべてのスクリプトを再ロードするには、[実行中のスクリプト]ウィンドウの上部にある[すべて再ロード]ボタンをクリックします。"
 
-#: ../../source/script/get-started-with-scripting.rst:141
+#: ../../source/script/get-started-with-scripting.rst:147
 #, fuzzy
 msgid "To reload a specific script, click the circular arrow next to the script."
 msgstr "特定のスクリプトを再ロードするには、スクリプトの横にある円形の矢印をクリックします。"
 
-#: ../../source/script/get-started-with-scripting.rst:142
+#: ../../source/script/get-started-with-scripting.rst:148
 #, fuzzy
 msgid ""
-"To stop all running scripts, click the 'Stop All' button at the top of "
+"To stop all running scripts, click the 'Remove All' button at the top of "
 "the 'Running Scripts' window."
 msgstr "実行中のすべてのスクリプトを停止するには、[実行中のスクリプト]ウィンドウの上部にある[すべて停止]ボタンをクリックします。"
 
-#: ../../source/script/get-started-with-scripting.rst:143
+#: ../../source/script/get-started-with-scripting.rst:149
 #, fuzzy
 msgid "To stop a specific script, click the 'X' next to the script."
 msgstr "特定のスクリプトを停止するには、スクリプトの横にある[X]をクリックします。"
 
-#: ../../source/script/get-started-with-scripting.rst:147
-#, fuzzy
-msgid "Add a Script to the Default Scripts"
-msgstr "デフォルトのスクリプトにスクリプトを追加する"
-
-#: ../../source/script/get-started-with-scripting.rst:149
-#, fuzzy
-msgid ""
-"You can add a script to the default scripts to run every time you start "
-"Interface."
-msgstr "デフォルトのスクリプトにスクリプトを追加して、インターフェイスを起動するたびに実行することができます。"
-
 #: ../../source/script/get-started-with-scripting.rst:151
-#, fuzzy
 msgid ""
-"In Interface, pull up your Tablet or HUD and go to **Menu > Edit > "
-"Running Scripts**."
-msgstr "インターフェイスで、タブレットまたはHUDをプルアップし、**[メニュー]>[編集]>[スクリプトの実行]** に移動します。"
+"By stopping a script, you are in effect *removing* that script from the "
+"running list. You will need to find and load that script again to have it"
+" appear in the list. If you **Remove All** scripts you can get the "
+"default scripts back by selecting **Load Defaults**"
+msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:152
-#, fuzzy
-msgid "Click 'Reveal Scripts Folder' at the bottom."
-msgstr "下部にある[RevealScriptsFolder]をクリックします。"
-
-#: ../../source/script/get-started-with-scripting.rst:153
-#, fuzzy
-msgid "In the file explorer window, open the 'defaultScripts.js' file."
-msgstr "ファイルエクスプローラウィンドウで、[defaultScripts.js]ファイルを開きます。"
-
-#: ../../source/script/get-started-with-scripting.rst:154
-#, fuzzy
-msgid ""
-"Add your script to this file to make it run with other default scripts. "
-"Ensure the folder path to your script is correct."
-msgstr "このファイルにあなたのスクリプトを追加して、他のデフォルトスクリプトと一緒に実行できるようにします。スクリプトのフォルダパスが正しいことを確認してください。"
-
-#: ../../source/script/get-started-with-scripting.rst:156
-#, fuzzy
-msgid ""
-"The 'defaultScripts.js' file is updated every time you update Interface "
-"to the latest release version. This means that any changes you make to "
-"the file will be overwritten. You can avoid this by writing and running a"
-" 'loader' script to load scripts on start up."
-msgstr "[defaultScripts.js]ファイルは、インターフェイスを最新のリリースバージョンに更新するたびに更新されます。これは、ファイルに加えた変更がすべて上書きされることを意味します。これを回避するには、[ローダー]スクリプトを記述して実行し、起動時にスクリプトをロードします。"
-
-#: ../../source/script/get-started-with-scripting.rst:160
+#: ../../source/script/get-started-with-scripting.rst:155
 #, fuzzy
 msgid "Scripting Console"
 msgstr "スクリプトコンソール"
 
-#: ../../source/script/get-started-with-scripting.rst:162
+#: ../../source/script/get-started-with-scripting.rst:157
 #, fuzzy
 msgid ""
 "The Scripting Console lets you test and run short script snippets quickly"
@@ -23235,12 +23186,12 @@ msgstr ""
 "スクリプトコンソールを使用すると、Vircadiaで短いスクリプトスニペットをすばやくテストして実行し、それらがどのように機能するかを確認できます。コンソールを開くには、[開発者]メニューに移動し、**[スクリプト]>[コンソール]**"
 " に移動します。[開発者]メニューが表示されていない場合は、最初に[設定]メニューに移動し、[開発者]メニューをクリックします。"
 
-#: ../../source/script/get-started-with-scripting.rst:168
+#: ../../source/script/get-started-with-scripting.rst:165
 #, fuzzy
 msgid "Debug Window"
 msgstr "デバッグ画面"
 
-#: ../../source/script/get-started-with-scripting.rst:170
+#: ../../source/script/get-started-with-scripting.rst:167
 #, fuzzy
 msgid ""
 "The Debug Window shows the output generated by your running scripts. This"
@@ -23248,44 +23199,52 @@ msgid ""
 "as you intended. If the script fails, the debugger can help you identify "
 "what went wrong, and point you to specific lines of code where the error "
 "occurred. To open the Debug Window, go to the 'Developer' menu, then "
-"**Scripting > Script Log** (HMD Friendly). If the Developer menu is not "
+"**Scripting > Script Log (HMD Friendly)**. If the Developer menu is not "
 "visible, first go to the 'Settings' menu and click 'Developer' Menu."
 msgstr ""
 "デバッグウィンドウには、実行中のスクリプトによって生成された出力が表示されます。これにより、スクリプトの動作を監視し、スクリプトが意図したとおりに実行されていることを確認できます。スクリプトが失敗した場合、デバッガーは何が問題だったかを特定し、エラーが発生した特定のコード行を示すのに役立ちます。デバッグウィンドウを開くには、[開発者]メニューに移動し、**[スクリプト]>"
 " [スクリプトログ]** "
 "（HMD対応）に移動します。開発者メニューが表示されていない場合は、最初に[設定]メニューに移動し、[開発者]メニューをクリックします。"
 
-#: ../../source/script/get-started-with-scripting.rst:176
+#: ../../source/script/get-started-with-scripting.rst:171
+msgid ""
+"To debug a server entity script you should instead use the :ref:`Server "
+"Entity Script Log<server entity script log>` to view the output of your "
+"script."
+msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:175
 #, fuzzy
 msgid ":doc:`Interface Scripts <interface-scripts>`"
 msgstr ":doc:`インターフェイススクリプト <interface-scripts>`"
 
-#: ../../source/script/get-started-with-scripting.rst:177
+#: ../../source/script/get-started-with-scripting.rst:176
 #, fuzzy
 msgid ":doc:`Assignment Client Scripts <assignment-client-scripts>`"
 msgstr ":doc:`割り当てクライアントスクリプト <assignment-client-scripts>`"
 
-#: ../../source/script/get-started-with-scripting.rst:178
+#: ../../source/script/get-started-with-scripting.rst:177
 #, fuzzy
 msgid ":doc:`Avatar Scripts <avatar-scripts>`"
 msgstr ":doc:`アバタースクリプト <avatar-scripts>`"
 
-#: ../../source/script/get-started-with-scripting.rst:179
+#: ../../source/script/get-started-with-scripting.rst:178
 #, fuzzy
 msgid ":doc:`Client Entity Scripts <client-entity-scripts>`"
 msgstr ":doc:`クライアントエンティティスクリプト <client-entity-scripts>`"
 
-#: ../../source/script/get-started-with-scripting.rst:180
+#: ../../source/script/get-started-with-scripting.rst:179
 #, fuzzy
 msgid ":doc:`Server Entity Scripts <server-entity-scripts>`"
 msgstr ":doc:`サーバーエンティティスクリプト <server-entity-scripts>`"
 
-#: ../../source/script/get-started-with-scripting.rst:181
+#: ../../source/script/get-started-with-scripting.rst:180
+#: ../../source/script/js-tips.rst:231
 #, fuzzy
 msgid ":doc:`Write Your Own Scripts <write-scripts>`"
 msgstr ":doc:`独自のスクリプトを作成する <write-scripts>`"
 
-#: ../../source/script/interface-scripts.md:3
+#: ../../source/script/interface-scripts.rst:5
 #, fuzzy
 msgid ""
 "Interface scripts run on your local machine, as long as you have "
@@ -23299,369 +23258,345 @@ msgstr ""
 "Interfaceスクリプトは、Interfaceが起動している限り、あなたのローカルマシン上で実行されます。各ユーザーは、インターフェイススクリプトの開始と停止を完全に制御することができます。結果（スクリプトがボックスの色を変更した場合など）はドメイン内の全員が見ることができますが、スクリプト自体はあなたのローカルマシンで実行されます。あなたのInterfaceはその情報をEntity"
 " Serverに伝え、Entity Serverはドメインを訪れている人にその情報を伝達します。"
 
-#: ../../source/script/interface-scripts.md:5
+#: ../../source/script/interface-scripts.rst:7
 #, fuzzy
 msgid ""
 "With interface scripts, you can do things like add new menus to the "
-"Interface, add plug-ins, or add 3D overlays that you have control over."
+"interface, create dynamic gadgets or toys, and manipulate your own avatar"
+" to change how it looks or moves."
 msgstr "インターフェーススクリプトを使うと、インターフェースに新しいメニューを追加したり、プラグインを追加したり、3Dオーバーレイを追加したりと、自分でコントロールすることができます。"
 
-#: ../../source/script/interface-scripts.md:8
-#, fuzzy
-msgid "[Load an Interface Script](#load-an-interface-script)"
-msgstr "[インターフェイススクリプトをロードする](#load-an-interface-script)"
-
-#: ../../source/script/interface-scripts.md:9
-#, fuzzy
-msgid "[Example of an Interface Script](#example-of-an-interface-script)"
-msgstr "[インターフェイススクリプトの例](#example-of-an-interface-script)"
-
-#: ../../source/script/interface-scripts.md:11
+#: ../../source/script/interface-scripts.rst:14
 #, fuzzy
 msgid "Load an Interface Script"
 msgstr "インターフェイススクリプトのロード"
 
-#: ../../source/script/interface-scripts.md:13
+#: ../../source/script/interface-scripts.rst:16
 #, fuzzy
 msgid "To load and run an interface script:"
 msgstr "インターフェイススクリプトをロードして実行するには："
 
-#: ../../source/script/interface-scripts.md:14
+#: ../../source/script/interface-scripts.rst:18
 #, fuzzy
 msgid ""
-"In Interface, go to **Edit > Running Scripts** or press <kbd "
-"class=\"keyboard\">Ctrl</kbd> + <kbd class=\"keyboard\">J</kbd> on your "
-"keyboard."
+"In Interface, go to **Edit > Running Scripts** or press :kbd:`Ctrl+J` on "
+"your keyboard."
 msgstr ""
-"インターフェイスで、**[編集]>[スクリプトの実行]**に移動するか、キーボードから <kbd "
-"class=\"keyboard\">Ctrl</kbd> + <kbd class=\"keyboard\">J</kbd>を押します。"
+"[Running Scripts]ウィンドウを開くには、**[Edit]> [Running Scripts]** に移動するか、キーボードの "
+"``Ctrl`` + ``J`` を押します。"
 
-#: ../../source/script/interface-scripts.md:18
+#: ../../source/script/interface-scripts.rst:19
+#, fuzzy
+msgid ""
+"For scripts hosted on the internet, click **From URL**. Enter the URL of "
+"your script file and click **OK**."
+msgstr "クラウドでホストされているスクリプトの場合は、[URLから]をクリックします。スクリプトファイルのURLを入力し、[OK]をクリックします。"
+
+#: ../../source/script/interface-scripts.rst:20
+#, fuzzy
+msgid ""
+"For scripts on your local computer, click **From Disk**. Browse to your "
+"script file and click **Open**."
+msgstr "ローカルコンピュータのスクリプトについては、[ディスクから]をクリックします。スクリプトファイルを参照し、[開く]をクリックします。"
+
+#: ../../source/script/interface-scripts.rst:24
 #, fuzzy
 msgid "Example of an Interface Script"
 msgstr "インターフェイススクリプトの例"
 
-#: ../../source/script/interface-scripts.md:20
-#, fuzzy
+#: ../../source/script/interface-scripts.rst:26
 msgid ""
-"The following script automatically enters a first person perspective when"
-" you enter VR mode with a HMD."
-msgstr "次のスクリプトは、HMDでVRモードに入ると、自動的に一人称視点になります。"
+"The following script creates a light cube of a randomised colour in front"
+" of you when you load it, and shows how you can spawn a text entity "
+"whenever you switch into or out of VR."
+msgstr ""
 
-#: ../../source/script/js-tips.md:1
+#: ../../source/script/interface-scripts.rst:28
+#, fuzzy
+msgid "**example-interface-script.js**"
+msgstr "インターフェイススクリプトの例"
+
+#: ../../source/script/js-tips.rst:3
 #, fuzzy
 msgid "JavaScript Tips & Tricks"
 msgstr "JavaScriptのヒントとコツ"
 
-#: ../../source/script/js-tips.md:3
+#: ../../source/script/js-tips.rst:5
 msgid ""
-"Overte's robust [JavaScript API](https://apidocs.overte.org) provides the"
-" tools for you to build great content and user experiences in VR. We've "
-"compiled some advanced JavaScript tips you can use while scripting for "
-"Overte."
+"Overte's robust `JavaScript API <https://apidocs.overte.org>`_ provides "
+"the tools for you to build great content and experiences in VR and on "
+"Desktop. We've compiled some advanced JavaScript tips you can use while "
+"scripting for Overte."
 msgstr ""
 
-#: ../../source/script/js-tips.md:5
+#: ../../source/script/js-tips.rst:7
 #, fuzzy
 msgid ""
-"You can use the [Scripting Console in Interface](get-started-with-"
-"scripting.rst#scripting-console) to try out the examples on this page. "
-"The output will be visible in the console itself."
+"You can use the `Scripting Console in Interface <get-started-with-"
+"scripting.html#scripting-console>`_ to try out the examples on this page."
+" The output will be visible in the console itself."
 msgstr ""
 "[インターフェイスのスクリプトコンソール](get-started-with-scripting.html#scripting-"
 "console)を使用して、このページの例を試すことができます。出力はコンソール上に表示されます。"
 
-#: ../../source/script/js-tips.md:9
-#, fuzzy
-msgid "[Compute 3D Math Operations](#compute-3d-math-operations)"
-msgstr "[3次元数学演算の計算](#compute-3d-math-operations)"
-
-#: ../../source/script/js-tips.md:10
-#, fuzzy
-msgid "[Get Your Avatar's Position](#get-your-avatars-position)"
-msgstr "[アバターの位置を取得](#get-your-avatars-position)"
-
-#: ../../source/script/js-tips.md:11
-#, fuzzy
-msgid "[Get Your Avatar's Orientation](#get-your-avatars-orientation)"
-msgstr "[アバターの向きを取得](#get-your-avatars-orientation)"
-
-#: ../../source/script/js-tips.md:12
-#, fuzzy
-msgid ""
-"[Get the Direction Your Avatar is Facing](#get-the-direction-your-avatar-"
-"is-facing)"
-msgstr "[アバターの向きの取得](#get-the-direction-your-avatar-is-facing)"
-
-#: ../../source/script/js-tips.md:13
-#, fuzzy
-msgid ""
-"[Make an Entity Appear Before Your Avatar](#make-an-entity-appear-before-"
-"your-avatar)"
-msgstr "[アバターの前のエンティティ表示](#make-an-entity-appear-before-your-avatar)"
-
-#: ../../source/script/js-tips.md:14
-#, fuzzy
-msgid "[Include External JS and JSON Files](#include-external-js-and-json-files)"
-msgstr "[外部JS、JSONファイルのインクルード](#include-external-js-and-json-files)"
-
-#: ../../source/script/js-tips.md:15
-#, fuzzy
-msgid "[Equip an Item](#equip-an-item)"
-msgstr "[アイテムの装備](#equip-an-item)"
-
-#: ../../source/script/js-tips.md:16
-#, fuzzy
-msgid "[Connect a Signal to a Function](#connect-a-signal-to-a-function)"
-msgstr "[シグナルと機能の接続](#connect-a-signal-to-a-function)"
-
-#: ../../source/script/js-tips.md:18
+#: ../../source/script/js-tips.rst:14
 #, fuzzy
 msgid "Compute 3D Math Operations"
 msgstr "3次元数学演算の計算"
 
-#: ../../source/script/js-tips.md:20
+#: ../../source/script/js-tips.rst:16
 #, fuzzy
 msgid ""
-"When you script for VR worlds like Overte, you need 3D math operations to"
-" compute the position and orientation of 3D objects and avatars in-world."
-" We cannot simply add two vectors. To script 3D math operations and to "
-"determine position and orientation information of avatars, you can use "
-"the following namespaces in our JavaScript API:"
+"When you script for virtual worlds like Overte, you need 3D math "
+"operations to compute the position and orientation of 3D objects and "
+"avatars in-world. We cannot simply add two vectors. To script 3D math "
+"operations and to determine position and orientation information of "
+"avatars, you can use the following namespaces in our JavaScript API:"
 msgstr ""
 "VircadiaのようなVRワールドでスクリプトを書く場合、インワールドの3Dオブジェクトやアバターの位置や向きを計算するために、3Dの数学演算が必要になります。単純に2つのベクトルを足すだけでは不十分です。3D数学演算のスクリプトや、アバターの位置や向きの情報を求めるには、JavaScript"
 " API の以下の名前空間を利用できます。"
 
-#: ../../source/script/js-tips.md:22
+#: ../../source/script/js-tips.rst:18
 #, fuzzy
 msgid ""
-"[Vec3](https://apidocs.overte.org/Vec3.html): The Vec3 API has facilities"
-" for generating and manipulating 3-dimensional vectors."
+"`Vec3 <https://apidocs.overte.org/Vec3.html>`_: The Vec3 API has "
+"facilities for generating and manipulating 3-dimensional vectors."
 msgstr ""
 "[Vec3](https://apidocs.vircadia.dev/Vec3.html):Vec3 "
 "APIには、3次元ベクトルを生成および操作するための機能があります。"
 
-#: ../../source/script/js-tips.md:23
+#: ../../source/script/js-tips.rst:19
 #, fuzzy
 msgid ""
-"[Quat](https://apidocs.overte.org/Quat.html): The Quat API provides "
+"`Quat <https://apidocs.overte.org/Quat.html>`_: The Quat API provides "
 "facilities for generating and manipulating quaternions."
 msgstr ""
 "[Quat](https://apidocs.vircadia.dev/Quat.html): Quat "
 "APIは、四元数を生成・操作するための機能を提供します。"
 
-#: ../../source/script/js-tips.md:24
+#: ../../source/script/js-tips.rst:20
 #, fuzzy
 msgid ""
-"[MyAvatar](https://apidocs.overte.org/MyAvatar.html): The MyAvatar API "
-"provides facilities for manipulating avatars."
+"`MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_: The MyAvatar API "
+"provides facilities for manipulating your avatar."
 msgstr ""
 "[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html): MyAvatar "
 "APIは、アバターを操作するための機能を提供します。"
 
-#: ../../source/script/js-tips.md:26
+#: ../../source/script/js-tips.rst:24
 #, fuzzy
 msgid "Get Your Avatar's Position"
 msgstr "アバターの位置を取得する"
 
-#: ../../source/script/js-tips.md:28
+#: ../../source/script/js-tips.rst:26
 #, fuzzy
 msgid ""
 "When creating objects in world, it's often very helpful to know where "
 "your avatar currently is."
 msgstr "Vircadia世界でオブジェクトを作成するとき、アバターが現在どこにあるかを知ることはしばしば非常に役に立ちます。"
 
-#: ../../source/script/js-tips.md:30
+#: ../../source/script/js-tips.rst:28
 #, fuzzy
 msgid ""
 "Overte uses a 3D Cartesian coordinate system where the position vector of"
-" an entity or avatar looks like this:"
+" an entity or avatar looks like this::"
 msgstr "Vircadiaは3次元直交座標系を使用しており、エンティティやアバターの位置ベクトルはこのようになります。"
 
-#: ../../source/script/js-tips.md:36
+#: ../../source/script/js-tips.rst:33
 #, fuzzy
 msgid ""
-"To get your avatar's current position, use the "
-"[MyAvatar](https://apidocs.overte.org/MyAvatar.html) namespace. MyAvatar "
-"contains properties with information related to your avatar. Use the "
-"position property, `MyAvatar.position`, which returns an object."
+"To get your avatar's current position, use the `MyAvatar "
+"<https://apidocs.overte.org/MyAvatar.html>`_ namespace. MyAvatar contains"
+" properties with information related to your avatar. Use the position "
+"property, ``MyAvatar.position``, which returns an object."
 msgstr "アバターの現在の位置を取得するには、名前空間を使用[MyAvatar](https://apidocs.vircadia.dev/MyAvatar.html)します。MyAvatarには、アバターに関連する情報を含むプロパティが含まれています。オブジェクトを返すpositionプロパティ`MyAvatar.position`を使用します。"
 
-#: ../../source/script/js-tips.md:38
+#: ../../source/script/js-tips.rst:35
 #, fuzzy
 msgid ""
-"In the following example, we are using the JSON.stringify method to "
-"convert the JavaScript object (returned by `MyAvatar.position`) to a data"
-" string that can be sent over the server."
+"In the following example, we are using the ``JSON.stringify`` method to "
+"convert the JavaScript object (returned by ``MyAvatar.position``) to a "
+"data string that can be sent over the server."
 msgstr ""
 "次の例では、JSON.stringifyメソッドを使用して、JavaScriptオブジェクト( "
 "`MyAvatar.position`によって返される)をサーバー経由で送信できるデータ文字列に変換しています。"
 
-#: ../../source/script/js-tips.md:40
+#: ../../source/script/js-tips.rst:37
 #, fuzzy
-msgid "Open your Scripting Console and find your avatar's position."
+msgid "Open your Scripting Console and find your avatar's position"
 msgstr "スクリプトコンソールを開き、アバターの位置を見つけます。"
 
-#: ../../source/script/js-tips.md:47
+#: ../../source/script/js-tips.rst:46
 #, fuzzy
 msgid "Get Your Avatar's Orientation"
 msgstr "アバターの向きを取得する"
 
-#: ../../source/script/js-tips.md:49
+#: ../../source/script/js-tips.rst:48
 #, fuzzy
 msgid ""
 "If you want an object to appear in front of you, you need to know how "
 "your avatar is currently oriented in-world."
 msgstr "物体を目の前に表示させるには、自分のアバターが現在どのような向きでインワールドにいるか知る必要があります。"
 
-#: ../../source/script/js-tips.md:51
+#: ../../source/script/js-tips.rst:50
 #, fuzzy
 msgid ""
-"Rotations are handled are by a number-system called Quaternions. "
-"Quaternions help simplify calculations in three dimensional space. They "
-"add an extra dimension of 'w' and the values are normalized (-1,1)."
+"Rotations are handled by a number-system called Quaternions. Quaternions "
+"help simplify calculations in three dimensional space. They add an extra "
+"dimension of 'w' and the values are normalized (-1,1)."
 msgstr "回転は、クォータニオンと呼ばれる数体系で処理されます。四元数とは、3次元空間での計算を簡単にするためのものです。四元数では、[w]という次元が追加され、値は(-1,1)に正規化されます。"
 
-#: ../../source/script/js-tips.md:53
+#: ../../source/script/js-tips.rst:52
 #, fuzzy
-msgid "Quaternions are represented in the form:"
+msgid "Quaternions are represented in the form::"
 msgstr "クォータニオンは次の形式で表されます。"
 
-#: ../../source/script/js-tips.md:59
+#: ../../source/script/js-tips.rst:56
 #, fuzzy
 msgid ""
 "Get your avatar's orientation in the Scripting Console by using the "
-"`MyAvatar.orientation` property:"
+"``MyAvatar.orientation`` property:"
 msgstr "`MyAvatar.orientation`プロパティを使用して、スクリプトコンソールでアバターの向きを取得します。"
 
-#: ../../source/script/js-tips.md:66
+#: ../../source/script/js-tips.rst:65
 #, fuzzy
 msgid "Get the Direction Your Avatar is Facing"
 msgstr "アバターが向いている方向を取得する"
 
-#: ../../source/script/js-tips.md:68
+#: ../../source/script/js-tips.rst:67
 #, fuzzy
 msgid ""
-"You can use the [Quat](https://apidocs.overte.org/Quat.html) namespace to"
-" get the direction which your avatar is facing. Pass your avatar's "
-"orientation to `Quat.getForward` to get a vector describing which "
+"You can use the `Quat <https://apidocs.overte.org/Quat.html>`_ namespace "
+"to get the direction which your avatar is facing. Pass your avatar's "
+"orientation to ``Quat.getForward`` to get a vector describing which "
 "direction you are facing on the world axis."
 msgstr ""
 "[Quat](https://apidocs.vircadia.dev/Quat.html) "
 "名前空間を使って、アバターが向いている方向を取得することができます。アバターの向きを `Quat.getForward` "
 "に渡すと、世界軸のどの方向に向いているかを表すベクトルを得ることができます。"
 
-#: ../../source/script/js-tips.md:77
+#: ../../source/script/js-tips.rst:79
 #, fuzzy
 msgid "Make an Entity Appear Before Your Avatar"
 msgstr "アバターの前にエンティティを表示させる"
 
-#: ../../source/script/js-tips.md:79
+#: ../../source/script/js-tips.rst:81
 #, fuzzy
 msgid ""
 "You can make an entity appear before your avatar and also control the "
 "distance at which it appears."
 msgstr "エンティティをアバターの前に表示させたり、表示される距離を制御したりできます。"
 
-#: ../../source/script/js-tips.md:81
+#: ../../source/script/js-tips.rst:83
 #, fuzzy
 msgid ""
-"Use the [Vec3](https://apidocs.overte.org/Vec3.html) namespace and the "
+"Use the `Vec3 <https://apidocs.overte.org/Vec3.html>`_ namespace and the "
 "direction your avatar is facing to return the position at which you can "
-"make your entity appear. This position is 1m away from your avatar."
+"make your entity appear. This position is 1m away from your avatar:"
 msgstr "[Vec3](https://apidocs.vircadia.dev/Vec3.html)名前空間とアバターが向いている方向を使用して、エンティティを表示できる位置を返します。この位置はアバターから1m離れています。"
 
-#: ../../source/script/js-tips.md:87
+#: ../../source/script/js-tips.rst:90
 #, fuzzy
 msgid ""
 "You can also control the distance at which an entity appears rather than "
 "using the default distance of 1m. First, multiply the vector representing"
-" the direction your avatar is facing and the distance."
+" the direction your avatar is facing and the distance:"
 msgstr "また、エンティティを表示する際の距離をデフォルトの1mではなく、コントロールすることができます。まず、アバターが向いている方向と距離を表すベクトルを掛け合わせます。"
 
-#: ../../source/script/js-tips.md:93
+#: ../../source/script/js-tips.rst:96
 #, fuzzy
 msgid ""
-"Use `Vec3.sum` to return a new vector representing how far away an entity"
-" will appear from your avatar."
+"Use ``Vec3.sum`` to return a new vector representing how far away an "
+"entity will appear from your avatar:"
 msgstr "`Vec3.sum`を使用して、エンティティがアバターからどれだけ離れているかを表す新しいベクトルを返します。"
 
-#: ../../source/script/js-tips.md:99
+#: ../../source/script/js-tips.rst:102
 #, fuzzy
 msgid ""
 "We've included the above operations in a function below for you to save "
 "and run as a script."
 msgstr "上記の操作を以下の関数にまとめましたので、スクリプトとして保存し、実行してください。"
 
-#: ../../source/script/js-tips.md:123
+#: ../../source/script/js-tips.rst:129
 #, fuzzy
 msgid "Include External JS and JSON Files"
 msgstr "外部JSおよびJSONファイルを含める"
 
-#: ../../source/script/js-tips.md:125
+#: ../../source/script/js-tips.rst:131
 #, fuzzy
 msgid ""
 "When writing a script in Overte, you might need to access the methods or "
 "objects in an external JS file or get information from a JSON file. For "
 "example, if you're writing a script to make your avatar wave, you might "
 "need to use some methods that already exist in an external JS file. You "
-"can do this using the `require` method in the Scripts namespace of our "
+"can do this using the ``require`` method in the Scripts namespace of our "
 "API."
 msgstr ""
 "Vircadiaでスクリプトを書くとき、外部のJSファイルにあるメソッドやオブジェクトにアクセスしたり、JSONファイルから情報を取得する必要がある場合があります。例えば、アバターを振るスクリプトを書く場合、外部のJSファイルにすでに存在するいくつかのメソッドを使用する必要があるかもしれません。このような場合は、API"
 " の Scripts ネームスペースにある `require` メソッドを使用します。"
 
-#: ../../source/script/js-tips.md:127
+#: ../../source/script/js-tips.rst:133
 #, fuzzy
 msgid ""
 "Any script that you try to retrieve using this method must export either "
 "a function or an object. Let's try this using an example."
 msgstr "このメソッドを使って取得しようとするスクリプトは、関数かオブジェクトのどちらかをエクスポートする必要があります。例として、これを試してみましょう。"
 
-#: ../../source/script/js-tips.md:129
+#: ../../source/script/js-tips.rst:135
 #, fuzzy
 msgid "Create a JS script that you want to access from your main script."
 msgstr "メインスクリプトからアクセスするJSスクリプトを作成します。"
 
-#: ../../source/script/js-tips.md:131
+#: ../../source/script/js-tips.rst:137
 #, fuzzy
 msgid "**example.js**"
 msgstr "**example.js**"
 
-#: ../../source/script/js-tips.md:144
+#: ../../source/script/js-tips.rst:149
 #, fuzzy
 msgid ""
 "In **example.js**, you are exporting two functions that print either "
 "Hello or Goodbye, depending on which function you call, to the console. "
-"Now, let's use `require` in your main script."
+"Now, let's use ``require`` in your main script."
 msgstr ""
 "** example.js "
 "**では、呼び出す関数に応じて、HelloまたはGoodbyeのいずれかを出力する2つの関数をコンソールにエクスポートしています。それでは、メインスクリプトで`require`を使用しましょう。"
 
-#: ../../source/script/js-tips.md:146
+#: ../../source/script/js-tips.rst:151
 #, fuzzy
-msgid "Create a JS script called **main.js**."
+msgid "Create a JS script called **main.js**:"
 msgstr "**main.js**というJSスクリプトを作成します。"
 
-#: ../../source/script/js-tips.md:153
+#: ../../source/script/js-tips.rst:153
+#, fuzzy
+msgid "**main.js**"
+msgstr "**example.js**"
+
+#: ../../source/script/js-tips.rst:159
 #, fuzzy
 msgid ""
-"When you use the `require` method, you are making any function or object "
-"exported from **example.js** available to **main.js**. This means that "
-"**main.js** now has access to functions that will print either Hello or "
-"Goodbye to the console. In the above example, we are printing Hello to "
-"the console when we run **main.js**."
+"When you use the ``require`` method, you are making any function or "
+"object exported from **example.js** available to **main.js**. This means "
+"that **main.js** now has access to functions that will print either Hello"
+" or Goodbye to the console. In the above example, we are printing Hello "
+"to the console when we run **main.js**."
 msgstr ""
 "`require`メソッドを使用すると、**example.js**からエクスポートされた関数またはオブジェクトを**main.js**で使用できるようになります。これは、**"
 " main.js **が、HelloまたはGoodbyeをコンソールに出力する関数にアクセスできるようになったことを意味します。上記の例では、**"
 " main.js **を実行すると、コンソールにHelloが出力されます。"
 
-#: ../../source/script/js-tips.md:160
+#: ../../source/script/js-tips.rst:161
+msgid ""
+"We recommend using relative paths in your development so that you can "
+"easily move content without having to update absolute paths."
+msgstr ""
+
+#: ../../source/script/js-tips.rst:165
 #, fuzzy
 msgid "Equip an Item"
 msgstr "アイテムの装備"
 
-#: ../../source/script/js-tips.md:161
+#: ../../source/script/js-tips.rst:167
 #, fuzzy
 msgid ""
 "You can equip an item by grabbing and holding an entity without pressing "
@@ -23670,22 +23605,44 @@ msgid ""
 "painting."
 msgstr "グラブボタンやトリガーを連続して押さなくても、エンティティをつかんで保持することでアイテムを装備できます。たとえば、アバターの手にペイントブラシを装備し、ペイントが完了したときにのみドロップすることができます。"
 
-#: ../../source/script/js-tips.md:163
+#: ../../source/script/js-tips.rst:169
 #, fuzzy
 msgid "You can equip an item using a script:"
 msgstr "スクリプトを使用してアイテムを装備できます。"
 
-#: ../../source/script/js-tips.md:169
+#: ../../source/script/js-tips.rst:175
 #, fuzzy
 msgid "To drop the entity from your avatar's hand:"
 msgstr "アバターの手からエンティティをドロップするには："
 
-#: ../../source/script/js-tips.md:174
+#: ../../source/script/js-tips.rst:181
+msgid ""
+"In order for an entity to be equipped it must be `equippable "
+"<https://apidocs.overte.org/Entities.html#grab:~:text=equippable>`_ . A "
+"user must be able to *grab* an entity before they can equip it, however a"
+" script does not need the entity to be `grabbable "
+"<https://apidocs.overte.org/Entities.html#grab:~:text=grabbable>`_ before"
+" it can equip it with the ``'Hifi-Hand-Grab'`` message."
+msgstr ""
+
+#: ../../source/script/js-tips.rst:183
+msgid ""
+"Below is an example of a complete Interface script which will first "
+"create an *equippable* entity, and then equip it"
+msgstr ""
+
+#: ../../source/script/js-tips.rst:200
+msgid ""
+"A user can unequip all of their equiped items by pressing **u** on their "
+"keyboard."
+msgstr ""
+
+#: ../../source/script/js-tips.rst:204
 #, fuzzy
 msgid "Connect a Signal to a Function"
 msgstr "シグナルを関数に接続する"
 
-#: ../../source/script/js-tips.md:176
+#: ../../source/script/js-tips.rst:206
 #, fuzzy
 msgid ""
 "Signals can be connected to functions. This means that every time a "
@@ -23694,20 +23651,20 @@ msgid ""
 "function to react to this specific event such as:"
 msgstr "シグナルは関数に接続することができます。これは、シグナルがトリガーされるたびに関数が実行されることを意味します。例えば、衝突が有効または無効になったときにアバターが変化する場合、この特定のイベントに反応するように次のような関数を接続することができます。"
 
-#: ../../source/script/js-tips.md:189
+#: ../../source/script/js-tips.rst:220
 #, fuzzy
 msgid ""
 "Each signal usually gets passed in arguments, and you can refer to the "
-"[API documentation](https://apidocs.overte.org/MyAvatar.html) to see what"
-" a signal will provide you, such as the enabled property passed into "
+"`API documentation <https://apidocs.overte.org/MyAvatar.html>`_ to see "
+"what a signal will provide you, such as the enabled property passed into "
 "collision changed."
 msgstr "通常、各シグナルは引数で渡されます。[APIドキュメント](https://apidocs.vircadia.dev/MyAvatar.html)を参照して、衝突に渡された有効なプロパティなど、シグナルが提供するものを確認できます。"
 
-#: ../../source/script/js-tips.md:191
+#: ../../source/script/js-tips.rst:222
 #, fuzzy
 msgid ""
 "It's good practice to disconnect from signals, but you can only do that "
-"if you name your function."
+"if you name your function:"
 msgstr "シグナルから切断することをお勧めしますが、関数に名前を付けた場合にのみ切断できます。"
 
 #: ../../source/script/midi-tutorial.rst:5
@@ -23718,9 +23675,9 @@ msgid ""
 "and electronic devices (virtual and physical) to communicate with each "
 "other. MIDI is usually used as a music sequencer. Originally, this format"
 " was created in the 80s as a way for instruments to communicate with each"
-" other, but over the last 30 years, it has evolved into a highly "
-"organized specification that is heavily tested and adopted for a "
-"multitude of purposes."
+" other, but since then, it has evolved into a highly organized "
+"specification that is heavily tested and adopted for a multitude of "
+"purposes."
 msgstr ""
 "MIDI (Musical Instrument Digital Interface) "
 "は、デジタルツールと電子機器（仮想および物理）が相互に通信するためのプロトコル（電気コネクタとデジタルインターフェース）です。MIDIは通常、音楽シーケンサーとして使用されます。元々、このフォーマットは楽器同士が通信する方法として80年代に作られましたが、この30年の間に高度に組織化された仕様に進化し、多くの目的でテストされ採用されています。"
@@ -24135,65 +24092,52 @@ msgstr "`MIDI-Test <../_static/resources/script/midiTest.js>`_"
 msgid "`MIDI-Examples <../_static/resources/script/MIDI-Example.js>`_"
 msgstr "`MIDI-サンプル <../_static/resources/script/MIDI-Example.js>`_"
 
-#: ../../source/script/server-entity-scripts.md:3
+#: ../../source/script/server-entity-scripts.rst:5
 #, fuzzy
 msgid ""
 "You can make content in Overte interactive by attaching scripts to "
 "entities. *Server entity scripts* are entity scripts that run on the "
 "server (or domain) that hosts the entity. These scripts run persistently "
 "in a domain, even if there are no users present. This means that there is"
-" only one instance of the script is running at a time, and it is running "
-"on the server. Any behavior that is controlled by your script will be "
-"seen and heard by everyone in the domain."
+" only one instance of the script running at a time, and it is running on "
+"the server. Any behavior that is controlled by your script will be seen "
+"or heard by everyone in the domain."
 msgstr "Vircadiaのコンテンツは、エンティティにスクリプトを添付することでインタラクティブにすることができます。*サーバエンティティスクリプト*は、エンティティをホストするサーバ（またはドメイン）上で実行されるエンティティスクリプトです。これらのスクリプトは、ユーザーがいない場合でも、ドメイン内で永続的に実行されます。つまり、一度に実行されるスクリプトのインスタンスは1つだけであり、サーバー上で実行されます。クリプトによって制御される動作は、ドメイン内のすべての人に表示され、聞こえます。"
 
-#: ../../source/script/server-entity-scripts.md:6
-#, fuzzy
-msgid ""
-"[Attach a Server Entity Script to an Entity](#attach-a-server-entity-"
-"script-to-an-entity)"
-msgstr ""
-"[サーバーエンティティスクリプトをエンティティにアタッチする](#attach-a-server-entity-script-to-an-"
-"entity)"
-
-#: ../../source/script/server-entity-scripts.md:7
-#, fuzzy
-msgid "[Example of a Server Entity Script](#example-of-a-server-entity-script)"
-msgstr "[サーバーエンティティスクリプトの例](#example-of-a-server-entity-script)"
-
-#: ../../source/script/server-entity-scripts.md:8
-#, fuzzy
-msgid "[Script API](#script-api)"
-msgstr "[スクリプト API](#script-api)"
-
-#: ../../source/script/server-entity-scripts.md:10
+#: ../../source/script/server-entity-scripts.rst:12
 #, fuzzy
 msgid "Attach a Server Entity Script to an Entity"
 msgstr "サーバーエンティティスクリプトをエンティティに添付する"
 
-#: ../../source/script/server-entity-scripts.md:11
+#: ../../source/script/server-entity-scripts.rst:14
 #, fuzzy
 msgid "To attach a server entity script to an entity:"
 msgstr "サーバーエンティティスクリプトをエンティティにアタッチするには："
 
-#: ../../source/script/server-entity-scripts.md:15
+#: ../../source/script/server-entity-scripts.rst:19
 #, fuzzy
 msgid "For 'Server Script', enter the URL to your server entity script."
 msgstr "[サーバースクリプト]には、サーバーエンティティスクリプトへのURLを入力します。"
 
-#: ../../source/script/server-entity-scripts.md:22
+#: ../../source/script/server-entity-scripts.rst:21
+msgid ""
+"An entity can have multiple server entity scripts attached to it, but all"
+" of these must be through a single file URL."
+msgstr ""
+
+#: ../../source/script/server-entity-scripts.rst:30
 #, fuzzy
 msgid "Example of a Server Entity Script"
 msgstr "サーバーエンティティスクリプトの例"
 
-#: ../../source/script/server-entity-scripts.md:23
+#: ../../source/script/server-entity-scripts.rst:32
 #, fuzzy
 msgid ""
 "The following script modifies the intensity of a light entity, so that it"
 " flickers tea lights."
 msgstr "次のスクリプトは、ライトエンティティの強度を変更して、ティーライトを点滅させます。"
 
-#: ../../source/script/server-entity-scripts.md:49
+#: ../../source/script/server-entity-scripts.rst:59
 #, fuzzy
 msgid ""
 "This script is a good example of a server entity script because it only "
@@ -24203,12 +24147,22 @@ msgid ""
 "the light to flicker it."
 msgstr "このスクリプトは、光の強さを更新するのに必要なアクターは1つだけなので、サーバーエンティティのスクリプトの良い例と言えます。同じスクリプトをエンティティクライアントスクリプトとして添付することもできますが、ティーライトを見ることができるすべてのクライアントが、ライトの強さを変化させて明滅させるためにエンティティを編集することになります。"
 
-#: ../../source/script/server-entity-scripts.md:51
+#: ../../source/script/server-entity-scripts.rst:62
+msgid ""
+"In the above example we include ``\"use strict\"`` on the first line of "
+"the server entity script to enable `strict mode "
+"<https://developer.mozilla.org/en-"
+"US/docs/Web/JavaScript/Reference/Strict_mode>`_ . This must be inside the"
+" class prototype function, not the first line of the file as in other "
+"scripts."
+msgstr ""
+
+#: ../../source/script/server-entity-scripts.rst:66
 #, fuzzy
 msgid "Script API"
 msgstr "スクリプトAPI"
 
-#: ../../source/script/server-entity-scripts.md:53
+#: ../../source/script/server-entity-scripts.rst:68
 #, fuzzy
 msgid ""
 "The Entity Script Server does not have access to all of the listed "
@@ -24217,17 +24171,34 @@ msgid ""
 "Script Server."
 msgstr "エンティティスクリプトサーバーは、APIのリストされたコンポーネントのすべてにアクセスできるわけではありません。アバター、コントローラー、記録、オーバーレイ、およびマウスとキーボードのイベント用のAPIは、エンティティスクリプトサーバーでは使用できません。"
 
-#: ../../source/script/server-entity-scripts.md:55
+#: ../../source/script/server-entity-scripts.rst:70
 #, fuzzy
 msgid ""
-"Learn more about what APIs are available to server entity scripts "
-"[here](https://apidocs.overte.org/Entities.html)."
+"Learn more about what APIs are available to server entity scripts `here "
+"<https://apidocs.overte.org/Entities.html>`_."
 msgstr "サーバーエンティティスクリプトで使用できるAPIの詳細については、[こちら](https://apidocs.vircadia.dev/Entities.html)をご覧ください。"
+
+#: ../../source/script/server-entity-scripts.rst:76
+#, fuzzy
+msgid "Entity Script Server Log"
+msgstr "Entity Server"
+
+#: ../../source/script/server-entity-scripts.rst:78
+msgid ""
+"The Entity Script Server Log allows you to see the output from entity "
+"scripts which are running on the domain server. As these scripts do not "
+"interact with your interface client directly, their messages will not "
+"show up in your :ref:`debug window<debug window>` or interface logs. To "
+"open the Server Entity Script Log window, go to the 'Developer' menu, "
+"then **Scripting > Entity Script Server Log**. If the Developer menu is "
+"not visible, first go to the 'Settings' menu and click 'Developer' Menu."
+msgstr ""
 
 #: ../../source/script/write-scripts.md:3
 msgid ""
 "Overte's robust [JavaScript API](https://apidocs.overte.org) provides the"
-" tools for you to build great content and user experiences in VR."
+" tools for you to build great content and experiences, whether the user "
+"is in VR or on Desktop."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:5
@@ -24258,7 +24229,7 @@ msgstr "[エンティティの編集](#edit-an-entity)"
 msgid "Write to the Debug Window"
 msgstr "デバッグウィンドウへの出力"
 
-#: ../../source/script/write-scripts.md:19
+#: ../../source/script/write-scripts.md:20
 #, fuzzy
 msgid ""
 "This is an example of an [interface script](interface-scripts) and cannot"
@@ -24271,16 +24242,16 @@ msgstr ""
 "scripting.html#debug-window) に出力する方法を示しています。この例では、まず単純な「Hello, "
 "World」スクリプトから始めます。"
 
-#: ../../source/script/write-scripts.md:25
-#: ../../source/script/write-scripts.md:45
-#: ../../source/script/write-scripts.md:68
+#: ../../source/script/write-scripts.md:27
+#: ../../source/script/write-scripts.md:49
+#: ../../source/script/write-scripts.md:74
 #, fuzzy
 msgid ""
 "Copy and paste this in a file `testScript.js` and save it on your "
 "computer."
 msgstr "これをコピーして`testScript.js`ファイルに貼り付け、コンピューターに保存します。"
 
-#: ../../source/script/write-scripts.md:26
+#: ../../source/script/write-scripts.md:28
 #, fuzzy
 msgid ""
 "When you [load and run this script](get-started-with-scripting.rst#load-"
@@ -24291,12 +24262,12 @@ msgstr ""
 " すると、Vircadia の [デバッグウィンドウ] に 「Hello, World」 という文字が出力されます。![](_images"
 "/hello-world.png)"
 
-#: ../../source/script/write-scripts.md:29
+#: ../../source/script/write-scripts.md:31
 #, fuzzy
 msgid "Create an Entity"
 msgstr "エンティティの作成"
 
-#: ../../source/script/write-scripts.md:30
+#: ../../source/script/write-scripts.md:33
 #, fuzzy
 msgid ""
 "Instead of [using the Create app to add an entity](../create/entities"
@@ -24306,7 +24277,7 @@ msgstr ""
 "[Createアプリを使用してエンティティを追加する](../create/entities/create-"
 "entities)の代わりに、[interface script](interface-scripts)を使用して作成できます。"
 
-#: ../../source/script/write-scripts.md:46
+#: ../../source/script/write-scripts.md:50
 #, fuzzy
 msgid ""
 "When you [load and run this script](get-started-with-scripting.rst#load-"
@@ -24319,12 +24290,12 @@ msgstr ""
 "run-a-script)すると、ドメイン内のアバターが検索され、カスタマイズされたプロパティに基づいて新しいエンティティが作成されます。設定してから、[デバッグウィンドウ]に1行出力します。この場合、エンティティは赤いボックスになります。![](_images"
 "/add-entity.png)"
 
-#: ../../source/script/write-scripts.md:49
+#: ../../source/script/write-scripts.md:53
 #, fuzzy
 msgid "Edit an Entity"
 msgstr "エンティティの編集"
 
-#: ../../source/script/write-scripts.md:50
+#: ../../source/script/write-scripts.md:55
 #, fuzzy
 msgid ""
 "To manipulate an entity's properties, you can use `Entities.editEntity`in"
@@ -24333,7 +24304,7 @@ msgstr ""
 "エンティティのプロパティを操作するには、[interface script](interface-"
 "scripts)で`Entities.editEntity`を使用できます。"
 
-#: ../../source/script/write-scripts.md:69
+#: ../../source/script/write-scripts.md:75
 #, fuzzy
 msgid ""
 "When you [load and run this script](get-started-with-scripting.rst#load-"
@@ -24347,17 +24318,26 @@ msgstr ""
 "run-a-script)すると、ドメイン内のアバターが検索され、カスタマイズされたプロパティに基づいて新しいエンティティが作成されます。設定してから、そのエンティティの色が[デバッグウィンドウ]に出力されます。次に、スクリプトはエンティティの色を赤に変更し、[デバッグウィンドウ]に新しい色が出力されます。![](_images"
 "/edit-entity.png)"
 
-#: ../../source/script/write-scripts.md:77
+#: ../../source/script/write-scripts.md:86
+#, fuzzy
+msgid "[Get Started with Scripting](get-started-with-scripting)"
+msgstr "[スクリプトをはじめよう](get-started-with-scripting)"
+
+#: ../../source/script/write-scripts.md:87
 #, fuzzy
 msgid ""
 "[Load and Run a Script](get-started-with-scripting.rst#load-and-"
 "run-a-script)"
 msgstr "[スクリプトの読み込みと実行](get-started-with-scripting.html#load-and-run-a-script)"
 
-#: ../../source/script/write-scripts.md:78
+#: ../../source/script/write-scripts.md:88
 #, fuzzy
 msgid "[Interface Scripts](interface-scripts)"
 msgstr "[インターフェーススクリプト](interface-scripts)"
+
+#: ../../source/script/write-scripts.md:89
+msgid "[API Reference](https://apidocs.overte.org)"
+msgstr ""
 
 #: ../../source/security.rst:7 ../../source/security/crash-reporting.rst:3
 msgid "Crash Reporting"
@@ -36990,5 +36970,216 @@ msgstr "メタバースセッションUUID"
 #~ msgstr ""
 
 #~ msgid "*Last Updated on 2026-02-13*"
+#~ msgstr ""
+
+#~ msgid "**On This Page**"
+#~ msgstr "**コンテンツ**"
+
+#~ msgid "[Add an AC Script](#add-an-ac-script)"
+#~ msgstr "[ACスクリプトを追加](#add-an-ac-script)"
+
+#~ msgid "[Example of an AC Script](#example-of-an-ac-script)"
+#~ msgstr "[ACスクリプトの例](#example-of-an-ac-script)"
+
+#~ msgid ""
+#~ "The following script counts the number"
+#~ " of entities found in a domain "
+#~ "using Overte's "
+#~ "[EntityViewer](https://apidocs.overte.org/EntityViewer.html)."
+#~ msgstr ""
+
+#~ msgid "[Configure Your Domain Settings](../host/configure-settings)"
+#~ msgstr "[ドメイン設定を構成する](../host/configure-settings)"
+
+#~ msgid "[Write Your Own Scripts](write-scripts)"
+#~ msgstr "[スクリプトを書いてみよう](write-scripts)"
+
+#~ msgid "[Add an Avatar Script](#add-an-avatar-script)"
+#~ msgstr "[アバタースクリプトの追加](#add-an-avatar-script)"
+
+#~ msgid "[Example of an Avatar Script](#example-of-an-avatar-script)"
+#~ msgstr "[アバタースクリプトの例](#example-of-an-avatar-script)"
+
+#~ msgid "To add an avatar script using the Package Model tools:"
+#~ msgstr "パッケージモデルツールを使用してアバタースクリプトを追加するには："
+
+#~ msgid ""
+#~ "Create a folder called `scripts` in "
+#~ "the same location as your FBX, "
+#~ "GLB, or glTF file."
+#~ msgstr "FBX、GLB、またはglTFファイルと同じ場所に`scripts`というフォルダを作成します。"
+
+#~ msgid "Copy your avatar script into this new folder."
+#~ msgstr "アバタースクリプトをこの新しいフォルダーにコピーします。"
+
+#~ msgid "In Interface, go to **Edit > Package Model as .fst**"
+#~ msgstr "インターフェイスにおいて、**[編集]>[パッケージモデル]**に移動します"
+
+#~ msgid ""
+#~ "For 'Script Directory', enter the path"
+#~ " to the `scripts` folder you created"
+#~ " above."
+#~ msgstr "[スクリプトディレクトリ]には、上記で作成した`scripts`フォルダへのパスを入力します。"
+
+#~ msgid "To add an avatar script manually:"
+#~ msgstr "アバタースクリプトを手動で追加するには："
+
+#~ msgid ""
+#~ "[Attach a Client Entity Script to "
+#~ "an Entity](#attach-a-client-entity-script-"
+#~ "to-an-entity)"
+#~ msgstr ""
+#~ "[クライアントエンティティスクリプトをエンティティにアタッチする](#attach-a-client-entity-"
+#~ "script-to-an-entity)"
+
+#~ msgid "[Example of a Client Entity Script](#example-of-a-client-entity-script)"
+#~ msgstr "[クライアントエンティティスクリプトの例](#example-of-a-client-entity-script)"
+
+#~ msgid ""
+#~ "Many of the scripts in Overte run"
+#~ " behind the scenes, so that you "
+#~ "don't even know they're running. "
+#~ "However, if you want to create "
+#~ "some advanced behavior, you may need "
+#~ "to :doc:`write your own scripts "
+#~ "<write-scripts>` to make sure everything"
+#~ " works correctly."
+#~ msgstr ""
+#~ "Vircadiaのスクリプトの多くは舞台裏で実行されているため、実行されていることすらわかりません。ただし、高度な動作を作成する場合は、すべてが正しく機能することを確認するために、:doc:`独自のスクリプト"
+#~ " <write-scripts>` を作成する必要があります。"
+
+#~ msgid "Overte scripting runs on a JavaScript engine that is provided with Qt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are `many other APIs available "
+#~ "<https://apidocs.overte.org>`_, and we encourage "
+#~ "you to make sure use of them "
+#~ "as you become more comfortable scripting"
+#~ " in Overte."
+#~ msgstr ""
+
+#~ msgid "Add a Script to the Default Scripts"
+#~ msgstr "デフォルトのスクリプトにスクリプトを追加する"
+
+#~ msgid ""
+#~ "You can add a script to the "
+#~ "default scripts to run every time "
+#~ "you start Interface."
+#~ msgstr "デフォルトのスクリプトにスクリプトを追加して、インターフェイスを起動するたびに実行することができます。"
+
+#~ msgid ""
+#~ "In Interface, pull up your Tablet "
+#~ "or HUD and go to **Menu > "
+#~ "Edit > Running Scripts**."
+#~ msgstr "インターフェイスで、タブレットまたはHUDをプルアップし、**[メニュー]>[編集]>[スクリプトの実行]** に移動します。"
+
+#~ msgid "Click 'Reveal Scripts Folder' at the bottom."
+#~ msgstr "下部にある[RevealScriptsFolder]をクリックします。"
+
+#~ msgid "In the file explorer window, open the 'defaultScripts.js' file."
+#~ msgstr "ファイルエクスプローラウィンドウで、[defaultScripts.js]ファイルを開きます。"
+
+#~ msgid ""
+#~ "Add your script to this file to"
+#~ " make it run with other default "
+#~ "scripts. Ensure the folder path to "
+#~ "your script is correct."
+#~ msgstr "このファイルにあなたのスクリプトを追加して、他のデフォルトスクリプトと一緒に実行できるようにします。スクリプトのフォルダパスが正しいことを確認してください。"
+
+#~ msgid ""
+#~ "The 'defaultScripts.js' file is updated "
+#~ "every time you update Interface to "
+#~ "the latest release version. This means"
+#~ " that any changes you make to "
+#~ "the file will be overwritten. You "
+#~ "can avoid this by writing and "
+#~ "running a 'loader' script to load "
+#~ "scripts on start up."
+#~ msgstr "[defaultScripts.js]ファイルは、インターフェイスを最新のリリースバージョンに更新するたびに更新されます。これは、ファイルに加えた変更がすべて上書きされることを意味します。これを回避するには、[ローダー]スクリプトを記述して実行し、起動時にスクリプトをロードします。"
+
+#~ msgid "[Load an Interface Script](#load-an-interface-script)"
+#~ msgstr "[インターフェイススクリプトをロードする](#load-an-interface-script)"
+
+#~ msgid "[Example of an Interface Script](#example-of-an-interface-script)"
+#~ msgstr "[インターフェイススクリプトの例](#example-of-an-interface-script)"
+
+#~ msgid ""
+#~ "In Interface, go to **Edit > "
+#~ "Running Scripts** or press <kbd "
+#~ "class=\"keyboard\">Ctrl</kbd> + <kbd "
+#~ "class=\"keyboard\">J</kbd> on your keyboard."
+#~ msgstr ""
+#~ "インターフェイスで、**[編集]>[スクリプトの実行]**に移動するか、キーボードから <kbd "
+#~ "class=\"keyboard\">Ctrl</kbd> + <kbd "
+#~ "class=\"keyboard\">J</kbd>を押します。"
+
+#~ msgid ""
+#~ "The following script automatically enters "
+#~ "a first person perspective when you "
+#~ "enter VR mode with a HMD."
+#~ msgstr "次のスクリプトは、HMDでVRモードに入ると、自動的に一人称視点になります。"
+
+#~ msgid ""
+#~ "Overte's robust [JavaScript "
+#~ "API](https://apidocs.overte.org) provides the tools"
+#~ " for you to build great content "
+#~ "and user experiences in VR. We've "
+#~ "compiled some advanced JavaScript tips "
+#~ "you can use while scripting for "
+#~ "Overte."
+#~ msgstr ""
+
+#~ msgid "[Compute 3D Math Operations](#compute-3d-math-operations)"
+#~ msgstr "[3次元数学演算の計算](#compute-3d-math-operations)"
+
+#~ msgid "[Get Your Avatar's Position](#get-your-avatars-position)"
+#~ msgstr "[アバターの位置を取得](#get-your-avatars-position)"
+
+#~ msgid "[Get Your Avatar's Orientation](#get-your-avatars-orientation)"
+#~ msgstr "[アバターの向きを取得](#get-your-avatars-orientation)"
+
+#~ msgid ""
+#~ "[Get the Direction Your Avatar is "
+#~ "Facing](#get-the-direction-your-avatar-"
+#~ "is-facing)"
+#~ msgstr "[アバターの向きの取得](#get-the-direction-your-avatar-is-facing)"
+
+#~ msgid ""
+#~ "[Make an Entity Appear Before Your "
+#~ "Avatar](#make-an-entity-appear-before-"
+#~ "your-avatar)"
+#~ msgstr "[アバターの前のエンティティ表示](#make-an-entity-appear-before-your-avatar)"
+
+#~ msgid ""
+#~ "[Include External JS and JSON Files"
+#~ "](#include-external-js-and-json-files)"
+#~ msgstr "[外部JS、JSONファイルのインクルード](#include-external-js-and-json-files)"
+
+#~ msgid "[Equip an Item](#equip-an-item)"
+#~ msgstr "[アイテムの装備](#equip-an-item)"
+
+#~ msgid "[Connect a Signal to a Function](#connect-a-signal-to-a-function)"
+#~ msgstr "[シグナルと機能の接続](#connect-a-signal-to-a-function)"
+
+#~ msgid ""
+#~ "[Attach a Server Entity Script to "
+#~ "an Entity](#attach-a-server-entity-script-"
+#~ "to-an-entity)"
+#~ msgstr ""
+#~ "[サーバーエンティティスクリプトをエンティティにアタッチする](#attach-a-server-entity-"
+#~ "script-to-an-entity)"
+
+#~ msgid "[Example of a Server Entity Script](#example-of-a-server-entity-script)"
+#~ msgstr "[サーバーエンティティスクリプトの例](#example-of-a-server-entity-script)"
+
+#~ msgid "[Script API](#script-api)"
+#~ msgstr "[スクリプト API](#script-api)"
+
+#~ msgid ""
+#~ "Overte's robust [JavaScript "
+#~ "API](https://apidocs.overte.org) provides the tools"
+#~ " for you to build great content "
+#~ "and user experiences in VR."
 #~ msgstr ""
 

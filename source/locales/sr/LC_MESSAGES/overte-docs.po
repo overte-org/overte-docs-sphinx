@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-05 10:45+0000\n"
+"POT-Creation-Date: 2026-05-08 17:36+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sr\n"
@@ -98,8 +98,13 @@ msgstr ""
 #: ../../source/host/maintain-domain/update-software.rst:8
 #: ../../source/host/server-setup/windows-server.rst:10
 #: ../../source/host/start-hosting.rst:8
+#: ../../source/script/assignment-client-scripts.rst:10
+#: ../../source/script/avatar-scripts.rst:10
+#: ../../source/script/client-entity-scripts.rst:12
 #: ../../source/script/get-started-with-scripting.rst:10
-#: ../../source/script/midi-tutorial.rst:12
+#: ../../source/script/interface-scripts.rst:10
+#: ../../source/script/js-tips.rst:10 ../../source/script/midi-tutorial.rst:12
+#: ../../source/script/server-entity-scripts.rst:8
 #: ../../source/security/asset-security.rst:12
 msgid "On This Page"
 msgstr ""
@@ -911,14 +916,15 @@ msgstr ""
 #: ../../source/explore/personalize/change-avatar.md:31
 #: ../../source/explore/personalize/install-apps.md:101
 #: ../../source/explore/travel.md:35
-#: ../../source/script/assignment-client-scripts.md:54
-#: ../../source/script/avatar-scripts.md:78
-#: ../../source/script/client-entity-scripts.md:44
-#: ../../source/script/get-started-with-scripting.rst:174
-#: ../../source/script/interface-scripts.md:37
-#: ../../source/script/js-tips.md:200 ../../source/script/midi-tutorial.rst:176
-#: ../../source/script/server-entity-scripts.md:57
-#: ../../source/script/write-scripts.md:74
+#: ../../source/script/assignment-client-scripts.rst:63
+#: ../../source/script/avatar-scripts.rst:115
+#: ../../source/script/client-entity-scripts.rst:59
+#: ../../source/script/get-started-with-scripting.rst:173
+#: ../../source/script/interface-scripts.rst:107
+#: ../../source/script/js-tips.rst:229
+#: ../../source/script/midi-tutorial.rst:176
+#: ../../source/script/server-entity-scripts.rst:80
+#: ../../source/script/write-scripts.md:84
 #: ../../source/security/asset-security.rst:79
 msgid "**See Also**"
 msgstr ""
@@ -2069,8 +2075,7 @@ msgstr ""
 #: ../../source/explore/interact.md:7
 #: ../../source/explore/personalize/change-avatar.md:10
 #: ../../source/explore/personalize/install-apps.md:12
-#: ../../source/explore/travel.md:5 ../../source/script/js-tips.md:7
-#: ../../source/script/write-scripts.md:12
+#: ../../source/explore/travel.md:5 ../../source/script/write-scripts.md:12
 msgid "**On This Page:**"
 msgstr ""
 
@@ -5693,8 +5698,8 @@ msgid "To add a new entity to your domain:"
 msgstr ""
 
 #: ../../source/create/entities/create-entities.md:11
-#: ../../source/script/client-entity-scripts.md:13
-#: ../../source/script/server-entity-scripts.md:12
+#: ../../source/script/client-entity-scripts.rst:20
+#: ../../source/script/server-entity-scripts.rst:16
 msgid "In Interface, pull up your tablet or HUD and go to **Create**."
 msgstr ""
 
@@ -19913,23 +19918,24 @@ msgstr ""
 msgid "JavaScript Tips and Tricks"
 msgstr ""
 
-#: ../../source/script.rst:9 ../../source/script/interface-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/interface-scripts.rst:3
 msgid "Interface Scripts"
 msgstr ""
 
-#: ../../source/script.rst:9 ../../source/script/assignment-client-scripts.md:1
+#: ../../source/script.rst:9
+#: ../../source/script/assignment-client-scripts.rst:3
 msgid "Assignment Client Scripts"
 msgstr ""
 
-#: ../../source/script.rst:9 ../../source/script/avatar-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/avatar-scripts.rst:3
 msgid "Avatar Scripts"
 msgstr ""
 
-#: ../../source/script.rst:9 ../../source/script/client-entity-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/client-entity-scripts.rst:3
 msgid "Client Entity Scripts"
 msgstr ""
 
-#: ../../source/script.rst:9 ../../source/script/server-entity-scripts.md:1
+#: ../../source/script.rst:9 ../../source/script/server-entity-scripts.rst:3
 msgid "Server Entity Scripts"
 msgstr ""
 
@@ -19954,7 +19960,7 @@ msgid ""
 "how you can use them to create new experiences:"
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:3
+#: ../../source/script/assignment-client-scripts.rst:5
 msgid ""
 "Assignment Client (AC) scripts (also known as \"persistent scripts\") run"
 " persistently in a domain and aren't affected by other scripts. These "
@@ -19963,97 +19969,79 @@ msgid ""
 "domain or you shut down the domain entirely."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:5
+#: ../../source/script/assignment-client-scripts.rst:7
 msgid ""
 "With AC scripts, you can do things like coordinate actions between "
 "entities and avatars, and add virtual pets to greet visitors to your "
 "domain."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:7
-#: ../../source/script/avatar-scripts.md:7
-#: ../../source/script/client-entity-scripts.md:7
-#: ../../source/script/interface-scripts.md:7
-#: ../../source/script/server-entity-scripts.md:5
-msgid "**On This Page**"
-msgstr ""
-
-#: ../../source/script/assignment-client-scripts.md:8
-msgid "[Add an AC Script](#add-an-ac-script)"
-msgstr ""
-
-#: ../../source/script/assignment-client-scripts.md:9
-msgid "[Example of an AC Script](#example-of-an-ac-script)"
-msgstr ""
-
-#: ../../source/script/assignment-client-scripts.md:11
+#: ../../source/script/assignment-client-scripts.rst:14
 msgid "Add an AC Script"
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:12
+#: ../../source/script/assignment-client-scripts.rst:16
 msgid ""
 "Once you've written and hosted your script, you need to add it to a "
 "domain, either your own or one where you have permissions to run an AC "
 "script."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:14
+#: ../../source/script/assignment-client-scripts.rst:18
 msgid ""
-"Open your 'Domain Administration Panel'. If you are on a local sandbox, "
-"open it by clicking on the Overte icon in the taskbar notifications and "
-"'click Settings'."
+"Open your 'Domain Administration Panel'. If you are on a local domain "
+"server, open it by clicking on the Overte icon in the taskbar "
+"notifications and 'click Settings'."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:15
+#: ../../source/script/assignment-client-scripts.rst:19
 msgid "From the menu, go to **Content > Scripts**."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:16
+#: ../../source/script/assignment-client-scripts.rst:20
 msgid ""
 "In the Persistent Scripts section, click **+** and paste the URL to your "
-"script under 'Script URL'.  ![](_images/ac-script.png)"
+"script under 'Script URL'."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:18
+#: ../../source/script/assignment-client-scripts.rst:24
 msgid ""
 "At the top of the page, click 'Save and Restart'. Now, every time you "
 "enter that domain, the AC script will be running."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:20
+#: ../../source/script/assignment-client-scripts.rst:28
 msgid "Example of an AC Script"
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:22
+#: ../../source/script/assignment-client-scripts.rst:30
 msgid ""
 "The following script counts the number of entities found in a domain "
-"using Overte's "
-"[EntityViewer](https://apidocs.overte.org/EntityViewer.html)."
+"using Overte's `EntityViewer "
+"<https://apidocs.overte.org/EntityViewer.html>`_."
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:56
-msgid "[Configure Your Domain Settings](../host/configure-settings)"
+#: ../../source/script/assignment-client-scripts.rst:65
+msgid "`Configure Your Domain Settings <../host/configure-settings>`_"
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:57
-#: ../../source/script/avatar-scripts.md:80
-#: ../../source/script/client-entity-scripts.md:46
-#: ../../source/script/interface-scripts.md:39
-#: ../../source/script/server-entity-scripts.md:59
-#: ../../source/script/write-scripts.md:76
-msgid "[Get Started with Scripting](get-started-with-scripting)"
+#: ../../source/script/assignment-client-scripts.rst:66
+#: ../../source/script/avatar-scripts.rst:117
+#: ../../source/script/client-entity-scripts.rst:61
+#: ../../source/script/interface-scripts.rst:109
+#: ../../source/script/server-entity-scripts.rst:82
+msgid "`Get Started with Scripting <get-started-with-scripting>`_"
 msgstr ""
 
-#: ../../source/script/assignment-client-scripts.md:58
-#: ../../source/script/avatar-scripts.md:81
-#: ../../source/script/client-entity-scripts.md:47
-#: ../../source/script/interface-scripts.md:40
-#: ../../source/script/js-tips.md:202
-#: ../../source/script/server-entity-scripts.md:60
-msgid "[Write Your Own Scripts](write-scripts)"
+#: ../../source/script/assignment-client-scripts.rst:67
+#: ../../source/script/avatar-scripts.rst:118
+#: ../../source/script/client-entity-scripts.rst:62
+#: ../../source/script/interface-scripts.rst:110
+#: ../../source/script/server-entity-scripts.rst:83
+msgid "`Write Your Own Scripts <write-scripts>`_"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:3
+#: ../../source/script/avatar-scripts.rst:5
 msgid ""
 "Avatar scripts are bound to an avatar. This means that they run when a "
 "user puts on a specific avatar. Likewise, avatar scripts stop running "
@@ -20062,106 +20050,76 @@ msgid ""
 "script themselves."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:5
+#: ../../source/script/avatar-scripts.rst:7
 msgid ""
 "With avatar scripts, you can do things like make your hair flow or create"
 " particle clouds around your avatar."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:9
-msgid "[Add an Avatar Script](#add-an-avatar-script)"
-msgstr ""
-
-#: ../../source/script/avatar-scripts.md:10
-msgid "[Example of an Avatar Script](#example-of-an-avatar-script)"
-msgstr ""
-
-#: ../../source/script/avatar-scripts.md:12
+#: ../../source/script/avatar-scripts.rst:14
 msgid "Add an Avatar Script"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:13
+#: ../../source/script/avatar-scripts.rst:16
 msgid ""
-"There are two different ways you can add an avatar script to your FST "
-"file: either by using our Package Model tool or by manually adding the "
-"script."
+"The recommended way to add an avatar script to your FST file is by "
+"manually editing the file to add your script url:"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:15
-msgid "To add an avatar script using the Package Model tools:"
-msgstr ""
-
-#: ../../source/script/avatar-scripts.md:16
-msgid ""
-"Create a folder called `scripts` in the same location as your FBX, GLB, "
-"or glTF file."
-msgstr ""
-
-#: ../../source/script/avatar-scripts.md:17
-msgid "Copy your avatar script into this new folder."
-msgstr ""
-
-#: ../../source/script/avatar-scripts.md:18
-msgid "In Interface, go to **Edit > Package Model as .fst**"
-msgstr ""
-
-#: ../../source/script/avatar-scripts.md:19
-msgid ""
-"For 'Script Directory', enter the path to the `scripts` folder you "
-"created above."
-msgstr ""
-
-#: ../../source/script/avatar-scripts.md:21
-msgid "To add an avatar script manually:"
-msgstr ""
-
-#: ../../source/script/avatar-scripts.md:22
+#: ../../source/script/avatar-scripts.rst:18
 msgid "Open the FST file for your avatar in the text editor of your choice."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:23
+#: ../../source/script/avatar-scripts.rst:19
 msgid ""
 "Add a line telling the avatar where to find the script file using the "
-"syntax `script = [SCRIPT URL]`.![](_images/add-script.png)"
+"syntax ``script = [SCRIPT URL]``."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:25
+#: ../../source/script/avatar-scripts.rst:21
+msgid "A sample of woody's FST file with a script added"
+msgstr ""
+
+#: ../../source/script/avatar-scripts.rst:39
 msgid ""
-"You can add multiple scripts to your avatar by adding multiple `script = "
-"url` lines."
+"You can add multiple scripts to your avatar by adding multiple ``script ="
+" url`` lines."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:27
+#: ../../source/script/avatar-scripts.rst:43
 msgid "Example of an Avatar Script"
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:29
+#: ../../source/script/avatar-scripts.rst:45
 msgid ""
 "The following script makes your avatar throw balls when its right hand "
 "moves."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:76
+#: ../../source/script/avatar-scripts.rst:47
+msgid "throw_ball.js"
+msgstr ""
+
+#: ../../source/script/avatar-scripts.rst:113
 msgid ""
-"This example script uses the "
-"[MyAvatar](https://apidocs.overte.org/MyAvatar.html) namespace to "
-"determine if your avatar's hand moves. Upon detecting movement, the "
-"script makes your avatar launch balls. It also uses some other namespaces"
-" such as [Entities](https://apidocs.overte.org/Entities.html) (to create "
-"the ball you will launch) and "
-"[Vec3](https://apidocs.overte.org/Vec3.html) (to determine the right "
-"positions and distances). Add it to your avatar to see how it works."
+"This example script uses the `MyAvatar "
+"<https://apidocs.overte.org/MyAvatar.html>`_ namespace to determine if "
+"your avatar's hand moves. Upon detecting movement, the script makes your "
+"avatar launch balls. It also uses some other namespaces such as `Entities"
+" <https://apidocs.overte.org/Entities.html>`_ (to create the ball you "
+"will launch) and `Vec3 <https://apidocs.overte.org/Vec3.html>`_ (to "
+"determine the right positions and distances). Add it to your avatar to "
+"see how it works."
 msgstr ""
 
-#: ../../source/script/avatar-scripts.md:82
-#: ../../source/script/client-entity-scripts.md:48
-#: ../../source/script/js-tips.md:203
-#: ../../source/script/server-entity-scripts.md:61
-#: ../../source/script/write-scripts.md:79
-msgid "[API Reference](https://apidocs.overte.org)"
+#: ../../source/script/avatar-scripts.rst:119
+#: ../../source/script/client-entity-scripts.rst:63
+#: ../../source/script/js-tips.rst:232
+#: ../../source/script/server-entity-scripts.rst:84
+msgid "`API Reference <https://apidocs.overte.org>`_"
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:3
+#: ../../source/script/client-entity-scripts.rst:5
 msgid ""
 "You can make content in Overte interactive by attaching scripts to "
 "entities. *Client entity scripts* are entity scripts that run locally on "
@@ -20170,74 +20128,102 @@ msgid ""
 "stop) the script when the user leaves."
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:5
+#: ../../source/script/client-entity-scripts.rst:7
 msgid ""
-"There can be (and typically are) multiple entities in a domain, and each "
-"one can have a different client entity script associated with it."
+"There typically are multiple entities in a domain, and each one can have "
+"a different client entity script associated with it."
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:8
+#: ../../source/script/client-entity-scripts.rst:9
 msgid ""
-"[Attach a Client Entity Script to an Entity](#attach-a-client-entity-"
-"script-to-an-entity)"
+"As each client entity script will run on all users' clients "
+"simultaneously, it is most suitable for responding to each user "
+"interacting with it. If you want to control its behaviour independently, "
+"you can give it a brain using a :doc:`server entity script <server-"
+"entity-scripts>`."
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:9
-msgid "[Example of a Client Entity Script](#example-of-a-client-entity-script)"
-msgstr ""
-
-#: ../../source/script/client-entity-scripts.md:11
+#: ../../source/script/client-entity-scripts.rst:16
 msgid "Attach a Client Entity Script to an Entity"
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:12
+#: ../../source/script/client-entity-scripts.rst:18
 msgid "To attach a client entity script to an entity:"
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:14
-#: ../../source/script/server-entity-scripts.md:13
+#: ../../source/script/client-entity-scripts.rst:21
+#: ../../source/script/server-entity-scripts.rst:17
 msgid ""
 "Select the entity you'd like to script by either clicking on it in "
 "Interface or finding it in the 'Entity List'."
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:15
-#: ../../source/script/server-entity-scripts.md:14
+#: ../../source/script/client-entity-scripts.rst:22
+#: ../../source/script/server-entity-scripts.rst:18
 msgid ""
-"In the **Create** app, go to the 'Properties' tab and scroll down to the "
-"'Behavior' section."
+"In the **Create** app, go to the 'Properties' tab and select the Scripts "
+"icon. |scripts-icon|"
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:16
+#: ../../source/script/client-entity-scripts.rst:27
+#: ../../source/script/server-entity-scripts.rst:23
+msgid "paper and quill icon"
+msgstr ""
+
+#: ../../source/script/client-entity-scripts.rst:23
 msgid "For Script, enter the URL to your client entity script."
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:23
+#: ../../source/script/client-entity-scripts.rst:25
+msgid ""
+"For client entity scripts, the URL content must be available to every "
+"user who visits the domain. This means the URL should be a public http(s)"
+" URL, or an Asset Server (ATP) URL for the domain. It cannot be a file "
+"URL. The script property also accepts a string as input, allowing you to "
+"insert the code directly."
+msgstr ""
+
+#: ../../source/script/client-entity-scripts.rst:34
 msgid "Example of a Client Entity Script"
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:24
+#: ../../source/script/client-entity-scripts.rst:36
 msgid ""
 "The following script changes the color of a non-model entity (such as a "
 "box or a sphere) when you click on it:"
 msgstr ""
 
-#: ../../source/script/client-entity-scripts.md:42
+#: ../../source/script/client-entity-scripts.rst:54
 msgid ""
-"This example is written as a JavaScript class prototype function, and it "
-"uses the mouse event "
-"[clickDownOnEntity()](https://apidocs.overte.org/Entities.html#.sendClickDownOnEntity)."
-" When the user clicks on an entity, `clickDownOnEntity()` triggers the "
+"Client Entity Scripts are written as a JavaScript class prototype "
+"function, and this example uses the mouse/controller event "
+"`mousePressOnEntity() "
+"<https://apidocs.overte.org/Entities.html#.sendMousePressOnEntity>`_. "
+"When the user clicks on an entity, ``mousePressOnEntity()`` triggers the "
 "function associated with that click event. In this case, it changes the "
 "entity's color back and forth between yellow and magenta."
 msgstr ""
 
+#: ../../source/script/client-entity-scripts.rst:57
+msgid ""
+"Entity scripts **must** be inside a class prototype function. In the "
+"above example we include ``\"use strict\"`` on the first line of the "
+"client entity script to enable `strict mode "
+"<https://developer.mozilla.org/en-"
+"US/docs/Web/JavaScript/Reference/Strict_mode>`_ . This must be inside the"
+" class prototype function, not the first line of the file as in other "
+"scripts."
+msgstr ""
+
 #: ../../source/script/get-started-with-scripting.rst:5
 msgid ""
-"Many of the scripts in Overte run behind the scenes, so that you don't "
-"even know they're running. However, if you want to create some advanced "
-"behavior, you may need to :doc:`write your own scripts <write-scripts>` "
-"to make sure everything works correctly."
+"Overte has a powerful scripting interface, in fact many of the features "
+"you might use whilst exploring Overte's worlds run on the scripting "
+"engine. The tablet you use to access apps, the community apps themselves,"
+" even the entities which make up much of the world; all of them are "
+"powered by scripts. You can modify many of these existing scripts, and "
+"even :doc:`write your own scripts<write-scripts>` to reshape the Overte "
+"experience into your own."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:7
@@ -20251,7 +20237,10 @@ msgid "JavaScript Basics in Overte"
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:16
-msgid "Overte scripting runs on a JavaScript engine that is provided with Qt."
+msgid ""
+"Overte scripting runs on the V8 scripting engine, with support for both "
+"JavaScript and WebAssembly. To access the Overte API you will need to use"
+" JavaScript."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:18
@@ -20278,8 +20267,8 @@ msgstr ""
 msgid ""
 "Lets you manipulate the entities around you, as long as you have "
 "permissions to do so. This means you can add, remove, and edit entities. "
-"Everyone has access to ``get`` properties of an entity, and can be used "
-"to find Entities in range, direction, collision, or raytrace."
+"Everyone has access to ``get`` properties of an entity, which can be used"
+" to find Entities in range, direction, collision, or raytrace."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:32
@@ -20299,7 +20288,7 @@ msgid ""
 "Lets you get information on an `Avatar "
 "<https://apidocs.overte.org/Avatar.html>`_, or manipulate your own "
 "client-only `MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_. The "
-"information here will be always the avatar information of the client "
+"information here will always be the avatar information of the client "
 "running the script. AvatarList and AvatarManager are basically the same."
 msgstr ""
 
@@ -20309,17 +20298,18 @@ msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:40
 msgid ""
-"Lets you to connect callbacks from your client to script, such as "
-"functionality that is dependent on time (Script.update, Script.setTime, "
-"Script.setInterval etc), connect paths relatively to Assets "
-"(Script.relativePath), refer to other scripts (Script.include), or create"
-" events which occur when the script is turned off (Script.scriptEnding)."
+"Allows you to connect callbacks from your client to a script, such as "
+"functionality that is dependent on time (``Script.update``, "
+"``Script.setTime``, ``Script.setInterval``, etc), connect paths "
+"relatively to Assets (``Script.relativePath``), refer to other scripts "
+"(``Script.include``), or create events which occur when the script is "
+"turned off (``Script.scriptEnding``)."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:49
 msgid ""
-"There are `many other APIs available <https://apidocs.overte.org>`_, and "
-"we encourage you to make sure use of them as you become more comfortable "
+"There are `many other APIs available <https://apidocs.overte.org>`_, "
+"which we encourage you to make use of as you become more comfortable "
 "scripting in Overte."
 msgstr ""
 
@@ -20366,8 +20356,9 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:68
 msgid ""
 "*Client entity scripts* are scripts attached to entities that run locally"
-" in response to a user in a domain. With these scripts, you can customize"
-" what happens when a user encounters an entity."
+" in response to each user in a domain. With these scripts, you can "
+"customize what happens when a user encounters an entity by loading it "
+"into view."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:72
@@ -20378,7 +20369,7 @@ msgstr ""
 msgid ""
 "*Server entity scripts* are scripts attached to entities that do not "
 "require a user to trigger. These scripts control entities so that their "
-"behavior is seen and heard by everyone in the domain."
+"behavior is seen or heard by everyone in the domain."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:79
@@ -20402,7 +20393,7 @@ msgstr ""
 #: ../../source/script/get-started-with-scripting.rst:87
 msgid ""
 "The Running Scripts window can be used to load, run and stop scripts from"
-" a URL or from a disk drive. Overte also provides a number of sample "
+" a URL or from a local file. Overte also provides a number of sample "
 "scripts for you to try out."
 msgstr ""
 
@@ -20429,8 +20420,8 @@ msgid ""
 "Loading (or running) a script lets you test the functionality and see how"
 " it behaves. If you want to view the actual code, you will need to open "
 "the file in the text editor of your choice. In the 'Running Scripts' "
-"window, click the 'Reveal Scripts' folder and browse to the JavaScript "
-"file that you want to view."
+"window, click 'Reveal Scripts Folder' and browse to the JavaScript file "
+"that you want to view."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:99
@@ -20450,10 +20441,20 @@ msgid "These scripts were built to run on Android devices."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:106
-msgid "``developer``"
+msgid "``communityScripts``"
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:106
+msgid ""
+"These scripts were contributed by the community to improve the default "
+"Overte experience."
+msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:109
+msgid "``developer``"
+msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:109
 msgid ""
 "These scripts were created for internal use and debugging, but are "
 "available as advanced developers may find them useful when creating "
@@ -20461,144 +20462,118 @@ msgid ""
 "work or be documented."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:110
+#: ../../source/script/get-started-with-scripting.rst:113
 msgid "``modules``"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:110
+#: ../../source/script/get-started-with-scripting.rst:113
 msgid ""
 "These scripts create external tools that simplify scripting in Overte. "
 "For example, the AppUI module helps you create a tablet app, while the "
 "Request module processes HTTP requests."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:114
+#: ../../source/script/get-started-with-scripting.rst:117
 msgid "``system``"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:114
+#: ../../source/script/get-started-with-scripting.rst:117
 msgid ""
 "These scripts are critical to the stability and usability of Overte. "
 "Making changes to these scripts is not recommended, nor is it easy, as "
 "you may need 'administrative' privileges."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:118
+#: ../../source/script/get-started-with-scripting.rst:121
 msgid "``tutorials``"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:118
+#: ../../source/script/get-started-with-scripting.rst:121
 msgid ""
 "These scripts provide examples of what you can do using scripts in "
 "Overte. Examples include: creating butterflies, making your avatar clap, "
 "and adding ambient sound to your domain."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:125
+#: ../../source/script/get-started-with-scripting.rst:128
 msgid "Load and Run a Script"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:127
+#: ../../source/script/get-started-with-scripting.rst:130
 msgid "To run a script:"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:129
+#: ../../source/script/get-started-with-scripting.rst:132
 msgid "Open the 'Running Scripts' window."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:130
-#: ../../source/script/interface-scripts.md:15
+#: ../../source/script/get-started-with-scripting.rst:133
 msgid ""
-"For scripts hosted in the cloud, click 'From URL'. Enter the URL of your "
-"script file and click 'OK'."
+"For scripts hosted on the internet, click 'From URL'. Enter the URL of "
+"your script file and click 'OK'."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:131
-#: ../../source/script/interface-scripts.md:16
+#: ../../source/script/get-started-with-scripting.rst:134
 msgid ""
 "For scripts on your local computer, click 'From Disk'. Browse to your "
 "script file and click 'Open'."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:132
+#: ../../source/script/get-started-with-scripting.rst:135
 msgid ""
 "To load a sample script, browse to the script at the bottom of the "
 "'Running Scripts' window."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:136
+#: ../../source/script/get-started-with-scripting.rst:138
+msgid ""
+"Any scripts you load from the 'Running Scripts' window will load "
+"automatically the next time you start Overte."
+msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:142
 msgid "Reload or Stop a Script"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:138
+#: ../../source/script/get-started-with-scripting.rst:144
 msgid ""
 "To reload or stop a script, open the 'Running Scripts' window and do one "
 "of the following:"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:140
+#: ../../source/script/get-started-with-scripting.rst:146
 msgid ""
 "To reload all running scripts, click the 'Reload All' button at the top "
 "of the 'Running Scripts' window."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:141
+#: ../../source/script/get-started-with-scripting.rst:147
 msgid "To reload a specific script, click the circular arrow next to the script."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:142
+#: ../../source/script/get-started-with-scripting.rst:148
 msgid ""
-"To stop all running scripts, click the 'Stop All' button at the top of "
+"To stop all running scripts, click the 'Remove All' button at the top of "
 "the 'Running Scripts' window."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:143
-msgid "To stop a specific script, click the 'X' next to the script."
-msgstr ""
-
-#: ../../source/script/get-started-with-scripting.rst:147
-msgid "Add a Script to the Default Scripts"
-msgstr ""
-
 #: ../../source/script/get-started-with-scripting.rst:149
-msgid ""
-"You can add a script to the default scripts to run every time you start "
-"Interface."
+msgid "To stop a specific script, click the 'X' next to the script."
 msgstr ""
 
 #: ../../source/script/get-started-with-scripting.rst:151
 msgid ""
-"In Interface, pull up your Tablet or HUD and go to **Menu > Edit > "
-"Running Scripts**."
+"By stopping a script, you are in effect *removing* that script from the "
+"running list. You will need to find and load that script again to have it"
+" appear in the list. If you **Remove All** scripts you can get the "
+"default scripts back by selecting **Load Defaults**"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:152
-msgid "Click 'Reveal Scripts Folder' at the bottom."
-msgstr ""
-
-#: ../../source/script/get-started-with-scripting.rst:153
-msgid "In the file explorer window, open the 'defaultScripts.js' file."
-msgstr ""
-
-#: ../../source/script/get-started-with-scripting.rst:154
-msgid ""
-"Add your script to this file to make it run with other default scripts. "
-"Ensure the folder path to your script is correct."
-msgstr ""
-
-#: ../../source/script/get-started-with-scripting.rst:156
-msgid ""
-"The 'defaultScripts.js' file is updated every time you update Interface "
-"to the latest release version. This means that any changes you make to "
-"the file will be overwritten. You can avoid this by writing and running a"
-" 'loader' script to load scripts on start up."
-msgstr ""
-
-#: ../../source/script/get-started-with-scripting.rst:160
+#: ../../source/script/get-started-with-scripting.rst:155
 msgid "Scripting Console"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:162
+#: ../../source/script/get-started-with-scripting.rst:157
 msgid ""
 "The Scripting Console lets you test and run short script snippets quickly"
 " in Overte to see how they work. To open the console, go to the "
@@ -20607,46 +20582,54 @@ msgid ""
 "Menu."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:168
+#: ../../source/script/get-started-with-scripting.rst:165
 msgid "Debug Window"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:170
+#: ../../source/script/get-started-with-scripting.rst:167
 msgid ""
 "The Debug Window shows the output generated by your running scripts. This"
 " lets you watch the script(s) in action and make sure that it is running "
 "as you intended. If the script fails, the debugger can help you identify "
 "what went wrong, and point you to specific lines of code where the error "
 "occurred. To open the Debug Window, go to the 'Developer' menu, then "
-"**Scripting > Script Log** (HMD Friendly). If the Developer menu is not "
+"**Scripting > Script Log (HMD Friendly)**. If the Developer menu is not "
 "visible, first go to the 'Settings' menu and click 'Developer' Menu."
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:176
+#: ../../source/script/get-started-with-scripting.rst:171
+msgid ""
+"To debug a server entity script you should instead use the :ref:`Server "
+"Entity Script Log<server entity script log>` to view the output of your "
+"script."
+msgstr ""
+
+#: ../../source/script/get-started-with-scripting.rst:175
 msgid ":doc:`Interface Scripts <interface-scripts>`"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:177
+#: ../../source/script/get-started-with-scripting.rst:176
 msgid ":doc:`Assignment Client Scripts <assignment-client-scripts>`"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:178
+#: ../../source/script/get-started-with-scripting.rst:177
 msgid ":doc:`Avatar Scripts <avatar-scripts>`"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:179
+#: ../../source/script/get-started-with-scripting.rst:178
 msgid ":doc:`Client Entity Scripts <client-entity-scripts>`"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:180
+#: ../../source/script/get-started-with-scripting.rst:179
 msgid ":doc:`Server Entity Scripts <server-entity-scripts>`"
 msgstr ""
 
-#: ../../source/script/get-started-with-scripting.rst:181
+#: ../../source/script/get-started-with-scripting.rst:180
+#: ../../source/script/js-tips.rst:231
 msgid ":doc:`Write Your Own Scripts <write-scripts>`"
 msgstr ""
 
-#: ../../source/script/interface-scripts.md:3
+#: ../../source/script/interface-scripts.rst:5
 msgid ""
 "Interface scripts run on your local machine, as long as you have "
 "Interface up and running. Each user has full control over when interface "
@@ -20657,294 +20640,277 @@ msgid ""
 " it to whoever is visiting the domain."
 msgstr ""
 
-#: ../../source/script/interface-scripts.md:5
+#: ../../source/script/interface-scripts.rst:7
 msgid ""
 "With interface scripts, you can do things like add new menus to the "
-"Interface, add plug-ins, or add 3D overlays that you have control over."
+"interface, create dynamic gadgets or toys, and manipulate your own avatar"
+" to change how it looks or moves."
 msgstr ""
 
-#: ../../source/script/interface-scripts.md:8
-msgid "[Load an Interface Script](#load-an-interface-script)"
-msgstr ""
-
-#: ../../source/script/interface-scripts.md:9
-msgid "[Example of an Interface Script](#example-of-an-interface-script)"
-msgstr ""
-
-#: ../../source/script/interface-scripts.md:11
+#: ../../source/script/interface-scripts.rst:14
 msgid "Load an Interface Script"
 msgstr ""
 
-#: ../../source/script/interface-scripts.md:13
+#: ../../source/script/interface-scripts.rst:16
 msgid "To load and run an interface script:"
 msgstr ""
 
-#: ../../source/script/interface-scripts.md:14
+#: ../../source/script/interface-scripts.rst:18
 msgid ""
-"In Interface, go to **Edit > Running Scripts** or press <kbd "
-"class=\"keyboard\">Ctrl</kbd> + <kbd class=\"keyboard\">J</kbd> on your "
-"keyboard."
+"In Interface, go to **Edit > Running Scripts** or press :kbd:`Ctrl+J` on "
+"your keyboard."
 msgstr ""
 
-#: ../../source/script/interface-scripts.md:18
+#: ../../source/script/interface-scripts.rst:19
+msgid ""
+"For scripts hosted on the internet, click **From URL**. Enter the URL of "
+"your script file and click **OK**."
+msgstr ""
+
+#: ../../source/script/interface-scripts.rst:20
+msgid ""
+"For scripts on your local computer, click **From Disk**. Browse to your "
+"script file and click **Open**."
+msgstr ""
+
+#: ../../source/script/interface-scripts.rst:24
 msgid "Example of an Interface Script"
 msgstr ""
 
-#: ../../source/script/interface-scripts.md:20
+#: ../../source/script/interface-scripts.rst:26
 msgid ""
-"The following script automatically enters a first person perspective when"
-" you enter VR mode with a HMD."
+"The following script creates a light cube of a randomised colour in front"
+" of you when you load it, and shows how you can spawn a text entity "
+"whenever you switch into or out of VR."
 msgstr ""
 
-#: ../../source/script/js-tips.md:1
+#: ../../source/script/interface-scripts.rst:28
+msgid "**example-interface-script.js**"
+msgstr ""
+
+#: ../../source/script/js-tips.rst:3
 msgid "JavaScript Tips & Tricks"
 msgstr ""
 
-#: ../../source/script/js-tips.md:3
+#: ../../source/script/js-tips.rst:5
 msgid ""
-"Overte's robust [JavaScript API](https://apidocs.overte.org) provides the"
-" tools for you to build great content and user experiences in VR. We've "
-"compiled some advanced JavaScript tips you can use while scripting for "
-"Overte."
+"Overte's robust `JavaScript API <https://apidocs.overte.org>`_ provides "
+"the tools for you to build great content and experiences in VR and on "
+"Desktop. We've compiled some advanced JavaScript tips you can use while "
+"scripting for Overte."
 msgstr ""
 
-#: ../../source/script/js-tips.md:5
+#: ../../source/script/js-tips.rst:7
 msgid ""
-"You can use the [Scripting Console in Interface](get-started-with-"
-"scripting.rst#scripting-console) to try out the examples on this page. "
-"The output will be visible in the console itself."
+"You can use the `Scripting Console in Interface <get-started-with-"
+"scripting.html#scripting-console>`_ to try out the examples on this page."
+" The output will be visible in the console itself."
 msgstr ""
 
-#: ../../source/script/js-tips.md:9
-msgid "[Compute 3D Math Operations](#compute-3d-math-operations)"
-msgstr ""
-
-#: ../../source/script/js-tips.md:10
-msgid "[Get Your Avatar's Position](#get-your-avatars-position)"
-msgstr ""
-
-#: ../../source/script/js-tips.md:11
-msgid "[Get Your Avatar's Orientation](#get-your-avatars-orientation)"
-msgstr ""
-
-#: ../../source/script/js-tips.md:12
-msgid ""
-"[Get the Direction Your Avatar is Facing](#get-the-direction-your-avatar-"
-"is-facing)"
-msgstr ""
-
-#: ../../source/script/js-tips.md:13
-msgid ""
-"[Make an Entity Appear Before Your Avatar](#make-an-entity-appear-before-"
-"your-avatar)"
-msgstr ""
-
-#: ../../source/script/js-tips.md:14
-msgid "[Include External JS and JSON Files](#include-external-js-and-json-files)"
-msgstr ""
-
-#: ../../source/script/js-tips.md:15
-msgid "[Equip an Item](#equip-an-item)"
-msgstr ""
-
-#: ../../source/script/js-tips.md:16
-msgid "[Connect a Signal to a Function](#connect-a-signal-to-a-function)"
-msgstr ""
-
-#: ../../source/script/js-tips.md:18
+#: ../../source/script/js-tips.rst:14
 msgid "Compute 3D Math Operations"
 msgstr ""
 
-#: ../../source/script/js-tips.md:20
+#: ../../source/script/js-tips.rst:16
 msgid ""
-"When you script for VR worlds like Overte, you need 3D math operations to"
-" compute the position and orientation of 3D objects and avatars in-world."
-" We cannot simply add two vectors. To script 3D math operations and to "
-"determine position and orientation information of avatars, you can use "
-"the following namespaces in our JavaScript API:"
+"When you script for virtual worlds like Overte, you need 3D math "
+"operations to compute the position and orientation of 3D objects and "
+"avatars in-world. We cannot simply add two vectors. To script 3D math "
+"operations and to determine position and orientation information of "
+"avatars, you can use the following namespaces in our JavaScript API:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:22
+#: ../../source/script/js-tips.rst:18
 msgid ""
-"[Vec3](https://apidocs.overte.org/Vec3.html): The Vec3 API has facilities"
-" for generating and manipulating 3-dimensional vectors."
+"`Vec3 <https://apidocs.overte.org/Vec3.html>`_: The Vec3 API has "
+"facilities for generating and manipulating 3-dimensional vectors."
 msgstr ""
 
-#: ../../source/script/js-tips.md:23
+#: ../../source/script/js-tips.rst:19
 msgid ""
-"[Quat](https://apidocs.overte.org/Quat.html): The Quat API provides "
+"`Quat <https://apidocs.overte.org/Quat.html>`_: The Quat API provides "
 "facilities for generating and manipulating quaternions."
 msgstr ""
 
-#: ../../source/script/js-tips.md:24
+#: ../../source/script/js-tips.rst:20
 msgid ""
-"[MyAvatar](https://apidocs.overte.org/MyAvatar.html): The MyAvatar API "
-"provides facilities for manipulating avatars."
+"`MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_: The MyAvatar API "
+"provides facilities for manipulating your avatar."
 msgstr ""
 
-#: ../../source/script/js-tips.md:26
+#: ../../source/script/js-tips.rst:24
 msgid "Get Your Avatar's Position"
 msgstr ""
 
-#: ../../source/script/js-tips.md:28
+#: ../../source/script/js-tips.rst:26
 msgid ""
 "When creating objects in world, it's often very helpful to know where "
 "your avatar currently is."
 msgstr ""
 
-#: ../../source/script/js-tips.md:30
+#: ../../source/script/js-tips.rst:28
 msgid ""
 "Overte uses a 3D Cartesian coordinate system where the position vector of"
-" an entity or avatar looks like this:"
+" an entity or avatar looks like this::"
 msgstr ""
 
-#: ../../source/script/js-tips.md:36
+#: ../../source/script/js-tips.rst:33
 msgid ""
-"To get your avatar's current position, use the "
-"[MyAvatar](https://apidocs.overte.org/MyAvatar.html) namespace. MyAvatar "
-"contains properties with information related to your avatar. Use the "
-"position property, `MyAvatar.position`, which returns an object."
+"To get your avatar's current position, use the `MyAvatar "
+"<https://apidocs.overte.org/MyAvatar.html>`_ namespace. MyAvatar contains"
+" properties with information related to your avatar. Use the position "
+"property, ``MyAvatar.position``, which returns an object."
 msgstr ""
 
-#: ../../source/script/js-tips.md:38
+#: ../../source/script/js-tips.rst:35
 msgid ""
-"In the following example, we are using the JSON.stringify method to "
-"convert the JavaScript object (returned by `MyAvatar.position`) to a data"
-" string that can be sent over the server."
+"In the following example, we are using the ``JSON.stringify`` method to "
+"convert the JavaScript object (returned by ``MyAvatar.position``) to a "
+"data string that can be sent over the server."
 msgstr ""
 
-#: ../../source/script/js-tips.md:40
-msgid "Open your Scripting Console and find your avatar's position."
+#: ../../source/script/js-tips.rst:37
+msgid "Open your Scripting Console and find your avatar's position"
 msgstr ""
 
-#: ../../source/script/js-tips.md:47
+#: ../../source/script/js-tips.rst:46
 msgid "Get Your Avatar's Orientation"
 msgstr ""
 
-#: ../../source/script/js-tips.md:49
+#: ../../source/script/js-tips.rst:48
 msgid ""
 "If you want an object to appear in front of you, you need to know how "
 "your avatar is currently oriented in-world."
 msgstr ""
 
-#: ../../source/script/js-tips.md:51
+#: ../../source/script/js-tips.rst:50
 msgid ""
-"Rotations are handled are by a number-system called Quaternions. "
-"Quaternions help simplify calculations in three dimensional space. They "
-"add an extra dimension of 'w' and the values are normalized (-1,1)."
+"Rotations are handled by a number-system called Quaternions. Quaternions "
+"help simplify calculations in three dimensional space. They add an extra "
+"dimension of 'w' and the values are normalized (-1,1)."
 msgstr ""
 
-#: ../../source/script/js-tips.md:53
-msgid "Quaternions are represented in the form:"
+#: ../../source/script/js-tips.rst:52
+msgid "Quaternions are represented in the form::"
 msgstr ""
 
-#: ../../source/script/js-tips.md:59
+#: ../../source/script/js-tips.rst:56
 msgid ""
 "Get your avatar's orientation in the Scripting Console by using the "
-"`MyAvatar.orientation` property:"
+"``MyAvatar.orientation`` property:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:66
+#: ../../source/script/js-tips.rst:65
 msgid "Get the Direction Your Avatar is Facing"
 msgstr ""
 
-#: ../../source/script/js-tips.md:68
+#: ../../source/script/js-tips.rst:67
 msgid ""
-"You can use the [Quat](https://apidocs.overte.org/Quat.html) namespace to"
-" get the direction which your avatar is facing. Pass your avatar's "
-"orientation to `Quat.getForward` to get a vector describing which "
+"You can use the `Quat <https://apidocs.overte.org/Quat.html>`_ namespace "
+"to get the direction which your avatar is facing. Pass your avatar's "
+"orientation to ``Quat.getForward`` to get a vector describing which "
 "direction you are facing on the world axis."
 msgstr ""
 
-#: ../../source/script/js-tips.md:77
+#: ../../source/script/js-tips.rst:79
 msgid "Make an Entity Appear Before Your Avatar"
 msgstr ""
 
-#: ../../source/script/js-tips.md:79
+#: ../../source/script/js-tips.rst:81
 msgid ""
 "You can make an entity appear before your avatar and also control the "
 "distance at which it appears."
 msgstr ""
 
-#: ../../source/script/js-tips.md:81
+#: ../../source/script/js-tips.rst:83
 msgid ""
-"Use the [Vec3](https://apidocs.overte.org/Vec3.html) namespace and the "
+"Use the `Vec3 <https://apidocs.overte.org/Vec3.html>`_ namespace and the "
 "direction your avatar is facing to return the position at which you can "
-"make your entity appear. This position is 1m away from your avatar."
+"make your entity appear. This position is 1m away from your avatar:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:87
+#: ../../source/script/js-tips.rst:90
 msgid ""
 "You can also control the distance at which an entity appears rather than "
 "using the default distance of 1m. First, multiply the vector representing"
-" the direction your avatar is facing and the distance."
+" the direction your avatar is facing and the distance:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:93
+#: ../../source/script/js-tips.rst:96
 msgid ""
-"Use `Vec3.sum` to return a new vector representing how far away an entity"
-" will appear from your avatar."
+"Use ``Vec3.sum`` to return a new vector representing how far away an "
+"entity will appear from your avatar:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:99
+#: ../../source/script/js-tips.rst:102
 msgid ""
 "We've included the above operations in a function below for you to save "
 "and run as a script."
 msgstr ""
 
-#: ../../source/script/js-tips.md:123
+#: ../../source/script/js-tips.rst:129
 msgid "Include External JS and JSON Files"
 msgstr ""
 
-#: ../../source/script/js-tips.md:125
+#: ../../source/script/js-tips.rst:131
 msgid ""
 "When writing a script in Overte, you might need to access the methods or "
 "objects in an external JS file or get information from a JSON file. For "
 "example, if you're writing a script to make your avatar wave, you might "
 "need to use some methods that already exist in an external JS file. You "
-"can do this using the `require` method in the Scripts namespace of our "
+"can do this using the ``require`` method in the Scripts namespace of our "
 "API."
 msgstr ""
 
-#: ../../source/script/js-tips.md:127
+#: ../../source/script/js-tips.rst:133
 msgid ""
 "Any script that you try to retrieve using this method must export either "
 "a function or an object. Let's try this using an example."
 msgstr ""
 
-#: ../../source/script/js-tips.md:129
+#: ../../source/script/js-tips.rst:135
 msgid "Create a JS script that you want to access from your main script."
 msgstr ""
 
-#: ../../source/script/js-tips.md:131
+#: ../../source/script/js-tips.rst:137
 msgid "**example.js**"
 msgstr ""
 
-#: ../../source/script/js-tips.md:144
+#: ../../source/script/js-tips.rst:149
 msgid ""
 "In **example.js**, you are exporting two functions that print either "
 "Hello or Goodbye, depending on which function you call, to the console. "
-"Now, let's use `require` in your main script."
+"Now, let's use ``require`` in your main script."
 msgstr ""
 
-#: ../../source/script/js-tips.md:146
-msgid "Create a JS script called **main.js**."
+#: ../../source/script/js-tips.rst:151
+msgid "Create a JS script called **main.js**:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:153
+#: ../../source/script/js-tips.rst:153
+msgid "**main.js**"
+msgstr ""
+
+#: ../../source/script/js-tips.rst:159
 msgid ""
-"When you use the `require` method, you are making any function or object "
-"exported from **example.js** available to **main.js**. This means that "
-"**main.js** now has access to functions that will print either Hello or "
-"Goodbye to the console. In the above example, we are printing Hello to "
-"the console when we run **main.js**."
+"When you use the ``require`` method, you are making any function or "
+"object exported from **example.js** available to **main.js**. This means "
+"that **main.js** now has access to functions that will print either Hello"
+" or Goodbye to the console. In the above example, we are printing Hello "
+"to the console when we run **main.js**."
 msgstr ""
 
-#: ../../source/script/js-tips.md:160
+#: ../../source/script/js-tips.rst:161
+msgid ""
+"We recommend using relative paths in your development so that you can "
+"easily move content without having to update absolute paths."
+msgstr ""
+
+#: ../../source/script/js-tips.rst:165
 msgid "Equip an Item"
 msgstr ""
 
-#: ../../source/script/js-tips.md:161
+#: ../../source/script/js-tips.rst:167
 msgid ""
 "You can equip an item by grabbing and holding an entity without pressing "
 "the grab button or trigger continuously. For example, you could equip a "
@@ -20952,19 +20918,41 @@ msgid ""
 "painting."
 msgstr ""
 
-#: ../../source/script/js-tips.md:163
+#: ../../source/script/js-tips.rst:169
 msgid "You can equip an item using a script:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:169
+#: ../../source/script/js-tips.rst:175
 msgid "To drop the entity from your avatar's hand:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:174
+#: ../../source/script/js-tips.rst:181
+msgid ""
+"In order for an entity to be equipped it must be `equippable "
+"<https://apidocs.overte.org/Entities.html#grab:~:text=equippable>`_ . A "
+"user must be able to *grab* an entity before they can equip it, however a"
+" script does not need the entity to be `grabbable "
+"<https://apidocs.overte.org/Entities.html#grab:~:text=grabbable>`_ before"
+" it can equip it with the ``'Hifi-Hand-Grab'`` message."
+msgstr ""
+
+#: ../../source/script/js-tips.rst:183
+msgid ""
+"Below is an example of a complete Interface script which will first "
+"create an *equippable* entity, and then equip it"
+msgstr ""
+
+#: ../../source/script/js-tips.rst:200
+msgid ""
+"A user can unequip all of their equiped items by pressing **u** on their "
+"keyboard."
+msgstr ""
+
+#: ../../source/script/js-tips.rst:204
 msgid "Connect a Signal to a Function"
 msgstr ""
 
-#: ../../source/script/js-tips.md:176
+#: ../../source/script/js-tips.rst:206
 msgid ""
 "Signals can be connected to functions. This means that every time a "
 "signal is triggered, a function is executed. For example, if your avatar "
@@ -20972,18 +20960,18 @@ msgid ""
 "function to react to this specific event such as:"
 msgstr ""
 
-#: ../../source/script/js-tips.md:189
+#: ../../source/script/js-tips.rst:220
 msgid ""
 "Each signal usually gets passed in arguments, and you can refer to the "
-"[API documentation](https://apidocs.overte.org/MyAvatar.html) to see what"
-" a signal will provide you, such as the enabled property passed into "
+"`API documentation <https://apidocs.overte.org/MyAvatar.html>`_ to see "
+"what a signal will provide you, such as the enabled property passed into "
 "collision changed."
 msgstr ""
 
-#: ../../source/script/js-tips.md:191
+#: ../../source/script/js-tips.rst:222
 msgid ""
 "It's good practice to disconnect from signals, but you can only do that "
-"if you name your function."
+"if you name your function:"
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:5
@@ -20993,9 +20981,9 @@ msgid ""
 "and electronic devices (virtual and physical) to communicate with each "
 "other. MIDI is usually used as a music sequencer. Originally, this format"
 " was created in the 80s as a way for instruments to communicate with each"
-" other, but over the last 30 years, it has evolved into a highly "
-"organized specification that is heavily tested and adopted for a "
-"multitude of purposes."
+" other, but since then, it has evolved into a highly organized "
+"specification that is heavily tested and adopted for a multitude of "
+"purposes."
 msgstr ""
 
 #: ../../source/script/midi-tutorial.rst:7
@@ -21328,54 +21316,46 @@ msgstr ""
 msgid "`MIDI-Examples <../_static/resources/script/MIDI-Example.js>`_"
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:3
+#: ../../source/script/server-entity-scripts.rst:5
 msgid ""
 "You can make content in Overte interactive by attaching scripts to "
 "entities. *Server entity scripts* are entity scripts that run on the "
 "server (or domain) that hosts the entity. These scripts run persistently "
 "in a domain, even if there are no users present. This means that there is"
-" only one instance of the script is running at a time, and it is running "
-"on the server. Any behavior that is controlled by your script will be "
-"seen and heard by everyone in the domain."
+" only one instance of the script running at a time, and it is running on "
+"the server. Any behavior that is controlled by your script will be seen "
+"or heard by everyone in the domain."
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:6
-msgid ""
-"[Attach a Server Entity Script to an Entity](#attach-a-server-entity-"
-"script-to-an-entity)"
-msgstr ""
-
-#: ../../source/script/server-entity-scripts.md:7
-msgid "[Example of a Server Entity Script](#example-of-a-server-entity-script)"
-msgstr ""
-
-#: ../../source/script/server-entity-scripts.md:8
-msgid "[Script API](#script-api)"
-msgstr ""
-
-#: ../../source/script/server-entity-scripts.md:10
+#: ../../source/script/server-entity-scripts.rst:12
 msgid "Attach a Server Entity Script to an Entity"
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:11
+#: ../../source/script/server-entity-scripts.rst:14
 msgid "To attach a server entity script to an entity:"
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:15
+#: ../../source/script/server-entity-scripts.rst:19
 msgid "For 'Server Script', enter the URL to your server entity script."
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:22
+#: ../../source/script/server-entity-scripts.rst:21
+msgid ""
+"An entity can have multiple server entity scripts attached to it, but all"
+" of these must be through a single file URL."
+msgstr ""
+
+#: ../../source/script/server-entity-scripts.rst:30
 msgid "Example of a Server Entity Script"
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:23
+#: ../../source/script/server-entity-scripts.rst:32
 msgid ""
 "The following script modifies the intensity of a light entity, so that it"
 " flickers tea lights."
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:49
+#: ../../source/script/server-entity-scripts.rst:59
 msgid ""
 "This script is a good example of a server entity script because it only "
 "needs one actor to update the intensity of the light. The same script "
@@ -21384,11 +21364,21 @@ msgid ""
 "the light to flicker it."
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:51
+#: ../../source/script/server-entity-scripts.rst:62
+msgid ""
+"In the above example we include ``\"use strict\"`` on the first line of "
+"the server entity script to enable `strict mode "
+"<https://developer.mozilla.org/en-"
+"US/docs/Web/JavaScript/Reference/Strict_mode>`_ . This must be inside the"
+" class prototype function, not the first line of the file as in other "
+"scripts."
+msgstr ""
+
+#: ../../source/script/server-entity-scripts.rst:66
 msgid "Script API"
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:53
+#: ../../source/script/server-entity-scripts.rst:68
 msgid ""
 "The Entity Script Server does not have access to all of the listed "
 "components of the API. APIs for avatars, controllers, recording, "
@@ -21396,16 +21386,32 @@ msgid ""
 "Script Server."
 msgstr ""
 
-#: ../../source/script/server-entity-scripts.md:55
+#: ../../source/script/server-entity-scripts.rst:70
 msgid ""
-"Learn more about what APIs are available to server entity scripts "
-"[here](https://apidocs.overte.org/Entities.html)."
+"Learn more about what APIs are available to server entity scripts `here "
+"<https://apidocs.overte.org/Entities.html>`_."
+msgstr ""
+
+#: ../../source/script/server-entity-scripts.rst:76
+msgid "Entity Script Server Log"
+msgstr ""
+
+#: ../../source/script/server-entity-scripts.rst:78
+msgid ""
+"The Entity Script Server Log allows you to see the output from entity "
+"scripts which are running on the domain server. As these scripts do not "
+"interact with your interface client directly, their messages will not "
+"show up in your :ref:`debug window<debug window>` or interface logs. To "
+"open the Server Entity Script Log window, go to the 'Developer' menu, "
+"then **Scripting > Entity Script Server Log**. If the Developer menu is "
+"not visible, first go to the 'Settings' menu and click 'Developer' Menu."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:3
 msgid ""
 "Overte's robust [JavaScript API](https://apidocs.overte.org) provides the"
-" tools for you to build great content and user experiences in VR."
+" tools for you to build great content and experiences, whether the user "
+"is in VR or on Desktop."
 msgstr ""
 
 #: ../../source/script/write-scripts.md:5
@@ -21431,7 +21437,7 @@ msgstr ""
 msgid "Write to the Debug Window"
 msgstr ""
 
-#: ../../source/script/write-scripts.md:19
+#: ../../source/script/write-scripts.md:20
 msgid ""
 "This is an example of an [interface script](interface-scripts) and cannot"
 " be attached to an entity. It shows you how to print something to the "
@@ -21439,33 +21445,33 @@ msgid ""
 "example, we'll start with a simple \"Hello, World\" script."
 msgstr ""
 
-#: ../../source/script/write-scripts.md:25
-#: ../../source/script/write-scripts.md:45
-#: ../../source/script/write-scripts.md:68
+#: ../../source/script/write-scripts.md:27
+#: ../../source/script/write-scripts.md:49
+#: ../../source/script/write-scripts.md:74
 msgid ""
 "Copy and paste this in a file `testScript.js` and save it on your "
 "computer."
 msgstr ""
 
-#: ../../source/script/write-scripts.md:26
+#: ../../source/script/write-scripts.md:28
 msgid ""
 "When you [load and run this script](get-started-with-scripting.rst#load-"
 "and-run-a-script), it will write the words \"Hello, World\" to the 'Debug"
 " Window' in Overte. ![](_images/hello-world.png)"
 msgstr ""
 
-#: ../../source/script/write-scripts.md:29
+#: ../../source/script/write-scripts.md:31
 msgid "Create an Entity"
 msgstr ""
 
-#: ../../source/script/write-scripts.md:30
+#: ../../source/script/write-scripts.md:33
 msgid ""
 "Instead of [using the Create app to add an entity](../create/entities"
 "/create-entities), you can create one using an [interface script"
 "](interface-scripts)."
 msgstr ""
 
-#: ../../source/script/write-scripts.md:46
+#: ../../source/script/write-scripts.md:50
 msgid ""
 "When you [load and run this script](get-started-with-scripting.rst#load-"
 "and-run-a-script), it will locate your avatar in the domain, create a new"
@@ -21474,17 +21480,17 @@ msgid ""
 "![](_images/add-entity.png)"
 msgstr ""
 
-#: ../../source/script/write-scripts.md:49
+#: ../../source/script/write-scripts.md:53
 msgid "Edit an Entity"
 msgstr ""
 
-#: ../../source/script/write-scripts.md:50
+#: ../../source/script/write-scripts.md:55
 msgid ""
 "To manipulate an entity's properties, you can use `Entities.editEntity`in"
 " an [interface script](interface-scripts)."
 msgstr ""
 
-#: ../../source/script/write-scripts.md:69
+#: ../../source/script/write-scripts.md:75
 msgid ""
 "When you [load and run this script](get-started-with-scripting.rst#load-"
 "and-run-a-script), it will locate your avatar in the domain, create a new"
@@ -21494,14 +21500,22 @@ msgid ""
 "Window'. ![](_images/edit-entity.png)"
 msgstr ""
 
-#: ../../source/script/write-scripts.md:77
+#: ../../source/script/write-scripts.md:86
+msgid "[Get Started with Scripting](get-started-with-scripting)"
+msgstr ""
+
+#: ../../source/script/write-scripts.md:87
 msgid ""
 "[Load and Run a Script](get-started-with-scripting.rst#load-and-"
 "run-a-script)"
 msgstr ""
 
-#: ../../source/script/write-scripts.md:78
+#: ../../source/script/write-scripts.md:88
 msgid "[Interface Scripts](interface-scripts)"
+msgstr ""
+
+#: ../../source/script/write-scripts.md:89
+msgid "[API Reference](https://apidocs.overte.org)"
 msgstr ""
 
 #: ../../source/security.rst:7 ../../source/security/crash-reporting.rst:3
@@ -31210,5 +31224,615 @@ msgstr ""
 #~ msgstr ""
 
 #~ msgid "*Last Updated on 2026-02-13*"
+#~ msgstr ""
+
+#~ msgid "**On This Page**"
+#~ msgstr ""
+
+#~ msgid "[Add an AC Script](#add-an-ac-script)"
+#~ msgstr ""
+
+#~ msgid "[Example of an AC Script](#example-of-an-ac-script)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open your 'Domain Administration Panel'. "
+#~ "If you are on a local sandbox, "
+#~ "open it by clicking on the Overte"
+#~ " icon in the taskbar notifications "
+#~ "and 'click Settings'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the Persistent Scripts section, click"
+#~ " **+** and paste the URL to "
+#~ "your script under 'Script URL'.  "
+#~ "![](_images/ac-script.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The following script counts the number"
+#~ " of entities found in a domain "
+#~ "using Overte's "
+#~ "[EntityViewer](https://apidocs.overte.org/EntityViewer.html)."
+#~ msgstr ""
+
+#~ msgid "[Configure Your Domain Settings](../host/configure-settings)"
+#~ msgstr ""
+
+#~ msgid "[Write Your Own Scripts](write-scripts)"
+#~ msgstr ""
+
+#~ msgid "[Add an Avatar Script](#add-an-avatar-script)"
+#~ msgstr ""
+
+#~ msgid "[Example of an Avatar Script](#example-of-an-avatar-script)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are two different ways you "
+#~ "can add an avatar script to your"
+#~ " FST file: either by using our "
+#~ "Package Model tool or by manually "
+#~ "adding the script."
+#~ msgstr ""
+
+#~ msgid "To add an avatar script using the Package Model tools:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Create a folder called `scripts` in "
+#~ "the same location as your FBX, "
+#~ "GLB, or glTF file."
+#~ msgstr ""
+
+#~ msgid "Copy your avatar script into this new folder."
+#~ msgstr ""
+
+#~ msgid "In Interface, go to **Edit > Package Model as .fst**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For 'Script Directory', enter the path"
+#~ " to the `scripts` folder you created"
+#~ " above."
+#~ msgstr ""
+
+#~ msgid "To add an avatar script manually:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add a line telling the avatar "
+#~ "where to find the script file "
+#~ "using the syntax `script = [SCRIPT "
+#~ "URL]`.![](_images/add-script.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can add multiple scripts to "
+#~ "your avatar by adding multiple `script"
+#~ " = url` lines."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example script uses the "
+#~ "[MyAvatar](https://apidocs.overte.org/MyAvatar.html) namespace"
+#~ " to determine if your avatar's hand"
+#~ " moves. Upon detecting movement, the "
+#~ "script makes your avatar launch balls."
+#~ " It also uses some other namespaces"
+#~ " such as "
+#~ "[Entities](https://apidocs.overte.org/Entities.html) (to "
+#~ "create the ball you will launch) "
+#~ "and [Vec3](https://apidocs.overte.org/Vec3.html) (to "
+#~ "determine the right positions and "
+#~ "distances). Add it to your avatar "
+#~ "to see how it works."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There can be (and typically are) "
+#~ "multiple entities in a domain, and "
+#~ "each one can have a different "
+#~ "client entity script associated with it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Attach a Client Entity Script to "
+#~ "an Entity](#attach-a-client-entity-script-"
+#~ "to-an-entity)"
+#~ msgstr ""
+
+#~ msgid "[Example of a Client Entity Script](#example-of-a-client-entity-script)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the **Create** app, go to the"
+#~ " 'Properties' tab and scroll down to"
+#~ " the 'Behavior' section."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This example is written as a "
+#~ "JavaScript class prototype function, and "
+#~ "it uses the mouse event "
+#~ "[clickDownOnEntity()](https://apidocs.overte.org/Entities.html#.sendClickDownOnEntity)."
+#~ " When the user clicks on an "
+#~ "entity, `clickDownOnEntity()` triggers the "
+#~ "function associated with that click "
+#~ "event. In this case, it changes "
+#~ "the entity's color back and forth "
+#~ "between yellow and magenta."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Many of the scripts in Overte run"
+#~ " behind the scenes, so that you "
+#~ "don't even know they're running. "
+#~ "However, if you want to create "
+#~ "some advanced behavior, you may need "
+#~ "to :doc:`write your own scripts "
+#~ "<write-scripts>` to make sure everything"
+#~ " works correctly."
+#~ msgstr ""
+
+#~ msgid "Overte scripting runs on a JavaScript engine that is provided with Qt."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Lets you manipulate the entities around"
+#~ " you, as long as you have "
+#~ "permissions to do so. This means "
+#~ "you can add, remove, and edit "
+#~ "entities. Everyone has access to ``get``"
+#~ " properties of an entity, and can "
+#~ "be used to find Entities in range,"
+#~ " direction, collision, or raytrace."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Lets you get information on an "
+#~ "`Avatar <https://apidocs.overte.org/Avatar.html>`_, or "
+#~ "manipulate your own client-only "
+#~ "`MyAvatar <https://apidocs.overte.org/MyAvatar.html>`_. "
+#~ "The information here will be always "
+#~ "the avatar information of the client "
+#~ "running the script. AvatarList and "
+#~ "AvatarManager are basically the same."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Lets you to connect callbacks from "
+#~ "your client to script, such as "
+#~ "functionality that is dependent on time"
+#~ " (Script.update, Script.setTime, Script.setInterval "
+#~ "etc), connect paths relatively to Assets"
+#~ " (Script.relativePath), refer to other "
+#~ "scripts (Script.include), or create events "
+#~ "which occur when the script is "
+#~ "turned off (Script.scriptEnding)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "There are `many other APIs available "
+#~ "<https://apidocs.overte.org>`_, and we encourage "
+#~ "you to make sure use of them "
+#~ "as you become more comfortable scripting"
+#~ " in Overte."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Client entity scripts* are scripts "
+#~ "attached to entities that run locally"
+#~ " in response to a user in a "
+#~ "domain. With these scripts, you can "
+#~ "customize what happens when a user "
+#~ "encounters an entity."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "*Server entity scripts* are scripts "
+#~ "attached to entities that do not "
+#~ "require a user to trigger. These "
+#~ "scripts control entities so that their"
+#~ " behavior is seen and heard by "
+#~ "everyone in the domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Running Scripts window can be "
+#~ "used to load, run and stop scripts"
+#~ " from a URL or from a disk "
+#~ "drive. Overte also provides a number "
+#~ "of sample scripts for you to try"
+#~ " out."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Loading (or running) a script lets "
+#~ "you test the functionality and see "
+#~ "how it behaves. If you want to "
+#~ "view the actual code, you will "
+#~ "need to open the file in the "
+#~ "text editor of your choice. In the"
+#~ " 'Running Scripts' window, click the "
+#~ "'Reveal Scripts' folder and browse to"
+#~ " the JavaScript file that you want"
+#~ " to view."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "For scripts hosted in the cloud, "
+#~ "click 'From URL'. Enter the URL of"
+#~ " your script file and click 'OK'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To stop all running scripts, click "
+#~ "the 'Stop All' button at the top"
+#~ " of the 'Running Scripts' window."
+#~ msgstr ""
+
+#~ msgid "Add a Script to the Default Scripts"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can add a script to the "
+#~ "default scripts to run every time "
+#~ "you start Interface."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Interface, pull up your Tablet "
+#~ "or HUD and go to **Menu > "
+#~ "Edit > Running Scripts**."
+#~ msgstr ""
+
+#~ msgid "Click 'Reveal Scripts Folder' at the bottom."
+#~ msgstr ""
+
+#~ msgid "In the file explorer window, open the 'defaultScripts.js' file."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Add your script to this file to"
+#~ " make it run with other default "
+#~ "scripts. Ensure the folder path to "
+#~ "your script is correct."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The 'defaultScripts.js' file is updated "
+#~ "every time you update Interface to "
+#~ "the latest release version. This means"
+#~ " that any changes you make to "
+#~ "the file will be overwritten. You "
+#~ "can avoid this by writing and "
+#~ "running a 'loader' script to load "
+#~ "scripts on start up."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Debug Window shows the output "
+#~ "generated by your running scripts. This"
+#~ " lets you watch the script(s) in "
+#~ "action and make sure that it is"
+#~ " running as you intended. If the "
+#~ "script fails, the debugger can help "
+#~ "you identify what went wrong, and "
+#~ "point you to specific lines of "
+#~ "code where the error occurred. To "
+#~ "open the Debug Window, go to the"
+#~ " 'Developer' menu, then **Scripting > "
+#~ "Script Log** (HMD Friendly). If the "
+#~ "Developer menu is not visible, first "
+#~ "go to the 'Settings' menu and "
+#~ "click 'Developer' Menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "With interface scripts, you can do "
+#~ "things like add new menus to the"
+#~ " Interface, add plug-ins, or add "
+#~ "3D overlays that you have control "
+#~ "over."
+#~ msgstr ""
+
+#~ msgid "[Load an Interface Script](#load-an-interface-script)"
+#~ msgstr ""
+
+#~ msgid "[Example of an Interface Script](#example-of-an-interface-script)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Interface, go to **Edit > "
+#~ "Running Scripts** or press <kbd "
+#~ "class=\"keyboard\">Ctrl</kbd> + <kbd "
+#~ "class=\"keyboard\">J</kbd> on your keyboard."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The following script automatically enters "
+#~ "a first person perspective when you "
+#~ "enter VR mode with a HMD."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte's robust [JavaScript "
+#~ "API](https://apidocs.overte.org) provides the tools"
+#~ " for you to build great content "
+#~ "and user experiences in VR. We've "
+#~ "compiled some advanced JavaScript tips "
+#~ "you can use while scripting for "
+#~ "Overte."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the [Scripting Console "
+#~ "in Interface](get-started-with-scripting.rst"
+#~ "#scripting-console) to try out the "
+#~ "examples on this page. The output "
+#~ "will be visible in the console "
+#~ "itself."
+#~ msgstr ""
+
+#~ msgid "[Compute 3D Math Operations](#compute-3d-math-operations)"
+#~ msgstr ""
+
+#~ msgid "[Get Your Avatar's Position](#get-your-avatars-position)"
+#~ msgstr ""
+
+#~ msgid "[Get Your Avatar's Orientation](#get-your-avatars-orientation)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Get the Direction Your Avatar is "
+#~ "Facing](#get-the-direction-your-avatar-"
+#~ "is-facing)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Make an Entity Appear Before Your "
+#~ "Avatar](#make-an-entity-appear-before-"
+#~ "your-avatar)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Include External JS and JSON Files"
+#~ "](#include-external-js-and-json-files)"
+#~ msgstr ""
+
+#~ msgid "[Equip an Item](#equip-an-item)"
+#~ msgstr ""
+
+#~ msgid "[Connect a Signal to a Function](#connect-a-signal-to-a-function)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you script for VR worlds like"
+#~ " Overte, you need 3D math operations"
+#~ " to compute the position and "
+#~ "orientation of 3D objects and avatars"
+#~ " in-world. We cannot simply add "
+#~ "two vectors. To script 3D math "
+#~ "operations and to determine position and"
+#~ " orientation information of avatars, you"
+#~ " can use the following namespaces in"
+#~ " our JavaScript API:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Vec3](https://apidocs.overte.org/Vec3.html): The Vec3 "
+#~ "API has facilities for generating and"
+#~ " manipulating 3-dimensional vectors."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Quat](https://apidocs.overte.org/Quat.html): The Quat "
+#~ "API provides facilities for generating "
+#~ "and manipulating quaternions."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[MyAvatar](https://apidocs.overte.org/MyAvatar.html): The "
+#~ "MyAvatar API provides facilities for "
+#~ "manipulating avatars."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte uses a 3D Cartesian coordinate"
+#~ " system where the position vector of"
+#~ " an entity or avatar looks like "
+#~ "this:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get your avatar's current position,"
+#~ " use the "
+#~ "[MyAvatar](https://apidocs.overte.org/MyAvatar.html) namespace."
+#~ " MyAvatar contains properties with "
+#~ "information related to your avatar. Use"
+#~ " the position property, `MyAvatar.position`, "
+#~ "which returns an object."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the following example, we are "
+#~ "using the JSON.stringify method to "
+#~ "convert the JavaScript object (returned "
+#~ "by `MyAvatar.position`) to a data string"
+#~ " that can be sent over the "
+#~ "server."
+#~ msgstr ""
+
+#~ msgid "Open your Scripting Console and find your avatar's position."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Rotations are handled are by a "
+#~ "number-system called Quaternions. Quaternions "
+#~ "help simplify calculations in three "
+#~ "dimensional space. They add an extra "
+#~ "dimension of 'w' and the values "
+#~ "are normalized (-1,1)."
+#~ msgstr ""
+
+#~ msgid "Quaternions are represented in the form:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Get your avatar's orientation in the "
+#~ "Scripting Console by using the "
+#~ "`MyAvatar.orientation` property:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can use the "
+#~ "[Quat](https://apidocs.overte.org/Quat.html) namespace to"
+#~ " get the direction which your avatar"
+#~ " is facing. Pass your avatar's "
+#~ "orientation to `Quat.getForward` to get "
+#~ "a vector describing which direction you"
+#~ " are facing on the world axis."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the [Vec3](https://apidocs.overte.org/Vec3.html) "
+#~ "namespace and the direction your avatar"
+#~ " is facing to return the position "
+#~ "at which you can make your entity"
+#~ " appear. This position is 1m away "
+#~ "from your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can also control the distance "
+#~ "at which an entity appears rather "
+#~ "than using the default distance of "
+#~ "1m. First, multiply the vector "
+#~ "representing the direction your avatar "
+#~ "is facing and the distance."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use `Vec3.sum` to return a new "
+#~ "vector representing how far away an "
+#~ "entity will appear from your avatar."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When writing a script in Overte, "
+#~ "you might need to access the "
+#~ "methods or objects in an external "
+#~ "JS file or get information from a"
+#~ " JSON file. For example, if you're"
+#~ " writing a script to make your "
+#~ "avatar wave, you might need to use"
+#~ " some methods that already exist in"
+#~ " an external JS file. You can "
+#~ "do this using the `require` method "
+#~ "in the Scripts namespace of our "
+#~ "API."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In **example.js**, you are exporting two"
+#~ " functions that print either Hello or"
+#~ " Goodbye, depending on which function "
+#~ "you call, to the console. Now, "
+#~ "let's use `require` in your main "
+#~ "script."
+#~ msgstr ""
+
+#~ msgid "Create a JS script called **main.js**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you use the `require` method, "
+#~ "you are making any function or "
+#~ "object exported from **example.js** available"
+#~ " to **main.js**. This means that "
+#~ "**main.js** now has access to functions"
+#~ " that will print either Hello or "
+#~ "Goodbye to the console. In the "
+#~ "above example, we are printing Hello "
+#~ "to the console when we run "
+#~ "**main.js**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Each signal usually gets passed in "
+#~ "arguments, and you can refer to "
+#~ "the [API "
+#~ "documentation](https://apidocs.overte.org/MyAvatar.html) to "
+#~ "see what a signal will provide "
+#~ "you, such as the enabled property "
+#~ "passed into collision changed."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "It's good practice to disconnect from"
+#~ " signals, but you can only do "
+#~ "that if you name your function."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "MIDI (Musical Instrument Digital Interface)"
+#~ " is a protocol (with electrical "
+#~ "connectors and a digital interface) that"
+#~ " allows digital tools and electronic "
+#~ "devices (virtual and physical) to "
+#~ "communicate with each other. MIDI is "
+#~ "usually used as a music sequencer. "
+#~ "Originally, this format was created in"
+#~ " the 80s as a way for "
+#~ "instruments to communicate with each "
+#~ "other, but over the last 30 years,"
+#~ " it has evolved into a highly "
+#~ "organized specification that is heavily "
+#~ "tested and adopted for a multitude "
+#~ "of purposes."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can make content in Overte "
+#~ "interactive by attaching scripts to "
+#~ "entities. *Server entity scripts* are "
+#~ "entity scripts that run on the "
+#~ "server (or domain) that hosts the "
+#~ "entity. These scripts run persistently "
+#~ "in a domain, even if there are "
+#~ "no users present. This means that "
+#~ "there is only one instance of the"
+#~ " script is running at a time, "
+#~ "and it is running on the server."
+#~ " Any behavior that is controlled by"
+#~ " your script will be seen and "
+#~ "heard by everyone in the domain."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Attach a Server Entity Script to "
+#~ "an Entity](#attach-a-server-entity-script-"
+#~ "to-an-entity)"
+#~ msgstr ""
+
+#~ msgid "[Example of a Server Entity Script](#example-of-a-server-entity-script)"
+#~ msgstr ""
+
+#~ msgid "[Script API](#script-api)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Learn more about what APIs are "
+#~ "available to server entity scripts "
+#~ "[here](https://apidocs.overte.org/Entities.html)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte's robust [JavaScript "
+#~ "API](https://apidocs.overte.org) provides the tools"
+#~ " for you to build great content "
+#~ "and user experiences in VR."
 #~ msgstr ""
 
