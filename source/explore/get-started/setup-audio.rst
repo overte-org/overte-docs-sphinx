@@ -47,7 +47,7 @@ You can use bluetooth headsets, such as AirPods with Overte. However, note that 
 Unfortunately, bluetooth audio devices do not currently support stereo input. Therefore, you have two options:
 
 * Use the bluetooth headset as an output device only, and use another microphone for input. This allows you to take advantage of the stereo audio.
-* Use the bluetooth headset's built-in microphone. In this case, other users will only experience mono sound coming from you, rather than the normal stereo audio.
+* Use the bluetooth headset's built-in microphone. In this case, you will only experience mono sound, rather than Vircadia's stereo audio.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Acoustic Echo Cancellation
