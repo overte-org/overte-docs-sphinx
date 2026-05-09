@@ -44,10 +44,10 @@ Using Bluetooth Headsets
 
 You can use bluetooth headsets, such as AirPods with Overte. However, note that there are limitations to using them, and they may not work in all environments. If using WiFi, ensure you’re using a 5Ghz WiFi connection. On a 2.4Ghz connection, you may experience audio breakup and occasional disconnects.
 
-Unfortunately, bluetooth audio devices do not currently support stereo input. Therefore, you have two options:
+Unfortunately, bluetooth audio devices typically do not support stereo audio at the same time as microphone input. Therefore, you have two options:
 
-* Use the bluetooth headset as an output device only, and use another microphone for input. This allows you to take advantage of the stereo audio.
-* Use the bluetooth headset's built-in microphone. In this case, you will only experience mono sound, rather than Vircadia's stereo audio.
+* Use the bluetooth headset as an output device only, and use another microphone for input. This allows you to take advantage of the stereo audio at a high quality.
+* Use the bluetooth headset's built-in microphone. In this case, you may only experience mono sound at a reduced quality, rather than Overte's stereo audio.
 
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 Acoustic Echo Cancellation
