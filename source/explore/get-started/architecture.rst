@@ -1,12 +1,8 @@
-.. warning::
-    This document is slightly outdated.
-    FIXME: says that you can use an Android phone
-
 ################################
 Understand the Architecture
 ################################
 
-Overte's architecture shows how different parts of the system work together to give you the best VR experience.
+This page shows how different parts of the system work together to give you the best VR experience.
 
 .. contents:: On This Page
     :depth: 2
@@ -17,9 +13,9 @@ Architecture Overview
 
 Overte's architecture consists of the following components that work together and send data to each other for your VR experience.
 
-+ The `Overte Interface`_ runs your personal experience in the metaverse. With it, you can :doc:`visit VR worlds <../travel>`, :doc:`meet people <../socialize>`, `attend live events <../socialize.html#attend-live-events>`_ and more.
++ The `Overte Interface`_ runs your personal VR experience. With it, you can :doc:`visit places <../travel>`, :doc:`meet people <../socialize>`, `attend live events <../socialize.html#attend-live-events>`_ and more.
 + The `Domain Server`_ is the server that hosts a domain. The domain server hosts the content in the domain, and manages the :doc:`domain-wide settings <../../host/configure-settings>`, such as audio spatialization, user permissions, and running scripts.
-+ The `Global Services`_ connect all of the servers together. An instance of these services are maintained by Overte so that you can sign in and move seamlessly between places.
++ The `Global Services`_ connect all of the servers together. An instance of these services is maintained by Overte so that you can sign in and move seamlessly between places.
 
 .. image:: _images/overview.png
 
@@ -29,7 +25,7 @@ Overte Interface
 
 The Overte Interface (or simply 'Interface') is the main user interface for Overte. It is used to explore the metaverse and engage with people from around the world. When you enter a domain, your Interface connects with the `domain server`_ that is hosting the virtual world, alongside any `global services`_.
 
-You can download and use the Interface on your computer or your Android phone using the `Client-Only Installer <install.html#client-only-installer>`_.
+You can download and use the Interface on your computer. See `Install Overte <install.html>`_.
 
 .. image:: _images/interface.png
 
@@ -47,7 +43,7 @@ Domain Server
 
 A domain is a spatial simulation in Overte that you can visit. It is computed by a stack of programs on one or more computers. You need a domain's :doc:`place name <../../host/configure-settings/place-setting>` to visit a domain, just like you would need a web address to visit a website.
 
-You can :doc:`set up your own domain <../../host/server-setup>` and host it on your local machine or on a cloud server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack.
+You can :doc:`set up your own domain <../../host/server-setup>` and host it on your local machine or on any internet connected server to make it available to other users. Your domain's server stack is a set of components that simulate and manage different aspects of the domain such as audio, entities, and avatars. Everything that you see, hear, and do in your domain is managed by the server stack.
 
 .. image:: _images/domain-server.png
 
@@ -91,7 +87,7 @@ Assignment clients control and manage various aspects of a domain. They also com
 |                   | which could be Interfaces or Agents.                                                                |
 +-------------------+-----------------------------------------------------------------------------------------------------+
 
-.. note:: Sandbox manages all these components on the domain server, five dedicated assignment clients, and as many agent assignments clients as needed. However, it is possible to spread the assignment clients over multiple computers, and even to divide each function among a hierarchy of assignment components, which may be on different computers. For instance, multiple audio mixers could be used to mix the audio in different geographic regions of the domain.
+.. note:: Usually the domain server manages all these components for you: five dedicated assignment clients, and as many agent assignments clients as needed. However, it is possible to spread the assignment clients over multiple computers, and even to divide each function among a hierarchy of assignment components, which may be on different computers. For instance, multiple audio mixers could be used to mix the audio in different geographic regions of the domain.
 
 --------------------
 Global Services

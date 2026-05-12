@@ -1,6 +1,6 @@
 # Interact with Your Environment
 
-In Overte, your experiences are shaped the world around you. When you enter a domain, all of the space around you is built with [entities](../create/entities), or the building blocks of your environments. The walls of your room, the tree in the distance, or the animated butterfly that flew past are all entities.
+In Overte, your experiences are shaped by the world around you. When you enter a domain, all of the space around you is built with [entities](../create/entities), or the building blocks of your environments. The walls of your room, the tree in the distance, or the animated butterfly that flew past are all entities.
 
 Just like in the real world, you can interact with your environment by grabbing items or colliding with objects.
 
@@ -31,7 +31,7 @@ You can collide (or run into) objects and other avatars in Overte. Likewise, obj
 
 Without this collision property set, objects will move straight through other entities and avatars. As you interact with your environment, take note on which objects have collisions enabled based on whether or not you can walk through them.
 
-When creating your own entities, you can [set the Collision property](../create/entities/entity-behavior.rst#entity-collision-behavior) to turn on or off collisions.
+When creating your own entities, you can [set the Collision property](../create/entities/entity-behavior.rst#set-entity-behavior-on-collision) to turn on or off collisions.
 
 ## Triggered Entities
 

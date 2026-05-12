@@ -1,3 +1,5 @@
+.. WARNING:: This page is outdated. Many of the social features listed on this page are either not currently working or have been temporarily removed. We hope to bring them back soon.
+
 #####################
 Socialize with Others
 #####################
@@ -135,7 +137,7 @@ This clean, reliable, and well-written chat script was created by alpha user ctr
 
 To run the script:
 
-1. In Interface, go to **Edit > Open and Run Script from URL**.
+1. In Overte Interface, go to **Edit > Open and Run Script from URL**.
 2. Paste this `URL <http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js>`__.
 
 The script will start running and display a text chat window pop-up. You can use this window to chat with other users in the same domain who are running the same script. If text chat is important to you, you can add this to your default scripts so it's always there.
