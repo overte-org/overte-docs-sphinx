@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-05-08 17:36+0000\n"
+"POT-Creation-Date: 2026-05-12 11:57+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: sq\n"
@@ -73,15 +73,15 @@ msgstr ""
 #: ../../source/create/entities/web-entity-media.rst:12
 #: ../../source/create/entities/zone-entity.rst:9
 #: ../../source/create/tools.rst:12
-#: ../../source/explore/get-started/adjust-settings.rst:12
-#: ../../source/explore/get-started/android.rst:11
-#: ../../source/explore/get-started/architecture.rst:12
+#: ../../source/explore/get-started/adjust-settings.rst:8
+#: ../../source/explore/get-started/architecture.rst:8
 #: ../../source/explore/get-started/desktop.rst:10
-#: ../../source/explore/get-started/install.rst:11
-#: ../../source/explore/get-started/setup-audio.rst:15
-#: ../../source/explore/get-started/vr-controls.rst:23
-#: ../../source/explore/personalize/add-wearables.rst:13
-#: ../../source/explore/socialize.rst:8 ../../source/faq.rst:9
+#: ../../source/explore/get-started/install.rst:12
+#: ../../source/explore/get-started/setup-audio.rst:11
+#: ../../source/explore/get-started/vr-controls.rst:10
+#: ../../source/explore/personalize/add-wearables.rst:9
+#: ../../source/explore/personalize/install-apps.rst:11
+#: ../../source/explore/socialize.rst:10 ../../source/faq.rst:9
 #: ../../source/host/add-content/bake-content.rst:12
 #: ../../source/host/add-content/create-content.rst:13
 #: ../../source/host/add-content/export-content.rst:20
@@ -779,13 +779,13 @@ msgstr ""
 #: ../../source/create/entities/zone-entity.rst:124
 #: ../../source/create/entities/zone-entity.rst:157
 #: ../../source/create/environments.rst:15
-#: ../../source/explore/get-started/adjust-settings.rst:49
-#: ../../source/explore/get-started/adjust-settings.rst:93
-#: ../../source/explore/get-started/adjust-settings.rst:122
-#: ../../source/explore/get-started/architecture.rst:69
-#: ../../source/explore/get-started/setup-audio.rst:135
-#: ../../source/explore/get-started/vr-controls.rst:64
-#: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
+#: ../../source/explore/get-started/adjust-settings.rst:44
+#: ../../source/explore/get-started/adjust-settings.rst:84
+#: ../../source/explore/get-started/adjust-settings.rst:147
+#: ../../source/explore/get-started/architecture.rst:65
+#: ../../source/explore/get-started/setup-audio.rst:130
+#: ../../source/explore/get-started/vr-controls.rst:51
+#: ../../source/explore/socialize.rst:33 ../../source/explore/socialize.rst:74
 #: ../../source/host/add-content/bake-content.rst:23
 #: ../../source/host/add-content/bake-content.rst:64
 #: ../../source/host/add-content/create-content.rst:36
@@ -905,16 +905,15 @@ msgstr ""
 #: ../../source/create/entities/zone-tutorial.md:155
 #: ../../source/create/environments.rst:30 ../../source/create/tools.rst:71
 #: ../../source/create/wearables.md:43 ../../source/explore/gallery.rst:58
-#: ../../source/explore/get-started/adjust-settings.rst:129
-#: ../../source/explore/get-started/android.rst:82
-#: ../../source/explore/get-started/architecture.rst:105
-#: ../../source/explore/get-started/install.rst:160
-#: ../../source/explore/get-started/vr-controls.rst:224
+#: ../../source/explore/get-started/adjust-settings.rst:154
+#: ../../source/explore/get-started/architecture.rst:101
+#: ../../source/explore/get-started/install.rst:151
+#: ../../source/explore/get-started/vr-controls.rst:223
 #: ../../source/explore/interact.md:42
-#: ../../source/explore/personalize/add-wearables.rst:35
-#: ../../source/explore/personalize/change-avatar.md:31
-#: ../../source/explore/personalize/install-apps.md:101
-#: ../../source/explore/travel.md:35
+#: ../../source/explore/personalize/add-wearables.rst:66
+#: ../../source/explore/personalize/change-avatar.md:26
+#: ../../source/explore/personalize/install-apps.rst:94
+#: ../../source/explore/travel.md:76
 #: ../../source/script/assignment-client-scripts.rst:63
 #: ../../source/script/avatar-scripts.rst:115
 #: ../../source/script/client-entity-scripts.rst:59
@@ -2072,8 +2071,7 @@ msgstr ""
 #: ../../source/create/entities/primitive-painting-set-tutorial.md:5
 #: ../../source/create/entities/zone-tutorial.md:12
 #: ../../source/explore/interact.md:7
-#: ../../source/explore/personalize/change-avatar.md:10
-#: ../../source/explore/personalize/install-apps.md:12
+#: ../../source/explore/personalize/change-avatar.md:5
 #: ../../source/explore/travel.md:5 ../../source/script/write-scripts.md:12
 msgid "**On This Page:**"
 msgstr ""
@@ -4272,7 +4270,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/create/avatars/find-avatars.rst:131
-#: ../../source/explore/get-started/vr-controls.rst:190
+#: ../../source/explore/get-started/vr-controls.rst:189
 msgid "Issue"
 msgstr ""
 
@@ -6351,11 +6349,11 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:75
 #: ../../source/create/entities/entity-appearance.rst:119
 #: ../../source/create/entities/entity-appearance.rst:144
-#: ../../source/explore/get-started/adjust-settings.rst:49
-#: ../../source/explore/get-started/adjust-settings.rst:93
-#: ../../source/explore/get-started/adjust-settings.rst:122
-#: ../../source/explore/get-started/setup-audio.rst:135
-#: ../../source/explore/get-started/vr-controls.rst:64
+#: ../../source/explore/get-started/adjust-settings.rst:44
+#: ../../source/explore/get-started/adjust-settings.rst:84
+#: ../../source/explore/get-started/adjust-settings.rst:147
+#: ../../source/explore/get-started/setup-audio.rst:130
+#: ../../source/explore/get-started/vr-controls.rst:51
 msgid "Setting"
 msgstr ""
 
@@ -6472,6 +6470,7 @@ msgstr ""
 #: ../../source/create/entities/entity-appearance.rst:50
 #: ../../source/create/entities/zone-entity.rst:42
 #: ../../source/create/entities/zone-entity.rst:151
+#: ../../source/explore/get-started/adjust-settings.rst:93
 msgid "Bloom"
 msgstr ""
 
@@ -8638,6 +8637,7 @@ msgstr ""
 
 #: ../../source/create/entities/zone-entity.rst:40
 #: ../../source/create/entities/zone-entity.rst:118
+#: ../../source/explore/get-started/adjust-settings.rst:105
 msgid "Haze"
 msgstr ""
 
@@ -10134,12 +10134,12 @@ msgid "Interface"
 msgstr ""
 
 #: ../../source/developer.rst:11 ../../source/developer/domain-server.rst:3
-#: ../../source/explore/get-started/architecture.rst:46
+#: ../../source/explore/get-started/architecture.rst:42
 msgid "Domain Server"
 msgstr ""
 
 #: ../../source/developer.rst:11 ../../source/developer/assignment-client.rst:3
-#: ../../source/explore/get-started/architecture.rst:69
+#: ../../source/explore/get-started/architecture.rst:65
 msgid "Assignment Client"
 msgstr ""
 
@@ -11348,7 +11348,7 @@ msgstr ""
 
 #: ../../source/developer/build/BUILD_ANDROID.md:135
 #: ../../source/developer/build/BUILD_WIN.md:131
-#: ../../source/explore/get-started/vr-controls.rst:187 ../../source/faq.rst:51
+#: ../../source/explore/get-started/vr-controls.rst:186 ../../source/faq.rst:51
 msgid "Troubleshooting"
 msgstr ""
 
@@ -12588,7 +12588,7 @@ msgstr ""
 msgid "Personalize Your Experience"
 msgstr ""
 
-#: ../../source/explore.rst:11 ../../source/explore/socialize.rst:3
+#: ../../source/explore.rst:11 ../../source/explore/socialize.rst:5
 msgid "Socialize with Others"
 msgstr ""
 
@@ -12606,11 +12606,11 @@ msgstr ""
 
 #: ../../source/explore.rst:5
 msgid ""
-"Overte is a virtual worlds software where you can connect and create with"
-" others. We invite you to explore the worlds created in Overte and "
-"interact with other users. You can visit friends' virtual worlds, meet "
-"people, attend events, and learn about creation in virtuality. It's an "
-"immersive and interactive experience with realistic visuals and audio."
+"Overte is a virtual worlds software which connects you to places created "
+"by other people. Each world in Overte is its own Domain, and there can be"
+" many Places to visit in each one. You can meet people, attend events, "
+"visit friends' places and even create at their place or within your own "
+"domain."
 msgstr ""
 
 #: ../../source/explore.rst:7
@@ -12618,9 +12618,9 @@ msgid ""
 "If it's your first time using Overte, you'll start your journey in a "
 "local tutorial space by yourself, where you can experiment with the "
 "controls and learn about the Interface. When you are ready, try exploring"
-" other domains using the Places app and socialize with people around the "
-"metaverse. If you've visited Overte before, you will return to the "
-"location where you last visited."
+" other domains using the Places app and socialize with people. If you've "
+"visited Overte before, you will return to the location where you last "
+"visited."
 msgstr ""
 
 #: ../../source/explore.rst:9
@@ -12693,22 +12693,22 @@ msgstr ""
 
 #: ../../source/explore/get-started.rst:9
 #: ../../source/explore/get-started/install.rst:3
-#: ../../source/explore/get-started/install.rst:65
+#: ../../source/explore/get-started/install.rst:72
 msgid "Install Overte"
 msgstr ""
 
 #: ../../source/explore/get-started.rst:9
-#: ../../source/explore/get-started/architecture.rst:7
+#: ../../source/explore/get-started/architecture.rst:3
 msgid "Understand the Architecture"
 msgstr ""
 
 #: ../../source/explore/get-started.rst:9
-#: ../../source/explore/get-started/setup-audio.rst:7
+#: ../../source/explore/get-started/setup-audio.rst:3
 msgid "Set Up Your Audio Devices"
 msgstr ""
 
 #: ../../source/explore/get-started.rst:9
-#: ../../source/explore/get-started/vr-controls.rst:7
+#: ../../source/explore/get-started/vr-controls.rst:3
 msgid "Use Your VR Equipment"
 msgstr ""
 
@@ -12718,43 +12718,29 @@ msgid "Explore in Desktop Mode"
 msgstr ""
 
 #: ../../source/explore/get-started.rst:9
-#: ../../source/explore/get-started/adjust-settings.rst:7
+#: ../../source/explore/get-started/adjust-settings.rst:3
 msgid "Adjust Your Settings"
-msgstr ""
-
-#: ../../source/explore/get-started.rst:9
-#: ../../source/explore/get-started/android.rst:3
-msgid "Get Our Android App"
 msgstr ""
 
 #: ../../source/explore/get-started.rst:5
 msgid ""
-"We know that getting started with a new application can be difficult: "
-"installing the software and learning the controls is never any fun. "
-"Hopefully, this section will help you become familiar with our "
-"application, so that you can begin making friends and exploring the "
-"metaverse."
+"Getting started doesn't need to be difficult. This section will help you "
+"become familiar with the application, so you can begin making friends and"
+" exploring."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: some perspective options don't"
-" exist anymore, mentions security picture, says that lower graphics "
-"setting increase performance (not entirely true in our case)"
-msgstr ""
-
-#: ../../source/explore/get-started/adjust-settings.rst:9
+#: ../../source/explore/get-started/adjust-settings.rst:5
 msgid ""
 "You can adjust various settings in Overte so that it runs to your "
 "preferences. Many of these settings are changed using the HUD (in Desktop"
 " mode) or Tablet (in VR mode)."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:16
+#: ../../source/explore/get-started/adjust-settings.rst:12
 msgid "The Tablet and HUD"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:18
+#: ../../source/explore/get-started/adjust-settings.rst:14
 msgid ""
 "In VR, all of your settings are found in your **Tablet**. The Tablet also"
 " gives you easy access to any :doc:`apps that you install <../personalize"
@@ -12762,463 +12748,364 @@ msgid ""
 "controller."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:22
+#: ../../source/explore/get-started/adjust-settings.rst:18
 msgid ""
-"In Desktop Mode, you have the option to use either the Tablet or a "
-"smaller version called the \"Heads-up Display\" or HUD. It contains the "
-"exact same options as the Tablet (settings, apps, etc), but it takes up "
-"less space on your screen. To enable the HUD, first enable the "
+"In Desktop Mode, rather than the tablet you have a smaller version called"
+" the \"Heads-up Display\" or HUD. It contains the exact same options as "
+"the Tablet (settings, apps, etc), but it takes up less space on your "
+"screen. If you would rather, you have the option to use the Tablet "
+"instead, just like in VR. To enable the Tablet, first enable the "
 "**Developer** menu by going to **Settings > Developer Menu**. Then, go to"
-" **Developer > UI > Desktop Tablet Becomes Toolbar**."
+" **Developer > UI > Desktop Tablet Becomes Toolbar** and toggle it off."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:28
+#: ../../source/explore/get-started/adjust-settings.rst:24
 msgid "Enter or Exit VR Mode"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:30
+#: ../../source/explore/get-started/adjust-settings.rst:26
 msgid ""
-"You can enjoy Overte with or with VR equipment such as head mounted "
+"You can enjoy Overte with or without VR equipment such as head mounted "
 "displays (HMD), hand controllers and audio headsets. Our Desktop mode "
 "contains many of Overte's features such as audio, basic movements and "
 "gestures, and the ability to travel to different domains."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:32
+#: ../../source/explore/get-started/adjust-settings.rst:28
 msgid ""
 "Keep in mind, however, that the most immersive and powerful experience is"
 " when you use VR equipment. Only then will you be able to interact with "
 "people in 3D, track body movements, and easily engage with the objects "
 "around you. Once you have set up your VR equipment, you can easily switch"
-" between VR mode and Desktop mode. To switch to VR mode, use one of the "
-"following methods:"
+" between VR mode and Desktop mode."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:34
-msgid "From the HUD, click **Enter VR**."
-msgstr ""
-
-#: ../../source/explore/get-started/adjust-settings.rst:35
-msgid "Click the **Display** menu, then select your VR device."
-msgstr ""
-
-#: ../../source/explore/get-started/adjust-settings.rst:37
+#: ../../source/explore/get-started/adjust-settings.rst:30
 msgid ""
-"To exit from VR mode, remove your headset, click **Exit VR** on the HUD "
-"or press ``ESC`` on your keyboard."
+"In order to use VR you must launch Overte straight into VR first, as "
+"Overte will not load VR plugins unnecessarily for desktop users. Once you"
+" have launched into VR, you will be able to switch between VR and Desktop"
+" mode with ease."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:41
+#: ../../source/explore/get-started/adjust-settings.rst:32
+msgid ""
+"Switch between Desktop and VR mode by simply putting on or taking off "
+"your headset. You can also select the mode from the Display menu at the "
+"top of your screen when in desktop mode, or on your **Tablet** in VR. "
+"Click the **Display** menu, then select your desktop or VR device."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:36
 msgid "Set Your Perspective"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:43
+#: ../../source/explore/get-started/adjust-settings.rst:38
 msgid ""
 "You can choose how you view things around you by changing your "
 "perspective. To change your perspective:"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:45
-msgid "In Desktop mode, go to **View** in the menu on the top left corner."
+#: ../../source/explore/get-started/adjust-settings.rst:40
+msgid ""
+"In Desktop mode, go to **View** in the menu on the top left corner or use"
+" your keyboard :ref:`Camera Controls<camera-controls>`."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:46
+#: ../../source/explore/get-started/adjust-settings.rst:41
 msgid "In VR mode, open your Tablet and go to **Menu > View**."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:51
+#: ../../source/explore/get-started/adjust-settings.rst:46
 msgid "First Person"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:51
+#: ../../source/explore/get-started/adjust-settings.rst:46
 msgid ""
 "Select this setting if you want to change your perspective in Overte to "
 "first person. In this view, you will not see yourself, only the "
 "environment around you."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:54
+#: ../../source/explore/get-started/adjust-settings.rst:49
 msgid "Third Person"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:54
+#: ../../source/explore/get-started/adjust-settings.rst:49
 msgid ""
 "Select this setting to change your perspective to third person. In this "
 "view, you will see yourself, as well as the environment around you."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:57
+#: ../../source/explore/get-started/adjust-settings.rst:52
 msgid "Selfie"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:57
+#: ../../source/explore/get-started/adjust-settings.rst:52
 msgid ""
 "Select this to change your perspective to look at yourself. In this view,"
 " you will see yourself and the space behind you."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:60
-msgid "Independent Mode"
-msgstr ""
-
-#: ../../source/explore/get-started/adjust-settings.rst:60
-msgid ""
-"Select this to change what you see through scripting instead of avatar's "
-"movements."
-msgstr ""
-
-#: ../../source/explore/get-started/adjust-settings.rst:62
-msgid "Entity Mode"
-msgstr ""
-
-#: ../../source/explore/get-started/adjust-settings.rst:62
-msgid ""
-"Select this to set your perspective to a specific entity, allowing you to"
-" move with entity as it moves."
-msgstr ""
-
-#: ../../source/explore/get-started/adjust-settings.rst:68
+#: ../../source/explore/get-started/adjust-settings.rst:59
 msgid "Other Miscellaneous Settings"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:70
+#: ../../source/explore/get-started/adjust-settings.rst:61
 msgid ""
 "Here are some other settings you may like to change to optimize your "
 "experience."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:74
+#: ../../source/explore/get-started/adjust-settings.rst:65
 msgid "General Settings"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:76
+#: ../../source/explore/get-started/adjust-settings.rst:67
 msgid ""
 "You can modify general settings such user interface and privacy settings "
 "in Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:78
+#: ../../source/explore/get-started/adjust-settings.rst:69
 msgid ""
 "In Desktop mode, go to **Settings > General** in the menu on the top left"
 " corner."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:79
+#: ../../source/explore/get-started/adjust-settings.rst:70
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > General**."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:85
+#: ../../source/explore/get-started/adjust-settings.rst:76
 msgid "In-World Graphics Settings"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:87
+#: ../../source/explore/get-started/adjust-settings.rst:78
 msgid "You can make changes to the graphics in Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:89
+#: ../../source/explore/get-started/adjust-settings.rst:80
 msgid ""
 "In Desktop mode, go to **Settings > Graphics** in the menu on the top "
 "left corner."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:90
+#: ../../source/explore/get-started/adjust-settings.rst:81
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Graphics**."
 msgstr ""
 
+#: ../../source/explore/get-started/adjust-settings.rst:86
+msgid "Graphics Preset"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:86
+msgid ""
+"Select the Graphics Preset which best suits your desired performance. "
+"Generally a lower graphics setting will sacrifice some visual details for"
+" increased performance, however \"Low Power\" is intended to reduce the "
+"resource usage of Overte to lower its impact on the rest of your system."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:91
+msgid "Local Lights"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:91
+msgid "Allow local light sources to light nearby objects."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:93
+msgid ""
+"Make bright areas look brighter by simulating a light-bleed halo effect "
+"around them."
+msgstr ""
+
 #: ../../source/explore/get-started/adjust-settings.rst:95
-msgid "Graphics Settings"
+msgid "Custom Shaders"
 msgstr ""
 
 #: ../../source/explore/get-started/adjust-settings.rst:95
 msgid ""
-"Choose the graphics settings for your computer tier. In general, a lower "
-"graphics setting sacrifices artistic details and rendering effects for "
-"increased performance and optimization. **Custom** lets you configure the"
-" world detail, rendering effects, refresh rate, and resolution yourself."
+"Shaders are fancy effects which you may see on avatars or entities in "
+"Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:100
-msgid "World Detail"
+#: ../../source/explore/get-started/adjust-settings.rst:97
+msgid "Deferred Rendering"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:100
+#: ../../source/explore/get-started/adjust-settings.rst:97
 msgid ""
-"Control the level of detail visible to you in Overte by moving this "
-"slider."
+"Advanced rendering technique, primarily for fancy lighting effects. You "
+"may want to disable this if you have limited memory bandwidth or want to "
+"prioritise anti-aliasing."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:102
-msgid "Rendering Effects"
+#: ../../source/explore/get-started/adjust-settings.rst:101
+msgid "With this enabled, the following options are revealed:"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:102
+#: ../../source/explore/get-started/adjust-settings.rst:103
+msgid "Shadows"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:104
+msgid "Ambient Occlusion"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:107
+msgid "Field of View"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:107
 msgid ""
-"Choose the level of rendering effects that are present in Overte. Local "
-"lights, fog, bloom, and shadows are all examples of rendering effects."
+"Set your field of view using the slider. A higher value lets you see more"
+" of your surroundings."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:105
+#: ../../source/explore/get-started/adjust-settings.rst:110
+msgid "Resolution"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:110
+msgid ""
+"Adjust the resolution using the slider. This affects how sharp Overte "
+"appears on your monitor or screen."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:113
+msgid "Anti-aliasing"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:113
+msgid "Smooth out the edges on your screen by choosing your anti-aliasing method."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:115
+msgid "TAA"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:116
+msgid "FXAA - Typically the cheapest and *fastest*."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:117
+msgid "MXAA - Note: Not available when Deferred Rendering is enabled."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:119
+msgid "LOD Settings"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:119
+msgid ""
+"Control at which point Overte hides objects to allow smooth operation. "
+"High detail means that it will only start to hide objects when your frame"
+" rate gets very low. Low detail means that it will start hiding objects "
+"early to give you the smoothest experience."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:124
 msgid "Refresh Rate"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:105
+#: ../../source/explore/get-started/adjust-settings.rst:124
 msgid ""
 "Choose the frequency that Overte updates its graphics buffers. Most mid-"
 "range computers run well on 'Interactive'."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:108
-msgid "Resolution"
+#: ../../source/explore/get-started/adjust-settings.rst:127
+msgid "Full Screen Display"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:108
+#: ../../source/explore/get-started/adjust-settings.rst:127
+msgid "Select the screen to display Overte on."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:130
+msgid "Allow Camera Clipping"
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:130
 msgid ""
-"Adjust the resolution using the slider. This affects how clear Overte "
-"appears on your monitor or screen."
+"Disable to allow object geometry to block your camera; when enabled your "
+"camera may pass through walls, furniture, avatars or any other entities."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:114
+#: ../../source/explore/get-started/adjust-settings.rst:135
+msgid ""
+"Disabling *Deferred Rendering* will typically increase performance as it "
+"is lighter, however on some GPUs you may find that it runs better with it"
+" enabled. You should test how Overte performs on your machine when "
+"changing this setting."
+msgstr ""
+
+#: ../../source/explore/get-started/adjust-settings.rst:139
 msgid "Account Security Settings"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:116
+#: ../../source/explore/get-started/adjust-settings.rst:141
 msgid "You can change your account security settings in Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:118
+#: ../../source/explore/get-started/adjust-settings.rst:143
 msgid ""
 "In Desktop mode, go to **Settings > Security** in the menu on the top "
 "left corner."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:119
+#: ../../source/explore/get-started/adjust-settings.rst:144
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Security**."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:124
-msgid "Account"
+#: ../../source/explore/get-started/adjust-settings.rst:149
+msgid "Keep Me Logged In"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:124
+#: ../../source/explore/get-started/adjust-settings.rst:149
 msgid "Enable to stay logged in (in the current device) even if you exit Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:126
-msgid "Secure Transactions"
+#: ../../source/explore/get-started/adjust-settings.rst:151
+msgid "Enable custom script plugins"
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:126
-msgid "Change your security picture."
+#: ../../source/explore/get-started/adjust-settings.rst:151
+msgid ""
+"Toggles the activation of scripting plugins in the 'plugins/scripting' "
+"folder."
 msgstr ""
 
-#: ../../source/explore/get-started/adjust-settings.rst:131
+#: ../../source/explore/get-started/adjust-settings.rst:156
 msgid ":doc:`Configure Your Domain Settings <../../host/configure-settings>`"
 msgstr ""
 
-#: ../../source/explore/get-started/android.rst:5
+#: ../../source/explore/get-started/architecture.rst:5
 msgid ""
-"A Overte Android app is being considered for the roadmap, most of the "
-"development work has been done but the work required to get it back "
-"rolling has to be taken into consideration."
+"This page shows how different parts of the system work together to give "
+"you the best VR experience."
 msgstr ""
 
-#: ../../source/explore/get-started/android.rst:7
-msgid ""
-"The app is designed for Daydream-ready phones only. Keep in mind, it "
-"cannot be used in Daydream View and is only available as a 2D "
-"application."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:15
-msgid "Visit Different Worlds"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:17
-msgid ""
-"Overte has many virtual places where you can interact with other users "
-"and participate in various activities or events. We have modified several"
-" of Overte's most popular virtual worlds to make them more accessible to "
-"Android users."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:19
-msgid "Find these domains by going to the **Home** tab in the menu."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:26
-#: ../../source/explore/get-started/desktop.rst:14
-msgid "Movement Controls"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:29
-#: ../../source/explore/get-started/android.rst:45
-#: ../../source/explore/get-started/android.rst:57
-#: ../../source/explore/get-started/android.rst:70
-#: ../../source/explore/get-started/desktop.rst:19
-#: ../../source/explore/get-started/desktop.rst:47
-#: ../../source/explore/get-started/desktop.rst:79
-#: ../../source/explore/get-started/desktop.rst:99
-#: ../../source/explore/get-started/desktop.rst:115
-msgid "Action"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:29
-#: ../../source/explore/get-started/android.rst:45
-#: ../../source/explore/get-started/android.rst:57
-#: ../../source/explore/get-started/android.rst:70
-msgid "Controls"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:31
-msgid "Walking"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:31
-msgid ""
-"When exploring a virtual world, use the arrows in the bottom left corner "
-"to turn and/or walk."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:33
-msgid "Turning"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:33
-msgid "Drag your finger left or right across the screen to make your avatar turn."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:35
-msgid "Look up/down"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:35
-msgid "Drag your finger up or down to change the angle of the camera."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:37
-msgid "Flying"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:37
-msgid ""
-"Press the button on the bottom right with the winged avatar to fly (the "
-"longer you hold it, the higher you go!)."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:42
-#: ../../source/explore/get-started/desktop.rst:44
-msgid "In-World Controls"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:47
-msgid "View"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:47
-msgid ""
-"Switch to a bird's eye view camera by pressing the **My View** button on "
-"the top right corner of the screen."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:49
-msgid "Mute"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:49
-msgid ""
-"Your avatar in muted by default when you open the app. Press the mic "
-"button on the top right corner to unmute."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:54
-msgid "Avatar Controls"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:59
-#: ../../source/explore/personalize.rst:9
-#: ../../source/explore/personalize/change-avatar.md:6
-msgid "Change Your Avatar"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:59
-msgid ""
-"Change your avatar to one available in the list in the **Avatar** tab in "
-"the menu."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:61
-msgid "Set Display Name"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:61
-msgid "Set your display name in the **Avatar** tab in the menu"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:67
-msgid "Discover and Make Friends"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:72
-#: ../../source/explore/get-started/desktop.rst:49
-msgid "Handshake"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:72
-msgid ""
-"`Add people to your Connections <../socialize.html#make-connections-and-"
-"friends>`_ by shaking their hand. Press the handshake button which is "
-"above the flight button in the bottom right corner of your screen."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:75
-msgid "Connections List"
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:75
-msgid "Open the **People** tab in the menu to view your Connections."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:79
-msgid ""
-"Additional functionality such as opening the Tablet, using the **Create**"
-" Tools app, adding wearables, etc. are not yet available."
-msgstr ""
-
-#: ../../source/explore/get-started/android.rst:84
-msgid ":doc:`Socialize with Others <../socialize>`"
-msgstr ""
-
-#: ../../source/explore/get-started/architecture.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: says that you can use an "
-"Android phone"
-msgstr ""
-
-#: ../../source/explore/get-started/architecture.rst:9
-msgid ""
-"Overte's architecture shows how different parts of the system work "
-"together to give you the best VR experience."
-msgstr ""
-
-#: ../../source/explore/get-started/architecture.rst:16
+#: ../../source/explore/get-started/architecture.rst:12
 msgid "Architecture Overview"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:18
+#: ../../source/explore/get-started/architecture.rst:14
 msgid ""
 "Overte's architecture consists of the following components that work "
 "together and send data to each other for your VR experience."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:20
+#: ../../source/explore/get-started/architecture.rst:16
 msgid ""
-"The `Overte Interface`_ runs your personal experience in the metaverse. "
-"With it, you can :doc:`visit VR worlds <../travel>`, :doc:`meet people "
-"<../socialize>`, `attend live events <../socialize.html#attend-live-"
-"events>`_ and more."
+"The `Overte Interface`_ runs your personal VR experience. With it, you "
+"can :doc:`visit places <../travel>`, :doc:`meet people <../socialize>`, "
+"`attend live events <../socialize.html#attend-live-events>`_ and more."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:21
+#: ../../source/explore/get-started/architecture.rst:17
 msgid ""
 "The `Domain Server`_ is the server that hosts a domain. The domain server"
 " hosts the content in the domain, and manages the :doc:`domain-wide "
@@ -13226,18 +13113,18 @@ msgid ""
 "user permissions, and running scripts."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:22
+#: ../../source/explore/get-started/architecture.rst:18
 msgid ""
 "The `Global Services`_ connect all of the servers together. An instance "
-"of these services are maintained by Overte so that you can sign in and "
+"of these services is maintained by Overte so that you can sign in and "
 "move seamlessly between places."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:28
+#: ../../source/explore/get-started/architecture.rst:24
 msgid "Overte Interface"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:30
+#: ../../source/explore/get-started/architecture.rst:26
 msgid ""
 "The Overte Interface (or simply 'Interface') is the main user interface "
 "for Overte. It is used to explore the metaverse and engage with people "
@@ -13246,18 +13133,17 @@ msgid ""
 "any `global services`_."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:32
+#: ../../source/explore/get-started/architecture.rst:28
 msgid ""
-"You can download and use the Interface on your computer or your Android "
-"phone using the `Client-Only Installer <install.html#client-only-"
-"installer>`_."
+"You can download and use the Interface on your computer. See `Install "
+"Overte <install.html>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:38
+#: ../../source/explore/get-started/architecture.rst:34
 msgid "Physics Engine"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:40
+#: ../../source/explore/get-started/architecture.rst:36
 msgid ""
 "Your VR experience won't be realistic without some physics. Overte "
 "includes a `physics engine <http://bulletphysics.org>`_ that simulates "
@@ -13266,14 +13152,14 @@ msgid ""
 "collide, their movements are computed by the physics engine."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:42
+#: ../../source/explore/get-started/architecture.rst:38
 msgid ""
 "Each Interface runs its own physics engine, and the entity server "
 "coordinates the results to produce a consistent simulation across the "
 "entire domain."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:48
+#: ../../source/explore/get-started/architecture.rst:44
 msgid ""
 "A domain is a spatial simulation in Overte that you can visit. It is "
 "computed by a stack of programs on one or more computers. You need a "
@@ -13282,21 +13168,21 @@ msgid ""
 "website."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:50
+#: ../../source/explore/get-started/architecture.rst:46
 msgid ""
 "You can :doc:`set up your own domain <../../host/server-setup>` and host "
-"it on your local machine or on a cloud server to make it available to "
-"other users. Your domain's server stack is a set of components that "
-"simulate and manage different aspects of the domain such as audio, "
-"entities, and avatars. Everything that you see, hear, and do in your "
-"domain is managed by the server stack."
+"it on your local machine or on any internet connected server to make it "
+"available to other users. Your domain's server stack is a set of "
+"components that simulate and manage different aspects of the domain such "
+"as audio, entities, and avatars. Everything that you see, hear, and do in"
+" your domain is managed by the server stack."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:56
+#: ../../source/explore/get-started/architecture.rst:52
 msgid "Server Stack"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:58
+#: ../../source/explore/get-started/architecture.rst:54
 msgid ""
 "The Domain server is at the top of this stack and its job is to give out "
 "assignments to the other components. These components are called "
@@ -13304,7 +13190,7 @@ msgid ""
 "they are clients that take on different roles."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:60
+#: ../../source/explore/get-started/architecture.rst:56
 msgid ""
 "The server stack is not only controlling, managing and computing your "
 "domain as you see it, but also how it is seen by anyone visiting your "
@@ -13316,22 +13202,22 @@ msgid ""
 "determines which assignment client functions as which mixer."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:64
+#: ../../source/explore/get-started/architecture.rst:60
 msgid "Assignment Clients"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:66
+#: ../../source/explore/get-started/architecture.rst:62
 msgid ""
 "Assignment clients control and manage various aspects of a domain. They "
 "also communicate directly with the Interface clients connected to a "
 "domain. There are six types of assignment clients:"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:71
+#: ../../source/explore/get-started/architecture.rst:67
 msgid "Avatar Mixer"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:71
+#: ../../source/explore/get-started/architecture.rst:67
 msgid ""
 "This mixer is in charge of your virtual presence in any domain. It keeps "
 "track of where you are, which avatar you're wearing, and how you move "
@@ -13339,11 +13225,11 @@ msgid ""
 "wearing a Head Mounted Display (HMD)."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:75
+#: ../../source/explore/get-started/architecture.rst:71
 msgid "Audio Mixer"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:75
+#: ../../source/explore/get-started/architecture.rst:71
 msgid ""
 "Mixes all sounds, whether it's voice or environmental. And it does this "
 "not just for avatars, but also for all the entities in a domain. The "
@@ -13351,11 +13237,11 @@ msgid ""
 "relative to the audio source."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:79
+#: ../../source/explore/get-started/architecture.rst:75
 msgid "Entity Server"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:79
+#: ../../source/explore/get-started/architecture.rst:75
 msgid ""
 "Tracks all entities and their properties in a domain, from their "
 "description and position, to any behaviors attached to them in a script. "
@@ -13364,66 +13250,66 @@ msgid ""
 "visiting the domain."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:84
+#: ../../source/explore/get-started/architecture.rst:80
 msgid "Asset Server"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:84
+#: ../../source/explore/get-started/architecture.rst:80
 msgid ""
 "Provides copies of the models, audio files, scripts, and other media used"
 " by the domain. It functions like a Web server, but using protocols tuned"
 " to Overte's architecture."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:87
+#: ../../source/explore/get-started/architecture.rst:83
 msgid "Agent"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:87
+#: ../../source/explore/get-started/architecture.rst:83
 msgid ""
 "Executes user-written JavaScript programs. If you've written a script to "
 "get your avatar to clap, or create a bowling alley, the Agent will "
 "execute it. It can see entities, avatars, and send audio."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:90
+#: ../../source/explore/get-started/architecture.rst:86
 msgid "Messages Mixer"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:90
+#: ../../source/explore/get-started/architecture.rst:86
 msgid ""
 "Provides communication between scripts running in different programs "
 "connected to the domain, which could be Interfaces or Agents."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:94
+#: ../../source/explore/get-started/architecture.rst:90
 msgid ""
-"Sandbox manages all these components on the domain server, five dedicated"
-" assignment clients, and as many agent assignments clients as needed. "
-"However, it is possible to spread the assignment clients over multiple "
-"computers, and even to divide each function among a hierarchy of "
-"assignment components, which may be on different computers. For instance,"
-" multiple audio mixers could be used to mix the audio in different "
-"geographic regions of the domain."
+"Usually the domain server manages all these components for you: five "
+"dedicated assignment clients, and as many agent assignments clients as "
+"needed. However, it is possible to spread the assignment clients over "
+"multiple computers, and even to divide each function among a hierarchy of"
+" assignment components, which may be on different computers. For "
+"instance, multiple audio mixers could be used to mix the audio in "
+"different geographic regions of the domain."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:98
+#: ../../source/explore/get-started/architecture.rst:94
 msgid "Global Services"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:100
+#: ../../source/explore/get-started/architecture.rst:96
 msgid "Overte maintains global services to connect different servers together."
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:107
+#: ../../source/explore/get-started/architecture.rst:103
 msgid ":doc:`Install Overte <install>`"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:108
+#: ../../source/explore/get-started/architecture.rst:104
 msgid ":doc:`Host Your Domain <../../host>`"
 msgstr ""
 
-#: ../../source/explore/get-started/architecture.rst:109
+#: ../../source/explore/get-started/architecture.rst:105
 msgid ":doc:`Travel Between Worlds <../travel>`"
 msgstr ""
 
@@ -13441,11 +13327,23 @@ msgid ""
 " for the ``Ctrl`` key."
 msgstr ""
 
+#: ../../source/explore/get-started/desktop.rst:14
+msgid "Movement Controls"
+msgstr ""
+
 #: ../../source/explore/get-started/desktop.rst:19
 #: ../../source/explore/get-started/desktop.rst:47
-#: ../../source/explore/get-started/desktop.rst:79
-#: ../../source/explore/get-started/desktop.rst:99
-#: ../../source/explore/get-started/desktop.rst:115
+#: ../../source/explore/get-started/desktop.rst:81
+#: ../../source/explore/get-started/desktop.rst:102
+#: ../../source/explore/get-started/desktop.rst:118
+msgid "Action"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:19
+#: ../../source/explore/get-started/desktop.rst:47
+#: ../../source/explore/get-started/desktop.rst:81
+#: ../../source/explore/get-started/desktop.rst:102
+#: ../../source/explore/get-started/desktop.rst:118
 msgid "Key"
 msgstr ""
 
@@ -13529,6 +13427,14 @@ msgstr ""
 msgid "``C`` or ``PGDN``"
 msgstr ""
 
+#: ../../source/explore/get-started/desktop.rst:44
+msgid "In-World Controls"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:49
+msgid "Handshake"
+msgstr ""
+
 #: ../../source/explore/get-started/desktop.rst:49
 msgid "``X``"
 msgstr ""
@@ -13567,11 +13473,11 @@ msgid "Inspect Item"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:59
-msgid "Right Click"
+msgid "``Alt`` + Left Click"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:61
-msgid "Open Browser"
+msgid "Open Web-Browser"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:61
@@ -13607,7 +13513,6 @@ msgid "Screenshot"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:69
-#: ../../source/explore/get-started/desktop.rst:91
 msgid "``P``"
 msgstr ""
 
@@ -13616,285 +13521,322 @@ msgid "Push to Talk"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:71
-#: ../../source/explore/get-started/desktop.rst:137
+#: ../../source/explore/get-started/desktop.rst:146
 msgid "``T``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:76
+#: ../../source/explore/get-started/desktop.rst:78
 msgid "Camera Controls"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:81
+#: ../../source/explore/get-started/desktop.rst:83
 msgid "First Person View"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:81
+#: ../../source/explore/get-started/desktop.rst:83
 msgid "``1``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:83
+#: ../../source/explore/get-started/desktop.rst:85
 msgid "Third Person View"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:83
+#: ../../source/explore/get-started/desktop.rst:85
 msgid "``3``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:85
-msgid "Mirror View"
+#: ../../source/explore/get-started/desktop.rst:87
+msgid "Selfie View"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:85
+#: ../../source/explore/get-started/desktop.rst:87
 msgid "``2``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:87
+#: ../../source/explore/get-started/desktop.rst:89
 msgid "Pan In/Out"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:87
+#: ../../source/explore/get-started/desktop.rst:89
 msgid "With mouse, use mouse wheel."
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:89
+#: ../../source/explore/get-started/desktop.rst:91
 msgid "On trackpad, drag two fingers up or down."
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:91
-msgid "Take Screenshot"
+#: ../../source/explore/get-started/desktop.rst:93
+msgid "Toggle Mouselook"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:96
+#: ../../source/explore/get-started/desktop.rst:93
+msgid ""
+"Must enable mouse look in controller settings and then use ``M`` to "
+"toggle."
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:99
 msgid "Avatar Sizing Controls"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:101
+#: ../../source/explore/get-started/desktop.rst:104
 msgid "Decrease Avatar Size"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:101
+#: ../../source/explore/get-started/desktop.rst:104
 msgid "``-``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:103
+#: ../../source/explore/get-started/desktop.rst:106
 msgid "Increase Avatar Size"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:103
+#: ../../source/explore/get-started/desktop.rst:106
 msgid "``+``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:105
+#: ../../source/explore/get-started/desktop.rst:108
 msgid "Reset Avatar Size"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:105
+#: ../../source/explore/get-started/desktop.rst:108
 msgid "``=``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:110
+#: ../../source/explore/get-started/desktop.rst:113
 msgid "Create and Edit Mode"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:112
+#: ../../source/explore/get-started/desktop.rst:115
 msgid "These controls work when the **Create** app is open."
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:117
+#: ../../source/explore/get-started/desktop.rst:120
 msgid "Undo"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:117
+#: ../../source/explore/get-started/desktop.rst:120
 msgid "``CTRL`` + ``Z``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:119
+#: ../../source/explore/get-started/desktop.rst:122
 msgid "Redo"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:119
+#: ../../source/explore/get-started/desktop.rst:122
 msgid "``CTRL`` + ``Y``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:121
+#: ../../source/explore/get-started/desktop.rst:124
 msgid "Delete Entity"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:121
+#: ../../source/explore/get-started/desktop.rst:124
 msgid "``DEL``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:123
+#: ../../source/explore/get-started/desktop.rst:126
 msgid "Focus on Selected Entity"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:123
+#: ../../source/explore/get-started/desktop.rst:126
 msgid "``F``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:125
-msgid "Align Grid to Bottom of Selected Entities"
+#: ../../source/explore/get-started/desktop.rst:128
+msgid "Toggle Grid"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:125
+#: ../../source/explore/get-started/desktop.rst:128
 msgid "``G``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:127
+#: ../../source/explore/get-started/desktop.rst:130
+msgid "Toggle Snap to Grid"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:130
+msgid "``H``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:132
+msgid "Align Grid to Selected Entities"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:132
+msgid "``J``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:134
+msgid "Align Grid to Avatar"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:134
+msgid "``K``"
+msgstr ""
+
+#: ../../source/explore/get-started/desktop.rst:136
 msgid "Duplicate Entity"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:127
+#: ../../source/explore/get-started/desktop.rst:136
 msgid "``CTRL`` + Left Click + Drag"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:129
+#: ../../source/explore/get-started/desktop.rst:138
 msgid "Parent Entity"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:129
+#: ../../source/explore/get-started/desktop.rst:138
 msgid "``CTRL`` + ``P``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:131
+#: ../../source/explore/get-started/desktop.rst:140
 msgid "Unparent Entity"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:131
+#: ../../source/explore/get-started/desktop.rst:140
 msgid "``CTRL`` + ``SHIFT`` + ``P``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:133
+#: ../../source/explore/get-started/desktop.rst:142
 msgid "Copy Entity"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:133
+#: ../../source/explore/get-started/desktop.rst:142
 msgid "``CTRL`` + ``C``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:135
+#: ../../source/explore/get-started/desktop.rst:144
 msgid "Paste Entity"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:135
+#: ../../source/explore/get-started/desktop.rst:144
 msgid "``CTRL`` + ``V``"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:137
-msgid "Toggle Global/Local Translation"
+#: ../../source/explore/get-started/desktop.rst:146
+msgid "Toggle Local/World Mode"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:143
-#: ../../source/explore/get-started/vr-controls.rst:217
+#: ../../source/explore/get-started/desktop.rst:152
+#: ../../source/explore/get-started/vr-controls.rst:216
 msgid "Gamepad"
 msgstr ""
 
-#: ../../source/explore/get-started/desktop.rst:145
+#: ../../source/explore/get-started/desktop.rst:154
 msgid ""
 "Instead of a keyboard, you can use a gamepad while experiencing Overte in"
 " desktop mode."
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:5
-msgid ""
-"Overte has two different installers. The *Client Installer* comes with "
-"everything you need to view and interact with Overte's content and users."
-" However, you are unable to host content using this installer. The "
-"*Client + Server Installer* has everything the client installer does, but"
-" it also enables you to :doc:`host your own content <../../host>` and "
-"share it with the world. The Client + Server Installer download is only "
-"provided for Windows. For Linux see: :doc:`Host a Domain from a Local or "
-"Cloud Linux Server <../../host/server-setup/linux-server>`."
+msgid "Overte is currently available for Linux and Windows."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:15
+#: ../../source/explore/get-started/install.rst:7
+msgid ""
+"For Linux the Interface Client is provided as an AppImage. There are "
+"seperate domain server packages available for common Linux distributions."
+" To set up your own domain on Linux, see: :doc:`Host a Domain from a "
+"Local or Cloud Linux Server <../../host/server-setup/linux-server>`."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:9
+msgid ""
+"For Windows the installer comes with both the client Interface and the "
+"domain server so you can :doc:`host your own content <../../host>` easily"
+" from your own computer."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:16
 msgid "System Requirements"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:17
+#: ../../source/explore/get-started/install.rst:18
 msgid ""
 "In order to run Overte, ensure that your computer meets these system "
 "requirements:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:19
+#: ../../source/explore/get-started/install.rst:20
 msgid "Operating system:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:21
+#: ../../source/explore/get-started/install.rst:22
 msgid "Windows 10 64-bit, or Windows 11 64-bit"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:22
+#: ../../source/explore/get-started/install.rst:23
 msgid "Ubuntu 20.04 64 bit, or most other modern Linux distributions"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:24
+#: ../../source/explore/get-started/install.rst:25
 msgid "CPU:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:26
+#: ../../source/explore/get-started/install.rst:27
 msgid "**Minimum:** Dual-core with hyper-threading"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:27
+#: ../../source/explore/get-started/install.rst:28
 msgid "**Recommended:** Quad-core with hyper-threading or better"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:29
+#: ../../source/explore/get-started/install.rst:30
 msgid "System memory:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:31
+#: ../../source/explore/get-started/install.rst:32
 msgid "**Minimum:** 8GB"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:33
+#: ../../source/explore/get-started/install.rst:34
 msgid "Graphics adapter:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:35
+#: ../../source/explore/get-started/install.rst:36
 msgid "**Minimum:** Nvidia 600 series"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:36
+#: ../../source/explore/get-started/install.rst:37
 msgid "**Recommended:** Nvidia 900 series or higher"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:37
+#: ../../source/explore/get-started/install.rst:38
 msgid "**Minimum:** AMD Radeon HD 87XX series"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:38
+#: ../../source/explore/get-started/install.rst:39
 msgid "**Recommended:** AMD Radeon HD 89XX series or higher"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:39
+#: ../../source/explore/get-started/install.rst:40
 msgid ""
 "**Minimum:** Intel 5th generation CPU integrated Iris graphics. Using "
 "Intel integrated graphics is not recommended."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:41
+#: ../../source/explore/get-started/install.rst:42
 msgid ""
 "The listed graphics adapters support OpenGL 4.1 and above. This is a "
 "requirement for any graphics adapter running Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:43
+#: ../../source/explore/get-started/install.rst:44
 msgid ""
 "In addition, your network must have enough internet bandwidth to run "
 "Overte:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:45
+#: ../../source/explore/get-started/install.rst:46
 msgid ""
-"If you are using Interface only to explore the metaverse, then you should"
-" have Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
+"If you are using Interface only to explore Overte, then you should have "
+"Internet speeds of at least **10 Mbit/s download** and **2 Mbit/s "
 "upload**."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:46
+#: ../../source/explore/get-started/install.rst:47
 msgid ""
 "If you are hosting a domain server on a remote machine or your local "
 "computer, you need to add **10 Mbit/s upload** for each user that you "
@@ -13903,48 +13845,58 @@ msgid ""
 "server rather than your domain server."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:49
+#: ../../source/explore/get-started/install.rst:50
 msgid ""
 "A world that is specifically built for low-end systems might run fine on "
 "a system with slightly less memory or a lower CPU core count."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:51
+#: ../../source/explore/get-started/install.rst:52
 msgid ""
 "Running Overte on a high resolution display or in VR mode will need a "
 "much better graphics adapter, depending on your display's resolution and "
 "targeted frame rate."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:55
+#: ../../source/explore/get-started/install.rst:58
 msgid "Download Overte"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:57
+#: ../../source/explore/get-started/install.rst:60
 msgid ""
 "The current release is available to `download on our website "
 "<https://overte.org/downloads.html>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:59
+#: ../../source/explore/get-started/install.rst:62
 msgid ""
-"If you intend to use Overte in VR mode with an HMD, ensure that SteamVR "
-"or Oculus Runtime is also installed on your system before launching "
-"Overte. VR mode is not supported on macOS. The Oculus Runtime is not "
-"supported on Linux."
+"If you intend to use Overte in VR mode with an HMD, ensure your OpenVR or"
+" OpenXR runtime is also installed on your system before launching Overte."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:67
+#: ../../source/explore/get-started/install.rst:64
+msgid ""
+"We currently recommend using the SteamVR runtime with OpenVR for the best"
+" experience, including full body tracking."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:66
+msgid ""
+"Overte also supports OpenXR runtimes, including Monada and Wivrn, however"
+" there are still some issues with body tracking."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:74
 msgid ""
 "Once you've downloaded the installer, you're ready to install Overte. The"
 " process will be different based on your operating system:"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:71
+#: ../../source/explore/get-started/install.rst:80
 msgid "Windows Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:73
+#: ../../source/explore/get-started/install.rst:82
 msgid ""
 "To install on Windows, simply double-click on the downloaded installer "
 "file to open it. Run through the prompts on the installer. Once you "
@@ -13952,103 +13904,47 @@ msgid ""
 "log in and begin exploring the metaverse."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:78
-msgid "Mac Install"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:80
-msgid ""
-"At this time, the Overte installer for Mac is unsigned, so you will need "
-"give the OS permission to install the application."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:82
-msgid "Open the downloaded installer dmg file."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:83
-msgid "Agree to the License Agreement."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:84
-msgid "Drag Overte to the Applications folder."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:85
-msgid ""
-"Try opening Interface.app. You will be prompted that macOS will not open "
-"the file because it is unsigned."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:86
-msgid ""
-"Open **System Preferences > Security & Privacy**. On older macOS versions"
-" this might be in **System Preferences > General**."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:87
-msgid ""
-"Next to the warning indicating that Interface is blocked, click 'Open "
-"Anyway'."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:88
-msgid "Confirm that you want to open the application."
-msgstr ""
-
 #: ../../source/explore/get-started/install.rst:89
-msgid ""
-"Allow microphone access if prompted, in order to be able to talk inside "
-"the application."
+msgid "Linux Install"
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:91
 msgid ""
-"At this point, Interface will open and you will be able to log in and "
-"begin exploring the metaverse."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:96
-msgid "Linux Install"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:98
-msgid ""
 "Mark the downloaded AppImage file as executable. (for example, with "
-"``chmod +x Overte-x86_64_20220219.AppImage``.)"
+"``chmod +x Overte-2025.12.1-x86_64.AppImage``.)"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:99
+#: ../../source/explore/get-started/install.rst:92
 msgid ""
 "(Optional) If you want the AppImage to be integrated into your system, "
 "install `AppImageLauncher "
 "<https://github.com/TheAssassin/AppImageLauncher>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:100
+#: ../../source/explore/get-started/install.rst:93
 msgid "Execute AppImage."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:102
+#: ../../source/explore/get-started/install.rst:95
 msgid ""
 "Currently the server is not part of the Linux Interface AppImage. To host"
 " a domain, please refer to :doc:`Host a Domain from a Local or Cloud "
 "Linux Server <../../host/server-setup/linux-server>`."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:106
+#: ../../source/explore/get-started/install.rst:99
 msgid "Upgrade Overte"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:108
+#: ../../source/explore/get-started/install.rst:101
 msgid ""
 "Overte is always changing, as we work to improve performance and add "
 "features that will enhance your experience in the metaverse. At any time,"
 " you can download the latest release from our `website "
-"<https://overte.org/#downloads>`_."
+"<https://overte.org/downloads.html>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:111
+#: ../../source/explore/get-started/install.rst:104
 msgid ""
 "You cannot upgrade Overte on Windows if you have Overte Interface or "
 "Server running on your computer. Be sure to quit these applications "
@@ -14056,24 +13952,24 @@ msgid ""
 " background."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:114
+#: ../../source/explore/get-started/install.rst:107
 msgid ""
 "For Windows, locate the Overte app in your system tray. Right-click on "
 "the icon and select 'Quit'. Alternatively, end the 'server-console' "
 "background process using the Task Manager."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:116
+#: ../../source/explore/get-started/install.rst:109
 msgid ""
 "For more information on the latest releases, see our `changelog "
 "<https://github.com/overte-org/overte/blob/master/CHANGELOG.md>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:121
+#: ../../source/explore/get-started/install.rst:115
 msgid "Perform a Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:123
+#: ../../source/explore/get-started/install.rst:117
 msgid ""
 "If you're facing problems when you load Interface or the local Server, "
 "then you can try performing a clean install. A clean install removes "
@@ -14081,35 +13977,59 @@ msgid ""
 "again."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:126
+#: ../../source/explore/get-started/install.rst:120
 msgid ""
 "Ensure that you back up the following files before a clean install: "
 "Favorites, Wearables, Server content, and Entities. These settings will "
 "be deleted during the clean install."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:130
+#: ../../source/explore/get-started/install.rst:124
+msgid "Linux Clean Install"
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:126
+msgid "Find the location where you downloaded the AppImage and delete it."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:127
+msgid ""
+"Browse to `~/.local/share/` and delete all folders with \"Overte\" in the"
+" name."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:128
+msgid "Browse to `~/.config/` and delete all folders with \"Overte\" in the name."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:129
+msgid ""
+":ref:`download<download-overte>`, and :ref:`install<install-overte-"
+"linux>` Overte again."
+msgstr ""
+
+#: ../../source/explore/get-started/install.rst:133
 msgid "Windows Clean Install"
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:132
+#: ../../source/explore/get-started/install.rst:135
 msgid ""
 "Click on the Start menu and type \"Add or Remove Programs\" in your "
 "Windows search bar."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:133
+#: ../../source/explore/get-started/install.rst:136
 msgid "Uninstall any versions of Overte that are visible."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:134
+#: ../../source/explore/get-started/install.rst:137
 #, python-format
 msgid ""
 "Once Overte is uninstalled, browse to your %Program Files% directory. "
-"Delete all folders related to Overte."
+"Delete all folders with \"Overte\" in the name."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:138
+#: ../../source/explore/get-started/install.rst:141
 msgid ""
 "The next 3 steps will permanently delete your local Server's content. If "
 "you wish to keep this content, copy %AppData%/Local/Overte/assignment-"
@@ -14117,81 +14037,36 @@ msgid ""
 " %AppData%/Roaming/Overte/assignment-client."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:142
+#: ../../source/explore/get-started/install.rst:145
 #, python-format
 msgid ""
 "Browse to your local %AppData% folder (usually "
 "``C:/Users/<your_username>/AppData/Local``). If you do not see the "
 "folder, make sure you can view hidden folders: in File Explorer, click "
-"View and make sure \"Hidden Items\" is checked. Delete all folders "
-"related to Overte."
+"View and make sure \"Hidden Items\" is checked. Delete all folders with "
+"\"Overte\" in the name."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:144
+#: ../../source/explore/get-started/install.rst:147
 #, python-format
 msgid ""
 "Browse to your roaming %AppData% folder (usually "
-"``C:/Users/<your_username>/AppData/Roaming``). Delete all folders related"
-" to Overte."
+"``C:/Users/<your_username>/AppData/Roaming``). Delete all folders with "
+"\"Overte\" in the name."
 msgstr ""
 
-#: ../../source/explore/get-started/install.rst:145
+#: ../../source/explore/get-started/install.rst:148
 msgid ""
-"Re-install Overte using the steps above. To restore your local Server's "
-"content, copy the ``assignment-client`` folders you previously saved back"
-" into to their respective locations."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:149
-msgid "Mac Clean Install"
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:151
-msgid "Open your Applications folder and delete the Overte folder."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:152
-msgid ""
-"Open the ``<username>/.config`` folder. This is a hidden folder than is "
-"accessible by going to *Go > Home*. Press the keyboard shortcut ``Command"
-" + Shift + .`` (period)."
+":ref:`Re-install Overte<install-overte-windows>` using the steps above. "
+"To restore your local Server's content, copy the ``assignment-client`` "
+"folders you previously saved back into their respective locations."
 msgstr ""
 
 #: ../../source/explore/get-started/install.rst:153
-msgid "Delete the ``overte.org`` folder."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:154
-msgid ""
-"Open the ``~/Library`` folder by holding the Option key and clicking the "
-"'Go' menu while in the Finder. The Library option should appear in the "
-"menu."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:155
-msgid "Browse to ``~/Library/Application Support`` and delete the Overte folder."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:156
-msgid "Empty the Trash."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:157
-msgid "Re-install Overte using the steps above."
-msgstr ""
-
-#: ../../source/explore/get-started/install.rst:162
 msgid ":doc:`Install Your Domain <../../host/server-setup>`"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: instructions for Windows are "
-"most likely outdated, no mention that you should *not* use \"open mic\" "
-"setups without push to talk"
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:9
+#: ../../source/explore/get-started/setup-audio.rst:5
 msgid ""
 "When you log into Overte for the first time, we will automatically detect"
 " your computer's default audio devices, and use those for Overte. "
@@ -14199,17 +14074,17 @@ msgid ""
 " you will not need to configure your audio devices any further."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:11
+#: ../../source/explore/get-started/setup-audio.rst:7
 msgid ""
 "However, some audio setups do require additional configuration. If you "
 "need to change your audio settings, read on to find out more."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:19
+#: ../../source/explore/get-started/setup-audio.rst:15
 msgid "Audio \"At a Glance\""
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:21
+#: ../../source/explore/get-started/setup-audio.rst:17
 msgid ""
 "Your basic audio settings are displayed in the top-left corner of your "
 "Interface window. This is called the \"Audio Level Meter\" and can be "
@@ -14217,15 +14092,15 @@ msgid ""
 "**Audio**)."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:27
+#: ../../source/explore/get-started/setup-audio.rst:23
 msgid "Change your Input or Output Device"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:30
+#: ../../source/explore/get-started/setup-audio.rst:26
 msgid ""
 "Overte's 3D spatialized audio is guaranteed to enhance your experience in"
-" the metaverse, whether you are in Desktop mode or using VR equipment. By"
-" default, we will select the default audio devices that your operating "
+" cyberspace, whether you are in Desktop mode or using VR equipment. By "
+"default, we will select the default audio devices that your operating "
 "system or headset has detected. If you want to use a different headset or"
 " audio setup than the default, you can change your computer's default "
 "device. If you need to use a different device for Overte than other "
@@ -14233,17 +14108,15 @@ msgid ""
 "application."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:32
+#: ../../source/explore/get-started/setup-audio.rst:28
 msgid ""
 "An *audio input device* is any device that captures sound and generates a"
 " signal that can be accessed by other devices. Examples of audio input "
 "devices include a USB microphone or a microphone headset that is plugged "
-"into your computer, or your sound card’s \"Stereo Mix\" or \"What U "
-"Hear\" device (think of these sound card devices as if they were "
-"microphones being held up to your speakers while they output sound)."
+"into your computer."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:33
+#: ../../source/explore/get-started/setup-audio.rst:29
 msgid ""
 "An *audio output device* is any device that receives information from "
 "audio files and converts it into audible sound signals. Examples of audio"
@@ -14251,7 +14124,7 @@ msgid ""
 "huge speakers in a movie theater."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:35
+#: ../../source/explore/get-started/setup-audio.rst:31
 msgid ""
 "If you are using a headset with a microphone, then your input and output "
 "devices will likely be the same device. However, if you are using "
@@ -14260,30 +14133,37 @@ msgid ""
 "cancellation <#id1>`_ for improved audio quality."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:37
+#: ../../source/explore/get-started/setup-audio.rst:33
+msgid ""
+"You may also want to try using `push-to-talk <#enable-push-to-talk-ptt>`_"
+" to completely eliminate any unwanted speaker echo and background sounds "
+"coming from your avatar when you are not talking."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:35
 msgid "To change your audio devices:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:39
-#: ../../source/explore/get-started/setup-audio.rst:91
-#: ../../source/explore/get-started/setup-audio.rst:109
-#: ../../source/explore/get-started/setup-audio.rst:122
+#: ../../source/explore/get-started/setup-audio.rst:37
+#: ../../source/explore/get-started/setup-audio.rst:87
+#: ../../source/explore/get-started/setup-audio.rst:105
+#: ../../source/explore/get-started/setup-audio.rst:117
 msgid "From the Tablet or HUD, click **Audio**."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:40
+#: ../../source/explore/get-started/setup-audio.rst:38
 msgid "Choose your desired input device."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:41
+#: ../../source/explore/get-started/setup-audio.rst:39
 msgid "Choose your desired output device."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:45
+#: ../../source/explore/get-started/setup-audio.rst:43
 msgid "Using Bluetooth Headsets"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:47
+#: ../../source/explore/get-started/setup-audio.rst:45
 msgid ""
 "You can use bluetooth headsets, such as AirPods with Overte. However, "
 "note that there are limitations to using them, and they may not work in "
@@ -14292,31 +14172,32 @@ msgid ""
 "occasional disconnects."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:49
+#: ../../source/explore/get-started/setup-audio.rst:47
 msgid ""
-"Unfortunately, bluetooth audio devices do not currently support stereo "
-"input. Therefore, you have two options:"
+"Unfortunately, bluetooth audio devices typically do not support stereo "
+"audio at the same time as microphone input. Therefore, you have two "
+"options:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:51
+#: ../../source/explore/get-started/setup-audio.rst:49
 msgid ""
 "Use the bluetooth headset as an output device only, and use another "
 "microphone for input. This allows you to take advantage of the stereo "
-"audio."
+"audio at a high quality."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:52
+#: ../../source/explore/get-started/setup-audio.rst:50
 msgid ""
-"Use the bluetooth headset's built-in microphone. In this case, other "
-"users will only experience mono sound coming from you, rather than the "
-"normal stereo audio."
+"Use the bluetooth headset's built-in microphone. In this case, you may "
+"only experience mono sound at a reduced quality, rather than Overte's "
+"stereo audio."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:56
+#: ../../source/explore/get-started/setup-audio.rst:54
 msgid "Acoustic Echo Cancellation"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:58
+#: ../../source/explore/get-started/setup-audio.rst:56
 msgid ""
 "Acoustic echo is the process by which sounds from your speakers get "
 "picked up and transmitted by your microphone, resulting in an echoing "
@@ -14325,7 +14206,7 @@ msgid ""
 "headset."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:60
+#: ../../source/explore/get-started/setup-audio.rst:58
 msgid ""
 "\"Acoustic echo cancellation\" is a technology which improves voice "
 "quality by preventing the echo that results in open mic setups. By "
@@ -14333,60 +14214,48 @@ msgid ""
 " in the **Audio** app."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:62
+#: ../../source/explore/get-started/setup-audio.rst:60
 msgid ""
 "Acoustic echo cancellation will not run when using input devices with "
 "high sample rates (greater than 96khz) or more than 2 channels."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:64
+#: ../../source/explore/get-started/setup-audio.rst:62
 msgid "For best performance with open mic setups, ensure that you:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:66
+#: ../../source/explore/get-started/setup-audio.rst:64
 msgid ""
 "Disable any processing and effects on the input and output devices. This "
 "includes:"
 msgstr ""
 
+#: ../../source/explore/get-started/setup-audio.rst:66
+msgid ""
+"On Windows: Turn off all 'Enhancements'; see `Microsoft support article "
+"<https://support.microsoft.com/en-us/topic/disable-audio-enhancements-"
+"0ec686c4-8d79-4588-b7e7-9287dd296f72>`_ for instructions."
+msgstr ""
+
 #: ../../source/explore/get-started/setup-audio.rst:68
-msgid ""
-"On Mac: Turn off 'Ambient noise reduction' (System Preferences > Sound > "
-"Input > Use ambient noise reduction)"
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:69
-msgid ""
-"On Windows: Turn off all 'Enhancements' (Control Panel > Sound > "
-"Recording tab > click on your device > Properties button > Enhancements "
-"tab)"
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:71
-msgid ""
-"On Mac devices, set the balance of the output device to either the left "
-"or the right (System Preferences > Sound > Output > Balance)"
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:72
 msgid ""
 "Lower the microphone's physical gain setting to approximately 3/4 of the "
 "maximum"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:73
+#: ../../source/explore/get-started/setup-audio.rst:69
 msgid ""
 "Lower the speaker's physical volume level to approximately 3/4 of the "
 "maximum"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:74
+#: ../../source/explore/get-started/setup-audio.rst:70
 msgid ""
 "If you are not using your laptop's audio devices, move and point the "
 "microphone away from the speakers"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:76
+#: ../../source/explore/get-started/setup-audio.rst:72
 msgid ""
 "The acoustic echo cancellation technology picks up the sounds around you "
 "and attempts to identify the echoing sounds as you use it. This means "
@@ -14395,25 +14264,25 @@ msgid ""
 "learns your voice and the voices of the people around you!"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:78
+#: ../../source/explore/get-started/setup-audio.rst:74
 msgid "To speed up this \"learning\" process, you can:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:80
+#: ../../source/explore/get-started/setup-audio.rst:76
 msgid "Avoid turning your avatar while talking"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:81
+#: ../../source/explore/get-started/setup-audio.rst:77
 msgid ""
 "Leave your microphone muted while another person talks for 10 seconds at "
 "a time"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:85
+#: ../../source/explore/get-started/setup-audio.rst:81
 msgid "Test Your Audio Devices"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:87
+#: ../../source/explore/get-started/setup-audio.rst:83
 msgid ""
 "Audio is an integral part of social VR experience, so of course, we want "
 "to make sure that your devices are working correctly and that everyone "
@@ -14423,14 +14292,14 @@ msgid ""
 "make sure that both your input and output devices are working correctly."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:89
+#: ../../source/explore/get-started/setup-audio.rst:85
 msgid ""
-"The 'Test Your Voice' feature does not automatically mute your voice! We "
-"recommend muting yourself prior to checking your voice input if you do "
-"not want others to hear your microphone check."
+"The 'Test Your Voice' feature requires you to be unmuted! We recommend "
+"heading back to the Tutorial place prior to checking your voice input if "
+"you do not want others to hear your microphone check."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:92
+#: ../../source/explore/get-started/setup-audio.rst:88
 msgid ""
 "Click 'Test Your Voice' to test your input device. Speak into your mic, "
 "and the sound will be played right back at you through the selected "
@@ -14438,84 +14307,80 @@ msgid ""
 "desired sound."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:93
+#: ../../source/explore/get-started/setup-audio.rst:89
 msgid ""
 "Click 'Test Your Sound' to test your output device. Adjust the headset "
 "and/or application volume until the sound is a comfortable volume."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:97
+#: ../../source/explore/get-started/setup-audio.rst:93
 msgid "Adjust In-World Volume"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:99
+#: ../../source/explore/get-started/setup-audio.rst:95
 msgid "There are three different types of “sounds” in Overte:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:101
+#: ../../source/explore/get-started/setup-audio.rst:97
 msgid ""
 "People: The sound you hear when people in the domain are talking through "
 "their microphones"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:102
+#: ../../source/explore/get-started/setup-audio.rst:98
 msgid ""
 "Environment: The ambient sounds in the domain, running as scripts in the "
 "background"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:103
+#: ../../source/explore/get-started/setup-audio.rst:99
 msgid ""
 "System Sound: The sound your computer makes as you interact with the "
 "application window (such as the “clicking” you hear when you hover over "
 "an icon)"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:105
+#: ../../source/explore/get-started/setup-audio.rst:101
 msgid ""
 "To change the volume of all of these at once, simply change the volume of"
 " your headset or output device."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:107
+#: ../../source/explore/get-started/setup-audio.rst:103
 msgid "To change one or more of these sound types independently of the others:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:110
-#: ../../source/explore/get-started/setup-audio.rst:123
+#: ../../source/explore/get-started/setup-audio.rst:106
+#: ../../source/explore/get-started/setup-audio.rst:118
 msgid "Choose 'Desktop' or 'VR' depending on the mode you are in."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:111
-msgid "Scroll down to 'Choose Output Device'."
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:112
+#: ../../source/explore/get-started/setup-audio.rst:107
 msgid ""
 "Adjust the sliders to the desired volume levels for each of the sound "
 "types."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:116
+#: ../../source/explore/get-started/setup-audio.rst:111
 msgid "Enable Push to Talk (PTT)"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:118
+#: ../../source/explore/get-started/setup-audio.rst:113
 msgid ""
 "‘Push to Talk’ is like having a walkie talkie in your hand. You need to "
 "press a button to have others hear you in the environment. When you’re "
 "not pressing the button, you are muted and will not be heard."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:120
+#: ../../source/explore/get-started/setup-audio.rst:115
 msgid "To turn on ‘Push to Talk’:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:124
+#: ../../source/explore/get-started/setup-audio.rst:119
 msgid "Toggle 'Push to Talk' on."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:126
+#: ../../source/explore/get-started/setup-audio.rst:121
 msgid ""
 "In Desktop mode, press and hold the “T” key on your keyboard to talk. "
 "When using an HMD in VR mode, press and hold the grip triggers on your "
@@ -14523,79 +14388,95 @@ msgid ""
 "Interface window."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:130
+#: ../../source/explore/get-started/setup-audio.rst:125
 msgid "Adjust Overte Audio Settings"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:132
+#: ../../source/explore/get-started/setup-audio.rst:127
 msgid ""
 "There are a number of settings you can configure to customize your audio "
 "experience in Overte. To change these, open your Tablet or HUD and go to "
 "**Audio**."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:137
+#: ../../source/explore/get-started/setup-audio.rst:132
 msgid "Mute microphone"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:137
+#: ../../source/explore/get-started/setup-audio.rst:132
 msgid "Mute or unmute your microphone."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:139
+#: ../../source/explore/get-started/setup-audio.rst:134
 msgid "HMD Mute Warning (VR)"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:139
+#: ../../source/explore/get-started/setup-audio.rst:134
 msgid ""
 "Enable to receive a warning when your microphone is muted when wearing a "
 "HMD device."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:141
-msgid "Noise reduction"
+#: ../../source/explore/get-started/setup-audio.rst:136
+msgid "Push To Talk"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:141
-msgid ""
-"Enable to turn on noise reduction. This removes outside noise from audio "
-"signals."
+#: ../../source/explore/get-started/setup-audio.rst:136
+msgid "Enable or disable `push to talk <#enable-push-to-talk-ptt>`_."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:143
+#: ../../source/explore/get-started/setup-audio.rst:138
 msgid "Audio level meter"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:143
+#: ../../source/explore/get-started/setup-audio.rst:138
 msgid ""
 "By default, the audio level meter is visible on the top left corner of "
 "your screen. Uncheck this box to hide the meter."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:146
-msgid "Echo Cancellation"
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:146
-msgid "Enable or disable `acoustic echo cancellation <#id1>`_."
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:148
+#: ../../source/explore/get-started/setup-audio.rst:141
 msgid "Stereo input"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:148
+#: ../../source/explore/get-started/setup-audio.rst:141
 msgid ""
 "Enable or disable stereo input. Stereo reproduces sound using two or more"
 " audio channels. This means that you will hear sound from various "
 "directions, like how you would in the real world."
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:156
+#: ../../source/explore/get-started/setup-audio.rst:145
+msgid "Echo Cancellation"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:145
+msgid "Enable or disable `acoustic echo cancellation <#id1>`_."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:147
+msgid "Noise reduction"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:147
+msgid ""
+"Enable to turn on noise reduction. This removes outside noise from audio "
+"signals."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:149
+msgid "Manual Noise Reduction"
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:149
+msgid "Enable to allow setting a custom threshold for noise reduction."
+msgstr ""
+
+#: ../../source/explore/get-started/setup-audio.rst:155
 msgid "Adjust OS Audio Settings"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:158
+#: ../../source/explore/get-started/setup-audio.rst:157
 msgid ""
 "Many device settings, such as input levels, boost, gains, and "
 "enhancements, cannot be set in Overte. These settings can only be "
@@ -14605,107 +14486,58 @@ msgid ""
 "system's device settings:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:160
+#: ../../source/explore/get-started/setup-audio.rst:159
 msgid "**Update the driver software for your audio devices**:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:162
+#: ../../source/explore/get-started/setup-audio.rst:161
 msgid ""
-"On Mac: Apple handles all driver updates on your computer. To check for "
-"updates, click on the Apple icon in the top-left corner of the screen and"
-" select 'Software Update'."
+"On Windows: Follow steps in Microsoft support article `Update drivers "
+"through Device Manager in Windows <https://support.microsoft.com/en-"
+"us/windows/update-drivers-through-device-manager-in-windows-ec62f46c-ff14"
+"-c91d-eead-d7126dc1f7b6>`_"
 msgstr ""
 
 #: ../../source/explore/get-started/setup-audio.rst:163
-msgid ""
-"On Windows: Open the **Device Manager** and select the arrow next to "
-"**Sound, audio and game controllers**. Right-click on your audio device "
-"and select 'Update driver'."
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:164
 msgid "**Adjust microphone levels and/or boost**:"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:166
-msgid "On Mac: Go to **System Preferences > Sound > Input**."
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:167
+#: ../../source/explore/get-started/setup-audio.rst:165
 msgid ""
-"On Windows: Go to **Control Panel > Sound > Recording**. Choose your "
-"microphone and click 'Properties'."
+"On Windows: Follow the steps under *\"To test a microphone that's already"
+" installed\"* of Microsoft support article `How to set up and test "
+"microphones in Windows <https://support.microsoft.com/en-au/windows/how-"
+"to-set-up-and-test-microphones-in-windows-ba9a4aab-"
+"35d1-12ee-5835-cccac7ee87a4>`_"
 msgstr ""
 
-#: ../../source/explore/get-started/setup-audio.rst:168
-msgid "**Adjust other advanced sound settings**:"
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:170
-msgid "Go to **Control Panel > Sound**"
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:171
-msgid "Go to **Settings > System > Sound**"
-msgstr ""
-
-#: ../../source/explore/get-started/setup-audio.rst:172
-msgid "Go to **Control Panel > Hardware and Sound > Adjust System Volume**"
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:2
-msgid ""
-"This document is slightly outdated. FIXME: since we support OpenVR and "
-"Oculus Runtime we support almost all HMDs and input devices on the "
-"market, we probably support alternatives to Vive Trackers"
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:9
+#: ../../source/explore/get-started/vr-controls.rst:5
 msgid ""
 "To get the best and most immersive experience in Overte, we encourage you"
-" to use VR equipment, such as the Oculus Rift or HTC Vive. With these HMD"
-" devices and hand controllers, you will be able to interact with people "
-"in 3D, track body movements, and engage with the objects around you. We "
-"support the following VR equipment:"
+" to use VR equipment. With these HMD devices and hand controllers, you "
+"will be able to interact with people in 3D, track body movements, and "
+"engage with the objects around you. We support both OpenVR and OpenXR, "
+"which means we support most currently available HMDs and hand "
+"controllers."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:12
-msgid "Head Mounted Displays"
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:12
-msgid "Hand Controllers"
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:14
-msgid "Oculus Rift (CV1 and S)"
+#: ../../source/explore/get-started/vr-controls.rst:7
+msgid ""
+"We recommend you use OpenXR, as it performs better, supports hand "
+"tracking and has better compatibility with newer controller features. You"
+" can also choose to use OpenVR, which currently has the best support for "
+"body tracking."
 msgstr ""
 
 #: ../../source/explore/get-started/vr-controls.rst:14
-msgid "Oculus Touch"
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:16
-msgid "HTC Vive"
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:18
-msgid "Windows MR"
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:18
-msgid "XBox One Controller"
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:27
 msgid "VR Controls"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:38
+#: ../../source/explore/get-started/vr-controls.rst:25
 msgid "Comfort Mode"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:40
+#: ../../source/explore/get-started/vr-controls.rst:27
 msgid ""
 "Motion sickness is a real problem for many people when they put on a HMD "
 "and enter VR. This happens because your eyes experience movement in VR, "
@@ -14713,168 +14545,176 @@ msgid ""
 "discomfort using VR equipment, you are not alone."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:42
+#: ../../source/explore/get-started/vr-controls.rst:29
 msgid ""
 "\"Comfort mode\" is designed to decrease the effects of motion sickness "
 "while using Overte. This mode:"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:44
+#: ../../source/explore/get-started/vr-controls.rst:31
 msgid "Disables sharp turns"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:45
+#: ../../source/explore/get-started/vr-controls.rst:32
 msgid "Decreases your field of vision by darkening the edges of the screen"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:46
+#: ../../source/explore/get-started/vr-controls.rst:33
 msgid "Adds a ground plane and grid"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:48
+#: ../../source/explore/get-started/vr-controls.rst:35
 msgid ""
 "All of these features were developed to help you orient yourself when "
 "moving around in VR."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:50
+#: ../../source/explore/get-started/vr-controls.rst:37
 msgid ""
 "To enable comfort mode, go to **Menu > Settings > Controls** on your "
 "tablet. Use the slider to adjust how much of the environment you see in "
 "VR."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:56
+#: ../../source/explore/get-started/vr-controls.rst:43
 msgid "Change How You Move in VR"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:58
+#: ../../source/explore/get-started/vr-controls.rst:45
 msgid ""
 "You can change many avatar movement settings in VR such as jumping, "
 "flying, and leaning behavior. To do so:"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:60
+#: ../../source/explore/get-started/vr-controls.rst:47
 msgid "In Desktop mode, go to **Settings > Controls** in the menu bar."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:61
+#: ../../source/explore/get-started/vr-controls.rst:48
 msgid "In VR mode, open your Tablet and go to **Menu > Settings > Controls**."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:66
+#: ../../source/explore/get-started/vr-controls.rst:53
 msgid "*VR Movement* > Teleporting"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:66
+#: ../../source/explore/get-started/vr-controls.rst:53
 msgid ""
 "Enables teleport controls to move seamlessly between positions within a "
 "domain."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:69
+#: ../../source/explore/get-started/vr-controls.rst:56
 msgid "*VR Movement* > Walking"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:69
+#: ../../source/explore/get-started/vr-controls.rst:56
 msgid "Enables walking controls to move within a domain."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:72
+#: ../../source/explore/get-started/vr-controls.rst:59
 msgid "*VR Movement* > Strafing"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:72
+#: ../../source/explore/get-started/vr-controls.rst:59
 msgid "Enables strafing controls (to walk sideways)."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:75
+#: ../../source/explore/get-started/vr-controls.rst:62
 msgid "*VR Movement* > Jumping and flying"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:75
+#: ../../source/explore/get-started/vr-controls.rst:62
 msgid "Enables jump and fly controls."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:78
+#: ../../source/explore/get-started/vr-controls.rst:65
+msgid "*VR Movement* > Hover when unsupported"
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:65
+msgid "Enables floating when there is no longer a surface below your feet."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:68
 msgid "*VR Movement* > Movement Direction"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:78
+#: ../../source/explore/get-started/vr-controls.rst:68
 msgid "This setting controls which direction you move in:"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:80
+#: ../../source/explore/get-started/vr-controls.rst:70
 msgid "**HMD-Relative**: Move in the direction your head is pointing."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:81
+#: ../../source/explore/get-started/vr-controls.rst:71
 msgid "**Hand-Relative**: Move in the direction your dominant hand is pointing."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:82
+#: ../../source/explore/get-started/vr-controls.rst:72
 msgid ""
 "**Hand-Relative (Leveled)**: Move in the direction your hand is pointing,"
 " without taking pitch into account."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:85
+#: ../../source/explore/get-started/vr-controls.rst:75
 msgid "*VR Movement* > Dominant Hand"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:85
+#: ../../source/explore/get-started/vr-controls.rst:75
 msgid ""
 "Select 'Left' or 'Right'. Teleport and turn controls move to the "
 "controller in the dominant hand."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:88
+#: ../../source/explore/get-started/vr-controls.rst:78
 msgid "*VR Movement* > Rotation Mode"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:88
+#: ../../source/explore/get-started/vr-controls.rst:78
 msgid "This setting controls how you turn in VR:"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:90
+#: ../../source/explore/get-started/vr-controls.rst:80
 msgid "**Snap turn**: Rotate your avatar sharply to the left or the right."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:91
+#: ../../source/explore/get-started/vr-controls.rst:81
 msgid ""
 "**Smooth turn**: Rotate your avatar smoothly as you turn to the left or "
 "right."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:93
+#: ../../source/explore/get-started/vr-controls.rst:83
 msgid ""
 "**Comfort mode**: Enable `comfort mode`_ and decrease the field of vision"
 " while moving in VR mode."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:96
+#: ../../source/explore/get-started/vr-controls.rst:86
 msgid "*VR Movement* > Control Scheme Selection"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:96
+#: ../../source/explore/get-started/vr-controls.rst:86
 msgid "This setting determines how you control your walking speed:"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:98
+#: ../../source/explore/get-started/vr-controls.rst:88
 msgid ""
 "**Default**: Your walking speed will remain the same, no matter how far "
 "forward you push your controller's joystick. Fully pushing the joystick "
 "forward will make your avatar run."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:101
+#: ../../source/explore/get-started/vr-controls.rst:91
 msgid ""
 "**Analog**: Your walking speed changes based on how far forward you push "
 "your controller's joystick. Fully pushing your joystick forward will make"
 " your avatar run."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:104
+#: ../../source/explore/get-started/vr-controls.rst:94
 msgid ""
 "**Analog++**: Your walking speed changes based on how far forward you "
 "push your controller's joystick. You can use the slider to change the "
@@ -14882,215 +14722,233 @@ msgid ""
 "forward will make your avatar run."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:109
-msgid "*VR Movement* > Avatar leaning behavior"
+#: ../../source/explore/get-started/vr-controls.rst:99
+msgid "*VR Movement* > Allow my avatar to lean"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:109
-msgid "This setting controls if and when your avatar leans in VR mode."
-msgstr ""
-
-#: ../../source/explore/get-started/vr-controls.rst:111
+#: ../../source/explore/get-started/vr-controls.rst:99
 msgid ""
-"**Auto**: This is the default setting. Your avatar will lean if you are "
-"standing in the real world."
+"When you lean, your avatar would naturally lean too. This setting "
+"dictates when your avatar would stand still and lean, or if it would "
+"instead move to follow your head's position."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:113
+#: ../../source/explore/get-started/vr-controls.rst:103
 msgid ""
-"**Seated**: Your avatar will not lean if you are sitting in the real "
-"world."
+"**When I'm standing**:  When you are standing and lean your avatar will "
+"lean too, but when you are seating or crouching your body will move with "
+"your head position."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:114
-msgid "**Standing**: Your avatar will lean if you are sitting in the real world."
+#: ../../source/explore/get-started/vr-controls.rst:106
+msgid ""
+"**Always**: Your avatar will always lean as your head moves horizontally;"
+" ideally suited for when you will stay in one spot and will not be "
+"walking around your play space."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:115
-msgid "**Disabled**: Your avatar can sit on the floor (experimental)."
+#: ../../source/explore/get-started/vr-controls.rst:109
+msgid ""
+"**Never**: Whether standing, sitting or crouching your avatar will always"
+" move to follow your head position; perfect for room-scale VR."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:117
+#: ../../source/explore/get-started/vr-controls.rst:112
 msgid "User real world height (in meters)"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:117
+#: ../../source/explore/get-started/vr-controls.rst:112
 msgid "You can change your real world height for better tracking in VR mode."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:125
+#: ../../source/explore/get-started/vr-controls.rst:120
 msgid "Motion Capture Using Vive Trackers"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:127
+#: ../../source/explore/get-started/vr-controls.rst:122
 msgid ""
-"You can enhance your Overte experience using full body motion capture "
-"(mocap). Overte currently supports mocap using HTC Vive Trackers."
+"You can enhance your Overte experience using full body tracking (FBT), "
+"also known as full body motion capture (mocap). Overte currently supports"
+" FBT using any trackers compatible with OpenVR or OpenXR runtimes, "
+"including the HTC Vive Trackers."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:129
+#: ../../source/explore/get-started/vr-controls.rst:124
+msgid ""
+"Whilst Overte supports full body tracking in both OpenVR and OpenXR, for "
+"best compatibility we recommend you use OpenVR for accurate body "
+"tracking."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:126
+msgid ""
+"This section will focus exclusively on HTC Vive Trackers, but any full "
+"body trackers should work just as well."
+msgstr ""
+
+#: ../../source/explore/get-started/vr-controls.rst:128
 msgid ""
 "Vive trackers need to be strapped to the body part you wish to track. You"
 " can replace the HMD and hand controllers with trackers if you only need "
 "to track the movement of your head and hands."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:131
-msgid "You can set up different mocap systems:"
+#: ../../source/explore/get-started/vr-controls.rst:130
+msgid "You can set up different FBT systems:"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:134
+#: ../../source/explore/get-started/vr-controls.rst:133
 msgid "Mocap System"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:134
+#: ../../source/explore/get-started/vr-controls.rst:133
 msgid "Equipment Needed"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:134
+#: ../../source/explore/get-started/vr-controls.rst:133
 msgid "Recommended Straps"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:136
+#: ../../source/explore/get-started/vr-controls.rst:135
 msgid "Head"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:136
+#: ../../source/explore/get-started/vr-controls.rst:135
 msgid "HMD or 1 Vive Tracker"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:136
+#: ../../source/explore/get-started/vr-controls.rst:135
 msgid "Head strap for Vive Tracker"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:138
+#: ../../source/explore/get-started/vr-controls.rst:137
 msgid "Hands"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:138
+#: ../../source/explore/get-started/vr-controls.rst:137
 msgid "Hand controllers or 2 Vive Trackers"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:138
+#: ../../source/explore/get-started/vr-controls.rst:137
 msgid "Hand strap for Vive Tracker"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:141
+#: ../../source/explore/get-started/vr-controls.rst:140
 msgid "Head + Hands + Feet"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:141
+#: ../../source/explore/get-started/vr-controls.rst:140
 msgid "2 Vive Trackers + HMD + 2 Hand Controllers"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:141
+#: ../../source/explore/get-started/vr-controls.rst:140
 msgid "Foot straps"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:144
+#: ../../source/explore/get-started/vr-controls.rst:143
 msgid "Head + Hands + Feet + Hips"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:144
+#: ../../source/explore/get-started/vr-controls.rst:143
 msgid "3 Vive Trackers + HMD + 2 Hand Controllers"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:144
+#: ../../source/explore/get-started/vr-controls.rst:143
 msgid ""
 "Hip Strap: Drill a hole in the back of a thick leather belt and attach "
 "the tracker using a 1/4\" screw."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:147
+#: ../../source/explore/get-started/vr-controls.rst:146
 msgid "Head + Hands + Feet + Hips + Chest"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:147
+#: ../../source/explore/get-started/vr-controls.rst:146
 msgid "4 Vive Trackers + HMD + 2 Hand Controllers"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:147
+#: ../../source/explore/get-started/vr-controls.rst:146
 msgid "Chest straps"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:150
+#: ../../source/explore/get-started/vr-controls.rst:149
 msgid "Head + Hands + Feet + Hips + Shoulders"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:150
+#: ../../source/explore/get-started/vr-controls.rst:149
 msgid "5 Vive Trackers + HMD + 2 Hand Controllers"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:150
+#: ../../source/explore/get-started/vr-controls.rst:149
 msgid "Shoulder straps"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:155
+#: ../../source/explore/get-started/vr-controls.rst:154
 msgid ""
 "You can replace the HMD and hand controllers with trackers if you only "
 "need to track the movement of your head and hands."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:161
+#: ../../source/explore/get-started/vr-controls.rst:160
 msgid "Configure Your Mocap System"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:163
+#: ../../source/explore/get-started/vr-controls.rst:162
 msgid "Strap your Vive trackers to your body as shown in the image."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:164
+#: ../../source/explore/get-started/vr-controls.rst:163
 msgid "Connect your trackers, HMD, and controllers to SteamVR."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:165
+#: ../../source/explore/get-started/vr-controls.rst:164
 msgid ""
-"In Interface, pull up your HUD or Tablet and go to **Menu > Settings > "
-"Calibration**."
+"In Overte Interface, pull up your HUD or Tablet and go to **Menu > "
+"Settings > Calibration**."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:166
-msgid "Configure your mocap system by:"
+#: ../../source/explore/get-started/vr-controls.rst:165
+msgid "Configure your full body tracking system by:"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:168
+#: ../../source/explore/get-started/vr-controls.rst:167
 msgid ""
 "Selecting the right device for your head and hands. If you're using a "
 "head tracker instead of an HMD, click 'Use HTC Vive Devices in Desktop "
 "Mode'."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:169
+#: ../../source/explore/get-started/vr-controls.rst:168
 msgid "Selecting the body position of any additional trackers."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:173
+#: ../../source/explore/get-started/vr-controls.rst:172
 msgid "Click 'Apply and Calibrate'."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:174
+#: ../../source/explore/get-started/vr-controls.rst:173
 msgid "Stand in a T-Pose until the timer counts down to zero:"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:176
+#: ../../source/explore/get-started/vr-controls.rst:175
 msgid "Feet together"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:177
+#: ../../source/explore/get-started/vr-controls.rst:176
 msgid "Arms out"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:178
+#: ../../source/explore/get-started/vr-controls.rst:177
 msgid "Head looking straight ahead."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:180
+#: ../../source/explore/get-started/vr-controls.rst:179
 msgid ""
 "Check to see that each tracker is tracking the corresponding joint on "
 "your avatar."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:181
+#: ../../source/explore/get-started/vr-controls.rst:180
 msgid ""
 "You can also calibrate your trackers without using your tablet. Once you "
 "apply your configuration, stand in a T-Pose and hold the following four "
@@ -15099,7 +14957,7 @@ msgid ""
 "second to remove your calibration from the trackers."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:183
+#: ../../source/explore/get-started/vr-controls.rst:182
 msgid ""
 "When you setup your Vive, you choose which way to point the arrow as your"
 " reference. During calibration,  it is important that you face the same "
@@ -15108,108 +14966,108 @@ msgid ""
 " to make sure your joints are oriented correctly."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:190
+#: ../../source/explore/get-started/vr-controls.rst:189
 msgid "Troubleshooting Steps"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:192
+#: ../../source/explore/get-started/vr-controls.rst:191
 msgid "My calibration failed"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:192
+#: ../../source/explore/get-started/vr-controls.rst:191
 msgid "Check if your trackers are properly connected in SteamVR."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:193
+#: ../../source/explore/get-started/vr-controls.rst:192
 msgid ""
 "Have you selected the correct configuration in your tablet and do you "
 "have enough number of trackers to support that configuration?"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:195
+#: ../../source/explore/get-started/vr-controls.rst:194
 msgid ""
 "If you are performing and not in HMD, did you select to 'Use HTC Vive in "
 "Desktop Mode'?"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:196
+#: ../../source/explore/get-started/vr-controls.rst:195
 msgid "Are any of the trackers blinking? If so, they may need to be paired again."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:197
+#: ../../source/explore/get-started/vr-controls.rst:196
 msgid ""
 "Do you have the correct number of dongles plugged in to your computer? "
 "You will need one dongle per tracker. If you are performing with all 7, "
 "then you may need a USB hub to handle them."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:201
+#: ../../source/explore/get-started/vr-controls.rst:200
 msgid "My sensor is jiggling a lot"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:201
+#: ../../source/explore/get-started/vr-controls.rst:200
 msgid "Make sure the straps on the sensor are tightened."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:203
+#: ../../source/explore/get-started/vr-controls.rst:202
 msgid "My sensor keeps losing tracking"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:203
+#: ../../source/explore/get-started/vr-controls.rst:202
 msgid ""
 "If it’s the hip tracker, is your shirt is tucked in and not covering the "
 "puck? Also make sure your headphone cord isn’t covering the puck."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:205
+#: ../../source/explore/get-started/vr-controls.rst:204
 msgid "Can the base stations clearly see the tracker?"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:206
+#: ../../source/explore/get-started/vr-controls.rst:205
 msgid ""
 "Is the signal from the base station conflicting with another Vive setup "
 "nearby?"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:207
+#: ../../source/explore/get-started/vr-controls.rst:206
 msgid ""
 "Are you clear of reflective surfaces nearby? (such as picture frames, "
 "whiteboards, shiny tables)."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:209
+#: ../../source/explore/get-started/vr-controls.rst:208
 msgid "Is the lighting consistent across the room (minimal outdoor lighting)?"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:210
+#: ../../source/explore/get-started/vr-controls.rst:209
 msgid "Try restarting SteamVR."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:213
+#: ../../source/explore/get-started/vr-controls.rst:212
 msgid ""
 "Remember to charge your trackers when you aren't using them so that you "
 "don't have to deal with a low battery tracker negatively impacting your "
 "performance."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:219
+#: ../../source/explore/get-started/vr-controls.rst:218
 msgid ""
 "If your HMD does not come equipped with hand controllers, you can use a "
 "gamepad. However, Overte is best experienced with VR equipment or the "
 "keyboard in Desktop mode."
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:226
+#: ../../source/explore/get-started/vr-controls.rst:225
 msgid ":doc:`Interact with Your Environment <../interact>`"
 msgstr ""
 
-#: ../../source/explore/get-started/vr-controls.rst:227
+#: ../../source/explore/get-started/vr-controls.rst:226
 msgid ":doc:`Explore in Desktop Mode <desktop>`"
 msgstr ""
 
 #: ../../source/explore/interact.md:3
 msgid ""
-"In Overte, your experiences are shaped the world around you. When you "
+"In Overte, your experiences are shaped by the world around you. When you "
 "enter a domain, all of the space around you is built with "
 "[entities](../create/entities), or the building blocks of your "
 "environments. The walls of your room, the tree in the distance, or the "
@@ -15280,8 +15138,8 @@ msgstr ""
 #: ../../source/explore/interact.md:34
 msgid ""
 "When creating your own entities, you can [set the Collision "
-"property](../create/entities/entity-behavior.rst#entity-collision-"
-"behavior) to turn on or off collisions."
+"property](../create/entities/entity-behavior.rst#set-entity-behavior-on-"
+"collision) to turn on or off collisions."
 msgstr ""
 
 #: ../../source/explore/interact.md:36
@@ -15321,12 +15179,17 @@ msgid "[Define Interactions with Avatars](../create/entities/avatar-interactions
 msgstr ""
 
 #: ../../source/explore/personalize.rst:9
+#: ../../source/explore/personalize/change-avatar.md:1
+msgid "Change Your Avatar"
+msgstr ""
+
+#: ../../source/explore/personalize.rst:9
 msgid "Put on Wearables"
 msgstr ""
 
 #: ../../source/explore/personalize.rst:9
-#: ../../source/explore/personalize/install-apps.md:6
-#: ../../source/explore/personalize/install-apps.md:22
+#: ../../source/explore/personalize/install-apps.rst:3
+#: ../../source/explore/personalize/install-apps.rst:15
 msgid "Install Tablet Apps"
 msgstr ""
 
@@ -15337,430 +15200,479 @@ msgid ""
 "hardware you use, to the way the app works, to how you appear to others."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:2
-msgid "This document is slightly outdated. FIXME: only mentions FBX files"
-msgstr ""
-
-#: ../../source/explore/personalize/add-wearables.rst:7
+#: ../../source/explore/personalize/add-wearables.rst:3
 msgid "Put On Wearables"
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:9
+#: ../../source/explore/personalize/add-wearables.rst:5
 msgid ""
 "You can customize your avatar's appearance by adding wearables, such as a"
 " pirate's hat, a pair of sunglasses, or even a pair of trousers that you "
 "designed. Like avatars, you can use your imagination to create your own."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:17
+#: ../../source/explore/personalize/add-wearables.rst:13
 msgid "Wear Your Own Wearable"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:15
+msgid ""
+"Put on a :doc:`wearable that you created <../../create/wearables>`. All "
+"wearables must be hosted on the internet before they can be used with "
+"Overte. You can host on your own HTTP(S) server, upload to your website "
+"or to another web hosting service."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:17
+msgid ""
+"Your wearable must be hosted at a publicly accessible URL so everyone can"
+" see it. You must be able to link directly to the file on the internet; "
+"Do not use an url to a download page, local network address or a file on "
+"your local computer."
 msgstr ""
 
 #: ../../source/explore/personalize/add-wearables.rst:19
 msgid ""
-"You can put on a :doc:`wearable that you created "
-"<../../create/wearables>`. All wearables must be hosted in the cloud "
-"before they can be used with Overte. Examples of cloud storage options "
-"include Amazon S3, Google Cloud Storage, GitHub, or Microsoft Azure."
+"Once you know the URL for your wearable's FBX/GLB/glTF/OBJ file, then put"
+" it on your avatar:"
 msgstr ""
 
 #: ../../source/explore/personalize/add-wearables.rst:21
-msgid ""
-"Once you know the URL for your wearable's FBX file, then put it on your "
-"avatar:"
+#: ../../source/explore/personalize/change-avatar.md:21
+msgid "In Overte Interface, pull up your tablet or HUD and click on **Avatar**."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:23
-#: ../../source/explore/personalize/change-avatar.md:26
-msgid "In Interface, pull up your tablet or HUD and click on **Avatar**."
-msgstr ""
-
-#: ../../source/explore/personalize/add-wearables.rst:24
+#: ../../source/explore/personalize/add-wearables.rst:22
 msgid "In the **Avatar** window, click the hat icon next to 'Wearables'."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:27
+#: ../../source/explore/personalize/add-wearables.rst:25
 msgid "Click 'Add custom' at the top of the window."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:28
-msgid "Enter the .fbx file's URL and click 'Confirm'."
+#: ../../source/explore/personalize/add-wearables.rst:26
+msgid "Enter the wearable file's URL and click 'Confirm'."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:29
+#: ../../source/explore/personalize/add-wearables.rst:27
 msgid ""
 "Select the joint you'd like to use for your wearable. For example, a hat "
 "would be on your head, and fairy wings would be on your spine."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:30
+#: ../../source/explore/personalize/add-wearables.rst:28
 msgid "Fine tune the placement using the 'Position' and 'Rotation' options."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:31
+#: ../../source/explore/personalize/add-wearables.rst:29
 msgid ""
 "Check 'Is soft' if the item is rigged with your skeleton. This allows the"
 " item to move and bend with the avatar as it moves."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:32
+#: ../../source/explore/personalize/add-wearables.rst:30
 #: ../../source/host/add-content/export-content.rst:38
 #: ../../source/host/configure-settings/place-setting.rst:43
 msgid "Click 'Save'."
 msgstr ""
 
-#: ../../source/explore/personalize/add-wearables.rst:37
+#: ../../source/explore/personalize/add-wearables.rst:32
+msgid ""
+"You may find it easier to fine tune your wearable's placement `using the "
+"Create app <#modify-your-wearable>`_."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:36
+msgid "Grab your Wearable"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:38
+msgid ""
+"A wearable isn't just a static add-on to your avatar, it behaves as if it"
+" were its own object in the world too. In VR you can use either hand to "
+"grab and interact with it, just as you can on Desktop."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:40
+msgid ""
+"You can make small adjustments to their position using your hand "
+"controllers. Want to spin your cap around to be one of the cool kids? Now"
+" you can! It will stay connected to whichever joint you chose when you "
+"added it, but will maintain its new relative position after you have "
+"released it from your grab."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:42
+msgid ""
+"Wearables can be grabbed by anyone, not just the person wearing them. If "
+"you don't want that, make sure to lock them in place!"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:44
+msgid ""
+"If you would like to lock it in place, so it cannot be grabbed, click the"
+" lock icon in the **Avatar** app."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:48
+msgid "Modify your Wearable"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:50
+msgid ""
+"You can even modify your wearable using the `Create app "
+"<../../create/tools.html#the-create-app>`_ whilst you are wearing it."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:52
+msgid ""
+"Modified wearables will follow you to different domains and remain when "
+"you next load Overte, however any modifications will not be saved to your"
+" avatar until you favorite it again."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:54
+msgid ""
+"You can edit any property of your wearable, just like any other object in"
+" the domain. Give it a name, shift its position in relation to the joint "
+"it is attached to, give it an animation or attach an entity script. Your "
+"modifications will remain until you switch to another avatar."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:58
+msgid "Favorite Wearables for your Avatar"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:60
+msgid ""
+"So you have added a wearable or two as accessories for your current "
+"avatar, and you like them so much you just know you will be wearing them "
+"all the time? It's time to save them as a set with your favorite avatar."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:62
+msgid ""
+"When you add an Avatar as a favorite, it will also save any wearables you"
+" have added along with it. So whenever you change your set of wearables "
+"be sure to press **Add to favorites** to save them as a favorite set. "
+"Then whenever you load it from your favorites again, your wearables will "
+"load along with it!"
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:64
+msgid ""
+"Changes made to your wearables are not automatically saved to your "
+"favorites. You must **Add to favorites** again to save changes after "
+"grabbing, modifying, adding or removing wearables."
+msgstr ""
+
+#: ../../source/explore/personalize/add-wearables.rst:68
 msgid ":doc:`Create Wearables <../../create/wearables>`"
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:8
+#: ../../source/explore/personalize/change-avatar.md:3
 msgid ""
 "When you first use Overte, you will be wearing the default avatar, Woody."
-" Your avatar is a representation of you in the metaverse. You can control"
-" how your avatar moves and speak to other users in-world using it."
+" Your avatar will represent you in the digital realm. With it you dictate"
+" how other people see you through how your avatar looks and moves. You "
+"can have full control over your persona as you speak to other users in-"
+"world."
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:12
+#: ../../source/explore/personalize/change-avatar.md:7
 msgid "[Use Your Own Custom Avatar](#use-your-own-custom-avatar)"
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:15
+#: ../../source/explore/personalize/change-avatar.md:10
 msgid "Use Your Own Custom Avatar"
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:17
+#: ../../source/explore/personalize/change-avatar.md:12
 msgid ""
 "You can use an avatar that you created. Learn more about how you can "
 "create your avatar [here](../../create/avatars/create-avatars)."
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:24
-msgid "Once you have your avatar's .fst file, you can upload it."
+#: ../../source/explore/personalize/change-avatar.md:19
+msgid ""
+"Once you have your avatar, you can upload it. Your avatar may include an "
+".fst, .glb/fbx/glTF, images, animation .json,  and any number of other "
+"files which should all be uploaded to a publicly accessible location so "
+"all users of Overte can see it."
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:27
+#: ../../source/explore/personalize/change-avatar.md:22
 msgid ""
 "In the **Avatar** window, click the link icon next to your current "
 "avatar. ![](_images/avatar-link.png)"
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:28
+#: ../../source/explore/personalize/change-avatar.md:23
 msgid "Enter the .fst file's URL and click 'Confirm'."
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:29
+#: ../../source/explore/personalize/change-avatar.md:24
 msgid ""
 "If you want to access this avatar later without loading the .fst file "
 "information again, you can click on 'Add to Favorites' to save the "
 "current avatar information."
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:33
+#: ../../source/explore/personalize/change-avatar.md:28
 msgid "[Create Your Own Avatar](../../create/avatars/create-avatars)"
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:34
+#: ../../source/explore/personalize/change-avatar.md:29
 msgid "[Find and Use an Existing Avatar](../../create/avatars/find-avatars)"
 msgstr ""
 
-#: ../../source/explore/personalize/change-avatar.md:35
+#: ../../source/explore/personalize/change-avatar.md:30
 msgid "[Package and Host Your Avatar](../../create/avatars/package-avatar)"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:8
+#: ../../source/explore/personalize/install-apps.rst:5
 msgid ""
 "You can enhance your experience in Overte by installing tablet apps. "
 "These apps enable you to get more out of Overte. Do you want to record "
 "your avatar dancing, take selfies, or finger paint? Or are you looking to"
-" livestream to YouTube or make your avatar clap? There's a number of apps"
-" that can help you customize your experience in-world."
+" pose yourself or make your avatar clap? There's a number of apps that "
+"can help you customize your experience in-world."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:10
+#: ../../source/explore/personalize/install-apps.rst:7
 msgid ""
-"If you can't find an app for what you'd like to do, you can [create your "
-"own](../../create/applications) and upload it for your personal use or to"
-" sell to others."
+"If you can't find an app for what you'd like to do, you can :doc:`create "
+"your own <../../create/applications>`. You can easily `load your own "
+"application as a script <../../script/get-started-with-scripting.html"
+"#running-scripts-window>`_, or add it to our `Community Apps "
+"<https://github.com/overte-org/community-apps>`_ to make it available to "
+"everyone via the More app."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:14
-msgid "[Install Tablet Apps](#install-tablet-apps)"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:15
-msgid "[Update an App](#update-an-app)"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:16
-msgid "[Our Apps](#our-apps)"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:17
-msgid "[Spectator Cam: Record or Livestream in Overte](#spectator-cam)"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:18
-msgid "[Finger Painting](#finger-painting)"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:19
-msgid "[Text to Speech](#text-to-speech)"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:23
+#: ../../source/explore/personalize/install-apps.rst:17
 msgid ""
 "We and many users have created tablet apps that are available in Overte. "
 "To find and install an app:"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:25
-msgid "In Interface, pull up your HUD or Tablet and go to **More**."
+#: ../../source/explore/personalize/install-apps.rst:19
+msgid "In Overte Interface, pull up your HUD or Tablet and go to **More**."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:26
+#: ../../source/explore/personalize/install-apps.rst:20
 msgid "Search for a specific app, or browse all apps."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:27
+#: ../../source/explore/personalize/install-apps.rst:21
 msgid ""
-"Once you find the app of your choice, click 'Install' to start using the "
-"app in Overte."
+"Once you find the app of your choice, click **Install** to start using "
+"the app in Overte."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:28
+#: ../../source/explore/personalize/install-apps.rst:22
 msgid ""
 "Once the app is installed, you can access the app through your HUD or "
 "Tablet."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:31
+#: ../../source/explore/personalize/install-apps.rst:27
 msgid "Update an App"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:32
+#: ../../source/explore/personalize/install-apps.rst:29
 msgid ""
-"When an app has an update available, a notification will pop up in the "
-"top right corner of the Interface when you open Overte. Additionally, a "
-"red dot will appear on the **Inventory** icon of your HUD or Tablet to "
-"indicate an update is available to download."
+"Apps installed through the more app, and indeed any scripts loaded from "
+"URL, do not need to be updated manually. When Overte Interface loads it "
+"will automatically check for updates and install them, so you don't need "
+"to worry about keeping up to date!"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:34
-msgid "To update your app:"
+#: ../../source/explore/personalize/install-apps.rst:33
+msgid "More Apps"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:35
-msgid "In Interface, pull up your HUD or Tablet and go to **Inventory**."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:36
+#: ../../source/explore/personalize/install-apps.rst:35
 msgid ""
-"In the **Inventory** app, click the notification that says \"You have X "
-"item updates available.\""
+"Below are some examples of the apps available in the More app and how you"
+" can use them. This is not an exhaustive list; you will find many more in"
+" More app!"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:37
-msgid ""
-"Scroll to the app you'd like to update and click on the menu. ![](_images"
-"/update-menu.png)"
+#: ../../source/explore/personalize/install-apps.rst:39
+msgid "Spectator Camera"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:38
-msgid "Click the 'Update' button, then 'Update for Free'."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:45
-msgid "Additional Notes on Updating"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:46
-msgid ""
-"If you decide not to update an item, the old product will still be valid "
-"and listed in **Inventory**."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:47
-msgid ""
-"Once you update an item, the previous version of the product will no "
-"longer be available."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:48
-msgid ""
-"If you purchased multiple instances of an item, you need to individually "
-"update each instance of an item in your **Inventory**."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:49
-msgid ""
-"When you update a product with the old version already in-world, it will "
-"remain intact until it is replaced manually with the updated version. If "
-"you attempt to import an entities JSON which contains the old version, "
-"the system will ignore the item, and not automatically replace it in-"
-"world. It is up to the end-user to replace the old instances with the "
-"new."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:51
-msgid "Our Apps"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:52
-msgid "We've listed some of the apps we created and how you can use them."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:54
-msgid "Spectator Cam"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:55
+#: ../../source/explore/personalize/install-apps.rst:41
 msgid ""
 "The Spectator Camera is a camera you can use to record or livestream what"
-" you and your friends do in Overte. It is only available in HMD mode, and"
-" requires a recording software such as [Open Broadcaster Software "
-"(OBS)](https://obsproject.com/) to work correctly. Check out their "
-"[official overview guide](https://obsproject.com/forum/threads/official-"
-"overview-guide.402/) for more details."
+" you and your friends do in Overte. It is only available in VR mode, and "
+"requires a recording software such as `Open Broadcaster Software (OBS) "
+"<https://obsproject.com/>`_ to work correctly. Check out their `official "
+"overview guide <https://obsproject.com/forum/threads/official-overview-"
+"guide.402/>`_ for more details."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:57
+#: ../../source/explore/personalize/install-apps.rst:43
 msgid ""
-"[Use the instructions above](#install-tablet-apps) to install the "
+"`Use the instructions above <#install-tablet-apps>`_ to install the "
 "Spectator Camera app."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:64
+#: ../../source/explore/personalize/install-apps.rst:46
+msgid ""
+"While using the Spectator Camera, Overte's framerate might be affected. "
+"This is because Overte is rendering not only what you see, but what the "
+"Spectator Camera sees as well."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.rst:48
 msgid "To use the Spectator Camera app:"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:65
-msgid "In Interface, pull up your HUD or Tablet and go to **Spectator**."
+#: ../../source/explore/personalize/install-apps.rst:50
+msgid "In Overte Interface, pull up your Tablet and go to **Spectator**."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:66
+#: ../../source/explore/personalize/install-apps.rst:51
 msgid ""
 "Turn on your Spectator Cam by moving the slider. You'll see the camera "
 "appear in-world. By default, the app's display shows you what you see in "
 "VR through your HMD. This is to show you what you're recording without "
-"having to take off your HMD. ![](_images/spec-cam-window.png)"
+"having to take off your HMD."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:67
+#: ../../source/explore/personalize/install-apps.rst:55
 msgid ""
 "To record yourself, switch your display from your HMD's view to the "
 "camera view. This lets you record videos of yourself, such as your avatar"
 " dancing or trying on different wearables."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:68
+#: ../../source/explore/personalize/install-apps.rst:56
 msgid ""
 "Enable switching views with your controllers in the **Spectator** app on "
-"your HUD or Tablet."
+"your Tablet."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:69
+#: ../../source/explore/personalize/install-apps.rst:58
 msgid ""
-"**Rift**: If you're using Oculus Touch controllers, click the left "
-"thumbstick to switch views."
+"Click in the left thumbstick to switch views. For controllers without a "
+"thumbstick, press on the center of the thumbpad instead."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:70
+#: ../../source/explore/personalize/install-apps.rst:62
+msgid "Body Paint"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.rst:64
 msgid ""
-"**Vive**: If you're using HTC Vive controllers, press on the center of "
-"the thumb pad to switch views."
+"The Body Paint app lets your paint your environment, your own avatar, or "
+"even another user's avatar. `Use the instructions above <#install-tablet-"
+"apps>`_ to install the Fingerpaint app."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:72
-msgid "Finger Painting"
+#: ../../source/explore/personalize/install-apps.rst:66
+msgid "To use the Body Paint app:"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:74
-msgid ""
-"The Fingerpaint app lets your paint your environment, your own avatar, or"
-" even another user's avatar. [Use the instructions above](#install-"
-"tablet-apps) to install the Fingerpaint app."
+#: ../../source/explore/personalize/install-apps.rst:68
+msgid "In Overte Interface, pull up your HUD or Tablet and go to **Body Paint**."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:76
-msgid "To use the Fingerpaint app:"
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:77
-msgid "In Interface, pull up your HUD or Tablet and go to **Body Paint**."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:78
+#: ../../source/explore/personalize/install-apps.rst:69
 msgid ""
 "First, click 'Options' to select what you would like to paint on - the "
 "world around you, your avatar, or another user's avatar (with their "
 "permission)."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:79
+#: ../../source/explore/personalize/install-apps.rst:70
 msgid "Click 'Palette' to select a color for your paint."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:80
+#: ../../source/explore/personalize/install-apps.rst:71
 msgid ""
 "Click 'Brushes' to select the settings for your brush, such as stroke "
-"width, type of brush, and special effects. ![](_images/fingerpaint.png)"
+"width, type of brush, and special effects."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:83
-msgid "Text to Speech"
+#: ../../source/explore/personalize/install-apps.rst:77
+msgid "Body Poser"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:85
+#: ../../source/explore/personalize/install-apps.rst:79
 msgid ""
-"The Text to Speech app synthesizes the text you type into speech. You can"
-" use this app if you don't wish to use your voice, have microphone "
-"issues, or have disabilities."
+"With the Body Poser app you will be able to move and rotate each of your "
+"limbs to form whatever pose you want!"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:87
+#: ../../source/explore/personalize/install-apps.rst:81
 msgid ""
-"[Use the instructions above](#install-tablet-apps) to install the Text to"
-" Speech app."
+"`Use the instructions above <#install-tablet-apps>`_ to install the Body "
+"Poser app."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:94
-msgid "To use the Text to Speech (TTS) app:"
+#: ../../source/explore/personalize/install-apps.rst:83
+msgid "To use the Body Poser App:"
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:95
-msgid "In Interface, pull up your HUD or Tablet and go to **TTS**."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:96
-msgid "In the app, select the Pitch and Speed of your choice."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:97
-msgid "Type in the text you'd like your avatar to speak."
-msgstr ""
-
-#: ../../source/explore/personalize/install-apps.md:98
+#: ../../source/explore/personalize/install-apps.rst:85
 msgid ""
-"Hit 'Speak' to hear your text. Hit 'Stop Last' to stop your avatar from "
-"speaking. ![](_images/tts.png)"
+"Open your context menu with :kbd:`b` on your keyboard, or the context "
+"menu button on your controller."
 msgstr ""
 
-#: ../../source/explore/personalize/install-apps.md:102
-msgid "[Create Tablet Apps](../../create/applications)"
+#: ../../source/explore/personalize/install-apps.rst:86
+msgid "Select **Poser** and then toggle **Enabled**."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:5
+#: ../../source/explore/personalize/install-apps.rst:87
+msgid ""
+"Your avatar will form a T-pose and you will now see your \"handles\" as "
+"colored boxes on your avatar."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.rst:88
+msgid ""
+"You can grab a handle with either your mouse left click or your grab "
+"button on controller and drag to move it."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.rst:89
+msgid ""
+"On desktop you can hold :kbd:`Shift` to move the handle up/down, and "
+":kbd:`Ctrl` to rotate it."
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.rst:90
+msgid ""
+"Once you are happy with your pose you can hide your handles from the "
+"context menu; **Poser** -> toggle **Show handles**"
+msgstr ""
+
+#: ../../source/explore/personalize/install-apps.rst:96
+msgid ":doc:`Create Tablet Apps <../../create/applications>`"
+msgstr ""
+
+#: ../../source/explore/socialize.rst:1
+msgid ""
+"This page is outdated. Many of the social features listed on this page "
+"are either not currently working or have been temporarily removed. We "
+"hope to bring them back soon."
+msgstr ""
+
+#: ../../source/explore/socialize.rst:7
 msgid ""
 "Overte is all about the people you meet and the experiences you have with"
 " them. Overte enables people connected by interest, community, and "
 "friendship to come together from anywhere in the world."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:12
+#: ../../source/explore/socialize.rst:14
 msgid "Make Connections and Friends"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:14
+#: ../../source/explore/socialize.rst:16
 msgid ""
 "In Overte, you can establish a connection with someone else by shaking "
 "hands with them. With your hand controllers, place your hands near each "
@@ -15768,7 +15680,7 @@ msgid ""
 " their keyboard."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:16
+#: ../../source/explore/socialize.rst:18
 msgid ""
 "Once you make a connection with someone, they will appear under "
 "Connections in the `The People app`_. You will also appear on their list "
@@ -15776,18 +15688,18 @@ msgid ""
 "and you can travel to them at any time."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:18
+#: ../../source/explore/socialize.rst:20
 msgid ""
 "To mark a connection as a friend, check the box next to their name in the"
 " People app. You can make yourself available to only your friends using "
 "the People app."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:24
+#: ../../source/explore/socialize.rst:26
 msgid "The People App"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:26
+#: ../../source/explore/socialize.rst:28
 msgid ""
 "The People app provides a set of tools that help users manage their "
 "interactions with people in the metaverse. It gives you a list of the "
@@ -15795,36 +15707,36 @@ msgid ""
 "all of your connections. From the People app, you can:"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:31 ../../source/explore/socialize.rst:72
+#: ../../source/explore/socialize.rst:33 ../../source/explore/socialize.rst:74
 msgid "Feature"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:33
+#: ../../source/explore/socialize.rst:35
 msgid "Profile Picture"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:33
+#: ../../source/explore/socialize.rst:35
 msgid ""
 "This is where your profile picture will be visible. Click on the image to"
 " view your profile. You can change this image on our `website "
 "<https://overte.org/dashboard/>`_."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:36
+#: ../../source/explore/socialize.rst:38
 msgid "Display Name"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:36
+#: ../../source/explore/socialize.rst:38
 msgid ""
 "You can change your display name at any time. By default, it will be "
 "'anonymous'. In the image above, the display name is 'HiFi Docs'."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:39
+#: ../../source/explore/socialize.rst:41
 msgid "Set Availability"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:39
+#: ../../source/explore/socialize.rst:41
 msgid ""
 "This feature allows you to appear online to select groups of users: "
 "Everyone, Friends and Connections, Friends Only, or Appear Offline. The "
@@ -15832,118 +15744,118 @@ msgid ""
 "location."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:43
+#: ../../source/explore/socialize.rst:45
 msgid "Master Volume"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:43
+#: ../../source/explore/socialize.rst:45
 msgid "Set the volume of your audio in Overte."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:45
+#: ../../source/explore/socialize.rst:47
 msgid "Nearby"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:45
+#: ../../source/explore/socialize.rst:47
 msgid "This is the list of users who are nearby in the same domain as you."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:47
+#: ../../source/explore/socialize.rst:49
 msgid "In View"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:47
+#: ../../source/explore/socialize.rst:49
 msgid ""
 "You can check this box to view only the users in front of you in a "
 "domain. This is useful when a domain has a lot of users."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:50
+#: ../../source/explore/socialize.rst:52
 msgid "Refresh Button"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:50
+#: ../../source/explore/socialize.rst:52
 msgid "Click this button to refresh the list of users currently in the domain."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:52
+#: ../../source/explore/socialize.rst:54
 msgid "Connections"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:52
+#: ../../source/explore/socialize.rst:54
 msgid ""
 "This is the list of users who are your friends and connections. You can "
 "also teleport to their location from this list."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:55
+#: ../../source/explore/socialize.rst:57
 msgid "Loud"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:55
+#: ../../source/explore/socialize.rst:57
 msgid ""
 "Click this icon next to the user you want to mute. The user will be muted"
 " only for you, not for other users in the domain. The icon also displays "
 "how loudly a user is speaking."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:58
+#: ../../source/explore/socialize.rst:60
 msgid "Names"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:58
+#: ../../source/explore/socialize.rst:60
 msgid ""
 "This is the list of users available in the domain. You will only see "
 "their display names."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:60
+#: ../../source/explore/socialize.rst:62
 msgid "Ignore"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:60
+#: ../../source/explore/socialize.rst:62
 msgid ""
 "If you check this box next to a user, you and the user will not be able "
 "to see or hear each other."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:65
+#: ../../source/explore/socialize.rst:67
 msgid "Use the People App as an Admin"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:67
+#: ../../source/explore/socialize.rst:69
 msgid ""
 "As an administrator in a domain, you will have privileges to maintain a "
 "domain. The People app will have an additional column that allows an "
 "admin to silence and ban users in the same domain."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:74
+#: ../../source/explore/socialize.rst:76
 msgid "Silence"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:74
+#: ../../source/explore/socialize.rst:76
 msgid ""
 "You can click the icon to mute a user. This user will be muted for "
 "everyone in the domain."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:76
+#: ../../source/explore/socialize.rst:78
 msgid "Ban"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:76
+#: ../../source/explore/socialize.rst:78
 msgid ""
 "You can click here to ban a user from the current domain. The user will "
 "not be able to enter the domain using the same account. The banned user "
 "will still have access to other Overte domains."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:84
+#: ../../source/explore/socialize.rst:86
 msgid "Your Privacy Shield"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:86
+#: ../../source/explore/socialize.rst:88
 msgid ""
 "You can enable a privacy shield that protects your personal space in the "
 "metaverse. When it is enabled, other people will disappear if they get "
@@ -15952,18 +15864,18 @@ msgid ""
 " can also use the keyboard shortcut ``CTRL`` + ``N``."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:88
+#: ../../source/explore/socialize.rst:90
 msgid ""
 "There is also a Shield icon on the top-left corner of your Interface "
 "window, next to the audio icon, that can be used to toggle your privacy "
 "shield."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:95
+#: ../../source/explore/socialize.rst:97
 msgid "Attend Live Events"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:97
+#: ../../source/explore/socialize.rst:99
 msgid ""
 "One of the great things about virtual reality is that you can attend "
 "events. Overte regularly hosts events such as workshops, lectures on VR, "
@@ -15972,23 +15884,23 @@ msgid ""
 " experiences with others around the world."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:99
+#: ../../source/explore/socialize.rst:101
 msgid ""
 "To attend an event, simply go to the hosted domain at the time of the "
 "event."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:104
+#: ../../source/explore/socialize.rst:106
 msgid "Express Yourself"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:106
+#: ../../source/explore/socialize.rst:108
 msgid ""
 "There are many ways you can express yourself in Overte, such as animating"
 " the mouth of your avatar or using gestures in the **Emote** app."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:108
+#: ../../source/explore/socialize.rst:110
 msgid ""
 "By default, all avatars will use a standard set of animations, such as "
 "your eyes blinking or your mouth opening and closing as you talk. When "
@@ -15996,11 +15908,11 @@ msgid ""
 "hand gestures and movements."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:113
+#: ../../source/explore/socialize.rst:115
 msgid "The Emote App"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:115
+#: ../../source/explore/socialize.rst:117
 msgid ""
 "The Emote app is a way for desktop users to express themselves without "
 "using VR controllers. With this app, you can display feelings by: crying,"
@@ -16008,11 +15920,11 @@ msgid ""
 "clapping, sitting, or showing love."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:123
+#: ../../source/explore/socialize.rst:125
 msgid "Chat with Users"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:125
+#: ../../source/explore/socialize.rst:127
 msgid ""
 "Overte does have a default text chat option that works well desktop "
 "users. Currently support for text chat in VR is not up to standard. "
@@ -16022,31 +15934,31 @@ msgid ""
 "by community members, and a few are described below."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:130
+#: ../../source/explore/socialize.rst:132
 msgid "Alternative Local Chat"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:132
+#: ../../source/explore/socialize.rst:134
 msgid ""
 "This clean, reliable, and well-written chat script was created by alpha "
 "user ctrlaltdavid."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:136
+#: ../../source/explore/socialize.rst:138
 msgid "To run the script:"
 msgstr ""
 
-#: ../../source/explore/socialize.rst:138
-msgid "In Interface, go to **Edit > Open and Run Script from URL**."
+#: ../../source/explore/socialize.rst:140
+msgid "In Overte Interface, go to **Edit > Open and Run Script from URL**."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:139
+#: ../../source/explore/socialize.rst:141
 msgid ""
 "Paste this `URL "
 "<http://ctrlaltstudio.com/downloads/hifi/scripts/chat.js>`__."
 msgstr ""
 
-#: ../../source/explore/socialize.rst:141
+#: ../../source/explore/socialize.rst:143
 msgid ""
 "The script will start running and display a text chat window pop-up. You "
 "can use this window to chat with other users in the same domain who are "
@@ -16075,71 +15987,165 @@ msgstr ""
 msgid "Places App"
 msgstr ""
 
-#: ../../source/explore/travel.md:10
+#: ../../source/explore/travel.md:11
 msgid ""
 "The **Places** app lets you travel between different places in Overte. "
 "Many of our places are created by users just like you."
 msgstr ""
 
-#: ../../source/explore/travel.md:12
+#: ../../source/explore/travel.md:13
 msgid "To go and explore new places:"
 msgstr ""
 
-#: ../../source/explore/travel.md:13
-msgid "In Interface, pull up your tablet or HUD and go to **Places**."
-msgstr ""
-
 #: ../../source/explore/travel.md:14
-msgid ""
-"If you know where you want to go, enter the domain address or place name."
-" As you type, the matching places will show up. Otherwise, browse the "
-"open places under 'Featured' and 'Places'."
+msgid "In Overte Interface, pull up your tablet or HUD and go to **Places**."
 msgstr ""
 
 #: ../../source/explore/travel.md:15
+msgid ""
+"If you know where you want to go, enter the domain address or place name."
+" As you type, only the matching places will be shown. Otherwise, browse "
+"the open places under 'Domains' and 'Places'."
+msgstr ""
+
+#: ../../source/explore/travel.md:16
 msgid ""
 "Click on a place name to go to the place. If you have permissions, you "
 "will be transported to that location automatically."
 msgstr ""
 
-#: ../../source/explore/travel.md:22
-msgid "![](_images/goto-app.png)"
+#: ../../source/explore/travel.md:23
+msgid "![](_images/places-app.png)"
 msgstr ""
 
-#: ../../source/explore/travel.md:24
+#: ../../source/explore/travel.md:25
+msgid "Find other People"
+msgstr ""
+
+#: ../../source/explore/travel.md:27
 msgid ""
-"The **Places** app also shows you a visual feed of snapshots that people "
-"have taken and shared in the metaverse. Clicking on a snap will take you "
-"directly to the place where the picture was taken."
-msgstr ""
-
-#: ../../source/explore/travel.md:26
-msgid "![](_images/goto-snaps.png)"
-msgstr ""
-
-#: ../../source/explore/travel.md:28
-msgid "Visit a Friend"
+"Looking for someone to talk to? You can filter the list to just show "
+"places with connected users by clicking the 'USERS' button just below the"
+" search bar."
 msgstr ""
 
 #: ../../source/explore/travel.md:29
-msgid ""
-"Once you've [made a friend](socialize.rst#make-connections-and-friends), "
-"you can see where they are and even teleport directly to them."
+msgid "Filter by Maturity Rating"
 msgstr ""
 
 #: ../../source/explore/travel.md:31
-msgid "In Interface, open your tablet or HUD and go to **People**."
+msgid ""
+"Places in Overte can be marked with a maturity rating to show who they "
+"are suitable for."
 msgstr ""
 
-#: ../../source/explore/travel.md:32
-msgid "Click 'Connections' and find the friend you want to visit."
+#: ../../source/explore/travel.md:38
+msgid ""
+"You can filter the places list by the ratings you would be comfortable "
+"with. In the top right of the Places app window, just below the search "
+"bar, you can deselect any ratings to reduce the places in the list to "
+"just those which have the ratings selected."
 msgstr ""
 
-#: ../../source/explore/travel.md:33
-msgid "Select their name then 'Visit'."
+#: ../../source/explore/travel.md:40
+msgid "Bookmarks"
 msgstr ""
 
-#: ../../source/explore/travel.md:36
+#: ../../source/explore/travel.md:42
+msgid ""
+"If you like the place you are in and want to come back, you can add a "
+"bookmark! You can do this at any time from the menu."
+msgstr ""
+
+#: ../../source/explore/travel.md:44
+msgid ""
+"VR: Open your tablet and then the Menu app. **Navigate > Bookmark "
+"Location**"
+msgstr ""
+
+#: ../../source/explore/travel.md:45
+msgid ""
+"Desktop: At the top of your screen is the menu bar. **Navigate > Bookmark"
+" Location**"
+msgstr ""
+
+#: ../../source/explore/travel.md:47
+msgid ""
+"You can also bookmark your current location from within the Places app, "
+"by switching to the **Bookmarks** tab and pressing the **+ Bookmark "
+"location** button just below the search bar."
+msgstr ""
+
+#: ../../source/explore/travel.md:49
+msgid ""
+"Once you have some bookmarks you will be able to travel to them at any "
+"time by selecting them from the **Bookmarks** tab in the Places app."
+msgstr ""
+
+#: ../../source/explore/travel.md:51
+msgid ""
+"Each bookmark will denote its type, either *domain* or *serverless* (as "
+"is the case for the tutorial world). To the right hand side of each "
+"bookmark are it's action buttons. ![](_images/bookmark.png) You can:"
+msgstr ""
+
+#: ../../source/explore/travel.md:53
+msgid "Click on the bookmark title to instantly teleport there"
+msgstr ""
+
+#: ../../source/explore/travel.md:54
+msgid "Select the link icon to copy the place URL."
+msgstr ""
+
+#: ../../source/explore/travel.md:55
+msgid ""
+"Press on the waypoint icon to place down a temporary portal in front of "
+"you, which will allow anyone in your current place to travel to your "
+"bookmarked location by stepping into the portal."
+msgstr ""
+
+#: ../../source/explore/travel.md:57
+msgid "Place a portal"
+msgstr ""
+
+#: ../../source/explore/travel.md:59
+msgid ""
+"Portals allow anyone to travel to their corresponding place from anywhere"
+" in the hyperverse! You can place them from the **Bookmarks** tab of the "
+"Places app, or by pressing the info button on the top right of the an "
+"entry in the **Places** tab, and then **Portal**."
+msgstr ""
+
+#: ../../source/explore/travel.md:61
+msgid "![](_images/portal.jpg)"
+msgstr ""
+
+#: ../../source/explore/travel.md:68
+msgid "Home Sweet Home"
+msgstr ""
+
+#: ../../source/explore/travel.md:70
+msgid ""
+"Have a favorite spot you in Overte you always want to return to? You can "
+"set a home location from the **Bookmarks** tab of the Places app, or from"
+" the **Navigate** menu."
+msgstr ""
+
+#: ../../source/explore/travel.md:72
+msgid ""
+"You can always get back home either by pressing the house icon in the top"
+" left of the Places app, or by heading to the **Navigate** menu, then "
+"**Bookmarks** and select **Home**."
+msgstr ""
+
+#: ../../source/explore/travel.md:74
+msgid ""
+"If you would like to be in your Home location every time you start "
+"Overte, you can set your **Start-Up Location** from the **Navigate** "
+"menu."
+msgstr ""
+
+#: ../../source/explore/travel.md:77
 msgid "[Socialize with Others](socialize)"
 msgstr ""
 
@@ -31833,5 +31839,1140 @@ msgstr ""
 #~ "API](https://apidocs.overte.org) provides the tools"
 #~ " for you to build great content "
 #~ "and user experiences in VR."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte is a virtual worlds software "
+#~ "where you can connect and create "
+#~ "with others. We invite you to "
+#~ "explore the worlds created in Overte "
+#~ "and interact with other users. You "
+#~ "can visit friends' virtual worlds, meet"
+#~ " people, attend events, and learn "
+#~ "about creation in virtuality. It's an"
+#~ " immersive and interactive experience with"
+#~ " realistic visuals and audio."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If it's your first time using "
+#~ "Overte, you'll start your journey in "
+#~ "a local tutorial space by yourself, "
+#~ "where you can experiment with the "
+#~ "controls and learn about the Interface."
+#~ " When you are ready, try exploring"
+#~ " other domains using the Places app"
+#~ " and socialize with people around the"
+#~ " metaverse. If you've visited Overte "
+#~ "before, you will return to the "
+#~ "location where you last visited."
+#~ msgstr ""
+
+#~ msgid "Get Our Android App"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "We know that getting started with "
+#~ "a new application can be difficult: "
+#~ "installing the software and learning the"
+#~ " controls is never any fun. "
+#~ "Hopefully, this section will help you"
+#~ " become familiar with our application, "
+#~ "so that you can begin making "
+#~ "friends and exploring the metaverse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: some perspective options don't "
+#~ "exist anymore, mentions security picture, "
+#~ "says that lower graphics setting "
+#~ "increase performance (not entirely true "
+#~ "in our case)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Desktop Mode, you have the "
+#~ "option to use either the Tablet or"
+#~ " a smaller version called the "
+#~ "\"Heads-up Display\" or HUD. It "
+#~ "contains the exact same options as "
+#~ "the Tablet (settings, apps, etc), but"
+#~ " it takes up less space on your"
+#~ " screen. To enable the HUD, first "
+#~ "enable the **Developer** menu by going"
+#~ " to **Settings > Developer Menu**. "
+#~ "Then, go to **Developer > UI > "
+#~ "Desktop Tablet Becomes Toolbar**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can enjoy Overte with or with"
+#~ " VR equipment such as head mounted"
+#~ " displays (HMD), hand controllers and "
+#~ "audio headsets. Our Desktop mode "
+#~ "contains many of Overte's features such"
+#~ " as audio, basic movements and "
+#~ "gestures, and the ability to travel "
+#~ "to different domains."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Keep in mind, however, that the "
+#~ "most immersive and powerful experience "
+#~ "is when you use VR equipment. Only"
+#~ " then will you be able to "
+#~ "interact with people in 3D, track "
+#~ "body movements, and easily engage with"
+#~ " the objects around you. Once you "
+#~ "have set up your VR equipment, you"
+#~ " can easily switch between VR mode"
+#~ " and Desktop mode. To switch to "
+#~ "VR mode, use one of the following"
+#~ " methods:"
+#~ msgstr ""
+
+#~ msgid "From the HUD, click **Enter VR**."
+#~ msgstr ""
+
+#~ msgid "Click the **Display** menu, then select your VR device."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To exit from VR mode, remove your"
+#~ " headset, click **Exit VR** on the"
+#~ " HUD or press ``ESC`` on your "
+#~ "keyboard."
+#~ msgstr ""
+
+#~ msgid "In Desktop mode, go to **View** in the menu on the top left corner."
+#~ msgstr ""
+
+#~ msgid "Independent Mode"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select this to change what you see"
+#~ " through scripting instead of avatar's "
+#~ "movements."
+#~ msgstr ""
+
+#~ msgid "Entity Mode"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Select this to set your perspective "
+#~ "to a specific entity, allowing you "
+#~ "to move with entity as it moves."
+#~ msgstr ""
+
+#~ msgid "Graphics Settings"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose the graphics settings for your"
+#~ " computer tier. In general, a lower"
+#~ " graphics setting sacrifices artistic "
+#~ "details and rendering effects for "
+#~ "increased performance and optimization. "
+#~ "**Custom** lets you configure the world"
+#~ " detail, rendering effects, refresh rate,"
+#~ " and resolution yourself."
+#~ msgstr ""
+
+#~ msgid "World Detail"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Control the level of detail visible "
+#~ "to you in Overte by moving this"
+#~ " slider."
+#~ msgstr ""
+
+#~ msgid "Rendering Effects"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Choose the level of rendering effects"
+#~ " that are present in Overte. Local"
+#~ " lights, fog, bloom, and shadows are"
+#~ " all examples of rendering effects."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Adjust the resolution using the slider."
+#~ " This affects how clear Overte "
+#~ "appears on your monitor or screen."
+#~ msgstr ""
+
+#~ msgid "Account"
+#~ msgstr ""
+
+#~ msgid "Secure Transactions"
+#~ msgstr ""
+
+#~ msgid "Change your security picture."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "A Overte Android app is being "
+#~ "considered for the roadmap, most of "
+#~ "the development work has been done "
+#~ "but the work required to get it"
+#~ " back rolling has to be taken "
+#~ "into consideration."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The app is designed for Daydream-"
+#~ "ready phones only. Keep in mind, "
+#~ "it cannot be used in Daydream View"
+#~ " and is only available as a 2D"
+#~ " application."
+#~ msgstr ""
+
+#~ msgid "Visit Different Worlds"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte has many virtual places where "
+#~ "you can interact with other users "
+#~ "and participate in various activities or"
+#~ " events. We have modified several of"
+#~ " Overte's most popular virtual worlds "
+#~ "to make them more accessible to "
+#~ "Android users."
+#~ msgstr ""
+
+#~ msgid "Find these domains by going to the **Home** tab in the menu."
+#~ msgstr ""
+
+#~ msgid "Controls"
+#~ msgstr ""
+
+#~ msgid "Walking"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When exploring a virtual world, use "
+#~ "the arrows in the bottom left "
+#~ "corner to turn and/or walk."
+#~ msgstr ""
+
+#~ msgid "Turning"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Drag your finger left or right "
+#~ "across the screen to make your "
+#~ "avatar turn."
+#~ msgstr ""
+
+#~ msgid "Look up/down"
+#~ msgstr ""
+
+#~ msgid "Drag your finger up or down to change the angle of the camera."
+#~ msgstr ""
+
+#~ msgid "Flying"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Press the button on the bottom "
+#~ "right with the winged avatar to "
+#~ "fly (the longer you hold it, the"
+#~ " higher you go!)."
+#~ msgstr ""
+
+#~ msgid "View"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Switch to a bird's eye view camera"
+#~ " by pressing the **My View** button"
+#~ " on the top right corner of the"
+#~ " screen."
+#~ msgstr ""
+
+#~ msgid "Mute"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Your avatar in muted by default "
+#~ "when you open the app. Press the"
+#~ " mic button on the top right "
+#~ "corner to unmute."
+#~ msgstr ""
+
+#~ msgid "Avatar Controls"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Change your avatar to one available "
+#~ "in the list in the **Avatar** tab"
+#~ " in the menu."
+#~ msgstr ""
+
+#~ msgid "Set Display Name"
+#~ msgstr ""
+
+#~ msgid "Set your display name in the **Avatar** tab in the menu"
+#~ msgstr ""
+
+#~ msgid "Discover and Make Friends"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "`Add people to your Connections "
+#~ "<../socialize.html#make-connections-and-friends>`_"
+#~ " by shaking their hand. Press the "
+#~ "handshake button which is above the "
+#~ "flight button in the bottom right "
+#~ "corner of your screen."
+#~ msgstr ""
+
+#~ msgid "Connections List"
+#~ msgstr ""
+
+#~ msgid "Open the **People** tab in the menu to view your Connections."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Additional functionality such as opening "
+#~ "the Tablet, using the **Create** Tools"
+#~ " app, adding wearables, etc. are not"
+#~ " yet available."
+#~ msgstr ""
+
+#~ msgid ":doc:`Socialize with Others <../socialize>`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: says that you can use an"
+#~ " Android phone"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte's architecture shows how different "
+#~ "parts of the system work together "
+#~ "to give you the best VR "
+#~ "experience."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The `Overte Interface`_ runs your "
+#~ "personal experience in the metaverse. "
+#~ "With it, you can :doc:`visit VR "
+#~ "worlds <../travel>`, :doc:`meet people "
+#~ "<../socialize>`, `attend live events "
+#~ "<../socialize.html#attend-live-events>`_ and "
+#~ "more."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The `Global Services`_ connect all of"
+#~ " the servers together. An instance of"
+#~ " these services are maintained by "
+#~ "Overte so that you can sign in "
+#~ "and move seamlessly between places."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can download and use the "
+#~ "Interface on your computer or your "
+#~ "Android phone using the `Client-Only "
+#~ "Installer <install.html#client-only-installer>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can :doc:`set up your own "
+#~ "domain <../../host/server-setup>` and host "
+#~ "it on your local machine or on "
+#~ "a cloud server to make it "
+#~ "available to other users. Your domain's"
+#~ " server stack is a set of "
+#~ "components that simulate and manage "
+#~ "different aspects of the domain such "
+#~ "as audio, entities, and avatars. "
+#~ "Everything that you see, hear, and "
+#~ "do in your domain is managed by"
+#~ " the server stack."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Sandbox manages all these components on"
+#~ " the domain server, five dedicated "
+#~ "assignment clients, and as many agent"
+#~ " assignments clients as needed. However,"
+#~ " it is possible to spread the "
+#~ "assignment clients over multiple computers,"
+#~ " and even to divide each function "
+#~ "among a hierarchy of assignment "
+#~ "components, which may be on different"
+#~ " computers. For instance, multiple audio"
+#~ " mixers could be used to mix "
+#~ "the audio in different geographic "
+#~ "regions of the domain."
+#~ msgstr ""
+
+#~ msgid "Right Click"
+#~ msgstr ""
+
+#~ msgid "Open Browser"
+#~ msgstr ""
+
+#~ msgid "Mirror View"
+#~ msgstr ""
+
+#~ msgid "Take Screenshot"
+#~ msgstr ""
+
+#~ msgid "Align Grid to Bottom of Selected Entities"
+#~ msgstr ""
+
+#~ msgid "Toggle Global/Local Translation"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte has two different installers. The"
+#~ " *Client Installer* comes with everything"
+#~ " you need to view and interact "
+#~ "with Overte's content and users. "
+#~ "However, you are unable to host "
+#~ "content using this installer. The "
+#~ "*Client + Server Installer* has "
+#~ "everything the client installer does, "
+#~ "but it also enables you to "
+#~ ":doc:`host your own content <../../host>` "
+#~ "and share it with the world. The"
+#~ " Client + Server Installer download "
+#~ "is only provided for Windows. For "
+#~ "Linux see: :doc:`Host a Domain from "
+#~ "a Local or Cloud Linux Server "
+#~ "<../../host/server-setup/linux-server>`."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you are using Interface only to"
+#~ " explore the metaverse, then you "
+#~ "should have Internet speeds of at "
+#~ "least **10 Mbit/s download** and **2 "
+#~ "Mbit/s upload**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you intend to use Overte in "
+#~ "VR mode with an HMD, ensure that"
+#~ " SteamVR or Oculus Runtime is also"
+#~ " installed on your system before "
+#~ "launching Overte. VR mode is not "
+#~ "supported on macOS. The Oculus Runtime"
+#~ " is not supported on Linux."
+#~ msgstr ""
+
+#~ msgid "Mac Install"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At this time, the Overte installer "
+#~ "for Mac is unsigned, so you will"
+#~ " need give the OS permission to "
+#~ "install the application."
+#~ msgstr ""
+
+#~ msgid "Open the downloaded installer dmg file."
+#~ msgstr ""
+
+#~ msgid "Agree to the License Agreement."
+#~ msgstr ""
+
+#~ msgid "Drag Overte to the Applications folder."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Try opening Interface.app. You will be"
+#~ " prompted that macOS will not open"
+#~ " the file because it is unsigned."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open **System Preferences > Security &"
+#~ " Privacy**. On older macOS versions "
+#~ "this might be in **System Preferences"
+#~ " > General**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Next to the warning indicating that "
+#~ "Interface is blocked, click 'Open "
+#~ "Anyway'."
+#~ msgstr ""
+
+#~ msgid "Confirm that you want to open the application."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Allow microphone access if prompted, in"
+#~ " order to be able to talk "
+#~ "inside the application."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "At this point, Interface will open "
+#~ "and you will be able to log "
+#~ "in and begin exploring the metaverse."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Mark the downloaded AppImage file as "
+#~ "executable. (for example, with ``chmod "
+#~ "+x Overte-x86_64_20220219.AppImage``.)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte is always changing, as we "
+#~ "work to improve performance and add "
+#~ "features that will enhance your "
+#~ "experience in the metaverse. At any "
+#~ "time, you can download the latest "
+#~ "release from our `website "
+#~ "<https://overte.org/#downloads>`_."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once Overte is uninstalled, browse to"
+#~ " your %Program Files% directory. Delete "
+#~ "all folders related to Overte."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Browse to your local %AppData% folder"
+#~ " (usually ``C:/Users/<your_username>/AppData/Local``). "
+#~ "If you do not see the folder, "
+#~ "make sure you can view hidden "
+#~ "folders: in File Explorer, click View"
+#~ " and make sure \"Hidden Items\" is"
+#~ " checked. Delete all folders related "
+#~ "to Overte."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Browse to your roaming %AppData% folder"
+#~ " (usually ``C:/Users/<your_username>/AppData/Roaming``). "
+#~ "Delete all folders related to Overte."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Re-install Overte using the steps "
+#~ "above. To restore your local Server's"
+#~ " content, copy the ``assignment-client``"
+#~ " folders you previously saved back "
+#~ "into to their respective locations."
+#~ msgstr ""
+
+#~ msgid "Mac Clean Install"
+#~ msgstr ""
+
+#~ msgid "Open your Applications folder and delete the Overte folder."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the ``<username>/.config`` folder. This"
+#~ " is a hidden folder than is "
+#~ "accessible by going to *Go > "
+#~ "Home*. Press the keyboard shortcut "
+#~ "``Command + Shift + .`` (period)."
+#~ msgstr ""
+
+#~ msgid "Delete the ``overte.org`` folder."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Open the ``~/Library`` folder by holding"
+#~ " the Option key and clicking the "
+#~ "'Go' menu while in the Finder. The"
+#~ " Library option should appear in the"
+#~ " menu."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Browse to ``~/Library/Application Support`` "
+#~ "and delete the Overte folder."
+#~ msgstr ""
+
+#~ msgid "Empty the Trash."
+#~ msgstr ""
+
+#~ msgid "Re-install Overte using the steps above."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: instructions for Windows are most"
+#~ " likely outdated, no mention that you"
+#~ " should *not* use \"open mic\" setups"
+#~ " without push to talk"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Overte's 3D spatialized audio is "
+#~ "guaranteed to enhance your experience in"
+#~ " the metaverse, whether you are in"
+#~ " Desktop mode or using VR equipment."
+#~ " By default, we will select the "
+#~ "default audio devices that your "
+#~ "operating system or headset has "
+#~ "detected. If you want to use a "
+#~ "different headset or audio setup than"
+#~ " the default, you can change your "
+#~ "computer's default device. If you need"
+#~ " to use a different device for "
+#~ "Overte than other applications on your"
+#~ " computer, then you can change your"
+#~ " device in the application."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "An *audio input device* is any "
+#~ "device that captures sound and generates"
+#~ " a signal that can be accessed "
+#~ "by other devices. Examples of audio "
+#~ "input devices include a USB microphone"
+#~ " or a microphone headset that is "
+#~ "plugged into your computer, or your "
+#~ "sound card’s \"Stereo Mix\" or \"What"
+#~ " U Hear\" device (think of these "
+#~ "sound card devices as if they were"
+#~ " microphones being held up to your"
+#~ " speakers while they output sound)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Unfortunately, bluetooth audio devices do "
+#~ "not currently support stereo input. "
+#~ "Therefore, you have two options:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the bluetooth headset as an "
+#~ "output device only, and use another "
+#~ "microphone for input. This allows you"
+#~ " to take advantage of the stereo "
+#~ "audio."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Use the bluetooth headset's built-in "
+#~ "microphone. In this case, other users"
+#~ " will only experience mono sound "
+#~ "coming from you, rather than the "
+#~ "normal stereo audio."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On Mac: Turn off 'Ambient noise "
+#~ "reduction' (System Preferences > Sound >"
+#~ " Input > Use ambient noise reduction)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On Windows: Turn off all 'Enhancements'"
+#~ " (Control Panel > Sound > Recording"
+#~ " tab > click on your device >"
+#~ " Properties button > Enhancements tab)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On Mac devices, set the balance of"
+#~ " the output device to either the "
+#~ "left or the right (System Preferences"
+#~ " > Sound > Output > Balance)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The 'Test Your Voice' feature does "
+#~ "not automatically mute your voice! We"
+#~ " recommend muting yourself prior to "
+#~ "checking your voice input if you "
+#~ "do not want others to hear your"
+#~ " microphone check."
+#~ msgstr ""
+
+#~ msgid "Scroll down to 'Choose Output Device'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On Mac: Apple handles all driver "
+#~ "updates on your computer. To check "
+#~ "for updates, click on the Apple "
+#~ "icon in the top-left corner of "
+#~ "the screen and select 'Software Update'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On Windows: Open the **Device Manager**"
+#~ " and select the arrow next to "
+#~ "**Sound, audio and game controllers**. "
+#~ "Right-click on your audio device and"
+#~ " select 'Update driver'."
+#~ msgstr ""
+
+#~ msgid "On Mac: Go to **System Preferences > Sound > Input**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "On Windows: Go to **Control Panel "
+#~ "> Sound > Recording**. Choose your "
+#~ "microphone and click 'Properties'."
+#~ msgstr ""
+
+#~ msgid "**Adjust other advanced sound settings**:"
+#~ msgstr ""
+
+#~ msgid "Go to **Control Panel > Sound**"
+#~ msgstr ""
+
+#~ msgid "Go to **Settings > System > Sound**"
+#~ msgstr ""
+
+#~ msgid "Go to **Control Panel > Hardware and Sound > Adjust System Volume**"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "This document is slightly outdated. "
+#~ "FIXME: since we support OpenVR and "
+#~ "Oculus Runtime we support almost all "
+#~ "HMDs and input devices on the "
+#~ "market, we probably support alternatives "
+#~ "to Vive Trackers"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "To get the best and most immersive"
+#~ " experience in Overte, we encourage "
+#~ "you to use VR equipment, such as"
+#~ " the Oculus Rift or HTC Vive. "
+#~ "With these HMD devices and hand "
+#~ "controllers, you will be able to "
+#~ "interact with people in 3D, track "
+#~ "body movements, and engage with the "
+#~ "objects around you. We support the "
+#~ "following VR equipment:"
+#~ msgstr ""
+
+#~ msgid "Head Mounted Displays"
+#~ msgstr ""
+
+#~ msgid "Hand Controllers"
+#~ msgstr ""
+
+#~ msgid "Oculus Rift (CV1 and S)"
+#~ msgstr ""
+
+#~ msgid "Oculus Touch"
+#~ msgstr ""
+
+#~ msgid "HTC Vive"
+#~ msgstr ""
+
+#~ msgid "Windows MR"
+#~ msgstr ""
+
+#~ msgid "XBox One Controller"
+#~ msgstr ""
+
+#~ msgid "*VR Movement* > Avatar leaning behavior"
+#~ msgstr ""
+
+#~ msgid "This setting controls if and when your avatar leans in VR mode."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Auto**: This is the default setting."
+#~ " Your avatar will lean if you "
+#~ "are standing in the real world."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Seated**: Your avatar will not lean"
+#~ " if you are sitting in the real"
+#~ " world."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Standing**: Your avatar will lean if"
+#~ " you are sitting in the real "
+#~ "world."
+#~ msgstr ""
+
+#~ msgid "**Disabled**: Your avatar can sit on the floor (experimental)."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can enhance your Overte experience"
+#~ " using full body motion capture "
+#~ "(mocap). Overte currently supports mocap "
+#~ "using HTC Vive Trackers."
+#~ msgstr ""
+
+#~ msgid "You can set up different mocap systems:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Interface, pull up your HUD or"
+#~ " Tablet and go to **Menu > "
+#~ "Settings > Calibration**."
+#~ msgstr ""
+
+#~ msgid "Configure your mocap system by:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In Overte, your experiences are shaped"
+#~ " the world around you. When you "
+#~ "enter a domain, all of the space"
+#~ " around you is built with "
+#~ "[entities](../create/entities), or the building "
+#~ "blocks of your environments. The walls"
+#~ " of your room, the tree in the"
+#~ " distance, or the animated butterfly "
+#~ "that flew past are all entities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When creating your own entities, you "
+#~ "can [set the Collision "
+#~ "property](../create/entities/entity-behavior.rst#entity-"
+#~ "collision-behavior) to turn on or off"
+#~ " collisions."
+#~ msgstr ""
+
+#~ msgid "This document is slightly outdated. FIXME: only mentions FBX files"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can put on a :doc:`wearable "
+#~ "that you created <../../create/wearables>`. "
+#~ "All wearables must be hosted in "
+#~ "the cloud before they can be used"
+#~ " with Overte. Examples of cloud "
+#~ "storage options include Amazon S3, "
+#~ "Google Cloud Storage, GitHub, or "
+#~ "Microsoft Azure."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you know the URL for your "
+#~ "wearable's FBX file, then put it "
+#~ "on your avatar:"
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your tablet or HUD and click on **Avatar**."
+#~ msgstr ""
+
+#~ msgid "Enter the .fbx file's URL and click 'Confirm'."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you first use Overte, you "
+#~ "will be wearing the default avatar, "
+#~ "Woody. Your avatar is a representation"
+#~ " of you in the metaverse. You "
+#~ "can control how your avatar moves "
+#~ "and speak to other users in-world"
+#~ " using it."
+#~ msgstr ""
+
+#~ msgid "Once you have your avatar's .fst file, you can upload it."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "You can enhance your experience in "
+#~ "Overte by installing tablet apps. These"
+#~ " apps enable you to get more "
+#~ "out of Overte. Do you want to "
+#~ "record your avatar dancing, take "
+#~ "selfies, or finger paint? Or are "
+#~ "you looking to livestream to YouTube "
+#~ "or make your avatar clap? There's "
+#~ "a number of apps that can help "
+#~ "you customize your experience in-world."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you can't find an app for "
+#~ "what you'd like to do, you can "
+#~ "[create your own](../../create/applications) and "
+#~ "upload it for your personal use or"
+#~ " to sell to others."
+#~ msgstr ""
+
+#~ msgid "[Install Tablet Apps](#install-tablet-apps)"
+#~ msgstr ""
+
+#~ msgid "[Update an App](#update-an-app)"
+#~ msgstr ""
+
+#~ msgid "[Our Apps](#our-apps)"
+#~ msgstr ""
+
+#~ msgid "[Spectator Cam: Record or Livestream in Overte](#spectator-cam)"
+#~ msgstr ""
+
+#~ msgid "[Finger Painting](#finger-painting)"
+#~ msgstr ""
+
+#~ msgid "[Text to Speech](#text-to-speech)"
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to **More**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you find the app of your "
+#~ "choice, click 'Install' to start using"
+#~ " the app in Overte."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When an app has an update "
+#~ "available, a notification will pop up"
+#~ " in the top right corner of the"
+#~ " Interface when you open Overte. "
+#~ "Additionally, a red dot will appear "
+#~ "on the **Inventory** icon of your "
+#~ "HUD or Tablet to indicate an "
+#~ "update is available to download."
+#~ msgstr ""
+
+#~ msgid "To update your app:"
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to **Inventory**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "In the **Inventory** app, click the "
+#~ "notification that says \"You have X "
+#~ "item updates available.\""
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Scroll to the app you'd like to"
+#~ " update and click on the menu. "
+#~ "![](_images/update-menu.png)"
+#~ msgstr ""
+
+#~ msgid "Click the 'Update' button, then 'Update for Free'."
+#~ msgstr ""
+
+#~ msgid "Additional Notes on Updating"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you decide not to update an "
+#~ "item, the old product will still "
+#~ "be valid and listed in **Inventory**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you update an item, the "
+#~ "previous version of the product will "
+#~ "no longer be available."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you purchased multiple instances of"
+#~ " an item, you need to individually"
+#~ " update each instance of an item "
+#~ "in your **Inventory**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "When you update a product with the"
+#~ " old version already in-world, it "
+#~ "will remain intact until it is "
+#~ "replaced manually with the updated "
+#~ "version. If you attempt to import "
+#~ "an entities JSON which contains the "
+#~ "old version, the system will ignore "
+#~ "the item, and not automatically replace"
+#~ " it in-world. It is up to "
+#~ "the end-user to replace the old"
+#~ " instances with the new."
+#~ msgstr ""
+
+#~ msgid "Our Apps"
+#~ msgstr ""
+
+#~ msgid "We've listed some of the apps we created and how you can use them."
+#~ msgstr ""
+
+#~ msgid "Spectator Cam"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Spectator Camera is a camera "
+#~ "you can use to record or "
+#~ "livestream what you and your friends "
+#~ "do in Overte. It is only available"
+#~ " in HMD mode, and requires a "
+#~ "recording software such as [Open "
+#~ "Broadcaster Software (OBS)](https://obsproject.com/) "
+#~ "to work correctly. Check out their "
+#~ "[official overview "
+#~ "guide](https://obsproject.com/forum/threads/official-"
+#~ "overview-guide.402/) for more details."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Use the instructions above](#install-"
+#~ "tablet-apps) to install the Spectator "
+#~ "Camera app."
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to **Spectator**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Turn on your Spectator Cam by "
+#~ "moving the slider. You'll see the "
+#~ "camera appear in-world. By default, "
+#~ "the app's display shows you what "
+#~ "you see in VR through your HMD."
+#~ " This is to show you what "
+#~ "you're recording without having to take"
+#~ " off your HMD. ![](_images/spec-cam-"
+#~ "window.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Enable switching views with your "
+#~ "controllers in the **Spectator** app on"
+#~ " your HUD or Tablet."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Rift**: If you're using Oculus Touch"
+#~ " controllers, click the left thumbstick "
+#~ "to switch views."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "**Vive**: If you're using HTC Vive "
+#~ "controllers, press on the center of "
+#~ "the thumb pad to switch views."
+#~ msgstr ""
+
+#~ msgid "Finger Painting"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Fingerpaint app lets your paint "
+#~ "your environment, your own avatar, or"
+#~ " even another user's avatar. [Use the"
+#~ " instructions above](#install-tablet-apps) "
+#~ "to install the Fingerpaint app."
+#~ msgstr ""
+
+#~ msgid "To use the Fingerpaint app:"
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to **Body Paint**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Click 'Brushes' to select the settings"
+#~ " for your brush, such as stroke "
+#~ "width, type of brush, and special "
+#~ "effects. ![](_images/fingerpaint.png)"
+#~ msgstr ""
+
+#~ msgid "Text to Speech"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The Text to Speech app synthesizes "
+#~ "the text you type into speech. You"
+#~ " can use this app if you don't"
+#~ " wish to use your voice, have "
+#~ "microphone issues, or have disabilities."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Use the instructions above](#install-"
+#~ "tablet-apps) to install the Text to"
+#~ " Speech app."
+#~ msgstr ""
+
+#~ msgid "To use the Text to Speech (TTS) app:"
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your HUD or Tablet and go to **TTS**."
+#~ msgstr ""
+
+#~ msgid "In the app, select the Pitch and Speed of your choice."
+#~ msgstr ""
+
+#~ msgid "Type in the text you'd like your avatar to speak."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Hit 'Speak' to hear your text. Hit"
+#~ " 'Stop Last' to stop your avatar "
+#~ "from speaking. ![](_images/tts.png)"
+#~ msgstr ""
+
+#~ msgid "[Create Tablet Apps](../../create/applications)"
+#~ msgstr ""
+
+#~ msgid "In Interface, go to **Edit > Open and Run Script from URL**."
+#~ msgstr ""
+
+#~ msgid "In Interface, pull up your tablet or HUD and go to **Places**."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "If you know where you want to "
+#~ "go, enter the domain address or "
+#~ "place name. As you type, the "
+#~ "matching places will show up. Otherwise,"
+#~ " browse the open places under "
+#~ "'Featured' and 'Places'."
+#~ msgstr ""
+
+#~ msgid "![](_images/goto-app.png)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "The **Places** app also shows you "
+#~ "a visual feed of snapshots that "
+#~ "people have taken and shared in "
+#~ "the metaverse. Clicking on a snap "
+#~ "will take you directly to the "
+#~ "place where the picture was taken."
+#~ msgstr ""
+
+#~ msgid "![](_images/goto-snaps.png)"
+#~ msgstr ""
+
+#~ msgid "Visit a Friend"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Once you've [made a friend](socialize.rst"
+#~ "#make-connections-and-friends), you can "
+#~ "see where they are and even "
+#~ "teleport directly to them."
+#~ msgstr ""
+
+#~ msgid "In Interface, open your tablet or HUD and go to **People**."
+#~ msgstr ""
+
+#~ msgid "Click 'Connections' and find the friend you want to visit."
+#~ msgstr ""
+
+#~ msgid "Select their name then 'Visit'."
 #~ msgstr ""
 
