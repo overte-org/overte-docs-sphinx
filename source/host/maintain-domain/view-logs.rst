@@ -7,4 +7,4 @@ Your domain server logs list the different events relevant to your Overte domain
 Server logs are stored directly on the server and can be accessed as follows:
 
 * **Windows**: Logs can be found in the directory ``%AppData%\Local\Overte\Server Console\logs``
-* **Linux**: Logs can be accessed by running the command ``journalctl -u vircadia-domain-server@default.service`` for the domain server, or ``journalctl -u vircadia-assignment-client@default.service`` for the assignment client.
+* **Linux**: Logs can be accessed by running the command ``journalctl -u overte-domain-server@default.service`` for the domain server, or ``journalctl -u overte-assignment-client@default.service`` for the assignment client.
