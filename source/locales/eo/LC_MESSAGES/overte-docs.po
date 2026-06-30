@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Overte Docs \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-06-14 00:34+0000\n"
+"POT-Creation-Date: 2026-06-30 17:34+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: eo\n"
@@ -10211,14 +10211,14 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:31
 msgid ""
 "[Nullsoft Scriptable Install "
-"System](http://nsis.sourceforge.net/Download) - 3.04 Install using "
+"System](http://nsis.sourceforge.net/Download) - 3.12 Install using "
 "defaults (will install to `C:\\Program Files (x86)\\NSIS`)"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:33
 msgid ""
 "[NSIS Plugins](https://build-deps.overte.org/conan/nsis-overte-plugins"
-"/NSIS-hifi-plugins-1.0.zip) Copy contents to `C:\\Program Files "
+"/NSIS-plugins-1.1.zip) Copy contents to `C:\\Program Files "
 "(x86)\\NSIS\\`. **Alternatively**, install the following:"
 msgstr ""
 
@@ -10230,10 +10230,7 @@ msgstr ""
 
 #: ../../source/developer/INSTALLER.md:37
 #: ../../source/developer/INSTALLER.md:43
-#: ../../source/developer/INSTALLER.md:49
-#: ../../source/developer/INSTALLER.md:54
-#: ../../source/developer/INSTALLER.md:59
-#: ../../source/developer/INSTALLER.md:70
+#: ../../source/developer/INSTALLER.md:50
 msgid "Extract Zip"
 msgstr ""
 
@@ -10275,162 +10272,90 @@ msgstr ""
 #: ../../source/developer/INSTALLER.md:46
 msgid ""
 "Copy `Plugins\\nsProcessW.dll` to `C:\\Program Files "
-"(x86)\\NSIS\\Plugins\\x86-unicode\\`"
+"(x86)\\NSIS\\Plugins\\x86-unicode\\` and rename it to `nsProcess.dll`"
 msgstr ""
 
 #: ../../source/developer/INSTALLER.md:48
-msgid ""
-"[InetC Plug-in for Nullsoft](http://nsis.sourceforge.net/Inetc_plug-in) -"
-" 1.0"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:50
-msgid ""
-"Copy `Plugin\\x86-ansi\\InetC.dll` to `C:\\Program Files "
-"(x86)\\NSIS\\Plugins\\x86-ansi\\`"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:51
-msgid ""
-"Copy `Plugin\\x86-unicode\\InetC.dll` to `C:\\Program Files "
-"(x86)\\NSIS\\Plugins\\x86-unicode\\`"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:53
-msgid ""
-"[NSISpcre Plug-in for Nullsoft](http://nsis.sourceforge.net"
-"/NSISpcre_plug-in) - 1.0"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:55
-msgid "Copy `NSISpre.nsh` to `C:\\Program Files (x86)\\NSIS\\Include\\`"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:56
-msgid "Copy `NSISpre.dll` to `C:\\Program Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:58
-msgid ""
-"[nsisSlideshow Plug-in for "
-"Nullsoft](<http://wiz0u.free.fr/prog/nsisSlideshow/>) - 1.7"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:60
-msgid ""
-"Copy `bin\\nsisSlideshow.dll` to `C:\\Program Files "
-"(x86)\\NSIS\\Plugins\\x86-ansi\\`"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:61
-msgid ""
-"Copy `bin\\nsisSlideshowW.dll` to `C:\\Program Files "
-"(x86)\\NSIS\\Plugins\\x86-unicode\\`"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:63
-msgid ""
-"[Nsisunz plug-in for Nullsoft](http://nsis.sourceforge.net/Nsisunz_plug-"
-"in)"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:64
-msgid "Download both Zips and unzip"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:65
-msgid ""
-"Copy `nsisunz\\Release\\nsisunz.dll` to `C:\\Program Files "
-"(x86)\\NSIS\\Plugins\\x86-ansi\\`"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:66
-msgid ""
-"Copy `NSISunzU\\Plugin unicode\\nsisunz.dll` to `C:\\Program Files "
-"(x86)\\NSIS\\Plugins\\x86-unicode\\`"
-msgstr ""
-
-#: ../../source/developer/INSTALLER.md:68
 msgid "[ApplicationID plug-in for Nullsoft]() - 1.0"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:69
+#: ../../source/developer/INSTALLER.md:49
 msgid ""
 "Download [`Pre-built DLLs`](<https://github.com/connectiblutz/NSIS-"
 "ApplicationID/releases/download/1.1/NSIS-ApplicationID.zip>)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:71
+#: ../../source/developer/INSTALLER.md:51
 msgid ""
 "Copy `Release\\ApplicationID.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:72
+#: ../../source/developer/INSTALLER.md:52
 msgid ""
 "Copy `ReleaseUnicode\\ApplicationID.dll` to `C:\\Program Files "
 "(x86)\\NSIS\\Plugins\\x86-unicode\\`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:74
+#: ../../source/developer/INSTALLER.md:54
 msgid "[Node.JS and NPM](https://nodejs.org/en/download/)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:75
+#: ../../source/developer/INSTALLER.md:55
 msgid "Install version 10.15.0 LTS (or greater)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:76
+#: ../../source/developer/INSTALLER.md:56
 msgid "Code Signing (optional)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:78
+#: ../../source/developer/INSTALLER.md:58
 msgid ""
 "For code signing to work, you will need to set the `HF_PFX_FILE` and "
 "`HF_PFX_PASSPHRASE` environment variables to be present during CMake "
 "runtime and globally as we proceed to package the installer."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:80
+#: ../../source/developer/INSTALLER.md:60
 msgid "Creating the Installer"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:82
+#: ../../source/developer/INSTALLER.md:62
 msgid "Perform a clean cmake from a new terminal."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:83
+#: ../../source/developer/INSTALLER.md:63
 msgid ""
 "Open the `overte.sln` solution with elevated (administrator) permissions "
 "on Visual Studio and select the **Release** configuration."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:84
+#: ../../source/developer/INSTALLER.md:64
 msgid "Build the solution."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:85
+#: ../../source/developer/INSTALLER.md:65
 msgid ""
 "Build `packaged-server-console` (found under **Server Console**) This "
 "will add 2 folders to `build\\server-console\\` - `server-console-"
 "win32-x64` and `x64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:88
+#: ../../source/developer/INSTALLER.md:68
 msgid ""
 "Build CMakeTargets->PACKAGE The installer is now available in "
 "`build\\_CPack_Packages\\win64\\NSIS`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:91
+#: ../../source/developer/INSTALLER.md:71
 msgid "Create an MSIX Package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:93
+#: ../../source/developer/INSTALLER.md:73
 msgid "Get the 'MSIX Packaging Tool' from the Windows Store."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:94
+#: ../../source/developer/INSTALLER.md:74
 msgid ""
 "Run the process to create a new MSIX package from an existing .exe or "
 ".msi installer. This process will allow you to install Overte with the "
@@ -10439,11 +10364,11 @@ msgid ""
 " to avoid doing anything else on your computer during this process."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:95
+#: ../../source/developer/INSTALLER.md:75
 msgid "Be sure to select no shortcuts and install only the Overte Interface."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:96
+#: ../../source/developer/INSTALLER.md:76
 msgid ""
 "When asked for \"Entry\" points, select only the Interface entry and not "
 "the uninstaller. This is because the MSIX package is uninstalled by "
@@ -10453,14 +10378,14 @@ msgid ""
 " Windows Store."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:97
+#: ../../source/developer/INSTALLER.md:77
 msgid ""
 "Once completed, you can sign the package with this application or with "
 "other tools such as 'MSIX Hero'. It must be signed with a local "
 "certificate to test, and with a proper certificate to distribute."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:98
+#: ../../source/developer/INSTALLER.md:78
 msgid ""
 "If uploading to the Windows Store, you will have to ensure all your "
 "manifest info including publisher information matches what is registered "
@@ -10468,12 +10393,12 @@ msgid ""
 "errors and the expected values when validating it."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:100
+#: ../../source/developer/INSTALLER.md:80
 #: ../../source/developer/build/BUILD_OSX.md:74 ../../source/home.rst:48
 msgid "FAQ"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:102
+#: ../../source/developer/INSTALLER.md:82
 msgid ""
 "**Problem:** Failure to open a file. ```File: failed opening file "
 "\"\\FOLDERSHARE\\XYZSRelease\\...\\Credits.rtf\" Error in script "
@@ -10481,87 +10406,87 @@ msgid ""
 " on line 77 -- aborting creation process```"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:103
+#: ../../source/developer/INSTALLER.md:83
 msgid ""
 "**Cause:** The complete path (current directory + relative path) has to "
 "be < 260 characters to any of the relevant files."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:104
+#: ../../source/developer/INSTALLER.md:84
 msgid ""
 "**Solution:** Move your build and packaging folder as high up in the "
 "drive as possible to prevent an overage."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:106
+#: ../../source/developer/INSTALLER.md:86
 msgid "MacOS"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:108
+#: ../../source/developer/INSTALLER.md:88
 msgid ""
 "Ensure you have all the prerequisites fulfilled from the [MacOS Build "
 "Guide](build/BUILD_OSX.md)."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:109
+#: ../../source/developer/INSTALLER.md:89
 msgid "Perform a clean CMake in your build folder. e.g."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:113
+#: ../../source/developer/INSTALLER.md:93
 msgid "Pick a method to build and package your release."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:115
+#: ../../source/developer/INSTALLER.md:95
 msgid "Option A: Use Xcode GUI"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:117
+#: ../../source/developer/INSTALLER.md:97
 msgid "Perform a Release build of ALL_BUILD"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:118
+#: ../../source/developer/INSTALLER.md:98
 msgid ""
 "Perform a Release build of `packaged-server-console`   This will add a "
 "folder to `build\\server-console\\` -   Sandbox-darwin-x64"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:121
+#: ../../source/developer/INSTALLER.md:101
 msgid ""
 "Perform a Release build of `package`    Installer is now available in "
 "`build/_CPack_Packages/Darwin/DragNDrop`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:124
+#: ../../source/developer/INSTALLER.md:104
 msgid "Option B: Use Terminal"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:126
+#: ../../source/developer/INSTALLER.md:106
 msgid "Navigate to your build folder with your terminal."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:127
+#: ../../source/developer/INSTALLER.md:107
 msgid ""
 "`make -j4`, you can change the number to match the number of threads you "
 "would like to use."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:128
+#: ../../source/developer/INSTALLER.md:108
 msgid "`make package` to create the package."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:130
+#: ../../source/developer/INSTALLER.md:110
 msgid "Linux"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:132
+#: ../../source/developer/INSTALLER.md:112
 msgid "Client"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:134
+#: ../../source/developer/INSTALLER.md:114
 msgid "AppImage"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:136
+#: ../../source/developer/INSTALLER.md:116
 msgid ""
 "Overte Interface AppImages are built using "
 "[linuxdeploy](https://github.com/linuxdeploy/linuxdeploy) and "
@@ -10572,120 +10497,120 @@ msgid ""
 "updates."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:139
+#: ../../source/developer/INSTALLER.md:119
 msgid "Prepare build environment Follow the [Linux build guide](BUILD_LINUX.md)."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:142
+#: ../../source/developer/INSTALLER.md:122
 msgid "Configure Interface"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:147
+#: ../../source/developer/INSTALLER.md:127
 msgid "Create AppImage"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:151
+#: ../../source/developer/INSTALLER.md:131
 msgid ""
 "CPack will build target ALL instead of INTERFACE, which is a limitation "
 "of CPack."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:153
+#: ../../source/developer/INSTALLER.md:133
 msgid ""
 "Lint with [appimagelint](https://github.com/TheAssassin/appimagelint) to "
 "check which Linux distributions the AppImage will likely be able to run "
 "on."
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:155
+#: ../../source/developer/INSTALLER.md:135
 msgid "**Alternatively**, you can also create the AppImage manually:"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:157
+#: ../../source/developer/INSTALLER.md:137
 msgid "Build Interface"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:162
+#: ../../source/developer/INSTALLER.md:142
 msgid ""
 "Copy `build/interface/plugins` `build/interface/scripts` "
 "`build/interface/resources.rcc` and `build/interface/resources` into "
 "`build/AppDir/usr/bin/`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:164
+#: ../../source/developer/INSTALLER.md:144
 msgid ""
 "Copy `interface/org.overte.interface.appdata.xml` to "
 "`build/AppDir/usr/share/metainfo/org.overte.interface.appdata.xml`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:166
+#: ../../source/developer/INSTALLER.md:146
 msgid ""
 "Run linuxdeploy (make sure that linuxdeploy-plugin-qt is next to "
 "linuxdeploy and that both are executable)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:174
+#: ../../source/developer/INSTALLER.md:154
 #: ../../source/developer/build/BUILD_LINUX.md:130
 msgid "Server"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:176
+#: ../../source/developer/INSTALLER.md:156
 msgid "Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:178
+#: ../../source/developer/INSTALLER.md:158
 msgid "Building Overte server Debian packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:180
+#: ../../source/developer/INSTALLER.md:160
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/deb_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/deb_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:182
+#: ../../source/developer/INSTALLER.md:162
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-debian-11-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:185
-#: ../../source/developer/INSTALLER.md:214
+#: ../../source/developer/INSTALLER.md:165
+#: ../../source/developer/INSTALLER.md:194
 msgid "Prepare build environment"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:194
-#: ../../source/developer/INSTALLER.md:223
+#: ../../source/developer/INSTALLER.md:174
+#: ../../source/developer/INSTALLER.md:203
 msgid "Build"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:199
+#: ../../source/developer/INSTALLER.md:179
 msgid "Create Debian package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:205
+#: ../../source/developer/INSTALLER.md:185
 msgid "RPM package"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:207
+#: ../../source/developer/INSTALLER.md:187
 msgid "Building Overte server RPM packages using Docker"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:209
+#: ../../source/developer/INSTALLER.md:189
 msgid ""
 "Build Docker image as instructed in the relevant Dockerfile in [tools/ci-"
 "scripts/rpm_package/](https://github.com/overte-"
 "org/overte/tree/master/tools/ci-scripts/rpm_package)"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:211
+#: ../../source/developer/INSTALLER.md:191
 msgid ""
 "Create/Start container  Example: `docker run -v $(pwd)/../../..:/overte "
 "-it overte/overte-server-build:0.1.2-fedora-36-amd64`"
 msgstr ""
 
-#: ../../source/developer/INSTALLER.md:228
+#: ../../source/developer/INSTALLER.md:208
 msgid "Create RPM package"
 msgstr ""
 
@@ -13716,7 +13641,7 @@ msgid "``CTRL`` + ``V``"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:146
-msgid "Toggle Local/World Mode"
+msgid "Toggle Local/World Transform"
 msgstr ""
 
 #: ../../source/explore/get-started/desktop.rst:152
@@ -32983,5 +32908,92 @@ msgstr ""
 #~ " domain server, or ``journalctl -u "
 #~ "vircadia-assignment-client@default.service`` for "
 #~ "the assignment client."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Nullsoft Scriptable Install "
+#~ "System](http://nsis.sourceforge.net/Download) - 3.04 "
+#~ "Install using defaults (will install to"
+#~ " `C:\\Program Files (x86)\\NSIS`)"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[NSIS Plugins](https://build-deps.overte.org/conan"
+#~ "/nsis-overte-plugins/NSIS-hifi-plugins-1.0.zip)"
+#~ " Copy contents to `C:\\Program Files "
+#~ "(x86)\\NSIS\\`. **Alternatively**, install the "
+#~ "following:"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy `Plugins\\nsProcessW.dll` to `C:\\Program "
+#~ "Files (x86)\\NSIS\\Plugins\\x86-unicode\\`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[InetC Plug-in for "
+#~ "Nullsoft](http://nsis.sourceforge.net/Inetc_plug-in) - "
+#~ "1.0"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy `Plugin\\x86-ansi\\InetC.dll` to `C:\\Program"
+#~ " Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy `Plugin\\x86-unicode\\InetC.dll` to "
+#~ "`C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[NSISpcre Plug-in for "
+#~ "Nullsoft](http://nsis.sourceforge.net/NSISpcre_plug-in) -"
+#~ " 1.0"
+#~ msgstr ""
+
+#~ msgid "Copy `NSISpre.nsh` to `C:\\Program Files (x86)\\NSIS\\Include\\`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy `NSISpre.dll` to `C:\\Program Files "
+#~ "(x86)\\NSIS\\Plugins\\x86-ansi\\`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[nsisSlideshow Plug-in for "
+#~ "Nullsoft](<http://wiz0u.free.fr/prog/nsisSlideshow/>) - "
+#~ "1.7"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy `bin\\nsisSlideshow.dll` to `C:\\Program "
+#~ "Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy `bin\\nsisSlideshowW.dll` to `C:\\Program "
+#~ "Files (x86)\\NSIS\\Plugins\\x86-unicode\\`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "[Nsisunz plug-in for "
+#~ "Nullsoft](http://nsis.sourceforge.net/Nsisunz_plug-in)"
+#~ msgstr ""
+
+#~ msgid "Download both Zips and unzip"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy `nsisunz\\Release\\nsisunz.dll` to `C:\\Program"
+#~ " Files (x86)\\NSIS\\Plugins\\x86-ansi\\`"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Copy `NSISunzU\\Plugin unicode\\nsisunz.dll` to "
+#~ "`C:\\Program Files (x86)\\NSIS\\Plugins\\x86-unicode\\`"
+#~ msgstr ""
+
+#~ msgid "Toggle Local/World Mode"
 #~ msgstr ""
 
