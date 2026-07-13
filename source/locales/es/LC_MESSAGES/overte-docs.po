@@ -11,15 +11,16 @@ msgstr ""
 "Project-Id-Version: Vircadia Docs\n"
 "Report-Msgid-Bugs-To: julian.gro@overte.org\n"
 "POT-Creation-Date: 2026-06-30 17:34+0000\n"
-"PO-Revision-Date: 2025-09-27 09:04+0000\n"
+"PO-Revision-Date: 2026-07-14 07:34+0000\n"
 "Last-Translator: Paulo César Coronado <paulocoronado@gmail.com>\n"
+"Language-Team: Spanish <https://weblate.overte.org/projects/overte/overte-"
+"documentation/es/>\n"
 "Language: es\n"
-"Language-Team: Spanish <https://weblate.overte.org/projects/overte"
-"/overte-documentation/es/>\n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Weblate 5.17.1\n"
 "Generated-By: Babel 2.18.0\n"
 
 #: ../../source/contribute.rst:5
@@ -44,16 +45,17 @@ msgstr ""
 "componen Overte."
 
 #: ../../source/contribute.rst:11
+#, fuzzy
 msgid ""
 "If you run into any questions or seek some advice, have a look at our "
 "`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ |Matrix| which "
 "is also bridged to our `Discord server <https://discord.gg/4YuQvc8K2f>`_ "
 "|Discord| if you prefer that."
 msgstr ""
-"Si tiene alguna pregunta o necesita algún consejo, eche un vistazo a "
-"nuestro `Matrix Space <https://matrix.to/#/#overte:overte.org>`_ Matrix "
-"que también está conectado a nuestro `Servidor Discord "
-"<https://discord.gg/4YuQvc8K2f>`_ Discord si lo prefiere."
+"Si tiene alguna pregunta o necesita algún consejo, eche un vistazo a nuestro "
+"`Matrix Space <https://matrix.to/#/#overte:overte.org>`_ Matrix que también "
+"está conectado a nuestro `Servidor Discord <https://discord.gg/4YuQvc8K2f>`_ "
+"Discord si lo prefiere."
 
 #: ../../source/shared.rst:16
 msgid "Matrix"
@@ -20785,6 +20787,7 @@ msgstr ""
 "conversaciones como lo harías en la vida real."
 
 #: ../../source/home.rst:14
+#, fuzzy
 msgid ""
 ":doc:`Get Overte <explore/get-started/install>` |Download| or take a look"
 " at our :doc:`Gallery <explore/gallery>` |Gallery|."
@@ -20798,14 +20801,15 @@ msgid "Download"
 msgstr "Descargar"
 
 #: ../../source/home.rst:17
+#, fuzzy
 msgid ""
 "In addition to the documentation, you can join the discussion on the "
 "Overte `Matrix <https://matrix.to/#/#overte:overte.org>`_ |Matrix| or "
 "`Discord server <https://discord.gg/4YuQvc8K2f>`_ |Discord|."
 msgstr ""
-"Además de la documentación, puedes unirte a la discusión en Overte "
-"`Matrix <https://matrix.to/#/#overte:overte.org>`_, o en nuestro "
-"`Servidor de Discord <https://discord.gg/4YuQvc8K2f>`_."
+"Además de la documentación, puedes unirte a la discusión en Overte `Matrix "
+"<https://matrix.to/#/#overte:overte.org>`_, o en nuestro `Servidor de "
+"Discord <https://discord.gg/4YuQvc8K2f>`_."
 
 #: ../../source/home.rst:20
 msgid "This documentation is authored in `English <https://docs.overte.org/>`_."
@@ -20871,6 +20875,7 @@ msgid "ko_trans"
 msgstr ""
 
 #: ../../source/home.rst:30
+#, fuzzy
 msgid "`Čeština <https://docs.overte.org/cs/latest/>`_ |cs_trans|"
 msgstr "`Español <https://docs.overte.org/es/>`_ es_trans"
 
@@ -44330,4 +44335,3 @@ msgstr "UUID de sesión en Metaverso"
 
 #~ msgid "Toggle Local/World Mode"
 #~ msgstr ""
-
