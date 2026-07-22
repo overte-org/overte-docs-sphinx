@@ -24,6 +24,10 @@
 /********* General styles **********/
 /***********************************/
 
+html {
+    font-size: 105%;  /* Slightly increase font size of everything. */
+}
+
 body {
     font-family: 'FiraSans Regular', 'Montserrat Regular', arial, sans-serif;
 	font-weight: 400;
@@ -50,7 +54,8 @@ video {
 
 .wy-nav-content {
     background: #FFFFFF;
-    max-width: 100%;
+    max-width: 1600px;  /* Limit content width. */
+    margin: auto;  /* Center content without sidebar. */
     padding: 2rem 6rem;
 }
 
@@ -396,7 +401,7 @@ pre span {
 .rst-content code.literal {
     font-family: Consolas;
     color: #000000;
-
+    white-space: nowrap;  /* Don't wrap on inline code. */
 }
 
 /***********************************/
